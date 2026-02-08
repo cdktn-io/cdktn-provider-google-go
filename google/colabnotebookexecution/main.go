@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package colabnotebookexecution
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecution",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecution",
 		reflect.TypeOf((*ColabNotebookExecution)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionConfig",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionConfig",
 		reflect.TypeOf((*ColabNotebookExecutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionDataformRepositorySource",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionDataformRepositorySource",
 		reflect.TypeOf((*ColabNotebookExecutionDataformRepositorySource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionDataformRepositorySourceOutputReference",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionDataformRepositorySourceOutputReference",
 		reflect.TypeOf((*ColabNotebookExecutionDataformRepositorySourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commitSha", GoGetter: "CommitSha"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionDirectNotebookSource",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionDirectNotebookSource",
 		reflect.TypeOf((*ColabNotebookExecutionDirectNotebookSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionDirectNotebookSourceOutputReference",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionDirectNotebookSourceOutputReference",
 		reflect.TypeOf((*ColabNotebookExecutionDirectNotebookSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionGcsNotebookSource",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionGcsNotebookSource",
 		reflect.TypeOf((*ColabNotebookExecutionGcsNotebookSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionGcsNotebookSourceOutputReference",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionGcsNotebookSourceOutputReference",
 		reflect.TypeOf((*ColabNotebookExecutionGcsNotebookSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionTimeouts",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionTimeouts",
 		reflect.TypeOf((*ColabNotebookExecutionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabNotebookExecution.ColabNotebookExecutionTimeoutsOutputReference",
+		"@cdktn/provider-google.colabNotebookExecution.ColabNotebookExecutionTimeoutsOutputReference",
 		reflect.TypeOf((*ColabNotebookExecutionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

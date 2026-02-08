@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglegkehubmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datagooglegkehubmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglegkehubmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGoogleGkeHubMembershipAuthorityList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataGoogleGkeHubMembershipAuthorityList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleGkeHubMembership.DataGoogleGkeHubMembershipAuthorityList",
+		"@cdktn/provider-google.dataGoogleGkeHubMembership.DataGoogleGkeHubMembershipAuthorityList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGoogleGkeHubMembershipAuthorityList_Override(d DataGoogleGkeHubMembe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleGkeHubMembership.DataGoogleGkeHubMembershipAuthorityList",
+		"@cdktn/provider-google.dataGoogleGkeHubMembership.DataGoogleGkeHubMembershipAuthorityList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

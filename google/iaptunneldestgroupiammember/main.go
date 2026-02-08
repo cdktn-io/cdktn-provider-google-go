@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iaptunneldestgroupiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMember",
+		"@cdktn/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMember",
 		reflect.TypeOf((*IapTunnelDestGroupIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMemberCondition",
+		"@cdktn/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMemberCondition",
 		reflect.TypeOf((*IapTunnelDestGroupIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMemberConditionOutputReference",
+		"@cdktn/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMemberConditionOutputReference",
 		reflect.TypeOf((*IapTunnelDestGroupIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMemberConfig",
+		"@cdktn/provider-google.iapTunnelDestGroupIamMember.IapTunnelDestGroupIamMemberConfig",
 		reflect.TypeOf((*IapTunnelDestGroupIamMemberConfig)(nil)).Elem(),
 	)
 }

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containeranalysisnoteiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/containeranalysisnoteiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containeranalysisnoteiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewContainerAnalysisNoteIamBindingConditionOutputReference(terraformResourc
 	j := jsiiProxy_ContainerAnalysisNoteIamBindingConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAnalysisNoteIamBinding.ContainerAnalysisNoteIamBindingConditionOutputReference",
+		"@cdktn/provider-google.containerAnalysisNoteIamBinding.ContainerAnalysisNoteIamBindingConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewContainerAnalysisNoteIamBindingConditionOutputReference_Override(c Conta
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAnalysisNoteIamBinding.ContainerAnalysisNoteIamBindingConditionOutputReference",
+		"@cdktn/provider-google.containerAnalysisNoteIamBinding.ContainerAnalysisNoteIamBindingConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

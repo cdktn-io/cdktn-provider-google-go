@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudassetfolderfeed
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeed",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeed",
 		reflect.TypeOf((*CloudAssetFolderFeed)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedCondition",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedCondition",
 		reflect.TypeOf((*CloudAssetFolderFeedCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConditionOutputReference",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConditionOutputReference",
 		reflect.TypeOf((*CloudAssetFolderFeedConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,15 +141,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConfig",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConfig",
 		reflect.TypeOf((*CloudAssetFolderFeedConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfig",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfig",
 		reflect.TypeOf((*CloudAssetFolderFeedFeedOutputConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfigOutputReference",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfigOutputReference",
 		reflect.TypeOf((*CloudAssetFolderFeedFeedOutputConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfigPubsubDestination",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfigPubsubDestination",
 		reflect.TypeOf((*CloudAssetFolderFeedFeedOutputConfigPubsubDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfigPubsubDestinationOutputReference",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedFeedOutputConfigPubsubDestinationOutputReference",
 		reflect.TypeOf((*CloudAssetFolderFeedFeedOutputConfigPubsubDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedTimeouts",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedTimeouts",
 		reflect.TypeOf((*CloudAssetFolderFeedTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedTimeoutsOutputReference",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedTimeoutsOutputReference",
 		reflect.TypeOf((*CloudAssetFolderFeedTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

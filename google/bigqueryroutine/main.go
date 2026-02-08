@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigqueryroutine
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutine",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutine",
 		reflect.TypeOf((*BigqueryRoutine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,11 +119,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineArguments",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineArguments",
 		reflect.TypeOf((*BigqueryRoutineArguments)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineArgumentsList",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineArgumentsList",
 		reflect.TypeOf((*BigqueryRoutineArgumentsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -145,7 +145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineArgumentsOutputReference",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineArgumentsOutputReference",
 		reflect.TypeOf((*BigqueryRoutineArgumentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "argumentKind", GoGetter: "ArgumentKind"},
@@ -189,15 +189,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineConfig",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineConfig",
 		reflect.TypeOf((*BigqueryRoutineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineRemoteFunctionOptions",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineRemoteFunctionOptions",
 		reflect.TypeOf((*BigqueryRoutineRemoteFunctionOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineRemoteFunctionOptionsOutputReference",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineRemoteFunctionOptionsOutputReference",
 		reflect.TypeOf((*BigqueryRoutineRemoteFunctionOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineSparkOptions",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineSparkOptions",
 		reflect.TypeOf((*BigqueryRoutineSparkOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineSparkOptionsOutputReference",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineSparkOptionsOutputReference",
 		reflect.TypeOf((*BigqueryRoutineSparkOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveUris", GoGetter: "ArchiveUris"},
@@ -307,11 +307,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineTimeouts",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineTimeouts",
 		reflect.TypeOf((*BigqueryRoutineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryRoutine.BigqueryRoutineTimeoutsOutputReference",
+		"@cdktn/provider-google.bigqueryRoutine.BigqueryRoutineTimeoutsOutputReference",
 		reflect.TypeOf((*BigqueryRoutineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

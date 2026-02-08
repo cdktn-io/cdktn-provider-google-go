@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageobjectaccesscontrol
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControl",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControl",
 		reflect.TypeOf((*StorageObjectAccessControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControlConfig",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControlConfig",
 		reflect.TypeOf((*StorageObjectAccessControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControlProjectTeam",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControlProjectTeam",
 		reflect.TypeOf((*StorageObjectAccessControlProjectTeam)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControlProjectTeamList",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControlProjectTeamList",
 		reflect.TypeOf((*StorageObjectAccessControlProjectTeamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControlProjectTeamOutputReference",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControlProjectTeamOutputReference",
 		reflect.TypeOf((*StorageObjectAccessControlProjectTeamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControlTimeouts",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControlTimeouts",
 		reflect.TypeOf((*StorageObjectAccessControlTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageObjectAccessControl.StorageObjectAccessControlTimeoutsOutputReference",
+		"@cdktn/provider-google.storageObjectAccessControl.StorageObjectAccessControlTimeoutsOutputReference",
 		reflect.TypeOf((*StorageObjectAccessControlTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

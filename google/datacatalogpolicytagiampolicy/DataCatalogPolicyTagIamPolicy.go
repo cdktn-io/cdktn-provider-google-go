@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datacatalogpolicytagiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datacatalogpolicytagiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datacatalogpolicytagiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -377,7 +377,7 @@ func NewDataCatalogPolicyTagIamPolicy(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataCatalogPolicyTagIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,7 +390,7 @@ func NewDataCatalogPolicyTagIamPolicy_Override(d DataCatalogPolicyTagIamPolicy, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -507,7 +507,7 @@ func DataCatalogPolicyTagIamPolicy_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func DataCatalogPolicyTagIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataCatalogPolicyTagIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func DataCatalogPolicyTagIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataCatalogPolicyTagIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
+		"@cdktn/provider-google.dataCatalogPolicyTagIamPolicy.DataCatalogPolicyTagIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

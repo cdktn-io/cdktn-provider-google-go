@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package billingprojectinfo
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingProjectInfo.BillingProjectInfo",
+		"@cdktn/provider-google.billingProjectInfo.BillingProjectInfo",
 		reflect.TypeOf((*BillingProjectInfo)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingProjectInfo.BillingProjectInfoConfig",
+		"@cdktn/provider-google.billingProjectInfo.BillingProjectInfoConfig",
 		reflect.TypeOf((*BillingProjectInfoConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingProjectInfo.BillingProjectInfoTimeouts",
+		"@cdktn/provider-google.billingProjectInfo.BillingProjectInfoTimeouts",
 		reflect.TypeOf((*BillingProjectInfoTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingProjectInfo.BillingProjectInfoTimeoutsOutputReference",
+		"@cdktn/provider-google.billingProjectInfo.BillingProjectInfoTimeoutsOutputReference",
 		reflect.TypeOf((*BillingProjectInfoTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

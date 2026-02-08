@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudbuildv2connectioniampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamPolicy.Cloudbuildv2ConnectionIamPolicy",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamPolicy.Cloudbuildv2ConnectionIamPolicy",
 		reflect.TypeOf((*Cloudbuildv2ConnectionIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamPolicy.Cloudbuildv2ConnectionIamPolicyConfig",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamPolicy.Cloudbuildv2ConnectionIamPolicyConfig",
 		reflect.TypeOf((*Cloudbuildv2ConnectionIamPolicyConfig)(nil)).Elem(),
 	)
 }

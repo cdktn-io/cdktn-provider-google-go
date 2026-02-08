@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeesharedflow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflow",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflow",
 		reflect.TypeOf((*ApigeeSharedflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflowConfig",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflowConfig",
 		reflect.TypeOf((*ApigeeSharedflowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflowMetaData",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflowMetaData",
 		reflect.TypeOf((*ApigeeSharedflowMetaData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflowMetaDataList",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflowMetaDataList",
 		reflect.TypeOf((*ApigeeSharedflowMetaDataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflowMetaDataOutputReference",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflowMetaDataOutputReference",
 		reflect.TypeOf((*ApigeeSharedflowMetaDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflowTimeouts",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflowTimeouts",
 		reflect.TypeOf((*ApigeeSharedflowTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeSharedflow.ApigeeSharedflowTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeSharedflow.ApigeeSharedflowTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeSharedflowTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxintent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		reflect.TypeOf((*DialogflowCxIntent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentConfig",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentConfig",
 		reflect.TypeOf((*DialogflowCxIntentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentParameters",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentParameters",
 		reflect.TypeOf((*DialogflowCxIntentParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentParametersList",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentParametersList",
 		reflect.TypeOf((*DialogflowCxIntentParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentParametersOutputReference",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentParametersOutputReference",
 		reflect.TypeOf((*DialogflowCxIntentParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -179,11 +179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTimeouts",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTimeouts",
 		reflect.TypeOf((*DialogflowCxIntentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowCxIntentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrases",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrases",
 		reflect.TypeOf((*DialogflowCxIntentTrainingPhrases)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesList",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesList",
 		reflect.TypeOf((*DialogflowCxIntentTrainingPhrasesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesOutputReference",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesOutputReference",
 		reflect.TypeOf((*DialogflowCxIntentTrainingPhrasesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -289,11 +289,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesParts",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesParts",
 		reflect.TypeOf((*DialogflowCxIntentTrainingPhrasesParts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesPartsList",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesPartsList",
 		reflect.TypeOf((*DialogflowCxIntentTrainingPhrasesPartsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -315,7 +315,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesPartsOutputReference",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntentTrainingPhrasesPartsOutputReference",
 		reflect.TypeOf((*DialogflowCxIntentTrainingPhrasesPartsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

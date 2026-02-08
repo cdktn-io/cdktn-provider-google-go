@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigqueryjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -566,7 +566,7 @@ func NewBigqueryJobQueryOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_BigqueryJobQueryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJobQueryOutputReference",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJobQueryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -578,7 +578,7 @@ func NewBigqueryJobQueryOutputReference_Override(b BigqueryJobQueryOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJobQueryOutputReference",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJobQueryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

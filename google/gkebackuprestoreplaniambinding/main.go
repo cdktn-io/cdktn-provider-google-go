@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkebackuprestoreplaniambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBinding",
+		"@cdktn/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBinding",
 		reflect.TypeOf((*GkeBackupRestorePlanIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBindingCondition",
+		"@cdktn/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBindingCondition",
 		reflect.TypeOf((*GkeBackupRestorePlanIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBindingConditionOutputReference",
+		"@cdktn/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBindingConditionOutputReference",
 		reflect.TypeOf((*GkeBackupRestorePlanIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBindingConfig",
+		"@cdktn/provider-google.gkeBackupRestorePlanIamBinding.GkeBackupRestorePlanIamBindingConfig",
 		reflect.TypeOf((*GkeBackupRestorePlanIamBindingConfig)(nil)).Elem(),
 	)
 }

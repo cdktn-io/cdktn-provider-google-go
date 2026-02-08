@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsresponsepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dnsresponsepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dnsresponsepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewDnsResponsePolicyGkeClustersOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DnsResponsePolicyGkeClustersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersOutputReference",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewDnsResponsePolicyGkeClustersOutputReference_Override(d DnsResponsePolicy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersOutputReference",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

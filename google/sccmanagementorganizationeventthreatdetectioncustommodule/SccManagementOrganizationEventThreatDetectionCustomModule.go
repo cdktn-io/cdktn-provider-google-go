@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccmanagementorganizationeventthreatdetectioncustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/sccmanagementorganizationeventthreatdetectioncustommodule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccmanagementorganizationeventthreatdetectioncustommodule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -520,7 +520,7 @@ func NewSccManagementOrganizationEventThreatDetectionCustomModule(scope construc
 	j := jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -533,7 +533,7 @@ func NewSccManagementOrganizationEventThreatDetectionCustomModule_Override(s Scc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -694,7 +694,7 @@ func SccManagementOrganizationEventThreatDetectionCustomModule_GenerateConfigFor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -729,7 +729,7 @@ func SccManagementOrganizationEventThreatDetectionCustomModule_IsConstruct(x int
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func SccManagementOrganizationEventThreatDetectionCustomModule_IsTerraformElemen
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func SccManagementOrganizationEventThreatDetectionCustomModule_IsTerraformResour
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func SccManagementOrganizationEventThreatDetectionCustomModule_TfResourceType() 
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccManagementOrganizationEventThreatDetectionCustomModule.SccManagementOrganizationEventThreatDetectionCustomModule",
 		"tfResourceType",
 		&returns,
 	)

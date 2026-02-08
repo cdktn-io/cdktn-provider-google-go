@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregiondiskiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBinding",
+		"@cdktn/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBinding",
 		reflect.TypeOf((*ComputeRegionDiskIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBindingCondition",
+		"@cdktn/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBindingCondition",
 		reflect.TypeOf((*ComputeRegionDiskIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBindingConditionOutputReference",
+		"@cdktn/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBindingConditionOutputReference",
 		reflect.TypeOf((*ComputeRegionDiskIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBindingConfig",
+		"@cdktn/provider-google.computeRegionDiskIamBinding.ComputeRegionDiskIamBindingConfig",
 		reflect.TypeOf((*ComputeRegionDiskIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxgenerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dialogflowcxgenerator/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxgenerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDialogflowCxGeneratorLlmModelSettingsOutputReference(terraformResource c
 	j := jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettingsOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDialogflowCxGeneratorLlmModelSettingsOutputReference_Override(d Dialogfl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettingsOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

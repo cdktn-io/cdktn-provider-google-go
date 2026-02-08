@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringnotificationchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		reflect.TypeOf((*MonitoringNotificationChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelConfig",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelConfig",
 		reflect.TypeOf((*MonitoringNotificationChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelSensitiveLabels",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelSensitiveLabels",
 		reflect.TypeOf((*MonitoringNotificationChannelSensitiveLabels)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelSensitiveLabelsOutputReference",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelSensitiveLabelsOutputReference",
 		reflect.TypeOf((*MonitoringNotificationChannelSensitiveLabelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authToken", GoGetter: "AuthToken"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelTimeouts",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelTimeouts",
 		reflect.TypeOf((*MonitoringNotificationChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannelTimeoutsOutputReference",
 		reflect.TypeOf((*MonitoringNotificationChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

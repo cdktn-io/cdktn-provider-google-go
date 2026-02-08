@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcemanagerlien
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		reflect.TypeOf((*ResourceManagerLien)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLienConfig",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLienConfig",
 		reflect.TypeOf((*ResourceManagerLienConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLienTimeouts",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLienTimeouts",
 		reflect.TypeOf((*ResourceManagerLienTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLienTimeoutsOutputReference",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLienTimeoutsOutputReference",
 		reflect.TypeOf((*ResourceManagerLienTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

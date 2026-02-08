@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventarcmessagebus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/eventarcmessagebus/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/eventarcmessagebus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewEventarcMessageBusLoggingConfigOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_EventarcMessageBusLoggingConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.eventarcMessageBus.EventarcMessageBusLoggingConfigOutputReference",
+		"@cdktn/provider-google.eventarcMessageBus.EventarcMessageBusLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewEventarcMessageBusLoggingConfigOutputReference_Override(e EventarcMessag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.eventarcMessageBus.EventarcMessageBusLoggingConfigOutputReference",
+		"@cdktn/provider-google.eventarcMessageBus.EventarcMessageBusLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

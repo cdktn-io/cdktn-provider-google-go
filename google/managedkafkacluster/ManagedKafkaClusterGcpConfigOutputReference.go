@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/managedkafkacluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/managedkafkacluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewManagedKafkaClusterGcpConfigOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_ManagedKafkaClusterGcpConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.managedKafkaCluster.ManagedKafkaClusterGcpConfigOutputReference",
+		"@cdktn/provider-google.managedKafkaCluster.ManagedKafkaClusterGcpConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewManagedKafkaClusterGcpConfigOutputReference_Override(m ManagedKafkaClust
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.managedKafkaCluster.ManagedKafkaClusterGcpConfigOutputReference",
+		"@cdktn/provider-google.managedKafkaCluster.ManagedKafkaClusterGcpConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

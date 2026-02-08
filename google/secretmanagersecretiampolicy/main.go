@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package secretmanagersecretiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secretManagerSecretIamPolicy.SecretManagerSecretIamPolicy",
+		"@cdktn/provider-google.secretManagerSecretIamPolicy.SecretManagerSecretIamPolicy",
 		reflect.TypeOf((*SecretManagerSecretIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secretManagerSecretIamPolicy.SecretManagerSecretIamPolicyConfig",
+		"@cdktn/provider-google.secretManagerSecretIamPolicy.SecretManagerSecretIamPolicyConfig",
 		reflect.TypeOf((*SecretManagerSecretIamPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectIamBinding.ProjectIamBinding",
+		"@cdktn/provider-google.projectIamBinding.ProjectIamBinding",
 		reflect.TypeOf((*ProjectIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectIamBinding.ProjectIamBindingCondition",
+		"@cdktn/provider-google.projectIamBinding.ProjectIamBindingCondition",
 		reflect.TypeOf((*ProjectIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectIamBinding.ProjectIamBindingConditionOutputReference",
+		"@cdktn/provider-google.projectIamBinding.ProjectIamBindingConditionOutputReference",
 		reflect.TypeOf((*ProjectIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectIamBinding.ProjectIamBindingConfig",
+		"@cdktn/provider-google.projectIamBinding.ProjectIamBindingConfig",
 		reflect.TypeOf((*ProjectIamBindingConfig)(nil)).Elem(),
 	)
 }

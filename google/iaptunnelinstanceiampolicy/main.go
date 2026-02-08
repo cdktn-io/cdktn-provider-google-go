@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iaptunnelinstanceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapTunnelInstanceIamPolicy.IapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google.iapTunnelInstanceIamPolicy.IapTunnelInstanceIamPolicy",
 		reflect.TypeOf((*IapTunnelInstanceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapTunnelInstanceIamPolicy.IapTunnelInstanceIamPolicyConfig",
+		"@cdktn/provider-google.iapTunnelInstanceIamPolicy.IapTunnelInstanceIamPolicyConfig",
 		reflect.TypeOf((*IapTunnelInstanceIamPolicyConfig)(nil)).Elem(),
 	)
 }

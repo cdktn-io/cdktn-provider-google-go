@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocsessiontemplate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplate",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplate",
 		reflect.TypeOf((*DataprocSessionTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,23 +103,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateConfig",
 		reflect.TypeOf((*DataprocSessionTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfig",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfig",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigExecutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,7 +154,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfigOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigExecutionConfigOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigExecutionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationConfig", GoGetter: "AuthenticationConfig"},
@@ -211,7 +211,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -251,11 +251,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfig",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigPeripheralsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,11 +294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -333,11 +333,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateJupyterSession",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateJupyterSession",
 		reflect.TypeOf((*DataprocSessionTemplateJupyterSession)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateJupyterSessionOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateJupyterSessionOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateJupyterSessionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -375,11 +375,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateRuntimeConfig",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateRuntimeConfig",
 		reflect.TypeOf((*DataprocSessionTemplateRuntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateRuntimeConfigOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateRuntimeConfigOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateRuntimeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -421,11 +421,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateSparkConnectSession",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateSparkConnectSession",
 		reflect.TypeOf((*DataprocSessionTemplateSparkConnectSession)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateSparkConnectSessionOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateSparkConnectSessionOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateSparkConnectSessionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -457,11 +457,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateTimeouts",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateTimeouts",
 		reflect.TypeOf((*DataprocSessionTemplateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocSessionTemplate.DataprocSessionTemplateTimeoutsOutputReference",
+		"@cdktn/provider-google.dataprocSessionTemplate.DataprocSessionTemplateTimeoutsOutputReference",
 		reflect.TypeOf((*DataprocSessionTemplateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

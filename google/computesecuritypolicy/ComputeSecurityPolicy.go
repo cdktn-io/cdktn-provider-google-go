@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computesecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computesecuritypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -557,7 +557,7 @@ func NewComputeSecurityPolicy(scope constructs.Construct, id *string, config *Co
 	j := jsiiProxy_ComputeSecurityPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -570,7 +570,7 @@ func NewComputeSecurityPolicy_Override(c ComputeSecurityPolicy, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -709,7 +709,7 @@ func ComputeSecurityPolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -744,7 +744,7 @@ func ComputeSecurityPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -763,7 +763,7 @@ func ComputeSecurityPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func ComputeSecurityPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func ComputeSecurityPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
+		"@cdktn/provider-google.computeSecurityPolicy.ComputeSecurityPolicy",
 		"tfResourceType",
 		&returns,
 	)

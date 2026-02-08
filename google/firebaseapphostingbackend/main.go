@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaseapphostingbackend
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackend",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackend",
 		reflect.TypeOf((*FirebaseAppHostingBackend)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,11 +110,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendCodebase",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendCodebase",
 		reflect.TypeOf((*FirebaseAppHostingBackendCodebase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendCodebaseOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendCodebaseOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBackendCodebaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,15 +151,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendConfig",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendConfig",
 		reflect.TypeOf((*FirebaseAppHostingBackendConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResources",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResources",
 		reflect.TypeOf((*FirebaseAppHostingBackendManagedResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesList",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesList",
 		reflect.TypeOf((*FirebaseAppHostingBackendManagedResourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -180,7 +180,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBackendManagedResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesRunService",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesRunService",
 		reflect.TypeOf((*FirebaseAppHostingBackendManagedResourcesRunService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesRunServiceList",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesRunServiceList",
 		reflect.TypeOf((*FirebaseAppHostingBackendManagedResourcesRunServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesRunServiceOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendManagedResourcesRunServiceOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBackendManagedResourcesRunServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendTimeouts",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendTimeouts",
 		reflect.TypeOf((*FirebaseAppHostingBackendTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendTimeoutsOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBackend.FirebaseAppHostingBackendTimeoutsOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBackendTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

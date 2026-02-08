@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package accesscontextmanageringresspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/accesscontextmanageringresspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanageringresspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewAccessContextManagerIngressPolicy(scope constructs.Construct, id *string
 	j := jsiiProxy_AccessContextManagerIngressPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewAccessContextManagerIngressPolicy_Override(a AccessContextManagerIngress
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -531,7 +531,7 @@ func AccessContextManagerIngressPolicy_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func AccessContextManagerIngressPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func AccessContextManagerIngressPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func AccessContextManagerIngressPolicy_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func AccessContextManagerIngressPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
+		"@cdktn/provider-google.accessContextManagerIngressPolicy.AccessContextManagerIngressPolicy",
 		"tfResourceType",
 		&returns,
 	)

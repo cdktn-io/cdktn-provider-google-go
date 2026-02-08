@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqluser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/sqluser/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sqluser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewSqlUserSqlServerUserDetailsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_SqlUserSqlServerUserDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sqlUser.SqlUserSqlServerUserDetailsOutputReference",
+		"@cdktn/provider-google.sqlUser.SqlUserSqlServerUserDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewSqlUserSqlServerUserDetailsOutputReference_Override(s SqlUserSqlServerUs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sqlUser.SqlUserSqlServerUserDetailsOutputReference",
+		"@cdktn/provider-google.sqlUser.SqlUserSqlServerUserDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

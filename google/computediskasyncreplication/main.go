@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computediskasyncreplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplication",
+		"@cdktn/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplication",
 		reflect.TypeOf((*ComputeDiskAsyncReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationConfig",
+		"@cdktn/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationConfig",
 		reflect.TypeOf((*ComputeDiskAsyncReplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationSecondaryDisk",
+		"@cdktn/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationSecondaryDisk",
 		reflect.TypeOf((*ComputeDiskAsyncReplicationSecondaryDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationSecondaryDiskOutputReference",
+		"@cdktn/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationSecondaryDiskOutputReference",
 		reflect.TypeOf((*ComputeDiskAsyncReplicationSecondaryDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -118,11 +118,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationTimeouts",
+		"@cdktn/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationTimeouts",
 		reflect.TypeOf((*ComputeDiskAsyncReplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationTimeoutsOutputReference",
+		"@cdktn/provider-google.computeDiskAsyncReplication.ComputeDiskAsyncReplicationTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeDiskAsyncReplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

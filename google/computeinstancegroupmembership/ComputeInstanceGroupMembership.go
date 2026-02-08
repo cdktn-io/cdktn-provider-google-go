@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstancegroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computeinstancegroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinstancegroupmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -438,7 +438,7 @@ func NewComputeInstanceGroupMembership(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ComputeInstanceGroupMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -451,7 +451,7 @@ func NewComputeInstanceGroupMembership_Override(c ComputeInstanceGroupMembership
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -590,7 +590,7 @@ func ComputeInstanceGroupMembership_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func ComputeInstanceGroupMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func ComputeInstanceGroupMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func ComputeInstanceGroupMembership_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func ComputeInstanceGroupMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		"tfResourceType",
 		&returns,
 	)

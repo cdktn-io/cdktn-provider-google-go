@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleprojectancestry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datagoogleprojectancestry/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagoogleprojectancestry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataGoogleProjectAncestryAncestorsOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataGoogleProjectAncestryAncestorsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsOutputReference",
+		"@cdktn/provider-google.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataGoogleProjectAncestryAncestorsOutputReference_Override(d DataGoogleP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsOutputReference",
+		"@cdktn/provider-google.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

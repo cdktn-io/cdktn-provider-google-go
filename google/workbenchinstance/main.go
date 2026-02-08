@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workbenchinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstance",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstance",
 		reflect.TypeOf((*WorkbenchInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -112,19 +112,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceConfig",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceConfig",
 		reflect.TypeOf((*WorkbenchInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetup",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetup",
 		reflect.TypeOf((*WorkbenchInstanceGceSetup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupAcceleratorConfigs",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupAcceleratorConfigs",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupAcceleratorConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupAcceleratorConfigsList",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupAcceleratorConfigsList",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupAcceleratorConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupAcceleratorConfigsOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupAcceleratorConfigsOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupAcceleratorConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupBootDisk",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupBootDisk",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupBootDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupBootDiskOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupBootDiskOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupBootDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -232,11 +232,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupConfidentialInstanceConfig",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupConfidentialInstanceConfig",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupConfidentialInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupConfidentialInstanceConfigOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupConfidentialInstanceConfigOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupConfidentialInstanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupContainerImage",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupContainerImage",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupContainerImage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupContainerImageOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupContainerImageOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupContainerImageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -312,11 +312,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupDataDisks",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupDataDisks",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupDataDisks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupDataDisksOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupDataDisksOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupDataDisksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -360,15 +360,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfaces",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfaces",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupNetworkInterfaces)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigs",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigs",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigsList",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigsList",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -390,7 +390,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigsOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigsOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupNetworkInterfacesAccessConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -424,7 +424,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesList",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesList",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupNetworkInterfacesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -446,7 +446,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupNetworkInterfacesOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupNetworkInterfacesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessConfigs", GoGetter: "AccessConfigs"},
@@ -491,7 +491,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorConfigs", GoGetter: "AcceleratorConfigs"},
@@ -578,11 +578,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupReservationAffinity",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupReservationAffinity",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupReservationAffinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupReservationAffinityOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupReservationAffinityOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupReservationAffinityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -623,11 +623,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupServiceAccounts",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupServiceAccounts",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupServiceAccounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupServiceAccountsList",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupServiceAccountsList",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupServiceAccountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -649,7 +649,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupServiceAccountsOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupServiceAccountsOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupServiceAccountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -685,11 +685,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupShieldedInstanceConfig",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupShieldedInstanceConfig",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupShieldedInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupShieldedInstanceConfigOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupShieldedInstanceConfigOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupShieldedInstanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -730,11 +730,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupVmImage",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupVmImage",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupVmImage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceGceSetupVmImageOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceGceSetupVmImageOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceGceSetupVmImageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -775,11 +775,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceHealthInfo",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceHealthInfo",
 		reflect.TypeOf((*WorkbenchInstanceHealthInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceHealthInfoList",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceHealthInfoList",
 		reflect.TypeOf((*WorkbenchInstanceHealthInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -800,7 +800,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceHealthInfoOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceHealthInfoOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceHealthInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -832,11 +832,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceTimeouts",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceTimeouts",
 		reflect.TypeOf((*WorkbenchInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -877,11 +877,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceUpgradeHistory",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceUpgradeHistory",
 		reflect.TypeOf((*WorkbenchInstanceUpgradeHistory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceUpgradeHistoryList",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceUpgradeHistoryList",
 		reflect.TypeOf((*WorkbenchInstanceUpgradeHistoryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -902,7 +902,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.workbenchInstance.WorkbenchInstanceUpgradeHistoryOutputReference",
+		"@cdktn/provider-google.workbenchInstance.WorkbenchInstanceUpgradeHistoryOutputReference",
 		reflect.TypeOf((*WorkbenchInstanceUpgradeHistoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},

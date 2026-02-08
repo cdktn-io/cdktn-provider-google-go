@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computestoragepool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePool",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePool",
 		reflect.TypeOf((*ComputeStoragePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolConfig",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolConfig",
 		reflect.TypeOf((*ComputeStoragePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolResourceStatus",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolResourceStatus",
 		reflect.TypeOf((*ComputeStoragePoolResourceStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolResourceStatusList",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolResourceStatusList",
 		reflect.TypeOf((*ComputeStoragePoolResourceStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolResourceStatusOutputReference",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolResourceStatusOutputReference",
 		reflect.TypeOf((*ComputeStoragePoolResourceStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolStatus",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolStatus",
 		reflect.TypeOf((*ComputeStoragePoolStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolStatusList",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolStatusList",
 		reflect.TypeOf((*ComputeStoragePoolStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -203,7 +203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolStatusOutputReference",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolStatusOutputReference",
 		reflect.TypeOf((*ComputeStoragePoolStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolTimeouts",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolTimeouts",
 		reflect.TypeOf((*ComputeStoragePoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePool.ComputeStoragePoolTimeoutsOutputReference",
+		"@cdktn/provider-google.computeStoragePool.ComputeStoragePoolTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeStoragePoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

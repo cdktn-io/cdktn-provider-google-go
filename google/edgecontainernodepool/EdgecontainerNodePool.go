@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package edgecontainernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/edgecontainernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/edgecontainernodepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -634,7 +634,7 @@ func NewEdgecontainerNodePool(scope constructs.Construct, id *string, config *Ed
 	j := jsiiProxy_EdgecontainerNodePool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -647,7 +647,7 @@ func NewEdgecontainerNodePool_Override(e EdgecontainerNodePool, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -830,7 +830,7 @@ func EdgecontainerNodePool_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -865,7 +865,7 @@ func EdgecontainerNodePool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func EdgecontainerNodePool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -903,7 +903,7 @@ func EdgecontainerNodePool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func EdgecontainerNodePool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		"tfResourceType",
 		&returns,
 	)

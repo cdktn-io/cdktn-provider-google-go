@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccv2foldernotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/sccv2foldernotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccv2foldernotificationconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -506,7 +506,7 @@ func NewSccV2FolderNotificationConfig(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SccV2FolderNotificationConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -519,7 +519,7 @@ func NewSccV2FolderNotificationConfig_Override(s SccV2FolderNotificationConfig, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -669,7 +669,7 @@ func SccV2FolderNotificationConfig_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func SccV2FolderNotificationConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func SccV2FolderNotificationConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func SccV2FolderNotificationConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func SccV2FolderNotificationConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
+		"@cdktn/provider-google.sccV2FolderNotificationConfig.SccV2FolderNotificationConfig",
 		"tfResourceType",
 		&returns,
 	)

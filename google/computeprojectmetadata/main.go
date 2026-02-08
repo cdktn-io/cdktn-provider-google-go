@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeprojectmetadata
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeProjectMetadata.ComputeProjectMetadata",
+		"@cdktn/provider-google.computeProjectMetadata.ComputeProjectMetadata",
 		reflect.TypeOf((*ComputeProjectMetadata)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeProjectMetadata.ComputeProjectMetadataConfig",
+		"@cdktn/provider-google.computeProjectMetadata.ComputeProjectMetadataConfig",
 		reflect.TypeOf((*ComputeProjectMetadataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeProjectMetadata.ComputeProjectMetadataTimeouts",
+		"@cdktn/provider-google.computeProjectMetadata.ComputeProjectMetadataTimeouts",
 		reflect.TypeOf((*ComputeProjectMetadataTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeProjectMetadata.ComputeProjectMetadataTimeoutsOutputReference",
+		"@cdktn/provider-google.computeProjectMetadata.ComputeProjectMetadataTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeProjectMetadataTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

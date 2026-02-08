@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingorganizationsink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/loggingorganizationsink/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/loggingorganizationsink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -568,7 +568,7 @@ func NewLoggingOrganizationSink(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_LoggingOrganizationSink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -581,7 +581,7 @@ func NewLoggingOrganizationSink_Override(l LoggingOrganizationSink, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -764,7 +764,7 @@ func LoggingOrganizationSink_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func LoggingOrganizationSink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func LoggingOrganizationSink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func LoggingOrganizationSink_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func LoggingOrganizationSink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
+		"@cdktn/provider-google.loggingOrganizationSink.LoggingOrganizationSink",
 		"tfResourceType",
 		&returns,
 	)

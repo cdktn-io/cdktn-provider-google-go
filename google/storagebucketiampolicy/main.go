@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagebucketiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketIamPolicy.StorageBucketIamPolicy",
+		"@cdktn/provider-google.storageBucketIamPolicy.StorageBucketIamPolicy",
 		reflect.TypeOf((*StorageBucketIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketIamPolicy.StorageBucketIamPolicyConfig",
+		"@cdktn/provider-google.storageBucketIamPolicy.StorageBucketIamPolicyConfig",
 		reflect.TypeOf((*StorageBucketIamPolicyConfig)(nil)).Elem(),
 	)
 }

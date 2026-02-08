@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigtabletable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigtabletable/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigtabletable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewBigtableTableTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_BigtableTableTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigtableTable.BigtableTableTimeoutsOutputReference",
+		"@cdktn/provider-google.bigtableTable.BigtableTableTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewBigtableTableTimeoutsOutputReference_Override(b BigtableTableTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigtableTable.BigtableTableTimeoutsOutputReference",
+		"@cdktn/provider-google.bigtableTable.BigtableTableTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

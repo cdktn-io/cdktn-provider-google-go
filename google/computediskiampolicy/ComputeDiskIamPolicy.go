@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computediskiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computediskiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computediskiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewComputeDiskIamPolicy(scope constructs.Construct, id *string, config *Com
 	j := jsiiProxy_ComputeDiskIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewComputeDiskIamPolicy_Override(c ComputeDiskIamPolicy, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -577,7 +577,7 @@ func ComputeDiskIamPolicy_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func ComputeDiskIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func ComputeDiskIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func ComputeDiskIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func ComputeDiskIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

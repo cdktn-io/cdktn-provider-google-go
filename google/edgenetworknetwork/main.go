@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package edgenetworknetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgenetworkNetwork.EdgenetworkNetwork",
+		"@cdktn/provider-google.edgenetworkNetwork.EdgenetworkNetwork",
 		reflect.TypeOf((*EdgenetworkNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgenetworkNetwork.EdgenetworkNetworkConfig",
+		"@cdktn/provider-google.edgenetworkNetwork.EdgenetworkNetworkConfig",
 		reflect.TypeOf((*EdgenetworkNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgenetworkNetwork.EdgenetworkNetworkTimeouts",
+		"@cdktn/provider-google.edgenetworkNetwork.EdgenetworkNetworkTimeouts",
 		reflect.TypeOf((*EdgenetworkNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgenetworkNetwork.EdgenetworkNetworkTimeoutsOutputReference",
+		"@cdktn/provider-google.edgenetworkNetwork.EdgenetworkNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*EdgenetworkNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

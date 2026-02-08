@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkconnectivitygroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityGroup.NetworkConnectivityGroup",
+		"@cdktn/provider-google.networkConnectivityGroup.NetworkConnectivityGroup",
 		reflect.TypeOf((*NetworkConnectivityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityGroup.NetworkConnectivityGroupAutoAccept",
+		"@cdktn/provider-google.networkConnectivityGroup.NetworkConnectivityGroupAutoAccept",
 		reflect.TypeOf((*NetworkConnectivityGroupAutoAccept)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityGroup.NetworkConnectivityGroupAutoAcceptOutputReference",
+		"@cdktn/provider-google.networkConnectivityGroup.NetworkConnectivityGroupAutoAcceptOutputReference",
 		reflect.TypeOf((*NetworkConnectivityGroupAutoAcceptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoAcceptProjects", GoGetter: "AutoAcceptProjects"},
@@ -132,15 +132,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityGroup.NetworkConnectivityGroupConfig",
+		"@cdktn/provider-google.networkConnectivityGroup.NetworkConnectivityGroupConfig",
 		reflect.TypeOf((*NetworkConnectivityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityGroup.NetworkConnectivityGroupTimeouts",
+		"@cdktn/provider-google.networkConnectivityGroup.NetworkConnectivityGroupTimeouts",
 		reflect.TypeOf((*NetworkConnectivityGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityGroup.NetworkConnectivityGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.networkConnectivityGroup.NetworkConnectivityGroupTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkConnectivityGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

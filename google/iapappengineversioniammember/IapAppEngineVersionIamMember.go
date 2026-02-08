@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapappengineversioniammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iapappengineversioniammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iapappengineversioniammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -494,7 +494,7 @@ func NewIapAppEngineVersionIamMember(scope constructs.Construct, id *string, con
 	j := jsiiProxy_IapAppEngineVersionIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewIapAppEngineVersionIamMember_Override(i IapAppEngineVersionIamMember, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -668,7 +668,7 @@ func IapAppEngineVersionIamMember_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func IapAppEngineVersionIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func IapAppEngineVersionIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func IapAppEngineVersionIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func IapAppEngineVersionIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
+		"@cdktn/provider-google.iapAppEngineVersionIamMember.IapAppEngineVersionIamMember",
 		"tfResourceType",
 		&returns,
 	)

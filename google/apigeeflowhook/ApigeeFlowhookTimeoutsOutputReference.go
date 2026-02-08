@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeflowhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apigeeflowhook/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeflowhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewApigeeFlowhookTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_ApigeeFlowhookTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhookTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhookTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewApigeeFlowhookTimeoutsOutputReference_Override(a ApigeeFlowhookTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhookTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhookTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

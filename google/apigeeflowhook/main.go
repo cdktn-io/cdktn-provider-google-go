@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeflowhook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		reflect.TypeOf((*ApigeeFlowhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhookConfig",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhookConfig",
 		reflect.TypeOf((*ApigeeFlowhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhookTimeouts",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhookTimeouts",
 		reflect.TypeOf((*ApigeeFlowhookTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhookTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhookTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeFlowhookTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

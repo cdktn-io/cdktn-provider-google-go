@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringdashboard
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringDashboard.MonitoringDashboard",
+		"@cdktn/provider-google.monitoringDashboard.MonitoringDashboard",
 		reflect.TypeOf((*MonitoringDashboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringDashboard.MonitoringDashboardConfig",
+		"@cdktn/provider-google.monitoringDashboard.MonitoringDashboardConfig",
 		reflect.TypeOf((*MonitoringDashboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringDashboard.MonitoringDashboardTimeouts",
+		"@cdktn/provider-google.monitoringDashboard.MonitoringDashboardTimeouts",
 		reflect.TypeOf((*MonitoringDashboardTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringDashboard.MonitoringDashboardTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringDashboard.MonitoringDashboardTimeoutsOutputReference",
 		reflect.TypeOf((*MonitoringDashboardTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappkmsconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		reflect.TypeOf((*NetappKmsconfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfigConfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfigConfig",
 		reflect.TypeOf((*NetappKmsconfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfigTimeouts",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfigTimeouts",
 		reflect.TypeOf((*NetappKmsconfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfigTimeoutsOutputReference",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfigTimeoutsOutputReference",
 		reflect.TypeOf((*NetappKmsconfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

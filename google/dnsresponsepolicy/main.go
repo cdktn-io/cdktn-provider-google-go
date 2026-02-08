@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsresponsepolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicy",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicy",
 		reflect.TypeOf((*DnsResponsePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyConfig",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyConfig",
 		reflect.TypeOf((*DnsResponsePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClusters",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClusters",
 		reflect.TypeOf((*DnsResponsePolicyGkeClusters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersList",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersList",
 		reflect.TypeOf((*DnsResponsePolicyGkeClustersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersOutputReference",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyGkeClustersOutputReference",
 		reflect.TypeOf((*DnsResponsePolicyGkeClustersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyNetworks",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyNetworks",
 		reflect.TypeOf((*DnsResponsePolicyNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyNetworksList",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyNetworksList",
 		reflect.TypeOf((*DnsResponsePolicyNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyNetworksOutputReference",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyNetworksOutputReference",
 		reflect.TypeOf((*DnsResponsePolicyNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyTimeouts",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyTimeouts",
 		reflect.TypeOf((*DnsResponsePolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dnsResponsePolicy.DnsResponsePolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.dnsResponsePolicy.DnsResponsePolicyTimeoutsOutputReference",
 		reflect.TypeOf((*DnsResponsePolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

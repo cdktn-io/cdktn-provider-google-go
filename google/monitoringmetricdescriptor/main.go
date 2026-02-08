@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringmetricdescriptor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptor",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptor",
 		reflect.TypeOf((*MonitoringMetricDescriptor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorConfig",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorConfig",
 		reflect.TypeOf((*MonitoringMetricDescriptorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorLabels",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorLabels",
 		reflect.TypeOf((*MonitoringMetricDescriptorLabels)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorLabelsList",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorLabelsList",
 		reflect.TypeOf((*MonitoringMetricDescriptorLabelsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorLabelsOutputReference",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorLabelsOutputReference",
 		reflect.TypeOf((*MonitoringMetricDescriptorLabelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorMetadata",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorMetadata",
 		reflect.TypeOf((*MonitoringMetricDescriptorMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorMetadataOutputReference",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorMetadataOutputReference",
 		reflect.TypeOf((*MonitoringMetricDescriptorMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorTimeouts",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorTimeouts",
 		reflect.TypeOf((*MonitoringMetricDescriptorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringMetricDescriptor.MonitoringMetricDescriptorTimeoutsOutputReference",
 		reflect.TypeOf((*MonitoringMetricDescriptorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

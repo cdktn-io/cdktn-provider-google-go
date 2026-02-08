@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computebackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computebackendservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -423,7 +423,7 @@ func NewComputeBackendServiceCdnPolicyOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeBackendService.ComputeBackendServiceCdnPolicyOutputReference",
+		"@cdktn/provider-google.computeBackendService.ComputeBackendServiceCdnPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -435,7 +435,7 @@ func NewComputeBackendServiceCdnPolicyOutputReference_Override(c ComputeBackendS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeBackendService.ComputeBackendServiceCdnPolicyOutputReference",
+		"@cdktn/provider-google.computeBackendService.ComputeBackendServiceCdnPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

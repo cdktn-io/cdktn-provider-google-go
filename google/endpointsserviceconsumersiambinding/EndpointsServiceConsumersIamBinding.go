@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package endpointsserviceconsumersiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/endpointsserviceconsumersiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/endpointsserviceconsumersiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewEndpointsServiceConsumersIamBinding(scope constructs.Construct, id *stri
 	j := jsiiProxy_EndpointsServiceConsumersIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -460,7 +460,7 @@ func NewEndpointsServiceConsumersIamBinding_Override(e EndpointsServiceConsumers
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -599,7 +599,7 @@ func EndpointsServiceConsumersIamBinding_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func EndpointsServiceConsumersIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func EndpointsServiceConsumersIamBinding_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func EndpointsServiceConsumersIamBinding_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func EndpointsServiceConsumersIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		"tfResourceType",
 		&returns,
 	)

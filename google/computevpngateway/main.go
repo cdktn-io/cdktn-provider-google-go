@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computevpngateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeVpnGateway.ComputeVpnGateway",
+		"@cdktn/provider-google.computeVpnGateway.ComputeVpnGateway",
 		reflect.TypeOf((*ComputeVpnGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeVpnGateway.ComputeVpnGatewayConfig",
+		"@cdktn/provider-google.computeVpnGateway.ComputeVpnGatewayConfig",
 		reflect.TypeOf((*ComputeVpnGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeVpnGateway.ComputeVpnGatewayTimeouts",
+		"@cdktn/provider-google.computeVpnGateway.ComputeVpnGatewayTimeouts",
 		reflect.TypeOf((*ComputeVpnGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeVpnGateway.ComputeVpnGatewayTimeoutsOutputReference",
+		"@cdktn/provider-google.computeVpnGateway.ComputeVpnGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeVpnGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

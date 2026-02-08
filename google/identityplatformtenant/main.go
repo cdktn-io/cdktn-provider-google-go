@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package identityplatformtenant
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenant",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenant",
 		reflect.TypeOf((*IdentityPlatformTenant)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,11 +89,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantClient",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantClient",
 		reflect.TypeOf((*IdentityPlatformTenantClient)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantClientOutputReference",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantClientOutputReference",
 		reflect.TypeOf((*IdentityPlatformTenantClientOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantClientPermissions",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantClientPermissions",
 		reflect.TypeOf((*IdentityPlatformTenantClientPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantClientPermissionsOutputReference",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantClientPermissionsOutputReference",
 		reflect.TypeOf((*IdentityPlatformTenantClientPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,15 +171,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantConfig",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantConfig",
 		reflect.TypeOf((*IdentityPlatformTenantConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantTimeouts",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantTimeouts",
 		reflect.TypeOf((*IdentityPlatformTenantTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformTenant.IdentityPlatformTenantTimeoutsOutputReference",
+		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenantTimeoutsOutputReference",
 		reflect.TypeOf((*IdentityPlatformTenantTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

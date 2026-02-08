@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securesourcemanagerrepositoryiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/securesourcemanagerrepositoryiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/securesourcemanagerrepositoryiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewSecureSourceManagerRepositoryIamMember(scope constructs.Construct, id *s
 	j := jsiiProxy_SecureSourceManagerRepositoryIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewSecureSourceManagerRepositoryIamMember_Override(s SecureSourceManagerRep
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -635,7 +635,7 @@ func SecureSourceManagerRepositoryIamMember_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func SecureSourceManagerRepositoryIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func SecureSourceManagerRepositoryIamMember_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func SecureSourceManagerRepositoryIamMember_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func SecureSourceManagerRepositoryIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
+		"@cdktn/provider-google.secureSourceManagerRepositoryIamMember.SecureSourceManagerRepositoryIamMember",
 		"tfResourceType",
 		&returns,
 	)

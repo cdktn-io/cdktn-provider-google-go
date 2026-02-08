@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouter.ComputeRouter",
+		"@cdktn/provider-google.computeRouter.ComputeRouter",
 		reflect.TypeOf((*ComputeRouter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouter.ComputeRouterBgp",
+		"@cdktn/provider-google.computeRouter.ComputeRouterBgp",
 		reflect.TypeOf((*ComputeRouterBgp)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouter.ComputeRouterBgpAdvertisedIpRanges",
+		"@cdktn/provider-google.computeRouter.ComputeRouterBgpAdvertisedIpRanges",
 		reflect.TypeOf((*ComputeRouterBgpAdvertisedIpRanges)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouter.ComputeRouterBgpAdvertisedIpRangesList",
+		"@cdktn/provider-google.computeRouter.ComputeRouterBgpAdvertisedIpRangesList",
 		reflect.TypeOf((*ComputeRouterBgpAdvertisedIpRangesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouter.ComputeRouterBgpAdvertisedIpRangesOutputReference",
+		"@cdktn/provider-google.computeRouter.ComputeRouterBgpAdvertisedIpRangesOutputReference",
 		reflect.TypeOf((*ComputeRouterBgpAdvertisedIpRangesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,7 +163,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouter.ComputeRouterBgpOutputReference",
+		"@cdktn/provider-google.computeRouter.ComputeRouterBgpOutputReference",
 		reflect.TypeOf((*ComputeRouterBgpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advertisedGroups", GoGetter: "AdvertisedGroups"},
@@ -213,15 +213,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouter.ComputeRouterConfig",
+		"@cdktn/provider-google.computeRouter.ComputeRouterConfig",
 		reflect.TypeOf((*ComputeRouterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouter.ComputeRouterMd5AuthenticationKeys",
+		"@cdktn/provider-google.computeRouter.ComputeRouterMd5AuthenticationKeys",
 		reflect.TypeOf((*ComputeRouterMd5AuthenticationKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouter.ComputeRouterMd5AuthenticationKeysOutputReference",
+		"@cdktn/provider-google.computeRouter.ComputeRouterMd5AuthenticationKeysOutputReference",
 		reflect.TypeOf((*ComputeRouterMd5AuthenticationKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -257,11 +257,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouter.ComputeRouterTimeouts",
+		"@cdktn/provider-google.computeRouter.ComputeRouterTimeouts",
 		reflect.TypeOf((*ComputeRouterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouter.ComputeRouterTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRouter.ComputeRouterTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRouterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

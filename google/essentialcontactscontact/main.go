@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package essentialcontactscontact
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.essentialContactsContact.EssentialContactsContact",
+		"@cdktn/provider-google.essentialContactsContact.EssentialContactsContact",
 		reflect.TypeOf((*EssentialContactsContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.essentialContactsContact.EssentialContactsContactConfig",
+		"@cdktn/provider-google.essentialContactsContact.EssentialContactsContactConfig",
 		reflect.TypeOf((*EssentialContactsContactConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.essentialContactsContact.EssentialContactsContactTimeouts",
+		"@cdktn/provider-google.essentialContactsContact.EssentialContactsContactTimeouts",
 		reflect.TypeOf((*EssentialContactsContactTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.essentialContactsContact.EssentialContactsContactTimeoutsOutputReference",
+		"@cdktn/provider-google.essentialContactsContact.EssentialContactsContactTimeoutsOutputReference",
 		reflect.TypeOf((*EssentialContactsContactTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

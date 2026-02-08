@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamdenypolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicy",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicy",
 		reflect.TypeOf((*IamDenyPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,23 +81,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyConfig",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyConfig",
 		reflect.TypeOf((*IamDenyPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRules",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRules",
 		reflect.TypeOf((*IamDenyPolicyRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRule",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRule",
 		reflect.TypeOf((*IamDenyPolicyRulesDenyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRuleDenialCondition",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRuleDenialCondition",
 		reflect.TypeOf((*IamDenyPolicyRulesDenyRuleDenialCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRuleDenialConditionOutputReference",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRuleDenialConditionOutputReference",
 		reflect.TypeOf((*IamDenyPolicyRulesDenyRuleDenialConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRuleOutputReference",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRulesDenyRuleOutputReference",
 		reflect.TypeOf((*IamDenyPolicyRulesDenyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRulesList",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRulesList",
 		reflect.TypeOf((*IamDenyPolicyRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -210,7 +210,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyRulesOutputReference",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyRulesOutputReference",
 		reflect.TypeOf((*IamDenyPolicyRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyTimeouts",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyTimeouts",
 		reflect.TypeOf((*IamDenyPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamDenyPolicy.IamDenyPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.iamDenyPolicy.IamDenyPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*IamDenyPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

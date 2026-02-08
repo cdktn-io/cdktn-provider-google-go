@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkconnectivityhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/networkconnectivityhub/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkconnectivityhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewNetworkConnectivityHubTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_NetworkConnectivityHubTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeoutsOutputReference",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewNetworkConnectivityHubTimeoutsOutputReference_Override(n NetworkConnecti
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeoutsOutputReference",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

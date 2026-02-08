@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestoreindex
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		reflect.TypeOf((*FirestoreIndex)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexConfig",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexConfig",
 		reflect.TypeOf((*FirestoreIndexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFields",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFields",
 		reflect.TypeOf((*FirestoreIndexFields)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFieldsList",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFieldsList",
 		reflect.TypeOf((*FirestoreIndexFieldsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFieldsOutputReference",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFieldsOutputReference",
 		reflect.TypeOf((*FirestoreIndexFieldsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arrayConfig", GoGetter: "ArrayConfig"},
@@ -169,15 +169,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfig",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfig",
 		reflect.TypeOf((*FirestoreIndexFieldsVectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfigFlat",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfigFlat",
 		reflect.TypeOf((*FirestoreIndexFieldsVectorConfigFlat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfigFlatOutputReference",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfigFlatOutputReference",
 		reflect.TypeOf((*FirestoreIndexFieldsVectorConfigFlatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfigOutputReference",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexFieldsVectorConfigOutputReference",
 		reflect.TypeOf((*FirestoreIndexFieldsVectorConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexTimeouts",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexTimeouts",
 		reflect.TypeOf((*FirestoreIndexTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndexTimeoutsOutputReference",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexTimeoutsOutputReference",
 		reflect.TypeOf((*FirestoreIndexTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

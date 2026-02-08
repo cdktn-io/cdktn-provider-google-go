@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexglossaryterm
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexGlossaryTerm.DataplexGlossaryTerm",
+		"@cdktn/provider-google.dataplexGlossaryTerm.DataplexGlossaryTerm",
 		reflect.TypeOf((*DataplexGlossaryTerm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexGlossaryTerm.DataplexGlossaryTermConfig",
+		"@cdktn/provider-google.dataplexGlossaryTerm.DataplexGlossaryTermConfig",
 		reflect.TypeOf((*DataplexGlossaryTermConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexGlossaryTerm.DataplexGlossaryTermTimeouts",
+		"@cdktn/provider-google.dataplexGlossaryTerm.DataplexGlossaryTermTimeouts",
 		reflect.TypeOf((*DataplexGlossaryTermTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexGlossaryTerm.DataplexGlossaryTermTimeoutsOutputReference",
+		"@cdktn/provider-google.dataplexGlossaryTerm.DataplexGlossaryTermTimeoutsOutputReference",
 		reflect.TypeOf((*DataplexGlossaryTermTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

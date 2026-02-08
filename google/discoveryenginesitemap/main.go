@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package discoveryenginesitemap
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemap",
+		"@cdktn/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemap",
 		reflect.TypeOf((*DiscoveryEngineSitemap)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemapConfig",
+		"@cdktn/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemapConfig",
 		reflect.TypeOf((*DiscoveryEngineSitemapConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemapTimeouts",
+		"@cdktn/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemapTimeouts",
 		reflect.TypeOf((*DiscoveryEngineSitemapTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemapTimeoutsOutputReference",
+		"@cdktn/provider-google.discoveryEngineSitemap.DiscoveryEngineSitemapTimeoutsOutputReference",
 		reflect.TypeOf((*DiscoveryEngineSitemapTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package colabruntimetemplateiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/colabruntimetemplateiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/colabruntimetemplateiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewColabRuntimeTemplateIamMember(scope constructs.Construct, id *string, co
 	j := jsiiProxy_ColabRuntimeTemplateIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewColabRuntimeTemplateIamMember_Override(c ColabRuntimeTemplateIamMember, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func ColabRuntimeTemplateIamMember_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func ColabRuntimeTemplateIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func ColabRuntimeTemplateIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func ColabRuntimeTemplateIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func ColabRuntimeTemplateIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		"tfResourceType",
 		&returns,
 	)

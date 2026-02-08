@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleiamrole
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleIamRole.DataGoogleIamRole",
+		"@cdktn/provider-google.dataGoogleIamRole.DataGoogleIamRole",
 		reflect.TypeOf((*DataGoogleIamRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleIamRole.DataGoogleIamRoleConfig",
+		"@cdktn/provider-google.dataGoogleIamRole.DataGoogleIamRoleConfig",
 		reflect.TypeOf((*DataGoogleIamRoleConfig)(nil)).Elem(),
 	)
 }

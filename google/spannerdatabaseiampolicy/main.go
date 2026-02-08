@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerdatabaseiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		reflect.TypeOf((*SpannerDatabaseIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicyConfig",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicyConfig",
 		reflect.TypeOf((*SpannerDatabaseIamPolicyConfig)(nil)).Elem(),
 	)
 }

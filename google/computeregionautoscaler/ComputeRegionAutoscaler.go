@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregionautoscaler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computeregionautoscaler/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeregionautoscaler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -507,7 +507,7 @@ func NewComputeRegionAutoscaler(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ComputeRegionAutoscaler{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -520,7 +520,7 @@ func NewComputeRegionAutoscaler_Override(c ComputeRegionAutoscaler, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -670,7 +670,7 @@ func ComputeRegionAutoscaler_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func ComputeRegionAutoscaler_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func ComputeRegionAutoscaler_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func ComputeRegionAutoscaler_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func ComputeRegionAutoscaler_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
+		"@cdktn/provider-google.computeRegionAutoscaler.ComputeRegionAutoscaler",
 		"tfResourceType",
 		&returns,
 	)

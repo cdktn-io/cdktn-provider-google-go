@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmsautokeyconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsAutokeyConfig.KmsAutokeyConfig",
+		"@cdktn/provider-google.kmsAutokeyConfig.KmsAutokeyConfig",
 		reflect.TypeOf((*KmsAutokeyConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsAutokeyConfig.KmsAutokeyConfigConfig",
+		"@cdktn/provider-google.kmsAutokeyConfig.KmsAutokeyConfigConfig",
 		reflect.TypeOf((*KmsAutokeyConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsAutokeyConfig.KmsAutokeyConfigTimeouts",
+		"@cdktn/provider-google.kmsAutokeyConfig.KmsAutokeyConfigTimeouts",
 		reflect.TypeOf((*KmsAutokeyConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsAutokeyConfig.KmsAutokeyConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.kmsAutokeyConfig.KmsAutokeyConfigTimeoutsOutputReference",
 		reflect.TypeOf((*KmsAutokeyConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupdrmanagementserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServer",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServer",
 		reflect.TypeOf((*BackupDrManagementServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerConfig",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerConfig",
 		reflect.TypeOf((*BackupDrManagementServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerManagementUri",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerManagementUri",
 		reflect.TypeOf((*BackupDrManagementServerManagementUri)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerManagementUriList",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerManagementUriList",
 		reflect.TypeOf((*BackupDrManagementServerManagementUriList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerManagementUriOutputReference",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerManagementUriOutputReference",
 		reflect.TypeOf((*BackupDrManagementServerManagementUriOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "api", GoGetter: "Api"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerNetworks",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerNetworks",
 		reflect.TypeOf((*BackupDrManagementServerNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerNetworksList",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerNetworksList",
 		reflect.TypeOf((*BackupDrManagementServerNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerNetworksOutputReference",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerNetworksOutputReference",
 		reflect.TypeOf((*BackupDrManagementServerNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerTimeouts",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerTimeouts",
 		reflect.TypeOf((*BackupDrManagementServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrManagementServer.BackupDrManagementServerTimeoutsOutputReference",
+		"@cdktn/provider-google.backupDrManagementServer.BackupDrManagementServerTimeoutsOutputReference",
 		reflect.TypeOf((*BackupDrManagementServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

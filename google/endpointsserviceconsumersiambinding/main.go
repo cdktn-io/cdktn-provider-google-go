@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package endpointsserviceconsumersiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBinding",
 		reflect.TypeOf((*EndpointsServiceConsumersIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,11 +79,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBindingCondition",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBindingCondition",
 		reflect.TypeOf((*EndpointsServiceConsumersIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBindingConditionOutputReference",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBindingConditionOutputReference",
 		reflect.TypeOf((*EndpointsServiceConsumersIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBindingConfig",
+		"@cdktn/provider-google.endpointsServiceConsumersIamBinding.EndpointsServiceConsumersIamBindingConfig",
 		reflect.TypeOf((*EndpointsServiceConsumersIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dnsrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dnsrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -485,7 +485,7 @@ func NewDnsRecordSet(scope constructs.Construct, id *string, config *DnsRecordSe
 	j := jsiiProxy_DnsRecordSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,7 +498,7 @@ func NewDnsRecordSet_Override(d DnsRecordSet, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -659,7 +659,7 @@ func DnsRecordSet_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func DnsRecordSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func DnsRecordSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func DnsRecordSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func DnsRecordSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dnsRecordSet.DnsRecordSet",
+		"@cdktn/provider-google.dnsRecordSet.DnsRecordSet",
 		"tfResourceType",
 		&returns,
 	)

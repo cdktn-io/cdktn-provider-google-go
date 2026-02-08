@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicesmesh
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesMesh.NetworkServicesMesh",
+		"@cdktn/provider-google.networkServicesMesh.NetworkServicesMesh",
 		reflect.TypeOf((*NetworkServicesMesh)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesMesh.NetworkServicesMeshConfig",
+		"@cdktn/provider-google.networkServicesMesh.NetworkServicesMeshConfig",
 		reflect.TypeOf((*NetworkServicesMeshConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesMesh.NetworkServicesMeshTimeouts",
+		"@cdktn/provider-google.networkServicesMesh.NetworkServicesMeshTimeouts",
 		reflect.TypeOf((*NetworkServicesMeshTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesMesh.NetworkServicesMeshTimeoutsOutputReference",
+		"@cdktn/provider-google.networkServicesMesh.NetworkServicesMeshTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkServicesMeshTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

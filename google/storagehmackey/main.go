@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagehmackey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageHmacKey.StorageHmacKey",
+		"@cdktn/provider-google.storageHmacKey.StorageHmacKey",
 		reflect.TypeOf((*StorageHmacKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessId", GoGetter: "AccessId"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageHmacKey.StorageHmacKeyConfig",
+		"@cdktn/provider-google.storageHmacKey.StorageHmacKeyConfig",
 		reflect.TypeOf((*StorageHmacKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageHmacKey.StorageHmacKeyTimeouts",
+		"@cdktn/provider-google.storageHmacKey.StorageHmacKeyTimeouts",
 		reflect.TypeOf((*StorageHmacKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageHmacKey.StorageHmacKeyTimeoutsOutputReference",
+		"@cdktn/provider-google.storageHmacKey.StorageHmacKeyTimeoutsOutputReference",
 		reflect.TypeOf((*StorageHmacKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

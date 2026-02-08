@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwareengineexternaladdress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddress",
+		"@cdktn/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddress",
 		reflect.TypeOf((*VmwareengineExternalAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddressConfig",
+		"@cdktn/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddressConfig",
 		reflect.TypeOf((*VmwareengineExternalAddressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddressTimeouts",
+		"@cdktn/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddressTimeouts",
 		reflect.TypeOf((*VmwareengineExternalAddressTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddressTimeoutsOutputReference",
+		"@cdktn/provider-google.vmwareengineExternalAddress.VmwareengineExternalAddressTimeoutsOutputReference",
 		reflect.TypeOf((*VmwareengineExternalAddressTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

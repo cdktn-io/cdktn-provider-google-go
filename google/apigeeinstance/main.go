@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeInstance.ApigeeInstance",
+		"@cdktn/provider-google.apigeeInstance.ApigeeInstance",
 		reflect.TypeOf((*ApigeeInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLoggingConfig", GoGetter: "AccessLoggingConfig"},
@@ -101,11 +101,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeInstance.ApigeeInstanceAccessLoggingConfig",
+		"@cdktn/provider-google.apigeeInstance.ApigeeInstanceAccessLoggingConfig",
 		reflect.TypeOf((*ApigeeInstanceAccessLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeInstance.ApigeeInstanceAccessLoggingConfigOutputReference",
+		"@cdktn/provider-google.apigeeInstance.ApigeeInstanceAccessLoggingConfigOutputReference",
 		reflect.TypeOf((*ApigeeInstanceAccessLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,15 +142,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeInstance.ApigeeInstanceConfig",
+		"@cdktn/provider-google.apigeeInstance.ApigeeInstanceConfig",
 		reflect.TypeOf((*ApigeeInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeInstance.ApigeeInstanceTimeouts",
+		"@cdktn/provider-google.apigeeInstance.ApigeeInstanceTimeouts",
 		reflect.TypeOf((*ApigeeInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeInstance.ApigeeInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeInstance.ApigeeInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

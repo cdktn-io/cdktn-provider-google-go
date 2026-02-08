@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package project
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/project/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/project/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -591,7 +591,7 @@ func NewProject(scope constructs.Construct, id *string, config *ProjectConfig) P
 	j := jsiiProxy_Project{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -604,7 +604,7 @@ func NewProject_Override(p Project, scope constructs.Construct, id *string, conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -798,7 +798,7 @@ func Project_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func Project_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func Project_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func Project_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func Project_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.project.Project",
+		"@cdktn/provider-google.project.Project",
 		"tfResourceType",
 		&returns,
 	)

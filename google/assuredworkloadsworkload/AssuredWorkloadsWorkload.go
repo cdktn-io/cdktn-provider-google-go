@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package assuredworkloadsworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/assuredworkloadsworkload/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/assuredworkloadsworkload/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -810,7 +810,7 @@ func NewAssuredWorkloadsWorkload(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_AssuredWorkloadsWorkload{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -823,7 +823,7 @@ func NewAssuredWorkloadsWorkload_Override(a AssuredWorkloadsWorkload, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1039,7 +1039,7 @@ func AssuredWorkloadsWorkload_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1074,7 +1074,7 @@ func AssuredWorkloadsWorkload_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1093,7 +1093,7 @@ func AssuredWorkloadsWorkload_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1112,7 +1112,7 @@ func AssuredWorkloadsWorkload_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1125,7 +1125,7 @@ func AssuredWorkloadsWorkload_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
 		"tfResourceType",
 		&returns,
 	)

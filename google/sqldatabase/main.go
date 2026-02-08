@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqldatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlDatabase.SqlDatabase",
+		"@cdktn/provider-google.sqlDatabase.SqlDatabase",
 		reflect.TypeOf((*SqlDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlDatabase.SqlDatabaseConfig",
+		"@cdktn/provider-google.sqlDatabase.SqlDatabaseConfig",
 		reflect.TypeOf((*SqlDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlDatabase.SqlDatabaseTimeouts",
+		"@cdktn/provider-google.sqlDatabase.SqlDatabaseTimeouts",
 		reflect.TypeOf((*SqlDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlDatabase.SqlDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google.sqlDatabase.SqlDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*SqlDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminirepositorygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/geminirepositorygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/geminirepositorygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -539,7 +539,7 @@ func NewGeminiRepositoryGroup(scope constructs.Construct, id *string, config *Ge
 	j := jsiiProxy_GeminiRepositoryGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,7 +552,7 @@ func NewGeminiRepositoryGroup_Override(g GeminiRepositoryGroup, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -702,7 +702,7 @@ func GeminiRepositoryGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -737,7 +737,7 @@ func GeminiRepositoryGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func GeminiRepositoryGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -775,7 +775,7 @@ func GeminiRepositoryGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -788,7 +788,7 @@ func GeminiRepositoryGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		"tfResourceType",
 		&returns,
 	)

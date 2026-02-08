@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computetargetsslproxy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeTargetSslProxy.ComputeTargetSslProxy",
+		"@cdktn/provider-google.computeTargetSslProxy.ComputeTargetSslProxy",
 		reflect.TypeOf((*ComputeTargetSslProxy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeTargetSslProxy.ComputeTargetSslProxyConfig",
+		"@cdktn/provider-google.computeTargetSslProxy.ComputeTargetSslProxyConfig",
 		reflect.TypeOf((*ComputeTargetSslProxyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeTargetSslProxy.ComputeTargetSslProxyTimeouts",
+		"@cdktn/provider-google.computeTargetSslProxy.ComputeTargetSslProxyTimeouts",
 		reflect.TypeOf((*ComputeTargetSslProxyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeTargetSslProxy.ComputeTargetSslProxyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeTargetSslProxy.ComputeTargetSslProxyTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeTargetSslProxyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfunctions2functioniambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudfunctions2functioniambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudfunctions2functioniambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewCloudfunctions2FunctionIamBinding(scope constructs.Construct, id *string
 	j := jsiiProxy_Cloudfunctions2FunctionIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewCloudfunctions2FunctionIamBinding_Override(c Cloudfunctions2FunctionIamB
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func Cloudfunctions2FunctionIamBinding_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func Cloudfunctions2FunctionIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func Cloudfunctions2FunctionIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func Cloudfunctions2FunctionIamBinding_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func Cloudfunctions2FunctionIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google.cloudfunctions2FunctionIamBinding.Cloudfunctions2FunctionIamBinding",
 		"tfResourceType",
 		&returns,
 	)

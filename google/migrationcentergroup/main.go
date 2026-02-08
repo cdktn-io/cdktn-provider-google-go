@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package migrationcentergroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.migrationCenterGroup.MigrationCenterGroup",
+		"@cdktn/provider-google.migrationCenterGroup.MigrationCenterGroup",
 		reflect.TypeOf((*MigrationCenterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.migrationCenterGroup.MigrationCenterGroupConfig",
+		"@cdktn/provider-google.migrationCenterGroup.MigrationCenterGroupConfig",
 		reflect.TypeOf((*MigrationCenterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.migrationCenterGroup.MigrationCenterGroupTimeouts",
+		"@cdktn/provider-google.migrationCenterGroup.MigrationCenterGroupTimeouts",
 		reflect.TypeOf((*MigrationCenterGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.migrationCenterGroup.MigrationCenterGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.migrationCenterGroup.MigrationCenterGroupTimeoutsOutputReference",
 		reflect.TypeOf((*MigrationCenterGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

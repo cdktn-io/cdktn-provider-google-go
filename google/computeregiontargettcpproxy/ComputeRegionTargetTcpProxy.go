@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregiontargettcpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computeregiontargettcpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeregiontargettcpproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -543,7 +543,7 @@ func NewComputeRegionTargetTcpProxy(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ComputeRegionTargetTcpProxy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -556,7 +556,7 @@ func NewComputeRegionTargetTcpProxy_Override(c ComputeRegionTargetTcpProxy, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -728,7 +728,7 @@ func ComputeRegionTargetTcpProxy_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func ComputeRegionTargetTcpProxy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func ComputeRegionTargetTcpProxy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func ComputeRegionTargetTcpProxy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func ComputeRegionTargetTcpProxy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
+		"@cdktn/provider-google.computeRegionTargetTcpProxy.ComputeRegionTargetTcpProxy",
 		"tfResourceType",
 		&returns,
 	)

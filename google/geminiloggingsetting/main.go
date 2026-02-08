@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminiloggingsetting
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiLoggingSetting.GeminiLoggingSetting",
+		"@cdktn/provider-google.geminiLoggingSetting.GeminiLoggingSetting",
 		reflect.TypeOf((*GeminiLoggingSetting)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiLoggingSetting.GeminiLoggingSettingConfig",
+		"@cdktn/provider-google.geminiLoggingSetting.GeminiLoggingSettingConfig",
 		reflect.TypeOf((*GeminiLoggingSettingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiLoggingSetting.GeminiLoggingSettingTimeouts",
+		"@cdktn/provider-google.geminiLoggingSetting.GeminiLoggingSettingTimeouts",
 		reflect.TypeOf((*GeminiLoggingSettingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiLoggingSetting.GeminiLoggingSettingTimeoutsOutputReference",
+		"@cdktn/provider-google.geminiLoggingSetting.GeminiLoggingSettingTimeoutsOutputReference",
 		reflect.TypeOf((*GeminiLoggingSettingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

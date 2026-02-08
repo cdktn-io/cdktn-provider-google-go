@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagetransferagentpool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageTransferAgentPool.StorageTransferAgentPool",
+		"@cdktn/provider-google.storageTransferAgentPool.StorageTransferAgentPool",
 		reflect.TypeOf((*StorageTransferAgentPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageTransferAgentPool.StorageTransferAgentPoolBandwidthLimit",
+		"@cdktn/provider-google.storageTransferAgentPool.StorageTransferAgentPoolBandwidthLimit",
 		reflect.TypeOf((*StorageTransferAgentPoolBandwidthLimit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageTransferAgentPool.StorageTransferAgentPoolBandwidthLimitOutputReference",
+		"@cdktn/provider-google.storageTransferAgentPool.StorageTransferAgentPoolBandwidthLimitOutputReference",
 		reflect.TypeOf((*StorageTransferAgentPoolBandwidthLimitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -121,15 +121,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageTransferAgentPool.StorageTransferAgentPoolConfig",
+		"@cdktn/provider-google.storageTransferAgentPool.StorageTransferAgentPoolConfig",
 		reflect.TypeOf((*StorageTransferAgentPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageTransferAgentPool.StorageTransferAgentPoolTimeouts",
+		"@cdktn/provider-google.storageTransferAgentPool.StorageTransferAgentPoolTimeouts",
 		reflect.TypeOf((*StorageTransferAgentPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageTransferAgentPool.StorageTransferAgentPoolTimeoutsOutputReference",
+		"@cdktn/provider-google.storageTransferAgentPool.StorageTransferAgentPoolTimeoutsOutputReference",
 		reflect.TypeOf((*StorageTransferAgentPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

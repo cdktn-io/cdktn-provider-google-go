@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computetargetgrpcproxy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxy",
+		"@cdktn/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxy",
 		reflect.TypeOf((*ComputeTargetGrpcProxy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxyConfig",
+		"@cdktn/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxyConfig",
 		reflect.TypeOf((*ComputeTargetGrpcProxyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxyTimeouts",
+		"@cdktn/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxyTimeouts",
 		reflect.TypeOf((*ComputeTargetGrpcProxyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeTargetGrpcProxy.ComputeTargetGrpcProxyTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeTargetGrpcProxyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

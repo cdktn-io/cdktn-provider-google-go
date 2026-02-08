@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregionsslpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicy",
+		"@cdktn/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicy",
 		reflect.TypeOf((*ComputeRegionSslPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicyConfig",
+		"@cdktn/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicyConfig",
 		reflect.TypeOf((*ComputeRegionSslPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicyTimeouts",
+		"@cdktn/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicyTimeouts",
 		reflect.TypeOf((*ComputeRegionSslPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRegionSslPolicy.ComputeRegionSslPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRegionSslPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

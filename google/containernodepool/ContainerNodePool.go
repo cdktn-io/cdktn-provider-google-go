@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/containernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containernodepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -784,7 +784,7 @@ func NewContainerNodePool(scope constructs.Construct, id *string, config *Contai
 	j := jsiiProxy_ContainerNodePool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -797,7 +797,7 @@ func NewContainerNodePool_Override(c ContainerNodePool, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1002,7 +1002,7 @@ func ContainerNodePool_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1037,7 +1037,7 @@ func ContainerNodePool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1056,7 +1056,7 @@ func ContainerNodePool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1075,7 +1075,7 @@ func ContainerNodePool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1088,7 +1088,7 @@ func ContainerNodePool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.containerNodePool.ContainerNodePool",
+		"@cdktn/provider-google.containerNodePool.ContainerNodePool",
 		"tfResourceType",
 		&returns,
 	)

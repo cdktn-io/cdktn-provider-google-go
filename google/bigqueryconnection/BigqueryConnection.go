@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigqueryconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigqueryconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -654,7 +654,7 @@ func NewBigqueryConnection(scope constructs.Construct, id *string, config *Bigqu
 	j := jsiiProxy_BigqueryConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -667,7 +667,7 @@ func NewBigqueryConnection_Override(b BigqueryConnection, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -828,7 +828,7 @@ func BigqueryConnection_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -863,7 +863,7 @@ func BigqueryConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -882,7 +882,7 @@ func BigqueryConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func BigqueryConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -914,7 +914,7 @@ func BigqueryConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.bigqueryConnection.BigqueryConnection",
+		"@cdktn/provider-google.bigqueryConnection.BigqueryConnection",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudbuildv2connectioniambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudbuildv2connectioniambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudbuildv2connectioniambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewCloudbuildv2ConnectionIamBinding(scope constructs.Construct, id *string,
 	j := jsiiProxy_Cloudbuildv2ConnectionIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewCloudbuildv2ConnectionIamBinding_Override(c Cloudbuildv2ConnectionIamBin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func Cloudbuildv2ConnectionIamBinding_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func Cloudbuildv2ConnectionIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func Cloudbuildv2ConnectionIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func Cloudbuildv2ConnectionIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func Cloudbuildv2ConnectionIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
+		"@cdktn/provider-google.cloudbuildv2ConnectionIamBinding.Cloudbuildv2ConnectionIamBinding",
 		"tfResourceType",
 		&returns,
 	)

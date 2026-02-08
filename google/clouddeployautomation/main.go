@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package clouddeployautomation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomation",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomation",
 		reflect.TypeOf((*ClouddeployAutomation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,19 +106,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationConfig",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationConfig",
 		reflect.TypeOf((*ClouddeployAutomationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRules",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRules",
 		reflect.TypeOf((*ClouddeployAutomationRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesAdvanceRolloutRule",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesAdvanceRolloutRule",
 		reflect.TypeOf((*ClouddeployAutomationRulesAdvanceRolloutRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesAdvanceRolloutRuleOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesAdvanceRolloutRuleOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesAdvanceRolloutRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesList",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesList",
 		reflect.TypeOf((*ClouddeployAutomationRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -180,7 +180,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advanceRolloutRule", GoGetter: "AdvanceRolloutRule"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesPromoteReleaseRule",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesPromoteReleaseRule",
 		reflect.TypeOf((*ClouddeployAutomationRulesPromoteReleaseRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesPromoteReleaseRuleOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesPromoteReleaseRuleOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesPromoteReleaseRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRule",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRule",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -323,11 +323,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhases",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhases",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhases)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesList",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesList",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -349,7 +349,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -389,11 +389,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetry",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetry",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attempts", GoGetter: "Attempts"},
@@ -433,11 +433,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollback",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollback",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollback)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -475,11 +475,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesTimedPromoteReleaseRule",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesTimedPromoteReleaseRule",
 		reflect.TypeOf((*ClouddeployAutomationRulesTimedPromoteReleaseRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -523,11 +523,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationSelector",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationSelector",
 		reflect.TypeOf((*ClouddeployAutomationSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationSelectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -562,11 +562,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorTargets",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorTargets",
 		reflect.TypeOf((*ClouddeployAutomationSelectorTargets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorTargetsList",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorTargetsList",
 		reflect.TypeOf((*ClouddeployAutomationSelectorTargetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -588,7 +588,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorTargetsOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationSelectorTargetsOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationSelectorTargetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -626,11 +626,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationTimeouts",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationTimeouts",
 		reflect.TypeOf((*ClouddeployAutomationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployAutomation.ClouddeployAutomationTimeoutsOutputReference",
+		"@cdktn/provider-google.clouddeployAutomation.ClouddeployAutomationTimeoutsOutputReference",
 		reflect.TypeOf((*ClouddeployAutomationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

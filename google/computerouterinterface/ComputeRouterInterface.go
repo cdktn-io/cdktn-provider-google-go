@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouterinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computerouterinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computerouterinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -606,7 +606,7 @@ func NewComputeRouterInterface(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_ComputeRouterInterface{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -619,7 +619,7 @@ func NewComputeRouterInterface_Override(c ComputeRouterInterface, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -835,7 +835,7 @@ func ComputeRouterInterface_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -870,7 +870,7 @@ func ComputeRouterInterface_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -889,7 +889,7 @@ func ComputeRouterInterface_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func ComputeRouterInterface_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func ComputeRouterInterface_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeRouterInterface.ComputeRouterInterface",
+		"@cdktn/provider-google.computeRouterInterface.ComputeRouterInterface",
 		"tfResourceType",
 		&returns,
 	)

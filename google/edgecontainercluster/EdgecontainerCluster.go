@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package edgecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/edgecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/edgecontainercluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -820,7 +820,7 @@ func NewEdgecontainerCluster(scope constructs.Construct, id *string, config *Edg
 	j := jsiiProxy_EdgecontainerCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -833,7 +833,7 @@ func NewEdgecontainerCluster_Override(e EdgecontainerCluster, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1016,7 +1016,7 @@ func EdgecontainerCluster_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1051,7 +1051,7 @@ func EdgecontainerCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1070,7 +1070,7 @@ func EdgecontainerCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1089,7 +1089,7 @@ func EdgecontainerCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1102,7 +1102,7 @@ func EdgecontainerCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apphubserviceprojectattachment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		reflect.TypeOf((*ApphubServiceProjectAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachmentConfig",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachmentConfig",
 		reflect.TypeOf((*ApphubServiceProjectAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachmentTimeouts",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachmentTimeouts",
 		reflect.TypeOf((*ApphubServiceProjectAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*ApphubServiceProjectAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

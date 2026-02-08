@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxplaybook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybook",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybook",
 		reflect.TypeOf((*DialogflowCxPlaybook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookConfig",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookConfig",
 		reflect.TypeOf((*DialogflowCxPlaybookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstruction",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstruction",
 		reflect.TypeOf((*DialogflowCxPlaybookInstruction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionOutputReference",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionOutputReference",
 		reflect.TypeOf((*DialogflowCxPlaybookInstructionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionSteps",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionSteps",
 		reflect.TypeOf((*DialogflowCxPlaybookInstructionSteps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionStepsList",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionStepsList",
 		reflect.TypeOf((*DialogflowCxPlaybookInstructionStepsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionStepsOutputReference",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookInstructionStepsOutputReference",
 		reflect.TypeOf((*DialogflowCxPlaybookInstructionStepsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookLlmModelSettings",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookLlmModelSettings",
 		reflect.TypeOf((*DialogflowCxPlaybookLlmModelSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookLlmModelSettingsOutputReference",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookLlmModelSettingsOutputReference",
 		reflect.TypeOf((*DialogflowCxPlaybookLlmModelSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -250,11 +250,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookTimeouts",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookTimeouts",
 		reflect.TypeOf((*DialogflowCxPlaybookTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowCxPlaybook.DialogflowCxPlaybookTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowCxPlaybookTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

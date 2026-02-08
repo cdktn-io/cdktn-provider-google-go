@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccfoldernotificationconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfig",
+		"@cdktn/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfig",
 		reflect.TypeOf((*SccFolderNotificationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigConfig",
+		"@cdktn/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigConfig",
 		reflect.TypeOf((*SccFolderNotificationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigStreamingConfig",
+		"@cdktn/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigStreamingConfig",
 		reflect.TypeOf((*SccFolderNotificationConfigStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigStreamingConfigOutputReference",
 		reflect.TypeOf((*SccFolderNotificationConfigStreamingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigTimeouts",
+		"@cdktn/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigTimeouts",
 		reflect.TypeOf((*SccFolderNotificationConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.sccFolderNotificationConfig.SccFolderNotificationConfigTimeoutsOutputReference",
 		reflect.TypeOf((*SccFolderNotificationConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

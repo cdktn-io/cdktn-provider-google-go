@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package colabruntimetemplateiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabRuntimeTemplateIamPolicy.ColabRuntimeTemplateIamPolicy",
+		"@cdktn/provider-google.colabRuntimeTemplateIamPolicy.ColabRuntimeTemplateIamPolicy",
 		reflect.TypeOf((*ColabRuntimeTemplateIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabRuntimeTemplateIamPolicy.ColabRuntimeTemplateIamPolicyConfig",
+		"@cdktn/provider-google.colabRuntimeTemplateIamPolicy.ColabRuntimeTemplateIamPolicyConfig",
 		reflect.TypeOf((*ColabRuntimeTemplateIamPolicyConfig)(nil)).Elem(),
 	)
 }

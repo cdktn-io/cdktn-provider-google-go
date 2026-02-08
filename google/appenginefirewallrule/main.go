@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appenginefirewallrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineFirewallRule.AppEngineFirewallRule",
+		"@cdktn/provider-google.appEngineFirewallRule.AppEngineFirewallRule",
 		reflect.TypeOf((*AppEngineFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineFirewallRule.AppEngineFirewallRuleConfig",
+		"@cdktn/provider-google.appEngineFirewallRule.AppEngineFirewallRuleConfig",
 		reflect.TypeOf((*AppEngineFirewallRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineFirewallRule.AppEngineFirewallRuleTimeouts",
+		"@cdktn/provider-google.appEngineFirewallRule.AppEngineFirewallRuleTimeouts",
 		reflect.TypeOf((*AppEngineFirewallRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineFirewallRule.AppEngineFirewallRuleTimeoutsOutputReference",
+		"@cdktn/provider-google.appEngineFirewallRule.AppEngineFirewallRuleTimeoutsOutputReference",
 		reflect.TypeOf((*AppEngineFirewallRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

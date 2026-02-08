@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigquerytableiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryTableIamBinding.BigqueryTableIamBinding",
+		"@cdktn/provider-google.bigqueryTableIamBinding.BigqueryTableIamBinding",
 		reflect.TypeOf((*BigqueryTableIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryTableIamBinding.BigqueryTableIamBindingCondition",
+		"@cdktn/provider-google.bigqueryTableIamBinding.BigqueryTableIamBindingCondition",
 		reflect.TypeOf((*BigqueryTableIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryTableIamBinding.BigqueryTableIamBindingConditionOutputReference",
+		"@cdktn/provider-google.bigqueryTableIamBinding.BigqueryTableIamBindingConditionOutputReference",
 		reflect.TypeOf((*BigqueryTableIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryTableIamBinding.BigqueryTableIamBindingConfig",
+		"@cdktn/provider-google.bigqueryTableIamBinding.BigqueryTableIamBindingConfig",
 		reflect.TypeOf((*BigqueryTableIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logginglogscope
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLogScope.LoggingLogScope",
+		"@cdktn/provider-google.loggingLogScope.LoggingLogScope",
 		reflect.TypeOf((*LoggingLogScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLogScope.LoggingLogScopeConfig",
+		"@cdktn/provider-google.loggingLogScope.LoggingLogScopeConfig",
 		reflect.TypeOf((*LoggingLogScopeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLogScope.LoggingLogScopeTimeouts",
+		"@cdktn/provider-google.loggingLogScope.LoggingLogScopeTimeouts",
 		reflect.TypeOf((*LoggingLogScopeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLogScope.LoggingLogScopeTimeoutsOutputReference",
+		"@cdktn/provider-google.loggingLogScope.LoggingLogScopeTimeoutsOutputReference",
 		reflect.TypeOf((*LoggingLogScopeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

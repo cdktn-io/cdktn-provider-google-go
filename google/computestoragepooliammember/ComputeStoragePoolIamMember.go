@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computestoragepooliammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computestoragepooliammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computestoragepooliammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewComputeStoragePoolIamMember(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ComputeStoragePoolIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewComputeStoragePoolIamMember_Override(c ComputeStoragePoolIamMember, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func ComputeStoragePoolIamMember_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func ComputeStoragePoolIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func ComputeStoragePoolIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func ComputeStoragePoolIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func ComputeStoragePoolIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
+		"@cdktn/provider-google.computeStoragePoolIamMember.ComputeStoragePoolIamMember",
 		"tfResourceType",
 		&returns,
 	)

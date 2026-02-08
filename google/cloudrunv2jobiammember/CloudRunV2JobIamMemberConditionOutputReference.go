@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudrunv2jobiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudrunv2jobiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudrunv2jobiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewCloudRunV2JobIamMemberConditionOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_CloudRunV2JobIamMemberConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudRunV2JobIamMember.CloudRunV2JobIamMemberConditionOutputReference",
+		"@cdktn/provider-google.cloudRunV2JobIamMember.CloudRunV2JobIamMemberConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewCloudRunV2JobIamMemberConditionOutputReference_Override(c CloudRunV2JobI
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudRunV2JobIamMember.CloudRunV2JobIamMemberConditionOutputReference",
+		"@cdktn/provider-google.cloudRunV2JobIamMember.CloudRunV2JobIamMemberConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

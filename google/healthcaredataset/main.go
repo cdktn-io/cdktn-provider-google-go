@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredataset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDataset.HealthcareDataset",
+		"@cdktn/provider-google.healthcareDataset.HealthcareDataset",
 		reflect.TypeOf((*HealthcareDataset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDataset.HealthcareDatasetConfig",
+		"@cdktn/provider-google.healthcareDataset.HealthcareDatasetConfig",
 		reflect.TypeOf((*HealthcareDatasetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDataset.HealthcareDatasetEncryptionSpec",
+		"@cdktn/provider-google.healthcareDataset.HealthcareDatasetEncryptionSpec",
 		reflect.TypeOf((*HealthcareDatasetEncryptionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDataset.HealthcareDatasetEncryptionSpecOutputReference",
+		"@cdktn/provider-google.healthcareDataset.HealthcareDatasetEncryptionSpecOutputReference",
 		reflect.TypeOf((*HealthcareDatasetEncryptionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDataset.HealthcareDatasetTimeouts",
+		"@cdktn/provider-google.healthcareDataset.HealthcareDatasetTimeouts",
 		reflect.TypeOf((*HealthcareDatasetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDataset.HealthcareDatasetTimeoutsOutputReference",
+		"@cdktn/provider-google.healthcareDataset.HealthcareDatasetTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcareDatasetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

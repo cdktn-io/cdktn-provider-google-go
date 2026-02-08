@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappactivedirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/netappactivedirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/netappactivedirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -896,7 +896,7 @@ func NewNetappActiveDirectory(scope constructs.Construct, id *string, config *Ne
 	j := jsiiProxy_NetappActiveDirectory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -909,7 +909,7 @@ func NewNetappActiveDirectory_Override(n NetappActiveDirectory, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -1235,7 +1235,7 @@ func NetappActiveDirectory_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1270,7 +1270,7 @@ func NetappActiveDirectory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1289,7 +1289,7 @@ func NetappActiveDirectory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1308,7 +1308,7 @@ func NetappActiveDirectory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1321,7 +1321,7 @@ func NetappActiveDirectory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		"tfResourceType",
 		&returns,
 	)

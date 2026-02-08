@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computesharedvpcserviceproject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProject",
+		"@cdktn/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProject",
 		reflect.TypeOf((*ComputeSharedVpcServiceProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProjectConfig",
+		"@cdktn/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProjectConfig",
 		reflect.TypeOf((*ComputeSharedVpcServiceProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProjectTimeouts",
+		"@cdktn/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProjectTimeouts",
 		reflect.TypeOf((*ComputeSharedVpcServiceProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProjectTimeoutsOutputReference",
+		"@cdktn/provider-google.computeSharedVpcServiceProject.ComputeSharedVpcServiceProjectTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeSharedVpcServiceProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

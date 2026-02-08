@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowentitytype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dialogflowentitytype/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowentitytype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDialogflowEntityTypeEntitiesOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DialogflowEntityTypeEntitiesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowEntityType.DialogflowEntityTypeEntitiesOutputReference",
+		"@cdktn/provider-google.dialogflowEntityType.DialogflowEntityTypeEntitiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDialogflowEntityTypeEntitiesOutputReference_Override(d DialogflowEntityT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowEntityType.DialogflowEntityTypeEntitiesOutputReference",
+		"@cdktn/provider-google.dialogflowEntityType.DialogflowEntityTypeEntitiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

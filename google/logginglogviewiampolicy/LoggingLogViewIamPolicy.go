@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logginglogviewiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/logginglogviewiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/logginglogviewiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewLoggingLogViewIamPolicy(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_LoggingLogViewIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -460,7 +460,7 @@ func NewLoggingLogViewIamPolicy_Override(l LoggingLogViewIamPolicy, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -610,7 +610,7 @@ func LoggingLogViewIamPolicy_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func LoggingLogViewIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func LoggingLogViewIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func LoggingLogViewIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func LoggingLogViewIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
+		"@cdktn/provider-google.loggingLogViewIamPolicy.LoggingLogViewIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

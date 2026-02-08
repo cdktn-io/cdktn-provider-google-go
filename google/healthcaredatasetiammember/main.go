@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredatasetiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMember",
+		"@cdktn/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMember",
 		reflect.TypeOf((*HealthcareDatasetIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMemberCondition",
+		"@cdktn/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMemberCondition",
 		reflect.TypeOf((*HealthcareDatasetIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMemberConditionOutputReference",
+		"@cdktn/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMemberConditionOutputReference",
 		reflect.TypeOf((*HealthcareDatasetIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMemberConfig",
+		"@cdktn/provider-google.healthcareDatasetIamMember.HealthcareDatasetIamMemberConfig",
 		reflect.TypeOf((*HealthcareDatasetIamMemberConfig)(nil)).Elem(),
 	)
 }

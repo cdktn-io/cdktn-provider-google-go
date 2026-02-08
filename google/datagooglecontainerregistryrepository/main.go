@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecontainerregistryrepository
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleContainerRegistryRepository.DataGoogleContainerRegistryRepository",
+		"@cdktn/provider-google.dataGoogleContainerRegistryRepository.DataGoogleContainerRegistryRepository",
 		reflect.TypeOf((*DataGoogleContainerRegistryRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleContainerRegistryRepository.DataGoogleContainerRegistryRepositoryConfig",
+		"@cdktn/provider-google.dataGoogleContainerRegistryRepository.DataGoogleContainerRegistryRepositoryConfig",
 		reflect.TypeOf((*DataGoogleContainerRegistryRepositoryConfig)(nil)).Elem(),
 	)
 }

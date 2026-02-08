@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqluser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUser",
+		"@cdktn/provider-google.sqlUser.SqlUser",
 		reflect.TypeOf((*SqlUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlUser.SqlUserConfig",
+		"@cdktn/provider-google.sqlUser.SqlUserConfig",
 		reflect.TypeOf((*SqlUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlUser.SqlUserPasswordPolicy",
+		"@cdktn/provider-google.sqlUser.SqlUserPasswordPolicy",
 		reflect.TypeOf((*SqlUserPasswordPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUserPasswordPolicyOutputReference",
+		"@cdktn/provider-google.sqlUser.SqlUserPasswordPolicyOutputReference",
 		reflect.TypeOf((*SqlUserPasswordPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedFailedAttempts", GoGetter: "AllowedFailedAttempts"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlUser.SqlUserPasswordPolicyStatus",
+		"@cdktn/provider-google.sqlUser.SqlUserPasswordPolicyStatus",
 		reflect.TypeOf((*SqlUserPasswordPolicyStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUserPasswordPolicyStatusList",
+		"@cdktn/provider-google.sqlUser.SqlUserPasswordPolicyStatusList",
 		reflect.TypeOf((*SqlUserPasswordPolicyStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -178,7 +178,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUserPasswordPolicyStatusOutputReference",
+		"@cdktn/provider-google.sqlUser.SqlUserPasswordPolicyStatusOutputReference",
 		reflect.TypeOf((*SqlUserPasswordPolicyStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlUser.SqlUserSqlServerUserDetails",
+		"@cdktn/provider-google.sqlUser.SqlUserSqlServerUserDetails",
 		reflect.TypeOf((*SqlUserSqlServerUserDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUserSqlServerUserDetailsList",
+		"@cdktn/provider-google.sqlUser.SqlUserSqlServerUserDetailsList",
 		reflect.TypeOf((*SqlUserSqlServerUserDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -237,7 +237,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUserSqlServerUserDetailsOutputReference",
+		"@cdktn/provider-google.sqlUser.SqlUserSqlServerUserDetailsOutputReference",
 		reflect.TypeOf((*SqlUserSqlServerUserDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlUser.SqlUserTimeouts",
+		"@cdktn/provider-google.sqlUser.SqlUserTimeouts",
 		reflect.TypeOf((*SqlUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlUser.SqlUserTimeoutsOutputReference",
+		"@cdktn/provider-google.sqlUser.SqlUserTimeoutsOutputReference",
 		reflect.TypeOf((*SqlUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

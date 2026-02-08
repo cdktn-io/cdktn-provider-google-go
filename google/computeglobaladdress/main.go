@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeglobaladdress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeGlobalAddress.ComputeGlobalAddress",
+		"@cdktn/provider-google.computeGlobalAddress.ComputeGlobalAddress",
 		reflect.TypeOf((*ComputeGlobalAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeGlobalAddress.ComputeGlobalAddressConfig",
+		"@cdktn/provider-google.computeGlobalAddress.ComputeGlobalAddressConfig",
 		reflect.TypeOf((*ComputeGlobalAddressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeGlobalAddress.ComputeGlobalAddressTimeouts",
+		"@cdktn/provider-google.computeGlobalAddress.ComputeGlobalAddressTimeouts",
 		reflect.TypeOf((*ComputeGlobalAddressTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeGlobalAddress.ComputeGlobalAddressTimeoutsOutputReference",
+		"@cdktn/provider-google.computeGlobalAddress.ComputeGlobalAddressTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeGlobalAddressTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

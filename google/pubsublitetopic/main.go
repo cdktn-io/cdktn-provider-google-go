@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsublitetopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		reflect.TypeOf((*PubsubLiteTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,19 +93,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicConfig",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicConfig",
 		reflect.TypeOf((*PubsubLiteTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfig",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfig",
 		reflect.TypeOf((*PubsubLiteTopicPartitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfigCapacity",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfigCapacity",
 		reflect.TypeOf((*PubsubLiteTopicPartitionConfigCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfigCapacityOutputReference",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfigCapacityOutputReference",
 		reflect.TypeOf((*PubsubLiteTopicPartitionConfigCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfigOutputReference",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicPartitionConfigOutputReference",
 		reflect.TypeOf((*PubsubLiteTopicPartitionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -179,11 +179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicReservationConfig",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicReservationConfig",
 		reflect.TypeOf((*PubsubLiteTopicReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicReservationConfigOutputReference",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicReservationConfigOutputReference",
 		reflect.TypeOf((*PubsubLiteTopicReservationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,11 +218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicRetentionConfig",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicRetentionConfig",
 		reflect.TypeOf((*PubsubLiteTopicRetentionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicRetentionConfigOutputReference",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicRetentionConfigOutputReference",
 		reflect.TypeOf((*PubsubLiteTopicRetentionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -259,11 +259,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicTimeouts",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicTimeouts",
 		reflect.TypeOf((*PubsubLiteTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopicTimeoutsOutputReference",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopicTimeoutsOutputReference",
 		reflect.TypeOf((*PubsubLiteTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

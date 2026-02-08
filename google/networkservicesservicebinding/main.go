@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicesservicebinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		reflect.TypeOf((*NetworkServicesServiceBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBindingConfig",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBindingConfig",
 		reflect.TypeOf((*NetworkServicesServiceBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBindingTimeouts",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBindingTimeouts",
 		reflect.TypeOf((*NetworkServicesServiceBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBindingTimeoutsOutputReference",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBindingTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkServicesServiceBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

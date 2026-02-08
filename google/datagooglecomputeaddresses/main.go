@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputeaddresses
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddresses",
+		"@cdktn/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddresses",
 		reflect.TypeOf((*DataGoogleComputeAddresses)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,11 +68,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddresses",
+		"@cdktn/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddresses",
 		reflect.TypeOf((*DataGoogleComputeAddressesAddresses)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesList",
+		"@cdktn/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesList",
 		reflect.TypeOf((*DataGoogleComputeAddressesAddressesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference",
+		"@cdktn/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesAddressesOutputReference",
 		reflect.TypeOf((*DataGoogleComputeAddressesAddressesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig",
+		"@cdktn/provider-google.dataGoogleComputeAddresses.DataGoogleComputeAddressesConfig",
 		reflect.TypeOf((*DataGoogleComputeAddressesConfig)(nil)).Elem(),
 	)
 }

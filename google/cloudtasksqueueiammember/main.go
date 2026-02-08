@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudtasksqueueiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMember",
+		"@cdktn/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMember",
 		reflect.TypeOf((*CloudTasksQueueIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMemberCondition",
+		"@cdktn/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMemberCondition",
 		reflect.TypeOf((*CloudTasksQueueIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMemberConditionOutputReference",
+		"@cdktn/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMemberConditionOutputReference",
 		reflect.TypeOf((*CloudTasksQueueIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMemberConfig",
+		"@cdktn/provider-google.cloudTasksQueueIamMember.CloudTasksQueueIamMemberConfig",
 		reflect.TypeOf((*CloudTasksQueueIamMemberConfig)(nil)).Elem(),
 	)
 }

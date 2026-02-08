@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappbackuppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/netappbackuppolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/netappbackuppolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -610,7 +610,7 @@ func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *Netap
 	j := jsiiProxy_NetappBackupPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -623,7 +623,7 @@ func NewNetappBackupPolicy_Override(n NetappBackupPolicy, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -817,7 +817,7 @@ func NetappBackupPolicy_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -852,7 +852,7 @@ func NetappBackupPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func NetappBackupPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -890,7 +890,7 @@ func NetappBackupPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -903,7 +903,7 @@ func NetappBackupPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-google.netappBackupPolicy.NetappBackupPolicy",
 		"tfResourceType",
 		&returns,
 	)

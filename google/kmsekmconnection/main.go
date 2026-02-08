@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmsekmconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnection",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnection",
 		reflect.TypeOf((*KmsEkmConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionConfig",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionConfig",
 		reflect.TypeOf((*KmsEkmConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolvers",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolvers",
 		reflect.TypeOf((*KmsEkmConnectionServiceResolvers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversList",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversList",
 		reflect.TypeOf((*KmsEkmConnectionServiceResolversList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversOutputReference",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversOutputReference",
 		reflect.TypeOf((*KmsEkmConnectionServiceResolversOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversServerCertificates",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversServerCertificates",
 		reflect.TypeOf((*KmsEkmConnectionServiceResolversServerCertificates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversServerCertificatesList",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversServerCertificatesList",
 		reflect.TypeOf((*KmsEkmConnectionServiceResolversServerCertificatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversServerCertificatesOutputReference",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionServiceResolversServerCertificatesOutputReference",
 		reflect.TypeOf((*KmsEkmConnectionServiceResolversServerCertificatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -232,11 +232,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionTimeouts",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionTimeouts",
 		reflect.TypeOf((*KmsEkmConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnection.KmsEkmConnectionTimeoutsOutputReference",
+		"@cdktn/provider-google.kmsEkmConnection.KmsEkmConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*KmsEkmConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

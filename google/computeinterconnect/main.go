@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinterconnect
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnect",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnect",
 		reflect.TypeOf((*ComputeInterconnect)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectCircuitInfos",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectCircuitInfos",
 		reflect.TypeOf((*ComputeInterconnectCircuitInfos)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectCircuitInfosList",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectCircuitInfosList",
 		reflect.TypeOf((*ComputeInterconnectCircuitInfosList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectCircuitInfosOutputReference",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectCircuitInfosOutputReference",
 		reflect.TypeOf((*ComputeInterconnectCircuitInfosOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,15 +187,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectConfig",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectConfig",
 		reflect.TypeOf((*ComputeInterconnectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectExpectedOutages",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectExpectedOutages",
 		reflect.TypeOf((*ComputeInterconnectExpectedOutages)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectExpectedOutagesList",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectExpectedOutagesList",
 		reflect.TypeOf((*ComputeInterconnectExpectedOutagesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -216,7 +216,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectExpectedOutagesOutputReference",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectExpectedOutagesOutputReference",
 		reflect.TypeOf((*ComputeInterconnectExpectedOutagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "affectedCircuits", GoGetter: "AffectedCircuits"},
@@ -256,11 +256,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectMacsec",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectMacsec",
 		reflect.TypeOf((*ComputeInterconnectMacsec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectMacsecOutputReference",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectMacsecOutputReference",
 		reflect.TypeOf((*ComputeInterconnectMacsecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,11 +298,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectMacsecPreSharedKeys",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectMacsecPreSharedKeys",
 		reflect.TypeOf((*ComputeInterconnectMacsecPreSharedKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectMacsecPreSharedKeysList",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectMacsecPreSharedKeysList",
 		reflect.TypeOf((*ComputeInterconnectMacsecPreSharedKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -324,7 +324,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectMacsecPreSharedKeysOutputReference",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectMacsecPreSharedKeysOutputReference",
 		reflect.TypeOf((*ComputeInterconnectMacsecPreSharedKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -364,11 +364,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectTimeouts",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectTimeouts",
 		reflect.TypeOf((*ComputeInterconnectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnect.ComputeInterconnectTimeoutsOutputReference",
+		"@cdktn/provider-google.computeInterconnect.ComputeInterconnectTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeInterconnectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

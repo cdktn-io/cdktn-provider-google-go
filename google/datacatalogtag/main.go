@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datacatalogtag
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTag",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTag",
 		reflect.TypeOf((*DataCatalogTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTagConfig",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTagConfig",
 		reflect.TypeOf((*DataCatalogTagConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTagFields",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTagFields",
 		reflect.TypeOf((*DataCatalogTagFields)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTagFieldsList",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTagFieldsList",
 		reflect.TypeOf((*DataCatalogTagFieldsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTagFieldsOutputReference",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTagFieldsOutputReference",
 		reflect.TypeOf((*DataCatalogTagFieldsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "boolValue", GoGetter: "BoolValue"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTagTimeouts",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTagTimeouts",
 		reflect.TypeOf((*DataCatalogTagTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogTag.DataCatalogTagTimeoutsOutputReference",
+		"@cdktn/provider-google.dataCatalogTag.DataCatalogTagTimeoutsOutputReference",
 		reflect.TypeOf((*DataCatalogTagTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

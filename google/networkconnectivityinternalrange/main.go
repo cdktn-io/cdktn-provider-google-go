@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkconnectivityinternalrange
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRange",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRange",
 		reflect.TypeOf((*NetworkConnectivityInternalRange)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,11 +116,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeAllocationOptions",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeAllocationOptions",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeAllocationOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeAllocationOptionsOutputReference",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeAllocationOptionsOutputReference",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeAllocationOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -158,15 +158,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeConfig",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeConfig",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeMigration",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeMigration",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeMigration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeMigrationOutputReference",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeMigrationOutputReference",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeMigrationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,11 +202,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeTimeouts",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeTimeouts",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeTimeoutsOutputReference",
+		"@cdktn/provider-google.networkConnectivityInternalRange.NetworkConnectivityInternalRangeTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkConnectivityInternalRangeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

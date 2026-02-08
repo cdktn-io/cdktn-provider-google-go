@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package beyondcorpapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplication",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplication",
 		reflect.TypeOf((*BeyondcorpApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationConfig",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationConfig",
 		reflect.TypeOf((*BeyondcorpApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationEndpointMatchers",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationEndpointMatchers",
 		reflect.TypeOf((*BeyondcorpApplicationEndpointMatchers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationEndpointMatchersList",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationEndpointMatchersList",
 		reflect.TypeOf((*BeyondcorpApplicationEndpointMatchersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationEndpointMatchersOutputReference",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationEndpointMatchersOutputReference",
 		reflect.TypeOf((*BeyondcorpApplicationEndpointMatchersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationTimeouts",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationTimeouts",
 		reflect.TypeOf((*BeyondcorpApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationTimeoutsOutputReference",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*BeyondcorpApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,15 +202,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreams",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreams",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreams)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsEgressPolicy",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsEgressPolicy",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreamsEgressPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsEgressPolicyOutputReference",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsEgressPolicyOutputReference",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreamsEgressPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -244,7 +244,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsList",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsList",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsNetwork",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsNetwork",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreamsNetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsNetworkOutputReference",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsNetworkOutputReference",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreamsNetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -304,7 +304,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsOutputReference",
+		"@cdktn/provider-google.beyondcorpApplication.BeyondcorpApplicationUpstreamsOutputReference",
 		reflect.TypeOf((*BeyondcorpApplicationUpstreamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

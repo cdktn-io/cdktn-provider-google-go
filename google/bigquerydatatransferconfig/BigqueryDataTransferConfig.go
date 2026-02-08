@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigquerydatatransferconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigquerydatatransferconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigquerydatatransferconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -712,7 +712,7 @@ func NewBigqueryDataTransferConfig(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_BigqueryDataTransferConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -725,7 +725,7 @@ func NewBigqueryDataTransferConfig_Override(b BigqueryDataTransferConfig, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -941,7 +941,7 @@ func BigqueryDataTransferConfig_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -976,7 +976,7 @@ func BigqueryDataTransferConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -995,7 +995,7 @@ func BigqueryDataTransferConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1014,7 +1014,7 @@ func BigqueryDataTransferConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1027,7 +1027,7 @@ func BigqueryDataTransferConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfig",
 		"tfResourceType",
 		&returns,
 	)

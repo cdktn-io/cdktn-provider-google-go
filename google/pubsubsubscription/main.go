@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsubsubscription
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscription",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscription",
 		reflect.TypeOf((*PubsubSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "ackDeadlineSeconds", GoGetter: "AckDeadlineSeconds"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionBigqueryConfig",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionBigqueryConfig",
 		reflect.TypeOf((*PubsubSubscriptionBigqueryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionBigqueryConfigOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionBigqueryConfigOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionBigqueryConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,15 +181,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfig",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfig",
 		reflect.TypeOf((*PubsubSubscriptionCloudStorageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfigAvroConfig",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfigAvroConfig",
 		reflect.TypeOf((*PubsubSubscriptionCloudStorageConfigAvroConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfigAvroConfigOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfigAvroConfigOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionCloudStorageConfigAvroConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfigOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionCloudStorageConfigOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionCloudStorageConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "avroConfig", GoGetter: "AvroConfig"},
@@ -287,15 +287,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionConfig",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionConfig",
 		reflect.TypeOf((*PubsubSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionDeadLetterPolicy",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionDeadLetterPolicy",
 		reflect.TypeOf((*PubsubSubscriptionDeadLetterPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionDeadLetterPolicyOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionDeadLetterPolicyOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionDeadLetterPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -333,11 +333,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionExpirationPolicy",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionExpirationPolicy",
 		reflect.TypeOf((*PubsubSubscriptionExpirationPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionExpirationPolicyOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionExpirationPolicyOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionExpirationPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -371,15 +371,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransforms",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransforms",
 		reflect.TypeOf((*PubsubSubscriptionMessageTransforms)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsJavascriptUdf",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsJavascriptUdf",
 		reflect.TypeOf((*PubsubSubscriptionMessageTransformsJavascriptUdf)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsJavascriptUdfOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsJavascriptUdfOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionMessageTransformsJavascriptUdfOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -415,7 +415,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsList",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsList",
 		reflect.TypeOf((*PubsubSubscriptionMessageTransformsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -437,7 +437,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionMessageTransformsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -476,15 +476,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionPushConfig",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionPushConfig",
 		reflect.TypeOf((*PubsubSubscriptionPushConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigNoWrapper",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigNoWrapper",
 		reflect.TypeOf((*PubsubSubscriptionPushConfigNoWrapper)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigNoWrapperOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigNoWrapperOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionPushConfigNoWrapperOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -518,11 +518,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigOidcToken",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigOidcToken",
 		reflect.TypeOf((*PubsubSubscriptionPushConfigOidcToken)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigOidcTokenOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigOidcTokenOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionPushConfigOidcTokenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -559,7 +559,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionPushConfigOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionPushConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributes", GoGetter: "Attributes"},
@@ -604,11 +604,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionRetryPolicy",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionRetryPolicy",
 		reflect.TypeOf((*PubsubSubscriptionRetryPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionRetryPolicyOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionRetryPolicyOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionRetryPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -646,11 +646,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionTimeouts",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionTimeouts",
 		reflect.TypeOf((*PubsubSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSubscription.PubsubSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*PubsubSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

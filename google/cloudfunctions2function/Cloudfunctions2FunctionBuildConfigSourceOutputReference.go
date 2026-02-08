@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfunctions2function
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudfunctions2function/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudfunctions2function/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewCloudfunctions2FunctionBuildConfigSourceOutputReference(terraformResourc
 	j := jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudfunctions2Function.Cloudfunctions2FunctionBuildConfigSourceOutputReference",
+		"@cdktn/provider-google.cloudfunctions2Function.Cloudfunctions2FunctionBuildConfigSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewCloudfunctions2FunctionBuildConfigSourceOutputReference_Override(c Cloud
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudfunctions2Function.Cloudfunctions2FunctionBuildConfigSourceOutputReference",
+		"@cdktn/provider-google.cloudfunctions2Function.Cloudfunctions2FunctionBuildConfigSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

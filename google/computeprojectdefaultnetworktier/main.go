@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeprojectdefaultnetworktier
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTier",
+		"@cdktn/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTier",
 		reflect.TypeOf((*ComputeProjectDefaultNetworkTier)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTierConfig",
+		"@cdktn/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTierConfig",
 		reflect.TypeOf((*ComputeProjectDefaultNetworkTierConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTierTimeouts",
+		"@cdktn/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTierTimeouts",
 		reflect.TypeOf((*ComputeProjectDefaultNetworkTierTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTierTimeoutsOutputReference",
+		"@cdktn/provider-google.computeProjectDefaultNetworkTier.ComputeProjectDefaultNetworkTierTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeProjectDefaultNetworkTierTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

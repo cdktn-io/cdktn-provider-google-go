@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouternataddress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterNatAddress.ComputeRouterNatAddress",
+		"@cdktn/provider-google.computeRouterNatAddress.ComputeRouterNatAddress",
 		reflect.TypeOf((*ComputeRouterNatAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterNatAddress.ComputeRouterNatAddressConfig",
+		"@cdktn/provider-google.computeRouterNatAddress.ComputeRouterNatAddressConfig",
 		reflect.TypeOf((*ComputeRouterNatAddressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterNatAddress.ComputeRouterNatAddressTimeouts",
+		"@cdktn/provider-google.computeRouterNatAddress.ComputeRouterNatAddressTimeouts",
 		reflect.TypeOf((*ComputeRouterNatAddressTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterNatAddress.ComputeRouterNatAddressTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRouterNatAddress.ComputeRouterNatAddressTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRouterNatAddressTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

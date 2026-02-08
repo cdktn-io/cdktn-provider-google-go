@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package deploymentmanagerdeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeployment",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeployment",
 		reflect.TypeOf((*DeploymentManagerDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentConfig",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentConfig",
 		reflect.TypeOf((*DeploymentManagerDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentLabels",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentLabels",
 		reflect.TypeOf((*DeploymentManagerDeploymentLabels)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentLabelsList",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentLabelsList",
 		reflect.TypeOf((*DeploymentManagerDeploymentLabelsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentLabelsOutputReference",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentLabelsOutputReference",
 		reflect.TypeOf((*DeploymentManagerDeploymentLabelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,15 +165,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTarget",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTarget",
 		reflect.TypeOf((*DeploymentManagerDeploymentTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetConfig",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetConfig",
 		reflect.TypeOf((*DeploymentManagerDeploymentTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetConfigOutputReference",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetConfigOutputReference",
 		reflect.TypeOf((*DeploymentManagerDeploymentTargetConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetImports",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetImports",
 		reflect.TypeOf((*DeploymentManagerDeploymentTargetImports)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetImportsList",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetImportsList",
 		reflect.TypeOf((*DeploymentManagerDeploymentTargetImportsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -233,7 +233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetImportsOutputReference",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetImportsOutputReference",
 		reflect.TypeOf((*DeploymentManagerDeploymentTargetImportsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,7 +271,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetOutputReference",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTargetOutputReference",
 		reflect.TypeOf((*DeploymentManagerDeploymentTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -310,11 +310,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTimeouts",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTimeouts",
 		reflect.TypeOf((*DeploymentManagerDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-google.deploymentManagerDeployment.DeploymentManagerDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*DeploymentManagerDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

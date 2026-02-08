@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsublitesubscription
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteSubscription.PubsubLiteSubscription",
+		"@cdktn/provider-google.pubsubLiteSubscription.PubsubLiteSubscription",
 		reflect.TypeOf((*PubsubLiteSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionConfig",
+		"@cdktn/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionConfig",
 		reflect.TypeOf((*PubsubLiteSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionDeliveryConfig",
+		"@cdktn/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionDeliveryConfig",
 		reflect.TypeOf((*PubsubLiteSubscriptionDeliveryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionDeliveryConfigOutputReference",
+		"@cdktn/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionDeliveryConfigOutputReference",
 		reflect.TypeOf((*PubsubLiteSubscriptionDeliveryConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionTimeouts",
+		"@cdktn/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionTimeouts",
 		reflect.TypeOf((*PubsubLiteSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-google.pubsubLiteSubscription.PubsubLiteSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*PubsubLiteSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

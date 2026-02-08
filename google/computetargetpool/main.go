@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computetargetpool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeTargetPool.ComputeTargetPool",
+		"@cdktn/provider-google.computeTargetPool.ComputeTargetPool",
 		reflect.TypeOf((*ComputeTargetPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeTargetPool.ComputeTargetPoolConfig",
+		"@cdktn/provider-google.computeTargetPool.ComputeTargetPoolConfig",
 		reflect.TypeOf((*ComputeTargetPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeTargetPool.ComputeTargetPoolTimeouts",
+		"@cdktn/provider-google.computeTargetPool.ComputeTargetPoolTimeouts",
 		reflect.TypeOf((*ComputeTargetPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeTargetPool.ComputeTargetPoolTimeoutsOutputReference",
+		"@cdktn/provider-google.computeTargetPool.ComputeTargetPoolTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeTargetPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

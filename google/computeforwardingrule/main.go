@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeforwardingrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeForwardingRule.ComputeForwardingRule",
+		"@cdktn/provider-google.computeForwardingRule.ComputeForwardingRule",
 		reflect.TypeOf((*ComputeForwardingRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -158,15 +158,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeForwardingRule.ComputeForwardingRuleConfig",
+		"@cdktn/provider-google.computeForwardingRule.ComputeForwardingRuleConfig",
 		reflect.TypeOf((*ComputeForwardingRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeForwardingRule.ComputeForwardingRuleServiceDirectoryRegistrations",
+		"@cdktn/provider-google.computeForwardingRule.ComputeForwardingRuleServiceDirectoryRegistrations",
 		reflect.TypeOf((*ComputeForwardingRuleServiceDirectoryRegistrations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeForwardingRule.ComputeForwardingRuleServiceDirectoryRegistrationsOutputReference",
+		"@cdktn/provider-google.computeForwardingRule.ComputeForwardingRuleServiceDirectoryRegistrationsOutputReference",
 		reflect.TypeOf((*ComputeForwardingRuleServiceDirectoryRegistrationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeForwardingRule.ComputeForwardingRuleTimeouts",
+		"@cdktn/provider-google.computeForwardingRule.ComputeForwardingRuleTimeouts",
 		reflect.TypeOf((*ComputeForwardingRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeForwardingRule.ComputeForwardingRuleTimeoutsOutputReference",
+		"@cdktn/provider-google.computeForwardingRule.ComputeForwardingRuleTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeForwardingRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

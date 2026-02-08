@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstantsnapshot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstantSnapshot.ComputeInstantSnapshot",
+		"@cdktn/provider-google.computeInstantSnapshot.ComputeInstantSnapshot",
 		reflect.TypeOf((*ComputeInstantSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstantSnapshot.ComputeInstantSnapshotConfig",
+		"@cdktn/provider-google.computeInstantSnapshot.ComputeInstantSnapshotConfig",
 		reflect.TypeOf((*ComputeInstantSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstantSnapshot.ComputeInstantSnapshotTimeouts",
+		"@cdktn/provider-google.computeInstantSnapshot.ComputeInstantSnapshotTimeouts",
 		reflect.TypeOf((*ComputeInstantSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstantSnapshot.ComputeInstantSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-google.computeInstantSnapshot.ComputeInstantSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeInstantSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmskeyringimportjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJob",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJob",
 		reflect.TypeOf((*KmsKeyRingImportJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobAttestation",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobAttestation",
 		reflect.TypeOf((*KmsKeyRingImportJobAttestation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobAttestationList",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobAttestationList",
 		reflect.TypeOf((*KmsKeyRingImportJobAttestationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobAttestationOutputReference",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobAttestationOutputReference",
 		reflect.TypeOf((*KmsKeyRingImportJobAttestationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,15 +142,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobConfig",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobConfig",
 		reflect.TypeOf((*KmsKeyRingImportJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobPublicKey",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobPublicKey",
 		reflect.TypeOf((*KmsKeyRingImportJobPublicKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobPublicKeyList",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobPublicKeyList",
 		reflect.TypeOf((*KmsKeyRingImportJobPublicKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobPublicKeyOutputReference",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobPublicKeyOutputReference",
 		reflect.TypeOf((*KmsKeyRingImportJobPublicKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobTimeouts",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobTimeouts",
 		reflect.TypeOf((*KmsKeyRingImportJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobTimeoutsOutputReference",
+		"@cdktn/provider-google.kmsKeyRingImportJob.KmsKeyRingImportJobTimeoutsOutputReference",
 		reflect.TypeOf((*KmsKeyRingImportJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

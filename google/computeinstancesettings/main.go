@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstancesettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceSettings.ComputeInstanceSettings",
+		"@cdktn/provider-google.computeInstanceSettings.ComputeInstanceSettings",
 		reflect.TypeOf((*ComputeInstanceSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceSettings.ComputeInstanceSettingsConfig",
+		"@cdktn/provider-google.computeInstanceSettings.ComputeInstanceSettingsConfig",
 		reflect.TypeOf((*ComputeInstanceSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceSettings.ComputeInstanceSettingsMetadata",
+		"@cdktn/provider-google.computeInstanceSettings.ComputeInstanceSettingsMetadata",
 		reflect.TypeOf((*ComputeInstanceSettingsMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceSettings.ComputeInstanceSettingsMetadataOutputReference",
+		"@cdktn/provider-google.computeInstanceSettings.ComputeInstanceSettingsMetadataOutputReference",
 		reflect.TypeOf((*ComputeInstanceSettingsMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,11 +123,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceSettings.ComputeInstanceSettingsTimeouts",
+		"@cdktn/provider-google.computeInstanceSettings.ComputeInstanceSettingsTimeouts",
 		reflect.TypeOf((*ComputeInstanceSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceSettings.ComputeInstanceSettingsTimeoutsOutputReference",
+		"@cdktn/provider-google.computeInstanceSettings.ComputeInstanceSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeInstanceSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventarcgoogleapisource
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSource",
+		"@cdktn/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSource",
 		reflect.TypeOf((*EventarcGoogleApiSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceConfig",
+		"@cdktn/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceConfig",
 		reflect.TypeOf((*EventarcGoogleApiSourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceLoggingConfig",
+		"@cdktn/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceLoggingConfig",
 		reflect.TypeOf((*EventarcGoogleApiSourceLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceLoggingConfigOutputReference",
+		"@cdktn/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceLoggingConfigOutputReference",
 		reflect.TypeOf((*EventarcGoogleApiSourceLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceTimeouts",
+		"@cdktn/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceTimeouts",
 		reflect.TypeOf((*EventarcGoogleApiSourceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceTimeoutsOutputReference",
+		"@cdktn/provider-google.eventarcGoogleApiSource.EventarcGoogleApiSourceTimeoutsOutputReference",
 		reflect.TypeOf((*EventarcGoogleApiSourceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

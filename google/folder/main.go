@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package folder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.folder.Folder",
+		"@cdktn/provider-google.folder.Folder",
 		reflect.TypeOf((*Folder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.folder.FolderConfig",
+		"@cdktn/provider-google.folder.FolderConfig",
 		reflect.TypeOf((*FolderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.folder.FolderTimeouts",
+		"@cdktn/provider-google.folder.FolderTimeouts",
 		reflect.TypeOf((*FolderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.folder.FolderTimeoutsOutputReference",
+		"@cdktn/provider-google.folder.FolderTimeoutsOutputReference",
 		reflect.TypeOf((*FolderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

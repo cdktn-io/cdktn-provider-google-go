@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeendpointattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apigeeendpointattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeendpointattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -469,7 +469,7 @@ func NewApigeeEndpointAttachment(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ApigeeEndpointAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,7 +482,7 @@ func NewApigeeEndpointAttachment_Override(a ApigeeEndpointAttachment, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -621,7 +621,7 @@ func ApigeeEndpointAttachment_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -656,7 +656,7 @@ func ApigeeEndpointAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func ApigeeEndpointAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func ApigeeEndpointAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func ApigeeEndpointAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
+		"@cdktn/provider-google.apigeeEndpointAttachment.ApigeeEndpointAttachment",
 		"tfResourceType",
 		&returns,
 	)

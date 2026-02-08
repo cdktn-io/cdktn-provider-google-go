@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tagslocationtagbinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsLocationTagBinding.TagsLocationTagBinding",
+		"@cdktn/provider-google.tagsLocationTagBinding.TagsLocationTagBinding",
 		reflect.TypeOf((*TagsLocationTagBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsLocationTagBinding.TagsLocationTagBindingConfig",
+		"@cdktn/provider-google.tagsLocationTagBinding.TagsLocationTagBindingConfig",
 		reflect.TypeOf((*TagsLocationTagBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsLocationTagBinding.TagsLocationTagBindingTimeouts",
+		"@cdktn/provider-google.tagsLocationTagBinding.TagsLocationTagBindingTimeouts",
 		reflect.TypeOf((*TagsLocationTagBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsLocationTagBinding.TagsLocationTagBindingTimeoutsOutputReference",
+		"@cdktn/provider-google.tagsLocationTagBinding.TagsLocationTagBindingTimeoutsOutputReference",
 		reflect.TypeOf((*TagsLocationTagBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

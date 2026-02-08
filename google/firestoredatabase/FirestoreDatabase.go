@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestoredatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/firestoredatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firestoredatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -706,7 +706,7 @@ func NewFirestoreDatabase(scope constructs.Construct, id *string, config *Firest
 	j := jsiiProxy_FirestoreDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -719,7 +719,7 @@ func NewFirestoreDatabase_Override(f FirestoreDatabase, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -935,7 +935,7 @@ func FirestoreDatabase_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -970,7 +970,7 @@ func FirestoreDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +989,7 @@ func FirestoreDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1008,7 +1008,7 @@ func FirestoreDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1021,7 +1021,7 @@ func FirestoreDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		"tfResourceType",
 		&returns,
 	)

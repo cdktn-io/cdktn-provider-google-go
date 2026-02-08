@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudrunservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudrunservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -521,7 +521,7 @@ func NewCloudRunService(scope constructs.Construct, id *string, config *CloudRun
 	j := jsiiProxy_CloudRunService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -534,7 +534,7 @@ func NewCloudRunService_Override(c CloudRunService, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -673,7 +673,7 @@ func CloudRunService_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -708,7 +708,7 @@ func CloudRunService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -727,7 +727,7 @@ func CloudRunService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func CloudRunService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func CloudRunService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudRunService.CloudRunService",
+		"@cdktn/provider-google.cloudRunService.CloudRunService",
 		"tfResourceType",
 		&returns,
 	)

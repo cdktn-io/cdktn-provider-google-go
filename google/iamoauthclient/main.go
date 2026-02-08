@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamoauthclient
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamOauthClient.IamOauthClient",
+		"@cdktn/provider-google.iamOauthClient.IamOauthClient",
 		reflect.TypeOf((*IamOauthClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamOauthClient.IamOauthClientConfig",
+		"@cdktn/provider-google.iamOauthClient.IamOauthClientConfig",
 		reflect.TypeOf((*IamOauthClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamOauthClient.IamOauthClientTimeouts",
+		"@cdktn/provider-google.iamOauthClient.IamOauthClientTimeouts",
 		reflect.TypeOf((*IamOauthClientTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamOauthClient.IamOauthClientTimeoutsOutputReference",
+		"@cdktn/provider-google.iamOauthClient.IamOauthClientTimeoutsOutputReference",
 		reflect.TypeOf((*IamOauthClientTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

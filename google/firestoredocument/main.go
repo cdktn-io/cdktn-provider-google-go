@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestoredocument
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreDocument.FirestoreDocument",
+		"@cdktn/provider-google.firestoreDocument.FirestoreDocument",
 		reflect.TypeOf((*FirestoreDocument)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreDocument.FirestoreDocumentConfig",
+		"@cdktn/provider-google.firestoreDocument.FirestoreDocumentConfig",
 		reflect.TypeOf((*FirestoreDocumentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreDocument.FirestoreDocumentTimeouts",
+		"@cdktn/provider-google.firestoreDocument.FirestoreDocumentTimeouts",
 		reflect.TypeOf((*FirestoreDocumentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreDocument.FirestoreDocumentTimeoutsOutputReference",
+		"@cdktn/provider-google.firestoreDocument.FirestoreDocumentTimeoutsOutputReference",
 		reflect.TypeOf((*FirestoreDocumentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

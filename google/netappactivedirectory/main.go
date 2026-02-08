@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappactivedirectory
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectory",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectory",
 		reflect.TypeOf((*NetappActiveDirectory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -131,15 +131,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectoryConfig",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectoryConfig",
 		reflect.TypeOf((*NetappActiveDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectoryTimeouts",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectoryTimeouts",
 		reflect.TypeOf((*NetappActiveDirectoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappActiveDirectory.NetappActiveDirectoryTimeoutsOutputReference",
+		"@cdktn/provider-google.netappActiveDirectory.NetappActiveDirectoryTimeoutsOutputReference",
 		reflect.TypeOf((*NetappActiveDirectoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

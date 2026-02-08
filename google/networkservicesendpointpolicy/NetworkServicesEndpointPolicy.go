@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicesendpointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/networkservicesendpointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicesendpointpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -625,7 +625,7 @@ func NewNetworkServicesEndpointPolicy(scope constructs.Construct, id *string, co
 	j := jsiiProxy_NetworkServicesEndpointPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,7 +638,7 @@ func NewNetworkServicesEndpointPolicy_Override(n NetworkServicesEndpointPolicy, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -821,7 +821,7 @@ func NetworkServicesEndpointPolicy_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -856,7 +856,7 @@ func NetworkServicesEndpointPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -875,7 +875,7 @@ func NetworkServicesEndpointPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -894,7 +894,7 @@ func NetworkServicesEndpointPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func NetworkServicesEndpointPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
+		"@cdktn/provider-google.networkServicesEndpointPolicy.NetworkServicesEndpointPolicy",
 		"tfResourceType",
 		&returns,
 	)

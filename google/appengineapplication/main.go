@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appengineapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplication",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplication",
 		reflect.TypeOf((*AppEngineApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationConfig",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationConfig",
 		reflect.TypeOf((*AppEngineApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationFeatureSettings",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationFeatureSettings",
 		reflect.TypeOf((*AppEngineApplicationFeatureSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationFeatureSettingsOutputReference",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationFeatureSettingsOutputReference",
 		reflect.TypeOf((*AppEngineApplicationFeatureSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationIap",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationIap",
 		reflect.TypeOf((*AppEngineApplicationIap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationIapOutputReference",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationIapOutputReference",
 		reflect.TypeOf((*AppEngineApplicationIapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationTimeouts",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationTimeouts",
 		reflect.TypeOf((*AppEngineApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationTimeoutsOutputReference",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*AppEngineApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationUrlDispatchRule",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationUrlDispatchRule",
 		reflect.TypeOf((*AppEngineApplicationUrlDispatchRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationUrlDispatchRuleList",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationUrlDispatchRuleList",
 		reflect.TypeOf((*AppEngineApplicationUrlDispatchRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -252,7 +252,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineApplication.AppEngineApplicationUrlDispatchRuleOutputReference",
+		"@cdktn/provider-google.appEngineApplication.AppEngineApplicationUrlDispatchRuleOutputReference",
 		reflect.TypeOf((*AppEngineApplicationUrlDispatchRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

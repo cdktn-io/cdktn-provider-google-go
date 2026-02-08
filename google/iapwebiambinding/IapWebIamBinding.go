@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapwebiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iapwebiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iapwebiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewIapWebIamBinding(scope constructs.Construct, id *string, config *IapWebI
 	j := jsiiProxy_IapWebIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewIapWebIamBinding_Override(i IapWebIamBinding, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -566,7 +566,7 @@ func IapWebIamBinding_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func IapWebIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func IapWebIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func IapWebIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func IapWebIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iapWebIamBinding.IapWebIamBinding",
+		"@cdktn/provider-google.iapWebIamBinding.IapWebIamBinding",
 		"tfResourceType",
 		&returns,
 	)

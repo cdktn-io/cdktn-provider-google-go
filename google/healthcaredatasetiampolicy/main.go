@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredatasetiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDatasetIamPolicy.HealthcareDatasetIamPolicy",
+		"@cdktn/provider-google.healthcareDatasetIamPolicy.HealthcareDatasetIamPolicy",
 		reflect.TypeOf((*HealthcareDatasetIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDatasetIamPolicy.HealthcareDatasetIamPolicyConfig",
+		"@cdktn/provider-google.healthcareDatasetIamPolicy.HealthcareDatasetIamPolicyConfig",
 		reflect.TypeOf((*HealthcareDatasetIamPolicyConfig)(nil)).Elem(),
 	)
 }

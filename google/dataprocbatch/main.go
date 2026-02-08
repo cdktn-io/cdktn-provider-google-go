@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocbatch
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatch",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatch",
 		reflect.TypeOf((*DataprocBatch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -118,23 +118,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchConfig",
 		reflect.TypeOf((*DataprocBatchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfig",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfig",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigExecutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfig",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigExecutionConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigExecutionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationConfig", GoGetter: "AuthenticationConfig"},
@@ -226,7 +226,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfig",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigPeripheralsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigPeripheralsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -309,11 +309,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -348,11 +348,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchPysparkBatch",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchPysparkBatch",
 		reflect.TypeOf((*DataprocBatchPysparkBatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchPysparkBatchOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchPysparkBatchOutputReference",
 		reflect.TypeOf((*DataprocBatchPysparkBatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveUris", GoGetter: "ArchiveUris"},
@@ -402,15 +402,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeConfig",
 		reflect.TypeOf((*DataprocBatchRuntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeConfigAutotuningConfig",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeConfigAutotuningConfig",
 		reflect.TypeOf((*DataprocBatchRuntimeConfigAutotuningConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeConfigAutotuningConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeConfigAutotuningConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchRuntimeConfigAutotuningConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -445,7 +445,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeConfigOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeConfigOutputReference",
 		reflect.TypeOf((*DataprocBatchRuntimeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autotuningConfig", GoGetter: "AutotuningConfig"},
@@ -494,15 +494,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfo",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfo",
 		reflect.TypeOf((*DataprocBatchRuntimeInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoApproximateUsage",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoApproximateUsage",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoApproximateUsage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoApproximateUsageList",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoApproximateUsageList",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoApproximateUsageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -523,7 +523,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoApproximateUsageOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoApproximateUsageOutputReference",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoApproximateUsageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
@@ -559,11 +559,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoCurrentUsage",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoCurrentUsage",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoCurrentUsage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoCurrentUsageList",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoCurrentUsageList",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoCurrentUsageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -584,7 +584,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoCurrentUsageOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoCurrentUsageOutputReference",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoCurrentUsageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
@@ -623,7 +623,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoList",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoList",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -644,7 +644,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchRuntimeInfoOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchRuntimeInfoOutputReference",
 		reflect.TypeOf((*DataprocBatchRuntimeInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approximateUsage", GoGetter: "ApproximateUsage"},
@@ -681,11 +681,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchSparkBatch",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchSparkBatch",
 		reflect.TypeOf((*DataprocBatchSparkBatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchSparkBatchOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchSparkBatchOutputReference",
 		reflect.TypeOf((*DataprocBatchSparkBatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveUris", GoGetter: "ArchiveUris"},
@@ -735,11 +735,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchSparkRBatch",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchSparkRBatch",
 		reflect.TypeOf((*DataprocBatchSparkRBatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchSparkRBatchOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchSparkRBatchOutputReference",
 		reflect.TypeOf((*DataprocBatchSparkRBatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveUris", GoGetter: "ArchiveUris"},
@@ -783,11 +783,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchSparkSqlBatch",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchSparkSqlBatch",
 		reflect.TypeOf((*DataprocBatchSparkSqlBatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchSparkSqlBatchOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchSparkSqlBatchOutputReference",
 		reflect.TypeOf((*DataprocBatchSparkSqlBatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -828,11 +828,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchStateHistory",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchStateHistory",
 		reflect.TypeOf((*DataprocBatchStateHistory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchStateHistoryList",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchStateHistoryList",
 		reflect.TypeOf((*DataprocBatchStateHistoryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -853,7 +853,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchStateHistoryOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchStateHistoryOutputReference",
 		reflect.TypeOf((*DataprocBatchStateHistoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -888,11 +888,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchTimeouts",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchTimeouts",
 		reflect.TypeOf((*DataprocBatchTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocBatch.DataprocBatchTimeoutsOutputReference",
+		"@cdktn/provider-google.dataprocBatch.DataprocBatchTimeoutsOutputReference",
 		reflect.TypeOf((*DataprocBatchTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

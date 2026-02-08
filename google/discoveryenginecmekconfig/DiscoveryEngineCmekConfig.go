@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package discoveryenginecmekconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/discoveryenginecmekconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/discoveryenginecmekconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -552,7 +552,7 @@ func NewDiscoveryEngineCmekConfig(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DiscoveryEngineCmekConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,7 +565,7 @@ func NewDiscoveryEngineCmekConfig_Override(d DiscoveryEngineCmekConfig, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -715,7 +715,7 @@ func DiscoveryEngineCmekConfig_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -750,7 +750,7 @@ func DiscoveryEngineCmekConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func DiscoveryEngineCmekConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -788,7 +788,7 @@ func DiscoveryEngineCmekConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func DiscoveryEngineCmekConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
+		"@cdktn/provider-google.discoveryEngineCmekConfig.DiscoveryEngineCmekConfig",
 		"tfResourceType",
 		&returns,
 	)

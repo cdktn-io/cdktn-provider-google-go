@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package secretmanagerregionalsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/secretmanagerregionalsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/secretmanagerregionalsecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSecretManagerRegionalSecretTopicsList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_SecretManagerRegionalSecretTopicsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secretManagerRegionalSecret.SecretManagerRegionalSecretTopicsList",
+		"@cdktn/provider-google.secretManagerRegionalSecret.SecretManagerRegionalSecretTopicsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSecretManagerRegionalSecretTopicsList_Override(s SecretManagerRegionalSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secretManagerRegionalSecret.SecretManagerRegionalSecretTopicsList",
+		"@cdktn/provider-google.secretManagerRegionalSecret.SecretManagerRegionalSecretTopicsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

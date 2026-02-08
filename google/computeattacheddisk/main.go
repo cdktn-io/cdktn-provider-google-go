@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeattacheddisk
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeAttachedDisk.ComputeAttachedDisk",
+		"@cdktn/provider-google.computeAttachedDisk.ComputeAttachedDisk",
 		reflect.TypeOf((*ComputeAttachedDisk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeAttachedDisk.ComputeAttachedDiskConfig",
+		"@cdktn/provider-google.computeAttachedDisk.ComputeAttachedDiskConfig",
 		reflect.TypeOf((*ComputeAttachedDiskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeAttachedDisk.ComputeAttachedDiskTimeouts",
+		"@cdktn/provider-google.computeAttachedDisk.ComputeAttachedDiskTimeouts",
 		reflect.TypeOf((*ComputeAttachedDiskTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeAttachedDisk.ComputeAttachedDiskTimeoutsOutputReference",
+		"@cdktn/provider-google.computeAttachedDisk.ComputeAttachedDiskTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeAttachedDiskTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

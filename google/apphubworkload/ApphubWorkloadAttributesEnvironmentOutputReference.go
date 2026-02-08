@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apphubworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apphubworkload/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apphubworkload/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewApphubWorkloadAttributesEnvironmentOutputReference(terraformResource cdk
 	j := jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apphubWorkload.ApphubWorkloadAttributesEnvironmentOutputReference",
+		"@cdktn/provider-google.apphubWorkload.ApphubWorkloadAttributesEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewApphubWorkloadAttributesEnvironmentOutputReference_Override(a ApphubWork
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apphubWorkload.ApphubWorkloadAttributesEnvironmentOutputReference",
+		"@cdktn/provider-google.apphubWorkload.ApphubWorkloadAttributesEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

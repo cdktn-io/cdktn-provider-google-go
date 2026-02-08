@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alloydbuser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbUser.AlloydbUser",
+		"@cdktn/provider-google.alloydbUser.AlloydbUser",
 		reflect.TypeOf((*AlloydbUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbUser.AlloydbUserConfig",
+		"@cdktn/provider-google.alloydbUser.AlloydbUserConfig",
 		reflect.TypeOf((*AlloydbUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbUser.AlloydbUserTimeouts",
+		"@cdktn/provider-google.alloydbUser.AlloydbUserTimeouts",
 		reflect.TypeOf((*AlloydbUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbUser.AlloydbUserTimeoutsOutputReference",
+		"@cdktn/provider-google.alloydbUser.AlloydbUserTimeoutsOutputReference",
 		reflect.TypeOf((*AlloydbUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

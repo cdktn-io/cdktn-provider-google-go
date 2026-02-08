@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeorganization
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganization",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganization",
 		reflect.TypeOf((*ApigeeOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationConfig",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationConfig",
 		reflect.TypeOf((*ApigeeOrganizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationProperties",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationProperties",
 		reflect.TypeOf((*ApigeeOrganizationProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesOutputReference",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesOutputReference",
 		reflect.TypeOf((*ApigeeOrganizationPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesProperty",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesProperty",
 		reflect.TypeOf((*ApigeeOrganizationPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesPropertyList",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesPropertyList",
 		reflect.TypeOf((*ApigeeOrganizationPropertiesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -186,7 +186,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesPropertyOutputReference",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationPropertiesPropertyOutputReference",
 		reflect.TypeOf((*ApigeeOrganizationPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationTimeouts",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationTimeouts",
 		reflect.TypeOf((*ApigeeOrganizationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeOrganization.ApigeeOrganizationTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeOrganization.ApigeeOrganizationTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeOrganizationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

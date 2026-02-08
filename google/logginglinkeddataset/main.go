@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logginglinkeddataset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDataset",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDataset",
 		reflect.TypeOf((*LoggingLinkedDataset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,11 +90,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDatasetBigqueryDataset",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDatasetBigqueryDataset",
 		reflect.TypeOf((*LoggingLinkedDatasetBigqueryDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDatasetBigqueryDatasetList",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDatasetBigqueryDatasetList",
 		reflect.TypeOf((*LoggingLinkedDatasetBigqueryDatasetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDatasetBigqueryDatasetOutputReference",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDatasetBigqueryDatasetOutputReference",
 		reflect.TypeOf((*LoggingLinkedDatasetBigqueryDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,15 +149,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDatasetConfig",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDatasetConfig",
 		reflect.TypeOf((*LoggingLinkedDatasetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDatasetTimeouts",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDatasetTimeouts",
 		reflect.TypeOf((*LoggingLinkedDatasetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLinkedDataset.LoggingLinkedDatasetTimeoutsOutputReference",
+		"@cdktn/provider-google.loggingLinkedDataset.LoggingLinkedDatasetTimeoutsOutputReference",
 		reflect.TypeOf((*LoggingLinkedDatasetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

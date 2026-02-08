@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenetworkpeering
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetworkPeering.ComputeNetworkPeering",
+		"@cdktn/provider-google.computeNetworkPeering.ComputeNetworkPeering",
 		reflect.TypeOf((*ComputeNetworkPeering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetworkPeering.ComputeNetworkPeeringConfig",
+		"@cdktn/provider-google.computeNetworkPeering.ComputeNetworkPeeringConfig",
 		reflect.TypeOf((*ComputeNetworkPeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetworkPeering.ComputeNetworkPeeringTimeouts",
+		"@cdktn/provider-google.computeNetworkPeering.ComputeNetworkPeeringTimeouts",
 		reflect.TypeOf((*ComputeNetworkPeeringTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetworkPeering.ComputeNetworkPeeringTimeoutsOutputReference",
+		"@cdktn/provider-google.computeNetworkPeering.ComputeNetworkPeeringTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeNetworkPeeringTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

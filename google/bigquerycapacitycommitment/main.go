@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigquerycapacitycommitment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitment",
+		"@cdktn/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitment",
 		reflect.TypeOf((*BigqueryCapacityCommitment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitmentConfig",
+		"@cdktn/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitmentConfig",
 		reflect.TypeOf((*BigqueryCapacityCommitmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitmentTimeouts",
+		"@cdktn/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitmentTimeouts",
 		reflect.TypeOf((*BigqueryCapacityCommitmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitmentTimeoutsOutputReference",
+		"@cdktn/provider-google.bigqueryCapacityCommitment.BigqueryCapacityCommitmentTimeoutsOutputReference",
 		reflect.TypeOf((*BigqueryCapacityCommitmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

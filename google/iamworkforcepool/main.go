@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamworkforcepool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePool",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePool",
 		reflect.TypeOf((*IamWorkforcePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRestrictions", GoGetter: "AccessRestrictions"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictions",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictions",
 		reflect.TypeOf((*IamWorkforcePoolAccessRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsAllowedServices",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsAllowedServices",
 		reflect.TypeOf((*IamWorkforcePoolAccessRestrictionsAllowedServices)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsAllowedServicesList",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsAllowedServicesList",
 		reflect.TypeOf((*IamWorkforcePoolAccessRestrictionsAllowedServicesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsAllowedServicesOutputReference",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsAllowedServicesOutputReference",
 		reflect.TypeOf((*IamWorkforcePoolAccessRestrictionsAllowedServicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,7 +159,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsOutputReference",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolAccessRestrictionsOutputReference",
 		reflect.TypeOf((*IamWorkforcePoolAccessRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedServices", GoGetter: "AllowedServices"},
@@ -198,15 +198,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolConfig",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolConfig",
 		reflect.TypeOf((*IamWorkforcePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolTimeouts",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolTimeouts",
 		reflect.TypeOf((*IamWorkforcePoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePool.IamWorkforcePoolTimeoutsOutputReference",
+		"@cdktn/provider-google.iamWorkforcePool.IamWorkforcePoolTimeoutsOutputReference",
 		reflect.TypeOf((*IamWorkforcePoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

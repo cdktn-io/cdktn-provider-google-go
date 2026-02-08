@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package transcoderjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/transcoderjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/transcoderjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewTranscoderJobConfigMuxStreamsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_TranscoderJobConfigMuxStreamsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.transcoderJob.TranscoderJobConfigMuxStreamsOutputReference",
+		"@cdktn/provider-google.transcoderJob.TranscoderJobConfigMuxStreamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewTranscoderJobConfigMuxStreamsOutputReference_Override(t TranscoderJobCon
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.transcoderJob.TranscoderJobConfigMuxStreamsOutputReference",
+		"@cdktn/provider-google.transcoderJob.TranscoderJobConfigMuxStreamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		t,
 	)

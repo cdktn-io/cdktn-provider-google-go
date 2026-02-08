@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccsource
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccSource.SccSource",
+		"@cdktn/provider-google.sccSource.SccSource",
 		reflect.TypeOf((*SccSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccSource.SccSourceConfig",
+		"@cdktn/provider-google.sccSource.SccSourceConfig",
 		reflect.TypeOf((*SccSourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccSource.SccSourceTimeouts",
+		"@cdktn/provider-google.sccSource.SccSourceTimeouts",
 		reflect.TypeOf((*SccSourceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccSource.SccSourceTimeoutsOutputReference",
+		"@cdktn/provider-google.sccSource.SccSourceTimeoutsOutputReference",
 		reflect.TypeOf((*SccSourceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

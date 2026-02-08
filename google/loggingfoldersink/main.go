@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingfoldersink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSink",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSink",
 		reflect.TypeOf((*LoggingFolderSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,11 +96,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSinkBigqueryOptions",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSinkBigqueryOptions",
 		reflect.TypeOf((*LoggingFolderSinkBigqueryOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSinkBigqueryOptionsOutputReference",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSinkBigqueryOptionsOutputReference",
 		reflect.TypeOf((*LoggingFolderSinkBigqueryOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,15 +134,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSinkConfig",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSinkConfig",
 		reflect.TypeOf((*LoggingFolderSinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSinkExclusions",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSinkExclusions",
 		reflect.TypeOf((*LoggingFolderSinkExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSinkExclusionsList",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSinkExclusionsList",
 		reflect.TypeOf((*LoggingFolderSinkExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingFolderSink.LoggingFolderSinkExclusionsOutputReference",
+		"@cdktn/provider-google.loggingFolderSink.LoggingFolderSinkExclusionsOutputReference",
 		reflect.TypeOf((*LoggingFolderSinkExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

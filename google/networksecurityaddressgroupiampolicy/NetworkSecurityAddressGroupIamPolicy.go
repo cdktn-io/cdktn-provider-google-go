@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecurityaddressgroupiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/networksecurityaddressgroupiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networksecurityaddressgroupiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewNetworkSecurityAddressGroupIamPolicy(scope constructs.Construct, id *str
 	j := jsiiProxy_NetworkSecurityAddressGroupIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewNetworkSecurityAddressGroupIamPolicy_Override(n NetworkSecurityAddressGr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -577,7 +577,7 @@ func NetworkSecurityAddressGroupIamPolicy_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func NetworkSecurityAddressGroupIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func NetworkSecurityAddressGroupIamPolicy_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func NetworkSecurityAddressGroupIamPolicy_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func NetworkSecurityAddressGroupIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
+		"@cdktn/provider-google.networkSecurityAddressGroupIamPolicy.NetworkSecurityAddressGroupIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

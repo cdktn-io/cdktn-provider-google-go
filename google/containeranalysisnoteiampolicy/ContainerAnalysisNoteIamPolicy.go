@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containeranalysisnoteiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/containeranalysisnoteiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containeranalysisnoteiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewContainerAnalysisNoteIamPolicy(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ContainerAnalysisNoteIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewContainerAnalysisNoteIamPolicy_Override(c ContainerAnalysisNoteIamPolicy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -542,7 +542,7 @@ func ContainerAnalysisNoteIamPolicy_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func ContainerAnalysisNoteIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func ContainerAnalysisNoteIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func ContainerAnalysisNoteIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func ContainerAnalysisNoteIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
+		"@cdktn/provider-google.containerAnalysisNoteIamPolicy.ContainerAnalysisNoteIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

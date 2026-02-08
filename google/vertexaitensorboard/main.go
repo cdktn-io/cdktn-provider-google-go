@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vertexaitensorboard
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vertexAiTensorboard.VertexAiTensorboard",
+		"@cdktn/provider-google.vertexAiTensorboard.VertexAiTensorboard",
 		reflect.TypeOf((*VertexAiTensorboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vertexAiTensorboard.VertexAiTensorboardConfig",
+		"@cdktn/provider-google.vertexAiTensorboard.VertexAiTensorboardConfig",
 		reflect.TypeOf((*VertexAiTensorboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vertexAiTensorboard.VertexAiTensorboardEncryptionSpec",
+		"@cdktn/provider-google.vertexAiTensorboard.VertexAiTensorboardEncryptionSpec",
 		reflect.TypeOf((*VertexAiTensorboardEncryptionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vertexAiTensorboard.VertexAiTensorboardEncryptionSpecOutputReference",
+		"@cdktn/provider-google.vertexAiTensorboard.VertexAiTensorboardEncryptionSpecOutputReference",
 		reflect.TypeOf((*VertexAiTensorboardEncryptionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vertexAiTensorboard.VertexAiTensorboardTimeouts",
+		"@cdktn/provider-google.vertexAiTensorboard.VertexAiTensorboardTimeouts",
 		reflect.TypeOf((*VertexAiTensorboardTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vertexAiTensorboard.VertexAiTensorboardTimeoutsOutputReference",
+		"@cdktn/provider-google.vertexAiTensorboard.VertexAiTensorboardTimeoutsOutputReference",
 		reflect.TypeOf((*VertexAiTensorboardTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

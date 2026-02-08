@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lustreinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		reflect.TypeOf((*LustreInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.lustreInstance.LustreInstanceConfig",
+		"@cdktn/provider-google.lustreInstance.LustreInstanceConfig",
 		reflect.TypeOf((*LustreInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.lustreInstance.LustreInstanceTimeouts",
+		"@cdktn/provider-google.lustreInstance.LustreInstanceTimeouts",
 		reflect.TypeOf((*LustreInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.lustreInstance.LustreInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.lustreInstance.LustreInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*LustreInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

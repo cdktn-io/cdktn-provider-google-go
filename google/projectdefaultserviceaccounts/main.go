@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectdefaultserviceaccounts
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccounts",
+		"@cdktn/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccounts",
 		reflect.TypeOf((*ProjectDefaultServiceAccounts)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccountsConfig",
+		"@cdktn/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccountsConfig",
 		reflect.TypeOf((*ProjectDefaultServiceAccountsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccountsTimeouts",
+		"@cdktn/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccountsTimeouts",
 		reflect.TypeOf((*ProjectDefaultServiceAccountsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccountsTimeoutsOutputReference",
+		"@cdktn/provider-google.projectDefaultServiceAccounts.ProjectDefaultServiceAccountsTimeoutsOutputReference",
 		reflect.TypeOf((*ProjectDefaultServiceAccountsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

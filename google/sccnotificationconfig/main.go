@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccnotificationconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccNotificationConfig.SccNotificationConfig",
+		"@cdktn/provider-google.sccNotificationConfig.SccNotificationConfig",
 		reflect.TypeOf((*SccNotificationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccNotificationConfig.SccNotificationConfigConfig",
+		"@cdktn/provider-google.sccNotificationConfig.SccNotificationConfigConfig",
 		reflect.TypeOf((*SccNotificationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccNotificationConfig.SccNotificationConfigStreamingConfig",
+		"@cdktn/provider-google.sccNotificationConfig.SccNotificationConfigStreamingConfig",
 		reflect.TypeOf((*SccNotificationConfigStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccNotificationConfig.SccNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google.sccNotificationConfig.SccNotificationConfigStreamingConfigOutputReference",
 		reflect.TypeOf((*SccNotificationConfigStreamingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccNotificationConfig.SccNotificationConfigTimeouts",
+		"@cdktn/provider-google.sccNotificationConfig.SccNotificationConfigTimeouts",
 		reflect.TypeOf((*SccNotificationConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccNotificationConfig.SccNotificationConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.sccNotificationConfig.SccNotificationConfigTimeoutsOutputReference",
 		reflect.TypeOf((*SccNotificationConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

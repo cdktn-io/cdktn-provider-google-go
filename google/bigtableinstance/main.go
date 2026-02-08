@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigtableinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstance",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstance",
 		reflect.TypeOf((*BigtableInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceCluster",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceCluster",
 		reflect.TypeOf((*BigtableInstanceCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceClusterAutoscalingConfig",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceClusterAutoscalingConfig",
 		reflect.TypeOf((*BigtableInstanceClusterAutoscalingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceClusterAutoscalingConfigOutputReference",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceClusterAutoscalingConfigOutputReference",
 		reflect.TypeOf((*BigtableInstanceClusterAutoscalingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,7 +145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceClusterList",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceClusterList",
 		reflect.TypeOf((*BigtableInstanceClusterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceClusterOutputReference",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceClusterOutputReference",
 		reflect.TypeOf((*BigtableInstanceClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoscalingConfig", GoGetter: "AutoscalingConfig"},
@@ -221,15 +221,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceConfig",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceConfig",
 		reflect.TypeOf((*BigtableInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceTimeouts",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceTimeouts",
 		reflect.TypeOf((*BigtableInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableInstance.BigtableInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.bigtableInstance.BigtableInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*BigtableInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcaccessconnector
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		reflect.TypeOf((*VpcAccessConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnectorConfig",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnectorConfig",
 		reflect.TypeOf((*VpcAccessConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnectorSubnet",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnectorSubnet",
 		reflect.TypeOf((*VpcAccessConnectorSubnet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnectorSubnetOutputReference",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnectorSubnetOutputReference",
 		reflect.TypeOf((*VpcAccessConnectorSubnetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnectorTimeouts",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnectorTimeouts",
 		reflect.TypeOf((*VpcAccessConnectorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnectorTimeoutsOutputReference",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnectorTimeoutsOutputReference",
 		reflect.TypeOf((*VpcAccessConnectorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

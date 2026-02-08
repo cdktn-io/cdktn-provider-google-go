@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computefirewallpolicywithrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computefirewallpolicywithrules/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computefirewallpolicywithrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewComputeFirewallPolicyWithRulesPredefinedRulesMatchList(terraformResource
 	j := jsiiProxy_ComputeFirewallPolicyWithRulesPredefinedRulesMatchList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeFirewallPolicyWithRules.ComputeFirewallPolicyWithRulesPredefinedRulesMatchList",
+		"@cdktn/provider-google.computeFirewallPolicyWithRules.ComputeFirewallPolicyWithRulesPredefinedRulesMatchList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewComputeFirewallPolicyWithRulesPredefinedRulesMatchList_Override(c Comput
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeFirewallPolicyWithRules.ComputeFirewallPolicyWithRulesPredefinedRulesMatchList",
+		"@cdktn/provider-google.computeFirewallPolicyWithRules.ComputeFirewallPolicyWithRulesPredefinedRulesMatchList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package filestoreinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstance",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstance",
 		reflect.TypeOf((*FilestoreInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceConfig",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceConfig",
 		reflect.TypeOf((*FilestoreInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplication",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplication",
 		reflect.TypeOf((*FilestoreInstanceEffectiveReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationList",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationList",
 		reflect.TypeOf((*FilestoreInstanceEffectiveReplicationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationOutputReference",
 		reflect.TypeOf((*FilestoreInstanceEffectiveReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationReplicas",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationReplicas",
 		reflect.TypeOf((*FilestoreInstanceEffectiveReplicationReplicas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationReplicasList",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationReplicasList",
 		reflect.TypeOf((*FilestoreInstanceEffectiveReplicationReplicasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -211,7 +211,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationReplicasOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceEffectiveReplicationReplicasOutputReference",
 		reflect.TypeOf((*FilestoreInstanceEffectiveReplicationReplicasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,15 +247,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceFileShares",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceFileShares",
 		reflect.TypeOf((*FilestoreInstanceFileShares)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceFileSharesNfsExportOptions",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceFileSharesNfsExportOptions",
 		reflect.TypeOf((*FilestoreInstanceFileSharesNfsExportOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceFileSharesNfsExportOptionsList",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceFileSharesNfsExportOptionsList",
 		reflect.TypeOf((*FilestoreInstanceFileSharesNfsExportOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -277,7 +277,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceFileSharesNfsExportOptionsOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceFileSharesNfsExportOptionsOutputReference",
 		reflect.TypeOf((*FilestoreInstanceFileSharesNfsExportOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessMode", GoGetter: "AccessMode"},
@@ -324,7 +324,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceFileSharesOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceFileSharesOutputReference",
 		reflect.TypeOf((*FilestoreInstanceFileSharesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityGb", GoGetter: "CapacityGb"},
@@ -367,11 +367,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceInitialReplication",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceInitialReplication",
 		reflect.TypeOf((*FilestoreInstanceInitialReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationOutputReference",
 		reflect.TypeOf((*FilestoreInstanceInitialReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -410,11 +410,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationReplicas",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationReplicas",
 		reflect.TypeOf((*FilestoreInstanceInitialReplicationReplicas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationReplicasList",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationReplicasList",
 		reflect.TypeOf((*FilestoreInstanceInitialReplicationReplicasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -436,7 +436,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationReplicasOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceInitialReplicationReplicasOutputReference",
 		reflect.TypeOf((*FilestoreInstanceInitialReplicationReplicasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -470,11 +470,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceNetworks",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceNetworks",
 		reflect.TypeOf((*FilestoreInstanceNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceNetworksList",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceNetworksList",
 		reflect.TypeOf((*FilestoreInstanceNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -496,7 +496,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceNetworksOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceNetworksOutputReference",
 		reflect.TypeOf((*FilestoreInstanceNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -539,15 +539,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstancePerformanceConfig",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstancePerformanceConfig",
 		reflect.TypeOf((*FilestoreInstancePerformanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigFixedIops",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigFixedIops",
 		reflect.TypeOf((*FilestoreInstancePerformanceConfigFixedIops)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigFixedIopsOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigFixedIopsOutputReference",
 		reflect.TypeOf((*FilestoreInstancePerformanceConfigFixedIopsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -582,11 +582,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigIopsPerTb",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigIopsPerTb",
 		reflect.TypeOf((*FilestoreInstancePerformanceConfigIopsPerTb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigIopsPerTbOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigIopsPerTbOutputReference",
 		reflect.TypeOf((*FilestoreInstancePerformanceConfigIopsPerTbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -621,7 +621,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstancePerformanceConfigOutputReference",
 		reflect.TypeOf((*FilestoreInstancePerformanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -661,11 +661,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceTimeouts",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceTimeouts",
 		reflect.TypeOf((*FilestoreInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.filestoreInstance.FilestoreInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.filestoreInstance.FilestoreInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*FilestoreInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

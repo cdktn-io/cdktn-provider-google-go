@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringcustomservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomService",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomService",
 		reflect.TypeOf((*MonitoringCustomService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceConfig",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceConfig",
 		reflect.TypeOf((*MonitoringCustomServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceTelemetry",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceTelemetry",
 		reflect.TypeOf((*MonitoringCustomServiceTelemetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceTelemetryOutputReference",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceTelemetryOutputReference",
 		reflect.TypeOf((*MonitoringCustomServiceTelemetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceTimeouts",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceTimeouts",
 		reflect.TypeOf((*MonitoringCustomServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceTimeoutsOutputReference",
 		reflect.TypeOf((*MonitoringCustomServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

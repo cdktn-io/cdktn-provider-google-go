@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package billingaccountiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingAccountIamBinding.BillingAccountIamBinding",
+		"@cdktn/provider-google.billingAccountIamBinding.BillingAccountIamBinding",
 		reflect.TypeOf((*BillingAccountIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingAccountIamBinding.BillingAccountIamBindingCondition",
+		"@cdktn/provider-google.billingAccountIamBinding.BillingAccountIamBindingCondition",
 		reflect.TypeOf((*BillingAccountIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingAccountIamBinding.BillingAccountIamBindingConditionOutputReference",
+		"@cdktn/provider-google.billingAccountIamBinding.BillingAccountIamBindingConditionOutputReference",
 		reflect.TypeOf((*BillingAccountIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingAccountIamBinding.BillingAccountIamBindingConfig",
+		"@cdktn/provider-google.billingAccountIamBinding.BillingAccountIamBindingConfig",
 		reflect.TypeOf((*BillingAccountIamBindingConfig)(nil)).Elem(),
 	)
 }

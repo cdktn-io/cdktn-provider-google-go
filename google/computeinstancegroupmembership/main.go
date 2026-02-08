@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstancegroupmembership
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembership",
 		reflect.TypeOf((*ComputeInstanceGroupMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembershipConfig",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembershipConfig",
 		reflect.TypeOf((*ComputeInstanceGroupMembershipConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembershipTimeouts",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembershipTimeouts",
 		reflect.TypeOf((*ComputeInstanceGroupMembershipTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembershipTimeoutsOutputReference",
+		"@cdktn/provider-google.computeInstanceGroupMembership.ComputeInstanceGroupMembershipTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeInstanceGroupMembershipTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

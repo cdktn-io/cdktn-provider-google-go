@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package colabruntimetemplateiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMember",
 		reflect.TypeOf((*ColabRuntimeTemplateIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMemberCondition",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMemberCondition",
 		reflect.TypeOf((*ColabRuntimeTemplateIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMemberConditionOutputReference",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMemberConditionOutputReference",
 		reflect.TypeOf((*ColabRuntimeTemplateIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMemberConfig",
+		"@cdktn/provider-google.colabRuntimeTemplateIamMember.ColabRuntimeTemplateIamMemberConfig",
 		reflect.TypeOf((*ColabRuntimeTemplateIamMemberConfig)(nil)).Elem(),
 	)
 }

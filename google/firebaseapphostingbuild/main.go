@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaseapphostingbuild
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuild",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuild",
 		reflect.TypeOf((*FirebaseAppHostingBuild)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildConfig",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildConfig",
 		reflect.TypeOf((*FirebaseAppHostingBuildConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildError",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildError",
 		reflect.TypeOf((*FirebaseAppHostingBuildError)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildErrorList",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildErrorList",
 		reflect.TypeOf((*FirebaseAppHostingBuildErrorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildErrorOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildErrorOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBuildErrorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -169,19 +169,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSource",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSource",
 		reflect.TypeOf((*FirebaseAppHostingBuildSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebase",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebase",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceCodebase)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseAuthor",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseAuthor",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceCodebaseAuthor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseAuthorList",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseAuthorList",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceCodebaseAuthorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -202,7 +202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseAuthorOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseAuthorOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceCodebaseAuthorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,7 +237,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceCodebaseOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceCodebaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "author", GoGetter: "Author"},
@@ -281,11 +281,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceContainer",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceContainer",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceContainerOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceContainerOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -319,7 +319,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildSourceOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBuildSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codebase", GoGetter: "Codebase"},
@@ -359,11 +359,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildTimeouts",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildTimeouts",
 		reflect.TypeOf((*FirebaseAppHostingBuildTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildTimeoutsOutputReference",
+		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuildTimeoutsOutputReference",
 		reflect.TypeOf((*FirebaseAppHostingBuildTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

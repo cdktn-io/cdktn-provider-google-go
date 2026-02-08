@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxenvironment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironment",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironment",
 		reflect.TypeOf((*DialogflowCxEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentConfig",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentConfig",
 		reflect.TypeOf((*DialogflowCxEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentTimeouts",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentTimeouts",
 		reflect.TypeOf((*DialogflowCxEnvironmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowCxEnvironmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentVersionConfigs",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentVersionConfigs",
 		reflect.TypeOf((*DialogflowCxEnvironmentVersionConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentVersionConfigsList",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentVersionConfigsList",
 		reflect.TypeOf((*DialogflowCxEnvironmentVersionConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentVersionConfigsOutputReference",
+		"@cdktn/provider-google.dialogflowCxEnvironment.DialogflowCxEnvironmentVersionConfigsOutputReference",
 		reflect.TypeOf((*DialogflowCxEnvironmentVersionConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

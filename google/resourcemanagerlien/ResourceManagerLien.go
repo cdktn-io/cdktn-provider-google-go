@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcemanagerlien
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/resourcemanagerlien/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/resourcemanagerlien/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -458,7 +458,7 @@ func NewResourceManagerLien(scope constructs.Construct, id *string, config *Reso
 	j := jsiiProxy_ResourceManagerLien{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,7 +471,7 @@ func NewResourceManagerLien_Override(r ResourceManagerLien, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -610,7 +610,7 @@ func ResourceManagerLien_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func ResourceManagerLien_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func ResourceManagerLien_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func ResourceManagerLien_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func ResourceManagerLien_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.resourceManagerLien.ResourceManagerLien",
+		"@cdktn/provider-google.resourceManagerLien.ResourceManagerLien",
 		"tfResourceType",
 		&returns,
 	)

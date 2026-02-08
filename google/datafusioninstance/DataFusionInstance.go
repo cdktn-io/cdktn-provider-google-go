@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafusioninstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datafusioninstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datafusioninstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -943,7 +943,7 @@ func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataF
 	j := jsiiProxy_DataFusionInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -956,7 +956,7 @@ func NewDataFusionInstance_Override(d DataFusionInstance, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1227,7 +1227,7 @@ func DataFusionInstance_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1262,7 +1262,7 @@ func DataFusionInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1281,7 +1281,7 @@ func DataFusionInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1300,7 +1300,7 @@ func DataFusionInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1313,7 +1313,7 @@ func DataFusionInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		"tfResourceType",
 		&returns,
 	)

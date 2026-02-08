@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apihubcuration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apihubcuration/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apihubcuration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -561,7 +561,7 @@ func NewApihubCuration(scope constructs.Construct, id *string, config *ApihubCur
 	j := jsiiProxy_ApihubCuration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -574,7 +574,7 @@ func NewApihubCuration_Override(a ApihubCuration, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -724,7 +724,7 @@ func ApihubCuration_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -759,7 +759,7 @@ func ApihubCuration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func ApihubCuration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -797,7 +797,7 @@ func ApihubCuration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -810,7 +810,7 @@ func ApihubCuration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagefolder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageFolder.StorageFolder",
+		"@cdktn/provider-google.storageFolder.StorageFolder",
 		reflect.TypeOf((*StorageFolder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageFolder.StorageFolderConfig",
+		"@cdktn/provider-google.storageFolder.StorageFolderConfig",
 		reflect.TypeOf((*StorageFolderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageFolder.StorageFolderTimeouts",
+		"@cdktn/provider-google.storageFolder.StorageFolderTimeouts",
 		reflect.TypeOf((*StorageFolderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageFolder.StorageFolderTimeoutsOutputReference",
+		"@cdktn/provider-google.storageFolder.StorageFolderTimeoutsOutputReference",
 		reflect.TypeOf((*StorageFolderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

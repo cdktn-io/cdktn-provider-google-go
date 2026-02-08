@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstanceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceIamPolicy.ComputeInstanceIamPolicy",
+		"@cdktn/provider-google.computeInstanceIamPolicy.ComputeInstanceIamPolicy",
 		reflect.TypeOf((*ComputeInstanceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceIamPolicy.ComputeInstanceIamPolicyConfig",
+		"@cdktn/provider-google.computeInstanceIamPolicy.ComputeInstanceIamPolicyConfig",
 		reflect.TypeOf((*ComputeInstanceIamPolicyConfig)(nil)).Elem(),
 	)
 }

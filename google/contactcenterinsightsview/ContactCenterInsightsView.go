@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package contactcenterinsightsview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/contactcenterinsightsview/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/contactcenterinsightsview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewContactCenterInsightsView(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ContactCenterInsightsView{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewContactCenterInsightsView_Override(c ContactCenterInsightsView, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -624,7 +624,7 @@ func ContactCenterInsightsView_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func ContactCenterInsightsView_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func ContactCenterInsightsView_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func ContactCenterInsightsView_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func ContactCenterInsightsView_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
+		"@cdktn/provider-google.contactCenterInsightsView.ContactCenterInsightsView",
 		"tfResourceType",
 		&returns,
 	)

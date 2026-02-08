@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminirepositorygroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroup",
 		reflect.TypeOf((*GeminiRepositoryGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupConfig",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupConfig",
 		reflect.TypeOf((*GeminiRepositoryGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupRepositories",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupRepositories",
 		reflect.TypeOf((*GeminiRepositoryGroupRepositories)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupRepositoriesList",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupRepositoriesList",
 		reflect.TypeOf((*GeminiRepositoryGroupRepositoriesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupRepositoriesOutputReference",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupRepositoriesOutputReference",
 		reflect.TypeOf((*GeminiRepositoryGroupRepositoriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branchPattern", GoGetter: "BranchPattern"},
@@ -156,11 +156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupTimeouts",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupTimeouts",
 		reflect.TypeOf((*GeminiRepositoryGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.geminiRepositoryGroup.GeminiRepositoryGroupTimeoutsOutputReference",
 		reflect.TypeOf((*GeminiRepositoryGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

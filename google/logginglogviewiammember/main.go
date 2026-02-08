@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logginglogviewiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLogViewIamMember.LoggingLogViewIamMember",
+		"@cdktn/provider-google.loggingLogViewIamMember.LoggingLogViewIamMember",
 		reflect.TypeOf((*LoggingLogViewIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,11 +84,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLogViewIamMember.LoggingLogViewIamMemberCondition",
+		"@cdktn/provider-google.loggingLogViewIamMember.LoggingLogViewIamMemberCondition",
 		reflect.TypeOf((*LoggingLogViewIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingLogViewIamMember.LoggingLogViewIamMemberConditionOutputReference",
+		"@cdktn/provider-google.loggingLogViewIamMember.LoggingLogViewIamMemberConditionOutputReference",
 		reflect.TypeOf((*LoggingLogViewIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingLogViewIamMember.LoggingLogViewIamMemberConfig",
+		"@cdktn/provider-google.loggingLogViewIamMember.LoggingLogViewIamMemberConfig",
 		reflect.TypeOf((*LoggingLogViewIamMemberConfig)(nil)).Elem(),
 	)
 }

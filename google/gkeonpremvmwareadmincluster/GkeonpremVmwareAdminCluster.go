@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkeonpremvmwareadmincluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkeonpremvmwareadmincluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkeonpremvmwareadmincluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -918,7 +918,7 @@ func NewGkeonpremVmwareAdminCluster(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GkeonpremVmwareAdminCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -931,7 +931,7 @@ func NewGkeonpremVmwareAdminCluster_Override(g GkeonpremVmwareAdminCluster, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1125,7 +1125,7 @@ func GkeonpremVmwareAdminCluster_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1160,7 +1160,7 @@ func GkeonpremVmwareAdminCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1179,7 +1179,7 @@ func GkeonpremVmwareAdminCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1198,7 +1198,7 @@ func GkeonpremVmwareAdminCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1211,7 +1211,7 @@ func GkeonpremVmwareAdminCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
+		"@cdktn/provider-google.gkeonpremVmwareAdminCluster.GkeonpremVmwareAdminCluster",
 		"tfResourceType",
 		&returns,
 	)

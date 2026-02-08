@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicenetworkingconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/servicenetworkingconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/servicenetworkingconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewServiceNetworkingConnection(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ServiceNetworkingConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewServiceNetworkingConnection_Override(s ServiceNetworkingConnection, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -635,7 +635,7 @@ func ServiceNetworkingConnection_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func ServiceNetworkingConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func ServiceNetworkingConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func ServiceNetworkingConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func ServiceNetworkingConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		"tfResourceType",
 		&returns,
 	)

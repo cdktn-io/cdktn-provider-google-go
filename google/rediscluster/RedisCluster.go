@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rediscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/rediscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/rediscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -955,7 +955,7 @@ func NewRedisCluster(scope constructs.Construct, id *string, config *RedisCluste
 	j := jsiiProxy_RedisCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -968,7 +968,7 @@ func NewRedisCluster_Override(r RedisCluster, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -1195,7 +1195,7 @@ func RedisCluster_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1230,7 +1230,7 @@ func RedisCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1249,7 +1249,7 @@ func RedisCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1268,7 +1268,7 @@ func RedisCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1281,7 +1281,7 @@ func RedisCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.redisCluster.RedisCluster",
+		"@cdktn/provider-google.redisCluster.RedisCluster",
 		"tfResourceType",
 		&returns,
 	)

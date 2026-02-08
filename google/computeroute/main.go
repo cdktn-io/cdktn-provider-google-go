@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeroute
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRoute",
+		"@cdktn/provider-google.computeRoute.ComputeRoute",
 		reflect.TypeOf((*ComputeRoute)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -122,11 +122,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRoute.ComputeRouteAsPaths",
+		"@cdktn/provider-google.computeRoute.ComputeRouteAsPaths",
 		reflect.TypeOf((*ComputeRouteAsPaths)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteAsPathsList",
+		"@cdktn/provider-google.computeRoute.ComputeRouteAsPathsList",
 		reflect.TypeOf((*ComputeRouteAsPathsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -147,7 +147,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteAsPathsOutputReference",
+		"@cdktn/provider-google.computeRoute.ComputeRouteAsPathsOutputReference",
 		reflect.TypeOf((*ComputeRouteAsPathsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asLists", GoGetter: "AsLists"},
@@ -181,15 +181,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRoute.ComputeRouteConfig",
+		"@cdktn/provider-google.computeRoute.ComputeRouteConfig",
 		reflect.TypeOf((*ComputeRouteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRoute.ComputeRouteParams",
+		"@cdktn/provider-google.computeRoute.ComputeRouteParams",
 		reflect.TypeOf((*ComputeRouteParams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteParamsOutputReference",
+		"@cdktn/provider-google.computeRoute.ComputeRouteParamsOutputReference",
 		reflect.TypeOf((*ComputeRouteParamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRoute.ComputeRouteTimeouts",
+		"@cdktn/provider-google.computeRoute.ComputeRouteTimeouts",
 		reflect.TypeOf((*ComputeRouteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRoute.ComputeRouteTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRouteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -266,15 +266,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRoute.ComputeRouteWarnings",
+		"@cdktn/provider-google.computeRoute.ComputeRouteWarnings",
 		reflect.TypeOf((*ComputeRouteWarnings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRoute.ComputeRouteWarningsData",
+		"@cdktn/provider-google.computeRoute.ComputeRouteWarningsData",
 		reflect.TypeOf((*ComputeRouteWarningsData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteWarningsDataList",
+		"@cdktn/provider-google.computeRoute.ComputeRouteWarningsDataList",
 		reflect.TypeOf((*ComputeRouteWarningsDataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -295,7 +295,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteWarningsDataOutputReference",
+		"@cdktn/provider-google.computeRoute.ComputeRouteWarningsDataOutputReference",
 		reflect.TypeOf((*ComputeRouteWarningsDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -329,7 +329,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteWarningsList",
+		"@cdktn/provider-google.computeRoute.ComputeRouteWarningsList",
 		reflect.TypeOf((*ComputeRouteWarningsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -350,7 +350,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRoute.ComputeRouteWarningsOutputReference",
+		"@cdktn/provider-google.computeRoute.ComputeRouteWarningsOutputReference",
 		reflect.TypeOf((*ComputeRouteWarningsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},

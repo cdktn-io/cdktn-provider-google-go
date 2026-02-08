@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleartifactregistrytags
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTags",
+		"@cdktn/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTags",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTags)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsConfig",
+		"@cdktn/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsConfig",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTagsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsTags",
+		"@cdktn/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsTags",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTagsTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsTagsList",
+		"@cdktn/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsTagsList",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTagsTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsTagsOutputReference",
+		"@cdktn/provider-google.dataGoogleArtifactRegistryTags.DataGoogleArtifactRegistryTagsTagsOutputReference",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTagsTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

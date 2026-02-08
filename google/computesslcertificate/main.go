@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computesslcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSslCertificate.ComputeSslCertificate",
+		"@cdktn/provider-google.computeSslCertificate.ComputeSslCertificate",
 		reflect.TypeOf((*ComputeSslCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSslCertificate.ComputeSslCertificateConfig",
+		"@cdktn/provider-google.computeSslCertificate.ComputeSslCertificateConfig",
 		reflect.TypeOf((*ComputeSslCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSslCertificate.ComputeSslCertificateTimeouts",
+		"@cdktn/provider-google.computeSslCertificate.ComputeSslCertificateTimeouts",
 		reflect.TypeOf((*ComputeSslCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSslCertificate.ComputeSslCertificateTimeoutsOutputReference",
+		"@cdktn/provider-google.computeSslCertificate.ComputeSslCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeSslCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

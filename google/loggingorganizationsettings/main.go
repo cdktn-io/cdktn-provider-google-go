@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingorganizationsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingOrganizationSettings.LoggingOrganizationSettings",
+		"@cdktn/provider-google.loggingOrganizationSettings.LoggingOrganizationSettings",
 		reflect.TypeOf((*LoggingOrganizationSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingOrganizationSettings.LoggingOrganizationSettingsConfig",
+		"@cdktn/provider-google.loggingOrganizationSettings.LoggingOrganizationSettingsConfig",
 		reflect.TypeOf((*LoggingOrganizationSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingOrganizationSettings.LoggingOrganizationSettingsTimeouts",
+		"@cdktn/provider-google.loggingOrganizationSettings.LoggingOrganizationSettingsTimeouts",
 		reflect.TypeOf((*LoggingOrganizationSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingOrganizationSettings.LoggingOrganizationSettingsTimeoutsOutputReference",
+		"@cdktn/provider-google.loggingOrganizationSettings.LoggingOrganizationSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*LoggingOrganizationSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

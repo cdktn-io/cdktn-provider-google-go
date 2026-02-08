@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataprocjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewDataprocJobPrestoConfigOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataprocJobPrestoConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocJob.DataprocJobPrestoConfigOutputReference",
+		"@cdktn/provider-google.dataprocJob.DataprocJobPrestoConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewDataprocJobPrestoConfigOutputReference_Override(d DataprocJobPrestoConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocJob.DataprocJobPrestoConfigOutputReference",
+		"@cdktn/provider-google.dataprocJob.DataprocJobPrestoConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

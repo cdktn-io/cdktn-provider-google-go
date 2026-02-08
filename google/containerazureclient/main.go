@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerazureclient
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		reflect.TypeOf((*ContainerAzureClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClientConfig",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClientConfig",
 		reflect.TypeOf((*ContainerAzureClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClientTimeouts",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClientTimeouts",
 		reflect.TypeOf((*ContainerAzureClientTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClientTimeoutsOutputReference",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClientTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAzureClientTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

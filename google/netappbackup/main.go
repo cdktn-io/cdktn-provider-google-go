@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappbackup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappBackup.NetappBackup",
+		"@cdktn/provider-google.netappBackup.NetappBackup",
 		reflect.TypeOf((*NetappBackup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappBackup.NetappBackupConfig",
+		"@cdktn/provider-google.netappBackup.NetappBackupConfig",
 		reflect.TypeOf((*NetappBackupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappBackup.NetappBackupTimeouts",
+		"@cdktn/provider-google.netappBackup.NetappBackupTimeouts",
 		reflect.TypeOf((*NetappBackupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappBackup.NetappBackupTimeoutsOutputReference",
+		"@cdktn/provider-google.netappBackup.NetappBackupTimeoutsOutputReference",
 		reflect.TypeOf((*NetappBackupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

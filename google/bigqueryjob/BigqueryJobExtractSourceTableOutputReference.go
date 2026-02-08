@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigqueryjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewBigqueryJobExtractSourceTableOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_BigqueryJobExtractSourceTableOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJobExtractSourceTableOutputReference",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJobExtractSourceTableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewBigqueryJobExtractSourceTableOutputReference_Override(b BigqueryJobExtra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJobExtractSourceTableOutputReference",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJobExtractSourceTableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

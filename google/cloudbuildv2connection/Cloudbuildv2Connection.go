@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudbuildv2connection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudbuildv2connection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudbuildv2connection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -648,7 +648,7 @@ func NewCloudbuildv2Connection(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_Cloudbuildv2Connection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -661,7 +661,7 @@ func NewCloudbuildv2Connection_Override(c Cloudbuildv2Connection, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -811,7 +811,7 @@ func Cloudbuildv2Connection_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -846,7 +846,7 @@ func Cloudbuildv2Connection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -865,7 +865,7 @@ func Cloudbuildv2Connection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func Cloudbuildv2Connection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func Cloudbuildv2Connection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
+		"@cdktn/provider-google.cloudbuildv2Connection.Cloudbuildv2Connection",
 		"tfResourceType",
 		&returns,
 	)

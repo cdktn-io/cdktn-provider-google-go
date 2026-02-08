@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apihubapihubinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubApiHubInstance.ApihubApiHubInstance",
+		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstance",
 		reflect.TypeOf((*ApihubApiHubInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubApiHubInstance.ApihubApiHubInstanceConfig",
+		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstanceConfig",
 		reflect.TypeOf((*ApihubApiHubInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubApiHubInstance.ApihubApiHubInstanceConfigA",
+		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstanceConfigA",
 		reflect.TypeOf((*ApihubApiHubInstanceConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubApiHubInstance.ApihubApiHubInstanceConfigAOutputReference",
+		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstanceConfigAOutputReference",
 		reflect.TypeOf((*ApihubApiHubInstanceConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cmekKeyName", GoGetter: "CmekKeyName"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubApiHubInstance.ApihubApiHubInstanceTimeouts",
+		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstanceTimeouts",
 		reflect.TypeOf((*ApihubApiHubInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubApiHubInstance.ApihubApiHubInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*ApihubApiHubInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

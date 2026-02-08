@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleorganizations
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleOrganizations.DataGoogleOrganizations",
+		"@cdktn/provider-google.dataGoogleOrganizations.DataGoogleOrganizations",
 		reflect.TypeOf((*DataGoogleOrganizations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,15 +62,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsConfig",
+		"@cdktn/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsConfig",
 		reflect.TypeOf((*DataGoogleOrganizationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsOrganizations",
+		"@cdktn/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsOrganizations",
 		reflect.TypeOf((*DataGoogleOrganizationsOrganizations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsOrganizationsList",
+		"@cdktn/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsOrganizationsList",
 		reflect.TypeOf((*DataGoogleOrganizationsOrganizationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsOrganizationsOutputReference",
+		"@cdktn/provider-google.dataGoogleOrganizations.DataGoogleOrganizationsOrganizationsOutputReference",
 		reflect.TypeOf((*DataGoogleOrganizationsOrganizationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

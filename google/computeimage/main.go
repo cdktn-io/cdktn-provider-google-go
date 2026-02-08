@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeimage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImage",
+		"@cdktn/provider-google.computeImage.ComputeImage",
 		reflect.TypeOf((*ComputeImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -136,15 +136,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageConfig",
+		"@cdktn/provider-google.computeImage.ComputeImageConfig",
 		reflect.TypeOf((*ComputeImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageGuestOsFeatures",
+		"@cdktn/provider-google.computeImage.ComputeImageGuestOsFeatures",
 		reflect.TypeOf((*ComputeImageGuestOsFeatures)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageGuestOsFeaturesList",
+		"@cdktn/provider-google.computeImage.ComputeImageGuestOsFeaturesList",
 		reflect.TypeOf((*ComputeImageGuestOsFeaturesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageGuestOsFeaturesOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageGuestOsFeaturesOutputReference",
 		reflect.TypeOf((*ComputeImageGuestOsFeaturesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageImageEncryptionKey",
+		"@cdktn/provider-google.computeImage.ComputeImageImageEncryptionKey",
 		reflect.TypeOf((*ComputeImageImageEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageImageEncryptionKeyOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageImageEncryptionKeyOutputReference",
 		reflect.TypeOf((*ComputeImageImageEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageRawDisk",
+		"@cdktn/provider-google.computeImage.ComputeImageRawDisk",
 		reflect.TypeOf((*ComputeImageRawDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageRawDiskOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageRawDiskOutputReference",
 		reflect.TypeOf((*ComputeImageRawDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -292,15 +292,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialState",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialState",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialState)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbs",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbs",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateDbs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbsList",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbsList",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateDbsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -322,7 +322,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbsOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbsOutputReference",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateDbsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -359,11 +359,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbxs",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbxs",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateDbxs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbxsList",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbxsList",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateDbxsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -385,7 +385,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbxsOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateDbxsOutputReference",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateDbxsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -422,11 +422,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateKeks",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateKeks",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateKeks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateKeksList",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateKeksList",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateKeksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -448,7 +448,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateKeksOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateKeksOutputReference",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateKeksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -485,7 +485,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStateOutputReference",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -533,11 +533,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStatePk",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStatePk",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStatePk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageShieldedInstanceInitialStatePkOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageShieldedInstanceInitialStatePkOutputReference",
 		reflect.TypeOf((*ComputeImageShieldedInstanceInitialStatePkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -574,11 +574,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageSourceDiskEncryptionKey",
+		"@cdktn/provider-google.computeImage.ComputeImageSourceDiskEncryptionKey",
 		reflect.TypeOf((*ComputeImageSourceDiskEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageSourceDiskEncryptionKeyOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageSourceDiskEncryptionKeyOutputReference",
 		reflect.TypeOf((*ComputeImageSourceDiskEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -622,11 +622,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageSourceImageEncryptionKey",
+		"@cdktn/provider-google.computeImage.ComputeImageSourceImageEncryptionKey",
 		reflect.TypeOf((*ComputeImageSourceImageEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageSourceImageEncryptionKeyOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageSourceImageEncryptionKeyOutputReference",
 		reflect.TypeOf((*ComputeImageSourceImageEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -670,11 +670,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageSourceSnapshotEncryptionKey",
+		"@cdktn/provider-google.computeImage.ComputeImageSourceSnapshotEncryptionKey",
 		reflect.TypeOf((*ComputeImageSourceSnapshotEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageSourceSnapshotEncryptionKeyOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageSourceSnapshotEncryptionKeyOutputReference",
 		reflect.TypeOf((*ComputeImageSourceSnapshotEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -718,11 +718,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImage.ComputeImageTimeouts",
+		"@cdktn/provider-google.computeImage.ComputeImageTimeouts",
 		reflect.TypeOf((*ComputeImageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImage.ComputeImageTimeoutsOutputReference",
+		"@cdktn/provider-google.computeImage.ComputeImageTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeImageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

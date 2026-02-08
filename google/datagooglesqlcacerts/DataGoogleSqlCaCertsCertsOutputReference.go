@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesqlcacerts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datagooglesqlcacerts/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglesqlcacerts/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -214,7 +214,7 @@ func NewDataGoogleSqlCaCertsCertsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataGoogleSqlCaCertsCertsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsOutputReference",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -226,7 +226,7 @@ func NewDataGoogleSqlCaCertsCertsOutputReference_Override(d DataGoogleSqlCaCerts
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsOutputReference",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

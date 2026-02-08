@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containeranalysisoccurrence
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/containeranalysisoccurrence/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containeranalysisoccurrence/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewContainerAnalysisOccurrenceAttestationOutputReference(terraformResource 
 	j := jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAnalysisOccurrence.ContainerAnalysisOccurrenceAttestationOutputReference",
+		"@cdktn/provider-google.containerAnalysisOccurrence.ContainerAnalysisOccurrenceAttestationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewContainerAnalysisOccurrenceAttestationOutputReference_Override(c Contain
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAnalysisOccurrence.ContainerAnalysisOccurrenceAttestationOutputReference",
+		"@cdktn/provider-google.containerAnalysisOccurrence.ContainerAnalysisOccurrenceAttestationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

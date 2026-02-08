@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsubschemaiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/pubsubschemaiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/pubsubschemaiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewPubsubSchemaIamPolicy(scope constructs.Construct, id *string, config *Pu
 	j := jsiiProxy_PubsubSchemaIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewPubsubSchemaIamPolicy_Override(p PubsubSchemaIamPolicy, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -542,7 +542,7 @@ func PubsubSchemaIamPolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func PubsubSchemaIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func PubsubSchemaIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func PubsubSchemaIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func PubsubSchemaIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
+		"@cdktn/provider-google.pubsubSchemaIamPolicy.PubsubSchemaIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

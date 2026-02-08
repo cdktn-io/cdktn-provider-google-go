@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappkmsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/netappkmsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/netappkmsconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -529,7 +529,7 @@ func NewNetappKmsconfig(scope constructs.Construct, id *string, config *NetappKm
 	j := jsiiProxy_NetappKmsconfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -542,7 +542,7 @@ func NewNetappKmsconfig_Override(n NetappKmsconfig, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -703,7 +703,7 @@ func NetappKmsconfig_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func NetappKmsconfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func NetappKmsconfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func NetappKmsconfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func NetappKmsconfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.netappKmsconfig.NetappKmsconfig",
+		"@cdktn/provider-google.netappKmsconfig.NetappKmsconfig",
 		"tfResourceType",
 		&returns,
 	)

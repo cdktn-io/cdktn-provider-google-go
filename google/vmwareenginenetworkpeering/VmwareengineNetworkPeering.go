@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwareenginenetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/vmwareenginenetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vmwareenginenetworkpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -646,7 +646,7 @@ func NewVmwareengineNetworkPeering(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_VmwareengineNetworkPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,7 +659,7 @@ func NewVmwareengineNetworkPeering_Override(v VmwareengineNetworkPeering, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -864,7 +864,7 @@ func VmwareengineNetworkPeering_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -899,7 +899,7 @@ func VmwareengineNetworkPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +918,7 @@ func VmwareengineNetworkPeering_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -937,7 +937,7 @@ func VmwareengineNetworkPeering_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -950,7 +950,7 @@ func VmwareengineNetworkPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		"tfResourceType",
 		&returns,
 	)

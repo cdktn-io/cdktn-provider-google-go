@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebasedataconnectservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseDataConnectService.FirebaseDataConnectService",
+		"@cdktn/provider-google.firebaseDataConnectService.FirebaseDataConnectService",
 		reflect.TypeOf((*FirebaseDataConnectService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseDataConnectService.FirebaseDataConnectServiceConfig",
+		"@cdktn/provider-google.firebaseDataConnectService.FirebaseDataConnectServiceConfig",
 		reflect.TypeOf((*FirebaseDataConnectServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseDataConnectService.FirebaseDataConnectServiceTimeouts",
+		"@cdktn/provider-google.firebaseDataConnectService.FirebaseDataConnectServiceTimeouts",
 		reflect.TypeOf((*FirebaseDataConnectServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseDataConnectService.FirebaseDataConnectServiceTimeoutsOutputReference",
+		"@cdktn/provider-google.firebaseDataConnectService.FirebaseDataConnectServiceTimeoutsOutputReference",
 		reflect.TypeOf((*FirebaseDataConnectServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

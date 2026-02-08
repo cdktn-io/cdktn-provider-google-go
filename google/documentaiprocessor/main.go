@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package documentaiprocessor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.documentAiProcessor.DocumentAiProcessor",
+		"@cdktn/provider-google.documentAiProcessor.DocumentAiProcessor",
 		reflect.TypeOf((*DocumentAiProcessor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.documentAiProcessor.DocumentAiProcessorConfig",
+		"@cdktn/provider-google.documentAiProcessor.DocumentAiProcessorConfig",
 		reflect.TypeOf((*DocumentAiProcessorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.documentAiProcessor.DocumentAiProcessorTimeouts",
+		"@cdktn/provider-google.documentAiProcessor.DocumentAiProcessorTimeouts",
 		reflect.TypeOf((*DocumentAiProcessorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.documentAiProcessor.DocumentAiProcessorTimeoutsOutputReference",
+		"@cdktn/provider-google.documentAiProcessor.DocumentAiProcessorTimeoutsOutputReference",
 		reflect.TypeOf((*DocumentAiProcessorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagebucketobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/storagebucketobject/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagebucketobject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -899,7 +899,7 @@ func NewStorageBucketObject(scope constructs.Construct, id *string, config *Stor
 	j := jsiiProxy_StorageBucketObject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -912,7 +912,7 @@ func NewStorageBucketObject_Override(s StorageBucketObject, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1205,7 +1205,7 @@ func StorageBucketObject_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1240,7 +1240,7 @@ func StorageBucketObject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1259,7 +1259,7 @@ func StorageBucketObject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1278,7 +1278,7 @@ func StorageBucketObject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1291,7 +1291,7 @@ func StorageBucketObject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		"tfResourceType",
 		&returns,
 	)

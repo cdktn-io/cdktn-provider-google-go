@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappstoragepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/netappstoragepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/netappstoragepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -802,7 +802,7 @@ func NewNetappStoragePool(scope constructs.Construct, id *string, config *Netapp
 	j := jsiiProxy_NetappStoragePool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -815,7 +815,7 @@ func NewNetappStoragePool_Override(n NetappStoragePool, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -1097,7 +1097,7 @@ func NetappStoragePool_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1132,7 +1132,7 @@ func NetappStoragePool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1151,7 +1151,7 @@ func NetappStoragePool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1170,7 +1170,7 @@ func NetappStoragePool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1183,7 +1183,7 @@ func NetappStoragePool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.netappStoragePool.NetappStoragePool",
+		"@cdktn/provider-google.netappStoragePool.NetappStoragePool",
 		"tfResourceType",
 		&returns,
 	)

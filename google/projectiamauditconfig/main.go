@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectiamauditconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectIamAuditConfig.ProjectIamAuditConfig",
+		"@cdktn/provider-google.projectIamAuditConfig.ProjectIamAuditConfig",
 		reflect.TypeOf((*ProjectIamAuditConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,11 +74,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectIamAuditConfig.ProjectIamAuditConfigAuditLogConfig",
+		"@cdktn/provider-google.projectIamAuditConfig.ProjectIamAuditConfigAuditLogConfig",
 		reflect.TypeOf((*ProjectIamAuditConfigAuditLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectIamAuditConfig.ProjectIamAuditConfigAuditLogConfigList",
+		"@cdktn/provider-google.projectIamAuditConfig.ProjectIamAuditConfigAuditLogConfigList",
 		reflect.TypeOf((*ProjectIamAuditConfigAuditLogConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectIamAuditConfig.ProjectIamAuditConfigAuditLogConfigOutputReference",
+		"@cdktn/provider-google.projectIamAuditConfig.ProjectIamAuditConfigAuditLogConfigOutputReference",
 		reflect.TypeOf((*ProjectIamAuditConfigAuditLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectIamAuditConfig.ProjectIamAuditConfigConfig",
+		"@cdktn/provider-google.projectIamAuditConfig.ProjectIamAuditConfigConfig",
 		reflect.TypeOf((*ProjectIamAuditConfigConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/organizationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/organizationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -508,7 +508,7 @@ func NewOrganizationPolicy(scope constructs.Construct, id *string, config *Organ
 	j := jsiiProxy_OrganizationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -521,7 +521,7 @@ func NewOrganizationPolicy_Override(o OrganizationPolicy, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -649,7 +649,7 @@ func OrganizationPolicy_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func OrganizationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func OrganizationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func OrganizationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func OrganizationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.organizationPolicy.OrganizationPolicy",
+		"@cdktn/provider-google.organizationPolicy.OrganizationPolicy",
 		"tfResourceType",
 		&returns,
 	)

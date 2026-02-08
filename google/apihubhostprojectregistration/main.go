@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apihubhostprojectregistration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistration",
+		"@cdktn/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistration",
 		reflect.TypeOf((*ApihubHostProjectRegistration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistrationConfig",
+		"@cdktn/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistrationConfig",
 		reflect.TypeOf((*ApihubHostProjectRegistrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistrationTimeouts",
+		"@cdktn/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistrationTimeouts",
 		reflect.TypeOf((*ApihubHostProjectRegistrationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistrationTimeoutsOutputReference",
+		"@cdktn/provider-google.apihubHostProjectRegistration.ApihubHostProjectRegistrationTimeoutsOutputReference",
 		reflect.TypeOf((*ApihubHostProjectRegistrationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computediskiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicy",
 		reflect.TypeOf((*ComputeDiskIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicyConfig",
+		"@cdktn/provider-google.computeDiskIamPolicy.ComputeDiskIamPolicyConfig",
 		reflect.TypeOf((*ComputeDiskIamPolicyConfig)(nil)).Elem(),
 	)
 }

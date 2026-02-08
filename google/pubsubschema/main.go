@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsubschema
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSchema.PubsubSchema",
+		"@cdktn/provider-google.pubsubSchema.PubsubSchema",
 		reflect.TypeOf((*PubsubSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSchema.PubsubSchemaConfig",
+		"@cdktn/provider-google.pubsubSchema.PubsubSchemaConfig",
 		reflect.TypeOf((*PubsubSchemaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubSchema.PubsubSchemaTimeouts",
+		"@cdktn/provider-google.pubsubSchema.PubsubSchemaTimeouts",
 		reflect.TypeOf((*PubsubSchemaTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubSchema.PubsubSchemaTimeoutsOutputReference",
+		"@cdktn/provider-google.pubsubSchema.PubsubSchemaTimeoutsOutputReference",
 		reflect.TypeOf((*PubsubSchemaTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

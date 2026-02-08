@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computesnapshotsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettings",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettings",
 		reflect.TypeOf((*ComputeSnapshotSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,19 +76,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsConfig",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsConfig",
 		reflect.TypeOf((*ComputeSnapshotSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocation",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocation",
 		reflect.TypeOf((*ComputeSnapshotSettingsStorageLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationLocations",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationLocations",
 		reflect.TypeOf((*ComputeSnapshotSettingsStorageLocationLocations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationLocationsList",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationLocationsList",
 		reflect.TypeOf((*ComputeSnapshotSettingsStorageLocationLocationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationLocationsOutputReference",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationLocationsOutputReference",
 		reflect.TypeOf((*ComputeSnapshotSettingsStorageLocationLocationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationOutputReference",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsStorageLocationOutputReference",
 		reflect.TypeOf((*ComputeSnapshotSettingsStorageLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsTimeouts",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsTimeouts",
 		reflect.TypeOf((*ComputeSnapshotSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsTimeoutsOutputReference",
+		"@cdktn/provider-google.computeSnapshotSettings.ComputeSnapshotSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeSnapshotSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

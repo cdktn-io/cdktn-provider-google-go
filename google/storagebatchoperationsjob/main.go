@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagebatchoperationsjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJob",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJob",
 		reflect.TypeOf((*StorageBatchOperationsJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBuckets",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBuckets",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListBuckets)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsManifest",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsManifest",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListBucketsManifest)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsManifestOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsManifestOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListBucketsManifestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,7 +147,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListBucketsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsPrefixListStruct",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsPrefixListStruct",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListBucketsPrefixListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListStruct",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListStruct",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListStructOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobBucketListStructOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobBucketListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buckets", GoGetter: "Buckets"},
@@ -267,15 +267,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobConfig",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobConfig",
 		reflect.TypeOf((*StorageBatchOperationsJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobDeleteObject",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobDeleteObject",
 		reflect.TypeOf((*StorageBatchOperationsJobDeleteObject)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobDeleteObjectOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobDeleteObjectOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobDeleteObjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -309,11 +309,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutMetadata",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutMetadata",
 		reflect.TypeOf((*StorageBatchOperationsJobPutMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutMetadataOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutMetadataOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobPutMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheControl", GoGetter: "CacheControl"},
@@ -366,11 +366,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutObjectHold",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutObjectHold",
 		reflect.TypeOf((*StorageBatchOperationsJobPutObjectHold)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutObjectHoldOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobPutObjectHoldOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobPutObjectHoldOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -408,11 +408,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobRewriteObject",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobRewriteObject",
 		reflect.TypeOf((*StorageBatchOperationsJobRewriteObject)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobRewriteObjectOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobRewriteObjectOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobRewriteObjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -446,11 +446,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobTimeouts",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobTimeouts",
 		reflect.TypeOf((*StorageBatchOperationsJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobTimeoutsOutputReference",
+		"@cdktn/provider-google.storageBatchOperationsJob.StorageBatchOperationsJobTimeoutsOutputReference",
 		reflect.TypeOf((*StorageBatchOperationsJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package certificatemanagercertificatemap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/certificatemanagercertificatemap/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/certificatemanagercertificatemap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -494,7 +494,7 @@ func NewCertificateManagerCertificateMap(scope constructs.Construct, id *string,
 	j := jsiiProxy_CertificateManagerCertificateMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewCertificateManagerCertificateMap_Override(c CertificateManagerCertificat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -646,7 +646,7 @@ func CertificateManagerCertificateMap_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func CertificateManagerCertificateMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func CertificateManagerCertificateMap_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func CertificateManagerCertificateMap_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func CertificateManagerCertificateMap_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
+		"@cdktn/provider-google.certificateManagerCertificateMap.CertificateManagerCertificateMap",
 		"tfResourceType",
 		&returns,
 	)

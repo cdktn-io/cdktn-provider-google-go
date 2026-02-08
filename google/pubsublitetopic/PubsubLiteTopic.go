@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsublitetopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/pubsublitetopic/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/pubsublitetopic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -511,7 +511,7 @@ func NewPubsubLiteTopic(scope constructs.Construct, id *string, config *PubsubLi
 	j := jsiiProxy_PubsubLiteTopic{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -524,7 +524,7 @@ func NewPubsubLiteTopic_Override(p PubsubLiteTopic, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -663,7 +663,7 @@ func PubsubLiteTopic_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -698,7 +698,7 @@ func PubsubLiteTopic_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -717,7 +717,7 @@ func PubsubLiteTopic_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func PubsubLiteTopic_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func PubsubLiteTopic_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.pubsubLiteTopic.PubsubLiteTopic",
+		"@cdktn/provider-google.pubsubLiteTopic.PubsubLiteTopic",
 		"tfResourceType",
 		&returns,
 	)

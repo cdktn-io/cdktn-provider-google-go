@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageobjectacl
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageObjectAcl.StorageObjectAcl",
+		"@cdktn/provider-google.storageObjectAcl.StorageObjectAcl",
 		reflect.TypeOf((*StorageObjectAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageObjectAcl.StorageObjectAclConfig",
+		"@cdktn/provider-google.storageObjectAcl.StorageObjectAclConfig",
 		reflect.TypeOf((*StorageObjectAclConfig)(nil)).Elem(),
 	)
 }

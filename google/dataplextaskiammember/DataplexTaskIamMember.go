@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplextaskiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataplextaskiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataplextaskiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewDataplexTaskIamMember(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataplexTaskIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -508,7 +508,7 @@ func NewDataplexTaskIamMember_Override(d DataplexTaskIamMember, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -669,7 +669,7 @@ func DataplexTaskIamMember_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func DataplexTaskIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func DataplexTaskIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func DataplexTaskIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func DataplexTaskIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
+		"@cdktn/provider-google.dataplexTaskIamMember.DataplexTaskIamMember",
 		"tfResourceType",
 		&returns,
 	)

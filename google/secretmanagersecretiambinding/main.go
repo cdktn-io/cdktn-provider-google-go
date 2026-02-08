@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package secretmanagersecretiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBinding",
+		"@cdktn/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBinding",
 		reflect.TypeOf((*SecretManagerSecretIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBindingCondition",
+		"@cdktn/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBindingCondition",
 		reflect.TypeOf((*SecretManagerSecretIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBindingConditionOutputReference",
+		"@cdktn/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBindingConditionOutputReference",
 		reflect.TypeOf((*SecretManagerSecretIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBindingConfig",
+		"@cdktn/provider-google.secretManagerSecretIamBinding.SecretManagerSecretIamBindingConfig",
 		reflect.TypeOf((*SecretManagerSecretIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocworkflowtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataprocworkflowtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocworkflowtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -624,7 +624,7 @@ func NewDataprocWorkflowTemplate(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataprocWorkflowTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -637,7 +637,7 @@ func NewDataprocWorkflowTemplate_Override(d DataprocWorkflowTemplate, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -798,7 +798,7 @@ func DataprocWorkflowTemplate_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func DataprocWorkflowTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func DataprocWorkflowTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func DataprocWorkflowTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func DataprocWorkflowTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
+		"@cdktn/provider-google.dataprocWorkflowTemplate.DataprocWorkflowTemplate",
 		"tfResourceType",
 		&returns,
 	)

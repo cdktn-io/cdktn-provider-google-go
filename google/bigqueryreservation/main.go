@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigqueryreservation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservation",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservation",
 		reflect.TypeOf((*BigqueryReservation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,11 +99,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationAutoscale",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationAutoscale",
 		reflect.TypeOf((*BigqueryReservationAutoscale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationAutoscaleOutputReference",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationAutoscaleOutputReference",
 		reflect.TypeOf((*BigqueryReservationAutoscaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,19 +139,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationConfig",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationConfig",
 		reflect.TypeOf((*BigqueryReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationReplicationStatus",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationReplicationStatus",
 		reflect.TypeOf((*BigqueryReservationReplicationStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusError",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusError",
 		reflect.TypeOf((*BigqueryReservationReplicationStatusError)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusErrorList",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusErrorList",
 		reflect.TypeOf((*BigqueryReservationReplicationStatusErrorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -172,7 +172,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusErrorOutputReference",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusErrorOutputReference",
 		reflect.TypeOf((*BigqueryReservationReplicationStatusErrorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -206,7 +206,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusList",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusList",
 		reflect.TypeOf((*BigqueryReservationReplicationStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusOutputReference",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationReplicationStatusOutputReference",
 		reflect.TypeOf((*BigqueryReservationReplicationStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -262,11 +262,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationTimeouts",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationTimeouts",
 		reflect.TypeOf((*BigqueryReservationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryReservation.BigqueryReservationTimeoutsOutputReference",
+		"@cdktn/provider-google.bigqueryReservation.BigqueryReservationTimeoutsOutputReference",
 		reflect.TypeOf((*BigqueryReservationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

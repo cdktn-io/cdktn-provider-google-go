@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubmembership
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembership",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembership",
 		reflect.TypeOf((*GkeHubMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,11 +92,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipAuthority",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipAuthority",
 		reflect.TypeOf((*GkeHubMembershipAuthority)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipAuthorityOutputReference",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipAuthorityOutputReference",
 		reflect.TypeOf((*GkeHubMembershipAuthorityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,19 +130,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipConfig",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipConfig",
 		reflect.TypeOf((*GkeHubMembershipConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipEndpoint",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipEndpoint",
 		reflect.TypeOf((*GkeHubMembershipEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipEndpointGkeCluster",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipEndpointGkeCluster",
 		reflect.TypeOf((*GkeHubMembershipEndpointGkeCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipEndpointGkeClusterOutputReference",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipEndpointGkeClusterOutputReference",
 		reflect.TypeOf((*GkeHubMembershipEndpointGkeClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipEndpointOutputReference",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipEndpointOutputReference",
 		reflect.TypeOf((*GkeHubMembershipEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipTimeouts",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipTimeouts",
 		reflect.TypeOf((*GkeHubMembershipTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembership.GkeHubMembershipTimeoutsOutputReference",
+		"@cdktn/provider-google.gkeHubMembership.GkeHubMembershipTimeoutsOutputReference",
 		reflect.TypeOf((*GkeHubMembershipTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

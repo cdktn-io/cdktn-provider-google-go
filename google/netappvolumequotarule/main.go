@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumequotarule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		reflect.TypeOf((*NetappVolumeQuotaRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRuleConfig",
+		"@cdktn/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRuleConfig",
 		reflect.TypeOf((*NetappVolumeQuotaRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRuleTimeouts",
+		"@cdktn/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRuleTimeouts",
 		reflect.TypeOf((*NetappVolumeQuotaRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRuleTimeoutsOutputReference",
+		"@cdktn/provider-google.netappVolumeQuotaRule.NetappVolumeQuotaRuleTimeoutsOutputReference",
 		reflect.TypeOf((*NetappVolumeQuotaRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

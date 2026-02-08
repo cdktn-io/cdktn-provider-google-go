@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamoauthclientcredential
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		reflect.TypeOf((*IamOauthClientCredential)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredentialConfig",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredentialConfig",
 		reflect.TypeOf((*IamOauthClientCredentialConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredentialTimeouts",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredentialTimeouts",
 		reflect.TypeOf((*IamOauthClientCredentialTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredentialTimeoutsOutputReference",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredentialTimeoutsOutputReference",
 		reflect.TypeOf((*IamOauthClientCredentialTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

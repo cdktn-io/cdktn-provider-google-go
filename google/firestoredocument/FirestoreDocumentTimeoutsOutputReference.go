@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestoredocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/firestoredocument/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firestoredocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFirestoreDocumentTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_FirestoreDocumentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firestoreDocument.FirestoreDocumentTimeoutsOutputReference",
+		"@cdktn/provider-google.firestoreDocument.FirestoreDocumentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFirestoreDocumentTimeoutsOutputReference_Override(f FirestoreDocumentTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firestoreDocument.FirestoreDocumentTimeoutsOutputReference",
+		"@cdktn/provider-google.firestoreDocument.FirestoreDocumentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

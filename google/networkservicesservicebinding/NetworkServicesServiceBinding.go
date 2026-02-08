@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicesservicebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/networkservicesservicebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicesservicebinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -506,7 +506,7 @@ func NewNetworkServicesServiceBinding(scope constructs.Construct, id *string, co
 	j := jsiiProxy_NetworkServicesServiceBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -519,7 +519,7 @@ func NewNetworkServicesServiceBinding_Override(n NetworkServicesServiceBinding, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -669,7 +669,7 @@ func NetworkServicesServiceBinding_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func NetworkServicesServiceBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func NetworkServicesServiceBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func NetworkServicesServiceBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func NetworkServicesServiceBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
+		"@cdktn/provider-google.networkServicesServiceBinding.NetworkServicesServiceBinding",
 		"tfResourceType",
 		&returns,
 	)

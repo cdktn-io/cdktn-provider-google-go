@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apikeyskey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKey",
+		"@cdktn/provider-google.apikeysKey.ApikeysKey",
 		reflect.TypeOf((*ApikeysKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,23 +87,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyConfig",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyConfig",
 		reflect.TypeOf((*ApikeysKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictions",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictions",
 		reflect.TypeOf((*ApikeysKeyRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictions",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictions",
 		reflect.TypeOf((*ApikeysKeyRestrictionsAndroidKeyRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications",
 		reflect.TypeOf((*ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList",
 		reflect.TypeOf((*ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedApplications", GoGetter: "AllowedApplications"},
@@ -196,11 +196,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargets",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargets",
 		reflect.TypeOf((*ApikeysKeyRestrictionsApiTargets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsList",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsList",
 		reflect.TypeOf((*ApikeysKeyRestrictionsApiTargetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -222,7 +222,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsApiTargetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -259,11 +259,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsBrowserKeyRestrictions",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsBrowserKeyRestrictions",
 		reflect.TypeOf((*ApikeysKeyRestrictionsBrowserKeyRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedReferrers", GoGetter: "AllowedReferrers"},
@@ -297,11 +297,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsIosKeyRestrictions",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsIosKeyRestrictions",
 		reflect.TypeOf((*ApikeysKeyRestrictionsIosKeyRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsIosKeyRestrictionsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsIosKeyRestrictionsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsIosKeyRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedBundleIds", GoGetter: "AllowedBundleIds"},
@@ -335,7 +335,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "androidKeyRestrictions", GoGetter: "AndroidKeyRestrictions"},
@@ -387,11 +387,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsServerKeyRestrictions",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsServerKeyRestrictions",
 		reflect.TypeOf((*ApikeysKeyRestrictionsServerKeyRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference",
 		reflect.TypeOf((*ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedIps", GoGetter: "AllowedIps"},
@@ -425,11 +425,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyTimeouts",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyTimeouts",
 		reflect.TypeOf((*ApikeysKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyTimeoutsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyTimeoutsOutputReference",
 		reflect.TypeOf((*ApikeysKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

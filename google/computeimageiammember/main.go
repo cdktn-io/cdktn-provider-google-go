@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeimageiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImageIamMember.ComputeImageIamMember",
+		"@cdktn/provider-google.computeImageIamMember.ComputeImageIamMember",
 		reflect.TypeOf((*ComputeImageIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImageIamMember.ComputeImageIamMemberCondition",
+		"@cdktn/provider-google.computeImageIamMember.ComputeImageIamMemberCondition",
 		reflect.TypeOf((*ComputeImageIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeImageIamMember.ComputeImageIamMemberConditionOutputReference",
+		"@cdktn/provider-google.computeImageIamMember.ComputeImageIamMemberConditionOutputReference",
 		reflect.TypeOf((*ComputeImageIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeImageIamMember.ComputeImageIamMemberConfig",
+		"@cdktn/provider-google.computeImageIamMember.ComputeImageIamMemberConfig",
 		reflect.TypeOf((*ComputeImageIamMemberConfig)(nil)).Elem(),
 	)
 }

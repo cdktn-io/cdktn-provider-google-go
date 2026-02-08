@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouternat
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computerouternat/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computerouternat/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewComputeRouterNatSubnetworkOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_ComputeRouterNatSubnetworkOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterNat.ComputeRouterNatSubnetworkOutputReference",
+		"@cdktn/provider-google.computeRouterNat.ComputeRouterNatSubnetworkOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewComputeRouterNatSubnetworkOutputReference_Override(c ComputeRouterNatSub
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterNat.ComputeRouterNatSubnetworkOutputReference",
+		"@cdktn/provider-google.computeRouterNat.ComputeRouterNatSubnetworkOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

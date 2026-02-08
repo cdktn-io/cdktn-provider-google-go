@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkehubfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewGkeHubFleetStateList(terraformResource cdktf.IInterpolatingParent, terra
 	j := jsiiProxy_GkeHubFleetStateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubFleet.GkeHubFleetStateList",
+		"@cdktn/provider-google.gkeHubFleet.GkeHubFleetStateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewGkeHubFleetStateList_Override(g GkeHubFleetStateList, terraformResource 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubFleet.GkeHubFleetStateList",
+		"@cdktn/provider-google.gkeHubFleet.GkeHubFleetStateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)

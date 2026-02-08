@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqlsourcerepresentationinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstance",
+		"@cdktn/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstance",
 		reflect.TypeOf((*SqlSourceRepresentationInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstanceConfig",
+		"@cdktn/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstanceConfig",
 		reflect.TypeOf((*SqlSourceRepresentationInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstanceTimeouts",
+		"@cdktn/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstanceTimeouts",
 		reflect.TypeOf((*SqlSourceRepresentationInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.sqlSourceRepresentationInstance.SqlSourceRepresentationInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*SqlSourceRepresentationInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

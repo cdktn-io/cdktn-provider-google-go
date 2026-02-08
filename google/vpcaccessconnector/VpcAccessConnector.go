@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcaccessconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/vpcaccessconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vpcaccessconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -640,7 +640,7 @@ func NewVpcAccessConnector(scope constructs.Construct, id *string, config *VpcAc
 	j := jsiiProxy_VpcAccessConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -653,7 +653,7 @@ func NewVpcAccessConnector_Override(v VpcAccessConnector, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -858,7 +858,7 @@ func VpcAccessConnector_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -893,7 +893,7 @@ func VpcAccessConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -912,7 +912,7 @@ func VpcAccessConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -931,7 +931,7 @@ func VpcAccessConnector_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func VpcAccessConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.vpcAccessConnector.VpcAccessConnector",
+		"@cdktn/provider-google.vpcAccessConnector.VpcAccessConnector",
 		"tfResourceType",
 		&returns,
 	)

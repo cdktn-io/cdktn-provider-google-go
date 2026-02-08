@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computereservation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -625,7 +625,7 @@ func NewComputeReservation(scope constructs.Construct, id *string, config *Compu
 	j := jsiiProxy_ComputeReservation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,7 +638,7 @@ func NewComputeReservation_Override(c ComputeReservation, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -799,7 +799,7 @@ func ComputeReservation_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func ComputeReservation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func ComputeReservation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func ComputeReservation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func ComputeReservation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeReservation.ComputeReservation",
+		"@cdktn/provider-google.computeReservation.ComputeReservation",
 		"tfResourceType",
 		&returns,
 	)

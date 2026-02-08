@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chronicledataaccesslabel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabel",
+		"@cdktn/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabel",
 		reflect.TypeOf((*ChronicleDataAccessLabel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabelConfig",
+		"@cdktn/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabelConfig",
 		reflect.TypeOf((*ChronicleDataAccessLabelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabelTimeouts",
+		"@cdktn/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabelTimeouts",
 		reflect.TypeOf((*ChronicleDataAccessLabelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabelTimeoutsOutputReference",
+		"@cdktn/provider-google.chronicleDataAccessLabel.ChronicleDataAccessLabelTimeoutsOutputReference",
 		reflect.TypeOf((*ChronicleDataAccessLabelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

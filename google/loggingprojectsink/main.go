@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingprojectsink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSink",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSink",
 		reflect.TypeOf((*LoggingProjectSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,11 +97,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSinkBigqueryOptions",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSinkBigqueryOptions",
 		reflect.TypeOf((*LoggingProjectSinkBigqueryOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSinkBigqueryOptionsOutputReference",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSinkBigqueryOptionsOutputReference",
 		reflect.TypeOf((*LoggingProjectSinkBigqueryOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSinkConfig",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSinkConfig",
 		reflect.TypeOf((*LoggingProjectSinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSinkExclusions",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSinkExclusions",
 		reflect.TypeOf((*LoggingProjectSinkExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSinkExclusionsList",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSinkExclusionsList",
 		reflect.TypeOf((*LoggingProjectSinkExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectSink.LoggingProjectSinkExclusionsOutputReference",
+		"@cdktn/provider-google.loggingProjectSink.LoggingProjectSinkExclusionsOutputReference",
 		reflect.TypeOf((*LoggingProjectSinkExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

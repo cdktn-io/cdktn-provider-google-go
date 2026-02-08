@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tpunode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/tpunode/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/tpunode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -649,7 +649,7 @@ func NewTpuNode(scope constructs.Construct, id *string, config *TpuNodeConfig) T
 	j := jsiiProxy_TpuNode{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -662,7 +662,7 @@ func NewTpuNode_Override(t TpuNode, scope constructs.Construct, id *string, conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -867,7 +867,7 @@ func TpuNode_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -902,7 +902,7 @@ func TpuNode_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func TpuNode_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -940,7 +940,7 @@ func TpuNode_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -953,7 +953,7 @@ func TpuNode_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.tpuNode.TpuNode",
+		"@cdktn/provider-google.tpuNode.TpuNode",
 		"tfResourceType",
 		&returns,
 	)

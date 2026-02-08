@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaserulesruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/firebaserulesruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaserulesruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewFirebaserulesRulesetMetadataList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_FirebaserulesRulesetMetadataList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firebaserulesRuleset.FirebaserulesRulesetMetadataList",
+		"@cdktn/provider-google.firebaserulesRuleset.FirebaserulesRulesetMetadataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewFirebaserulesRulesetMetadataList_Override(f FirebaserulesRulesetMetadata
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firebaserulesRuleset.FirebaserulesRulesetMetadataList",
+		"@cdktn/provider-google.firebaserulesRuleset.FirebaserulesRulesetMetadataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

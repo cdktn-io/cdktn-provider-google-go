@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemanagedfolderiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/storagemanagedfolderiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagemanagedfolderiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -400,7 +400,7 @@ func NewStorageManagedFolderIamPolicy(scope constructs.Construct, id *string, co
 	j := jsiiProxy_StorageManagedFolderIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,7 +413,7 @@ func NewStorageManagedFolderIamPolicy_Override(s StorageManagedFolderIamPolicy, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -541,7 +541,7 @@ func StorageManagedFolderIamPolicy_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func StorageManagedFolderIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func StorageManagedFolderIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func StorageManagedFolderIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func StorageManagedFolderIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
+		"@cdktn/provider-google.storageManagedFolderIamPolicy.StorageManagedFolderIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

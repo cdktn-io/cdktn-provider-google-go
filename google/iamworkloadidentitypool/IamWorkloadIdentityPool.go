@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamworkloadidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iamworkloadidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iamworkloadidentitypool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -485,7 +485,7 @@ func NewIamWorkloadIdentityPool(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_IamWorkloadIdentityPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,7 +498,7 @@ func NewIamWorkloadIdentityPool_Override(i IamWorkloadIdentityPool, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -648,7 +648,7 @@ func IamWorkloadIdentityPool_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func IamWorkloadIdentityPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func IamWorkloadIdentityPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func IamWorkloadIdentityPool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func IamWorkloadIdentityPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
+		"@cdktn/provider-google.iamWorkloadIdentityPool.IamWorkloadIdentityPool",
 		"tfResourceType",
 		&returns,
 	)

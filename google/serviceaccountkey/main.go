@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceaccountkey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceAccountKey.ServiceAccountKey",
+		"@cdktn/provider-google.serviceAccountKey.ServiceAccountKey",
 		reflect.TypeOf((*ServiceAccountKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceAccountKey.ServiceAccountKeyConfig",
+		"@cdktn/provider-google.serviceAccountKey.ServiceAccountKeyConfig",
 		reflect.TypeOf((*ServiceAccountKeyConfig)(nil)).Elem(),
 	)
 }

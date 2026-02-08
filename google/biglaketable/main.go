@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package biglaketable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.biglakeTable.BiglakeTable",
+		"@cdktn/provider-google.biglakeTable.BiglakeTable",
 		reflect.TypeOf((*BiglakeTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableConfig",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableConfig",
 		reflect.TypeOf((*BiglakeTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableHiveOptions",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableHiveOptions",
 		reflect.TypeOf((*BiglakeTableHiveOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableHiveOptionsOutputReference",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableHiveOptionsOutputReference",
 		reflect.TypeOf((*BiglakeTableHiveOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableHiveOptionsStorageDescriptor",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableHiveOptionsStorageDescriptor",
 		reflect.TypeOf((*BiglakeTableHiveOptionsStorageDescriptor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableHiveOptionsStorageDescriptorOutputReference",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableHiveOptionsStorageDescriptorOutputReference",
 		reflect.TypeOf((*BiglakeTableHiveOptionsStorageDescriptorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -182,11 +182,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableTimeouts",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableTimeouts",
 		reflect.TypeOf((*BiglakeTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.biglakeTable.BiglakeTableTimeoutsOutputReference",
+		"@cdktn/provider-google.biglakeTable.BiglakeTableTimeoutsOutputReference",
 		reflect.TypeOf((*BiglakeTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

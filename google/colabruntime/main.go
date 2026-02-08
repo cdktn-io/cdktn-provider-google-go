@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package colabruntime
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabRuntime.ColabRuntime",
+		"@cdktn/provider-google.colabRuntime.ColabRuntime",
 		reflect.TypeOf((*ColabRuntime)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabRuntime.ColabRuntimeConfig",
+		"@cdktn/provider-google.colabRuntime.ColabRuntimeConfig",
 		reflect.TypeOf((*ColabRuntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabRuntime.ColabRuntimeNotebookRuntimeTemplateRef",
+		"@cdktn/provider-google.colabRuntime.ColabRuntimeNotebookRuntimeTemplateRef",
 		reflect.TypeOf((*ColabRuntimeNotebookRuntimeTemplateRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabRuntime.ColabRuntimeNotebookRuntimeTemplateRefOutputReference",
+		"@cdktn/provider-google.colabRuntime.ColabRuntimeNotebookRuntimeTemplateRefOutputReference",
 		reflect.TypeOf((*ColabRuntimeNotebookRuntimeTemplateRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.colabRuntime.ColabRuntimeTimeouts",
+		"@cdktn/provider-google.colabRuntime.ColabRuntimeTimeouts",
 		reflect.TypeOf((*ColabRuntimeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.colabRuntime.ColabRuntimeTimeoutsOutputReference",
+		"@cdktn/provider-google.colabRuntime.ColabRuntimeTimeoutsOutputReference",
 		reflect.TypeOf((*ColabRuntimeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

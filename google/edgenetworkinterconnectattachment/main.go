@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package edgenetworkinterconnectattachment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachment",
+		"@cdktn/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachment",
 		reflect.TypeOf((*EdgenetworkInterconnectAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachmentConfig",
+		"@cdktn/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachmentConfig",
 		reflect.TypeOf((*EdgenetworkInterconnectAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachmentTimeouts",
+		"@cdktn/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachmentTimeouts",
 		reflect.TypeOf((*EdgenetworkInterconnectAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*EdgenetworkInterconnectAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

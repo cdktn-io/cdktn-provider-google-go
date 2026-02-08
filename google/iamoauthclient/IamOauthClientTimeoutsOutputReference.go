@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamoauthclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iamoauthclient/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iamoauthclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewIamOauthClientTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_IamOauthClientTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamOauthClient.IamOauthClientTimeoutsOutputReference",
+		"@cdktn/provider-google.iamOauthClient.IamOauthClientTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewIamOauthClientTimeoutsOutputReference_Override(i IamOauthClientTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamOauthClient.IamOauthClientTimeoutsOutputReference",
+		"@cdktn/provider-google.iamOauthClient.IamOauthClientTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

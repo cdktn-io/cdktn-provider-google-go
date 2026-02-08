@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubscopeiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkehubscopeiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubscopeiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewGkeHubScopeIamPolicy(scope constructs.Construct, id *string, config *Gke
 	j := jsiiProxy_GkeHubScopeIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewGkeHubScopeIamPolicy_Override(g GkeHubScopeIamPolicy, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -542,7 +542,7 @@ func GkeHubScopeIamPolicy_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func GkeHubScopeIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func GkeHubScopeIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func GkeHubScopeIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func GkeHubScopeIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
+		"@cdktn/provider-google.gkeHubScopeIamPolicy.GkeHubScopeIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigquerydatasetiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryDatasetIamPolicy.BigqueryDatasetIamPolicy",
+		"@cdktn/provider-google.bigqueryDatasetIamPolicy.BigqueryDatasetIamPolicy",
 		reflect.TypeOf((*BigqueryDatasetIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryDatasetIamPolicy.BigqueryDatasetIamPolicyConfig",
+		"@cdktn/provider-google.bigqueryDatasetIamPolicy.BigqueryDatasetIamPolicyConfig",
 		reflect.TypeOf((*BigqueryDatasetIamPolicyConfig)(nil)).Elem(),
 	)
 }

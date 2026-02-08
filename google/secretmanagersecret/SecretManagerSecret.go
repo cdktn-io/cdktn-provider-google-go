@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package secretmanagersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/secretmanagersecret/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/secretmanagersecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -709,7 +709,7 @@ func NewSecretManagerSecret(scope constructs.Construct, id *string, config *Secr
 	j := jsiiProxy_SecretManagerSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -722,7 +722,7 @@ func NewSecretManagerSecret_Override(s SecretManagerSecret, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -927,7 +927,7 @@ func SecretManagerSecret_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -962,7 +962,7 @@ func SecretManagerSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func SecretManagerSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1000,7 +1000,7 @@ func SecretManagerSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1013,7 +1013,7 @@ func SecretManagerSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.secretManagerSecret.SecretManagerSecret",
+		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
 		"tfResourceType",
 		&returns,
 	)

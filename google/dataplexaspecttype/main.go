@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexaspecttype
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAspectType.DataplexAspectType",
+		"@cdktn/provider-google.dataplexAspectType.DataplexAspectType",
 		reflect.TypeOf((*DataplexAspectType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAspectType.DataplexAspectTypeConfig",
+		"@cdktn/provider-google.dataplexAspectType.DataplexAspectTypeConfig",
 		reflect.TypeOf((*DataplexAspectTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAspectType.DataplexAspectTypeTimeouts",
+		"@cdktn/provider-google.dataplexAspectType.DataplexAspectTypeTimeouts",
 		reflect.TypeOf((*DataplexAspectTypeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAspectType.DataplexAspectTypeTimeoutsOutputReference",
+		"@cdktn/provider-google.dataplexAspectType.DataplexAspectTypeTimeoutsOutputReference",
 		reflect.TypeOf((*DataplexAspectTypeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

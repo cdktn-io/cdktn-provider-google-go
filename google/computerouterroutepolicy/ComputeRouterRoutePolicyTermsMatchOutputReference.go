@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouterroutepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computerouterroutepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computerouterroutepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewComputeRouterRoutePolicyTermsMatchOutputReference(terraformResource cdkt
 	j := jsiiProxy_ComputeRouterRoutePolicyTermsMatchOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatchOutputReference",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewComputeRouterRoutePolicyTermsMatchOutputReference_Override(c ComputeRout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatchOutputReference",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

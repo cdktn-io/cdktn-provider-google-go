@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexasset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAsset",
+		"@cdktn/provider-google.dataplexAsset.DataplexAsset",
 		reflect.TypeOf((*DataplexAsset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,19 +105,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetConfig",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetConfig",
 		reflect.TypeOf((*DataplexAssetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoverySpec",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoverySpec",
 		reflect.TypeOf((*DataplexAssetDiscoverySpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoverySpecCsvOptions",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoverySpecCsvOptions",
 		reflect.TypeOf((*DataplexAssetDiscoverySpecCsvOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoverySpecCsvOptionsOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoverySpecCsvOptionsOutputReference",
 		reflect.TypeOf((*DataplexAssetDiscoverySpecCsvOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoverySpecJsonOptions",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoverySpecJsonOptions",
 		reflect.TypeOf((*DataplexAssetDiscoverySpecJsonOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoverySpecJsonOptionsOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoverySpecJsonOptionsOutputReference",
 		reflect.TypeOf((*DataplexAssetDiscoverySpecJsonOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,7 +203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoverySpecOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoverySpecOutputReference",
 		reflect.TypeOf((*DataplexAssetDiscoverySpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -254,11 +254,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoveryStatus",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoveryStatus",
 		reflect.TypeOf((*DataplexAssetDiscoveryStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusList",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusList",
 		reflect.TypeOf((*DataplexAssetDiscoveryStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -279,7 +279,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusOutputReference",
 		reflect.TypeOf((*DataplexAssetDiscoveryStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -317,11 +317,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusStats",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusStats",
 		reflect.TypeOf((*DataplexAssetDiscoveryStatusStats)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusStatsList",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusStatsList",
 		reflect.TypeOf((*DataplexAssetDiscoveryStatusStatsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -342,7 +342,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusStatsOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetDiscoveryStatusStatsOutputReference",
 		reflect.TypeOf((*DataplexAssetDiscoveryStatusStatsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -378,11 +378,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetResourceSpec",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetResourceSpec",
 		reflect.TypeOf((*DataplexAssetResourceSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetResourceSpecOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetResourceSpecOutputReference",
 		reflect.TypeOf((*DataplexAssetResourceSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -422,11 +422,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetResourceStatus",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetResourceStatus",
 		reflect.TypeOf((*DataplexAssetResourceStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetResourceStatusList",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetResourceStatusList",
 		reflect.TypeOf((*DataplexAssetResourceStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -447,7 +447,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetResourceStatusOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetResourceStatusOutputReference",
 		reflect.TypeOf((*DataplexAssetResourceStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -482,11 +482,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetSecurityStatus",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetSecurityStatus",
 		reflect.TypeOf((*DataplexAssetSecurityStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetSecurityStatusList",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetSecurityStatusList",
 		reflect.TypeOf((*DataplexAssetSecurityStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -507,7 +507,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetSecurityStatusOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetSecurityStatusOutputReference",
 		reflect.TypeOf((*DataplexAssetSecurityStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -542,11 +542,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetTimeouts",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetTimeouts",
 		reflect.TypeOf((*DataplexAssetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAsset.DataplexAssetTimeoutsOutputReference",
+		"@cdktn/provider-google.dataplexAsset.DataplexAssetTimeoutsOutputReference",
 		reflect.TypeOf((*DataplexAssetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

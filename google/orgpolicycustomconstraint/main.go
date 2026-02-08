@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orgpolicycustomconstraint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraint",
+		"@cdktn/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraint",
 		reflect.TypeOf((*OrgPolicyCustomConstraint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionType", GoGetter: "ActionType"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraintConfig",
+		"@cdktn/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraintConfig",
 		reflect.TypeOf((*OrgPolicyCustomConstraintConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraintTimeouts",
+		"@cdktn/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraintTimeouts",
 		reflect.TypeOf((*OrgPolicyCustomConstraintTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraintTimeoutsOutputReference",
+		"@cdktn/provider-google.orgPolicyCustomConstraint.OrgPolicyCustomConstraintTimeoutsOutputReference",
 		reflect.TypeOf((*OrgPolicyCustomConstraintTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaseappcheckserviceconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfig",
+		"@cdktn/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfig",
 		reflect.TypeOf((*FirebaseAppCheckServiceConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfigConfig",
+		"@cdktn/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfigConfig",
 		reflect.TypeOf((*FirebaseAppCheckServiceConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfigTimeouts",
+		"@cdktn/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfigTimeouts",
 		reflect.TypeOf((*FirebaseAppCheckServiceConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.firebaseAppCheckServiceConfig.FirebaseAppCheckServiceConfigTimeoutsOutputReference",
 		reflect.TypeOf((*FirebaseAppCheckServiceConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computefirewallpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeFirewallPolicy.ComputeFirewallPolicy",
+		"@cdktn/provider-google.computeFirewallPolicy.ComputeFirewallPolicy",
 		reflect.TypeOf((*ComputeFirewallPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeFirewallPolicy.ComputeFirewallPolicyConfig",
+		"@cdktn/provider-google.computeFirewallPolicy.ComputeFirewallPolicyConfig",
 		reflect.TypeOf((*ComputeFirewallPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeFirewallPolicy.ComputeFirewallPolicyTimeouts",
+		"@cdktn/provider-google.computeFirewallPolicy.ComputeFirewallPolicyTimeouts",
 		reflect.TypeOf((*ComputeFirewallPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeFirewallPolicy.ComputeFirewallPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeFirewallPolicy.ComputeFirewallPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeFirewallPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

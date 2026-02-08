@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		reflect.TypeOf((*HealthcareWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspaceConfig",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspaceConfig",
 		reflect.TypeOf((*HealthcareWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspaceSettings",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspaceSettings",
 		reflect.TypeOf((*HealthcareWorkspaceSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspaceSettingsOutputReference",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspaceSettingsOutputReference",
 		reflect.TypeOf((*HealthcareWorkspaceSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,11 +124,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspaceTimeouts",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspaceTimeouts",
 		reflect.TypeOf((*HealthcareWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcareWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

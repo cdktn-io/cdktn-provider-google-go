@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationiamauditconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		reflect.TypeOf((*OrganizationIamAuditConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,11 +74,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigAuditLogConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigAuditLogConfig",
 		reflect.TypeOf((*OrganizationIamAuditConfigAuditLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigAuditLogConfigList",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigAuditLogConfigList",
 		reflect.TypeOf((*OrganizationIamAuditConfigAuditLogConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigAuditLogConfigOutputReference",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigAuditLogConfigOutputReference",
 		reflect.TypeOf((*OrganizationIamAuditConfigAuditLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfigConfig",
 		reflect.TypeOf((*OrganizationIamAuditConfigConfig)(nil)).Elem(),
 	)
 }

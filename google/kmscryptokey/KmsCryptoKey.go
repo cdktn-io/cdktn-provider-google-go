@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmscryptokey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/kmscryptokey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/kmscryptokey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -615,7 +615,7 @@ func NewKmsCryptoKey(scope constructs.Construct, id *string, config *KmsCryptoKe
 	j := jsiiProxy_KmsCryptoKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -628,7 +628,7 @@ func NewKmsCryptoKey_Override(k KmsCryptoKey, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -822,7 +822,7 @@ func KmsCryptoKey_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -857,7 +857,7 @@ func KmsCryptoKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func KmsCryptoKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -895,7 +895,7 @@ func KmsCryptoKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func KmsCryptoKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.kmsCryptoKey.KmsCryptoKey",
+		"@cdktn/provider-google.kmsCryptoKey.KmsCryptoKey",
 		"tfResourceType",
 		&returns,
 	)

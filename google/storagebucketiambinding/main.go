@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagebucketiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketIamBinding.StorageBucketIamBinding",
+		"@cdktn/provider-google.storageBucketIamBinding.StorageBucketIamBinding",
 		reflect.TypeOf((*StorageBucketIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketIamBinding.StorageBucketIamBindingCondition",
+		"@cdktn/provider-google.storageBucketIamBinding.StorageBucketIamBindingCondition",
 		reflect.TypeOf((*StorageBucketIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketIamBinding.StorageBucketIamBindingConditionOutputReference",
+		"@cdktn/provider-google.storageBucketIamBinding.StorageBucketIamBindingConditionOutputReference",
 		reflect.TypeOf((*StorageBucketIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketIamBinding.StorageBucketIamBindingConfig",
+		"@cdktn/provider-google.storageBucketIamBinding.StorageBucketIamBindingConfig",
 		reflect.TypeOf((*StorageBucketIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/monitoringgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -473,7 +473,7 @@ func NewMonitoringGroup(scope constructs.Construct, id *string, config *Monitori
 	j := jsiiProxy_MonitoringGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -486,7 +486,7 @@ func NewMonitoringGroup_Override(m MonitoringGroup, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -636,7 +636,7 @@ func MonitoringGroup_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func MonitoringGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func MonitoringGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func MonitoringGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func MonitoringGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.monitoringGroup.MonitoringGroup",
+		"@cdktn/provider-google.monitoringGroup.MonitoringGroup",
 		"tfResourceType",
 		&returns,
 	)

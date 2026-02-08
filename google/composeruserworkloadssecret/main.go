@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package composeruserworkloadssecret
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecret",
+		"@cdktn/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecret",
 		reflect.TypeOf((*ComposerUserWorkloadsSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecretConfig",
+		"@cdktn/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecretConfig",
 		reflect.TypeOf((*ComposerUserWorkloadsSecretConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecretTimeouts",
+		"@cdktn/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecretTimeouts",
 		reflect.TypeOf((*ComposerUserWorkloadsSecretTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecretTimeoutsOutputReference",
+		"@cdktn/provider-google.composerUserWorkloadsSecret.ComposerUserWorkloadsSecretTimeoutsOutputReference",
 		reflect.TypeOf((*ComposerUserWorkloadsSecretTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

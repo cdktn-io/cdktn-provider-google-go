@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringcustomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/monitoringcustomservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringcustomservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewMonitoringCustomServiceTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_MonitoringCustomServiceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewMonitoringCustomServiceTimeoutsOutputReference_Override(m MonitoringCust
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringCustomService.MonitoringCustomServiceTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringCustomService.MonitoringCustomServiceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

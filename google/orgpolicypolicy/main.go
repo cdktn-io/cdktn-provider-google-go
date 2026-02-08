@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orgpolicypolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicy",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicy",
 		reflect.TypeOf((*OrgPolicyPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyConfig",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyConfig",
 		reflect.TypeOf((*OrgPolicyPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpec",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpec",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRules",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRules",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesCondition",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesCondition",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRulesCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesConditionOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesConditionOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRulesConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesList",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesList",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowAll", GoGetter: "AllowAll"},
@@ -261,11 +261,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesValues",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesValues",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRulesValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesValuesOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyDryRunSpecRulesValuesOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicyDryRunSpecRulesValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedValues", GoGetter: "AllowedValues"},
@@ -303,11 +303,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpec",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpec",
 		reflect.TypeOf((*OrgPolicyPolicySpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicySpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -351,15 +351,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRules",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRules",
 		reflect.TypeOf((*OrgPolicyPolicySpecRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesCondition",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesCondition",
 		reflect.TypeOf((*OrgPolicyPolicySpecRulesCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesConditionOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesConditionOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicySpecRulesConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -403,7 +403,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesList",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesList",
 		reflect.TypeOf((*OrgPolicyPolicySpecRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -425,7 +425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicySpecRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowAll", GoGetter: "AllowAll"},
@@ -477,11 +477,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesValues",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesValues",
 		reflect.TypeOf((*OrgPolicyPolicySpecRulesValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesValuesOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicySpecRulesValuesOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicySpecRulesValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedValues", GoGetter: "AllowedValues"},
@@ -519,11 +519,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyTimeouts",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyTimeouts",
 		reflect.TypeOf((*OrgPolicyPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.orgPolicyPolicy.OrgPolicyPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.orgPolicyPolicy.OrgPolicyPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*OrgPolicyPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

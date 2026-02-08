@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexaspecttypeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataplexaspecttypeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataplexaspecttypeiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewDataplexAspectTypeIamBinding(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataplexAspectTypeIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewDataplexAspectTypeIamBinding_Override(d DataplexAspectTypeIamBinding, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -635,7 +635,7 @@ func DataplexAspectTypeIamBinding_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func DataplexAspectTypeIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func DataplexAspectTypeIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func DataplexAspectTypeIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func DataplexAspectTypeIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
+		"@cdktn/provider-google.dataplexAspectTypeIamBinding.DataplexAspectTypeIamBinding",
 		"tfResourceType",
 		&returns,
 	)

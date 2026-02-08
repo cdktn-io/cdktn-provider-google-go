@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appengineservicesplittraffic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTraffic",
+		"@cdktn/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTraffic",
 		reflect.TypeOf((*AppEngineServiceSplitTraffic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficConfig",
+		"@cdktn/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficConfig",
 		reflect.TypeOf((*AppEngineServiceSplitTrafficConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficSplit",
+		"@cdktn/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficSplit",
 		reflect.TypeOf((*AppEngineServiceSplitTrafficSplit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficSplitOutputReference",
+		"@cdktn/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficSplitOutputReference",
 		reflect.TypeOf((*AppEngineServiceSplitTrafficSplitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocations", GoGetter: "Allocations"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficTimeouts",
+		"@cdktn/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficTimeouts",
 		reflect.TypeOf((*AppEngineServiceSplitTrafficTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficTimeoutsOutputReference",
+		"@cdktn/provider-google.appEngineServiceSplitTraffic.AppEngineServiceSplitTrafficTimeoutsOutputReference",
 		reflect.TypeOf((*AppEngineServiceSplitTrafficTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

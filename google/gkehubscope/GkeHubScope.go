@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkehubscope/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -527,7 +527,7 @@ func NewGkeHubScope(scope constructs.Construct, id *string, config *GkeHubScopeC
 	j := jsiiProxy_GkeHubScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,7 +540,7 @@ func NewGkeHubScope_Override(g GkeHubScope, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -679,7 +679,7 @@ func GkeHubScope_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -714,7 +714,7 @@ func GkeHubScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func GkeHubScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -752,7 +752,7 @@ func GkeHubScope_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func GkeHubScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		"tfResourceType",
 		&returns,
 	)

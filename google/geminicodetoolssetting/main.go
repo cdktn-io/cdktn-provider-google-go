@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminicodetoolssetting
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		reflect.TypeOf((*GeminiCodeToolsSetting)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,19 +89,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingConfig",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingConfig",
 		reflect.TypeOf((*GeminiCodeToolsSettingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledTool",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledTool",
 		reflect.TypeOf((*GeminiCodeToolsSettingEnabledTool)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolConfig",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolConfig",
 		reflect.TypeOf((*GeminiCodeToolsSettingEnabledToolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolConfigList",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolConfigList",
 		reflect.TypeOf((*GeminiCodeToolsSettingEnabledToolConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolConfigOutputReference",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolConfigOutputReference",
 		reflect.TypeOf((*GeminiCodeToolsSettingEnabledToolConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,7 +159,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolList",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolList",
 		reflect.TypeOf((*GeminiCodeToolsSettingEnabledToolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolOutputReference",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingEnabledToolOutputReference",
 		reflect.TypeOf((*GeminiCodeToolsSettingEnabledToolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountConnector", GoGetter: "AccountConnector"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingTimeouts",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingTimeouts",
 		reflect.TypeOf((*GeminiCodeToolsSettingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingTimeoutsOutputReference",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSettingTimeoutsOutputReference",
 		reflect.TypeOf((*GeminiCodeToolsSettingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

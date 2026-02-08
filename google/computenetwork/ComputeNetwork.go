@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computenetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -747,7 +747,7 @@ func NewComputeNetwork(scope constructs.Construct, id *string, config *ComputeNe
 	j := jsiiProxy_ComputeNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -760,7 +760,7 @@ func NewComputeNetwork_Override(c ComputeNetwork, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1009,7 +1009,7 @@ func ComputeNetwork_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1044,7 +1044,7 @@ func ComputeNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1063,7 +1063,7 @@ func ComputeNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1082,7 +1082,7 @@ func ComputeNetwork_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1095,7 +1095,7 @@ func ComputeNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingprojectbucketconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfig",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfig",
 		reflect.TypeOf((*LoggingProjectBucketConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigCmekSettings",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigCmekSettings",
 		reflect.TypeOf((*LoggingProjectBucketConfigCmekSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigCmekSettingsOutputReference",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigCmekSettingsOutputReference",
 		reflect.TypeOf((*LoggingProjectBucketConfigCmekSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigConfig",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigConfig",
 		reflect.TypeOf((*LoggingProjectBucketConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigIndexConfigs",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigIndexConfigs",
 		reflect.TypeOf((*LoggingProjectBucketConfigIndexConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigIndexConfigsList",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigIndexConfigsList",
 		reflect.TypeOf((*LoggingProjectBucketConfigIndexConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigIndexConfigsOutputReference",
+		"@cdktn/provider-google.loggingProjectBucketConfig.LoggingProjectBucketConfigIndexConfigsOutputReference",
 		reflect.TypeOf((*LoggingProjectBucketConfigIndexConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

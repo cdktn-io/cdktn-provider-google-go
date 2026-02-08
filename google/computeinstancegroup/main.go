@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstancegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroup",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroup",
 		reflect.TypeOf((*ComputeInstanceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroupConfig",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroupConfig",
 		reflect.TypeOf((*ComputeInstanceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroupNamedPort",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroupNamedPort",
 		reflect.TypeOf((*ComputeInstanceGroupNamedPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroupNamedPortList",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroupNamedPortList",
 		reflect.TypeOf((*ComputeInstanceGroupNamedPortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroupNamedPortOutputReference",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroupNamedPortOutputReference",
 		reflect.TypeOf((*ComputeInstanceGroupNamedPortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroupTimeouts",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroupTimeouts",
 		reflect.TypeOf((*ComputeInstanceGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstanceGroup.ComputeInstanceGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.computeInstanceGroup.ComputeInstanceGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeInstanceGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

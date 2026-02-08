@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package developerconnectaccountconnector
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnector",
+		"@cdktn/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnector",
 		reflect.TypeOf((*DeveloperConnectAccountConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountConnectorId", GoGetter: "AccountConnectorId"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorConfig",
+		"@cdktn/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorConfig",
 		reflect.TypeOf((*DeveloperConnectAccountConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorProviderOauthConfig",
+		"@cdktn/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorProviderOauthConfig",
 		reflect.TypeOf((*DeveloperConnectAccountConnectorProviderOauthConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorProviderOauthConfigOutputReference",
+		"@cdktn/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorProviderOauthConfigOutputReference",
 		reflect.TypeOf((*DeveloperConnectAccountConnectorProviderOauthConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorTimeouts",
+		"@cdktn/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorTimeouts",
 		reflect.TypeOf((*DeveloperConnectAccountConnectorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorTimeoutsOutputReference",
+		"@cdktn/provider-google.developerConnectAccountConnector.DeveloperConnectAccountConnectorTimeoutsOutputReference",
 		reflect.TypeOf((*DeveloperConnectAccountConnectorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

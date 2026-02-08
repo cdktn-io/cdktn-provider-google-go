@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenetworkattachment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachment",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachment",
 		reflect.TypeOf((*ComputeNetworkAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConfig",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConfig",
 		reflect.TypeOf((*ComputeNetworkAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConnectionEndpoints",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConnectionEndpoints",
 		reflect.TypeOf((*ComputeNetworkAttachmentConnectionEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConnectionEndpointsList",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConnectionEndpointsList",
 		reflect.TypeOf((*ComputeNetworkAttachmentConnectionEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConnectionEndpointsOutputReference",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentConnectionEndpointsOutputReference",
 		reflect.TypeOf((*ComputeNetworkAttachmentConnectionEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentTimeouts",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentTimeouts",
 		reflect.TypeOf((*ComputeNetworkAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeNetworkAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

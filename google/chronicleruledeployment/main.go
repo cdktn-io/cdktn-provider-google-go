@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chronicleruledeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRuleDeployment.ChronicleRuleDeployment",
+		"@cdktn/provider-google.chronicleRuleDeployment.ChronicleRuleDeployment",
 		reflect.TypeOf((*ChronicleRuleDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRuleDeployment.ChronicleRuleDeploymentConfig",
+		"@cdktn/provider-google.chronicleRuleDeployment.ChronicleRuleDeploymentConfig",
 		reflect.TypeOf((*ChronicleRuleDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRuleDeployment.ChronicleRuleDeploymentTimeouts",
+		"@cdktn/provider-google.chronicleRuleDeployment.ChronicleRuleDeploymentTimeouts",
 		reflect.TypeOf((*ChronicleRuleDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRuleDeployment.ChronicleRuleDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-google.chronicleRuleDeployment.ChronicleRuleDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*ChronicleRuleDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapwebcloudrunserviceiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBinding",
+		"@cdktn/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBinding",
 		reflect.TypeOf((*IapWebCloudRunServiceIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBindingCondition",
+		"@cdktn/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBindingCondition",
 		reflect.TypeOf((*IapWebCloudRunServiceIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBindingConditionOutputReference",
+		"@cdktn/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBindingConditionOutputReference",
 		reflect.TypeOf((*IapWebCloudRunServiceIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBindingConfig",
+		"@cdktn/provider-google.iapWebCloudRunServiceIamBinding.IapWebCloudRunServiceIamBindingConfig",
 		reflect.TypeOf((*IapWebCloudRunServiceIamBindingConfig)(nil)).Elem(),
 	)
 }

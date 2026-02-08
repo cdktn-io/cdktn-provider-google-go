@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappbackupvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-google.netappBackupVault.NetappBackupVault",
 		reflect.TypeOf((*NetappBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,11 +100,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappBackupVault.NetappBackupVaultBackupRetentionPolicy",
+		"@cdktn/provider-google.netappBackupVault.NetappBackupVaultBackupRetentionPolicy",
 		reflect.TypeOf((*NetappBackupVaultBackupRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappBackupVault.NetappBackupVaultBackupRetentionPolicyOutputReference",
+		"@cdktn/provider-google.netappBackupVault.NetappBackupVaultBackupRetentionPolicyOutputReference",
 		reflect.TypeOf((*NetappBackupVaultBackupRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupMinimumEnforcedRetentionDays", GoGetter: "BackupMinimumEnforcedRetentionDays"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappBackupVault.NetappBackupVaultConfig",
+		"@cdktn/provider-google.netappBackupVault.NetappBackupVaultConfig",
 		reflect.TypeOf((*NetappBackupVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappBackupVault.NetappBackupVaultTimeouts",
+		"@cdktn/provider-google.netappBackupVault.NetappBackupVaultTimeouts",
 		reflect.TypeOf((*NetappBackupVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappBackupVault.NetappBackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-google.netappBackupVault.NetappBackupVaultTimeoutsOutputReference",
 		reflect.TypeOf((*NetappBackupVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mlenginemodel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.mlEngineModel.MlEngineModel",
+		"@cdktn/provider-google.mlEngineModel.MlEngineModel",
 		reflect.TypeOf((*MlEngineModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.mlEngineModel.MlEngineModelConfig",
+		"@cdktn/provider-google.mlEngineModel.MlEngineModelConfig",
 		reflect.TypeOf((*MlEngineModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.mlEngineModel.MlEngineModelDefaultVersion",
+		"@cdktn/provider-google.mlEngineModel.MlEngineModelDefaultVersion",
 		reflect.TypeOf((*MlEngineModelDefaultVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.mlEngineModel.MlEngineModelDefaultVersionOutputReference",
+		"@cdktn/provider-google.mlEngineModel.MlEngineModelDefaultVersionOutputReference",
 		reflect.TypeOf((*MlEngineModelDefaultVersionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.mlEngineModel.MlEngineModelTimeouts",
+		"@cdktn/provider-google.mlEngineModel.MlEngineModelTimeouts",
 		reflect.TypeOf((*MlEngineModelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.mlEngineModel.MlEngineModelTimeoutsOutputReference",
+		"@cdktn/provider-google.mlEngineModel.MlEngineModelTimeoutsOutputReference",
 		reflect.TypeOf((*MlEngineModelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

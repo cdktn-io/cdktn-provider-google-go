@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceAccount.ServiceAccount",
+		"@cdktn/provider-google.serviceAccount.ServiceAccount",
 		reflect.TypeOf((*ServiceAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceAccount.ServiceAccountConfig",
+		"@cdktn/provider-google.serviceAccount.ServiceAccountConfig",
 		reflect.TypeOf((*ServiceAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceAccount.ServiceAccountTimeouts",
+		"@cdktn/provider-google.serviceAccount.ServiceAccountTimeouts",
 		reflect.TypeOf((*ServiceAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceAccount.ServiceAccountTimeoutsOutputReference",
+		"@cdktn/provider-google.serviceAccount.ServiceAccountTimeoutsOutputReference",
 		reflect.TypeOf((*ServiceAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

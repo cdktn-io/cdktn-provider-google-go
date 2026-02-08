@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocmetastorefederation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederation",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederation",
 		reflect.TypeOf((*DataprocMetastoreFederation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,11 +98,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationBackendMetastores",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationBackendMetastores",
 		reflect.TypeOf((*DataprocMetastoreFederationBackendMetastores)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationBackendMetastoresList",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationBackendMetastoresList",
 		reflect.TypeOf((*DataprocMetastoreFederationBackendMetastoresList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationBackendMetastoresOutputReference",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationBackendMetastoresOutputReference",
 		reflect.TypeOf((*DataprocMetastoreFederationBackendMetastoresOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,15 +162,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationConfig",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationConfig",
 		reflect.TypeOf((*DataprocMetastoreFederationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationTimeouts",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationTimeouts",
 		reflect.TypeOf((*DataprocMetastoreFederationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationTimeoutsOutputReference",
+		"@cdktn/provider-google.dataprocMetastoreFederation.DataprocMetastoreFederationTimeoutsOutputReference",
 		reflect.TypeOf((*DataprocMetastoreFederationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

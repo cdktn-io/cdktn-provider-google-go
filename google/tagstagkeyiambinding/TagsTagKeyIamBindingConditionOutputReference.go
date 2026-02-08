@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tagstagkeyiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/tagstagkeyiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/tagstagkeyiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewTagsTagKeyIamBindingConditionOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_TagsTagKeyIamBindingConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.tagsTagKeyIamBinding.TagsTagKeyIamBindingConditionOutputReference",
+		"@cdktn/provider-google.tagsTagKeyIamBinding.TagsTagKeyIamBindingConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewTagsTagKeyIamBindingConditionOutputReference_Override(t TagsTagKeyIamBin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.tagsTagKeyIamBinding.TagsTagKeyIamBindingConditionOutputReference",
+		"@cdktn/provider-google.tagsTagKeyIamBinding.TagsTagKeyIamBindingConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

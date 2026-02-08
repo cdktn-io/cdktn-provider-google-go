@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computetargethttpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computetargethttpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computetargethttpproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewComputeTargetHttpProxyTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_ComputeTargetHttpProxyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeTargetHttpProxy.ComputeTargetHttpProxyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeTargetHttpProxy.ComputeTargetHttpProxyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewComputeTargetHttpProxyTimeoutsOutputReference_Override(c ComputeTargetHt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeTargetHttpProxy.ComputeTargetHttpProxyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeTargetHttpProxy.ComputeTargetHttpProxyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

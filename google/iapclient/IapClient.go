@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iapclient/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iapclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -412,7 +412,7 @@ func NewIapClient(scope constructs.Construct, id *string, config *IapClientConfi
 	j := jsiiProxy_IapClient{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -425,7 +425,7 @@ func NewIapClient_Override(i IapClient, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -542,7 +542,7 @@ func IapClient_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func IapClient_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func IapClient_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func IapClient_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func IapClient_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		"tfResourceType",
 		&returns,
 	)

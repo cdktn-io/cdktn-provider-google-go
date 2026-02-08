@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package clouddeploycustomtargettypeiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMember",
+		"@cdktn/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMember",
 		reflect.TypeOf((*ClouddeployCustomTargetTypeIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMemberCondition",
+		"@cdktn/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMemberCondition",
 		reflect.TypeOf((*ClouddeployCustomTargetTypeIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMemberConditionOutputReference",
+		"@cdktn/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMemberConditionOutputReference",
 		reflect.TypeOf((*ClouddeployCustomTargetTypeIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMemberConfig",
+		"@cdktn/provider-google.clouddeployCustomTargetTypeIamMember.ClouddeployCustomTargetTypeIamMemberConfig",
 		reflect.TypeOf((*ClouddeployCustomTargetTypeIamMemberConfig)(nil)).Elem(),
 	)
 }

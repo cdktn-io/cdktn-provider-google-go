@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedkafkaacl
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAcl",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAcl",
 		reflect.TypeOf((*ManagedKafkaAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aclEntries", GoGetter: "AclEntries"},
@@ -87,11 +87,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAclAclEntries",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAclAclEntries",
 		reflect.TypeOf((*ManagedKafkaAclAclEntries)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAclAclEntriesList",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAclAclEntriesList",
 		reflect.TypeOf((*ManagedKafkaAclAclEntriesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAclAclEntriesOutputReference",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAclAclEntriesOutputReference",
 		reflect.TypeOf((*ManagedKafkaAclAclEntriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,15 +155,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAclConfig",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAclConfig",
 		reflect.TypeOf((*ManagedKafkaAclConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAclTimeouts",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAclTimeouts",
 		reflect.TypeOf((*ManagedKafkaAclTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.managedKafkaAcl.ManagedKafkaAclTimeoutsOutputReference",
+		"@cdktn/provider-google.managedKafkaAcl.ManagedKafkaAclTimeoutsOutputReference",
 		reflect.TypeOf((*ManagedKafkaAclTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

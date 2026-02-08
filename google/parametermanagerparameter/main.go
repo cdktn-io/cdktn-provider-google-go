@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package parametermanagerparameter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameter",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameter",
 		reflect.TypeOf((*ParameterManagerParameter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameterConfig",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameterConfig",
 		reflect.TypeOf((*ParameterManagerParameterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameterPolicyMember",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameterPolicyMember",
 		reflect.TypeOf((*ParameterManagerParameterPolicyMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameterPolicyMemberList",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameterPolicyMemberList",
 		reflect.TypeOf((*ParameterManagerParameterPolicyMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameterPolicyMemberOutputReference",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameterPolicyMemberOutputReference",
 		reflect.TypeOf((*ParameterManagerParameterPolicyMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameterTimeouts",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameterTimeouts",
 		reflect.TypeOf((*ParameterManagerParameterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerParameter.ParameterManagerParameterTimeoutsOutputReference",
+		"@cdktn/provider-google.parameterManagerParameter.ParameterManagerParameterTimeoutsOutputReference",
 		reflect.TypeOf((*ParameterManagerParameterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

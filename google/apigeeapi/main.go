@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeapi
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeApi.ApigeeApi",
+		"@cdktn/provider-google.apigeeApi.ApigeeApi",
 		reflect.TypeOf((*ApigeeApi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeApi.ApigeeApiConfig",
+		"@cdktn/provider-google.apigeeApi.ApigeeApiConfig",
 		reflect.TypeOf((*ApigeeApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeApi.ApigeeApiMetaData",
+		"@cdktn/provider-google.apigeeApi.ApigeeApiMetaData",
 		reflect.TypeOf((*ApigeeApiMetaData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeApi.ApigeeApiMetaDataList",
+		"@cdktn/provider-google.apigeeApi.ApigeeApiMetaDataList",
 		reflect.TypeOf((*ApigeeApiMetaDataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeApi.ApigeeApiMetaDataOutputReference",
+		"@cdktn/provider-google.apigeeApi.ApigeeApiMetaDataOutputReference",
 		reflect.TypeOf((*ApigeeApiMetaDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeApi.ApigeeApiTimeouts",
+		"@cdktn/provider-google.apigeeApi.ApigeeApiTimeouts",
 		reflect.TypeOf((*ApigeeApiTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeApi.ApigeeApiTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeApi.ApigeeApiTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeApiTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

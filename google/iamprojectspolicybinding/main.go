@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamprojectspolicybinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBinding",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBinding",
 		reflect.TypeOf((*IamProjectsPolicyBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,11 +102,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingCondition",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingCondition",
 		reflect.TypeOf((*IamProjectsPolicyBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingConditionOutputReference",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingConditionOutputReference",
 		reflect.TypeOf((*IamProjectsPolicyBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingConfig",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingConfig",
 		reflect.TypeOf((*IamProjectsPolicyBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTarget",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTarget",
 		reflect.TypeOf((*IamProjectsPolicyBindingTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTargetOutputReference",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTargetOutputReference",
 		reflect.TypeOf((*IamProjectsPolicyBindingTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTimeouts",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTimeouts",
 		reflect.TypeOf((*IamProjectsPolicyBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTimeoutsOutputReference",
+		"@cdktn/provider-google.iamProjectsPolicyBinding.IamProjectsPolicyBindingTimeoutsOutputReference",
 		reflect.TypeOf((*IamProjectsPolicyBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

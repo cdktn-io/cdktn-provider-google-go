@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectiamcustomrole
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectIamCustomRole.ProjectIamCustomRole",
+		"@cdktn/provider-google.projectIamCustomRole.ProjectIamCustomRole",
 		reflect.TypeOf((*ProjectIamCustomRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectIamCustomRole.ProjectIamCustomRoleConfig",
+		"@cdktn/provider-google.projectIamCustomRole.ProjectIamCustomRoleConfig",
 		reflect.TypeOf((*ProjectIamCustomRoleConfig)(nil)).Elem(),
 	)
 }

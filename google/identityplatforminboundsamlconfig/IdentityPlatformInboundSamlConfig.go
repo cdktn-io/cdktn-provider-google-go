@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package identityplatforminboundsamlconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/identityplatforminboundsamlconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/identityplatforminboundsamlconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -484,7 +484,7 @@ func NewIdentityPlatformInboundSamlConfig(scope constructs.Construct, id *string
 	j := jsiiProxy_IdentityPlatformInboundSamlConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -497,7 +497,7 @@ func NewIdentityPlatformInboundSamlConfig_Override(i IdentityPlatformInboundSaml
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -636,7 +636,7 @@ func IdentityPlatformInboundSamlConfig_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func IdentityPlatformInboundSamlConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func IdentityPlatformInboundSamlConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func IdentityPlatformInboundSamlConfig_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func IdentityPlatformInboundSamlConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
+		"@cdktn/provider-google.identityPlatformInboundSamlConfig.IdentityPlatformInboundSamlConfig",
 		"tfResourceType",
 		&returns,
 	)

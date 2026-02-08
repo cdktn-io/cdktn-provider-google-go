@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkebackupbackupchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		reflect.TypeOf((*GkeBackupBackupChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannelConfig",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannelConfig",
 		reflect.TypeOf((*GkeBackupBackupChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannelTimeouts",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannelTimeouts",
 		reflect.TypeOf((*GkeBackupBackupChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannelTimeoutsOutputReference",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannelTimeoutsOutputReference",
 		reflect.TypeOf((*GkeBackupBackupChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

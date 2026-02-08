@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestoredatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabase",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
 		reflect.TypeOf((*FirestoreDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,11 +111,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabaseCmekConfig",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabaseCmekConfig",
 		reflect.TypeOf((*FirestoreDatabaseCmekConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabaseCmekConfigOutputReference",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabaseCmekConfigOutputReference",
 		reflect.TypeOf((*FirestoreDatabaseCmekConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeKeyVersion", GoGetter: "ActiveKeyVersion"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabaseConfig",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabaseConfig",
 		reflect.TypeOf((*FirestoreDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabaseTimeouts",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabaseTimeouts",
 		reflect.TypeOf((*FirestoreDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreDatabase.FirestoreDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*FirestoreDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

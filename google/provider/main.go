@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.provider.GoogleProvider",
+		"@cdktn/provider-google.provider.GoogleProvider",
 		reflect.TypeOf((*GoogleProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessApprovalCustomEndpoint", GoGetter: "AccessApprovalCustomEndpoint"},
@@ -578,15 +578,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.provider.GoogleProviderBatching",
+		"@cdktn/provider-google.provider.GoogleProviderBatching",
 		reflect.TypeOf((*GoogleProviderBatching)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.provider.GoogleProviderConfig",
+		"@cdktn/provider-google.provider.GoogleProviderConfig",
 		reflect.TypeOf((*GoogleProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.provider.GoogleProviderExternalCredentials",
+		"@cdktn/provider-google.provider.GoogleProviderExternalCredentials",
 		reflect.TypeOf((*GoogleProviderExternalCredentials)(nil)).Elem(),
 	)
 }

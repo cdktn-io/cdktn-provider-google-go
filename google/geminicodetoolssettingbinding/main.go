@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminicodetoolssettingbinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBinding",
+		"@cdktn/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBinding",
 		reflect.TypeOf((*GeminiCodeToolsSettingBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBindingConfig",
+		"@cdktn/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBindingConfig",
 		reflect.TypeOf((*GeminiCodeToolsSettingBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBindingTimeouts",
+		"@cdktn/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBindingTimeouts",
 		reflect.TypeOf((*GeminiCodeToolsSettingBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBindingTimeoutsOutputReference",
+		"@cdktn/provider-google.geminiCodeToolsSettingBinding.GeminiCodeToolsSettingBindingTimeoutsOutputReference",
 		reflect.TypeOf((*GeminiCodeToolsSettingBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

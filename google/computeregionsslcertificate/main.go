@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregionsslcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificate",
+		"@cdktn/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificate",
 		reflect.TypeOf((*ComputeRegionSslCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificateConfig",
+		"@cdktn/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificateConfig",
 		reflect.TypeOf((*ComputeRegionSslCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificateTimeouts",
+		"@cdktn/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificateTimeouts",
 		reflect.TypeOf((*ComputeRegionSslCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificateTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRegionSslCertificate.ComputeRegionSslCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRegionSslCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

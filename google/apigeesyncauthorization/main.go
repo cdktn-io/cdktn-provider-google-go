@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeesyncauthorization
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorization",
+		"@cdktn/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorization",
 		reflect.TypeOf((*ApigeeSyncAuthorization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorizationConfig",
+		"@cdktn/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorizationConfig",
 		reflect.TypeOf((*ApigeeSyncAuthorizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorizationTimeouts",
+		"@cdktn/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorizationTimeouts",
 		reflect.TypeOf((*ApigeeSyncAuthorizationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorizationTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeSyncAuthorization.ApigeeSyncAuthorizationTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeSyncAuthorizationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

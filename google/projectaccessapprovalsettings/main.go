@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectaccessapprovalsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettings",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettings",
 		reflect.TypeOf((*ProjectAccessApprovalSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeKeyVersion", GoGetter: "ActiveKeyVersion"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsConfig",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsConfig",
 		reflect.TypeOf((*ProjectAccessApprovalSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsEnrolledServices",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsEnrolledServices",
 		reflect.TypeOf((*ProjectAccessApprovalSettingsEnrolledServices)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsEnrolledServicesList",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsEnrolledServicesList",
 		reflect.TypeOf((*ProjectAccessApprovalSettingsEnrolledServicesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsEnrolledServicesOutputReference",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsEnrolledServicesOutputReference",
 		reflect.TypeOf((*ProjectAccessApprovalSettingsEnrolledServicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudProduct", GoGetter: "CloudProduct"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsTimeouts",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsTimeouts",
 		reflect.TypeOf((*ProjectAccessApprovalSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsTimeoutsOutputReference",
+		"@cdktn/provider-google.projectAccessApprovalSettings.ProjectAccessApprovalSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*ProjectAccessApprovalSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

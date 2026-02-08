@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamworkforcepooliammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMember",
+		"@cdktn/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMember",
 		reflect.TypeOf((*IamWorkforcePoolIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMemberCondition",
+		"@cdktn/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMemberCondition",
 		reflect.TypeOf((*IamWorkforcePoolIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMemberConditionOutputReference",
+		"@cdktn/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMemberConditionOutputReference",
 		reflect.TypeOf((*IamWorkforcePoolIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMemberConfig",
+		"@cdktn/provider-google.iamWorkforcePoolIamMember.IamWorkforcePoolIamMemberConfig",
 		reflect.TypeOf((*IamWorkforcePoolIamMemberConfig)(nil)).Elem(),
 	)
 }

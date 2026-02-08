@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigtableappprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		reflect.TypeOf((*BigtableAppProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileConfig",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileConfig",
 		reflect.TypeOf((*BigtableAppProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileDataBoostIsolationReadOnly",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileDataBoostIsolationReadOnly",
 		reflect.TypeOf((*BigtableAppProfileDataBoostIsolationReadOnly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileDataBoostIsolationReadOnlyOutputReference",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileDataBoostIsolationReadOnlyOutputReference",
 		reflect.TypeOf((*BigtableAppProfileDataBoostIsolationReadOnlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileSingleClusterRouting",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileSingleClusterRouting",
 		reflect.TypeOf((*BigtableAppProfileSingleClusterRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileSingleClusterRoutingOutputReference",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileSingleClusterRoutingOutputReference",
 		reflect.TypeOf((*BigtableAppProfileSingleClusterRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowTransactionalWrites", GoGetter: "AllowTransactionalWrites"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileStandardIsolation",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileStandardIsolation",
 		reflect.TypeOf((*BigtableAppProfileStandardIsolation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileStandardIsolationOutputReference",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileStandardIsolationOutputReference",
 		reflect.TypeOf((*BigtableAppProfileStandardIsolationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileTimeouts",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileTimeouts",
 		reflect.TypeOf((*BigtableAppProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfileTimeoutsOutputReference",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfileTimeoutsOutputReference",
 		reflect.TypeOf((*BigtableAppProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

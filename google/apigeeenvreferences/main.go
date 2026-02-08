@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeenvreferences
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvReferences.ApigeeEnvReferences",
+		"@cdktn/provider-google.apigeeEnvReferences.ApigeeEnvReferences",
 		reflect.TypeOf((*ApigeeEnvReferences)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvReferences.ApigeeEnvReferencesConfig",
+		"@cdktn/provider-google.apigeeEnvReferences.ApigeeEnvReferencesConfig",
 		reflect.TypeOf((*ApigeeEnvReferencesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvReferences.ApigeeEnvReferencesTimeouts",
+		"@cdktn/provider-google.apigeeEnvReferences.ApigeeEnvReferencesTimeouts",
 		reflect.TypeOf((*ApigeeEnvReferencesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvReferences.ApigeeEnvReferencesTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeEnvReferences.ApigeeEnvReferencesTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeEnvReferencesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagebucketobject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObject",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObject",
 		reflect.TypeOf((*StorageBucketObject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -137,15 +137,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectConfig",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectConfig",
 		reflect.TypeOf((*StorageBucketObjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectCustomerEncryption",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectCustomerEncryption",
 		reflect.TypeOf((*StorageBucketObjectCustomerEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectCustomerEncryptionOutputReference",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectCustomerEncryptionOutputReference",
 		reflect.TypeOf((*StorageBucketObjectCustomerEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -182,11 +182,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectRetention",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectRetention",
 		reflect.TypeOf((*StorageBucketObjectRetention)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectRetentionOutputReference",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectRetentionOutputReference",
 		reflect.TypeOf((*StorageBucketObjectRetentionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectTimeouts",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectTimeouts",
 		reflect.TypeOf((*StorageBucketObjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageBucketObject.StorageBucketObjectTimeoutsOutputReference",
+		"@cdktn/provider-google.storageBucketObject.StorageBucketObjectTimeoutsOutputReference",
 		reflect.TypeOf((*StorageBucketObjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

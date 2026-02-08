@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigtableauthorizedview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedView",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedView",
 		reflect.TypeOf((*BigtableAuthorizedView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,19 +86,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewConfig",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewConfig",
 		reflect.TypeOf((*BigtableAuthorizedViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetView",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetView",
 		reflect.TypeOf((*BigtableAuthorizedViewSubsetView)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewFamilySubsets",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewFamilySubsets",
 		reflect.TypeOf((*BigtableAuthorizedViewSubsetViewFamilySubsets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewFamilySubsetsList",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewFamilySubsetsList",
 		reflect.TypeOf((*BigtableAuthorizedViewSubsetViewFamilySubsetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference",
 		reflect.TypeOf((*BigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewOutputReference",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewSubsetViewOutputReference",
 		reflect.TypeOf((*BigtableAuthorizedViewSubsetViewOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewTimeouts",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewTimeouts",
 		reflect.TypeOf((*BigtableAuthorizedViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewTimeoutsOutputReference",
+		"@cdktn/provider-google.bigtableAuthorizedView.BigtableAuthorizedViewTimeoutsOutputReference",
 		reflect.TypeOf((*BigtableAuthorizedViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

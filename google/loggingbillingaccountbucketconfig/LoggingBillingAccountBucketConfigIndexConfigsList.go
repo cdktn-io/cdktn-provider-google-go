@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingbillingaccountbucketconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/loggingbillingaccountbucketconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/loggingbillingaccountbucketconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLoggingBillingAccountBucketConfigIndexConfigsList(terraformResource cdkt
 	j := jsiiProxy_LoggingBillingAccountBucketConfigIndexConfigsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingBillingAccountBucketConfig.LoggingBillingAccountBucketConfigIndexConfigsList",
+		"@cdktn/provider-google.loggingBillingAccountBucketConfig.LoggingBillingAccountBucketConfigIndexConfigsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLoggingBillingAccountBucketConfigIndexConfigsList_Override(l LoggingBill
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingBillingAccountBucketConfig.LoggingBillingAccountBucketConfigIndexConfigsList",
+		"@cdktn/provider-google.loggingBillingAccountBucketConfig.LoggingBillingAccountBucketConfigIndexConfigsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

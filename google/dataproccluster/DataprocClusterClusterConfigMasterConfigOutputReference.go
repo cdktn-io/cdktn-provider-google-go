@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataproccluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -314,7 +314,7 @@ func NewDataprocClusterClusterConfigMasterConfigOutputReference(terraformResourc
 	j := jsiiProxy_DataprocClusterClusterConfigMasterConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocCluster.DataprocClusterClusterConfigMasterConfigOutputReference",
+		"@cdktn/provider-google.dataprocCluster.DataprocClusterClusterConfigMasterConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -326,7 +326,7 @@ func NewDataprocClusterClusterConfigMasterConfigOutputReference_Override(d Datap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocCluster.DataprocClusterClusterConfigMasterConfigOutputReference",
+		"@cdktn/provider-google.dataprocCluster.DataprocClusterClusterConfigMasterConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

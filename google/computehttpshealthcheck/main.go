@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computehttpshealthcheck
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheck",
+		"@cdktn/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheck",
 		reflect.TypeOf((*ComputeHttpsHealthCheck)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheckConfig",
+		"@cdktn/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheckConfig",
 		reflect.TypeOf((*ComputeHttpsHealthCheckConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheckTimeouts",
+		"@cdktn/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheckTimeouts",
 		reflect.TypeOf((*ComputeHttpsHealthCheckTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheckTimeoutsOutputReference",
+		"@cdktn/provider-google.computeHttpsHealthCheck.ComputeHttpsHealthCheckTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeHttpsHealthCheckTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

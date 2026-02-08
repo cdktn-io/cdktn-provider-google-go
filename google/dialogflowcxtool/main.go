@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxtool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxTool",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxTool",
 		reflect.TypeOf((*DialogflowCxTool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,19 +91,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolConfig",
 		reflect.TypeOf((*DialogflowCxToolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpec",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpec",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecDataStoreConnections",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecDataStoreConnections",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpecDataStoreConnections)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecDataStoreConnectionsList",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecDataStoreConnectionsList",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpecDataStoreConnectionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecDataStoreConnectionsOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecDataStoreConnectionsOutputReference",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpecDataStoreConnectionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,11 +166,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecFallbackPrompt",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecFallbackPrompt",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpecFallbackPrompt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecFallbackPromptOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecFallbackPromptOutputReference",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpecFallbackPromptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,7 +202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolDataStoreSpecOutputReference",
 		reflect.TypeOf((*DialogflowCxToolDataStoreSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,11 +240,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolFunctionSpec",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolFunctionSpec",
 		reflect.TypeOf((*DialogflowCxToolFunctionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolFunctionSpecOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolFunctionSpecOutputReference",
 		reflect.TypeOf((*DialogflowCxToolFunctionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -282,19 +282,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpec",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpec",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthentication",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthentication",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfigOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfigOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -336,11 +336,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfig",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -378,11 +378,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationOauthConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationOauthConfig",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationOauthConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -429,7 +429,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyConfig", GoGetter: "ApiKeyConfig"},
@@ -477,11 +477,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfig",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -516,7 +516,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authentication", GoGetter: "Authentication"},
@@ -562,11 +562,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecServiceDirectoryConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecServiceDirectoryConfig",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecServiceDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecServiceDirectoryConfigOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecServiceDirectoryConfigOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecServiceDirectoryConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -600,15 +600,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfig",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfig",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecTlsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigCaCerts",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigCaCerts",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecTlsConfigCaCerts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigCaCertsList",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigCaCertsList",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecTlsConfigCaCertsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -630,7 +630,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigCaCertsOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigCaCertsOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecTlsConfigCaCertsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cert", GoGetter: "Cert"},
@@ -666,7 +666,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolOpenApiSpecTlsConfigOutputReference",
 		reflect.TypeOf((*DialogflowCxToolOpenApiSpecTlsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caCerts", GoGetter: "CaCerts"},
@@ -701,11 +701,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolTimeouts",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolTimeouts",
 		reflect.TypeOf((*DialogflowCxToolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxTool.DialogflowCxToolTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowCxTool.DialogflowCxToolTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowCxToolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

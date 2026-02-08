@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datalosspreventionjobtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datalosspreventionjobtrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datalosspreventionjobtrigger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -554,7 +554,7 @@ func NewDataLossPreventionJobTrigger(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataLossPreventionJobTrigger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -567,7 +567,7 @@ func NewDataLossPreventionJobTrigger_Override(d DataLossPreventionJobTrigger, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -717,7 +717,7 @@ func DataLossPreventionJobTrigger_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func DataLossPreventionJobTrigger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func DataLossPreventionJobTrigger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func DataLossPreventionJobTrigger_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func DataLossPreventionJobTrigger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
+		"@cdktn/provider-google.dataLossPreventionJobTrigger.DataLossPreventionJobTrigger",
 		"tfResourceType",
 		&returns,
 	)

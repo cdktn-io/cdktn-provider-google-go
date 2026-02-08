@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computemanagedsslcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificate",
+		"@cdktn/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificate",
 		reflect.TypeOf((*ComputeManagedSslCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateConfig",
+		"@cdktn/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateConfig",
 		reflect.TypeOf((*ComputeManagedSslCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateManaged",
+		"@cdktn/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateManaged",
 		reflect.TypeOf((*ComputeManagedSslCertificateManaged)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateManagedOutputReference",
+		"@cdktn/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateManagedOutputReference",
 		reflect.TypeOf((*ComputeManagedSslCertificateManagedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateTimeouts",
+		"@cdktn/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateTimeouts",
 		reflect.TypeOf((*ComputeManagedSslCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateTimeoutsOutputReference",
+		"@cdktn/provider-google.computeManagedSslCertificate.ComputeManagedSslCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeManagedSslCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

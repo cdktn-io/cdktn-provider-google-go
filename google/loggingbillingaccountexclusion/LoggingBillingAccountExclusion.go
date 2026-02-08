@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingbillingaccountexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/loggingbillingaccountexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/loggingbillingaccountexclusion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -437,7 +437,7 @@ func NewLoggingBillingAccountExclusion(scope constructs.Construct, id *string, c
 	j := jsiiProxy_LoggingBillingAccountExclusion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -450,7 +450,7 @@ func NewLoggingBillingAccountExclusion_Override(l LoggingBillingAccountExclusion
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -600,7 +600,7 @@ func LoggingBillingAccountExclusion_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func LoggingBillingAccountExclusion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func LoggingBillingAccountExclusion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func LoggingBillingAccountExclusion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func LoggingBillingAccountExclusion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
+		"@cdktn/provider-google.loggingBillingAccountExclusion.LoggingBillingAccountExclusion",
 		"tfResourceType",
 		&returns,
 	)

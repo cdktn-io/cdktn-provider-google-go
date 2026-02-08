@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tagstagvalue
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsTagValue.TagsTagValue",
+		"@cdktn/provider-google.tagsTagValue.TagsTagValue",
 		reflect.TypeOf((*TagsTagValue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsTagValue.TagsTagValueConfig",
+		"@cdktn/provider-google.tagsTagValue.TagsTagValueConfig",
 		reflect.TypeOf((*TagsTagValueConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsTagValue.TagsTagValueTimeouts",
+		"@cdktn/provider-google.tagsTagValue.TagsTagValueTimeouts",
 		reflect.TypeOf((*TagsTagValueTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsTagValue.TagsTagValueTimeoutsOutputReference",
+		"@cdktn/provider-google.tagsTagValue.TagsTagValueTimeoutsOutputReference",
 		reflect.TypeOf((*TagsTagValueTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

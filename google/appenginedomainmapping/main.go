@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appenginedomainmapping
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMapping",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMapping",
 		reflect.TypeOf((*AppEngineDomainMapping)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingConfig",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingConfig",
 		reflect.TypeOf((*AppEngineDomainMappingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingResourceRecords",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingResourceRecords",
 		reflect.TypeOf((*AppEngineDomainMappingResourceRecords)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingResourceRecordsList",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingResourceRecordsList",
 		reflect.TypeOf((*AppEngineDomainMappingResourceRecordsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingResourceRecordsOutputReference",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingResourceRecordsOutputReference",
 		reflect.TypeOf((*AppEngineDomainMappingResourceRecordsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettings",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettings",
 		reflect.TypeOf((*AppEngineDomainMappingSslSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettingsOutputReference",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettingsOutputReference",
 		reflect.TypeOf((*AppEngineDomainMappingSslSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateId", GoGetter: "CertificateId"},
@@ -190,11 +190,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingTimeouts",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingTimeouts",
 		reflect.TypeOf((*AppEngineDomainMappingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingTimeoutsOutputReference",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingTimeoutsOutputReference",
 		reflect.TypeOf((*AppEngineDomainMappingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

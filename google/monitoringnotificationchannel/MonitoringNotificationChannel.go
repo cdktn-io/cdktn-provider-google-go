@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringnotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/monitoringnotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringnotificationchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -581,7 +581,7 @@ func NewMonitoringNotificationChannel(scope constructs.Construct, id *string, co
 	j := jsiiProxy_MonitoringNotificationChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -594,7 +594,7 @@ func NewMonitoringNotificationChannel_Override(m MonitoringNotificationChannel, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -777,7 +777,7 @@ func MonitoringNotificationChannel_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func MonitoringNotificationChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func MonitoringNotificationChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func MonitoringNotificationChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func MonitoringNotificationChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
+		"@cdktn/provider-google.monitoringNotificationChannel.MonitoringNotificationChannel",
 		"tfResourceType",
 		&returns,
 	)

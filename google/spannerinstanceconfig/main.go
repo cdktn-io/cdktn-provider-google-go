@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerinstanceconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigA",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigA",
 		reflect.TypeOf((*SpannerInstanceConfigA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigAConfig",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigAConfig",
 		reflect.TypeOf((*SpannerInstanceConfigAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigReplicas",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigReplicas",
 		reflect.TypeOf((*SpannerInstanceConfigReplicas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigReplicasList",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigReplicasList",
 		reflect.TypeOf((*SpannerInstanceConfigReplicasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigReplicasOutputReference",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigReplicasOutputReference",
 		reflect.TypeOf((*SpannerInstanceConfigReplicasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigTimeouts",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigTimeouts",
 		reflect.TypeOf((*SpannerInstanceConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerInstanceConfig.SpannerInstanceConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.spannerInstanceConfig.SpannerInstanceConfigTimeoutsOutputReference",
 		reflect.TypeOf((*SpannerInstanceConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

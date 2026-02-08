@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexentrygroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexEntryGroup.DataplexEntryGroup",
+		"@cdktn/provider-google.dataplexEntryGroup.DataplexEntryGroup",
 		reflect.TypeOf((*DataplexEntryGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexEntryGroup.DataplexEntryGroupConfig",
+		"@cdktn/provider-google.dataplexEntryGroup.DataplexEntryGroupConfig",
 		reflect.TypeOf((*DataplexEntryGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexEntryGroup.DataplexEntryGroupTimeouts",
+		"@cdktn/provider-google.dataplexEntryGroup.DataplexEntryGroupTimeouts",
 		reflect.TypeOf((*DataplexEntryGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexEntryGroup.DataplexEntryGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.dataplexEntryGroup.DataplexEntryGroupTimeoutsOutputReference",
 		reflect.TypeOf((*DataplexEntryGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

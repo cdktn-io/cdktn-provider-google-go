@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenodetemplate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplate",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplate",
 		reflect.TypeOf((*ComputeNodeTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accelerators", GoGetter: "Accelerators"},
@@ -108,11 +108,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateAccelerators",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateAccelerators",
 		reflect.TypeOf((*ComputeNodeTemplateAccelerators)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateAcceleratorsList",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateAcceleratorsList",
 		reflect.TypeOf((*ComputeNodeTemplateAcceleratorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateAcceleratorsOutputReference",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateAcceleratorsOutputReference",
 		reflect.TypeOf((*ComputeNodeTemplateAcceleratorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorCount", GoGetter: "AcceleratorCount"},
@@ -172,15 +172,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateConfig",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateConfig",
 		reflect.TypeOf((*ComputeNodeTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateDisks",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateDisks",
 		reflect.TypeOf((*ComputeNodeTemplateDisks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateDisksList",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateDisksList",
 		reflect.TypeOf((*ComputeNodeTemplateDisksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -202,7 +202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateDisksOutputReference",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateDisksOutputReference",
 		reflect.TypeOf((*ComputeNodeTemplateDisksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateNodeTypeFlexibility",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateNodeTypeFlexibility",
 		reflect.TypeOf((*ComputeNodeTemplateNodeTypeFlexibility)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateNodeTypeFlexibilityOutputReference",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateNodeTypeFlexibilityOutputReference",
 		reflect.TypeOf((*ComputeNodeTemplateNodeTypeFlexibilityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -286,11 +286,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateServerBinding",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateServerBinding",
 		reflect.TypeOf((*ComputeNodeTemplateServerBinding)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateServerBindingOutputReference",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateServerBindingOutputReference",
 		reflect.TypeOf((*ComputeNodeTemplateServerBindingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -324,11 +324,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateTimeouts",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateTimeouts",
 		reflect.TypeOf((*ComputeNodeTemplateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeTemplate.ComputeNodeTemplateTimeoutsOutputReference",
+		"@cdktn/provider-google.computeNodeTemplate.ComputeNodeTemplateTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeNodeTemplateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

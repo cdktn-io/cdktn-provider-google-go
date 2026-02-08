@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securesourcemanagerinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstance",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstance",
 		reflect.TypeOf((*SecureSourceManagerInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceConfig",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceConfig",
 		reflect.TypeOf((*SecureSourceManagerInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceHostConfig",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceHostConfig",
 		reflect.TypeOf((*SecureSourceManagerInstanceHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceHostConfigList",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceHostConfigList",
 		reflect.TypeOf((*SecureSourceManagerInstanceHostConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceHostConfigOutputReference",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceHostConfigOutputReference",
 		reflect.TypeOf((*SecureSourceManagerInstanceHostConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "api", GoGetter: "Api"},
@@ -167,11 +167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstancePrivateConfig",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstancePrivateConfig",
 		reflect.TypeOf((*SecureSourceManagerInstancePrivateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstancePrivateConfigOutputReference",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstancePrivateConfigOutputReference",
 		reflect.TypeOf((*SecureSourceManagerInstancePrivateConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caPool", GoGetter: "CaPool"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceTimeouts",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceTimeouts",
 		reflect.TypeOf((*SecureSourceManagerInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*SecureSourceManagerInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -254,11 +254,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceWorkforceIdentityFederationConfig",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceWorkforceIdentityFederationConfig",
 		reflect.TypeOf((*SecureSourceManagerInstanceWorkforceIdentityFederationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceWorkforceIdentityFederationConfigOutputReference",
+		"@cdktn/provider-google.secureSourceManagerInstance.SecureSourceManagerInstanceWorkforceIdentityFederationConfigOutputReference",
 		reflect.TypeOf((*SecureSourceManagerInstanceWorkforceIdentityFederationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

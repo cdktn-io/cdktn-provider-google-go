@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicesauthzextension
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		reflect.TypeOf((*NetworkServicesAuthzExtension)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtensionConfig",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtensionConfig",
 		reflect.TypeOf((*NetworkServicesAuthzExtensionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtensionTimeouts",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtensionTimeouts",
 		reflect.TypeOf((*NetworkServicesAuthzExtensionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtensionTimeoutsOutputReference",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtensionTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkServicesAuthzExtensionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

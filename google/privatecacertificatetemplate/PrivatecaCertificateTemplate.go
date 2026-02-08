@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatecacertificatetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/privatecacertificatetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/privatecacertificatetemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -602,7 +602,7 @@ func NewPrivatecaCertificateTemplate(scope constructs.Construct, id *string, con
 	j := jsiiProxy_PrivatecaCertificateTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -615,7 +615,7 @@ func NewPrivatecaCertificateTemplate_Override(p PrivatecaCertificateTemplate, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -776,7 +776,7 @@ func PrivatecaCertificateTemplate_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -811,7 +811,7 @@ func PrivatecaCertificateTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -830,7 +830,7 @@ func PrivatecaCertificateTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func PrivatecaCertificateTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -862,7 +862,7 @@ func PrivatecaCertificateTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
+		"@cdktn/provider-google.privatecaCertificateTemplate.PrivatecaCertificateTemplate",
 		"tfResourceType",
 		&returns,
 	)

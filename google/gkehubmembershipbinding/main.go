@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubmembershipbinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBinding",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBinding",
 		reflect.TypeOf((*GkeHubMembershipBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingConfig",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingConfig",
 		reflect.TypeOf((*GkeHubMembershipBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingState",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingState",
 		reflect.TypeOf((*GkeHubMembershipBindingState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingStateList",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingStateList",
 		reflect.TypeOf((*GkeHubMembershipBindingStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingStateOutputReference",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingStateOutputReference",
 		reflect.TypeOf((*GkeHubMembershipBindingStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingTimeouts",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingTimeouts",
 		reflect.TypeOf((*GkeHubMembershipBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingTimeoutsOutputReference",
+		"@cdktn/provider-google.gkeHubMembershipBinding.GkeHubMembershipBindingTimeoutsOutputReference",
 		reflect.TypeOf((*GkeHubMembershipBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

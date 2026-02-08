@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubscopeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkehubscopeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubscopeiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewGkeHubScopeIamBinding(scope constructs.Construct, id *string, config *Gk
 	j := jsiiProxy_GkeHubScopeIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewGkeHubScopeIamBinding_Override(g GkeHubScopeIamBinding, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -600,7 +600,7 @@ func GkeHubScopeIamBinding_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func GkeHubScopeIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func GkeHubScopeIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func GkeHubScopeIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GkeHubScopeIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
+		"@cdktn/provider-google.gkeHubScopeIamBinding.GkeHubScopeIamBinding",
 		"tfResourceType",
 		&returns,
 	)

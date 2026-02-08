@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenodegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		reflect.TypeOf((*ComputeNodeGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,11 +104,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupAutoscalingPolicy",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupAutoscalingPolicy",
 		reflect.TypeOf((*ComputeNodeGroupAutoscalingPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupAutoscalingPolicyOutputReference",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupAutoscalingPolicyOutputReference",
 		reflect.TypeOf((*ComputeNodeGroupAutoscalingPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,15 +149,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupConfig",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupConfig",
 		reflect.TypeOf((*ComputeNodeGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupMaintenanceWindow",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupMaintenanceWindow",
 		reflect.TypeOf((*ComputeNodeGroupMaintenanceWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupMaintenanceWindowOutputReference",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupMaintenanceWindowOutputReference",
 		reflect.TypeOf((*ComputeNodeGroupMaintenanceWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -191,11 +191,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupShareSettings",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupShareSettings",
 		reflect.TypeOf((*ComputeNodeGroupShareSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsOutputReference",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsOutputReference",
 		reflect.TypeOf((*ComputeNodeGroupShareSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,11 +233,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsProjectMap",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsProjectMap",
 		reflect.TypeOf((*ComputeNodeGroupShareSettingsProjectMap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsProjectMapList",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsProjectMapList",
 		reflect.TypeOf((*ComputeNodeGroupShareSettingsProjectMapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsProjectMapOutputReference",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupShareSettingsProjectMapOutputReference",
 		reflect.TypeOf((*ComputeNodeGroupShareSettingsProjectMapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -295,11 +295,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupTimeouts",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupTimeouts",
 		reflect.TypeOf((*ComputeNodeGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeNodeGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

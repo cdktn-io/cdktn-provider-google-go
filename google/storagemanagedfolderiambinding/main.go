@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemanagedfolderiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBinding",
+		"@cdktn/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBinding",
 		reflect.TypeOf((*StorageManagedFolderIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,11 +79,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBindingCondition",
+		"@cdktn/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBindingCondition",
 		reflect.TypeOf((*StorageManagedFolderIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBindingConditionOutputReference",
+		"@cdktn/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBindingConditionOutputReference",
 		reflect.TypeOf((*StorageManagedFolderIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBindingConfig",
+		"@cdktn/provider-google.storageManagedFolderIamBinding.StorageManagedFolderIamBindingConfig",
 		reflect.TypeOf((*StorageManagedFolderIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerattachedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/containerattachedcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containerattachedcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewContainerAttachedClusterAuthorizationOutputReference(terraformResource c
 	j := jsiiProxy_ContainerAttachedClusterAuthorizationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAttachedCluster.ContainerAttachedClusterAuthorizationOutputReference",
+		"@cdktn/provider-google.containerAttachedCluster.ContainerAttachedClusterAuthorizationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewContainerAttachedClusterAuthorizationOutputReference_Override(c Containe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAttachedCluster.ContainerAttachedClusterAuthorizationOutputReference",
+		"@cdktn/provider-google.containerAttachedCluster.ContainerAttachedClusterAuthorizationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

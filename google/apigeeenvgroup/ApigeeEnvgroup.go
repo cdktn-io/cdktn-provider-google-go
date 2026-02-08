@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeenvgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apigeeenvgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeenvgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewApigeeEnvgroup(scope constructs.Construct, id *string, config *ApigeeEnv
 	j := jsiiProxy_ApigeeEnvgroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewApigeeEnvgroup_Override(a ApigeeEnvgroup, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -555,7 +555,7 @@ func ApigeeEnvgroup_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func ApigeeEnvgroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func ApigeeEnvgroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func ApigeeEnvgroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ApigeeEnvgroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		"tfResourceType",
 		&returns,
 	)

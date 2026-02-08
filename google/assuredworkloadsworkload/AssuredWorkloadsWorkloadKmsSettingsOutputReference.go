@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package assuredworkloadsworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/assuredworkloadsworkload/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/assuredworkloadsworkload/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference(terraformResource cdk
 	j := jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkloadKmsSettingsOutputReference",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkloadKmsSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference_Override(a AssuredWor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkloadKmsSettingsOutputReference",
+		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkloadKmsSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

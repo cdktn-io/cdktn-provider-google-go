@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package endpointsservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsService",
+		"@cdktn/provider-google.endpointsService.EndpointsService",
 		reflect.TypeOf((*EndpointsService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,11 +88,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceApis",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceApis",
 		reflect.TypeOf((*EndpointsServiceApis)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceApisList",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceApisList",
 		reflect.TypeOf((*EndpointsServiceApisList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,11 +113,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceApisMethods",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceApisMethods",
 		reflect.TypeOf((*EndpointsServiceApisMethods)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceApisMethodsList",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceApisMethodsList",
 		reflect.TypeOf((*EndpointsServiceApisMethodsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceApisMethodsOutputReference",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceApisMethodsOutputReference",
 		reflect.TypeOf((*EndpointsServiceApisMethodsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceApisOutputReference",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceApisOutputReference",
 		reflect.TypeOf((*EndpointsServiceApisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,15 +210,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceConfig",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceConfig",
 		reflect.TypeOf((*EndpointsServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceEndpoints",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceEndpoints",
 		reflect.TypeOf((*EndpointsServiceEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceEndpointsList",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceEndpointsList",
 		reflect.TypeOf((*EndpointsServiceEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceEndpointsOutputReference",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceEndpointsOutputReference",
 		reflect.TypeOf((*EndpointsServiceEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -273,11 +273,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceTimeouts",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceTimeouts",
 		reflect.TypeOf((*EndpointsServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.endpointsService.EndpointsServiceTimeoutsOutputReference",
+		"@cdktn/provider-google.endpointsService.EndpointsServiceTimeoutsOutputReference",
 		reflect.TypeOf((*EndpointsServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

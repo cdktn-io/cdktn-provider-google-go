@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/storagebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagebucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewStorageBucketLoggingOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_StorageBucketLoggingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageBucket.StorageBucketLoggingOutputReference",
+		"@cdktn/provider-google.storageBucket.StorageBucketLoggingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewStorageBucketLoggingOutputReference_Override(s StorageBucketLoggingOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageBucket.StorageBucketLoggingOutputReference",
+		"@cdktn/provider-google.storageBucket.StorageBucketLoggingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

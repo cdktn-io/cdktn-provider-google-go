@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerinstanceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/spannerinstanceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/spannerinstanceiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewSpannerInstanceIamBinding(scope constructs.Construct, id *string, config
 	j := jsiiProxy_SpannerInstanceIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewSpannerInstanceIamBinding_Override(s SpannerInstanceIamBinding, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -600,7 +600,7 @@ func SpannerInstanceIamBinding_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func SpannerInstanceIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func SpannerInstanceIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func SpannerInstanceIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SpannerInstanceIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
+		"@cdktn/provider-google.spannerInstanceIamBinding.SpannerInstanceIamBinding",
 		"tfResourceType",
 		&returns,
 	)

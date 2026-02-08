@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeenvironmentiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apigeeenvironmentiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeenvironmentiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewApigeeEnvironmentIamBinding(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ApigeeEnvironmentIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -460,7 +460,7 @@ func NewApigeeEnvironmentIamBinding_Override(a ApigeeEnvironmentIamBinding, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -599,7 +599,7 @@ func ApigeeEnvironmentIamBinding_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func ApigeeEnvironmentIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func ApigeeEnvironmentIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func ApigeeEnvironmentIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func ApigeeEnvironmentIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
+		"@cdktn/provider-google.apigeeEnvironmentIamBinding.ApigeeEnvironmentIamBinding",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudfunctionsfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudfunctionsfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1178,7 +1178,7 @@ func NewCloudfunctionsFunction(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_CloudfunctionsFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1191,7 +1191,7 @@ func NewCloudfunctionsFunction_Override(c CloudfunctionsFunction, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1583,7 +1583,7 @@ func CloudfunctionsFunction_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1618,7 +1618,7 @@ func CloudfunctionsFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1637,7 +1637,7 @@ func CloudfunctionsFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1656,7 +1656,7 @@ func CloudfunctionsFunction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1669,7 +1669,7 @@ func CloudfunctionsFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
+		"@cdktn/provider-google.cloudfunctionsFunction.CloudfunctionsFunction",
 		"tfResourceType",
 		&returns,
 	)

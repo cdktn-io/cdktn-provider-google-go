@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaseapphostingdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/firebaseapphostingdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaseapphostingdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -549,7 +549,7 @@ func NewFirebaseAppHostingDomain(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_FirebaseAppHostingDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,7 +562,7 @@ func NewFirebaseAppHostingDomain_Override(f FirebaseAppHostingDomain, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -701,7 +701,7 @@ func FirebaseAppHostingDomain_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -736,7 +736,7 @@ func FirebaseAppHostingDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func FirebaseAppHostingDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -774,7 +774,7 @@ func FirebaseAppHostingDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func FirebaseAppHostingDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
+		"@cdktn/provider-google.firebaseAppHostingDomain.FirebaseAppHostingDomain",
 		"tfResourceType",
 		&returns,
 	)

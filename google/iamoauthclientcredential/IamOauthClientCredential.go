@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamoauthclientcredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iamoauthclientcredential/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iamoauthclientcredential/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -507,7 +507,7 @@ func NewIamOauthClientCredential(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamOauthClientCredential{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -520,7 +520,7 @@ func NewIamOauthClientCredential_Override(i IamOauthClientCredential, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -681,7 +681,7 @@ func IamOauthClientCredential_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -716,7 +716,7 @@ func IamOauthClientCredential_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func IamOauthClientCredential_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func IamOauthClientCredential_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func IamOauthClientCredential_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iamOauthClientCredential.IamOauthClientCredential",
+		"@cdktn/provider-google.iamOauthClientCredential.IamOauthClientCredential",
 		"tfResourceType",
 		&returns,
 	)

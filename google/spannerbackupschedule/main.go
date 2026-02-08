@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerbackupschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupSchedule",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupSchedule",
 		reflect.TypeOf((*SpannerBackupSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleConfig",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleConfig",
 		reflect.TypeOf((*SpannerBackupScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleEncryptionConfig",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleEncryptionConfig",
 		reflect.TypeOf((*SpannerBackupScheduleEncryptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleEncryptionConfigOutputReference",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleEncryptionConfigOutputReference",
 		reflect.TypeOf((*SpannerBackupScheduleEncryptionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleFullBackupSpec",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleFullBackupSpec",
 		reflect.TypeOf((*SpannerBackupScheduleFullBackupSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleFullBackupSpecOutputReference",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleFullBackupSpecOutputReference",
 		reflect.TypeOf((*SpannerBackupScheduleFullBackupSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -182,11 +182,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleIncrementalBackupSpec",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleIncrementalBackupSpec",
 		reflect.TypeOf((*SpannerBackupScheduleIncrementalBackupSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleIncrementalBackupSpecOutputReference",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleIncrementalBackupSpecOutputReference",
 		reflect.TypeOf((*SpannerBackupScheduleIncrementalBackupSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,15 +218,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpec",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpec",
 		reflect.TypeOf((*SpannerBackupScheduleSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpecCronSpec",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpecCronSpec",
 		reflect.TypeOf((*SpannerBackupScheduleSpecCronSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpecCronSpecOutputReference",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpecCronSpecOutputReference",
 		reflect.TypeOf((*SpannerBackupScheduleSpecCronSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -261,7 +261,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpecOutputReference",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleSpecOutputReference",
 		reflect.TypeOf((*SpannerBackupScheduleSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -297,11 +297,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleTimeouts",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleTimeouts",
 		reflect.TypeOf((*SpannerBackupScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerBackupSchedule.SpannerBackupScheduleTimeoutsOutputReference",
+		"@cdktn/provider-google.spannerBackupSchedule.SpannerBackupScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*SpannerBackupScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

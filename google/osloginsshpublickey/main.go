@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package osloginsshpublickey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		reflect.TypeOf((*OsLoginSshPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKeyConfig",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKeyConfig",
 		reflect.TypeOf((*OsLoginSshPublicKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKeyTimeouts",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKeyTimeouts",
 		reflect.TypeOf((*OsLoginSshPublicKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKeyTimeoutsOutputReference",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKeyTimeoutsOutputReference",
 		reflect.TypeOf((*OsLoginSshPublicKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

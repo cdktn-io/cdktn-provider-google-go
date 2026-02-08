@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chronicleretrohunt
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohunt",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohunt",
 		reflect.TypeOf((*ChronicleRetrohunt)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntConfig",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntConfig",
 		reflect.TypeOf((*ChronicleRetrohuntConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntExecutionInterval",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntExecutionInterval",
 		reflect.TypeOf((*ChronicleRetrohuntExecutionInterval)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntExecutionIntervalList",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntExecutionIntervalList",
 		reflect.TypeOf((*ChronicleRetrohuntExecutionIntervalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntExecutionIntervalOutputReference",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntExecutionIntervalOutputReference",
 		reflect.TypeOf((*ChronicleRetrohuntExecutionIntervalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntProcessInterval",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntProcessInterval",
 		reflect.TypeOf((*ChronicleRetrohuntProcessInterval)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntProcessIntervalOutputReference",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntProcessIntervalOutputReference",
 		reflect.TypeOf((*ChronicleRetrohuntProcessIntervalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -192,11 +192,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntTimeouts",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntTimeouts",
 		reflect.TypeOf((*ChronicleRetrohuntTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRetrohunt.ChronicleRetrohuntTimeoutsOutputReference",
+		"@cdktn/provider-google.chronicleRetrohunt.ChronicleRetrohuntTimeoutsOutputReference",
 		reflect.TypeOf((*ChronicleRetrohuntTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

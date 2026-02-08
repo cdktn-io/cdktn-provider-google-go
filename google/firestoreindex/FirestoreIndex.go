@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestoreindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/firestoreindex/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firestoreindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -545,7 +545,7 @@ func NewFirestoreIndex(scope constructs.Construct, id *string, config *Firestore
 	j := jsiiProxy_FirestoreIndex{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -558,7 +558,7 @@ func NewFirestoreIndex_Override(f FirestoreIndex, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -730,7 +730,7 @@ func FirestoreIndex_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -765,7 +765,7 @@ func FirestoreIndex_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -784,7 +784,7 @@ func FirestoreIndex_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func FirestoreIndex_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -816,7 +816,7 @@ func FirestoreIndex_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.firestoreIndex.FirestoreIndex",
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndex",
 		"tfResourceType",
 		&returns,
 	)

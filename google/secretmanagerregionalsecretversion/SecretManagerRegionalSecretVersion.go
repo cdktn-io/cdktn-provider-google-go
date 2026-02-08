@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package secretmanagerregionalsecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/secretmanagerregionalsecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/secretmanagerregionalsecretversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -528,7 +528,7 @@ func NewSecretManagerRegionalSecretVersion(scope constructs.Construct, id *strin
 	j := jsiiProxy_SecretManagerRegionalSecretVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,7 +541,7 @@ func NewSecretManagerRegionalSecretVersion_Override(s SecretManagerRegionalSecre
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -691,7 +691,7 @@ func SecretManagerRegionalSecretVersion_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func SecretManagerRegionalSecretVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func SecretManagerRegionalSecretVersion_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func SecretManagerRegionalSecretVersion_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func SecretManagerRegionalSecretVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
+		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
 		"tfResourceType",
 		&returns,
 	)

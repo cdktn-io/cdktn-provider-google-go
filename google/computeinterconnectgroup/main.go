@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinterconnectgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroup",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroup",
 		reflect.TypeOf((*ComputeInterconnectGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfig",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfig",
 		reflect.TypeOf((*ComputeInterconnectGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfigured",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfigured",
 		reflect.TypeOf((*ComputeInterconnectGroupConfigured)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredList",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapability",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapability",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredTopologyCapability)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -179,7 +179,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blockerType", GoGetter: "BlockerType"},
@@ -218,7 +218,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityList",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredTopologyCapabilityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -273,11 +273,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupIntent",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupIntent",
 		reflect.TypeOf((*ComputeInterconnectGroupIntent)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupIntentOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupIntentOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupIntentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -312,11 +312,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupInterconnects",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupInterconnects",
 		reflect.TypeOf((*ComputeInterconnectGroupInterconnects)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupInterconnectsList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupInterconnectsList",
 		reflect.TypeOf((*ComputeInterconnectGroupInterconnectsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -338,7 +338,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupInterconnectsOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupInterconnectsOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupInterconnectsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -375,11 +375,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructure",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructure",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructure)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureList",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -400,15 +400,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetros",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetros",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetros)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilities",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilities",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosFacilities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -429,7 +429,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -463,11 +463,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -488,7 +488,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -522,7 +522,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosList",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosList",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -543,7 +543,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureMetrosOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureMetrosOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -577,7 +577,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupPhysicalStructureOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupPhysicalStructureOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -610,11 +610,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupTimeouts",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupTimeouts",
 		reflect.TypeOf((*ComputeInterconnectGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInterconnectGroup.ComputeInterconnectGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.computeInterconnectGroup.ComputeInterconnectGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeInterconnectGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredicomstoreiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBinding",
+		"@cdktn/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBinding",
 		reflect.TypeOf((*HealthcareDicomStoreIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBindingCondition",
+		"@cdktn/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBindingCondition",
 		reflect.TypeOf((*HealthcareDicomStoreIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBindingConditionOutputReference",
+		"@cdktn/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBindingConditionOutputReference",
 		reflect.TypeOf((*HealthcareDicomStoreIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBindingConfig",
+		"@cdktn/provider-google.healthcareDicomStoreIamBinding.HealthcareDicomStoreIamBindingConfig",
 		reflect.TypeOf((*HealthcareDicomStoreIamBindingConfig)(nil)).Elem(),
 	)
 }

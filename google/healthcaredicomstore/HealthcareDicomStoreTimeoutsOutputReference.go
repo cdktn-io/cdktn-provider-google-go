@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredicomstore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/healthcaredicomstore/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/healthcaredicomstore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewHealthcareDicomStoreTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeoutsOutputReference",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewHealthcareDicomStoreTimeoutsOutputReference_Override(h HealthcareDicomSt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeoutsOutputReference",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		h,
 	)

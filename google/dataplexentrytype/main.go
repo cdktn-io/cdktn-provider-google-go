@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexentrytype
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryType",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryType",
 		reflect.TypeOf((*DataplexEntryType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryTypeConfig",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryTypeConfig",
 		reflect.TypeOf((*DataplexEntryTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryTypeRequiredAspects",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryTypeRequiredAspects",
 		reflect.TypeOf((*DataplexEntryTypeRequiredAspects)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryTypeRequiredAspectsList",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryTypeRequiredAspectsList",
 		reflect.TypeOf((*DataplexEntryTypeRequiredAspectsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryTypeRequiredAspectsOutputReference",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryTypeRequiredAspectsOutputReference",
 		reflect.TypeOf((*DataplexEntryTypeRequiredAspectsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryTypeTimeouts",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryTypeTimeouts",
 		reflect.TypeOf((*DataplexEntryTypeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexEntryType.DataplexEntryTypeTimeoutsOutputReference",
+		"@cdktn/provider-google.dataplexEntryType.DataplexEntryTypeTimeoutsOutputReference",
 		reflect.TypeOf((*DataplexEntryTypeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

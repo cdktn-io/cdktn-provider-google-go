@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleiamtestablepermissions
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissions",
+		"@cdktn/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissions",
 		reflect.TypeOf((*DataGoogleIamTestablePermissions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsConfig",
+		"@cdktn/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsConfig",
 		reflect.TypeOf((*DataGoogleIamTestablePermissionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsPermissions",
+		"@cdktn/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsPermissions",
 		reflect.TypeOf((*DataGoogleIamTestablePermissionsPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsPermissionsList",
+		"@cdktn/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsPermissionsList",
 		reflect.TypeOf((*DataGoogleIamTestablePermissionsPermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsPermissionsOutputReference",
+		"@cdktn/provider-google.dataGoogleIamTestablePermissions.DataGoogleIamTestablePermissionsPermissionsOutputReference",
 		reflect.TypeOf((*DataGoogleIamTestablePermissionsPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiDisabled", GoGetter: "ApiDisabled"},

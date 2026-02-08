@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vertexaideploymentresourcepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/vertexaideploymentresourcepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaideploymentresourcepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -450,7 +450,7 @@ func NewVertexAiDeploymentResourcePool(scope constructs.Construct, id *string, c
 	j := jsiiProxy_VertexAiDeploymentResourcePool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -463,7 +463,7 @@ func NewVertexAiDeploymentResourcePool_Override(v VertexAiDeploymentResourcePool
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -591,7 +591,7 @@ func VertexAiDeploymentResourcePool_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -626,7 +626,7 @@ func VertexAiDeploymentResourcePool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -645,7 +645,7 @@ func VertexAiDeploymentResourcePool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func VertexAiDeploymentResourcePool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func VertexAiDeploymentResourcePool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
+		"@cdktn/provider-google.vertexAiDeploymentResourcePool.VertexAiDeploymentResourcePool",
 		"tfResourceType",
 		&returns,
 	)

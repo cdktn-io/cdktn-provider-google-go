@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notebooksinstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/notebooksinstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/notebooksinstanceiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewNotebooksInstanceIamMember(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_NotebooksInstanceIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewNotebooksInstanceIamMember_Override(n NotebooksInstanceIamMember, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -635,7 +635,7 @@ func NotebooksInstanceIamMember_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func NotebooksInstanceIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func NotebooksInstanceIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func NotebooksInstanceIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func NotebooksInstanceIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
+		"@cdktn/provider-google.notebooksInstanceIamMember.NotebooksInstanceIamMember",
 		"tfResourceType",
 		&returns,
 	)

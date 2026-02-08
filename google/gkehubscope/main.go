@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubscope
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScope",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
 		reflect.TypeOf((*GkeHubScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeConfig",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeConfig",
 		reflect.TypeOf((*GkeHubScopeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeState",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeState",
 		reflect.TypeOf((*GkeHubScopeState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeStateList",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeStateList",
 		reflect.TypeOf((*GkeHubScopeStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeStateOutputReference",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeStateOutputReference",
 		reflect.TypeOf((*GkeHubScopeStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeTimeouts",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeTimeouts",
 		reflect.TypeOf((*GkeHubScopeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeTimeoutsOutputReference",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeTimeoutsOutputReference",
 		reflect.TypeOf((*GkeHubScopeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

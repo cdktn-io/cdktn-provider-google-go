@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwareenginesubnet
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnet",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnet",
 		reflect.TypeOf((*VmwareengineSubnet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnetConfig",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnetConfig",
 		reflect.TypeOf((*VmwareengineSubnetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnetDhcpAddressRanges",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnetDhcpAddressRanges",
 		reflect.TypeOf((*VmwareengineSubnetDhcpAddressRanges)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnetDhcpAddressRangesList",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnetDhcpAddressRangesList",
 		reflect.TypeOf((*VmwareengineSubnetDhcpAddressRangesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnetDhcpAddressRangesOutputReference",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnetDhcpAddressRangesOutputReference",
 		reflect.TypeOf((*VmwareengineSubnetDhcpAddressRangesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnetTimeouts",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnetTimeouts",
 		reflect.TypeOf((*VmwareengineSubnetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineSubnet.VmwareengineSubnetTimeoutsOutputReference",
+		"@cdktn/provider-google.vmwareengineSubnet.VmwareengineSubnetTimeoutsOutputReference",
 		reflect.TypeOf((*VmwareengineSubnetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

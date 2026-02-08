@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudtasksqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudtasksqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudtasksqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -242,7 +242,7 @@ func NewCloudTasksQueueAppEngineRoutingOverrideOutputReference(terraformResource
 	j := jsiiProxy_CloudTasksQueueAppEngineRoutingOverrideOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudTasksQueue.CloudTasksQueueAppEngineRoutingOverrideOutputReference",
+		"@cdktn/provider-google.cloudTasksQueue.CloudTasksQueueAppEngineRoutingOverrideOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -254,7 +254,7 @@ func NewCloudTasksQueueAppEngineRoutingOverrideOutputReference_Override(c CloudT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudTasksQueue.CloudTasksQueueAppEngineRoutingOverrideOutputReference",
+		"@cdktn/provider-google.cloudTasksQueue.CloudTasksQueueAppEngineRoutingOverrideOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

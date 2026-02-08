@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package edgecontainernodepool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePool",
 		reflect.TypeOf((*EdgecontainerNodePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolConfig",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolConfig",
 		reflect.TypeOf((*EdgecontainerNodePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolLocalDiskEncryption",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolLocalDiskEncryption",
 		reflect.TypeOf((*EdgecontainerNodePoolLocalDiskEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolLocalDiskEncryptionOutputReference",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolLocalDiskEncryptionOutputReference",
 		reflect.TypeOf((*EdgecontainerNodePoolLocalDiskEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolNodeConfig",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolNodeConfig",
 		reflect.TypeOf((*EdgecontainerNodePoolNodeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolNodeConfigOutputReference",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolNodeConfigOutputReference",
 		reflect.TypeOf((*EdgecontainerNodePoolNodeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolTimeouts",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolTimeouts",
 		reflect.TypeOf((*EdgecontainerNodePoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerNodePool.EdgecontainerNodePoolTimeoutsOutputReference",
+		"@cdktn/provider-google.edgecontainerNodePool.EdgecontainerNodePoolTimeoutsOutputReference",
 		reflect.TypeOf((*EdgecontainerNodePoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigqueryjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -614,7 +614,7 @@ func NewBigqueryJob(scope constructs.Construct, id *string, config *BigqueryJobC
 	j := jsiiProxy_BigqueryJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -627,7 +627,7 @@ func NewBigqueryJob_Override(b BigqueryJob, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -777,7 +777,7 @@ func BigqueryJob_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func BigqueryJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func BigqueryJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func BigqueryJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func BigqueryJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.bigqueryJob.BigqueryJob",
+		"@cdktn/provider-google.bigqueryJob.BigqueryJob",
 		"tfResourceType",
 		&returns,
 	)

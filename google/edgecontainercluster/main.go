@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package edgecontainercluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerCluster",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerCluster",
 		reflect.TypeOf((*EdgecontainerCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -128,15 +128,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorization",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorization",
 		reflect.TypeOf((*EdgecontainerClusterAuthorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorizationAdminUsers",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorizationAdminUsers",
 		reflect.TypeOf((*EdgecontainerClusterAuthorizationAdminUsers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorizationAdminUsersOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorizationAdminUsersOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterAuthorizationAdminUsersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorizationOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterAuthorizationOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterAuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminUsers", GoGetter: "AdminUsers"},
@@ -205,23 +205,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterConfig",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterConfig",
 		reflect.TypeOf((*EdgecontainerClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlane",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlane",
 		reflect.TypeOf((*EdgecontainerClusterControlPlane)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryption",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryption",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionKmsStatus",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionKmsStatus",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneEncryptionKmsStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionKmsStatusList",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionKmsStatusList",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneEncryptionKmsStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -242,7 +242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -276,7 +276,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneEncryptionOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -314,11 +314,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneLocal",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneLocal",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneLocal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneLocalOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneLocalOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneLocalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -362,7 +362,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -402,11 +402,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneRemote",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneRemote",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneRemote)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneRemoteOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterControlPlaneRemoteOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterControlPlaneRemoteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -441,11 +441,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterFleet",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterFleet",
 		reflect.TypeOf((*EdgecontainerClusterFleet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterFleetOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterFleetOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterFleetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -480,11 +480,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenanceEvents",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenanceEvents",
 		reflect.TypeOf((*EdgecontainerClusterMaintenanceEvents)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenanceEventsList",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenanceEventsList",
 		reflect.TypeOf((*EdgecontainerClusterMaintenanceEventsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -505,7 +505,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenanceEventsOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenanceEventsOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenanceEventsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -547,15 +547,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicy",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicy",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusions",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusions",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyMaintenanceExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsList",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsList",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -577,7 +577,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -616,11 +616,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsWindow",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsWindow",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsWindowOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsWindowOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -658,7 +658,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -697,11 +697,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindow",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindow",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -736,11 +736,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindow",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindow",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyWindowRecurringWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -779,11 +779,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindowWindow",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindowWindow",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyWindowRecurringWindowWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindowWindowOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterMaintenancePolicyWindowRecurringWindowWindowOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterMaintenancePolicyWindowRecurringWindowWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -821,11 +821,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterNetworking",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterNetworking",
 		reflect.TypeOf((*EdgecontainerClusterNetworking)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterNetworkingOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterNetworkingOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterNetworkingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterIpv4CidrBlocks", GoGetter: "ClusterIpv4CidrBlocks"},
@@ -868,15 +868,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfig",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfig",
 		reflect.TypeOf((*EdgecontainerClusterSystemAddonsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfigIngress",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfigIngress",
 		reflect.TypeOf((*EdgecontainerClusterSystemAddonsConfigIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfigIngressOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfigIngressOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterSystemAddonsConfigIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -914,7 +914,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfigOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterSystemAddonsConfigOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterSystemAddonsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -950,11 +950,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterTimeouts",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterTimeouts",
 		reflect.TypeOf((*EdgecontainerClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.edgecontainerCluster.EdgecontainerClusterTimeoutsOutputReference",
+		"@cdktn/provider-google.edgecontainerCluster.EdgecontainerClusterTimeoutsOutputReference",
 		reflect.TypeOf((*EdgecontainerClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

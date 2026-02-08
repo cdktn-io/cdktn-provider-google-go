@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetwork.ComputeNetwork",
+		"@cdktn/provider-google.computeNetwork.ComputeNetwork",
 		reflect.TypeOf((*ComputeNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetwork.ComputeNetworkConfig",
+		"@cdktn/provider-google.computeNetwork.ComputeNetworkConfig",
 		reflect.TypeOf((*ComputeNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetwork.ComputeNetworkParams",
+		"@cdktn/provider-google.computeNetwork.ComputeNetworkParams",
 		reflect.TypeOf((*ComputeNetworkParams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetwork.ComputeNetworkParamsOutputReference",
+		"@cdktn/provider-google.computeNetwork.ComputeNetworkParamsOutputReference",
 		reflect.TypeOf((*ComputeNetworkParamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeNetwork.ComputeNetworkTimeouts",
+		"@cdktn/provider-google.computeNetwork.ComputeNetworkTimeouts",
 		reflect.TypeOf((*ComputeNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeNetwork.ComputeNetworkTimeoutsOutputReference",
+		"@cdktn/provider-google.computeNetwork.ComputeNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

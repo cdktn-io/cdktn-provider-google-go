@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package identityplatformconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfig",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfig",
 		reflect.TypeOf((*IdentityPlatformConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -112,15 +112,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctions",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctions",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsForwardInboundCredentials",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsForwardInboundCredentials",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctionsForwardInboundCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsTriggers",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsTriggers",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctionsTriggers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsTriggersList",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsTriggersList",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctionsTriggersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -226,7 +226,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsTriggersOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigBlockingFunctionsTriggersOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigBlockingFunctionsTriggersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -263,11 +263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigClient",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigClient",
 		reflect.TypeOf((*IdentityPlatformConfigClient)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigClientOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigClientOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigClientOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -305,11 +305,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigClientPermissions",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigClientPermissions",
 		reflect.TypeOf((*IdentityPlatformConfigClientPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigClientPermissionsOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigClientPermissionsOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigClientPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -347,15 +347,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigConfig",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigConfig",
 		reflect.TypeOf((*IdentityPlatformConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfa",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfa",
 		reflect.TypeOf((*IdentityPlatformConfigMfa)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigMfaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -397,11 +397,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigs",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigs",
 		reflect.TypeOf((*IdentityPlatformConfigMfaProviderConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsList",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsList",
 		reflect.TypeOf((*IdentityPlatformConfigMfaProviderConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -423,7 +423,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigMfaProviderConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -462,11 +462,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsTotpProviderConfig",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsTotpProviderConfig",
 		reflect.TypeOf((*IdentityPlatformConfigMfaProviderConfigsTotpProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsTotpProviderConfigOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMfaProviderConfigsTotpProviderConfigOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigMfaProviderConfigsTotpProviderConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adjacentIntervals", GoGetter: "AdjacentIntervals"},
@@ -501,11 +501,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoring",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoring",
 		reflect.TypeOf((*IdentityPlatformConfigMonitoring)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoringOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoringOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigMonitoringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -541,11 +541,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoringRequestLogging",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoringRequestLogging",
 		reflect.TypeOf((*IdentityPlatformConfigMonitoringRequestLogging)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoringRequestLoggingOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMonitoringRequestLoggingOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigMonitoringRequestLoggingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -580,11 +580,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMultiTenant",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMultiTenant",
 		reflect.TypeOf((*IdentityPlatformConfigMultiTenant)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigMultiTenantOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigMultiTenantOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigMultiTenantOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowTenants", GoGetter: "AllowTenants"},
@@ -622,11 +622,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigQuota",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigQuota",
 		reflect.TypeOf((*IdentityPlatformConfigQuota)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigQuotaOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigQuotaOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigQuotaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -662,11 +662,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigQuotaSignUpQuotaConfig",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigQuotaSignUpQuotaConfig",
 		reflect.TypeOf((*IdentityPlatformConfigQuotaSignUpQuotaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigQuotaSignUpQuotaConfigOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigQuotaSignUpQuotaConfigOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigQuotaSignUpQuotaConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -707,15 +707,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignIn",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignIn",
 		reflect.TypeOf((*IdentityPlatformConfigSignIn)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInAnonymous",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInAnonymous",
 		reflect.TypeOf((*IdentityPlatformConfigSignInAnonymous)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInAnonymousOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInAnonymousOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSignInAnonymousOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -749,11 +749,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInEmail",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInEmail",
 		reflect.TypeOf((*IdentityPlatformConfigSignInEmail)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInEmailOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInEmailOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSignInEmailOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -790,11 +790,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInHashConfig",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInHashConfig",
 		reflect.TypeOf((*IdentityPlatformConfigSignInHashConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInHashConfigList",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInHashConfigList",
 		reflect.TypeOf((*IdentityPlatformConfigSignInHashConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -815,7 +815,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInHashConfigOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInHashConfigOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSignInHashConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
@@ -852,7 +852,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSignInOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowDuplicateEmails", GoGetter: "AllowDuplicateEmails"},
@@ -900,11 +900,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInPhoneNumber",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInPhoneNumber",
 		reflect.TypeOf((*IdentityPlatformConfigSignInPhoneNumber)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInPhoneNumberOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSignInPhoneNumberOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSignInPhoneNumberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -941,15 +941,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfig",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfig",
 		reflect.TypeOf((*IdentityPlatformConfigSmsRegionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowByDefault",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowByDefault",
 		reflect.TypeOf((*IdentityPlatformConfigSmsRegionConfigAllowByDefault)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowByDefaultOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowByDefaultOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSmsRegionConfigAllowByDefaultOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -984,11 +984,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowlistOnly",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowlistOnly",
 		reflect.TypeOf((*IdentityPlatformConfigSmsRegionConfigAllowlistOnly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowlistOnlyOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigAllowlistOnlyOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSmsRegionConfigAllowlistOnlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedRegions", GoGetter: "AllowedRegions"},
@@ -1023,7 +1023,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigSmsRegionConfigOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigSmsRegionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowByDefault", GoGetter: "AllowByDefault"},
@@ -1063,11 +1063,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigTimeouts",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigTimeouts",
 		reflect.TypeOf((*IdentityPlatformConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.identityPlatformConfig.IdentityPlatformConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.identityPlatformConfig.IdentityPlatformConfigTimeoutsOutputReference",
 		reflect.TypeOf((*IdentityPlatformConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

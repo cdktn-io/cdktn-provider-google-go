@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeinstantsnapshotiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMember",
+		"@cdktn/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMember",
 		reflect.TypeOf((*ComputeInstantSnapshotIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMemberCondition",
+		"@cdktn/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMemberCondition",
 		reflect.TypeOf((*ComputeInstantSnapshotIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMemberConditionOutputReference",
+		"@cdktn/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMemberConditionOutputReference",
 		reflect.TypeOf((*ComputeInstantSnapshotIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMemberConfig",
+		"@cdktn/provider-google.computeInstantSnapshotIamMember.ComputeInstantSnapshotIamMemberConfig",
 		reflect.TypeOf((*ComputeInstantSnapshotIamMemberConfig)(nil)).Elem(),
 	)
 }

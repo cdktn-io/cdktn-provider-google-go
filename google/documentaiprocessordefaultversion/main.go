@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package documentaiprocessordefaultversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersion",
+		"@cdktn/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersion",
 		reflect.TypeOf((*DocumentAiProcessorDefaultVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersionConfig",
+		"@cdktn/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersionConfig",
 		reflect.TypeOf((*DocumentAiProcessorDefaultVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersionTimeouts",
+		"@cdktn/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersionTimeouts",
 		reflect.TypeOf((*DocumentAiProcessorDefaultVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersionTimeoutsOutputReference",
+		"@cdktn/provider-google.documentAiProcessorDefaultVersion.DocumentAiProcessorDefaultVersionTimeoutsOutputReference",
 		reflect.TypeOf((*DocumentAiProcessorDefaultVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

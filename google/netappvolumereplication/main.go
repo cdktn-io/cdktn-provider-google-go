@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumereplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplication",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplication",
 		reflect.TypeOf((*NetappVolumeReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationConfig",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationConfig",
 		reflect.TypeOf((*NetappVolumeReplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParameters",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParameters",
 		reflect.TypeOf((*NetappVolumeReplicationDestinationVolumeParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParametersOutputReference",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParametersOutputReference",
 		reflect.TypeOf((*NetappVolumeReplicationDestinationVolumeParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParametersTieringPolicy",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParametersTieringPolicy",
 		reflect.TypeOf((*NetappVolumeReplicationDestinationVolumeParametersTieringPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference",
 		reflect.TypeOf((*NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationHybridPeeringDetails",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationHybridPeeringDetails",
 		reflect.TypeOf((*NetappVolumeReplicationHybridPeeringDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationHybridPeeringDetailsList",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationHybridPeeringDetailsList",
 		reflect.TypeOf((*NetappVolumeReplicationHybridPeeringDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationHybridPeeringDetailsOutputReference",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationHybridPeeringDetailsOutputReference",
 		reflect.TypeOf((*NetappVolumeReplicationHybridPeeringDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
@@ -277,11 +277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationTimeouts",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationTimeouts",
 		reflect.TypeOf((*NetappVolumeReplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationTimeoutsOutputReference",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationTimeoutsOutputReference",
 		reflect.TypeOf((*NetappVolumeReplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -322,11 +322,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationTransferStats",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationTransferStats",
 		reflect.TypeOf((*NetappVolumeReplicationTransferStats)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationTransferStatsList",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationTransferStatsList",
 		reflect.TypeOf((*NetappVolumeReplicationTransferStatsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -347,7 +347,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeReplication.NetappVolumeReplicationTransferStatsOutputReference",
+		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplicationTransferStatsOutputReference",
 		reflect.TypeOf((*NetappVolumeReplicationTransferStatsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

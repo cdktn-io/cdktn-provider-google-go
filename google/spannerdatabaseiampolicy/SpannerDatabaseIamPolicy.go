@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerdatabaseiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/spannerdatabaseiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/spannerdatabaseiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -424,7 +424,7 @@ func NewSpannerDatabaseIamPolicy(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_SpannerDatabaseIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -437,7 +437,7 @@ func NewSpannerDatabaseIamPolicy_Override(s SpannerDatabaseIamPolicy, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -576,7 +576,7 @@ func SpannerDatabaseIamPolicy_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func SpannerDatabaseIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func SpannerDatabaseIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func SpannerDatabaseIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func SpannerDatabaseIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
+		"@cdktn/provider-google.spannerDatabaseIamPolicy.SpannerDatabaseIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

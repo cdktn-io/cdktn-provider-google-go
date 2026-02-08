@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeimageiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computeimageiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeimageiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewComputeImageIamBinding(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_ComputeImageIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewComputeImageIamBinding_Override(c ComputeImageIamBinding, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -600,7 +600,7 @@ func ComputeImageIamBinding_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func ComputeImageIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func ComputeImageIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ComputeImageIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func ComputeImageIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeImageIamBinding.ComputeImageIamBinding",
+		"@cdktn/provider-google.computeImageIamBinding.ComputeImageIamBinding",
 		"tfResourceType",
 		&returns,
 	)

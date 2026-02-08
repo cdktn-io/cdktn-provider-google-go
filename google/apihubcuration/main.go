@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apihubcuration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubCuration.ApihubCuration",
+		"@cdktn/provider-google.apihubCuration.ApihubCuration",
 		reflect.TypeOf((*ApihubCuration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,19 +92,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationConfig",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationConfig",
 		reflect.TypeOf((*ApihubCurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationEndpoint",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationEndpoint",
 		reflect.TypeOf((*ApihubCurationEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationEndpointApplicationIntegrationEndpointDetails",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationEndpointApplicationIntegrationEndpointDetails",
 		reflect.TypeOf((*ApihubCurationEndpointApplicationIntegrationEndpointDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference",
 		reflect.TypeOf((*ApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationEndpointOutputReference",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationEndpointOutputReference",
 		reflect.TypeOf((*ApihubCurationEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationIntegrationEndpointDetails", GoGetter: "ApplicationIntegrationEndpointDetails"},
@@ -175,11 +175,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationPluginInstanceActions",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationPluginInstanceActions",
 		reflect.TypeOf((*ApihubCurationPluginInstanceActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationPluginInstanceActionsList",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationPluginInstanceActionsList",
 		reflect.TypeOf((*ApihubCurationPluginInstanceActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -200,7 +200,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationPluginInstanceActionsOutputReference",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationPluginInstanceActionsOutputReference",
 		reflect.TypeOf((*ApihubCurationPluginInstanceActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionId", GoGetter: "ActionId"},
@@ -234,11 +234,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationTimeouts",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationTimeouts",
 		reflect.TypeOf((*ApihubCurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apihubCuration.ApihubCurationTimeoutsOutputReference",
+		"@cdktn/provider-google.apihubCuration.ApihubCurationTimeoutsOutputReference",
 		reflect.TypeOf((*ApihubCurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

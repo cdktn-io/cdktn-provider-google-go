@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaseapphostingtraffic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/firebaseapphostingtraffic/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaseapphostingtraffic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -539,7 +539,7 @@ func NewFirebaseAppHostingTraffic(scope constructs.Construct, id *string, config
 	j := jsiiProxy_FirebaseAppHostingTraffic{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,7 +552,7 @@ func NewFirebaseAppHostingTraffic_Override(f FirebaseAppHostingTraffic, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -680,7 +680,7 @@ func FirebaseAppHostingTraffic_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -715,7 +715,7 @@ func FirebaseAppHostingTraffic_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func FirebaseAppHostingTraffic_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func FirebaseAppHostingTraffic_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func FirebaseAppHostingTraffic_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
+		"@cdktn/provider-google.firebaseAppHostingTraffic.FirebaseAppHostingTraffic",
 		"tfResourceType",
 		&returns,
 	)

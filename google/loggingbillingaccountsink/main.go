@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loggingbillingaccountsink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSink",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSink",
 		reflect.TypeOf((*LoggingBillingAccountSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,11 +90,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkBigqueryOptions",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkBigqueryOptions",
 		reflect.TypeOf((*LoggingBillingAccountSinkBigqueryOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkBigqueryOptionsOutputReference",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkBigqueryOptionsOutputReference",
 		reflect.TypeOf((*LoggingBillingAccountSinkBigqueryOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,15 +128,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkConfig",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkConfig",
 		reflect.TypeOf((*LoggingBillingAccountSinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkExclusions",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkExclusions",
 		reflect.TypeOf((*LoggingBillingAccountSinkExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkExclusionsList",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkExclusionsList",
 		reflect.TypeOf((*LoggingBillingAccountSinkExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkExclusionsOutputReference",
+		"@cdktn/provider-google.loggingBillingAccountSink.LoggingBillingAccountSinkExclusionsOutputReference",
 		reflect.TypeOf((*LoggingBillingAccountSinkExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

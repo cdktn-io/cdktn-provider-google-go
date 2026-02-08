@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcarepipelinejob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJob",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJob",
 		reflect.TypeOf((*HealthcarePipelineJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,11 +97,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobBackfillPipelineJob",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobBackfillPipelineJob",
 		reflect.TypeOf((*HealthcarePipelineJobBackfillPipelineJob)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobBackfillPipelineJobOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobBackfillPipelineJobOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobBackfillPipelineJobOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,19 +136,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobConfig",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobConfig",
 		reflect.TypeOf((*HealthcarePipelineJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJob",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJob",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJob)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobFhirStreamingSource",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobFhirStreamingSource",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobFhirStreamingSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfig",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfig",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobMappingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSource",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSource",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -268,7 +268,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobMappingPipelineJobOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobMappingPipelineJobOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -313,15 +313,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJob",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJob",
 		reflect.TypeOf((*HealthcarePipelineJobReconciliationPipelineJob)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfig",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfig",
 		reflect.TypeOf((*HealthcarePipelineJobReconciliationPipelineJobMergeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -359,11 +359,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSource",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSource",
 		reflect.TypeOf((*HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -399,7 +399,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobReconciliationPipelineJobOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobReconciliationPipelineJobOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -439,11 +439,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobTimeouts",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobTimeouts",
 		reflect.TypeOf((*HealthcarePipelineJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcarePipelineJob.HealthcarePipelineJobTimeoutsOutputReference",
+		"@cdktn/provider-google.healthcarePipelineJob.HealthcarePipelineJobTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcarePipelineJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

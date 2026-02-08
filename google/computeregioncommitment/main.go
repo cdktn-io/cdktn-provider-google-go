@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregioncommitment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitment",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitment",
 		reflect.TypeOf((*ComputeRegionCommitment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentConfig",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentConfig",
 		reflect.TypeOf((*ComputeRegionCommitmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentLicenseResource",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentLicenseResource",
 		reflect.TypeOf((*ComputeRegionCommitmentLicenseResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentLicenseResourceOutputReference",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentLicenseResourceOutputReference",
 		reflect.TypeOf((*ComputeRegionCommitmentLicenseResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentResources",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentResources",
 		reflect.TypeOf((*ComputeRegionCommitmentResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentResourcesList",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentResourcesList",
 		reflect.TypeOf((*ComputeRegionCommitmentResourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentResourcesOutputReference",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentResourcesOutputReference",
 		reflect.TypeOf((*ComputeRegionCommitmentResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentTimeouts",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentTimeouts",
 		reflect.TypeOf((*ComputeRegionCommitmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRegionCommitment.ComputeRegionCommitmentTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRegionCommitment.ComputeRegionCommitmentTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRegionCommitmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

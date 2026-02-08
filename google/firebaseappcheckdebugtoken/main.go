@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firebaseappcheckdebugtoken
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugToken",
+		"@cdktn/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugToken",
 		reflect.TypeOf((*FirebaseAppCheckDebugToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugTokenConfig",
+		"@cdktn/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugTokenConfig",
 		reflect.TypeOf((*FirebaseAppCheckDebugTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugTokenTimeouts",
+		"@cdktn/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugTokenTimeouts",
 		reflect.TypeOf((*FirebaseAppCheckDebugTokenTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugTokenTimeoutsOutputReference",
+		"@cdktn/provider-google.firebaseAppCheckDebugToken.FirebaseAppCheckDebugTokenTimeoutsOutputReference",
 		reflect.TypeOf((*FirebaseAppCheckDebugTokenTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

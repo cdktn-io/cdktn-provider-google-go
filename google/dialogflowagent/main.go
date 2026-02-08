@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowagent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowAgent.DialogflowAgent",
+		"@cdktn/provider-google.dialogflowAgent.DialogflowAgent",
 		reflect.TypeOf((*DialogflowAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowAgent.DialogflowAgentConfig",
+		"@cdktn/provider-google.dialogflowAgent.DialogflowAgentConfig",
 		reflect.TypeOf((*DialogflowAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowAgent.DialogflowAgentTimeouts",
+		"@cdktn/provider-google.dialogflowAgent.DialogflowAgentTimeouts",
 		reflect.TypeOf((*DialogflowAgentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowAgent.DialogflowAgentTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowAgent.DialogflowAgentTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowAgentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

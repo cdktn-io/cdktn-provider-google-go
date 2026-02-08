@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apphubserviceprojectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apphubserviceprojectattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apphubserviceprojectattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -459,7 +459,7 @@ func NewApphubServiceProjectAttachment(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ApphubServiceProjectAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -472,7 +472,7 @@ func NewApphubServiceProjectAttachment_Override(a ApphubServiceProjectAttachment
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -600,7 +600,7 @@ func ApphubServiceProjectAttachment_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func ApphubServiceProjectAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func ApphubServiceProjectAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ApphubServiceProjectAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func ApphubServiceProjectAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
+		"@cdktn/provider-google.apphubServiceProjectAttachment.ApphubServiceProjectAttachment",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudidentitygroupmembership
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembership",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembership",
 		reflect.TypeOf((*CloudIdentityGroupMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipConfig",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipConfig",
 		reflect.TypeOf((*CloudIdentityGroupMembershipConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipPreferredMemberKey",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipPreferredMemberKey",
 		reflect.TypeOf((*CloudIdentityGroupMembershipPreferredMemberKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipPreferredMemberKeyOutputReference",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipPreferredMemberKeyOutputReference",
 		reflect.TypeOf((*CloudIdentityGroupMembershipPreferredMemberKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,15 +131,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRoles",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRoles",
 		reflect.TypeOf((*CloudIdentityGroupMembershipRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesExpiryDetail",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesExpiryDetail",
 		reflect.TypeOf((*CloudIdentityGroupMembershipRolesExpiryDetail)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesExpiryDetailOutputReference",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesExpiryDetailOutputReference",
 		reflect.TypeOf((*CloudIdentityGroupMembershipRolesExpiryDetailOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesList",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesList",
 		reflect.TypeOf((*CloudIdentityGroupMembershipRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -195,7 +195,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesOutputReference",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipRolesOutputReference",
 		reflect.TypeOf((*CloudIdentityGroupMembershipRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,11 +233,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipTimeouts",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipTimeouts",
 		reflect.TypeOf((*CloudIdentityGroupMembershipTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipTimeoutsOutputReference",
+		"@cdktn/provider-google.cloudIdentityGroupMembership.CloudIdentityGroupMembershipTimeoutsOutputReference",
 		reflect.TypeOf((*CloudIdentityGroupMembershipTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

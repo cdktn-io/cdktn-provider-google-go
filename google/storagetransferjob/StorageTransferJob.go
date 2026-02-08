@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagetransferjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/storagetransferjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagetransferjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -592,7 +592,7 @@ func NewStorageTransferJob(scope constructs.Construct, id *string, config *Stora
 	j := jsiiProxy_StorageTransferJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -605,7 +605,7 @@ func NewStorageTransferJob_Override(s StorageTransferJob, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -744,7 +744,7 @@ func StorageTransferJob_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -779,7 +779,7 @@ func StorageTransferJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func StorageTransferJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func StorageTransferJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -830,7 +830,7 @@ func StorageTransferJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJob",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJob",
 		"tfResourceType",
 		&returns,
 	)

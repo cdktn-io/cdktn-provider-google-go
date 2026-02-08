@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudidsendpoint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdsEndpoint.CloudIdsEndpoint",
+		"@cdktn/provider-google.cloudIdsEndpoint.CloudIdsEndpoint",
 		reflect.TypeOf((*CloudIdsEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdsEndpoint.CloudIdsEndpointConfig",
+		"@cdktn/provider-google.cloudIdsEndpoint.CloudIdsEndpointConfig",
 		reflect.TypeOf((*CloudIdsEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudIdsEndpoint.CloudIdsEndpointTimeouts",
+		"@cdktn/provider-google.cloudIdsEndpoint.CloudIdsEndpointTimeouts",
 		reflect.TypeOf((*CloudIdsEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudIdsEndpoint.CloudIdsEndpointTimeoutsOutputReference",
+		"@cdktn/provider-google.cloudIdsEndpoint.CloudIdsEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*CloudIdsEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

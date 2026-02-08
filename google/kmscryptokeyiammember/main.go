@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmscryptokeyiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMember",
+		"@cdktn/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMember",
 		reflect.TypeOf((*KmsCryptoKeyIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMemberCondition",
+		"@cdktn/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMemberCondition",
 		reflect.TypeOf((*KmsCryptoKeyIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMemberConditionOutputReference",
+		"@cdktn/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMemberConditionOutputReference",
 		reflect.TypeOf((*KmsCryptoKeyIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMemberConfig",
+		"@cdktn/provider-google.kmsCryptoKeyIamMember.KmsCryptoKeyIamMemberConfig",
 		reflect.TypeOf((*KmsCryptoKeyIamMemberConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocmetastoreserviceiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMember",
+		"@cdktn/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMember",
 		reflect.TypeOf((*DataprocMetastoreServiceIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMemberCondition",
+		"@cdktn/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMemberCondition",
 		reflect.TypeOf((*DataprocMetastoreServiceIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMemberConditionOutputReference",
+		"@cdktn/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMemberConditionOutputReference",
 		reflect.TypeOf((*DataprocMetastoreServiceIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMemberConfig",
+		"@cdktn/provider-google.dataprocMetastoreServiceIamMember.DataprocMetastoreServiceIamMemberConfig",
 		reflect.TypeOf((*DataprocMetastoreServiceIamMemberConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/networkservicesauthzextension/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicesauthzextension/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -694,7 +694,7 @@ func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, co
 	j := jsiiProxy_NetworkServicesAuthzExtension{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -707,7 +707,7 @@ func NewNetworkServicesAuthzExtension_Override(n NetworkServicesAuthzExtension, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -945,7 +945,7 @@ func NetworkServicesAuthzExtension_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -980,7 +980,7 @@ func NetworkServicesAuthzExtension_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func NetworkServicesAuthzExtension_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1018,7 +1018,7 @@ func NetworkServicesAuthzExtension_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1031,7 +1031,7 @@ func NetworkServicesAuthzExtension_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
+		"@cdktn/provider-google.networkServicesAuthzExtension.NetworkServicesAuthzExtension",
 		"tfResourceType",
 		&returns,
 	)

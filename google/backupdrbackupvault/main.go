@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupdrbackupvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrBackupVault.BackupDrBackupVault",
+		"@cdktn/provider-google.backupDrBackupVault.BackupDrBackupVault",
 		reflect.TypeOf((*BackupDrBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRestriction", GoGetter: "AccessRestriction"},
@@ -125,15 +125,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.backupDrBackupVault.BackupDrBackupVaultConfig",
+		"@cdktn/provider-google.backupDrBackupVault.BackupDrBackupVaultConfig",
 		reflect.TypeOf((*BackupDrBackupVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.backupDrBackupVault.BackupDrBackupVaultTimeouts",
+		"@cdktn/provider-google.backupDrBackupVault.BackupDrBackupVaultTimeouts",
 		reflect.TypeOf((*BackupDrBackupVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.backupDrBackupVault.BackupDrBackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-google.backupDrBackupVault.BackupDrBackupVaultTimeoutsOutputReference",
 		reflect.TypeOf((*BackupDrBackupVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

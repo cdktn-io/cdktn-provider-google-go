@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagetransferjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/storagetransferjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagetransferjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewStorageTransferJobLoggingConfigOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_StorageTransferJobLoggingConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJobLoggingConfigOutputReference",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJobLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewStorageTransferJobLoggingConfigOutputReference_Override(s StorageTransfe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.storageTransferJob.StorageTransferJobLoggingConfigOutputReference",
+		"@cdktn/provider-google.storageTransferJob.StorageTransferJobLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

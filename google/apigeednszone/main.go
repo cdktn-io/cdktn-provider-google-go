@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeednszone
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeDnsZone.ApigeeDnsZone",
+		"@cdktn/provider-google.apigeeDnsZone.ApigeeDnsZone",
 		reflect.TypeOf((*ApigeeDnsZone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeDnsZone.ApigeeDnsZoneConfig",
+		"@cdktn/provider-google.apigeeDnsZone.ApigeeDnsZoneConfig",
 		reflect.TypeOf((*ApigeeDnsZoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeDnsZone.ApigeeDnsZonePeeringConfig",
+		"@cdktn/provider-google.apigeeDnsZone.ApigeeDnsZonePeeringConfig",
 		reflect.TypeOf((*ApigeeDnsZonePeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeDnsZone.ApigeeDnsZonePeeringConfigOutputReference",
+		"@cdktn/provider-google.apigeeDnsZone.ApigeeDnsZonePeeringConfigOutputReference",
 		reflect.TypeOf((*ApigeeDnsZonePeeringConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeDnsZone.ApigeeDnsZoneTimeouts",
+		"@cdktn/provider-google.apigeeDnsZone.ApigeeDnsZoneTimeouts",
 		reflect.TypeOf((*ApigeeDnsZoneTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeDnsZone.ApigeeDnsZoneTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeDnsZone.ApigeeDnsZoneTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeDnsZoneTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

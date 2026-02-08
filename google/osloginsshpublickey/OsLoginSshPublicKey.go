@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package osloginsshpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/osloginsshpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osloginsshpublickey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -449,7 +449,7 @@ func NewOsLoginSshPublicKey(scope constructs.Construct, id *string, config *OsLo
 	j := jsiiProxy_OsLoginSshPublicKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -462,7 +462,7 @@ func NewOsLoginSshPublicKey_Override(o OsLoginSshPublicKey, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -601,7 +601,7 @@ func OsLoginSshPublicKey_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func OsLoginSshPublicKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func OsLoginSshPublicKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func OsLoginSshPublicKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func OsLoginSshPublicKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
+		"@cdktn/provider-google.osLoginSshPublicKey.OsLoginSshPublicKey",
 		"tfResourceType",
 		&returns,
 	)

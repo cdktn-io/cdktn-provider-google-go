@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computeregionbackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeregionbackendservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewComputeRegionBackendServiceCustomMetricsList(terraformResource cdktf.IIn
 	j := jsiiProxy_ComputeRegionBackendServiceCustomMetricsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRegionBackendService.ComputeRegionBackendServiceCustomMetricsList",
+		"@cdktn/provider-google.computeRegionBackendService.ComputeRegionBackendServiceCustomMetricsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewComputeRegionBackendServiceCustomMetricsList_Override(c ComputeRegionBac
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRegionBackendService.ComputeRegionBackendServiceCustomMetricsList",
+		"@cdktn/provider-google.computeRegionBackendService.ComputeRegionBackendServiceCustomMetricsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

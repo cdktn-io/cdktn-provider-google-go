@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxgenerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dialogflowcxgenerator/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxgenerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -521,7 +521,7 @@ func NewDialogflowCxGenerator(scope constructs.Construct, id *string, config *Di
 	j := jsiiProxy_DialogflowCxGenerator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -534,7 +534,7 @@ func NewDialogflowCxGenerator_Override(d DialogflowCxGenerator, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -662,7 +662,7 @@ func DialogflowCxGenerator_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -697,7 +697,7 @@ func DialogflowCxGenerator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func DialogflowCxGenerator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func DialogflowCxGenerator_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func DialogflowCxGenerator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chroniclerule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRule",
+		"@cdktn/provider-google.chronicleRule.ChronicleRule",
 		reflect.TypeOf((*ChronicleRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,11 +107,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleCompilationDiagnostics",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleCompilationDiagnostics",
 		reflect.TypeOf((*ChronicleRuleCompilationDiagnostics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsList",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsList",
 		reflect.TypeOf((*ChronicleRuleCompilationDiagnosticsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsOutputReference",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsOutputReference",
 		reflect.TypeOf((*ChronicleRuleCompilationDiagnosticsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsPosition",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsPosition",
 		reflect.TypeOf((*ChronicleRuleCompilationDiagnosticsPosition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsPositionList",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsPositionList",
 		reflect.TypeOf((*ChronicleRuleCompilationDiagnosticsPositionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -193,7 +193,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsPositionOutputReference",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleCompilationDiagnosticsPositionOutputReference",
 		reflect.TypeOf((*ChronicleRuleCompilationDiagnosticsPositionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -229,15 +229,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleConfig",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleConfig",
 		reflect.TypeOf((*ChronicleRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleSeverity",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleSeverity",
 		reflect.TypeOf((*ChronicleRuleSeverity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleSeverityList",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleSeverityList",
 		reflect.TypeOf((*ChronicleRuleSeverityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -258,7 +258,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleSeverityOutputReference",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleSeverityOutputReference",
 		reflect.TypeOf((*ChronicleRuleSeverityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleTimeouts",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleTimeouts",
 		reflect.TypeOf((*ChronicleRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.chronicleRule.ChronicleRuleTimeoutsOutputReference",
+		"@cdktn/provider-google.chronicleRule.ChronicleRuleTimeoutsOutputReference",
 		reflect.TypeOf((*ChronicleRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

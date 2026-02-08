@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventarcchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcChannel.EventarcChannel",
+		"@cdktn/provider-google.eventarcChannel.EventarcChannel",
 		reflect.TypeOf((*EventarcChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationToken", GoGetter: "ActivationToken"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcChannel.EventarcChannelConfig",
+		"@cdktn/provider-google.eventarcChannel.EventarcChannelConfig",
 		reflect.TypeOf((*EventarcChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcChannel.EventarcChannelTimeouts",
+		"@cdktn/provider-google.eventarcChannel.EventarcChannelTimeouts",
 		reflect.TypeOf((*EventarcChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcChannel.EventarcChannelTimeoutsOutputReference",
+		"@cdktn/provider-google.eventarcChannel.EventarcChannelTimeoutsOutputReference",
 		reflect.TypeOf((*EventarcChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

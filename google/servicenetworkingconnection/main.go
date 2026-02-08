@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicenetworkingconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnection",
 		reflect.TypeOf((*ServiceNetworkingConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnectionConfig",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnectionConfig",
 		reflect.TypeOf((*ServiceNetworkingConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnectionTimeouts",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnectionTimeouts",
 		reflect.TypeOf((*ServiceNetworkingConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceNetworkingConnection.ServiceNetworkingConnectionTimeoutsOutputReference",
+		"@cdktn/provider-google.serviceNetworkingConnection.ServiceNetworkingConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*ServiceNetworkingConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

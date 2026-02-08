@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeenvgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroup",
 		reflect.TypeOf((*ApigeeEnvgroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroupConfig",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroupConfig",
 		reflect.TypeOf((*ApigeeEnvgroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroupTimeouts",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroupTimeouts",
 		reflect.TypeOf((*ApigeeEnvgroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvgroup.ApigeeEnvgroupTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeEnvgroup.ApigeeEnvgroupTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeEnvgroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

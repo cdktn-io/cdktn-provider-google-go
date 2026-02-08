@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapwebtypeappengineiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iapwebtypeappengineiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iapwebtypeappengineiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewIapWebTypeAppEngineIamPolicy(scope constructs.Construct, id *string, con
 	j := jsiiProxy_IapWebTypeAppEngineIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewIapWebTypeAppEngineIamPolicy_Override(i IapWebTypeAppEngineIamPolicy, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -542,7 +542,7 @@ func IapWebTypeAppEngineIamPolicy_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func IapWebTypeAppEngineIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func IapWebTypeAppEngineIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func IapWebTypeAppEngineIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func IapWebTypeAppEngineIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
+		"@cdktn/provider-google.iapWebTypeAppEngineIamPolicy.IapWebTypeAppEngineIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

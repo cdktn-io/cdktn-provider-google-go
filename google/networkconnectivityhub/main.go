@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkconnectivityhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHub",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHub",
 		reflect.TypeOf((*NetworkConnectivityHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubConfig",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubConfig",
 		reflect.TypeOf((*NetworkConnectivityHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubRoutingVpcs",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubRoutingVpcs",
 		reflect.TypeOf((*NetworkConnectivityHubRoutingVpcs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubRoutingVpcsList",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubRoutingVpcsList",
 		reflect.TypeOf((*NetworkConnectivityHubRoutingVpcsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubRoutingVpcsOutputReference",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubRoutingVpcsOutputReference",
 		reflect.TypeOf((*NetworkConnectivityHubRoutingVpcsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeouts",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeouts",
 		reflect.TypeOf((*NetworkConnectivityHubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeoutsOutputReference",
+		"@cdktn/provider-google.networkConnectivityHub.NetworkConnectivityHubTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkConnectivityHubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

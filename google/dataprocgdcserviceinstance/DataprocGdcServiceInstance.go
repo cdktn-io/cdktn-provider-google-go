@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocgdcserviceinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataprocgdcserviceinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocgdcserviceinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -655,7 +655,7 @@ func NewDataprocGdcServiceInstance(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataprocGdcServiceInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -668,7 +668,7 @@ func NewDataprocGdcServiceInstance_Override(d DataprocGdcServiceInstance, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -829,7 +829,7 @@ func DataprocGdcServiceInstance_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -864,7 +864,7 @@ func DataprocGdcServiceInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func DataprocGdcServiceInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -902,7 +902,7 @@ func DataprocGdcServiceInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -915,7 +915,7 @@ func DataprocGdcServiceInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
+		"@cdktn/provider-google.dataprocGdcServiceInstance.DataprocGdcServiceInstance",
 		"tfResourceType",
 		&returns,
 	)

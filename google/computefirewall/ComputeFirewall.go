@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computefirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computefirewall/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computefirewall/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -796,7 +796,7 @@ func NewComputeFirewall(scope constructs.Construct, id *string, config *ComputeF
 	j := jsiiProxy_ComputeFirewall{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -809,7 +809,7 @@ func NewComputeFirewall_Override(c ComputeFirewall, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1058,7 +1058,7 @@ func ComputeFirewall_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1093,7 +1093,7 @@ func ComputeFirewall_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1112,7 +1112,7 @@ func ComputeFirewall_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1131,7 +1131,7 @@ func ComputeFirewall_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1144,7 +1144,7 @@ func ComputeFirewall_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeFirewall.ComputeFirewall",
+		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamworkforcepoolproviderkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iamworkforcepoolproviderkey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iamworkforcepoolproviderkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -226,7 +226,7 @@ func NewIamWorkforcePoolProviderKeyKeyDataOutputReference(terraformResource cdkt
 	j := jsiiProxy_IamWorkforcePoolProviderKeyKeyDataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamWorkforcePoolProviderKey.IamWorkforcePoolProviderKeyKeyDataOutputReference",
+		"@cdktn/provider-google.iamWorkforcePoolProviderKey.IamWorkforcePoolProviderKeyKeyDataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -238,7 +238,7 @@ func NewIamWorkforcePoolProviderKeyKeyDataOutputReference_Override(i IamWorkforc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iamWorkforcePoolProviderKey.IamWorkforcePoolProviderKeyKeyDataOutputReference",
+		"@cdktn/provider-google.iamWorkforcePoolProviderKey.IamWorkforcePoolProviderKeyKeyDataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

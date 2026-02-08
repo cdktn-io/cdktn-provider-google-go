@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecurityaddressgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroup",
+		"@cdktn/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroup",
 		reflect.TypeOf((*NetworkSecurityAddressGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroupConfig",
+		"@cdktn/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroupConfig",
 		reflect.TypeOf((*NetworkSecurityAddressGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroupTimeouts",
+		"@cdktn/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroupTimeouts",
 		reflect.TypeOf((*NetworkSecurityAddressGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroupTimeoutsOutputReference",
+		"@cdktn/provider-google.networkSecurityAddressGroup.NetworkSecurityAddressGroupTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkSecurityAddressGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

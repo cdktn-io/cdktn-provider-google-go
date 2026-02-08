@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datacatalogpolicytag
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTag",
+		"@cdktn/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTag",
 		reflect.TypeOf((*DataCatalogPolicyTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTagConfig",
+		"@cdktn/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTagConfig",
 		reflect.TypeOf((*DataCatalogPolicyTagConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTagTimeouts",
+		"@cdktn/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTagTimeouts",
 		reflect.TypeOf((*DataCatalogPolicyTagTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTagTimeoutsOutputReference",
+		"@cdktn/provider-google.dataCatalogPolicyTag.DataCatalogPolicyTagTimeoutsOutputReference",
 		reflect.TypeOf((*DataCatalogPolicyTagTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectService.ProjectService",
+		"@cdktn/provider-google.projectService.ProjectService",
 		reflect.TypeOf((*ProjectService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectService.ProjectServiceConfig",
+		"@cdktn/provider-google.projectService.ProjectServiceConfig",
 		reflect.TypeOf((*ProjectServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectService.ProjectServiceTimeouts",
+		"@cdktn/provider-google.projectService.ProjectServiceTimeouts",
 		reflect.TypeOf((*ProjectServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectService.ProjectServiceTimeoutsOutputReference",
+		"@cdktn/provider-google.projectService.ProjectServiceTimeoutsOutputReference",
 		reflect.TypeOf((*ProjectServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

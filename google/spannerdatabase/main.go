@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerdatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabase",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabase",
 		reflect.TypeOf((*SpannerDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseConfig",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseConfig",
 		reflect.TypeOf((*SpannerDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseEncryptionConfig",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseEncryptionConfig",
 		reflect.TypeOf((*SpannerDatabaseEncryptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseEncryptionConfigOutputReference",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseEncryptionConfigOutputReference",
 		reflect.TypeOf((*SpannerDatabaseEncryptionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseTimeouts",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseTimeouts",
 		reflect.TypeOf((*SpannerDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*SpannerDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

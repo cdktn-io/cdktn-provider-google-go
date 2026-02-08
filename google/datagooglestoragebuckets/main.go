@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglestoragebuckets
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBuckets",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBuckets",
 		reflect.TypeOf((*DataGoogleStorageBuckets)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,11 +65,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBuckets",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBuckets",
 		reflect.TypeOf((*DataGoogleStorageBucketsBuckets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsList",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsList",
 		reflect.TypeOf((*DataGoogleStorageBucketsBucketsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsOutputReference",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsOutputReference",
 		reflect.TypeOf((*DataGoogleStorageBucketsBucketsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsConfig",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsConfig",
 		reflect.TypeOf((*DataGoogleStorageBucketsConfig)(nil)).Elem(),
 	)
 }

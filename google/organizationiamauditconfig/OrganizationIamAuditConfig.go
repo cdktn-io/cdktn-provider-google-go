@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationiamauditconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/organizationiamauditconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/organizationiamauditconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -400,7 +400,7 @@ func NewOrganizationIamAuditConfig(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_OrganizationIamAuditConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,7 +413,7 @@ func NewOrganizationIamAuditConfig_Override(o OrganizationIamAuditConfig, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -530,7 +530,7 @@ func OrganizationIamAuditConfig_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func OrganizationIamAuditConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func OrganizationIamAuditConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func OrganizationIamAuditConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func OrganizationIamAuditConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
+		"@cdktn/provider-google.organizationIamAuditConfig.OrganizationIamAuditConfig",
 		"tfResourceType",
 		&returns,
 	)

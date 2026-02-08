@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminicodetoolssetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/geminicodetoolssetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/geminicodetoolssetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -517,7 +517,7 @@ func NewGeminiCodeToolsSetting(scope constructs.Construct, id *string, config *G
 	j := jsiiProxy_GeminiCodeToolsSetting{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,7 +530,7 @@ func NewGeminiCodeToolsSetting_Override(g GeminiCodeToolsSetting, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -669,7 +669,7 @@ func GeminiCodeToolsSetting_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func GeminiCodeToolsSetting_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func GeminiCodeToolsSetting_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func GeminiCodeToolsSetting_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func GeminiCodeToolsSetting_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
+		"@cdktn/provider-google.geminiCodeToolsSetting.GeminiCodeToolsSetting",
 		"tfResourceType",
 		&returns,
 	)

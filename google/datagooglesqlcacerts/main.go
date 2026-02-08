@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesqlcacerts
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCerts",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCerts",
 		reflect.TypeOf((*DataGoogleSqlCaCerts)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeVersion", GoGetter: "ActiveVersion"},
@@ -65,11 +65,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCerts",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCerts",
 		reflect.TypeOf((*DataGoogleSqlCaCertsCerts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsList",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsList",
 		reflect.TypeOf((*DataGoogleSqlCaCertsCertsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsOutputReference",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsCertsOutputReference",
 		reflect.TypeOf((*DataGoogleSqlCaCertsCertsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cert", GoGetter: "Cert"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsConfig",
+		"@cdktn/provider-google.dataGoogleSqlCaCerts.DataGoogleSqlCaCertsConfig",
 		reflect.TypeOf((*DataGoogleSqlCaCertsConfig)(nil)).Elem(),
 	)
 }

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglestoragebuckets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/datagooglestoragebuckets/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglestoragebuckets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -214,7 +214,7 @@ func NewDataGoogleStorageBucketsBucketsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DataGoogleStorageBucketsBucketsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsOutputReference",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -226,7 +226,7 @@ func NewDataGoogleStorageBucketsBucketsOutputReference_Override(d DataGoogleStor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsOutputReference",
+		"@cdktn/provider-google.dataGoogleStorageBuckets.DataGoogleStorageBucketsBucketsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkservicestlsroute
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRoute",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRoute",
 		reflect.TypeOf((*NetworkServicesTlsRoute)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,23 +90,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteConfig",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteConfig",
 		reflect.TypeOf((*NetworkServicesTlsRouteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRules",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRules",
 		reflect.TypeOf((*NetworkServicesTlsRouteRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesAction",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesAction",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionDestinations",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionDestinations",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesActionDestinations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionDestinationsList",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionDestinationsList",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesActionDestinationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionDestinationsOutputReference",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionDestinationsOutputReference",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesActionDestinationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionOutputReference",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesActionOutputReference",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,7 +202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesList",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesList",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesMatches",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesMatches",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesMatches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesMatchesList",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesMatchesList",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesMatchesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesMatchesOutputReference",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesMatchesOutputReference",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesMatchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alpn", GoGetter: "Alpn"},
@@ -288,7 +288,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesOutputReference",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteRulesOutputReference",
 		reflect.TypeOf((*NetworkServicesTlsRouteRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -326,11 +326,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteTimeouts",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteTimeouts",
 		reflect.TypeOf((*NetworkServicesTlsRouteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteTimeoutsOutputReference",
+		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRouteTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkServicesTlsRouteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

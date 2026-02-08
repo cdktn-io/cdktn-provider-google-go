@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computenodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computenodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computenodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -615,7 +615,7 @@ func NewComputeNodeGroup(scope constructs.Construct, id *string, config *Compute
 	j := jsiiProxy_ComputeNodeGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -628,7 +628,7 @@ func NewComputeNodeGroup_Override(c ComputeNodeGroup, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -800,7 +800,7 @@ func ComputeNodeGroup_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -835,7 +835,7 @@ func ComputeNodeGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func ComputeNodeGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func ComputeNodeGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func ComputeNodeGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeNodeGroup.ComputeNodeGroup",
+		"@cdktn/provider-google.computeNodeGroup.ComputeNodeGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcarehl7v2store
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/healthcarehl7v2store/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/healthcarehl7v2store/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -543,7 +543,7 @@ func NewHealthcareHl7V2Store(scope constructs.Construct, id *string, config *Hea
 	j := jsiiProxy_HealthcareHl7V2Store{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -556,7 +556,7 @@ func NewHealthcareHl7V2Store_Override(h HealthcareHl7V2Store, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -695,7 +695,7 @@ func HealthcareHl7V2Store_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +730,7 @@ func HealthcareHl7V2Store_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func HealthcareHl7V2Store_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func HealthcareHl7V2Store_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func HealthcareHl7V2Store_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
+		"@cdktn/provider-google.healthcareHl7V2Store.HealthcareHl7V2Store",
 		"tfResourceType",
 		&returns,
 	)

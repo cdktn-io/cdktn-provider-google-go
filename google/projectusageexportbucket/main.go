@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectusageexportbucket
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectUsageExportBucket.ProjectUsageExportBucket",
+		"@cdktn/provider-google.projectUsageExportBucket.ProjectUsageExportBucket",
 		reflect.TypeOf((*ProjectUsageExportBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectUsageExportBucket.ProjectUsageExportBucketConfig",
+		"@cdktn/provider-google.projectUsageExportBucket.ProjectUsageExportBucketConfig",
 		reflect.TypeOf((*ProjectUsageExportBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.projectUsageExportBucket.ProjectUsageExportBucketTimeouts",
+		"@cdktn/provider-google.projectUsageExportBucket.ProjectUsageExportBucketTimeouts",
 		reflect.TypeOf((*ProjectUsageExportBucketTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.projectUsageExportBucket.ProjectUsageExportBucketTimeoutsOutputReference",
+		"@cdktn/provider-google.projectUsageExportBucket.ProjectUsageExportBucketTimeoutsOutputReference",
 		reflect.TypeOf((*ProjectUsageExportBucketTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

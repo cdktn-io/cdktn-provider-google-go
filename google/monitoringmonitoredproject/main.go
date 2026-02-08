@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringmonitoredproject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMonitoredProject.MonitoringMonitoredProject",
+		"@cdktn/provider-google.monitoringMonitoredProject.MonitoringMonitoredProject",
 		reflect.TypeOf((*MonitoringMonitoredProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringMonitoredProject.MonitoringMonitoredProjectConfig",
+		"@cdktn/provider-google.monitoringMonitoredProject.MonitoringMonitoredProjectConfig",
 		reflect.TypeOf((*MonitoringMonitoredProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.monitoringMonitoredProject.MonitoringMonitoredProjectTimeouts",
+		"@cdktn/provider-google.monitoringMonitoredProject.MonitoringMonitoredProjectTimeouts",
 		reflect.TypeOf((*MonitoringMonitoredProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.monitoringMonitoredProject.MonitoringMonitoredProjectTimeoutsOutputReference",
+		"@cdktn/provider-google.monitoringMonitoredProject.MonitoringMonitoredProjectTimeoutsOutputReference",
 		reflect.TypeOf((*MonitoringMonitoredProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigtablelogicalview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableLogicalView.BigtableLogicalView",
+		"@cdktn/provider-google.bigtableLogicalView.BigtableLogicalView",
 		reflect.TypeOf((*BigtableLogicalView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableLogicalView.BigtableLogicalViewConfig",
+		"@cdktn/provider-google.bigtableLogicalView.BigtableLogicalViewConfig",
 		reflect.TypeOf((*BigtableLogicalViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigtableLogicalView.BigtableLogicalViewTimeouts",
+		"@cdktn/provider-google.bigtableLogicalView.BigtableLogicalViewTimeouts",
 		reflect.TypeOf((*BigtableLogicalViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigtableLogicalView.BigtableLogicalViewTimeoutsOutputReference",
+		"@cdktn/provider-google.bigtableLogicalView.BigtableLogicalViewTimeoutsOutputReference",
 		reflect.TypeOf((*BigtableLogicalViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tagstagkeyiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMember",
+		"@cdktn/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMember",
 		reflect.TypeOf((*TagsTagKeyIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMemberCondition",
+		"@cdktn/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMemberCondition",
 		reflect.TypeOf((*TagsTagKeyIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMemberConditionOutputReference",
+		"@cdktn/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMemberConditionOutputReference",
 		reflect.TypeOf((*TagsTagKeyIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMemberConfig",
+		"@cdktn/provider-google.tagsTagKeyIamMember.TagsTagKeyIamMemberConfig",
 		reflect.TypeOf((*TagsTagKeyIamMemberConfig)(nil)).Elem(),
 	)
 }

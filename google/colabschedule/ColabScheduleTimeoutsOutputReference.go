@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package colabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/colabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/colabschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewColabScheduleTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ColabScheduleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.colabSchedule.ColabScheduleTimeoutsOutputReference",
+		"@cdktn/provider-google.colabSchedule.ColabScheduleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewColabScheduleTimeoutsOutputReference_Override(c ColabScheduleTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.colabSchedule.ColabScheduleTimeoutsOutputReference",
+		"@cdktn/provider-google.colabSchedule.ColabScheduleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

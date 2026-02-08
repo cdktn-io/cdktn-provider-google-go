@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafusioninstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstance",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstance",
 		reflect.TypeOf((*DataFusionInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accelerators", GoGetter: "Accelerators"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceAccelerators",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceAccelerators",
 		reflect.TypeOf((*DataFusionInstanceAccelerators)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceAcceleratorsList",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceAcceleratorsList",
 		reflect.TypeOf((*DataFusionInstanceAcceleratorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceAcceleratorsOutputReference",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceAcceleratorsOutputReference",
 		reflect.TypeOf((*DataFusionInstanceAcceleratorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
@@ -205,15 +205,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceConfig",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceConfig",
 		reflect.TypeOf((*DataFusionInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceCryptoKeyConfig",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceCryptoKeyConfig",
 		reflect.TypeOf((*DataFusionInstanceCryptoKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceCryptoKeyConfigOutputReference",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceCryptoKeyConfigOutputReference",
 		reflect.TypeOf((*DataFusionInstanceCryptoKeyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,11 +247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceEventPublishConfig",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceEventPublishConfig",
 		reflect.TypeOf((*DataFusionInstanceEventPublishConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceEventPublishConfigOutputReference",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceEventPublishConfigOutputReference",
 		reflect.TypeOf((*DataFusionInstanceEventPublishConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfig",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfig",
 		reflect.TypeOf((*DataFusionInstanceNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfigOutputReference",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfigOutputReference",
 		reflect.TypeOf((*DataFusionInstanceNetworkConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -336,11 +336,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfigPrivateServiceConnectConfig",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfigPrivateServiceConnectConfig",
 		reflect.TypeOf((*DataFusionInstanceNetworkConfigPrivateServiceConnectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference",
 		reflect.TypeOf((*DataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -379,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceTimeouts",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceTimeouts",
 		reflect.TypeOf((*DataFusionInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataFusionInstance.DataFusionInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google.dataFusionInstance.DataFusionInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*DataFusionInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

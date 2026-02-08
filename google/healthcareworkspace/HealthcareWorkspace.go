@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/healthcareworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/healthcareworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -459,7 +459,7 @@ func NewHealthcareWorkspace(scope constructs.Construct, id *string, config *Heal
 	j := jsiiProxy_HealthcareWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -472,7 +472,7 @@ func NewHealthcareWorkspace_Override(h HealthcareWorkspace, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -600,7 +600,7 @@ func HealthcareWorkspace_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func HealthcareWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func HealthcareWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func HealthcareWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func HealthcareWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-google.healthcareWorkspace.HealthcareWorkspace",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package osconfigospolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/osconfigospolicyassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osconfigospolicyassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -619,7 +619,7 @@ func NewOsConfigOsPolicyAssignment(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_OsConfigOsPolicyAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -632,7 +632,7 @@ func NewOsConfigOsPolicyAssignment_Override(o OsConfigOsPolicyAssignment, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -782,7 +782,7 @@ func OsConfigOsPolicyAssignment_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -817,7 +817,7 @@ func OsConfigOsPolicyAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func OsConfigOsPolicyAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -855,7 +855,7 @@ func OsConfigOsPolicyAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -868,7 +868,7 @@ func OsConfigOsPolicyAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
+		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
 		"tfResourceType",
 		&returns,
 	)

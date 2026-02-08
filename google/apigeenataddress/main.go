@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeenataddress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeNatAddress.ApigeeNatAddress",
+		"@cdktn/provider-google.apigeeNatAddress.ApigeeNatAddress",
 		reflect.TypeOf((*ApigeeNatAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activate", GoGetter: "Activate"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeNatAddress.ApigeeNatAddressConfig",
+		"@cdktn/provider-google.apigeeNatAddress.ApigeeNatAddressConfig",
 		reflect.TypeOf((*ApigeeNatAddressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeNatAddress.ApigeeNatAddressTimeouts",
+		"@cdktn/provider-google.apigeeNatAddress.ApigeeNatAddressTimeouts",
 		reflect.TypeOf((*ApigeeNatAddressTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeNatAddress.ApigeeNatAddressTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeNatAddress.ApigeeNatAddressTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeNatAddressTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

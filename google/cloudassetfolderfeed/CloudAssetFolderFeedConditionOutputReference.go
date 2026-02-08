@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudassetfolderfeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudassetfolderfeed/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudassetfolderfeed/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewCloudAssetFolderFeedConditionOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_CloudAssetFolderFeedConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConditionOutputReference",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewCloudAssetFolderFeedConditionOutputReference_Override(c CloudAssetFolder
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConditionOutputReference",
+		"@cdktn/provider-google.cloudAssetFolderFeed.CloudAssetFolderFeedConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

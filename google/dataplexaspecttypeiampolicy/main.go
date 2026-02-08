@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexaspecttypeiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataplexAspectTypeIamPolicy.DataplexAspectTypeIamPolicy",
+		"@cdktn/provider-google.dataplexAspectTypeIamPolicy.DataplexAspectTypeIamPolicy",
 		reflect.TypeOf((*DataplexAspectTypeIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataplexAspectTypeIamPolicy.DataplexAspectTypeIamPolicyConfig",
+		"@cdktn/provider-google.dataplexAspectTypeIamPolicy.DataplexAspectTypeIamPolicyConfig",
 		reflect.TypeOf((*DataplexAspectTypeIamPolicyConfig)(nil)).Elem(),
 	)
 }

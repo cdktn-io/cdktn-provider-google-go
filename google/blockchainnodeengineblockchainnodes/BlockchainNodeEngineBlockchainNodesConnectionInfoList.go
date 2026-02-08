@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package blockchainnodeengineblockchainnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/blockchainnodeengineblockchainnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/blockchainnodeengineblockchainnodes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewBlockchainNodeEngineBlockchainNodesConnectionInfoList(terraformResource 
 	j := jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.blockchainNodeEngineBlockchainNodes.BlockchainNodeEngineBlockchainNodesConnectionInfoList",
+		"@cdktn/provider-google.blockchainNodeEngineBlockchainNodes.BlockchainNodeEngineBlockchainNodesConnectionInfoList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewBlockchainNodeEngineBlockchainNodesConnectionInfoList_Override(b Blockch
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.blockchainNodeEngineBlockchainNodes.BlockchainNodeEngineBlockchainNodesConnectionInfoList",
+		"@cdktn/provider-google.blockchainNodeEngineBlockchainNodes.BlockchainNodeEngineBlockchainNodesConnectionInfoList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

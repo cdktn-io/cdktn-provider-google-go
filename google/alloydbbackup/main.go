@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alloydbbackup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackup",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackup",
 		reflect.TypeOf((*AlloydbBackup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -114,15 +114,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupConfig",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupConfig",
 		reflect.TypeOf((*AlloydbBackupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupEncryptionConfig",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupEncryptionConfig",
 		reflect.TypeOf((*AlloydbBackupEncryptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupEncryptionConfigOutputReference",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupEncryptionConfigOutputReference",
 		reflect.TypeOf((*AlloydbBackupEncryptionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupEncryptionInfo",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupEncryptionInfo",
 		reflect.TypeOf((*AlloydbBackupEncryptionInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupEncryptionInfoList",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupEncryptionInfoList",
 		reflect.TypeOf((*AlloydbBackupEncryptionInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -182,7 +182,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupEncryptionInfoOutputReference",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupEncryptionInfoOutputReference",
 		reflect.TypeOf((*AlloydbBackupEncryptionInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -216,11 +216,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupExpiryQuantity",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupExpiryQuantity",
 		reflect.TypeOf((*AlloydbBackupExpiryQuantity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupExpiryQuantityList",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupExpiryQuantityList",
 		reflect.TypeOf((*AlloydbBackupExpiryQuantityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -241,7 +241,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupExpiryQuantityOutputReference",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupExpiryQuantityOutputReference",
 		reflect.TypeOf((*AlloydbBackupExpiryQuantityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupTimeouts",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupTimeouts",
 		reflect.TypeOf((*AlloydbBackupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.alloydbBackup.AlloydbBackupTimeoutsOutputReference",
+		"@cdktn/provider-google.alloydbBackup.AlloydbBackupTimeoutsOutputReference",
 		reflect.TypeOf((*AlloydbBackupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

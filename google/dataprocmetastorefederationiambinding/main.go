@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprocmetastorefederationiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBinding",
+		"@cdktn/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBinding",
 		reflect.TypeOf((*DataprocMetastoreFederationIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBindingCondition",
+		"@cdktn/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBindingCondition",
 		reflect.TypeOf((*DataprocMetastoreFederationIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBindingConditionOutputReference",
+		"@cdktn/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBindingConditionOutputReference",
 		reflect.TypeOf((*DataprocMetastoreFederationIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBindingConfig",
+		"@cdktn/provider-google.dataprocMetastoreFederationIamBinding.DataprocMetastoreFederationIamBindingConfig",
 		reflect.TypeOf((*DataprocMetastoreFederationIamBindingConfig)(nil)).Elem(),
 	)
 }

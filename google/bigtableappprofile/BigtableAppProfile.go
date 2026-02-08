@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigtableappprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigtableappprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigtableappprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -618,7 +618,7 @@ func NewBigtableAppProfile(scope constructs.Construct, id *string, config *Bigta
 	j := jsiiProxy_BigtableAppProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -631,7 +631,7 @@ func NewBigtableAppProfile_Override(b BigtableAppProfile, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -814,7 +814,7 @@ func BigtableAppProfile_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -849,7 +849,7 @@ func BigtableAppProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -868,7 +868,7 @@ func BigtableAppProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -887,7 +887,7 @@ func BigtableAppProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -900,7 +900,7 @@ func BigtableAppProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.bigtableAppProfile.BigtableAppProfile",
+		"@cdktn/provider-google.bigtableAppProfile.BigtableAppProfile",
 		"tfResourceType",
 		&returns,
 	)

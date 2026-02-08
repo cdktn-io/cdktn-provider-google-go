@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package parametermanagerparameterversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersion",
+		"@cdktn/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersion",
 		reflect.TypeOf((*ParameterManagerParameterVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersionConfig",
+		"@cdktn/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersionConfig",
 		reflect.TypeOf((*ParameterManagerParameterVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersionTimeouts",
+		"@cdktn/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersionTimeouts",
 		reflect.TypeOf((*ParameterManagerParameterVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersionTimeoutsOutputReference",
+		"@cdktn/provider-google.parameterManagerParameterVersion.ParameterManagerParameterVersionTimeoutsOutputReference",
 		reflect.TypeOf((*ParameterManagerParameterVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

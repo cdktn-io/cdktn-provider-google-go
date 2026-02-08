@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecurityurllists
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkSecurityUrlLists.NetworkSecurityUrlLists",
+		"@cdktn/provider-google.networkSecurityUrlLists.NetworkSecurityUrlLists",
 		reflect.TypeOf((*NetworkSecurityUrlLists)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkSecurityUrlLists.NetworkSecurityUrlListsConfig",
+		"@cdktn/provider-google.networkSecurityUrlLists.NetworkSecurityUrlListsConfig",
 		reflect.TypeOf((*NetworkSecurityUrlListsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.networkSecurityUrlLists.NetworkSecurityUrlListsTimeouts",
+		"@cdktn/provider-google.networkSecurityUrlLists.NetworkSecurityUrlListsTimeouts",
 		reflect.TypeOf((*NetworkSecurityUrlListsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.networkSecurityUrlLists.NetworkSecurityUrlListsTimeoutsOutputReference",
+		"@cdktn/provider-google.networkSecurityUrlLists.NetworkSecurityUrlListsTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkSecurityUrlListsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

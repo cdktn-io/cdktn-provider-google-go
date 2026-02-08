@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containeranalysisnote
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNote",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNote",
 		reflect.TypeOf((*ContainerAnalysisNote)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthority",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthority",
 		reflect.TypeOf((*ContainerAnalysisNoteAttestationAuthority)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthorityHint",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthorityHint",
 		reflect.TypeOf((*ContainerAnalysisNoteAttestationAuthorityHint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthorityHintOutputReference",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthorityHintOutputReference",
 		reflect.TypeOf((*ContainerAnalysisNoteAttestationAuthorityHintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthorityOutputReference",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteAttestationAuthorityOutputReference",
 		reflect.TypeOf((*ContainerAnalysisNoteAttestationAuthorityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,15 +174,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteConfig",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteConfig",
 		reflect.TypeOf((*ContainerAnalysisNoteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteRelatedUrl",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteRelatedUrl",
 		reflect.TypeOf((*ContainerAnalysisNoteRelatedUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteRelatedUrlList",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteRelatedUrlList",
 		reflect.TypeOf((*ContainerAnalysisNoteRelatedUrlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -204,7 +204,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteRelatedUrlOutputReference",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteRelatedUrlOutputReference",
 		reflect.TypeOf((*ContainerAnalysisNoteRelatedUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteTimeouts",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteTimeouts",
 		reflect.TypeOf((*ContainerAnalysisNoteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAnalysisNote.ContainerAnalysisNoteTimeoutsOutputReference",
+		"@cdktn/provider-google.containerAnalysisNote.ContainerAnalysisNoteTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAnalysisNoteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

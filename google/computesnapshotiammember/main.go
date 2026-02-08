@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computesnapshotiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMember",
+		"@cdktn/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMember",
 		reflect.TypeOf((*ComputeSnapshotIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMemberCondition",
+		"@cdktn/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMemberCondition",
 		reflect.TypeOf((*ComputeSnapshotIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMemberConditionOutputReference",
+		"@cdktn/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMemberConditionOutputReference",
 		reflect.TypeOf((*ComputeSnapshotIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMemberConfig",
+		"@cdktn/provider-google.computeSnapshotIamMember.ComputeSnapshotIamMemberConfig",
 		reflect.TypeOf((*ComputeSnapshotIamMemberConfig)(nil)).Elem(),
 	)
 }

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccv2projectnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/sccv2projectnotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccv2projectnotificationconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewSccV2ProjectNotificationConfigStreamingConfigOutputReference(terraformRe
 	j := jsiiProxy_SccV2ProjectNotificationConfigStreamingConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccV2ProjectNotificationConfig.SccV2ProjectNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google.sccV2ProjectNotificationConfig.SccV2ProjectNotificationConfigStreamingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewSccV2ProjectNotificationConfigStreamingConfigOutputReference_Override(s 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccV2ProjectNotificationConfig.SccV2ProjectNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google.sccV2ProjectNotificationConfig.SccV2ProjectNotificationConfigStreamingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

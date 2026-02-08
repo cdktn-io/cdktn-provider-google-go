@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dialogflowcxintent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -640,7 +640,7 @@ func NewDialogflowCxIntent(scope constructs.Construct, id *string, config *Dialo
 	j := jsiiProxy_DialogflowCxIntent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -653,7 +653,7 @@ func NewDialogflowCxIntent_Override(d DialogflowCxIntent, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -847,7 +847,7 @@ func DialogflowCxIntent_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -882,7 +882,7 @@ func DialogflowCxIntent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func DialogflowCxIntent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func DialogflowCxIntent_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func DialogflowCxIntent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dialogflowCxIntent.DialogflowCxIntent",
+		"@cdktn/provider-google.dialogflowCxIntent.DialogflowCxIntent",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoringslo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/monitoringslo/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringslo/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewMonitoringSloWindowsBasedSliOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_MonitoringSloWindowsBasedSliOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringSlo.MonitoringSloWindowsBasedSliOutputReference",
+		"@cdktn/provider-google.monitoringSlo.MonitoringSloWindowsBasedSliOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewMonitoringSloWindowsBasedSliOutputReference_Override(m MonitoringSloWind
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.monitoringSlo.MonitoringSloWindowsBasedSliOutputReference",
+		"@cdktn/provider-google.monitoringSlo.MonitoringSloWindowsBasedSliOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

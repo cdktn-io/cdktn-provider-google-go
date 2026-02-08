@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package accesscontextmanageraccesspolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicy",
+		"@cdktn/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicy",
 		reflect.TypeOf((*AccessContextManagerAccessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicyConfig",
+		"@cdktn/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicyConfig",
 		reflect.TypeOf((*AccessContextManagerAccessPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicyTimeouts",
+		"@cdktn/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicyTimeouts",
 		reflect.TypeOf((*AccessContextManagerAccessPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.accessContextManagerAccessPolicy.AccessContextManagerAccessPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*AccessContextManagerAccessPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

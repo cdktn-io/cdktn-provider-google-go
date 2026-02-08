@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeprojectmetadataitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computeprojectmetadataitem/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeprojectmetadataitem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewComputeProjectMetadataItem(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_ComputeProjectMetadataItem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewComputeProjectMetadataItem_Override(c ComputeProjectMetadataItem, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -555,7 +555,7 @@ func ComputeProjectMetadataItem_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func ComputeProjectMetadataItem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func ComputeProjectMetadataItem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func ComputeProjectMetadataItem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ComputeProjectMetadataItem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
+		"@cdktn/provider-google.computeProjectMetadataItem.ComputeProjectMetadataItem",
 		"tfResourceType",
 		&returns,
 	)

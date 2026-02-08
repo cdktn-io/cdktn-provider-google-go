@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package beyondcorpappgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGateway",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGateway",
 		reflect.TypeOf((*BeyondcorpAppGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,11 +95,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayAllocatedConnections",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayAllocatedConnections",
 		reflect.TypeOf((*BeyondcorpAppGatewayAllocatedConnections)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayAllocatedConnectionsList",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayAllocatedConnectionsList",
 		reflect.TypeOf((*BeyondcorpAppGatewayAllocatedConnectionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayAllocatedConnectionsOutputReference",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayAllocatedConnectionsOutputReference",
 		reflect.TypeOf((*BeyondcorpAppGatewayAllocatedConnectionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,15 +154,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayConfig",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayConfig",
 		reflect.TypeOf((*BeyondcorpAppGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayTimeouts",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayTimeouts",
 		reflect.TypeOf((*BeyondcorpAppGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayTimeoutsOutputReference",
+		"@cdktn/provider-google.beyondcorpAppGateway.BeyondcorpAppGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*BeyondcorpAppGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

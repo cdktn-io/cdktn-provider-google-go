@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccv2foldermuteconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfig",
+		"@cdktn/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfig",
 		reflect.TypeOf((*SccV2FolderMuteConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfigConfig",
+		"@cdktn/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfigConfig",
 		reflect.TypeOf((*SccV2FolderMuteConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfigTimeouts",
+		"@cdktn/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfigTimeouts",
 		reflect.TypeOf((*SccV2FolderMuteConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfigTimeoutsOutputReference",
 		reflect.TypeOf((*SccV2FolderMuteConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

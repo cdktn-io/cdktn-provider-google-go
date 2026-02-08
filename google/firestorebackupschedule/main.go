@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firestorebackupschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupSchedule",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupSchedule",
 		reflect.TypeOf((*FirestoreBackupSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleConfig",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleConfig",
 		reflect.TypeOf((*FirestoreBackupScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleDailyRecurrence",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleDailyRecurrence",
 		reflect.TypeOf((*FirestoreBackupScheduleDailyRecurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleDailyRecurrenceOutputReference",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleDailyRecurrenceOutputReference",
 		reflect.TypeOf((*FirestoreBackupScheduleDailyRecurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleTimeouts",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleTimeouts",
 		reflect.TypeOf((*FirestoreBackupScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleTimeoutsOutputReference",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*FirestoreBackupScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleWeeklyRecurrence",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleWeeklyRecurrence",
 		reflect.TypeOf((*FirestoreBackupScheduleWeeklyRecurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleWeeklyRecurrenceOutputReference",
+		"@cdktn/provider-google.firestoreBackupSchedule.FirestoreBackupScheduleWeeklyRecurrenceOutputReference",
 		reflect.TypeOf((*FirestoreBackupScheduleWeeklyRecurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

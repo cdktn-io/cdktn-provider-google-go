@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computestoragepooliambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBinding",
+		"@cdktn/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBinding",
 		reflect.TypeOf((*ComputeStoragePoolIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBindingCondition",
+		"@cdktn/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBindingCondition",
 		reflect.TypeOf((*ComputeStoragePoolIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBindingConditionOutputReference",
+		"@cdktn/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBindingConditionOutputReference",
 		reflect.TypeOf((*ComputeStoragePoolIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBindingConfig",
+		"@cdktn/provider-google.computeStoragePoolIamBinding.ComputeStoragePoolIamBindingConfig",
 		reflect.TypeOf((*ComputeStoragePoolIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmsekmconnectioniampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		reflect.TypeOf((*KmsEkmConnectionIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicyConfig",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicyConfig",
 		reflect.TypeOf((*KmsEkmConnectionIamPolicyConfig)(nil)).Elem(),
 	)
 }

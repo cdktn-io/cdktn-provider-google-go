@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqlsslcert
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlSslCert.SqlSslCert",
+		"@cdktn/provider-google.sqlSslCert.SqlSslCert",
 		reflect.TypeOf((*SqlSslCert)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlSslCert.SqlSslCertConfig",
+		"@cdktn/provider-google.sqlSslCert.SqlSslCertConfig",
 		reflect.TypeOf((*SqlSslCertConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sqlSslCert.SqlSslCertTimeouts",
+		"@cdktn/provider-google.sqlSslCert.SqlSslCertTimeouts",
 		reflect.TypeOf((*SqlSslCertTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sqlSslCert.SqlSslCertTimeoutsOutputReference",
+		"@cdktn/provider-google.sqlSslCert.SqlSslCertTimeoutsOutputReference",
 		reflect.TypeOf((*SqlSslCertTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

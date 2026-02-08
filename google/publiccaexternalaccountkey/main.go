@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package publiccaexternalaccountkey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKey",
+		"@cdktn/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKey",
 		reflect.TypeOf((*PublicCaExternalAccountKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKeyConfig",
+		"@cdktn/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKeyConfig",
 		reflect.TypeOf((*PublicCaExternalAccountKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKeyTimeouts",
+		"@cdktn/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKeyTimeouts",
 		reflect.TypeOf((*PublicCaExternalAccountKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKeyTimeoutsOutputReference",
+		"@cdktn/provider-google.publicCaExternalAccountKey.PublicCaExternalAccountKeyTimeoutsOutputReference",
 		reflect.TypeOf((*PublicCaExternalAccountKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chroniclewatchlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/chroniclewatchlist/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/chroniclewatchlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -600,7 +600,7 @@ func NewChronicleWatchlist(scope constructs.Construct, id *string, config *Chron
 	j := jsiiProxy_ChronicleWatchlist{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -613,7 +613,7 @@ func NewChronicleWatchlist_Override(c ChronicleWatchlist, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -785,7 +785,7 @@ func ChronicleWatchlist_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -820,7 +820,7 @@ func ChronicleWatchlist_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -839,7 +839,7 @@ func ChronicleWatchlist_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -858,7 +858,7 @@ func ChronicleWatchlist_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func ChronicleWatchlist_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.chronicleWatchlist.ChronicleWatchlist",
+		"@cdktn/provider-google.chronicleWatchlist.ChronicleWatchlist",
 		"tfResourceType",
 		&returns,
 	)

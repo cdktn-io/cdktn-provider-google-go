@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudrunv2workerpooliampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudRunV2WorkerPoolIamPolicy.CloudRunV2WorkerPoolIamPolicy",
+		"@cdktn/provider-google.cloudRunV2WorkerPoolIamPolicy.CloudRunV2WorkerPoolIamPolicy",
 		reflect.TypeOf((*CloudRunV2WorkerPoolIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudRunV2WorkerPoolIamPolicy.CloudRunV2WorkerPoolIamPolicyConfig",
+		"@cdktn/provider-google.cloudRunV2WorkerPoolIamPolicy.CloudRunV2WorkerPoolIamPolicyConfig",
 		reflect.TypeOf((*CloudRunV2WorkerPoolIamPolicyConfig)(nil)).Elem(),
 	)
 }

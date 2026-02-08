@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouterroutepolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicy",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicy",
 		reflect.TypeOf((*ComputeRouterRoutePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,19 +87,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyConfig",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyConfig",
 		reflect.TypeOf((*ComputeRouterRoutePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTerms",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTerms",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTerms)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsActions",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsActions",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsActionsList",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsActionsList",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsActionsOutputReference",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsActionsOutputReference",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsList",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsList",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatch",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatch",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatchOutputReference",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsMatchOutputReference",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,7 +233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsOutputReference",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTermsOutputReference",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTermsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -274,11 +274,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTimeouts",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTimeouts",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTimeoutsOutputReference",
+		"@cdktn/provider-google.computeRouterRoutePolicy.ComputeRouterRoutePolicyTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeRouterRoutePolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

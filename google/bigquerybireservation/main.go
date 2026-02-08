@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigquerybireservation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservation",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservation",
 		reflect.TypeOf((*BigqueryBiReservation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservationConfig",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservationConfig",
 		reflect.TypeOf((*BigqueryBiReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservationPreferredTables",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservationPreferredTables",
 		reflect.TypeOf((*BigqueryBiReservationPreferredTables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservationPreferredTablesList",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservationPreferredTablesList",
 		reflect.TypeOf((*BigqueryBiReservationPreferredTablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservationPreferredTablesOutputReference",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservationPreferredTablesOutputReference",
 		reflect.TypeOf((*BigqueryBiReservationPreferredTablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservationTimeouts",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservationTimeouts",
 		reflect.TypeOf((*BigqueryBiReservationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.bigqueryBiReservation.BigqueryBiReservationTimeoutsOutputReference",
+		"@cdktn/provider-google.bigqueryBiReservation.BigqueryBiReservationTimeoutsOutputReference",
 		reflect.TypeOf((*BigqueryBiReservationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkehubscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkehubscope/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewGkeHubScopeStateOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_GkeHubScopeStateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeStateOutputReference",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeStateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewGkeHubScopeStateOutputReference_Override(g GkeHubScopeStateOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeHubScope.GkeHubScopeStateOutputReference",
+		"@cdktn/provider-google.gkeHubScope.GkeHubScopeStateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package spannerdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/spannerdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/spannerdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSpannerDatabaseTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_SpannerDatabaseTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSpannerDatabaseTimeoutsOutputReference_Override(s SpannerDatabaseTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.spannerDatabase.SpannerDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google.spannerDatabase.SpannerDatabaseTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appengineflexibleappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/appengineflexibleappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appengineflexibleappversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -446,7 +446,7 @@ func NewAppEngineFlexibleAppVersionAutomaticScalingOutputReference(terraformReso
 	j := jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.appEngineFlexibleAppVersion.AppEngineFlexibleAppVersionAutomaticScalingOutputReference",
+		"@cdktn/provider-google.appEngineFlexibleAppVersion.AppEngineFlexibleAppVersionAutomaticScalingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -458,7 +458,7 @@ func NewAppEngineFlexibleAppVersionAutomaticScalingOutputReference_Override(a Ap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.appEngineFlexibleAppVersion.AppEngineFlexibleAppVersionAutomaticScalingOutputReference",
+		"@cdktn/provider-google.appEngineFlexibleAppVersion.AppEngineFlexibleAppVersionAutomaticScalingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

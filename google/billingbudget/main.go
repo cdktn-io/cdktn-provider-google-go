@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package billingbudget
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudget",
+		"@cdktn/provider-google.billingBudget.BillingBudget",
 		reflect.TypeOf((*BillingBudget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetAllUpdatesRule",
+		"@cdktn/provider-google.billingBudget.BillingBudgetAllUpdatesRule",
 		reflect.TypeOf((*BillingBudgetAllUpdatesRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetAllUpdatesRuleOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetAllUpdatesRuleOutputReference",
 		reflect.TypeOf((*BillingBudgetAllUpdatesRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetAmount",
+		"@cdktn/provider-google.billingBudget.BillingBudgetAmount",
 		reflect.TypeOf((*BillingBudgetAmount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetAmountOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetAmountOutputReference",
 		reflect.TypeOf((*BillingBudgetAmountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,11 +188,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetAmountSpecifiedAmount",
+		"@cdktn/provider-google.billingBudget.BillingBudgetAmountSpecifiedAmount",
 		reflect.TypeOf((*BillingBudgetAmountSpecifiedAmount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetAmountSpecifiedAmountOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetAmountSpecifiedAmountOutputReference",
 		reflect.TypeOf((*BillingBudgetAmountSpecifiedAmountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,19 +233,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilter",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilter",
 		reflect.TypeOf((*BillingBudgetBudgetFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriod",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriod",
 		reflect.TypeOf((*BillingBudgetBudgetFilterCustomPeriod)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodEndDate",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodEndDate",
 		reflect.TypeOf((*BillingBudgetBudgetFilterCustomPeriodEndDate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference",
 		reflect.TypeOf((*BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -283,7 +283,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodOutputReference",
 		reflect.TypeOf((*BillingBudgetBudgetFilterCustomPeriodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -322,11 +322,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodStartDate",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodStartDate",
 		reflect.TypeOf((*BillingBudgetBudgetFilterCustomPeriodStartDate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodStartDateOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterCustomPeriodStartDateOutputReference",
 		reflect.TypeOf((*BillingBudgetBudgetFilterCustomPeriodStartDateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -364,7 +364,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetBudgetFilterOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetBudgetFilterOutputReference",
 		reflect.TypeOf((*BillingBudgetBudgetFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "calendarPeriod", GoGetter: "CalendarPeriod"},
@@ -424,15 +424,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetConfig",
+		"@cdktn/provider-google.billingBudget.BillingBudgetConfig",
 		reflect.TypeOf((*BillingBudgetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetThresholdRules",
+		"@cdktn/provider-google.billingBudget.BillingBudgetThresholdRules",
 		reflect.TypeOf((*BillingBudgetThresholdRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetThresholdRulesList",
+		"@cdktn/provider-google.billingBudget.BillingBudgetThresholdRulesList",
 		reflect.TypeOf((*BillingBudgetThresholdRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -454,7 +454,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetThresholdRulesOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetThresholdRulesOutputReference",
 		reflect.TypeOf((*BillingBudgetThresholdRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -491,11 +491,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.billingBudget.BillingBudgetTimeouts",
+		"@cdktn/provider-google.billingBudget.BillingBudgetTimeouts",
 		reflect.TypeOf((*BillingBudgetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.billingBudget.BillingBudgetTimeoutsOutputReference",
+		"@cdktn/provider-google.billingBudget.BillingBudgetTimeoutsOutputReference",
 		reflect.TypeOf((*BillingBudgetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

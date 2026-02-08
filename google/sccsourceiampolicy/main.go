@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccsourceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccSourceIamPolicy.SccSourceIamPolicy",
+		"@cdktn/provider-google.sccSourceIamPolicy.SccSourceIamPolicy",
 		reflect.TypeOf((*SccSourceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccSourceIamPolicy.SccSourceIamPolicyConfig",
+		"@cdktn/provider-google.sccSourceIamPolicy.SccSourceIamPolicyConfig",
 		reflect.TypeOf((*SccSourceIamPolicyConfig)(nil)).Elem(),
 	)
 }

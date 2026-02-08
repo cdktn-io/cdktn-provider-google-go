@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gkebackupbackupchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/gkebackupbackupchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkebackupbackupchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -540,7 +540,7 @@ func NewGkeBackupBackupChannel(scope constructs.Construct, id *string, config *G
 	j := jsiiProxy_GkeBackupBackupChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -553,7 +553,7 @@ func NewGkeBackupBackupChannel_Override(g GkeBackupBackupChannel, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -714,7 +714,7 @@ func GkeBackupBackupChannel_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func GkeBackupBackupChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func GkeBackupBackupChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func GkeBackupBackupChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func GkeBackupBackupChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
+		"@cdktn/provider-google.gkeBackupBackupChannel.GkeBackupBackupChannel",
 		"tfResourceType",
 		&returns,
 	)

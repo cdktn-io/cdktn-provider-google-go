@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appenginedomainmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/appenginedomainmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appenginedomainmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -217,7 +217,7 @@ func NewAppEngineDomainMappingSslSettingsOutputReference(terraformResource cdktf
 	j := jsiiProxy_AppEngineDomainMappingSslSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettingsOutputReference",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -229,7 +229,7 @@ func NewAppEngineDomainMappingSslSettingsOutputReference_Override(a AppEngineDom
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettingsOutputReference",
+		"@cdktn/provider-google.appEngineDomainMapping.AppEngineDomainMappingSslSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

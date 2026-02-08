@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmsekmconnectioniampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/kmsekmconnectioniampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/kmsekmconnectioniampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewKmsEkmConnectionIamPolicy(scope constructs.Construct, id *string, config
 	j := jsiiProxy_KmsEkmConnectionIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewKmsEkmConnectionIamPolicy_Override(k KmsEkmConnectionIamPolicy, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -577,7 +577,7 @@ func KmsEkmConnectionIamPolicy_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func KmsEkmConnectionIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func KmsEkmConnectionIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func KmsEkmConnectionIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func KmsEkmConnectionIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
+		"@cdktn/provider-google.kmsEkmConnectionIamPolicy.KmsEkmConnectionIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

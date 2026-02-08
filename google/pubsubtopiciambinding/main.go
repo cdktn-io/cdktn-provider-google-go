@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pubsubtopiciambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubTopicIamBinding.PubsubTopicIamBinding",
+		"@cdktn/provider-google.pubsubTopicIamBinding.PubsubTopicIamBinding",
 		reflect.TypeOf((*PubsubTopicIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubTopicIamBinding.PubsubTopicIamBindingCondition",
+		"@cdktn/provider-google.pubsubTopicIamBinding.PubsubTopicIamBindingCondition",
 		reflect.TypeOf((*PubsubTopicIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.pubsubTopicIamBinding.PubsubTopicIamBindingConditionOutputReference",
+		"@cdktn/provider-google.pubsubTopicIamBinding.PubsubTopicIamBindingConditionOutputReference",
 		reflect.TypeOf((*PubsubTopicIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.pubsubTopicIamBinding.PubsubTopicIamBindingConfig",
+		"@cdktn/provider-google.pubsubTopicIamBinding.PubsubTopicIamBindingConfig",
 		reflect.TypeOf((*PubsubTopicIamBindingConfig)(nil)).Elem(),
 	)
 }

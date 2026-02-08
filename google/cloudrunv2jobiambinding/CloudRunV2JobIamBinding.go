@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudrunv2jobiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudrunv2jobiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudrunv2jobiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewCloudRunV2JobIamBinding(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CloudRunV2JobIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewCloudRunV2JobIamBinding_Override(c CloudRunV2JobIamBinding, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func CloudRunV2JobIamBinding_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func CloudRunV2JobIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func CloudRunV2JobIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func CloudRunV2JobIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func CloudRunV2JobIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
+		"@cdktn/provider-google.cloudRunV2JobIamBinding.CloudRunV2JobIamBinding",
 		"tfResourceType",
 		&returns,
 	)

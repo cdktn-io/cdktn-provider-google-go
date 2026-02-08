@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computepacketmirroring
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroring",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroring",
 		reflect.TypeOf((*ComputePacketMirroring)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,11 +97,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringCollectorIlb",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringCollectorIlb",
 		reflect.TypeOf((*ComputePacketMirroringCollectorIlb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringCollectorIlbOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringCollectorIlbOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringCollectorIlbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringConfig",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringConfig",
 		reflect.TypeOf((*ComputePacketMirroringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringFilter",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringFilter",
 		reflect.TypeOf((*ComputePacketMirroringFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringFilterOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringFilterOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrRanges", GoGetter: "CidrRanges"},
@@ -184,15 +184,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResources",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResources",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesInstances",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesInstances",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesInstances)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesInstancesList",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesInstancesList",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesInstancesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -214,7 +214,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesInstancesOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesInstancesOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesInstancesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,7 +248,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesSubnetworks",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesSubnetworks",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesSubnetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesSubnetworksList",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesSubnetworksList",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesSubnetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -317,7 +317,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesSubnetworksOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringMirroredResourcesSubnetworksOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringMirroredResourcesSubnetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -351,11 +351,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringNetwork",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringNetwork",
 		reflect.TypeOf((*ComputePacketMirroringNetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringNetworkOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringNetworkOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringNetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -389,11 +389,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringTimeouts",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringTimeouts",
 		reflect.TypeOf((*ComputePacketMirroringTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computePacketMirroring.ComputePacketMirroringTimeoutsOutputReference",
+		"@cdktn/provider-google.computePacketMirroring.ComputePacketMirroringTimeoutsOutputReference",
 		reflect.TypeOf((*ComputePacketMirroringTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowencryptionspec
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpec",
+		"@cdktn/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpec",
 		reflect.TypeOf((*DialogflowEncryptionSpec)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecConfig",
+		"@cdktn/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecConfig",
 		reflect.TypeOf((*DialogflowEncryptionSpecConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecEncryptionSpec",
+		"@cdktn/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecEncryptionSpec",
 		reflect.TypeOf((*DialogflowEncryptionSpecEncryptionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecEncryptionSpecOutputReference",
+		"@cdktn/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecEncryptionSpecOutputReference",
 		reflect.TypeOf((*DialogflowEncryptionSpecEncryptionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,11 +120,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecTimeouts",
+		"@cdktn/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecTimeouts",
 		reflect.TypeOf((*DialogflowEncryptionSpecTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowEncryptionSpec.DialogflowEncryptionSpecTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowEncryptionSpecTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredicomstoreiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDicomStoreIamPolicy.HealthcareDicomStoreIamPolicy",
+		"@cdktn/provider-google.healthcareDicomStoreIamPolicy.HealthcareDicomStoreIamPolicy",
 		reflect.TypeOf((*HealthcareDicomStoreIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDicomStoreIamPolicy.HealthcareDicomStoreIamPolicyConfig",
+		"@cdktn/provider-google.healthcareDicomStoreIamPolicy.HealthcareDicomStoreIamPolicyConfig",
 		reflect.TypeOf((*HealthcareDicomStoreIamPolicyConfig)(nil)).Elem(),
 	)
 }

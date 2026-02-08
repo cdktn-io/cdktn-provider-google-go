@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeetargetserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServer",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServer",
 		reflect.TypeOf((*ApigeeTargetServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,19 +91,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerConfig",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerConfig",
 		reflect.TypeOf((*ApigeeTargetServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfo",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfo",
 		reflect.TypeOf((*ApigeeTargetServerSSlInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfoCommonName",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfoCommonName",
 		reflect.TypeOf((*ApigeeTargetServerSSlInfoCommonName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfoCommonNameOutputReference",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfoCommonNameOutputReference",
 		reflect.TypeOf((*ApigeeTargetServerSSlInfoCommonNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfoOutputReference",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerSSlInfoOutputReference",
 		reflect.TypeOf((*ApigeeTargetServerSSlInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "ciphers", GoGetter: "Ciphers"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerTimeouts",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerTimeouts",
 		reflect.TypeOf((*ApigeeTargetServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeTargetServer.ApigeeTargetServerTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeTargetServer.ApigeeTargetServerTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeTargetServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeexternalvpngateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGateway",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGateway",
 		reflect.TypeOf((*ComputeExternalVpnGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayConfig",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayConfig",
 		reflect.TypeOf((*ComputeExternalVpnGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayInterface",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayInterface",
 		reflect.TypeOf((*ComputeExternalVpnGatewayInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayInterfaceList",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayInterfaceList",
 		reflect.TypeOf((*ComputeExternalVpnGatewayInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayInterfaceOutputReference",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayInterfaceOutputReference",
 		reflect.TypeOf((*ComputeExternalVpnGatewayInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayTimeouts",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayTimeouts",
 		reflect.TypeOf((*ComputeExternalVpnGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayTimeoutsOutputReference",
+		"@cdktn/provider-google.computeExternalVpnGateway.ComputeExternalVpnGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeExternalVpnGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

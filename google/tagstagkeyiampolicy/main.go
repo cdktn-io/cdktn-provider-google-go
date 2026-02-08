@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tagstagkeyiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.tagsTagKeyIamPolicy.TagsTagKeyIamPolicy",
+		"@cdktn/provider-google.tagsTagKeyIamPolicy.TagsTagKeyIamPolicy",
 		reflect.TypeOf((*TagsTagKeyIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.tagsTagKeyIamPolicy.TagsTagKeyIamPolicyConfig",
+		"@cdktn/provider-google.tagsTagKeyIamPolicy.TagsTagKeyIamPolicyConfig",
 		reflect.TypeOf((*TagsTagKeyIamPolicyConfig)(nil)).Elem(),
 	)
 }

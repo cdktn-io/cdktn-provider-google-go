@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmskeyhandle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/kmskeyhandle/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/kmskeyhandle/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewKmsKeyHandle(scope constructs.Construct, id *string, config *KmsKeyHandl
 	j := jsiiProxy_KmsKeyHandle{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewKmsKeyHandle_Override(k KmsKeyHandle, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -600,7 +600,7 @@ func KmsKeyHandle_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func KmsKeyHandle_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func KmsKeyHandle_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func KmsKeyHandle_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func KmsKeyHandle_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredicomstore
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStore",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStore",
 		reflect.TypeOf((*HealthcareDicomStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreConfig",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreConfig",
 		reflect.TypeOf((*HealthcareDicomStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreNotificationConfig",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreNotificationConfig",
 		reflect.TypeOf((*HealthcareDicomStoreNotificationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreNotificationConfigOutputReference",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreNotificationConfigOutputReference",
 		reflect.TypeOf((*HealthcareDicomStoreNotificationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeouts",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeouts",
 		reflect.TypeOf((*HealthcareDicomStoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeoutsOutputReference",
+		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStoreTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcareDicomStoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

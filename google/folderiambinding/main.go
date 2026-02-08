@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package folderiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.folderIamBinding.FolderIamBinding",
+		"@cdktn/provider-google.folderIamBinding.FolderIamBinding",
 		reflect.TypeOf((*FolderIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.folderIamBinding.FolderIamBindingCondition",
+		"@cdktn/provider-google.folderIamBinding.FolderIamBindingCondition",
 		reflect.TypeOf((*FolderIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.folderIamBinding.FolderIamBindingConditionOutputReference",
+		"@cdktn/provider-google.folderIamBinding.FolderIamBindingConditionOutputReference",
 		reflect.TypeOf((*FolderIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.folderIamBinding.FolderIamBindingConfig",
+		"@cdktn/provider-google.folderIamBinding.FolderIamBindingConfig",
 		reflect.TypeOf((*FolderIamBindingConfig)(nil)).Elem(),
 	)
 }

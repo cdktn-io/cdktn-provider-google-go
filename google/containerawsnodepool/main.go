@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerawsnodepool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePool",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePool",
 		reflect.TypeOf((*ContainerAwsNodePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -114,11 +114,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolAutoscaling",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolAutoscaling",
 		reflect.TypeOf((*ContainerAwsNodePoolAutoscaling)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolAutoscalingOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolAutoscalingOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolAutoscalingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,15 +154,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfig",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfig",
 		reflect.TypeOf((*ContainerAwsNodePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigA",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigA",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigAOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigAOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoscalingMetricsCollection", GoGetter: "AutoscalingMetricsCollection"},
@@ -231,11 +231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigAutoscalingMetricsCollection",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigAutoscalingMetricsCollection",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigAutoscalingMetricsCollection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigConfigEncryption",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigConfigEncryption",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigConfigEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigConfigEncryptionOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigConfigEncryptionOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigConfigEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -310,11 +310,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigProxyConfig",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigProxyConfig",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigProxyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigProxyConfigOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigProxyConfigOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigProxyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -350,11 +350,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigRootVolume",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigRootVolume",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigRootVolume)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigRootVolumeOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigRootVolumeOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigRootVolumeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -401,11 +401,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigSshConfig",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigSshConfig",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigSshConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigSshConfigOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigSshConfigOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigSshConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -439,11 +439,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigTaints",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigTaints",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigTaints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigTaintsList",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigTaintsList",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigTaintsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -465,7 +465,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigTaintsOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolConfigTaintsOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolConfigTaintsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -503,11 +503,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolKubeletConfig",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolKubeletConfig",
 		reflect.TypeOf((*ContainerAwsNodePoolKubeletConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolKubeletConfigOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolKubeletConfigOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolKubeletConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -551,11 +551,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolManagement",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolManagement",
 		reflect.TypeOf((*ContainerAwsNodePoolManagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolManagementOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolManagementOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolManagementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoRepair", GoGetter: "AutoRepair"},
@@ -590,11 +590,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolMaxPodsConstraint",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolMaxPodsConstraint",
 		reflect.TypeOf((*ContainerAwsNodePoolMaxPodsConstraint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolMaxPodsConstraintOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolMaxPodsConstraintOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolMaxPodsConstraintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -628,11 +628,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolTimeouts",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolTimeouts",
 		reflect.TypeOf((*ContainerAwsNodePoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolTimeoutsOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -673,11 +673,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettings",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettings",
 		reflect.TypeOf((*ContainerAwsNodePoolUpdateSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettingsOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettingsOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolUpdateSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -713,11 +713,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettingsSurgeSettings",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettingsSurgeSettings",
 		reflect.TypeOf((*ContainerAwsNodePoolUpdateSettingsSurgeSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettingsSurgeSettingsOutputReference",
+		"@cdktn/provider-google.containerAwsNodePool.ContainerAwsNodePoolUpdateSettingsSurgeSettingsOutputReference",
 		reflect.TypeOf((*ContainerAwsNodePoolUpdateSettingsSurgeSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

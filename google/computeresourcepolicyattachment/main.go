@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computeresourcepolicyattachment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachment",
+		"@cdktn/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachment",
 		reflect.TypeOf((*ComputeResourcePolicyAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachmentConfig",
+		"@cdktn/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachmentConfig",
 		reflect.TypeOf((*ComputeResourcePolicyAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachmentTimeouts",
+		"@cdktn/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachmentTimeouts",
 		reflect.TypeOf((*ComputeResourcePolicyAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-google.computeResourcePolicyAttachment.ComputeResourcePolicyAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*ComputeResourcePolicyAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

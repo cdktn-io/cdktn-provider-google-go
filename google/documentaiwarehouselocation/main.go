@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package documentaiwarehouselocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocation",
+		"@cdktn/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocation",
 		reflect.TypeOf((*DocumentAiWarehouseLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessControlMode", GoGetter: "AccessControlMode"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocationConfig",
+		"@cdktn/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocationConfig",
 		reflect.TypeOf((*DocumentAiWarehouseLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocationTimeouts",
+		"@cdktn/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocationTimeouts",
 		reflect.TypeOf((*DocumentAiWarehouseLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocationTimeoutsOutputReference",
+		"@cdktn/provider-google.documentAiWarehouseLocation.DocumentAiWarehouseLocationTimeoutsOutputReference",
 		reflect.TypeOf((*DocumentAiWarehouseLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

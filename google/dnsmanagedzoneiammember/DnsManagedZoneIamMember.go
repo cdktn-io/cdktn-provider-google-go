@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsmanagedzoneiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dnsmanagedzoneiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dnsmanagedzoneiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewDnsManagedZoneIamMember(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DnsManagedZoneIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewDnsManagedZoneIamMember_Override(d DnsManagedZoneIamMember, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -600,7 +600,7 @@ func DnsManagedZoneIamMember_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func DnsManagedZoneIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func DnsManagedZoneIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func DnsManagedZoneIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func DnsManagedZoneIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
+		"@cdktn/provider-google.dnsManagedZoneIamMember.DnsManagedZoneIamMember",
 		"tfResourceType",
 		&returns,
 	)

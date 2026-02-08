@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventarcenrollment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcEnrollment.EventarcEnrollment",
+		"@cdktn/provider-google.eventarcEnrollment.EventarcEnrollment",
 		reflect.TypeOf((*EventarcEnrollment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcEnrollment.EventarcEnrollmentConfig",
+		"@cdktn/provider-google.eventarcEnrollment.EventarcEnrollmentConfig",
 		reflect.TypeOf((*EventarcEnrollmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcEnrollment.EventarcEnrollmentTimeouts",
+		"@cdktn/provider-google.eventarcEnrollment.EventarcEnrollmentTimeouts",
 		reflect.TypeOf((*EventarcEnrollmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcEnrollment.EventarcEnrollmentTimeoutsOutputReference",
+		"@cdktn/provider-google.eventarcEnrollment.EventarcEnrollmentTimeoutsOutputReference",
 		reflect.TypeOf((*EventarcEnrollmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

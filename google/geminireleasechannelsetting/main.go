@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package geminireleasechannelsetting
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSetting",
+		"@cdktn/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSetting",
 		reflect.TypeOf((*GeminiReleaseChannelSetting)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSettingConfig",
+		"@cdktn/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSettingConfig",
 		reflect.TypeOf((*GeminiReleaseChannelSettingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSettingTimeouts",
+		"@cdktn/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSettingTimeouts",
 		reflect.TypeOf((*GeminiReleaseChannelSettingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSettingTimeoutsOutputReference",
+		"@cdktn/provider-google.geminiReleaseChannelSetting.GeminiReleaseChannelSettingTimeoutsOutputReference",
 		reflect.TypeOf((*GeminiReleaseChannelSettingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudbuildv2repository
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudbuildv2Repository.Cloudbuildv2Repository",
+		"@cdktn/provider-google.cloudbuildv2Repository.Cloudbuildv2Repository",
 		reflect.TypeOf((*Cloudbuildv2Repository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudbuildv2Repository.Cloudbuildv2RepositoryConfig",
+		"@cdktn/provider-google.cloudbuildv2Repository.Cloudbuildv2RepositoryConfig",
 		reflect.TypeOf((*Cloudbuildv2RepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.cloudbuildv2Repository.Cloudbuildv2RepositoryTimeouts",
+		"@cdktn/provider-google.cloudbuildv2Repository.Cloudbuildv2RepositoryTimeouts",
 		reflect.TypeOf((*Cloudbuildv2RepositoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.cloudbuildv2Repository.Cloudbuildv2RepositoryTimeoutsOutputReference",
+		"@cdktn/provider-google.cloudbuildv2Repository.Cloudbuildv2RepositoryTimeoutsOutputReference",
 		reflect.TypeOf((*Cloudbuildv2RepositoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

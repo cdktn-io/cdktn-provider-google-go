@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeenvironment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironment",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironment",
 		reflect.TypeOf((*ApigeeEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfig",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfig",
 		reflect.TypeOf((*ApigeeEnvironmentClientIpResolutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfigHeaderIndexAlgorithm",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfigHeaderIndexAlgorithm",
 		reflect.TypeOf((*ApigeeEnvironmentClientIpResolutionConfigHeaderIndexAlgorithm)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfigHeaderIndexAlgorithmOutputReference",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfigHeaderIndexAlgorithmOutputReference",
 		reflect.TypeOf((*ApigeeEnvironmentClientIpResolutionConfigHeaderIndexAlgorithmOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,7 +148,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfigOutputReference",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentClientIpResolutionConfigOutputReference",
 		reflect.TypeOf((*ApigeeEnvironmentClientIpResolutionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,15 +184,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentConfig",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentConfig",
 		reflect.TypeOf((*ApigeeEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentNodeConfig",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentNodeConfig",
 		reflect.TypeOf((*ApigeeEnvironmentNodeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentNodeConfigOutputReference",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentNodeConfigOutputReference",
 		reflect.TypeOf((*ApigeeEnvironmentNodeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -231,11 +231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentProperties",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentProperties",
 		reflect.TypeOf((*ApigeeEnvironmentProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesOutputReference",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesOutputReference",
 		reflect.TypeOf((*ApigeeEnvironmentPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesProperty",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesProperty",
 		reflect.TypeOf((*ApigeeEnvironmentPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesPropertyList",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesPropertyList",
 		reflect.TypeOf((*ApigeeEnvironmentPropertiesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesPropertyOutputReference",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentPropertiesPropertyOutputReference",
 		reflect.TypeOf((*ApigeeEnvironmentPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -335,11 +335,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentTimeouts",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentTimeouts",
 		reflect.TypeOf((*ApigeeEnvironmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.apigeeEnvironment.ApigeeEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-google.apigeeEnvironment.ApigeeEnvironmentTimeoutsOutputReference",
 		reflect.TypeOf((*ApigeeEnvironmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

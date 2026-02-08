@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apphubservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apphubservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apphubservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewApphubServiceAttributesCriticalityOutputReference(terraformResource cdkt
 	j := jsiiProxy_ApphubServiceAttributesCriticalityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apphubService.ApphubServiceAttributesCriticalityOutputReference",
+		"@cdktn/provider-google.apphubService.ApphubServiceAttributesCriticalityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewApphubServiceAttributesCriticalityOutputReference_Override(a ApphubServi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apphubService.ApphubServiceAttributesCriticalityOutputReference",
+		"@cdktn/provider-google.apphubService.ApphubServiceAttributesCriticalityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumesnapshot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeSnapshot.NetappVolumeSnapshot",
+		"@cdktn/provider-google.netappVolumeSnapshot.NetappVolumeSnapshot",
 		reflect.TypeOf((*NetappVolumeSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeSnapshot.NetappVolumeSnapshotConfig",
+		"@cdktn/provider-google.netappVolumeSnapshot.NetappVolumeSnapshotConfig",
 		reflect.TypeOf((*NetappVolumeSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.netappVolumeSnapshot.NetappVolumeSnapshotTimeouts",
+		"@cdktn/provider-google.netappVolumeSnapshot.NetappVolumeSnapshotTimeouts",
 		reflect.TypeOf((*NetappVolumeSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.netappVolumeSnapshot.NetappVolumeSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-google.netappVolumeSnapshot.NetappVolumeSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*NetappVolumeSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

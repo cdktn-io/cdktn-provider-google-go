@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceaccountiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceAccountIamMember.ServiceAccountIamMember",
+		"@cdktn/provider-google.serviceAccountIamMember.ServiceAccountIamMember",
 		reflect.TypeOf((*ServiceAccountIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceAccountIamMember.ServiceAccountIamMemberCondition",
+		"@cdktn/provider-google.serviceAccountIamMember.ServiceAccountIamMemberCondition",
 		reflect.TypeOf((*ServiceAccountIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.serviceAccountIamMember.ServiceAccountIamMemberConditionOutputReference",
+		"@cdktn/provider-google.serviceAccountIamMember.ServiceAccountIamMemberConditionOutputReference",
 		reflect.TypeOf((*ServiceAccountIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.serviceAccountIamMember.ServiceAccountIamMemberConfig",
+		"@cdktn/provider-google.serviceAccountIamMember.ServiceAccountIamMemberConfig",
 		reflect.TypeOf((*ServiceAccountIamMemberConfig)(nil)).Elem(),
 	)
 }

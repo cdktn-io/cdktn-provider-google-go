@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sccprojectsccbigqueryexport
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExport",
+		"@cdktn/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExport",
 		reflect.TypeOf((*SccProjectSccBigQueryExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExportConfig",
+		"@cdktn/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExportConfig",
 		reflect.TypeOf((*SccProjectSccBigQueryExportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExportTimeouts",
+		"@cdktn/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExportTimeouts",
 		reflect.TypeOf((*SccProjectSccBigQueryExportTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExportTimeoutsOutputReference",
+		"@cdktn/provider-google.sccProjectSccBigQueryExport.SccProjectSccBigQueryExportTimeoutsOutputReference",
 		reflect.TypeOf((*SccProjectSccBigQueryExportTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

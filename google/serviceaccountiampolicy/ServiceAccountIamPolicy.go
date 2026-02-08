@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceaccountiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/serviceaccountiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/serviceaccountiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -377,7 +377,7 @@ func NewServiceAccountIamPolicy(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ServiceAccountIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,7 +390,7 @@ func NewServiceAccountIamPolicy_Override(s ServiceAccountIamPolicy, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -507,7 +507,7 @@ func ServiceAccountIamPolicy_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func ServiceAccountIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func ServiceAccountIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func ServiceAccountIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func ServiceAccountIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
+		"@cdktn/provider-google.serviceAccountIamPolicy.ServiceAccountIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

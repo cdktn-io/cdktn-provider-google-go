@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vertexaidataset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vertexAiDataset.VertexAiDataset",
+		"@cdktn/provider-google.vertexAiDataset.VertexAiDataset",
 		reflect.TypeOf((*VertexAiDataset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vertexAiDataset.VertexAiDatasetConfig",
+		"@cdktn/provider-google.vertexAiDataset.VertexAiDatasetConfig",
 		reflect.TypeOf((*VertexAiDatasetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vertexAiDataset.VertexAiDatasetEncryptionSpec",
+		"@cdktn/provider-google.vertexAiDataset.VertexAiDatasetEncryptionSpec",
 		reflect.TypeOf((*VertexAiDatasetEncryptionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vertexAiDataset.VertexAiDatasetEncryptionSpecOutputReference",
+		"@cdktn/provider-google.vertexAiDataset.VertexAiDatasetEncryptionSpecOutputReference",
 		reflect.TypeOf((*VertexAiDatasetEncryptionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vertexAiDataset.VertexAiDatasetTimeouts",
+		"@cdktn/provider-google.vertexAiDataset.VertexAiDatasetTimeouts",
 		reflect.TypeOf((*VertexAiDatasetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vertexAiDataset.VertexAiDatasetTimeoutsOutputReference",
+		"@cdktn/provider-google.vertexAiDataset.VertexAiDatasetTimeoutsOutputReference",
 		reflect.TypeOf((*VertexAiDatasetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

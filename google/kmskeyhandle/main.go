@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmskeyhandle
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandle",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandle",
 		reflect.TypeOf((*KmsKeyHandle)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandleConfig",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandleConfig",
 		reflect.TypeOf((*KmsKeyHandleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandleTimeouts",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandleTimeouts",
 		reflect.TypeOf((*KmsKeyHandleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsKeyHandle.KmsKeyHandleTimeoutsOutputReference",
+		"@cdktn/provider-google.kmsKeyHandle.KmsKeyHandleTimeoutsOutputReference",
 		reflect.TypeOf((*KmsKeyHandleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

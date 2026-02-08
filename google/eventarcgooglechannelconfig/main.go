@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventarcgooglechannelconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfig",
+		"@cdktn/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfig",
 		reflect.TypeOf((*EventarcGoogleChannelConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfigConfig",
+		"@cdktn/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfigConfig",
 		reflect.TypeOf((*EventarcGoogleChannelConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfigTimeouts",
+		"@cdktn/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfigTimeouts",
 		reflect.TypeOf((*EventarcGoogleChannelConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfigTimeoutsOutputReference",
+		"@cdktn/provider-google.eventarcGoogleChannelConfig.EventarcGoogleChannelConfigTimeoutsOutputReference",
 		reflect.TypeOf((*EventarcGoogleChannelConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

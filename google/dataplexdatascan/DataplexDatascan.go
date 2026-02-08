@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataplexdatascan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/dataplexdatascan/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataplexdatascan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -703,7 +703,7 @@ func NewDataplexDatascan(scope constructs.Construct, id *string, config *Dataple
 	j := jsiiProxy_DataplexDatascan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -716,7 +716,7 @@ func NewDataplexDatascan_Override(d DataplexDatascan, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -877,7 +877,7 @@ func DataplexDatascan_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -912,7 +912,7 @@ func DataplexDatascan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -931,7 +931,7 @@ func DataplexDatascan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -950,7 +950,7 @@ func DataplexDatascan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -963,7 +963,7 @@ func DataplexDatascan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.dataplexDatascan.DataplexDatascan",
+		"@cdktn/provider-google.dataplexDatascan.DataplexDatascan",
 		"tfResourceType",
 		&returns,
 	)

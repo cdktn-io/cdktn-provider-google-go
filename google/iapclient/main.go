@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapclient
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapClient.IapClient",
+		"@cdktn/provider-google.iapClient.IapClient",
 		reflect.TypeOf((*IapClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapClient.IapClientConfig",
+		"@cdktn/provider-google.iapClient.IapClientConfig",
 		reflect.TypeOf((*IapClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapClient.IapClientTimeouts",
+		"@cdktn/provider-google.iapClient.IapClientTimeouts",
 		reflect.TypeOf((*IapClientTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapClient.IapClientTimeoutsOutputReference",
+		"@cdktn/provider-google.iapClient.IapClientTimeoutsOutputReference",
 		reflect.TypeOf((*IapClientTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

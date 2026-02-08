@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computerouternat
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computerouternat/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computerouternat/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewComputeRouterNatNat64SubnetworkList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_ComputeRouterNatNat64SubnetworkList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterNat.ComputeRouterNatNat64SubnetworkList",
+		"@cdktn/provider-google.computeRouterNat.ComputeRouterNatNat64SubnetworkList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewComputeRouterNatNat64SubnetworkList_Override(c ComputeRouterNatNat64Subn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeRouterNat.ComputeRouterNatNat64SubnetworkList",
+		"@cdktn/provider-google.computeRouterNat.ComputeRouterNatNat64SubnetworkList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

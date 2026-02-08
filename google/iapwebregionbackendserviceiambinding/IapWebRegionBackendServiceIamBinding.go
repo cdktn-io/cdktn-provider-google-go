@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapwebregionbackendserviceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/iapwebregionbackendserviceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iapwebregionbackendserviceiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewIapWebRegionBackendServiceIamBinding(scope constructs.Construct, id *str
 	j := jsiiProxy_IapWebRegionBackendServiceIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewIapWebRegionBackendServiceIamBinding_Override(i IapWebRegionBackendServi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -635,7 +635,7 @@ func IapWebRegionBackendServiceIamBinding_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func IapWebRegionBackendServiceIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func IapWebRegionBackendServiceIamBinding_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func IapWebRegionBackendServiceIamBinding_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func IapWebRegionBackendServiceIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
+		"@cdktn/provider-google.iapWebRegionBackendServiceIamBinding.IapWebRegionBackendServiceIamBinding",
 		"tfResourceType",
 		&returns,
 	)

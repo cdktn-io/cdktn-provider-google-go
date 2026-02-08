@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudassetprojectfeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/cloudassetprojectfeed/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudassetprojectfeed/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -545,7 +545,7 @@ func NewCloudAssetProjectFeed(scope constructs.Construct, id *string, config *Cl
 	j := jsiiProxy_CloudAssetProjectFeed{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -558,7 +558,7 @@ func NewCloudAssetProjectFeed_Override(c CloudAssetProjectFeed, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -719,7 +719,7 @@ func CloudAssetProjectFeed_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -754,7 +754,7 @@ func CloudAssetProjectFeed_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +773,7 @@ func CloudAssetProjectFeed_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func CloudAssetProjectFeed_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func CloudAssetProjectFeed_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
+		"@cdktn/provider-google.cloudAssetProjectFeed.CloudAssetProjectFeed",
 		"tfResourceType",
 		&returns,
 	)

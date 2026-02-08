@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerazureclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/containerazureclient/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containerazureclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -493,7 +493,7 @@ func NewContainerAzureClient(scope constructs.Construct, id *string, config *Con
 	j := jsiiProxy_ContainerAzureClient{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,7 +506,7 @@ func NewContainerAzureClient_Override(c ContainerAzureClient, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -656,7 +656,7 @@ func ContainerAzureClient_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func ContainerAzureClient_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func ContainerAzureClient_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func ContainerAzureClient_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func ContainerAzureClient_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.containerAzureClient.ContainerAzureClient",
+		"@cdktn/provider-google.containerAzureClient.ContainerAzureClient",
 		"tfResourceType",
 		&returns,
 	)

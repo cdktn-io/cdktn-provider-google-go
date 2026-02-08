@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwareenginenetworkpeering
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
 		reflect.TypeOf((*VmwareengineNetworkPeering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeeringConfig",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeeringConfig",
 		reflect.TypeOf((*VmwareengineNetworkPeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeeringTimeouts",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeeringTimeouts",
 		reflect.TypeOf((*VmwareengineNetworkPeeringTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeeringTimeoutsOutputReference",
+		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeeringTimeoutsOutputReference",
 		reflect.TypeOf((*VmwareengineNetworkPeeringTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

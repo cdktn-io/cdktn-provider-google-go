@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package scceventthreatdetectioncustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/scceventthreatdetectioncustommodule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/scceventthreatdetectioncustommodule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -493,7 +493,7 @@ func NewSccEventThreatDetectionCustomModule(scope constructs.Construct, id *stri
 	j := jsiiProxy_SccEventThreatDetectionCustomModule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,7 +506,7 @@ func NewSccEventThreatDetectionCustomModule_Override(s SccEventThreatDetectionCu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -656,7 +656,7 @@ func SccEventThreatDetectionCustomModule_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func SccEventThreatDetectionCustomModule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func SccEventThreatDetectionCustomModule_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func SccEventThreatDetectionCustomModule_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func SccEventThreatDetectionCustomModule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
+		"@cdktn/provider-google.sccEventThreatDetectionCustomModule.SccEventThreatDetectionCustomModule",
 		"tfResourceType",
 		&returns,
 	)

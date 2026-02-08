@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datacatalogtaxonomy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomy",
+		"@cdktn/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomy",
 		reflect.TypeOf((*DataCatalogTaxonomy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activatedPolicyTypes", GoGetter: "ActivatedPolicyTypes"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomyConfig",
+		"@cdktn/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomyConfig",
 		reflect.TypeOf((*DataCatalogTaxonomyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomyTimeouts",
+		"@cdktn/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomyTimeouts",
 		reflect.TypeOf((*DataCatalogTaxonomyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomyTimeoutsOutputReference",
+		"@cdktn/provider-google.dataCatalogTaxonomy.DataCatalogTaxonomyTimeoutsOutputReference",
 		reflect.TypeOf((*DataCatalogTaxonomyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

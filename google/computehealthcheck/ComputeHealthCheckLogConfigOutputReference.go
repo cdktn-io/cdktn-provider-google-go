@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package computehealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/computehealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computehealthcheck/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewComputeHealthCheckLogConfigOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_ComputeHealthCheckLogConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeHealthCheck.ComputeHealthCheckLogConfigOutputReference",
+		"@cdktn/provider-google.computeHealthCheck.ComputeHealthCheckLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewComputeHealthCheckLogConfigOutputReference_Override(c ComputeHealthCheck
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.computeHealthCheck.ComputeHealthCheckLogConfigOutputReference",
+		"@cdktn/provider-google.computeHealthCheck.ComputeHealthCheckLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

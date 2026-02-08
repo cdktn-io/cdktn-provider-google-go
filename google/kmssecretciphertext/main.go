@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmssecretciphertext
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsSecretCiphertext.KmsSecretCiphertext",
+		"@cdktn/provider-google.kmsSecretCiphertext.KmsSecretCiphertext",
 		reflect.TypeOf((*KmsSecretCiphertext)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalAuthenticatedData", GoGetter: "AdditionalAuthenticatedData"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsSecretCiphertext.KmsSecretCiphertextConfig",
+		"@cdktn/provider-google.kmsSecretCiphertext.KmsSecretCiphertextConfig",
 		reflect.TypeOf((*KmsSecretCiphertextConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.kmsSecretCiphertext.KmsSecretCiphertextTimeouts",
+		"@cdktn/provider-google.kmsSecretCiphertext.KmsSecretCiphertextTimeouts",
 		reflect.TypeOf((*KmsSecretCiphertextTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.kmsSecretCiphertext.KmsSecretCiphertextTimeoutsOutputReference",
+		"@cdktn/provider-google.kmsSecretCiphertext.KmsSecretCiphertextTimeoutsOutputReference",
 		reflect.TypeOf((*KmsSecretCiphertextTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

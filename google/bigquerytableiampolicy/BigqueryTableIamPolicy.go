@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bigquerytableiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/bigquerytableiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigquerytableiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -424,7 +424,7 @@ func NewBigqueryTableIamPolicy(scope constructs.Construct, id *string, config *B
 	j := jsiiProxy_BigqueryTableIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -437,7 +437,7 @@ func NewBigqueryTableIamPolicy_Override(b BigqueryTableIamPolicy, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -576,7 +576,7 @@ func BigqueryTableIamPolicy_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func BigqueryTableIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func BigqueryTableIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func BigqueryTableIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func BigqueryTableIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
+		"@cdktn/provider-google.bigqueryTableIamPolicy.BigqueryTableIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

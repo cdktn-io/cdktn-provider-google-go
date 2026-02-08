@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package parametermanagerregionalparameter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameter",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameter",
 		reflect.TypeOf((*ParameterManagerRegionalParameter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterConfig",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterConfig",
 		reflect.TypeOf((*ParameterManagerRegionalParameterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterPolicyMember",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterPolicyMember",
 		reflect.TypeOf((*ParameterManagerRegionalParameterPolicyMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterPolicyMemberList",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterPolicyMemberList",
 		reflect.TypeOf((*ParameterManagerRegionalParameterPolicyMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterPolicyMemberOutputReference",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterPolicyMemberOutputReference",
 		reflect.TypeOf((*ParameterManagerRegionalParameterPolicyMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterTimeouts",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterTimeouts",
 		reflect.TypeOf((*ParameterManagerRegionalParameterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterTimeoutsOutputReference",
+		"@cdktn/provider-google.parameterManagerRegionalParameter.ParameterManagerRegionalParameterTimeoutsOutputReference",
 		reflect.TypeOf((*ParameterManagerRegionalParameterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

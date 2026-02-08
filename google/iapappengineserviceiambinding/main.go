@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iapappengineserviceiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBinding",
+		"@cdktn/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBinding",
 		reflect.TypeOf((*IapAppEngineServiceIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBindingCondition",
+		"@cdktn/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBindingCondition",
 		reflect.TypeOf((*IapAppEngineServiceIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBindingConditionOutputReference",
+		"@cdktn/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBindingConditionOutputReference",
 		reflect.TypeOf((*IapAppEngineServiceIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBindingConfig",
+		"@cdktn/provider-google.iapAppEngineServiceIamBinding.IapAppEngineServiceIamBindingConfig",
 		reflect.TypeOf((*IapAppEngineServiceIamBindingConfig)(nil)).Elem(),
 	)
 }

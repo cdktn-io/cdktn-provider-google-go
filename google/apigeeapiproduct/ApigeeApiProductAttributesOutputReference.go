@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeapiproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apigeeapiproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeapiproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewApigeeApiProductAttributesOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_ApigeeApiProductAttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeApiProduct.ApigeeApiProductAttributesOutputReference",
+		"@cdktn/provider-google.apigeeApiProduct.ApigeeApiProductAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewApigeeApiProductAttributesOutputReference_Override(a ApigeeApiProductAtt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeApiProduct.ApigeeApiProductAttributesOutputReference",
+		"@cdktn/provider-google.apigeeApiProduct.ApigeeApiProductAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

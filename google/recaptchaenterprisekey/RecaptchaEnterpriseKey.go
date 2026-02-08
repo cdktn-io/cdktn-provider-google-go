@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package recaptchaenterprisekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/recaptchaenterprisekey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/recaptchaenterprisekey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -579,7 +579,7 @@ func NewRecaptchaEnterpriseKey(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RecaptchaEnterpriseKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -592,7 +592,7 @@ func NewRecaptchaEnterpriseKey_Override(r RecaptchaEnterpriseKey, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -720,7 +720,7 @@ func RecaptchaEnterpriseKey_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -755,7 +755,7 @@ func RecaptchaEnterpriseKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -774,7 +774,7 @@ func RecaptchaEnterpriseKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func RecaptchaEnterpriseKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func RecaptchaEnterpriseKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
+		"@cdktn/provider-google.recaptchaEnterpriseKey.RecaptchaEnterpriseKey",
 		"tfResourceType",
 		&returns,
 	)

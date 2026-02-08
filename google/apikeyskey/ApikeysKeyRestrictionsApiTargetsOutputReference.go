@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apikeyskey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apikeyskey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apikeyskey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewApikeysKeyRestrictionsApiTargetsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_ApikeysKeyRestrictionsApiTargetsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewApikeysKeyRestrictionsApiTargetsOutputReference_Override(a ApikeysKeyRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsOutputReference",
+		"@cdktn/provider-google.apikeysKey.ApikeysKeyRestrictionsApiTargetsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

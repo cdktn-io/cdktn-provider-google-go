@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareconsentstoreiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/healthcareconsentstoreiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/healthcareconsentstoreiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewHealthcareConsentStoreIamMember(scope constructs.Construct, id *string, 
 	j := jsiiProxy_HealthcareConsentStoreIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -460,7 +460,7 @@ func NewHealthcareConsentStoreIamMember_Override(h HealthcareConsentStoreIamMemb
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -599,7 +599,7 @@ func HealthcareConsentStoreIamMember_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func HealthcareConsentStoreIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func HealthcareConsentStoreIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func HealthcareConsentStoreIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func HealthcareConsentStoreIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
+		"@cdktn/provider-google.healthcareConsentStoreIamMember.HealthcareConsentStoreIamMember",
 		"tfResourceType",
 		&returns,
 	)

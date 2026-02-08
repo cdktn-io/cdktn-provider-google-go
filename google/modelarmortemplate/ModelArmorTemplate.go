@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package modelarmortemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/modelarmortemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/modelarmortemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -540,7 +540,7 @@ func NewModelArmorTemplate(scope constructs.Construct, id *string, config *Model
 	j := jsiiProxy_ModelArmorTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -553,7 +553,7 @@ func NewModelArmorTemplate_Override(m ModelArmorTemplate, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -692,7 +692,7 @@ func ModelArmorTemplate_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func ModelArmorTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func ModelArmorTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func ModelArmorTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func ModelArmorTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.modelArmorTemplate.ModelArmorTemplate",
+		"@cdktn/provider-google.modelArmorTemplate.ModelArmorTemplate",
 		"tfResourceType",
 		&returns,
 	)

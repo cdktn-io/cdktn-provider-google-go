@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dialogflowcxgenerator
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGenerator",
 		reflect.TypeOf((*DialogflowCxGenerator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorConfig",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorConfig",
 		reflect.TypeOf((*DialogflowCxGeneratorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettings",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettings",
 		reflect.TypeOf((*DialogflowCxGeneratorLlmModelSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettingsOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorLlmModelSettingsOutputReference",
 		reflect.TypeOf((*DialogflowCxGeneratorLlmModelSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorModelParameter",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorModelParameter",
 		reflect.TypeOf((*DialogflowCxGeneratorModelParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorModelParameterOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorModelParameterOutputReference",
 		reflect.TypeOf((*DialogflowCxGeneratorModelParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,11 +188,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPlaceholders",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPlaceholders",
 		reflect.TypeOf((*DialogflowCxGeneratorPlaceholders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPlaceholdersList",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPlaceholdersList",
 		reflect.TypeOf((*DialogflowCxGeneratorPlaceholdersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -214,7 +214,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPlaceholdersOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPlaceholdersOutputReference",
 		reflect.TypeOf((*DialogflowCxGeneratorPlaceholdersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -252,11 +252,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPromptText",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPromptText",
 		reflect.TypeOf((*DialogflowCxGeneratorPromptText)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPromptTextOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorPromptTextOutputReference",
 		reflect.TypeOf((*DialogflowCxGeneratorPromptTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorTimeouts",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorTimeouts",
 		reflect.TypeOf((*DialogflowCxGeneratorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorTimeoutsOutputReference",
+		"@cdktn/provider-google.dialogflowCxGenerator.DialogflowCxGeneratorTimeoutsOutputReference",
 		reflect.TypeOf((*DialogflowCxGeneratorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lustreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/lustreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/lustreinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -655,7 +655,7 @@ func NewLustreInstance(scope constructs.Construct, id *string, config *LustreIns
 	j := jsiiProxy_LustreInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -668,7 +668,7 @@ func NewLustreInstance_Override(l LustreInstance, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -873,7 +873,7 @@ func LustreInstance_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -908,7 +908,7 @@ func LustreInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -927,7 +927,7 @@ func LustreInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -946,7 +946,7 @@ func LustreInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -959,7 +959,7 @@ func LustreInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.lustreInstance.LustreInstance",
+		"@cdktn/provider-google.lustreInstance.LustreInstance",
 		"tfResourceType",
 		&returns,
 	)

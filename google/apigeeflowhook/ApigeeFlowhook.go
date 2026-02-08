@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigeeflowhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-google-go/google/v16/apigeeflowhook/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeflowhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -484,7 +484,7 @@ func NewApigeeFlowhook(scope constructs.Construct, id *string, config *ApigeeFlo
 	j := jsiiProxy_ApigeeFlowhook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -497,7 +497,7 @@ func NewApigeeFlowhook_Override(a ApigeeFlowhook, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -658,7 +658,7 @@ func ApigeeFlowhook_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func ApigeeFlowhook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func ApigeeFlowhook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func ApigeeFlowhook_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func ApigeeFlowhook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google.apigeeFlowhook.ApigeeFlowhook",
+		"@cdktn/provider-google.apigeeFlowhook.ApigeeFlowhook",
 		"tfResourceType",
 		&returns,
 	)
