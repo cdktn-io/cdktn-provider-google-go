@@ -5,14 +5,14 @@ package computeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeurlmap/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeurlmap/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleL
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleL
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleL
 
 // The jsii proxy struct for ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList
 type jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
 	return returns
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
 }
 
 
-func NewComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList {
+func NewComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList {
 	_init_.Initialize()
 
 	if err := validateNewComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRu
 	return &j
 }
 
-func NewComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList_Override(c ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList_Override(c ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
 	)
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
 	)
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -231,7 +231,7 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

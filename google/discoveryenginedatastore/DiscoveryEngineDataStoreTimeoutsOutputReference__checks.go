@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetD
 
 func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DiscoveryEngineDataStoreTimeouts:
 		val := val.(*DiscoveryEngineDataStoreTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DiscoveryEngineDataStoreTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DiscoveryEngineDataStoreTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewDiscoveryEngineDataStoreTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDiscoveryEngineDataStoreTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

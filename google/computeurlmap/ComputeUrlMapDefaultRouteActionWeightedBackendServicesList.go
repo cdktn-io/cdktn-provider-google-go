@@ -5,14 +5,14 @@ package computeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeurlmap/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeurlmap/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeUrlMapDefaultRouteActionWeightedBackendServicesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ComputeUrlMapDefaultRouteActionWeightedBackendServicesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ComputeUrlMapDefaultRouteActionWeightedBackendServicesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ComputeUrlMapDefaultRouteActionWeightedBackendServicesList interface {
 
 // The jsii proxy struct for ComputeUrlMapDefaultRouteActionWeightedBackendServicesList
 type jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) T
 	return returns
 }
 
-func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) W
 }
 
 
-func NewComputeUrlMapDefaultRouteActionWeightedBackendServicesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeUrlMapDefaultRouteActionWeightedBackendServicesList {
+func NewComputeUrlMapDefaultRouteActionWeightedBackendServicesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeUrlMapDefaultRouteActionWeightedBackendServicesList {
 	_init_.Initialize()
 
 	if err := validateNewComputeUrlMapDefaultRouteActionWeightedBackendServicesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewComputeUrlMapDefaultRouteActionWeightedBackendServicesList(terraformReso
 	return &j
 }
 
-func NewComputeUrlMapDefaultRouteActionWeightedBackendServicesList_Override(c ComputeUrlMapDefaultRouteActionWeightedBackendServicesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewComputeUrlMapDefaultRouteActionWeightedBackendServicesList_Override(c ComputeUrlMapDefaultRouteActionWeightedBackendServicesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList)Se
 	)
 }
 
-func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList)Se
 	)
 }
 
-func (c *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -231,7 +231,7 @@ func (c *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) G
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeUrlMapDefaultRouteActionWeightedBackendServicesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

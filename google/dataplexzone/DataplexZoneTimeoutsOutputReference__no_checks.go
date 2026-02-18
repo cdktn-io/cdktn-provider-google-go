@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (d *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataplexZoneTimeoutsOutputReference) validateSetUpdateParamet
 	return nil
 }
 
-func validateNewDataplexZoneTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexZoneTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

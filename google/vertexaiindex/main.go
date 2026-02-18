@@ -95,7 +95,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndex{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -124,7 +124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexDeployedIndexesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -158,7 +158,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexDeployedIndexesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -183,7 +183,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexIndexStatsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -217,7 +217,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexIndexStatsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -265,7 +265,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -305,7 +305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -347,7 +347,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -397,7 +397,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexMetadataConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -439,7 +439,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -484,7 +484,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiIndexTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

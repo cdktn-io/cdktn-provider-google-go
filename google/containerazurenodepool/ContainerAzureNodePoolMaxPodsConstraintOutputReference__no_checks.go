@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAzureNodePoolMaxPodsConstraintOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAzureNodePoolMaxPodsConstraintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAzureNodePoolMaxPodsConstraintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerAzureNodePoolMaxPodsConstraintOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAzureNodePoolMaxPodsConstraintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAzureNodePoolMaxPodsConstraintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAzureNodePoolMaxPodsConstraintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAzureNodePoolMaxPodsConstraintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteO
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteO
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

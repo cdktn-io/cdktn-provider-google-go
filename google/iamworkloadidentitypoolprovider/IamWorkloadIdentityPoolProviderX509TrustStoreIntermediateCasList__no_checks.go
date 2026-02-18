@@ -15,7 +15,7 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasL
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasL
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasL
 	return nil
 }
 
-func validateNewIamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

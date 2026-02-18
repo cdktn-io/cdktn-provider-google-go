@@ -5,21 +5,21 @@ package firestoredatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firestoredatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/firestoredatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/firestore_database google_firestore_database}.
 type FirestoreDatabase interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppEngineIntegrationMode() *string
 	SetAppEngineIntegrationMode(val *string)
 	AppEngineIntegrationModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CmekConfig() FirestoreDatabaseCmekConfigOutputReference
 	CmekConfigInput() *FirestoreDatabaseCmekConfig
 	ConcurrencyMode() *string
@@ -52,9 +52,9 @@ type FirestoreDatabase interface {
 	EarliestVersionTime() *string
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -64,9 +64,9 @@ type FirestoreDatabase interface {
 	IdInput() *string
 	KeyPrefix() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LocationId() *string
 	SetLocationId(val *string)
 	LocationIdInput() *string
@@ -82,9 +82,9 @@ type FirestoreDatabase interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type FirestoreDatabase interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -116,7 +116,7 @@ type FirestoreDatabase interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -134,9 +134,9 @@ type FirestoreDatabase interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -182,7 +182,7 @@ type FirestoreDatabase interface {
 
 // The jsii proxy struct for FirestoreDatabase
 type jsiiProxy_FirestoreDatabase struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FirestoreDatabase) AppEngineIntegrationMode() *string {
@@ -205,8 +205,8 @@ func (j *jsiiProxy_FirestoreDatabase) AppEngineIntegrationModeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirestoreDatabase) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FirestoreDatabase) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_FirestoreDatabase) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirestoreDatabase) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FirestoreDatabase) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -445,8 +445,8 @@ func (j *jsiiProxy_FirestoreDatabase) KeyPrefix() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirestoreDatabase) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FirestoreDatabase) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -545,8 +545,8 @@ func (j *jsiiProxy_FirestoreDatabase) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirestoreDatabase) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FirestoreDatabase) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -595,8 +595,8 @@ func (j *jsiiProxy_FirestoreDatabase) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FirestoreDatabase) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FirestoreDatabase) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -810,7 +810,7 @@ func (j *jsiiProxy_FirestoreDatabase)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_FirestoreDatabase)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FirestoreDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -829,7 +829,7 @@ func (j *jsiiProxy_FirestoreDatabase)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FirestoreDatabase)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FirestoreDatabase)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -884,7 +884,7 @@ func (j *jsiiProxy_FirestoreDatabase)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FirestoreDatabase)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FirestoreDatabase)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -925,14 +925,14 @@ func (j *jsiiProxy_FirestoreDatabase)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a FirestoreDatabase resource upon running "cdktf plan <stack-name>".
-func FirestoreDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FirestoreDatabase resource upon running "cdktn plan <stack-name>".
+func FirestoreDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFirestoreDatabase_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.firestoreDatabase.FirestoreDatabase",
@@ -1066,11 +1066,11 @@ func (f *jsiiProxy_FirestoreDatabase) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (f *jsiiProxy_FirestoreDatabase) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirestoreDatabase) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1207,7 +1207,7 @@ func (f *jsiiProxy_FirestoreDatabase) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FirestoreDatabase) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FirestoreDatabase) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1218,11 +1218,11 @@ func (f *jsiiProxy_FirestoreDatabase) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (f *jsiiProxy_FirestoreDatabase) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirestoreDatabase) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

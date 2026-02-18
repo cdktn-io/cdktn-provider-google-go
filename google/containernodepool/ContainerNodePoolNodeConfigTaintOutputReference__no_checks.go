@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigTaintOutputReference) validateSetV
 	return nil
 }
 
-func validateNewContainerNodePoolNodeConfigTaintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerNodePoolNodeConfigTaintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

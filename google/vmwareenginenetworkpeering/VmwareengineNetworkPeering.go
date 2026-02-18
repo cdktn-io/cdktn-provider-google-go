@@ -5,18 +5,18 @@ package vmwareenginenetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vmwareenginenetworkpeering/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vmwareenginenetworkpeering/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering}.
 type VmwareengineNetworkPeering interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type VmwareengineNetworkPeering interface {
 	SetExportCustomRoutesWithPublicIp(val interface{})
 	ExportCustomRoutesWithPublicIpInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type VmwareengineNetworkPeering interface {
 	SetImportCustomRoutesWithPublicIp(val interface{})
 	ImportCustomRoutesWithPublicIpInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -77,9 +77,9 @@ type VmwareengineNetworkPeering interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type VmwareengineNetworkPeering interface {
 	State() *string
 	StateDetails() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -110,7 +110,7 @@ type VmwareengineNetworkPeering interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -128,9 +128,9 @@ type VmwareengineNetworkPeering interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -172,11 +172,11 @@ type VmwareengineNetworkPeering interface {
 
 // The jsii proxy struct for VmwareengineNetworkPeering
 type jsiiProxy_VmwareengineNetworkPeering struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VmwareengineNetworkPeering) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) ExportCustomRoutesWithPublicIpInp
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VmwareengineNetworkPeering) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) ImportCustomRoutesWithPublicIpInp
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VmwareengineNetworkPeering) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -485,8 +485,8 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VmwareengineNetworkPeering) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -535,8 +535,8 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) StateDetails() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VmwareengineNetworkPeering) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -728,7 +728,7 @@ func (j *jsiiProxy_VmwareengineNetworkPeering)SetExportCustomRoutesWithPublicIp(
 	)
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VmwareengineNetworkPeering)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -769,7 +769,7 @@ func (j *jsiiProxy_VmwareengineNetworkPeering)SetImportCustomRoutesWithPublicIp(
 	)
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VmwareengineNetworkPeering)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -824,7 +824,7 @@ func (j *jsiiProxy_VmwareengineNetworkPeering)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeering)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VmwareengineNetworkPeering)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -854,14 +854,14 @@ func (j *jsiiProxy_VmwareengineNetworkPeering)SetVmwareEngineNetwork(val *string
 	)
 }
 
-// Generates CDKTF code for importing a VmwareengineNetworkPeering resource upon running "cdktf plan <stack-name>".
-func VmwareengineNetworkPeering_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VmwareengineNetworkPeering resource upon running "cdktn plan <stack-name>".
+func VmwareengineNetworkPeering_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVmwareengineNetworkPeering_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.vmwareengineNetworkPeering.VmwareengineNetworkPeering",
@@ -995,11 +995,11 @@ func (v *jsiiProxy_VmwareengineNetworkPeering) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeering) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineNetworkPeering) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1136,7 +1136,7 @@ func (v *jsiiProxy_VmwareengineNetworkPeering) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeering) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VmwareengineNetworkPeering) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1147,11 +1147,11 @@ func (v *jsiiProxy_VmwareengineNetworkPeering) ImportFrom(id *string, provider c
 	)
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeering) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineNetworkPeering) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

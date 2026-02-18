@@ -5,14 +5,14 @@ package alloydbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/alloydbinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/alloydbinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList interface {
 
 // The jsii proxy struct for AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList
 type jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) T
 	return returns
 }
 
-func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) W
 }
 
 
-func NewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList {
+func NewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList {
 	_init_.Initialize()
 
 	if err := validateNewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList(terraformReso
 	return &j
 }
 
-func NewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList_Override(a AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList_Override(a AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList)Se
 	)
 }
 
-func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList)Se
 	)
 }
 
-func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) G
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

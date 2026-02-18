@@ -5,16 +5,16 @@ package oracledatabasecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/oracledatabasecloudvmcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/oracledatabasecloudvmcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
 type OracleDatabaseCloudVmCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BackupOdbSubnet() *string
 	SetBackupOdbSubnet(val *string)
 	BackupOdbSubnetInput() *string
@@ -22,7 +22,7 @@ type OracleDatabaseCloudVmCluster interface {
 	SetBackupSubnetCidr(val *string)
 	BackupSubnetCidrInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Cidr() *string
 	SetCidr(val *string)
 	CidrInput() *string
@@ -50,14 +50,14 @@ type OracleDatabaseCloudVmCluster interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ExadataInfrastructure() *string
 	SetExadataInfrastructure(val *string)
 	ExadataInfrastructureInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -70,9 +70,9 @@ type OracleDatabaseCloudVmCluster interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -94,9 +94,9 @@ type OracleDatabaseCloudVmCluster interface {
 	Properties() OracleDatabaseCloudVmClusterPropertiesOutputReference
 	PropertiesInput() *OracleDatabaseCloudVmClusterProperties
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -104,8 +104,8 @@ type OracleDatabaseCloudVmCluster interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -120,7 +120,7 @@ type OracleDatabaseCloudVmCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -138,9 +138,9 @@ type OracleDatabaseCloudVmCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -188,7 +188,7 @@ type OracleDatabaseCloudVmCluster interface {
 
 // The jsii proxy struct for OracleDatabaseCloudVmCluster
 type jsiiProxy_OracleDatabaseCloudVmCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_OracleDatabaseCloudVmCluster) BackupOdbSubnet() *string {
@@ -231,8 +231,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) BackupSubnetCidrInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) ExadataInfrastructureInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -481,8 +481,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) LabelsInput() *map[string]*stri
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -631,8 +631,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) PropertiesInput() *OracleDataba
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -661,8 +661,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -671,8 +671,8 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TerraformGeneratorMetadata() *c
 	return returns
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -858,7 +858,7 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetExadataInfrastructure(val *st
 	)
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -888,7 +888,7 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetLabels(val *map[string]*strin
 	)
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -954,7 +954,7 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -973,14 +973,14 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetProvisioners(val *[]interface
 	)
 }
 
-// Generates CDKTF code for importing a OracleDatabaseCloudVmCluster resource upon running "cdktf plan <stack-name>".
-func OracleDatabaseCloudVmCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OracleDatabaseCloudVmCluster resource upon running "cdktn plan <stack-name>".
+func OracleDatabaseCloudVmCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOracleDatabaseCloudVmCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.oracleDatabaseCloudVmCluster.OracleDatabaseCloudVmCluster",
@@ -1114,11 +1114,11 @@ func (o *jsiiProxy_OracleDatabaseCloudVmCluster) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (o *jsiiProxy_OracleDatabaseCloudVmCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OracleDatabaseCloudVmCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1255,7 +1255,7 @@ func (o *jsiiProxy_OracleDatabaseCloudVmCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1266,11 +1266,11 @@ func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ImportFrom(id *string, provider
 	)
 }
 
-func (o *jsiiProxy_OracleDatabaseCloudVmCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OracleDatabaseCloudVmCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

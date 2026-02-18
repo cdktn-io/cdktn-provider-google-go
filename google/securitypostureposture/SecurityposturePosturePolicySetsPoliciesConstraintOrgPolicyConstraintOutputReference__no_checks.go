@@ -51,7 +51,7 @@ func (s *jsiiProxy_SecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyCo
 	return nil
 }
 
-func (s *jsiiProxy_SecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyConstraintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyConstraintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyCo
 	return nil
 }
 
-func (j *jsiiProxy_SecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyConstraintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyConstraintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyConstraintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityposturePosturePolicySetsPoliciesConstraintOrgPolicyConstraintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

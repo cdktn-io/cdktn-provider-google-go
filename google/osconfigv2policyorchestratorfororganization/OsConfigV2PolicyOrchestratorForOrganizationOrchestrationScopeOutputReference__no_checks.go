@@ -51,7 +51,7 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScopeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

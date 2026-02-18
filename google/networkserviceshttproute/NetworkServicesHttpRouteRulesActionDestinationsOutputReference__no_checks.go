@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReferenc
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionDestinationsOutputReferenc
 	return nil
 }
 
-func validateNewNetworkServicesHttpRouteRulesActionDestinationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkServicesHttpRouteRulesActionDestinationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

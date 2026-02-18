@@ -5,14 +5,14 @@ package dialogflowcxversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dialogflowcxversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DialogflowCxVersionTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type DialogflowCxVersionTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type DialogflowCxVersionTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DialogflowCxVersionTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DialogflowCxVersionTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DialogflowCxVersionTimeoutsOutputReference
 type jsiiProxy_DialogflowCxVersionTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) UpdateInput() *st
 }
 
 
-func NewDialogflowCxVersionTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DialogflowCxVersionTimeoutsOutputReference {
+func NewDialogflowCxVersionTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DialogflowCxVersionTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDialogflowCxVersionTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewDialogflowCxVersionTimeoutsOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewDialogflowCxVersionTimeoutsOutputReference_Override(d DialogflowCxVersionTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDialogflowCxVersionTimeoutsOutputReference_Override(d DialogflowCxVersionTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DialogflowCxVersionTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

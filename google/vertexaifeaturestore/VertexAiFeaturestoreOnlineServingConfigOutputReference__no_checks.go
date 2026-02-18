@@ -51,7 +51,7 @@ func (v *jsiiProxy_VertexAiFeaturestoreOnlineServingConfigOutputReference) valid
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiFeaturestoreOnlineServingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiFeaturestoreOnlineServingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VertexAiFeaturestoreOnlineServingConfigOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiFeaturestoreOnlineServingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiFeaturestoreOnlineServingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiFeaturestoreOnlineServingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiFeaturestoreOnlineServingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

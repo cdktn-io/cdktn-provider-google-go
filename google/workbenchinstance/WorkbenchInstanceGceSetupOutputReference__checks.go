@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutAccelera
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WorkbenchInstanceGceSetupAcceleratorConfigs:
 		value := value.(*[]*WorkbenchInstanceGceSetupAcceleratorConfigs)
@@ -117,7 +117,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutAccelera
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WorkbenchInstanceGceSetupAcceleratorConfigs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkbenchInstanceGceSetupAcceleratorConfigs; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -173,7 +173,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutNetworkI
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WorkbenchInstanceGceSetupNetworkInterfaces:
 		value := value.(*[]*WorkbenchInstanceGceSetupNetworkInterfaces)
@@ -192,7 +192,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutNetworkI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WorkbenchInstanceGceSetupNetworkInterfaces; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkbenchInstanceGceSetupNetworkInterfaces; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -215,7 +215,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutServiceA
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WorkbenchInstanceGceSetupServiceAccounts:
 		value := value.(*[]*WorkbenchInstanceGceSetupServiceAccounts)
@@ -234,7 +234,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutServiceA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WorkbenchInstanceGceSetupServiceAccounts; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkbenchInstanceGceSetupServiceAccounts; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -263,7 +263,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validatePutVmImageP
 	return nil
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -345,11 +345,11 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateSetDisableP
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -365,11 +365,11 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateSetEnableIp
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -416,7 +416,7 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -424,7 +424,7 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) validateSetTerrafor
 	return nil
 }
 
-func validateNewWorkbenchInstanceGceSetupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkbenchInstanceGceSetupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

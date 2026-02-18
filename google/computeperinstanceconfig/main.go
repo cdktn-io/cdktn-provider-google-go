@@ -91,7 +91,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -125,7 +125,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -167,7 +167,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -210,7 +210,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateExternalIpIpAddressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateExternalIpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -273,7 +273,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateExternalIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -316,7 +316,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -338,7 +338,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -379,7 +379,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -426,7 +426,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -471,7 +471,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputePerInstanceConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

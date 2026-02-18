@@ -107,7 +107,7 @@ func (j *jsiiProxy_ProjectIamAuditConfig) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_ProjectIamAuditConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ProjectIamAuditConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

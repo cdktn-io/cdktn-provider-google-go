@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChronicleWatchlistEntityCountList) validateGetParameters(inde
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleWatchlistEntityCountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleWatchlistEntityCountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ChronicleWatchlistEntityCountList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleWatchlistEntityCountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleWatchlistEntityCountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ChronicleWatchlistEntityCountList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewChronicleWatchlistEntityCountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChronicleWatchlistEntityCountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

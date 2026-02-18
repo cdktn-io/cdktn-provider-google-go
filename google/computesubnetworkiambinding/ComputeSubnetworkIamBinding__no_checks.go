@@ -107,7 +107,7 @@ func (j *jsiiProxy_ComputeSubnetworkIamBinding) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSubnetworkIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeSubnetworkIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

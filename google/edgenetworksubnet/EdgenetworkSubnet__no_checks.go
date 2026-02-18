@@ -123,7 +123,7 @@ func (j *jsiiProxy_EdgenetworkSubnet) validateSetLabelsParameters(val *map[strin
 	return nil
 }
 
-func (j *jsiiProxy_EdgenetworkSubnet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EdgenetworkSubnet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

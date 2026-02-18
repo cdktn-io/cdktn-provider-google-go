@@ -82,7 +82,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKey{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -156,7 +156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -217,7 +217,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsApiTargetsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -254,7 +254,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsApiTargetsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -330,7 +330,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsIosKeyRestrictionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -420,7 +420,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -465,7 +465,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApikeysKeyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBucketRetentionPolicyOutputReference) validateInterpol
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_StorageBucketRetentionPolicyOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBucketRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBucketRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

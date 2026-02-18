@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInterconnectMacsecPreSharedKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeInterconnectMacsecPreSharedKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

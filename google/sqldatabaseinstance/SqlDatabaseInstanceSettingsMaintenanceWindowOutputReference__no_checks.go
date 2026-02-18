@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference) 
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceSettingsMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

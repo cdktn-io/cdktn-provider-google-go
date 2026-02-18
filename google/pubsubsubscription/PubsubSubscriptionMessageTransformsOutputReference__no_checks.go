@@ -51,7 +51,7 @@ func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateP
 	return nil
 }
 
-func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubSubscriptionMessageTransformsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPubsubSubscriptionMessageTransformsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

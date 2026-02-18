@@ -67,7 +67,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateVolumesOutputReference) validatePutS
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTemplateVolumesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTemplateVolumesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateVolumesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTemplateVolumesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTemplateVolumesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTemplateVolumesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunV2ServiceTemplateVolumesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

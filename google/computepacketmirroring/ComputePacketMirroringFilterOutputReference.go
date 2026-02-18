@@ -5,14 +5,14 @@ package computepacketmirroring
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computepacketmirroring/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computepacketmirroring/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputePacketMirroringFilterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CidrRanges() *[]*string
 	SetCidrRanges(val *[]*string)
 	CidrRangesInput() *[]*string
@@ -46,15 +46,15 @@ type ComputePacketMirroringFilterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type ComputePacketMirroringFilterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCidrRanges()
 	ResetDirection()
 	ResetIpProtocols()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ComputePacketMirroringFilterOutputReference interface {
 
 // The jsii proxy struct for ComputePacketMirroringFilterOutputReference
 type jsiiProxy_ComputePacketMirroringFilterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference) CidrRanges() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference) TerraformResourc
 }
 
 
-func NewComputePacketMirroringFilterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputePacketMirroringFilterOutputReference {
+func NewComputePacketMirroringFilterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputePacketMirroringFilterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputePacketMirroringFilterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewComputePacketMirroringFilterOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewComputePacketMirroringFilterOutputReference_Override(c ComputePacketMirroringFilterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputePacketMirroringFilterOutputReference_Override(c ComputePacketMirroringFilterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputePacketMirroringFilterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -494,8 +494,8 @@ func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -507,11 +507,11 @@ func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) InterpolationAsL
 	return returns
 }
 
-func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) ResetIpProtocols
 	)
 }
 
-func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputePacketMirroringFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

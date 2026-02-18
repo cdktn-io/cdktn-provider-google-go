@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilization
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilization
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

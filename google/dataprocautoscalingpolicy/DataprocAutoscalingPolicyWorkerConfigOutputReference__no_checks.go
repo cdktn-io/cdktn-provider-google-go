@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyWorkerConfigOutputReference) validat
 	return nil
 }
 
-func validateNewDataprocAutoscalingPolicyWorkerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocAutoscalingPolicyWorkerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamStreamBackfillNoneOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamBackfillNoneOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamBackfillNoneOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatastreamStreamBackfillNoneOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamBackfillNoneOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamBackfillNoneOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamBackfillNoneOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamBackfillNoneOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

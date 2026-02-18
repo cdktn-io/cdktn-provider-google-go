@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApphubServiceAttributesOperatorOwnersOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_ApphubServiceAttributesOperatorOwnersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApphubServiceAttributesOperatorOwnersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApphubServiceAttributesOperatorOwnersOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ApphubServiceAttributesOperatorOwnersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApphubServiceAttributesOperatorOwnersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApphubServiceAttributesOperatorOwnersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApphubServiceAttributesOperatorOwnersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

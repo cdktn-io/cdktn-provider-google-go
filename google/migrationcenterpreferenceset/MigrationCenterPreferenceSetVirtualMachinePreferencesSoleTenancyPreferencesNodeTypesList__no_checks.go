@@ -15,7 +15,7 @@ func (m *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
 	return nil
 }
 
-func (m *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
 	return nil
 }
 
-func (j *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
 	return nil
 }
 
-func validateNewMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

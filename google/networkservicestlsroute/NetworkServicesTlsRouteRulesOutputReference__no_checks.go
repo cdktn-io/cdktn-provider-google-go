@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validatePutMatch
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesTlsRouteRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkServicesTlsRouteRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

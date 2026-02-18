@@ -103,7 +103,7 @@ func (j *jsiiProxy_ComputeInstantSnapshotIamPolicy) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstantSnapshotIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeInstantSnapshotIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

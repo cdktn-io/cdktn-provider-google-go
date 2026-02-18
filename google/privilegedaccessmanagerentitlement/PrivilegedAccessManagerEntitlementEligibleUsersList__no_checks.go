@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validate
 	return nil
 }
 
-func (p *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validate
 	return nil
 }
 
-func (j *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList) validate
 	return nil
 }
 
-func validateNewPrivilegedAccessManagerEntitlementEligibleUsersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivilegedAccessManagerEntitlementEligibleUsersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

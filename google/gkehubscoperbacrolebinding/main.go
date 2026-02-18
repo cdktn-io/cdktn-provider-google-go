@@ -92,7 +92,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubScopeRbacRoleBinding{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -138,7 +138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubScopeRbacRoleBindingRoleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -163,7 +163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubScopeRbacRoleBindingStateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -196,7 +196,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubScopeRbacRoleBindingStateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -241,7 +241,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubScopeRbacRoleBindingTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

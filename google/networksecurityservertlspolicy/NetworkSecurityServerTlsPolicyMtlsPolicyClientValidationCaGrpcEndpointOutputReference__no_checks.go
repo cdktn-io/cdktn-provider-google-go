@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrp
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrpcEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrpcEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrp
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrpcEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrpcEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrpcEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaGrpcEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

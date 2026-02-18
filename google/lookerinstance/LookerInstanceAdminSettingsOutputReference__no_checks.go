@@ -47,7 +47,7 @@ func (l *jsiiProxy_LookerInstanceAdminSettingsOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LookerInstanceAdminSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LookerInstanceAdminSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LookerInstanceAdminSettingsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LookerInstanceAdminSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LookerInstanceAdminSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLookerInstanceAdminSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLookerInstanceAdminSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

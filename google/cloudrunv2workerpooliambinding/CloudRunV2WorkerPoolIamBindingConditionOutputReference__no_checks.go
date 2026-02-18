@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func validateNewCloudRunV2WorkerPoolIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2WorkerPoolIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowed
 	return nil
 }
 
-func (c *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowed
 	return nil
 }
 
-func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowed
 	return nil
 }
 
-func validateNewComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

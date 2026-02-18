@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataplexDatascanIamBinding) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataplexDatascanIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexDatascanIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

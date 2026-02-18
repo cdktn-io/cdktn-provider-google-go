@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatusVersionTargetOutputRef
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatusVersionTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatusVersionTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatusVersionTargetOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatusVersionTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatusVersionTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionInstanceGroupManagerStatusVersionTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionInstanceGroupManagerStatusVersionTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

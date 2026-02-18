@@ -115,7 +115,7 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding) validateSetInstanceParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpannerDatabaseIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

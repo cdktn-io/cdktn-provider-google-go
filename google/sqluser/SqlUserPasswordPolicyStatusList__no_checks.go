@@ -15,7 +15,7 @@ func (s *jsiiProxy_SqlUserPasswordPolicyStatusList) validateGetParameters(index 
 	return nil
 }
 
-func (s *jsiiProxy_SqlUserPasswordPolicyStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlUserPasswordPolicyStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SqlUserPasswordPolicyStatusList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_SqlUserPasswordPolicyStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlUserPasswordPolicyStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SqlUserPasswordPolicyStatusList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewSqlUserPasswordPolicyStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSqlUserPasswordPolicyStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package networkconnectivityserviceconnectionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkconnectivityserviceconnectionpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkconnectivityserviceconnectionpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference interface
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference interface
 
 // The jsii proxy struct for NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference
 type jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 }
 
 
-func NewNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference {
+func NewNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference(terraf
 	return &j
 }
 
-func NewNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference_Override(n NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference_Override(n NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 	)
 }
 
-func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -494,8 +494,8 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -507,11 +507,11 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -547,7 +547,7 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputRefer
 	)
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

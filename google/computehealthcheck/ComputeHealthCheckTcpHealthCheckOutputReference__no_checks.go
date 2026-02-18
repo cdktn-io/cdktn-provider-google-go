@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeHealthCheckTcpHealthCheckOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ComputeHealthCheckTcpHealthCheckOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeHealthCheckTcpHealthCheckOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_ComputeHealthCheckTcpHealthCheckOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ComputeHealthCheckTcpHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeHealthCheckTcpHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeHealthCheckTcpHealthCheckOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeHealthCheckTcpHealthCheckOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

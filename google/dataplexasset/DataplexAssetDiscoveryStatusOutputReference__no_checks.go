@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexAssetDiscoveryStatusOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataplexAssetDiscoveryStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexAssetDiscoveryStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataplexAssetDiscoveryStatusOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataplexAssetDiscoveryStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexAssetDiscoveryStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexAssetDiscoveryStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataplexAssetDiscoveryStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

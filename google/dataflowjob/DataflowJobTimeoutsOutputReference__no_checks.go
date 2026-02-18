@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataflowJobTimeoutsOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (d *jsiiProxy_DataflowJobTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataflowJobTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DataflowJobTimeoutsOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataflowJobTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataflowJobTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataflowJobTimeoutsOutputReference) validateSetUpdateParamete
 	return nil
 }
 
-func validateNewDataflowJobTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataflowJobTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

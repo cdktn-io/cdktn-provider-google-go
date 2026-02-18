@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ComputeInterconnectExpectedOutagesList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewComputeInterconnectExpectedOutagesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInterconnectExpectedOutagesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

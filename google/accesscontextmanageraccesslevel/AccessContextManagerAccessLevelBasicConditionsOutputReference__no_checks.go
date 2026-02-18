@@ -55,7 +55,7 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessContextManagerAccessLevelBasicConditionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAccessContextManagerAccessLevelBasicConditionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

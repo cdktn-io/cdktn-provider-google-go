@@ -111,7 +111,7 @@ func (j *jsiiProxy_FirebaseAppCheckAppAttestConfig) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppCheckAppAttestConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FirebaseAppCheckAppAttestConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

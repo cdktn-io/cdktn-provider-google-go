@@ -93,7 +93,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupSchedule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -141,7 +141,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -177,7 +177,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupScheduleFullBackupSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -213,7 +213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupScheduleIncrementalBackupSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -256,7 +256,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupScheduleSpecCronSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupScheduleSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -337,7 +337,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SpannerBackupScheduleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

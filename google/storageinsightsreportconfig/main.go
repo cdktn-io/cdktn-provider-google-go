@@ -90,7 +90,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -139,7 +139,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigCsvOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -185,7 +185,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -225,7 +225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigFrequencyOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigFrequencyOptionsStartDateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -312,7 +312,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigObjectMetadataReportOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -353,7 +353,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -392,7 +392,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigObjectMetadataReportOptionsStorageFiltersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -428,7 +428,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -473,7 +473,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsReportConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

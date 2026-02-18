@@ -5,14 +5,14 @@ package datagooglecomputeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglecomputeresourcepolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datagooglecomputeresourcepolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AvailabilityDomainCount() *float64
 	Collocation() *string
 	// the index of the complex object in a list.
@@ -40,16 +40,16 @@ type DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VmCount() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference interfac
 
 // The jsii proxy struct for DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference
 type jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) AvailabilityDomainCount() *float64 {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 }
 
 
-func NewDataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference {
+func NewDataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference(terra
 	return &j
 }
 
-func NewDataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference_Override(d DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference_Override(d DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleComputeResourcePolicyGroupPlacementPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

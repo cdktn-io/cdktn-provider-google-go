@@ -155,7 +155,7 @@ func (j *jsiiProxy_RedisCluster) validateSetKmsKeyParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_RedisCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedisCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

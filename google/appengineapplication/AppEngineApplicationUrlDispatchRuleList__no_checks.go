@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateGetParameter
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRuleList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewAppEngineApplicationUrlDispatchRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppEngineApplicationUrlDispatchRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

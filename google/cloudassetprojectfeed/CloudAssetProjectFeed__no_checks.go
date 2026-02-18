@@ -135,7 +135,7 @@ func (j *jsiiProxy_CloudAssetProjectFeed) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_CloudAssetProjectFeed) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudAssetProjectFeed) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

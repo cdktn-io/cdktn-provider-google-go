@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitCo
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitCo
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

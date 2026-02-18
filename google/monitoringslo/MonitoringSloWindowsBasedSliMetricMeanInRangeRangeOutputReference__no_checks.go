@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputRefer
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

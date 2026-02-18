@@ -5,18 +5,18 @@ package gkehubscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubscope/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkehubscope/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_hub_scope google_gke_hub_scope}.
 type GkeHubScope interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -33,11 +33,11 @@ type GkeHubScope interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type GkeHubScope interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	NamespaceLabels() *map[string]*string
 	SetNamespaceLabels(val *map[string]*string)
@@ -62,9 +62,9 @@ type GkeHubScope interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -76,8 +76,8 @@ type GkeHubScope interface {
 	ScopeIdInput() *string
 	State() GkeHubScopeStateList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type GkeHubScope interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type GkeHubScope interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -153,11 +153,11 @@ type GkeHubScope interface {
 
 // The jsii proxy struct for GkeHubScope
 type jsiiProxy_GkeHubScope struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GkeHubScope) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GkeHubScope) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -226,8 +226,8 @@ func (j *jsiiProxy_GkeHubScope) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScope) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GkeHubScope) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -236,8 +236,8 @@ func (j *jsiiProxy_GkeHubScope) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScope) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GkeHubScope) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_GkeHubScope) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScope) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GkeHubScope) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -376,8 +376,8 @@ func (j *jsiiProxy_GkeHubScope) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScope) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GkeHubScope) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -436,8 +436,8 @@ func (j *jsiiProxy_GkeHubScope) State() GkeHubScopeStateList {
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScope) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GkeHubScope) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -446,8 +446,8 @@ func (j *jsiiProxy_GkeHubScope) TerraformGeneratorMetadata() *cdktf.TerraformPro
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScope) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GkeHubScope) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -576,7 +576,7 @@ func (j *jsiiProxy_GkeHubScope)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GkeHubScope)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GkeHubScope)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -606,7 +606,7 @@ func (j *jsiiProxy_GkeHubScope)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_GkeHubScope)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GkeHubScope)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -639,7 +639,7 @@ func (j *jsiiProxy_GkeHubScope)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GkeHubScope)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GkeHubScope)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -669,14 +669,14 @@ func (j *jsiiProxy_GkeHubScope)SetScopeId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GkeHubScope resource upon running "cdktf plan <stack-name>".
-func GkeHubScope_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GkeHubScope resource upon running "cdktn plan <stack-name>".
+func GkeHubScope_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGkeHubScope_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.gkeHubScope.GkeHubScope",
@@ -810,11 +810,11 @@ func (g *jsiiProxy_GkeHubScope) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubScope) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubScope) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -951,7 +951,7 @@ func (g *jsiiProxy_GkeHubScope) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubScope) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GkeHubScope) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -962,11 +962,11 @@ func (g *jsiiProxy_GkeHubScope) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (g *jsiiProxy_GkeHubScope) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubScope) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

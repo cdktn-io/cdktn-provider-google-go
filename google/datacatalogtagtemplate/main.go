@@ -83,7 +83,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplate{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -113,7 +113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateFieldsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -163,7 +163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateFieldsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -197,7 +197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -231,7 +231,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateFieldsTypeEnumTypeAllowedValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -266,7 +266,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateFieldsTypeEnumTypeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -305,7 +305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateFieldsTypeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -350,7 +350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataCatalogTagTemplateTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

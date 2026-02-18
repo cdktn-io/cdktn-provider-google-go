@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewBigqueryCapacityCommitmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryCapacityCommitmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

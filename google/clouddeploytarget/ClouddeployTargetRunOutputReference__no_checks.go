@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddeployTargetRunOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployTargetRunOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployTargetRunOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ClouddeployTargetRunOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployTargetRunOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployTargetRunOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddeployTargetRunOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddeployTargetRunOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

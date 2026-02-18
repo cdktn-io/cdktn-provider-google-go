@@ -47,7 +47,7 @@ func (c *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CertificateManagerCertificateMapTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewCertificateManagerCertificateMapTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCertificateManagerCertificateMapTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -92,7 +92,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -131,7 +131,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobBackfillPipelineJobOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -180,7 +180,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -223,7 +223,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -263,7 +263,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -308,7 +308,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobMappingPipelineJobOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -394,7 +394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -434,7 +434,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobReconciliationPipelineJobOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -479,7 +479,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcarePipelineJobTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

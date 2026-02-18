@@ -5,14 +5,14 @@ package computereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computereservation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computereservation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeReservationShareSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type ComputeReservationShareSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type ComputeReservationShareSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutProjectMap(value interface{})
 	ResetProjectMap()
 	ResetShareType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ComputeReservationShareSettingsOutputReference interface {
 
 // The jsii proxy struct for ComputeReservationShareSettingsOutputReference
 type jsiiProxy_ComputeReservationShareSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) TerraformReso
 }
 
 
-func NewComputeReservationShareSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeReservationShareSettingsOutputReference {
+func NewComputeReservationShareSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeReservationShareSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeReservationShareSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewComputeReservationShareSettingsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewComputeReservationShareSettingsOutputReference_Override(c ComputeReservationShareSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeReservationShareSettingsOutputReference_Override(c ComputeReservationShareSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -448,8 +448,8 @@ func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) GetStringMapA
 	return returns
 }
 
-func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,11 +461,11 @@ func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) Interpolation
 	return returns
 }
 
-func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) ResetShareTyp
 	)
 }
 
-func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

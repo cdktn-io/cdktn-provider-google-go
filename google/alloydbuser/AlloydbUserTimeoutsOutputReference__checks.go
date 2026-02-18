@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetDeleteParamete
 
 func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *AlloydbUserTimeouts:
 		val := val.(*AlloydbUserTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *AlloydbUserTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AlloydbUserTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) validateSetUpdateParamete
 	return nil
 }
 
-func validateNewAlloydbUserTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlloydbUserTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

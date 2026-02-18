@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference) v
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheOriginFlexShieldingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesEdgeCacheOriginFlexShieldingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

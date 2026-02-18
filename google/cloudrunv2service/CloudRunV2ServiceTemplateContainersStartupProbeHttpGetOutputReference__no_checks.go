@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputR
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputR
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2ServiceTemplateContainersStartupProbeHttpGetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

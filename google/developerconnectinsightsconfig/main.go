@@ -94,7 +94,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -136,7 +136,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -198,7 +198,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigArtifactConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -241,7 +241,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigArtifactConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -274,7 +274,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -307,7 +307,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -328,7 +328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigErrorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -363,7 +363,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigErrorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -392,7 +392,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -427,7 +427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -452,7 +452,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -486,7 +486,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -507,7 +507,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigRuntimeConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -543,7 +543,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigRuntimeConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -588,7 +588,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectInsightsConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

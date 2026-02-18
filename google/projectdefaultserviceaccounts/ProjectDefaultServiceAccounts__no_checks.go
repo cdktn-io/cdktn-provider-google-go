@@ -111,7 +111,7 @@ func (j *jsiiProxy_ProjectDefaultServiceAccounts) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ProjectDefaultServiceAccounts) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ProjectDefaultServiceAccounts) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

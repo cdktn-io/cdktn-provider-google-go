@@ -100,7 +100,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProvider{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -148,7 +148,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -187,7 +187,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -271,7 +271,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderExtraAttributesOauth2ClientQueryParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -315,7 +315,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderOidcClientSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderOidcClientSecretValueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -401,7 +401,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderOidcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -444,7 +444,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderOidcWebSsoConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -482,7 +482,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderSamlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -527,7 +527,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolProviderTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

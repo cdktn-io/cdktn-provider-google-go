@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesD
 	return nil
 }
 
-func (f *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesD
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_FirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesD
 	return nil
 }
 
-func validateNewFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirebaseAppHostingDomainCustomDomainStatusRequiredDnsUpdatesDiscoveredListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

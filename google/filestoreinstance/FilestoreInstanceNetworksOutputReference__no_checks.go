@@ -47,7 +47,7 @@ func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateInterpolati
 	return nil
 }
 
-func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFilestoreInstanceNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFilestoreInstanceNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

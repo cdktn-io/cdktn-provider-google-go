@@ -5,19 +5,19 @@ package osconfigospolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osconfigospolicyassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/osconfigospolicyassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/os_config_os_policy_assignment google_os_config_os_policy_assignment}.
 type OsConfigOsPolicyAssignment interface {
-	cdktf.TerraformResource
-	Baseline() cdktf.IResolvable
+	cdktn.TerraformResource
+	Baseline() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -28,7 +28,7 @@ type OsConfigOsPolicyAssignment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	Deleted() cdktf.IResolvable
+	Deleted() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -38,9 +38,9 @@ type OsConfigOsPolicyAssignment interface {
 	DescriptionInput() *string
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,9 +51,9 @@ type OsConfigOsPolicyAssignment interface {
 	InstanceFilter() OsConfigOsPolicyAssignmentInstanceFilterOutputReference
 	InstanceFilterInput() *OsConfigOsPolicyAssignmentInstanceFilter
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -68,16 +68,16 @@ type OsConfigOsPolicyAssignment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	RevisionCreateTime() *string
 	RevisionId() *string
 	Rollout() OsConfigOsPolicyAssignmentRolloutOutputReference
@@ -87,7 +87,7 @@ type OsConfigOsPolicyAssignment interface {
 	SetSkipAwaitRollout(val interface{})
 	SkipAwaitRolloutInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type OsConfigOsPolicyAssignment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type OsConfigOsPolicyAssignment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,11 +165,11 @@ type OsConfigOsPolicyAssignment interface {
 
 // The jsii proxy struct for OsConfigOsPolicyAssignment
 type jsiiProxy_OsConfigOsPolicyAssignment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) Baseline() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) Baseline() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"baseline",
@@ -178,8 +178,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) Baseline() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) Deleted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) Deleted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleted",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) InstanceFilterInput() *OsConfigOs
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -438,8 +438,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -468,8 +468,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -548,8 +548,8 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment) SkipAwaitRolloutInput() interface
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OsConfigOsPolicyAssignment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -679,7 +679,7 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -698,7 +698,7 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -742,7 +742,7 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -772,14 +772,14 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignment)SetSkipAwaitRollout(val interface{
 	)
 }
 
-// Generates CDKTF code for importing a OsConfigOsPolicyAssignment resource upon running "cdktf plan <stack-name>".
-func OsConfigOsPolicyAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OsConfigOsPolicyAssignment resource upon running "cdktn plan <stack-name>".
+func OsConfigOsPolicyAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOsConfigOsPolicyAssignment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.osConfigOsPolicyAssignment.OsConfigOsPolicyAssignment",
@@ -913,11 +913,11 @@ func (o *jsiiProxy_OsConfigOsPolicyAssignment) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigOsPolicyAssignment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigOsPolicyAssignment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1054,7 +1054,7 @@ func (o *jsiiProxy_OsConfigOsPolicyAssignment) HasResourceMove() interface{} {
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigOsPolicyAssignment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OsConfigOsPolicyAssignment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1065,11 +1065,11 @@ func (o *jsiiProxy_OsConfigOsPolicyAssignment) ImportFrom(id *string, provider c
 	)
 }
 
-func (o *jsiiProxy_OsConfigOsPolicyAssignment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigOsPolicyAssignment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

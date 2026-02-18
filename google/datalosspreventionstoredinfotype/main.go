@@ -89,7 +89,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoType{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -213,7 +213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -259,7 +259,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldFieldOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -297,7 +297,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -339,7 +339,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -377,7 +377,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -415,7 +415,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -499,7 +499,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -544,7 +544,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataLossPreventionStoredInfoTypeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

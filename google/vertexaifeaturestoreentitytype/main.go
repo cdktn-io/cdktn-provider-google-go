@@ -86,7 +86,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytype{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -132,7 +132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigCategoricalThresholdConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -174,7 +174,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigImportFeaturesAnalysisOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -305,7 +305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigSnapshotAnalysisOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -350,7 +350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiFeaturestoreEntitytypeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

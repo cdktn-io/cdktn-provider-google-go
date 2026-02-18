@@ -119,7 +119,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepository{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -177,7 +177,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryCleanupPoliciesConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryCleanupPoliciesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -241,7 +241,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryCleanupPoliciesMostRecentVersionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -286,7 +286,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryCleanupPoliciesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -329,7 +329,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -371,7 +371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryMavenConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -415,7 +415,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigAptRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -455,7 +455,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigAptRepositoryPublicRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -493,7 +493,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigCommonRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -536,7 +536,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -575,7 +575,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -618,7 +618,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepositoryCustomRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -657,7 +657,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -700,7 +700,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepositoryCustomRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -739,7 +739,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -809,7 +809,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -852,7 +852,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepositoryCustomRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -891,7 +891,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -931,7 +931,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigUpstreamCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -973,7 +973,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigUpstreamCredentialsUsernamePasswordCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1013,7 +1013,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigYumRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1053,7 +1053,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigYumRepositoryPublicRepositoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1098,7 +1098,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1138,7 +1138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1164,7 +1164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1205,7 +1205,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1246,7 +1246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryVulnerabilityScanningConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

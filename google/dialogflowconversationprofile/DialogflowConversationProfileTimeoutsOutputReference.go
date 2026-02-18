@@ -5,14 +5,14 @@ package dialogflowconversationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowconversationprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dialogflowconversationprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DialogflowConversationProfileTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type DialogflowConversationProfileTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type DialogflowConversationProfileTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DialogflowConversationProfileTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DialogflowConversationProfileTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DialogflowConversationProfileTimeoutsOutputReference
 type jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) UpdateI
 }
 
 
-func NewDialogflowConversationProfileTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DialogflowConversationProfileTimeoutsOutputReference {
+func NewDialogflowConversationProfileTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DialogflowConversationProfileTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDialogflowConversationProfileTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewDialogflowConversationProfileTimeoutsOutputReference(terraformResource c
 	return &j
 }
 
-func NewDialogflowConversationProfileTimeoutsOutputReference_Override(d DialogflowConversationProfileTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDialogflowConversationProfileTimeoutsOutputReference_Override(d DialogflowConversationProfileTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) ResetUp
 	)
 }
 
-func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DialogflowConversationProfileTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

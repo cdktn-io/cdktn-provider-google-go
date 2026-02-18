@@ -5,14 +5,14 @@ package firebaseapphostingbuild
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaseapphostingbuild/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/firebaseapphostingbuild/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FirebaseAppHostingBuildSourceCodebaseAuthorList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type FirebaseAppHostingBuildSourceCodebaseAuthorList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type FirebaseAppHostingBuildSourceCodebaseAuthorList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FirebaseAppHostingBuildSourceCodebaseAuthorOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type FirebaseAppHostingBuildSourceCodebaseAuthorList interface {
 
 // The jsii proxy struct for FirebaseAppHostingBuildSourceCodebaseAuthorList
 type jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) WrapsSet() *
 }
 
 
-func NewFirebaseAppHostingBuildSourceCodebaseAuthorList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FirebaseAppHostingBuildSourceCodebaseAuthorList {
+func NewFirebaseAppHostingBuildSourceCodebaseAuthorList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FirebaseAppHostingBuildSourceCodebaseAuthorList {
 	_init_.Initialize()
 
 	if err := validateNewFirebaseAppHostingBuildSourceCodebaseAuthorListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewFirebaseAppHostingBuildSourceCodebaseAuthorList(terraformResource cdktf.
 	return &j
 }
 
-func NewFirebaseAppHostingBuildSourceCodebaseAuthorList_Override(f FirebaseAppHostingBuildSourceCodebaseAuthorList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFirebaseAppHostingBuildSourceCodebaseAuthorList_Override(f FirebaseAppHostingBuildSourceCodebaseAuthorList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList)SetWrapsSet(v
 	)
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -208,7 +208,7 @@ func (f *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) Get(index *f
 	return returns
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FirebaseAppHostingBuildSourceCodebaseAuthorList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (l *jsiiProxy_LookerInstancePscConfigOutputReference) validatePutServiceAtt
 	return nil
 }
 
-func (l *jsiiProxy_LookerInstancePscConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LookerInstancePscConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LookerInstancePscConfigOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_LookerInstancePscConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LookerInstancePscConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLookerInstancePscConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLookerInstancePscConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

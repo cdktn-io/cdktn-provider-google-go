@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeSubnetworkIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func validateNewComputeSubnetworkIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSubnetworkIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

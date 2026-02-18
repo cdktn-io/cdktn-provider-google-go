@@ -79,7 +79,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstance{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -108,7 +108,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceEffectiveReplicationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -142,7 +142,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceEffectiveReplicationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -167,7 +167,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceEffectiveReplicationReplicasList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -203,7 +203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -228,7 +228,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceFileSharesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -253,7 +253,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceFileSharesNfsExportOptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -290,7 +290,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -326,7 +326,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceFileSharesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -351,7 +351,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -385,7 +385,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -410,7 +410,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -443,7 +443,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -468,7 +468,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceNetworksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -505,7 +505,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstanceNetworksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -534,7 +534,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstancePerformanceConfigFixedIopsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -567,7 +567,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -592,7 +592,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstancePerformanceConfigIopsPerTbList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -625,7 +625,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -646,7 +646,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstancePerformanceConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -680,7 +680,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleFilestoreInstancePerformanceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -99,7 +99,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeployment{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -133,7 +133,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -167,7 +167,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -215,7 +215,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentInstanceFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -253,7 +253,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -302,7 +302,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -340,7 +340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigGooOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -406,7 +406,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -456,7 +456,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigGcsObjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -501,7 +501,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -541,7 +541,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -587,7 +587,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -632,7 +632,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -682,7 +682,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPreStepLinuxExecStepConfigGcsObjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -727,7 +727,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPreStepLinuxExecStepConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -767,7 +767,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPreStepOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -813,7 +813,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPreStepWindowsExecStepConfigGcsObjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -858,7 +858,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigPreStepWindowsExecStepConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -903,7 +903,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigWindowsUpdateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -951,7 +951,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigYumOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1005,7 +1005,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentPatchConfigZypperOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1052,7 +1052,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1095,7 +1095,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1149,7 +1149,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1197,7 +1197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeOfDayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1238,7 +1238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1276,7 +1276,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRecurringScheduleWeeklyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1322,7 +1322,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRolloutDisruptionBudgetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1359,7 +1359,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentRolloutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1401,7 +1401,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OsConfigPatchDeploymentTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

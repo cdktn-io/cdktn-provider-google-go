@@ -15,7 +15,7 @@ func (p *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateGe
 	return nil
 }
 
-func (p *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ParameterManagerRegionalParameterPolicyMemberList) validateSe
 	return nil
 }
 
-func validateNewParameterManagerRegionalParameterPolicyMemberListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewParameterManagerRegionalParameterPolicyMemberListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -106,7 +106,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeServiceAttachment{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeServiceAttachmentConnectedEndpointsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -172,7 +172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeServiceAttachmentConnectedEndpointsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -198,7 +198,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -238,7 +238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -283,7 +283,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeServiceAttachmentTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

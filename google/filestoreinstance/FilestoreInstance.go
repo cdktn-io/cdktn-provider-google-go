@@ -5,18 +5,18 @@ package filestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/filestoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/filestoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/filestore_instance google_filestore_instance}.
 type FilestoreInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,15 +41,15 @@ type FilestoreInstance interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EffectiveReplication() FilestoreInstanceEffectiveReplicationList
 	Etag() *string
 	FileShares() FilestoreInstanceFileSharesOutputReference
 	FileSharesInput() *FilestoreInstanceFileShares
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -66,9 +66,9 @@ type FilestoreInstance interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -88,9 +88,9 @@ type FilestoreInstance interface {
 	SetProtocol(val *string)
 	ProtocolInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -101,8 +101,8 @@ type FilestoreInstance interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type FilestoreInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -141,9 +141,9 @@ type FilestoreInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -195,11 +195,11 @@ type FilestoreInstance interface {
 
 // The jsii proxy struct for FilestoreInstance
 type jsiiProxy_FilestoreInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_FilestoreInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FilestoreInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -318,8 +318,8 @@ func (j *jsiiProxy_FilestoreInstance) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstance) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_FilestoreInstance) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_FilestoreInstance) FileSharesInput() *FilestoreInstanceFileSh
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FilestoreInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -478,8 +478,8 @@ func (j *jsiiProxy_FilestoreInstance) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FilestoreInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -618,8 +618,8 @@ func (j *jsiiProxy_FilestoreInstance) ProtocolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FilestoreInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -668,8 +668,8 @@ func (j *jsiiProxy_FilestoreInstance) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FilestoreInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -678,8 +678,8 @@ func (j *jsiiProxy_FilestoreInstance) TerraformGeneratorMetadata() *cdktf.Terraf
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstance) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_FilestoreInstance) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -861,7 +861,7 @@ func (j *jsiiProxy_FilestoreInstance)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FilestoreInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FilestoreInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -902,7 +902,7 @@ func (j *jsiiProxy_FilestoreInstance)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_FilestoreInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FilestoreInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -957,7 +957,7 @@ func (j *jsiiProxy_FilestoreInstance)SetProtocol(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FilestoreInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FilestoreInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1009,14 +1009,14 @@ func (j *jsiiProxy_FilestoreInstance)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a FilestoreInstance resource upon running "cdktf plan <stack-name>".
-func FilestoreInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FilestoreInstance resource upon running "cdktn plan <stack-name>".
+func FilestoreInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFilestoreInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.filestoreInstance.FilestoreInstance",
@@ -1150,11 +1150,11 @@ func (f *jsiiProxy_FilestoreInstance) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (f *jsiiProxy_FilestoreInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FilestoreInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1291,7 +1291,7 @@ func (f *jsiiProxy_FilestoreInstance) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FilestoreInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FilestoreInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1302,11 +1302,11 @@ func (f *jsiiProxy_FilestoreInstance) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (f *jsiiProxy_FilestoreInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FilestoreInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

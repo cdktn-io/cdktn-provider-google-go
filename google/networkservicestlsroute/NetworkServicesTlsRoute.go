@@ -5,18 +5,18 @@ package networkservicestlsroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicestlsroute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkservicestlsroute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_tls_route google_network_services_tls_route}.
 type NetworkServicesTlsRoute interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type NetworkServicesTlsRoute interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type NetworkServicesTlsRoute interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Meshes() *[]*string
 	SetMeshes(val *[]*string)
 	MeshesInput() *[]*string
@@ -65,9 +65,9 @@ type NetworkServicesTlsRoute interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type NetworkServicesTlsRoute interface {
 	RulesInput() interface{}
 	SelfLink() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type NetworkServicesTlsRoute interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type NetworkServicesTlsRoute interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,11 +155,11 @@ type NetworkServicesTlsRoute interface {
 
 // The jsii proxy struct for NetworkServicesTlsRoute
 type jsiiProxy_NetworkServicesTlsRoute struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkServicesTlsRoute) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_NetworkServicesTlsRoute) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkServicesTlsRoute) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -308,8 +308,8 @@ func (j *jsiiProxy_NetworkServicesTlsRoute) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkServicesTlsRoute) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -388,8 +388,8 @@ func (j *jsiiProxy_NetworkServicesTlsRoute) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkServicesTlsRoute) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_NetworkServicesTlsRoute) SelfLink() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkServicesTlsRoute) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -579,7 +579,7 @@ func (j *jsiiProxy_NetworkServicesTlsRoute)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkServicesTlsRoute)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -609,7 +609,7 @@ func (j *jsiiProxy_NetworkServicesTlsRoute)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkServicesTlsRoute)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -653,7 +653,7 @@ func (j *jsiiProxy_NetworkServicesTlsRoute)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRoute)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkServicesTlsRoute)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -672,14 +672,14 @@ func (j *jsiiProxy_NetworkServicesTlsRoute)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a NetworkServicesTlsRoute resource upon running "cdktf plan <stack-name>".
-func NetworkServicesTlsRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkServicesTlsRoute resource upon running "cdktn plan <stack-name>".
+func NetworkServicesTlsRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkServicesTlsRoute_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.networkServicesTlsRoute.NetworkServicesTlsRoute",
@@ -813,11 +813,11 @@ func (n *jsiiProxy_NetworkServicesTlsRoute) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesTlsRoute) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesTlsRoute) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -954,7 +954,7 @@ func (n *jsiiProxy_NetworkServicesTlsRoute) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesTlsRoute) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkServicesTlsRoute) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -965,11 +965,11 @@ func (n *jsiiProxy_NetworkServicesTlsRoute) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (n *jsiiProxy_NetworkServicesTlsRoute) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesTlsRoute) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeRegionSslPolicyTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewComputeRegionSslPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionSslPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

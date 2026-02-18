@@ -47,7 +47,7 @@ func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) 
 	return nil
 }
 
-func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodEndDateOutputReference) 
 	return nil
 }
 
-func validateNewBillingBudgetBudgetFilterCustomPeriodEndDateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBillingBudgetBudgetFilterCustomPeriodEndDateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

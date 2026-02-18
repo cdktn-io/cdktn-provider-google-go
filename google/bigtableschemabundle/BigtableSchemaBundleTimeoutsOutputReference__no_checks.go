@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (b *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BigtableSchemaBundleTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewBigtableSchemaBundleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigtableSchemaBundleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

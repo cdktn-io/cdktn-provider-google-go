@@ -5,14 +5,14 @@ package vertexaiendpointwithmodelgardendeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaiendpointwithmodelgardendeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaiendpointwithmodelgardendeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoscalingMetricSpecs() VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsList
 	AutoscalingMetricSpecsInput() interface{}
 	// the index of the complex object in a list.
@@ -53,15 +53,15 @@ type VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutp
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutp
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoscalingMetricSpecs(value interface{})
 	PutMachineSpec(value *VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpec)
 	ResetAutoscalingMetricSpecs()
@@ -88,7 +88,7 @@ type VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutp
 	ResetSpot()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutp
 
 // The jsii proxy struct for VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference
 type jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) AutoscalingMetricSpecs() VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsList {
@@ -281,8 +281,8 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -292,7 +292,7 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 }
 
 
-func NewVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference {
+func NewVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -309,7 +309,7 @@ func NewVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesO
 	return &j
 }
 
-func NewVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference_Override(v VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference_Override(v VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -407,7 +407,7 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 	)
 }
 
-func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -447,11 +447,11 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -575,8 +575,8 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -588,11 +588,11 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -658,7 +658,7 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicate
 	)
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

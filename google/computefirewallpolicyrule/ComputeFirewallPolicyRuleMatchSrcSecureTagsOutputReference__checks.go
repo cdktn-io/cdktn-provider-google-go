@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (c *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) v
 
 func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ComputeFirewallPolicyRuleMatchSrcSecureTags:
 		val := val.(*ComputeFirewallPolicyRuleMatchSrcSecureTags)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ComputeFirewallPolicyRuleMatchSrcSecureTags; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ComputeFirewallPolicyRuleMatchSrcSecureTags; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReference) v
 	return nil
 }
 
-func validateNewComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeFirewallPolicyRuleMatchSrcSecureTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

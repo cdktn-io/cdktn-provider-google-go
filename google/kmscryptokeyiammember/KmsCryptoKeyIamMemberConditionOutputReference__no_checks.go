@@ -47,7 +47,7 @@ func (k *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateInterp
 	return nil
 }
 
-func (k *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KmsCryptoKeyIamMemberConditionOutputReference) validateSetTit
 	return nil
 }
 
-func validateNewKmsCryptoKeyIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsCryptoKeyIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/containercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoRepair() interface{}
 	SetAutoRepair(val interface{})
 	AutoRepairInput() interface{}
@@ -43,16 +43,16 @@ type ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputR
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpgradeOptions() ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementUpgradeOptionsList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutoRepair()
 	ResetAutoUpgrade()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputR
 
 // The jsii proxy struct for ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference
 type jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) AutoRepair() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 	return returns
 }
 
-func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 }
 
 
-func NewContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference {
+func NewContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutp
 	return &j
 }
 
-func NewContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference_Override(c ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference_Override(c ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -302,7 +302,7 @@ func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 	)
 }
 
-func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -342,11 +342,11 @@ func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -470,8 +470,8 @@ func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -483,11 +483,11 @@ func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -515,7 +515,7 @@ func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsMan
 	)
 }
 
-func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsManagementOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

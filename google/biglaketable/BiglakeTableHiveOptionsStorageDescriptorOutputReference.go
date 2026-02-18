@@ -5,14 +5,14 @@ package biglaketable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/biglaketable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/biglaketable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type BiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetInputFormat()
 	ResetLocationUri()
 	ResetOutputFormat()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 
 // The jsii proxy struct for BiglakeTableHiveOptionsStorageDescriptorOutputReference
 type jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Terr
 }
 
 
-func NewBiglakeTableHiveOptionsStorageDescriptorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BiglakeTableHiveOptionsStorageDescriptorOutputReference {
+func NewBiglakeTableHiveOptionsStorageDescriptorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BiglakeTableHiveOptionsStorageDescriptorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBiglakeTableHiveOptionsStorageDescriptorOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewBiglakeTableHiveOptionsStorageDescriptorOutputReference(terraformResourc
 	return &j
 }
 
-func NewBiglakeTableHiveOptionsStorageDescriptorOutputReference_Override(b BiglakeTableHiveOptionsStorageDescriptorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBiglakeTableHiveOptionsStorageDescriptorOutputReference_Override(b BiglakeTableHiveOptionsStorageDescriptorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) GetA
 	return returns
 }
 
-func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) GetS
 	return returns
 }
 
-func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Inte
 	return returns
 }
 
-func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Rese
 	)
 }
 
-func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

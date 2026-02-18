@@ -5,14 +5,14 @@ package apihubplugininstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apihubplugininstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apihubplugininstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApihubPluginInstanceActionsHubInstanceActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type ApihubPluginInstanceActionsHubInstanceActionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type ApihubPluginInstanceActionsHubInstanceActionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type ApihubPluginInstanceActionsHubInstanceActionOutputReference interface {
 
 // The jsii proxy struct for ApihubPluginInstanceActionsHubInstanceActionOutputReference
 type jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) 
 }
 
 
-func NewApihubPluginInstanceActionsHubInstanceActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApihubPluginInstanceActionsHubInstanceActionOutputReference {
+func NewApihubPluginInstanceActionsHubInstanceActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApihubPluginInstanceActionsHubInstanceActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApihubPluginInstanceActionsHubInstanceActionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewApihubPluginInstanceActionsHubInstanceActionOutputReference(terraformRes
 	return &j
 }
 
-func NewApihubPluginInstanceActionsHubInstanceActionOutputReference_Override(a ApihubPluginInstanceActionsHubInstanceActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApihubPluginInstanceActionsHubInstanceActionOutputReference_Override(a ApihubPluginInstanceActionsHubInstanceActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -411,8 +411,8 @@ func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,11 +424,11 @@ func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -440,7 +440,7 @@ func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

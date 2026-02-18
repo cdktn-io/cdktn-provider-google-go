@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GkeHubMembershipBindingTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewGkeHubMembershipBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubMembershipBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

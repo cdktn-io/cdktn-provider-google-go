@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFusionInstanceCryptoKeyConfigOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataFusionInstanceCryptoKeyConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFusionInstanceCryptoKeyConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataFusionInstanceCryptoKeyConfigOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataFusionInstanceCryptoKeyConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFusionInstanceCryptoKeyConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFusionInstanceCryptoKeyConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFusionInstanceCryptoKeyConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

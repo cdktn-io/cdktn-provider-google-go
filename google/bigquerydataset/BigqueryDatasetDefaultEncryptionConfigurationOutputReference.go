@@ -5,14 +5,14 @@ package bigquerydataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigquerydataset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigquerydataset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryDatasetDefaultEncryptionConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type BigqueryDatasetDefaultEncryptionConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type BigqueryDatasetDefaultEncryptionConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type BigqueryDatasetDefaultEncryptionConfigurationOutputReference interface {
 
 // The jsii proxy struct for BigqueryDatasetDefaultEncryptionConfigurationOutputReference
 type jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 }
 
 
-func NewBigqueryDatasetDefaultEncryptionConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigqueryDatasetDefaultEncryptionConfigurationOutputReference {
+func NewBigqueryDatasetDefaultEncryptionConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigqueryDatasetDefaultEncryptionConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryDatasetDefaultEncryptionConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewBigqueryDatasetDefaultEncryptionConfigurationOutputReference(terraformRe
 	return &j
 }
 
-func NewBigqueryDatasetDefaultEncryptionConfigurationOutputReference_Override(b BigqueryDatasetDefaultEncryptionConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigqueryDatasetDefaultEncryptionConfigurationOutputReference_Override(b BigqueryDatasetDefaultEncryptionConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 	)
 }
 
-func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -423,8 +423,8 @@ func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -436,11 +436,11 @@ func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -452,7 +452,7 @@ func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference)
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryDatasetDefaultEncryptionConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

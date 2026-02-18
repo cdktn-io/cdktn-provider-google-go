@@ -5,14 +5,14 @@ package vertexaiendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaiendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaiendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiEndpointDeployedModelsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type VertexAiEndpointDeployedModelsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type VertexAiEndpointDeployedModelsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) VertexAiEndpointDeployedModelsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type VertexAiEndpointDeployedModelsList interface {
 
 // The jsii proxy struct for VertexAiEndpointDeployedModelsList
 type jsiiProxy_VertexAiEndpointDeployedModelsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_VertexAiEndpointDeployedModelsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsList) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsList) WrapsSet() *bool {
 }
 
 
-func NewVertexAiEndpointDeployedModelsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VertexAiEndpointDeployedModelsList {
+func NewVertexAiEndpointDeployedModelsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VertexAiEndpointDeployedModelsList {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiEndpointDeployedModelsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewVertexAiEndpointDeployedModelsList(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewVertexAiEndpointDeployedModelsList_Override(v VertexAiEndpointDeployedModelsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewVertexAiEndpointDeployedModelsList_Override(v VertexAiEndpointDeployedModelsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsList)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := v.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		v,
@@ -208,7 +208,7 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsList) Get(index *float64) Verte
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

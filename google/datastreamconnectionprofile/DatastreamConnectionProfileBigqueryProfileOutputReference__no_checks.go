@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamConnectionProfileBigqueryProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamConnectionProfileBigqueryProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

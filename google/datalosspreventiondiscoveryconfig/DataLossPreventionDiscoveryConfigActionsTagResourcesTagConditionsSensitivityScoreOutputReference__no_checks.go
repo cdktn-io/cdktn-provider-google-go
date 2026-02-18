@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagCondit
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsSensitivityScoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsSensitivityScoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagCondit
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsSensitivityScoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsSensitivityScoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsSensitivityScoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsSensitivityScoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

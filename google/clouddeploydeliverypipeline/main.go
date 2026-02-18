@@ -96,7 +96,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipeline{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -121,7 +121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -156,7 +156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -181,7 +181,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionPipelineReadyConditionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -215,7 +215,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -240,7 +240,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -275,7 +275,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -300,7 +300,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsTypeConditionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -334,7 +334,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsTypeConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -378,7 +378,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -408,7 +408,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -445,7 +445,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -467,7 +467,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -513,7 +513,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -570,7 +570,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -609,7 +609,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeployOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -648,7 +648,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeployOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -687,7 +687,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -713,7 +713,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -763,7 +763,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -802,7 +802,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeployOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -841,7 +841,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeployOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -885,7 +885,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -937,7 +937,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRunOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -996,7 +996,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1037,7 +1037,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1077,7 +1077,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1123,7 +1123,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworkingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1163,7 +1163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1203,7 +1203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1250,7 +1250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1289,7 +1289,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1328,7 +1328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1373,7 +1373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeliveryPipelineTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

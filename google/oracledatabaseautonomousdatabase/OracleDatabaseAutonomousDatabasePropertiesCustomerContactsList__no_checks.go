@@ -15,7 +15,7 @@ func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsLis
 	return nil
 }
 
-func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsLis
 	return nil
 }
 
-func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsLis
 	return nil
 }
 
-func validateNewOracleDatabaseAutonomousDatabasePropertiesCustomerContactsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOracleDatabaseAutonomousDatabasePropertiesCustomerContactsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

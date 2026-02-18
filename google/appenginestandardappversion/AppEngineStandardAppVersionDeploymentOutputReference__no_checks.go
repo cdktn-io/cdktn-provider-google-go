@@ -55,7 +55,7 @@ func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppEngineStandardAppVersionDeploymentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppEngineStandardAppVersionDeploymentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

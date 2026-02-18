@@ -8,7 +8,7 @@ package storagedefaultobjectaccesscontrol
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (s *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateGet
 	return nil
 }
 
-func (s *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_StorageDefaultObjectAccessControlProjectTeamList) validateSet
 	return nil
 }
 
-func validateNewStorageDefaultObjectAccessControlProjectTeamListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageDefaultObjectAccessControlProjectTeamListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

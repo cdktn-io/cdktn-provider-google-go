@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroup) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

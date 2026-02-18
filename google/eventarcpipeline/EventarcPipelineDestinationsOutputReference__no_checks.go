@@ -63,7 +63,7 @@ func (e *jsiiProxy_EventarcPipelineDestinationsOutputReference) validatePutOutpu
 	return nil
 }
 
-func (e *jsiiProxy_EventarcPipelineDestinationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcPipelineDestinationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EventarcPipelineDestinationsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_EventarcPipelineDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcPipelineDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_EventarcPipelineDestinationsOutputReference) validateSetWorkf
 	return nil
 }
 
-func validateNewEventarcPipelineDestinationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventarcPipelineDestinationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

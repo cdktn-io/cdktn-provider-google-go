@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateGet
 	return nil
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateRes
 
 func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeUrlMapPathMatcherRouteRulesMatchRules:
 		val := val.(*[]*ComputeUrlMapPathMatcherRouteRulesMatchRules)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ComputeUrlMapPathMatcherRouteRulesMatchRules; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ComputeUrlMapPathMatcherRouteRulesMatchRules; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesMatchRulesList) validateSet
 	return nil
 }
 
-func validateNewComputeUrlMapPathMatcherRouteRulesMatchRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeUrlMapPathMatcherRouteRulesMatchRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

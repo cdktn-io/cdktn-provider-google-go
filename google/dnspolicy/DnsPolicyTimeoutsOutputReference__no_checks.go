@@ -47,7 +47,7 @@ func (d *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (d *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DnsPolicyTimeoutsOutputReference) validateSetUpdateParameters
 	return nil
 }
 
-func validateNewDnsPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

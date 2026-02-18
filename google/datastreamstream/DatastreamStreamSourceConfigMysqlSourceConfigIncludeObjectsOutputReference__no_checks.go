@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOu
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOu
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

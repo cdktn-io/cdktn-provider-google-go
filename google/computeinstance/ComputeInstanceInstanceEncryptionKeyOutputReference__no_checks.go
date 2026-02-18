@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceInstanceEncryptionKeyOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceInstanceEncryptionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceInstanceEncryptionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeInstanceInstanceEncryptionKeyOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceInstanceEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceInstanceEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceInstanceEncryptionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceInstanceEncryptionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

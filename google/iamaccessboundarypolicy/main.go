@@ -76,7 +76,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamAccessBoundaryPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -177,7 +177,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamAccessBoundaryPolicyRulesAccessBoundaryRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamAccessBoundaryPolicyRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -238,7 +238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -283,7 +283,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamAccessBoundaryPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

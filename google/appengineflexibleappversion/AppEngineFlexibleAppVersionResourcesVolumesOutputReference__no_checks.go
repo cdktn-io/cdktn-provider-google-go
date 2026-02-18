@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference) v
 	return nil
 }
 
-func validateNewAppEngineFlexibleAppVersionResourcesVolumesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppEngineFlexibleAppVersionResourcesVolumesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

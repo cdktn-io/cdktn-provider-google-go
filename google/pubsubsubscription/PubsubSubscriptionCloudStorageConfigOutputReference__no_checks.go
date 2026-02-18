@@ -51,7 +51,7 @@ func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) validate
 	return nil
 }
 
-func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubSubscriptionCloudStorageConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubSubscriptionCloudStorageConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

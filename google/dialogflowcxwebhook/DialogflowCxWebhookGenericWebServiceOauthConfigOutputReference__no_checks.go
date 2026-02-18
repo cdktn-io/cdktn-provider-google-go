@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenc
 	return nil
 }
 
-func validateNewDialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

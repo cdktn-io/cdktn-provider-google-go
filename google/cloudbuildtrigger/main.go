@@ -146,7 +146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTrigger{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -185,7 +185,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerApprovalConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -235,7 +235,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBitbucketServerTriggerConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -279,7 +279,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBitbucketServerTriggerConfigPullRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -324,7 +324,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBitbucketServerTriggerConfigPushOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -358,7 +358,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsMavenArtifactsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -405,7 +405,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsMavenArtifactsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -431,7 +431,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsNpmPackagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -469,7 +469,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsNpmPackagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -512,7 +512,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsObjectsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -537,7 +537,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsObjectsTimingList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -571,7 +571,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsObjectsTimingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -622,7 +622,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -648,7 +648,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -686,7 +686,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -725,7 +725,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildAvailableSecretsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -751,7 +751,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildAvailableSecretsSecretManagerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -787,7 +787,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -860,7 +860,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -886,7 +886,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildOptionsVolumesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -924,7 +924,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildOptionsVolumesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -997,7 +997,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1023,7 +1023,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildSecretList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1060,7 +1060,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1104,7 +1104,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1163,7 +1163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1206,7 +1206,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildSourceStorageSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1232,7 +1232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildStepList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1306,7 +1306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildStepOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1332,7 +1332,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildStepVolumesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1368,7 +1368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1427,7 +1427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerGitFileSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1480,7 +1480,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerGithubOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1524,7 +1524,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerGithubPullRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1569,7 +1569,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerGithubPushOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1612,7 +1612,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerPubsubConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1659,7 +1659,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerRepositoryEventConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1704,7 +1704,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerRepositoryEventConfigPullRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1749,7 +1749,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerRepositoryEventConfigPushOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1801,7 +1801,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerSourceToBuildOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1846,7 +1846,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1903,7 +1903,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerTriggerTemplateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1942,7 +1942,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

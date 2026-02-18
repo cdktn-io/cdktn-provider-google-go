@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildSourceRepoSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildSourceRepoSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildTriggerBuildSourceRepoSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

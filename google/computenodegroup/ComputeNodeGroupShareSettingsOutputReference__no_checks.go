@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeNodeGroupShareSettingsOutputReference) validatePutProj
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeGroupShareSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeGroupShareSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeNodeGroupShareSettingsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeGroupShareSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeGroupShareSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeNodeGroupShareSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeNodeGroupShareSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCrea
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCreatedEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCreatedEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCrea
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCreatedEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCreatedEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCrea
 	return nil
 }
 
-func validateNewMemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCreatedEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMemorystoreInstanceDesiredUserCreatedEndpointsDesiredUserCreatedEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

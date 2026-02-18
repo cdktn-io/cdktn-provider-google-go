@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingStandardSchedulerS
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingStandardSchedulerS
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -95,7 +95,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloud{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -124,7 +124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudHcxList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -160,7 +160,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudHcxOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -252,7 +252,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -274,7 +274,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -324,7 +324,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -364,7 +364,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -408,7 +408,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterAutoscalingSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -434,7 +434,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterNodeTypeConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -473,7 +473,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -519,7 +519,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -561,7 +561,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudManagementClusterStretchedClusterConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -605,7 +605,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -630,7 +630,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudNsxList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -666,7 +666,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudNsxOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -711,7 +711,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -736,7 +736,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudVcenterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -772,7 +772,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareenginePrivateCloudVcenterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

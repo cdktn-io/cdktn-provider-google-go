@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsList) validat
 	return nil
 }
 
-func validateNewDataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataCatalogEntryGcsFilesetSpecSampleGcsFileSpecsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

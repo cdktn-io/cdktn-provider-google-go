@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewComputeRouterBgpAdvertisedIpRangesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRouterBgpAdvertisedIpRangesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

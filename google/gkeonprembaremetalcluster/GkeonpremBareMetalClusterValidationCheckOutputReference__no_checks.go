@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremBareMetalClusterValidationCheckOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeonpremBareMetalClusterValidationCheckOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

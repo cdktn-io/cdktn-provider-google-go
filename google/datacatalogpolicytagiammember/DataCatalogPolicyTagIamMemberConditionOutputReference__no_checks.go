@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataCatalogPolicyTagIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func validateNewDataCatalogPolicyTagIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataCatalogPolicyTagIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

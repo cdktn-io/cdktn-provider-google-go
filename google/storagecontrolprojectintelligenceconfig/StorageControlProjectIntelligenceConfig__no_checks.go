@@ -115,7 +115,7 @@ func (j *jsiiProxy_StorageControlProjectIntelligenceConfig) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_StorageControlProjectIntelligenceConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageControlProjectIntelligenceConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

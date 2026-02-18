@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateInte
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference) validateSetU
 	return nil
 }
 
-func validateNewTranscoderJobConfigOverlaysImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobConfigOverlaysImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

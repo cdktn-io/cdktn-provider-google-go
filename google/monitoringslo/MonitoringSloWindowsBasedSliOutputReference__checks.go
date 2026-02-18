@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -126,7 +126,7 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validatePutMetri
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -223,7 +223,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -239,7 +239,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetWindo
 	return nil
 }
 
-func validateNewMonitoringSloWindowsBasedSliOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringSloWindowsBasedSliOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -51,7 +51,7 @@ func (i *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputRefer
 	return nil
 }
 
-func (i *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputRefer
 	return nil
 }
 
-func validateNewIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

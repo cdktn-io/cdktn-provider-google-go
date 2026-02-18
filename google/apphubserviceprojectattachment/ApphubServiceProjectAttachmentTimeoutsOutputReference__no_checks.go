@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApphubServiceProjectAttachmentTimeoutsOutputReference) valida
 	return nil
 }
 
-func (a *jsiiProxy_ApphubServiceProjectAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApphubServiceProjectAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApphubServiceProjectAttachmentTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ApphubServiceProjectAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApphubServiceProjectAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApphubServiceProjectAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApphubServiceProjectAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

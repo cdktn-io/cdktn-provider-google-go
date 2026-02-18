@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeSubnetwork{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -190,7 +190,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeSubnetworkLogConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -229,7 +229,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeSubnetworkParamsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -255,7 +255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeSubnetworkSecondaryIpRangeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -295,7 +295,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeSubnetworkSecondaryIpRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -340,7 +340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeSubnetworkTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisable
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisabledOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisabledOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisable
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisabledOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisabledOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisabledOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionDiscoveryConfigTargetsBigQueryTargetDisabledOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

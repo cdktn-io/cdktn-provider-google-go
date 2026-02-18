@@ -100,7 +100,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSlo{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -143,7 +143,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloBasicSliAvailabilityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -181,7 +181,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloBasicSliLatencyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -230,7 +230,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloBasicSliOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -279,7 +279,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloRequestBasedSliDistributionCutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -321,7 +321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloRequestBasedSliDistributionCutRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -366,7 +366,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloRequestBasedSliGoodTotalRatioOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -406,7 +406,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloRequestBasedSliOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -451,7 +451,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -502,7 +502,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -540,7 +540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -589,7 +589,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -632,7 +632,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -677,7 +677,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -719,7 +719,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -764,7 +764,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -804,7 +804,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -845,7 +845,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -887,7 +887,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -928,7 +928,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliMetricSumInRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -970,7 +970,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliMetricSumInRangeRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1020,7 +1020,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringSloWindowsBasedSliOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

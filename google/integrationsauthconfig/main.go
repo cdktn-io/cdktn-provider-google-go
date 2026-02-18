@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -146,7 +146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigClientCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -196,7 +196,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -242,7 +242,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialJwtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -293,7 +293,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -348,7 +348,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -399,7 +399,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -435,7 +435,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -457,7 +457,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -497,7 +497,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -540,7 +540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -576,7 +576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -612,7 +612,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -656,7 +656,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -718,7 +718,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -760,7 +760,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -802,7 +802,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -847,7 +847,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IntegrationsAuthConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -78,7 +78,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsKeyRingImportJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsKeyRingImportJobAttestationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -137,7 +137,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsKeyRingImportJobAttestationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -166,7 +166,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsKeyRingImportJobPublicKeyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsKeyRingImportJobPublicKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -241,7 +241,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsKeyRingImportJobTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

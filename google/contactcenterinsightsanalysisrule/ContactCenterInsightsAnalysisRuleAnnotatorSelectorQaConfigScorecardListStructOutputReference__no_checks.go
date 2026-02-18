@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigSco
 	return nil
 }
 
-func (c *jsiiProxy_ContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigSco
 	return nil
 }
 
-func (j *jsiiProxy_ContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

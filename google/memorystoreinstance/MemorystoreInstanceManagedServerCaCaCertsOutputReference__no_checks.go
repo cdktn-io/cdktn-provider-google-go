@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceManagedServerCaCaCertsOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceManagedServerCaCaCertsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceManagedServerCaCaCertsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_MemorystoreInstanceManagedServerCaCaCertsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceManagedServerCaCaCertsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceManagedServerCaCaCertsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMemorystoreInstanceManagedServerCaCaCertsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMemorystoreInstanceManagedServerCaCaCertsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

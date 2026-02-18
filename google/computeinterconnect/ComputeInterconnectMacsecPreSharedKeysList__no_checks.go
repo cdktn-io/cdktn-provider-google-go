@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateGetParame
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeInterconnectMacsecPreSharedKeysList) validateSetWrapsS
 	return nil
 }
 
-func validateNewComputeInterconnectMacsecPreSharedKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInterconnectMacsecPreSharedKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

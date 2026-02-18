@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationEndpointMatchersOutputRef
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationEndpointMatchersOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

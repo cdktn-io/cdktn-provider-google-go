@@ -5,14 +5,14 @@ package loggingorganizationbucketconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/loggingorganizationbucketconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/loggingorganizationbucketconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LoggingOrganizationBucketConfigIndexConfigsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type LoggingOrganizationBucketConfigIndexConfigsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -51,7 +51,7 @@ type LoggingOrganizationBucketConfigIndexConfigsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type LoggingOrganizationBucketConfigIndexConfigsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type LoggingOrganizationBucketConfigIndexConfigsOutputReference interface {
 
 // The jsii proxy struct for LoggingOrganizationBucketConfigIndexConfigsOutputReference
 type jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) T
 }
 
 
-func NewLoggingOrganizationBucketConfigIndexConfigsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LoggingOrganizationBucketConfigIndexConfigsOutputReference {
+func NewLoggingOrganizationBucketConfigIndexConfigsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LoggingOrganizationBucketConfigIndexConfigsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLoggingOrganizationBucketConfigIndexConfigsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewLoggingOrganizationBucketConfigIndexConfigsOutputReference(terraformReso
 	return &j
 }
 
-func NewLoggingOrganizationBucketConfigIndexConfigsOutputReference_Override(l LoggingOrganizationBucketConfigIndexConfigsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLoggingOrganizationBucketConfigIndexConfigsOutputReference_Override(l LoggingOrganizationBucketConfigIndexConfigsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) G
 	return returns
 }
 
-func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -457,8 +457,8 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) G
 	return returns
 }
 
-func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -470,11 +470,11 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) I
 	return returns
 }
 
-func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -486,7 +486,7 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) I
 	return returns
 }
 
-func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

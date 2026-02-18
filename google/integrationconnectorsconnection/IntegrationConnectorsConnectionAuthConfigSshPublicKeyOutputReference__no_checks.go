@@ -55,7 +55,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputRe
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputRe
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

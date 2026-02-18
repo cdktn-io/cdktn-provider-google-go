@@ -47,7 +47,7 @@ func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoOutputRefere
 	return nil
 }
 
-func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBlockchainNodeEngineBlockchainNodesConnectionInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBlockchainNodeEngineBlockchainNodesConnectionInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

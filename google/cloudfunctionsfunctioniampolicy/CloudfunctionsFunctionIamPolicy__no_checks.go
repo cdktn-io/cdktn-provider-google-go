@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudfunctionsFunctionIamPolicy) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_CloudfunctionsFunctionIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudfunctionsFunctionIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -155,7 +155,7 @@ func (j *jsiiProxy_DeveloperConnectConnection) validateSetLabelsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DeveloperConnectConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

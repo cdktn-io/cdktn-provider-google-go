@@ -75,7 +75,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceSettings{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceSettingsMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -163,7 +163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceSettingsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

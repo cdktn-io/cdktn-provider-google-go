@@ -119,7 +119,7 @@ func (j *jsiiProxy_HealthcareWorkspace) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

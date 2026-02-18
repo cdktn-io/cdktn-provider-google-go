@@ -5,18 +5,18 @@ package workbenchinstanceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/workbenchinstanceiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/workbenchinstanceiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/workbench_instance_iam_binding google_workbench_instance_iam_binding}.
 type WorkbenchInstanceIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() WorkbenchInstanceIamBindingConditionOutputReference
 	ConditionInput() *WorkbenchInstanceIamBindingCondition
 	// Experimental.
@@ -35,9 +35,9 @@ type WorkbenchInstanceIamBinding interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type WorkbenchInstanceIamBinding interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -64,9 +64,9 @@ type WorkbenchInstanceIamBinding interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type WorkbenchInstanceIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type WorkbenchInstanceIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type WorkbenchInstanceIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,11 +148,11 @@ type WorkbenchInstanceIamBinding interface {
 
 // The jsii proxy struct for WorkbenchInstanceIamBinding
 type jsiiProxy_WorkbenchInstanceIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WorkbenchInstanceIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -231,8 +231,8 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WorkbenchInstanceIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -281,8 +281,8 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WorkbenchInstanceIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WorkbenchInstanceIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WorkbenchInstanceIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -521,7 +521,7 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -595,7 +595,7 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -625,14 +625,14 @@ func (j *jsiiProxy_WorkbenchInstanceIamBinding)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a WorkbenchInstanceIamBinding resource upon running "cdktf plan <stack-name>".
-func WorkbenchInstanceIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WorkbenchInstanceIamBinding resource upon running "cdktn plan <stack-name>".
+func WorkbenchInstanceIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWorkbenchInstanceIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.workbenchInstanceIamBinding.WorkbenchInstanceIamBinding",
@@ -766,11 +766,11 @@ func (w *jsiiProxy_WorkbenchInstanceIamBinding) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (w *jsiiProxy_WorkbenchInstanceIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkbenchInstanceIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -907,7 +907,7 @@ func (w *jsiiProxy_WorkbenchInstanceIamBinding) HasResourceMove() interface{} {
 	return returns
 }
 
-func (w *jsiiProxy_WorkbenchInstanceIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WorkbenchInstanceIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -918,11 +918,11 @@ func (w *jsiiProxy_WorkbenchInstanceIamBinding) ImportFrom(id *string, provider 
 	)
 }
 
-func (w *jsiiProxy_WorkbenchInstanceIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkbenchInstanceIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

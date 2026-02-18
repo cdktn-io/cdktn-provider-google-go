@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validatePutMatch
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkServicesTlsRouteRulesMatches:
 		value := value.(*[]*NetworkServicesTlsRouteRulesMatches)
@@ -128,14 +128,14 @@ func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validatePutMatch
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*NetworkServicesTlsRouteRulesMatches; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkServicesTlsRouteRulesMatches; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -210,7 +210,7 @@ func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetCompl
 
 func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *NetworkServicesTlsRouteRules:
 		val := val.(*NetworkServicesTlsRouteRules)
@@ -225,7 +225,7 @@ func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *NetworkServicesTlsRouteRules; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkServicesTlsRouteRules; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -240,7 +240,7 @@ func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -248,7 +248,7 @@ func (j *jsiiProxy_NetworkServicesTlsRouteRulesOutputReference) validateSetTerra
 	return nil
 }
 
-func validateNewNetworkServicesTlsRouteRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkServicesTlsRouteRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

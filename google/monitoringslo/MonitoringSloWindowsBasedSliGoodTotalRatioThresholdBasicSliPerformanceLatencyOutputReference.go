@@ -5,14 +5,14 @@ package monitoringslo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringslo/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/monitoringslo/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLaten
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() *string
 	SetThreshold(val *string)
 	ThresholdInput() *string
@@ -48,7 +48,7 @@ type MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLaten
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLaten
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLaten
 
 // The jsii proxy struct for MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference
 type jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return returns
 }
 
-func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 }
 
 
-func NewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference {
+func NewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLa
 	return &j
 }
 
-func NewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference_Override(m MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference_Override(m MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	)
 }
 
-func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -423,8 +423,8 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -452,7 +452,7 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

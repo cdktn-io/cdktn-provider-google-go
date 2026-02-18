@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowCxEntityTypeExcludedPhrasesList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDialogflowCxEntityTypeExcludedPhrasesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxEntityTypeExcludedPhrasesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

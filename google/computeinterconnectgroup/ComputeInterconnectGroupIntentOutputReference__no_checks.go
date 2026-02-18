@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeInterconnectGroupIntentOutputReference) validateSetTop
 	return nil
 }
 
-func validateNewComputeInterconnectGroupIntentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInterconnectGroupIntentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

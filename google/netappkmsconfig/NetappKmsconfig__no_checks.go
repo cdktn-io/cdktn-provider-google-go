@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetappKmsconfig) validateSetLabelsParameters(val *map[string]
 	return nil
 }
 
-func (j *jsiiProxy_NetappKmsconfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetappKmsconfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

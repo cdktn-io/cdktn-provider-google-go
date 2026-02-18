@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobPerformanceConfigOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobPerformanceConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceMigrationJobPerformanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabaseMigrationServiceMigrationJobPerformanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

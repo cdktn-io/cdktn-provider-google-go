@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SccFolderNotificationConfigTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewSccFolderNotificationConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccFolderNotificationConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

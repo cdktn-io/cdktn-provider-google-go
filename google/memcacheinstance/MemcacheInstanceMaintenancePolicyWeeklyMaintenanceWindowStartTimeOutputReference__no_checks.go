@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStart
 	return nil
 }
 
-func (m *jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStart
 	return nil
 }
 
-func (j *jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

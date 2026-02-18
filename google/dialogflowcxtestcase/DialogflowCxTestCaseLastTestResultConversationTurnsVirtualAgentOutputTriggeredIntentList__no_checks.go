@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAge
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAge
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DialogflowCxTestCaseLastTestResultConversationTurnsVirtualAge
 	return nil
 }
 
-func validateNewDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxTestCaseLastTestResultConversationTurnsVirtualAgentOutputTriggeredIntentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

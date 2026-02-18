@@ -55,7 +55,7 @@ func (i *jsiiProxy_IdentityPlatformConfigSmsRegionConfigOutputReference) validat
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigSmsRegionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformConfigSmsRegionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IdentityPlatformConfigSmsRegionConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigSmsRegionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformConfigSmsRegionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentityPlatformConfigSmsRegionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentityPlatformConfigSmsRegionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

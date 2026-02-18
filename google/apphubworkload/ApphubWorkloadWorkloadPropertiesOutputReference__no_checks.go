@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApphubWorkloadWorkloadPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApphubWorkloadWorkloadPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -88,7 +88,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAssetOrganizationFeed{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAssetOrganizationFeedConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -178,7 +178,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAssetOrganizationFeedFeedOutputConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -216,7 +216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -261,7 +261,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudAssetOrganizationFeedTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

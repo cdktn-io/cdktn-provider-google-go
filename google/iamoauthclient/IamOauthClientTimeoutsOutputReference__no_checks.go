@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateInterpolationF
 	return nil
 }
 
-func (i *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IamOauthClientTimeoutsOutputReference) validateSetUpdateParam
 	return nil
 }
 
-func validateNewIamOauthClientTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIamOauthClientTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

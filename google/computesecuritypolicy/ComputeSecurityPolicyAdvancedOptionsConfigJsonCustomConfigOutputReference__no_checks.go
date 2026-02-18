@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOut
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOut
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterMeshCertificatesOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterMeshCertificatesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterMeshCertificatesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterMeshCertificatesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterMeshCertificatesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterMeshCertificatesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterMeshCertificatesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterMeshCertificatesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

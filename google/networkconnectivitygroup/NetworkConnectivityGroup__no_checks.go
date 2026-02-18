@@ -123,7 +123,7 @@ func (j *jsiiProxy_NetworkConnectivityGroup) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectivityGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkConnectivityGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ContainerAwsNodePoolConfigRootVolumeOutputReference) validate
 	return nil
 }
 
-func validateNewContainerAwsNodePoolConfigRootVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsNodePoolConfigRootVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

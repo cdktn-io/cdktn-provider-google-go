@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutp
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutp
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

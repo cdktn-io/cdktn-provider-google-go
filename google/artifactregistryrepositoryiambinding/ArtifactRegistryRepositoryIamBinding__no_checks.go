@@ -107,7 +107,7 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryIamBinding) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepositoryIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ArtifactRegistryRepositoryIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

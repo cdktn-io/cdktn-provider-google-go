@@ -51,7 +51,7 @@ func (g *jsiiProxy_GkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlock
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlocksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlocksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlock
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlocksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlocksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlocksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeonpremVmwareAdminClusterNetworkConfigStaticIpConfigIpBlocksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_ComputeImageIamBinding) validateSetImageParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_ComputeImageIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeImageIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

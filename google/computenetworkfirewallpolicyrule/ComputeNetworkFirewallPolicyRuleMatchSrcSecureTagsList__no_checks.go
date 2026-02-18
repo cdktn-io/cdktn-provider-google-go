@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) valid
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) valid
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsList) valid
 	return nil
 }
 
-func validateNewComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeNetworkFirewallPolicyRuleMatchSrcSecureTagsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package gkehubscopeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubscopeiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkehubscopeiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeHubScopeIamMemberConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GkeHubScopeIamMemberConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type GkeHubScopeIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type GkeHubScopeIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type GkeHubScopeIamMemberConditionOutputReference interface {
 
 // The jsii proxy struct for GkeHubScopeIamMemberConditionOutputReference
 type jsiiProxy_GkeHubScopeIamMemberConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) TitleInput() *s
 }
 
 
-func NewGkeHubScopeIamMemberConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GkeHubScopeIamMemberConditionOutputReference {
+func NewGkeHubScopeIamMemberConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GkeHubScopeIamMemberConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGkeHubScopeIamMemberConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewGkeHubScopeIamMemberConditionOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewGkeHubScopeIamMemberConditionOutputReference_Override(g GkeHubScopeIamMemberConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGkeHubScopeIamMemberConditionOutputReference_Override(g GkeHubScopeIamMemberConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -492,8 +492,8 @@ func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -505,11 +505,11 @@ func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) InterpolationAs
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,7 +529,7 @@ func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) ResetDescriptio
 	)
 }
 
-func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GkeHubScopeIamMemberConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

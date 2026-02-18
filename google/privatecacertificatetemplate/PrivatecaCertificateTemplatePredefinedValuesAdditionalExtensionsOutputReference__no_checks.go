@@ -51,7 +51,7 @@ func (p *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
 	return nil
 }
 
-func validateNewPrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -127,7 +127,7 @@ func (j *jsiiProxy_EventarcMessageBus) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_EventarcMessageBus) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventarcMessageBus) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

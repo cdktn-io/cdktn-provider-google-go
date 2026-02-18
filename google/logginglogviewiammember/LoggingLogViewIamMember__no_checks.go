@@ -111,7 +111,7 @@ func (j *jsiiProxy_LoggingLogViewIamMember) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_LoggingLogViewIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoggingLogViewIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

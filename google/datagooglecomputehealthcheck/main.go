@@ -74,7 +74,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheck{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -139,7 +139,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -164,7 +164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckHttp2HealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -203,7 +203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckHttp2HealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -228,7 +228,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckHttpHealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckHttpHealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckHttpsHealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -331,7 +331,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckHttpsHealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -356,7 +356,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckLogConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -389,7 +389,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckLogConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -414,7 +414,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckSslHealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -452,7 +452,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckSslHealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -477,7 +477,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckTcpHealthCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -515,7 +515,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeHealthCheckTcpHealthCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

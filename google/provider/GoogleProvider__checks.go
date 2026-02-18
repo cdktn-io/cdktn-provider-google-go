@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleProvider) validateAddOverrideParameters(path *string, value interface{}) error {
@@ -80,11 +80,11 @@ func (j *jsiiProxy_GoogleProvider) validateSetAddTerraformAttributionLabelParame
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -93,7 +93,7 @@ func (j *jsiiProxy_GoogleProvider) validateSetAddTerraformAttributionLabelParame
 
 func (j *jsiiProxy_GoogleProvider) validateSetBatchingParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleProviderBatching:
 		val := val.(*[]*GoogleProviderBatching)
@@ -112,7 +112,7 @@ func (j *jsiiProxy_GoogleProvider) validateSetBatchingParameters(val interface{}
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleProviderBatching; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleProviderBatching; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -121,7 +121,7 @@ func (j *jsiiProxy_GoogleProvider) validateSetBatchingParameters(val interface{}
 
 func (j *jsiiProxy_GoogleProvider) validateSetExternalCredentialsParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleProviderExternalCredentials:
 		val := val.(*[]*GoogleProviderExternalCredentials)
@@ -140,7 +140,7 @@ func (j *jsiiProxy_GoogleProvider) validateSetExternalCredentialsParameters(val 
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleProviderExternalCredentials; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleProviderExternalCredentials; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -153,11 +153,11 @@ func (j *jsiiProxy_GoogleProvider) validateSetUserProjectOverrideParameters(val 
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 

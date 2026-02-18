@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateGetParamet
 	return nil
 }
 
-func (s *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewSecureSourceManagerInstanceHostConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecureSourceManagerInstanceHostConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

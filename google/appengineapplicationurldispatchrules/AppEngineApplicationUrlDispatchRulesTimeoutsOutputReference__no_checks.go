@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) 
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewAppEngineApplicationUrlDispatchRulesTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppEngineApplicationUrlDispatchRulesTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

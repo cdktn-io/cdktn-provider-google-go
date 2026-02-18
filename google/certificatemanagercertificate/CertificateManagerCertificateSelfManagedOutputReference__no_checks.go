@@ -47,7 +47,7 @@ func (c *jsiiProxy_CertificateManagerCertificateSelfManagedOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateSelfManagedOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CertificateManagerCertificateSelfManagedOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_CertificateManagerCertificateSelfManagedOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateSelfManagedOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CertificateManagerCertificateSelfManagedOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCertificateManagerCertificateSelfManagedOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCertificateManagerCertificateSelfManagedOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

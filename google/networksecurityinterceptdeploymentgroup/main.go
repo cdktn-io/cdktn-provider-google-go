@@ -89,7 +89,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityInterceptDeploymentGroup{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityInterceptDeploymentGroupConnectedEndpointGroupsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -151,7 +151,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityInterceptDeploymentGroupConnectedEndpointGroupsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityInterceptDeploymentGroupLocationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -210,7 +210,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityInterceptDeploymentGroupLocationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -255,7 +255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityInterceptDeploymentGroupTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -5,14 +5,14 @@ package gkebackupbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkebackupbackupplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkebackupbackupplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeBackupBackupPlanRetentionPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackupDeleteLockDays() *float64
 	SetBackupDeleteLockDays(val *float64)
 	BackupDeleteLockDaysInput() *float64
@@ -46,15 +46,15 @@ type GkeBackupBackupPlanRetentionPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GkeBackupBackupPlanRetentionPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBackupDeleteLockDays()
 	ResetBackupRetainDays()
 	ResetLocked()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GkeBackupBackupPlanRetentionPolicyOutputReference interface {
 
 // The jsii proxy struct for GkeBackupBackupPlanRetentionPolicyOutputReference
 type jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) BackupDeleteLockDays() *float64 {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) TerraformR
 }
 
 
-func NewGkeBackupBackupPlanRetentionPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GkeBackupBackupPlanRetentionPolicyOutputReference {
+func NewGkeBackupBackupPlanRetentionPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GkeBackupBackupPlanRetentionPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGkeBackupBackupPlanRetentionPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGkeBackupBackupPlanRetentionPolicyOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewGkeBackupBackupPlanRetentionPolicyOutputReference_Override(g GkeBackupBackupPlanRetentionPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGkeBackupBackupPlanRetentionPolicyOutputReference_Override(g GkeBackupBackupPlanRetentionPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) GetAnyMapA
 	return returns
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) GetStringM
 	return returns
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) Interpolat
 	return returns
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) ResetLocke
 	)
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

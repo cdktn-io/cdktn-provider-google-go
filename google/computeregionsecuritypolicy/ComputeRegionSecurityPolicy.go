@@ -5,20 +5,20 @@ package computeregionsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeregionsecuritypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeregionsecuritypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_security_policy google_compute_region_security_policy}.
 type ComputeRegionSecurityPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdvancedOptionsConfig() ComputeRegionSecurityPolicyAdvancedOptionsConfigOutputReference
 	AdvancedOptionsConfigInput() *ComputeRegionSecurityPolicyAdvancedOptionsConfig
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type ComputeRegionSecurityPolicy interface {
 	DescriptionInput() *string
 	Fingerprint() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,9 +51,9 @@ type ComputeRegionSecurityPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -64,9 +64,9 @@ type ComputeRegionSecurityPolicy interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type ComputeRegionSecurityPolicy interface {
 	SelfLink() *string
 	SelfLinkWithPolicyId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type ComputeRegionSecurityPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type ComputeRegionSecurityPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -169,7 +169,7 @@ type ComputeRegionSecurityPolicy interface {
 
 // The jsii proxy struct for ComputeRegionSecurityPolicy
 type jsiiProxy_ComputeRegionSecurityPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ComputeRegionSecurityPolicy) AdvancedOptionsConfig() ComputeRegionSecurityPolicyAdvancedOptionsConfigOutputReference {
@@ -192,8 +192,8 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) AdvancedOptionsConfigInput() *Co
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) Fingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -412,8 +412,8 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -502,8 +502,8 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) SelfLinkWithPolicyId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -663,7 +663,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -682,7 +682,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -715,7 +715,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -756,14 +756,14 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ComputeRegionSecurityPolicy resource upon running "cdktf plan <stack-name>".
-func ComputeRegionSecurityPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ComputeRegionSecurityPolicy resource upon running "cdktn plan <stack-name>".
+func ComputeRegionSecurityPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateComputeRegionSecurityPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.computeRegionSecurityPolicy.ComputeRegionSecurityPolicy",
@@ -897,11 +897,11 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicy) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeRegionSecurityPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1038,7 +1038,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ComputeRegionSecurityPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1049,11 +1049,11 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicy) ImportFrom(id *string, provider 
 	)
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeRegionSecurityPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

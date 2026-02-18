@@ -5,14 +5,14 @@ package networksecurityauthzpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networksecurityauthzpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networksecurityauthzpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList inte
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList inte
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList inte
 
 // The jsii proxy struct for NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList
 type jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHe
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHe
 }
 
 
-func NewNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList {
+func NewNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList {
 	_init_.Initialize()
 
 	if err := validateNewNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList(t
 	return &j
 }
 
-func NewNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList_Override(n NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewNetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList_Override(n NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHe
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHe
 	)
 }
 
-func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := n.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		n,
@@ -231,7 +231,7 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHe
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToNotOperationsHeaderSetHeadersList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

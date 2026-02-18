@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateIn
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IamWorkforcePoolIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewIamWorkforcePoolIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIamWorkforcePoolIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

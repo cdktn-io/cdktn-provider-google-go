@@ -102,7 +102,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityAction{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -138,7 +138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionAllowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -250,7 +250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionDenyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -280,7 +280,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionFlagHeadersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -318,7 +318,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionFlagHeadersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionFlagOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -396,7 +396,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeSecurityActionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

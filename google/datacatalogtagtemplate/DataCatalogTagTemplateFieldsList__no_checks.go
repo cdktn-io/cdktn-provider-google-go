@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataCatalogTagTemplateFieldsList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataCatalogTagTemplateFieldsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataCatalogTagTemplateFieldsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataCatalogTagTemplateFieldsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogTagTemplateFieldsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataCatalogTagTemplateFieldsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataCatalogTagTemplateFieldsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataCatalogTagTemplateFieldsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataCatalogTagTemplateFieldsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

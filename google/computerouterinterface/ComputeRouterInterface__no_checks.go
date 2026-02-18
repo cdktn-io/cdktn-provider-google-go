@@ -119,7 +119,7 @@ func (j *jsiiProxy_ComputeRouterInterface) validateSetIpVersionParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterInterface) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRouterInterface) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

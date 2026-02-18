@@ -100,7 +100,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TpuNode{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -129,7 +129,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TpuNodeNetworkEndpointsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -163,7 +163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TpuNodeNetworkEndpointsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -201,7 +201,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TpuNodeSchedulingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -246,7 +246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TpuNodeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

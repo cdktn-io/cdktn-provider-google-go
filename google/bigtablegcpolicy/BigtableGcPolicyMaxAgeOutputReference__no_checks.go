@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableGcPolicyMaxAgeOutputReference) validateInterpolationF
 	return nil
 }
 
-func (b *jsiiProxy_BigtableGcPolicyMaxAgeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableGcPolicyMaxAgeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BigtableGcPolicyMaxAgeOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_BigtableGcPolicyMaxAgeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableGcPolicyMaxAgeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigtableGcPolicyMaxAgeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigtableGcPolicyMaxAgeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

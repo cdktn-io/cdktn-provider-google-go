@@ -71,7 +71,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -114,7 +114,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigAddonsConfigAdvancedApiOpsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -154,7 +154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -194,7 +194,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigAddonsConfigConnectorsPlatformConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -233,7 +233,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigAddonsConfigIntegrationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -272,7 +272,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigAddonsConfigMonetizationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -324,7 +324,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -373,7 +373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeAddonsConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

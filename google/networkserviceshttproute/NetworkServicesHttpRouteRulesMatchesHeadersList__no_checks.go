@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateGetP
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesMatchesHeadersList) validateSetW
 	return nil
 }
 
-func validateNewNetworkServicesHttpRouteRulesMatchesHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkServicesHttpRouteRulesMatchesHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

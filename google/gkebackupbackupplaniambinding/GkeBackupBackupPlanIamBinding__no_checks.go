@@ -107,7 +107,7 @@ func (j *jsiiProxy_GkeBackupBackupPlanIamBinding) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeBackupBackupPlanIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

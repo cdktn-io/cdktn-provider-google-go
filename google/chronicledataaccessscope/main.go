@@ -94,7 +94,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScope{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -139,7 +139,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -161,7 +161,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -256,7 +256,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabelOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -278,7 +278,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -324,7 +324,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -369,7 +369,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

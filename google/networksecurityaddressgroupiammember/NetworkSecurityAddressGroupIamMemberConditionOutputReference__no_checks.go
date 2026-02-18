@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference)
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NetworkSecurityAddressGroupIamMemberConditionOutputReference)
 	return nil
 }
 
-func validateNewNetworkSecurityAddressGroupIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityAddressGroupIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

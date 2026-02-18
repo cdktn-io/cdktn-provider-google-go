@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataprocSessionTemplate) validateSetLabelsParameters(val *map
 	return nil
 }
 
-func (j *jsiiProxy_DataprocSessionTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocSessionTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

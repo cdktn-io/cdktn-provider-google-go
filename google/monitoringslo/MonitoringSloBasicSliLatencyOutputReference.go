@@ -5,14 +5,14 @@ package monitoringslo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringslo/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/monitoringslo/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitoringSloBasicSliLatencyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type MonitoringSloBasicSliLatencyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() *string
 	SetThreshold(val *string)
 	ThresholdInput() *string
@@ -48,7 +48,7 @@ type MonitoringSloBasicSliLatencyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type MonitoringSloBasicSliLatencyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type MonitoringSloBasicSliLatencyOutputReference interface {
 
 // The jsii proxy struct for MonitoringSloBasicSliLatencyOutputReference
 type jsiiProxy_MonitoringSloBasicSliLatencyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) ThresholdInput()
 }
 
 
-func NewMonitoringSloBasicSliLatencyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitoringSloBasicSliLatencyOutputReference {
+func NewMonitoringSloBasicSliLatencyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitoringSloBasicSliLatencyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitoringSloBasicSliLatencyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewMonitoringSloBasicSliLatencyOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewMonitoringSloBasicSliLatencyOutputReference_Override(m MonitoringSloBasicSliLatencyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitoringSloBasicSliLatencyOutputReference_Override(m MonitoringSloBasicSliLatencyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -423,8 +423,8 @@ func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) InterpolationAsL
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -452,7 +452,7 @@ func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) InterpolationFor
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitoringSloBasicSliLatencyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

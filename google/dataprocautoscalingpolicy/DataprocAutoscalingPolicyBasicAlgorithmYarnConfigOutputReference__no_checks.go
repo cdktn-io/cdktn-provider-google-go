@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocAutoscalingPolicyBasicAlgorithmYarnConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

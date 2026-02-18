@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewDataLossPreventionInspectTemplateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionInspectTemplateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

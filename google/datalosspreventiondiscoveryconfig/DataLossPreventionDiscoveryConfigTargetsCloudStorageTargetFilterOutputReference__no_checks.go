@@ -59,7 +59,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFil
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFil
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

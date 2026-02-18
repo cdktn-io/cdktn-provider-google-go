@@ -5,14 +5,14 @@ package networkmanagementconnectivitytest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkmanagementconnectivitytest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkmanagementconnectivitytest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkManagementConnectivityTestSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppEngineVersion() NetworkManagementConnectivityTestSourceAppEngineVersionOutputReference
 	AppEngineVersionInput() *NetworkManagementConnectivityTestSourceAppEngineVersion
 	CloudFunction() NetworkManagementConnectivityTestSourceCloudFunctionOutputReference
@@ -67,15 +67,15 @@ type NetworkManagementConnectivityTestSourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type NetworkManagementConnectivityTestSourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAppEngineVersion(value *NetworkManagementConnectivityTestSourceAppEngineVersion)
 	PutCloudFunction(value *NetworkManagementConnectivityTestSourceCloudFunction)
 	PutCloudRunRevision(value *NetworkManagementConnectivityTestSourceCloudRunRevision)
@@ -110,7 +110,7 @@ type NetworkManagementConnectivityTestSourceOutputReference interface {
 	ResetProjectId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type NetworkManagementConnectivityTestSourceOutputReference interface {
 
 // The jsii proxy struct for NetworkManagementConnectivityTestSourceOutputReference
 type jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) AppEngineVersion() NetworkManagementConnectivityTestSourceAppEngineVersionOutputReference {
@@ -403,8 +403,8 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -414,7 +414,7 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) Terra
 }
 
 
-func NewNetworkManagementConnectivityTestSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkManagementConnectivityTestSourceOutputReference {
+func NewNetworkManagementConnectivityTestSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkManagementConnectivityTestSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkManagementConnectivityTestSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -431,7 +431,7 @@ func NewNetworkManagementConnectivityTestSourceOutputReference(terraformResource
 	return &j
 }
 
-func NewNetworkManagementConnectivityTestSourceOutputReference_Override(n NetworkManagementConnectivityTestSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkManagementConnectivityTestSourceOutputReference_Override(n NetworkManagementConnectivityTestSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -573,7 +573,7 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -613,11 +613,11 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) GetAn
 	return returns
 }
 
-func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -741,8 +741,8 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) GetSt
 	return returns
 }
 
-func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -754,11 +754,11 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) Inter
 	return returns
 }
 
-func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -891,7 +891,7 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) Reset
 	)
 }
 
-func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

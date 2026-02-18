@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudTasksQueueRetryConfigOutputReference) validateInterpolat
 	return nil
 }
 
-func (c *jsiiProxy_CloudTasksQueueRetryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudTasksQueueRetryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_CloudTasksQueueRetryConfigOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CloudTasksQueueRetryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudTasksQueueRetryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudTasksQueueRetryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudTasksQueueRetryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

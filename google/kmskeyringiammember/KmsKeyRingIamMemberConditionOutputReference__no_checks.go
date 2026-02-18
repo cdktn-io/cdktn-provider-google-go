@@ -47,7 +47,7 @@ func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateInterpol
 	return nil
 }
 
-func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTitle
 	return nil
 }
 
-func validateNewKmsKeyRingIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsKeyRingIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

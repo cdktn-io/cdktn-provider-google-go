@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBucketCorsOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketCorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketCorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_StorageBucketCorsOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketCorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketCorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBucketCorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageBucketCorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

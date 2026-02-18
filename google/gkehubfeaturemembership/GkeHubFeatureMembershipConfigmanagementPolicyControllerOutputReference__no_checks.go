@@ -51,7 +51,7 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementPolicyControllerOutput
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementPolicyControllerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementPolicyControllerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementPolicyControllerOutput
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementPolicyControllerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementPolicyControllerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubFeatureMembershipConfigmanagementPolicyControllerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubFeatureMembershipConfigmanagementPolicyControllerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package notebooksinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/notebooksinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/notebooksinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NotebooksInstanceReservationAffinityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type NotebooksInstanceReservationAffinityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -54,7 +54,7 @@ type NotebooksInstanceReservationAffinityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type NotebooksInstanceReservationAffinityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKey()
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type NotebooksInstanceReservationAffinityOutputReference interface {
 
 // The jsii proxy struct for NotebooksInstanceReservationAffinityOutputReference
 type jsiiProxy_NotebooksInstanceReservationAffinityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) ValuesIn
 }
 
 
-func NewNotebooksInstanceReservationAffinityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NotebooksInstanceReservationAffinityOutputReference {
+func NewNotebooksInstanceReservationAffinityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NotebooksInstanceReservationAffinityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNotebooksInstanceReservationAffinityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewNotebooksInstanceReservationAffinityOutputReference(terraformResource cd
 	return &j
 }
 
-func NewNotebooksInstanceReservationAffinityOutputReference_Override(n NotebooksInstanceReservationAffinityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNotebooksInstanceReservationAffinityOutputReference_Override(n NotebooksInstanceReservationAffinityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) GetAnyMa
 	return returns
 }
 
-func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -493,8 +493,8 @@ func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) GetStrin
 	return returns
 }
 
-func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -506,11 +506,11 @@ func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) Interpol
 	return returns
 }
 
-func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -538,7 +538,7 @@ func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) ResetVal
 	)
 }
 
-func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NotebooksInstanceReservationAffinityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

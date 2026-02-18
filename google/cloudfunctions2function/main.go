@@ -99,7 +99,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2Function{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -139,7 +139,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionBuildConfigOnDeployUpdatePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -239,7 +239,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -283,7 +283,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -340,7 +340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceRepoSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -385,7 +385,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionEventTriggerEventFiltersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionEventTriggerEventFiltersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -510,7 +510,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionEventTriggerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -598,7 +598,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -624,7 +624,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -664,7 +664,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -690,7 +690,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigSecretVolumesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -732,7 +732,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigSecretVolumesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -758,7 +758,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigSecretVolumesVersionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -794,7 +794,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionServiceConfigSecretVolumesVersionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -839,7 +839,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Cloudfunctions2FunctionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -5,14 +5,14 @@ package beyondcorpapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/beyondcorpapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/beyondcorpapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BeyondcorpApplicationUpstreamsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type BeyondcorpApplicationUpstreamsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type BeyondcorpApplicationUpstreamsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEgressPolicy(value *BeyondcorpApplicationUpstreamsEgressPolicy)
 	PutNetwork(value *BeyondcorpApplicationUpstreamsNetwork)
 	ResetEgressPolicy()
 	ResetNetwork()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type BeyondcorpApplicationUpstreamsOutputReference interface {
 
 // The jsii proxy struct for BeyondcorpApplicationUpstreamsOutputReference
 type jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) TerraformResou
 }
 
 
-func NewBeyondcorpApplicationUpstreamsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BeyondcorpApplicationUpstreamsOutputReference {
+func NewBeyondcorpApplicationUpstreamsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BeyondcorpApplicationUpstreamsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBeyondcorpApplicationUpstreamsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewBeyondcorpApplicationUpstreamsOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewBeyondcorpApplicationUpstreamsOutputReference_Override(b BeyondcorpApplicationUpstreamsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBeyondcorpApplicationUpstreamsOutputReference_Override(b BeyondcorpApplicationUpstreamsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -437,8 +437,8 @@ func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) GetStringMapAt
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -450,11 +450,11 @@ func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) InterpolationA
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,7 +504,7 @@ func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) ResetNetwork()
 	)
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BeyondcorpApplicationUpstreamsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

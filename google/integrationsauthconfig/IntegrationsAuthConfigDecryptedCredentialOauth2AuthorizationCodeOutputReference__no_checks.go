@@ -47,7 +47,7 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return nil
 }
 
-func validateNewIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

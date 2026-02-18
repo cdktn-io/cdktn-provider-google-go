@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateGe
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigPolicyIdsList) validateSe
 	return nil
 }
 
-func validateNewPrivatecaCertificateConfigX509ConfigPolicyIdsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivatecaCertificateConfigX509ConfigPolicyIdsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

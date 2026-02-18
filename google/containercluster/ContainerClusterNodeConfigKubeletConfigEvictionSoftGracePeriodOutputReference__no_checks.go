@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePerio
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePerio
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

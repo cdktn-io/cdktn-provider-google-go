@@ -83,7 +83,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroup{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -112,7 +112,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupConfiguredList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -145,7 +145,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupConfiguredOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -174,7 +174,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -213,7 +213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -234,7 +234,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupConfiguredTopologyCapabilityList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -268,7 +268,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -307,7 +307,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupIntentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -333,7 +333,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupInterconnectsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -370,7 +370,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupInterconnectsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -395,7 +395,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -424,7 +424,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -483,7 +483,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -517,7 +517,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -538,7 +538,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureMetrosList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -572,7 +572,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureMetrosOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -605,7 +605,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupPhysicalStructureOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -650,7 +650,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInterconnectGroupTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

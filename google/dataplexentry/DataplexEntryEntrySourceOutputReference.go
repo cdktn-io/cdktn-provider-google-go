@@ -5,14 +5,14 @@ package dataplexentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataplexentry/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataplexentry/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataplexEntryEntrySourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Ancestors() DataplexEntryEntrySourceAncestorsList
 	AncestorsInput() interface{}
 	// the index of the complex object in a list.
@@ -61,9 +61,9 @@ type DataplexEntryEntrySourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpdateTime() *string
 	SetUpdateTime(val *string)
 	UpdateTimeInput() *string
@@ -72,7 +72,7 @@ type DataplexEntryEntrySourceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,9 +88,9 @@ type DataplexEntryEntrySourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAncestors(value interface{})
 	ResetAncestors()
 	ResetCreateTime()
@@ -103,7 +103,7 @@ type DataplexEntryEntrySourceOutputReference interface {
 	ResetUpdateTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -113,7 +113,7 @@ type DataplexEntryEntrySourceOutputReference interface {
 
 // The jsii proxy struct for DataplexEntryEntrySourceOutputReference
 type jsiiProxy_DataplexEntryEntrySourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference) Ancestors() DataplexEntryEntrySourceAncestorsList {
@@ -346,8 +346,8 @@ func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference) UpdateTimeInput() *s
 }
 
 
-func NewDataplexEntryEntrySourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataplexEntryEntrySourceOutputReference {
+func NewDataplexEntryEntrySourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataplexEntryEntrySourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataplexEntryEntrySourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -394,7 +394,7 @@ func NewDataplexEntryEntrySourceOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewDataplexEntryEntrySourceOutputReference_Override(d DataplexEntryEntrySourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataplexEntryEntrySourceOutputReference_Override(d DataplexEntryEntrySourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -525,7 +525,7 @@ func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataplexEntryEntrySourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -576,11 +576,11 @@ func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -704,8 +704,8 @@ func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -717,11 +717,11 @@ func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -816,7 +816,7 @@ func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) ResetUpdateTime() {
 	)
 }
 
-func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataplexEntryEntrySourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

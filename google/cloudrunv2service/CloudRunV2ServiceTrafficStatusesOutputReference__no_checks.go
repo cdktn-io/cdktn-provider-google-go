@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTrafficStatusesOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTrafficStatusesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTrafficStatusesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTrafficStatusesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTrafficStatusesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTrafficStatusesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTrafficStatusesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunV2ServiceTrafficStatusesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

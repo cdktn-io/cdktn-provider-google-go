@@ -47,7 +47,7 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) v
 	return nil
 }
 
-func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LoggingOrganizationBucketConfigIndexConfigsOutputReference) v
 	return nil
 }
 
-func validateNewLoggingOrganizationBucketConfigIndexConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLoggingOrganizationBucketConfigIndexConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

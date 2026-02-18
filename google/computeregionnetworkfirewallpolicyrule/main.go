@@ -110,7 +110,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -144,7 +144,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleMatchLayer4ConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -181,7 +181,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleMatchLayer4ConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -250,7 +250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -276,7 +276,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleMatchSrcSecureTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -312,7 +312,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleMatchSrcSecureTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -338,7 +338,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleTargetSecureTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -374,7 +374,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleTargetSecureTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionNetworkFirewallPolicyRuleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

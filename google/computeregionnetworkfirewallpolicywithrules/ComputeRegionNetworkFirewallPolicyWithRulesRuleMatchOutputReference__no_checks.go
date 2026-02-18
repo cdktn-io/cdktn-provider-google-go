@@ -55,7 +55,7 @@ func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputRef
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -115,11 +115,11 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionNetworkFirewallPolicyWithRulesRuleMatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

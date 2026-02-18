@@ -51,7 +51,7 @@ func (e *jsiiProxy_EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOut
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOut
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEdgecontainerClusterMaintenancePolicyMaintenanceExclusionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

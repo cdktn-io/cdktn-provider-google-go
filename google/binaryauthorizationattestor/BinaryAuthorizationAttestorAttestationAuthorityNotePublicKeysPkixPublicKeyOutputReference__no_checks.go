@@ -47,7 +47,7 @@ func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 	return nil
 }
 
-func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 	return nil
 }
 
-func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

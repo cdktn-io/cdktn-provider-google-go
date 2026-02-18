@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyDdosProtectionConfigOutputReferenc
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicyDdosProtectionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionSecurityPolicyDdosProtectionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyDdosProtectionConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicyDdosProtectionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionSecurityPolicyDdosProtectionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionSecurityPolicyDdosProtectionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionSecurityPolicyDdosProtectionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

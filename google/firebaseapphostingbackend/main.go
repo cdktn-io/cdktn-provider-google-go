@@ -105,7 +105,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackend{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -146,7 +146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackendManagedResourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -208,7 +208,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackendManagedResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -233,7 +233,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackendManagedResourcesRunServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -266,7 +266,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackendManagedResourcesRunServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -311,7 +311,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

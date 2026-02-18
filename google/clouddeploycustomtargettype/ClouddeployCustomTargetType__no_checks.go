@@ -123,7 +123,7 @@ func (j *jsiiProxy_ClouddeployCustomTargetType) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployCustomTargetType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ClouddeployCustomTargetType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRouteParamsOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouteParamsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouteParamsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeRouteParamsOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouteParamsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouteParamsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRouteParamsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRouteParamsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

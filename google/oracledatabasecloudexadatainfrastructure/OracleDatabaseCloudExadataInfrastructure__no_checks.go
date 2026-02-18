@@ -131,7 +131,7 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) validateSetLabelsPa
 	return nil
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

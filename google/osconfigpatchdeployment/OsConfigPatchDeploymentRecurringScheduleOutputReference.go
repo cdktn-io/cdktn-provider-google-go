@@ -5,14 +5,14 @@ package osconfigpatchdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osconfigpatchdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/osconfigpatchdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OsConfigPatchDeploymentRecurringScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -47,9 +47,9 @@ type OsConfigPatchDeploymentRecurringScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeOfDay() OsConfigPatchDeploymentRecurringScheduleTimeOfDayOutputReference
 	TimeOfDayInput() *OsConfigPatchDeploymentRecurringScheduleTimeOfDay
 	TimeZone() OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReference
@@ -61,7 +61,7 @@ type OsConfigPatchDeploymentRecurringScheduleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type OsConfigPatchDeploymentRecurringScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMonthly(value *OsConfigPatchDeploymentRecurringScheduleMonthly)
 	PutTimeOfDay(value *OsConfigPatchDeploymentRecurringScheduleTimeOfDay)
 	PutTimeZone(value *OsConfigPatchDeploymentRecurringScheduleTimeZone)
@@ -90,7 +90,7 @@ type OsConfigPatchDeploymentRecurringScheduleOutputReference interface {
 	ResetWeekly()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type OsConfigPatchDeploymentRecurringScheduleOutputReference interface {
 
 // The jsii proxy struct for OsConfigPatchDeploymentRecurringScheduleOutputReference
 type jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -243,8 +243,8 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -314,7 +314,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) Week
 }
 
 
-func NewOsConfigPatchDeploymentRecurringScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OsConfigPatchDeploymentRecurringScheduleOutputReference {
+func NewOsConfigPatchDeploymentRecurringScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OsConfigPatchDeploymentRecurringScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOsConfigPatchDeploymentRecurringScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -331,7 +331,7 @@ func NewOsConfigPatchDeploymentRecurringScheduleOutputReference(terraformResourc
 	return &j
 }
 
-func NewOsConfigPatchDeploymentRecurringScheduleOutputReference_Override(o OsConfigPatchDeploymentRecurringScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOsConfigPatchDeploymentRecurringScheduleOutputReference_Override(o OsConfigPatchDeploymentRecurringScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -407,7 +407,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -447,11 +447,11 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) GetA
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -575,8 +575,8 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) GetS
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -588,11 +588,11 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) Inte
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -680,7 +680,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) Rese
 	)
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

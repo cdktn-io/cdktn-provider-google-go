@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageInsightsReportConfigParquetOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageInsightsReportConfigParquetOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageInsightsReportConfigParquetOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

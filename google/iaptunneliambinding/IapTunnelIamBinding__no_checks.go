@@ -107,7 +107,7 @@ func (j *jsiiProxy_IapTunnelIamBinding) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_IapTunnelIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IapTunnelIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

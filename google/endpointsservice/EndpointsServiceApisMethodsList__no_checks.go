@@ -15,7 +15,7 @@ func (e *jsiiProxy_EndpointsServiceApisMethodsList) validateGetParameters(index 
 	return nil
 }
 
-func (e *jsiiProxy_EndpointsServiceApisMethodsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EndpointsServiceApisMethodsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_EndpointsServiceApisMethodsList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_EndpointsServiceApisMethodsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EndpointsServiceApisMethodsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_EndpointsServiceApisMethodsList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewEndpointsServiceApisMethodsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEndpointsServiceApisMethodsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

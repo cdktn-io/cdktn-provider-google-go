@@ -47,7 +47,7 @@ func (l *jsiiProxy_LoggingBillingAccountSinkExclusionsOutputReference) validateI
 	return nil
 }
 
-func (l *jsiiProxy_LoggingBillingAccountSinkExclusionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoggingBillingAccountSinkExclusionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LoggingBillingAccountSinkExclusionsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LoggingBillingAccountSinkExclusionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoggingBillingAccountSinkExclusionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLoggingBillingAccountSinkExclusionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLoggingBillingAccountSinkExclusionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReferenc
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsConfigPatchDeploymentRecurringScheduleMonthlyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigPatchDeploymentRecurringScheduleMonthlyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

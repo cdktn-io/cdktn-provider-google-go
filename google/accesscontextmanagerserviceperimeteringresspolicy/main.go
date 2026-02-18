@@ -80,7 +80,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -130,7 +130,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressFromOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -156,7 +156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -194,7 +194,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -224,7 +224,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -250,7 +250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -288,7 +288,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -327,7 +327,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -369,7 +369,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -411,7 +411,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterBinaryAuthorizationOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterBinaryAuthorizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterBinaryAuthorizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerClusterBinaryAuthorizationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterBinaryAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterBinaryAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterBinaryAuthorizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterBinaryAuthorizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

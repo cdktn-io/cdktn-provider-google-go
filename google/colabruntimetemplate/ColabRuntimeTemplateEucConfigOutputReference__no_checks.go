@@ -47,7 +47,7 @@ func (c *jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewColabRuntimeTemplateEucConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewColabRuntimeTemplateEucConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

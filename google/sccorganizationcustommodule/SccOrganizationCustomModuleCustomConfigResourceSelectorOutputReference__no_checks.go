@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutput
 	return nil
 }
 
-func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutput
 	return nil
 }
 
-func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSccOrganizationCustomModuleCustomConfigResourceSelectorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccOrganizationCustomModuleCustomConfigResourceSelectorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

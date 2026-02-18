@@ -5,22 +5,22 @@ package computeinterconnect
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinterconnect/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeinterconnect/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect google_compute_interconnect}.
 type ComputeInterconnect interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdminEnabled() interface{}
 	SetAdminEnabled(val interface{})
 	AdminEnabledInput() interface{}
 	AvailableFeatures() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CircuitInfos() ComputeInterconnectCircuitInfosList
 	// Experimental.
 	Connection() interface{}
@@ -43,12 +43,12 @@ type ComputeInterconnect interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ExpectedOutages() ComputeInterconnectExpectedOutagesList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -68,9 +68,9 @@ type ComputeInterconnect interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinkType() *string
 	SetLinkType(val *string)
 	LinkTypeInput() *string
@@ -96,9 +96,9 @@ type ComputeInterconnect interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProvisionedLinkCount() *float64
 	// Experimental.
 	Provisioners() *[]interface{}
@@ -115,11 +115,11 @@ type ComputeInterconnect interface {
 	RequestedLinkCount() *float64
 	SetRequestedLinkCount(val *float64)
 	RequestedLinkCountInput() *float64
-	SatisfiesPzs() cdktf.IResolvable
+	SatisfiesPzs() cdktn.IResolvable
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -134,7 +134,7 @@ type ComputeInterconnect interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -152,9 +152,9 @@ type ComputeInterconnect interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -201,7 +201,7 @@ type ComputeInterconnect interface {
 
 // The jsii proxy struct for ComputeInterconnect
 type jsiiProxy_ComputeInterconnect struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ComputeInterconnect) AdminEnabled() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_ComputeInterconnect) AvailableFeatures() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ComputeInterconnect) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -344,8 +344,8 @@ func (j *jsiiProxy_ComputeInterconnect) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ComputeInterconnect) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -364,8 +364,8 @@ func (j *jsiiProxy_ComputeInterconnect) ExpectedOutages() ComputeInterconnectExp
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ComputeInterconnect) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -504,8 +504,8 @@ func (j *jsiiProxy_ComputeInterconnect) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ComputeInterconnect) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -684,8 +684,8 @@ func (j *jsiiProxy_ComputeInterconnect) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ComputeInterconnect) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -784,8 +784,8 @@ func (j *jsiiProxy_ComputeInterconnect) RequestedLinkCountInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) SatisfiesPzs() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ComputeInterconnect) SatisfiesPzs() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"satisfiesPzs",
@@ -804,8 +804,8 @@ func (j *jsiiProxy_ComputeInterconnect) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ComputeInterconnect) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -814,8 +814,8 @@ func (j *jsiiProxy_ComputeInterconnect) TerraformGeneratorMetadata() *cdktf.Terr
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnect) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ComputeInterconnect) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -957,7 +957,7 @@ func (j *jsiiProxy_ComputeInterconnect)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeInterconnect)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ComputeInterconnect)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -998,7 +998,7 @@ func (j *jsiiProxy_ComputeInterconnect)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeInterconnect)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ComputeInterconnect)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1075,7 +1075,7 @@ func (j *jsiiProxy_ComputeInterconnect)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeInterconnect)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ComputeInterconnect)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1127,14 +1127,14 @@ func (j *jsiiProxy_ComputeInterconnect)SetRequestedLinkCount(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a ComputeInterconnect resource upon running "cdktf plan <stack-name>".
-func ComputeInterconnect_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ComputeInterconnect resource upon running "cdktn plan <stack-name>".
+func ComputeInterconnect_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateComputeInterconnect_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.computeInterconnect.ComputeInterconnect",
@@ -1268,11 +1268,11 @@ func (c *jsiiProxy_ComputeInterconnect) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInterconnect) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInterconnect) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1409,7 +1409,7 @@ func (c *jsiiProxy_ComputeInterconnect) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInterconnect) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ComputeInterconnect) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1420,11 +1420,11 @@ func (c *jsiiProxy_ComputeInterconnect) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (c *jsiiProxy_ComputeInterconnect) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInterconnect) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageKnowledgeConnectorSettingsDataStoreConnection
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DialogflowCxPageKnowledgeConnectorSettingsDataStoreConnection
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxPageKnowledgeConnectorSettingsDataStoreConnectionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package computenetworkattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computenetworkattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computenetworkattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_network_attachment google_compute_network_attachment}.
 type ComputeNetworkAttachment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type ComputeNetworkAttachment interface {
 	DescriptionInput() *string
 	Fingerprint() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,9 +51,9 @@ type ComputeNetworkAttachment interface {
 	Id() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type ComputeNetworkAttachment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type ComputeNetworkAttachment interface {
 	SetSubnetworks(val *[]*string)
 	SubnetworksInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type ComputeNetworkAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type ComputeNetworkAttachment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -163,11 +163,11 @@ type ComputeNetworkAttachment interface {
 
 // The jsii proxy struct for ComputeNetworkAttachment
 type jsiiProxy_ComputeNetworkAttachment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ComputeNetworkAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_ComputeNetworkAttachment) Fingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ComputeNetworkAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_ComputeNetworkAttachment) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ComputeNetworkAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -446,8 +446,8 @@ func (j *jsiiProxy_ComputeNetworkAttachment) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ComputeNetworkAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -536,8 +536,8 @@ func (j *jsiiProxy_ComputeNetworkAttachment) SubnetworksInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ComputeNetworkAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -668,7 +668,7 @@ func (j *jsiiProxy_ComputeNetworkAttachment)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ComputeNetworkAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -676,7 +676,7 @@ func (j *jsiiProxy_ComputeNetworkAttachment)SetForEach(val cdktf.ITerraformItera
 	)
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ComputeNetworkAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -731,7 +731,7 @@ func (j *jsiiProxy_ComputeNetworkAttachment)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeNetworkAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ComputeNetworkAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -772,14 +772,14 @@ func (j *jsiiProxy_ComputeNetworkAttachment)SetSubnetworks(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a ComputeNetworkAttachment resource upon running "cdktf plan <stack-name>".
-func ComputeNetworkAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ComputeNetworkAttachment resource upon running "cdktn plan <stack-name>".
+func ComputeNetworkAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateComputeNetworkAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.computeNetworkAttachment.ComputeNetworkAttachment",
@@ -913,11 +913,11 @@ func (c *jsiiProxy_ComputeNetworkAttachment) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (c *jsiiProxy_ComputeNetworkAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeNetworkAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1054,7 +1054,7 @@ func (c *jsiiProxy_ComputeNetworkAttachment) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ComputeNetworkAttachment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ComputeNetworkAttachment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1065,11 +1065,11 @@ func (c *jsiiProxy_ComputeNetworkAttachment) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (c *jsiiProxy_ComputeNetworkAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeNetworkAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

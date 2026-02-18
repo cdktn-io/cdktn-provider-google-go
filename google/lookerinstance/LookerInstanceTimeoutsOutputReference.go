@@ -5,14 +5,14 @@ package lookerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/lookerinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/lookerinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LookerInstanceTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type LookerInstanceTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type LookerInstanceTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type LookerInstanceTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type LookerInstanceTimeoutsOutputReference interface {
 
 // The jsii proxy struct for LookerInstanceTimeoutsOutputReference
 type jsiiProxy_LookerInstanceTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference) UpdateInput() *string 
 }
 
 
-func NewLookerInstanceTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LookerInstanceTimeoutsOutputReference {
+func NewLookerInstanceTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LookerInstanceTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLookerInstanceTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewLookerInstanceTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewLookerInstanceTimeoutsOutputReference_Override(l LookerInstanceTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLookerInstanceTimeoutsOutputReference_Override(l LookerInstanceTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LookerInstanceTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -494,8 +494,8 @@ func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -507,11 +507,11 @@ func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -547,7 +547,7 @@ func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LookerInstanceTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

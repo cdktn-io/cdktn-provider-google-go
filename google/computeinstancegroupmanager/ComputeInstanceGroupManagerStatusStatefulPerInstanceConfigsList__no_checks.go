@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsLi
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsLi
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsLi
 	return nil
 }
 
-func validateNewComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

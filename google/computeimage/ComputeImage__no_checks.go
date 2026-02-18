@@ -155,7 +155,7 @@ func (j *jsiiProxy_ComputeImage) validateSetLicensesParameters(val *[]*string) e
 	return nil
 }
 
-func (j *jsiiProxy_ComputeImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

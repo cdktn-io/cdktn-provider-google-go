@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigHybridOpti
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigHybridOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigHybridOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigHybridOpti
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigHybridOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigHybridOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobStorageConfigHybridOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionJobTriggerInspectJobStorageConfigHybridOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -135,7 +135,7 @@ func (j *jsiiProxy_GkeBackupBackupPlan) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeBackupBackupPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

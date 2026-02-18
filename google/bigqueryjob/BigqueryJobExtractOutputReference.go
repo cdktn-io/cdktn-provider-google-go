@@ -5,14 +5,14 @@ package bigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigqueryjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryJobExtractOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -56,9 +56,9 @@ type BigqueryJobExtractOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseAvroLogicalTypes() interface{}
 	SetUseAvroLogicalTypes(val interface{})
 	UseAvroLogicalTypesInput() interface{}
@@ -67,7 +67,7 @@ type BigqueryJobExtractOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,9 +83,9 @@ type BigqueryJobExtractOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSourceModel(value *BigqueryJobExtractSourceModel)
 	PutSourceTable(value *BigqueryJobExtractSourceTable)
 	ResetCompression()
@@ -97,7 +97,7 @@ type BigqueryJobExtractOutputReference interface {
 	ResetUseAvroLogicalTypes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type BigqueryJobExtractOutputReference interface {
 
 // The jsii proxy struct for BigqueryJobExtractOutputReference
 type jsiiProxy_BigqueryJobExtractOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryJobExtractOutputReference) ComplexObjectIndex() interface{} {
@@ -310,8 +310,8 @@ func (j *jsiiProxy_BigqueryJobExtractOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryJobExtractOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryJobExtractOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_BigqueryJobExtractOutputReference) UseAvroLogicalTypesInput()
 }
 
 
-func NewBigqueryJobExtractOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigqueryJobExtractOutputReference {
+func NewBigqueryJobExtractOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigqueryJobExtractOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryJobExtractOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -358,7 +358,7 @@ func NewBigqueryJobExtractOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewBigqueryJobExtractOutputReference_Override(b BigqueryJobExtractOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigqueryJobExtractOutputReference_Override(b BigqueryJobExtractOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -467,7 +467,7 @@ func (j *jsiiProxy_BigqueryJobExtractOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_BigqueryJobExtractOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryJobExtractOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -518,11 +518,11 @@ func (b *jsiiProxy_BigqueryJobExtractOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryJobExtractOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryJobExtractOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -646,8 +646,8 @@ func (b *jsiiProxy_BigqueryJobExtractOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryJobExtractOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryJobExtractOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -659,11 +659,11 @@ func (b *jsiiProxy_BigqueryJobExtractOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryJobExtractOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryJobExtractOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -753,7 +753,7 @@ func (b *jsiiProxy_BigqueryJobExtractOutputReference) ResetUseAvroLogicalTypes()
 	)
 }
 
-func (b *jsiiProxy_BigqueryJobExtractOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryJobExtractOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

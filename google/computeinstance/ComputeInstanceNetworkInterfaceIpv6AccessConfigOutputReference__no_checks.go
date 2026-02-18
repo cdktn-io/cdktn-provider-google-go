@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReferenc
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

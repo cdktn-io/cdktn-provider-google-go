@@ -91,7 +91,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LoggingOrganizationSink{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -129,7 +129,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LoggingOrganizationSinkBigqueryOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -159,7 +159,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LoggingOrganizationSinkExclusionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -201,7 +201,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LoggingOrganizationSinkExclusionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

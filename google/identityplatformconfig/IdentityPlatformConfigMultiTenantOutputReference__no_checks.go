@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentityPlatformConfigMultiTenantOutputReference) validateInt
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigMultiTenantOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformConfigMultiTenantOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IdentityPlatformConfigMultiTenantOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigMultiTenantOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformConfigMultiTenantOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentityPlatformConfigMultiTenantOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentityPlatformConfigMultiTenantOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

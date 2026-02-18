@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeImageIamBindingConditionOutputReference) validateSetTi
 	return nil
 }
 
-func validateNewComputeImageIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeImageIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsRecordSetRoutingPolicyGeoHealthCheckedTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

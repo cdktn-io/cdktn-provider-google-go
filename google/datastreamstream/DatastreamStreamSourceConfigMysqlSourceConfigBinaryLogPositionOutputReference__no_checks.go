@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositio
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositio
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

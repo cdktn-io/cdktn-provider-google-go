@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudRunServiceIamBinding) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunServiceIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudRunServiceIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

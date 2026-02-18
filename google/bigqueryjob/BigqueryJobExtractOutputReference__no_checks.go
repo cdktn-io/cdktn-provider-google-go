@@ -55,7 +55,7 @@ func (b *jsiiProxy_BigqueryJobExtractOutputReference) validatePutSourceTablePara
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryJobExtractOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryJobExtractOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_BigqueryJobExtractOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryJobExtractOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryJobExtractOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_BigqueryJobExtractOutputReference) validateSetUseAvroLogicalT
 	return nil
 }
 
-func validateNewBigqueryJobExtractOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryJobExtractOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

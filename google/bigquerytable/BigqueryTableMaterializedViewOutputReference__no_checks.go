@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryTableMaterializedViewOutputReference) validateInterpo
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableMaterializedViewOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableMaterializedViewOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_BigqueryTableMaterializedViewOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableMaterializedViewOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableMaterializedViewOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryTableMaterializedViewOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableMaterializedViewOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package securesourcemanagerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/securesourcemanagerinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/securesourcemanagerinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecureSourceManagerInstancePrivateConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CaPool() *string
 	SetCaPool(val *string)
 	CaPoolInput() *string
@@ -45,15 +45,15 @@ type SecureSourceManagerInstancePrivateConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type SecureSourceManagerInstancePrivateConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SecureSourceManagerInstancePrivateConfigOutputReference interface {
 
 // The jsii proxy struct for SecureSourceManagerInstancePrivateConfigOutputReference
 type jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) CaPool() *string {
@@ -207,8 +207,8 @@ func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -218,7 +218,7 @@ func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Terr
 }
 
 
-func NewSecureSourceManagerInstancePrivateConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SecureSourceManagerInstancePrivateConfigOutputReference {
+func NewSecureSourceManagerInstancePrivateConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SecureSourceManagerInstancePrivateConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSecureSourceManagerInstancePrivateConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -235,7 +235,7 @@ func NewSecureSourceManagerInstancePrivateConfigOutputReference(terraformResourc
 	return &j
 }
 
-func NewSecureSourceManagerInstancePrivateConfigOutputReference_Override(s SecureSourceManagerInstancePrivateConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSecureSourceManagerInstancePrivateConfigOutputReference_Override(s SecureSourceManagerInstancePrivateConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -311,7 +311,7 @@ func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -351,11 +351,11 @@ func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -479,8 +479,8 @@ func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -492,11 +492,11 @@ func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -508,7 +508,7 @@ func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

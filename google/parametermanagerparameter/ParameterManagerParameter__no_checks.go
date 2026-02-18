@@ -119,7 +119,7 @@ func (j *jsiiProxy_ParameterManagerParameter) validateSetLabelsParameters(val *m
 	return nil
 }
 
-func (j *jsiiProxy_ParameterManagerParameter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ParameterManagerParameter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

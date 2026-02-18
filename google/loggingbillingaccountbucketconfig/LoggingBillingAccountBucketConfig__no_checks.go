@@ -123,7 +123,7 @@ func (j *jsiiProxy_LoggingBillingAccountBucketConfig) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_LoggingBillingAccountBucketConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoggingBillingAccountBucketConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

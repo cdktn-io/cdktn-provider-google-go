@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputRef
 	return nil
 }
 
-func validateNewDialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionLastExecutionOutp
 	return nil
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionLastExecutionOutp
 	return nil
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

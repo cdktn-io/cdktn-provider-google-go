@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (o *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateInterpolation
 	return nil
 }
 
-func (o *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetDeletePara
 
 func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *OrgPolicyPolicyTimeouts:
 		val := val.(*OrgPolicyPolicyTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetInternalVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *OrgPolicyPolicyTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *OrgPolicyPolicyTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_OrgPolicyPolicyTimeoutsOutputReference) validateSetUpdatePara
 	return nil
 }
 
-func validateNewOrgPolicyPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrgPolicyPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

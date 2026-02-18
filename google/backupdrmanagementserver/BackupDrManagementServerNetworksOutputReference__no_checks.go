@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupDrManagementServerNetworksOutputReference) validateInte
 	return nil
 }
 
-func (b *jsiiProxy_BackupDrManagementServerNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupDrManagementServerNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BackupDrManagementServerNetworksOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_BackupDrManagementServerNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupDrManagementServerNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupDrManagementServerNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBackupDrManagementServerNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

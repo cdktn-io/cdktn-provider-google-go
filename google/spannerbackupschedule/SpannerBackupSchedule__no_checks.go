@@ -131,7 +131,7 @@ func (j *jsiiProxy_SpannerBackupSchedule) validateSetInstanceParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_SpannerBackupSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpannerBackupSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

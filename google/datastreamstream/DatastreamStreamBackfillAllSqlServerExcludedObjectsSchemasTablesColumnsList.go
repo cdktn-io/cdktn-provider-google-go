@@ -5,14 +5,14 @@ package datastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datastreamstream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datastreamstream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList
 
 // The jsii proxy struct for DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList
 type jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	return returns
 }
 
-func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 }
 
 
-func NewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList {
+func NewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList {
 	_init_.Initialize()
 
 	if err := validateNewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsL
 	return &j
 }
 
-func NewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList_Override(d DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList_Override(d DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	)
 }
 
-func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	)
 }
 
-func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

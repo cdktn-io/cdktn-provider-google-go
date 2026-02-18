@@ -143,7 +143,7 @@ func (j *jsiiProxy_FilestoreInstance) validateSetLabelsParameters(val *map[strin
 	return nil
 }
 
-func (j *jsiiProxy_FilestoreInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FilestoreInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowCl
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowCl
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

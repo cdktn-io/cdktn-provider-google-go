@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) valida
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) valida
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) valida
 	return nil
 }
 
-func validateNewChronicleReferenceListScopeInfoReferenceListScopeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChronicleReferenceListScopeInfoReferenceListScopeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

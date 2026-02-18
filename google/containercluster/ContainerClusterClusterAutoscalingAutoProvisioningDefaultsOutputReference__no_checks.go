@@ -59,7 +59,7 @@ func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsOut
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,11 +107,11 @@ func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsOut
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterClusterAutoscalingAutoProvisioningDefaultsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterClusterAutoscalingAutoProvisioningDefaultsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterClusterAutoscalingAutoProvisioningDefaultsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

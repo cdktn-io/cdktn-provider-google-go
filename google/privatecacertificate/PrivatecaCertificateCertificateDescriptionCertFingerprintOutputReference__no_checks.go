@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionCertFingerprintOutp
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionCertFingerprintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionCertFingerprintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionCertFingerprintOutp
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionCertFingerprintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionCertFingerprintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivatecaCertificateCertificateDescriptionCertFingerprintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrivatecaCertificateCertificateDescriptionCertFingerprintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

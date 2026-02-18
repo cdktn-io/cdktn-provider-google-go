@@ -51,7 +51,7 @@ func (i *jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference) validatePu
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamWorkforcePoolAccessRestrictionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIamWorkforcePoolAccessRestrictionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileTimeoutsOutputRefere
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceConnectionProfileTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabaseMigrationServiceConnectionProfileTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

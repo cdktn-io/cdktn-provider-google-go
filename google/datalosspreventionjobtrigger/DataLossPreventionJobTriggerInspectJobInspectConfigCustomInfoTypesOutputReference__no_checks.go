@@ -71,7 +71,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfo
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfo
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

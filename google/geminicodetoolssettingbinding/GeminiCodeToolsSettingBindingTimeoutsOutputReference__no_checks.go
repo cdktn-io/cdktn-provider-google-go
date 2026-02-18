@@ -47,7 +47,7 @@ func (g *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingBindingTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewGeminiCodeToolsSettingBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGeminiCodeToolsSettingBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

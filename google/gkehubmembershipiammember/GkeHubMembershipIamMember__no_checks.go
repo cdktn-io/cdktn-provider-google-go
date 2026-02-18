@@ -107,7 +107,7 @@ func (j *jsiiProxy_GkeHubMembershipIamMember) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubMembershipIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeHubMembershipIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

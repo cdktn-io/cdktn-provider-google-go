@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputR
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRuleRateLimitOptionsBanThresholdAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

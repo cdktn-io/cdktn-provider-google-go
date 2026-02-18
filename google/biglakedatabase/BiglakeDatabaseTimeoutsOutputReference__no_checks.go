@@ -47,7 +47,7 @@ func (b *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateInterpolation
 	return nil
 }
 
-func (b *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BiglakeDatabaseTimeoutsOutputReference) validateSetUpdatePara
 	return nil
 }
 
-func validateNewBiglakeDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBiglakeDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

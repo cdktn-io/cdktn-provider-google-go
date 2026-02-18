@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAwsClusterControlPlaneAwsServicesAuthenticationOutpu
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsClusterControlPlaneAwsServicesAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsClusterControlPlaneAwsServicesAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerAwsClusterControlPlaneAwsServicesAuthenticationOutpu
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsClusterControlPlaneAwsServicesAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsClusterControlPlaneAwsServicesAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAwsClusterControlPlaneAwsServicesAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsClusterControlPlaneAwsServicesAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -90,7 +90,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlan{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -128,7 +128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigClusterResourceRestoreScopeExcludedGroupKindsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -166,7 +166,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigClusterResourceRestoreScopeExcludedGroupKindsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigClusterResourceRestoreScopeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -238,7 +238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigClusterResourceRestoreScopeSelectedGroupKindsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -276,7 +276,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigClusterResourceRestoreScopeSelectedGroupKindsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -314,7 +314,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigExcludedNamespacesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -389,7 +389,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigRestoreOrderGroupKindDependenciesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -457,7 +457,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigRestoreOrderGroupKindDependenciesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -499,7 +499,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigRestoreOrderGroupKindDependenciesRequiringOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -541,7 +541,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigRestoreOrderGroupKindDependenciesSatisfyingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -576,7 +576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigRestoreOrderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -606,7 +606,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigSelectedApplicationsNamespacedNamesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -642,7 +642,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigSelectedApplicationsNamespacedNamesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -677,7 +677,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigSelectedApplicationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -715,7 +715,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigSelectedNamespacesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -745,7 +745,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesFieldActionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -788,7 +788,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesFieldActionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -810,7 +810,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -852,7 +852,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -882,7 +882,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesResourceFilterGroupKindsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -920,7 +920,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesResourceFilterGroupKindsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -962,7 +962,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigTransformationRulesResourceFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -988,7 +988,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1024,7 +1024,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1069,7 +1069,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeBackupRestorePlanTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

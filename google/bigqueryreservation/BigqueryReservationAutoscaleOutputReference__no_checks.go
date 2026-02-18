@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryReservationAutoscaleOutputReference) validateInterpol
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryReservationAutoscaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryReservationAutoscaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BigqueryReservationAutoscaleOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryReservationAutoscaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryReservationAutoscaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryReservationAutoscaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryReservationAutoscaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

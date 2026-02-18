@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateInterpola
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerAwsClusterTimeoutsOutputReference) validateSetUpdate
 	return nil
 }
 
-func validateNewContainerAwsClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

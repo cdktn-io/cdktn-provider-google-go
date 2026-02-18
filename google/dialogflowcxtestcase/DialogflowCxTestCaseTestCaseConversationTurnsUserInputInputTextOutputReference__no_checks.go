@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTe
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTe
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTe
 	return nil
 }
 
-func validateNewDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

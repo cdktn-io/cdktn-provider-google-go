@@ -111,7 +111,7 @@ func (j *jsiiProxy_KmsKeyRingIamBinding) validateSetKeyRingIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_KmsKeyRingIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsKeyRingIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

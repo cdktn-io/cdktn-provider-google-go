@@ -123,7 +123,7 @@ func (j *jsiiProxy_ComputeRouter) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRouter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

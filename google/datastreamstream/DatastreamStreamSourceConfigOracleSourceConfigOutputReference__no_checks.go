@@ -63,7 +63,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamSourceConfigOracleSourceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamSourceConfigOracleSourceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

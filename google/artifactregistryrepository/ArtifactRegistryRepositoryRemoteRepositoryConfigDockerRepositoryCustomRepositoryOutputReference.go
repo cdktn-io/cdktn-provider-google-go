@@ -5,14 +5,14 @@ package artifactregistryrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/artifactregistryrepository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/artifactregistryrepository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepos
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -48,7 +48,7 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepos
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepos
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUri()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepos
 
 // The jsii proxy struct for ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference
 type jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 }
 
 
-func NewArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference {
+func NewArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRe
 	return &j
 }
 
-func NewArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference_Override(a ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference_Override(a ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 	)
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 	return returns
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 	return returns
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 	return returns
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerReposit
 	)
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepositoryCustomRepositoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutpu
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutpu
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeBackendServiceSecuritySettingsAwsV4AuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

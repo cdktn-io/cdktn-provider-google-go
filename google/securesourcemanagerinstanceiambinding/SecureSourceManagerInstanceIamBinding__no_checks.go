@@ -111,7 +111,7 @@ func (j *jsiiProxy_SecureSourceManagerInstanceIamBinding) validateSetInstanceIdP
 	return nil
 }
 
-func (j *jsiiProxy_SecureSourceManagerInstanceIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecureSourceManagerInstanceIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

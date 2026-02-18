@@ -47,7 +47,7 @@ func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructurePropertiesCustomerCon
 	return nil
 }
 
-func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructurePropertiesCustomerCon
 	return nil
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

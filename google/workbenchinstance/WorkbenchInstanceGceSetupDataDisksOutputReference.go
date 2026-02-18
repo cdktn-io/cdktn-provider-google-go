@@ -5,14 +5,14 @@ package workbenchinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/workbenchinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/workbenchinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WorkbenchInstanceGceSetupDataDisksOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type WorkbenchInstanceGceSetupDataDisksOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type WorkbenchInstanceGceSetupDataDisksOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDiskEncryption()
 	ResetDiskSizeGb()
 	ResetDiskType()
 	ResetKmsKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type WorkbenchInstanceGceSetupDataDisksOutputReference interface {
 
 // The jsii proxy struct for WorkbenchInstanceGceSetupDataDisksOutputReference
 type jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) TerraformR
 }
 
 
-func NewWorkbenchInstanceGceSetupDataDisksOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WorkbenchInstanceGceSetupDataDisksOutputReference {
+func NewWorkbenchInstanceGceSetupDataDisksOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WorkbenchInstanceGceSetupDataDisksOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWorkbenchInstanceGceSetupDataDisksOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewWorkbenchInstanceGceSetupDataDisksOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewWorkbenchInstanceGceSetupDataDisksOutputReference_Override(w WorkbenchInstanceGceSetupDataDisksOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWorkbenchInstanceGceSetupDataDisksOutputReference_Override(w WorkbenchInstanceGceSetupDataDisksOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) GetAnyMapA
 	return returns
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -529,8 +529,8 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) GetStringM
 	return returns
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -542,11 +542,11 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) Interpolat
 	return returns
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -590,7 +590,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) ResetKmsKe
 	)
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (p *jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference) valida
 	return nil
 }
 
-func (p *jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewProjectOrganizationPolicyBooleanPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewProjectOrganizationPolicyBooleanPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

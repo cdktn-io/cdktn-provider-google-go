@@ -139,7 +139,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStore) validateSetKmsKeyNameParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineDataStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DiscoveryEngineDataStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

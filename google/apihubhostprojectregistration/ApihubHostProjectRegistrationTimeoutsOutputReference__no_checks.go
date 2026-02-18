@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApihubHostProjectRegistrationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_ApihubHostProjectRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubHostProjectRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApihubHostProjectRegistrationTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ApihubHostProjectRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubHostProjectRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApihubHostProjectRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApihubHostProjectRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -82,7 +82,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevel{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -160,7 +160,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOsConstraintsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -211,7 +211,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -233,7 +233,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -288,7 +288,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -314,7 +314,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -350,7 +350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -391,7 +391,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicConditionsVpcNetworkSourcesVpcSubnetworkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -429,7 +429,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelBasicOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -484,7 +484,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelCustomExprOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -519,7 +519,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -564,7 +564,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AccessContextManagerAccessLevelTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

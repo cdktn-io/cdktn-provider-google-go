@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) 
 	return nil
 }
 
-func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAwsMskOutputReference) 
 	return nil
 }
 
-func validateNewPubsubTopicIngestionDataSourceSettingsAwsMskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubTopicIngestionDataSourceSettingsAwsMskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

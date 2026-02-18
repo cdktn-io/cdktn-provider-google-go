@@ -119,7 +119,7 @@ func (j *jsiiProxy_MlEngineModel) validateSetLabelsParameters(val *map[string]*s
 	return nil
 }
 
-func (j *jsiiProxy_MlEngineModel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MlEngineModel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

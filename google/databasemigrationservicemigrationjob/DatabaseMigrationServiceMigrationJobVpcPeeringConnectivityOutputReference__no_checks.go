@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOut
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOut
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOut
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

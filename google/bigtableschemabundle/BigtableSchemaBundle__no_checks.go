@@ -119,7 +119,7 @@ func (j *jsiiProxy_BigtableSchemaBundle) validateSetInstanceParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_BigtableSchemaBundle) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BigtableSchemaBundle) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

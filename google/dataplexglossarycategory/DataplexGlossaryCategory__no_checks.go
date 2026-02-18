@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataplexGlossaryCategory) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_DataplexGlossaryCategory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexGlossaryCategory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

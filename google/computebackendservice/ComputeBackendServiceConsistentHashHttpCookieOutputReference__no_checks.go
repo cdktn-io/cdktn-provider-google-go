@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeBackendServiceConsistentHashHttpCookieOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceConsistentHashHttpCookieOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceConsistentHashHttpCookieOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeBackendServiceConsistentHashHttpCookieOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceConsistentHashHttpCookieOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceConsistentHashHttpCookieOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeBackendServiceConsistentHashHttpCookieOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeBackendServiceConsistentHashHttpCookieOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

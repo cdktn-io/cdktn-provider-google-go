@@ -175,7 +175,7 @@ func (j *jsiiProxy_MemorystoreInstance) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MemorystoreInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

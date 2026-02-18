@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigWorkloadMetadataConfigOutputReferen
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigWorkloadMetadataConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigWorkloadMetadataConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterNodeConfigWorkloadMetadataConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigWorkloadMetadataConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigWorkloadMetadataConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigWorkloadMetadataConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodeConfigWorkloadMetadataConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

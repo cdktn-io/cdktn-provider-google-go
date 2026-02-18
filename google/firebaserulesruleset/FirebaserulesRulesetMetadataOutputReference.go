@@ -5,14 +5,14 @@ package firebaserulesruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaserulesruleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/firebaserulesruleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FirebaserulesRulesetMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,15 +38,15 @@ type FirebaserulesRulesetMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type FirebaserulesRulesetMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type FirebaserulesRulesetMetadataOutputReference interface {
 
 // The jsii proxy struct for FirebaserulesRulesetMetadataOutputReference
 type jsiiProxy_FirebaserulesRulesetMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) ComplexObjectIndex() interface{} {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) TerraformResourc
 }
 
 
-func NewFirebaserulesRulesetMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FirebaserulesRulesetMetadataOutputReference {
+func NewFirebaserulesRulesetMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FirebaserulesRulesetMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFirebaserulesRulesetMetadataOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -178,7 +178,7 @@ func NewFirebaserulesRulesetMetadataOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewFirebaserulesRulesetMetadataOutputReference_Override(f FirebaserulesRulesetMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFirebaserulesRulesetMetadataOutputReference_Override(f FirebaserulesRulesetMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FirebaserulesRulesetMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -400,8 +400,8 @@ func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -413,11 +413,11 @@ func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) InterpolationAsL
 	return returns
 }
 
-func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -429,7 +429,7 @@ func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) InterpolationFor
 	return returns
 }
 
-func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FirebaserulesRulesetMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

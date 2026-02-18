@@ -5,14 +5,14 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/containercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CidrBlock() *string
 	SetCidrBlock(val *string)
 	CidrBlockInput() *string
@@ -43,15 +43,15 @@ type ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDisplayName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference int
 
 // The jsii proxy struct for ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference
 type jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) CidrBlock() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 	return returns
 }
 
-func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 }
 
 
-func NewContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference {
+func NewContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference(
 	return &j
 }
 
-func NewContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference_Override(c ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference_Override(c ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 	)
 }
 
-func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,8 +458,8 @@ func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -471,11 +471,11 @@ func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutpu
 	)
 }
 
-func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

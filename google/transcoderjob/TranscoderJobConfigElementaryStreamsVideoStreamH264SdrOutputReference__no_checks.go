@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputR
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputR
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -77,7 +77,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableIamBinding{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableIamBindingConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

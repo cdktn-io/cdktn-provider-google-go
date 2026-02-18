@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoType
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoType
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetInfoType
 	return nil
 }
 
-func validateNewDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

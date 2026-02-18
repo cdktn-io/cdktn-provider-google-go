@@ -151,7 +151,7 @@ func (j *jsiiProxy_DataFusionInstance) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_DataFusionInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFusionInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

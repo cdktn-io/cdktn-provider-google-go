@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRef
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRefOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRefOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRef
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRefOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRefOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRef
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRefOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2ServiceTemplateContainersEnvValueSourceSecretKeyRefOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutp
 	return nil
 }
 
-func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutp
 	return nil
 }
 
-func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

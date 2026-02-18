@@ -5,14 +5,14 @@ package databasemigrationserviceconnectionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/databasemigrationserviceconnectionprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/databasemigrationserviceconnectionprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutput
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -60,7 +60,7 @@ type DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutput
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,14 +76,14 @@ type DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutput
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPassword()
 	ResetPrivateKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutput
 
 // The jsii proxy struct for DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference
 type jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) ComplexObjectIndex() interface{} {
@@ -236,8 +236,8 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 	return returns
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -267,7 +267,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 }
 
 
-func NewDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference {
+func NewDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -284,7 +284,7 @@ func NewDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOut
 	return &j
 }
 
-func NewDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference_Override(d DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference_Override(d DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -382,7 +382,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 	)
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -433,11 +433,11 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -561,8 +561,8 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -574,11 +574,11 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -606,7 +606,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConn
 	)
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

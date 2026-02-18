@@ -122,7 +122,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProduct{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -148,7 +148,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductAttributesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -186,7 +186,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductAttributesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -224,7 +224,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -262,7 +262,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsAttributesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -284,7 +284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -310,7 +310,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -348,7 +348,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsOperationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -395,7 +395,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -440,7 +440,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsQuotaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -479,7 +479,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGraphqlOperationGroupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -513,7 +513,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGrpcOperationGroupOperationConfigsAttributesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -551,7 +551,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGrpcOperationGroupOperationConfigsAttributesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -573,7 +573,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGrpcOperationGroupOperationConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -622,7 +622,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGrpcOperationGroupOperationConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -667,7 +667,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGrpcOperationGroupOperationConfigsQuotaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -703,7 +703,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductGrpcOperationGroupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -737,7 +737,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsAttributesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -775,7 +775,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsAttributesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -797,7 +797,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -823,7 +823,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsOperationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -861,7 +861,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsOperationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -908,7 +908,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -953,7 +953,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOperationConfigsQuotaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -992,7 +992,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductOperationGroupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1037,7 +1037,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApigeeApiProductTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewGkeonpremBareMetalClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremBareMetalClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

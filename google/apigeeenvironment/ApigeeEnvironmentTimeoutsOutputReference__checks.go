@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetDeletePa
 
 func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ApigeeEnvironmentTimeouts:
 		val := val.(*ApigeeEnvironmentTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetInternal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ApigeeEnvironmentTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ApigeeEnvironmentTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_ApigeeEnvironmentTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewApigeeEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

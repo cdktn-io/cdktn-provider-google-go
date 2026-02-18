@@ -15,7 +15,7 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateGe
 	return nil
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadSaaEnrollmentResponseList) validateSe
 	return nil
 }
 
-func validateNewAssuredWorkloadsWorkloadSaaEnrollmentResponseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAssuredWorkloadsWorkloadSaaEnrollmentResponseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -98,7 +98,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -136,7 +136,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherMetadataLabelMatcherMetadataLabelsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -172,7 +172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherMetadataLabelMatcherMetadataLabelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -210,7 +210,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherMetadataLabelMatcherOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -245,7 +245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -290,7 +290,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -328,7 +328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEndpointPolicyTrafficPortSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

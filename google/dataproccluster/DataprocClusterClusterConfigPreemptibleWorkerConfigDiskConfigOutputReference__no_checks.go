@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

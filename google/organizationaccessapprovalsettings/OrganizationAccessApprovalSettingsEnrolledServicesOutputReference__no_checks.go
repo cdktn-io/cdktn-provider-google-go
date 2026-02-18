@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationAccessApprovalSettingsEnrolledServicesOutputRefer
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationAccessApprovalSettingsEnrolledServicesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationAccessApprovalSettingsEnrolledServicesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OrganizationAccessApprovalSettingsEnrolledServicesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationAccessApprovalSettingsEnrolledServicesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationAccessApprovalSettingsEnrolledServicesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationAccessApprovalSettingsEnrolledServicesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOrganizationAccessApprovalSettingsEnrolledServicesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

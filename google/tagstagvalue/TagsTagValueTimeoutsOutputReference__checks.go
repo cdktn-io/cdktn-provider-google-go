@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (t *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (t *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetDeleteParamet
 
 func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *TagsTagValueTimeouts:
 		val := val.(*TagsTagValueTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetInternalValue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *TagsTagValueTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *TagsTagValueTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_TagsTagValueTimeoutsOutputReference) validateSetUpdateParamet
 	return nil
 }
 
-func validateNewTagsTagValueTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTagsTagValueTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

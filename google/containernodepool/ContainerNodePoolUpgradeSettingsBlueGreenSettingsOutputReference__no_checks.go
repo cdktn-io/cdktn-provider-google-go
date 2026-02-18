@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

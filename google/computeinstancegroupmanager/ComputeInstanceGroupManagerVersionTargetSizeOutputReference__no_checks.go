@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceGroupManagerVersionTargetSizeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceGroupManagerVersionTargetSizeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package gkehubfeaturemembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubfeaturemembership/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkehubfeaturemembership/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,15 +58,15 @@ type GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDeploymentOverrides(value interface{})
 	PutGit(value *GkeHubFeatureMembershipConfigmanagementConfigSyncGit)
 	PutOci(value *GkeHubFeatureMembershipConfigmanagementConfigSyncOci)
@@ -98,7 +98,7 @@ type GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference interface 
 	ResetStopSyncing()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -108,7 +108,7 @@ type GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference interface 
 
 // The jsii proxy struct for GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference
 type jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) ComplexObjectIndex() interface{} {
@@ -331,8 +331,8 @@ func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 }
 
 
-func NewGkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference {
+func NewGkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGkeHubFeatureMembershipConfigmanagementConfigSyncOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -359,7 +359,7 @@ func NewGkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference(terrafo
 	return &j
 }
 
-func NewGkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference_Override(g GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference_Override(g GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -468,7 +468,7 @@ func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 	)
 }
 
-func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -508,11 +508,11 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -636,8 +636,8 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -649,11 +649,11 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -762,7 +762,7 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputRefere
 	)
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

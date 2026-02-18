@@ -15,7 +15,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateGetParamet
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionStatusList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIntegrationConnectorsConnectionStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

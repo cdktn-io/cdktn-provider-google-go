@@ -89,7 +89,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsetting{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -134,7 +134,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingAiPlatformFloorSettingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -181,7 +181,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigMaliciousUriFilterSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -229,7 +229,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -271,7 +271,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -310,7 +310,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -336,7 +336,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -373,7 +373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsAdvancedConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsBasicConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -498,7 +498,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -540,7 +540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -576,7 +576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -621,7 +621,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ModelArmorFloorsettingTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

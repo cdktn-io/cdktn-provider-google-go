@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurity
 	return nil
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurity
 	return nil
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurity
 	return nil
 }
 
-func validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

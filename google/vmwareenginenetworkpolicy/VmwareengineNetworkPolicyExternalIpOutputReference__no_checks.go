@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwareengineNetworkPolicyExternalIpOutputReference) validateI
 	return nil
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPolicyExternalIpOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareengineNetworkPolicyExternalIpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VmwareengineNetworkPolicyExternalIpOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPolicyExternalIpOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareengineNetworkPolicyExternalIpOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVmwareengineNetworkPolicyExternalIpOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVmwareengineNetworkPolicyExternalIpOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

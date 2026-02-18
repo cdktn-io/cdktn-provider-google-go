@@ -135,7 +135,7 @@ func (j *jsiiProxy_LoggingMetric) validateSetLabelExtractorsParameters(val *map[
 	return nil
 }
 
-func (j *jsiiProxy_LoggingMetric) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoggingMetric) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

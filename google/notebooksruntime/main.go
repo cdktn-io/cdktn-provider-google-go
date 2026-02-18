@@ -92,7 +92,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntime{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeAccessConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -164,7 +164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeMetricsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -197,7 +197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeMetricsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -227,7 +227,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeSoftwareConfigKernelsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -264,7 +264,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeSoftwareConfigKernelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -325,7 +325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -370,7 +370,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -412,7 +412,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -484,7 +484,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -521,7 +521,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -576,7 +576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -631,7 +631,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -670,7 +670,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -749,7 +749,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -794,7 +794,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

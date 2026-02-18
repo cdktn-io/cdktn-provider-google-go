@@ -51,7 +51,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoOutputReference) validatePutHealt
 	return nil
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsRecordSetRoutingPolicyGeoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDnsRecordSetRoutingPolicyGeoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

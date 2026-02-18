@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfi
 	return nil
 }
 
-func (p *jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfi
 	return nil
 }
 
-func (j *jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

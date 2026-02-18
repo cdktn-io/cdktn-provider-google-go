@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataplexGlossaryCategoryTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewDataplexGlossaryCategoryTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexGlossaryCategoryTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

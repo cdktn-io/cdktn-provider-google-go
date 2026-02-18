@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

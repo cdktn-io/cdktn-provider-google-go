@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputRefere
 	return nil
 }
 
-func (m *jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package networkservicesgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicesgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkservicesgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_gateway google_network_services_gateway}.
 type NetworkServicesGateway interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Addresses() *[]*string
 	SetAddresses(val *[]*string)
 	AddressesInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateUrls() *[]*string
 	SetCertificateUrls(val *[]*string)
 	CertificateUrlsInput() *[]*string
@@ -44,14 +44,14 @@ type NetworkServicesGateway interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EnvoyHeaders() *string
 	SetEnvoyHeaders(val *string)
 	EnvoyHeadersInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -69,9 +69,9 @@ type NetworkServicesGateway interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -90,9 +90,9 @@ type NetworkServicesGateway interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -113,8 +113,8 @@ type NetworkServicesGateway interface {
 	SetSubnetwork(val *string)
 	SubnetworkInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -133,7 +133,7 @@ type NetworkServicesGateway interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -151,9 +151,9 @@ type NetworkServicesGateway interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -204,7 +204,7 @@ type NetworkServicesGateway interface {
 
 // The jsii proxy struct for NetworkServicesGateway
 type jsiiProxy_NetworkServicesGateway struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetworkServicesGateway) Addresses() *[]*string {
@@ -227,8 +227,8 @@ func (j *jsiiProxy_NetworkServicesGateway) AddressesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkServicesGateway) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -347,8 +347,8 @@ func (j *jsiiProxy_NetworkServicesGateway) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetworkServicesGateway) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -377,8 +377,8 @@ func (j *jsiiProxy_NetworkServicesGateway) EnvoyHeadersInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkServicesGateway) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -487,8 +487,8 @@ func (j *jsiiProxy_NetworkServicesGateway) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkServicesGateway) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -607,8 +607,8 @@ func (j *jsiiProxy_NetworkServicesGateway) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkServicesGateway) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -727,8 +727,8 @@ func (j *jsiiProxy_NetworkServicesGateway) SubnetworkInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkServicesGateway) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -737,8 +737,8 @@ func (j *jsiiProxy_NetworkServicesGateway) TerraformGeneratorMetadata() *cdktf.T
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetworkServicesGateway) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -932,7 +932,7 @@ func (j *jsiiProxy_NetworkServicesGateway)SetEnvoyHeaders(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesGateway)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkServicesGateway)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -984,7 +984,7 @@ func (j *jsiiProxy_NetworkServicesGateway)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesGateway)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkServicesGateway)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1050,7 +1050,7 @@ func (j *jsiiProxy_NetworkServicesGateway)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesGateway)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkServicesGateway)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1124,14 +1124,14 @@ func (j *jsiiProxy_NetworkServicesGateway)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a NetworkServicesGateway resource upon running "cdktf plan <stack-name>".
-func NetworkServicesGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkServicesGateway resource upon running "cdktn plan <stack-name>".
+func NetworkServicesGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkServicesGateway_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.networkServicesGateway.NetworkServicesGateway",
@@ -1265,11 +1265,11 @@ func (n *jsiiProxy_NetworkServicesGateway) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesGateway) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesGateway) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1406,7 +1406,7 @@ func (n *jsiiProxy_NetworkServicesGateway) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesGateway) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkServicesGateway) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1417,11 +1417,11 @@ func (n *jsiiProxy_NetworkServicesGateway) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (n *jsiiProxy_NetworkServicesGateway) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesGateway) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

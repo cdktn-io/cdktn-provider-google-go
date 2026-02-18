@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeNodeGroupAutoscalingPolicyOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeGroupAutoscalingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeGroupAutoscalingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeNodeGroupAutoscalingPolicyOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeGroupAutoscalingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeGroupAutoscalingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeNodeGroupAutoscalingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeNodeGroupAutoscalingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

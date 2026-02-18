@@ -47,7 +47,7 @@ func (d *jsiiProxy_DiscoveryEngineRecommendationEngineCommonConfigOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineRecommendationEngineCommonConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineRecommendationEngineCommonConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngineCommonConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineRecommendationEngineCommonConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineRecommendationEngineCommonConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDiscoveryEngineRecommendationEngineCommonConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDiscoveryEngineRecommendationEngineCommonConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

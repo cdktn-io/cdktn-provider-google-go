@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInstanceGroupNamedPortList) validateGetParameters(inde
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupNamedPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceGroupNamedPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeInstanceGroupNamedPortList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupNamedPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceGroupNamedPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeInstanceGroupNamedPortList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewComputeInstanceGroupNamedPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInstanceGroupNamedPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

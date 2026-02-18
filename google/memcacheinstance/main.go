@@ -111,7 +111,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstance{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -159,7 +159,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMaintenancePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -185,7 +185,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -224,7 +224,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -272,7 +272,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -297,7 +297,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMaintenanceScheduleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -332,7 +332,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMaintenanceScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -357,7 +357,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMemcacheNodesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -394,7 +394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMemcacheNodesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -434,7 +434,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceMemcacheParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -474,7 +474,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceNodeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -519,7 +519,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MemcacheInstanceTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

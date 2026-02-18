@@ -107,7 +107,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStore{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -149,7 +149,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreNotificationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreNotificationConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -215,7 +215,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreNotificationConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreStreamConfigsBigqueryDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -305,7 +305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -346,7 +346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -368,7 +368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreStreamConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -406,7 +406,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreStreamConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -451,7 +451,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthcareFhirStoreTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

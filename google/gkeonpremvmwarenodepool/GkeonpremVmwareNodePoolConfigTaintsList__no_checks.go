@@ -15,7 +15,7 @@ func (g *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateGetParameter
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GkeonpremVmwareNodePoolConfigTaintsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewGkeonpremVmwareNodePoolConfigTaintsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGkeonpremVmwareNodePoolConfigTaintsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

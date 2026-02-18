@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApigeeControlPlaneAccess) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeControlPlaneAccess) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApigeeControlPlaneAccess) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

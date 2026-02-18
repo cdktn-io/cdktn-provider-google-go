@@ -127,7 +127,7 @@ func (j *jsiiProxy_ComputeNodeGroup) validateSetInitialSizeParameters(val *float
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeNodeGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

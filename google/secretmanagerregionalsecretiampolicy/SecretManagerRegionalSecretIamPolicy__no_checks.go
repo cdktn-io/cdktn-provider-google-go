@@ -103,7 +103,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretIamPolicy) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecretManagerRegionalSecretIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

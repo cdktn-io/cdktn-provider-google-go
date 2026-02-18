@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudRunOutputReference) val
 	return nil
 }
 
-func validateNewComputeRegionNetworkEndpointGroupCloudRunOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionNetworkEndpointGroupCloudRunOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

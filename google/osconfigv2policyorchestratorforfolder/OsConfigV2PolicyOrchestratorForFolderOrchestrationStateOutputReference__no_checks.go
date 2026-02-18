@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutput
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutput
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOsConfigV2PolicyOrchestratorForFolderOrchestrationStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

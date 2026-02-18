@@ -82,7 +82,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ContainerAnalysisOccurrence{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -123,7 +123,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -149,7 +149,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ContainerAnalysisOccurrenceAttestationSignaturesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -186,7 +186,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ContainerAnalysisOccurrenceAttestationSignaturesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -235,7 +235,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ContainerAnalysisOccurrenceTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

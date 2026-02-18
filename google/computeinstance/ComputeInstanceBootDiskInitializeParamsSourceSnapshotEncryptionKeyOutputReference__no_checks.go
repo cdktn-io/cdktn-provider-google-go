@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceBootDiskInitializeParamsSourceSnapshotEncrypti
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ComputeInstanceBootDiskInitializeParamsSourceSnapshotEncrypti
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

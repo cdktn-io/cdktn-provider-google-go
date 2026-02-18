@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeStoragePoolIamMemberConditionOutputReference) validate
 	return nil
 }
 
-func validateNewComputeStoragePoolIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeStoragePoolIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

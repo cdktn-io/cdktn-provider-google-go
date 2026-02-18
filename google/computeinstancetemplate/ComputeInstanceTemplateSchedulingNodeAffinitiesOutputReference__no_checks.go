@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReferenc
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeInstanceTemplateSchedulingNodeAffinitiesOutputReferenc
 	return nil
 }
 
-func validateNewComputeInstanceTemplateSchedulingNodeAffinitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeInstanceTemplateSchedulingNodeAffinitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

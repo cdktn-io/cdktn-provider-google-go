@@ -89,7 +89,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePool{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -119,7 +119,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolAccessRestrictionsAllowedServicesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -154,7 +154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolAccessRestrictionsAllowedServicesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -193,7 +193,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolAccessRestrictionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -242,7 +242,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IamWorkforcePoolTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

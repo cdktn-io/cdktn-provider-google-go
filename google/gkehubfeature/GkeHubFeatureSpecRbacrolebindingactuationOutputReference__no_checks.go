@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubFeatureSpecRbacrolebindingactuationOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFeatureSpecRbacrolebindingactuationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFeatureSpecRbacrolebindingactuationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeHubFeatureSpecRbacrolebindingactuationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureSpecRbacrolebindingactuationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFeatureSpecRbacrolebindingactuationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubFeatureSpecRbacrolebindingactuationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubFeatureSpecRbacrolebindingactuationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

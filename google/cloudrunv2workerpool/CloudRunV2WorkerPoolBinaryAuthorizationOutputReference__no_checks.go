@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolBinaryAuthorizationOutputReference) valid
 	return nil
 }
 
-func validateNewCloudRunV2WorkerPoolBinaryAuthorizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2WorkerPoolBinaryAuthorizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

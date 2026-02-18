@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOp
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOptionsIncludedFieldsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOptionsIncludedFieldsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOp
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOptionsIncludedFieldsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOptionsIncludedFieldsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOp
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOptionsIncludedFieldsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataLossPreventionJobTriggerInspectJobStorageConfigBigQueryOptionsIncludedFieldsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

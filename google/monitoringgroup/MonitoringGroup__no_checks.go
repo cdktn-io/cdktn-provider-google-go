@@ -119,7 +119,7 @@ func (j *jsiiProxy_MonitoringGroup) validateSetIsClusterParameters(val interface
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitoringGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

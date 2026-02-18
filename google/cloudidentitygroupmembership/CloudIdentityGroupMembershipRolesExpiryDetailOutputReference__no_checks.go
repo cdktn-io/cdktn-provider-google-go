@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudIdentityGroupMembershipRolesExpiryDetailOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_CloudIdentityGroupMembershipRolesExpiryDetailOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudIdentityGroupMembershipRolesExpiryDetailOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudIdentityGroupMembershipRolesExpiryDetailOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_CloudIdentityGroupMembershipRolesExpiryDetailOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudIdentityGroupMembershipRolesExpiryDetailOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudIdentityGroupMembershipRolesExpiryDetailOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudIdentityGroupMembershipRolesExpiryDetailOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

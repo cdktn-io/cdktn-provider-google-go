@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigBootDiskOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigBootDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigBootDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ContainerClusterNodeConfigBootDiskOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigBootDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigBootDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigBootDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodeConfigBootDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesOutputReference) 
 	return nil
 }
 
-func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamPrincipalAccessBoundaryPolicyDetailsRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIamPrincipalAccessBoundaryPolicyDetailsRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

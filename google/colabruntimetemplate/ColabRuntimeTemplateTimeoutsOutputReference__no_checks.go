@@ -47,7 +47,7 @@ func (c *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewColabRuntimeTemplateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewColabRuntimeTemplateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

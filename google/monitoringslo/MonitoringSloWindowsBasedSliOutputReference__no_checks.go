@@ -59,7 +59,7 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validatePutMetri
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliOutputReference) validateSetWindo
 	return nil
 }
 
-func validateNewMonitoringSloWindowsBasedSliOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringSloWindowsBasedSliOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

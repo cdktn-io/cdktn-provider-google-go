@@ -47,7 +47,7 @@ func (i *jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOut
 	return nil
 }
 
-func (i *jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOut
 	return nil
 }
 
-func (j *jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIapSettingsApplicationSettingsAttributePropagationSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIapSettingsApplicationSettingsAttributePropagationSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

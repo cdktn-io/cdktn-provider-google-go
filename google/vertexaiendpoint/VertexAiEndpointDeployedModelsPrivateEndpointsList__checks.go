@@ -8,7 +8,7 @@ package vertexaiendpoint
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateG
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsList) validateS
 	return nil
 }
 
-func validateNewVertexAiEndpointDeployedModelsPrivateEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVertexAiEndpointDeployedModelsPrivateEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

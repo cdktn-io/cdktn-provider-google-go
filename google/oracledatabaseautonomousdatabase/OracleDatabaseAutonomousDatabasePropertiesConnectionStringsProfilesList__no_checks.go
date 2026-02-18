@@ -15,7 +15,7 @@ func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsPr
 	return nil
 }
 
-func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsPr
 	return nil
 }
 
-func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsPr
 	return nil
 }
 
-func validateNewOracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

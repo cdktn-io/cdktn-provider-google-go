@@ -90,7 +90,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscription{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -119,7 +119,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionCommercialInfoCloudMarketplaceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -152,7 +152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionCommercialInfoCloudMarketplaceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionCommercialInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -206,7 +206,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionCommercialInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -254,7 +254,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetDatasetReferenceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -300,7 +300,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -325,7 +325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionLinkedDatasetMapList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -360,7 +360,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionLinkedDatasetMapOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -385,7 +385,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionLinkedResourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionLinkedResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -461,7 +461,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryAnalyticsHubListingSubscriptionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

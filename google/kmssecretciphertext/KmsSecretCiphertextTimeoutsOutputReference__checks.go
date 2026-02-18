@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (k *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateInterpola
 	return nil
 }
 
-func (k *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetDelete
 
 func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *KmsSecretCiphertextTimeouts:
 		val := val.(*KmsSecretCiphertextTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *KmsSecretCiphertextTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *KmsSecretCiphertextTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_KmsSecretCiphertextTimeoutsOutputReference) validateSetTerraf
 	return nil
 }
 
-func validateNewKmsSecretCiphertextTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsSecretCiphertextTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

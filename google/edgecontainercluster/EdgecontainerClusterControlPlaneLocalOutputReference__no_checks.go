@@ -47,7 +47,7 @@ func (e *jsiiProxy_EdgecontainerClusterControlPlaneLocalOutputReference) validat
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerClusterControlPlaneLocalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerClusterControlPlaneLocalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EdgecontainerClusterControlPlaneLocalOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerClusterControlPlaneLocalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerClusterControlPlaneLocalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEdgecontainerClusterControlPlaneLocalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEdgecontainerClusterControlPlaneLocalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

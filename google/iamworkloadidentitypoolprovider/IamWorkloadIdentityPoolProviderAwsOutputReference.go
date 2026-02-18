@@ -5,14 +5,14 @@ package iamworkloadidentitypoolprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iamworkloadidentitypoolprovider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/iamworkloadidentitypoolprovider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IamWorkloadIdentityPoolProviderAwsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccountId() *string
 	SetAccountId(val *string)
 	AccountIdInput() *string
@@ -40,15 +40,15 @@ type IamWorkloadIdentityPoolProviderAwsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type IamWorkloadIdentityPoolProviderAwsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type IamWorkloadIdentityPoolProviderAwsOutputReference interface {
 
 // The jsii proxy struct for IamWorkloadIdentityPoolProviderAwsOutputReference
 type jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) AccountId() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) TerraformR
 }
 
 
-func NewIamWorkloadIdentityPoolProviderAwsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IamWorkloadIdentityPoolProviderAwsOutputReference {
+func NewIamWorkloadIdentityPoolProviderAwsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IamWorkloadIdentityPoolProviderAwsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIamWorkloadIdentityPoolProviderAwsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewIamWorkloadIdentityPoolProviderAwsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewIamWorkloadIdentityPoolProviderAwsOutputReference_Override(i IamWorkloadIdentityPoolProviderAwsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIamWorkloadIdentityPoolProviderAwsOutputReference_Override(i IamWorkloadIdentityPoolProviderAwsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -423,8 +423,8 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) GetStringM
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -436,11 +436,11 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) Interpolat
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -452,7 +452,7 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) Interpolat
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IamWorkloadIdentityPoolProviderAwsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

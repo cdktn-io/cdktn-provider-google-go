@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputR
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputR
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

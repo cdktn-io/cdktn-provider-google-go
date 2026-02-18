@@ -47,7 +47,7 @@ func (d *jsiiProxy_DiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

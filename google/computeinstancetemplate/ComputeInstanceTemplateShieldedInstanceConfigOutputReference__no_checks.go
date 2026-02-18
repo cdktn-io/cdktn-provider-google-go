@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceTemplateShieldedInstanceConfigOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateShieldedInstanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceTemplateShieldedInstanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeInstanceTemplateShieldedInstanceConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceTemplateShieldedInstanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceTemplateShieldedInstanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceTemplateShieldedInstanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceTemplateShieldedInstanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

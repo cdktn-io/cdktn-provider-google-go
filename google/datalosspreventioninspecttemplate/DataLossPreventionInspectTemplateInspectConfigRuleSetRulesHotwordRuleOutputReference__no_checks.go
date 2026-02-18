@@ -59,7 +59,7 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesHot
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesHot
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

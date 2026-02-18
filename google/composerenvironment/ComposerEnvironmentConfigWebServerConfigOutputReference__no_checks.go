@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComposerEnvironmentConfigWebServerConfigOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ComposerEnvironmentConfigWebServerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComposerEnvironmentConfigWebServerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComposerEnvironmentConfigWebServerConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ComposerEnvironmentConfigWebServerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComposerEnvironmentConfigWebServerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComposerEnvironmentConfigWebServerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComposerEnvironmentConfigWebServerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

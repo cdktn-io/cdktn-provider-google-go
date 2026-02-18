@@ -15,7 +15,7 @@ func (d *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineMetadataList) validateSetW
 	return nil
 }
 
-func validateNewDiscoveryEngineChatEngineChatEngineMetadataListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDiscoveryEngineChatEngineChatEngineMetadataListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

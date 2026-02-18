@@ -5,14 +5,14 @@ package computeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeurlmap/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeurlmap/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackendService() *string
 	SetBackendService(val *string)
 	BackendServiceInput() *string
@@ -42,9 +42,9 @@ type ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Weight() *float64
 	SetWeight(val *float64)
 	WeightInput() *float64
@@ -53,7 +53,7 @@ type ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputRefe
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,16 +69,16 @@ type ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeaderAction(value *ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction)
 	ResetBackendService()
 	ResetHeaderAction()
 	ResetWeight()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputRefe
 
 // The jsii proxy struct for ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference
 type jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) BackendService() *string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 	return returns
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 }
 
 
-func NewComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference {
+func NewComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputR
 	return &j
 }
 
-func NewComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference_Override(c ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference_Override(c ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -304,7 +304,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 	)
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -355,11 +355,11 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -483,8 +483,8 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -496,11 +496,11 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 	)
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

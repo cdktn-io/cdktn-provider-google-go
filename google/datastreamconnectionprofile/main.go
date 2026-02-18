@@ -115,7 +115,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfile{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -151,7 +151,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileBigqueryProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -204,7 +204,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -245,7 +245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -298,7 +298,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileMysqlProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -346,7 +346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -400,7 +400,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileOracleProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -451,7 +451,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -489,7 +489,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfilePrivateConnectivityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -540,7 +540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileSqlServerProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -585,7 +585,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DatastreamConnectionProfileTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

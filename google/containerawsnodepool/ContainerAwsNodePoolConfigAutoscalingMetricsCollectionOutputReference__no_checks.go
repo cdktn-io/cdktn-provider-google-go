@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputR
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsNodePoolConfigAutoscalingMetricsCollectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

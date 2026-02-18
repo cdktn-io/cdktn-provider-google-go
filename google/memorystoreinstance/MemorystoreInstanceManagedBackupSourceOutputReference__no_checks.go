@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) valida
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMemorystoreInstanceManagedBackupSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemorystoreInstanceManagedBackupSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

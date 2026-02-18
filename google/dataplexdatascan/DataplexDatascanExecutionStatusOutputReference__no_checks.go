@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexDatascanExecutionStatusOutputReference) validateInter
 	return nil
 }
 
-func (d *jsiiProxy_DataplexDatascanExecutionStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexDatascanExecutionStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataplexDatascanExecutionStatusOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataplexDatascanExecutionStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexDatascanExecutionStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexDatascanExecutionStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataplexDatascanExecutionStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

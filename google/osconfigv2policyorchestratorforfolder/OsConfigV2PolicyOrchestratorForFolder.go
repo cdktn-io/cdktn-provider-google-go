@@ -5,21 +5,21 @@ package osconfigv2policyorchestratorforfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osconfigv2policyorchestratorforfolder/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/osconfigv2policyorchestratorforfolder/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
 type OsConfigV2PolicyOrchestratorForFolder interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,15 +38,15 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Etag() *string
 	FolderId() *string
 	SetFolderId(val *string)
 	FolderIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -73,22 +73,22 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	SetPolicyOrchestratorId(val *string)
 	PolicyOrchestratorIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	State() *string
 	SetState(val *string)
 	StateInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,7 +166,7 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 
 // The jsii proxy struct for OsConfigV2PolicyOrchestratorForFolder
 type jsiiProxy_OsConfigV2PolicyOrchestratorForFolder struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Action() *string {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ActionInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) DescriptionInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) FolderIdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -379,8 +379,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) LabelsInput() *map[str
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -479,8 +479,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) PolicyOrchestratorIdIn
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -509,8 +509,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) RawOverrides() interfa
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -539,8 +539,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) StateInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -549,8 +549,8 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) TerraformGeneratorMeta
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -702,7 +702,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetFolderId(val *string
 	)
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -732,7 +732,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetLabels(val *map[stri
 	)
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -754,7 +754,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetPolicyOrchestratorId
 	)
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -784,14 +784,14 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetState(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a OsConfigV2PolicyOrchestratorForFolder resource upon running "cdktf plan <stack-name>".
-func OsConfigV2PolicyOrchestratorForFolder_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OsConfigV2PolicyOrchestratorForFolder resource upon running "cdktn plan <stack-name>".
+func OsConfigV2PolicyOrchestratorForFolder_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOsConfigV2PolicyOrchestratorForFolder_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.osConfigV2PolicyOrchestratorForFolder.OsConfigV2PolicyOrchestratorForFolder",
@@ -925,11 +925,11 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -1066,7 +1066,7 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) HasResourceMove() inte
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1077,11 +1077,11 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ImportFrom(id *string,
 	)
 }
 
-func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

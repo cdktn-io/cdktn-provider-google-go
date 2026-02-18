@@ -5,14 +5,14 @@ package appenginestandardappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appenginestandardappversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/appenginestandardappversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppEngineStandardAppVersionAutomaticScalingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -54,15 +54,15 @@ type AppEngineStandardAppVersionAutomaticScalingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,9 +78,9 @@ type AppEngineStandardAppVersionAutomaticScalingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutStandardSchedulerSettings(value *AppEngineStandardAppVersionAutomaticScalingStandardSchedulerSettings)
 	ResetMaxConcurrentRequests()
 	ResetMaxIdleInstances()
@@ -90,7 +90,7 @@ type AppEngineStandardAppVersionAutomaticScalingOutputReference interface {
 	ResetStandardSchedulerSettings()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type AppEngineStandardAppVersionAutomaticScalingOutputReference interface {
 
 // The jsii proxy struct for AppEngineStandardAppVersionAutomaticScalingOutputReference
 type jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) ComplexObjectIndex() interface{} {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) T
 }
 
 
-func NewAppEngineStandardAppVersionAutomaticScalingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppEngineStandardAppVersionAutomaticScalingOutputReference {
+func NewAppEngineStandardAppVersionAutomaticScalingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppEngineStandardAppVersionAutomaticScalingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppEngineStandardAppVersionAutomaticScalingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewAppEngineStandardAppVersionAutomaticScalingOutputReference(terraformReso
 	return &j
 }
 
-func NewAppEngineStandardAppVersionAutomaticScalingOutputReference_Override(a AppEngineStandardAppVersionAutomaticScalingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppEngineStandardAppVersionAutomaticScalingOutputReference_Override(a AppEngineStandardAppVersionAutomaticScalingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -420,7 +420,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -460,11 +460,11 @@ func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -588,8 +588,8 @@ func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -601,11 +601,11 @@ func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) I
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -676,7 +676,7 @@ func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) R
 	)
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppEngineStandardAppVersionAutomaticScalingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

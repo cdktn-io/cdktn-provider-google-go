@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeFirewallLogConfigOutputReference) validateInterpolatio
 	return nil
 }
 
-func (c *jsiiProxy_ComputeFirewallLogConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeFirewallLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeFirewallLogConfigOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ComputeFirewallLogConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeFirewallLogConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeFirewallLogConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeFirewallLogConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

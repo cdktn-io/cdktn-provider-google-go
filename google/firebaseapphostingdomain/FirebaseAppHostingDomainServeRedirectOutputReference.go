@@ -5,14 +5,14 @@ package firebaseapphostingdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaseapphostingdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/firebaseapphostingdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FirebaseAppHostingDomainServeRedirectOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type FirebaseAppHostingDomainServeRedirectOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -51,7 +51,7 @@ type FirebaseAppHostingDomainServeRedirectOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type FirebaseAppHostingDomainServeRedirectOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetStatus()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type FirebaseAppHostingDomainServeRedirectOutputReference interface {
 
 // The jsii proxy struct for FirebaseAppHostingDomainServeRedirectOutputReference
 type jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) ComplexObjectIndex() interface{} {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) UriInpu
 }
 
 
-func NewFirebaseAppHostingDomainServeRedirectOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FirebaseAppHostingDomainServeRedirectOutputReference {
+func NewFirebaseAppHostingDomainServeRedirectOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FirebaseAppHostingDomainServeRedirectOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFirebaseAppHostingDomainServeRedirectOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewFirebaseAppHostingDomainServeRedirectOutputReference(terraformResource c
 	return &j
 }
 
-func NewFirebaseAppHostingDomainServeRedirectOutputReference_Override(f FirebaseAppHostingDomainServeRedirectOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFirebaseAppHostingDomainServeRedirectOutputReference_Override(f FirebaseAppHostingDomainServeRedirectOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) GetAnyM
 	return returns
 }
 
-func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -458,8 +458,8 @@ func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) GetStri
 	return returns
 }
 
-func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -471,11 +471,11 @@ func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) Interpo
 	return returns
 }
 
-func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -495,7 +495,7 @@ func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) ResetSt
 	)
 }
 
-func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FirebaseAppHostingDomainServeRedirectOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

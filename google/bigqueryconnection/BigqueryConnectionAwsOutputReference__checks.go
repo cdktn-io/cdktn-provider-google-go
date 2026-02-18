@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validatePutAccessRolePa
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -193,7 +193,7 @@ func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -201,7 +201,7 @@ func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformRes
 	return nil
 }
 
-func validateNewBigqueryConnectionAwsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryConnectionAwsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

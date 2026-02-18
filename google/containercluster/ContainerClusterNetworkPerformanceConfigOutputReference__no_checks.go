@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerClusterNetworkPerformanceConfigOutputReference) vali
 	return nil
 }
 
-func validateNewContainerClusterNetworkPerformanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNetworkPerformanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

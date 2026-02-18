@@ -47,7 +47,7 @@ func (c *jsiiProxy_CertificateManagerCertificateManagedAuthorizationAttemptInfoO
 	return nil
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateManagedAuthorizationAttemptInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CertificateManagerCertificateManagedAuthorizationAttemptInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CertificateManagerCertificateManagedAuthorizationAttemptInfoO
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateManagedAuthorizationAttemptInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CertificateManagerCertificateManagedAuthorizationAttemptInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCertificateManagerCertificateManagedAuthorizationAttemptInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCertificateManagerCertificateManagedAuthorizationAttemptInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

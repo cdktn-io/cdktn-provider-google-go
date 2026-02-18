@@ -5,14 +5,14 @@ package computeinstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinstancetemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeinstancetemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ThreadsPerCore() *float64
 	SetThreadsPerCore(val *float64)
 	ThreadsPerCoreInput() *float64
@@ -63,7 +63,7 @@ type ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnableNestedVirtualization()
 	ResetEnableUefiNetworking()
 	ResetPerformanceMonitoringUnit()
@@ -90,7 +90,7 @@ type ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference interface {
 	ResetVisibleCoreCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference interface {
 
 // The jsii proxy struct for ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 type jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) ComplexObjectIndex() interface{} {
@@ -223,8 +223,8 @@ func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 }
 
 
-func NewComputeInstanceTemplateAdvancedMachineFeaturesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference {
+func NewComputeInstanceTemplateAdvancedMachineFeaturesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeInstanceTemplateAdvancedMachineFeaturesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewComputeInstanceTemplateAdvancedMachineFeaturesOutputReference(terraformR
 	return &j
 }
 
-func NewComputeInstanceTemplateAdvancedMachineFeaturesOutputReference_Override(c ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeInstanceTemplateAdvancedMachineFeaturesOutputReference_Override(c ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -398,7 +398,7 @@ func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 	)
 }
 
-func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -471,11 +471,11 @@ func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -599,8 +599,8 @@ func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -612,11 +612,11 @@ func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -676,7 +676,7 @@ func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference
 	)
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeRegionDiskIamMemberConditionOutputReference) validateS
 	return nil
 }
 
-func validateNewComputeRegionDiskIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionDiskIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package cloudschedulerjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudschedulerjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/cloudschedulerjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudSchedulerJobRetryConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -52,15 +52,15 @@ type CloudSchedulerJobRetryConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type CloudSchedulerJobRetryConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxBackoffDuration()
 	ResetMaxDoublings()
 	ResetMaxRetryDuration()
@@ -86,7 +86,7 @@ type CloudSchedulerJobRetryConfigOutputReference interface {
 	ResetRetryCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type CloudSchedulerJobRetryConfigOutputReference interface {
 
 // The jsii proxy struct for CloudSchedulerJobRetryConfigOutputReference
 type jsiiProxy_CloudSchedulerJobRetryConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) TerraformResourc
 }
 
 
-func NewCloudSchedulerJobRetryConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudSchedulerJobRetryConfigOutputReference {
+func NewCloudSchedulerJobRetryConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudSchedulerJobRetryConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudSchedulerJobRetryConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewCloudSchedulerJobRetryConfigOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewCloudSchedulerJobRetryConfigOutputReference_Override(c CloudSchedulerJobRetryConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudSchedulerJobRetryConfigOutputReference_Override(c CloudSchedulerJobRetryConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -564,8 +564,8 @@ func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -577,11 +577,11 @@ func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) InterpolationAsL
 	return returns
 }
 
-func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -633,7 +633,7 @@ func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) ResetRetryCount(
 	)
 }
 
-func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudSchedulerJobRetryConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

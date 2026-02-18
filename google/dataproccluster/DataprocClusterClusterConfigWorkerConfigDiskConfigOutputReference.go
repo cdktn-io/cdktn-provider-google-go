@@ -5,14 +5,14 @@ package dataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataproccluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataproccluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BootDiskSizeGb() *float64
 	SetBootDiskSizeGb(val *float64)
 	BootDiskSizeGbInput() *float64
@@ -49,15 +49,15 @@ type DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBootDiskSizeGb()
 	ResetBootDiskType()
 	ResetLocalSsdInterface()
 	ResetNumLocalSsds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference interface
 
 // The jsii proxy struct for DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference
 type jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskSizeGb() *float64 {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 }
 
 
-func NewDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference {
+func NewDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference(terraf
 	return &j
 }
 
-func NewDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference_Override(d DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference_Override(d DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 	)
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
 	)
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

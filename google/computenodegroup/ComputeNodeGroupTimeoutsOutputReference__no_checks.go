@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeNodeGroupTimeoutsOutputReference) validateSetUpdatePar
 	return nil
 }
 
-func validateNewComputeNodeGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeNodeGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

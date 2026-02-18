@@ -107,7 +107,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

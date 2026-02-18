@@ -5,14 +5,14 @@ package folderaccessapprovalsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/folderaccessapprovalsettings/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/folderaccessapprovalsettings/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FolderAccessApprovalSettingsTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type FolderAccessApprovalSettingsTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type FolderAccessApprovalSettingsTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type FolderAccessApprovalSettingsTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type FolderAccessApprovalSettingsTimeoutsOutputReference interface {
 
 // The jsii proxy struct for FolderAccessApprovalSettingsTimeoutsOutputReference
 type jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) UpdateIn
 }
 
 
-func NewFolderAccessApprovalSettingsTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FolderAccessApprovalSettingsTimeoutsOutputReference {
+func NewFolderAccessApprovalSettingsTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FolderAccessApprovalSettingsTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFolderAccessApprovalSettingsTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewFolderAccessApprovalSettingsTimeoutsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewFolderAccessApprovalSettingsTimeoutsOutputReference_Override(f FolderAccessApprovalSettingsTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFolderAccessApprovalSettingsTimeoutsOutputReference_Override(f FolderAccessApprovalSettingsTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) GetAnyMa
 	return returns
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -494,8 +494,8 @@ func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) GetStrin
 	return returns
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -507,11 +507,11 @@ func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) Interpol
 	return returns
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -547,7 +547,7 @@ func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) ResetUpd
 	)
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

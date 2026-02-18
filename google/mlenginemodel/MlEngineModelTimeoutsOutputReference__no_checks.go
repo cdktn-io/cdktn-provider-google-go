@@ -47,7 +47,7 @@ func (m *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (m *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MlEngineModelTimeoutsOutputReference) validateSetUpdateParame
 	return nil
 }
 
-func validateNewMlEngineModelTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMlEngineModelTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

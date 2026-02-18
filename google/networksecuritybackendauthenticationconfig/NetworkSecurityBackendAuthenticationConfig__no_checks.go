@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetLabels
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

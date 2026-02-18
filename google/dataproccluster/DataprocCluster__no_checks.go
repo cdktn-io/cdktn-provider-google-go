@@ -123,7 +123,7 @@ func (j *jsiiProxy_DataprocCluster) validateSetLabelsParameters(val *map[string]
 	return nil
 }
 
-func (j *jsiiProxy_DataprocCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

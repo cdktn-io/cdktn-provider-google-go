@@ -51,7 +51,7 @@ func (r *jsiiProxy_RedisClusterMaintenancePolicyOutputReference) validatePutWeek
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterMaintenancePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterMaintenancePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RedisClusterMaintenancePolicyOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterMaintenancePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterMaintenancePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisClusterMaintenancePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedisClusterMaintenancePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

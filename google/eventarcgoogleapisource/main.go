@@ -98,7 +98,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventarcGoogleApiSource{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -141,7 +141,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -186,7 +186,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

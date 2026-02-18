@@ -15,7 +15,7 @@ func (g *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateGetParameters(in
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GkeHubScopeRbacRoleBindingStateList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewGkeHubScopeRbacRoleBindingStateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGkeHubScopeRbacRoleBindingStateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasCustomerMana
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasCustomerManagedEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasCustomerManagedEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasCustomerMana
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasCustomerManagedEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasCustomerManagedEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecretManagerSecretReplicationUserManagedReplicasCustomerManagedEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecretManagerSecretReplicationUserManagedReplicasCustomerManagedEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

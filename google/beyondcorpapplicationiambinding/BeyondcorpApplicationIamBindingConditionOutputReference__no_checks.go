@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) vali
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BeyondcorpApplicationIamBindingConditionOutputReference) vali
 	return nil
 }
 
-func validateNewBeyondcorpApplicationIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBeyondcorpApplicationIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

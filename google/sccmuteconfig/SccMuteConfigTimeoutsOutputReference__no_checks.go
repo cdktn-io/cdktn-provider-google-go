@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (s *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SccMuteConfigTimeoutsOutputReference) validateSetUpdateParame
 	return nil
 }
 
-func validateNewSccMuteConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccMuteConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

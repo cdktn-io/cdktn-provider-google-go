@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateInterpo
 	return nil
 }
 
-func (i *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamFoldersPolicyBindingTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIamFoldersPolicyBindingTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

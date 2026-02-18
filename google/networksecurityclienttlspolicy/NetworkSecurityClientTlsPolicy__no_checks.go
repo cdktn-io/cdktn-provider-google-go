@@ -123,7 +123,7 @@ func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) validateSetLabelsParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

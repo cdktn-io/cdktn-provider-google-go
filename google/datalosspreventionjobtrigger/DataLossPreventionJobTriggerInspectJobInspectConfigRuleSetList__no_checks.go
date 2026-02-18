@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetLis
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetLis
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigRuleSetLis
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobInspectConfigRuleSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataLossPreventionJobTriggerInspectJobInspectConfigRuleSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

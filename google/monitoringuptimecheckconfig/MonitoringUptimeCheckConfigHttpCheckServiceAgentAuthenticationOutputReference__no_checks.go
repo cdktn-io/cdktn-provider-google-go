@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticatio
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticatio
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticatio
 	return nil
 }
 
-func validateNewMonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

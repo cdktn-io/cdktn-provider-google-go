@@ -95,7 +95,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -135,7 +135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterCapacityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -242,7 +242,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterGcpConfigAccessConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -280,7 +280,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterGcpConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -319,7 +319,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -364,7 +364,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -407,7 +407,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterTlsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -437,7 +437,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -471,7 +471,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -507,7 +507,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ManagedKafkaClusterTlsConfigTrustConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

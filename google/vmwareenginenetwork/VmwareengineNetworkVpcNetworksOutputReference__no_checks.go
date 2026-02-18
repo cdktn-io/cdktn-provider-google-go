@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwareengineNetworkVpcNetworksOutputReference) validateInterp
 	return nil
 }
 
-func (v *jsiiProxy_VmwareengineNetworkVpcNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareengineNetworkVpcNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VmwareengineNetworkVpcNetworksOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineNetworkVpcNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareengineNetworkVpcNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVmwareengineNetworkVpcNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVmwareengineNetworkVpcNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

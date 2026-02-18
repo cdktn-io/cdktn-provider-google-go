@@ -5,14 +5,14 @@ package recaptchaenterprisekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/recaptchaenterprisekey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/recaptchaenterprisekey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RecaptchaEnterpriseKeyTestingOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type RecaptchaEnterpriseKeyTestingOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TestingChallenge() *string
 	SetTestingChallenge(val *string)
 	TestingChallengeInput() *string
@@ -51,7 +51,7 @@ type RecaptchaEnterpriseKeyTestingOptionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type RecaptchaEnterpriseKeyTestingOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTestingChallenge()
 	ResetTestingScore()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type RecaptchaEnterpriseKeyTestingOptionsOutputReference interface {
 
 // The jsii proxy struct for RecaptchaEnterpriseKeyTestingOptionsOutputReference
 type jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -147,8 +147,8 @@ func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) TestingS
 }
 
 
-func NewRecaptchaEnterpriseKeyTestingOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RecaptchaEnterpriseKeyTestingOptionsOutputReference {
+func NewRecaptchaEnterpriseKeyTestingOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RecaptchaEnterpriseKeyTestingOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRecaptchaEnterpriseKeyTestingOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewRecaptchaEnterpriseKeyTestingOptionsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewRecaptchaEnterpriseKeyTestingOptionsOutputReference_Override(r RecaptchaEnterpriseKeyTestingOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRecaptchaEnterpriseKeyTestingOptionsOutputReference_Override(r RecaptchaEnterpriseKeyTestingOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) GetAnyMa
 	return returns
 }
 
-func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -459,8 +459,8 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) GetStrin
 	return returns
 }
 
-func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -472,11 +472,11 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) Interpol
 	return returns
 }
 
-func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -504,7 +504,7 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) ResetTes
 	)
 }
 
-func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RecaptchaEnterpriseKeyTestingOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

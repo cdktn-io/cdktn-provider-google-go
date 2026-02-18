@@ -86,7 +86,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -124,7 +124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicyBooleanPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -174,7 +174,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicyListPolicyAllowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -216,7 +216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicyListPolicyDenyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -262,7 +262,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicyListPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -300,7 +300,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicyRestorePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -348,7 +348,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectOrganizationPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

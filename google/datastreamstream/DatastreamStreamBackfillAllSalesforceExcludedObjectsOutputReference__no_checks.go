@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatastreamStreamBackfillAllSalesforceExcludedObjectsOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSalesforceExcludedObjectsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

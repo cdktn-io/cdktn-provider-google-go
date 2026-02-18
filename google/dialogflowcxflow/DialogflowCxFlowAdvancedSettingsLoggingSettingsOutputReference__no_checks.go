@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

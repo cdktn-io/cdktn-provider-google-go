@@ -119,7 +119,7 @@ func (j *jsiiProxy_DataplexAssetIamBinding) validateSetLakeParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataplexAssetIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexAssetIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

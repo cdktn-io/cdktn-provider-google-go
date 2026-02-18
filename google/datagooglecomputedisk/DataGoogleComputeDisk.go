@@ -5,28 +5,28 @@ package datagooglecomputedisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglecomputedisk/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datagooglecomputedisk/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_disk google_compute_disk}.
 type DataGoogleComputeDisk interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccessMode() *string
 	Architecture() *string
 	AsyncPrimaryDisk() DataGoogleComputeDiskAsyncPrimaryDiskList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	CreateSnapshotBeforeDestroy() cdktf.IResolvable
+	CreateSnapshotBeforeDestroy() cdktn.IResolvable
 	CreateSnapshotBeforeDestroyPrefix() *string
 	CreationTimestamp() *string
 	// Experimental.
@@ -36,12 +36,12 @@ type DataGoogleComputeDisk interface {
 	Description() *string
 	DiskEncryptionKey() DataGoogleComputeDiskDiskEncryptionKeyList
 	DiskId() *string
-	EffectiveLabels() cdktf.StringMap
-	EnableConfidentialCompute() cdktf.IResolvable
+	EffectiveLabels() cdktn.StringMap
+	EnableConfidentialCompute() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,14 +52,14 @@ type DataGoogleComputeDisk interface {
 	IdInput() *string
 	Image() *string
 	LabelFingerprint() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	LastAttachTimestamp() *string
 	LastDetachTimestamp() *string
 	Licenses() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -71,9 +71,9 @@ type DataGoogleComputeDisk interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProvisionedIops() *float64
 	ProvisionedThroughput() *float64
 	// Experimental.
@@ -92,8 +92,8 @@ type DataGoogleComputeDisk interface {
 	SourceStorageObject() *string
 	StoragePool() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type DataGoogleComputeDisk interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,7 +124,7 @@ type DataGoogleComputeDisk interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -150,7 +150,7 @@ type DataGoogleComputeDisk interface {
 
 // The jsii proxy struct for DataGoogleComputeDisk
 type jsiiProxy_DataGoogleComputeDisk struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleComputeDisk) AccessMode() *string {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) AsyncPrimaryDisk() DataGoogleComputeDi
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleComputeDisk) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -213,8 +213,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) CreateSnapshotBeforeDestroy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeDisk) CreateSnapshotBeforeDestroy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"createSnapshotBeforeDestroy",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) DiskId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeDisk) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) EnableConfidentialCompute() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeDisk) EnableConfidentialCompute() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableConfidentialCompute",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) EnableConfidentialCompute() cdktf.IRes
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleComputeDisk) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) LabelFingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeDisk) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -423,8 +423,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) Licenses() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleComputeDisk) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -503,8 +503,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleComputeDisk) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -673,8 +673,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) StoragePool() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleComputeDisk) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -683,8 +683,8 @@ func (j *jsiiProxy_DataGoogleComputeDisk) TerraformGeneratorMetadata() *cdktf.Te
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeDisk) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -802,7 +802,7 @@ func (j *jsiiProxy_DataGoogleComputeDisk)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleComputeDisk)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -821,7 +821,7 @@ func (j *jsiiProxy_DataGoogleComputeDisk)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleComputeDisk)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -854,7 +854,7 @@ func (j *jsiiProxy_DataGoogleComputeDisk)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeDisk)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleComputeDisk)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -873,14 +873,14 @@ func (j *jsiiProxy_DataGoogleComputeDisk)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleComputeDisk resource upon running "cdktf plan <stack-name>".
-func DataGoogleComputeDisk_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleComputeDisk resource upon running "cdktn plan <stack-name>".
+func DataGoogleComputeDisk_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleComputeDisk_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.dataGoogleComputeDisk.DataGoogleComputeDisk",
@@ -1003,11 +1003,11 @@ func (d *jsiiProxy_DataGoogleComputeDisk) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeDisk) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeDisk) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1131,11 +1131,11 @@ func (d *jsiiProxy_DataGoogleComputeDisk) GetStringMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeDisk) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeDisk) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

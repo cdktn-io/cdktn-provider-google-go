@@ -5,18 +5,18 @@ package spannerdatabaseiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/spannerdatabaseiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/spannerdatabaseiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_database_iam_binding google_spanner_database_iam_binding}.
 type SpannerDatabaseIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() SpannerDatabaseIamBindingConditionOutputReference
 	ConditionInput() *SpannerDatabaseIamBindingCondition
 	// Experimental.
@@ -38,9 +38,9 @@ type SpannerDatabaseIamBinding interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type SpannerDatabaseIamBinding interface {
 	SetInstance(val *string)
 	InstanceInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Members() *[]*string
 	SetMembers(val *[]*string)
 	MembersInput() *[]*string
@@ -64,9 +64,9 @@ type SpannerDatabaseIamBinding interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type SpannerDatabaseIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type SpannerDatabaseIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type SpannerDatabaseIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,11 +147,11 @@ type SpannerDatabaseIamBinding interface {
 
 // The jsii proxy struct for SpannerDatabaseIamBinding
 type jsiiProxy_SpannerDatabaseIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SpannerDatabaseIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -250,8 +250,8 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SpannerDatabaseIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -320,8 +320,8 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding) InstanceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SpannerDatabaseIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SpannerDatabaseIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SpannerDatabaseIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -531,7 +531,7 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SpannerDatabaseIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -561,7 +561,7 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding)SetInstance(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SpannerDatabaseIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -594,7 +594,7 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SpannerDatabaseIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -624,14 +624,14 @@ func (j *jsiiProxy_SpannerDatabaseIamBinding)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SpannerDatabaseIamBinding resource upon running "cdktf plan <stack-name>".
-func SpannerDatabaseIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SpannerDatabaseIamBinding resource upon running "cdktn plan <stack-name>".
+func SpannerDatabaseIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSpannerDatabaseIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.spannerDatabaseIamBinding.SpannerDatabaseIamBinding",
@@ -765,11 +765,11 @@ func (s *jsiiProxy_SpannerDatabaseIamBinding) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpannerDatabaseIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -906,7 +906,7 @@ func (s *jsiiProxy_SpannerDatabaseIamBinding) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SpannerDatabaseIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -917,11 +917,11 @@ func (s *jsiiProxy_SpannerDatabaseIamBinding) ImportFrom(id *string, provider cd
 	)
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpannerDatabaseIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

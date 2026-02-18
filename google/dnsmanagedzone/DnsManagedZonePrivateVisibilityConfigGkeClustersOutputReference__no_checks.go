@@ -47,7 +47,7 @@ func (d *jsiiProxy_DnsManagedZonePrivateVisibilityConfigGkeClustersOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DnsManagedZonePrivateVisibilityConfigGkeClustersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsManagedZonePrivateVisibilityConfigGkeClustersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DnsManagedZonePrivateVisibilityConfigGkeClustersOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZonePrivateVisibilityConfigGkeClustersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsManagedZonePrivateVisibilityConfigGkeClustersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsManagedZonePrivateVisibilityConfigGkeClustersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDnsManagedZonePrivateVisibilityConfigGkeClustersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

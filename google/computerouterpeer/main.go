@@ -152,7 +152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeer{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -178,7 +178,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerAdvertisedIpRangesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -215,7 +215,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerAdvertisedIpRangesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -262,7 +262,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerBfdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -326,7 +326,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -366,7 +366,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -411,7 +411,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRouterPeerTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

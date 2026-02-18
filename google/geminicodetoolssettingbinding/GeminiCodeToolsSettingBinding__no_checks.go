@@ -115,7 +115,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingBinding) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GeminiCodeToolsSettingBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GeminiCodeToolsSettingBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

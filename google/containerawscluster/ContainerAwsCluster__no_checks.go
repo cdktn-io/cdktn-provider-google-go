@@ -139,7 +139,7 @@ func (j *jsiiProxy_ContainerAwsCluster) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerAwsCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

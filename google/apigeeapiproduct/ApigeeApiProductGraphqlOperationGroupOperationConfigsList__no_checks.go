@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) va
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) va
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApigeeApiProductGraphqlOperationGroupOperationConfigsList) va
 	return nil
 }
 
-func validateNewApigeeApiProductGraphqlOperationGroupOperationConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApigeeApiProductGraphqlOperationGroupOperationConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

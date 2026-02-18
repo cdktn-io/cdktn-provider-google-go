@@ -55,7 +55,7 @@ func (c *jsiiProxy_ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutput
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutput
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

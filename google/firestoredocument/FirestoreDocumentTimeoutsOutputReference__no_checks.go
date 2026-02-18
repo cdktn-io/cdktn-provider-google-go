@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (f *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FirestoreDocumentTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewFirestoreDocumentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirestoreDocumentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

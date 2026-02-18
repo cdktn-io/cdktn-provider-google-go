@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputRefere
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

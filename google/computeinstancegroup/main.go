@@ -88,7 +88,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroup{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupNamedPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -154,7 +154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupNamedPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

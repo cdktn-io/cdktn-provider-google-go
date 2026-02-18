@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowFulfillmentFeaturesList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowFulfillmentFeaturesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowFulfillmentFeaturesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowFulfillmentFeaturesList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowFulfillmentFeaturesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowFulfillmentFeaturesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowFulfillmentFeaturesList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDialogflowFulfillmentFeaturesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowFulfillmentFeaturesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

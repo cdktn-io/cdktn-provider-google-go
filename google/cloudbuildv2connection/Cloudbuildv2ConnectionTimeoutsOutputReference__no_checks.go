@@ -47,7 +47,7 @@ func (c *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_Cloudbuildv2ConnectionTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewCloudbuildv2ConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildv2ConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorize
 	return nil
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorize
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorize
 	return nil
 }
 
-func validateNewDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -139,7 +139,7 @@ func (j *jsiiProxy_ClouddomainsRegistration) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_ClouddomainsRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ClouddomainsRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

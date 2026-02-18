@@ -5,21 +5,21 @@ package dataflowjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataflowjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataflowjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataflow_job google_dataflow_job}.
 type DataflowJob interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
 	SetAdditionalExperiments(val *[]*string)
 	AdditionalExperimentsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -34,14 +34,14 @@ type DataflowJob interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EnableStreamingEngine() interface{}
 	SetEnableStreamingEngine(val interface{})
 	EnableStreamingEngineInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type DataflowJob interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
@@ -87,9 +87,9 @@ type DataflowJob interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -116,8 +116,8 @@ type DataflowJob interface {
 	SetTemplateGcsPath(val *string)
 	TemplateGcsPathInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -139,7 +139,7 @@ type DataflowJob interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -157,9 +157,9 @@ type DataflowJob interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -212,7 +212,7 @@ type DataflowJob interface {
 
 // The jsii proxy struct for DataflowJob
 type jsiiProxy_DataflowJob struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataflowJob) AdditionalExperiments() *[]*string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_DataflowJob) AdditionalExperimentsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataflowJob) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_DataflowJob) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataflowJob) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_DataflowJob) EnableStreamingEngineInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataflowJob) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -435,8 +435,8 @@ func (j *jsiiProxy_DataflowJob) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataflowJob) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -595,8 +595,8 @@ func (j *jsiiProxy_DataflowJob) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataflowJob) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -755,8 +755,8 @@ func (j *jsiiProxy_DataflowJob) TemplateGcsPathInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataflowJob) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -765,8 +765,8 @@ func (j *jsiiProxy_DataflowJob) TerraformGeneratorMetadata() *cdktf.TerraformPro
 	return returns
 }
 
-func (j *jsiiProxy_DataflowJob) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataflowJob) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -947,7 +947,7 @@ func (j *jsiiProxy_DataflowJob)SetEnableStreamingEngine(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataflowJob)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataflowJob)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -999,7 +999,7 @@ func (j *jsiiProxy_DataflowJob)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataflowJob)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataflowJob)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1087,7 +1087,7 @@ func (j *jsiiProxy_DataflowJob)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataflowJob)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataflowJob)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1194,14 +1194,14 @@ func (j *jsiiProxy_DataflowJob)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataflowJob resource upon running "cdktf plan <stack-name>".
-func DataflowJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataflowJob resource upon running "cdktn plan <stack-name>".
+func DataflowJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataflowJob_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.dataflowJob.DataflowJob",
@@ -1335,11 +1335,11 @@ func (d *jsiiProxy_DataflowJob) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (d *jsiiProxy_DataflowJob) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataflowJob) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1476,7 +1476,7 @@ func (d *jsiiProxy_DataflowJob) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DataflowJob) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataflowJob) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1487,11 +1487,11 @@ func (d *jsiiProxy_DataflowJob) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (d *jsiiProxy_DataflowJob) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataflowJob) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

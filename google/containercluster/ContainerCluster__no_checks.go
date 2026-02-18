@@ -351,7 +351,7 @@ func (j *jsiiProxy_ContainerCluster) validateSetInTransitEncryptionConfigParamet
 	return nil
 }
 
-func (j *jsiiProxy_ContainerCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

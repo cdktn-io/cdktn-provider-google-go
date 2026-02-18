@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDialogflowCxGeneratorPlaceholdersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxGeneratorPlaceholdersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

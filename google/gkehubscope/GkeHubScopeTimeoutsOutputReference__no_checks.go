@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GkeHubScopeTimeoutsOutputReference) validateSetUpdateParamete
 	return nil
 }
 
-func validateNewGkeHubScopeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubScopeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

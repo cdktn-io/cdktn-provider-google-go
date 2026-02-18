@@ -79,7 +79,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersion{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -108,7 +108,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionAttestationCertChainsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -143,7 +143,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionAttestationCertChainsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -168,7 +168,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionAttestationExternalProtectionLevelOptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -202,7 +202,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionAttestationExternalProtectionLevelOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -223,7 +223,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionAttestationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -259,7 +259,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionAttestationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -305,7 +305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -350,7 +350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KmsCryptoKeyVersionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

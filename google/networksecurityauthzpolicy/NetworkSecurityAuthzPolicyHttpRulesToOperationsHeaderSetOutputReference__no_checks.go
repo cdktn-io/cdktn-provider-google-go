@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutpu
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutpu
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

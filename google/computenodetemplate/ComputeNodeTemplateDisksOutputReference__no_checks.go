@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeNodeTemplateDisksOutputReference) validateInterpolatio
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeTemplateDisksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeTemplateDisksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeNodeTemplateDisksOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeTemplateDisksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeTemplateDisksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeNodeTemplateDisksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeNodeTemplateDisksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

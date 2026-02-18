@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOut
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOut
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

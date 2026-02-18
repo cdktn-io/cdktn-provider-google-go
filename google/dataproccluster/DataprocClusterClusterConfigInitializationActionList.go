@@ -5,14 +5,14 @@ package dataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataproccluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataproccluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocClusterClusterConfigInitializationActionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataprocClusterClusterConfigInitializationActionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataprocClusterClusterConfigInitializationActionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataprocClusterClusterConfigInitializationActionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataprocClusterClusterConfigInitializationActionList interface {
 
 // The jsii proxy struct for DataprocClusterClusterConfigInitializationActionList
 type jsiiProxy_DataprocClusterClusterConfigInitializationActionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) WrapsSe
 }
 
 
-func NewDataprocClusterClusterConfigInitializationActionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataprocClusterClusterConfigInitializationActionList {
+func NewDataprocClusterClusterConfigInitializationActionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataprocClusterClusterConfigInitializationActionList {
 	_init_.Initialize()
 
 	if err := validateNewDataprocClusterClusterConfigInitializationActionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataprocClusterClusterConfigInitializationActionList(terraformResource c
 	return &j
 }
 
-func NewDataprocClusterClusterConfigInitializationActionList_Override(d DataprocClusterClusterConfigInitializationActionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataprocClusterClusterConfigInitializationActionList_Override(d DataprocClusterClusterConfigInitializationActionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataprocClusterClusterConfigInitializationActionList)SetWraps
 	)
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) Get(ind
 	return returns
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocClusterClusterConfigInitializationActionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

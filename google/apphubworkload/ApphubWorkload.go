@@ -5,23 +5,23 @@ package apphubworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apphubworkload/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apphubworkload/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apphub_workload google_apphub_workload}.
 type ApphubWorkload interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
 	Attributes() ApphubWorkloadAttributesOutputReference
 	AttributesInput() *ApphubWorkloadAttributes
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -47,9 +47,9 @@ type ApphubWorkload interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type ApphubWorkload interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -71,9 +71,9 @@ type ApphubWorkload interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type ApphubWorkload interface {
 	RawOverrides() interface{}
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type ApphubWorkload interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type ApphubWorkload interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type ApphubWorkload interface {
 
 // The jsii proxy struct for ApphubWorkload
 type jsiiProxy_ApphubWorkload struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApphubWorkload) ApplicationId() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_ApphubWorkload) AttributesInput() *ApphubWorkloadAttributes {
 	return returns
 }
 
-func (j *jsiiProxy_ApphubWorkload) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApphubWorkload) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_ApphubWorkload) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApphubWorkload) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApphubWorkload) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_ApphubWorkload) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApphubWorkload) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApphubWorkload) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_ApphubWorkload) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApphubWorkload) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApphubWorkload) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -488,8 +488,8 @@ func (j *jsiiProxy_ApphubWorkload) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApphubWorkload) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApphubWorkload) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -702,7 +702,7 @@ func (j *jsiiProxy_ApphubWorkload)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApphubWorkload)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApphubWorkload)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -721,7 +721,7 @@ func (j *jsiiProxy_ApphubWorkload)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApphubWorkload)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApphubWorkload)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -754,7 +754,7 @@ func (j *jsiiProxy_ApphubWorkload)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApphubWorkload)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApphubWorkload)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -784,14 +784,14 @@ func (j *jsiiProxy_ApphubWorkload)SetWorkloadId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApphubWorkload resource upon running "cdktf plan <stack-name>".
-func ApphubWorkload_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApphubWorkload resource upon running "cdktn plan <stack-name>".
+func ApphubWorkload_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApphubWorkload_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.apphubWorkload.ApphubWorkload",
@@ -925,11 +925,11 @@ func (a *jsiiProxy_ApphubWorkload) GetAnyMapAttribute(terraformAttribute *string
 	return returns
 }
 
-func (a *jsiiProxy_ApphubWorkload) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApphubWorkload) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1066,7 +1066,7 @@ func (a *jsiiProxy_ApphubWorkload) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApphubWorkload) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApphubWorkload) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1077,11 +1077,11 @@ func (a *jsiiProxy_ApphubWorkload) ImportFrom(id *string, provider cdktf.Terrafo
 	)
 }
 
-func (a *jsiiProxy_ApphubWorkload) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApphubWorkload) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

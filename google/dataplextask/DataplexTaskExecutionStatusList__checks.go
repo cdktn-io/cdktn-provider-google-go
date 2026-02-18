@@ -8,7 +8,7 @@ package dataplextask
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataplexTaskExecutionStatusList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataplexTaskExecutionStatusList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DataplexTaskExecutionStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexTaskExecutionStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataplexTaskExecutionStatusList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DataplexTaskExecutionStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexTaskExecutionStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataplexTaskExecutionStatusList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDataplexTaskExecutionStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataplexTaskExecutionStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

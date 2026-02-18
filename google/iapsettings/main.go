@@ -75,7 +75,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettings{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -121,7 +121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsAllowedDomainsSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -160,7 +160,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsCorsSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -202,7 +202,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsGcipSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -244,7 +244,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsOauthSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -303,7 +303,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -345,7 +345,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsReauthSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -392,7 +392,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -431,7 +431,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -480,7 +480,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -525,7 +525,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsApplicationSettingsAttributePropagationSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -564,7 +564,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsApplicationSettingsCsmSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -611,7 +611,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsApplicationSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -660,7 +660,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IapSettingsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolic
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolic
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

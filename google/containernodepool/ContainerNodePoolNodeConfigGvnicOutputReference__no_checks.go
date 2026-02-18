@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigGvnicOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigGvnicOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNodeConfigGvnicOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigGvnicOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNodeConfigGvnicOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNodeConfigGvnicOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerNodePoolNodeConfigGvnicOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerNodePoolNodeConfigGvnicOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

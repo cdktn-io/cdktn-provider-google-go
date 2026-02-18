@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

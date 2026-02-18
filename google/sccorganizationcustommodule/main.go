@@ -78,7 +78,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -126,7 +126,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -152,7 +152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -238,7 +238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -287,7 +287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -334,7 +334,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigPredicateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -372,7 +372,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleCustomConfigResourceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -417,7 +417,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SccOrganizationCustomModuleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

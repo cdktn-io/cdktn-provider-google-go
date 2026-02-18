@@ -55,7 +55,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigAuthConfigAdditi
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigAuthConfigAdditi
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

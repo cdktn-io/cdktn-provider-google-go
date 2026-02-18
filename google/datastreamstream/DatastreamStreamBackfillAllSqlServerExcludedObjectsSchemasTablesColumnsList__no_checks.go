@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
 	return nil
 }
 
-func validateNewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

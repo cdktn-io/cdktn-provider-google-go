@@ -5,14 +5,14 @@ package organizationiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/organizationiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/organizationiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrganizationIamMemberConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type OrganizationIamMemberConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type OrganizationIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type OrganizationIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type OrganizationIamMemberConditionOutputReference interface {
 
 // The jsii proxy struct for OrganizationIamMemberConditionOutputReference
 type jsiiProxy_OrganizationIamMemberConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference) TitleInput() *
 }
 
 
-func NewOrganizationIamMemberConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OrganizationIamMemberConditionOutputReference {
+func NewOrganizationIamMemberConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OrganizationIamMemberConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrganizationIamMemberConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewOrganizationIamMemberConditionOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewOrganizationIamMemberConditionOutputReference_Override(o OrganizationIamMemberConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOrganizationIamMemberConditionOutputReference_Override(o OrganizationIamMemberConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrganizationIamMemberConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -492,8 +492,8 @@ func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) GetStringMapAt
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -505,11 +505,11 @@ func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) InterpolationA
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -529,7 +529,7 @@ func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) ResetDescripti
 	)
 }
 
-func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrganizationIamMemberConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

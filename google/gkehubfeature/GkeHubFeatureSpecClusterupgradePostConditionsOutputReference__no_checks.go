@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradePostConditionsOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradePostConditionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradePostConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradePostConditionsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradePostConditionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradePostConditionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubFeatureSpecClusterupgradePostConditionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubFeatureSpecClusterupgradePostConditionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

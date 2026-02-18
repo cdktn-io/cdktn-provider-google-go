@@ -59,7 +59,7 @@ func (p *jsiiProxy_PrivatecaCertificateConfigX509ConfigKeyUsageOutputReference) 
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateConfigX509ConfigKeyUsageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateConfigX509ConfigKeyUsageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigKeyUsageOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigKeyUsageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateConfigX509ConfigKeyUsageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivatecaCertificateConfigX509ConfigKeyUsageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivatecaCertificateConfigX509ConfigKeyUsageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

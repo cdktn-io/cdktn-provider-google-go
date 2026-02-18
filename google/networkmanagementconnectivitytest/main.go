@@ -96,7 +96,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTest{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -169,7 +169,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTestSourceAppEngineVersionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -251,7 +251,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTestSourceCloudFunctionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -290,7 +290,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -358,7 +358,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTestSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -403,7 +403,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkManagementConnectivityTestTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

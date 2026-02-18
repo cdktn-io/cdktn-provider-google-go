@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageEntryFulfillmentConditionalCasesOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageEntryFulfillmentConditionalCasesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageEntryFulfillmentConditionalCasesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DialogflowCxPageEntryFulfillmentConditionalCasesOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageEntryFulfillmentConditionalCasesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageEntryFulfillmentConditionalCasesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxPageEntryFulfillmentConditionalCasesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxPageEntryFulfillmentConditionalCasesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

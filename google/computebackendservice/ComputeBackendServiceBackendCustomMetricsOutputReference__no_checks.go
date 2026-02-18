@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeBackendServiceBackendCustomMetricsOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceBackendCustomMetricsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceBackendCustomMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeBackendServiceBackendCustomMetricsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeBackendServiceBackendCustomMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

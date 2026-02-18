@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) va
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentityPlatformOauthIdpConfigResponseTypeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentityPlatformOauthIdpConfigResponseTypeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

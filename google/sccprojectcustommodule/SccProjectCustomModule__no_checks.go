@@ -119,7 +119,7 @@ func (j *jsiiProxy_SccProjectCustomModule) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_SccProjectCustomModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccProjectCustomModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

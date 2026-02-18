@@ -96,7 +96,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucket{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -126,7 +126,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -161,7 +161,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -203,7 +203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketCdnPolicyCacheKeyPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -229,7 +229,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketCdnPolicyNegativeCachingPolicyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketCdnPolicyNegativeCachingPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -335,7 +335,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketCdnPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -384,7 +384,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeBackendBucketTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

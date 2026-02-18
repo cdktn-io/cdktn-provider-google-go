@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelect
 	return nil
 }
 
-func (a *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelect
 	return nil
 }
 
-func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelect
 	return nil
 }
 
-func validateNewApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

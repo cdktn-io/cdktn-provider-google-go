@@ -98,7 +98,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -145,7 +145,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleMatchConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -183,7 +183,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleMatchExprOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -226,7 +226,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -287,7 +287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleNetworkMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -313,7 +313,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleNetworkMatchUserDefinedFieldsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -351,7 +351,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleNetworkMatchUserDefinedFieldsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -381,7 +381,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -434,7 +434,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -460,7 +460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -497,7 +497,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -523,7 +523,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -560,7 +560,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -586,7 +586,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -623,7 +623,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -649,7 +649,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -686,7 +686,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -722,7 +722,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -768,7 +768,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsBanThresholdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -794,7 +794,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -832,7 +832,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -891,7 +891,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -933,7 +933,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsRateLimitThresholdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -978,7 +978,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionSecurityPolicyRuleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

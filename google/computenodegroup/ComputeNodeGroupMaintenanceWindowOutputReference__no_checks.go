@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeNodeGroupMaintenanceWindowOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeGroupMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeGroupMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeNodeGroupMaintenanceWindowOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeGroupMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeGroupMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeNodeGroupMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeNodeGroupMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

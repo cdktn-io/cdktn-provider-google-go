@@ -59,7 +59,7 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsO
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsO
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

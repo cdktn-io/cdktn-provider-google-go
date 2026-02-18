@@ -115,7 +115,7 @@ func (j *jsiiProxy_VmwareengineCluster) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VmwareengineCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_ChronicleRuleDeployment) validateSetInstanceParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleRuleDeployment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChronicleRuleDeployment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

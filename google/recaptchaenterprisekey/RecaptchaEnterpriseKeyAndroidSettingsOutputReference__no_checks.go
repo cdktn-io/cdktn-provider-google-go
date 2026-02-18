@@ -47,7 +47,7 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyAndroidSettingsOutputReference) validat
 	return nil
 }
 
-func (r *jsiiProxy_RecaptchaEnterpriseKeyAndroidSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RecaptchaEnterpriseKeyAndroidSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RecaptchaEnterpriseKeyAndroidSettingsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_RecaptchaEnterpriseKeyAndroidSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RecaptchaEnterpriseKeyAndroidSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRecaptchaEnterpriseKeyAndroidSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRecaptchaEnterpriseKeyAndroidSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

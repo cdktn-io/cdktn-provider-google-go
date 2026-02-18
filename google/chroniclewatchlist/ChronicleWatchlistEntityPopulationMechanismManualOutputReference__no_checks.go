@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChronicleWatchlistEntityPopulationMechanismManualOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ChronicleWatchlistEntityPopulationMechanismManualOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChronicleWatchlistEntityPopulationMechanismManualOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChronicleWatchlistEntityPopulationMechanismManualOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

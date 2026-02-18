@@ -107,7 +107,7 @@ func (j *jsiiProxy_CloudRunV2JobIamMember) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2JobIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudRunV2JobIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

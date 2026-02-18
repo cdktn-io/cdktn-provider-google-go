@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthen
 	return nil
 }
 
-func (d *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthen
 	return nil
 }
 
-func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigExecutionConfigAuthen
 	return nil
 }
 
-func validateNewDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocSessionTemplateEnvironmentConfigExecutionConfigAuthenticationConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

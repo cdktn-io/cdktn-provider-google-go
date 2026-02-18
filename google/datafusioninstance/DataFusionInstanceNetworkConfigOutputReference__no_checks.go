@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataFusionInstanceNetworkConfigOutputReference) validatePutPr
 	return nil
 }
 
-func (d *jsiiProxy_DataFusionInstanceNetworkConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFusionInstanceNetworkConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataFusionInstanceNetworkConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataFusionInstanceNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFusionInstanceNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFusionInstanceNetworkConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFusionInstanceNetworkConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

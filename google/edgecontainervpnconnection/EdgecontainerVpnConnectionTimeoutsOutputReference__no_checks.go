@@ -47,7 +47,7 @@ func (e *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EdgecontainerVpnConnectionTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewEdgecontainerVpnConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEdgecontainerVpnConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

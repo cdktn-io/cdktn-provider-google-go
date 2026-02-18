@@ -5,14 +5,14 @@ package computeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeresourcepolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeresourcepolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeResourcePolicyWorkloadPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AcceleratorTopology() *string
 	SetAcceleratorTopology(val *string)
 	AcceleratorTopologyInput() *string
@@ -43,9 +43,9 @@ type ComputeResourcePolicyWorkloadPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -54,7 +54,7 @@ type ComputeResourcePolicyWorkloadPolicyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type ComputeResourcePolicyWorkloadPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAcceleratorTopology()
 	ResetMaxTopologyDistance()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type ComputeResourcePolicyWorkloadPolicyOutputReference interface {
 
 // The jsii proxy struct for ComputeResourcePolicyWorkloadPolicyOutputReference
 type jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) AcceleratorTopology() *string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) TypeInput
 }
 
 
-func NewComputeResourcePolicyWorkloadPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeResourcePolicyWorkloadPolicyOutputReference {
+func NewComputeResourcePolicyWorkloadPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeResourcePolicyWorkloadPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeResourcePolicyWorkloadPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewComputeResourcePolicyWorkloadPolicyOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewComputeResourcePolicyWorkloadPolicyOutputReference_Override(c ComputeResourcePolicyWorkloadPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeResourcePolicyWorkloadPolicyOutputReference_Override(c ComputeResourcePolicyWorkloadPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) GetAnyMap
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -493,8 +493,8 @@ func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) GetString
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -506,11 +506,11 @@ func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) Interpola
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -538,7 +538,7 @@ func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) ResetMaxT
 	)
 }
 
-func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeResourcePolicyWorkloadPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

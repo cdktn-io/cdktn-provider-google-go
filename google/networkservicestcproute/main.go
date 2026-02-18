@@ -90,7 +90,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRoute{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -128,7 +128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesActionDestinationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -166,7 +166,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesActionDestinationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -208,7 +208,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -230,7 +230,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -256,7 +256,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesMatchesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesMatchesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -331,7 +331,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -376,7 +376,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesTcpRouteTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

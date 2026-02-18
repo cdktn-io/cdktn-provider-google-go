@@ -119,7 +119,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPool) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamWorkloadIdentityPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

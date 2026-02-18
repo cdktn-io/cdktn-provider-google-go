@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOut
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOut
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOut
 	return nil
 }
 
-func validateNewDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxPageTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

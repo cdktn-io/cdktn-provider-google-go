@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnection
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnection
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnection
 	return nil
 }
 
-func validateNewDialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

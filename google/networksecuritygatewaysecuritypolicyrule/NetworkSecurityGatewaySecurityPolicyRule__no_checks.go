@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlSslCertTimeoutsOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (s *jsiiProxy_SqlSslCertTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlSslCertTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SqlSslCertTimeoutsOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_SqlSslCertTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlSslCertTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSqlSslCertTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlSslCertTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

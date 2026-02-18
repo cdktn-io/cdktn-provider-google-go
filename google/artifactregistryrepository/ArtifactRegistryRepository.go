@@ -5,18 +5,18 @@ package artifactregistryrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/artifactregistryrepository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/artifactregistryrepository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/artifact_registry_repository google_artifact_registry_repository}.
 type ArtifactRegistryRepository interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CleanupPolicies() ArtifactRegistryRepositoryCleanupPoliciesList
 	CleanupPoliciesInput() interface{}
 	CleanupPolicyDryRun() interface{}
@@ -42,11 +42,11 @@ type ArtifactRegistryRepository interface {
 	DescriptionInput() *string
 	DockerConfig() ArtifactRegistryRepositoryDockerConfigOutputReference
 	DockerConfigInput() *ArtifactRegistryRepositoryDockerConfig
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Format() *string
 	SetFormat(val *string)
 	FormatInput() *string
@@ -64,9 +64,9 @@ type ArtifactRegistryRepository interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -82,9 +82,9 @@ type ArtifactRegistryRepository interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -97,8 +97,8 @@ type ArtifactRegistryRepository interface {
 	SetRepositoryId(val *string)
 	RepositoryIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -118,7 +118,7 @@ type ArtifactRegistryRepository interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -136,9 +136,9 @@ type ArtifactRegistryRepository interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -193,11 +193,11 @@ type ArtifactRegistryRepository interface {
 
 // The jsii proxy struct for ArtifactRegistryRepository
 type jsiiProxy_ArtifactRegistryRepository struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ArtifactRegistryRepository) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_ArtifactRegistryRepository) DockerConfigInput() *ArtifactRegi
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ArtifactRegistryRepository) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -346,8 +346,8 @@ func (j *jsiiProxy_ArtifactRegistryRepository) EffectiveLabels() cdktf.StringMap
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ArtifactRegistryRepository) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -456,8 +456,8 @@ func (j *jsiiProxy_ArtifactRegistryRepository) LabelsInput() *map[string]*string
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ArtifactRegistryRepository) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -566,8 +566,8 @@ func (j *jsiiProxy_ArtifactRegistryRepository) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ArtifactRegistryRepository) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -636,8 +636,8 @@ func (j *jsiiProxy_ArtifactRegistryRepository) RepositoryIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ArtifactRegistryRepository) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -646,8 +646,8 @@ func (j *jsiiProxy_ArtifactRegistryRepository) TerraformGeneratorMetadata() *cdk
 	return returns
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ArtifactRegistryRepository) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -828,7 +828,7 @@ func (j *jsiiProxy_ArtifactRegistryRepository)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ArtifactRegistryRepository)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -880,7 +880,7 @@ func (j *jsiiProxy_ArtifactRegistryRepository)SetLabels(val *map[string]*string)
 	)
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ArtifactRegistryRepository)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -924,7 +924,7 @@ func (j *jsiiProxy_ArtifactRegistryRepository)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ArtifactRegistryRepository)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -954,14 +954,14 @@ func (j *jsiiProxy_ArtifactRegistryRepository)SetRepositoryId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ArtifactRegistryRepository resource upon running "cdktf plan <stack-name>".
-func ArtifactRegistryRepository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ArtifactRegistryRepository resource upon running "cdktn plan <stack-name>".
+func ArtifactRegistryRepository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateArtifactRegistryRepository_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.artifactRegistryRepository.ArtifactRegistryRepository",
@@ -1095,11 +1095,11 @@ func (a *jsiiProxy_ArtifactRegistryRepository) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepository) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArtifactRegistryRepository) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1236,7 +1236,7 @@ func (a *jsiiProxy_ArtifactRegistryRepository) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepository) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ArtifactRegistryRepository) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1247,11 +1247,11 @@ func (a *jsiiProxy_ArtifactRegistryRepository) ImportFrom(id *string, provider c
 	)
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepository) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArtifactRegistryRepository) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

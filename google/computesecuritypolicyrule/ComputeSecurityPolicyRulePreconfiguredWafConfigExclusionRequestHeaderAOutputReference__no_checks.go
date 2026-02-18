@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

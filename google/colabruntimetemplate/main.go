@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplate{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -164,7 +164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -203,7 +203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateEncryptionSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -242,7 +242,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateEucConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -281,7 +281,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateIdleShutdownConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -326,7 +326,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -371,7 +371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateNetworkSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -410,7 +410,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateShieldedVmConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -440,7 +440,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -478,7 +478,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -518,7 +518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -563,7 +563,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateSoftwareConfigPostStartupScriptConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -608,7 +608,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ColabRuntimeTemplateTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

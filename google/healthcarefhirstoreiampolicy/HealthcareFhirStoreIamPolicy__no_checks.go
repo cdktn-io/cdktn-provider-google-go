@@ -107,7 +107,7 @@ func (j *jsiiProxy_HealthcareFhirStoreIamPolicy) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareFhirStoreIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareFhirStoreIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (s *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageManagedFolderTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewStorageManagedFolderTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageManagedFolderTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

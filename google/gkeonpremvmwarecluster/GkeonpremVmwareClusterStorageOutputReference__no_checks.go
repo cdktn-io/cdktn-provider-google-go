@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateInterpo
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeonpremVmwareClusterStorageOutputReference) validateSetVsph
 	return nil
 }
 
-func validateNewGkeonpremVmwareClusterStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremVmwareClusterStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

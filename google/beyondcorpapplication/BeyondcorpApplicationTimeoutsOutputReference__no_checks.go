@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BeyondcorpApplicationTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewBeyondcorpApplicationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBeyondcorpApplicationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

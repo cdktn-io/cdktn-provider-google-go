@@ -5,14 +5,14 @@ package networkserviceslbrouteextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkserviceslbrouteextension/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkserviceslbrouteextension/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CelExpression() *string
 	SetCelExpression(val *string)
 	CelExpressionInput() *string
@@ -40,15 +40,15 @@ type NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference
 
 // The jsii proxy struct for NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference
 type jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) CelExpression() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 }
 
 
-func NewNetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference {
+func NewNetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewNetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputRefere
 	return &j
 }
 
-func NewNetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference_Override(n NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference_Override(n NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -423,8 +423,8 @@ func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -436,11 +436,11 @@ func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -452,7 +452,7 @@ func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionO
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsMatchConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfo
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesInfoTypeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesInfoTypeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfo
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesInfoTypeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesInfoTypeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobInspectConfigCustomInfo
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesInfoTypeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionJobTriggerInspectJobInspectConfigCustomInfoTypesInfoTypeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationD
 	return nil
 }
 
-func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationD
 	return nil
 }
 
-func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationD
 	return nil
 }
 
-func validateNewOracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

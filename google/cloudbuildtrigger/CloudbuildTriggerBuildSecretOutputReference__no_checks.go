@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildSecretOutputReference) validateInterpol
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudbuildTriggerBuildSecretOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudbuildTriggerBuildSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_BeyondcorpApplicationIamMember) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BeyondcorpApplicationIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

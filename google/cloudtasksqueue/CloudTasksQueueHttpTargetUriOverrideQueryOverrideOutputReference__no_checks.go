@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_CloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_CloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

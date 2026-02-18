@@ -111,7 +111,7 @@ func (j *jsiiProxy_DiscoveryEngineSitemap) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineSitemap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DiscoveryEngineSitemap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

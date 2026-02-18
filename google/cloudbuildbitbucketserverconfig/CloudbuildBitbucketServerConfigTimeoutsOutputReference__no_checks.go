@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudbuildBitbucketServerConfigTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewCloudbuildBitbucketServerConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildBitbucketServerConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

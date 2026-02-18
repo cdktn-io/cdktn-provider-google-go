@@ -5,15 +5,15 @@ package privatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/privatecacertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/privatecacertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference interface {
-	cdktf.ComplexObject
-	CertSign() cdktf.IResolvable
+	cdktn.ComplexObject
+	CertSign() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -24,37 +24,37 @@ type PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsa
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
-	ContentCommitment() cdktf.IResolvable
+	ContentCommitment() cdktn.IResolvable
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	CrlSign() cdktf.IResolvable
-	DataEncipherment() cdktf.IResolvable
-	DecipherOnly() cdktf.IResolvable
-	DigitalSignature() cdktf.IResolvable
-	EncipherOnly() cdktf.IResolvable
+	CrlSign() cdktn.IResolvable
+	DataEncipherment() cdktn.IResolvable
+	DecipherOnly() cdktn.IResolvable
+	DigitalSignature() cdktn.IResolvable
+	EncipherOnly() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsage
 	SetInternalValue(val *PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsage)
-	KeyAgreement() cdktf.IResolvable
-	KeyEncipherment() cdktf.IResolvable
+	KeyAgreement() cdktn.IResolvable
+	KeyEncipherment() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,11 +85,11 @@ type PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsa
 
 // The jsii proxy struct for PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference
 type jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) CertSign() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) CertSign() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"certSign",
@@ -118,8 +118,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) ContentCommitment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) ContentCommitment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"contentCommitment",
@@ -138,8 +138,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) CrlSign() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) CrlSign() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"crlSign",
@@ -148,8 +148,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) DataEncipherment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) DataEncipherment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dataEncipherment",
@@ -158,8 +158,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) DecipherOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) DecipherOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"decipherOnly",
@@ -168,8 +168,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) DigitalSignature() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) DigitalSignature() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"digitalSignature",
@@ -178,8 +178,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) EncipherOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) EncipherOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"encipherOnly",
@@ -208,8 +208,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) KeyAgreement() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) KeyAgreement() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"keyAgreement",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) KeyEncipherment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) KeyEncipherment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"keyEncipherment",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -249,7 +249,7 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 }
 
 
-func NewPrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference {
+func NewPrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -266,7 +266,7 @@ func NewPrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKey
 	return &j
 }
 
-func NewPrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference_Override(p PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference_Override(p PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -320,7 +320,7 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	)
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -360,11 +360,11 @@ func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -488,8 +488,8 @@ func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -501,11 +501,11 @@ func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -517,7 +517,7 @@ func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyU
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionX509DescriptionKeyUsageBaseKeyUsageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

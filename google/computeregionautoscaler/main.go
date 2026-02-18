@@ -83,7 +83,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscaler{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -128,7 +128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyCpuUtilizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -166,7 +166,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -192,7 +192,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyMetricList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -238,7 +238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyMetricOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -300,7 +300,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -346,7 +346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicasOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -385,7 +385,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyScaleInControlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -411,7 +411,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -460,7 +460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -509,7 +509,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionAutoscalerTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

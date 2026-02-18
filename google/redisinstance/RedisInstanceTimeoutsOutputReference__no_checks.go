@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (r *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_RedisInstanceTimeoutsOutputReference) validateSetUpdateParame
 	return nil
 }
 
-func validateNewRedisInstanceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedisInstanceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

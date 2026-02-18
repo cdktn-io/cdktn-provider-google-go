@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ContainerAwsClusterControlPlaneRootVolumeOutputReference) val
 	return nil
 }
 
-func validateNewContainerAwsClusterControlPlaneRootVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsClusterControlPlaneRootVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

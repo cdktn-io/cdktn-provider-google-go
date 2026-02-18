@@ -47,7 +47,7 @@ func (f *jsiiProxy_FolderIamBindingConditionOutputReference) validateInterpolati
 	return nil
 }
 
-func (f *jsiiProxy_FolderIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FolderIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FolderIamBindingConditionOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_FolderIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FolderIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FolderIamBindingConditionOutputReference) validateSetTitlePar
 	return nil
 }
 
-func validateNewFolderIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFolderIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

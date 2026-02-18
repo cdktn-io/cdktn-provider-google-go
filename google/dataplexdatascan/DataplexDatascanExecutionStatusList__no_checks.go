@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataplexDatascanExecutionStatusList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataplexDatascanExecutionStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexDatascanExecutionStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataplexDatascanExecutionStatusList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataplexDatascanExecutionStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexDatascanExecutionStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataplexDatascanExecutionStatusList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataplexDatascanExecutionStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataplexDatascanExecutionStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

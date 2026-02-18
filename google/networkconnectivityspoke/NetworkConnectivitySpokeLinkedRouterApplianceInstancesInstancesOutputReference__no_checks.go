@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstanc
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstanc
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstanc
 	return nil
 }
 
-func validateNewNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

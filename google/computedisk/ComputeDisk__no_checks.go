@@ -167,7 +167,7 @@ func (j *jsiiProxy_ComputeDisk) validateSetLicensesParameters(val *[]*string) er
 	return nil
 }
 
-func (j *jsiiProxy_ComputeDisk) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeDisk) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

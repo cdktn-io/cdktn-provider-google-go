@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionBackendServiceIapOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionBackendServiceIapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionBackendServiceIapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeRegionBackendServiceIapOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionBackendServiceIapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionBackendServiceIapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionBackendServiceIapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionBackendServiceIapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutp
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutp
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

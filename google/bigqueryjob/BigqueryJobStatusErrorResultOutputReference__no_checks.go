@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryJobStatusErrorResultOutputReference) validateInterpol
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryJobStatusErrorResultOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryJobStatusErrorResultOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_BigqueryJobStatusErrorResultOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryJobStatusErrorResultOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryJobStatusErrorResultOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryJobStatusErrorResultOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBigqueryJobStatusErrorResultOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

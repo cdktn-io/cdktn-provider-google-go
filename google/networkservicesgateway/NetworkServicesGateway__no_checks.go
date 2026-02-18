@@ -139,7 +139,7 @@ func (j *jsiiProxy_NetworkServicesGateway) validateSetLabelsParameters(val *map[
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkServicesGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

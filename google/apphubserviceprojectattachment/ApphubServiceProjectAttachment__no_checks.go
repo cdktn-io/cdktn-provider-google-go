@@ -107,7 +107,7 @@ func (j *jsiiProxy_ApphubServiceProjectAttachment) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ApphubServiceProjectAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApphubServiceProjectAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

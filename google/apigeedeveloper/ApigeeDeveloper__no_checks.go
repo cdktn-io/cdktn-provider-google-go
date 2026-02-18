@@ -123,7 +123,7 @@ func (j *jsiiProxy_ApigeeDeveloper) validateSetLastNameParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeDeveloper) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApigeeDeveloper) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

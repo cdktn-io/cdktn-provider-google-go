@@ -128,7 +128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstance{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -171,7 +171,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -210,7 +210,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceClientConnectionConfigSslConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -256,7 +256,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceMachineConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -286,7 +286,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -321,7 +321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -366,7 +366,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceNetworkConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -415,7 +415,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstancePscInstanceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -441,7 +441,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -482,7 +482,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -508,7 +508,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstancePscInstanceConfigPscInterfaceConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -543,7 +543,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -591,7 +591,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceQueryInsightsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -630,7 +630,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -675,7 +675,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlloydbInstanceTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

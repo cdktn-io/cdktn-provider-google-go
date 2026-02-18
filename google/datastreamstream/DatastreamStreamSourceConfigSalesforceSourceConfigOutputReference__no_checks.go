@@ -55,7 +55,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigSalesforceSourceConfigOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigSalesforceSourceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamSourceConfigSalesforceSourceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigSalesforceSourceConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigSalesforceSourceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamSourceConfigSalesforceSourceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamSourceConfigSalesforceSourceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamSourceConfigSalesforceSourceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

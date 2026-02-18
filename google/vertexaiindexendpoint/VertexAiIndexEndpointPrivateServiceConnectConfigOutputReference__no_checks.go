@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiIndexEndpointPrivateServiceConnectConfigOutputReferen
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiIndexEndpointPrivateServiceConnectConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiIndexEndpointPrivateServiceConnectConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VertexAiIndexEndpointPrivateServiceConnectConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointPrivateServiceConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiIndexEndpointPrivateServiceConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiIndexEndpointPrivateServiceConnectConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiIndexEndpointPrivateServiceConnectConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

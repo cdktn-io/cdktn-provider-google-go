@@ -131,7 +131,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateSetKeystoreParamet
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

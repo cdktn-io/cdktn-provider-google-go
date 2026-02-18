@@ -55,7 +55,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIng
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIng
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersSpecIng
 	return nil
 }
 
-func validateNewAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

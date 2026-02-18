@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputR
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputR
 	return nil
 }
 
-func validateNewContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceServerCaCertOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSqlDatabaseInstanceServerCaCertOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

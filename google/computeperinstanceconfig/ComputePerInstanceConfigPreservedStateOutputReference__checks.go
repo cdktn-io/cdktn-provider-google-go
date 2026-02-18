@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputePerInstanceConfigPreservedStateDisk:
 		value := value.(*[]*ComputePerInstanceConfigPreservedStateDisk)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputePerInstanceConfigPreservedStateDisk; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputePerInstanceConfigPreservedStateDisk; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputePerInstanceConfigPreservedStateExternalIp:
 		value := value.(*[]*ComputePerInstanceConfigPreservedStateExternalIp)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputePerInstanceConfigPreservedStateExternalIp; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputePerInstanceConfigPreservedStateExternalIp; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputePerInstanceConfigPreservedStateInternalIp:
 		value := value.(*[]*ComputePerInstanceConfigPreservedStateInternalIp)
@@ -179,14 +179,14 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputePerInstanceConfigPreservedStateInternalIp; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputePerInstanceConfigPreservedStateInternalIp; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -283,7 +283,7 @@ func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -291,7 +291,7 @@ func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateOutputReference) valida
 	return nil
 }
 
-func validateNewComputePerInstanceConfigPreservedStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputePerInstanceConfigPreservedStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

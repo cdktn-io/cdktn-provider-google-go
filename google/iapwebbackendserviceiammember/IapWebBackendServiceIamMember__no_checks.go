@@ -107,7 +107,7 @@ func (j *jsiiProxy_IapWebBackendServiceIamMember) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_IapWebBackendServiceIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IapWebBackendServiceIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

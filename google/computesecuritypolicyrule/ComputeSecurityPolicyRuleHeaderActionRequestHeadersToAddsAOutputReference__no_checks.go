@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOut
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOut
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

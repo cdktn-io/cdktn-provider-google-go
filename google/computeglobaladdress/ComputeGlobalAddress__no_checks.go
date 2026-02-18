@@ -127,7 +127,7 @@ func (j *jsiiProxy_ComputeGlobalAddress) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_ComputeGlobalAddress) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeGlobalAddress) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

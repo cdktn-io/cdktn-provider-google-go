@@ -47,7 +47,7 @@ func (k *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (k *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KmsCryptoKeyTimeoutsOutputReference) validateSetUpdateParamet
 	return nil
 }
 
-func validateNewKmsCryptoKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsCryptoKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

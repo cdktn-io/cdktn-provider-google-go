@@ -113,7 +113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatch{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -164,7 +164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -221,7 +221,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchEnvironmentConfigExecutionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -261,7 +261,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchEnvironmentConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -304,7 +304,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchEnvironmentConfigPeripheralsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -343,7 +343,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchEnvironmentConfigPeripheralsConfigSparkHistoryServerConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -397,7 +397,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchPysparkBatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -440,7 +440,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeConfigAutotuningConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -489,7 +489,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -518,7 +518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeInfoApproximateUsageList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -554,7 +554,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeInfoApproximateUsageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -579,7 +579,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -618,7 +618,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -639,7 +639,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -676,7 +676,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchRuntimeInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -730,7 +730,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchSparkBatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -778,7 +778,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchSparkRBatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -823,7 +823,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchSparkSqlBatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -848,7 +848,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchStateHistoryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -883,7 +883,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchStateHistoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -928,7 +928,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataprocBatchTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

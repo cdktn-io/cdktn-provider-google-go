@@ -80,7 +80,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleet{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -131,7 +131,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -157,7 +157,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -192,7 +192,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetDefaultClusterConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -274,7 +274,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetDefaultClusterConfigSecurityPostureConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -299,7 +299,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetStateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -332,7 +332,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetStateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -377,7 +377,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeHubFleetTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

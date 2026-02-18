@@ -5,14 +5,14 @@ package sccorganizationsccbigqueryexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccorganizationsccbigqueryexport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sccorganizationsccbigqueryexport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SccOrganizationSccBigQueryExportTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SccOrganizationSccBigQueryExportTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type SccOrganizationSccBigQueryExportTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SccOrganizationSccBigQueryExportTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SccOrganizationSccBigQueryExportTimeoutsOutputReference interface {
 
 // The jsii proxy struct for SccOrganizationSccBigQueryExportTimeoutsOutputReference
 type jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) Upda
 }
 
 
-func NewSccOrganizationSccBigQueryExportTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SccOrganizationSccBigQueryExportTimeoutsOutputReference {
+func NewSccOrganizationSccBigQueryExportTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SccOrganizationSccBigQueryExportTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSccOrganizationSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSccOrganizationSccBigQueryExportTimeoutsOutputReference(terraformResourc
 	return &j
 }
 
-func NewSccOrganizationSccBigQueryExportTimeoutsOutputReference_Override(s SccOrganizationSccBigQueryExportTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSccOrganizationSccBigQueryExportTimeoutsOutputReference_Override(s SccOrganizationSccBigQueryExportTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) Rese
 	)
 }
 
-func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SccOrganizationSccBigQueryExportTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutpu
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutpu
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

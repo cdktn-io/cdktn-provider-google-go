@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMap{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -171,7 +171,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionCorsPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -217,7 +217,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -263,7 +263,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -302,7 +302,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -342,7 +342,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -402,7 +402,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -441,7 +441,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -487,7 +487,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionRetryPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -529,7 +529,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -571,7 +571,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -613,7 +613,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionUrlRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -667,7 +667,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -693,7 +693,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -734,7 +734,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -760,7 +760,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -801,7 +801,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -823,7 +823,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -865,7 +865,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -918,7 +918,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapDefaultUrlRedirectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -944,7 +944,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapHostRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -983,7 +983,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapHostRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1051,7 +1051,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1097,7 +1097,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1143,7 +1143,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1182,7 +1182,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1222,7 +1222,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1263,7 +1263,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1327,7 +1327,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1365,7 +1365,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1411,7 +1411,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1453,7 +1453,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1495,7 +1495,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1540,7 +1540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1594,7 +1594,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1620,7 +1620,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1661,7 +1661,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1687,7 +1687,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1728,7 +1728,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1750,7 +1750,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1792,7 +1792,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1845,7 +1845,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherDefaultUrlRedirectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1867,7 +1867,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1923,7 +1923,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1949,7 +1949,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1994,7 +1994,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2057,7 +2057,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2101,7 +2101,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2146,7 +2146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2183,7 +2183,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2223,7 +2223,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2283,7 +2283,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2321,7 +2321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2367,7 +2367,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2408,7 +2408,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2449,7 +2449,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2491,7 +2491,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2545,7 +2545,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2571,7 +2571,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2609,7 +2609,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2635,7 +2635,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2673,7 +2673,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2695,7 +2695,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2735,7 +2735,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2788,7 +2788,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleUrlRedirectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2842,7 +2842,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2868,7 +2868,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2906,7 +2906,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2932,7 +2932,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2970,7 +2970,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2992,7 +2992,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3022,7 +3022,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3078,7 +3078,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3118,7 +3118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3140,7 +3140,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3170,7 +3170,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3206,7 +3206,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3228,7 +3228,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3265,7 +3265,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3324,7 +3324,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3350,7 +3350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3393,7 +3393,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3446,7 +3446,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3510,7 +3510,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3556,7 +3556,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3601,7 +3601,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3640,7 +3640,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3680,7 +3680,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3740,7 +3740,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3778,7 +3778,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3823,7 +3823,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3864,7 +3864,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3905,7 +3905,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3950,7 +3950,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4004,7 +4004,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4030,7 +4030,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4068,7 +4068,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4094,7 +4094,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4132,7 +4132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4154,7 +4154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4194,7 +4194,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4248,7 +4248,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesUrlRedirectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4274,7 +4274,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapTestList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4315,7 +4315,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapTestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4360,7 +4360,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeRegionUrlMapTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

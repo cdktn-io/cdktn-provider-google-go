@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
 	return nil
 }
 
-func validateNewMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

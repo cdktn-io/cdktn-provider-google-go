@@ -5,18 +5,18 @@ package apigeesecuritymonitoringcondition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeesecuritymonitoringcondition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeesecuritymonitoringcondition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition}.
 type ApigeeSecurityMonitoringCondition interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConditionId() *string
 	SetConditionId(val *string)
 	ConditionIdInput() *string
@@ -36,9 +36,9 @@ type ApigeeSecurityMonitoringCondition interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type ApigeeSecurityMonitoringCondition interface {
 	IncludeAllResources() ApigeeSecurityMonitoringConditionIncludeAllResourcesOutputReference
 	IncludeAllResourcesInput() *ApigeeSecurityMonitoringConditionIncludeAllResources
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -62,9 +62,9 @@ type ApigeeSecurityMonitoringCondition interface {
 	SetProfile(val *string)
 	ProfileInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type ApigeeSecurityMonitoringCondition interface {
 	SetScope(val *string)
 	ScopeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type ApigeeSecurityMonitoringCondition interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type ApigeeSecurityMonitoringCondition interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -151,11 +151,11 @@ type ApigeeSecurityMonitoringCondition interface {
 
 // The jsii proxy struct for ApigeeSecurityMonitoringCondition
 type jsiiProxy_ApigeeSecurityMonitoringCondition struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -234,8 +234,8 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) IncludeAllResourcesInput()
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -374,8 +374,8 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) ProfileInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -424,8 +424,8 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) ScopeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -575,7 +575,7 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetDependsOn(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -594,7 +594,7 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -627,7 +627,7 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetProfile(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -657,14 +657,14 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetScope(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApigeeSecurityMonitoringCondition resource upon running "cdktf plan <stack-name>".
-func ApigeeSecurityMonitoringCondition_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApigeeSecurityMonitoringCondition resource upon running "cdktn plan <stack-name>".
+func ApigeeSecurityMonitoringCondition_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApigeeSecurityMonitoringCondition_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.apigeeSecurityMonitoringCondition.ApigeeSecurityMonitoringCondition",
@@ -798,11 +798,11 @@ func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -939,7 +939,7 @@ func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) HasResourceMove() interfac
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -950,11 +950,11 @@ func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) ImportFrom(id *string, pro
 	)
 }
 
-func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

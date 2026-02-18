@@ -119,7 +119,7 @@ func (j *jsiiProxy_PrivatecaCaPool) validateSetLabelsParameters(val *map[string]
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCaPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivatecaCaPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) val
 	return nil
 }
 
-func (c *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) val
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CertificateManagerTrustConfigTrustStoresTrustAnchorsList) val
 	return nil
 }
 
-func validateNewCertificateManagerTrustConfigTrustStoresTrustAnchorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCertificateManagerTrustConfigTrustStoresTrustAnchorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

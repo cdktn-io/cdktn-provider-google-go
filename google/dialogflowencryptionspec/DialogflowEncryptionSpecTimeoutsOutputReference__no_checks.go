@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowEncryptionSpecTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowEncryptionSpecTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowEncryptionSpecTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowEncryptionSpecTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowEncryptionSpecTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowEncryptionSpecTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowEncryptionSpecTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowEncryptionSpecTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

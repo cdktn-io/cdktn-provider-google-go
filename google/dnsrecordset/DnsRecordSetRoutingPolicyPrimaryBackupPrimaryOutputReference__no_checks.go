@@ -51,7 +51,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 
 func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries:
 		val := val.(*IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries)
@@ -205,7 +205,7 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -220,7 +220,7 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -228,7 +228,7 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
 	return nil
 }
 
-func validateNewIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

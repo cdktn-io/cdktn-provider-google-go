@@ -85,7 +85,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreService{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -114,7 +114,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceEncryptionConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -147,7 +147,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceEncryptionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -211,7 +211,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -240,7 +240,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -273,7 +273,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -294,7 +294,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -329,7 +329,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -350,7 +350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -387,7 +387,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceHiveMetastoreConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -412,7 +412,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceMaintenanceWindowList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -446,7 +446,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceMaintenanceWindowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -475,7 +475,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -508,7 +508,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -529,7 +529,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceMetadataIntegrationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -562,7 +562,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceMetadataIntegrationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -591,7 +591,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceNetworkConfigConsumersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -625,7 +625,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceNetworkConfigConsumersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -646,7 +646,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceNetworkConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -679,7 +679,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceNetworkConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -712,7 +712,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -746,7 +746,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -767,7 +767,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -802,7 +802,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -823,7 +823,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -858,7 +858,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -883,7 +883,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScheduledBackupList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -919,7 +919,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceScheduledBackupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -944,7 +944,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceTelemetryConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -977,7 +977,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleDataprocMetastoreServiceTelemetryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentConditionalCases:
 		value := value.(*[]*DialogflowCxFlowEventHandlersTriggerFulfillmentConditionalCases)
@@ -117,7 +117,7 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentConditionalCases; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentConditionalCases; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentMessages:
 		value := value.(*[]*DialogflowCxFlowEventHandlersTriggerFulfillmentMessages)
@@ -148,7 +148,7 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentMessages; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentMessages; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActions:
 		value := value.(*[]*DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActions)
@@ -179,14 +179,14 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActions; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActions; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -268,11 +268,11 @@ func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -296,11 +296,11 @@ func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -339,7 +339,7 @@ func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenc
 	return nil
 }
 
-func validateNewDialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxFlowEventHandlersTriggerFulfillmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

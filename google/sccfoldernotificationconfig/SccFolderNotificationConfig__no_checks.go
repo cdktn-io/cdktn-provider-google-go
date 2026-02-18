@@ -123,7 +123,7 @@ func (j *jsiiProxy_SccFolderNotificationConfig) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_SccFolderNotificationConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccFolderNotificationConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

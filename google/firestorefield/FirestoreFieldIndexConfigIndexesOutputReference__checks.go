@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateInte
 	return nil
 }
 
-func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetC
 
 func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *FirestoreFieldIndexConfigIndexes:
 		val := val.(*FirestoreFieldIndexConfigIndexes)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *FirestoreFieldIndexConfigIndexes; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *FirestoreFieldIndexConfigIndexes; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesOutputReference) validateSetT
 	return nil
 }
 
-func validateNewFirestoreFieldIndexConfigIndexesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFirestoreFieldIndexConfigIndexesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference) valida
 	return nil
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArtifactRegistryRepositoryDockerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewArtifactRegistryRepositoryDockerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArtifactRegistryRepositoryDockerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

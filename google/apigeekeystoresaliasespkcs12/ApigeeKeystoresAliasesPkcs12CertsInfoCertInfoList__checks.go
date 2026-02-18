@@ -8,7 +8,7 @@ package apigeekeystoresaliasespkcs12
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateGe
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoCertInfoList) validateSe
 	return nil
 }
 
-func validateNewApigeeKeystoresAliasesPkcs12CertsInfoCertInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApigeeKeystoresAliasesPkcs12CertsInfoCertInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOraclePrivateConnect
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOraclePrivateConnect
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

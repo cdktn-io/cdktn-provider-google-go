@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutpu
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutpu
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeBackendBucketCdnPolicyBypassCacheOnRequestHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

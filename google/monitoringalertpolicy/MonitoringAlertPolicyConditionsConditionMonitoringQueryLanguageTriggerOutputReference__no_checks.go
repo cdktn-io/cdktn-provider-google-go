@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLangua
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLangua
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

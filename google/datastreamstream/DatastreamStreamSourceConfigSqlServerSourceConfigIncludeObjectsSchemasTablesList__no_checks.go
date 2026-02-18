@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
 	return nil
 }
 
-func validateNewDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

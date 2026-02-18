@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingOutputReference) valida
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheServiceRoutingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesEdgeCacheServiceRoutingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

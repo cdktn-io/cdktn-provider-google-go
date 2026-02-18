@@ -92,7 +92,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CertificateManagerCertificateIssuanceConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -134,7 +134,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -170,7 +170,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -219,7 +219,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CertificateManagerCertificateIssuanceConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -5,14 +5,14 @@ package vertexaiendpointwithmodelgardendeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaiendpointwithmodelgardendeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaiendpointwithmodelgardendeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Args() *[]*string
 	SetArgs(val *[]*string)
 	ArgsInput() *[]*string
@@ -70,15 +70,15 @@ type VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,9 +94,9 @@ type VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEnv(value interface{})
 	PutGrpcPorts(value interface{})
 	PutHealthProbe(value *VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbe)
@@ -117,7 +117,7 @@ type VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputRefe
 	ResetStartupProbe()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -127,7 +127,7 @@ type VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputRefe
 
 // The jsii proxy struct for VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference
 type jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) Args() *[]*string {
@@ -450,8 +450,8 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -461,7 +461,7 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 }
 
 
-func NewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference {
+func NewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -478,7 +478,7 @@ func NewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputR
 	return &j
 }
 
-func NewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference_Override(v VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference_Override(v VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -609,7 +609,7 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	)
 }
 
-func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -649,11 +649,11 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -777,8 +777,8 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -790,11 +790,11 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -968,7 +968,7 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	)
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

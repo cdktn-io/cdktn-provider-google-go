@@ -5,14 +5,14 @@ package identityplatformconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/identityplatformconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/identityplatformconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IdentityPlatformConfigSignInOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowDuplicateEmails() interface{}
 	SetAllowDuplicateEmails(val interface{})
 	AllowDuplicateEmailsInput() interface{}
@@ -47,15 +47,15 @@ type IdentityPlatformConfigSignInOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type IdentityPlatformConfigSignInOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAnonymous(value *IdentityPlatformConfigSignInAnonymous)
 	PutEmail(value *IdentityPlatformConfigSignInEmail)
 	PutPhoneNumber(value *IdentityPlatformConfigSignInPhoneNumber)
@@ -83,7 +83,7 @@ type IdentityPlatformConfigSignInOutputReference interface {
 	ResetPhoneNumber()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type IdentityPlatformConfigSignInOutputReference interface {
 
 // The jsii proxy struct for IdentityPlatformConfigSignInOutputReference
 type jsiiProxy_IdentityPlatformConfigSignInOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) AllowDuplicateEmails() interface{} {
@@ -246,8 +246,8 @@ func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -257,7 +257,7 @@ func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) TerraformResourc
 }
 
 
-func NewIdentityPlatformConfigSignInOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IdentityPlatformConfigSignInOutputReference {
+func NewIdentityPlatformConfigSignInOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IdentityPlatformConfigSignInOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIdentityPlatformConfigSignInOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -274,7 +274,7 @@ func NewIdentityPlatformConfigSignInOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewIdentityPlatformConfigSignInOutputReference_Override(i IdentityPlatformConfigSignInOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIdentityPlatformConfigSignInOutputReference_Override(i IdentityPlatformConfigSignInOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -339,7 +339,7 @@ func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -379,11 +379,11 @@ func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -507,8 +507,8 @@ func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -520,11 +520,11 @@ func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) InterpolationAsL
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -601,7 +601,7 @@ func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) ResetPhoneNumber
 	)
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

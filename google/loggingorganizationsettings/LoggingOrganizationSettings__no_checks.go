@@ -115,7 +115,7 @@ func (j *jsiiProxy_LoggingOrganizationSettings) validateSetKmsKeyNameParameters(
 	return nil
 }
 
-func (j *jsiiProxy_LoggingOrganizationSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoggingOrganizationSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

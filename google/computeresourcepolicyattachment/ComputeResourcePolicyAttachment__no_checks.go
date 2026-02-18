@@ -111,7 +111,7 @@ func (j *jsiiProxy_ComputeResourcePolicyAttachment) validateSetInstanceParameter
 	return nil
 }
 
-func (j *jsiiProxy_ComputeResourcePolicyAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeResourcePolicyAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

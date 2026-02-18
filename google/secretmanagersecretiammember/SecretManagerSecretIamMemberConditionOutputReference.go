@@ -5,14 +5,14 @@ package secretmanagersecretiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/secretmanagersecretiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/secretmanagersecretiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SecretManagerSecretIamMemberConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SecretManagerSecretIamMemberConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type SecretManagerSecretIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type SecretManagerSecretIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type SecretManagerSecretIamMemberConditionOutputReference interface {
 
 // The jsii proxy struct for SecretManagerSecretIamMemberConditionOutputReference
 type jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) TitleIn
 }
 
 
-func NewSecretManagerSecretIamMemberConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SecretManagerSecretIamMemberConditionOutputReference {
+func NewSecretManagerSecretIamMemberConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SecretManagerSecretIamMemberConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSecretManagerSecretIamMemberConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewSecretManagerSecretIamMemberConditionOutputReference(terraformResource c
 	return &j
 }
 
-func NewSecretManagerSecretIamMemberConditionOutputReference_Override(s SecretManagerSecretIamMemberConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSecretManagerSecretIamMemberConditionOutputReference_Override(s SecretManagerSecretIamMemberConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) GetAnyM
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -492,8 +492,8 @@ func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) GetStri
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -505,11 +505,11 @@ func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) Interpo
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,7 +529,7 @@ func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) ResetDe
 	)
 }
 
-func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SecretManagerSecretIamMemberConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAg
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAg
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxPageEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

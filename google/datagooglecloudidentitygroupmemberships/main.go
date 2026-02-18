@@ -56,7 +56,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMemberships{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -85,7 +85,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -125,7 +125,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -150,7 +150,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -184,7 +184,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -213,7 +213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -246,7 +246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsRolesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -301,7 +301,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudIdentityGroupMembershipsMembershipsRolesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

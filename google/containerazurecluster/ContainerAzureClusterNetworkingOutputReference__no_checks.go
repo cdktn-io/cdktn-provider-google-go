@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerAzureClusterNetworkingOutputReference) validateSetVi
 	return nil
 }
 
-func validateNewContainerAzureClusterNetworkingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAzureClusterNetworkingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

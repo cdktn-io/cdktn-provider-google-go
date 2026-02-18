@@ -5,14 +5,14 @@ package vertexaifeatureonlinestorefeatureview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaifeatureonlinestorefeatureview/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaifeatureonlinestorefeatureview/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference interface {
 
 // The jsii proxy struct for VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference
 type jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 }
 
 
-func NewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference {
+func NewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference(terraformRe
 	return &j
 }
 
-func NewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference_Override(v VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference_Override(v VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	)
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -494,8 +494,8 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -507,11 +507,11 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -547,7 +547,7 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	)
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

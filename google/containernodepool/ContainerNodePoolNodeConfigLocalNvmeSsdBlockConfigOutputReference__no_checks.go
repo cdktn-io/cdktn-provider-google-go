@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputRefer
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

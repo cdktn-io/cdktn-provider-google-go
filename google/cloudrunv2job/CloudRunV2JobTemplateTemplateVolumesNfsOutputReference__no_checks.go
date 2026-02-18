@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesNfsOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesNfsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesNfsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesNfsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesNfsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesNfsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2JobTemplateTemplateVolumesNfsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2JobTemplateTemplateVolumesNfsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

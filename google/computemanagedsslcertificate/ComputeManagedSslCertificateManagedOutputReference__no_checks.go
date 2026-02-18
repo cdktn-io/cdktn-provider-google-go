@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeManagedSslCertificateManagedOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_ComputeManagedSslCertificateManagedOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeManagedSslCertificateManagedOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeManagedSslCertificateManagedOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ComputeManagedSslCertificateManagedOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeManagedSslCertificateManagedOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeManagedSslCertificateManagedOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeManagedSslCertificateManagedOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

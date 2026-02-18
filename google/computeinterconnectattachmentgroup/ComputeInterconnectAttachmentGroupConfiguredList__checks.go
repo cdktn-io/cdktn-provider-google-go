@@ -8,7 +8,7 @@ package computeinterconnectattachmentgroup
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateGet
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredList) validateSet
 	return nil
 }
 
-func validateNewComputeInterconnectAttachmentGroupConfiguredListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInterconnectAttachmentGroupConfiguredListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

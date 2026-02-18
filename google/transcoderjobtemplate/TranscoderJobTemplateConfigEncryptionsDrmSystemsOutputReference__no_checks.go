@@ -63,7 +63,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReferen
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

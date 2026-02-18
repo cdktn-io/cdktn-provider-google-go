@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ApigeeSharedflowDeploymentTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewApigeeSharedflowDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeSharedflowDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

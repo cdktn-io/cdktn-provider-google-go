@@ -81,7 +81,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrManagementServer{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -110,7 +110,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrManagementServerManagementUriList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -144,7 +144,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrManagementServerManagementUriOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -170,7 +170,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrManagementServerNetworksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrManagementServerNetworksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -249,7 +249,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrManagementServerTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateGetParameter
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewNetworkSecurityAuthzPolicyHttpRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkSecurityAuthzPolicyHttpRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

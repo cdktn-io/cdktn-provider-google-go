@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTim
 	return nil
 }
 
-func (r *jsiiProxy_RedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_RedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTim
 	return nil
 }
 
-func (j *jsiiProxy_RedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

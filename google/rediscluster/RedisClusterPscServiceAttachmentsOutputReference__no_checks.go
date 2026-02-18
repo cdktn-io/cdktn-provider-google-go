@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference) validateInt
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisClusterPscServiceAttachmentsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedisClusterPscServiceAttachmentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

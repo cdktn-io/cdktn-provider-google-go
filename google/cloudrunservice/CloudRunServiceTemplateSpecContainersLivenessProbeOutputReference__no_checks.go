@@ -55,7 +55,7 @@ func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputRefer
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersLivenessProbeOutputRefer
 	return nil
 }
 
-func validateNewCloudRunServiceTemplateSpecContainersLivenessProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunServiceTemplateSpecContainersLivenessProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

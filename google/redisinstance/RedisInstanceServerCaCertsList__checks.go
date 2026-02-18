@@ -8,7 +8,7 @@ package redisinstance
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RedisInstanceServerCaCertsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (r *jsiiProxy_RedisInstanceServerCaCertsList) validateGetParameters(index *
 	return nil
 }
 
-func (r *jsiiProxy_RedisInstanceServerCaCertsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisInstanceServerCaCertsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_RedisInstanceServerCaCertsList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_RedisInstanceServerCaCertsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisInstanceServerCaCertsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_RedisInstanceServerCaCertsList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewRedisInstanceServerCaCertsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisInstanceServerCaCertsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

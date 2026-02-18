@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 
 func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodes:
 		val := val.(*[]*MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodes)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodes; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodes; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	return nil
 }
 
-func validateNewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

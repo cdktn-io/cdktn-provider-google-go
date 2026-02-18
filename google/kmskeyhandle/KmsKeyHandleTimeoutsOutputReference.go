@@ -5,14 +5,14 @@ package kmskeyhandle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/kmskeyhandle/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/kmskeyhandle/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KmsKeyHandleTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type KmsKeyHandleTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type KmsKeyHandleTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type KmsKeyHandleTimeoutsOutputReference interface {
 
 // The jsii proxy struct for KmsKeyHandleTimeoutsOutputReference
 type jsiiProxy_KmsKeyHandleTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) TerraformResource() cdkt
 }
 
 
-func NewKmsKeyHandleTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KmsKeyHandleTimeoutsOutputReference {
+func NewKmsKeyHandleTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KmsKeyHandleTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKmsKeyHandleTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewKmsKeyHandleTimeoutsOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewKmsKeyHandleTimeoutsOutputReference_Override(k KmsKeyHandleTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKmsKeyHandleTimeoutsOutputReference_Override(k KmsKeyHandleTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KmsKeyHandleTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -459,8 +459,8 @@ func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -472,11 +472,11 @@ func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -504,7 +504,7 @@ func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) ResetDelete() {
 	)
 }
 
-func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KmsKeyHandleTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

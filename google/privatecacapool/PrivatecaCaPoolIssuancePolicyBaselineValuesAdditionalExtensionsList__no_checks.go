@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensio
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensio
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensio
 	return nil
 }
 
-func validateNewPrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

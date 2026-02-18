@@ -51,7 +51,7 @@ func (d *jsiiProxy_DnsResponsePolicyRuleLocalDataOutputReference) validatePutLoc
 	return nil
 }
 
-func (d *jsiiProxy_DnsResponsePolicyRuleLocalDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsResponsePolicyRuleLocalDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DnsResponsePolicyRuleLocalDataOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DnsResponsePolicyRuleLocalDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsResponsePolicyRuleLocalDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsResponsePolicyRuleLocalDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsResponsePolicyRuleLocalDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

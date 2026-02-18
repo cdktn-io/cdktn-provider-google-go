@@ -110,7 +110,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpoke{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -157,7 +157,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedInterconnectAttachmentsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -204,7 +204,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedProducerVpcNetworkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -234,7 +234,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -270,7 +270,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesInstancesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -310,7 +310,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -397,7 +397,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeLinkedVpnTunnelsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -422,7 +422,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeReasonsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -457,7 +457,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeReasonsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -502,7 +502,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkConnectivitySpokeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

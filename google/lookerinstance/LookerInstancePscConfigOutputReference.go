@@ -5,14 +5,14 @@ package lookerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/lookerinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/lookerinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LookerInstancePscConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedVpcs() *[]*string
 	SetAllowedVpcs(val *[]*string)
 	AllowedVpcsInput() *[]*string
@@ -43,15 +43,15 @@ type LookerInstancePscConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,15 +67,15 @@ type LookerInstancePscConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutServiceAttachments(value interface{})
 	ResetAllowedVpcs()
 	ResetServiceAttachments()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type LookerInstancePscConfigOutputReference interface {
 
 // The jsii proxy struct for LookerInstancePscConfigOutputReference
 type jsiiProxy_LookerInstancePscConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LookerInstancePscConfigOutputReference) AllowedVpcs() *[]*string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_LookerInstancePscConfigOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_LookerInstancePscConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LookerInstancePscConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_LookerInstancePscConfigOutputReference) TerraformResource() c
 }
 
 
-func NewLookerInstancePscConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LookerInstancePscConfigOutputReference {
+func NewLookerInstancePscConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LookerInstancePscConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLookerInstancePscConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewLookerInstancePscConfigOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewLookerInstancePscConfigOutputReference_Override(l LookerInstancePscConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLookerInstancePscConfigOutputReference_Override(l LookerInstancePscConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_LookerInstancePscConfigOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_LookerInstancePscConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LookerInstancePscConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (l *jsiiProxy_LookerInstancePscConfigOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstancePscConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LookerInstancePscConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -459,8 +459,8 @@ func (l *jsiiProxy_LookerInstancePscConfigOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstancePscConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LookerInstancePscConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -472,11 +472,11 @@ func (l *jsiiProxy_LookerInstancePscConfigOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstancePscConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LookerInstancePscConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -515,7 +515,7 @@ func (l *jsiiProxy_LookerInstancePscConfigOutputReference) ResetServiceAttachmen
 	)
 }
 
-func (l *jsiiProxy_LookerInstancePscConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LookerInstancePscConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

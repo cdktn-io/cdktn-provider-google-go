@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecurityMirroringEndpointGroupConnectedDeploymentGroup
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupConnectedDeploymentGroup
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

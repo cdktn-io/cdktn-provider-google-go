@@ -5,14 +5,14 @@ package computeregionnetworkendpointgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeregionnetworkendpointgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeregionnetworkendpointgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UrlMask() *string
 	SetUrlMask(val *string)
 	UrlMaskInput() *string
@@ -51,7 +51,7 @@ type ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFunction()
 	ResetUrlMask()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference interface {
 
 // The jsii proxy struct for ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 type jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 }
 
 
-func NewComputeRegionNetworkEndpointGroupCloudFunctionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference {
+func NewComputeRegionNetworkEndpointGroupCloudFunctionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeRegionNetworkEndpointGroupCloudFunctionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewComputeRegionNetworkEndpointGroupCloudFunctionOutputReference(terraformR
 	return &j
 }
 
-func NewComputeRegionNetworkEndpointGroupCloudFunctionOutputReference_Override(c ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeRegionNetworkEndpointGroupCloudFunctionOutputReference_Override(c ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 	)
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,8 +459,8 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -472,11 +472,11 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference
 	)
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupCloudFunctionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

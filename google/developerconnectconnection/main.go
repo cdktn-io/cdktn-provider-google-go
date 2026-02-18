@@ -122,7 +122,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnection{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -165,7 +165,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -246,7 +246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -289,7 +289,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -339,7 +339,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -378,7 +378,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -416,7 +416,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionCryptoKeyConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -501,7 +501,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -543,7 +543,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGithubConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -603,7 +603,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGithubEnterpriseConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -641,7 +641,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -684,7 +684,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -724,7 +724,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -763,7 +763,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -806,7 +806,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -856,7 +856,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -895,7 +895,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -933,7 +933,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -958,7 +958,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionInstallationStateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -993,7 +993,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionInstallationStateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1038,7 +1038,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DeveloperConnectConnectionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingPathMatcherOutputRefere
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingPathMatcherOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingPathMatcherOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingPathMatcherOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingPathMatcherOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheServiceRoutingPathMatcherOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheServiceRoutingPathMatcherOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkServicesEdgeCacheServiceRoutingPathMatcherOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

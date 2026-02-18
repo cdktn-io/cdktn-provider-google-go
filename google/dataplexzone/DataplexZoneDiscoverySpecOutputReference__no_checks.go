@@ -55,7 +55,7 @@ func (d *jsiiProxy_DataplexZoneDiscoverySpecOutputReference) validatePutJsonOpti
 	return nil
 }
 
-func (d *jsiiProxy_DataplexZoneDiscoverySpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexZoneDiscoverySpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DataplexZoneDiscoverySpecOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataplexZoneDiscoverySpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexZoneDiscoverySpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexZoneDiscoverySpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexZoneDiscoverySpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

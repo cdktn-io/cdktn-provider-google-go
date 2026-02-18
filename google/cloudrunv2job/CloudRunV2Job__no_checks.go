@@ -139,7 +139,7 @@ func (j *jsiiProxy_CloudRunV2Job) validateSetLaunchStageParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2Job) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudRunV2Job) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

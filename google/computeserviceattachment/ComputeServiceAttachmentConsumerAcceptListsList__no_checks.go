@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateGetP
 	return nil
 }
 
-func (c *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsList) validateSetW
 	return nil
 }
 
-func validateNewComputeServiceAttachmentConsumerAcceptListsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeServiceAttachmentConsumerAcceptListsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

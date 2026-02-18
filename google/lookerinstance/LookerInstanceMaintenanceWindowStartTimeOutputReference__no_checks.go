@@ -47,7 +47,7 @@ func (l *jsiiProxy_LookerInstanceMaintenanceWindowStartTimeOutputReference) vali
 	return nil
 }
 
-func (l *jsiiProxy_LookerInstanceMaintenanceWindowStartTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LookerInstanceMaintenanceWindowStartTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LookerInstanceMaintenanceWindowStartTimeOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_LookerInstanceMaintenanceWindowStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LookerInstanceMaintenanceWindowStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLookerInstanceMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLookerInstanceMaintenanceWindowStartTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

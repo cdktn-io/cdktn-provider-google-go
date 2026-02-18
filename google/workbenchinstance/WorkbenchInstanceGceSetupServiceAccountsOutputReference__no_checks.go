@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupServiceAccountsOutputReference) vali
 	return nil
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupServiceAccountsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupServiceAccountsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupServiceAccountsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_WorkbenchInstanceGceSetupServiceAccountsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkbenchInstanceGceSetupServiceAccountsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkbenchInstanceGceSetupServiceAccountsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWorkbenchInstanceGceSetupServiceAccountsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

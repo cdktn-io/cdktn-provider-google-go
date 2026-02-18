@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataprocMetastoreFederationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewDataprocMetastoreFederationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocMetastoreFederationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

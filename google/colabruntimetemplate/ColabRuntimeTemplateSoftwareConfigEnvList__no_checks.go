@@ -15,7 +15,7 @@ func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateGetParamet
 	return nil
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigEnvList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewColabRuntimeTemplateSoftwareConfigEnvListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewColabRuntimeTemplateSoftwareConfigEnvListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

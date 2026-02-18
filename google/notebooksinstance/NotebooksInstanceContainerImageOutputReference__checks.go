@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (n *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateInter
 	return nil
 }
 
-func (n *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -206,7 +206,7 @@ func (j *jsiiProxy_NotebooksInstanceContainerImageOutputReference) validateSetTe
 	return nil
 }
 
-func validateNewNotebooksInstanceContainerImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotebooksInstanceContainerImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

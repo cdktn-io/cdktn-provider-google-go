@@ -127,7 +127,7 @@ func (j *jsiiProxy_SccFolderSccBigQueryExport) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SccFolderSccBigQueryExport) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccFolderSccBigQueryExport) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

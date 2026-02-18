@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputRefer
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputRefer
 	return nil
 }
 
-func validateNewComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

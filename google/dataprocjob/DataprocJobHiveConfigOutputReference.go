@@ -5,14 +5,14 @@ package dataprocjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocJobHiveConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -55,15 +55,15 @@ type DataprocJobHiveConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type DataprocJobHiveConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetContinueOnFailure()
 	ResetJarFileUris()
 	ResetProperties()
@@ -90,7 +90,7 @@ type DataprocJobHiveConfigOutputReference interface {
 	ResetScriptVariables()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DataprocJobHiveConfigOutputReference interface {
 
 // The jsii proxy struct for DataprocJobHiveConfigOutputReference
 type jsiiProxy_DataprocJobHiveConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) TerraformResource() cdk
 }
 
 
-func NewDataprocJobHiveConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataprocJobHiveConfigOutputReference {
+func NewDataprocJobHiveConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataprocJobHiveConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocJobHiveConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewDataprocJobHiveConfigOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewDataprocJobHiveConfigOutputReference_Override(d DataprocJobHiveConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataprocJobHiveConfigOutputReference_Override(d DataprocJobHiveConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -431,7 +431,7 @@ func (j *jsiiProxy_DataprocJobHiveConfigOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_DataprocJobHiveConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocJobHiveConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -471,11 +471,11 @@ func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -599,8 +599,8 @@ func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -612,11 +612,11 @@ func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -676,7 +676,7 @@ func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) ResetScriptVariables() 
 	)
 }
 
-func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

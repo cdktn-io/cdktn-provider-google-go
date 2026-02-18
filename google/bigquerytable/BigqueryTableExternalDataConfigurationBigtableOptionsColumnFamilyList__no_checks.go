@@ -15,7 +15,7 @@ func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	return nil
 }
 
-func validateNewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

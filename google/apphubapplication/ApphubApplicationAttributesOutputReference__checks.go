@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validatePutBusine
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApphubApplicationAttributesBusinessOwners:
 		value := value.(*[]*ApphubApplicationAttributesBusinessOwners)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validatePutBusine
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApphubApplicationAttributesBusinessOwners; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApphubApplicationAttributesBusinessOwners; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validatePutDevelo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApphubApplicationAttributesDeveloperOwners:
 		value := value.(*[]*ApphubApplicationAttributesDeveloperOwners)
@@ -159,7 +159,7 @@ func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validatePutDevelo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApphubApplicationAttributesDeveloperOwners; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApphubApplicationAttributesDeveloperOwners; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validatePutOperat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApphubApplicationAttributesOperatorOwners:
 		value := value.(*[]*ApphubApplicationAttributesOperatorOwners)
@@ -201,14 +201,14 @@ func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validatePutOperat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApphubApplicationAttributesOperatorOwners; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApphubApplicationAttributesOperatorOwners; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApphubApplicationAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -297,7 +297,7 @@ func (j *jsiiProxy_ApphubApplicationAttributesOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ApphubApplicationAttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApphubApplicationAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -305,7 +305,7 @@ func (j *jsiiProxy_ApphubApplicationAttributesOutputReference) validateSetTerraf
 	return nil
 }
 
-func validateNewApphubApplicationAttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApphubApplicationAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

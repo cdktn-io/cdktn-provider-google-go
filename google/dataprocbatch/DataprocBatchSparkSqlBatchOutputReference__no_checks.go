@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocBatchSparkSqlBatchOutputReference) validateInterpolat
 	return nil
 }
 
-func (d *jsiiProxy_DataprocBatchSparkSqlBatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocBatchSparkSqlBatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataprocBatchSparkSqlBatchOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataprocBatchSparkSqlBatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocBatchSparkSqlBatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocBatchSparkSqlBatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocBatchSparkSqlBatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

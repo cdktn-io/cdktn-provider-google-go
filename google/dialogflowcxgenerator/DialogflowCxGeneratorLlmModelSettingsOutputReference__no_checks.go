@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxGeneratorLlmModelSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxGeneratorLlmModelSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxGeneratorLlmModelSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

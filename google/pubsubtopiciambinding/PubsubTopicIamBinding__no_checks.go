@@ -107,7 +107,7 @@ func (j *jsiiProxy_PubsubTopicIamBinding) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_PubsubTopicIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PubsubTopicIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

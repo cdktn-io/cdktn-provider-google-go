@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateParamsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateParamsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceFromTemplateParamsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateParamsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateParamsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceFromTemplateParamsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceFromTemplateParamsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceFromTemplateParamsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

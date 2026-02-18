@@ -155,7 +155,7 @@ func (j *jsiiProxy_DataprocJob) validateSetLabelsParameters(val *map[string]*str
 	return nil
 }
 
-func (j *jsiiProxy_DataprocJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

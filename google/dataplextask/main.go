@@ -108,7 +108,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTask{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -162,7 +162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskExecutionSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskExecutionStatusLatestJobList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskExecutionStatusLatestJobOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -253,7 +253,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskExecutionStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -287,7 +287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskExecutionStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -337,7 +337,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskNotebookInfrastructureSpecBatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -385,7 +385,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskNotebookInfrastructureSpecContainerImageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -429,7 +429,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskNotebookInfrastructureSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -474,7 +474,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -518,7 +518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskNotebookOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -568,7 +568,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskSparkInfrastructureSpecBatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -616,7 +616,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -660,7 +660,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -705,7 +705,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskSparkInfrastructureSpecVpcNetworkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -762,7 +762,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskSparkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -807,7 +807,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -857,7 +857,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataplexTaskTriggerSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

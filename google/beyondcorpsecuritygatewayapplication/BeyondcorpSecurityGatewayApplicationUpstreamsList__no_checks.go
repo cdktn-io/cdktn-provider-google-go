@@ -15,7 +15,7 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateGe
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationUpstreamsList) validateSe
 	return nil
 }
 
-func validateNewBeyondcorpSecurityGatewayApplicationUpstreamsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBeyondcorpSecurityGatewayApplicationUpstreamsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

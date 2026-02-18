@@ -74,7 +74,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroup{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -99,7 +99,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupAppEngineList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -134,7 +134,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -159,7 +159,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupCloudFunctionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -193,7 +193,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupCloudFunctionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -218,7 +218,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupCloudRunList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -253,7 +253,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupCloudRunOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -282,7 +282,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -315,7 +315,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

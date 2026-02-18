@@ -5,14 +5,14 @@ package osconfigpatchdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osconfigpatchdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/osconfigpatchdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -46,15 +46,15 @@ type OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOut
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOut
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOut
 
 // The jsii proxy struct for OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference
 type jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) Bucket() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 }
 
 
-func NewOsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference {
+func NewOsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewOsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObject
 	return &j
 }
 
-func NewOsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference_Override(o OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference_Override(o OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 	)
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -491,8 +491,8 @@ func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -504,11 +504,11 @@ func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -520,7 +520,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConf
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepWindowsExecStepConfigGcsObjectOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

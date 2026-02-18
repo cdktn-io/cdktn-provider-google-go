@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DialogflowCxTestCaseTestConfigOutputReference) validateSetTra
 	return nil
 }
 
-func validateNewDialogflowCxTestCaseTestConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxTestCaseTestConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

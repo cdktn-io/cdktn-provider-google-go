@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateGetParam
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList) validateSetWraps
 	return nil
 }
 
-func validateNewComputeInstanceGroupManagerStatefulDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInstanceGroupManagerStatefulDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

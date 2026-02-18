@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiFeatureOnlineStoreFeatureviewTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

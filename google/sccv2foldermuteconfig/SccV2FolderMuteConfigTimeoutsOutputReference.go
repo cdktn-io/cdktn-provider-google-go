@@ -5,14 +5,14 @@ package sccv2foldermuteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccv2foldermuteconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sccv2foldermuteconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SccV2FolderMuteConfigTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SccV2FolderMuteConfigTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type SccV2FolderMuteConfigTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SccV2FolderMuteConfigTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SccV2FolderMuteConfigTimeoutsOutputReference interface {
 
 // The jsii proxy struct for SccV2FolderMuteConfigTimeoutsOutputReference
 type jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) UpdateInput() *
 }
 
 
-func NewSccV2FolderMuteConfigTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SccV2FolderMuteConfigTimeoutsOutputReference {
+func NewSccV2FolderMuteConfigTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SccV2FolderMuteConfigTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSccV2FolderMuteConfigTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSccV2FolderMuteConfigTimeoutsOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewSccV2FolderMuteConfigTimeoutsOutputReference_Override(s SccV2FolderMuteConfigTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSccV2FolderMuteConfigTimeoutsOutputReference_Override(s SccV2FolderMuteConfigTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

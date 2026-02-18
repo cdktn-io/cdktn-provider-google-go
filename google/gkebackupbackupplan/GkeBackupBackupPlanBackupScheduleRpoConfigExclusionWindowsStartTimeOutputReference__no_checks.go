@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsSta
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsStartTimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsStartTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsSta
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsStartTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsStartTimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeBackupBackupPlanBackupScheduleRpoConfigExclusionWindowsStartTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

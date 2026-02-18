@@ -5,14 +5,14 @@ package dialogflowcxtool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxtool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dialogflowcxtool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Token() *string
 	SetToken(val *string)
 	TokenInput() *string
@@ -51,7 +51,7 @@ type DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference i
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSecretVersionForToken()
 	ResetToken()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference i
 
 // The jsii proxy struct for DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference
 type jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 	return returns
 }
 
-func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 }
 
 
-func NewDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference {
+func NewDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReferenc
 	return &j
 }
 
-func NewDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference_Override(d DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference_Override(d DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 	)
 }
 
-func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOut
 	)
 }
 
-func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

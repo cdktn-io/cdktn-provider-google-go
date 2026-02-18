@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

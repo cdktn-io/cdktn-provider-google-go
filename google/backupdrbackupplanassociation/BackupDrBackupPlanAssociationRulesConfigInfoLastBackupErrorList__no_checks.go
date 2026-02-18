@@ -15,7 +15,7 @@ func (b *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorLi
 	return nil
 }
 
-func (b *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorLi
 	return nil
 }
 
-func (j *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorLi
 	return nil
 }
 
-func validateNewBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

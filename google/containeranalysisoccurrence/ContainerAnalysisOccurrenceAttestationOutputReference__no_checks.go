@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAnalysisOccurrenceAttestationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAnalysisOccurrenceAttestationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAnalysisOccurrenceAttestationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

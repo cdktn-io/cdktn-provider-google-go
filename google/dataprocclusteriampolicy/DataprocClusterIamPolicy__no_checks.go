@@ -107,7 +107,7 @@ func (j *jsiiProxy_DataprocClusterIamPolicy) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocClusterIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

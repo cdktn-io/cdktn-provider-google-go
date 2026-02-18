@@ -123,7 +123,7 @@ func (j *jsiiProxy_DataplexEntryGroup) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_DataplexEntryGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexEntryGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

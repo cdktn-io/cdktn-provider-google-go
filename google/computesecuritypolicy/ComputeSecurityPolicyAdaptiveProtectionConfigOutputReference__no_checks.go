@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyAdaptiveProtectionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyAdaptiveProtectionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

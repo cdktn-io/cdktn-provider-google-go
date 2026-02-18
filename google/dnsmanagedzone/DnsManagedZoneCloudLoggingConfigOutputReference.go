@@ -5,14 +5,14 @@ package dnsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dnsmanagedzone/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dnsmanagedzone/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DnsManagedZoneCloudLoggingConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DnsManagedZoneCloudLoggingConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DnsManagedZoneCloudLoggingConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DnsManagedZoneCloudLoggingConfigOutputReference interface {
 
 // The jsii proxy struct for DnsManagedZoneCloudLoggingConfigOutputReference
 type jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) TerraformRes
 }
 
 
-func NewDnsManagedZoneCloudLoggingConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DnsManagedZoneCloudLoggingConfigOutputReference {
+func NewDnsManagedZoneCloudLoggingConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DnsManagedZoneCloudLoggingConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDnsManagedZoneCloudLoggingConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewDnsManagedZoneCloudLoggingConfigOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDnsManagedZoneCloudLoggingConfigOutputReference_Override(d DnsManagedZoneCloudLoggingConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDnsManagedZoneCloudLoggingConfigOutputReference_Override(d DnsManagedZoneCloudLoggingConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -423,8 +423,8 @@ func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -436,11 +436,11 @@ func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -452,7 +452,7 @@ func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

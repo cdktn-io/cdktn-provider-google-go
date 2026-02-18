@@ -15,7 +15,7 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurren
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurren
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurren
 	return nil
 }
 
-func validateNewOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

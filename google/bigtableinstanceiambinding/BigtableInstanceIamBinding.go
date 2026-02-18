@@ -5,18 +5,18 @@ package bigtableinstanceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigtableinstanceiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigtableinstanceiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigtable_instance_iam_binding google_bigtable_instance_iam_binding}.
 type BigtableInstanceIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() BigtableInstanceIamBindingConditionOutputReference
 	ConditionInput() *BigtableInstanceIamBindingCondition
 	// Experimental.
@@ -35,9 +35,9 @@ type BigtableInstanceIamBinding interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type BigtableInstanceIamBinding interface {
 	SetInstance(val *string)
 	InstanceInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Members() *[]*string
 	SetMembers(val *[]*string)
 	MembersInput() *[]*string
@@ -61,9 +61,9 @@ type BigtableInstanceIamBinding interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type BigtableInstanceIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type BigtableInstanceIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type BigtableInstanceIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type BigtableInstanceIamBinding interface {
 
 // The jsii proxy struct for BigtableInstanceIamBinding
 type jsiiProxy_BigtableInstanceIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BigtableInstanceIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_BigtableInstanceIamBinding) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BigtableInstanceIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -297,8 +297,8 @@ func (j *jsiiProxy_BigtableInstanceIamBinding) InstanceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BigtableInstanceIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_BigtableInstanceIamBinding) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BigtableInstanceIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_BigtableInstanceIamBinding) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BigtableInstanceIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -497,7 +497,7 @@ func (j *jsiiProxy_BigtableInstanceIamBinding)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BigtableInstanceIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -527,7 +527,7 @@ func (j *jsiiProxy_BigtableInstanceIamBinding)SetInstance(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BigtableInstanceIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -560,7 +560,7 @@ func (j *jsiiProxy_BigtableInstanceIamBinding)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BigtableInstanceIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BigtableInstanceIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -590,14 +590,14 @@ func (j *jsiiProxy_BigtableInstanceIamBinding)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a BigtableInstanceIamBinding resource upon running "cdktf plan <stack-name>".
-func BigtableInstanceIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BigtableInstanceIamBinding resource upon running "cdktn plan <stack-name>".
+func BigtableInstanceIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBigtableInstanceIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.bigtableInstanceIamBinding.BigtableInstanceIamBinding",
@@ -731,11 +731,11 @@ func (b *jsiiProxy_BigtableInstanceIamBinding) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (b *jsiiProxy_BigtableInstanceIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigtableInstanceIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -872,7 +872,7 @@ func (b *jsiiProxy_BigtableInstanceIamBinding) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BigtableInstanceIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BigtableInstanceIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -883,11 +883,11 @@ func (b *jsiiProxy_BigtableInstanceIamBinding) ImportFrom(id *string, provider c
 	)
 }
 
-func (b *jsiiProxy_BigtableInstanceIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigtableInstanceIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

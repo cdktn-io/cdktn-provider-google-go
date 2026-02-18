@@ -51,7 +51,7 @@ func (c *jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChronicleDataAccessScopeDeniedDataAccessLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewChronicleDataAccessScopeDeniedDataAccessLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

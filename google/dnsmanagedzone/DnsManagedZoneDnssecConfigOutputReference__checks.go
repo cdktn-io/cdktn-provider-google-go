@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validatePutDefault
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DnsManagedZoneDnssecConfigDefaultKeySpecs:
 		value := value.(*[]*DnsManagedZoneDnssecConfigDefaultKeySpecs)
@@ -117,14 +117,14 @@ func (d *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validatePutDefault
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DnsManagedZoneDnssecConfigDefaultKeySpecs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DnsManagedZoneDnssecConfigDefaultKeySpecs; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -237,7 +237,7 @@ func (j *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -245,7 +245,7 @@ func (j *jsiiProxy_DnsManagedZoneDnssecConfigOutputReference) validateSetTerrafo
 	return nil
 }
 
-func validateNewDnsManagedZoneDnssecConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsManagedZoneDnssecConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) 
 	return nil
 }
 
-func validateNewDatastreamConnectionProfilePostgresqlProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamConnectionProfilePostgresqlProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

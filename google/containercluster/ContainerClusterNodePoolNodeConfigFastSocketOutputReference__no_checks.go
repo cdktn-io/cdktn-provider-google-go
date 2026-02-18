@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigFastSocketOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigFastSocketOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigFastSocketOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigFastSocketOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigFastSocketOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigFastSocketOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodePoolNodeConfigFastSocketOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodePoolNodeConfigFastSocketOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

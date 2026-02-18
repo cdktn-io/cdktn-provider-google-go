@@ -47,7 +47,7 @@ func (f *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (f *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_FolderOrganizationPolicyTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewFolderOrganizationPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFolderOrganizationPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

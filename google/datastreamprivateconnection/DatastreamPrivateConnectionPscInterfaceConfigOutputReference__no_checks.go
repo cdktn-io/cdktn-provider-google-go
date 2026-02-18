@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamPrivateConnectionPscInterfaceConfigOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamPrivateConnectionPscInterfaceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamPrivateConnectionPscInterfaceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatastreamPrivateConnectionPscInterfaceConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamPrivateConnectionPscInterfaceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamPrivateConnectionPscInterfaceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamPrivateConnectionPscInterfaceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamPrivateConnectionPscInterfaceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

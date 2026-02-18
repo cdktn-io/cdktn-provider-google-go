@@ -47,7 +47,7 @@ func (t *jsiiProxy_TpuNodeSchedulingConfigOutputReference) validateInterpolation
 	return nil
 }
 
-func (t *jsiiProxy_TpuNodeSchedulingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TpuNodeSchedulingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TpuNodeSchedulingConfigOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_TpuNodeSchedulingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TpuNodeSchedulingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTpuNodeSchedulingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTpuNodeSchedulingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

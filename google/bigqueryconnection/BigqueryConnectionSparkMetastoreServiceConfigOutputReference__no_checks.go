@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryConnectionSparkMetastoreServiceConfigOutputReference)
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryConnectionSparkMetastoreServiceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryConnectionSparkMetastoreServiceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BigqueryConnectionSparkMetastoreServiceConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryConnectionSparkMetastoreServiceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryConnectionSparkMetastoreServiceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryConnectionSparkMetastoreServiceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryConnectionSparkMetastoreServiceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

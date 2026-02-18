@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference) validateInt
 	return nil
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaseAppHostingBackendCodebaseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirebaseAppHostingBackendCodebaseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirebaseAppHostingBackendCodebaseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

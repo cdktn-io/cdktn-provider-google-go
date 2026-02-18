@@ -167,7 +167,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDisk{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -205,7 +205,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -258,7 +258,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskDiskEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -284,7 +284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskGuestOsFeaturesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -318,7 +318,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskGuestOsFeaturesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -357,7 +357,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskParamsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -403,7 +403,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskSourceImageEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -449,7 +449,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskSourceSnapshotEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -494,7 +494,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeDiskTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

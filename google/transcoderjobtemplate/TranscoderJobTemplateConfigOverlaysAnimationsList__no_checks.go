@@ -15,7 +15,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateGe
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigOverlaysAnimationsList) validateSe
 	return nil
 }
 
-func validateNewTranscoderJobTemplateConfigOverlaysAnimationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTranscoderJobTemplateConfigOverlaysAnimationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

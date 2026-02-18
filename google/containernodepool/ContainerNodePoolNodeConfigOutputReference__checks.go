@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -175,7 +175,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutGuestA
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerNodePoolNodeConfigGuestAccelerator:
 		value := value.(*[]*ContainerNodePoolNodeConfigGuestAccelerator)
@@ -194,7 +194,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutGuestA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerNodePoolNodeConfigGuestAccelerator; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerNodePoolNodeConfigGuestAccelerator; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -272,7 +272,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutSecond
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerNodePoolNodeConfigSecondaryBootDisks:
 		value := value.(*[]*ContainerNodePoolNodeConfigSecondaryBootDisks)
@@ -291,7 +291,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutSecond
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerNodePoolNodeConfigSecondaryBootDisks; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerNodePoolNodeConfigSecondaryBootDisks; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -325,7 +325,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutTaintP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerNodePoolNodeConfigTaint:
 		value := value.(*[]*ContainerNodePoolNodeConfigTaint)
@@ -344,7 +344,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutTaintP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerNodePoolNodeConfigTaint; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerNodePoolNodeConfigTaint; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -373,7 +373,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutWorklo
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -479,11 +479,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetEnable
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -499,11 +499,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetFlexSt
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -615,11 +615,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetPreemp
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -659,11 +659,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetSpotPa
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -694,7 +694,7 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -702,7 +702,7 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func validateNewContainerNodePoolNodeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerNodePoolNodeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

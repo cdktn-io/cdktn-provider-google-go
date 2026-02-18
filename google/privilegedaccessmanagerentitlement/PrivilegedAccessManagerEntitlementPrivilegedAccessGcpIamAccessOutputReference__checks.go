@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAcces
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings:
 		value := value.(*[]*PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings)
@@ -117,14 +117,14 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAcces
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (p *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -229,7 +229,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAcces
 	return nil
 }
 
-func (j *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -237,7 +237,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAcces
 	return nil
 }
 
-func validateNewPrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

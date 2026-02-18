@@ -100,7 +100,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -147,7 +147,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobCopyDestinationEncryptionConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobCopyDestinationTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -240,7 +240,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobCopyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -266,7 +266,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobCopySourceTablesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -306,7 +306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobCopySourceTablesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -367,7 +367,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobExtractOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -409,7 +409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobExtractSourceModelOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -453,7 +453,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobExtractSourceTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -496,7 +496,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobLoadDestinationEncryptionConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -540,7 +540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobLoadDestinationTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -637,7 +637,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobLoadOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -679,7 +679,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobLoadParquetOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -723,7 +723,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -768,7 +768,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryDefaultDatasetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -807,7 +807,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -851,7 +851,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryDestinationTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -938,7 +938,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -983,7 +983,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryScriptOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1009,7 +1009,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryUserDefinedFunctionResourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1047,7 +1047,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobQueryUserDefinedFunctionResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1076,7 +1076,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobStatusErrorResultList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1111,7 +1111,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobStatusErrorResultOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1136,7 +1136,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobStatusErrorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1171,7 +1171,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobStatusErrorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1192,7 +1192,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1227,7 +1227,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1272,7 +1272,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryJobTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

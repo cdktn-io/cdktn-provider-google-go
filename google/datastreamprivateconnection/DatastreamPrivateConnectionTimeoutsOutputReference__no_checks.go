@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DatastreamPrivateConnectionTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewDatastreamPrivateConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamPrivateConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

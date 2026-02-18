@@ -84,7 +84,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrBackupPlanAssociation{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -117,7 +117,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -151,7 +151,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -172,7 +172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrBackupPlanAssociationRulesConfigInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -252,7 +252,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BackupDrBackupPlanAssociationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -123,7 +123,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscription{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -222,7 +222,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionCloudStorageConfigAvroConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -282,7 +282,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -328,7 +328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -366,7 +366,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionExpirationPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -410,7 +410,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionMessageTransformsJavascriptUdfOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -432,7 +432,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionMessageTransformsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -471,7 +471,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -513,7 +513,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionPushConfigNoWrapperOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -554,7 +554,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionPushConfigOidcTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -599,7 +599,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionPushConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -641,7 +641,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionRetryPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -686,7 +686,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PubsubSubscriptionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

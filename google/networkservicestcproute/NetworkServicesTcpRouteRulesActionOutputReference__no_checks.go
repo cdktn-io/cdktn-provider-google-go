@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference) validatePu
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesTcpRouteRulesActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesTcpRouteRulesActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesTcpRouteRulesActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

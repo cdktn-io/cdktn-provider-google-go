@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateInterpola
 	return nil
 }
 
-func (a *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApihubApiHubInstanceConfigAOutputReference) validateSetVertex
 	return nil
 }
 
-func validateNewApihubApiHubInstanceConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApihubApiHubInstanceConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

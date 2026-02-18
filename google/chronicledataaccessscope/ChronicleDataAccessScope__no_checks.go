@@ -131,7 +131,7 @@ func (j *jsiiProxy_ChronicleDataAccessScope) validateSetInstanceParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleDataAccessScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChronicleDataAccessScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

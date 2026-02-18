@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
 	return nil
 }
 
-func validateNewPrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageControlFolderIntelligenceConfigTrialConfigOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_StorageControlFolderIntelligenceConfigTrialConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageControlFolderIntelligenceConfigTrialConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_StorageControlFolderIntelligenceConfigTrialConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_StorageControlFolderIntelligenceConfigTrialConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageControlFolderIntelligenceConfigTrialConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageControlFolderIntelligenceConfigTrialConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageControlFolderIntelligenceConfigTrialConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

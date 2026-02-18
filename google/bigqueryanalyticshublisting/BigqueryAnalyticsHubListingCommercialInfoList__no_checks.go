@@ -15,7 +15,7 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateGetPar
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingCommercialInfoList) validateSetWra
 	return nil
 }
 
-func validateNewBigqueryAnalyticsHubListingCommercialInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBigqueryAnalyticsHubListingCommercialInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

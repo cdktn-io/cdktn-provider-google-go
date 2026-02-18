@@ -5,14 +5,14 @@ package datalosspreventionjobtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datalosspreventionjobtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datalosspreventionjobtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BytesLimitPerFile() *float64
 	SetBytesLimitPerFile(val *float64)
 	BytesLimitPerFileInput() *float64
@@ -54,15 +54,15 @@ type DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutpu
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,9 +78,9 @@ type DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutpu
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFileSet(value *DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSet)
 	ResetBytesLimitPerFile()
 	ResetBytesLimitPerFilePercent()
@@ -89,7 +89,7 @@ type DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutpu
 	ResetSampleMethod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutpu
 
 // The jsii proxy struct for DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference
 type jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) BytesLimitPerFile() *float64 {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return returns
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 }
 
 
-func NewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference {
+func NewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -310,7 +310,7 @@ func NewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOu
 	return &j
 }
 
-func NewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference_Override(d DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference_Override(d DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -419,7 +419,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	)
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -459,11 +459,11 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -587,8 +587,8 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -600,11 +600,11 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -667,7 +667,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	)
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

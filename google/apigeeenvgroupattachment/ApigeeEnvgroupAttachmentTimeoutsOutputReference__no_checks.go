@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApigeeEnvgroupAttachmentTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeEnvgroupAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeEnvgroupAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApigeeEnvgroupAttachmentTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeEnvgroupAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeEnvgroupAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigeeEnvgroupAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeEnvgroupAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

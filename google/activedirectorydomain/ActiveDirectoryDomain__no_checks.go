@@ -127,7 +127,7 @@ func (j *jsiiProxy_ActiveDirectoryDomain) validateSetLabelsParameters(val *map[s
 	return nil
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ActiveDirectoryDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

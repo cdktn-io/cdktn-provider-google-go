@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionErrorOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionErrorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionErrorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionErrorOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionErrorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionErrorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatabaseMigrationServicePrivateConnectionErrorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatabaseMigrationServicePrivateConnectionErrorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

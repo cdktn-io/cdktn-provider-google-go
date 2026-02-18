@@ -5,14 +5,14 @@ package computerouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computerouter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computerouter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeRouterBgpAdvertisedIpRangesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ComputeRouterBgpAdvertisedIpRangesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ComputeRouterBgpAdvertisedIpRangesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ComputeRouterBgpAdvertisedIpRangesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ComputeRouterBgpAdvertisedIpRangesList interface {
 
 // The jsii proxy struct for ComputeRouterBgpAdvertisedIpRangesList
 type jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) WrapsSet() *bool {
 }
 
 
-func NewComputeRouterBgpAdvertisedIpRangesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeRouterBgpAdvertisedIpRangesList {
+func NewComputeRouterBgpAdvertisedIpRangesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeRouterBgpAdvertisedIpRangesList {
 	_init_.Initialize()
 
 	if err := validateNewComputeRouterBgpAdvertisedIpRangesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewComputeRouterBgpAdvertisedIpRangesList(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewComputeRouterBgpAdvertisedIpRangesList_Override(c ComputeRouterBgpAdvertisedIpRangesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewComputeRouterBgpAdvertisedIpRangesList_Override(c ComputeRouterBgpAdvertisedIpRangesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList)SetWrapsSet(val *bool)
 	)
 }
 
-func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -231,7 +231,7 @@ func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) Get(index *float64) C
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeRouterBgpAdvertisedIpRangesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

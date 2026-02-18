@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

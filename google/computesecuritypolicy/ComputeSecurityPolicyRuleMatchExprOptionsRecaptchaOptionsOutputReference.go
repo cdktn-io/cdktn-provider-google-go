@@ -5,14 +5,14 @@ package computesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computesecuritypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computesecuritypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActionTokenSiteKeys() *[]*string
 	SetActionTokenSiteKeys(val *[]*string)
 	ActionTokenSiteKeysInput() *[]*string
@@ -43,15 +43,15 @@ type ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetActionTokenSiteKeys()
 	ResetSessionTokenSiteKeys()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference in
 
 // The jsii proxy struct for ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference
 type jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) ActionTokenSiteKeys() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	return returns
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 }
 
 
-func NewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference {
+func NewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference
 	return &j
 }
 
-func NewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference_Override(c ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference_Override(c ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	)
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,8 +459,8 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -472,11 +472,11 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	)
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

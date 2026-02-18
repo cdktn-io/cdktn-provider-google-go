@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulInternalIpOutputRefe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulInternalIpOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulInternalIpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulInternalIpOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulInternalIpOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulInternalIpOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionInstanceGroupManagerStatefulInternalIpOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionInstanceGroupManagerStatefulInternalIpOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

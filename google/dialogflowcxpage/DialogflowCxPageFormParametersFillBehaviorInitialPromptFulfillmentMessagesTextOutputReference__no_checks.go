@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfil
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfil
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxPageFormParametersFillBehaviorInitialPromptFulfil
 	return nil
 }
 
-func validateNewDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxPageFormParametersFillBehaviorInitialPromptFulfillmentMessagesTextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

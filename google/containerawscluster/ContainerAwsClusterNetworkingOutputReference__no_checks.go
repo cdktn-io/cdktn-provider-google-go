@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ContainerAwsClusterNetworkingOutputReference) validateSetVpcI
 	return nil
 }
 
-func validateNewContainerAwsClusterNetworkingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsClusterNetworkingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

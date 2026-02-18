@@ -103,7 +103,7 @@ func (j *jsiiProxy_ProjectIamMemberRemove) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_ProjectIamMemberRemove) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ProjectIamMemberRemove) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

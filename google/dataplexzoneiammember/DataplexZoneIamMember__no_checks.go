@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataplexZoneIamMember) validateSetLakeParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DataplexZoneIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexZoneIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

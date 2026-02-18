@@ -97,7 +97,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -127,7 +127,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -163,7 +163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -211,7 +211,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -264,7 +264,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOneTimeWindowsEndDateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -312,7 +312,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOneTimeWindowsEndTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -334,7 +334,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOneTimeWindowsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -378,7 +378,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOneTimeWindowsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -423,7 +423,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOneTimeWindowsStartDateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -471,7 +471,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOneTimeWindowsStartTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -513,7 +513,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -565,7 +565,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsWeeklyWindowsEndTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -587,7 +587,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsWeeklyWindowsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -630,7 +630,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsWeeklyWindowsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -678,7 +678,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsWeeklyWindowsStartTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -724,7 +724,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicySelectorsDeliveryPipelineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -746,7 +746,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicySelectorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -786,7 +786,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicySelectorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -828,7 +828,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicySelectorsTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -873,7 +873,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClouddeployDeployPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

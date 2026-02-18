@@ -15,7 +15,7 @@ func (d *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DeveloperConnectInsightsConfigErrorsDetailsList) validateSetW
 	return nil
 }
 
-func validateNewDeveloperConnectInsightsConfigErrorsDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDeveloperConnectInsightsConfigErrorsDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

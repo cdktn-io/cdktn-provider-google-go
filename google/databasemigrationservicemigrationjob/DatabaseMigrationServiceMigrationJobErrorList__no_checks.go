@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJobErrorList) validateSetWra
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceMigrationJobErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatabaseMigrationServiceMigrationJobErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

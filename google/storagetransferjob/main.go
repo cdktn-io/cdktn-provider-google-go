@@ -99,7 +99,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -147,7 +147,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobEventStreamOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -192,7 +192,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobLoggingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -235,7 +235,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobNotificationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -280,7 +280,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobReplicationSpecGcsDataSinkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -321,7 +321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobReplicationSpecGcsDataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -375,7 +375,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobReplicationSpecObjectConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -423,7 +423,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobReplicationSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -490,7 +490,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -538,7 +538,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobReplicationSpecTransferOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -588,7 +588,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -630,7 +630,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -672,7 +672,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobScheduleScheduleStartDateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -716,7 +716,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobScheduleStartTimeOfDayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -764,7 +764,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -814,7 +814,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -856,7 +856,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -896,7 +896,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -946,7 +946,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -987,7 +987,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecGcsDataSinkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1028,7 +1028,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1066,7 +1066,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecHdfsDataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1104,7 +1104,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecHttpDataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1158,7 +1158,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecObjectConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1236,7 +1236,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1274,7 +1274,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecPosixDataSinkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1312,7 +1312,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecPosixDataSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1379,7 +1379,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1427,7 +1427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageTransferJobTransferSpecTransferOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

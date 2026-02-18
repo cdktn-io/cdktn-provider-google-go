@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateGetParameters(
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateDiskList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewComputeRegionInstanceTemplateDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRegionInstanceTemplateDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

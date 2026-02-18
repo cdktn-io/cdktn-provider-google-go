@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutAdBreaksParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigAdBreaks:
 		value := value.(*[]*TranscoderJobConfigAdBreaks)
@@ -117,7 +117,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutAdBreaksParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigAdBreaks; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigAdBreaks; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutEditListParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigEditListStruct:
 		value := value.(*[]*TranscoderJobConfigEditListStruct)
@@ -148,7 +148,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutEditListParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigEditListStruct; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigEditListStruct; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutElementaryStr
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigElementaryStreams:
 		value := value.(*[]*TranscoderJobConfigElementaryStreams)
@@ -179,7 +179,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutElementaryStr
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigElementaryStreams; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigElementaryStreams; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutEncryptionsPa
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigEncryptions:
 		value := value.(*[]*TranscoderJobConfigEncryptions)
@@ -210,7 +210,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutEncryptionsPa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigEncryptions; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigEncryptions; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutInputsParamet
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigInputs:
 		value := value.(*[]*TranscoderJobConfigInputs)
@@ -241,7 +241,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutInputsParamet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigInputs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigInputs; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutManifestsPara
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigManifests:
 		value := value.(*[]*TranscoderJobConfigManifests)
@@ -272,7 +272,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutManifestsPara
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigManifests; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigManifests; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutMuxStreamsPar
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigMuxStreams:
 		value := value.(*[]*TranscoderJobConfigMuxStreams)
@@ -303,7 +303,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutMuxStreamsPar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigMuxStreams; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigMuxStreams; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -326,7 +326,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutOverlaysParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigOverlays:
 		value := value.(*[]*TranscoderJobConfigOverlays)
@@ -345,7 +345,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutOverlaysParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigOverlays; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigOverlays; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -363,7 +363,7 @@ func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validatePutPubsubDestina
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -452,7 +452,7 @@ func (j *jsiiProxy_TranscoderJobConfigAOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -460,7 +460,7 @@ func (j *jsiiProxy_TranscoderJobConfigAOutputReference) validateSetTerraformReso
 	return nil
 }
 
-func validateNewTranscoderJobConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

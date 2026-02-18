@@ -5,14 +5,14 @@ package spannerbackupschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/spannerbackupschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/spannerbackupschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpannerBackupScheduleSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type SpannerBackupScheduleSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type SpannerBackupScheduleSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCronSpec(value *SpannerBackupScheduleSpecCronSpec)
 	ResetCronSpec()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type SpannerBackupScheduleSpecOutputReference interface {
 
 // The jsii proxy struct for SpannerBackupScheduleSpecOutputReference
 type jsiiProxy_SpannerBackupScheduleSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference) TerraformResource()
 }
 
 
-func NewSpannerBackupScheduleSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpannerBackupScheduleSpecOutputReference {
+func NewSpannerBackupScheduleSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpannerBackupScheduleSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpannerBackupScheduleSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewSpannerBackupScheduleSpecOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewSpannerBackupScheduleSpecOutputReference_Override(s SpannerBackupScheduleSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpannerBackupScheduleSpecOutputReference_Override(s SpannerBackupScheduleSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpannerBackupScheduleSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -413,8 +413,8 @@ func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -426,11 +426,11 @@ func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) InterpolationAsList
 	return returns
 }
 
-func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,7 +461,7 @@ func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) ResetCronSpec() {
 	)
 }
 
-func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpannerBackupScheduleSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

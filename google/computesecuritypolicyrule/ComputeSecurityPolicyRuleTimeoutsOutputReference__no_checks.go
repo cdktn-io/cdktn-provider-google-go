@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

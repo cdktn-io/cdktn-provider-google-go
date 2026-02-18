@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterDnsConfigOutputReference) validateInterpolati
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterDnsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterDnsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ContainerClusterDnsConfigOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterDnsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterDnsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterDnsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterDnsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

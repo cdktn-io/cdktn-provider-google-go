@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelect
 	return nil
 }
 
-func (a *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelect
 	return nil
 }
 
-func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

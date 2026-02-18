@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutpu
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutpu
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

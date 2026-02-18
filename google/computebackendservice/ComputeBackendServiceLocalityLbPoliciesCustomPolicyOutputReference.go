@@ -5,14 +5,14 @@ package computebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computebackendservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computebackendservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetData()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference interfac
 
 // The jsii proxy struct for ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference
 type jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 }
 
 
-func NewComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference {
+func NewComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference(terra
 	return &j
 }
 
-func NewComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference_Override(c ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference_Override(c ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 	)
 }
 
-func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 	return returns
 }
 
-func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,8 +458,8 @@ func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 	return returns
 }
 
-func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -471,11 +471,11 @@ func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 	return returns
 }
 
-func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputRefe
 	)
 }
 
-func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

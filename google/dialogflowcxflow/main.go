@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlow{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -146,7 +146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowAdvancedSettingsDtmfSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -236,7 +236,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowAdvancedSettingsLoggingSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -284,7 +284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowAdvancedSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -332,7 +332,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -362,7 +362,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -408,7 +408,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -438,7 +438,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentConditionalCasesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -473,7 +473,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentConditionalCasesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -516,7 +516,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesConversationSuccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -538,7 +538,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -577,7 +577,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesLiveAgentHandoffOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -620,7 +620,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesOutputAudioTextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -682,7 +682,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -721,7 +721,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesPlayAudioOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -759,7 +759,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -799,7 +799,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentMessagesTextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -855,7 +855,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -881,7 +881,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -919,7 +919,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -949,7 +949,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -990,7 +990,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsDataStoreConnectionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1039,7 +1039,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1098,7 +1098,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsDtmfSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1143,7 +1143,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsLoggingSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1187,7 +1187,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1235,7 +1235,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentAdvancedSettingsSpeechSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1261,7 +1261,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1296,7 +1296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentConditionalCasesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1339,7 +1339,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesConversationSuccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1364,7 +1364,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1396,7 +1396,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesEndInteractionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1432,7 +1432,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesKnowledgeInfoCardOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1454,7 +1454,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1493,7 +1493,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesLiveAgentHandoffOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1518,7 +1518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1551,7 +1551,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1576,7 +1576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1611,7 +1611,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesMixedAudioSegmentsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1654,7 +1654,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputAudioTextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1722,7 +1722,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1761,7 +1761,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesPlayAudioOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1799,7 +1799,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesTelephonyTransferCallOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1839,7 +1839,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentMessagesTextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1899,7 +1899,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1925,7 +1925,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1963,7 +1963,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowKnowledgeConnectorSettingsTriggerFulfillmentSetParameterActionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2008,7 +2008,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowNluSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2053,7 +2053,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2079,7 +2079,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2128,7 +2128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2158,7 +2158,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentConditionalCasesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2193,7 +2193,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentConditionalCasesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2236,7 +2236,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2258,7 +2258,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2297,7 +2297,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesLiveAgentHandoffOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2340,7 +2340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesOutputAudioTextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2402,7 +2402,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2441,7 +2441,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesPlayAudioOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2479,7 +2479,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesTelephonyTransferCallOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2519,7 +2519,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesTextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2572,7 +2572,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2598,7 +2598,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentSetParameterActionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2636,7 +2636,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentSetParameterActionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

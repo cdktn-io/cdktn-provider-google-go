@@ -103,7 +103,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

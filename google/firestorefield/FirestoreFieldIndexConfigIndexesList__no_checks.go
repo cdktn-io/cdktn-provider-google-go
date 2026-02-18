@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateGetParameters(i
 	return nil
 }
 
-func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FirestoreFieldIndexConfigIndexesList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewFirestoreFieldIndexConfigIndexesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirestoreFieldIndexConfigIndexesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

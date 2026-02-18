@@ -147,7 +147,7 @@ func (j *jsiiProxy_ApigeeOrganization) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeOrganization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApigeeOrganization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -63,7 +63,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeImageShieldedInstanceInitialStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeImageShieldedInstanceInitialStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

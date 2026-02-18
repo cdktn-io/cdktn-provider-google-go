@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateIn
 	return nil
 }
 
-func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigtableTableAutomatedBackupPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigtableTableAutomatedBackupPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

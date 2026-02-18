@@ -15,7 +15,7 @@ func (a *jsiiProxy_AlloydbBackupExpiryQuantityList) validateGetParameters(index 
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbBackupExpiryQuantityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbBackupExpiryQuantityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AlloydbBackupExpiryQuantityList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbBackupExpiryQuantityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbBackupExpiryQuantityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AlloydbBackupExpiryQuantityList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewAlloydbBackupExpiryQuantityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAlloydbBackupExpiryQuantityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputR
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputR
 	return nil
 }
 
-func validateNewMemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemorystoreInstanceDesiredUserCreatedEndpointsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

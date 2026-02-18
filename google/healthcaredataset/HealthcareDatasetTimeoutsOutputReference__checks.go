@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (h *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetDeletePa
 
 func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *HealthcareDatasetTimeouts:
 		val := val.(*HealthcareDatasetTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetInternal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *HealthcareDatasetTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *HealthcareDatasetTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_HealthcareDatasetTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewHealthcareDatasetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareDatasetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

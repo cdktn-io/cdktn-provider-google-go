@@ -5,14 +5,14 @@ package chroniclerule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/chroniclerule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/chroniclerule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ChronicleRuleCompilationDiagnosticsPositionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type ChronicleRuleCompilationDiagnosticsPositionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type ChronicleRuleCompilationDiagnosticsPositionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ChronicleRuleCompilationDiagnosticsPositionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type ChronicleRuleCompilationDiagnosticsPositionList interface {
 
 // The jsii proxy struct for ChronicleRuleCompilationDiagnosticsPositionList
 type jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) WrapsSet() *
 }
 
 
-func NewChronicleRuleCompilationDiagnosticsPositionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChronicleRuleCompilationDiagnosticsPositionList {
+func NewChronicleRuleCompilationDiagnosticsPositionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChronicleRuleCompilationDiagnosticsPositionList {
 	_init_.Initialize()
 
 	if err := validateNewChronicleRuleCompilationDiagnosticsPositionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewChronicleRuleCompilationDiagnosticsPositionList(terraformResource cdktf.
 	return &j
 }
 
-func NewChronicleRuleCompilationDiagnosticsPositionList_Override(c ChronicleRuleCompilationDiagnosticsPositionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewChronicleRuleCompilationDiagnosticsPositionList_Override(c ChronicleRuleCompilationDiagnosticsPositionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList)SetWrapsSet(v
 	)
 }
 
-func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -208,7 +208,7 @@ func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) Get(index *f
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

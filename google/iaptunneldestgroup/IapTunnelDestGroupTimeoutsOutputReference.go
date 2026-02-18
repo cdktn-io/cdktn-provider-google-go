@@ -5,14 +5,14 @@ package iaptunneldestgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/iaptunneldestgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/iaptunneldestgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IapTunnelDestGroupTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type IapTunnelDestGroupTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type IapTunnelDestGroupTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type IapTunnelDestGroupTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type IapTunnelDestGroupTimeoutsOutputReference interface {
 
 // The jsii proxy struct for IapTunnelDestGroupTimeoutsOutputReference
 type jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) UpdateInput() *str
 }
 
 
-func NewIapTunnelDestGroupTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IapTunnelDestGroupTimeoutsOutputReference {
+func NewIapTunnelDestGroupTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IapTunnelDestGroupTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIapTunnelDestGroupTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewIapTunnelDestGroupTimeoutsOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewIapTunnelDestGroupTimeoutsOutputReference_Override(i IapTunnelDestGroupTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIapTunnelDestGroupTimeoutsOutputReference_Override(i IapTunnelDestGroupTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -494,8 +494,8 @@ func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -507,11 +507,11 @@ func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -547,7 +547,7 @@ func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IapTunnelDestGroupTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

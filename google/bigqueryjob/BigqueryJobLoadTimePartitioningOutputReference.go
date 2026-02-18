@@ -5,14 +5,14 @@ package bigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigqueryjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryJobLoadTimePartitioningOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type BigqueryJobLoadTimePartitioningOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -54,7 +54,7 @@ type BigqueryJobLoadTimePartitioningOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type BigqueryJobLoadTimePartitioningOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExpirationMs()
 	ResetField()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type BigqueryJobLoadTimePartitioningOutputReference interface {
 
 // The jsii proxy struct for BigqueryJobLoadTimePartitioningOutputReference
 type jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) TypeInput() *
 }
 
 
-func NewBigqueryJobLoadTimePartitioningOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigqueryJobLoadTimePartitioningOutputReference {
+func NewBigqueryJobLoadTimePartitioningOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigqueryJobLoadTimePartitioningOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryJobLoadTimePartitioningOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewBigqueryJobLoadTimePartitioningOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewBigqueryJobLoadTimePartitioningOutputReference_Override(b BigqueryJobLoadTimePartitioningOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigqueryJobLoadTimePartitioningOutputReference_Override(b BigqueryJobLoadTimePartitioningOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -493,8 +493,8 @@ func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) GetStringMapA
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -506,11 +506,11 @@ func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) Interpolation
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -538,7 +538,7 @@ func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) ResetField() 
 	)
 }
 
-func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

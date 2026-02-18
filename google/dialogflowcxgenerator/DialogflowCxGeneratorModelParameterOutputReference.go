@@ -5,14 +5,14 @@ package dialogflowcxgenerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxgenerator/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dialogflowcxgenerator/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DialogflowCxGeneratorModelParameterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type DialogflowCxGeneratorModelParameterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TopK() *float64
 	SetTopK(val *float64)
 	TopKInput() *float64
@@ -57,7 +57,7 @@ type DialogflowCxGeneratorModelParameterOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DialogflowCxGeneratorModelParameterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxDecodeSteps()
 	ResetTemperature()
 	ResetTopK()
 	ResetTopP()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DialogflowCxGeneratorModelParameterOutputReference interface {
 
 // The jsii proxy struct for DialogflowCxGeneratorModelParameterOutputReference
 type jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) ComplexObjectIndex() interface{} {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) TopPInput
 }
 
 
-func NewDialogflowCxGeneratorModelParameterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DialogflowCxGeneratorModelParameterOutputReference {
+func NewDialogflowCxGeneratorModelParameterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DialogflowCxGeneratorModelParameterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDialogflowCxGeneratorModelParameterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDialogflowCxGeneratorModelParameterOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewDialogflowCxGeneratorModelParameterOutputReference_Override(d DialogflowCxGeneratorModelParameterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDialogflowCxGeneratorModelParameterOutputReference_Override(d DialogflowCxGeneratorModelParameterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -339,7 +339,7 @@ func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) GetAnyMap
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) GetString
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) Interpola
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) ResetTopP
 	)
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DialogflowCxGeneratorModelParameterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

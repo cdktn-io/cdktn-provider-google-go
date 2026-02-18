@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocGdcSparkApplicationPysparkApplicationConfigOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataprocGdcSparkApplicationPysparkApplicationConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocGdcSparkApplicationPysparkApplicationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DataprocGdcSparkApplicationPysparkApplicationConfigOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataprocGdcSparkApplicationPysparkApplicationConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocGdcSparkApplicationPysparkApplicationConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocGdcSparkApplicationPysparkApplicationConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocGdcSparkApplicationPysparkApplicationConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

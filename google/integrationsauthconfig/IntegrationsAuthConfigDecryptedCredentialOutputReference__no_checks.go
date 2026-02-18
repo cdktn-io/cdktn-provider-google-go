@@ -75,7 +75,7 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference) val
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIntegrationsAuthConfigDecryptedCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationsAuthConfigDecryptedCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

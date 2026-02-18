@@ -122,7 +122,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -156,7 +156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -194,7 +194,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -229,7 +229,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -306,7 +306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigIdentityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -336,7 +336,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -374,7 +374,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -409,7 +409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -447,7 +447,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -472,7 +472,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigLinkList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -506,7 +506,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigLinkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -545,7 +545,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigSourceFoldersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -584,7 +584,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigSourceProjectsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -629,7 +629,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageInsightsDatasetConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

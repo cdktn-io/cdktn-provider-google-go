@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceDiscoveryEndpointsOutputReference) validat
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceDiscoveryEndpointsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceDiscoveryEndpointsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_MemorystoreInstanceDiscoveryEndpointsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceDiscoveryEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceDiscoveryEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMemorystoreInstanceDiscoveryEndpointsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMemorystoreInstanceDiscoveryEndpointsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

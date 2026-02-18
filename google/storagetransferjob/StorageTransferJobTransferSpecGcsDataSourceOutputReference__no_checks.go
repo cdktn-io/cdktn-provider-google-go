@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageTransferJobTransferSpecGcsDataSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageTransferJobTransferSpecGcsDataSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageTransferJobTransferSpecGcsDataSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

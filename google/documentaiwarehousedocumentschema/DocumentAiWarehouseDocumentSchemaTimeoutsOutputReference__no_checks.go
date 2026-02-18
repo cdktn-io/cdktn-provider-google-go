@@ -47,7 +47,7 @@ func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDocumentAiWarehouseDocumentSchemaTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDocumentAiWarehouseDocumentSchemaTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

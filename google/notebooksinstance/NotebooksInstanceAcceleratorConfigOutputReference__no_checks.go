@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateIn
 	return nil
 }
 
-func (n *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NotebooksInstanceAcceleratorConfigOutputReference) validateSe
 	return nil
 }
 
-func validateNewNotebooksInstanceAcceleratorConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotebooksInstanceAcceleratorConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

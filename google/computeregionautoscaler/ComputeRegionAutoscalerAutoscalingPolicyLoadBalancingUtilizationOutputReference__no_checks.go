@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizat
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizat
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputRef
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionInstanceGroupManagerAutoHealingPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

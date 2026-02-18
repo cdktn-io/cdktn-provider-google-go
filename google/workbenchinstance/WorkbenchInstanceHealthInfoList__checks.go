@@ -8,7 +8,7 @@ package workbenchinstance
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WorkbenchInstanceHealthInfoList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (w *jsiiProxy_WorkbenchInstanceHealthInfoList) validateGetParameters(index 
 	return nil
 }
 
-func (w *jsiiProxy_WorkbenchInstanceHealthInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkbenchInstanceHealthInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_WorkbenchInstanceHealthInfoList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_WorkbenchInstanceHealthInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkbenchInstanceHealthInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_WorkbenchInstanceHealthInfoList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewWorkbenchInstanceHealthInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkbenchInstanceHealthInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

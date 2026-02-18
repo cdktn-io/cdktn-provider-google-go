@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) validateS
 	return nil
 }
 
-func validateNewApigeeSecurityActionConditionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeSecurityActionConditionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_ComputeRegionCommitment) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionCommitment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRegionCommitment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

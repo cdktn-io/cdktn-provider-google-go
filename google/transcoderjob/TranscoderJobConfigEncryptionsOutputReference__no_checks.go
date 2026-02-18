@@ -67,7 +67,7 @@ func (t *jsiiProxy_TranscoderJobConfigEncryptionsOutputReference) validatePutSec
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigEncryptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigEncryptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_TranscoderJobConfigEncryptionsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigEncryptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigEncryptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobConfigEncryptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTranscoderJobConfigEncryptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

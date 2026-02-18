@@ -5,14 +5,14 @@ package apphubapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apphubapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apphubapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApphubApplicationTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ApphubApplicationTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type ApphubApplicationTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type ApphubApplicationTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ApphubApplicationTimeoutsOutputReference interface {
 
 // The jsii proxy struct for ApphubApplicationTimeoutsOutputReference
 type jsiiProxy_ApphubApplicationTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference) UpdateInput() *stri
 }
 
 
-func NewApphubApplicationTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApphubApplicationTimeoutsOutputReference {
+func NewApphubApplicationTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApphubApplicationTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApphubApplicationTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewApphubApplicationTimeoutsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewApphubApplicationTimeoutsOutputReference_Override(a ApphubApplicationTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApphubApplicationTimeoutsOutputReference_Override(a ApphubApplicationTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApphubApplicationTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -494,8 +494,8 @@ func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -507,11 +507,11 @@ func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApphubApplicationTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

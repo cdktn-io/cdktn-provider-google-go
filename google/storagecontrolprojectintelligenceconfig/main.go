@@ -77,7 +77,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -106,7 +106,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigEffectiveIntelligenceConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -140,7 +140,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigEffectiveIntelligenceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -182,7 +182,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -220,7 +220,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -258,7 +258,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -296,7 +296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -344,7 +344,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -389,7 +389,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -414,7 +414,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -447,7 +447,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

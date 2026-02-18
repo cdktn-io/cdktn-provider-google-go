@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsa
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsa
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

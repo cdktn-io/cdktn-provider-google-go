@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateInterpolation
 	return nil
 }
 
-func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNotebooksRuntimeMetricsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNotebooksRuntimeMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

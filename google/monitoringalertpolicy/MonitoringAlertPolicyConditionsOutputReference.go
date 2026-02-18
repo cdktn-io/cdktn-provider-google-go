@@ -5,14 +5,14 @@ package monitoringalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringalertpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/monitoringalertpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitoringAlertPolicyConditionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -53,15 +53,15 @@ type MonitoringAlertPolicyConditionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type MonitoringAlertPolicyConditionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConditionAbsent(value *MonitoringAlertPolicyConditionsConditionAbsent)
 	PutConditionMatchedLog(value *MonitoringAlertPolicyConditionsConditionMatchedLog)
 	PutConditionMonitoringQueryLanguage(value *MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguage)
@@ -94,7 +94,7 @@ type MonitoringAlertPolicyConditionsOutputReference interface {
 	ResetConditionThreshold()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type MonitoringAlertPolicyConditionsOutputReference interface {
 
 // The jsii proxy struct for MonitoringAlertPolicyConditionsOutputReference
 type jsiiProxy_MonitoringAlertPolicyConditionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) ComplexObjectIndex() interface{} {
@@ -317,8 +317,8 @@ func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -328,7 +328,7 @@ func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) TerraformReso
 }
 
 
-func NewMonitoringAlertPolicyConditionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitoringAlertPolicyConditionsOutputReference {
+func NewMonitoringAlertPolicyConditionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitoringAlertPolicyConditionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitoringAlertPolicyConditionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -345,7 +345,7 @@ func NewMonitoringAlertPolicyConditionsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewMonitoringAlertPolicyConditionsOutputReference_Override(m MonitoringAlertPolicyConditionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMonitoringAlertPolicyConditionsOutputReference_Override(m MonitoringAlertPolicyConditionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -410,7 +410,7 @@ func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -450,11 +450,11 @@ func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -578,8 +578,8 @@ func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) GetStringMapA
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -591,11 +591,11 @@ func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) Interpolation
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -721,7 +721,7 @@ func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) ResetConditio
 	)
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitoringAlertPolicyConditionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -127,7 +127,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplate) validateSetLabelsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivatecaCertificateTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

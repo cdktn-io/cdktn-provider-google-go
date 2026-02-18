@@ -5,14 +5,14 @@ package assuredworkloadsworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/assuredworkloadsworkload/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/assuredworkloadsworkload/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AssuredWorkloadsWorkloadKmsSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type AssuredWorkloadsWorkloadKmsSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type AssuredWorkloadsWorkloadKmsSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type AssuredWorkloadsWorkloadKmsSettingsOutputReference interface {
 
 // The jsii proxy struct for AssuredWorkloadsWorkloadKmsSettingsOutputReference
 type jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) Terraform
 }
 
 
-func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AssuredWorkloadsWorkloadKmsSettingsOutputReference {
+func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AssuredWorkloadsWorkloadKmsSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAssuredWorkloadsWorkloadKmsSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference_Override(a AssuredWorkloadsWorkloadKmsSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAssuredWorkloadsWorkloadKmsSettingsOutputReference_Override(a AssuredWorkloadsWorkloadKmsSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -457,8 +457,8 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -470,11 +470,11 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -486,7 +486,7 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

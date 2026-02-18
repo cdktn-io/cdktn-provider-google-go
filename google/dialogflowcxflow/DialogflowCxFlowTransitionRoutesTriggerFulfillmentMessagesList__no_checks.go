@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesLis
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesLis
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesLis
 	return nil
 }
 
-func validateNewDialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

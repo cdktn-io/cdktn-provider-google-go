@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFusionInstanceEventPublishConfigOutputReference) validate
 	return nil
 }
 
-func validateNewDataFusionInstanceEventPublishConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFusionInstanceEventPublishConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaun
 	return nil
 }
 
-func (d *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaun
 	return nil
 }
 
-func (j *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -135,7 +135,7 @@ func (j *jsiiProxy_DataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaun
 	return nil
 }
 
-func validateNewDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

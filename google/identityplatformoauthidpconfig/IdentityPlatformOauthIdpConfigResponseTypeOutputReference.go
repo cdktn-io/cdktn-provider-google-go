@@ -5,14 +5,14 @@ package identityplatformoauthidpconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/identityplatformoauthidpconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/identityplatformoauthidpconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IdentityPlatformOauthIdpConfigResponseTypeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Code() interface{}
 	SetCode(val interface{})
 	CodeInput() interface{}
@@ -43,15 +43,15 @@ type IdentityPlatformOauthIdpConfigResponseTypeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type IdentityPlatformOauthIdpConfigResponseTypeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCode()
 	ResetIdToken()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type IdentityPlatformOauthIdpConfigResponseTypeOutputReference interface {
 
 // The jsii proxy struct for IdentityPlatformOauthIdpConfigResponseTypeOutputReference
 type jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Code() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Te
 }
 
 
-func NewIdentityPlatformOauthIdpConfigResponseTypeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IdentityPlatformOauthIdpConfigResponseTypeOutputReference {
+func NewIdentityPlatformOauthIdpConfigResponseTypeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IdentityPlatformOauthIdpConfigResponseTypeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIdentityPlatformOauthIdpConfigResponseTypeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewIdentityPlatformOauthIdpConfigResponseTypeOutputReference(terraformResou
 	return &j
 }
 
-func NewIdentityPlatformOauthIdpConfigResponseTypeOutputReference_Override(i IdentityPlatformOauthIdpConfigResponseTypeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIdentityPlatformOauthIdpConfigResponseTypeOutputReference_Override(i IdentityPlatformOauthIdpConfigResponseTypeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Ge
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -459,8 +459,8 @@ func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Ge
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -472,11 +472,11 @@ func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) In
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Re
 	)
 }
 
-func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IdentityPlatformOauthIdpConfigResponseTypeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

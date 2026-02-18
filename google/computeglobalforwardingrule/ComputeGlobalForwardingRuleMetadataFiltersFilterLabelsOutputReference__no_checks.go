@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputR
 	return nil
 }
 
-func (c *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputR
 	return nil
 }
 
-func validateNewComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeGlobalForwardingRuleMetadataFiltersFilterLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

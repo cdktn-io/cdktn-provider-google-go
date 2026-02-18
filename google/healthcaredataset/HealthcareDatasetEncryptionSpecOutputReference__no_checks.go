@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareDatasetEncryptionSpecOutputReference) validateInter
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDatasetEncryptionSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDatasetEncryptionSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_HealthcareDatasetEncryptionSpecOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDatasetEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDatasetEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHealthcareDatasetEncryptionSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareDatasetEncryptionSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

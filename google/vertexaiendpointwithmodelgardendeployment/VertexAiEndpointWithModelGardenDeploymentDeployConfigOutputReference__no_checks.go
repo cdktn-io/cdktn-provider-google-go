@@ -51,7 +51,7 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigOutputRe
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

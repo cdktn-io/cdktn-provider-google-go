@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainer
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

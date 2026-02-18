@@ -5,14 +5,14 @@ package computeinterconnectattachmentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinterconnectattachmentgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeinterconnectattachmentgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesLi
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesLi
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesLi
 
 // The jsii proxy struct for ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList
 type jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 }
 
 
-func NewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList {
+func NewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList {
 	_init_.Initialize()
 
 	if err := validateNewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitie
 	return &j
 }
 
-func NewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList_Override(c ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList_Override(c ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	)
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	)
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -208,7 +208,7 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

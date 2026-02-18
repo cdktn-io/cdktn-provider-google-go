@@ -199,7 +199,7 @@ func (j *jsiiProxy_ComputeInstance) validateSetLabelsParameters(val *map[string]
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_GkeonpremBareMetalNodePool) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalNodePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeonpremBareMetalNodePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

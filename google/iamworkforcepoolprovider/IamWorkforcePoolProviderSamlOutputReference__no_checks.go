@@ -47,7 +47,7 @@ func (i *jsiiProxy_IamWorkforcePoolProviderSamlOutputReference) validateInterpol
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkforcePoolProviderSamlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamWorkforcePoolProviderSamlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IamWorkforcePoolProviderSamlOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkforcePoolProviderSamlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamWorkforcePoolProviderSamlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamWorkforcePoolProviderSamlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIamWorkforcePoolProviderSamlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

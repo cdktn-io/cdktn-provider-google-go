@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateIn
 	return nil
 }
 
-func (b *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BigtableInstanceIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewBigtableInstanceIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigtableInstanceIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -149,7 +149,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManager{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerAllInstancesConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -231,7 +231,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerAutoHealingPoliciesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -277,7 +277,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -303,7 +303,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerNamedPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -339,7 +339,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerNamedPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -378,7 +378,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerResourcePoliciesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -420,7 +420,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStandbyPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -446,7 +446,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatefulDiskList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -483,7 +483,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatefulDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -509,7 +509,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatefulExternalIpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -547,7 +547,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatefulExternalIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -573,7 +573,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatefulInternalIpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -611,7 +611,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatefulInternalIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -640,7 +640,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusAllInstancesConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -674,7 +674,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusAllInstancesConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -695,7 +695,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -731,7 +731,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -756,7 +756,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusStatefulList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -790,7 +790,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusStatefulOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -815,7 +815,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -848,7 +848,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -873,7 +873,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusVersionTargetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -906,7 +906,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerStatusVersionTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -951,7 +951,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1009,7 +1009,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerUpdatePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1035,7 +1035,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerVersionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1076,7 +1076,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerVersionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1118,7 +1118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceGroupManagerVersionTargetSizeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

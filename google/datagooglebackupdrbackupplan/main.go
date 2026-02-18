@@ -69,7 +69,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlan{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -94,7 +94,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -129,7 +129,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -158,7 +158,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -192,7 +192,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -213,7 +213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -253,7 +253,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -278,7 +278,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -312,7 +312,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

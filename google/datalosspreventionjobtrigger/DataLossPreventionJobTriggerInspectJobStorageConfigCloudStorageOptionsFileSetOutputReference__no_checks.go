@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobStorageConfigCloudStora
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionJobTriggerInspectJobStorageConfigCloudStorageOptionsFileSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

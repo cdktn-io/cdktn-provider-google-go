@@ -47,7 +47,7 @@ func (i *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) valid
 	return nil
 }
 
-func (i *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IapWebCloudRunServiceIamMemberConditionOutputReference) valid
 	return nil
 }
 
-func validateNewIapWebCloudRunServiceIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIapWebCloudRunServiceIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

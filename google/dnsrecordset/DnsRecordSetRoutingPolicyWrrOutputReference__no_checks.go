@@ -51,7 +51,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validatePutHealt
 	return nil
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyWrrOutputReference) validateSetWeigh
 	return nil
 }
 
-func validateNewDnsRecordSetRoutingPolicyWrrOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDnsRecordSetRoutingPolicyWrrOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

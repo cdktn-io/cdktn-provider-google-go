@@ -143,7 +143,7 @@ func (j *jsiiProxy_ComputeSubnetwork) validateSetIpv6AccessTypeParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSubnetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeSubnetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

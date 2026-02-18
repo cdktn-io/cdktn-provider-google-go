@@ -5,14 +5,14 @@ package privatecacapool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/privatecacapool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/privatecacapool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowConfigBasedIssuance() interface{}
 	SetAllowConfigBasedIssuance(val interface{})
 	AllowConfigBasedIssuanceInput() interface{}
@@ -43,15 +43,15 @@ type PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference interface 
 
 // The jsii proxy struct for PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference
 type jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) AllowConfigBasedIssuance() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 }
 
 
-func NewPrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference {
+func NewPrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewPrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference(terrafo
 	return &j
 }
 
-func NewPrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference_Override(p PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference_Override(p PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 	)
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -457,8 +457,8 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -470,11 +470,11 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -486,7 +486,7 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputRefere
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyAllowedIssuanceModesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

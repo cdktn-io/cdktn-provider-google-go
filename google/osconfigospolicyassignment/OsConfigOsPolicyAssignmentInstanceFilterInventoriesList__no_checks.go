@@ -15,7 +15,7 @@ func (o *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) vali
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) vali
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OsConfigOsPolicyAssignmentInstanceFilterInventoriesList) vali
 	return nil
 }
 
-func validateNewOsConfigOsPolicyAssignmentInstanceFilterInventoriesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOsConfigOsPolicyAssignmentInstanceFilterInventoriesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package monitoringuptimecheckconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringuptimecheckconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/monitoringuptimecheckconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitoringUptimeCheckConfigContentMatchersList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MonitoringUptimeCheckConfigContentMatchersList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MonitoringUptimeCheckConfigContentMatchersList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MonitoringUptimeCheckConfigContentMatchersOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MonitoringUptimeCheckConfigContentMatchersList interface {
 
 // The jsii proxy struct for MonitoringUptimeCheckConfigContentMatchersList
 type jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) WrapsSet() *b
 }
 
 
-func NewMonitoringUptimeCheckConfigContentMatchersList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitoringUptimeCheckConfigContentMatchersList {
+func NewMonitoringUptimeCheckConfigContentMatchersList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitoringUptimeCheckConfigContentMatchersList {
 	_init_.Initialize()
 
 	if err := validateNewMonitoringUptimeCheckConfigContentMatchersListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMonitoringUptimeCheckConfigContentMatchersList(terraformResource cdktf.I
 	return &j
 }
 
-func NewMonitoringUptimeCheckConfigContentMatchersList_Override(m MonitoringUptimeCheckConfigContentMatchersList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMonitoringUptimeCheckConfigContentMatchersList_Override(m MonitoringUptimeCheckConfigContentMatchersList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList)SetWrapsSet(va
 	)
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) Get(index *fl
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

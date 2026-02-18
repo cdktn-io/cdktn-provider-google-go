@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DialogflowCxSecuritySettingsTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewDialogflowCxSecuritySettingsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxSecuritySettingsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

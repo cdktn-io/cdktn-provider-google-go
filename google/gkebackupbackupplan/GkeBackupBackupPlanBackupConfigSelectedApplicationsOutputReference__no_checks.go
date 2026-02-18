@@ -51,7 +51,7 @@ func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

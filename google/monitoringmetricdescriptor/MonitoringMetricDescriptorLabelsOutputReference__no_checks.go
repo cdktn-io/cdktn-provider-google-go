@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateInte
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitoringMetricDescriptorLabelsOutputReference) validateSetV
 	return nil
 }
 
-func validateNewMonitoringMetricDescriptorLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitoringMetricDescriptorLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

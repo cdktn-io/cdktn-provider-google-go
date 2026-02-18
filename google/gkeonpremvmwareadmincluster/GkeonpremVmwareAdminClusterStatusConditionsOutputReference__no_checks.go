@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremVmwareAdminClusterStatusConditionsOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareAdminClusterStatusConditionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareAdminClusterStatusConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GkeonpremVmwareAdminClusterStatusConditionsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareAdminClusterStatusConditionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareAdminClusterStatusConditionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremVmwareAdminClusterStatusConditionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeonpremVmwareAdminClusterStatusConditionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

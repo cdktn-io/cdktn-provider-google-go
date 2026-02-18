@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicatio
 	return nil
 }
 
-func (a *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicatio
 	return nil
 }
 
-func (j *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicatio
 	return nil
 }
 
-func validateNewApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

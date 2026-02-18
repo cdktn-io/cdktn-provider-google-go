@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

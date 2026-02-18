@@ -47,7 +47,7 @@ func (c *jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ColabRuntimeTemplateMachineSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewColabRuntimeTemplateMachineSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewColabRuntimeTemplateMachineSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

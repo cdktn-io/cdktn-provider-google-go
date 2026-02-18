@@ -163,7 +163,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTable{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -207,7 +207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableBiglakeConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -250,7 +250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableEncryptionConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -296,7 +296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalCatalogTableOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -345,7 +345,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -389,7 +389,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -431,7 +431,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -465,7 +465,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyColumnList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -515,7 +515,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyColumnOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -537,7 +537,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -585,7 +585,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -630,7 +630,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -683,7 +683,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -725,7 +725,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationGoogleSheetsOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -770,7 +770,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationHivePartitioningOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -809,7 +809,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationJsonOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -906,7 +906,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -948,7 +948,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableExternalDataConfigurationParquetOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -995,7 +995,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableMaterializedViewOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1036,7 +1036,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableRangePartitioningOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1078,7 +1078,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1116,7 +1116,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableSchemaForeignTypeInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1164,7 +1164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1186,7 +1186,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableConstraintsForeignKeysList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1227,7 +1227,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableConstraintsForeignKeysOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1269,7 +1269,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableConstraintsForeignKeysReferencedTableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1309,7 +1309,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableConstraintsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1347,7 +1347,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1392,7 +1392,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTableReplicationInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1439,7 +1439,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableTimePartitioningOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1480,7 +1480,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryTableViewOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

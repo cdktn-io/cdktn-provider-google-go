@@ -8,7 +8,7 @@ package cloudrundomainmapping
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (c *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateGetParamet
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_CloudRunDomainMappingStatusConditionsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewCloudRunDomainMappingStatusConditionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudRunDomainMappingStatusConditionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

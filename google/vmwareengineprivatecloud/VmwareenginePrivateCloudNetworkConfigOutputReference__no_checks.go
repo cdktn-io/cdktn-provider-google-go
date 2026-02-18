@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validat
 	return nil
 }
 
-func (v *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VmwareenginePrivateCloudNetworkConfigOutputReference) validat
 	return nil
 }
 
-func validateNewVmwareenginePrivateCloudNetworkConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVmwareenginePrivateCloudNetworkConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

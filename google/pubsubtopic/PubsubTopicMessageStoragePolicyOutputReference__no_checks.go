@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubTopicMessageStoragePolicyOutputReference) validateInter
 	return nil
 }
 
-func (p *jsiiProxy_PubsubTopicMessageStoragePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubTopicMessageStoragePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PubsubTopicMessageStoragePolicyOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_PubsubTopicMessageStoragePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubTopicMessageStoragePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubTopicMessageStoragePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubTopicMessageStoragePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

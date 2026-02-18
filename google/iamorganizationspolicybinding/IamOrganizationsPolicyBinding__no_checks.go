@@ -123,7 +123,7 @@ func (j *jsiiProxy_IamOrganizationsPolicyBinding) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_IamOrganizationsPolicyBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamOrganizationsPolicyBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

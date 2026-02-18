@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplateJobsSparkJobOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplateJobsSparkJobOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocWorkflowTemplateJobsSparkJobOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_DataprocWorkflowTemplateJobsSparkJobOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplateJobsSparkJobOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocWorkflowTemplateJobsSparkJobOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocWorkflowTemplateJobsSparkJobOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocWorkflowTemplateJobsSparkJobOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

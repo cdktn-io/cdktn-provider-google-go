@@ -107,7 +107,7 @@ func (j *jsiiProxy_NotebooksRuntimeIamBinding) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksRuntimeIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NotebooksRuntimeIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

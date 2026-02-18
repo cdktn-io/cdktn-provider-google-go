@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputRefere
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationAvroOptionsOutputRefere
 	return nil
 }
 
-func validateNewBigqueryTableExternalDataConfigurationAvroOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableExternalDataConfigurationAvroOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

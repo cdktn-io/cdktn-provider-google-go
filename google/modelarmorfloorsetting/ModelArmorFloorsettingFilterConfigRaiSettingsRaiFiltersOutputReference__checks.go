@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutput
 	return nil
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutput
 
 func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ModelArmorFloorsettingFilterConfigRaiSettingsRaiFilters:
 		val := val.(*ModelArmorFloorsettingFilterConfigRaiSettingsRaiFilters)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ModelArmorFloorsettingFilterConfigRaiSettingsRaiFilters; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ModelArmorFloorsettingFilterConfigRaiSettingsRaiFilters; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutput
 	return nil
 }
 
-func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutput
 	return nil
 }
 
-func validateNewModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

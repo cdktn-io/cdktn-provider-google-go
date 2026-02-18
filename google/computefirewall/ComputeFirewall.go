@@ -5,20 +5,20 @@ package computefirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computefirewall/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computefirewall/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_firewall google_compute_firewall}.
 type ComputeFirewall interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Allow() ComputeFirewallAllowList
 	AllowInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -52,9 +52,9 @@ type ComputeFirewall interface {
 	SetEnableLogging(val interface{})
 	EnableLoggingInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -63,9 +63,9 @@ type ComputeFirewall interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogConfig() ComputeFirewallLogConfigOutputReference
 	LogConfigInput() *ComputeFirewallLogConfig
 	Name() *string
@@ -85,9 +85,9 @@ type ComputeFirewall interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -111,7 +111,7 @@ type ComputeFirewall interface {
 	SetTargetTags(val *[]*string)
 	TargetTagsInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -126,7 +126,7 @@ type ComputeFirewall interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -144,9 +144,9 @@ type ComputeFirewall interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -202,7 +202,7 @@ type ComputeFirewall interface {
 
 // The jsii proxy struct for ComputeFirewall
 type jsiiProxy_ComputeFirewall struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ComputeFirewall) Allow() ComputeFirewallAllowList {
@@ -225,8 +225,8 @@ func (j *jsiiProxy_ComputeFirewall) AllowInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeFirewall) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ComputeFirewall) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -405,8 +405,8 @@ func (j *jsiiProxy_ComputeFirewall) EnableLoggingInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeFirewall) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ComputeFirewall) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_ComputeFirewall) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeFirewall) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ComputeFirewall) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -595,8 +595,8 @@ func (j *jsiiProxy_ComputeFirewall) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeFirewall) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ComputeFirewall) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -735,8 +735,8 @@ func (j *jsiiProxy_ComputeFirewall) TargetTagsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeFirewall) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ComputeFirewall) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -900,7 +900,7 @@ func (j *jsiiProxy_ComputeFirewall)SetEnableLogging(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_ComputeFirewall)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ComputeFirewall)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -919,7 +919,7 @@ func (j *jsiiProxy_ComputeFirewall)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeFirewall)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ComputeFirewall)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -974,7 +974,7 @@ func (j *jsiiProxy_ComputeFirewall)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeFirewall)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ComputeFirewall)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1048,14 +1048,14 @@ func (j *jsiiProxy_ComputeFirewall)SetTargetTags(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a ComputeFirewall resource upon running "cdktf plan <stack-name>".
-func ComputeFirewall_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ComputeFirewall resource upon running "cdktn plan <stack-name>".
+func ComputeFirewall_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateComputeFirewall_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.computeFirewall.ComputeFirewall",
@@ -1189,11 +1189,11 @@ func (c *jsiiProxy_ComputeFirewall) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (c *jsiiProxy_ComputeFirewall) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeFirewall) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1330,7 +1330,7 @@ func (c *jsiiProxy_ComputeFirewall) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ComputeFirewall) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ComputeFirewall) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1341,11 +1341,11 @@ func (c *jsiiProxy_ComputeFirewall) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (c *jsiiProxy_ComputeFirewall) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeFirewall) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

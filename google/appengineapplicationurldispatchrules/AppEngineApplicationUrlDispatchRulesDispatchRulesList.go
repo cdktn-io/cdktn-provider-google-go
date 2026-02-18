@@ -5,14 +5,14 @@ package appengineapplicationurldispatchrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appengineapplicationurldispatchrules/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/appengineapplicationurldispatchrules/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppEngineApplicationUrlDispatchRulesDispatchRulesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AppEngineApplicationUrlDispatchRulesDispatchRulesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AppEngineApplicationUrlDispatchRulesDispatchRulesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AppEngineApplicationUrlDispatchRulesDispatchRulesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AppEngineApplicationUrlDispatchRulesDispatchRulesList interface {
 
 // The jsii proxy struct for AppEngineApplicationUrlDispatchRulesDispatchRulesList
 type jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) WrapsS
 }
 
 
-func NewAppEngineApplicationUrlDispatchRulesDispatchRulesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppEngineApplicationUrlDispatchRulesDispatchRulesList {
+func NewAppEngineApplicationUrlDispatchRulesDispatchRulesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppEngineApplicationUrlDispatchRulesDispatchRulesList {
 	_init_.Initialize()
 
 	if err := validateNewAppEngineApplicationUrlDispatchRulesDispatchRulesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAppEngineApplicationUrlDispatchRulesDispatchRulesList(terraformResource 
 	return &j
 }
 
-func NewAppEngineApplicationUrlDispatchRulesDispatchRulesList_Override(a AppEngineApplicationUrlDispatchRulesDispatchRulesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAppEngineApplicationUrlDispatchRulesDispatchRulesList_Override(a AppEngineApplicationUrlDispatchRulesDispatchRulesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList)SetTerr
 	)
 }
 
-func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList)SetWrap
 	)
 }
 
-func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) Get(in
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRulesDispatchRulesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

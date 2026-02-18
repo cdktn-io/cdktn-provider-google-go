@@ -107,7 +107,7 @@ func (j *jsiiProxy_BigqueryDatapolicyDataPolicyIamPolicy) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryDatapolicyDataPolicyIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BigqueryDatapolicyDataPolicyIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

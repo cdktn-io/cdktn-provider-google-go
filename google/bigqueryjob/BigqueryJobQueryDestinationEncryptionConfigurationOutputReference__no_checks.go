@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputRefer
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryJobQueryDestinationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryJobQueryDestinationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryJobQueryDestinationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

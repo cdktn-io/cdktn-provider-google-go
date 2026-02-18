@@ -5,14 +5,14 @@ package computeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeurlmap/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeurlmap/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputRefe
 
 // The jsii proxy struct for ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference
 type jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 	return returns
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 }
 
 
-func NewComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference {
+func NewComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -236,7 +236,7 @@ func NewComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputR
 	return &j
 }
 
-func NewComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference_Override(c ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference_Override(c ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 	)
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -491,8 +491,8 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,11 +504,11 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -520,7 +520,7 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

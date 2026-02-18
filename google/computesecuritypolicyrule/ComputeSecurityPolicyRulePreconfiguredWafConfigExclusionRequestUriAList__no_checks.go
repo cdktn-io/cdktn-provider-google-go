@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriAList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriAList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriAList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriAList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriAListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriAListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

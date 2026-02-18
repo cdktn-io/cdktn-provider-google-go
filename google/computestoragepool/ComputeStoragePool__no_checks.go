@@ -119,7 +119,7 @@ func (j *jsiiProxy_ComputeStoragePool) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_ComputeStoragePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeStoragePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

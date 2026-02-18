@@ -115,7 +115,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOrigin{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -157,7 +157,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -200,7 +200,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginFlexShieldingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -244,7 +244,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionHeaderActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -270,7 +270,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionHeaderActionRequestHeadersToAddList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -309,7 +309,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionHeaderActionRequestHeadersToAddOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -349,7 +349,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -388,7 +388,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginOriginOverrideActionUrlRewriteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -427,7 +427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginOriginRedirectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -475,7 +475,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginTimeoutOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -520,7 +520,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkServicesEdgeCacheOriginTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

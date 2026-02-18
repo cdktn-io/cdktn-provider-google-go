@@ -59,7 +59,7 @@ func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) validatePutPhone
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformConfigSignInOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformConfigSignInOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentityPlatformConfigSignInOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentityPlatformConfigSignInOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

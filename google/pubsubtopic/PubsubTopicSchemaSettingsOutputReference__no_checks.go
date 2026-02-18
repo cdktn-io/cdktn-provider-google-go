@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateInterpolati
 	return nil
 }
 
-func (p *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubTopicSchemaSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubTopicSchemaSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

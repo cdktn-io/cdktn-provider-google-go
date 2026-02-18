@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupPscDataOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupPscDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroupPscDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupPscDataOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupPscDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionNetworkEndpointGroupPscDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionNetworkEndpointGroupPscDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionNetworkEndpointGroupPscDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

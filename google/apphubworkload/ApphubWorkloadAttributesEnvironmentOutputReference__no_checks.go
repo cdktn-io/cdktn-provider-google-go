@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ApphubWorkloadAttributesEnvironmentOutputReference) validateS
 	return nil
 }
 
-func validateNewApphubWorkloadAttributesEnvironmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApphubWorkloadAttributesEnvironmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

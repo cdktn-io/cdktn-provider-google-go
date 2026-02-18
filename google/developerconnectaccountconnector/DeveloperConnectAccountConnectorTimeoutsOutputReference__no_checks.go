@@ -47,7 +47,7 @@ func (d *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DeveloperConnectAccountConnectorTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewDeveloperConnectAccountConnectorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDeveloperConnectAccountConnectorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

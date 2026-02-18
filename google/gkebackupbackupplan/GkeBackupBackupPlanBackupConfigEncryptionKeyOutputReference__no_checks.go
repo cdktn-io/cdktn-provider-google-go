@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigEncryptionKeyOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigEncryptionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigEncryptionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigEncryptionKeyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeBackupBackupPlanBackupConfigEncryptionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeBackupBackupPlanBackupConfigEncryptionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

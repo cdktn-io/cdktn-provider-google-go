@@ -5,14 +5,14 @@ package networkconnectivityserviceconnectionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkconnectivityserviceconnectionpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkconnectivityserviceconnectionpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Code() *float64
 	// the index of the complex object in a list.
 	// Experimental.
@@ -29,7 +29,7 @@ type NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReferenc
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Details() cdktf.StringMapList
+	Details() cdktn.StringMapList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *NetworkConnectivityServiceConnectionPolicyPscConnectionsError
@@ -40,15 +40,15 @@ type NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReferenc
 
 // The jsii proxy struct for NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference
 type jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) Code() *float64 {
@@ -122,8 +122,8 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) Details() cdktf.StringMapList {
-	var returns cdktf.StringMapList
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) Details() cdktn.StringMapList {
+	var returns cdktn.StringMapList
 	_jsii_.Get(
 		j,
 		"details",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 }
 
 
-func NewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference {
+func NewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputRefer
 	return &j
 }
 
-func NewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference_Override(n NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference_Override(n NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	)
 }
 
-func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -422,8 +422,8 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -435,11 +435,11 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -451,7 +451,7 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

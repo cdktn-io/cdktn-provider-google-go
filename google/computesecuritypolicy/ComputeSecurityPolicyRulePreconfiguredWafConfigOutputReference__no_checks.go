@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigOutputReferenc
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRulePreconfiguredWafConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRulePreconfiguredWafConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

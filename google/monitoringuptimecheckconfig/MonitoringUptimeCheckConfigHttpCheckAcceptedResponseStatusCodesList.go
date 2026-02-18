@@ -5,14 +5,14 @@ package monitoringuptimecheckconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringuptimecheckconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/monitoringuptimecheckconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList interfa
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList interfa
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList interfa
 
 // The jsii proxy struct for MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList
 type jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	return returns
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 }
 
 
-func NewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList {
+func NewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList {
 	_init_.Initialize()
 
 	if err := validateNewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList(terr
 	return &j
 }
 
-func NewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList_Override(m MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList_Override(m MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	)
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	)
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCod
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

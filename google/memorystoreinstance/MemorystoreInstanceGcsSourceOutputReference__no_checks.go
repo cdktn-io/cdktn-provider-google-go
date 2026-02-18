@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateInterpol
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MemorystoreInstanceGcsSourceOutputReference) validateSetUrisP
 	return nil
 }
 
-func validateNewMemorystoreInstanceGcsSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemorystoreInstanceGcsSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

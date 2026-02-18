@@ -5,14 +5,14 @@ package accesscontextmanagerserviceperimeterdryruningresspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanagerserviceperimeterdryruningresspolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/accesscontextmanagerserviceperimeterdryruningresspolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,16 +69,16 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSources(value interface{})
 	ResetIdentities()
 	ResetIdentityType()
 	ResetSources()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputRef
 
 // The jsii proxy struct for AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference
 type jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 }
 
 
-func NewAccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference {
+func NewAccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewAccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutput
 	return &j
 }
 
-func NewAccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference_Override(a AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference_Override(a AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -355,11 +355,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -483,8 +483,8 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -496,11 +496,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	)
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

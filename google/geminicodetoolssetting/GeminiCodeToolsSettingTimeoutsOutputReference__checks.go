@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (g *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetDel
 
 func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GeminiCodeToolsSettingTimeouts:
 		val := val.(*GeminiCodeToolsSettingTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GeminiCodeToolsSettingTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GeminiCodeToolsSettingTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_GeminiCodeToolsSettingTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewGeminiCodeToolsSettingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGeminiCodeToolsSettingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

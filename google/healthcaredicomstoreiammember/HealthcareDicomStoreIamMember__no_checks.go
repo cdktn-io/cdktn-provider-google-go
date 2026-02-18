@@ -111,7 +111,7 @@ func (j *jsiiProxy_HealthcareDicomStoreIamMember) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomStoreIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareDicomStoreIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

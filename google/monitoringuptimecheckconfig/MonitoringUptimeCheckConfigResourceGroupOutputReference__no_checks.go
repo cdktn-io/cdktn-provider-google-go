@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference) vali
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringUptimeCheckConfigResourceGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringUptimeCheckConfigResourceGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReferen
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeNetworkFirewallPolicyRuleTargetSecureTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

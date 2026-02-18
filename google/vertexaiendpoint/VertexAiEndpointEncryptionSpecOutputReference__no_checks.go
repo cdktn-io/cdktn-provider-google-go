@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiEndpointEncryptionSpecOutputReference) validateInterp
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointEncryptionSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointEncryptionSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VertexAiEndpointEncryptionSpecOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiEndpointEncryptionSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiEndpointEncryptionSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

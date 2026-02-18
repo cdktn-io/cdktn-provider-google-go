@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremVmwareClusterUpgradePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremVmwareClusterUpgradePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

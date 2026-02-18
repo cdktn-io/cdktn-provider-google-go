@@ -123,7 +123,7 @@ func (j *jsiiProxy_ComputeAttachedDisk) validateSetInterfaceParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_ComputeAttachedDisk) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeAttachedDisk) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -155,7 +155,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolume{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -200,7 +200,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeBackupConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -243,7 +243,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeExportPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -269,7 +269,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeExportPolicyRulesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -334,7 +334,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeExportPolicyRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -394,7 +394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeHybridReplicationParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeMountOptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -455,7 +455,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeMountOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -497,7 +497,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeRestoreParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -545,7 +545,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeSnapshotPolicyDailyScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -586,7 +586,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeSnapshotPolicyHourlyScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -633,7 +633,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeSnapshotPolicyMonthlyScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -684,7 +684,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeSnapshotPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -731,7 +731,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -773,7 +773,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeTieringPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -818,7 +818,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

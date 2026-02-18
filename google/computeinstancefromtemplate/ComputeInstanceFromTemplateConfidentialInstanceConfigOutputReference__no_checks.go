@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateConfidentialInstanceConfigOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateConfidentialInstanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceFromTemplateConfidentialInstanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateConfidentialInstanceConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateConfidentialInstanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceFromTemplateConfidentialInstanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceFromTemplateConfidentialInstanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceFromTemplateConfidentialInstanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

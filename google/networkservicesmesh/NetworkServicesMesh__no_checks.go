@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetworkServicesMesh) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesMesh) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkServicesMesh) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

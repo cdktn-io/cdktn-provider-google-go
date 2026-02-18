@@ -47,7 +47,7 @@ func (b *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateInterpola
 	return nil
 }
 
-func (b *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BillingBudgetThresholdRulesOutputReference) validateSetThresh
 	return nil
 }
 
-func validateNewBillingBudgetThresholdRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBillingBudgetThresholdRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

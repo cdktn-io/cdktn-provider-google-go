@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) validateInterpo
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringServiceBasicServiceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringServiceBasicServiceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

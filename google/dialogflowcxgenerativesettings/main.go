@@ -87,7 +87,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettings{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -134,7 +134,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsFallbackSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -160,7 +160,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -201,7 +201,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -231,7 +231,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -267,7 +267,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -306,7 +306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -360,7 +360,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsKnowledgeConnectorSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -402,7 +402,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsLlmModelSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -447,7 +447,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxGenerativeSettingsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

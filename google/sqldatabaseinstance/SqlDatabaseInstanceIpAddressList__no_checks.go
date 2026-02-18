@@ -15,7 +15,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateGetParameters(index
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceIpAddressList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceIpAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSqlDatabaseInstanceIpAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

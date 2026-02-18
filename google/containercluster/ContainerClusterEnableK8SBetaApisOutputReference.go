@@ -5,14 +5,14 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/containercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerClusterEnableK8SBetaApisOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type ContainerClusterEnableK8SBetaApisOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type ContainerClusterEnableK8SBetaApisOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type ContainerClusterEnableK8SBetaApisOutputReference interface {
 
 // The jsii proxy struct for ContainerClusterEnableK8SBetaApisOutputReference
 type jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) TerraformRe
 }
 
 
-func NewContainerClusterEnableK8SBetaApisOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerClusterEnableK8SBetaApisOutputReference {
+func NewContainerClusterEnableK8SBetaApisOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerClusterEnableK8SBetaApisOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerClusterEnableK8SBetaApisOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewContainerClusterEnableK8SBetaApisOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewContainerClusterEnableK8SBetaApisOutputReference_Override(c ContainerClusterEnableK8SBetaApisOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerClusterEnableK8SBetaApisOutputReference_Override(c ContainerClusterEnableK8SBetaApisOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -423,8 +423,8 @@ func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) GetStringMa
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -436,11 +436,11 @@ func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -452,7 +452,7 @@ func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerClusterEnableK8SBetaApisOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

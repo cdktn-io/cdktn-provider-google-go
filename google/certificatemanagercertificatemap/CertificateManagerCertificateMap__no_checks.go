@@ -115,7 +115,7 @@ func (j *jsiiProxy_CertificateManagerCertificateMap) validateSetLabelsParameters
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateMap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CertificateManagerCertificateMap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

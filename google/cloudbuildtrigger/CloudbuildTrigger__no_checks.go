@@ -175,7 +175,7 @@ func (j *jsiiProxy_CloudbuildTrigger) validateSetIncludedFilesParameters(val *[]
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTrigger) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudbuildTrigger) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

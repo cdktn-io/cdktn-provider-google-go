@@ -55,7 +55,7 @@ func (f *jsiiProxy_FolderOrganizationPolicyListPolicyOutputReference) validatePu
 	return nil
 }
 
-func (f *jsiiProxy_FolderOrganizationPolicyListPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FolderOrganizationPolicyListPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FolderOrganizationPolicyListPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_FolderOrganizationPolicyListPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FolderOrganizationPolicyListPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFolderOrganizationPolicyListPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFolderOrganizationPolicyListPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

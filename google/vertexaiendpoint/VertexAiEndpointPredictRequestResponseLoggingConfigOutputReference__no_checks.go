@@ -51,7 +51,7 @@ func (v *jsiiProxy_VertexAiEndpointPredictRequestResponseLoggingConfigOutputRefe
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointPredictRequestResponseLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointPredictRequestResponseLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VertexAiEndpointPredictRequestResponseLoggingConfigOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointPredictRequestResponseLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointPredictRequestResponseLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiEndpointPredictRequestResponseLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiEndpointPredictRequestResponseLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,20 +5,20 @@ package datagooglecomputeregioninstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglecomputeregioninstancetemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datagooglecomputeregioninstancetemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_region_instance_template google_compute_region_instance_template}.
 type DataGoogleComputeRegionInstanceTemplate interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AdvancedMachineFeatures() DataGoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesList
-	CanIpForward() cdktf.IResolvable
+	CanIpForward() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfidentialInstanceConfig() DataGoogleComputeRegionInstanceTemplateConfidentialInstanceConfigList
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -33,14 +33,14 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	Disk() DataGoogleComputeRegionInstanceTemplateDiskList
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Filter() *string
 	SetFilter(val *string)
 	FilterInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,13 +51,13 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 	IdInput() *string
 	InstanceDescription() *string
 	KeyRevocationActionType() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MachineType() *string
-	Metadata() cdktf.StringMap
+	Metadata() cdktn.StringMap
 	MetadataFingerprint() *string
 	MetadataStartupScript() *string
 	MinCpuPlatform() *string
@@ -77,16 +77,16 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
 	ReservationAffinity() DataGoogleComputeRegionInstanceTemplateReservationAffinityList
-	ResourceManagerTags() cdktf.StringMap
+	ResourceManagerTags() cdktn.StringMap
 	ResourcePolicies() *[]*string
 	Scheduling() DataGoogleComputeRegionInstanceTemplateSchedulingList
 	SelfLink() *string
@@ -95,8 +95,8 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 	Tags() *[]*string
 	TagsFingerprint() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,7 +122,7 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -151,7 +151,7 @@ type DataGoogleComputeRegionInstanceTemplate interface {
 
 // The jsii proxy struct for DataGoogleComputeRegionInstanceTemplate
 type jsiiProxy_DataGoogleComputeRegionInstanceTemplate struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) AdvancedMachineFeatures() DataGoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesList {
@@ -164,8 +164,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) AdvancedMachineFeatu
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) CanIpForward() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) CanIpForward() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"canIpForward",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) CanIpForward() cdktf
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -254,8 +254,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Disk() DataGoogleCom
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -284,8 +284,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) FilterInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -364,8 +364,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) KeyRevocationActionT
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -374,8 +374,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Labels() cdktf.Strin
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -394,8 +394,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) MachineType() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Metadata() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Metadata() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -544,8 +544,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) ProjectInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -594,8 +594,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) ReservationAffinity(
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) ResourceManagerTags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) ResourceManagerTags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"resourceManagerTags",
@@ -674,8 +674,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) TagsFingerprint() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -684,8 +684,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) TerraformGeneratorMe
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -774,7 +774,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetFilter(val *string
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -793,7 +793,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -837,7 +837,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetProject(val *strin
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -856,14 +856,14 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate)SetRegion(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleComputeRegionInstanceTemplate resource upon running "cdktf plan <stack-name>".
-func DataGoogleComputeRegionInstanceTemplate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleComputeRegionInstanceTemplate resource upon running "cdktn plan <stack-name>".
+func DataGoogleComputeRegionInstanceTemplate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleComputeRegionInstanceTemplate_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.dataGoogleComputeRegionInstanceTemplate.DataGoogleComputeRegionInstanceTemplate",
@@ -986,11 +986,11 @@ func (d *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1114,11 +1114,11 @@ func (d *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

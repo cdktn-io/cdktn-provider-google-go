@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocGdcServiceInstanceGdceClusterOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataprocGdcServiceInstanceGdceClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocGdcServiceInstanceGdceClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocGdcServiceInstanceGdceClusterOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataprocGdcServiceInstanceGdceClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocGdcServiceInstanceGdceClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocGdcServiceInstanceGdceClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocGdcServiceInstanceGdceClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

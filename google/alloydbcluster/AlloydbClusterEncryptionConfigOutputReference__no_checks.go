@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlloydbClusterEncryptionConfigOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbClusterEncryptionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbClusterEncryptionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AlloydbClusterEncryptionConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbClusterEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbClusterEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlloydbClusterEncryptionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlloydbClusterEncryptionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

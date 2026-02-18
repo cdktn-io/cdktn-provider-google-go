@@ -5,14 +5,14 @@ package computesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computesecuritypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computesecuritypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeSecurityPolicyRuleMatchOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ComputeSecurityPolicyRuleMatchOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VersionedExpr() *string
 	SetVersionedExpr(val *string)
 	VersionedExprInput() *string
@@ -54,7 +54,7 @@ type ComputeSecurityPolicyRuleMatchOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,9 +70,9 @@ type ComputeSecurityPolicyRuleMatchOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConfig(value *ComputeSecurityPolicyRuleMatchConfig)
 	PutExpr(value *ComputeSecurityPolicyRuleMatchExpr)
 	PutExprOptions(value *ComputeSecurityPolicyRuleMatchExprOptions)
@@ -82,7 +82,7 @@ type ComputeSecurityPolicyRuleMatchOutputReference interface {
 	ResetVersionedExpr()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type ComputeSecurityPolicyRuleMatchOutputReference interface {
 
 // The jsii proxy struct for ComputeSecurityPolicyRuleMatchOutputReference
 type jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) VersionedExprI
 }
 
 
-func NewComputeSecurityPolicyRuleMatchOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeSecurityPolicyRuleMatchOutputReference {
+func NewComputeSecurityPolicyRuleMatchOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeSecurityPolicyRuleMatchOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeSecurityPolicyRuleMatchOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewComputeSecurityPolicyRuleMatchOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewComputeSecurityPolicyRuleMatchOutputReference_Override(c ComputeSecurityPolicyRuleMatchOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeSecurityPolicyRuleMatchOutputReference_Override(c ComputeSecurityPolicyRuleMatchOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -317,7 +317,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -368,11 +368,11 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -496,8 +496,8 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) GetStringMapAt
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -509,11 +509,11 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) InterpolationA
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -590,7 +590,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) ResetVersioned
 	)
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

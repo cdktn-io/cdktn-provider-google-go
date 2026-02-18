@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

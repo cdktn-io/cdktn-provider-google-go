@@ -5,14 +5,14 @@ package networkservicesedgecacheorigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicesedgecacheorigin/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkservicesedgecacheorigin/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessKeyId() *string
 	SetAccessKeyId(val *string)
 	AccessKeyIdInput() *string
@@ -46,15 +46,15 @@ type NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference interface 
 
 // The jsii proxy struct for NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference
 type jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) AccessKeyId() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 }
 
 
-func NewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference {
+func NewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference(terrafo
 	return &j
 }
 
-func NewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference_Override(n NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference_Override(n NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -491,8 +491,8 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -504,11 +504,11 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -520,7 +520,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

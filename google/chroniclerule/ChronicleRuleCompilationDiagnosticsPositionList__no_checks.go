@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateGetP
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ChronicleRuleCompilationDiagnosticsPositionList) validateSetW
 	return nil
 }
 
-func validateNewChronicleRuleCompilationDiagnosticsPositionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChronicleRuleCompilationDiagnosticsPositionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

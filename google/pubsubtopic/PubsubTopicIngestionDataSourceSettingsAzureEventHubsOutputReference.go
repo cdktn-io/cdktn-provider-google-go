@@ -5,14 +5,14 @@ package pubsubtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/pubsubtopic/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/pubsubtopic/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -58,15 +58,15 @@ type PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClientId()
 	ResetEventHub()
 	ResetGcpServiceAccount()
@@ -94,7 +94,7 @@ type PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference interfa
 	ResetTenantId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference interfa
 
 // The jsii proxy struct for PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference
 type jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) ClientId() *string {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 }
 
 
-func NewPubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference {
+func NewPubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewPubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference(terr
 	return &j
 }
 
-func NewPubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference_Override(p PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference_Override(p PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -466,7 +466,7 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 	)
 }
 
-func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,11 +506,11 @@ func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 	return returns
 }
 
-func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -634,8 +634,8 @@ func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 	return returns
 }
 
-func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -647,11 +647,11 @@ func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 	return returns
 }
 
-func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -719,7 +719,7 @@ func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputRef
 	)
 }
 
-func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutp
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutp
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

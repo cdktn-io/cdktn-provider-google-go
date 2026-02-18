@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamConnectionProfileMysqlProfileSslConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamConnectionProfileMysqlProfileSslConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamConnectionProfileMysqlProfileSslConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

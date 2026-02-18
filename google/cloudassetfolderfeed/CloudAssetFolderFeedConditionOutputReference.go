@@ -5,14 +5,14 @@ package cloudassetfolderfeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudassetfolderfeed/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/cloudassetfolderfeed/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudAssetFolderFeedConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type CloudAssetFolderFeedConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -57,7 +57,7 @@ type CloudAssetFolderFeedConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type CloudAssetFolderFeedConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetLocation()
 	ResetTitle()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type CloudAssetFolderFeedConditionOutputReference interface {
 
 // The jsii proxy struct for CloudAssetFolderFeedConditionOutputReference
 type jsiiProxy_CloudAssetFolderFeedConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) TitleInput() *s
 }
 
 
-func NewCloudAssetFolderFeedConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudAssetFolderFeedConditionOutputReference {
+func NewCloudAssetFolderFeedConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudAssetFolderFeedConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudAssetFolderFeedConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewCloudAssetFolderFeedConditionOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewCloudAssetFolderFeedConditionOutputReference_Override(c CloudAssetFolderFeedConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudAssetFolderFeedConditionOutputReference_Override(c CloudAssetFolderFeedConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -349,7 +349,7 @@ func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudAssetFolderFeedConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -528,8 +528,8 @@ func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -541,11 +541,11 @@ func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) InterpolationAs
 	return returns
 }
 
-func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -581,7 +581,7 @@ func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) ResetTitle() {
 	)
 }
 
-func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudAssetFolderFeedConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

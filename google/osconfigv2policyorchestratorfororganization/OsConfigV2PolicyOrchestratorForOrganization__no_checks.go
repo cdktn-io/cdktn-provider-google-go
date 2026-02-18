@@ -127,7 +127,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganization) validateSetLabel
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForOrganization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

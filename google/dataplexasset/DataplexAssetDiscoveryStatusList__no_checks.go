@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataplexAssetDiscoveryStatusList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataplexAssetDiscoveryStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexAssetDiscoveryStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataplexAssetDiscoveryStatusList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataplexAssetDiscoveryStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexAssetDiscoveryStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataplexAssetDiscoveryStatusList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataplexAssetDiscoveryStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataplexAssetDiscoveryStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -86,7 +86,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxTool{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolDataStoreSpecDataStoreConnectionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -161,7 +161,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolDataStoreSpecDataStoreConnectionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -197,7 +197,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolDataStoreSpecFallbackPromptOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -235,7 +235,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolDataStoreSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -277,7 +277,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolFunctionSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -331,7 +331,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationApiKeyConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -373,7 +373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -424,7 +424,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOauthConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -472,7 +472,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -511,7 +511,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -557,7 +557,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -595,7 +595,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecServiceDirectoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -625,7 +625,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecTlsConfigCaCertsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -661,7 +661,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecTlsConfigCaCertsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -696,7 +696,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolOpenApiSpecTlsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -741,7 +741,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxToolTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (f *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSet
 
 func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *FirebaseAppHostingBackendTimeouts:
 		val := val.(*FirebaseAppHostingBackendTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *FirebaseAppHostingBackendTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *FirebaseAppHostingBackendTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_FirebaseAppHostingBackendTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewFirebaseAppHostingBackendTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirebaseAppHostingBackendTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

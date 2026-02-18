@@ -5,14 +5,14 @@ package alloydbuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/alloydbuser/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/alloydbuser/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlloydbUserTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type AlloydbUserTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type AlloydbUserTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type AlloydbUserTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type AlloydbUserTimeoutsOutputReference interface {
 
 // The jsii proxy struct for AlloydbUserTimeoutsOutputReference
 type jsiiProxy_AlloydbUserTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference) UpdateInput() *string {
 }
 
 
-func NewAlloydbUserTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AlloydbUserTimeoutsOutputReference {
+func NewAlloydbUserTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AlloydbUserTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAlloydbUserTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewAlloydbUserTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewAlloydbUserTimeoutsOutputReference_Override(a AlloydbUserTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAlloydbUserTimeoutsOutputReference_Override(a AlloydbUserTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlloydbUserTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -494,8 +494,8 @@ func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -507,11 +507,11 @@ func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlloydbUserTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

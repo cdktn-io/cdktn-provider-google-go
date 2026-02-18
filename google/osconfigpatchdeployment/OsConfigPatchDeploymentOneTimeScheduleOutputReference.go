@@ -5,14 +5,14 @@ package osconfigpatchdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/osconfigpatchdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/osconfigpatchdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OsConfigPatchDeploymentOneTimeScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type OsConfigPatchDeploymentOneTimeScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type OsConfigPatchDeploymentOneTimeScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type OsConfigPatchDeploymentOneTimeScheduleOutputReference interface {
 
 // The jsii proxy struct for OsConfigPatchDeploymentOneTimeScheduleOutputReference
 type jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) Terraf
 }
 
 
-func NewOsConfigPatchDeploymentOneTimeScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OsConfigPatchDeploymentOneTimeScheduleOutputReference {
+func NewOsConfigPatchDeploymentOneTimeScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OsConfigPatchDeploymentOneTimeScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOsConfigPatchDeploymentOneTimeScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewOsConfigPatchDeploymentOneTimeScheduleOutputReference(terraformResource 
 	return &j
 }
 
-func NewOsConfigPatchDeploymentOneTimeScheduleOutputReference_Override(o OsConfigPatchDeploymentOneTimeScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOsConfigPatchDeploymentOneTimeScheduleOutputReference_Override(o OsConfigPatchDeploymentOneTimeScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) GetAny
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -423,8 +423,8 @@ func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) GetStr
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -436,11 +436,11 @@ func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) Interp
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -452,7 +452,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) Interp
 	return returns
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OsConfigPatchDeploymentOneTimeScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeDictionaryWordListStructOutpu
 	return nil
 }
 
-func validateNewDataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

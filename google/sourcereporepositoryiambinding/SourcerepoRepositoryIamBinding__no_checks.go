@@ -107,7 +107,7 @@ func (j *jsiiProxy_SourcerepoRepositoryIamBinding) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_SourcerepoRepositoryIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SourcerepoRepositoryIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

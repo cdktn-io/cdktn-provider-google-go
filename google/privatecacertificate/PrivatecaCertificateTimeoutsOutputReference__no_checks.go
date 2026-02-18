@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PrivatecaCertificateTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewPrivatecaCertificateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivatecaCertificateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

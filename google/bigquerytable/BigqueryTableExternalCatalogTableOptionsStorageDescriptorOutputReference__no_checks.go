@@ -51,7 +51,7 @@ func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutp
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutp
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableExternalCatalogTableOptionsStorageDescriptorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -146,7 +146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -184,7 +184,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterAntiAffinityGroupsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -214,7 +214,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterAuthorizationAdminUsersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -248,7 +248,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterAuthorizationAdminUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -284,7 +284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterAuthorizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -322,7 +322,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterAutoRepairConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -368,7 +368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterControlPlaneNodeAutoResizeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -414,7 +414,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterControlPlaneNodeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -439,7 +439,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterControlPlaneNodeVsphereConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -473,7 +473,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterControlPlaneNodeVsphereConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -518,7 +518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterDataplaneV2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -543,7 +543,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterFleetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -576,7 +576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterFleetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -625,7 +625,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerF5ConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -673,7 +673,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -703,7 +703,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoolsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -745,7 +745,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -780,7 +780,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerMetalLbConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -828,7 +828,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -870,7 +870,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterLoadBalancerVipConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -908,7 +908,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIpsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -946,7 +946,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIpsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -988,7 +988,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1024,7 +1024,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1062,7 +1062,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1107,7 +1107,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigHostConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1162,7 +1162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1196,7 +1196,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIpsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1233,7 +1233,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIpsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1255,7 +1255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1294,7 +1294,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1329,7 +1329,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterNetworkConfigStaticIpConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1358,7 +1358,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterStatusConditionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1395,7 +1395,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterStatusConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1416,7 +1416,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1450,7 +1450,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1488,7 +1488,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterStorageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1533,7 +1533,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1572,7 +1572,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterUpgradePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1597,7 +1597,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterValidationCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1632,7 +1632,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterValidationCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1657,7 +1657,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterValidationCheckStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1690,7 +1690,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterValidationCheckStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1715,7 +1715,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterValidationCheckStatusResultList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1752,7 +1752,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterValidationCheckStatusResultOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1810,7 +1810,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremVmwareClusterVcenterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

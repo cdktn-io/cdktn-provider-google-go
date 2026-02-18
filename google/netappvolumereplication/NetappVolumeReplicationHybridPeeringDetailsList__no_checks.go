@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateGetP
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetappVolumeReplicationHybridPeeringDetailsList) validateSetW
 	return nil
 }
 
-func validateNewNetappVolumeReplicationHybridPeeringDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetappVolumeReplicationHybridPeeringDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

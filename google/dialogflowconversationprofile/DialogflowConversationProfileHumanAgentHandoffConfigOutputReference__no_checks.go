@@ -51,7 +51,7 @@ func (d *jsiiProxy_DialogflowConversationProfileHumanAgentHandoffConfigOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowConversationProfileHumanAgentHandoffConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowConversationProfileHumanAgentHandoffConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DialogflowConversationProfileHumanAgentHandoffConfigOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowConversationProfileHumanAgentHandoffConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowConversationProfileHumanAgentHandoffConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowConversationProfileHumanAgentHandoffConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowConversationProfileHumanAgentHandoffConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImage{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -161,7 +161,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageGuestOsFeaturesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -195,7 +195,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageGuestOsFeaturesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -243,7 +243,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageImageEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -287,7 +287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageRawDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -317,7 +317,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateDbsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateDbsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -380,7 +380,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateDbxsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -417,7 +417,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateDbxsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -443,7 +443,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateKeksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -480,7 +480,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateKeksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -528,7 +528,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -569,7 +569,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageShieldedInstanceInitialStatePkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -617,7 +617,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageSourceDiskEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -665,7 +665,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageSourceImageEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -713,7 +713,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageSourceSnapshotEncryptionKeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -758,7 +758,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeImageTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

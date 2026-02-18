@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestH
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestH
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestH
 	return nil
 }
 
-func validateNewDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

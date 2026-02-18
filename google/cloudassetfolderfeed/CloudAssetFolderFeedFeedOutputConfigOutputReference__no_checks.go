@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudAssetFolderFeedFeedOutputConfigOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_CloudAssetFolderFeedFeedOutputConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudAssetFolderFeedFeedOutputConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudAssetFolderFeedFeedOutputConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_CloudAssetFolderFeedFeedOutputConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudAssetFolderFeedFeedOutputConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudAssetFolderFeedFeedOutputConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudAssetFolderFeedFeedOutputConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

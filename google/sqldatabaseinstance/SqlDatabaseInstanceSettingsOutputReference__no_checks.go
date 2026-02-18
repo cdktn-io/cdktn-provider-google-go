@@ -99,7 +99,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validatePutSqlSer
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -175,7 +175,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -191,7 +191,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetUserLa
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

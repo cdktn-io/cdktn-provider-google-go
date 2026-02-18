@@ -5,21 +5,21 @@ package privatecacapooliampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/privatecacapooliampolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/privatecacapooliampolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/privateca_ca_pool_iam_policy google_privateca_ca_pool_iam_policy}.
 type PrivatecaCaPoolIamPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CaPool() *string
 	SetCaPool(val *string)
 	CaPoolInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type PrivatecaCaPoolIamPolicy interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type PrivatecaCaPoolIamPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -62,9 +62,9 @@ type PrivatecaCaPoolIamPolicy interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type PrivatecaCaPoolIamPolicy interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type PrivatecaCaPoolIamPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,9 +103,9 @@ type PrivatecaCaPoolIamPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -141,7 +141,7 @@ type PrivatecaCaPoolIamPolicy interface {
 
 // The jsii proxy struct for PrivatecaCaPoolIamPolicy
 type jsiiProxy_PrivatecaCaPoolIamPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) CaPool() *string {
@@ -164,8 +164,8 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) CaPoolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -224,8 +224,8 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -274,8 +274,8 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -384,8 +384,8 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -485,7 +485,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -504,7 +504,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -548,7 +548,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -567,14 +567,14 @@ func (j *jsiiProxy_PrivatecaCaPoolIamPolicy)SetProvisioners(val *[]interface{}) 
 	)
 }
 
-// Generates CDKTF code for importing a PrivatecaCaPoolIamPolicy resource upon running "cdktf plan <stack-name>".
-func PrivatecaCaPoolIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PrivatecaCaPoolIamPolicy resource upon running "cdktn plan <stack-name>".
+func PrivatecaCaPoolIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePrivatecaCaPoolIamPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.privatecaCaPoolIamPolicy.PrivatecaCaPoolIamPolicy",
@@ -708,11 +708,11 @@ func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -849,7 +849,7 @@ func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -860,11 +860,11 @@ func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

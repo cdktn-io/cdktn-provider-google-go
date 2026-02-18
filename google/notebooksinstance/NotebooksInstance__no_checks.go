@@ -175,7 +175,7 @@ func (j *jsiiProxy_NotebooksInstance) validateSetLabelsParameters(val *map[strin
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NotebooksInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

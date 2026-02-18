@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) valida
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfigTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewIdentityPlatformOauthIdpConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentityPlatformOauthIdpConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

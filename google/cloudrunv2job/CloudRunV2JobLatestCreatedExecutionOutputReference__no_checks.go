@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2JobLatestCreatedExecutionOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2JobLatestCreatedExecutionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2JobLatestCreatedExecutionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CloudRunV2JobLatestCreatedExecutionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2JobLatestCreatedExecutionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2JobLatestCreatedExecutionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2JobLatestCreatedExecutionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunV2JobLatestCreatedExecutionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

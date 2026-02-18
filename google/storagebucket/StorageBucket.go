@@ -5,20 +5,20 @@ package storagebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagebucket/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/storagebucket/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket google_storage_bucket}.
 type StorageBucket interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Autoclass() StorageBucketAutoclassOutputReference
 	AutoclassInput() *StorageBucketAutoclass
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,7 +40,7 @@ type StorageBucket interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EnableObjectRetention() interface{}
 	SetEnableObjectRetention(val interface{})
 	EnableObjectRetentionInput() interface{}
@@ -50,9 +50,9 @@ type StorageBucket interface {
 	SetForceDestroy(val interface{})
 	ForceDestroyInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -68,9 +68,9 @@ type StorageBucket interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleRule() StorageBucketLifecycleRuleList
 	LifecycleRuleInput() interface{}
 	Location() *string
@@ -88,9 +88,9 @@ type StorageBucket interface {
 	ProjectInput() *string
 	ProjectNumber() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -115,8 +115,8 @@ type StorageBucket interface {
 	SetStorageClass(val *string)
 	StorageClassInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -141,7 +141,7 @@ type StorageBucket interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -159,9 +159,9 @@ type StorageBucket interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -231,7 +231,7 @@ type StorageBucket interface {
 
 // The jsii proxy struct for StorageBucket
 type jsiiProxy_StorageBucket struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StorageBucket) Autoclass() StorageBucketAutoclassOutputReference {
@@ -254,8 +254,8 @@ func (j *jsiiProxy_StorageBucket) AutoclassInput() *StorageBucketAutoclass {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StorageBucket) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -364,8 +364,8 @@ func (j *jsiiProxy_StorageBucket) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_StorageBucket) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -434,8 +434,8 @@ func (j *jsiiProxy_StorageBucket) ForceDestroyInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StorageBucket) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -544,8 +544,8 @@ func (j *jsiiProxy_StorageBucket) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StorageBucket) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -674,8 +674,8 @@ func (j *jsiiProxy_StorageBucket) ProjectNumber() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StorageBucket) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -834,8 +834,8 @@ func (j *jsiiProxy_StorageBucket) StorageClassInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StorageBucket) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -844,8 +844,8 @@ func (j *jsiiProxy_StorageBucket) TerraformGeneratorMetadata() *cdktf.TerraformP
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucket) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_StorageBucket) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -1077,7 +1077,7 @@ func (j *jsiiProxy_StorageBucket)SetForceDestroy(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_StorageBucket)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StorageBucket)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1107,7 +1107,7 @@ func (j *jsiiProxy_StorageBucket)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_StorageBucket)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StorageBucket)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1151,7 +1151,7 @@ func (j *jsiiProxy_StorageBucket)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageBucket)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StorageBucket)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1225,14 +1225,14 @@ func (j *jsiiProxy_StorageBucket)SetUniformBucketLevelAccess(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a StorageBucket resource upon running "cdktf plan <stack-name>".
-func StorageBucket_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StorageBucket resource upon running "cdktn plan <stack-name>".
+func StorageBucket_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStorageBucket_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.storageBucket.StorageBucket",
@@ -1366,11 +1366,11 @@ func (s *jsiiProxy_StorageBucket) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (s *jsiiProxy_StorageBucket) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBucket) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1507,7 +1507,7 @@ func (s *jsiiProxy_StorageBucket) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_StorageBucket) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StorageBucket) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1518,11 +1518,11 @@ func (s *jsiiProxy_StorageBucket) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (s *jsiiProxy_StorageBucket) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBucket) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

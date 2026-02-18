@@ -97,7 +97,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -127,7 +127,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -165,7 +165,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -204,7 +204,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyAlertStrategyNotificationRateLimitOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -250,7 +250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyAlertStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -284,7 +284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionAbsentAggregationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -328,7 +328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionAbsentAggregationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -373,7 +373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionAbsentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -415,7 +415,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionAbsentTriggerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -456,7 +456,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionMatchedLogOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -503,7 +503,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -545,7 +545,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -601,7 +601,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -643,7 +643,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlBooleanTestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -695,7 +695,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -733,7 +733,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlDailyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -774,7 +774,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlHourlyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -812,7 +812,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlMinutesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -866,7 +866,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -906,7 +906,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionSqlRowCountTestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -936,7 +936,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdAggregationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -980,7 +980,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdAggregationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1006,7 +1006,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1050,7 +1050,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1088,7 +1088,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1152,7 +1152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1194,7 +1194,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdTriggerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1216,7 +1216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1275,7 +1275,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1304,7 +1304,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyCreationRecordList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1338,7 +1338,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyCreationRecordOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1368,7 +1368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyDocumentationLinksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1406,7 +1406,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyDocumentationLinksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1451,7 +1451,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyDocumentationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1496,7 +1496,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringAlertPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

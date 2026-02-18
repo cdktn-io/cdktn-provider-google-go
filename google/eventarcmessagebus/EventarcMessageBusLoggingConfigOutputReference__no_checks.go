@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventarcMessageBusLoggingConfigOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_EventarcMessageBusLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcMessageBusLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EventarcMessageBusLoggingConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EventarcMessageBusLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcMessageBusLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventarcMessageBusLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventarcMessageBusLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

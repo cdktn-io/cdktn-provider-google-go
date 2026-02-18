@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputRefer
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

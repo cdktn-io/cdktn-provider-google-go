@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) vali
 
 func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DeploymentManagerDeploymentTargetImports:
 		val := val.(*DeploymentManagerDeploymentTargetImports)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DeploymentManagerDeploymentTargetImports; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DeploymentManagerDeploymentTargetImports; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DeploymentManagerDeploymentTargetImportsOutputReference) vali
 	return nil
 }
 
-func validateNewDeploymentManagerDeploymentTargetImportsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDeploymentManagerDeploymentTargetImportsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

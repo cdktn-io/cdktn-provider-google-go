@@ -135,7 +135,7 @@ func (j *jsiiProxy_EventarcGoogleApiSource) validateSetLabelsParameters(val *map
 	return nil
 }
 
-func (j *jsiiProxy_EventarcGoogleApiSource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventarcGoogleApiSource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

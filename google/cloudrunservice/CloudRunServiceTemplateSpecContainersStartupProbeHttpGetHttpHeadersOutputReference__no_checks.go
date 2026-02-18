@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpH
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpH
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpH
 	return nil
 }
 
-func validateNewCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

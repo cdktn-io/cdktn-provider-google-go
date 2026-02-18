@@ -15,7 +15,7 @@ func (i *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validate
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validate
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsTriggersList) validate
 	return nil
 }
 
-func validateNewIdentityPlatformConfigBlockingFunctionsTriggersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIdentityPlatformConfigBlockingFunctionsTriggersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

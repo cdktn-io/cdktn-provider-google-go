@@ -5,14 +5,14 @@ package lookerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/lookerinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/lookerinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LookerInstanceCustomDomainOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type LookerInstanceCustomDomainOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,13 +65,13 @@ type LookerInstanceCustomDomainOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDomain()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type LookerInstanceCustomDomainOutputReference interface {
 
 // The jsii proxy struct for LookerInstanceCustomDomainOutputReference
 type jsiiProxy_LookerInstanceCustomDomainOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference) ComplexObjectIndex() interface{} {
@@ -174,8 +174,8 @@ func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -185,7 +185,7 @@ func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference) TerraformResource(
 }
 
 
-func NewLookerInstanceCustomDomainOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LookerInstanceCustomDomainOutputReference {
+func NewLookerInstanceCustomDomainOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LookerInstanceCustomDomainOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLookerInstanceCustomDomainOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -202,7 +202,7 @@ func NewLookerInstanceCustomDomainOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewLookerInstanceCustomDomainOutputReference_Override(l LookerInstanceCustomDomainOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLookerInstanceCustomDomainOutputReference_Override(l LookerInstanceCustomDomainOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -267,7 +267,7 @@ func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LookerInstanceCustomDomainOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -307,11 +307,11 @@ func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -435,8 +435,8 @@ func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -448,11 +448,11 @@ func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -472,7 +472,7 @@ func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) ResetDomain() {
 	)
 }
 
-func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LookerInstanceCustomDomainOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

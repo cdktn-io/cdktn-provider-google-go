@@ -127,7 +127,7 @@ func (j *jsiiProxy_TpuNode) validateSetLabelsParameters(val *map[string]*string)
 	return nil
 }
 
-func (j *jsiiProxy_TpuNode) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TpuNode) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

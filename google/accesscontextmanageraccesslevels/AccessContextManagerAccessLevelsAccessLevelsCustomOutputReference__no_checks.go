@@ -51,7 +51,7 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsCustomOutputRefer
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsCustomOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsCustomOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsCustomOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsCustomOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsCustomOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessContextManagerAccessLevelsAccessLevelsCustomOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAccessContextManagerAccessLevelsAccessLevelsCustomOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

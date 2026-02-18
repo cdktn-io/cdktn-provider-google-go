@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputRe
 	return nil
 }
 
-func validateNewComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionInstanceTemplateSchedulingNodeAffinitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

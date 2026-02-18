@@ -135,7 +135,7 @@ func (j *jsiiProxy_DialogflowAgent) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowAgent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DialogflowAgent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

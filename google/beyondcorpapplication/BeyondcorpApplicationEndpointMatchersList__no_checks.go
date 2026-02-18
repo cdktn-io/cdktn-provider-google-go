@@ -15,7 +15,7 @@ func (b *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateGetParamet
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BeyondcorpApplicationEndpointMatchersList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewBeyondcorpApplicationEndpointMatchersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBeyondcorpApplicationEndpointMatchersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

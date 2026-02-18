@@ -5,14 +5,14 @@ package developerconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/developerconnectconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/developerconnectconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutpu
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	UserTokenSecretVersion() *string
 	SetUserTokenSecretVersion(val *string)
@@ -49,7 +49,7 @@ type DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutpu
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutpu
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutpu
 
 // The jsii proxy struct for DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference
 type jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return returns
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -184,7 +184,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 }
 
 
-func NewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference {
+func NewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -201,7 +201,7 @@ func NewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOu
 	return &j
 }
 
-func NewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference_Override(d DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference_Override(d DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	)
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -306,11 +306,11 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -434,8 +434,8 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -447,11 +447,11 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -463,7 +463,7 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

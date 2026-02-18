@@ -5,19 +5,19 @@ package accesscontextmanagerserviceperimeterdryrunegresspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanagerserviceperimeterdryrunegresspolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/accesscontextmanagerserviceperimeterdryrunegresspolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/access_context_manager_service_perimeter_dry_run_egress_policy google_access_context_manager_service_perimeter_dry_run_egress_policy}.
 type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessPolicyId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
 	EgressToInput() *AccessContextManagerServicePerimeterDryRunEgressPolicyEgressTo
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,18 +49,18 @@ type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Perimeter() *string
 	SetPerimeter(val *string)
 	PerimeterInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type AccessContextManagerServicePerimeterDryRunEgressPolicy interface {
 
 // The jsii proxy struct for AccessContextManagerServicePerimeterDryRunEgressPolicy
 type jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) AccessPolicyId() *string {
@@ -160,8 +160,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Acces
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -260,8 +260,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Etag(
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -310,8 +310,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) IdInp
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -350,8 +350,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Perim
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) RawOv
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -510,7 +510,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetDep
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -529,7 +529,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetId(
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -551,7 +551,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetPer
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -581,14 +581,14 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy)SetTit
 	)
 }
 
-// Generates CDKTF code for importing a AccessContextManagerServicePerimeterDryRunEgressPolicy resource upon running "cdktf plan <stack-name>".
-func AccessContextManagerServicePerimeterDryRunEgressPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AccessContextManagerServicePerimeterDryRunEgressPolicy resource upon running "cdktn plan <stack-name>".
+func AccessContextManagerServicePerimeterDryRunEgressPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAccessContextManagerServicePerimeterDryRunEgressPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.accessContextManagerServicePerimeterDryRunEgressPolicy.AccessContextManagerServicePerimeterDryRunEgressPolicy",
@@ -722,11 +722,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) GetAn
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -863,7 +863,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) HasRe
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -874,11 +874,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) Impor
 	)
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunEgressPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

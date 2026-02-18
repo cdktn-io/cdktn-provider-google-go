@@ -51,7 +51,7 @@ func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validatePutAccessRolePa
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryConnectionAwsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryConnectionAwsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryConnectionAwsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryConnectionAwsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

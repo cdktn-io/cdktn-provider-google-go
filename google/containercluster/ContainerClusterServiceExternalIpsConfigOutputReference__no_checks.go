@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterServiceExternalIpsConfigOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterServiceExternalIpsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterServiceExternalIpsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterServiceExternalIpsConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterServiceExternalIpsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterServiceExternalIpsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterServiceExternalIpsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterServiceExternalIpsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

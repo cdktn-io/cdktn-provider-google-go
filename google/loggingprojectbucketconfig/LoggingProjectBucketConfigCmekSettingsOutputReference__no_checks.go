@@ -47,7 +47,7 @@ func (l *jsiiProxy_LoggingProjectBucketConfigCmekSettingsOutputReference) valida
 	return nil
 }
 
-func (l *jsiiProxy_LoggingProjectBucketConfigCmekSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoggingProjectBucketConfigCmekSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LoggingProjectBucketConfigCmekSettingsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_LoggingProjectBucketConfigCmekSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoggingProjectBucketConfigCmekSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLoggingProjectBucketConfigCmekSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLoggingProjectBucketConfigCmekSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

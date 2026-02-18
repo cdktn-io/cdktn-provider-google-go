@@ -5,14 +5,14 @@ package billingbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/billingbudget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/billingbudget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BillingBudgetAmountOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type BillingBudgetAmountOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type BillingBudgetAmountOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSpecifiedAmount(value *BillingBudgetAmountSpecifiedAmount)
 	ResetLastPeriodAmount()
 	ResetSpecifiedAmount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type BillingBudgetAmountOutputReference interface {
 
 // The jsii proxy struct for BillingBudgetAmountOutputReference
 type jsiiProxy_BillingBudgetAmountOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BillingBudgetAmountOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_BillingBudgetAmountOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_BillingBudgetAmountOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BillingBudgetAmountOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_BillingBudgetAmountOutputReference) TerraformResource() cdktf
 }
 
 
-func NewBillingBudgetAmountOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BillingBudgetAmountOutputReference {
+func NewBillingBudgetAmountOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BillingBudgetAmountOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBillingBudgetAmountOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewBillingBudgetAmountOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewBillingBudgetAmountOutputReference_Override(b BillingBudgetAmountOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBillingBudgetAmountOutputReference_Override(b BillingBudgetAmountOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_BillingBudgetAmountOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_BillingBudgetAmountOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BillingBudgetAmountOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (b *jsiiProxy_BillingBudgetAmountOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (b *jsiiProxy_BillingBudgetAmountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingBudgetAmountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -448,8 +448,8 @@ func (b *jsiiProxy_BillingBudgetAmountOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (b *jsiiProxy_BillingBudgetAmountOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BillingBudgetAmountOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -461,11 +461,11 @@ func (b *jsiiProxy_BillingBudgetAmountOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (b *jsiiProxy_BillingBudgetAmountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingBudgetAmountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,7 +504,7 @@ func (b *jsiiProxy_BillingBudgetAmountOutputReference) ResetSpecifiedAmount() {
 	)
 }
 
-func (b *jsiiProxy_BillingBudgetAmountOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BillingBudgetAmountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

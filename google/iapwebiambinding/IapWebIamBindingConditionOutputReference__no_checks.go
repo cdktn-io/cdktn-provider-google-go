@@ -47,7 +47,7 @@ func (i *jsiiProxy_IapWebIamBindingConditionOutputReference) validateInterpolati
 	return nil
 }
 
-func (i *jsiiProxy_IapWebIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IapWebIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IapWebIamBindingConditionOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_IapWebIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IapWebIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IapWebIamBindingConditionOutputReference) validateSetTitlePar
 	return nil
 }
 
-func validateNewIapWebIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIapWebIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

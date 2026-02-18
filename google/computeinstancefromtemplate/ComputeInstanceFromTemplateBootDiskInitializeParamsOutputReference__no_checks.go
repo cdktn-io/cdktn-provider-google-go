@@ -55,7 +55,7 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputRefe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -127,7 +127,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateBootDiskInitializeParamsOutputRefe
 	return nil
 }
 
-func validateNewComputeInstanceFromTemplateBootDiskInitializeParamsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceFromTemplateBootDiskInitializeParamsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

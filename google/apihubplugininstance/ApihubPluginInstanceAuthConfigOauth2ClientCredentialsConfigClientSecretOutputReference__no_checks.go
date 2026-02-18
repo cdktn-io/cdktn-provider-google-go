@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigCl
 	return nil
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigCl
 	return nil
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

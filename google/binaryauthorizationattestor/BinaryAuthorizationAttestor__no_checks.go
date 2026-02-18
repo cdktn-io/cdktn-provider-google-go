@@ -115,7 +115,7 @@ func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

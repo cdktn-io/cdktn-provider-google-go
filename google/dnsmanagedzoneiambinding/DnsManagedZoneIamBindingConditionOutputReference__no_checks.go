@@ -47,7 +47,7 @@ func (d *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DnsManagedZoneIamBindingConditionOutputReference) validateSet
 	return nil
 }
 
-func validateNewDnsManagedZoneIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsManagedZoneIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

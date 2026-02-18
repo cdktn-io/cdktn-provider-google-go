@@ -95,7 +95,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhook{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -152,7 +152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookGenericWebServiceOauthConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -218,7 +218,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookGenericWebServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -244,7 +244,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -280,7 +280,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -337,7 +337,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOauthConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -403,7 +403,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -429,7 +429,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeadersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -465,7 +465,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeadersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -503,7 +503,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookServiceDirectoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -548,7 +548,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DialogflowCxWebhookTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

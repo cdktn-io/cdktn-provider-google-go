@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataCatalogTagTemplateFieldsOutputReference) validatePutTypeP
 	return nil
 }
 
-func (d *jsiiProxy_DataCatalogTagTemplateFieldsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataCatalogTagTemplateFieldsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DataCatalogTagTemplateFieldsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogTagTemplateFieldsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataCatalogTagTemplateFieldsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataCatalogTagTemplateFieldsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataCatalogTagTemplateFieldsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

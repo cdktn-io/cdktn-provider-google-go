@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -182,7 +182,7 @@ func (j *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_StorageControlProjectIntelligenceConfigTrialConfigOutputRefer
 	return nil
 }
 
-func validateNewStorageControlProjectIntelligenceConfigTrialConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageControlProjectIntelligenceConfigTrialConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

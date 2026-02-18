@@ -5,14 +5,14 @@ package chronicleretrohunt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/chronicleretrohunt/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/chronicleretrohunt/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ChronicleRetrohuntExecutionIntervalOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type ChronicleRetrohuntExecutionIntervalOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type ChronicleRetrohuntExecutionIntervalOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type ChronicleRetrohuntExecutionIntervalOutputReference interface {
 
 // The jsii proxy struct for ChronicleRetrohuntExecutionIntervalOutputReference
 type jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) Terraform
 }
 
 
-func NewChronicleRetrohuntExecutionIntervalOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ChronicleRetrohuntExecutionIntervalOutputReference {
+func NewChronicleRetrohuntExecutionIntervalOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ChronicleRetrohuntExecutionIntervalOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewChronicleRetrohuntExecutionIntervalOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewChronicleRetrohuntExecutionIntervalOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewChronicleRetrohuntExecutionIntervalOutputReference_Override(c ChronicleRetrohuntExecutionIntervalOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewChronicleRetrohuntExecutionIntervalOutputReference_Override(c ChronicleRetrohuntExecutionIntervalOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) GetAnyMap
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -411,8 +411,8 @@ func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) GetString
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -424,11 +424,11 @@ func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) Interpola
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -440,7 +440,7 @@ func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) Interpola
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

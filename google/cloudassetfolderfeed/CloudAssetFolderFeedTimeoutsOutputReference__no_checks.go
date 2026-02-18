@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (c *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudAssetFolderFeedTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewCloudAssetFolderFeedTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudAssetFolderFeedTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

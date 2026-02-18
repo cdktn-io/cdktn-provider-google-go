@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateInterpolation
 	return nil
 }
 
-func (m *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ManagedKafkaAclTimeoutsOutputReference) validateSetUpdatePara
 	return nil
 }
 
-func validateNewManagedKafkaAclTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedKafkaAclTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

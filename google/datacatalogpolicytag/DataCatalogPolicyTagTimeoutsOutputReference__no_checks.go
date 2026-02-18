@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataCatalogPolicyTagTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewDataCatalogPolicyTagTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataCatalogPolicyTagTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

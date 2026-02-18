@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocMetastoreServiceMaintenanceWindowOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreServiceMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataprocMetastoreServiceMaintenanceWindowOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreServiceMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocMetastoreServiceMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocMetastoreServiceMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

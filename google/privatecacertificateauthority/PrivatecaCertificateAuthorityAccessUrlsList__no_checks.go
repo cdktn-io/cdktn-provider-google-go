@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateGetParam
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList) validateSetWraps
 	return nil
 }
 
-func validateNewPrivatecaCertificateAuthorityAccessUrlsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivatecaCertificateAuthorityAccessUrlsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

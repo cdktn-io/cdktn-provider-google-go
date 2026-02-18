@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionInstanceTemplateSchedulingMaxRunDurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

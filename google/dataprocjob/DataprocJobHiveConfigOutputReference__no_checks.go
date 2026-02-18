@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocJobHiveConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocJobHiveConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocJobHiveConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocJobHiveConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

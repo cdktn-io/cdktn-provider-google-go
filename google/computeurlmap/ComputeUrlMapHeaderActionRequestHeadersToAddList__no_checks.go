@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateGet
 	return nil
 }
 
-func (c *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeUrlMapHeaderActionRequestHeadersToAddList) validateSet
 	return nil
 }
 
-func validateNewComputeUrlMapHeaderActionRequestHeadersToAddListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeUrlMapHeaderActionRequestHeadersToAddListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

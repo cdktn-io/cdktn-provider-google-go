@@ -123,7 +123,7 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateSetLabelsP
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

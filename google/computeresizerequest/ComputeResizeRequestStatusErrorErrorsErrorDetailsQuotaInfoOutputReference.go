@@ -5,14 +5,14 @@ package computeresizerequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeresizerequest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeresizerequest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,7 +28,7 @@ type ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference i
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Dimensions() cdktf.StringMap
+	Dimensions() cdktn.StringMap
 	// Experimental.
 	Fqn() *string
 	FutureLimit() *float64
@@ -43,15 +43,15 @@ type ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference i
 
 // The jsii proxy struct for ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference
 type jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) ComplexObjectIndex() interface{} {
@@ -115,8 +115,8 @@ func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	return returns
 }
 
-func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) Dimensions() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) Dimensions() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"dimensions",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	return returns
 }
 
-func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 }
 
 
-func NewComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference {
+func NewComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReferenc
 	return &j
 }
 
-func NewComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference_Override(c ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference_Override(c ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	)
 }
 
-func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -455,8 +455,8 @@ func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -468,11 +468,11 @@ func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -484,7 +484,7 @@ func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOut
 	return returns
 }
 
-func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

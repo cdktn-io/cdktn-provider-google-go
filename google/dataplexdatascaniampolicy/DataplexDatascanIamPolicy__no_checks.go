@@ -107,7 +107,7 @@ func (j *jsiiProxy_DataplexDatascanIamPolicy) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataplexDatascanIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexDatascanIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

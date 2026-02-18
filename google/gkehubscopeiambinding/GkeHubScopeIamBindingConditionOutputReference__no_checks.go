@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateInterp
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GkeHubScopeIamBindingConditionOutputReference) validateSetTit
 	return nil
 }
 
-func validateNewGkeHubScopeIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubScopeIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

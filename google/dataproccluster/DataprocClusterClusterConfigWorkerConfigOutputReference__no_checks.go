@@ -55,7 +55,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigWorkerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterClusterConfigWorkerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

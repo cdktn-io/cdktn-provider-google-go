@@ -107,7 +107,7 @@ func (j *jsiiProxy_SccV2OrganizationSourceIamMember) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_SccV2OrganizationSourceIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccV2OrganizationSourceIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

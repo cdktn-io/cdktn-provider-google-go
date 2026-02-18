@@ -51,7 +51,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputRe
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigUserPasswordOutputRe
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

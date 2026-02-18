@@ -5,14 +5,14 @@ package apigeeapiproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeapiproduct/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeeapiproduct/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApigeeApiProductTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ApigeeApiProductTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type ApigeeApiProductTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type ApigeeApiProductTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ApigeeApiProductTimeoutsOutputReference interface {
 
 // The jsii proxy struct for ApigeeApiProductTimeoutsOutputReference
 type jsiiProxy_ApigeeApiProductTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) UpdateInput() *strin
 }
 
 
-func NewApigeeApiProductTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApigeeApiProductTimeoutsOutputReference {
+func NewApigeeApiProductTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApigeeApiProductTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigeeApiProductTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewApigeeApiProductTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewApigeeApiProductTimeoutsOutputReference_Override(a ApigeeApiProductTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApigeeApiProductTimeoutsOutputReference_Override(a ApigeeApiProductTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApigeeApiProductTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -494,8 +494,8 @@ func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -507,11 +507,11 @@ func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApigeeApiProductTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

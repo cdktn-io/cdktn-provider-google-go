@@ -5,14 +5,14 @@ package networkserviceshttproute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkserviceshttproute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkserviceshttproute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDestination(value *NetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestination)
 	ResetDestination()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference inter
 
 // The jsii proxy struct for NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference
 type jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 }
 
 
-func NewNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference {
+func NewNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference(te
 	return &j
 }
 
-func NewNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference_Override(n NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference_Override(n NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -413,8 +413,8 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -426,11 +426,11 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -461,7 +461,7 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	)
 }
 
-func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) va
 	return nil
 }
 
-func (p *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewPrivilegedAccessManagerEntitlementTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivilegedAccessManagerEntitlementTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package vertexaiindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaiindex/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaiindex/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,15 +37,15 @@ type VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -61,12 +61,12 @@ type VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -76,7 +76,7 @@ type VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference i
 
 // The jsii proxy struct for VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference
 type jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -139,8 +139,8 @@ func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -150,7 +150,7 @@ func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 }
 
 
-func NewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference {
+func NewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -167,7 +167,7 @@ func NewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReferenc
 	return &j
 }
 
-func NewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference_Override(v VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference_Override(v VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -221,7 +221,7 @@ func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	)
 }
 
-func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -261,11 +261,11 @@ func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -389,8 +389,8 @@ func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -402,11 +402,11 @@ func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -418,7 +418,7 @@ func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOut
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

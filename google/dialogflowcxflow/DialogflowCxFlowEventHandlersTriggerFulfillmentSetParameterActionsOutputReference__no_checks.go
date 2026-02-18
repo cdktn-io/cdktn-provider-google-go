@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterAc
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterAc
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterAc
 	return nil
 }
 
-func validateNewDialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxFlowEventHandlersTriggerFulfillmentSetParameterActionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

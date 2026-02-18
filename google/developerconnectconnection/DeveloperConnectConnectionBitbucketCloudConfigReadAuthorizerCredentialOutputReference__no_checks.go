@@ -47,7 +47,7 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return nil
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerC
 	return nil
 }
 
-func validateNewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

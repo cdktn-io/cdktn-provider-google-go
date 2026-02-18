@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validate
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validate
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ChronicleDataAccessScopeAllowedDataAccessLabelsList) validate
 	return nil
 }
 
-func validateNewChronicleDataAccessScopeAllowedDataAccessLabelsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChronicleDataAccessScopeAllowedDataAccessLabelsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetr
 	return nil
 }
 
-func validateNewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

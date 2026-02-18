@@ -5,14 +5,14 @@ package bigquerycapacitycommitment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigquerycapacitycommitment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigquerycapacitycommitment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryCapacityCommitmentTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type BigqueryCapacityCommitmentTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type BigqueryCapacityCommitmentTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BigqueryCapacityCommitmentTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BigqueryCapacityCommitmentTimeoutsOutputReference interface {
 
 // The jsii proxy struct for BigqueryCapacityCommitmentTimeoutsOutputReference
 type jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) UpdateInpu
 }
 
 
-func NewBigqueryCapacityCommitmentTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigqueryCapacityCommitmentTimeoutsOutputReference {
+func NewBigqueryCapacityCommitmentTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigqueryCapacityCommitmentTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryCapacityCommitmentTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewBigqueryCapacityCommitmentTimeoutsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewBigqueryCapacityCommitmentTimeoutsOutputReference_Override(b BigqueryCapacityCommitmentTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigqueryCapacityCommitmentTimeoutsOutputReference_Override(b BigqueryCapacityCommitmentTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) GetStringM
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) Interpolat
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) ResetUpdat
 	)
 }
 
-func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryCapacityCommitmentTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

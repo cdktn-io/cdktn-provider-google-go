@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInterconnectAttachmentGroupConfiguredOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeInterconnectAttachmentGroupConfiguredOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

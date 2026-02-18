@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (f *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) val
 	return nil
 }
 
-func (f *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) val
 
 func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *FirebaseAppCheckRecaptchaV3ConfigTimeouts:
 		val := val.(*FirebaseAppCheckRecaptchaV3ConfigTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *FirebaseAppCheckRecaptchaV3ConfigTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *FirebaseAppCheckRecaptchaV3ConfigTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewFirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

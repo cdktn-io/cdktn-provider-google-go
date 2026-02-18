@@ -47,7 +47,7 @@ func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validate
 	return nil
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettingsTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewFolderAccessApprovalSettingsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFolderAccessApprovalSettingsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

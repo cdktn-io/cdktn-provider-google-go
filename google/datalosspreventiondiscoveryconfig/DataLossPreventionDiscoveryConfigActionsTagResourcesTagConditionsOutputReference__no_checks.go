@@ -55,7 +55,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagCondit
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagCondit
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataLossPreventionDiscoveryConfigActionsTagResourcesTagConditionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

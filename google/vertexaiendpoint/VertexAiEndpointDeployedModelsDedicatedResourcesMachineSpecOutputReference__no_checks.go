@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOu
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOu
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
 	return nil
 }
 
-func validateNewDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

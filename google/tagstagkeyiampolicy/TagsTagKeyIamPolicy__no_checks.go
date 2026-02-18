@@ -103,7 +103,7 @@ func (j *jsiiProxy_TagsTagKeyIamPolicy) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_TagsTagKeyIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TagsTagKeyIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

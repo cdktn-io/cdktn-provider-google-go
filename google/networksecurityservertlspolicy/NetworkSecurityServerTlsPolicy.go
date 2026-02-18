@@ -5,21 +5,21 @@ package networksecurityservertlspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networksecurityservertlspolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networksecurityservertlspolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_security_server_tls_policy google_network_security_server_tls_policy}.
 type NetworkSecurityServerTlsPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowOpen() interface{}
 	SetAllowOpen(val interface{})
 	AllowOpenInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,11 +38,11 @@ type NetworkSecurityServerTlsPolicy interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,9 +54,9 @@ type NetworkSecurityServerTlsPolicy interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -71,9 +71,9 @@ type NetworkSecurityServerTlsPolicy interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,8 +83,8 @@ type NetworkSecurityServerTlsPolicy interface {
 	ServerCertificate() NetworkSecurityServerTlsPolicyServerCertificateOutputReference
 	ServerCertificateInput() *NetworkSecurityServerTlsPolicyServerCertificate
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type NetworkSecurityServerTlsPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type NetworkSecurityServerTlsPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type NetworkSecurityServerTlsPolicy interface {
 
 // The jsii proxy struct for NetworkSecurityServerTlsPolicy
 type jsiiProxy_NetworkSecurityServerTlsPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) AllowOpen() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) AllowOpenInput() interface{} 
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) EffectiveLabels() cdktf.Strin
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) LabelsInput() *map[string]*st
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -498,8 +498,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) ServerCertificateInput() *Net
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -508,8 +508,8 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) TerraformGeneratorMetadata() 
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -650,7 +650,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -680,7 +680,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetLabels(val *map[string]*str
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -724,7 +724,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -743,14 +743,14 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicy)SetProvisioners(val *[]interfa
 	)
 }
 
-// Generates CDKTF code for importing a NetworkSecurityServerTlsPolicy resource upon running "cdktf plan <stack-name>".
-func NetworkSecurityServerTlsPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkSecurityServerTlsPolicy resource upon running "cdktn plan <stack-name>".
+func NetworkSecurityServerTlsPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkSecurityServerTlsPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.networkSecurityServerTlsPolicy.NetworkSecurityServerTlsPolicy",
@@ -884,11 +884,11 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1025,7 +1025,7 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) HasResourceMove() interface{}
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1036,11 +1036,11 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) ImportFrom(id *string, provid
 	)
 }
 
-func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

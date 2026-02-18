@@ -59,7 +59,7 @@ func (c *jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference) validatePutNeg
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -111,11 +111,11 @@ func (j *jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceCdnPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeBackendServiceCdnPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeBackendServiceCdnPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

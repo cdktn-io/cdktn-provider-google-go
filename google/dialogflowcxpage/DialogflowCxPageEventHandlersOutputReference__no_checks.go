@@ -51,7 +51,7 @@ func (d *jsiiProxy_DialogflowCxPageEventHandlersOutputReference) validatePutTrig
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageEventHandlersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageEventHandlersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DialogflowCxPageEventHandlersOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageEventHandlersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageEventHandlersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxPageEventHandlersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxPageEventHandlersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

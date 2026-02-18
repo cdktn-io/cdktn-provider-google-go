@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigRayClusterMonito
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigRayClusterMonito
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterAddonsConfigRayOperatorConfigRayClusterMonitoringConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

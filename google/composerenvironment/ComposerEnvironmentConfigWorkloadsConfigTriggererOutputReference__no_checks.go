@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComposerEnvironmentConfigWorkloadsConfigTriggererOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ComposerEnvironmentConfigWorkloadsConfigTriggererOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComposerEnvironmentConfigWorkloadsConfigTriggererOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComposerEnvironmentConfigWorkloadsConfigTriggererOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ComposerEnvironmentConfigWorkloadsConfigTriggererOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComposerEnvironmentConfigWorkloadsConfigTriggererOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComposerEnvironmentConfigWorkloadsConfigTriggererOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComposerEnvironmentConfigWorkloadsConfigTriggererOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

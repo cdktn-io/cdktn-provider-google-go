@@ -59,7 +59,7 @@ func (c *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validatePutSshC
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ContainerAzureNodePoolConfigAOutputReference) validateSetVmSi
 	return nil
 }
 
-func validateNewContainerAzureNodePoolConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAzureNodePoolConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

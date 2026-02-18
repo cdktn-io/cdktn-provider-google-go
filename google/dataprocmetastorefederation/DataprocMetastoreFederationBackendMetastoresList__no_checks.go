@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataprocMetastoreFederationBackendMetastoresList) validateSet
 	return nil
 }
 
-func validateNewDataprocMetastoreFederationBackendMetastoresListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataprocMetastoreFederationBackendMetastoresListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

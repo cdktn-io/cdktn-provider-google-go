@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUser
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUser
 
 func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsers:
 		val := val.(*GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsers)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUser
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsers; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsers; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -198,7 +198,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUser
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUser
 	return nil
 }
 
-func validateNewGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

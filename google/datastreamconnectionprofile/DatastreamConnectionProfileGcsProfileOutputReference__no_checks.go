@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamConnectionProfileGcsProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamConnectionProfileGcsProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamConnectionProfileGcsProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

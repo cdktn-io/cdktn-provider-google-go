@@ -111,7 +111,7 @@ func (j *jsiiProxy_ServiceNetworkingVpcServiceControls) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ServiceNetworkingVpcServiceControls) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServiceNetworkingVpcServiceControls) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

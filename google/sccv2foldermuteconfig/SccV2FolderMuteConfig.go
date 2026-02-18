@@ -5,18 +5,18 @@ package sccv2foldermuteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccv2foldermuteconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sccv2foldermuteconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config}.
 type SccV2FolderMuteConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type SccV2FolderMuteConfig interface {
 	SetFolder(val *string)
 	FolderInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type SccV2FolderMuteConfig interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -67,9 +67,9 @@ type SccV2FolderMuteConfig interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type SccV2FolderMuteConfig interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type SccV2FolderMuteConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -114,9 +114,9 @@ type SccV2FolderMuteConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,11 +154,11 @@ type SccV2FolderMuteConfig interface {
 
 // The jsii proxy struct for SccV2FolderMuteConfig
 type jsiiProxy_SccV2FolderMuteConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SccV2FolderMuteConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) FolderInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SccV2FolderMuteConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SccV2FolderMuteConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SccV2FolderMuteConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -437,8 +437,8 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SccV2FolderMuteConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -610,7 +610,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfig)SetFolder(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SccV2FolderMuteConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -629,7 +629,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfig)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SccV2FolderMuteConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -662,7 +662,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfig)SetMuteConfigId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SccV2FolderMuteConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -692,14 +692,14 @@ func (j *jsiiProxy_SccV2FolderMuteConfig)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SccV2FolderMuteConfig resource upon running "cdktf plan <stack-name>".
-func SccV2FolderMuteConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SccV2FolderMuteConfig resource upon running "cdktn plan <stack-name>".
+func SccV2FolderMuteConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSccV2FolderMuteConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.sccV2FolderMuteConfig.SccV2FolderMuteConfig",
@@ -833,11 +833,11 @@ func (s *jsiiProxy_SccV2FolderMuteConfig) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccV2FolderMuteConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -974,7 +974,7 @@ func (s *jsiiProxy_SccV2FolderMuteConfig) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SccV2FolderMuteConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -985,11 +985,11 @@ func (s *jsiiProxy_SccV2FolderMuteConfig) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccV2FolderMuteConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

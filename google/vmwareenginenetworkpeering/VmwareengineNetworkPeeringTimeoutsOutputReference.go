@@ -5,14 +5,14 @@ package vmwareenginenetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vmwareenginenetworkpeering/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vmwareenginenetworkpeering/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VmwareengineNetworkPeeringTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type VmwareengineNetworkPeeringTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type VmwareengineNetworkPeeringTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type VmwareengineNetworkPeeringTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type VmwareengineNetworkPeeringTimeoutsOutputReference interface {
 
 // The jsii proxy struct for VmwareengineNetworkPeeringTimeoutsOutputReference
 type jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) UpdateInpu
 }
 
 
-func NewVmwareengineNetworkPeeringTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VmwareengineNetworkPeeringTimeoutsOutputReference {
+func NewVmwareengineNetworkPeeringTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VmwareengineNetworkPeeringTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVmwareengineNetworkPeeringTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewVmwareengineNetworkPeeringTimeoutsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewVmwareengineNetworkPeeringTimeoutsOutputReference_Override(v VmwareengineNetworkPeeringTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVmwareengineNetworkPeeringTimeoutsOutputReference_Override(v VmwareengineNetworkPeeringTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -494,8 +494,8 @@ func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) GetStringM
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -507,11 +507,11 @@ func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) Interpolat
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -547,7 +547,7 @@ func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) ResetUpdat
 	)
 }
 
-func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VmwareengineNetworkPeeringTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

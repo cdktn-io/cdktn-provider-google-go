@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubNamespaceStateOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubNamespaceStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubNamespaceStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GkeHubNamespaceStateOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubNamespaceStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubNamespaceStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubNamespaceStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeHubNamespaceStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

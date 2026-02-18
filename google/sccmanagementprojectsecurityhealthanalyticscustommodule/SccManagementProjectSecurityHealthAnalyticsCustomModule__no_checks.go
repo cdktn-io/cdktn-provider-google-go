@@ -119,7 +119,7 @@ func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModule) vali
 	return nil
 }
 
-func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

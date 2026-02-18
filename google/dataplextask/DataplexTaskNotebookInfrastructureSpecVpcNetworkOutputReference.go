@@ -5,14 +5,14 @@ package dataplextask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataplextask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataplextask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetNetwork()
 	ResetNetworkTags()
 	ResetSubNetwork()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference interface {
 
 // The jsii proxy struct for DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference
 type jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 }
 
 
-func NewDataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference {
+func NewDataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewDataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference(terrafor
 	return &j
 }
 
-func NewDataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference_Override(d DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference_Override(d DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 	)
 }
 
-func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReferen
 	)
 }
 
-func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataplexTaskNotebookInfrastructureSpecVpcNetworkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

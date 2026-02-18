@@ -47,7 +47,7 @@ func (d *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigO
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigO
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigO
 	return nil
 }
 
-func validateNewDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringCustomServiceTelemetryOutputReference) validateInte
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringCustomServiceTelemetryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringCustomServiceTelemetryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MonitoringCustomServiceTelemetryOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringCustomServiceTelemetryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringCustomServiceTelemetryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringCustomServiceTelemetryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringCustomServiceTelemetryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

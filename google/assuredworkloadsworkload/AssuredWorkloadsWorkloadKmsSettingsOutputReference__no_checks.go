@@ -47,7 +47,7 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AssuredWorkloadsWorkloadKmsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAssuredWorkloadsWorkloadKmsSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAssuredWorkloadsWorkloadKmsSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

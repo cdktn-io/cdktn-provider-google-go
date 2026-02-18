@@ -5,18 +5,18 @@ package edgenetworkinterconnectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/edgenetworkinterconnectattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/edgenetworkinterconnectattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/edgenetwork_interconnect_attachment google_edgenetwork_interconnect_attachment}.
 type EdgenetworkInterconnectAttachment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,11 +35,11 @@ type EdgenetworkInterconnectAttachment interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type EdgenetworkInterconnectAttachment interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -76,9 +76,9 @@ type EdgenetworkInterconnectAttachment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,8 +86,8 @@ type EdgenetworkInterconnectAttachment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -109,7 +109,7 @@ type EdgenetworkInterconnectAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -127,9 +127,9 @@ type EdgenetworkInterconnectAttachment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -169,11 +169,11 @@ type EdgenetworkInterconnectAttachment interface {
 
 // The jsii proxy struct for EdgenetworkInterconnectAttachment
 type jsiiProxy_EdgenetworkInterconnectAttachment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment) DescriptionInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment) EffectiveLabels() cdktf.St
 	return returns
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -372,8 +372,8 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment) LabelsInput() *map[string]
 	return returns
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -482,8 +482,8 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -512,8 +512,8 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -522,8 +522,8 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment) TerraformGeneratorMetadata
 	return returns
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -693,7 +693,7 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetDescription(val *string)
 	)
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -745,7 +745,7 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetLabels(val *map[string]*
 	)
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -800,7 +800,7 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -841,14 +841,14 @@ func (j *jsiiProxy_EdgenetworkInterconnectAttachment)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a EdgenetworkInterconnectAttachment resource upon running "cdktf plan <stack-name>".
-func EdgenetworkInterconnectAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EdgenetworkInterconnectAttachment resource upon running "cdktn plan <stack-name>".
+func EdgenetworkInterconnectAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEdgenetworkInterconnectAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.edgenetworkInterconnectAttachment.EdgenetworkInterconnectAttachment",
@@ -982,11 +982,11 @@ func (e *jsiiProxy_EdgenetworkInterconnectAttachment) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (e *jsiiProxy_EdgenetworkInterconnectAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EdgenetworkInterconnectAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1123,7 +1123,7 @@ func (e *jsiiProxy_EdgenetworkInterconnectAttachment) HasResourceMove() interfac
 	return returns
 }
 
-func (e *jsiiProxy_EdgenetworkInterconnectAttachment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EdgenetworkInterconnectAttachment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1134,11 +1134,11 @@ func (e *jsiiProxy_EdgenetworkInterconnectAttachment) ImportFrom(id *string, pro
 	)
 }
 
-func (e *jsiiProxy_EdgenetworkInterconnectAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EdgenetworkInterconnectAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

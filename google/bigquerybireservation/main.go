@@ -79,7 +79,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryBiReservation{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -109,7 +109,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryBiReservationPreferredTablesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -150,7 +150,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryBiReservationPreferredTablesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -195,7 +195,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryBiReservationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

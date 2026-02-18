@@ -99,7 +99,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfile{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -141,7 +141,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -179,7 +179,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -209,7 +209,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -245,7 +245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -289,7 +289,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -315,7 +315,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -351,7 +351,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -377,7 +377,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -414,7 +414,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -459,7 +459,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecuritySecurityProfileTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

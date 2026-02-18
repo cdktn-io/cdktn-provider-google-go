@@ -47,7 +47,7 @@ func (c *jsiiProxy_ColabNotebookExecutionDirectNotebookSourceOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_ColabNotebookExecutionDirectNotebookSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ColabNotebookExecutionDirectNotebookSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ColabNotebookExecutionDirectNotebookSourceOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ColabNotebookExecutionDirectNotebookSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ColabNotebookExecutionDirectNotebookSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewColabNotebookExecutionDirectNotebookSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewColabNotebookExecutionDirectNotebookSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

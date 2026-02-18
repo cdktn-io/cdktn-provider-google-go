@@ -131,7 +131,7 @@ func (j *jsiiProxy_ColabSchedule) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_ColabSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ColabSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

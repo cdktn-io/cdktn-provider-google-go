@@ -5,14 +5,14 @@ package rediscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/rediscluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/rediscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RedisClusterManagedBackupSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Backup() *string
 	SetBackup(val *string)
 	BackupInput() *string
@@ -40,15 +40,15 @@ type RedisClusterManagedBackupSourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type RedisClusterManagedBackupSourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type RedisClusterManagedBackupSourceOutputReference interface {
 
 // The jsii proxy struct for RedisClusterManagedBackupSourceOutputReference
 type jsiiProxy_RedisClusterManagedBackupSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) Backup() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) TerraformReso
 }
 
 
-func NewRedisClusterManagedBackupSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RedisClusterManagedBackupSourceOutputReference {
+func NewRedisClusterManagedBackupSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RedisClusterManagedBackupSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRedisClusterManagedBackupSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewRedisClusterManagedBackupSourceOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewRedisClusterManagedBackupSourceOutputReference_Override(r RedisClusterManagedBackupSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRedisClusterManagedBackupSourceOutputReference_Override(r RedisClusterManagedBackupSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -423,8 +423,8 @@ func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) GetStringMapA
 	return returns
 }
 
-func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -436,11 +436,11 @@ func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) Interpolation
 	return returns
 }
 
-func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -452,7 +452,7 @@ func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) Interpolation
 	return returns
 }
 
-func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

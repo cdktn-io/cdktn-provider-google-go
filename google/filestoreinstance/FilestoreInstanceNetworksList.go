@@ -5,14 +5,14 @@ package filestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/filestoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/filestoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FilestoreInstanceNetworksList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type FilestoreInstanceNetworksList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type FilestoreInstanceNetworksList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FilestoreInstanceNetworksOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type FilestoreInstanceNetworksList interface {
 
 // The jsii proxy struct for FilestoreInstanceNetworksList
 type jsiiProxy_FilestoreInstanceNetworksList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FilestoreInstanceNetworksList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_FilestoreInstanceNetworksList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstanceNetworksList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FilestoreInstanceNetworksList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FilestoreInstanceNetworksList) WrapsSet() *bool {
 }
 
 
-func NewFilestoreInstanceNetworksList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FilestoreInstanceNetworksList {
+func NewFilestoreInstanceNetworksList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FilestoreInstanceNetworksList {
 	_init_.Initialize()
 
 	if err := validateNewFilestoreInstanceNetworksListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewFilestoreInstanceNetworksList(terraformResource cdktf.IInterpolatingPare
 	return &j
 }
 
-func NewFilestoreInstanceNetworksList_Override(f FilestoreInstanceNetworksList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFilestoreInstanceNetworksList_Override(f FilestoreInstanceNetworksList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_FilestoreInstanceNetworksList)SetTerraformAttribute(val *stri
 	)
 }
 
-func (j *jsiiProxy_FilestoreInstanceNetworksList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FilestoreInstanceNetworksList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_FilestoreInstanceNetworksList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (f *jsiiProxy_FilestoreInstanceNetworksList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FilestoreInstanceNetworksList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -231,7 +231,7 @@ func (f *jsiiProxy_FilestoreInstanceNetworksList) Get(index *float64) FilestoreI
 	return returns
 }
 
-func (f *jsiiProxy_FilestoreInstanceNetworksList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FilestoreInstanceNetworksList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

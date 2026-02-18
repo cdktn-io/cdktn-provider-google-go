@@ -115,7 +115,7 @@ func (j *jsiiProxy_MonitoringService) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitoringService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

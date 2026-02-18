@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageControlOrganizationIntelligenceConfigFilterExcludedClo
 	return nil
 }
 
-func (s *jsiiProxy_StorageControlOrganizationIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageControlOrganizationIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StorageControlOrganizationIntelligenceConfigFilterExcludedClo
 	return nil
 }
 
-func (j *jsiiProxy_StorageControlOrganizationIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageControlOrganizationIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageControlOrganizationIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageControlOrganizationIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

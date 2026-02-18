@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2JobTerminalConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunV2JobTerminalConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

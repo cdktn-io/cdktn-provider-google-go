@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataplexTaskExecutionStatusLatestJobList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataplexTaskExecutionStatusLatestJobListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataplexTaskExecutionStatusLatestJobListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

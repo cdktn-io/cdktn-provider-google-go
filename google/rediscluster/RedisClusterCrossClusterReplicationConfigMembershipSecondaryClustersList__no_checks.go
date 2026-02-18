@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryC
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryC
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryC
 	return nil
 }
 
-func validateNewRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

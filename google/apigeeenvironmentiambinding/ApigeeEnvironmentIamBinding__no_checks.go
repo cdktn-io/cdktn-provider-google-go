@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApigeeEnvironmentIamBinding) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeEnvironmentIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApigeeEnvironmentIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

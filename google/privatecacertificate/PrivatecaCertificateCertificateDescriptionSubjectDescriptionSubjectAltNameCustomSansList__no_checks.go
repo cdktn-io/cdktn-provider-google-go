@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionS
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionSubjectAltNameCustomSansList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionSubjectAltNameCustomSansList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionS
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionSubjectAltNameCustomSansList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionSubjectAltNameCustomSansList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_PrivatecaCertificateCertificateDescriptionSubjectDescriptionS
 	return nil
 }
 
-func validateNewPrivatecaCertificateCertificateDescriptionSubjectDescriptionSubjectAltNameCustomSansListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivatecaCertificateCertificateDescriptionSubjectDescriptionSubjectAltNameCustomSansListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

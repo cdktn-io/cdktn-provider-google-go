@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouterPeerMd5AuthenticationKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRouterPeerMd5AuthenticationKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRouterPeerMd5AuthenticationKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

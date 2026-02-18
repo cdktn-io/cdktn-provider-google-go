@@ -132,7 +132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstance{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -182,7 +182,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceCloneOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -211,7 +211,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceDnsNamesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -246,7 +246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceDnsNamesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -271,7 +271,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceIpAddressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -306,7 +306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceIpAddressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -378,7 +378,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -421,7 +421,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceReplicationClusterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -465,7 +465,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -490,7 +490,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceServerCaCertList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -527,7 +527,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceServerCaCertOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -569,7 +569,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -608,7 +608,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -653,7 +653,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -707,7 +707,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -737,7 +737,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigFlagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -773,7 +773,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -795,7 +795,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -834,7 +834,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -873,7 +873,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsDataCacheConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -899,7 +899,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsDatabaseFlagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -935,7 +935,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsDatabaseFlagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -977,7 +977,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1028,7 +1028,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1058,7 +1058,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1098,7 +1098,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1162,7 +1162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1188,7 +1188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1233,7 +1233,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1259,7 +1259,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1296,7 +1296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1341,7 +1341,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsLocationPreferenceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1386,7 +1386,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsMaintenanceWindowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1522,7 +1522,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1575,7 +1575,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1620,7 +1620,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1665,7 +1665,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstanceTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

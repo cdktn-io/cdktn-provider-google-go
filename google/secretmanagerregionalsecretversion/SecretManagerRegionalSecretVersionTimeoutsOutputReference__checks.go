@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 
 func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SecretManagerRegionalSecretVersionTimeouts:
 		val := val.(*SecretManagerRegionalSecretVersionTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SecretManagerRegionalSecretVersionTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SecretManagerRegionalSecretVersionTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewSecretManagerRegionalSecretVersionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecretManagerRegionalSecretVersionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

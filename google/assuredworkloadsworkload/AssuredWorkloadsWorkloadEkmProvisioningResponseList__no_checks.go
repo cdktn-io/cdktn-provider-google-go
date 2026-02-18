@@ -15,7 +15,7 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validate
 	return nil
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validate
 	return nil
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadEkmProvisioningResponseList) validate
 	return nil
 }
 
-func validateNewAssuredWorkloadsWorkloadEkmProvisioningResponseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAssuredWorkloadsWorkloadEkmProvisioningResponseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

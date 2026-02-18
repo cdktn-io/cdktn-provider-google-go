@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApigeeEnvironmentClientIpResolutionConfigOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeEnvironmentClientIpResolutionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeEnvironmentClientIpResolutionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ApigeeEnvironmentClientIpResolutionConfigOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeEnvironmentClientIpResolutionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeEnvironmentClientIpResolutionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigeeEnvironmentClientIpResolutionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeEnvironmentClientIpResolutionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

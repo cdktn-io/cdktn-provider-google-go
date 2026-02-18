@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsMpegCencOutputReference
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsMpegCencOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobTemplateConfigEncryptionsMpegCencOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsMpegCencOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsMpegCencOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobTemplateConfigEncryptionsMpegCencOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobTemplateConfigEncryptionsMpegCencOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobTemplateConfigEncryptionsMpegCencOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

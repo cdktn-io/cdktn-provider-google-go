@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (t *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validatePutAnimat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobConfigOverlaysAnimations:
 		value := value.(*[]*TranscoderJobConfigOverlaysAnimations)
@@ -117,7 +117,7 @@ func (t *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validatePutAnimat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobConfigOverlaysAnimations; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobConfigOverlaysAnimations; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (t *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validatePutImageP
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -210,7 +210,7 @@ func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetComple
 
 func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *TranscoderJobConfigOverlays:
 		val := val.(*TranscoderJobConfigOverlays)
@@ -225,7 +225,7 @@ func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *TranscoderJobConfigOverlays; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *TranscoderJobConfigOverlays; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -240,7 +240,7 @@ func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -248,7 +248,7 @@ func (j *jsiiProxy_TranscoderJobConfigOverlaysOutputReference) validateSetTerraf
 	return nil
 }
 
-func validateNewTranscoderJobConfigOverlaysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTranscoderJobConfigOverlaysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

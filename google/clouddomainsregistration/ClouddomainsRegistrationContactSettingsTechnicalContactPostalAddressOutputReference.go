@@ -5,14 +5,14 @@ package clouddomainsregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/clouddomainsregistration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/clouddomainsregistration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddressLines() *[]*string
 	SetAddressLines(val *[]*string)
 	AddressLinesInput() *[]*string
@@ -58,15 +58,15 @@ type ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputR
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAddressLines()
 	ResetAdministrativeArea()
 	ResetLocality()
@@ -93,7 +93,7 @@ type ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputR
 	ResetRecipients()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -103,7 +103,7 @@ type ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputR
 
 // The jsii proxy struct for ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference
 type jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) AddressLines() *[]*string {
@@ -306,8 +306,8 @@ func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 	return returns
 }
 
-func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -317,7 +317,7 @@ func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 }
 
 
-func NewClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference {
+func NewClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -334,7 +334,7 @@ func NewClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutp
 	return &j
 }
 
-func NewClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference_Override(c ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference_Override(c ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -465,7 +465,7 @@ func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 	)
 }
 
-func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -505,11 +505,11 @@ func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 	return returns
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -633,8 +633,8 @@ func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 	return returns
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -646,11 +646,11 @@ func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 	return returns
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -710,7 +710,7 @@ func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostal
 	)
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsTechnicalContactPostalAddressOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

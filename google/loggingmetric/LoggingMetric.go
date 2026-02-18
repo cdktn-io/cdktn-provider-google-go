@@ -5,23 +5,23 @@ package loggingmetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/loggingmetric/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/loggingmetric/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_metric google_logging_metric}.
 type LoggingMetric interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
 	BucketOptions() LoggingMetricBucketOptionsOutputReference
 	BucketOptionsInput() *LoggingMetricBucketOptions
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,9 +46,9 @@ type LoggingMetric interface {
 	SetFilter(val *string)
 	FilterInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type LoggingMetric interface {
 	SetLabelExtractors(val *map[string]*string)
 	LabelExtractorsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MetricDescriptor() LoggingMetricMetricDescriptorOutputReference
 	MetricDescriptorInput() *LoggingMetricMetricDescriptor
 	Name() *string
@@ -74,9 +74,9 @@ type LoggingMetric interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type LoggingMetric interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type LoggingMetric interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type LoggingMetric interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,7 +168,7 @@ type LoggingMetric interface {
 
 // The jsii proxy struct for LoggingMetric
 type jsiiProxy_LoggingMetric struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LoggingMetric) BucketName() *string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_LoggingMetric) BucketOptionsInput() *LoggingMetricBucketOptio
 	return returns
 }
 
-func (j *jsiiProxy_LoggingMetric) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LoggingMetric) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_LoggingMetric) FilterInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LoggingMetric) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LoggingMetric) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_LoggingMetric) LabelExtractorsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LoggingMetric) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LoggingMetric) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_LoggingMetric) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LoggingMetric) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LoggingMetric) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -501,8 +501,8 @@ func (j *jsiiProxy_LoggingMetric) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LoggingMetric) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LoggingMetric) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -675,7 +675,7 @@ func (j *jsiiProxy_LoggingMetric)SetFilter(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LoggingMetric)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LoggingMetric)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -705,7 +705,7 @@ func (j *jsiiProxy_LoggingMetric)SetLabelExtractors(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_LoggingMetric)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LoggingMetric)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -738,7 +738,7 @@ func (j *jsiiProxy_LoggingMetric)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LoggingMetric)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LoggingMetric)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -768,14 +768,14 @@ func (j *jsiiProxy_LoggingMetric)SetValueExtractor(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LoggingMetric resource upon running "cdktf plan <stack-name>".
-func LoggingMetric_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LoggingMetric resource upon running "cdktn plan <stack-name>".
+func LoggingMetric_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLoggingMetric_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.loggingMetric.LoggingMetric",
@@ -909,11 +909,11 @@ func (l *jsiiProxy_LoggingMetric) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (l *jsiiProxy_LoggingMetric) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LoggingMetric) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1050,7 +1050,7 @@ func (l *jsiiProxy_LoggingMetric) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LoggingMetric) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LoggingMetric) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1061,11 +1061,11 @@ func (l *jsiiProxy_LoggingMetric) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (l *jsiiProxy_LoggingMetric) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LoggingMetric) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

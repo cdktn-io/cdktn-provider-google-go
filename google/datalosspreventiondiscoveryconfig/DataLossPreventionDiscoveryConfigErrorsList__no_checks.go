@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigErrorsList) validateSetWraps
 	return nil
 }
 
-func validateNewDataLossPreventionDiscoveryConfigErrorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataLossPreventionDiscoveryConfigErrorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

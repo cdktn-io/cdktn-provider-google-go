@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfig) validateSetInspectTemplate
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

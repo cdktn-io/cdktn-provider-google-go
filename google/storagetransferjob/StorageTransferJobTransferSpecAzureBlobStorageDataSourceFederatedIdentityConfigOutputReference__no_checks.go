@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFeder
 	return nil
 }
 
-func (s *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFeder
 	return nil
 }
 
-func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

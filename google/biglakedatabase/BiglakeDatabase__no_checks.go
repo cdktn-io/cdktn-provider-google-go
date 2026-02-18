@@ -115,7 +115,7 @@ func (j *jsiiProxy_BiglakeDatabase) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_BiglakeDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BiglakeDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

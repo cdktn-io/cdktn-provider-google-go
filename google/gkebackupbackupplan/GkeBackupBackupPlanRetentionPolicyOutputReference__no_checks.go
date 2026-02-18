@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupBackupPlanRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeBackupBackupPlanRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeBackupBackupPlanRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventarcTriggerDestinationNetworkConfigOutputReference) valid
 	return nil
 }
 
-func (e *jsiiProxy_EventarcTriggerDestinationNetworkConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcTriggerDestinationNetworkConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EventarcTriggerDestinationNetworkConfigOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_EventarcTriggerDestinationNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcTriggerDestinationNetworkConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventarcTriggerDestinationNetworkConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventarcTriggerDestinationNetworkConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

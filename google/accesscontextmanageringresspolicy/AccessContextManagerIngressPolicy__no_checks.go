@@ -111,7 +111,7 @@ func (j *jsiiProxy_AccessContextManagerIngressPolicy) validateSetIngressPolicyNa
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerIngressPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AccessContextManagerIngressPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

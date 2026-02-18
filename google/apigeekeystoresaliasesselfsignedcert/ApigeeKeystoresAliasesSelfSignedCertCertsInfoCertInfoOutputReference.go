@@ -5,14 +5,14 @@ package apigeekeystoresaliasesselfsignedcert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeekeystoresaliasesselfsignedcert/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeekeystoresaliasesselfsignedcert/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BasicConstraints() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -46,9 +46,9 @@ type ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ValidFrom() *string
 	Version() *float64
 	// Experimental.
@@ -56,7 +56,7 @@ type ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference interf
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,12 +72,12 @@ type ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference interf
 
 // The jsii proxy struct for ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference
 type jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) BasicConstraints() *string {
@@ -240,8 +240,8 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -271,7 +271,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 }
 
 
-func NewApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference {
+func NewApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -288,7 +288,7 @@ func NewApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference(ter
 	return &j
 }
 
-func NewApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference_Override(a ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference_Override(a ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -342,7 +342,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 	)
 }
 
-func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -382,11 +382,11 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -510,8 +510,8 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -523,11 +523,11 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -539,7 +539,7 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCertCertsInfoCertInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

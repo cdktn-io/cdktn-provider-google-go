@@ -5,14 +5,14 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/containercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowExternalTraffic() interface{}
 	SetAllowExternalTraffic(val interface{})
 	AllowExternalTrafficInput() interface{}
@@ -43,15 +43,15 @@ type ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowExternalTraffic()
 	ResetEndpoint()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference
 
 // The jsii proxy struct for ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference
 type jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) AllowExternalTraffic() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 	return returns
 }
 
-func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 }
 
 
-func NewContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference {
+func NewContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputRefere
 	return &j
 }
 
-func NewContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference_Override(c ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference_Override(c ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 	)
 }
 
-func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,8 +459,8 @@ func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -472,11 +472,11 @@ func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 	return returns
 }
 
-func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigO
 	)
 }
 
-func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

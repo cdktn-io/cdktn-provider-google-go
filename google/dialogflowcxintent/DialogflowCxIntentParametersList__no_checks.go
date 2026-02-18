@@ -15,7 +15,7 @@ func (d *jsiiProxy_DialogflowCxIntentParametersList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxIntentParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxIntentParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DialogflowCxIntentParametersList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxIntentParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxIntentParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DialogflowCxIntentParametersList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDialogflowCxIntentParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDialogflowCxIntentParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

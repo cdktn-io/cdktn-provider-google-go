@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesRegexExpectationOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesRegexExpectationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesRegexExpectationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexDatascanDataQualitySpecRulesRegexExpectationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexDatascanDataQualitySpecRulesRegexExpectationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

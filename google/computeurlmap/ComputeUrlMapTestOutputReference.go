@@ -5,14 +5,14 @@ package computeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeurlmap/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeurlmap/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeUrlMapTestOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -57,15 +57,15 @@ type ComputeUrlMapTestOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type ComputeUrlMapTestOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeaders(value interface{})
 	ResetDescription()
 	ResetExpectedOutputUrl()
@@ -92,7 +92,7 @@ type ComputeUrlMapTestOutputReference interface {
 	ResetService()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -102,7 +102,7 @@ type ComputeUrlMapTestOutputReference interface {
 
 // The jsii proxy struct for ComputeUrlMapTestOutputReference
 type jsiiProxy_ComputeUrlMapTestOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeUrlMapTestOutputReference) ComplexObjectIndex() interface{} {
@@ -305,8 +305,8 @@ func (j *jsiiProxy_ComputeUrlMapTestOutputReference) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_ComputeUrlMapTestOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeUrlMapTestOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -316,7 +316,7 @@ func (j *jsiiProxy_ComputeUrlMapTestOutputReference) TerraformResource() cdktf.I
 }
 
 
-func NewComputeUrlMapTestOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeUrlMapTestOutputReference {
+func NewComputeUrlMapTestOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeUrlMapTestOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeUrlMapTestOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -333,7 +333,7 @@ func NewComputeUrlMapTestOutputReference(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewComputeUrlMapTestOutputReference_Override(c ComputeUrlMapTestOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewComputeUrlMapTestOutputReference_Override(c ComputeUrlMapTestOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -453,7 +453,7 @@ func (j *jsiiProxy_ComputeUrlMapTestOutputReference)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_ComputeUrlMapTestOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeUrlMapTestOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -493,11 +493,11 @@ func (c *jsiiProxy_ComputeUrlMapTestOutputReference) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapTestOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeUrlMapTestOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -621,8 +621,8 @@ func (c *jsiiProxy_ComputeUrlMapTestOutputReference) GetStringMapAttribute(terra
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapTestOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeUrlMapTestOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -634,11 +634,11 @@ func (c *jsiiProxy_ComputeUrlMapTestOutputReference) InterpolationAsList() cdktf
 	return returns
 }
 
-func (c *jsiiProxy_ComputeUrlMapTestOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeUrlMapTestOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -701,7 +701,7 @@ func (c *jsiiProxy_ComputeUrlMapTestOutputReference) ResetService() {
 	)
 }
 
-func (c *jsiiProxy_ComputeUrlMapTestOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeUrlMapTestOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

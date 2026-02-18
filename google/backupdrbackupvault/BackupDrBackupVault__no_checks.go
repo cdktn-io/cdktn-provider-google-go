@@ -159,7 +159,7 @@ func (j *jsiiProxy_BackupDrBackupVault) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_BackupDrBackupVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupDrBackupVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

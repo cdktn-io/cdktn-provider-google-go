@@ -51,7 +51,7 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputRefer
 	return nil
 }
 
-func (p *jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivilegedAccessManagerEntitlementApprovalWorkflowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivilegedAccessManagerEntitlementApprovalWorkflowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

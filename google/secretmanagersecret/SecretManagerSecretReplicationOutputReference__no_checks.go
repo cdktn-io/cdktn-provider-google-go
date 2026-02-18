@@ -55,7 +55,7 @@ func (s *jsiiProxy_SecretManagerSecretReplicationOutputReference) validatePutUse
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerSecretReplicationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerSecretReplicationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SecretManagerSecretReplicationOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerSecretReplicationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerSecretReplicationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecretManagerSecretReplicationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecretManagerSecretReplicationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

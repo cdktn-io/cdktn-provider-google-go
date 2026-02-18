@@ -5,14 +5,14 @@ package alloydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/alloydbcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/alloydbcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlloydbClusterMigrationSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type AlloydbClusterMigrationSourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type AlloydbClusterMigrationSourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type AlloydbClusterMigrationSourceOutputReference interface {
 
 // The jsii proxy struct for AlloydbClusterMigrationSourceOutputReference
 type jsiiProxy_AlloydbClusterMigrationSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) ComplexObjectIndex() interface{} {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) TerraformResour
 }
 
 
-func NewAlloydbClusterMigrationSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AlloydbClusterMigrationSourceOutputReference {
+func NewAlloydbClusterMigrationSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AlloydbClusterMigrationSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAlloydbClusterMigrationSourceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewAlloydbClusterMigrationSourceOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewAlloydbClusterMigrationSourceOutputReference_Override(a AlloydbClusterMigrationSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAlloydbClusterMigrationSourceOutputReference_Override(a AlloydbClusterMigrationSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlloydbClusterMigrationSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -422,8 +422,8 @@ func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -435,11 +435,11 @@ func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) InterpolationAs
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -451,7 +451,7 @@ func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) InterpolationFo
 	return returns
 }
 
-func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlloydbClusterMigrationSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

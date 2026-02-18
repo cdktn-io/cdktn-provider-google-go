@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSharedVpcServiceProjectTimeoutsOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSharedVpcServiceProjectTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSharedVpcServiceProjectTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeSharedVpcServiceProjectTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSharedVpcServiceProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSharedVpcServiceProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSharedVpcServiceProjectTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSharedVpcServiceProjectTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

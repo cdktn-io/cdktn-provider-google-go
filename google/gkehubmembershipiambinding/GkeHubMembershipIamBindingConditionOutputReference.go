@@ -5,14 +5,14 @@ package gkehubmembershipiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubmembershipiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkehubmembershipiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeHubMembershipIamBindingConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GkeHubMembershipIamBindingConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type GkeHubMembershipIamBindingConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type GkeHubMembershipIamBindingConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type GkeHubMembershipIamBindingConditionOutputReference interface {
 
 // The jsii proxy struct for GkeHubMembershipIamBindingConditionOutputReference
 type jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) TitleInpu
 }
 
 
-func NewGkeHubMembershipIamBindingConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GkeHubMembershipIamBindingConditionOutputReference {
+func NewGkeHubMembershipIamBindingConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GkeHubMembershipIamBindingConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGkeHubMembershipIamBindingConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewGkeHubMembershipIamBindingConditionOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewGkeHubMembershipIamBindingConditionOutputReference_Override(g GkeHubMembershipIamBindingConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGkeHubMembershipIamBindingConditionOutputReference_Override(g GkeHubMembershipIamBindingConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) GetAnyMap
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -492,8 +492,8 @@ func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) GetString
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -505,11 +505,11 @@ func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) Interpola
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,7 +529,7 @@ func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) ResetDesc
 	)
 }
 
-func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GkeHubMembershipIamBindingConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

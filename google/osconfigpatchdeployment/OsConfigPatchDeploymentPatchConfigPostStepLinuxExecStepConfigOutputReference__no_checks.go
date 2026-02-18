@@ -51,7 +51,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfig
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfig
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigPatchDeploymentPatchConfigPostStepLinuxExecStepConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

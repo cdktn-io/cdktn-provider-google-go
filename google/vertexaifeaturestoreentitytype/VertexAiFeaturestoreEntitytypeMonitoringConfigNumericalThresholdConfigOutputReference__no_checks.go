@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresh
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresh
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresh
 	return nil
 }
 
-func validateNewVertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiFeaturestoreEntitytypeMonitoringConfigNumericalThresholdConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dnsrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dnsrecordset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dnsrecordset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DnsRecordSetRoutingPolicyPrimaryBackupOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackupGeo() DnsRecordSetRoutingPolicyPrimaryBackupBackupGeoList
 	BackupGeoInput() interface{}
 	// the index of the complex object in a list.
@@ -44,9 +44,9 @@ type DnsRecordSetRoutingPolicyPrimaryBackupOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrickleRatio() *float64
 	SetTrickleRatio(val *float64)
 	TrickleRatioInput() *float64
@@ -55,7 +55,7 @@ type DnsRecordSetRoutingPolicyPrimaryBackupOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,16 +71,16 @@ type DnsRecordSetRoutingPolicyPrimaryBackupOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBackupGeo(value interface{})
 	PutPrimary(value *DnsRecordSetRoutingPolicyPrimaryBackupPrimary)
 	ResetEnableGeoFencingForBackups()
 	ResetTrickleRatio()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type DnsRecordSetRoutingPolicyPrimaryBackupOutputReference interface {
 
 // The jsii proxy struct for DnsRecordSetRoutingPolicyPrimaryBackupOutputReference
 type jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) BackupGeo() DnsRecordSetRoutingPolicyPrimaryBackupBackupGeoList {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) Trickl
 }
 
 
-func NewDnsRecordSetRoutingPolicyPrimaryBackupOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DnsRecordSetRoutingPolicyPrimaryBackupOutputReference {
+func NewDnsRecordSetRoutingPolicyPrimaryBackupOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DnsRecordSetRoutingPolicyPrimaryBackupOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDnsRecordSetRoutingPolicyPrimaryBackupOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewDnsRecordSetRoutingPolicyPrimaryBackupOutputReference(terraformResource 
 	return &j
 }
 
-func NewDnsRecordSetRoutingPolicyPrimaryBackupOutputReference_Override(d DnsRecordSetRoutingPolicyPrimaryBackupOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDnsRecordSetRoutingPolicyPrimaryBackupOutputReference_Override(d DnsRecordSetRoutingPolicyPrimaryBackupOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -377,11 +377,11 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) GetAny
 	return returns
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -505,8 +505,8 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) GetStr
 	return returns
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -518,11 +518,11 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) Interp
 	return returns
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -572,7 +572,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) ResetT
 	)
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

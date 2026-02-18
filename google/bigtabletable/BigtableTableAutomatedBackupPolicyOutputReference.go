@@ -5,14 +5,14 @@ package bigtabletable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigtabletable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigtabletable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigtableTableAutomatedBackupPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type BigtableTableAutomatedBackupPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type BigtableTableAutomatedBackupPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFrequency()
 	ResetRetentionPeriod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type BigtableTableAutomatedBackupPolicyOutputReference interface {
 
 // The jsii proxy struct for BigtableTableAutomatedBackupPolicyOutputReference
 type jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) TerraformR
 }
 
 
-func NewBigtableTableAutomatedBackupPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigtableTableAutomatedBackupPolicyOutputReference {
+func NewBigtableTableAutomatedBackupPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigtableTableAutomatedBackupPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigtableTableAutomatedBackupPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewBigtableTableAutomatedBackupPolicyOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewBigtableTableAutomatedBackupPolicyOutputReference_Override(b BigtableTableAutomatedBackupPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigtableTableAutomatedBackupPolicyOutputReference_Override(b BigtableTableAutomatedBackupPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) GetAnyMapA
 	return returns
 }
 
-func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -459,8 +459,8 @@ func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) GetStringM
 	return returns
 }
 
-func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -472,11 +472,11 @@ func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) Interpolat
 	return returns
 }
 
-func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,7 +504,7 @@ func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) ResetReten
 	)
 }
 
-func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -95,7 +95,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlement{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -137,7 +137,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -183,7 +183,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -225,7 +225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -247,7 +247,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -288,7 +288,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -323,7 +323,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -353,7 +353,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -387,7 +387,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementEligibleUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -434,7 +434,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -460,7 +460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -497,7 +497,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -532,7 +532,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementPrivilegedAccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -572,7 +572,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -612,7 +612,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -648,7 +648,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -693,7 +693,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivilegedAccessManagerEntitlementTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

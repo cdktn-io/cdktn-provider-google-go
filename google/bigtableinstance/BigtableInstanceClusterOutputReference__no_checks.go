@@ -51,7 +51,7 @@ func (b *jsiiProxy_BigtableInstanceClusterOutputReference) validatePutAutoscalin
 	return nil
 }
 
-func (b *jsiiProxy_BigtableInstanceClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableInstanceClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_BigtableInstanceClusterOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_BigtableInstanceClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableInstanceClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_BigtableInstanceClusterOutputReference) validateSetZoneParame
 	return nil
 }
 
-func validateNewBigtableInstanceClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBigtableInstanceClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) validateSetIndustryVerti
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (c *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutp
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutp
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutp
 	return nil
 }
 
-func validateNewClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddeployDeployPolicyRulesRolloutRestrictionTimeWindowsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

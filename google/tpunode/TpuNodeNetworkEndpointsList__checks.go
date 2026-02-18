@@ -8,7 +8,7 @@ package tpunode
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TpuNodeNetworkEndpointsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (t *jsiiProxy_TpuNodeNetworkEndpointsList) validateGetParameters(index *flo
 	return nil
 }
 
-func (t *jsiiProxy_TpuNodeNetworkEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TpuNodeNetworkEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_TpuNodeNetworkEndpointsList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_TpuNodeNetworkEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TpuNodeNetworkEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_TpuNodeNetworkEndpointsList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewTpuNodeNetworkEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTpuNodeNetworkEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

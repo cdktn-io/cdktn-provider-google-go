@@ -47,7 +47,7 @@ func (l *jsiiProxy_LoggingMetricBucketOptionsExplicitBucketsOutputReference) val
 	return nil
 }
 
-func (l *jsiiProxy_LoggingMetricBucketOptionsExplicitBucketsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoggingMetricBucketOptionsExplicitBucketsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LoggingMetricBucketOptionsExplicitBucketsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_LoggingMetricBucketOptionsExplicitBucketsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoggingMetricBucketOptionsExplicitBucketsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLoggingMetricBucketOptionsExplicitBucketsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLoggingMetricBucketOptionsExplicitBucketsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

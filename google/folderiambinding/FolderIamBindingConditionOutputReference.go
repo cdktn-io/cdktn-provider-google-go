@@ -5,14 +5,14 @@ package folderiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/folderiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/folderiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FolderIamBindingConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type FolderIamBindingConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type FolderIamBindingConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type FolderIamBindingConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type FolderIamBindingConditionOutputReference interface {
 
 // The jsii proxy struct for FolderIamBindingConditionOutputReference
 type jsiiProxy_FolderIamBindingConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FolderIamBindingConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_FolderIamBindingConditionOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_FolderIamBindingConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FolderIamBindingConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_FolderIamBindingConditionOutputReference) TitleInput() *strin
 }
 
 
-func NewFolderIamBindingConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FolderIamBindingConditionOutputReference {
+func NewFolderIamBindingConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FolderIamBindingConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFolderIamBindingConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewFolderIamBindingConditionOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewFolderIamBindingConditionOutputReference_Override(f FolderIamBindingConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFolderIamBindingConditionOutputReference_Override(f FolderIamBindingConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_FolderIamBindingConditionOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_FolderIamBindingConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FolderIamBindingConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (f *jsiiProxy_FolderIamBindingConditionOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (f *jsiiProxy_FolderIamBindingConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FolderIamBindingConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -492,8 +492,8 @@ func (f *jsiiProxy_FolderIamBindingConditionOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (f *jsiiProxy_FolderIamBindingConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FolderIamBindingConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -505,11 +505,11 @@ func (f *jsiiProxy_FolderIamBindingConditionOutputReference) InterpolationAsList
 	return returns
 }
 
-func (f *jsiiProxy_FolderIamBindingConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FolderIamBindingConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -529,7 +529,7 @@ func (f *jsiiProxy_FolderIamBindingConditionOutputReference) ResetDescription() 
 	)
 }
 
-func (f *jsiiProxy_FolderIamBindingConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FolderIamBindingConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

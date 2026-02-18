@@ -5,18 +5,18 @@ package bigtablelogicalview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigtablelogicalview/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigtablelogicalview/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigtable_logical_view google_bigtable_logical_view}.
 type BigtableLogicalView interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type BigtableLogicalView interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type BigtableLogicalView interface {
 	SetInstance(val *string)
 	InstanceInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogicalViewId() *string
 	SetLogicalViewId(val *string)
 	LogicalViewIdInput() *string
@@ -62,9 +62,9 @@ type BigtableLogicalView interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type BigtableLogicalView interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type BigtableLogicalView interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type BigtableLogicalView interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -149,11 +149,11 @@ type BigtableLogicalView interface {
 
 // The jsii proxy struct for BigtableLogicalView
 type jsiiProxy_BigtableLogicalView struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_BigtableLogicalView) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BigtableLogicalView) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -222,8 +222,8 @@ func (j *jsiiProxy_BigtableLogicalView) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableLogicalView) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BigtableLogicalView) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_BigtableLogicalView) InstanceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableLogicalView) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BigtableLogicalView) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_BigtableLogicalView) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableLogicalView) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BigtableLogicalView) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -412,8 +412,8 @@ func (j *jsiiProxy_BigtableLogicalView) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableLogicalView) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BigtableLogicalView) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -533,7 +533,7 @@ func (j *jsiiProxy_BigtableLogicalView)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_BigtableLogicalView)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BigtableLogicalView)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -563,7 +563,7 @@ func (j *jsiiProxy_BigtableLogicalView)SetInstance(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BigtableLogicalView)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BigtableLogicalView)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -596,7 +596,7 @@ func (j *jsiiProxy_BigtableLogicalView)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BigtableLogicalView)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BigtableLogicalView)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -626,14 +626,14 @@ func (j *jsiiProxy_BigtableLogicalView)SetQuery(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a BigtableLogicalView resource upon running "cdktf plan <stack-name>".
-func BigtableLogicalView_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BigtableLogicalView resource upon running "cdktn plan <stack-name>".
+func BigtableLogicalView_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBigtableLogicalView_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.bigtableLogicalView.BigtableLogicalView",
@@ -767,11 +767,11 @@ func (b *jsiiProxy_BigtableLogicalView) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (b *jsiiProxy_BigtableLogicalView) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigtableLogicalView) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -908,7 +908,7 @@ func (b *jsiiProxy_BigtableLogicalView) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BigtableLogicalView) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BigtableLogicalView) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -919,11 +919,11 @@ func (b *jsiiProxy_BigtableLogicalView) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (b *jsiiProxy_BigtableLogicalView) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigtableLogicalView) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

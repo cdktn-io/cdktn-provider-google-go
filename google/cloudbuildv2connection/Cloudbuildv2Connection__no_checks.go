@@ -135,7 +135,7 @@ func (j *jsiiProxy_Cloudbuildv2Connection) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_Cloudbuildv2Connection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Cloudbuildv2Connection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

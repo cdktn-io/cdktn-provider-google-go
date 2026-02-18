@@ -55,7 +55,7 @@ func (m *jsiiProxy_MonitoringSloRequestBasedSliOutputReference) validatePutGoodT
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringSloRequestBasedSliOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringSloRequestBasedSliOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringSloRequestBasedSliOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringSloRequestBasedSliOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringSloRequestBasedSliOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringSloRequestBasedSliOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringSloRequestBasedSliOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

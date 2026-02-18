@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeExternalVpnGatewayInterfaceList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewComputeExternalVpnGatewayInterfaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeExternalVpnGatewayInterfaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

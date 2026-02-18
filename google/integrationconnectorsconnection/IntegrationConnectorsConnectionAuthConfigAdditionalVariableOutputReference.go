@@ -5,14 +5,14 @@ package integrationconnectorsconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/integrationconnectorsconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/integrationconnectorsconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BooleanValue() interface{}
 	SetBooleanValue(val interface{})
 	BooleanValueInput() interface{}
@@ -53,15 +53,15 @@ type IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEncryptionKeyValue(value *IntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValue)
 	PutSecretValue(value *IntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValue)
 	ResetBooleanValue()
@@ -89,7 +89,7 @@ type IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference 
 	ResetStringValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference 
 
 // The jsii proxy struct for IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference
 type jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) BooleanValue() interface{} {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 	return returns
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 }
 
 
-func NewIntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference {
+func NewIntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -310,7 +310,7 @@ func NewIntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReferen
 	return &j
 }
 
-func NewIntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference_Override(i IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewIntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference_Override(i IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -408,7 +408,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 	)
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -448,11 +448,11 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 	return returns
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -576,8 +576,8 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 	return returns
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -589,11 +589,11 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 	return returns
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -667,7 +667,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOu
 	)
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IntegrationConnectorsConnectionAuthConfigAdditionalVariableOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

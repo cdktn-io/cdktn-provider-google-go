@@ -5,14 +5,14 @@ package appenginestandardappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appenginestandardappversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/appenginestandardappversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppEngineStandardAppVersionDeploymentFilesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AppEngineStandardAppVersionDeploymentFilesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AppEngineStandardAppVersionDeploymentFilesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AppEngineStandardAppVersionDeploymentFilesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AppEngineStandardAppVersionDeploymentFilesList interface {
 
 // The jsii proxy struct for AppEngineStandardAppVersionDeploymentFilesList
 type jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) WrapsSet() *b
 }
 
 
-func NewAppEngineStandardAppVersionDeploymentFilesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppEngineStandardAppVersionDeploymentFilesList {
+func NewAppEngineStandardAppVersionDeploymentFilesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppEngineStandardAppVersionDeploymentFilesList {
 	_init_.Initialize()
 
 	if err := validateNewAppEngineStandardAppVersionDeploymentFilesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAppEngineStandardAppVersionDeploymentFilesList(terraformResource cdktf.I
 	return &j
 }
 
-func NewAppEngineStandardAppVersionDeploymentFilesList_Override(a AppEngineStandardAppVersionDeploymentFilesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAppEngineStandardAppVersionDeploymentFilesList_Override(a AppEngineStandardAppVersionDeploymentFilesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList)SetWrapsSet(va
 	)
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) Get(index *fl
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppEngineStandardAppVersionDeploymentFilesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

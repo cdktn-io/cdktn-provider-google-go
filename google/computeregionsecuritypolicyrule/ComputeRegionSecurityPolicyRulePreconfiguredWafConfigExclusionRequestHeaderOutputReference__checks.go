@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 
 func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader:
 		val := val.(*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func validateNewComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package chroniclereferencelist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/chroniclereferencelist/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/chroniclereferencelist/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ChronicleReferenceListScopeInfoReferenceListScopeList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type ChronicleReferenceListScopeInfoReferenceListScopeList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type ChronicleReferenceListScopeInfoReferenceListScopeList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ChronicleReferenceListScopeInfoReferenceListScopeOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type ChronicleReferenceListScopeInfoReferenceListScopeList interface {
 
 // The jsii proxy struct for ChronicleReferenceListScopeInfoReferenceListScopeList
 type jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) WrapsS
 }
 
 
-func NewChronicleReferenceListScopeInfoReferenceListScopeList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChronicleReferenceListScopeInfoReferenceListScopeList {
+func NewChronicleReferenceListScopeInfoReferenceListScopeList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChronicleReferenceListScopeInfoReferenceListScopeList {
 	_init_.Initialize()
 
 	if err := validateNewChronicleReferenceListScopeInfoReferenceListScopeListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewChronicleReferenceListScopeInfoReferenceListScopeList(terraformResource 
 	return &j
 }
 
-func NewChronicleReferenceListScopeInfoReferenceListScopeList_Override(c ChronicleReferenceListScopeInfoReferenceListScopeList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewChronicleReferenceListScopeInfoReferenceListScopeList_Override(c ChronicleReferenceListScopeInfoReferenceListScopeList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList)SetTerr
 	)
 }
 
-func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList)SetWrap
 	)
 }
 
-func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -208,7 +208,7 @@ func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) Get(in
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ChronicleReferenceListScopeInfoReferenceListScopeList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

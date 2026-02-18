@@ -51,7 +51,7 @@ func (c *jsiiProxy_CloudfunctionsFunctionEventTriggerOutputReference) validatePu
 	return nil
 }
 
-func (c *jsiiProxy_CloudfunctionsFunctionEventTriggerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudfunctionsFunctionEventTriggerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudfunctionsFunctionEventTriggerOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CloudfunctionsFunctionEventTriggerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudfunctionsFunctionEventTriggerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfunctionsFunctionEventTriggerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfunctionsFunctionEventTriggerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

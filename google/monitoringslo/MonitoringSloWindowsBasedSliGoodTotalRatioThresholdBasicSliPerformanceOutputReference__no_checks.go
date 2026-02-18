@@ -55,7 +55,7 @@ func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_MonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
 	return nil
 }
 
-func validateNewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

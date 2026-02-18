@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsAdminContactPostalAddr
 	return nil
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsAdminContactPostalAddressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddomainsRegistrationContactSettingsAdminContactPostalAddressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsAdminContactPostalAddr
 	return nil
 }
 
-func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsAdminContactPostalAddressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddomainsRegistrationContactSettingsAdminContactPostalAddressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddomainsRegistrationContactSettingsAdminContactPostalAddressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddomainsRegistrationContactSettingsAdminContactPostalAddressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

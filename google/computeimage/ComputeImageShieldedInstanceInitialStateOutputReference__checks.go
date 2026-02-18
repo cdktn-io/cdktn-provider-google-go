@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeImageShieldedInstanceInitialStateDbs:
 		value := value.(*[]*ComputeImageShieldedInstanceInitialStateDbs)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeImageShieldedInstanceInitialStateDbs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeImageShieldedInstanceInitialStateDbs; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeImageShieldedInstanceInitialStateDbxs:
 		value := value.(*[]*ComputeImageShieldedInstanceInitialStateDbxs)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeImageShieldedInstanceInitialStateDbxs; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeImageShieldedInstanceInitialStateDbxs; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeImageShieldedInstanceInitialStateKeks:
 		value := value.(*[]*ComputeImageShieldedInstanceInitialStateKeks)
@@ -179,7 +179,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeImageShieldedInstanceInitialStateKeks; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeImageShieldedInstanceInitialStateKeks; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -197,7 +197,7 @@ func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -286,7 +286,7 @@ func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -294,7 +294,7 @@ func (j *jsiiProxy_ComputeImageShieldedInstanceInitialStateOutputReference) vali
 	return nil
 }
 
-func validateNewComputeImageShieldedInstanceInitialStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeImageShieldedInstanceInitialStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

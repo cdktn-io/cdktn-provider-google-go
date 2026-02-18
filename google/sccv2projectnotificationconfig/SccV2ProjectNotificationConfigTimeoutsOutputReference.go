@@ -5,14 +5,14 @@ package sccv2projectnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccv2projectnotificationconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sccv2projectnotificationconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SccV2ProjectNotificationConfigTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SccV2ProjectNotificationConfigTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type SccV2ProjectNotificationConfigTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SccV2ProjectNotificationConfigTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SccV2ProjectNotificationConfigTimeoutsOutputReference interface {
 
 // The jsii proxy struct for SccV2ProjectNotificationConfigTimeoutsOutputReference
 type jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) Update
 }
 
 
-func NewSccV2ProjectNotificationConfigTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SccV2ProjectNotificationConfigTimeoutsOutputReference {
+func NewSccV2ProjectNotificationConfigTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SccV2ProjectNotificationConfigTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSccV2ProjectNotificationConfigTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSccV2ProjectNotificationConfigTimeoutsOutputReference(terraformResource 
 	return &j
 }
 
-func NewSccV2ProjectNotificationConfigTimeoutsOutputReference_Override(s SccV2ProjectNotificationConfigTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSccV2ProjectNotificationConfigTimeoutsOutputReference_Override(s SccV2ProjectNotificationConfigTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) GetAny
 	return returns
 }
 
-func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) GetStr
 	return returns
 }
 
-func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) Interp
 	return returns
 }
 
-func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) ResetU
 	)
 }
 
-func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SccV2ProjectNotificationConfigTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

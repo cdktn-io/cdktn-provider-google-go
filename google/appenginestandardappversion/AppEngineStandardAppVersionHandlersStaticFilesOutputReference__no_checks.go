@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference
 	return nil
 }
 
-func (a *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersionHandlersStaticFilesOutputReference
 	return nil
 }
 
-func validateNewAppEngineStandardAppVersionHandlersStaticFilesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppEngineStandardAppVersionHandlersStaticFilesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

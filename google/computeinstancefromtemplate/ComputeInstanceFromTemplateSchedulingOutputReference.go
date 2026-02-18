@@ -5,14 +5,14 @@ package computeinstancefromtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinstancefromtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeinstancefromtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeInstanceFromTemplateSchedulingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutomaticRestart() interface{}
 	SetAutomaticRestart(val interface{})
 	AutomaticRestartInput() interface{}
@@ -69,15 +69,15 @@ type ComputeInstanceFromTemplateSchedulingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -93,9 +93,9 @@ type ComputeInstanceFromTemplateSchedulingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLocalSsdRecoveryTimeout(value *ComputeInstanceFromTemplateSchedulingLocalSsdRecoveryTimeout)
 	PutMaxRunDuration(value *ComputeInstanceFromTemplateSchedulingMaxRunDuration)
 	PutNodeAffinities(value interface{})
@@ -114,7 +114,7 @@ type ComputeInstanceFromTemplateSchedulingOutputReference interface {
 	ResetTerminationTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -124,7 +124,7 @@ type ComputeInstanceFromTemplateSchedulingOutputReference interface {
 
 // The jsii proxy struct for ComputeInstanceFromTemplateSchedulingOutputReference
 type jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) AutomaticRestart() interface{} {
@@ -427,8 +427,8 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -438,7 +438,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) Terrafo
 }
 
 
-func NewComputeInstanceFromTemplateSchedulingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeInstanceFromTemplateSchedulingOutputReference {
+func NewComputeInstanceFromTemplateSchedulingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeInstanceFromTemplateSchedulingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeInstanceFromTemplateSchedulingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -455,7 +455,7 @@ func NewComputeInstanceFromTemplateSchedulingOutputReference(terraformResource c
 	return &j
 }
 
-func NewComputeInstanceFromTemplateSchedulingOutputReference_Override(c ComputeInstanceFromTemplateSchedulingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeInstanceFromTemplateSchedulingOutputReference_Override(c ComputeInstanceFromTemplateSchedulingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -597,7 +597,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -637,11 +637,11 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) GetAnyM
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -765,8 +765,8 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) GetStri
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -778,11 +778,11 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) Interpo
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -934,7 +934,7 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) ResetTe
 	)
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validat
 	return nil
 }
 
-func (i *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IapTunnelDestGroupIamBindingConditionOutputReference) validat
 	return nil
 }
 
-func validateNewIapTunnelDestGroupIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIapTunnelDestGroupIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

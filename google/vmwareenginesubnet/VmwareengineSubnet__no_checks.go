@@ -111,7 +111,7 @@ func (j *jsiiProxy_VmwareengineSubnet) validateSetIpCidrRangeParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineSubnet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VmwareengineSubnet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

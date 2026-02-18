@@ -5,14 +5,14 @@ package vertexaiendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaiendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaiendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference interface {
 
 // The jsii proxy struct for VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 type jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) ComplexObjectIndex() interface{} {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 }
 
 
-func NewVertexAiEndpointDeployedModelsPrivateEndpointsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference {
+func NewVertexAiEndpointDeployedModelsPrivateEndpointsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiEndpointDeployedModelsPrivateEndpointsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewVertexAiEndpointDeployedModelsPrivateEndpointsOutputReference(terraformR
 	return &j
 }
 
-func NewVertexAiEndpointDeployedModelsPrivateEndpointsOutputReference_Override(v VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVertexAiEndpointDeployedModelsPrivateEndpointsOutputReference_Override(v VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 	)
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -433,8 +433,8 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -446,11 +446,11 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -462,7 +462,7 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsPrivateEndpointsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

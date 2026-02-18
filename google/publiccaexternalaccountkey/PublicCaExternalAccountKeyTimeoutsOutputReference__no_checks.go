@@ -47,7 +47,7 @@ func (p *jsiiProxy_PublicCaExternalAccountKeyTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (p *jsiiProxy_PublicCaExternalAccountKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PublicCaExternalAccountKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PublicCaExternalAccountKeyTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PublicCaExternalAccountKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PublicCaExternalAccountKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPublicCaExternalAccountKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPublicCaExternalAccountKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

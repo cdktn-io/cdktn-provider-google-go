@@ -107,7 +107,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunResource) validateS
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunResource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunResource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

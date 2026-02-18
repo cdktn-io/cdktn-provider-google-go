@@ -5,21 +5,21 @@ package storagedefaultobjectacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagedefaultobjectacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/storagedefaultobjectacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_default_object_acl google_storage_default_object_acl}.
 type StorageDefaultObjectAcl interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type StorageDefaultObjectAcl interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,15 +46,15 @@ type StorageDefaultObjectAcl interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type StorageDefaultObjectAcl interface {
 	SetRoleEntity(val *[]*string)
 	RoleEntityInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type StorageDefaultObjectAcl interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,9 +96,9 @@ type StorageDefaultObjectAcl interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -133,7 +133,7 @@ type StorageDefaultObjectAcl interface {
 
 // The jsii proxy struct for StorageDefaultObjectAcl
 type jsiiProxy_StorageDefaultObjectAcl struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StorageDefaultObjectAcl) Bucket() *string {
@@ -156,8 +156,8 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StorageDefaultObjectAcl) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -206,8 +206,8 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StorageDefaultObjectAcl) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -256,8 +256,8 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StorageDefaultObjectAcl) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -276,8 +276,8 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StorageDefaultObjectAcl) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -326,8 +326,8 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) RoleEntityInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StorageDefaultObjectAcl) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -427,7 +427,7 @@ func (j *jsiiProxy_StorageDefaultObjectAcl)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StorageDefaultObjectAcl)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -446,7 +446,7 @@ func (j *jsiiProxy_StorageDefaultObjectAcl)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StorageDefaultObjectAcl)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -457,7 +457,7 @@ func (j *jsiiProxy_StorageDefaultObjectAcl)SetLifecycle(val *cdktf.TerraformReso
 	)
 }
 
-func (j *jsiiProxy_StorageDefaultObjectAcl)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StorageDefaultObjectAcl)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -487,14 +487,14 @@ func (j *jsiiProxy_StorageDefaultObjectAcl)SetRoleEntity(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a StorageDefaultObjectAcl resource upon running "cdktf plan <stack-name>".
-func StorageDefaultObjectAcl_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StorageDefaultObjectAcl resource upon running "cdktn plan <stack-name>".
+func StorageDefaultObjectAcl_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStorageDefaultObjectAcl_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.storageDefaultObjectAcl.StorageDefaultObjectAcl",
@@ -628,11 +628,11 @@ func (s *jsiiProxy_StorageDefaultObjectAcl) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (s *jsiiProxy_StorageDefaultObjectAcl) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageDefaultObjectAcl) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -769,7 +769,7 @@ func (s *jsiiProxy_StorageDefaultObjectAcl) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_StorageDefaultObjectAcl) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StorageDefaultObjectAcl) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -780,11 +780,11 @@ func (s *jsiiProxy_StorageDefaultObjectAcl) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (s *jsiiProxy_StorageDefaultObjectAcl) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageDefaultObjectAcl) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputR
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputR
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *AccessContextManagerServicePerimeterSpecEgressPolicies:
 		val := val.(*AccessContextManagerServicePerimeterSpecEgressPolicies)
@@ -205,7 +205,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputR
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *AccessContextManagerServicePerimeterSpecEgressPolicies; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AccessContextManagerServicePerimeterSpecEgressPolicies; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -220,7 +220,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputR
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -236,7 +236,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesOutputR
 	return nil
 }
 
-func validateNewAccessContextManagerServicePerimeterSpecEgressPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAccessContextManagerServicePerimeterSpecEgressPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

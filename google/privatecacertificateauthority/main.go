@@ -123,7 +123,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthority{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -148,7 +148,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -182,7 +182,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityAccessUrlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -275,7 +275,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigSubjectConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -327,7 +327,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigSubjectConfigSubjectAltNameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigSubjectConfigSubjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -421,7 +421,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigSubjectKeyIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -451,7 +451,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigAdditionalExtensionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -489,7 +489,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigAdditionalExtensionsObjectIdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -528,7 +528,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigAdditionalExtensionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -575,7 +575,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigCaOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -642,7 +642,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigKeyUsageBaseKeyUsageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -696,7 +696,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigKeyUsageExtendedKeyUsageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -738,7 +738,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigKeyUsageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -764,7 +764,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigKeyUsageUnknownExtendedKeyUsagesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -798,7 +798,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigKeyUsageUnknownExtendedKeyUsagesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -860,7 +860,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigNameConstraintsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -913,7 +913,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -939,7 +939,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigPolicyIdsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -973,7 +973,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityConfigX509ConfigPolicyIdsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1015,7 +1015,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityKeySpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1058,7 +1058,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1097,7 +1097,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1142,7 +1142,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1184,7 +1184,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivatecaCertificateAuthorityUserDefinedAccessUrlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

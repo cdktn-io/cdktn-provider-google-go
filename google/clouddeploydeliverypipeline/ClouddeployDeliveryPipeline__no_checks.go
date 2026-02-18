@@ -123,7 +123,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipeline) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployDeliveryPipeline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ClouddeployDeliveryPipeline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

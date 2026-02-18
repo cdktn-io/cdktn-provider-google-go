@@ -15,7 +15,7 @@ func (a *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) valid
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) valid
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AlloydbInstancePscInstanceConfigPscAutoConnectionsList) valid
 	return nil
 }
 
-func validateNewAlloydbInstancePscInstanceConfigPscAutoConnectionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAlloydbInstancePscInstanceConfigPscAutoConnectionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -147,7 +147,7 @@ func (j *jsiiProxy_StorageInsightsDatasetConfig) validateSetIncludeNewlyCreatedB
 	return nil
 }
 
-func (j *jsiiProxy_StorageInsightsDatasetConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageInsightsDatasetConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

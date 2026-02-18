@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAzureClusterControlPlaneSshConfigOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAzureClusterControlPlaneSshConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAzureClusterControlPlaneSshConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerAzureClusterControlPlaneSshConfigOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAzureClusterControlPlaneSshConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAzureClusterControlPlaneSshConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAzureClusterControlPlaneSshConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAzureClusterControlPlaneSshConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

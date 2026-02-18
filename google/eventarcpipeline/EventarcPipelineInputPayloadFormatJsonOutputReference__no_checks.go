@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventarcPipelineInputPayloadFormatJsonOutputReference) valida
 	return nil
 }
 
-func (e *jsiiProxy_EventarcPipelineInputPayloadFormatJsonOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcPipelineInputPayloadFormatJsonOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_EventarcPipelineInputPayloadFormatJsonOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_EventarcPipelineInputPayloadFormatJsonOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcPipelineInputPayloadFormatJsonOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventarcPipelineInputPayloadFormatJsonOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventarcPipelineInputPayloadFormatJsonOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

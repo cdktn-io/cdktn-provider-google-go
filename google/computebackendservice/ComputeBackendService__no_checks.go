@@ -207,7 +207,7 @@ func (j *jsiiProxy_ComputeBackendService) validateSetIpAddressSelectionPolicyPar
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeBackendService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

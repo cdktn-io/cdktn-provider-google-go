@@ -15,7 +15,7 @@ func (l *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateGetParameter
 	return nil
 }
 
-func (l *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LoggingMetricMetricDescriptorLabelsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewLoggingMetricMetricDescriptorLabelsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLoggingMetricMetricDescriptorLabelsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

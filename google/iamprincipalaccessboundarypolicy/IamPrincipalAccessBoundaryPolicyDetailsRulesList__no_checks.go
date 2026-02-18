@@ -15,7 +15,7 @@ func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateGet
 	return nil
 }
 
-func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicyDetailsRulesList) validateSet
 	return nil
 }
 
-func validateNewIamPrincipalAccessBoundaryPolicyDetailsRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIamPrincipalAccessBoundaryPolicyDetailsRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

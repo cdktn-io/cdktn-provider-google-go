@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubFeatureFleetDefaultMemberConfigMeshOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFeatureFleetDefaultMemberConfigMeshOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFeatureFleetDefaultMemberConfigMeshOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeHubFeatureFleetDefaultMemberConfigMeshOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureFleetDefaultMemberConfigMeshOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFeatureFleetDefaultMemberConfigMeshOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubFeatureFleetDefaultMemberConfigMeshOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubFeatureFleetDefaultMemberConfigMeshOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

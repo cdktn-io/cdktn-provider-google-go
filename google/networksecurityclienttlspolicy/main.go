@@ -94,7 +94,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -136,7 +136,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -174,7 +174,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -214,7 +214,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -298,7 +298,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -320,7 +320,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyServerValidationCaList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -360,7 +360,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyServerValidationCaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -405,7 +405,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkSecurityClientTlsPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

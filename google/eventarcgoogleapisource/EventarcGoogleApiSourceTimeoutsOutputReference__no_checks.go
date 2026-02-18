@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EventarcGoogleApiSourceTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewEventarcGoogleApiSourceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventarcGoogleApiSourceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

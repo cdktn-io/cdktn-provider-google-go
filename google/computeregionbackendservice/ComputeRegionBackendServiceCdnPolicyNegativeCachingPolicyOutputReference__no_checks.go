@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutp
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutp
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

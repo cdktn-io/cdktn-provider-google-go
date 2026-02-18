@@ -113,7 +113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfig{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -162,7 +162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -184,7 +184,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -225,7 +225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigContentMatchersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -255,7 +255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -293,7 +293,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAcceptedResponseStatusCodesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -340,7 +340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigHttpCheckAuthInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -418,7 +418,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigHttpCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -456,7 +456,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -495,7 +495,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigHttpCheckServiceAgentAuthenticationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -535,7 +535,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigMonitoredResourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -577,7 +577,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigResourceGroupOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -619,7 +619,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigSyntheticMonitorCloudFunctionV2OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -654,7 +654,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigSyntheticMonitorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -696,7 +696,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigTcpCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -734,7 +734,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigTcpCheckPingConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -779,7 +779,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitoringUptimeCheckConfigTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

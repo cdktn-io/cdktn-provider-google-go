@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) validate
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesGrpcRouteRulesMatchesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkServicesGrpcRouteRulesMatchesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

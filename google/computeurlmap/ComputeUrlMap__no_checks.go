@@ -143,7 +143,7 @@ func (j *jsiiProxy_ComputeUrlMap) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_ComputeUrlMap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeUrlMap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

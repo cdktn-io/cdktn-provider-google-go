@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList
 	return nil
 }
 
-func validateNewComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

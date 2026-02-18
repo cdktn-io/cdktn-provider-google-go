@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigWorkerConfigAcceleratorsList) val
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigWorkerConfigAcceleratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataprocClusterClusterConfigWorkerConfigAcceleratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

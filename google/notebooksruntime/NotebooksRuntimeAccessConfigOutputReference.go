@@ -5,14 +5,14 @@ package notebooksruntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/notebooksruntime/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/notebooksruntime/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NotebooksRuntimeAccessConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessType() *string
 	SetAccessType(val *string)
 	AccessTypeInput() *string
@@ -44,15 +44,15 @@ type NotebooksRuntimeAccessConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type NotebooksRuntimeAccessConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccessType()
 	ResetRuntimeOwner()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type NotebooksRuntimeAccessConfigOutputReference interface {
 
 // The jsii proxy struct for NotebooksRuntimeAccessConfigOutputReference
 type jsiiProxy_NotebooksRuntimeAccessConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) AccessType() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) TerraformResourc
 }
 
 
-func NewNotebooksRuntimeAccessConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NotebooksRuntimeAccessConfigOutputReference {
+func NewNotebooksRuntimeAccessConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NotebooksRuntimeAccessConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNotebooksRuntimeAccessConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewNotebooksRuntimeAccessConfigOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewNotebooksRuntimeAccessConfigOutputReference_Override(n NotebooksRuntimeAccessConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNotebooksRuntimeAccessConfigOutputReference_Override(n NotebooksRuntimeAccessConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -302,7 +302,7 @@ func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -342,11 +342,11 @@ func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -470,8 +470,8 @@ func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -483,11 +483,11 @@ func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) InterpolationAsL
 	return returns
 }
 
-func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -515,7 +515,7 @@ func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) ResetRuntimeOwne
 	)
 }
 
-func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NotebooksRuntimeAccessConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

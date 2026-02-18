@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigAutoscalingConfigOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigAutoscalingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigAutoscalingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocClusterClusterConfigAutoscalingConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigAutoscalingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterClusterConfigAutoscalingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

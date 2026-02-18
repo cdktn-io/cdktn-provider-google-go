@@ -5,14 +5,14 @@ package spannerdatabaseiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/spannerdatabaseiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/spannerdatabaseiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpannerDatabaseIamBindingConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type SpannerDatabaseIamBindingConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type SpannerDatabaseIamBindingConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type SpannerDatabaseIamBindingConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type SpannerDatabaseIamBindingConditionOutputReference interface {
 
 // The jsii proxy struct for SpannerDatabaseIamBindingConditionOutputReference
 type jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) TitleInput
 }
 
 
-func NewSpannerDatabaseIamBindingConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpannerDatabaseIamBindingConditionOutputReference {
+func NewSpannerDatabaseIamBindingConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpannerDatabaseIamBindingConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpannerDatabaseIamBindingConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewSpannerDatabaseIamBindingConditionOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewSpannerDatabaseIamBindingConditionOutputReference_Override(s SpannerDatabaseIamBindingConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpannerDatabaseIamBindingConditionOutputReference_Override(s SpannerDatabaseIamBindingConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) GetAnyMapA
 	return returns
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -492,8 +492,8 @@ func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) GetStringM
 	return returns
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -505,11 +505,11 @@ func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) Interpolat
 	return returns
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,7 +529,7 @@ func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) ResetDescr
 	)
 }
 
-func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpannerDatabaseIamBindingConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

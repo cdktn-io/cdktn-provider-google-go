@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouterPeerCustomLearnedIpRangesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRouterPeerCustomLearnedIpRangesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRouterPeerCustomLearnedIpRangesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

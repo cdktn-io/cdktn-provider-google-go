@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateGetPa
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorList) validateSetWr
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigGuestAcceleratorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerClusterNodeConfigGuestAcceleratorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

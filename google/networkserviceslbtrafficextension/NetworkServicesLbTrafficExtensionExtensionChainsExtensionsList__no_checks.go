@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 	return nil
 }
 
-func validateNewNetworkServicesLbTrafficExtensionExtensionChainsExtensionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkServicesLbTrafficExtensionExtensionChainsExtensionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

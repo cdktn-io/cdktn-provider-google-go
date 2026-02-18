@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOption
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOption
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOption
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateScratchDiskOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceFromTemplateScratchDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceFromTemplateScratchDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateScratchDiskOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceFromTemplateScratchDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceFromTemplateScratchDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceFromTemplateScratchDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeInstanceFromTemplateScratchDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

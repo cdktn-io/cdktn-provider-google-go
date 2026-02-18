@@ -5,14 +5,14 @@ package apigeesecurityaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeesecurityaction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeesecurityaction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApigeeSecurityActionConditionConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessTokens() *[]*string
 	SetAccessTokens(val *[]*string)
 	AccessTokensInput() *[]*string
@@ -67,9 +67,9 @@ type ApigeeSecurityActionConditionConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserAgents() *[]*string
 	SetUserAgents(val *[]*string)
 	UserAgentsInput() *[]*string
@@ -78,7 +78,7 @@ type ApigeeSecurityActionConditionConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,9 +94,9 @@ type ApigeeSecurityActionConditionConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccessTokens()
 	ResetApiKeys()
 	ResetApiProducts()
@@ -110,7 +110,7 @@ type ApigeeSecurityActionConditionConfigOutputReference interface {
 	ResetUserAgents()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type ApigeeSecurityActionConditionConfigOutputReference interface {
 
 // The jsii proxy struct for ApigeeSecurityActionConditionConfigOutputReference
 type jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) AccessTokens() *[]*string {
@@ -383,8 +383,8 @@ func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) UserAgent
 }
 
 
-func NewApigeeSecurityActionConditionConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApigeeSecurityActionConditionConfigOutputReference {
+func NewApigeeSecurityActionConditionConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApigeeSecurityActionConditionConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigeeSecurityActionConditionConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -431,7 +431,7 @@ func NewApigeeSecurityActionConditionConfigOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewApigeeSecurityActionConditionConfigOutputReference_Override(a ApigeeSecurityActionConditionConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApigeeSecurityActionConditionConfigOutputReference_Override(a ApigeeSecurityActionConditionConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -595,7 +595,7 @@ func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -646,11 +646,11 @@ func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -774,8 +774,8 @@ func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -787,11 +787,11 @@ func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -891,7 +891,7 @@ func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) ResetUser
 	)
 }
 
-func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApigeeSecurityActionConditionConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpApplicationUpstreamsNetworkOutputReference) validat
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationUpstreamsNetworkOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpApplicationUpstreamsNetworkOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BeyondcorpApplicationUpstreamsNetworkOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationUpstreamsNetworkOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpApplicationUpstreamsNetworkOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBeyondcorpApplicationUpstreamsNetworkOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBeyondcorpApplicationUpstreamsNetworkOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

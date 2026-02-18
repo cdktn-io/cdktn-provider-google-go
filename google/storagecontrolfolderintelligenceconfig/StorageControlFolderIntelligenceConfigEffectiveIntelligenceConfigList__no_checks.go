@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceCo
 	return nil
 }
 
-func (s *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceCo
 	return nil
 }
 
-func (j *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_StorageControlFolderIntelligenceConfigEffectiveIntelligenceCo
 	return nil
 }
 
-func validateNewStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

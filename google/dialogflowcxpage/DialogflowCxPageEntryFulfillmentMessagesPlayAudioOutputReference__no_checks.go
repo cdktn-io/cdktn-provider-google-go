@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxPageEntryFulfillmentMessagesPlayAudioOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

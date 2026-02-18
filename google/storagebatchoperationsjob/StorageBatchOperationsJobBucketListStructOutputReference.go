@@ -5,14 +5,14 @@ package storagebatchoperationsjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagebatchoperationsjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/storagebatchoperationsjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageBatchOperationsJobBucketListStructOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Buckets() StorageBatchOperationsJobBucketListBucketsOutputReference
 	BucketsInput() *StorageBatchOperationsJobBucketListBuckets
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type StorageBatchOperationsJobBucketListStructOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type StorageBatchOperationsJobBucketListStructOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBuckets(value *StorageBatchOperationsJobBucketListBuckets)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type StorageBatchOperationsJobBucketListStructOutputReference interface {
 
 // The jsii proxy struct for StorageBatchOperationsJobBucketListStructOutputReference
 type jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Buckets() StorageBatchOperationsJobBucketListBucketsOutputReference {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Ter
 }
 
 
-func NewStorageBatchOperationsJobBucketListStructOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StorageBatchOperationsJobBucketListStructOutputReference {
+func NewStorageBatchOperationsJobBucketListStructOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StorageBatchOperationsJobBucketListStructOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageBatchOperationsJobBucketListStructOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewStorageBatchOperationsJobBucketListStructOutputReference(terraformResour
 	return &j
 }
 
-func NewStorageBatchOperationsJobBucketListStructOutputReference_Override(s StorageBatchOperationsJobBucketListStructOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStorageBatchOperationsJobBucketListStructOutputReference_Override(s StorageBatchOperationsJobBucketListStructOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -412,8 +412,8 @@ func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -425,11 +425,11 @@ func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Int
 	return returns
 }
 
-func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -452,7 +452,7 @@ func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Put
 	)
 }
 
-func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageBatchOperationsJobBucketListStructOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

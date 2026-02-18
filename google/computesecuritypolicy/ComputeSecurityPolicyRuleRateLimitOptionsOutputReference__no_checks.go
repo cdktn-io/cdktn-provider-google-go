@@ -63,7 +63,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleRateLimitOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRuleRateLimitOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRuleRateLimitOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

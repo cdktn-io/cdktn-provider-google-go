@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildSecretList) validateGetParameters(index
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildSecretList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildSecretList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudbuildTriggerBuildSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

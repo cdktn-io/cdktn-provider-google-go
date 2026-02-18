@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateGetParameters(
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildStepVolumesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudbuildTriggerBuildStepVolumesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

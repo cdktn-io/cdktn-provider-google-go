@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutput
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutput
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesGrpcRouteRulesActionFaultInjectionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

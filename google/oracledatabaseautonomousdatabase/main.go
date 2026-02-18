@@ -106,7 +106,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabase{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -139,7 +139,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesApexDetailsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesApexDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -202,7 +202,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -237,7 +237,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -258,7 +258,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -296,7 +296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -321,7 +321,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -362,7 +362,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionStringsProfilesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -387,7 +387,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionUrlsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -427,7 +427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesConnectionUrlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -453,7 +453,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -487,7 +487,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesCustomerContactsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -512,7 +512,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -549,7 +549,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -670,7 +670,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -695,7 +695,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -730,7 +730,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -755,7 +755,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStartTimeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -791,7 +791,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStartTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -816,7 +816,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -852,7 +852,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsStopTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -897,7 +897,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OracleDatabaseAutonomousDatabaseTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

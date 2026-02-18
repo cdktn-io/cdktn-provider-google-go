@@ -107,7 +107,7 @@ func (j *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

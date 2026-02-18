@@ -165,7 +165,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersion{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -215,7 +215,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionApiConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingCpuUtilizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -308,7 +308,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingDiskUtilizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -356,7 +356,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingNetworkUtilizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -427,7 +427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -469,7 +469,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -518,7 +518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionDeploymentCloudBuildOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -556,7 +556,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionDeploymentContainerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -582,7 +582,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionDeploymentFilesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -621,7 +621,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionDeploymentFilesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -669,7 +669,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionDeploymentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -710,7 +710,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionDeploymentZipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -757,7 +757,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionEndpointsApiServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -795,7 +795,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionEntrypointOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -837,7 +837,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionFlexibleRuntimeSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -863,7 +863,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionHandlersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -918,7 +918,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionHandlersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -956,7 +956,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionHandlersScriptOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1013,7 +1013,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionHandlersStaticFilesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1069,7 +1069,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionLivenessCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1107,7 +1107,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionManualScalingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1157,7 +1157,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionNetworkOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1213,7 +1213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionReadinessCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1262,7 +1262,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1288,7 +1288,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1326,7 +1326,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionResourcesVolumesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1371,7 +1371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1409,7 +1409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AppEngineFlexibleAppVersionVpcAccessConnectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

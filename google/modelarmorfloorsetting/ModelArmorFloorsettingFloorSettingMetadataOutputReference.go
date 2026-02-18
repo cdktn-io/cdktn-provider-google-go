@@ -5,14 +5,14 @@ package modelarmorfloorsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/modelarmorfloorsetting/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/modelarmorfloorsetting/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ModelArmorFloorsettingFloorSettingMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type ModelArmorFloorsettingFloorSettingMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type ModelArmorFloorsettingFloorSettingMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMultiLanguageDetection(value *ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetection)
 	ResetMultiLanguageDetection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type ModelArmorFloorsettingFloorSettingMetadataOutputReference interface {
 
 // The jsii proxy struct for ModelArmorFloorsettingFloorSettingMetadataOutputReference
 type jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Te
 }
 
 
-func NewModelArmorFloorsettingFloorSettingMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ModelArmorFloorsettingFloorSettingMetadataOutputReference {
+func NewModelArmorFloorsettingFloorSettingMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ModelArmorFloorsettingFloorSettingMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewModelArmorFloorsettingFloorSettingMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewModelArmorFloorsettingFloorSettingMetadataOutputReference(terraformResou
 	return &j
 }
 
-func NewModelArmorFloorsettingFloorSettingMetadataOutputReference_Override(m ModelArmorFloorsettingFloorSettingMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewModelArmorFloorsettingFloorSettingMetadataOutputReference_Override(m ModelArmorFloorsettingFloorSettingMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Ge
 	return returns
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -413,8 +413,8 @@ func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Ge
 	return returns
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -426,11 +426,11 @@ func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) In
 	return returns
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -461,7 +461,7 @@ func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Re
 	)
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

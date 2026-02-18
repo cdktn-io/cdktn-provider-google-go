@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HealthcareDicomStoreIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func validateNewHealthcareDicomStoreIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareDicomStoreIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

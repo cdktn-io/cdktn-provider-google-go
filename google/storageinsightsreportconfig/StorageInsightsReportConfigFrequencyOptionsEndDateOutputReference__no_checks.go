@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageInsightsReportConfigFrequencyOptionsEndDateOutputRefer
 	return nil
 }
 
-func validateNewStorageInsightsReportConfigFrequencyOptionsEndDateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageInsightsReportConfigFrequencyOptionsEndDateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

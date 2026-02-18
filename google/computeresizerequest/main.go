@@ -87,7 +87,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequest{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -132,7 +132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestRequestedRunDurationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsErrorInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -208,7 +208,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsErrorInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -237,7 +237,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -271,7 +271,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -292,7 +292,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -325,7 +325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -346,7 +346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -371,7 +371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsLocalizedMessageList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -405,7 +405,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsLocalizedMessageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -441,7 +441,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -466,7 +466,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -504,7 +504,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsQuotaInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -525,7 +525,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -561,7 +561,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorErrorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -582,7 +582,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -615,7 +615,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusErrorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -656,7 +656,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsErrorInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -691,7 +691,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsErrorInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -720,7 +720,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsHelpLinksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -754,7 +754,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsHelpLinksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -775,7 +775,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsHelpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -808,7 +808,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsHelpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -829,7 +829,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -854,7 +854,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsLocalizedMessageList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -888,7 +888,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsLocalizedMessageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -924,7 +924,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -949,7 +949,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsQuotaInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -987,7 +987,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsErrorDetailsQuotaInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1008,7 +1008,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1044,7 +1044,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorErrorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1065,7 +1065,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1098,7 +1098,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptErrorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1119,7 +1119,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1152,7 +1152,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusLastAttemptOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1173,7 +1173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1207,7 +1207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1249,7 +1249,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeResizeRequestTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

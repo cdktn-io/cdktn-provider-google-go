@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) vali
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetappVolumeSnapshotPolicyWeeklyScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeSnapshotPolicyWeeklyScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

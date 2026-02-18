@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeInstanceGroupMembership) validateSetInstanceGroupParam
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeInstanceGroupMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

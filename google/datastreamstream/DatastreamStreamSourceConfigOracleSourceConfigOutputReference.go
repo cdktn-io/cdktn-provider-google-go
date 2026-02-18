@@ -5,14 +5,14 @@ package datastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datastreamstream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datastreamstream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatastreamStreamSourceConfigOracleSourceConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type DatastreamStreamSourceConfigOracleSourceConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type DatastreamStreamSourceConfigOracleSourceConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDropLargeObjects(value *DatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects)
 	PutExcludeObjects(value *DatastreamStreamSourceConfigOracleSourceConfigExcludeObjects)
 	PutIncludeObjects(value *DatastreamStreamSourceConfigOracleSourceConfigIncludeObjects)
@@ -90,7 +90,7 @@ type DatastreamStreamSourceConfigOracleSourceConfigOutputReference interface {
 	ResetStreamLargeObjects()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DatastreamStreamSourceConfigOracleSourceConfigOutputReference interface {
 
 // The jsii proxy struct for DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 type jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 }
 
 
-func NewDatastreamStreamSourceConfigOracleSourceConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatastreamStreamSourceConfigOracleSourceConfigOutputReference {
+func NewDatastreamStreamSourceConfigOracleSourceConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatastreamStreamSourceConfigOracleSourceConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatastreamStreamSourceConfigOracleSourceConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewDatastreamStreamSourceConfigOracleSourceConfigOutputReference(terraformR
 	return &j
 }
 
-func NewDatastreamStreamSourceConfigOracleSourceConfigOutputReference_Override(d DatastreamStreamSourceConfigOracleSourceConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatastreamStreamSourceConfigOracleSourceConfigOutputReference_Override(d DatastreamStreamSourceConfigOracleSourceConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -387,7 +387,7 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	)
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -427,11 +427,11 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -555,8 +555,8 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -568,11 +568,11 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -676,7 +676,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference
 	)
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatastreamStreamSourceConfigOracleSourceConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

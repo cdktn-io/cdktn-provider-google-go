@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateSetKeyValueParamete
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

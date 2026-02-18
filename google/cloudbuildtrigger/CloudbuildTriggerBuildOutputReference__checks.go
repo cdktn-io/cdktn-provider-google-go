@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -131,7 +131,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validatePutSecretParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudbuildTriggerBuildSecret:
 		value := value.(*[]*CloudbuildTriggerBuildSecret)
@@ -150,7 +150,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validatePutSecretParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudbuildTriggerBuildSecret; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudbuildTriggerBuildSecret; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -173,7 +173,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validatePutStepParamet
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudbuildTriggerBuildStep:
 		value := value.(*[]*CloudbuildTriggerBuildStep)
@@ -192,14 +192,14 @@ func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validatePutStepParamet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudbuildTriggerBuildStep; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudbuildTriggerBuildStep; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -328,7 +328,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -344,7 +344,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTimeoutPara
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildTriggerBuildOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

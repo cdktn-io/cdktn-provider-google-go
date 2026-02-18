@@ -87,7 +87,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -167,7 +167,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -193,7 +193,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigAdBreaksList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -228,7 +228,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigAdBreaksOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -254,7 +254,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEditListStructList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -295,7 +295,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEditListStructOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -349,7 +349,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsAudioStreamOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -371,7 +371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -414,7 +414,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -535,7 +535,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -571,7 +571,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -607,7 +607,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigElementaryStreamsVideoStreamOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -647,7 +647,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsAes128OutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -687,7 +687,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -723,7 +723,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsFairplayOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -771,7 +771,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -807,7 +807,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsPlayreadyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -843,7 +843,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsWidevineOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -865,7 +865,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -903,7 +903,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsMpegCencOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -957,7 +957,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -993,7 +993,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsSampleAesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1031,7 +1031,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1057,7 +1057,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigInputsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1095,7 +1095,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigInputsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1121,7 +1121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigManifestsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1162,7 +1162,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigManifestsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1188,7 +1188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigMuxStreamsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1239,7 +1239,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigMuxStreamsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1278,7 +1278,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigMuxStreamsSegmentSettingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1317,7 +1317,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOutputOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1373,7 +1373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysAnimationsAnimationFadeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1415,7 +1415,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysAnimationsAnimationFadeXyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1437,7 +1437,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysAnimationsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1473,7 +1473,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysAnimationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1511,7 +1511,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysImageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1533,7 +1533,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1573,7 +1573,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigOverlaysOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1612,7 +1612,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobConfigPubsubDestinationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1657,7 +1657,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_TranscoderJobTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

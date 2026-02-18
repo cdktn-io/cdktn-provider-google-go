@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerClusterNodeConfigReservationAffinityOutputReference)
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigReservationAffinityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodeConfigReservationAffinityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

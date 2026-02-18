@@ -5,14 +5,14 @@ package sqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sqldatabaseinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sqldatabaseinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllocatedIpRange() *string
 	SetAllocatedIpRange(val *string)
 	AllocatedIpRangeInput() *string
@@ -65,15 +65,15 @@ type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -89,9 +89,9 @@ type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthorizedNetworks(value interface{})
 	PutPscConfig(value interface{})
 	ResetAllocatedIpRange()
@@ -106,7 +106,7 @@ type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	ResetSslMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -116,7 +116,7 @@ type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 
 // The jsii proxy struct for SqlDatabaseInstanceSettingsIpConfigurationOutputReference
 type jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) AllocatedIpRange() *string {
@@ -379,8 +379,8 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Te
 }
 
 
-func NewSqlDatabaseInstanceSettingsIpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsIpConfigurationOutputReference {
+func NewSqlDatabaseInstanceSettingsIpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsIpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSqlDatabaseInstanceSettingsIpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -407,7 +407,7 @@ func NewSqlDatabaseInstanceSettingsIpConfigurationOutputReference(terraformResou
 	return &j
 }
 
-func NewSqlDatabaseInstanceSettingsIpConfigurationOutputReference_Override(s SqlDatabaseInstanceSettingsIpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSqlDatabaseInstanceSettingsIpConfigurationOutputReference_Override(s SqlDatabaseInstanceSettingsIpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -549,7 +549,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -589,11 +589,11 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Ge
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -717,8 +717,8 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Ge
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -730,11 +730,11 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) In
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -848,7 +848,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Re
 	)
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

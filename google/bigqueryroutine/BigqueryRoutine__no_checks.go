@@ -147,7 +147,7 @@ func (j *jsiiProxy_BigqueryRoutine) validateSetLanguageParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryRoutine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BigqueryRoutine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

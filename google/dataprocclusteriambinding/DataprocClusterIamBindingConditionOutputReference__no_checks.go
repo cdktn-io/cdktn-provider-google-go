@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataprocClusterIamBindingConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewDataprocClusterIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

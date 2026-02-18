@@ -139,7 +139,7 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOrigin) validateSetLabelsParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheOrigin) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheOrigin) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

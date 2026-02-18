@@ -5,14 +5,14 @@ package cloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudrunservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/cloudrunservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudRunServiceTrafficOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,16 +49,16 @@ type CloudRunServiceTrafficOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Url() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -74,15 +74,15 @@ type CloudRunServiceTrafficOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetLatestRevision()
 	ResetRevisionName()
 	ResetTag()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type CloudRunServiceTrafficOutputReference interface {
 
 // The jsii proxy struct for CloudRunServiceTrafficOutputReference
 type jsiiProxy_CloudRunServiceTrafficOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudRunServiceTrafficOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_CloudRunServiceTrafficOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunServiceTrafficOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudRunServiceTrafficOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -256,7 +256,7 @@ func (j *jsiiProxy_CloudRunServiceTrafficOutputReference) Url() *string {
 }
 
 
-func NewCloudRunServiceTrafficOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudRunServiceTrafficOutputReference {
+func NewCloudRunServiceTrafficOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudRunServiceTrafficOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudRunServiceTrafficOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -273,7 +273,7 @@ func NewCloudRunServiceTrafficOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewCloudRunServiceTrafficOutputReference_Override(c CloudRunServiceTrafficOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCloudRunServiceTrafficOutputReference_Override(c CloudRunServiceTrafficOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -371,7 +371,7 @@ func (j *jsiiProxy_CloudRunServiceTrafficOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_CloudRunServiceTrafficOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudRunServiceTrafficOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -411,11 +411,11 @@ func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -539,8 +539,8 @@ func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -552,11 +552,11 @@ func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -592,7 +592,7 @@ func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) ResetTag() {
 	)
 }
 
-func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudRunServiceTrafficOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

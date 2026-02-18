@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedKafkaAclAclEntriesOutputReference) validateInterpolati
 	return nil
 }
 
-func (m *jsiiProxy_ManagedKafkaAclAclEntriesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedKafkaAclAclEntriesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ManagedKafkaAclAclEntriesOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaAclAclEntriesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedKafkaAclAclEntriesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedKafkaAclAclEntriesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewManagedKafkaAclAclEntriesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

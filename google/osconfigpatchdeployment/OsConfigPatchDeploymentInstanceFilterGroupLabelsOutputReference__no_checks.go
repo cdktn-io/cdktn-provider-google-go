@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReferen
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

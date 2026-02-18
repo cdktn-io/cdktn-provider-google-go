@@ -15,7 +15,7 @@ func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	return nil
 }
 
-func validateNewDiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

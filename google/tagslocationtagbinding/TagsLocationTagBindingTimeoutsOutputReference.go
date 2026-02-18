@@ -5,14 +5,14 @@ package tagslocationtagbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/tagslocationtagbinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/tagslocationtagbinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TagsLocationTagBindingTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type TagsLocationTagBindingTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type TagsLocationTagBindingTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type TagsLocationTagBindingTimeoutsOutputReference interface {
 
 // The jsii proxy struct for TagsLocationTagBindingTimeoutsOutputReference
 type jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) TerraformResou
 }
 
 
-func NewTagsLocationTagBindingTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) TagsLocationTagBindingTimeoutsOutputReference {
+func NewTagsLocationTagBindingTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) TagsLocationTagBindingTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTagsLocationTagBindingTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewTagsLocationTagBindingTimeoutsOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewTagsLocationTagBindingTimeoutsOutputReference_Override(t TagsLocationTagBindingTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewTagsLocationTagBindingTimeoutsOutputReference_Override(t TagsLocationTagBindingTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -459,8 +459,8 @@ func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) GetStringMapAt
 	return returns
 }
 
-func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -472,11 +472,11 @@ func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) InterpolationA
 	return returns
 }
 
-func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -504,7 +504,7 @@ func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) ResetDelete() 
 	)
 }
 
-func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TagsLocationTagBindingTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

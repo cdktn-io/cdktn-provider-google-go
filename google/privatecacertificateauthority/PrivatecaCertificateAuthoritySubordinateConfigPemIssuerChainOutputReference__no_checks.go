@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainO
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainO
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

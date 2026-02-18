@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateGetParame
 	return nil
 }
 
-func (f *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_FirebaseAppHostingTrafficCurrentSplitsList) validateSetWrapsS
 	return nil
 }
 
-func validateNewFirebaseAppHostingTrafficCurrentSplitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirebaseAppHostingTrafficCurrentSplitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

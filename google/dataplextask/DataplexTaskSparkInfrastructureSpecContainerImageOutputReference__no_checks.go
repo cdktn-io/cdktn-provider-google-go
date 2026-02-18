@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexTaskSparkInfrastructureSpecContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexTaskSparkInfrastructureSpecContainerImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexTaskSparkInfrastructureSpecContainerImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

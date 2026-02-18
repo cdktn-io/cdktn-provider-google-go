@@ -5,14 +5,14 @@ package backupdrbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/backupdrbackupplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/backupdrbackupplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WeekOfMonth() *string
 	SetWeekOfMonth(val *string)
 	WeekOfMonthInput() *string
@@ -51,7 +51,7 @@ type BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference 
 
 // The jsii proxy struct for BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference
 type jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 	return returns
 }
 
-func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 }
 
 
-func NewBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference {
+func NewBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReferen
 	return &j
 }
 
-func NewBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference_Override(b BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference_Override(b BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 	)
 }
 
-func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 	return returns
 }
 
-func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -457,8 +457,8 @@ func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 	return returns
 }
 
-func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -470,11 +470,11 @@ func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 	return returns
 }
 
-func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -486,7 +486,7 @@ func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOu
 	return returns
 }
 
-func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

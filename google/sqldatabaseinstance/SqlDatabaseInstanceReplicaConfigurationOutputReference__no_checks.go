@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) valid
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceReplicaConfigurationOutputReference) valid
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceReplicaConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceReplicaConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

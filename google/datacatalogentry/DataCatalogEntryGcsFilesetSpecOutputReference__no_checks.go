@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataCatalogEntryGcsFilesetSpecOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataCatalogEntryGcsFilesetSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataCatalogEntryGcsFilesetSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataCatalogEntryGcsFilesetSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataCatalogEntryGcsFilesetSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataCatalogEntryGcsFilesetSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

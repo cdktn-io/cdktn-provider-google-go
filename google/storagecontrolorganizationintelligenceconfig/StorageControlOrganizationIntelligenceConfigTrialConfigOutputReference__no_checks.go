@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageControlOrganizationIntelligenceConfigTrialConfigOutput
 	return nil
 }
 
-func (s *jsiiProxy_StorageControlOrganizationIntelligenceConfigTrialConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageControlOrganizationIntelligenceConfigTrialConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_StorageControlOrganizationIntelligenceConfigTrialConfigOutput
 	return nil
 }
 
-func (j *jsiiProxy_StorageControlOrganizationIntelligenceConfigTrialConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageControlOrganizationIntelligenceConfigTrialConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageControlOrganizationIntelligenceConfigTrialConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageControlOrganizationIntelligenceConfigTrialConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

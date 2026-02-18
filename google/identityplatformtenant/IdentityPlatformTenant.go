@@ -5,21 +5,21 @@ package identityplatformtenant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/identityplatformtenant/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/identityplatformtenant/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/identity_platform_tenant google_identity_platform_tenant}.
 type IdentityPlatformTenant interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowPasswordSignup() interface{}
 	SetAllowPasswordSignup(val interface{})
 	AllowPasswordSignupInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Client() IdentityPlatformTenantClientOutputReference
 	ClientInput() *IdentityPlatformTenantClient
 	// Experimental.
@@ -46,9 +46,9 @@ type IdentityPlatformTenant interface {
 	SetEnableEmailLinkSignin(val interface{})
 	EnableEmailLinkSigninInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type IdentityPlatformTenant interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -67,9 +67,9 @@ type IdentityPlatformTenant interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type IdentityPlatformTenant interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type IdentityPlatformTenant interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type IdentityPlatformTenant interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,7 +154,7 @@ type IdentityPlatformTenant interface {
 
 // The jsii proxy struct for IdentityPlatformTenant
 type jsiiProxy_IdentityPlatformTenant struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_IdentityPlatformTenant) AllowPasswordSignup() interface{} {
@@ -177,8 +177,8 @@ func (j *jsiiProxy_IdentityPlatformTenant) AllowPasswordSignupInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IdentityPlatformTenant) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_IdentityPlatformTenant) EnableEmailLinkSigninInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IdentityPlatformTenant) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_IdentityPlatformTenant) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IdentityPlatformTenant) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_IdentityPlatformTenant) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IdentityPlatformTenant) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -437,8 +437,8 @@ func (j *jsiiProxy_IdentityPlatformTenant) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IdentityPlatformTenant) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -591,7 +591,7 @@ func (j *jsiiProxy_IdentityPlatformTenant)SetEnableEmailLinkSignin(val interface
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IdentityPlatformTenant)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -610,7 +610,7 @@ func (j *jsiiProxy_IdentityPlatformTenant)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IdentityPlatformTenant)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -632,7 +632,7 @@ func (j *jsiiProxy_IdentityPlatformTenant)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IdentityPlatformTenant)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -651,14 +651,14 @@ func (j *jsiiProxy_IdentityPlatformTenant)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a IdentityPlatformTenant resource upon running "cdktf plan <stack-name>".
-func IdentityPlatformTenant_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IdentityPlatformTenant resource upon running "cdktn plan <stack-name>".
+func IdentityPlatformTenant_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIdentityPlatformTenant_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.identityPlatformTenant.IdentityPlatformTenant",
@@ -792,11 +792,11 @@ func (i *jsiiProxy_IdentityPlatformTenant) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformTenant) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformTenant) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -933,7 +933,7 @@ func (i *jsiiProxy_IdentityPlatformTenant) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformTenant) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IdentityPlatformTenant) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -944,11 +944,11 @@ func (i *jsiiProxy_IdentityPlatformTenant) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (i *jsiiProxy_IdentityPlatformTenant) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformTenant) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

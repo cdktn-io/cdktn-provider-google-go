@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkServicesServiceBinding) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesServiceBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkServicesServiceBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

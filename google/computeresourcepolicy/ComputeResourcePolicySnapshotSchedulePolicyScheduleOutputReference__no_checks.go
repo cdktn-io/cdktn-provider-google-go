@@ -59,7 +59,7 @@ func (c *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleOutputRefe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

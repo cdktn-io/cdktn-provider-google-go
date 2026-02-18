@@ -143,7 +143,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -182,7 +182,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterBinaryAuthorizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -221,7 +221,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterClusterOperationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -255,7 +255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneApiServerArgsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -291,7 +291,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -325,7 +325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -363,7 +363,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -409,7 +409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -435,7 +435,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -476,7 +476,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -511,7 +511,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneControlPlaneNodePoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -550,7 +550,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterControlPlaneOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -575,7 +575,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterFleetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -608,7 +608,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterFleetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -642,7 +642,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigAddressPoolsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -684,7 +684,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigAddressPoolsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -710,7 +710,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigBgpPeerConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -749,7 +749,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigBgpPeerConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -802,7 +802,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigKubeletConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -828,7 +828,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -866,7 +866,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -916,7 +916,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -942,7 +942,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -983,7 +983,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1019,7 +1019,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigLoadBalancerNodePoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1063,7 +1063,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerBgpLbConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1101,7 +1101,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerManualLbConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1131,7 +1131,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1173,7 +1173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1207,7 +1207,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1245,7 +1245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigLoadBalancerNodePoolConfigNodePoolConfigNodeConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1291,7 +1291,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigLoadBalancerNodePoolConfigNodePoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1317,7 +1317,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1358,7 +1358,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigLoadBalancerNodePoolConfigNodePoolConfigTaintsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1394,7 +1394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigLoadBalancerNodePoolConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1433,7 +1433,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1483,7 +1483,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1521,7 +1521,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerPortConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1561,7 +1561,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterLoadBalancerVipConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1599,7 +1599,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterMaintenanceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1643,7 +1643,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1682,7 +1682,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterNetworkConfigMultipleNetworkInterfacesConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1729,7 +1729,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterNetworkConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1768,7 +1768,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterNetworkConfigSrIovConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1807,7 +1807,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterNodeAccessConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1849,7 +1849,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterNodeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1887,7 +1887,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterOsEnvironmentConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1928,7 +1928,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterProxyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1962,7 +1962,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1996,7 +1996,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2031,7 +2031,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterSecurityConfigAuthorizationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2067,7 +2067,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterSecurityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2096,7 +2096,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStatusConditionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2133,7 +2133,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStatusConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2154,7 +2154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2188,7 +2188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2232,7 +2232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStorageLvpNodeMountsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2276,7 +2276,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStorageLvpShareConfigLvpConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2314,7 +2314,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStorageLvpShareConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2352,7 +2352,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterStorageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2397,7 +2397,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2436,7 +2436,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterUpgradePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2461,7 +2461,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterValidationCheckList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2496,7 +2496,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterValidationCheckOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2521,7 +2521,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterValidationCheckStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2554,7 +2554,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterValidationCheckStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2579,7 +2579,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterValidationCheckStatusResultList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2616,7 +2616,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GkeonpremBareMetalClusterValidationCheckStatusResultOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

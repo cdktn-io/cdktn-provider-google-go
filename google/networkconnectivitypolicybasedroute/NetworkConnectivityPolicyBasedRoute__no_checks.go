@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) validateSetLabelsParamet
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

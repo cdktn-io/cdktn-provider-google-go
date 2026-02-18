@@ -111,7 +111,7 @@ func (j *jsiiProxy_ComputeDiskAsyncReplication) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_ComputeDiskAsyncReplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeDiskAsyncReplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

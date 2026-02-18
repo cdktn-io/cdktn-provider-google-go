@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigPrimaryInsta
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigPrimaryInsta
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

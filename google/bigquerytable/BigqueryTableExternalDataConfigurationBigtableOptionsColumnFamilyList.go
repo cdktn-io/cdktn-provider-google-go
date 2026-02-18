@@ -5,14 +5,14 @@ package bigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigquerytable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigquerytable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList inter
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList inter
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList inter
 
 // The jsii proxy struct for BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList
 type jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 }
 
 
-func NewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList {
+func NewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList(te
 	return &j
 }
 
-func NewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList_Override(b BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList_Override(b BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	)
 }
 
-func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	)
 }
 
-func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFa
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

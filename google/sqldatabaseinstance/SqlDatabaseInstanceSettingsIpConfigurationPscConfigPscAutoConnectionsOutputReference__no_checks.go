@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoCon
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoCon
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySche
 	return nil
 }
 
-func (c *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySche
 	return nil
 }
 
-func (j *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

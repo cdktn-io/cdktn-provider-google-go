@@ -115,7 +115,7 @@ func (j *jsiiProxy_KmsCryptoKeyVersion) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_KmsCryptoKeyVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsCryptoKeyVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

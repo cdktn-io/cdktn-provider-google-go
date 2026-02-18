@@ -47,7 +47,7 @@ func (e *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (e *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EssentialContactsContactTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewEssentialContactsContactTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEssentialContactsContactTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

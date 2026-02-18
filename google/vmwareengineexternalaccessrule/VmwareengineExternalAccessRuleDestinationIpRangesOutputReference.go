@@ -5,14 +5,14 @@ package vmwareengineexternalaccessrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vmwareengineexternalaccessrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vmwareengineexternalaccessrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VmwareengineExternalAccessRuleDestinationIpRangesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type VmwareengineExternalAccessRuleDestinationIpRangesOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type VmwareengineExternalAccessRuleDestinationIpRangesOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExternalAddress()
 	ResetIpAddressRange()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type VmwareengineExternalAccessRuleDestinationIpRangesOutputReference interface 
 
 // The jsii proxy struct for VmwareengineExternalAccessRuleDestinationIpRangesOutputReference
 type jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 }
 
 
-func NewVmwareengineExternalAccessRuleDestinationIpRangesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VmwareengineExternalAccessRuleDestinationIpRangesOutputReference {
+func NewVmwareengineExternalAccessRuleDestinationIpRangesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VmwareengineExternalAccessRuleDestinationIpRangesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVmwareengineExternalAccessRuleDestinationIpRangesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewVmwareengineExternalAccessRuleDestinationIpRangesOutputReference(terrafo
 	return &j
 }
 
-func NewVmwareengineExternalAccessRuleDestinationIpRangesOutputReference_Override(v VmwareengineExternalAccessRuleDestinationIpRangesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVmwareengineExternalAccessRuleDestinationIpRangesOutputReference_Override(v VmwareengineExternalAccessRuleDestinationIpRangesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 	)
 }
 
-func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -459,8 +459,8 @@ func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -472,11 +472,11 @@ func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -504,7 +504,7 @@ func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
 	)
 }
 
-func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VmwareengineExternalAccessRuleDestinationIpRangesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

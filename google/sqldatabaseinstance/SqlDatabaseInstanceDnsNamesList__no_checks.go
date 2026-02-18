@@ -15,7 +15,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateGetParameters(index 
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceDnsNamesList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceDnsNamesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSqlDatabaseInstanceDnsNamesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

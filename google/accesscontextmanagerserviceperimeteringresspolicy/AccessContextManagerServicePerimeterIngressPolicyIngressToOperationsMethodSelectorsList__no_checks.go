@@ -15,7 +15,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOpe
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOpe
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterIngressPolicyIngressToOpe
 	return nil
 }
 
-func validateNewAccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAccessContextManagerServicePerimeterIngressPolicyIngressToOperationsMethodSelectorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

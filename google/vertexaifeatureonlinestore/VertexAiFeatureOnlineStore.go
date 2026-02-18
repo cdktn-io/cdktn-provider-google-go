@@ -5,20 +5,20 @@ package vertexaifeatureonlinestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaifeatureonlinestore/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaifeatureonlinestore/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store}.
 type VertexAiFeatureOnlineStore interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bigtable() VertexAiFeatureOnlineStoreBigtableOutputReference
 	BigtableInput() *VertexAiFeatureOnlineStoreBigtable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,15 +36,15 @@ type VertexAiFeatureOnlineStore interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Etag() *string
 	ForceDestroy() interface{}
 	SetForceDestroy(val interface{})
 	ForceDestroyInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type VertexAiFeatureOnlineStore interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type VertexAiFeatureOnlineStore interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,8 +84,8 @@ type VertexAiFeatureOnlineStore interface {
 	RegionInput() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type VertexAiFeatureOnlineStore interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type VertexAiFeatureOnlineStore interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -167,7 +167,7 @@ type VertexAiFeatureOnlineStore interface {
 
 // The jsii proxy struct for VertexAiFeatureOnlineStore
 type jsiiProxy_VertexAiFeatureOnlineStore struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_VertexAiFeatureOnlineStore) Bigtable() VertexAiFeatureOnlineStoreBigtableOutputReference {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) BigtableInput() *VertexAiFeatureO
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -310,8 +310,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) ForceDestroyInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) LabelsInput() *map[string]*string
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -460,8 +460,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -520,8 +520,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -530,8 +530,8 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) TerraformGeneratorMetadata() *cdk
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -661,7 +661,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetForceDestroy(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -691,7 +691,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetLabels(val *map[string]*string)
 	)
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -724,7 +724,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -754,14 +754,14 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a VertexAiFeatureOnlineStore resource upon running "cdktf plan <stack-name>".
-func VertexAiFeatureOnlineStore_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VertexAiFeatureOnlineStore resource upon running "cdktn plan <stack-name>".
+func VertexAiFeatureOnlineStore_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVertexAiFeatureOnlineStore_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.vertexAiFeatureOnlineStore.VertexAiFeatureOnlineStore",
@@ -895,11 +895,11 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStore) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStore) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiFeatureOnlineStore) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1036,7 +1036,7 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStore) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStore) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VertexAiFeatureOnlineStore) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1047,11 +1047,11 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStore) ImportFrom(id *string, provider c
 	)
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStore) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiFeatureOnlineStore) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

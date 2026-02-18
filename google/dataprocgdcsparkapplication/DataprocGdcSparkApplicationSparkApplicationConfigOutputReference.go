@@ -5,14 +5,14 @@ package dataprocgdcsparkapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocgdcsparkapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocgdcsparkapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocGdcSparkApplicationSparkApplicationConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ArchiveUris() *[]*string
 	SetArchiveUris(val *[]*string)
 	ArchiveUrisInput() *[]*string
@@ -55,15 +55,15 @@ type DataprocGdcSparkApplicationSparkApplicationConfigOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type DataprocGdcSparkApplicationSparkApplicationConfigOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetArchiveUris()
 	ResetArgs()
 	ResetFileUris()
@@ -90,7 +90,7 @@ type DataprocGdcSparkApplicationSparkApplicationConfigOutputReference interface 
 	ResetMainJarFileUri()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DataprocGdcSparkApplicationSparkApplicationConfigOutputReference interface 
 
 // The jsii proxy struct for DataprocGdcSparkApplicationSparkApplicationConfigOutputReference
 type jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) ArchiveUris() *[]*string {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 }
 
 
-func NewDataprocGdcSparkApplicationSparkApplicationConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataprocGdcSparkApplicationSparkApplicationConfigOutputReference {
+func NewDataprocGdcSparkApplicationSparkApplicationConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataprocGdcSparkApplicationSparkApplicationConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocGdcSparkApplicationSparkApplicationConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewDataprocGdcSparkApplicationSparkApplicationConfigOutputReference(terrafo
 	return &j
 }
 
-func NewDataprocGdcSparkApplicationSparkApplicationConfigOutputReference_Override(d DataprocGdcSparkApplicationSparkApplicationConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataprocGdcSparkApplicationSparkApplicationConfigOutputReference_Override(d DataprocGdcSparkApplicationSparkApplicationConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -431,7 +431,7 @@ func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 	)
 }
 
-func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -471,11 +471,11 @@ func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -599,8 +599,8 @@ func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -612,11 +612,11 @@ func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -676,7 +676,7 @@ func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputRefere
 	)
 }
 
-func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocGdcSparkApplicationSparkApplicationConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

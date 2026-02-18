@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirebaserulesRulesetMetadataList) validateGetParameters(index
 	return nil
 }
 
-func (f *jsiiProxy_FirebaserulesRulesetMetadataList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaserulesRulesetMetadataList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_FirebaserulesRulesetMetadataList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_FirebaserulesRulesetMetadataList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaserulesRulesetMetadataList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_FirebaserulesRulesetMetadataList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewFirebaserulesRulesetMetadataListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirebaserulesRulesetMetadataListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

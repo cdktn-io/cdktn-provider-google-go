@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validat
 	return nil
 }
 
-func (c *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validat
 	return nil
 }
 
-func (j *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputePacketMirroringMirroredResourcesInstancesList) validat
 	return nil
 }
 
-func validateNewComputePacketMirroringMirroredResourcesInstancesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputePacketMirroringMirroredResourcesInstancesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

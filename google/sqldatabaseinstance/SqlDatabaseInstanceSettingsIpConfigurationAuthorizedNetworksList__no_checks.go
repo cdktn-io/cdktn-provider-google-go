@@ -15,7 +15,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksL
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksL
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksL
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

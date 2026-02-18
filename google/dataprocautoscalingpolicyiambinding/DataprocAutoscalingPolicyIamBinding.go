@@ -5,18 +5,18 @@ package dataprocautoscalingpolicyiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocautoscalingpolicyiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocautoscalingpolicyiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataproc_autoscaling_policy_iam_binding google_dataproc_autoscaling_policy_iam_binding}.
 type DataprocAutoscalingPolicyIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() DataprocAutoscalingPolicyIamBindingConditionOutputReference
 	ConditionInput() *DataprocAutoscalingPolicyIamBindingCondition
 	// Experimental.
@@ -35,9 +35,9 @@ type DataprocAutoscalingPolicyIamBinding interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type DataprocAutoscalingPolicyIamBinding interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -64,9 +64,9 @@ type DataprocAutoscalingPolicyIamBinding interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type DataprocAutoscalingPolicyIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type DataprocAutoscalingPolicyIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type DataprocAutoscalingPolicyIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,11 +148,11 @@ type DataprocAutoscalingPolicyIamBinding interface {
 
 // The jsii proxy struct for DataprocAutoscalingPolicyIamBinding
 type jsiiProxy_DataprocAutoscalingPolicyIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -231,8 +231,8 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -281,8 +281,8 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -595,7 +595,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -625,14 +625,14 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamBinding)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataprocAutoscalingPolicyIamBinding resource upon running "cdktf plan <stack-name>".
-func DataprocAutoscalingPolicyIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataprocAutoscalingPolicyIamBinding resource upon running "cdktn plan <stack-name>".
+func DataprocAutoscalingPolicyIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataprocAutoscalingPolicyIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.dataprocAutoscalingPolicyIamBinding.DataprocAutoscalingPolicyIamBinding",
@@ -766,11 +766,11 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -907,7 +907,7 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) HasResourceMove() interf
 	return returns
 }
 
-func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -918,11 +918,11 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) ImportFrom(id *string, p
 	)
 }
 
-func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

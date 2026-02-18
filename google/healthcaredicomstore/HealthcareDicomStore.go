@@ -5,18 +5,18 @@ package healthcaredicomstore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/healthcaredicomstore/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/healthcaredicomstore/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/healthcare_dicom_store google_healthcare_dicom_store}.
 type HealthcareDicomStore interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -34,11 +34,11 @@ type HealthcareDicomStore interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type HealthcareDicomStore interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -61,9 +61,9 @@ type HealthcareDicomStore interface {
 	NotificationConfig() HealthcareDicomStoreNotificationConfigOutputReference
 	NotificationConfigInput() *HealthcareDicomStoreNotificationConfig
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,8 +72,8 @@ type HealthcareDicomStore interface {
 	RawOverrides() interface{}
 	SelfLink() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type HealthcareDicomStore interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type HealthcareDicomStore interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,11 +147,11 @@ type HealthcareDicomStore interface {
 
 // The jsii proxy struct for HealthcareDicomStore
 type jsiiProxy_HealthcareDicomStore struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_HealthcareDicomStore) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -220,8 +220,8 @@ func (j *jsiiProxy_HealthcareDicomStore) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_HealthcareDicomStore) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -230,8 +230,8 @@ func (j *jsiiProxy_HealthcareDicomStore) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_HealthcareDicomStore) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_HealthcareDicomStore) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_HealthcareDicomStore) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_HealthcareDicomStore) NotificationConfigInput() *HealthcareDi
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_HealthcareDicomStore) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -400,8 +400,8 @@ func (j *jsiiProxy_HealthcareDicomStore) SelfLink() *string {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_HealthcareDicomStore) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -410,8 +410,8 @@ func (j *jsiiProxy_HealthcareDicomStore) TerraformGeneratorMetadata() *cdktf.Ter
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_HealthcareDicomStore) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -531,7 +531,7 @@ func (j *jsiiProxy_HealthcareDicomStore)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_HealthcareDicomStore)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_HealthcareDicomStore)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -561,7 +561,7 @@ func (j *jsiiProxy_HealthcareDicomStore)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_HealthcareDicomStore)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_HealthcareDicomStore)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_HealthcareDicomStore)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_HealthcareDicomStore)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_HealthcareDicomStore)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -602,14 +602,14 @@ func (j *jsiiProxy_HealthcareDicomStore)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a HealthcareDicomStore resource upon running "cdktf plan <stack-name>".
-func HealthcareDicomStore_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a HealthcareDicomStore resource upon running "cdktn plan <stack-name>".
+func HealthcareDicomStore_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateHealthcareDicomStore_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.healthcareDicomStore.HealthcareDicomStore",
@@ -743,11 +743,11 @@ func (h *jsiiProxy_HealthcareDicomStore) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomStore) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomStore) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -884,7 +884,7 @@ func (h *jsiiProxy_HealthcareDicomStore) HasResourceMove() interface{} {
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomStore) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (h *jsiiProxy_HealthcareDicomStore) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := h.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -895,11 +895,11 @@ func (h *jsiiProxy_HealthcareDicomStore) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (h *jsiiProxy_HealthcareDicomStore) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomStore) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,

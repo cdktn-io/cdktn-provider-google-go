@@ -123,7 +123,7 @@ func (j *jsiiProxy_GkeHubFeatureMembership) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeHubFeatureMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

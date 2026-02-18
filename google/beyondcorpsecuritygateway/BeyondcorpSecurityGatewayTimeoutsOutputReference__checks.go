@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSet
 
 func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BeyondcorpSecurityGatewayTimeouts:
 		val := val.(*BeyondcorpSecurityGatewayTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BeyondcorpSecurityGatewayTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BeyondcorpSecurityGatewayTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewBeyondcorpSecurityGatewayTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBeyondcorpSecurityGatewayTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

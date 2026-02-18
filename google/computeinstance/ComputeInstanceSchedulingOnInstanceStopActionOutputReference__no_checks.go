@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceSchedulingOnInstanceStopActionOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceSchedulingOnInstanceStopActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceSchedulingOnInstanceStopActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeInstanceSchedulingOnInstanceStopActionOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceSchedulingOnInstanceStopActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceSchedulingOnInstanceStopActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInstanceSchedulingOnInstanceStopActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInstanceSchedulingOnInstanceStopActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

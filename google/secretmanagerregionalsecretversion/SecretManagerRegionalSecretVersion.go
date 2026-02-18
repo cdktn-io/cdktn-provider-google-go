@@ -5,18 +5,18 @@ package secretmanagerregionalsecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/secretmanagerregionalsecretversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/secretmanagerregionalsecretversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
 type SecretManagerRegionalSecretVersion interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type SecretManagerRegionalSecretVersion interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,17 +55,17 @@ type SecretManagerRegionalSecretVersion interface {
 	SetIsSecretDataBase64(val interface{})
 	IsSecretDataBase64Input() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type SecretManagerRegionalSecretVersion interface {
 	SecretDataInput() *string
 	SecretInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type SecretManagerRegionalSecretVersion interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type SecretManagerRegionalSecretVersion interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -154,11 +154,11 @@ type SecretManagerRegionalSecretVersion interface {
 
 // The jsii proxy struct for SecretManagerRegionalSecretVersion
 type jsiiProxy_SecretManagerRegionalSecretVersion struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) EnabledInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -347,8 +347,8 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) IsSecretDataBase64Input()
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -387,8 +387,8 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -457,8 +457,8 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -599,7 +599,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetEnabled(val interface{}
 	)
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -629,7 +629,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetIsSecretDataBase64(val 
 	)
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -640,7 +640,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetLifecycle(val *cdktf.Te
 	)
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -681,14 +681,14 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetSecretData(val *string)
 	)
 }
 
-// Generates CDKTF code for importing a SecretManagerRegionalSecretVersion resource upon running "cdktf plan <stack-name>".
-func SecretManagerRegionalSecretVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SecretManagerRegionalSecretVersion resource upon running "cdktn plan <stack-name>".
+func SecretManagerRegionalSecretVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSecretManagerRegionalSecretVersion_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.secretManagerRegionalSecretVersion.SecretManagerRegionalSecretVersion",
@@ -822,11 +822,11 @@ func (s *jsiiProxy_SecretManagerRegionalSecretVersion) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerRegionalSecretVersion) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretManagerRegionalSecretVersion) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -963,7 +963,7 @@ func (s *jsiiProxy_SecretManagerRegionalSecretVersion) HasResourceMove() interfa
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -974,11 +974,11 @@ func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ImportFrom(id *string, pr
 	)
 }
 
-func (s *jsiiProxy_SecretManagerRegionalSecretVersion) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretManagerRegionalSecretVersion) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

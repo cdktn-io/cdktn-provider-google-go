@@ -131,7 +131,7 @@ func (j *jsiiProxy_ManagedKafkaCluster) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ManagedKafkaCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

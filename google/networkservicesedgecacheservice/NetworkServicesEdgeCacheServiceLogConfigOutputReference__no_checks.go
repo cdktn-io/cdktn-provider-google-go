@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheServiceLogConfigOutputReference) vali
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheServiceLogConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheServiceLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheServiceLogConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheServiceLogConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheServiceLogConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheServiceLogConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesEdgeCacheServiceLogConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package firebaseapphostingbuild
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/firebaseapphostingbuild/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/firebaseapphostingbuild/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/firebase_app_hosting_build google_firebase_app_hosting_build}.
 type FirebaseAppHostingBuild interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -26,7 +26,7 @@ type FirebaseAppHostingBuild interface {
 	BuildIdInput() *string
 	BuildLogsUri() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,16 +45,16 @@ type FirebaseAppHostingBuild interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Environment() *string
 	Error() FirebaseAppHostingBuildErrorList
 	ErrorSource() *string
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -67,9 +67,9 @@ type FirebaseAppHostingBuild interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -80,9 +80,9 @@ type FirebaseAppHostingBuild interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -93,8 +93,8 @@ type FirebaseAppHostingBuild interface {
 	SourceInput() *FirebaseAppHostingBuildSource
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -111,7 +111,7 @@ type FirebaseAppHostingBuild interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -129,9 +129,9 @@ type FirebaseAppHostingBuild interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -172,7 +172,7 @@ type FirebaseAppHostingBuild interface {
 
 // The jsii proxy struct for FirebaseAppHostingBuild
 type jsiiProxy_FirebaseAppHostingBuild struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FirebaseAppHostingBuild) Annotations() *map[string]*string {
@@ -245,8 +245,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) BuildLogsUri() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FirebaseAppHostingBuild) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_FirebaseAppHostingBuild) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -335,8 +335,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) EffectiveAnnotations() cdktf.StringM
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_FirebaseAppHostingBuild) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FirebaseAppHostingBuild) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -465,8 +465,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FirebaseAppHostingBuild) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -535,8 +535,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FirebaseAppHostingBuild) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -595,8 +595,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FirebaseAppHostingBuild) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -605,8 +605,8 @@ func (j *jsiiProxy_FirebaseAppHostingBuild) TerraformGeneratorMetadata() *cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_FirebaseAppHostingBuild) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -779,7 +779,7 @@ func (j *jsiiProxy_FirebaseAppHostingBuild)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FirebaseAppHostingBuild)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -809,7 +809,7 @@ func (j *jsiiProxy_FirebaseAppHostingBuild)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FirebaseAppHostingBuild)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -842,7 +842,7 @@ func (j *jsiiProxy_FirebaseAppHostingBuild)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FirebaseAppHostingBuild)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FirebaseAppHostingBuild)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -861,14 +861,14 @@ func (j *jsiiProxy_FirebaseAppHostingBuild)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a FirebaseAppHostingBuild resource upon running "cdktf plan <stack-name>".
-func FirebaseAppHostingBuild_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FirebaseAppHostingBuild resource upon running "cdktn plan <stack-name>".
+func FirebaseAppHostingBuild_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFirebaseAppHostingBuild_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.firebaseAppHostingBuild.FirebaseAppHostingBuild",
@@ -1002,11 +1002,11 @@ func (f *jsiiProxy_FirebaseAppHostingBuild) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBuild) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirebaseAppHostingBuild) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1143,7 +1143,7 @@ func (f *jsiiProxy_FirebaseAppHostingBuild) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBuild) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FirebaseAppHostingBuild) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1154,11 +1154,11 @@ func (f *jsiiProxy_FirebaseAppHostingBuild) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (f *jsiiProxy_FirebaseAppHostingBuild) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirebaseAppHostingBuild) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOpti
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOpti
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

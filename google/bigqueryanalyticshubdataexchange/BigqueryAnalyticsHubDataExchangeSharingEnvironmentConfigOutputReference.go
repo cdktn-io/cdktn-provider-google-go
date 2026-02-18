@@ -5,14 +5,14 @@ package bigqueryanalyticshubdataexchange
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryanalyticshubdataexchange/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigqueryanalyticshubdataexchange/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDcrExchangeConfig(value *BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigDcrExchangeConfig)
 	PutDefaultExchangeConfig(value *BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigDefaultExchangeConfig)
 	ResetDcrExchangeConfig()
 	ResetDefaultExchangeConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference int
 
 // The jsii proxy struct for BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference
 type jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 }
 
 
-func NewBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference {
+func NewBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference(
 	return &j
 }
 
-func NewBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference_Override(b BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference_Override(b BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 	)
 }
 
-func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -437,8 +437,8 @@ func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -450,11 +450,11 @@ func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,7 +504,7 @@ func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutpu
 	)
 }
 
-func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryAnalyticsHubDataExchangeSharingEnvironmentConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

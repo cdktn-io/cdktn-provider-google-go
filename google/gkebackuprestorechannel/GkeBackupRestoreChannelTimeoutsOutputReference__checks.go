@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetDe
 
 func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GkeBackupRestoreChannelTimeouts:
 		val := val.(*GkeBackupRestoreChannelTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GkeBackupRestoreChannelTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GkeBackupRestoreChannelTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_GkeBackupRestoreChannelTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewGkeBackupRestoreChannelTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeBackupRestoreChannelTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

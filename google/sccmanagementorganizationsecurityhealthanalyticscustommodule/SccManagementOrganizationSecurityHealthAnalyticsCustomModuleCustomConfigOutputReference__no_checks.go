@@ -59,7 +59,7 @@ func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModuleC
 	return nil
 }
 
-func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModuleC
 	return nil
 }
 
-func (j *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccManagementOrganizationSecurityHealthAnalyticsCustomModuleCustomConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

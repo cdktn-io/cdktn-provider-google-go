@@ -127,7 +127,7 @@ func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

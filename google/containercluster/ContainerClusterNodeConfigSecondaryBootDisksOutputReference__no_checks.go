@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigSecondaryBootDisksOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigSecondaryBootDisksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigSecondaryBootDisksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerClusterNodeConfigSecondaryBootDisksOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigSecondaryBootDisksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigSecondaryBootDisksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigSecondaryBootDisksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerClusterNodeConfigSecondaryBootDisksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -131,7 +131,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validatePutConnec
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SqlDatabaseInstanceSettingsConnectionPoolConfig:
 		value := value.(*[]*SqlDatabaseInstanceSettingsConnectionPoolConfig)
@@ -150,7 +150,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validatePutConnec
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SqlDatabaseInstanceSettingsConnectionPoolConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SqlDatabaseInstanceSettingsConnectionPoolConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -162,7 +162,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validatePutDataba
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SqlDatabaseInstanceSettingsDatabaseFlags:
 		value := value.(*[]*SqlDatabaseInstanceSettingsDatabaseFlags)
@@ -181,7 +181,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validatePutDataba
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SqlDatabaseInstanceSettingsDatabaseFlags; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SqlDatabaseInstanceSettingsDatabaseFlags; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -276,7 +276,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validatePutSqlSer
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -390,11 +390,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetDeleti
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -410,11 +410,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetDiskAu
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -462,11 +462,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetEnable
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -482,11 +482,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetEnable
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -518,11 +518,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetRetain
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -537,7 +537,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -569,7 +569,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetUserLa
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

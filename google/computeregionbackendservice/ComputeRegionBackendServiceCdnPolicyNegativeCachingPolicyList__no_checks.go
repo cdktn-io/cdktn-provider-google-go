@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyList
 	return nil
 }
 
-func validateNewComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

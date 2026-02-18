@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (e *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validatePutR
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -204,7 +204,7 @@ func (j *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -212,7 +212,7 @@ func (j *jsiiProxy_EdgecontainerClusterControlPlaneOutputReference) validateSetT
 	return nil
 }
 
-func validateNewEdgecontainerClusterControlPlaneOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEdgecontainerClusterControlPlaneOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

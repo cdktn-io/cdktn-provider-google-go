@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOu
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOu
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

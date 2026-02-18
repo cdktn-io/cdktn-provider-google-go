@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsJobNotificationE
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsJobNotificationEmailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsJobNotificationEmailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsJobNotificationE
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsJobNotificationEmailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsJobNotificationEmailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionJobTriggerInspectJobActionsJobNotificationEmailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionJobTriggerInspectJobActionsJobNotificationEmailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionLi
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionLi
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineConditionTargetsPresentConditionLi
 	return nil
 }
 
-func validateNewClouddeployDeliveryPipelineConditionTargetsPresentConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewClouddeployDeliveryPipelineConditionTargetsPresentConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

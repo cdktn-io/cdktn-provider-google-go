@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventarcPipelineMediationsList) validateGetParameters(index *
 	return nil
 }
 
-func (e *jsiiProxy_EventarcPipelineMediationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcPipelineMediationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventarcPipelineMediationsList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_EventarcPipelineMediationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcPipelineMediationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventarcPipelineMediationsList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewEventarcPipelineMediationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventarcPipelineMediationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateGetParamete
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRouterRoutePolicyTermsActionsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewComputeRouterRoutePolicyTermsActionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRouterRoutePolicyTermsActionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

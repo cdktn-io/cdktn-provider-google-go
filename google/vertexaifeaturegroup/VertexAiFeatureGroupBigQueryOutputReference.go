@@ -5,14 +5,14 @@ package vertexaifeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaifeaturegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaifeaturegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiFeatureGroupBigQueryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BigQuerySource() VertexAiFeatureGroupBigQueryBigQuerySourceOutputReference
 	BigQuerySourceInput() *VertexAiFeatureGroupBigQueryBigQuerySource
 	// the index of the complex object in a list.
@@ -42,15 +42,15 @@ type VertexAiFeatureGroupBigQueryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type VertexAiFeatureGroupBigQueryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBigQuerySource(value *VertexAiFeatureGroupBigQueryBigQuerySource)
 	ResetEntityIdColumns()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type VertexAiFeatureGroupBigQueryOutputReference interface {
 
 // The jsii proxy struct for VertexAiFeatureGroupBigQueryOutputReference
 type jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) BigQuerySource() VertexAiFeatureGroupBigQueryBigQuerySourceOutputReference {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) TerraformResourc
 }
 
 
-func NewVertexAiFeatureGroupBigQueryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VertexAiFeatureGroupBigQueryOutputReference {
+func NewVertexAiFeatureGroupBigQueryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VertexAiFeatureGroupBigQueryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVertexAiFeatureGroupBigQueryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewVertexAiFeatureGroupBigQueryOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewVertexAiFeatureGroupBigQueryOutputReference_Override(v VertexAiFeatureGroupBigQueryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVertexAiFeatureGroupBigQueryOutputReference_Override(v VertexAiFeatureGroupBigQueryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -447,8 +447,8 @@ func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -460,11 +460,11 @@ func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) InterpolationAsL
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -495,7 +495,7 @@ func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) ResetEntityIdCol
 	)
 }
 
-func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VertexAiFeatureGroupBigQueryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecVolumesList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewCloudRunServiceTemplateSpecVolumesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudRunServiceTemplateSpecVolumesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

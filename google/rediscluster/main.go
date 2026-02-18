@@ -144,7 +144,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -187,7 +187,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterAutomatedBackupConfigFixedFrequencyScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -225,7 +225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -262,7 +262,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -295,7 +295,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -329,7 +329,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -388,7 +388,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipPrimaryClusterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -413,7 +413,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -447,7 +447,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -492,7 +492,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -532,7 +532,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigPrimaryClusterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -558,7 +558,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigSecondaryClustersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -594,7 +594,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterCrossClusterReplicationConfigSecondaryClustersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -619,7 +619,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterDiscoveryEndpointsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -654,7 +654,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterDiscoveryEndpointsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -679,7 +679,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterDiscoveryEndpointsPscConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -712,7 +712,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterDiscoveryEndpointsPscConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -750,7 +750,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterGcsSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -792,7 +792,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterMaintenancePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -818,7 +818,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterMaintenancePolicyWeeklyMaintenanceWindowList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -856,7 +856,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterMaintenancePolicyWeeklyMaintenanceWindowOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -904,7 +904,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -929,7 +929,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterMaintenanceScheduleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -964,7 +964,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterMaintenanceScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1002,7 +1002,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterManagedBackupSourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1031,7 +1031,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterManagedServerCaCaCertsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1064,7 +1064,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterManagedServerCaCaCertsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1085,7 +1085,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterManagedServerCaList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1118,7 +1118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterManagedServerCaOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1161,7 +1161,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPersistenceConfigAofConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1204,7 +1204,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPersistenceConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1246,7 +1246,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPersistenceConfigRdbConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1272,7 +1272,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPscConfigsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1306,7 +1306,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPscConfigsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1331,7 +1331,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPscConnectionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1368,7 +1368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPscConnectionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1393,7 +1393,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPscServiceAttachmentsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1427,7 +1427,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterPscServiceAttachmentsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1452,7 +1452,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterStateInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1485,7 +1485,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterStateInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1510,7 +1510,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterStateInfoUpdateInfoList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1544,7 +1544,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterStateInfoUpdateInfoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1589,7 +1589,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1631,7 +1631,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RedisClusterZoneDistributionConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

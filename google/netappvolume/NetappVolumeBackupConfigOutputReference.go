@@ -5,14 +5,14 @@ package netappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/netappvolume/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/netappvolume/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetappVolumeBackupConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackupPolicies() *[]*string
 	SetBackupPolicies(val *[]*string)
 	BackupPoliciesInput() *[]*string
@@ -46,15 +46,15 @@ type NetappVolumeBackupConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type NetappVolumeBackupConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBackupPolicies()
 	ResetBackupVault()
 	ResetScheduledBackupEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type NetappVolumeBackupConfigOutputReference interface {
 
 // The jsii proxy struct for NetappVolumeBackupConfigOutputReference
 type jsiiProxy_NetappVolumeBackupConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference) BackupPolicies() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference) TerraformResource() 
 }
 
 
-func NewNetappVolumeBackupConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetappVolumeBackupConfigOutputReference {
+func NewNetappVolumeBackupConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetappVolumeBackupConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetappVolumeBackupConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewNetappVolumeBackupConfigOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewNetappVolumeBackupConfigOutputReference_Override(n NetappVolumeBackupConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetappVolumeBackupConfigOutputReference_Override(n NetappVolumeBackupConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetappVolumeBackupConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -494,8 +494,8 @@ func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -507,11 +507,11 @@ func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -547,7 +547,7 @@ func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) ResetScheduledBackup
 	)
 }
 
-func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetappVolumeBackupConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

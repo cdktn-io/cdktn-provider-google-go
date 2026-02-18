@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ChronicleReferenceListTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewChronicleReferenceListTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChronicleReferenceListTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

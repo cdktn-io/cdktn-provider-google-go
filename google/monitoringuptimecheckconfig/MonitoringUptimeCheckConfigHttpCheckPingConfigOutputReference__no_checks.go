@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigHttpCheckPingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringUptimeCheckConfigHttpCheckPingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringUptimeCheckConfigHttpCheckPingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

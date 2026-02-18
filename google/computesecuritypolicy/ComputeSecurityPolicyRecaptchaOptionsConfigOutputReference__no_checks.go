@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRecaptchaOptionsConfigOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRecaptchaOptionsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRecaptchaOptionsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyRecaptchaOptionsConfigOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRecaptchaOptionsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRecaptchaOptionsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRecaptchaOptionsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRecaptchaOptionsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

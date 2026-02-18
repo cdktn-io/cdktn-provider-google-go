@@ -47,7 +47,7 @@ func (m *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigMembershipPr
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigMembershipPr
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

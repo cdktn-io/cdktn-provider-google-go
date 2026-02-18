@@ -103,7 +103,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineIamPolicy) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployDeliveryPipelineIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ClouddeployDeliveryPipelineIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

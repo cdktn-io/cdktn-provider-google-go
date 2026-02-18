@@ -131,7 +131,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

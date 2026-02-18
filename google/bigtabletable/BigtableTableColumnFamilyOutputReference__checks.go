@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateInterpolati
 	return nil
 }
 
-func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetFamilyPa
 
 func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BigtableTableColumnFamily:
 		val := val.(*BigtableTableColumnFamily)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetInternal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BigtableTableColumnFamily; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BigtableTableColumnFamily; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTypePara
 	return nil
 }
 
-func validateNewBigtableTableColumnFamilyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBigtableTableColumnFamilyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

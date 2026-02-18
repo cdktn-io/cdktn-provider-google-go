@@ -111,7 +111,7 @@ func (j *jsiiProxy_SiteVerificationWebResource) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_SiteVerificationWebResource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SiteVerificationWebResource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

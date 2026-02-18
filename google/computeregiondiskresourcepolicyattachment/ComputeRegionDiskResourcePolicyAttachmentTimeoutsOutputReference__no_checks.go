@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionDiskResourcePolicyAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOv
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOv
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOv
 	return nil
 }
 
-func validateNewGkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGkeHubFeatureMembershipConfigmanagementConfigSyncDeploymentOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

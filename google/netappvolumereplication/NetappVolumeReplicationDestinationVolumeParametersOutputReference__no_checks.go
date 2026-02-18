@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputRefer
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersOutputRefer
 	return nil
 }
 
-func validateNewNetappVolumeReplicationDestinationVolumeParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeReplicationDestinationVolumeParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

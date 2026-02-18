@@ -111,7 +111,7 @@ func (j *jsiiProxy_HealthcareDataset) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDataset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareDataset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

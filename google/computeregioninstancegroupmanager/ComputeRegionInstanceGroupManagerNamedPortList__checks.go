@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateGetPa
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateResol
 
 func (j *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionInstanceGroupManagerNamedPort:
 		val := val.(*[]*ComputeRegionInstanceGroupManagerNamedPort)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionInstanceGroupManagerNamedPort; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionInstanceGroupManagerNamedPort; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerNamedPortList) validateSetWr
 	return nil
 }
 
-func validateNewComputeRegionInstanceGroupManagerNamedPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRegionInstanceGroupManagerNamedPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

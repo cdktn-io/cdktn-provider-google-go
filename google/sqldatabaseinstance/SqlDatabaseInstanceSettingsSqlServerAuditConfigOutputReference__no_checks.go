@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

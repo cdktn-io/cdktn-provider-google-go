@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

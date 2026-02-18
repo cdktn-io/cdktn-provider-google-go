@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxEnvironmentVersionConfigsOutputReference) validat
 	return nil
 }
 
-func validateNewDialogflowCxEnvironmentVersionConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxEnvironmentVersionConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

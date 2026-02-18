@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference) 
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEndpointPolicyEndpointMatcherOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEndpointPolicyEndpointMatcherOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesEndpointPolicyEndpointMatcherOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketCloudConfigOutputReference
 	return nil
 }
 
-func validateNewDeveloperConnectConnectionBitbucketCloudConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDeveloperConnectConnectionBitbucketCloudConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -59,7 +59,7 @@ func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDiscoveryEngineDataStoreDocumentProcessingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDiscoveryEngineDataStoreDocumentProcessingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

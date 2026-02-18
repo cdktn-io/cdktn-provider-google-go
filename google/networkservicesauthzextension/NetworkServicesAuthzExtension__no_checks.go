@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

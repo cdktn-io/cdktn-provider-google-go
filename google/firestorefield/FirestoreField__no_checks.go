@@ -127,7 +127,7 @@ func (j *jsiiProxy_FirestoreField) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_FirestoreField) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FirestoreField) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

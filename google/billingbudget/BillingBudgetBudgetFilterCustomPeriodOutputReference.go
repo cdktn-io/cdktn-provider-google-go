@@ -5,14 +5,14 @@ package billingbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/billingbudget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/billingbudget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BillingBudgetBudgetFilterCustomPeriodOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type BillingBudgetBudgetFilterCustomPeriodOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,15 +65,15 @@ type BillingBudgetBudgetFilterCustomPeriodOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEndDate(value *BillingBudgetBudgetFilterCustomPeriodEndDate)
 	PutStartDate(value *BillingBudgetBudgetFilterCustomPeriodStartDate)
 	ResetEndDate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type BillingBudgetBudgetFilterCustomPeriodOutputReference interface {
 
 // The jsii proxy struct for BillingBudgetBudgetFilterCustomPeriodOutputReference
 type jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) Terrafo
 }
 
 
-func NewBillingBudgetBudgetFilterCustomPeriodOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BillingBudgetBudgetFilterCustomPeriodOutputReference {
+func NewBillingBudgetBudgetFilterCustomPeriodOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BillingBudgetBudgetFilterCustomPeriodOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBillingBudgetBudgetFilterCustomPeriodOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewBillingBudgetBudgetFilterCustomPeriodOutputReference(terraformResource c
 	return &j
 }
 
-func NewBillingBudgetBudgetFilterCustomPeriodOutputReference_Override(b BillingBudgetBudgetFilterCustomPeriodOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBillingBudgetBudgetFilterCustomPeriodOutputReference_Override(b BillingBudgetBudgetFilterCustomPeriodOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -268,7 +268,7 @@ func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -308,11 +308,11 @@ func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) GetAnyM
 	return returns
 }
 
-func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -436,8 +436,8 @@ func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) GetStri
 	return returns
 }
 
-func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -449,11 +449,11 @@ func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) Interpo
 	return returns
 }
 
-func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -495,7 +495,7 @@ func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) ResetEn
 	)
 }
 
-func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BillingBudgetBudgetFilterCustomPeriodOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutp
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutp
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutp
 	return nil
 }
 
-func validateNewDialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxFlowAdvancedSettingsAudioExportGcsDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

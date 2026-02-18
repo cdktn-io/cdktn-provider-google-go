@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxToolFunctionSpecOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxToolFunctionSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxToolFunctionSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowCxToolFunctionSpecOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxToolFunctionSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxToolFunctionSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxToolFunctionSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxToolFunctionSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

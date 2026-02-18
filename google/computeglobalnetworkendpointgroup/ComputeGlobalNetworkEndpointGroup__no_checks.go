@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeGlobalNetworkEndpointGroup) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_ComputeGlobalNetworkEndpointGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeGlobalNetworkEndpointGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

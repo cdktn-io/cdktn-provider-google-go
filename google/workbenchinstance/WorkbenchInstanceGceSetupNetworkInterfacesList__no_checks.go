@@ -15,7 +15,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateGetPa
 	return nil
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupNetworkInterfacesList) validateSetWr
 	return nil
 }
 
-func validateNewWorkbenchInstanceGceSetupNetworkInterfacesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWorkbenchInstanceGceSetupNetworkInterfacesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

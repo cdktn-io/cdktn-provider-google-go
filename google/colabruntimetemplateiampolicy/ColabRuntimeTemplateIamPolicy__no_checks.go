@@ -103,7 +103,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

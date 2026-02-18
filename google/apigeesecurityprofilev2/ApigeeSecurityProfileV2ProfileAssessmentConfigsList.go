@@ -5,14 +5,14 @@ package apigeesecurityprofilev2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeesecurityprofilev2/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeesecurityprofilev2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApigeeSecurityProfileV2ProfileAssessmentConfigsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ApigeeSecurityProfileV2ProfileAssessmentConfigsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ApigeeSecurityProfileV2ProfileAssessmentConfigsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ApigeeSecurityProfileV2ProfileAssessmentConfigsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ApigeeSecurityProfileV2ProfileAssessmentConfigsList interface {
 
 // The jsii proxy struct for ApigeeSecurityProfileV2ProfileAssessmentConfigsList
 type jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) WrapsSet
 }
 
 
-func NewApigeeSecurityProfileV2ProfileAssessmentConfigsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApigeeSecurityProfileV2ProfileAssessmentConfigsList {
+func NewApigeeSecurityProfileV2ProfileAssessmentConfigsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApigeeSecurityProfileV2ProfileAssessmentConfigsList {
 	_init_.Initialize()
 
 	if err := validateNewApigeeSecurityProfileV2ProfileAssessmentConfigsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewApigeeSecurityProfileV2ProfileAssessmentConfigsList(terraformResource cd
 	return &j
 }
 
-func NewApigeeSecurityProfileV2ProfileAssessmentConfigsList_Override(a ApigeeSecurityProfileV2ProfileAssessmentConfigsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewApigeeSecurityProfileV2ProfileAssessmentConfigsList_Override(a ApigeeSecurityProfileV2ProfileAssessmentConfigsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList)SetWrapsS
 	)
 }
 
-func (a *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) Get(inde
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApigeeSecurityProfileV2ProfileAssessmentConfigsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeHubMembershipAuthorityOutputReference) validateInterpolati
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubMembershipAuthorityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubMembershipAuthorityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeHubMembershipAuthorityOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubMembershipAuthorityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubMembershipAuthorityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeHubMembershipAuthorityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubMembershipAuthorityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

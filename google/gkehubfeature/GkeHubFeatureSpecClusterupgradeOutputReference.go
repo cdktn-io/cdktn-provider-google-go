@@ -5,14 +5,14 @@ package gkehubfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkehubfeature/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkehubfeature/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeHubFeatureSpecClusterupgradeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type GkeHubFeatureSpecClusterupgradeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpstreamFleets() *[]*string
 	SetUpstreamFleets(val *[]*string)
 	UpstreamFleetsInput() *[]*string
@@ -52,7 +52,7 @@ type GkeHubFeatureSpecClusterupgradeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,16 +68,16 @@ type GkeHubFeatureSpecClusterupgradeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutGkeUpgradeOverrides(value interface{})
 	PutPostConditions(value *GkeHubFeatureSpecClusterupgradePostConditions)
 	ResetGkeUpgradeOverrides()
 	ResetPostConditions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type GkeHubFeatureSpecClusterupgradeOutputReference interface {
 
 // The jsii proxy struct for GkeHubFeatureSpecClusterupgradeOutputReference
 type jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) UpstreamFleet
 }
 
 
-func NewGkeHubFeatureSpecClusterupgradeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GkeHubFeatureSpecClusterupgradeOutputReference {
+func NewGkeHubFeatureSpecClusterupgradeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GkeHubFeatureSpecClusterupgradeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGkeHubFeatureSpecClusterupgradeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewGkeHubFeatureSpecClusterupgradeOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewGkeHubFeatureSpecClusterupgradeOutputReference_Override(g GkeHubFeatureSpecClusterupgradeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGkeHubFeatureSpecClusterupgradeOutputReference_Override(g GkeHubFeatureSpecClusterupgradeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -292,7 +292,7 @@ func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -343,11 +343,11 @@ func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -471,8 +471,8 @@ func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) GetStringMapA
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -484,11 +484,11 @@ func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) Interpolation
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -538,7 +538,7 @@ func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) ResetPostCond
 	)
 }
 
-func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GkeHubFeatureSpecClusterupgradeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

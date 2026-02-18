@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

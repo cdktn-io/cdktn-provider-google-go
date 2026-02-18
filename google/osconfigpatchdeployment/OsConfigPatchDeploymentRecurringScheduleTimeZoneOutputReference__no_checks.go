@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReferen
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReferen
 	return nil
 }
 
-func validateNewOsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigPatchDeploymentRecurringScheduleTimeZoneOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

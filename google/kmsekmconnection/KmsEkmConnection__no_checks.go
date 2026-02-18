@@ -123,7 +123,7 @@ func (j *jsiiProxy_KmsEkmConnection) validateSetKeyManagementModeParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_KmsEkmConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsEkmConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

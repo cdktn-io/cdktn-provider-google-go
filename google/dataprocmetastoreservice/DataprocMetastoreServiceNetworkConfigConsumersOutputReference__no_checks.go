@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigConsumersOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigConsumersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigConsumersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigConsumersOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigConsumersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigConsumersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocMetastoreServiceNetworkConfigConsumersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataprocMetastoreServiceNetworkConfigConsumersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

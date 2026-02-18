@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersionTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewSecretManagerRegionalSecretVersionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecretManagerRegionalSecretVersionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

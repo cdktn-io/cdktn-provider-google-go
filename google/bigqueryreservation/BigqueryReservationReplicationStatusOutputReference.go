@@ -5,14 +5,14 @@ package bigqueryreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigqueryreservation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigqueryreservation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryReservationReplicationStatusOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type BigqueryReservationReplicationStatusOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type BigqueryReservationReplicationStatusOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type BigqueryReservationReplicationStatusOutputReference interface {
 
 // The jsii proxy struct for BigqueryReservationReplicationStatusOutputReference
 type jsiiProxy_BigqueryReservationReplicationStatusOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) ComplexObjectIndex() interface{} {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) Terrafor
 }
 
 
-func NewBigqueryReservationReplicationStatusOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BigqueryReservationReplicationStatusOutputReference {
+func NewBigqueryReservationReplicationStatusOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BigqueryReservationReplicationStatusOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryReservationReplicationStatusOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewBigqueryReservationReplicationStatusOutputReference(terraformResource cd
 	return &j
 }
 
-func NewBigqueryReservationReplicationStatusOutputReference_Override(b BigqueryReservationReplicationStatusOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBigqueryReservationReplicationStatusOutputReference_Override(b BigqueryReservationReplicationStatusOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryReservationReplicationStatusOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) GetAnyMa
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -422,8 +422,8 @@ func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) GetStrin
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -435,11 +435,11 @@ func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) Interpol
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -451,7 +451,7 @@ func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) Interpol
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryReservationReplicationStatusOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

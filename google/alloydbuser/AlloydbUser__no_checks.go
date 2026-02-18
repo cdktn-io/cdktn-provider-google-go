@@ -115,7 +115,7 @@ func (j *jsiiProxy_AlloydbUser) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbUser) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AlloydbUser) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

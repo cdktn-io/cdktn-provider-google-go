@@ -55,7 +55,7 @@ func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference)
 	return nil
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigSdpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewModelArmorFloorsettingFilterConfigSdpSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewModelArmorFloorsettingFilterConfigSdpSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

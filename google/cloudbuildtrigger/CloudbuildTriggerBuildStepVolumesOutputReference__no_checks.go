@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildStepVolumesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildStepVolumesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudbuildTriggerBuildStepVolumesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

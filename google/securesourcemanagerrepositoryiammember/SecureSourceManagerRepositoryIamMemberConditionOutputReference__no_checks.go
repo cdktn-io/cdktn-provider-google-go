@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SecureSourceManagerRepositoryIamMemberConditionOutputReferenc
 	return nil
 }
 
-func validateNewSecureSourceManagerRepositoryIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecureSourceManagerRepositoryIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

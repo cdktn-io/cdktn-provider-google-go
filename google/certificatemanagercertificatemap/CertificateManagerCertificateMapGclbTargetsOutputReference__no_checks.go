@@ -47,7 +47,7 @@ func (c *jsiiProxy_CertificateManagerCertificateMapGclbTargetsOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateMapGclbTargetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CertificateManagerCertificateMapGclbTargetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CertificateManagerCertificateMapGclbTargetsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateMapGclbTargetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CertificateManagerCertificateMapGclbTargetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCertificateManagerCertificateMapGclbTargetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCertificateManagerCertificateMapGclbTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

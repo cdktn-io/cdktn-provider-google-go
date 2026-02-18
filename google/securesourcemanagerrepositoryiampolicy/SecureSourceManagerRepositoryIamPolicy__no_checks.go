@@ -103,7 +103,7 @@ func (j *jsiiProxy_SecureSourceManagerRepositoryIamPolicy) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_SecureSourceManagerRepositoryIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecureSourceManagerRepositoryIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

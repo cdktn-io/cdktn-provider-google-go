@@ -47,7 +47,7 @@ func (p *jsiiProxy_ProjectUsageExportBucketTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (p *jsiiProxy_ProjectUsageExportBucketTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_ProjectUsageExportBucketTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ProjectUsageExportBucketTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ProjectUsageExportBucketTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ProjectUsageExportBucketTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewProjectUsageExportBucketTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewProjectUsageExportBucketTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

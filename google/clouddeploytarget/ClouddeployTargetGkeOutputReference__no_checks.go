@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddeployTargetGkeOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployTargetGkeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployTargetGkeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ClouddeployTargetGkeOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployTargetGkeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployTargetGkeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddeployTargetGkeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddeployTargetGkeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

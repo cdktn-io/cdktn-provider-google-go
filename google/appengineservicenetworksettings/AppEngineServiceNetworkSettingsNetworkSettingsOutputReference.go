@@ -5,14 +5,14 @@ package appengineservicenetworksettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appengineservicenetworksettings/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/appengineservicenetworksettings/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppEngineServiceNetworkSettingsNetworkSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type AppEngineServiceNetworkSettingsNetworkSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type AppEngineServiceNetworkSettingsNetworkSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIngressTrafficAllowed()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type AppEngineServiceNetworkSettingsNetworkSettingsOutputReference interface {
 
 // The jsii proxy struct for AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 type jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 }
 
 
-func NewAppEngineServiceNetworkSettingsNetworkSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppEngineServiceNetworkSettingsNetworkSettingsOutputReference {
+func NewAppEngineServiceNetworkSettingsNetworkSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppEngineServiceNetworkSettingsNetworkSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppEngineServiceNetworkSettingsNetworkSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewAppEngineServiceNetworkSettingsNetworkSettingsOutputReference(terraformR
 	return &j
 }
 
-func NewAppEngineServiceNetworkSettingsNetworkSettingsOutputReference_Override(a AppEngineServiceNetworkSettingsNetworkSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppEngineServiceNetworkSettingsNetworkSettingsOutputReference_Override(a AppEngineServiceNetworkSettingsNetworkSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 	)
 }
 
-func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 	)
 }
 
-func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppEngineServiceNetworkSettingsNetworkSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

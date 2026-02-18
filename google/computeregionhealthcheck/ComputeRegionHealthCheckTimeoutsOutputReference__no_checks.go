@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeRegionHealthCheckTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewComputeRegionHealthCheckTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionHealthCheckTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

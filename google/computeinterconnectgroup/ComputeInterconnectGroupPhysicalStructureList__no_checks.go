@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateGetPar
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ComputeInterconnectGroupPhysicalStructureList) validateSetWra
 	return nil
 }
 
-func validateNewComputeInterconnectGroupPhysicalStructureListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInterconnectGroupPhysicalStructureListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

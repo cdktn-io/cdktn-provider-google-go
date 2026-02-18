@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (i *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (i *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_IapTunnelInstanceIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func validateNewIapTunnelInstanceIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIapTunnelInstanceIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryTableTableReplicationInfoOutputReference) validateInt
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableTableReplicationInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableTableReplicationInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_BigqueryTableTableReplicationInfoOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableTableReplicationInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableTableReplicationInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryTableTableReplicationInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableTableReplicationInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

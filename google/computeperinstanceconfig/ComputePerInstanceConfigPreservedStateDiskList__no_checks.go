@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateGetPa
 	return nil
 }
 
-func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateDiskList) validateSetWr
 	return nil
 }
 
-func validateNewComputePerInstanceConfigPreservedStateDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputePerInstanceConfigPreservedStateDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

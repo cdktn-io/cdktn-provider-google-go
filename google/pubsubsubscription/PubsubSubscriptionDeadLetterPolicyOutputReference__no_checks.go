@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference) validateIn
 	return nil
 }
 
-func (p *jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubSubscriptionDeadLetterPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubSubscriptionDeadLetterPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubSubscriptionDeadLetterPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

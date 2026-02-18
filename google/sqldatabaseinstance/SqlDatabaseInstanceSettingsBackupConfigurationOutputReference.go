@@ -5,14 +5,14 @@ package sqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sqldatabaseinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sqldatabaseinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackupRetentionSettings() SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference
 	BackupRetentionSettingsInput() *SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings
 	BinaryLogEnabled() interface{}
@@ -54,9 +54,9 @@ type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TransactionLogRetentionDays() *float64
 	SetTransactionLogRetentionDays(val *float64)
 	TransactionLogRetentionDaysInput() *float64
@@ -65,7 +65,7 @@ type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBackupRetentionSettings(value *SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings)
 	ResetBackupRetentionSettings()
 	ResetBinaryLogEnabled()
@@ -94,7 +94,7 @@ type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 	ResetTransactionLogRetentionDays()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 
 // The jsii proxy struct for SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 type jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) BackupRetentionSettings() SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference {
@@ -287,8 +287,8 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 }
 
 
-func NewSqlDatabaseInstanceSettingsBackupConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsBackupConfigurationOutputReference {
+func NewSqlDatabaseInstanceSettingsBackupConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsBackupConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSqlDatabaseInstanceSettingsBackupConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewSqlDatabaseInstanceSettingsBackupConfigurationOutputReference(terraformR
 	return &j
 }
 
-func NewSqlDatabaseInstanceSettingsBackupConfigurationOutputReference_Override(s SqlDatabaseInstanceSettingsBackupConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSqlDatabaseInstanceSettingsBackupConfigurationOutputReference_Override(s SqlDatabaseInstanceSettingsBackupConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -444,7 +444,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	)
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -495,11 +495,11 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -623,8 +623,8 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -636,11 +636,11 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -719,7 +719,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	)
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

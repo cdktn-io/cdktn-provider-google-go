@@ -8,7 +8,7 @@ package computestoragepool
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeStoragePoolStatusList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (c *jsiiProxy_ComputeStoragePoolStatusList) validateGetParameters(index *fl
 	return nil
 }
 
-func (c *jsiiProxy_ComputeStoragePoolStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeStoragePoolStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_ComputeStoragePoolStatusList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_ComputeStoragePoolStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeStoragePoolStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_ComputeStoragePoolStatusList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewComputeStoragePoolStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeStoragePoolStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

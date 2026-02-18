@@ -47,7 +47,7 @@ func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsManagedZoneCloudLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsManagedZoneCloudLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsManagedZoneCloudLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

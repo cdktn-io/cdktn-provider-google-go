@@ -47,7 +47,7 @@ func (t *jsiiProxy_TpuNodeTimeoutsOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (t *jsiiProxy_TpuNodeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TpuNodeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_TpuNodeTimeoutsOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_TpuNodeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TpuNodeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_TpuNodeTimeoutsOutputReference) validateSetUpdateParameters(v
 	return nil
 }
 
-func validateNewTpuNodeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTpuNodeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -118,11 +118,11 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -196,7 +196,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 
 func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPools:
 		val := val.(*GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPools)
@@ -211,7 +211,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPools; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPools; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -227,11 +227,11 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -254,7 +254,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -262,7 +262,7 @@ func (j *jsiiProxy_GkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPool
 	return nil
 }
 
-func validateNewGkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeonpremBareMetalClusterLoadBalancerMetalLbConfigAddressPoolsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

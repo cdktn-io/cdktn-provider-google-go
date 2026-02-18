@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecureSourceManagerInstanceHostConfigOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SecureSourceManagerInstanceHostConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecureSourceManagerInstanceHostConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecureSourceManagerInstanceHostConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecureSourceManagerInstanceHostConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecureSourceManagerInstanceHostConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

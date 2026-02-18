@@ -51,7 +51,7 @@ func (p *jsiiProxy_PubsubLiteTopicPartitionConfigOutputReference) validatePutCap
 	return nil
 }
 
-func (p *jsiiProxy_PubsubLiteTopicPartitionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubLiteTopicPartitionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PubsubLiteTopicPartitionConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_PubsubLiteTopicPartitionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubLiteTopicPartitionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubLiteTopicPartitionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubLiteTopicPartitionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

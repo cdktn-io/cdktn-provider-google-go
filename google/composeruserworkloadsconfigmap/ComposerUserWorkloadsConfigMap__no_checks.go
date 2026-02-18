@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComposerUserWorkloadsConfigMap) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ComposerUserWorkloadsConfigMap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComposerUserWorkloadsConfigMap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

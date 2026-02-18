@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApigeeSyncAuthorization) validateSetIdentitiesParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeSyncAuthorization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApigeeSyncAuthorization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

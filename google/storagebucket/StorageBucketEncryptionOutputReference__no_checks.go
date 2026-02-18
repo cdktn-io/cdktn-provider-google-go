@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBucketEncryptionOutputReference) validateInterpolation
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StorageBucketEncryptionOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBucketEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBucketEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (g *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubCon
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentBundles:
 		value := value.(*[]*GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentBundles)
@@ -117,7 +117,7 @@ func (g *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubCon
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentBundles; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentBundles; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (g *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubCon
 	return nil
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -224,7 +224,7 @@ func (j *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubCon
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -232,7 +232,7 @@ func (j *jsiiProxy_GkeHubFeatureMembershipPolicycontrollerPolicyControllerHubCon
 	return nil
 }
 
-func validateNewGkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeHubFeatureMembershipPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

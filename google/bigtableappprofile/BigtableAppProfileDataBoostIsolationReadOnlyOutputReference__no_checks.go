@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableAppProfileDataBoostIsolationReadOnlyOutputReference) 
 	return nil
 }
 
-func (b *jsiiProxy_BigtableAppProfileDataBoostIsolationReadOnlyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableAppProfileDataBoostIsolationReadOnlyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BigtableAppProfileDataBoostIsolationReadOnlyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_BigtableAppProfileDataBoostIsolationReadOnlyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableAppProfileDataBoostIsolationReadOnlyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigtableAppProfileDataBoostIsolationReadOnlyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigtableAppProfileDataBoostIsolationReadOnlyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

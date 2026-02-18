@@ -15,7 +15,7 @@ func (v *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validat
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validat
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_VertexAiEndpointDeployedModelsDedicatedResourcesList) validat
 	return nil
 }
 
-func validateNewVertexAiEndpointDeployedModelsDedicatedResourcesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVertexAiEndpointDeployedModelsDedicatedResourcesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

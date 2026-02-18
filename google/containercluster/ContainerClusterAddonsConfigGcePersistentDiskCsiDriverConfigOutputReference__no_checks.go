@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigO
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigO
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterAddonsConfigGcePersistentDiskCsiDriverConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

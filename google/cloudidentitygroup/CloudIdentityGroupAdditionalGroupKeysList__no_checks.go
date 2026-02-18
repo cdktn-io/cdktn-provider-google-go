@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateGetParamet
 	return nil
 }
 
-func (c *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CloudIdentityGroupAdditionalGroupKeysList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewCloudIdentityGroupAdditionalGroupKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudIdentityGroupAdditionalGroupKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

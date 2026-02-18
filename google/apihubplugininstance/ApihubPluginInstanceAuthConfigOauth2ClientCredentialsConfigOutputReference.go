@@ -5,14 +5,14 @@ package apihubplugininstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apihubplugininstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apihubplugininstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -42,15 +42,15 @@ type ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,13 +66,13 @@ type ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutClientSecret(value *ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference 
 
 // The jsii proxy struct for ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference
 type jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) ClientId() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 	return returns
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 }
 
 
-func NewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference {
+func NewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReferen
 	return &j
 }
 
-func NewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference_Override(a ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference_Override(a ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 	)
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -318,11 +318,11 @@ func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -446,8 +446,8 @@ func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -459,11 +459,11 @@ func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 	return returns
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -486,7 +486,7 @@ func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOu
 	)
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

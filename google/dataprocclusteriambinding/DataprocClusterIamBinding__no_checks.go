@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataprocClusterIamBinding) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocClusterIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

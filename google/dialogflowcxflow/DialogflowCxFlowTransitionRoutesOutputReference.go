@@ -5,14 +5,14 @@ package dialogflowcxflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dialogflowcxflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dialogflowcxflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DialogflowCxFlowTransitionRoutesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -50,9 +50,9 @@ type DialogflowCxFlowTransitionRoutesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TriggerFulfillment() DialogflowCxFlowTransitionRoutesTriggerFulfillmentOutputReference
 	TriggerFulfillmentInput() *DialogflowCxFlowTransitionRoutesTriggerFulfillment
 	// Experimental.
@@ -60,7 +60,7 @@ type DialogflowCxFlowTransitionRoutesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type DialogflowCxFlowTransitionRoutesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutTriggerFulfillment(value *DialogflowCxFlowTransitionRoutesTriggerFulfillment)
 	ResetCondition()
 	ResetIntent()
@@ -87,7 +87,7 @@ type DialogflowCxFlowTransitionRoutesOutputReference interface {
 	ResetTriggerFulfillment()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -97,7 +97,7 @@ type DialogflowCxFlowTransitionRoutesOutputReference interface {
 
 // The jsii proxy struct for DialogflowCxFlowTransitionRoutesOutputReference
 type jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) ComplexObjectIndex() interface{} {
@@ -250,8 +250,8 @@ func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -281,7 +281,7 @@ func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) TriggerFulfi
 }
 
 
-func NewDialogflowCxFlowTransitionRoutesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DialogflowCxFlowTransitionRoutesOutputReference {
+func NewDialogflowCxFlowTransitionRoutesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DialogflowCxFlowTransitionRoutesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDialogflowCxFlowTransitionRoutesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -298,7 +298,7 @@ func NewDialogflowCxFlowTransitionRoutesOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDialogflowCxFlowTransitionRoutesOutputReference_Override(d DialogflowCxFlowTransitionRoutesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDialogflowCxFlowTransitionRoutesOutputReference_Override(d DialogflowCxFlowTransitionRoutesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -564,8 +564,8 @@ func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -577,11 +577,11 @@ func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -644,7 +644,7 @@ func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) ResetTrigger
 	)
 }
 
-func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

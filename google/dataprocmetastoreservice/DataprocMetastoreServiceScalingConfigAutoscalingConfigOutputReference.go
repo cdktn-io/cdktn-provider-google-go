@@ -5,14 +5,14 @@ package dataprocmetastoreservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocmetastoreservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocmetastoreservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoscalingEnabled() interface{}
 	SetAutoscalingEnabled(val interface{})
 	AutoscalingEnabledInput() interface{}
@@ -43,15 +43,15 @@ type DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,15 +67,15 @@ type DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLimitConfig(value *DataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfig)
 	ResetAutoscalingEnabled()
 	ResetLimitConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference inter
 
 // The jsii proxy struct for DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference
 type jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) AutoscalingEnabled() interface{} {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 	return returns
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 }
 
 
-func NewDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference {
+func NewDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference(te
 	return &j
 }
 
-func NewDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference_Override(d DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference_Override(d DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 	)
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -515,7 +515,7 @@ func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
 	)
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

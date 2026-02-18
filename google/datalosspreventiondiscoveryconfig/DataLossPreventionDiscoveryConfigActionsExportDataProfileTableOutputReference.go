@@ -5,14 +5,14 @@ package datalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datalosspreventiondiscoveryconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datalosspreventiondiscoveryconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReferen
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReferen
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDatasetId()
 	ResetProjectId()
 	ResetTableId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReferen
 
 // The jsii proxy struct for DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference
 type jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 	return returns
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 }
 
 
-func NewDataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference {
+func NewDataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewDataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputRefe
 	return &j
 }
 
-func NewDataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference_Override(d DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference_Override(d DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 	)
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTabl
 	)
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

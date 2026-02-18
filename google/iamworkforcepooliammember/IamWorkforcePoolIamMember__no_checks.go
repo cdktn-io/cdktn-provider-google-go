@@ -107,7 +107,7 @@ func (j *jsiiProxy_IamWorkforcePoolIamMember) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkforcePoolIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamWorkforcePoolIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

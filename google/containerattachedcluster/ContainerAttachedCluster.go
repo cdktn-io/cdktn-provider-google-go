@@ -5,16 +5,16 @@ package containerattachedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/containerattachedcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/containerattachedcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_attached_cluster google_container_attached_cluster}.
 type ContainerAttachedCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -23,7 +23,7 @@ type ContainerAttachedCluster interface {
 	BinaryAuthorization() ContainerAttachedClusterBinaryAuthorizationOutputReference
 	BinaryAuthorizationInput() *ContainerAttachedClusterBinaryAuthorization
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterRegion() *string
 	// Experimental.
 	Connection() interface{}
@@ -49,14 +49,14 @@ type ContainerAttachedCluster interface {
 	Distribution() *string
 	SetDistribution(val *string)
 	DistributionInput() *string
-	EffectiveAnnotations() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
 	Errors() ContainerAttachedClusterErrorsList
 	Fleet() ContainerAttachedClusterFleetOutputReference
 	FleetInput() *ContainerAttachedClusterFleet
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -66,9 +66,9 @@ type ContainerAttachedCluster interface {
 	IdInput() *string
 	KubernetesVersion() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -90,9 +90,9 @@ type ContainerAttachedCluster interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -101,12 +101,12 @@ type ContainerAttachedCluster interface {
 	ProxyConfigInput() *ContainerAttachedClusterProxyConfig
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	SecurityPostureConfig() ContainerAttachedClusterSecurityPostureConfigOutputReference
 	SecurityPostureConfigInput() *ContainerAttachedClusterSecurityPostureConfig
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -124,7 +124,7 @@ type ContainerAttachedCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -142,9 +142,9 @@ type ContainerAttachedCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -198,7 +198,7 @@ type ContainerAttachedCluster interface {
 
 // The jsii proxy struct for ContainerAttachedCluster
 type jsiiProxy_ContainerAttachedCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ContainerAttachedCluster) Annotations() *map[string]*string {
@@ -261,8 +261,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) BinaryAuthorizationInput() *Contain
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ContainerAttachedCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) DistributionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ContainerAttachedCluster) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) FleetInput() *ContainerAttachedClus
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ContainerAttachedCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) KubernetesVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ContainerAttachedCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -651,8 +651,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ContainerAttachedCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -701,8 +701,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ContainerAttachedCluster) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -741,8 +741,8 @@ func (j *jsiiProxy_ContainerAttachedCluster) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ContainerAttachedCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -925,7 +925,7 @@ func (j *jsiiProxy_ContainerAttachedCluster)SetDistribution(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ContainerAttachedCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -944,7 +944,7 @@ func (j *jsiiProxy_ContainerAttachedCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ContainerAttachedCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -999,7 +999,7 @@ func (j *jsiiProxy_ContainerAttachedCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerAttachedCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ContainerAttachedCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1018,14 +1018,14 @@ func (j *jsiiProxy_ContainerAttachedCluster)SetProvisioners(val *[]interface{}) 
 	)
 }
 
-// Generates CDKTF code for importing a ContainerAttachedCluster resource upon running "cdktf plan <stack-name>".
-func ContainerAttachedCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ContainerAttachedCluster resource upon running "cdktn plan <stack-name>".
+func ContainerAttachedCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateContainerAttachedCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.containerAttachedCluster.ContainerAttachedCluster",
@@ -1159,11 +1159,11 @@ func (c *jsiiProxy_ContainerAttachedCluster) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAttachedCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAttachedCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1300,7 +1300,7 @@ func (c *jsiiProxy_ContainerAttachedCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAttachedCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ContainerAttachedCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1311,11 +1311,11 @@ func (c *jsiiProxy_ContainerAttachedCluster) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (c *jsiiProxy_ContainerAttachedCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAttachedCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

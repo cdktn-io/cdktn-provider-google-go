@@ -5,22 +5,22 @@ package folderaccessapprovalsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/folderaccessapprovalsettings/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/folderaccessapprovalsettings/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings}.
 type FolderAccessApprovalSettings interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActiveKeyVersion() *string
 	SetActiveKeyVersion(val *string)
 	ActiveKeyVersionInput() *string
-	AncestorHasActiveKeyVersion() cdktf.IResolvable
+	AncestorHasActiveKeyVersion() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,16 +35,16 @@ type FolderAccessApprovalSettings interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnrolledAncestor() cdktf.IResolvable
+	EnrolledAncestor() cdktn.IResolvable
 	EnrolledServices() FolderAccessApprovalSettingsEnrolledServicesList
 	EnrolledServicesInput() interface{}
 	FolderId() *string
 	SetFolderId(val *string)
 	FolderIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,11 +52,11 @@ type FolderAccessApprovalSettings interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	InvalidKeyVersion() cdktf.IResolvable
+	InvalidKeyVersion() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -64,9 +64,9 @@ type FolderAccessApprovalSettings interface {
 	SetNotificationEmails(val *[]*string)
 	NotificationEmailsInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type FolderAccessApprovalSettings interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type FolderAccessApprovalSettings interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type FolderAccessApprovalSettings interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,7 +148,7 @@ type FolderAccessApprovalSettings interface {
 
 // The jsii proxy struct for FolderAccessApprovalSettings
 type jsiiProxy_FolderAccessApprovalSettings struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FolderAccessApprovalSettings) ActiveKeyVersion() *string {
@@ -171,8 +171,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) ActiveKeyVersionInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) AncestorHasActiveKeyVersion() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_FolderAccessApprovalSettings) AncestorHasActiveKeyVersion() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ancestorHasActiveKeyVersion",
@@ -181,8 +181,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) AncestorHasActiveKeyVersion() c
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FolderAccessApprovalSettings) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -231,8 +231,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) EnrolledAncestor() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_FolderAccessApprovalSettings) EnrolledAncestor() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enrolledAncestor",
@@ -281,8 +281,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) FolderIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FolderAccessApprovalSettings) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -331,8 +331,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) InvalidKeyVersion() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_FolderAccessApprovalSettings) InvalidKeyVersion() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"invalidKeyVersion",
@@ -341,8 +341,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) InvalidKeyVersion() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FolderAccessApprovalSettings) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) NotificationEmailsInput() *[]*s
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FolderAccessApprovalSettings) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -421,8 +421,8 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FolderAccessApprovalSettings) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -553,7 +553,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettings)SetFolderId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FolderAccessApprovalSettings)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -572,7 +572,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettings)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FolderAccessApprovalSettings)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -594,7 +594,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettings)SetNotificationEmails(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_FolderAccessApprovalSettings)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FolderAccessApprovalSettings)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -613,14 +613,14 @@ func (j *jsiiProxy_FolderAccessApprovalSettings)SetProvisioners(val *[]interface
 	)
 }
 
-// Generates CDKTF code for importing a FolderAccessApprovalSettings resource upon running "cdktf plan <stack-name>".
-func FolderAccessApprovalSettings_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FolderAccessApprovalSettings resource upon running "cdktn plan <stack-name>".
+func FolderAccessApprovalSettings_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFolderAccessApprovalSettings_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.folderAccessApprovalSettings.FolderAccessApprovalSettings",
@@ -754,11 +754,11 @@ func (f *jsiiProxy_FolderAccessApprovalSettings) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettings) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FolderAccessApprovalSettings) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -895,7 +895,7 @@ func (f *jsiiProxy_FolderAccessApprovalSettings) HasResourceMove() interface{} {
 	return returns
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettings) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FolderAccessApprovalSettings) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -906,11 +906,11 @@ func (f *jsiiProxy_FolderAccessApprovalSettings) ImportFrom(id *string, provider
 	)
 }
 
-func (f *jsiiProxy_FolderAccessApprovalSettings) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FolderAccessApprovalSettings) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

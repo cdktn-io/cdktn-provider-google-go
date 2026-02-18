@@ -5,14 +5,14 @@ package computeinterconnectattachmentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinterconnectattachmentgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeinterconnectattachmentgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeInterconnectAttachmentGroupAttachmentsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Attachment() *string
 	SetAttachment(val *string)
 	AttachmentInput() *string
@@ -43,15 +43,15 @@ type ComputeInterconnectAttachmentGroupAttachmentsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type ComputeInterconnectAttachmentGroupAttachmentsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAttachment()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ComputeInterconnectAttachmentGroupAttachmentsOutputReference interface {
 
 // The jsii proxy struct for ComputeInterconnectAttachmentGroupAttachmentsOutputReference
 type jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) Attachment() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 }
 
 
-func NewComputeInterconnectAttachmentGroupAttachmentsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeInterconnectAttachmentGroupAttachmentsOutputReference {
+func NewComputeInterconnectAttachmentGroupAttachmentsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeInterconnectAttachmentGroupAttachmentsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeInterconnectAttachmentGroupAttachmentsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewComputeInterconnectAttachmentGroupAttachmentsOutputReference(terraformRe
 	return &j
 }
 
-func NewComputeInterconnectAttachmentGroupAttachmentsOutputReference_Override(c ComputeInterconnectAttachmentGroupAttachmentsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewComputeInterconnectAttachmentGroupAttachmentsOutputReference_Override(c ComputeInterconnectAttachmentGroupAttachmentsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 	)
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,8 +458,8 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -471,11 +471,11 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference)
 	)
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupAttachmentsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

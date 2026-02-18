@@ -5,14 +5,14 @@ package computesharedvpchostproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computesharedvpchostproject/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computesharedvpchostproject/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeSharedVpcHostProjectTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type ComputeSharedVpcHostProjectTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ComputeSharedVpcHostProjectTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ComputeSharedVpcHostProjectTimeoutsOutputReference interface {
 
 // The jsii proxy struct for ComputeSharedVpcHostProjectTimeoutsOutputReference
 type jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) Terraform
 }
 
 
-func NewComputeSharedVpcHostProjectTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeSharedVpcHostProjectTimeoutsOutputReference {
+func NewComputeSharedVpcHostProjectTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeSharedVpcHostProjectTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeSharedVpcHostProjectTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewComputeSharedVpcHostProjectTimeoutsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewComputeSharedVpcHostProjectTimeoutsOutputReference_Override(c ComputeSharedVpcHostProjectTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeSharedVpcHostProjectTimeoutsOutputReference_Override(c ComputeSharedVpcHostProjectTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) GetAnyMap
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,8 +459,8 @@ func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) GetString
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -472,11 +472,11 @@ func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) Interpola
 	return returns
 }
 
-func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) ResetDele
 	)
 }
 
-func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeSharedVpcHostProjectTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

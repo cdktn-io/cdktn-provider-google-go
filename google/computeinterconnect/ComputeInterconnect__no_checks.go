@@ -131,7 +131,7 @@ func (j *jsiiProxy_ComputeInterconnect) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnect) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeInterconnect) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

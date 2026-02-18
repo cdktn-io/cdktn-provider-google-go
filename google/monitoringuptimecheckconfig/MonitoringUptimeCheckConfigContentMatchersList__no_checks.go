@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateGetPa
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersList) validateSetWr
 	return nil
 }
 
-func validateNewMonitoringUptimeCheckConfigContentMatchersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitoringUptimeCheckConfigContentMatchersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

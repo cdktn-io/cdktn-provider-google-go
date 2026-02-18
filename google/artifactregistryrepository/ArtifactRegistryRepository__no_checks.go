@@ -151,7 +151,7 @@ func (j *jsiiProxy_ArtifactRegistryRepository) validateSetLabelsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepository) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ArtifactRegistryRepository) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataFusionInstanceIamPolicy) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataFusionInstanceIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFusionInstanceIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

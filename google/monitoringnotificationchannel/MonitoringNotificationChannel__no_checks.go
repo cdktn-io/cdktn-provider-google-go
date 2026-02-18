@@ -131,7 +131,7 @@ func (j *jsiiProxy_MonitoringNotificationChannel) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringNotificationChannel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitoringNotificationChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

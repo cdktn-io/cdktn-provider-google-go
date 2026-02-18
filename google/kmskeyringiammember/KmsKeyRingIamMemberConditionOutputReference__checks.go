@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateInterpol
 	return nil
 }
 
-func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_KmsKeyRingIamMemberConditionOutputReference) validateSetTitle
 	return nil
 }
 
-func validateNewKmsKeyRingIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsKeyRingIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

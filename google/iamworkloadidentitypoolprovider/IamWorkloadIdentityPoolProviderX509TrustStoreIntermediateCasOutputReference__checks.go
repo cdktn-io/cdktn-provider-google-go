@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasO
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasO
 
 func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCas:
 		val := val.(*IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCas)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasO
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCas; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCas; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasO
 	return nil
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasO
 	return nil
 }
 
-func validateNewIamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIamWorkloadIdentityPoolProviderX509TrustStoreIntermediateCasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

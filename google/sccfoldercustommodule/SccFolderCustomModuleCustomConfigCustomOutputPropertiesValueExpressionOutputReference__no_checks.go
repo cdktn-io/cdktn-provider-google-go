@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueE
 	return nil
 }
 
-func (s *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueE
 	return nil
 }
 
-func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesValueE
 	return nil
 }
 
-func validateNewSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

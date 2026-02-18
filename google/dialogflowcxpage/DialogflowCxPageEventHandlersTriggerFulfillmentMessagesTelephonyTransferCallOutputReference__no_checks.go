@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesTeleph
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesTeleph
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxPageEventHandlersTriggerFulfillmentMessagesTelephonyTransferCallOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

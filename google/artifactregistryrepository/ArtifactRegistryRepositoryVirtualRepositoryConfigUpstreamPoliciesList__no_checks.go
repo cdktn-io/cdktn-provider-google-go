@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoli
 	return nil
 }
 
-func (a *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoli
 	return nil
 }
 
-func (j *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoli
 	return nil
 }
 
-func validateNewArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArtifactRegistryRepositoryVirtualRepositoryConfigUpstreamPoliciesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

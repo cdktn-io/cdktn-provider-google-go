@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutp
 	return nil
 }
 
-func (d *jsiiProxy_DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutp
 	return nil
 }
 
-func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocSessionTemplateEnvironmentConfigPeripheralsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

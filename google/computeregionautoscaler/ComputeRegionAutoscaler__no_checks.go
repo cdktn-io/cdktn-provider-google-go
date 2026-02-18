@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeRegionAutoscaler) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionAutoscaler) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRegionAutoscaler) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference) validate
 	return nil
 }
 
-func (e *jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcGoogleApiSourceLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventarcGoogleApiSourceLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventarcGoogleApiSourceLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

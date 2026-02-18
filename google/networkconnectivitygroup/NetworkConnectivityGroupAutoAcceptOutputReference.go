@@ -5,14 +5,14 @@ package networkconnectivitygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkconnectivitygroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkconnectivitygroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkConnectivityGroupAutoAcceptOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoAcceptProjects() *[]*string
 	SetAutoAcceptProjects(val *[]*string)
 	AutoAcceptProjectsInput() *[]*string
@@ -40,15 +40,15 @@ type NetworkConnectivityGroupAutoAcceptOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NetworkConnectivityGroupAutoAcceptOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NetworkConnectivityGroupAutoAcceptOutputReference interface {
 
 // The jsii proxy struct for NetworkConnectivityGroupAutoAcceptOutputReference
 type jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) AutoAcceptProjects() *[]*string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) TerraformR
 }
 
 
-func NewNetworkConnectivityGroupAutoAcceptOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkConnectivityGroupAutoAcceptOutputReference {
+func NewNetworkConnectivityGroupAutoAcceptOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkConnectivityGroupAutoAcceptOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkConnectivityGroupAutoAcceptOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewNetworkConnectivityGroupAutoAcceptOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewNetworkConnectivityGroupAutoAcceptOutputReference_Override(n NetworkConnectivityGroupAutoAcceptOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkConnectivityGroupAutoAcceptOutputReference_Override(n NetworkConnectivityGroupAutoAcceptOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) GetAnyMapA
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -423,8 +423,8 @@ func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) GetStringM
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -436,11 +436,11 @@ func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) Interpolat
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -452,7 +452,7 @@ func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) Interpolat
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkConnectivityGroupAutoAcceptOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

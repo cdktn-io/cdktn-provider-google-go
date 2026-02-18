@@ -127,7 +127,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureview) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureview) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureview) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

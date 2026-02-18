@@ -15,7 +15,7 @@ func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalE
 	return nil
 }
 
-func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalE
 	return nil
 }
 
-func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalE
 	return nil
 }
 
-func validateNewBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

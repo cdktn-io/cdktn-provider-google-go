@@ -115,7 +115,7 @@ func (j *jsiiProxy_ManagedKafkaTopic) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaTopic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ManagedKafkaTopic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApihubHostProjectRegistration) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ApihubHostProjectRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApihubHostProjectRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -147,7 +147,7 @@ func (j *jsiiProxy_EdgecontainerCluster) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EdgecontainerCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

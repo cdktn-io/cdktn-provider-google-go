@@ -127,7 +127,7 @@ func (j *jsiiProxy_CloudbuildBitbucketServerConfig) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildBitbucketServerConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudbuildBitbucketServerConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

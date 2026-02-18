@@ -111,7 +111,7 @@ func (j *jsiiProxy_GeminiRepositoryGroupIamMember) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GeminiRepositoryGroupIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GeminiRepositoryGroupIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

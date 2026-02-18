@@ -47,7 +47,7 @@ func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatType
 	return nil
 }
 
-func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatType
 	return nil
 }
 
-func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

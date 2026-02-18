@@ -8,7 +8,7 @@ package assuredworkloadsworkload
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (a *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateGetPara
 	return nil
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkloadComplianceStatusList) validateSetWrap
 	return nil
 }
 
-func validateNewAssuredWorkloadsWorkloadComplianceStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAssuredWorkloadsWorkloadComplianceStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

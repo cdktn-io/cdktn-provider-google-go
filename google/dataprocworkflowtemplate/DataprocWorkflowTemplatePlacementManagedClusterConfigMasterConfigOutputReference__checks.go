@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators:
 		value := value.(*[]*DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators)
@@ -117,7 +117,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 	return nil
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -264,7 +264,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 	return nil
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -272,7 +272,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 	return nil
 }
 
-func validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

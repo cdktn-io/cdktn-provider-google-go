@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validatePu
 	return nil
 }
 
-func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewModelArmorTemplateTemplateMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewModelArmorTemplateTemplateMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

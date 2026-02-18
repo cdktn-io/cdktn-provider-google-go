@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAnalysisNoteAttestationAuthorityHintOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAnalysisNoteAttestationAuthorityHintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAnalysisNoteAttestationAuthorityHintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerAnalysisNoteAttestationAuthorityHintOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAnalysisNoteAttestationAuthorityHintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAnalysisNoteAttestationAuthorityHintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAnalysisNoteAttestationAuthorityHintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAnalysisNoteAttestationAuthorityHintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package edgecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/edgecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/edgecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EdgecontainerClusterControlPlaneEncryptionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type EdgecontainerClusterControlPlaneEncryptionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type EdgecontainerClusterControlPlaneEncryptionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKmsKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type EdgecontainerClusterControlPlaneEncryptionOutputReference interface {
 
 // The jsii proxy struct for EdgecontainerClusterControlPlaneEncryptionOutputReference
 type jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) ComplexObjectIndex() interface{} {
@@ -196,8 +196,8 @@ func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -207,7 +207,7 @@ func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Te
 }
 
 
-func NewEdgecontainerClusterControlPlaneEncryptionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EdgecontainerClusterControlPlaneEncryptionOutputReference {
+func NewEdgecontainerClusterControlPlaneEncryptionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EdgecontainerClusterControlPlaneEncryptionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEdgecontainerClusterControlPlaneEncryptionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -224,7 +224,7 @@ func NewEdgecontainerClusterControlPlaneEncryptionOutputReference(terraformResou
 	return &j
 }
 
-func NewEdgecontainerClusterControlPlaneEncryptionOutputReference_Override(e EdgecontainerClusterControlPlaneEncryptionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEdgecontainerClusterControlPlaneEncryptionOutputReference_Override(e EdgecontainerClusterControlPlaneEncryptionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Ge
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -457,8 +457,8 @@ func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Ge
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -470,11 +470,11 @@ func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) In
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -494,7 +494,7 @@ func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Re
 	)
 }
 
-func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EdgecontainerClusterControlPlaneEncryptionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

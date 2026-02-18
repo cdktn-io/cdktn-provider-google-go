@@ -15,7 +15,7 @@ func (s *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) 
 	return nil
 }
 
-func (s *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) 
 	return nil
 }
 
-func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SccFolderCustomModuleCustomConfigCustomOutputPropertiesList) 
 	return nil
 }
 
-func validateNewSccFolderCustomModuleCustomConfigCustomOutputPropertiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSccFolderCustomModuleCustomConfigCustomOutputPropertiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_MonitoringMonitoredProject) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringMonitoredProject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitoringMonitoredProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

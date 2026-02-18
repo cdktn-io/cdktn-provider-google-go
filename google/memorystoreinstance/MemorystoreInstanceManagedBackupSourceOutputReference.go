@@ -5,14 +5,14 @@ package memorystoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/memorystoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/memorystoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MemorystoreInstanceManagedBackupSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Backup() *string
 	SetBackup(val *string)
 	BackupInput() *string
@@ -40,15 +40,15 @@ type MemorystoreInstanceManagedBackupSourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type MemorystoreInstanceManagedBackupSourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type MemorystoreInstanceManagedBackupSourceOutputReference interface {
 
 // The jsii proxy struct for MemorystoreInstanceManagedBackupSourceOutputReference
 type jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Backup() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Terraf
 }
 
 
-func NewMemorystoreInstanceManagedBackupSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MemorystoreInstanceManagedBackupSourceOutputReference {
+func NewMemorystoreInstanceManagedBackupSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MemorystoreInstanceManagedBackupSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMemorystoreInstanceManagedBackupSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewMemorystoreInstanceManagedBackupSourceOutputReference(terraformResource 
 	return &j
 }
 
-func NewMemorystoreInstanceManagedBackupSourceOutputReference_Override(m MemorystoreInstanceManagedBackupSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMemorystoreInstanceManagedBackupSourceOutputReference_Override(m MemorystoreInstanceManagedBackupSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) GetAny
 	return returns
 }
 
-func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -423,8 +423,8 @@ func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) GetStr
 	return returns
 }
 
-func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Interp
 	return returns
 }
 
-func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -452,7 +452,7 @@ func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Interp
 	return returns
 }
 
-func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MemorystoreInstanceManagedBackupSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

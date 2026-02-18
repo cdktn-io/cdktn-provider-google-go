@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -126,7 +126,7 @@ func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validatePu
 	return nil
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -255,7 +255,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -271,7 +271,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigOutputReference) validateSe
 	return nil
 }
 
-func validateNewCloudfunctions2FunctionBuildConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfunctions2FunctionBuildConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

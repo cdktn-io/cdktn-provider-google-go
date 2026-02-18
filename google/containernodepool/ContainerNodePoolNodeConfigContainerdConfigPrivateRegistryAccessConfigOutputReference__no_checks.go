@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAcc
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAcc
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

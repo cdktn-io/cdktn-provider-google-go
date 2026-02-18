@@ -5,20 +5,20 @@ package managedkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/managedkafkacluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/managedkafkacluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster}.
 type ManagedKafkaCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CapacityConfig() ManagedKafkaClusterCapacityConfigOutputReference
 	CapacityConfigInput() *ManagedKafkaClusterCapacityConfig
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterId() *string
 	SetClusterId(val *string)
 	ClusterIdInput() *string
@@ -37,11 +37,11 @@ type ManagedKafkaCluster interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type ManagedKafkaCluster interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -68,9 +68,9 @@ type ManagedKafkaCluster interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,8 +81,8 @@ type ManagedKafkaCluster interface {
 	RebalanceConfigInput() *ManagedKafkaClusterRebalanceConfig
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type ManagedKafkaCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type ManagedKafkaCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -164,7 +164,7 @@ type ManagedKafkaCluster interface {
 
 // The jsii proxy struct for ManagedKafkaCluster
 type jsiiProxy_ManagedKafkaCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ManagedKafkaCluster) CapacityConfig() ManagedKafkaClusterCapacityConfigOutputReference {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) CapacityConfigInput() *ManagedKafkaClust
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ManagedKafkaCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ManagedKafkaCluster) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ManagedKafkaCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -367,8 +367,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ManagedKafkaCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -437,8 +437,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ManagedKafkaCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -497,8 +497,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ManagedKafkaCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -507,8 +507,8 @@ func (j *jsiiProxy_ManagedKafkaCluster) TerraformGeneratorMetadata() *cdktf.Terr
 	return returns
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ManagedKafkaCluster) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -658,7 +658,7 @@ func (j *jsiiProxy_ManagedKafkaCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ManagedKafkaCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -688,7 +688,7 @@ func (j *jsiiProxy_ManagedKafkaCluster)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ManagedKafkaCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -721,7 +721,7 @@ func (j *jsiiProxy_ManagedKafkaCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ManagedKafkaCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ManagedKafkaCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -740,14 +740,14 @@ func (j *jsiiProxy_ManagedKafkaCluster)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a ManagedKafkaCluster resource upon running "cdktf plan <stack-name>".
-func ManagedKafkaCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ManagedKafkaCluster resource upon running "cdktn plan <stack-name>".
+func ManagedKafkaCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateManagedKafkaCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.managedKafkaCluster.ManagedKafkaCluster",
@@ -881,11 +881,11 @@ func (m *jsiiProxy_ManagedKafkaCluster) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (m *jsiiProxy_ManagedKafkaCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagedKafkaCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1022,7 +1022,7 @@ func (m *jsiiProxy_ManagedKafkaCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_ManagedKafkaCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_ManagedKafkaCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1033,11 +1033,11 @@ func (m *jsiiProxy_ManagedKafkaCluster) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (m *jsiiProxy_ManagedKafkaCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagedKafkaCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

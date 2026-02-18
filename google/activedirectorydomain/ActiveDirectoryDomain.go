@@ -5,16 +5,16 @@ package activedirectorydomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/activedirectorydomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/activedirectorydomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/active_directory_domain google_active_directory_domain}.
 type ActiveDirectoryDomain interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Admin() *string
 	SetAdmin(val *string)
 	AdminInput() *string
@@ -22,7 +22,7 @@ type ActiveDirectoryDomain interface {
 	SetAuthorizedNetworks(val *[]*string)
 	AuthorizedNetworksInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -43,11 +43,11 @@ type ActiveDirectoryDomain interface {
 	DomainName() *string
 	SetDomainName(val *string)
 	DomainNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fqdn() *string
 	// Experimental.
 	Fqn() *string
@@ -60,9 +60,9 @@ type ActiveDirectoryDomain interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Locations() *[]*string
 	SetLocations(val *[]*string)
 	LocationsInput() *[]*string
@@ -73,9 +73,9 @@ type ActiveDirectoryDomain interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,8 +86,8 @@ type ActiveDirectoryDomain interface {
 	SetReservedIpRange(val *string)
 	ReservedIpRangeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type ActiveDirectoryDomain interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type ActiveDirectoryDomain interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -163,7 +163,7 @@ type ActiveDirectoryDomain interface {
 
 // The jsii proxy struct for ActiveDirectoryDomain
 type jsiiProxy_ActiveDirectoryDomain struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ActiveDirectoryDomain) Admin() *string {
@@ -206,8 +206,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) AuthorizedNetworksInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ActiveDirectoryDomain) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) DomainNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ActiveDirectoryDomain) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ActiveDirectoryDomain) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -386,8 +386,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ActiveDirectoryDomain) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -456,8 +456,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ActiveDirectoryDomain) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -506,8 +506,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) ReservedIpRangeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ActiveDirectoryDomain) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -516,8 +516,8 @@ func (j *jsiiProxy_ActiveDirectoryDomain) TerraformGeneratorMetadata() *cdktf.Te
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ActiveDirectoryDomain) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -670,7 +670,7 @@ func (j *jsiiProxy_ActiveDirectoryDomain)SetDomainName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ActiveDirectoryDomain)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -700,7 +700,7 @@ func (j *jsiiProxy_ActiveDirectoryDomain)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ActiveDirectoryDomain)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -733,7 +733,7 @@ func (j *jsiiProxy_ActiveDirectoryDomain)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomain)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ActiveDirectoryDomain)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -763,14 +763,14 @@ func (j *jsiiProxy_ActiveDirectoryDomain)SetReservedIpRange(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ActiveDirectoryDomain resource upon running "cdktf plan <stack-name>".
-func ActiveDirectoryDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ActiveDirectoryDomain resource upon running "cdktn plan <stack-name>".
+func ActiveDirectoryDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateActiveDirectoryDomain_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.activeDirectoryDomain.ActiveDirectoryDomain",
@@ -904,11 +904,11 @@ func (a *jsiiProxy_ActiveDirectoryDomain) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomain) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActiveDirectoryDomain) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1045,7 +1045,7 @@ func (a *jsiiProxy_ActiveDirectoryDomain) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomain) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ActiveDirectoryDomain) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1056,11 +1056,11 @@ func (a *jsiiProxy_ActiveDirectoryDomain) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomain) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActiveDirectoryDomain) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

@@ -111,7 +111,7 @@ func (j *jsiiProxy_GkeHubMembershipBinding) validateSetLabelsParameters(val *map
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubMembershipBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeHubMembershipBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

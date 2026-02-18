@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonth
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonth
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonth
 	return nil
 }
 
-func validateNewOsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigPatchDeploymentRecurringScheduleMonthlyWeekDayOfMonthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

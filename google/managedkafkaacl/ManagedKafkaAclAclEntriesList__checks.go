@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_ManagedKafkaAclAclEntriesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (m *jsiiProxy_ManagedKafkaAclAclEntriesList) validateGetParameters(index *f
 	return nil
 }
 
-func (m *jsiiProxy_ManagedKafkaAclAclEntriesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedKafkaAclAclEntriesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (m *jsiiProxy_ManagedKafkaAclAclEntriesList) validateResolveParameters(cont
 
 func (j *jsiiProxy_ManagedKafkaAclAclEntriesList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ManagedKafkaAclAclEntries:
 		val := val.(*[]*ManagedKafkaAclAclEntries)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ManagedKafkaAclAclEntriesList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ManagedKafkaAclAclEntries; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ManagedKafkaAclAclEntries; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ManagedKafkaAclAclEntriesList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaAclAclEntriesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedKafkaAclAclEntriesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ManagedKafkaAclAclEntriesList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewManagedKafkaAclAclEntriesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewManagedKafkaAclAclEntriesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -119,7 +119,7 @@ func (j *jsiiProxy_ChronicleReferenceList) validateSetInstanceParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleReferenceList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChronicleReferenceList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

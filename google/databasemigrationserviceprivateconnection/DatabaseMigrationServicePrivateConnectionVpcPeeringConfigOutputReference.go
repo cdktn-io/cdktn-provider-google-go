@@ -5,14 +5,14 @@ package databasemigrationserviceprivateconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/databasemigrationserviceprivateconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/databasemigrationserviceprivateconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VpcName() *string
 	SetVpcName(val *string)
 	VpcNameInput() *string
@@ -51,7 +51,7 @@ type DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference in
 
 // The jsii proxy struct for DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference
 type jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 	return returns
 }
 
-func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 }
 
 
-func NewDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference {
+func NewDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference
 	return &j
 }
 
-func NewDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference_Override(d DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference_Override(d DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 	)
 }
 
-func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,8 +457,8 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -486,7 +486,7 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutp
 	return returns
 }
 
-func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,18 +5,18 @@ package identityplatformtenantinboundsamlconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/identityplatformtenantinboundsamlconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/identityplatformtenantinboundsamlconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
 type IdentityPlatformTenantInboundSamlConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,9 +51,9 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	IdpConfig() IdentityPlatformTenantInboundSamlConfigIdpConfigOutputReference
 	IdpConfigInput() *IdentityPlatformTenantInboundSamlConfigIdpConfig
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -63,9 +63,9 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	SetTenant(val *string)
 	TenantInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -153,11 +153,11 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 
 // The jsii proxy struct for IdentityPlatformTenantInboundSamlConfig
 type jsiiProxy_IdentityPlatformTenantInboundSamlConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -246,8 +246,8 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) EnabledInput() inter
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -316,8 +316,8 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) IdpConfigInput() *Id
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -376,8 +376,8 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ProjectInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -446,8 +446,8 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) TenantInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -578,7 +578,7 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetEnabled(val interf
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -597,7 +597,7 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -630,7 +630,7 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetProject(val *strin
 	)
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -660,14 +660,14 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetTenant(val *string
 	)
 }
 
-// Generates CDKTF code for importing a IdentityPlatformTenantInboundSamlConfig resource upon running "cdktf plan <stack-name>".
-func IdentityPlatformTenantInboundSamlConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IdentityPlatformTenantInboundSamlConfig resource upon running "cdktn plan <stack-name>".
+func IdentityPlatformTenantInboundSamlConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIdentityPlatformTenantInboundSamlConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.identityPlatformTenantInboundSamlConfig.IdentityPlatformTenantInboundSamlConfig",
@@ -801,11 +801,11 @@ func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) GetAnyMapAttribute(t
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -942,7 +942,7 @@ func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) HasResourceMove() in
 	return returns
 }
 
-func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -953,11 +953,11 @@ func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ImportFrom(id *strin
 	)
 }
 
-func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

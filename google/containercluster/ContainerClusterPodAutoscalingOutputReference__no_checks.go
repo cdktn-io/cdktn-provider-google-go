@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterPodAutoscalingOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterPodAutoscalingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterPodAutoscalingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterPodAutoscalingOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterPodAutoscalingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterPodAutoscalingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterPodAutoscalingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterPodAutoscalingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

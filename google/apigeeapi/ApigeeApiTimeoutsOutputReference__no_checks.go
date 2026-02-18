@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ApigeeApiTimeoutsOutputReference) validateSetUpdateParameters
 	return nil
 }
 
-func validateNewApigeeApiTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeApiTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

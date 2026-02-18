@@ -159,7 +159,7 @@ func (j *jsiiProxy_GkeonpremBareMetalAdminCluster) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalAdminCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeonpremBareMetalAdminCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

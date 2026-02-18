@@ -15,7 +15,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyGeoList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDnsRecordSetRoutingPolicyGeoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDnsRecordSetRoutingPolicyGeoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

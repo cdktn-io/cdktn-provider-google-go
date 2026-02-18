@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputRe
 
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ComputeRegionNetworkFirewallPolicyAssociationTimeouts:
 		val := val.(*ComputeRegionNetworkFirewallPolicyAssociationTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputRe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ComputeRegionNetworkFirewallPolicyAssociationTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ComputeRegionNetworkFirewallPolicyAssociationTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputRe
 	return nil
 }
 
-func validateNewComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionNetworkFirewallPolicyAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

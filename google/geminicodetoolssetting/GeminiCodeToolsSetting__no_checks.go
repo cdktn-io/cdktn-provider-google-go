@@ -119,7 +119,7 @@ func (j *jsiiProxy_GeminiCodeToolsSetting) validateSetLabelsParameters(val *map[
 	return nil
 }
 
-func (j *jsiiProxy_GeminiCodeToolsSetting) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GeminiCodeToolsSetting) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

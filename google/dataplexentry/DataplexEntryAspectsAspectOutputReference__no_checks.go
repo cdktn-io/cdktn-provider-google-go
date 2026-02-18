@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexEntryAspectsAspectOutputReference) validateInterpolat
 	return nil
 }
 
-func (d *jsiiProxy_DataplexEntryAspectsAspectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexEntryAspectsAspectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataplexEntryAspectsAspectOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataplexEntryAspectsAspectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexEntryAspectsAspectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexEntryAspectsAspectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexEntryAspectsAspectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

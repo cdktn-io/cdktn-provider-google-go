@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheKeysetValidationSharedKeysOutputRefer
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesEdgeCacheKeysetValidationSharedKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesEdgeCacheKeysetValidationSharedKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheKeysetValidationSharedKeysOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesEdgeCacheKeysetValidationSharedKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesEdgeCacheKeysetValidationSharedKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkServicesEdgeCacheKeysetValidationSharedKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkServicesEdgeCacheKeysetValidationSharedKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

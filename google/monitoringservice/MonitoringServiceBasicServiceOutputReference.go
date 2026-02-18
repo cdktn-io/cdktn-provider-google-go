@@ -5,14 +5,14 @@ package monitoringservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/monitoringservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/monitoringservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitoringServiceBasicServiceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type MonitoringServiceBasicServiceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type MonitoringServiceBasicServiceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetServiceLabels()
 	ResetServiceType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type MonitoringServiceBasicServiceOutputReference interface {
 
 // The jsii proxy struct for MonitoringServiceBasicServiceOutputReference
 type jsiiProxy_MonitoringServiceBasicServiceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference) TerraformResour
 }
 
 
-func NewMonitoringServiceBasicServiceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitoringServiceBasicServiceOutputReference {
+func NewMonitoringServiceBasicServiceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitoringServiceBasicServiceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitoringServiceBasicServiceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewMonitoringServiceBasicServiceOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewMonitoringServiceBasicServiceOutputReference_Override(m MonitoringServiceBasicServiceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitoringServiceBasicServiceOutputReference_Override(m MonitoringServiceBasicServiceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitoringServiceBasicServiceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -459,8 +459,8 @@ func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -472,11 +472,11 @@ func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) InterpolationAs
 	return returns
 }
 
-func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,7 +504,7 @@ func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) ResetServiceTyp
 	)
 }
 
-func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitoringServiceBasicServiceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

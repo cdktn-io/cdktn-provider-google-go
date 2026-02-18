@@ -47,7 +47,7 @@ func (k *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateIn
 	return nil
 }
 
-func (k *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KmsEkmConnectionIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewKmsEkmConnectionIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKmsEkmConnectionIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicyPscConnectionsError
 	return nil
 }
 
-func validateNewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkConnectivityServiceConnectionPolicyPscConnectionsErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

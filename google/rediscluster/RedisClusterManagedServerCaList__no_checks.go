@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedisClusterManagedServerCaList) validateGetParameters(index 
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterManagedServerCaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterManagedServerCaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_RedisClusterManagedServerCaList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterManagedServerCaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterManagedServerCaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_RedisClusterManagedServerCaList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewRedisClusterManagedServerCaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisClusterManagedServerCaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

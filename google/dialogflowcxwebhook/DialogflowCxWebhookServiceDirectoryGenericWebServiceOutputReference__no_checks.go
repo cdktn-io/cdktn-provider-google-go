@@ -55,7 +55,7 @@ func (d *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
 	return nil
 }
 
-func validateNewDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

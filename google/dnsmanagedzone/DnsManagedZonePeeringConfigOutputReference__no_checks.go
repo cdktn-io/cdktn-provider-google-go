@@ -51,7 +51,7 @@ func (d *jsiiProxy_DnsManagedZonePeeringConfigOutputReference) validatePutTarget
 	return nil
 }
 
-func (d *jsiiProxy_DnsManagedZonePeeringConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsManagedZonePeeringConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DnsManagedZonePeeringConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZonePeeringConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsManagedZonePeeringConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsManagedZonePeeringConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsManagedZonePeeringConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

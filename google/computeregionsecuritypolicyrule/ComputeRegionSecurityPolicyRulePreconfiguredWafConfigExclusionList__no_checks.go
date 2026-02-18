@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func validateNewComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

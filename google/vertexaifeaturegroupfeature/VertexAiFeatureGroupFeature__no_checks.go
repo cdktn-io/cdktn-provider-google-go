@@ -119,7 +119,7 @@ func (j *jsiiProxy_VertexAiFeatureGroupFeature) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiFeatureGroupFeature) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VertexAiFeatureGroupFeature) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

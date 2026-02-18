@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecretManagerRegionalSecretTopicsOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerRegionalSecretTopicsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerRegionalSecretTopicsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SecretManagerRegionalSecretTopicsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretTopicsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerRegionalSecretTopicsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecretManagerRegionalSecretTopicsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecretManagerRegionalSecretTopicsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

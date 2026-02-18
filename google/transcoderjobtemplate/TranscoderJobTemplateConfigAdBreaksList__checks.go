@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateGetParameter
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateResolveParam
 
 func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*TranscoderJobTemplateConfigAdBreaks:
 		val := val.(*[]*TranscoderJobTemplateConfigAdBreaks)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateSetInternalV
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*TranscoderJobTemplateConfigAdBreaks; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*TranscoderJobTemplateConfigAdBreaks; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewTranscoderJobTemplateConfigAdBreaksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTranscoderJobTemplateConfigAdBreaksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

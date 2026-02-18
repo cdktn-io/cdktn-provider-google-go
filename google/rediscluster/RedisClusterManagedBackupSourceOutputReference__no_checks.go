@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) validateInter
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterManagedBackupSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisClusterManagedBackupSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedisClusterManagedBackupSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

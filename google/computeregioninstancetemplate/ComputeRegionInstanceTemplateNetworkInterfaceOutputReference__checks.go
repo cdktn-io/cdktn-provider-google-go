@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionInstanceTemplateNetworkInterfaceAccessConfig:
 		value := value.(*[]*ComputeRegionInstanceTemplateNetworkInterfaceAccessConfig)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionInstanceTemplateNetworkInterfaceAccessConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionInstanceTemplateNetworkInterfaceAccessConfig; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionInstanceTemplateNetworkInterfaceAliasIpRange:
 		value := value.(*[]*ComputeRegionInstanceTemplateNetworkInterfaceAliasIpRange)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionInstanceTemplateNetworkInterfaceAliasIpRange; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionInstanceTemplateNetworkInterfaceAliasIpRange; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfig:
 		value := value.(*[]*ComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfig)
@@ -179,14 +179,14 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfig; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionInstanceTemplateNetworkInterfaceIpv6AccessConfig; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 
 func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ComputeRegionInstanceTemplateNetworkInterface:
 		val := val.(*ComputeRegionInstanceTemplateNetworkInterface)
@@ -284,7 +284,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ComputeRegionInstanceTemplateNetworkInterface; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ComputeRegionInstanceTemplateNetworkInterface; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -363,7 +363,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -371,7 +371,7 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateNetworkInterfaceOutputReference)
 	return nil
 }
 
-func validateNewComputeRegionInstanceTemplateNetworkInterfaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionInstanceTemplateNetworkInterfaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

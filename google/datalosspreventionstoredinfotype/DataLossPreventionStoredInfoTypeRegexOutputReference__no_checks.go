@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeRegexOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionStoredInfoTypeRegexOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionStoredInfoTypeRegexOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

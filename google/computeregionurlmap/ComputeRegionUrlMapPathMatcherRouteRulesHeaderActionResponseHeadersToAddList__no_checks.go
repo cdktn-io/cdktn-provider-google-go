@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseH
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseH
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseH
 	return nil
 }
 
-func validateNewComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

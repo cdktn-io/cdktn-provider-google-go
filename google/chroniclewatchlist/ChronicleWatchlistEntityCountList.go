@@ -5,14 +5,14 @@ package chroniclewatchlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/chroniclewatchlist/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/chroniclewatchlist/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ChronicleWatchlistEntityCountList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type ChronicleWatchlistEntityCountList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type ChronicleWatchlistEntityCountList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ChronicleWatchlistEntityCountOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type ChronicleWatchlistEntityCountList interface {
 
 // The jsii proxy struct for ChronicleWatchlistEntityCountList
 type jsiiProxy_ChronicleWatchlistEntityCountList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ChronicleWatchlistEntityCountList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_ChronicleWatchlistEntityCountList) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_ChronicleWatchlistEntityCountList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ChronicleWatchlistEntityCountList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ChronicleWatchlistEntityCountList) WrapsSet() *bool {
 }
 
 
-func NewChronicleWatchlistEntityCountList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChronicleWatchlistEntityCountList {
+func NewChronicleWatchlistEntityCountList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChronicleWatchlistEntityCountList {
 	_init_.Initialize()
 
 	if err := validateNewChronicleWatchlistEntityCountListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewChronicleWatchlistEntityCountList(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewChronicleWatchlistEntityCountList_Override(c ChronicleWatchlistEntityCountList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewChronicleWatchlistEntityCountList_Override(c ChronicleWatchlistEntityCountList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_ChronicleWatchlistEntityCountList)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_ChronicleWatchlistEntityCountList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ChronicleWatchlistEntityCountList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_ChronicleWatchlistEntityCountList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (c *jsiiProxy_ChronicleWatchlistEntityCountList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ChronicleWatchlistEntityCountList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -208,7 +208,7 @@ func (c *jsiiProxy_ChronicleWatchlistEntityCountList) Get(index *float64) Chroni
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleWatchlistEntityCountList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ChronicleWatchlistEntityCountList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

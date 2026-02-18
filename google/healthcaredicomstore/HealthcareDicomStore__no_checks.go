@@ -119,7 +119,7 @@ func (j *jsiiProxy_HealthcareDicomStore) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareDicomStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

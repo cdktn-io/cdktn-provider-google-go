@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataprocBatchRuntimeInfoCurrentUsageList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataprocBatchRuntimeInfoCurrentUsageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataprocBatchRuntimeInfoCurrentUsageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

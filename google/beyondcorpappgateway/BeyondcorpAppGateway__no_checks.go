@@ -119,7 +119,7 @@ func (j *jsiiProxy_BeyondcorpAppGateway) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpAppGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BeyondcorpAppGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

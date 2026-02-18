@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileMysqlOutputReference
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceConnectionProfileMysqlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabaseMigrationServiceConnectionProfileMysqlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

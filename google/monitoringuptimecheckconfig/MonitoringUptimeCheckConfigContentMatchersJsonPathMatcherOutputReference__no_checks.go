@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutp
 	return nil
 }
 
-func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutp
 	return nil
 }
 
-func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitoringUptimeCheckConfigContentMatchersJsonPathMatcherOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddeployTargetMultiTargetOutputReference) validateInterpol
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployTargetMultiTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployTargetMultiTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ClouddeployTargetMultiTargetOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployTargetMultiTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployTargetMultiTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddeployTargetMultiTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddeployTargetMultiTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

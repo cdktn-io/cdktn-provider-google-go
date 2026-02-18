@@ -175,7 +175,7 @@ func (j *jsiiProxy_ComputeRegionBackendService) validateSetIpAddressSelectionPol
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionBackendService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRegionBackendService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

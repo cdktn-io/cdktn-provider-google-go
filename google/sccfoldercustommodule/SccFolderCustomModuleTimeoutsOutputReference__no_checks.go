@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (s *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SccFolderCustomModuleTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewSccFolderCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccFolderCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

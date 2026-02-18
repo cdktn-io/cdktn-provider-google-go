@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (p *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PubsubLiteReservationTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewPubsubLiteReservationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubLiteReservationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

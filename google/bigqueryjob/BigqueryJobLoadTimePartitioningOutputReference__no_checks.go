@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateInter
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BigqueryJobLoadTimePartitioningOutputReference) validateSetTy
 	return nil
 }
 
-func validateNewBigqueryJobLoadTimePartitioningOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryJobLoadTimePartitioningOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

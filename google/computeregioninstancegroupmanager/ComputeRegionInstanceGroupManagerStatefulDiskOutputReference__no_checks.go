@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulDiskOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulDiskOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerStatefulDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRegionInstanceGroupManagerStatefulDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionInstanceGroupManagerStatefulDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

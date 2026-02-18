@@ -5,14 +5,14 @@ package privatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/privatecacertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/privatecacertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrivatecaCertificateConfigPublicKeyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type PrivatecaCertificateConfigPublicKeyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type PrivatecaCertificateConfigPublicKeyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type PrivatecaCertificateConfigPublicKeyOutputReference interface {
 
 // The jsii proxy struct for PrivatecaCertificateConfigPublicKeyOutputReference
 type jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) Terraform
 }
 
 
-func NewPrivatecaCertificateConfigPublicKeyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PrivatecaCertificateConfigPublicKeyOutputReference {
+func NewPrivatecaCertificateConfigPublicKeyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PrivatecaCertificateConfigPublicKeyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrivatecaCertificateConfigPublicKeyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewPrivatecaCertificateConfigPublicKeyOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewPrivatecaCertificateConfigPublicKeyOutputReference_Override(p PrivatecaCertificateConfigPublicKeyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPrivatecaCertificateConfigPublicKeyOutputReference_Override(p PrivatecaCertificateConfigPublicKeyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) GetAnyMap
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -458,8 +458,8 @@ func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) GetString
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -471,11 +471,11 @@ func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) Interpola
 	return returns
 }
 
-func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -495,7 +495,7 @@ func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) ResetKey(
 	)
 }
 
-func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrivatecaCertificateConfigPublicKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

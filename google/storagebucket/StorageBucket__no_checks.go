@@ -171,7 +171,7 @@ func (j *jsiiProxy_StorageBucket) validateSetLabelsParameters(val *map[string]*s
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucket) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageBucket) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

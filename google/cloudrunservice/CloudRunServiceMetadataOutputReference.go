@@ -5,14 +5,14 @@ package cloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudrunservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/cloudrunservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudRunServiceMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -31,8 +31,8 @@ type CloudRunServiceMetadataOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	Fqn() *string
 	Generation() *float64
@@ -50,18 +50,18 @@ type CloudRunServiceMetadataOutputReference interface {
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
-	TerraformLabels() cdktf.StringMap
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uid() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,15 +77,15 @@ type CloudRunServiceMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotations()
 	ResetLabels()
 	ResetNamespace()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type CloudRunServiceMetadataOutputReference interface {
 
 // The jsii proxy struct for CloudRunServiceMetadataOutputReference
 type jsiiProxy_CloudRunServiceMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) Annotations() *map[string]*string {
@@ -148,8 +148,8 @@ func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) CreationStack() *[]*s
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -158,8 +158,8 @@ func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) EffectiveAnnotations(
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) TerraformLabels() cdk
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -299,7 +299,7 @@ func (j *jsiiProxy_CloudRunServiceMetadataOutputReference) Uid() *string {
 }
 
 
-func NewCloudRunServiceMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CloudRunServiceMetadataOutputReference {
+func NewCloudRunServiceMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudRunServiceMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudRunServiceMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -316,7 +316,7 @@ func NewCloudRunServiceMetadataOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewCloudRunServiceMetadataOutputReference_Override(c CloudRunServiceMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudRunServiceMetadataOutputReference_Override(c CloudRunServiceMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -403,7 +403,7 @@ func (j *jsiiProxy_CloudRunServiceMetadataOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_CloudRunServiceMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudRunServiceMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -443,11 +443,11 @@ func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -571,8 +571,8 @@ func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -584,11 +584,11 @@ func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -624,7 +624,7 @@ func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) ResetNamespace() {
 	)
 }
 
-func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudRunServiceMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

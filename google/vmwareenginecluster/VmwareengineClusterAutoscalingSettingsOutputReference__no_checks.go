@@ -51,7 +51,7 @@ func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsOutputReference) valida
 	return nil
 }
 
-func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVmwareengineClusterAutoscalingSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVmwareengineClusterAutoscalingSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

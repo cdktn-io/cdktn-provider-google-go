@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NetappVolumeSnapshotTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewNetappVolumeSnapshotTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeSnapshotTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

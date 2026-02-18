@@ -127,7 +127,7 @@ func (j *jsiiProxy_ModelArmorFloorsetting) validateSetIntegratedServicesParamete
 	return nil
 }
 
-func (j *jsiiProxy_ModelArmorFloorsetting) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ModelArmorFloorsetting) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

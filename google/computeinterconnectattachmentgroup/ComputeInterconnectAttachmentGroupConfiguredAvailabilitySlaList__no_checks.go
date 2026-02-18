@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaLi
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaLi
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaLi
 	return nil
 }
 
-func validateNewComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeInterconnectAttachmentGroupConfiguredAvailabilitySlaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

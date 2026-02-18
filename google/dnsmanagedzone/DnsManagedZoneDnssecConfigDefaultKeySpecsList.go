@@ -5,14 +5,14 @@ package dnsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dnsmanagedzone/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dnsmanagedzone/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DnsManagedZoneDnssecConfigDefaultKeySpecsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DnsManagedZoneDnssecConfigDefaultKeySpecsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DnsManagedZoneDnssecConfigDefaultKeySpecsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DnsManagedZoneDnssecConfigDefaultKeySpecsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DnsManagedZoneDnssecConfigDefaultKeySpecsList interface {
 
 // The jsii proxy struct for DnsManagedZoneDnssecConfigDefaultKeySpecsList
 type jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) WrapsSet() *bo
 }
 
 
-func NewDnsManagedZoneDnssecConfigDefaultKeySpecsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DnsManagedZoneDnssecConfigDefaultKeySpecsList {
+func NewDnsManagedZoneDnssecConfigDefaultKeySpecsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DnsManagedZoneDnssecConfigDefaultKeySpecsList {
 	_init_.Initialize()
 
 	if err := validateNewDnsManagedZoneDnssecConfigDefaultKeySpecsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDnsManagedZoneDnssecConfigDefaultKeySpecsList(terraformResource cdktf.II
 	return &j
 }
 
-func NewDnsManagedZoneDnssecConfigDefaultKeySpecsList_Override(d DnsManagedZoneDnssecConfigDefaultKeySpecsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDnsManagedZoneDnssecConfigDefaultKeySpecsList_Override(d DnsManagedZoneDnssecConfigDefaultKeySpecsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList)SetWrapsSet(val
 	)
 }
 
-func (d *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) Get(index *flo
 	return returns
 }
 
-func (d *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DnsManagedZoneDnssecConfigDefaultKeySpecsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

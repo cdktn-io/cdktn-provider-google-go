@@ -5,18 +5,18 @@ package datacatalogentrygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datacatalogentrygroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datacatalogentrygroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group}.
 type DataCatalogEntryGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type DataCatalogEntryGroup interface {
 	SetEntryGroupId(val *string)
 	EntryGroupIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type DataCatalogEntryGroup interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -62,9 +62,9 @@ type DataCatalogEntryGroup interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type DataCatalogEntryGroup interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type DataCatalogEntryGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type DataCatalogEntryGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,11 +150,11 @@ type DataCatalogEntryGroup interface {
 
 // The jsii proxy struct for DataCatalogEntryGroup
 type jsiiProxy_DataCatalogEntryGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataCatalogEntryGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_DataCatalogEntryGroup) EntryGroupIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataCatalogEntryGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_DataCatalogEntryGroup) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataCatalogEntryGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -363,8 +363,8 @@ func (j *jsiiProxy_DataCatalogEntryGroup) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataCatalogEntryGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -413,8 +413,8 @@ func (j *jsiiProxy_DataCatalogEntryGroup) RegionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataCatalogEntryGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -556,7 +556,7 @@ func (j *jsiiProxy_DataCatalogEntryGroup)SetEntryGroupId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataCatalogEntryGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -575,7 +575,7 @@ func (j *jsiiProxy_DataCatalogEntryGroup)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataCatalogEntryGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -597,7 +597,7 @@ func (j *jsiiProxy_DataCatalogEntryGroup)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataCatalogEntryGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataCatalogEntryGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -627,14 +627,14 @@ func (j *jsiiProxy_DataCatalogEntryGroup)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataCatalogEntryGroup resource upon running "cdktf plan <stack-name>".
-func DataCatalogEntryGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataCatalogEntryGroup resource upon running "cdktn plan <stack-name>".
+func DataCatalogEntryGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataCatalogEntryGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.dataCatalogEntryGroup.DataCatalogEntryGroup",
@@ -768,11 +768,11 @@ func (d *jsiiProxy_DataCatalogEntryGroup) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataCatalogEntryGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataCatalogEntryGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -909,7 +909,7 @@ func (d *jsiiProxy_DataCatalogEntryGroup) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DataCatalogEntryGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataCatalogEntryGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -920,11 +920,11 @@ func (d *jsiiProxy_DataCatalogEntryGroup) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (d *jsiiProxy_DataCatalogEntryGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataCatalogEntryGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

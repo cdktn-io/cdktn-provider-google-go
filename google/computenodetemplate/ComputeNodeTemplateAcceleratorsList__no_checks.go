@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateGetParameters(in
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewComputeNodeTemplateAcceleratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeNodeTemplateAcceleratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

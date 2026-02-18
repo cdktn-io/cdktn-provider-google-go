@@ -5,19 +5,19 @@ package billingsubaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/billingsubaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/billingsubaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/billing_subaccount google_billing_subaccount}.
 type BillingSubaccount interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BillingAccountId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type BillingSubaccount interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,20 +50,20 @@ type BillingSubaccount interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MasterBillingAccount() *string
 	SetMasterBillingAccount(val *string)
 	MasterBillingAccountInput() *string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
-	Open() cdktf.IResolvable
+	Open() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type BillingSubaccount interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type BillingSubaccount interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type BillingSubaccount interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -139,7 +139,7 @@ type BillingSubaccount interface {
 
 // The jsii proxy struct for BillingSubaccount
 type jsiiProxy_BillingSubaccount struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_BillingSubaccount) BillingAccountId() *string {
@@ -152,8 +152,8 @@ func (j *jsiiProxy_BillingSubaccount) BillingAccountId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BillingSubaccount) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BillingSubaccount) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_BillingSubaccount) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BillingSubaccount) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BillingSubaccount) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_BillingSubaccount) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BillingSubaccount) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BillingSubaccount) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_BillingSubaccount) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_BillingSubaccount) Open() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_BillingSubaccount) Open() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"open",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_BillingSubaccount) Open() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_BillingSubaccount) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BillingSubaccount) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_BillingSubaccount) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_BillingSubaccount) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BillingSubaccount) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -494,7 +494,7 @@ func (j *jsiiProxy_BillingSubaccount)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BillingSubaccount)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BillingSubaccount)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -513,7 +513,7 @@ func (j *jsiiProxy_BillingSubaccount)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BillingSubaccount)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BillingSubaccount)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -535,7 +535,7 @@ func (j *jsiiProxy_BillingSubaccount)SetMasterBillingAccount(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BillingSubaccount)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BillingSubaccount)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -554,14 +554,14 @@ func (j *jsiiProxy_BillingSubaccount)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a BillingSubaccount resource upon running "cdktf plan <stack-name>".
-func BillingSubaccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BillingSubaccount resource upon running "cdktn plan <stack-name>".
+func BillingSubaccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBillingSubaccount_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.billingSubaccount.BillingSubaccount",
@@ -695,11 +695,11 @@ func (b *jsiiProxy_BillingSubaccount) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (b *jsiiProxy_BillingSubaccount) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingSubaccount) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -836,7 +836,7 @@ func (b *jsiiProxy_BillingSubaccount) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BillingSubaccount) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BillingSubaccount) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -847,11 +847,11 @@ func (b *jsiiProxy_BillingSubaccount) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (b *jsiiProxy_BillingSubaccount) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingSubaccount) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

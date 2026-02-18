@@ -8,7 +8,7 @@ package identityplatformtenantinboundsamlconfig
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificates
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificates
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfigSpConfigSpCertificates
 	return nil
 }
 
-func validateNewIdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIdentityPlatformTenantInboundSamlConfigSpConfigSpCertificatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

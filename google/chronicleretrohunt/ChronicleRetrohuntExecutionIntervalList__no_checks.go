@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateGetParameter
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ChronicleRetrohuntExecutionIntervalList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewChronicleRetrohuntExecutionIntervalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChronicleRetrohuntExecutionIntervalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

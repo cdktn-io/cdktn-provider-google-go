@@ -8,7 +8,7 @@ package networksecurityinterceptendpointgroup
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroup
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroup
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroup
 	return nil
 }
 
-func validateNewNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

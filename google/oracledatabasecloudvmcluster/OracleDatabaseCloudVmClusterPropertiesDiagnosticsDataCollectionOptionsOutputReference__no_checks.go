@@ -47,7 +47,7 @@ func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollecti
 	return nil
 }
 
-func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollecti
 	return nil
 }
 
-func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

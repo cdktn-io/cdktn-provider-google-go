@@ -5,14 +5,14 @@ package healthcaredicomstore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/healthcaredicomstore/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/healthcaredicomstore/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HealthcareDicomStoreTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type HealthcareDicomStoreTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type HealthcareDicomStoreTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type HealthcareDicomStoreTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type HealthcareDicomStoreTimeoutsOutputReference interface {
 
 // The jsii proxy struct for HealthcareDicomStoreTimeoutsOutputReference
 type jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) UpdateInput() *s
 }
 
 
-func NewHealthcareDicomStoreTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HealthcareDicomStoreTimeoutsOutputReference {
+func NewHealthcareDicomStoreTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HealthcareDicomStoreTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHealthcareDicomStoreTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewHealthcareDicomStoreTimeoutsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewHealthcareDicomStoreTimeoutsOutputReference_Override(h HealthcareDicomStoreTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHealthcareDicomStoreTimeoutsOutputReference_Override(h HealthcareDicomStoreTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -494,8 +494,8 @@ func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -507,11 +507,11 @@ func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -547,7 +547,7 @@ func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HealthcareDicomStoreTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

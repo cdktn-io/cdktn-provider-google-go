@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetappVolumeQuotaRule) validateSetLabelsParameters(val *map[s
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeQuotaRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetappVolumeQuotaRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

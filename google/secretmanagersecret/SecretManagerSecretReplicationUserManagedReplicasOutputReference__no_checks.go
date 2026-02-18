@@ -51,7 +51,7 @@ func (s *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerSecretReplicationUserManagedReplicasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecretManagerSecretReplicationUserManagedReplicasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecretManagerSecretReplicationUserManagedReplicasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

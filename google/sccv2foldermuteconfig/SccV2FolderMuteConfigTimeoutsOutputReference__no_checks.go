@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfigTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewSccV2FolderMuteConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccV2FolderMuteConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

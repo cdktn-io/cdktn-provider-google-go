@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

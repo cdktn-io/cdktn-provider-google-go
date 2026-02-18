@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpAppGatewayAllocatedConnectionsOutputReference) vali
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpAppGatewayAllocatedConnectionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpAppGatewayAllocatedConnectionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_BeyondcorpAppGatewayAllocatedConnectionsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpAppGatewayAllocatedConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpAppGatewayAllocatedConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBeyondcorpAppGatewayAllocatedConnectionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBeyondcorpAppGatewayAllocatedConnectionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

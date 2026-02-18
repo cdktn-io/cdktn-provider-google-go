@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApikeysKeyRestrictionsServerKeyRestrictionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApikeysKeyRestrictionsServerKeyRestrictionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApikeysKeyRestrictionsServerKeyRestrictionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

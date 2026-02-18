@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeSslCertificate) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSslCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeSslCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

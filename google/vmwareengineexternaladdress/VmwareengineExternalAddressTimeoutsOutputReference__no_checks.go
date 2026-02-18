@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (v *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_VmwareengineExternalAddressTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewVmwareengineExternalAddressTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVmwareengineExternalAddressTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

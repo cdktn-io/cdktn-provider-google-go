@@ -51,7 +51,7 @@ func (g *jsiiProxy_GkeonpremVmwareAdminClusterAuthorizationOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareAdminClusterAuthorizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareAdminClusterAuthorizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GkeonpremVmwareAdminClusterAuthorizationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareAdminClusterAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareAdminClusterAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremVmwareAdminClusterAuthorizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremVmwareAdminClusterAuthorizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

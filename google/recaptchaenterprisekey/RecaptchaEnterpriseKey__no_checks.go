@@ -135,7 +135,7 @@ func (j *jsiiProxy_RecaptchaEnterpriseKey) validateSetLabelsParameters(val *map[
 	return nil
 }
 
-func (j *jsiiProxy_RecaptchaEnterpriseKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RecaptchaEnterpriseKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

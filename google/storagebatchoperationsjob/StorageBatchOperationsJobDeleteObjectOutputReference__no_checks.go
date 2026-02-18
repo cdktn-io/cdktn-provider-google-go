@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBatchOperationsJobDeleteObjectOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_StorageBatchOperationsJobDeleteObjectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBatchOperationsJobDeleteObjectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StorageBatchOperationsJobDeleteObjectOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_StorageBatchOperationsJobDeleteObjectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBatchOperationsJobDeleteObjectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBatchOperationsJobDeleteObjectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBatchOperationsJobDeleteObjectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

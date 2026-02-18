@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutp
 	return nil
 }
 
-func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutp
 	return nil
 }
 
-func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

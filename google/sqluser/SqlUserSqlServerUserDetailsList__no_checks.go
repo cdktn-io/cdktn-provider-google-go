@@ -15,7 +15,7 @@ func (s *jsiiProxy_SqlUserSqlServerUserDetailsList) validateGetParameters(index 
 	return nil
 }
 
-func (s *jsiiProxy_SqlUserSqlServerUserDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlUserSqlServerUserDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SqlUserSqlServerUserDetailsList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_SqlUserSqlServerUserDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlUserSqlServerUserDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SqlUserSqlServerUserDetailsList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewSqlUserSqlServerUserDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSqlUserSqlServerUserDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

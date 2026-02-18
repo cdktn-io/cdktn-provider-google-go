@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList)
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList)
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList)
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

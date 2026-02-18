@@ -51,7 +51,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOutpu
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOutpu
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessContextManagerServicePerimeterEgressPolicyEgressToOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAccessContextManagerServicePerimeterEgressPolicyEgressToOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

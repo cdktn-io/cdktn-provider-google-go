@@ -5,14 +5,14 @@ package vmwareenginecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vmwareenginecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vmwareenginecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoscalePolicyId() *string
 	SetAutoscalePolicyId(val *string)
 	AutoscalePolicyIdInput() *string
@@ -52,15 +52,15 @@ type VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConsumedMemoryThresholds(value *VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholds)
 	PutCpuThresholds(value *VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholds)
 	PutStorageThresholds(value *VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholds)
@@ -87,7 +87,7 @@ type VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference in
 	ResetStorageThresholds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -97,7 +97,7 @@ type VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference in
 
 // The jsii proxy struct for VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference
 type jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) AutoscalePolicyId() *string {
@@ -280,8 +280,8 @@ func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 	return returns
 }
 
-func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -291,7 +291,7 @@ func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 }
 
 
-func NewVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference {
+func NewVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -308,7 +308,7 @@ func NewVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference
 	return &j
 }
 
-func NewVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference_Override(v VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference_Override(v VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -395,7 +395,7 @@ func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 	)
 }
 
-func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -563,8 +563,8 @@ func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -576,11 +576,11 @@ func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 	return returns
 }
 
-func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -649,7 +649,7 @@ func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutp
 	)
 }
 
-func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VmwareengineClusterAutoscalingSettingsAutoscalingPoliciesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

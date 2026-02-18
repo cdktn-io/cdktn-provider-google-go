@@ -155,7 +155,7 @@ func (j *jsiiProxy_PubsubSubscription) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_PubsubSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PubsubSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

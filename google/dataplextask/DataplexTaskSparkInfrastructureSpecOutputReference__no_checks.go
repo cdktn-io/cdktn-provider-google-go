@@ -59,7 +59,7 @@ func (d *jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference) validateP
 	return nil
 }
 
-func (d *jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexTaskSparkInfrastructureSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexTaskSparkInfrastructureSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexTaskSparkInfrastructureSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

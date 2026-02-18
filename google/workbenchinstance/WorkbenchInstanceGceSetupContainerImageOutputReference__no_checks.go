@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupContainerImageOutputReference) valid
 	return nil
 }
 
-func (w *jsiiProxy_WorkbenchInstanceGceSetupContainerImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkbenchInstanceGceSetupContainerImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupContainerImageOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_WorkbenchInstanceGceSetupContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkbenchInstanceGceSetupContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWorkbenchInstanceGceSetupContainerImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkbenchInstanceGceSetupContainerImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

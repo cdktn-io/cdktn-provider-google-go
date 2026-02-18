@@ -5,14 +5,14 @@ package chronicledataaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/chronicledataaccessscope/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/chronicledataaccessscope/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ChronicleDataAccessScopeTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ChronicleDataAccessScopeTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type ChronicleDataAccessScopeTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type ChronicleDataAccessScopeTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ChronicleDataAccessScopeTimeoutsOutputReference interface {
 
 // The jsii proxy struct for ChronicleDataAccessScopeTimeoutsOutputReference
 type jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) UpdateInput(
 }
 
 
-func NewChronicleDataAccessScopeTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ChronicleDataAccessScopeTimeoutsOutputReference {
+func NewChronicleDataAccessScopeTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ChronicleDataAccessScopeTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewChronicleDataAccessScopeTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewChronicleDataAccessScopeTimeoutsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewChronicleDataAccessScopeTimeoutsOutputReference_Override(c ChronicleDataAccessScopeTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewChronicleDataAccessScopeTimeoutsOutputReference_Override(c ChronicleDataAccessScopeTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -494,8 +494,8 @@ func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) GetStringMap
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -507,11 +507,11 @@ func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) Interpolatio
 	return returns
 }
 
-func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) ResetUpdate(
 	)
 }
 
-func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ChronicleDataAccessScopeTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

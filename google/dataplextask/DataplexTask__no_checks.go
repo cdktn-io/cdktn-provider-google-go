@@ -139,7 +139,7 @@ func (j *jsiiProxy_DataplexTask) validateSetLakeParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DataplexTask) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexTask) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

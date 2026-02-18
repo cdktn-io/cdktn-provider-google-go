@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedKafkaClusterRebalanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedKafkaClusterRebalanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedKafkaClusterRebalanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

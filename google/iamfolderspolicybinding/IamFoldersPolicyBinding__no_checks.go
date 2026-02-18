@@ -127,7 +127,7 @@ func (j *jsiiProxy_IamFoldersPolicyBinding) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_IamFoldersPolicyBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IamFoldersPolicyBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

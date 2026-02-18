@@ -51,7 +51,7 @@ func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpCo
 	return nil
 }
 
-func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpCo
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

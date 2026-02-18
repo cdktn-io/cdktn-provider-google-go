@@ -131,7 +131,7 @@ func (j *jsiiProxy_Cloudfunctions2Function) validateSetLabelsParameters(val *map
 	return nil
 }
 
-func (j *jsiiProxy_Cloudfunctions2Function) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Cloudfunctions2Function) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

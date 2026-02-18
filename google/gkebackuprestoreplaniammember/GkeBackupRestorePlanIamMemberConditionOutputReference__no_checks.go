@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GkeBackupRestorePlanIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func validateNewGkeBackupRestorePlanIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeBackupRestorePlanIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

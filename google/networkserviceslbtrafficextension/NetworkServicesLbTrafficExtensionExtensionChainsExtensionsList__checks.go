@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 	return nil
 }
 
-func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 
 func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkServicesLbTrafficExtensionExtensionChainsExtensions:
 		val := val.(*[]*NetworkServicesLbTrafficExtensionExtensionChainsExtensions)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*NetworkServicesLbTrafficExtensionExtensionChainsExtensions; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NetworkServicesLbTrafficExtensionExtensionChainsExtensions; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 	return nil
 }
 
-func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsLis
 	return nil
 }
 
-func validateNewNetworkServicesLbTrafficExtensionExtensionChainsExtensionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkServicesLbTrafficExtensionExtensionChainsExtensionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

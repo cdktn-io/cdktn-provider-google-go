@@ -115,7 +115,7 @@ func (j *jsiiProxy_ChronicleRetrohunt) validateSetInstanceParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleRetrohunt) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChronicleRetrohunt) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

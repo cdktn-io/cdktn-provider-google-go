@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigAvroFile
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigAvroFile
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

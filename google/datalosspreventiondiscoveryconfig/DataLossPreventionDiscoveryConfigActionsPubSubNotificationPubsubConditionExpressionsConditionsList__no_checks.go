@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPub
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPubsubConditionExpressionsConditionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPubsubConditionExpressionsConditionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPub
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPubsubConditionExpressionsConditionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPubsubConditionExpressionsConditionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsPubSubNotificationPub
 	return nil
 }
 
-func validateNewDataLossPreventionDiscoveryConfigActionsPubSubNotificationPubsubConditionExpressionsConditionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataLossPreventionDiscoveryConfigActionsPubSubNotificationPubsubConditionExpressionsConditionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

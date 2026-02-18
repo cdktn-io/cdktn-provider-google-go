@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutp
 	return nil
 }
 
-func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutp
 	return nil
 }
 
-func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputePerInstanceConfigPreservedStateInternalIpIpAddressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

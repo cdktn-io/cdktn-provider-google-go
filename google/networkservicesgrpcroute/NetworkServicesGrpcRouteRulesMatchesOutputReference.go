@@ -5,14 +5,14 @@ package networkservicesgrpcroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkservicesgrpcroute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkservicesgrpcroute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkServicesGrpcRouteRulesMatchesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type NetworkServicesGrpcRouteRulesMatchesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type NetworkServicesGrpcRouteRulesMatchesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeaders(value interface{})
 	PutMethod(value *NetworkServicesGrpcRouteRulesMatchesMethod)
 	ResetHeaders()
 	ResetMethod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type NetworkServicesGrpcRouteRulesMatchesOutputReference interface {
 
 // The jsii proxy struct for NetworkServicesGrpcRouteRulesMatchesOutputReference
 type jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) Terrafor
 }
 
 
-func NewNetworkServicesGrpcRouteRulesMatchesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkServicesGrpcRouteRulesMatchesOutputReference {
+func NewNetworkServicesGrpcRouteRulesMatchesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkServicesGrpcRouteRulesMatchesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkServicesGrpcRouteRulesMatchesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewNetworkServicesGrpcRouteRulesMatchesOutputReference(terraformResource cd
 	return &j
 }
 
-func NewNetworkServicesGrpcRouteRulesMatchesOutputReference_Override(n NetworkServicesGrpcRouteRulesMatchesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkServicesGrpcRouteRulesMatchesOutputReference_Override(n NetworkServicesGrpcRouteRulesMatchesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) GetAnyMa
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -437,8 +437,8 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) GetStrin
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -450,11 +450,11 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) Interpol
 	return returns
 }
 
-func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -504,7 +504,7 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) ResetMet
 	)
 }
 
-func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

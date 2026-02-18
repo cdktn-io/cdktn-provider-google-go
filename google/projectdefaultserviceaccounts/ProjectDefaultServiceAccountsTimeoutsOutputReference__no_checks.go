@@ -47,7 +47,7 @@ func (p *jsiiProxy_ProjectDefaultServiceAccountsTimeoutsOutputReference) validat
 	return nil
 }
 
-func (p *jsiiProxy_ProjectDefaultServiceAccountsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_ProjectDefaultServiceAccountsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ProjectDefaultServiceAccountsTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ProjectDefaultServiceAccountsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ProjectDefaultServiceAccountsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewProjectDefaultServiceAccountsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewProjectDefaultServiceAccountsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

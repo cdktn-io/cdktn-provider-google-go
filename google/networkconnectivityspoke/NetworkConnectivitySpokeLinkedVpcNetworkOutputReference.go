@@ -5,14 +5,14 @@ package networkconnectivityspoke
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networkconnectivityspoke/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networkconnectivityspoke/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkConnectivitySpokeLinkedVpcNetworkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type NetworkConnectivitySpokeLinkedVpcNetworkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -54,7 +54,7 @@ type NetworkConnectivitySpokeLinkedVpcNetworkOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type NetworkConnectivitySpokeLinkedVpcNetworkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExcludeExportRanges()
 	ResetIncludeExportRanges()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type NetworkConnectivitySpokeLinkedVpcNetworkOutputReference interface {
 
 // The jsii proxy struct for NetworkConnectivitySpokeLinkedVpcNetworkOutputReference
 type jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) UriI
 }
 
 
-func NewNetworkConnectivitySpokeLinkedVpcNetworkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkConnectivitySpokeLinkedVpcNetworkOutputReference {
+func NewNetworkConnectivitySpokeLinkedVpcNetworkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkConnectivitySpokeLinkedVpcNetworkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkConnectivitySpokeLinkedVpcNetworkOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewNetworkConnectivitySpokeLinkedVpcNetworkOutputReference(terraformResourc
 	return &j
 }
 
-func NewNetworkConnectivitySpokeLinkedVpcNetworkOutputReference_Override(n NetworkConnectivitySpokeLinkedVpcNetworkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkConnectivitySpokeLinkedVpcNetworkOutputReference_Override(n NetworkConnectivitySpokeLinkedVpcNetworkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) GetA
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -493,8 +493,8 @@ func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) GetS
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -506,11 +506,11 @@ func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) Inte
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -538,7 +538,7 @@ func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) Rese
 	)
 }
 
-func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkConnectivitySpokeLinkedVpcNetworkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

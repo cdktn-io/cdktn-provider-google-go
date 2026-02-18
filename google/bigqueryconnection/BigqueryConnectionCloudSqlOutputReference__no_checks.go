@@ -51,7 +51,7 @@ func (b *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validatePutCredent
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BigqueryConnectionCloudSqlOutputReference) validateSetTypePar
 	return nil
 }
 
-func validateNewBigqueryConnectionCloudSqlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryConnectionCloudSqlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

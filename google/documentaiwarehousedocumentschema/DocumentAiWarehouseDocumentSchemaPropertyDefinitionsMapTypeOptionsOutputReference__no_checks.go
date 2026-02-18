@@ -47,7 +47,7 @@ func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOp
 	return nil
 }
 
-func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOp
 	return nil
 }
 
-func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

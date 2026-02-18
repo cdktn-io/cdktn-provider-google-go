@@ -107,7 +107,7 @@ func (j *jsiiProxy_PublicCaExternalAccountKey) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_PublicCaExternalAccountKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PublicCaExternalAccountKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

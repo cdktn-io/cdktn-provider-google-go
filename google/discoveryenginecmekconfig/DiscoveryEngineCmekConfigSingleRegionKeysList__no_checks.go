@@ -15,7 +15,7 @@ func (d *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfigSingleRegionKeysList) validateSetWra
 	return nil
 }
 
-func validateNewDiscoveryEngineCmekConfigSingleRegionKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDiscoveryEngineCmekConfigSingleRegionKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

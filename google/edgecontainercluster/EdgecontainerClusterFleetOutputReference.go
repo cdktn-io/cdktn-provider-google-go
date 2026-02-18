@@ -5,14 +5,14 @@ package edgecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/edgecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/edgecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EdgecontainerClusterFleetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type EdgecontainerClusterFleetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type EdgecontainerClusterFleetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type EdgecontainerClusterFleetOutputReference interface {
 
 // The jsii proxy struct for EdgecontainerClusterFleetOutputReference
 type jsiiProxy_EdgecontainerClusterFleetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference) ComplexObjectIndex() interface{} {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -184,7 +184,7 @@ func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference) TerraformResource()
 }
 
 
-func NewEdgecontainerClusterFleetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EdgecontainerClusterFleetOutputReference {
+func NewEdgecontainerClusterFleetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EdgecontainerClusterFleetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEdgecontainerClusterFleetOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -201,7 +201,7 @@ func NewEdgecontainerClusterFleetOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewEdgecontainerClusterFleetOutputReference_Override(e EdgecontainerClusterFleetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEdgecontainerClusterFleetOutputReference_Override(e EdgecontainerClusterFleetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -266,7 +266,7 @@ func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EdgecontainerClusterFleetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -306,11 +306,11 @@ func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -434,8 +434,8 @@ func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -447,11 +447,11 @@ func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) InterpolationAsList
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -463,7 +463,7 @@ func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) InterpolationForAtt
 	return returns
 }
 
-func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EdgecontainerClusterFleetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRouterNatRulesActionOutputReference) validateInterpola
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouterNatRulesActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouterNatRulesActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ComputeRouterNatRulesActionOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterNatRulesActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouterNatRulesActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeRouterNatRulesActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRouterNatRulesActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

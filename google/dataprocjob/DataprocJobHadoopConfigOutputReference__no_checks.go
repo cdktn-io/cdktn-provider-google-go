@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataprocJobHadoopConfigOutputReference) validatePutLoggingCon
 	return nil
 }
 
-func (d *jsiiProxy_DataprocJobHadoopConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocJobHadoopConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_DataprocJobHadoopConfigOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataprocJobHadoopConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocJobHadoopConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocJobHadoopConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocJobHadoopConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

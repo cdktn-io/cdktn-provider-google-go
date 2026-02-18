@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReferenc
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringDeploymentGroupTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewNetworkSecurityMirroringDeploymentGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityMirroringDeploymentGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplate) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionInspectTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataLossPreventionInspectTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

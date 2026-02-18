@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference
 	return nil
 }
 
-func (c *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference
 	return nil
 }
 
-func validateNewCloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

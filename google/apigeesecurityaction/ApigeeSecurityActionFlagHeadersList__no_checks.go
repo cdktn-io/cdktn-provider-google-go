@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateGetParameters(in
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApigeeSecurityActionFlagHeadersList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewApigeeSecurityActionFlagHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApigeeSecurityActionFlagHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

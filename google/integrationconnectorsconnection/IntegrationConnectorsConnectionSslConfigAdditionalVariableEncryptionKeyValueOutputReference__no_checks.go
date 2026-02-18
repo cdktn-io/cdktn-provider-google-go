@@ -47,7 +47,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEnc
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEnc
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableEnc
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

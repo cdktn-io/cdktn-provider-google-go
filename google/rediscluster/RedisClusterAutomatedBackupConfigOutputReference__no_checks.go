@@ -51,7 +51,7 @@ func (r *jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference) validatePut
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterAutomatedBackupConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisClusterAutomatedBackupConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedisClusterAutomatedBackupConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

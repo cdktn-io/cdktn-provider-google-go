@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomainTimeoutsOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomainTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomainTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomainTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceNetworkingPeeredDnsDomainTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceNetworkingPeeredDnsDomainTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (i *jsiiProxy_IamDenyPolicyRulesOutputReference) validatePutDenyRuleParamet
 	return nil
 }
 
-func (i *jsiiProxy_IamDenyPolicyRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamDenyPolicyRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IamDenyPolicyRulesOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_IamDenyPolicyRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamDenyPolicyRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamDenyPolicyRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIamDenyPolicyRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

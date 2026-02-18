@@ -5,14 +5,14 @@ package sqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sqldatabaseinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sqldatabaseinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -43,9 +43,9 @@ type SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UploadInterval() *string
 	SetUploadInterval(val *string)
 	UploadIntervalInput() *string
@@ -54,7 +54,7 @@ type SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBucket()
 	ResetRetentionInterval()
 	ResetUploadInterval()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference interface {
 
 // The jsii proxy struct for SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference
 type jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) Bucket() *string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 }
 
 
-func NewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference {
+func NewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference(terraform
 	return &j
 }
 
-func NewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference_Override(s SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference_Override(s SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReferenc
 	)
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

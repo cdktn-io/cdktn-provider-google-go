@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Cloudfunctions2FunctionServiceConfigSecretEnvironmentVariables:
 		value := value.(*[]*Cloudfunctions2FunctionServiceConfigSecretEnvironmentVariables)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Cloudfunctions2FunctionServiceConfigSecretEnvironmentVariables; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Cloudfunctions2FunctionServiceConfigSecretEnvironmentVariables; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*Cloudfunctions2FunctionServiceConfigSecretVolumes:
 		value := value.(*[]*Cloudfunctions2FunctionServiceConfigSecretVolumes)
@@ -148,14 +148,14 @@ func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*Cloudfunctions2FunctionServiceConfigSecretVolumes; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Cloudfunctions2FunctionServiceConfigSecretVolumes; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -172,11 +172,11 @@ func (j *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -344,7 +344,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -376,7 +376,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionServiceConfigOutputReference) validate
 	return nil
 }
 
-func validateNewCloudfunctions2FunctionServiceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfunctions2FunctionServiceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

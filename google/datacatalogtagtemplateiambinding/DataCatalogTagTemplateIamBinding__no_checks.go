@@ -107,7 +107,7 @@ func (j *jsiiProxy_DataCatalogTagTemplateIamBinding) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataCatalogTagTemplateIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataCatalogTagTemplateIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

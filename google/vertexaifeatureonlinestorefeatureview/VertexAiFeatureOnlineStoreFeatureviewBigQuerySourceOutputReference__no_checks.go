@@ -47,7 +47,7 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputRefe
 	return nil
 }
 
-func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputRefe
 	return nil
 }
 
-func validateNewVertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

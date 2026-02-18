@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateGetParameters(in
 	return nil
 }
 
-func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateResolveParameter
 
 func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeNodeTemplateAccelerators:
 		val := val.(*[]*ComputeNodeTemplateAccelerators)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetInternalValue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ComputeNodeTemplateAccelerators; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ComputeNodeTemplateAccelerators; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ComputeNodeTemplateAcceleratorsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewComputeNodeTemplateAcceleratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeNodeTemplateAcceleratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

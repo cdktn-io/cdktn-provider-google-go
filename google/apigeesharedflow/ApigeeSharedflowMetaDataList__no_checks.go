@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApigeeSharedflowMetaDataList) validateGetParameters(index *fl
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeSharedflowMetaDataList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeSharedflowMetaDataList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ApigeeSharedflowMetaDataList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeSharedflowMetaDataList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeSharedflowMetaDataList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ApigeeSharedflowMetaDataList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewApigeeSharedflowMetaDataListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApigeeSharedflowMetaDataListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

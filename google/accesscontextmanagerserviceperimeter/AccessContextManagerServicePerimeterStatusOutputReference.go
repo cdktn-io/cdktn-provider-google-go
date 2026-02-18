@@ -5,14 +5,14 @@ package accesscontextmanagerserviceperimeter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanagerserviceperimeter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/accesscontextmanagerserviceperimeter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessContextManagerServicePerimeterStatusOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessLevels() *[]*string
 	SetAccessLevels(val *[]*string)
 	AccessLevelsInput() *[]*string
@@ -50,9 +50,9 @@ type AccessContextManagerServicePerimeterStatusOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VpcAccessibleServices() AccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference
 	VpcAccessibleServicesInput() *AccessContextManagerServicePerimeterStatusVpcAccessibleServices
 	// Experimental.
@@ -60,7 +60,7 @@ type AccessContextManagerServicePerimeterStatusOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type AccessContextManagerServicePerimeterStatusOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEgressPolicies(value interface{})
 	PutIngressPolicies(value interface{})
 	PutVpcAccessibleServices(value *AccessContextManagerServicePerimeterStatusVpcAccessibleServices)
@@ -90,7 +90,7 @@ type AccessContextManagerServicePerimeterStatusOutputReference interface {
 	ResetVpcAccessibleServices()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type AccessContextManagerServicePerimeterStatusOutputReference interface {
 
 // The jsii proxy struct for AccessContextManagerServicePerimeterStatusOutputReference
 type jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) AccessLevels() *[]*string {
@@ -263,8 +263,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Vp
 }
 
 
-func NewAccessContextManagerServicePerimeterStatusOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AccessContextManagerServicePerimeterStatusOutputReference {
+func NewAccessContextManagerServicePerimeterStatusOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AccessContextManagerServicePerimeterStatusOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessContextManagerServicePerimeterStatusOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewAccessContextManagerServicePerimeterStatusOutputReference(terraformResou
 	return &j
 }
 
-func NewAccessContextManagerServicePerimeterStatusOutputReference_Override(a AccessContextManagerServicePerimeterStatusOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAccessContextManagerServicePerimeterStatusOutputReference_Override(a AccessContextManagerServicePerimeterStatusOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -398,7 +398,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -438,11 +438,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Ge
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -566,8 +566,8 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Ge
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -579,11 +579,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) In
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -676,7 +676,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Re
 	)
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

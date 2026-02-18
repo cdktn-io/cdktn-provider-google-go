@@ -111,7 +111,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIamMember) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivatecaCaPoolIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

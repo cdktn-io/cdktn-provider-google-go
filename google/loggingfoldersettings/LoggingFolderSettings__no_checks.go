@@ -119,7 +119,7 @@ func (j *jsiiProxy_LoggingFolderSettings) validateSetKmsKeyNameParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_LoggingFolderSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoggingFolderSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

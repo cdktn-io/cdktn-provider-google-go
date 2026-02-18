@@ -131,7 +131,7 @@ func (j *jsiiProxy_MemcacheInstance) validateSetLabelsParameters(val *map[string
 	return nil
 }
 
-func (j *jsiiProxy_MemcacheInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MemcacheInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

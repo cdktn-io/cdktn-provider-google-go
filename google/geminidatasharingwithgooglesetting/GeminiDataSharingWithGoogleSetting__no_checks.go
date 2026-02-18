@@ -123,7 +123,7 @@ func (j *jsiiProxy_GeminiDataSharingWithGoogleSetting) validateSetLabelsParamete
 	return nil
 }
 
-func (j *jsiiProxy_GeminiDataSharingWithGoogleSetting) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GeminiDataSharingWithGoogleSetting) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocBatchStateHistoryOutputReference) validateInterpolati
 	return nil
 }
 
-func (d *jsiiProxy_DataprocBatchStateHistoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocBatchStateHistoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataprocBatchStateHistoryOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataprocBatchStateHistoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocBatchStateHistoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocBatchStateHistoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataprocBatchStateHistoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConf
 	return nil
 }
 
-func (c *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConf
 	return nil
 }
 
-func (j *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConf
 	return nil
 }
 
-func validateNewComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

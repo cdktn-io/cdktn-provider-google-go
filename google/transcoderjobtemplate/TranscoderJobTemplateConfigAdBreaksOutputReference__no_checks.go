@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksOutputReference) validateI
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobTemplateConfigAdBreaksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobTemplateConfigAdBreaksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobTemplateConfigAdBreaksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTranscoderJobTemplateConfigAdBreaksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

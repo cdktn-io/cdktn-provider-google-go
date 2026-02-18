@@ -51,7 +51,7 @@ func (i *jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference) validatePutAcces
 	return nil
 }
 
-func (i *jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IamAccessBoundaryPolicyRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIamAccessBoundaryPolicyRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIamAccessBoundaryPolicyRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package computeinstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeinstancegroupmanager/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeinstancegroupmanager/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeInstanceGroupManagerStatusOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllInstancesConfig() ComputeInstanceGroupManagerStatusAllInstancesConfigList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -33,23 +33,23 @@ type ComputeInstanceGroupManagerStatusOutputReference interface {
 	Fqn() *string
 	InternalValue() *ComputeInstanceGroupManagerStatus
 	SetInternalValue(val *ComputeInstanceGroupManagerStatus)
-	IsStable() cdktf.IResolvable
+	IsStable() cdktn.IResolvable
 	Stateful() ComputeInstanceGroupManagerStatusStatefulList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VersionTarget() ComputeInstanceGroupManagerStatusVersionTargetList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type ComputeInstanceGroupManagerStatusOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type ComputeInstanceGroupManagerStatusOutputReference interface {
 
 // The jsii proxy struct for ComputeInstanceGroupManagerStatusOutputReference
 type jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) AllInstancesConfig() ComputeInstanceGroupManagerStatusAllInstancesConfigList {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) InternalVal
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) IsStable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) IsStable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"isStable",
@@ -173,8 +173,8 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) VersionTarg
 }
 
 
-func NewComputeInstanceGroupManagerStatusOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeInstanceGroupManagerStatusOutputReference {
+func NewComputeInstanceGroupManagerStatusOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeInstanceGroupManagerStatusOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeInstanceGroupManagerStatusOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewComputeInstanceGroupManagerStatusOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewComputeInstanceGroupManagerStatusOutputReference_Override(c ComputeInstanceGroupManagerStatusOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewComputeInstanceGroupManagerStatusOutputReference_Override(c ComputeInstanceGroupManagerStatusOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -433,8 +433,8 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) GetStringMa
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -446,11 +446,11 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -462,7 +462,7 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeInstanceGroupManagerStatusOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

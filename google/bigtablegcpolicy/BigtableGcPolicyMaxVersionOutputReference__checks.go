@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (b *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateInterpolat
 	return nil
 }
 
-func (b *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetComplex
 
 func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BigtableGcPolicyMaxVersion:
 		val := val.(*BigtableGcPolicyMaxVersion)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetInterna
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BigtableGcPolicyMaxVersion; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BigtableGcPolicyMaxVersion; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_BigtableGcPolicyMaxVersionOutputReference) validateSetTerrafo
 	return nil
 }
 
-func validateNewBigtableGcPolicyMaxVersionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBigtableGcPolicyMaxVersionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

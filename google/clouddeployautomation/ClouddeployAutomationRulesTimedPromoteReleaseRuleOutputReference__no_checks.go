@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ClouddeployAutomationRulesTimedPromoteReleaseRuleOutputRefere
 	return nil
 }
 
-func validateNewClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_WorkflowsWorkflow) validateSetLabelsParameters(val *map[strin
 	return nil
 }
 
-func (j *jsiiProxy_WorkflowsWorkflow) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkflowsWorkflow) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

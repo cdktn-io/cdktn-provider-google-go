@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie:
 		value := value.(*[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader:
 		value := value.(*[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam:
 		value := value.(*[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam)
@@ -179,7 +179,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri:
 		value := value.(*[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri)
@@ -210,14 +210,14 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -292,7 +292,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 
 func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusion:
 		val := val.(*ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusion)
@@ -307,7 +307,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusion; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusion; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -338,7 +338,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -346,7 +346,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return nil
 }
 
-func validateNewComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeRegionSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

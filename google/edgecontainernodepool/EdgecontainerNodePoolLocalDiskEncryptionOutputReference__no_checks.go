@@ -47,7 +47,7 @@ func (e *jsiiProxy_EdgecontainerNodePoolLocalDiskEncryptionOutputReference) vali
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerNodePoolLocalDiskEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerNodePoolLocalDiskEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EdgecontainerNodePoolLocalDiskEncryptionOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerNodePoolLocalDiskEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerNodePoolLocalDiskEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEdgecontainerNodePoolLocalDiskEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEdgecontainerNodePoolLocalDiskEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutAuxil
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataprocClusterClusterConfigAuxiliaryNodeGroups:
 		value := value.(*[]*DataprocClusterClusterConfigAuxiliaryNodeGroups)
@@ -128,7 +128,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutAuxil
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataprocClusterClusterConfigAuxiliaryNodeGroups; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataprocClusterClusterConfigAuxiliaryNodeGroups; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -184,7 +184,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutIniti
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataprocClusterClusterConfigInitializationAction:
 		value := value.(*[]*DataprocClusterClusterConfigInitializationAction)
@@ -203,7 +203,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutIniti
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataprocClusterClusterConfigInitializationAction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataprocClusterClusterConfigInitializationAction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -287,7 +287,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutWorke
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -408,7 +408,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) validateSetTerra
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterClusterConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

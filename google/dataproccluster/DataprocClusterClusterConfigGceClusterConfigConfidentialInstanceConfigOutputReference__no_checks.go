@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInsta
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInsta
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

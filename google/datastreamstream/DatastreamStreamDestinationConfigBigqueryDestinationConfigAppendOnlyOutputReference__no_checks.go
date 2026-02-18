@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigApp
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigApp
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

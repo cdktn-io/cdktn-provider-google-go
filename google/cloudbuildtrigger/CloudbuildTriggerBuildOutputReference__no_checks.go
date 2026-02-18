@@ -71,7 +71,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validatePutStepParamet
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_CloudbuildTriggerBuildOutputReference) validateSetTimeoutPara
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildTriggerBuildOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

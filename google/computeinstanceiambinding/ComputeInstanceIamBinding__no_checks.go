@@ -111,7 +111,7 @@ func (j *jsiiProxy_ComputeInstanceIamBinding) validateSetInstanceNameParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeInstanceIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

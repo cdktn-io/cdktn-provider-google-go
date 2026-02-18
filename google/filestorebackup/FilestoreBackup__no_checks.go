@@ -115,7 +115,7 @@ func (j *jsiiProxy_FilestoreBackup) validateSetLabelsParameters(val *map[string]
 	return nil
 }
 
-func (j *jsiiProxy_FilestoreBackup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FilestoreBackup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

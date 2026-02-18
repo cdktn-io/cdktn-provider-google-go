@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference) validateI
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableRangePartitioningRangeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryTableRangePartitioningRangeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableRangePartitioningRangeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

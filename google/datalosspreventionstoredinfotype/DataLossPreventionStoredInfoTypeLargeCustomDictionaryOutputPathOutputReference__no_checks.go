@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPa
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPa
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

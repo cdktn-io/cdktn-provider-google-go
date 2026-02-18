@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigJsonFile
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigJsonFile
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

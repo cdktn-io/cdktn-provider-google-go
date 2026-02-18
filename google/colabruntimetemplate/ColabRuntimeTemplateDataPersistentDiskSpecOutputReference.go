@@ -5,14 +5,14 @@ package colabruntimetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/colabruntimetemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/colabruntimetemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ColabRuntimeTemplateDataPersistentDiskSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type ColabRuntimeTemplateDataPersistentDiskSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ColabRuntimeTemplateDataPersistentDiskSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDiskSizeGb()
 	ResetDiskType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ColabRuntimeTemplateDataPersistentDiskSpecOutputReference interface {
 
 // The jsii proxy struct for ColabRuntimeTemplateDataPersistentDiskSpecOutputReference
 type jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Te
 }
 
 
-func NewColabRuntimeTemplateDataPersistentDiskSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ColabRuntimeTemplateDataPersistentDiskSpecOutputReference {
+func NewColabRuntimeTemplateDataPersistentDiskSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ColabRuntimeTemplateDataPersistentDiskSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewColabRuntimeTemplateDataPersistentDiskSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewColabRuntimeTemplateDataPersistentDiskSpecOutputReference(terraformResou
 	return &j
 }
 
-func NewColabRuntimeTemplateDataPersistentDiskSpecOutputReference_Override(c ColabRuntimeTemplateDataPersistentDiskSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewColabRuntimeTemplateDataPersistentDiskSpecOutputReference_Override(c ColabRuntimeTemplateDataPersistentDiskSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Ge
 	return returns
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,8 +459,8 @@ func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Ge
 	return returns
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -472,11 +472,11 @@ func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) In
 	return returns
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -504,7 +504,7 @@ func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Re
 	)
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ColabRuntimeTemplateDataPersistentDiskSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (d *jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

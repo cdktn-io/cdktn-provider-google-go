@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigHttpLoadBalancingOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterAddonsConfigHttpLoadBalancingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterAddonsConfigHttpLoadBalancingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigHttpLoadBalancingOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterAddonsConfigHttpLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterAddonsConfigHttpLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterAddonsConfigHttpLoadBalancingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterAddonsConfigHttpLoadBalancingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

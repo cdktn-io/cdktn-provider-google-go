@@ -119,7 +119,7 @@ func (j *jsiiProxy_ChronicleDataAccessLabel) validateSetInstanceParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleDataAccessLabel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChronicleDataAccessLabel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

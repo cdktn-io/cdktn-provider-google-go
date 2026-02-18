@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerAzureNodePoolTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewContainerAzureNodePoolTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAzureNodePoolTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

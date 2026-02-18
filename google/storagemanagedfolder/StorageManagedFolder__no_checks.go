@@ -115,7 +115,7 @@ func (j *jsiiProxy_StorageManagedFolder) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_StorageManagedFolder) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageManagedFolder) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

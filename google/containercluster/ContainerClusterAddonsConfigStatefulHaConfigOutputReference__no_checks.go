@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigStatefulHaConfigOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterAddonsConfigStatefulHaConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterAddonsConfigStatefulHaConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigStatefulHaConfigOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterAddonsConfigStatefulHaConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterAddonsConfigStatefulHaConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterAddonsConfigStatefulHaConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterAddonsConfigStatefulHaConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

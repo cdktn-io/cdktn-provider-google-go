@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validate
 	return nil
 }
 
-func (s *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SccV2FolderSccBigQueryExportTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewSccV2FolderSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccV2FolderSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

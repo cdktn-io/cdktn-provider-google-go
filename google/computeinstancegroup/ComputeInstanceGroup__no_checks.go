@@ -119,7 +119,7 @@ func (j *jsiiProxy_ComputeInstanceGroup) validateSetInstancesParameters(val *[]*
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeInstanceGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ServiceAccountIamMemberConditionOutputReference) validateSetT
 	return nil
 }
 
-func validateNewServiceAccountIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceAccountIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

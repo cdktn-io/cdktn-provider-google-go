@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubLiteSubscriptionDeliveryConfigOutputReference) validate
 	return nil
 }
 
-func (p *jsiiProxy_PubsubLiteSubscriptionDeliveryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubLiteSubscriptionDeliveryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PubsubLiteSubscriptionDeliveryConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_PubsubLiteSubscriptionDeliveryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubLiteSubscriptionDeliveryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPubsubLiteSubscriptionDeliveryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubLiteSubscriptionDeliveryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

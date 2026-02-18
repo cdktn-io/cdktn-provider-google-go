@@ -107,7 +107,7 @@ func (j *jsiiProxy_ComputeRegionDiskIamMember) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionDiskIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRegionDiskIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

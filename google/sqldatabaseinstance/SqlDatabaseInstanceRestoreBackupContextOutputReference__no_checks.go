@@ -47,7 +47,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference) valid
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceRestoreBackupContextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceRestoreBackupContextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSqlDatabaseInstanceRestoreBackupContextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

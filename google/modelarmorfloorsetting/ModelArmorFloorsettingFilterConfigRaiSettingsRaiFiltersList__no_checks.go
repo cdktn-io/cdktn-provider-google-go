@@ -15,7 +15,7 @@ func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) 
 	return nil
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) 
 	return nil
 }
 
-func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersList) 
 	return nil
 }
 
-func validateNewModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewModelArmorFloorsettingFilterConfigRaiSettingsRaiFiltersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

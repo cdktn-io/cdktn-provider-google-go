@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOut
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -132,11 +132,11 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOut
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -218,7 +218,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOut
 
 func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *IntegrationConnectorsConnectionSslConfigAdditionalVariable:
 		val := val.(*IntegrationConnectorsConnectionSslConfigAdditionalVariable)
@@ -233,7 +233,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOut
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *IntegrationConnectorsConnectionSslConfigAdditionalVariable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *IntegrationConnectorsConnectionSslConfigAdditionalVariable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -264,7 +264,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOut
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -272,7 +272,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionSslConfigAdditionalVariableOut
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIntegrationConnectorsConnectionSslConfigAdditionalVariableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

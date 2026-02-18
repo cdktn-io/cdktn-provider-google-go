@@ -5,14 +5,14 @@ package dataprocmetastoreservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocmetastoreservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocmetastoreservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocMetastoreServiceNetworkConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type DataprocMetastoreServiceNetworkConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type DataprocMetastoreServiceNetworkConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConsumers(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataprocMetastoreServiceNetworkConfigOutputReference interface {
 
 // The jsii proxy struct for DataprocMetastoreServiceNetworkConfigOutputReference
 type jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) Terrafo
 }
 
 
-func NewDataprocMetastoreServiceNetworkConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataprocMetastoreServiceNetworkConfigOutputReference {
+func NewDataprocMetastoreServiceNetworkConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataprocMetastoreServiceNetworkConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocMetastoreServiceNetworkConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewDataprocMetastoreServiceNetworkConfigOutputReference(terraformResource c
 	return &j
 }
 
-func NewDataprocMetastoreServiceNetworkConfigOutputReference_Override(d DataprocMetastoreServiceNetworkConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataprocMetastoreServiceNetworkConfigOutputReference_Override(d DataprocMetastoreServiceNetworkConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -412,8 +412,8 @@ func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -425,11 +425,11 @@ func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -452,7 +452,7 @@ func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) PutCons
 	)
 }
 
-func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocMetastoreServiceNetworkConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

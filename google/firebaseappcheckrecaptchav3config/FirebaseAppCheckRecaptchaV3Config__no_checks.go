@@ -111,7 +111,7 @@ func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3Config) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3Config) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FirebaseAppCheckRecaptchaV3Config) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

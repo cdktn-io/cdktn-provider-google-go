@@ -155,7 +155,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPool) validateSetLaunchStageParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudRunV2WorkerPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

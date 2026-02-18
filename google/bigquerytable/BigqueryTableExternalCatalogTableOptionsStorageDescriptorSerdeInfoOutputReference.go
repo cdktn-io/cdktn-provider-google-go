@@ -5,14 +5,14 @@ package bigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigquerytable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigquerytable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetName()
 	ResetParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputRef
 
 // The jsii proxy struct for BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference
 type jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 }
 
 
-func NewBigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference {
+func NewBigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewBigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutput
 	return &j
 }
 
-func NewBigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference_Override(b BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference_Override(b BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 	)
 }
 
-func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -493,8 +493,8 @@ func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -506,11 +506,11 @@ func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 	return returns
 }
 
-func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -538,7 +538,7 @@ func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerd
 	)
 }
 
-func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigqueryTableExternalCatalogTableOptionsStorageDescriptorSerdeInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

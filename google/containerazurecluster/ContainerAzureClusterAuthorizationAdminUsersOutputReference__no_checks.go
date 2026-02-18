@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerAzureClusterAuthorizationAdminUsersOutputReference) 
 	return nil
 }
 
-func validateNewContainerAzureClusterAuthorizationAdminUsersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAzureClusterAuthorizationAdminUsersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LookerInstancePscConfigServiceAttachmentsOutputReference) val
 	return nil
 }
 
-func (l *jsiiProxy_LookerInstancePscConfigServiceAttachmentsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LookerInstancePscConfigServiceAttachmentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LookerInstancePscConfigServiceAttachmentsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_LookerInstancePscConfigServiceAttachmentsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LookerInstancePscConfigServiceAttachmentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLookerInstancePscConfigServiceAttachmentsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLookerInstancePscConfigServiceAttachmentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

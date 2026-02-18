@@ -5,19 +5,19 @@ package networksecurityinterceptendpointgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networksecurityinterceptendpointgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networksecurityinterceptendpointgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group}.
 type NetworkSecurityInterceptEndpointGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Associations() NetworkSecurityInterceptEndpointGroupAssociationsList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConnectedDeploymentGroup() NetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupList
 	// Experimental.
 	Connection() interface{}
@@ -37,11 +37,11 @@ type NetworkSecurityInterceptEndpointGroup interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type NetworkSecurityInterceptEndpointGroup interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -72,20 +72,20 @@ type NetworkSecurityInterceptEndpointGroup interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type NetworkSecurityInterceptEndpointGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type NetworkSecurityInterceptEndpointGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type NetworkSecurityInterceptEndpointGroup interface {
 
 // The jsii proxy struct for NetworkSecurityInterceptEndpointGroup
 type jsiiProxy_NetworkSecurityInterceptEndpointGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Associations() NetworkSecurityInterceptEndpointGroupAssociationsList {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Associations() Network
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) DescriptionInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) EffectiveLabels() cdkt
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) LabelsInput() *map[str
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -453,8 +453,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) ProjectInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -483,8 +483,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) RawOverrides() interfa
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -503,8 +503,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -513,8 +513,8 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) TerraformGeneratorMeta
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -644,7 +644,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetDescription(val *str
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -696,7 +696,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetLabels(val *map[stri
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -729,7 +729,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetProject(val *string)
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -748,14 +748,14 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroup)SetProvisioners(val *[]
 	)
 }
 
-// Generates CDKTF code for importing a NetworkSecurityInterceptEndpointGroup resource upon running "cdktf plan <stack-name>".
-func NetworkSecurityInterceptEndpointGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkSecurityInterceptEndpointGroup resource upon running "cdktn plan <stack-name>".
+func NetworkSecurityInterceptEndpointGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkSecurityInterceptEndpointGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.networkSecurityInterceptEndpointGroup.NetworkSecurityInterceptEndpointGroup",
@@ -889,11 +889,11 @@ func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1030,7 +1030,7 @@ func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) HasResourceMove() inte
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1041,11 +1041,11 @@ func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) ImportFrom(id *string,
 	)
 }
 
-func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

@@ -5,14 +5,14 @@ package sccorganizationcustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/sccorganizationcustommodule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sccorganizationcustommodule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ValueExpression() SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference
 	ValueExpressionInput() *SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesValueExpression
 	// Experimental.
@@ -50,7 +50,7 @@ type SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReferenc
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutValueExpression(value *SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesValueExpression)
 	ResetName()
 	ResetValueExpression()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReferenc
 
 // The jsii proxy struct for SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference
 type jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 	return returns
 }
 
-func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 }
 
 
-func NewSccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference {
+func NewSccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewSccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputRefer
 	return &j
 }
 
-func NewSccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference_Override(s SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference_Override(s SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 	)
 }
 
-func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 	return returns
 }
 
-func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -448,8 +448,8 @@ func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 	return returns
 }
 
-func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,11 +461,11 @@ func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 	return returns
 }
 
-func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputProperties
 	)
 }
 
-func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SccOrganizationCustomModuleCustomConfigCustomOutputPropertiesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

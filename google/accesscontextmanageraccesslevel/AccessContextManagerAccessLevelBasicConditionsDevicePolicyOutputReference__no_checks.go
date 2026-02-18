@@ -51,7 +51,7 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOut
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOut
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

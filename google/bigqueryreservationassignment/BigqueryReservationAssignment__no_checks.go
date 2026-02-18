@@ -115,7 +115,7 @@ func (j *jsiiProxy_BigqueryReservationAssignment) validateSetJobTypeParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryReservationAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BigqueryReservationAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

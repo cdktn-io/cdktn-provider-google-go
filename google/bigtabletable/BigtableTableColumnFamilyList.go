@@ -5,14 +5,14 @@ package bigtabletable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/bigtabletable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/bigtabletable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BigtableTableColumnFamilyList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BigtableTableColumnFamilyList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BigtableTableColumnFamilyList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BigtableTableColumnFamilyOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BigtableTableColumnFamilyList interface {
 
 // The jsii proxy struct for BigtableTableColumnFamilyList
 type jsiiProxy_BigtableTableColumnFamilyList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BigtableTableColumnFamilyList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BigtableTableColumnFamilyList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BigtableTableColumnFamilyList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BigtableTableColumnFamilyList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyList) WrapsSet() *bool {
 }
 
 
-func NewBigtableTableColumnFamilyList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BigtableTableColumnFamilyList {
+func NewBigtableTableColumnFamilyList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BigtableTableColumnFamilyList {
 	_init_.Initialize()
 
 	if err := validateNewBigtableTableColumnFamilyListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBigtableTableColumnFamilyList(terraformResource cdktf.IInterpolatingPare
 	return &j
 }
 
-func NewBigtableTableColumnFamilyList_Override(b BigtableTableColumnFamilyList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBigtableTableColumnFamilyList_Override(b BigtableTableColumnFamilyList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyList)SetTerraformAttribute(val *stri
 	)
 }
 
-func (j *jsiiProxy_BigtableTableColumnFamilyList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BigtableTableColumnFamilyList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BigtableTableColumnFamilyList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (b *jsiiProxy_BigtableTableColumnFamilyList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BigtableTableColumnFamilyList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BigtableTableColumnFamilyList) Get(index *float64) BigtableTa
 	return returns
 }
 
-func (b *jsiiProxy_BigtableTableColumnFamilyList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BigtableTableColumnFamilyList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

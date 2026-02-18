@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DialogflowCxGeneratorTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewDialogflowCxGeneratorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxGeneratorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

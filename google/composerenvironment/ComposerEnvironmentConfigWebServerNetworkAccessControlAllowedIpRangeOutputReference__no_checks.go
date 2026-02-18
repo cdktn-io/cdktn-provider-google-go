@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowed
 	return nil
 }
 
-func (c *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowed
 	return nil
 }
 
-func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComposerEnvironmentConfigWebServerNetworkAccessControlAllowed
 	return nil
 }
 
-func validateNewComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComposerEnvironmentConfigWebServerNetworkAccessControlAllowedIpRangeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

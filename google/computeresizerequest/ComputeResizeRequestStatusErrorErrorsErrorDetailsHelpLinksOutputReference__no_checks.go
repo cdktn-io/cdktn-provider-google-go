@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOut
 	return nil
 }
 
-func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOut
 	return nil
 }
 
-func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeResizeRequestStatusErrorErrorsErrorDetailsHelpLinksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

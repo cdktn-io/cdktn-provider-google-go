@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageObjectAccessControlProjectTeamOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_StorageObjectAccessControlProjectTeamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageObjectAccessControlProjectTeamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_StorageObjectAccessControlProjectTeamOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_StorageObjectAccessControlProjectTeamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageObjectAccessControlProjectTeamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageObjectAccessControlProjectTeamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageObjectAccessControlProjectTeamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

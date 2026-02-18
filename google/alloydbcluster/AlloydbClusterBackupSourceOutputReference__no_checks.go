@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlloydbClusterBackupSourceOutputReference) validateInterpolat
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbClusterBackupSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbClusterBackupSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_AlloydbClusterBackupSourceOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbClusterBackupSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbClusterBackupSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlloydbClusterBackupSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAlloydbClusterBackupSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

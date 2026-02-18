@@ -47,7 +47,7 @@ func (b *jsiiProxy_BillingBudgetAllUpdatesRuleOutputReference) validateInterpola
 	return nil
 }
 
-func (b *jsiiProxy_BillingBudgetAllUpdatesRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BillingBudgetAllUpdatesRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_BillingBudgetAllUpdatesRuleOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_BillingBudgetAllUpdatesRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BillingBudgetAllUpdatesRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBillingBudgetAllUpdatesRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBillingBudgetAllUpdatesRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

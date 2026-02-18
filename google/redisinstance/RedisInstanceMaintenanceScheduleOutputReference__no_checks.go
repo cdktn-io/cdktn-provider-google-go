@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisInstanceMaintenanceScheduleOutputReference) validateInte
 	return nil
 }
 
-func (r *jsiiProxy_RedisInstanceMaintenanceScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisInstanceMaintenanceScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_RedisInstanceMaintenanceScheduleOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_RedisInstanceMaintenanceScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisInstanceMaintenanceScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisInstanceMaintenanceScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedisInstanceMaintenanceScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

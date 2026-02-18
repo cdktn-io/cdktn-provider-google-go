@@ -55,7 +55,7 @@ func (d *jsiiProxy_DeploymentManagerDeploymentTargetOutputReference) validatePut
 	return nil
 }
 
-func (d *jsiiProxy_DeploymentManagerDeploymentTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeploymentManagerDeploymentTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DeploymentManagerDeploymentTargetOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DeploymentManagerDeploymentTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeploymentManagerDeploymentTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDeploymentManagerDeploymentTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDeploymentManagerDeploymentTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) vali
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HealthcareConsentStoreIamMemberConditionOutputReference) vali
 	return nil
 }
 
-func validateNewHealthcareConsentStoreIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareConsentStoreIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

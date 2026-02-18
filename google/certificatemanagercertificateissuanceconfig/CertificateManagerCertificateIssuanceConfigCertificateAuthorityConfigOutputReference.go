@@ -5,14 +5,14 @@ package certificatemanagercertificateissuanceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/certificatemanagercertificateissuanceconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/certificatemanagercertificateissuanceconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CertificateAuthorityServiceConfig() CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference
 	CertificateAuthorityServiceConfigInput() *CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfig
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutput
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,14 +63,14 @@ type CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutput
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCertificateAuthorityServiceConfig(value *CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfig)
 	ResetCertificateAuthorityServiceConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutput
 
 // The jsii proxy struct for CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference
 type jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) CertificateAuthorityServiceConfig() CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 	return returns
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 }
 
 
-func NewCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference {
+func NewCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOut
 	return &j
 }
 
-func NewCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference_Override(c CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference_Override(c CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 	)
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -285,11 +285,11 @@ func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 	return returns
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -413,8 +413,8 @@ func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 	return returns
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -426,11 +426,11 @@ func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 	return returns
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthori
 	)
 }
 
-func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

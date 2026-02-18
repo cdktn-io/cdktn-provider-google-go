@@ -5,16 +5,16 @@ package appengineflexibleappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/appengineflexibleappversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/appengineflexibleappversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version}.
 type AppEngineFlexibleAppVersion interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApiConfig() AppEngineFlexibleAppVersionApiConfigOutputReference
 	ApiConfigInput() *AppEngineFlexibleAppVersionApiConfig
 	AutomaticScaling() AppEngineFlexibleAppVersionAutomaticScalingOutputReference
@@ -23,7 +23,7 @@ type AppEngineFlexibleAppVersion interface {
 	SetBetaSettings(val *map[string]*string)
 	BetaSettingsInput() *map[string]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -56,9 +56,9 @@ type AppEngineFlexibleAppVersion interface {
 	FlexibleRuntimeSettings() AppEngineFlexibleAppVersionFlexibleRuntimeSettingsOutputReference
 	FlexibleRuntimeSettingsInput() *AppEngineFlexibleAppVersionFlexibleRuntimeSettings
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -75,9 +75,9 @@ type AppEngineFlexibleAppVersion interface {
 	SetInstanceClass(val *string)
 	InstanceClassInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LivenessCheck() AppEngineFlexibleAppVersionLivenessCheckOutputReference
 	LivenessCheckInput() *AppEngineFlexibleAppVersionLivenessCheck
 	ManualScaling() AppEngineFlexibleAppVersionManualScalingOutputReference
@@ -97,9 +97,9 @@ type AppEngineFlexibleAppVersion interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -132,7 +132,7 @@ type AppEngineFlexibleAppVersion interface {
 	SetServingStatus(val *string)
 	ServingStatusInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -152,7 +152,7 @@ type AppEngineFlexibleAppVersion interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -170,9 +170,9 @@ type AppEngineFlexibleAppVersion interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -247,7 +247,7 @@ type AppEngineFlexibleAppVersion interface {
 
 // The jsii proxy struct for AppEngineFlexibleAppVersion
 type jsiiProxy_AppEngineFlexibleAppVersion struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AppEngineFlexibleAppVersion) ApiConfig() AppEngineFlexibleAppVersionApiConfigOutputReference {
@@ -310,8 +310,8 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) BetaSettingsInput() *map[string]
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -500,8 +500,8 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) FlexibleRuntimeSettingsInput() *
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -610,8 +610,8 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) InstanceClassInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -760,8 +760,8 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -970,8 +970,8 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) ServingStatusInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1164,7 +1164,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetEnvVariables(val *map[string]*
 	)
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1205,7 +1205,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetInstanceClass(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1249,7 +1249,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1356,14 +1356,14 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetVersionId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a AppEngineFlexibleAppVersion resource upon running "cdktf plan <stack-name>".
-func AppEngineFlexibleAppVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AppEngineFlexibleAppVersion resource upon running "cdktn plan <stack-name>".
+func AppEngineFlexibleAppVersion_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAppEngineFlexibleAppVersion_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.appEngineFlexibleAppVersion.AppEngineFlexibleAppVersion",
@@ -1497,11 +1497,11 @@ func (a *jsiiProxy_AppEngineFlexibleAppVersion) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineFlexibleAppVersion) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppEngineFlexibleAppVersion) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1638,7 +1638,7 @@ func (a *jsiiProxy_AppEngineFlexibleAppVersion) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AppEngineFlexibleAppVersion) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AppEngineFlexibleAppVersion) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1649,11 +1649,11 @@ func (a *jsiiProxy_AppEngineFlexibleAppVersion) ImportFrom(id *string, provider 
 	)
 }
 
-func (a *jsiiProxy_AppEngineFlexibleAppVersion) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppEngineFlexibleAppVersion) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

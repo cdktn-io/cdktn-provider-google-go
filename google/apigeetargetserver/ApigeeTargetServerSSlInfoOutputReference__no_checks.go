@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validatePutCommonNa
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApigeeTargetServerSSlInfoOutputReference) validateSetTrustSto
 	return nil
 }
 
-func validateNewApigeeTargetServerSSlInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeTargetServerSSlInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

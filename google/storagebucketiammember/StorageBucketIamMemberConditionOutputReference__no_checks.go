@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageBucketIamMemberConditionOutputReference) validateSetTi
 	return nil
 }
 
-func validateNewStorageBucketIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBucketIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

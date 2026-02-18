@@ -47,7 +47,7 @@ func (e *jsiiProxy_EdgecontainerVpnConnectionDetailsCloudVpnsOutputReference) va
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerVpnConnectionDetailsCloudVpnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerVpnConnectionDetailsCloudVpnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_EdgecontainerVpnConnectionDetailsCloudVpnsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerVpnConnectionDetailsCloudVpnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerVpnConnectionDetailsCloudVpnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEdgecontainerVpnConnectionDetailsCloudVpnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEdgecontainerVpnConnectionDetailsCloudVpnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

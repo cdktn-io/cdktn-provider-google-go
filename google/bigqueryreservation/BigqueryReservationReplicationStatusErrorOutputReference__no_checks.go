@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryReservationReplicationStatusErrorOutputReference) val
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryReservationReplicationStatusErrorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryReservationReplicationStatusErrorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_BigqueryReservationReplicationStatusErrorOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryReservationReplicationStatusErrorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryReservationReplicationStatusErrorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryReservationReplicationStatusErrorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBigqueryReservationReplicationStatusErrorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

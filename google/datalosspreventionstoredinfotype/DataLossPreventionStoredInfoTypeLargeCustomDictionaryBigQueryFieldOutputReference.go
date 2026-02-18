@@ -5,14 +5,14 @@ package datalosspreventionstoredinfotype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datalosspreventionstoredinfotype/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datalosspreventionstoredinfotype/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,14 +65,14 @@ type DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutField(value *DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldField)
 	PutTable(value *DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTable)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputRef
 
 // The jsii proxy struct for DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference
 type jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 	return returns
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 }
 
 
-func NewDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference {
+func NewDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutput
 	return &j
 }
 
-func NewDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference_Override(d DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference_Override(d DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -267,7 +267,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 	)
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -307,11 +307,11 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,8 +435,8 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -448,11 +448,11 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 	return returns
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -486,7 +486,7 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQuery
 	)
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

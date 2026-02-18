@@ -51,7 +51,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

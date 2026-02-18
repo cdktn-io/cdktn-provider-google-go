@@ -5,14 +5,14 @@ package filestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/filestoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/filestoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FilestoreInstanceFileSharesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityGb() *float64
 	SetCapacityGb(val *float64)
 	CapacityGbInput() *float64
@@ -48,15 +48,15 @@ type FilestoreInstanceFileSharesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,15 +72,15 @@ type FilestoreInstanceFileSharesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNfsExportOptions(value interface{})
 	ResetNfsExportOptions()
 	ResetSourceBackup()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type FilestoreInstanceFileSharesOutputReference interface {
 
 // The jsii proxy struct for FilestoreInstanceFileSharesOutputReference
 type jsiiProxy_FilestoreInstanceFileSharesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) CapacityGb() *float64 {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) TerraformResource
 }
 
 
-func NewFilestoreInstanceFileSharesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FilestoreInstanceFileSharesOutputReference {
+func NewFilestoreInstanceFileSharesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FilestoreInstanceFileSharesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFilestoreInstanceFileSharesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewFilestoreInstanceFileSharesOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewFilestoreInstanceFileSharesOutputReference_Override(f FilestoreInstanceFileSharesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFilestoreInstanceFileSharesOutputReference_Override(f FilestoreInstanceFileSharesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,11 +388,11 @@ func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -516,8 +516,8 @@ func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -529,11 +529,11 @@ func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -572,7 +572,7 @@ func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) ResetSourceBackup
 	)
 }
 
-func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

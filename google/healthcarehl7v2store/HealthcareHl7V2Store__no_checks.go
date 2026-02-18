@@ -127,7 +127,7 @@ func (j *jsiiProxy_HealthcareHl7V2Store) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareHl7V2Store) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareHl7V2Store) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

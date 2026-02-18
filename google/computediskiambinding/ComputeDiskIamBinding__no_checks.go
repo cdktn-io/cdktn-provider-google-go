@@ -107,7 +107,7 @@ func (j *jsiiProxy_ComputeDiskIamBinding) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_ComputeDiskIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeDiskIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

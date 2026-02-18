@@ -15,7 +15,7 @@ func (v *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateGet
 	return nil
 }
 
-func (v *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRuleSourceIpRangesList) validateSet
 	return nil
 }
 
-func validateNewVmwareengineExternalAccessRuleSourceIpRangesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVmwareengineExternalAccessRuleSourceIpRangesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

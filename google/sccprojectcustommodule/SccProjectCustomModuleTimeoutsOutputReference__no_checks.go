@@ -47,7 +47,7 @@ func (s *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SccProjectCustomModuleTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewSccProjectCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccProjectCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

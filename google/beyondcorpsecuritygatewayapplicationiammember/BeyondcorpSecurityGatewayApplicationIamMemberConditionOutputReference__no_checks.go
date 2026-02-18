@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputR
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamMemberConditionOutputR
 	return nil
 }
 
-func validateNewBeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamPrivateConnectionErrorOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamPrivateConnectionErrorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamPrivateConnectionErrorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DatastreamPrivateConnectionErrorOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamPrivateConnectionErrorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamPrivateConnectionErrorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatastreamPrivateConnectionErrorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatastreamPrivateConnectionErrorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

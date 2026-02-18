@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataprocMetastoreTableIamMemberConditionOutputReference) vali
 	return nil
 }
 
-func validateNewDataprocMetastoreTableIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocMetastoreTableIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

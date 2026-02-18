@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingRestrictedExportConfigOutputRefere
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryAnalyticsHubListingRestrictedExportConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryAnalyticsHubListingRestrictedExportConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingRestrictedExportConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryAnalyticsHubListingRestrictedExportConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryAnalyticsHubListingRestrictedExportConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryAnalyticsHubListingRestrictedExportConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryAnalyticsHubListingRestrictedExportConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

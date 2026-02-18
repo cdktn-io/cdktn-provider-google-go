@@ -107,7 +107,7 @@ func (j *jsiiProxy_DnsManagedZoneIamMember) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZoneIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DnsManagedZoneIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

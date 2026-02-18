@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurity
 	return nil
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurity
 	return nil
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

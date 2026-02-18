@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputRefe
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunV2ServiceTemplateVpcAccessNetworkInterfacesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

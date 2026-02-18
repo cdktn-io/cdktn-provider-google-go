@@ -115,7 +115,7 @@ func (j *jsiiProxy_ProjectAccessApprovalSettings) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ProjectAccessApprovalSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ProjectAccessApprovalSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

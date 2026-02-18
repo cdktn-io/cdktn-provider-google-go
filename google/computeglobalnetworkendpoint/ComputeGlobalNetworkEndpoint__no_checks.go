@@ -119,7 +119,7 @@ func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetIpAddressParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

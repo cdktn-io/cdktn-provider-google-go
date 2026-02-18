@@ -5,14 +5,14 @@ package apihubcuration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apihubcuration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apihubcuration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApihubCurationPluginInstanceActionsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type ApihubCurationPluginInstanceActionsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type ApihubCurationPluginInstanceActionsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ApihubCurationPluginInstanceActionsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type ApihubCurationPluginInstanceActionsList interface {
 
 // The jsii proxy struct for ApihubCurationPluginInstanceActionsList
 type jsiiProxy_ApihubCurationPluginInstanceActionsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList) WrapsSet() *bool {
 }
 
 
-func NewApihubCurationPluginInstanceActionsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApihubCurationPluginInstanceActionsList {
+func NewApihubCurationPluginInstanceActionsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApihubCurationPluginInstanceActionsList {
 	_init_.Initialize()
 
 	if err := validateNewApihubCurationPluginInstanceActionsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewApihubCurationPluginInstanceActionsList(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewApihubCurationPluginInstanceActionsList_Override(a ApihubCurationPluginInstanceActionsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewApihubCurationPluginInstanceActionsList_Override(a ApihubCurationPluginInstanceActionsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_ApihubCurationPluginInstanceActionsList)SetWrapsSet(val *bool
 	)
 }
 
-func (a *jsiiProxy_ApihubCurationPluginInstanceActionsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_ApihubCurationPluginInstanceActionsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -208,7 +208,7 @@ func (a *jsiiProxy_ApihubCurationPluginInstanceActionsList) Get(index *float64) 
 	return returns
 }
 
-func (a *jsiiProxy_ApihubCurationPluginInstanceActionsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApihubCurationPluginInstanceActionsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package computeregionhealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/computeregionhealthcheck/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/computeregionhealthcheck/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeRegionHealthCheckLogConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type ComputeRegionHealthCheckLogConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type ComputeRegionHealthCheckLogConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type ComputeRegionHealthCheckLogConfigOutputReference interface {
 
 // The jsii proxy struct for ComputeRegionHealthCheckLogConfigOutputReference
 type jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) TerraformRe
 }
 
 
-func NewComputeRegionHealthCheckLogConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ComputeRegionHealthCheckLogConfigOutputReference {
+func NewComputeRegionHealthCheckLogConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ComputeRegionHealthCheckLogConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewComputeRegionHealthCheckLogConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewComputeRegionHealthCheckLogConfigOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewComputeRegionHealthCheckLogConfigOutputReference_Override(c ComputeRegionHealthCheckLogConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewComputeRegionHealthCheckLogConfigOutputReference_Override(c ComputeRegionHealthCheckLogConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -424,8 +424,8 @@ func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) GetStringMa
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -437,11 +437,11 @@ func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) ResetEnable
 	)
 }
 
-func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ComputeRegionHealthCheckLogConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

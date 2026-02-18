@@ -47,7 +47,7 @@ func (c *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func validateNewColabRuntimeTemplateIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewColabRuntimeTemplateIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

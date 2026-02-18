@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference) validateInterpola
 	return nil
 }
 
-func (c *jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeDiskAsyncPrimaryDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeDiskAsyncPrimaryDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeDiskAsyncPrimaryDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

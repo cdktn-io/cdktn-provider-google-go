@@ -5,14 +5,14 @@ package dataprocbatch
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocbatch/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocbatch/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocBatchRuntimeInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApproximateUsage() DataprocBatchRuntimeInfoApproximateUsageList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -31,7 +31,7 @@ type DataprocBatchRuntimeInfoOutputReference interface {
 	CreationStack() *[]*string
 	CurrentUsage() DataprocBatchRuntimeInfoCurrentUsageList
 	DiagnosticOutputUri() *string
-	Endpoints() cdktf.StringMap
+	Endpoints() cdktn.StringMap
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataprocBatchRuntimeInfo
@@ -42,15 +42,15 @@ type DataprocBatchRuntimeInfoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataprocBatchRuntimeInfoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataprocBatchRuntimeInfoOutputReference interface {
 
 // The jsii proxy struct for DataprocBatchRuntimeInfoOutputReference
 type jsiiProxy_DataprocBatchRuntimeInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) ApproximateUsage() DataprocBatchRuntimeInfoApproximateUsageList {
@@ -144,8 +144,8 @@ func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) DiagnosticOutputUri(
 	return returns
 }
 
-func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) Endpoints() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) Endpoints() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"endpoints",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) TerraformResource() 
 }
 
 
-func NewDataprocBatchRuntimeInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataprocBatchRuntimeInfoOutputReference {
+func NewDataprocBatchRuntimeInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataprocBatchRuntimeInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocBatchRuntimeInfoOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataprocBatchRuntimeInfoOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewDataprocBatchRuntimeInfoOutputReference_Override(d DataprocBatchRuntimeInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataprocBatchRuntimeInfoOutputReference_Override(d DataprocBatchRuntimeInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocBatchRuntimeInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) InterpolationForAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocBatchRuntimeInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

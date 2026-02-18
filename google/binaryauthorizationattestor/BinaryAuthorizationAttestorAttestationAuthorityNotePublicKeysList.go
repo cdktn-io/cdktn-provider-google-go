@@ -5,14 +5,14 @@ package binaryauthorizationattestor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/binaryauthorizationattestor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/binaryauthorizationattestor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList interface
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList interface
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList interface
 
 // The jsii proxy struct for BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList
 type jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 	return returns
 }
 
-func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 }
 
 
-func NewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList {
+func NewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList {
 	_init_.Initialize()
 
 	if err := validateNewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList(terraf
 	return &j
 }
 
-func NewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList_Override(b BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList_Override(b BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 	)
 }
 
-func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 	)
 }
 
-func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := b.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		b,
@@ -231,7 +231,7 @@ func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
 	return returns
 }
 
-func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

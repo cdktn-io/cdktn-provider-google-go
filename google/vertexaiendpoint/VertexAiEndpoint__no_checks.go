@@ -135,7 +135,7 @@ func (j *jsiiProxy_VertexAiEndpoint) validateSetLabelsParameters(val *map[string
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VertexAiEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (n *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NotebooksEnvironmentTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewNotebooksEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotebooksEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

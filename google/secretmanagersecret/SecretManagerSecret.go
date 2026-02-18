@@ -5,21 +5,21 @@ package secretmanagersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/secretmanagersecret/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/secretmanagersecret/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/secret_manager_secret google_secret_manager_secret}.
 type SecretManagerSecret interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,15 +38,15 @@ type SecretManagerSecret interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ExpireTime() *string
 	SetExpireTime(val *string)
 	ExpireTimeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type SecretManagerSecret interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -68,9 +68,9 @@ type SecretManagerSecret interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,8 +88,8 @@ type SecretManagerSecret interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -115,7 +115,7 @@ type SecretManagerSecret interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -133,9 +133,9 @@ type SecretManagerSecret interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -185,7 +185,7 @@ type SecretManagerSecret interface {
 
 // The jsii proxy struct for SecretManagerSecret
 type jsiiProxy_SecretManagerSecret struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SecretManagerSecret) Annotations() *map[string]*string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_SecretManagerSecret) AnnotationsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SecretManagerSecret) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_SecretManagerSecret) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_SecretManagerSecret) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -298,8 +298,8 @@ func (j *jsiiProxy_SecretManagerSecret) EffectiveAnnotations() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_SecretManagerSecret) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_SecretManagerSecret) ExpireTimeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SecretManagerSecret) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -398,8 +398,8 @@ func (j *jsiiProxy_SecretManagerSecret) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SecretManagerSecret) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_SecretManagerSecret) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SecretManagerSecret) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -558,8 +558,8 @@ func (j *jsiiProxy_SecretManagerSecret) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SecretManagerSecret) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -568,8 +568,8 @@ func (j *jsiiProxy_SecretManagerSecret) TerraformGeneratorMetadata() *cdktf.Terr
 	return returns
 }
 
-func (j *jsiiProxy_SecretManagerSecret) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_SecretManagerSecret) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -791,7 +791,7 @@ func (j *jsiiProxy_SecretManagerSecret)SetExpireTime(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SecretManagerSecret)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SecretManagerSecret)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -821,7 +821,7 @@ func (j *jsiiProxy_SecretManagerSecret)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_SecretManagerSecret)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SecretManagerSecret)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -843,7 +843,7 @@ func (j *jsiiProxy_SecretManagerSecret)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SecretManagerSecret)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SecretManagerSecret)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -917,14 +917,14 @@ func (j *jsiiProxy_SecretManagerSecret)SetVersionDestroyTtl(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SecretManagerSecret resource upon running "cdktf plan <stack-name>".
-func SecretManagerSecret_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SecretManagerSecret resource upon running "cdktn plan <stack-name>".
+func SecretManagerSecret_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSecretManagerSecret_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.secretManagerSecret.SecretManagerSecret",
@@ -1058,11 +1058,11 @@ func (s *jsiiProxy_SecretManagerSecret) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerSecret) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretManagerSecret) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1199,7 +1199,7 @@ func (s *jsiiProxy_SecretManagerSecret) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SecretManagerSecret) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SecretManagerSecret) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1210,11 +1210,11 @@ func (s *jsiiProxy_SecretManagerSecret) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (s *jsiiProxy_SecretManagerSecret) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SecretManagerSecret) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

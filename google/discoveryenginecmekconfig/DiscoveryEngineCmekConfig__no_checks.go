@@ -119,7 +119,7 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfig) validateSetKmsKeyParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineCmekConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DiscoveryEngineCmekConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

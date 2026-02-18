@@ -83,7 +83,7 @@ func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -135,11 +135,11 @@ func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

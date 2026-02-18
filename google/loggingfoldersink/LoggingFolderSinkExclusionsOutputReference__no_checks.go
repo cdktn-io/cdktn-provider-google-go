@@ -47,7 +47,7 @@ func (l *jsiiProxy_LoggingFolderSinkExclusionsOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LoggingFolderSinkExclusionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoggingFolderSinkExclusionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LoggingFolderSinkExclusionsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LoggingFolderSinkExclusionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoggingFolderSinkExclusionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLoggingFolderSinkExclusionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLoggingFolderSinkExclusionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

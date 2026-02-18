@@ -127,7 +127,7 @@ func (j *jsiiProxy_IdentityPlatformTenant) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformTenant) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IdentityPlatformTenant) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

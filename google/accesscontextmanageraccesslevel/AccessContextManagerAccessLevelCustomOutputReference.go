@@ -5,14 +5,14 @@ package accesscontextmanageraccesslevel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanageraccesslevel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/accesscontextmanageraccesslevel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessContextManagerAccessLevelCustomOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type AccessContextManagerAccessLevelCustomOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type AccessContextManagerAccessLevelCustomOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExpr(value *AccessContextManagerAccessLevelCustomExpr)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type AccessContextManagerAccessLevelCustomOutputReference interface {
 
 // The jsii proxy struct for AccessContextManagerAccessLevelCustomOutputReference
 type jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) Terrafo
 }
 
 
-func NewAccessContextManagerAccessLevelCustomOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AccessContextManagerAccessLevelCustomOutputReference {
+func NewAccessContextManagerAccessLevelCustomOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AccessContextManagerAccessLevelCustomOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessContextManagerAccessLevelCustomOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewAccessContextManagerAccessLevelCustomOutputReference(terraformResource c
 	return &j
 }
 
-func NewAccessContextManagerAccessLevelCustomOutputReference_Override(a AccessContextManagerAccessLevelCustomOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAccessContextManagerAccessLevelCustomOutputReference_Override(a AccessContextManagerAccessLevelCustomOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) GetAnyM
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -412,8 +412,8 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) GetStri
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -425,11 +425,11 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) Interpo
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -452,7 +452,7 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) PutExpr
 	)
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessContextManagerAccessLevelCustomOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

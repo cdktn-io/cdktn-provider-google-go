@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContactCenterInsightsViewTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewContactCenterInsightsViewTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContactCenterInsightsViewTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryConnectionAzureOutputReference) validateInterpolation
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryConnectionAzureOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryConnectionAzureOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BigqueryConnectionAzureOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryConnectionAzureOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryConnectionAzureOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryConnectionAzureOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryConnectionAzureOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

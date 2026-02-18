@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) valid
 	return nil
 }
 
-func (f *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FirebaseAppHostingDefaultDomainTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewFirebaseAppHostingDefaultDomainTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirebaseAppHostingDefaultDomainTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

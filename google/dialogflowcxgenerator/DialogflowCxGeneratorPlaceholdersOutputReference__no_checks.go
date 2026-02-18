@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxGeneratorPlaceholdersOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxGeneratorPlaceholdersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxGeneratorPlaceholdersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxGeneratorPlaceholdersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxGeneratorPlaceholdersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxGeneratorPlaceholdersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

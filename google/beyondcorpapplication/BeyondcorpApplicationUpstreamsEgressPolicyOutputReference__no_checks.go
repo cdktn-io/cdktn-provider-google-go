@@ -47,7 +47,7 @@ func (b *jsiiProxy_BeyondcorpApplicationUpstreamsEgressPolicyOutputReference) va
 	return nil
 }
 
-func (b *jsiiProxy_BeyondcorpApplicationUpstreamsEgressPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BeyondcorpApplicationUpstreamsEgressPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BeyondcorpApplicationUpstreamsEgressPolicyOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_BeyondcorpApplicationUpstreamsEgressPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BeyondcorpApplicationUpstreamsEgressPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBeyondcorpApplicationUpstreamsEgressPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBeyondcorpApplicationUpstreamsEgressPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

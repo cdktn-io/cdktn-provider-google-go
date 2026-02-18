@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryC
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryC
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedisClusterCrossClusterReplicationConfigMembershipSecondaryClustersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

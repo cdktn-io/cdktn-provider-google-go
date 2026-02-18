@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolInstanceSplitsOutputReference) validateSe
 	return nil
 }
 
-func validateNewCloudRunV2WorkerPoolInstanceSplitsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudRunV2WorkerPoolInstanceSplitsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

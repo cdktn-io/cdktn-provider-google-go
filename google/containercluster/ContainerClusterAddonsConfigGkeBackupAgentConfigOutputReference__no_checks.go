@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigGkeBackupAgentConfigOutputReferen
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterAddonsConfigGkeBackupAgentConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterAddonsConfigGkeBackupAgentConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigGkeBackupAgentConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterAddonsConfigGkeBackupAgentConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterAddonsConfigGkeBackupAgentConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterAddonsConfigGkeBackupAgentConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterAddonsConfigGkeBackupAgentConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

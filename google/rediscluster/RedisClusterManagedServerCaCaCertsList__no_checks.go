@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateGetParameters
 	return nil
 }
 
-func (r *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_RedisClusterManagedServerCaCaCertsList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewRedisClusterManagedServerCaCaCertsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisClusterManagedServerCaCaCertsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

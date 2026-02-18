@@ -131,7 +131,7 @@ func (j *jsiiProxy_KmsCryptoKey) validateSetLabelsParameters(val *map[string]*st
 	return nil
 }
 
-func (j *jsiiProxy_KmsCryptoKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KmsCryptoKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

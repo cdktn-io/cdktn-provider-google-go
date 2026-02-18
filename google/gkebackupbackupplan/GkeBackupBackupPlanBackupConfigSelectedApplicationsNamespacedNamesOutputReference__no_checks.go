@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsNamespaced
 	return nil
 }
 
-func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsNamespacedNamesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsNamespacedNamesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsNamespaced
 	return nil
 }
 
-func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsNamespacedNamesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeBackupBackupPlanBackupConfigSelectedApplicationsNamespacedNamesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeBackupBackupPlanBackupConfigSelectedApplicationsNamespacedNamesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGkeBackupBackupPlanBackupConfigSelectedApplicationsNamespacedNamesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

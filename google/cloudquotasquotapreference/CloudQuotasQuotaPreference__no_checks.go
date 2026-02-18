@@ -127,7 +127,7 @@ func (j *jsiiProxy_CloudQuotasQuotaPreference) validateSetJustificationParameter
 	return nil
 }
 
-func (j *jsiiProxy_CloudQuotasQuotaPreference) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CloudQuotasQuotaPreference) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

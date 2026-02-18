@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateInterpolation
 	return nil
 }
 
-func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -182,7 +182,7 @@ func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_NotebooksRuntimeMetricsOutputReference) validateSetTerraformR
 	return nil
 }
 
-func validateNewNotebooksRuntimeMetricsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNotebooksRuntimeMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOut
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOut
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

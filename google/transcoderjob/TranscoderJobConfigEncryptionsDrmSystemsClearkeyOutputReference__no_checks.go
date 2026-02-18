@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReferen
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApigeeApiProductOperationGroupOutputReference) validatePutOpe
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeApiProductOperationGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeApiProductOperationGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApigeeApiProductOperationGroupOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeApiProductOperationGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeApiProductOperationGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigeeApiProductOperationGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeApiProductOperationGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

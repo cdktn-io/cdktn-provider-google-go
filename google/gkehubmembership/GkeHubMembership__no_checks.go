@@ -119,7 +119,7 @@ func (j *jsiiProxy_GkeHubMembership) validateSetLabelsParameters(val *map[string
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeHubMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

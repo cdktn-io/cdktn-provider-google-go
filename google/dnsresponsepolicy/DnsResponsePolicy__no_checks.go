@@ -119,7 +119,7 @@ func (j *jsiiProxy_DnsResponsePolicy) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DnsResponsePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DnsResponsePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

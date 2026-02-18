@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBucketHierarchicalNamespaceOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketHierarchicalNamespaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketHierarchicalNamespaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StorageBucketHierarchicalNamespaceOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketHierarchicalNamespaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketHierarchicalNamespaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBucketHierarchicalNamespaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBucketHierarchicalNamespaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

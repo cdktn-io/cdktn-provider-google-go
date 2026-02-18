@@ -51,7 +51,7 @@ func (c *jsiiProxy_ClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewClouddomainsRegistrationDnsSettingsCustomDnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddomainsRegistrationDnsSettingsCustomDnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

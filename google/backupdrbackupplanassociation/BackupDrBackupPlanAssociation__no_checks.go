@@ -115,7 +115,7 @@ func (j *jsiiProxy_BackupDrBackupPlanAssociation) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_BackupDrBackupPlanAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupDrBackupPlanAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

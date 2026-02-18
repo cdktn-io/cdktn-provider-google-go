@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigConfidentialNodesOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigConfidentialNodesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigConfidentialNodesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerClusterNodeConfigConfidentialNodesOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigConfidentialNodesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigConfidentialNodesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigConfidentialNodesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodeConfigConfidentialNodesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

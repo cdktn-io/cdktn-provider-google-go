@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeInstanceTemplateGuestAcceleratorOutputReference) valid
 	return nil
 }
 
-func validateNewComputeInstanceTemplateGuestAcceleratorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeInstanceTemplateGuestAcceleratorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

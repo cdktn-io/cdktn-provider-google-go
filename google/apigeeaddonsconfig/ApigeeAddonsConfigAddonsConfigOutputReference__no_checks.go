@@ -67,7 +67,7 @@ func (a *jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference) validatePutMon
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeAddonsConfigAddonsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigeeAddonsConfigAddonsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeAddonsConfigAddonsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

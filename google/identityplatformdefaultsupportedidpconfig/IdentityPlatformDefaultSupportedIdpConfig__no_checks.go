@@ -123,7 +123,7 @@ func (j *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateSetIdpIdPa
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

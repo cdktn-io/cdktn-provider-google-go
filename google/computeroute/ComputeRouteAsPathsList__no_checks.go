@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRouteAsPathsList) validateGetParameters(index *float64
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouteAsPathsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouteAsPathsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ComputeRouteAsPathsList) validateSetTerraformAttributeParamet
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouteAsPathsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouteAsPathsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ComputeRouteAsPathsList) validateSetWrapsSetParameters(val *b
 	return nil
 }
 
-func validateNewComputeRouteAsPathsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRouteAsPathsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

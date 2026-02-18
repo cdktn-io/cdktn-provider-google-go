@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeInterconnectMacsecOutputReference) validatePutPreShare
 	return nil
 }
 
-func (c *jsiiProxy_ComputeInterconnectMacsecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeInterconnectMacsecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeInterconnectMacsecOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ComputeInterconnectMacsecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeInterconnectMacsecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeInterconnectMacsecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeInterconnectMacsecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

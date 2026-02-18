@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdCon
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdCon
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

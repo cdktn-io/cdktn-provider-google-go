@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyCo
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyCo
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyCo
 	return nil
 }
 
-func validateNewComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRegionSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutContaine
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudRunV2ServiceTemplateContainers:
 		value := value.(*[]*CloudRunV2ServiceTemplateContainers)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutContaine
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudRunV2ServiceTemplateContainers; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudRunV2ServiceTemplateContainers; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -151,7 +151,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutVolumesP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CloudRunV2ServiceTemplateVolumes:
 		value := value.(*[]*CloudRunV2ServiceTemplateVolumes)
@@ -170,7 +170,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutVolumesP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CloudRunV2ServiceTemplateVolumes; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CloudRunV2ServiceTemplateVolumes; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -188,7 +188,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutVpcAcces
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -294,11 +294,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateSetGpuZonal
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -354,11 +354,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateSetSessionA
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -373,7 +373,7 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -389,7 +389,7 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateSetTimeoutP
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTemplateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2ServiceTemplateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

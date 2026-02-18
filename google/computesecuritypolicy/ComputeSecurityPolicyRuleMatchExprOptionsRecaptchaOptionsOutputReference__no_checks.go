@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	return nil
 }
 
-func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutp
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

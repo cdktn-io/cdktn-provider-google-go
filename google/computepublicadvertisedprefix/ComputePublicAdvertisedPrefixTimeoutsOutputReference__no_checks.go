@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputePublicAdvertisedPrefixTimeoutsOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_ComputePublicAdvertisedPrefixTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputePublicAdvertisedPrefixTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputePublicAdvertisedPrefixTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ComputePublicAdvertisedPrefixTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputePublicAdvertisedPrefixTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputePublicAdvertisedPrefixTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputePublicAdvertisedPrefixTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

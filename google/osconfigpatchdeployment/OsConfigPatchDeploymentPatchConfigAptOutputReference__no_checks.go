@@ -47,7 +47,7 @@ func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validat
 	return nil
 }
 
-func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OsConfigPatchDeploymentPatchConfigAptOutputReference) validat
 	return nil
 }
 
-func validateNewOsConfigPatchDeploymentPatchConfigAptOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOsConfigPatchDeploymentPatchConfigAptOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

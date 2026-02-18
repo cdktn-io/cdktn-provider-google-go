@@ -5,14 +5,14 @@ package gkebackupbackupchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/gkebackupbackupchannel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/gkebackupbackupchannel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeBackupBackupChannelTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GkeBackupBackupChannelTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type GkeBackupBackupChannelTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GkeBackupBackupChannelTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GkeBackupBackupChannelTimeoutsOutputReference interface {
 
 // The jsii proxy struct for GkeBackupBackupChannelTimeoutsOutputReference
 type jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) UpdateInput() 
 }
 
 
-func NewGkeBackupBackupChannelTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GkeBackupBackupChannelTimeoutsOutputReference {
+func NewGkeBackupBackupChannelTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GkeBackupBackupChannelTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGkeBackupBackupChannelTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGkeBackupBackupChannelTimeoutsOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewGkeBackupBackupChannelTimeoutsOutputReference_Override(g GkeBackupBackupChannelTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGkeBackupBackupChannelTimeoutsOutputReference_Override(g GkeBackupBackupChannelTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) GetStringMapAt
 	return returns
 }
 
-func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) InterpolationA
 	return returns
 }
 
-func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) ResetUpdate() 
 	)
 }
 
-func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GkeBackupBackupChannelTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

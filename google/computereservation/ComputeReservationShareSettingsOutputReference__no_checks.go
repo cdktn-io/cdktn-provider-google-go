@@ -51,7 +51,7 @@ func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) validatePutPr
 	return nil
 }
 
-func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeReservationShareSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeReservationShareSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeReservationShareSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeReservationShareSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

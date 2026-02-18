@@ -5,14 +5,14 @@ package dataprocworkflowtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/dataprocworkflowtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/dataprocworkflowtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Accelerators() DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList
 	AcceleratorsInput() interface{}
 	// the index of the complex object in a list.
@@ -40,7 +40,7 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigO
 	InstanceNames() *[]*string
 	InternalValue() *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig
 	SetInternalValue(val *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig)
-	IsPreemptible() cdktf.IResolvable
+	IsPreemptible() cdktn.IResolvable
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
@@ -59,15 +59,15 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigO
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,9 +83,9 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigO
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccelerators(value interface{})
 	PutDiskConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig)
 	ResetAccelerators()
@@ -97,7 +97,7 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigO
 	ResetPreemptibility()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigO
 
 // The jsii proxy struct for DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference
 type jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) Accelerators() DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList {
@@ -230,8 +230,8 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	return returns
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) IsPreemptible() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) IsPreemptible() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"isPreemptible",
@@ -340,8 +340,8 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	return returns
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -351,7 +351,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 }
 
 
-func NewDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference {
+func NewDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -368,7 +368,7 @@ func NewDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConf
 	return &j
 }
 
-func NewDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference_Override(d DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference_Override(d DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -477,7 +477,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	)
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -517,11 +517,11 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	return returns
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -645,8 +645,8 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	return returns
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -658,11 +658,11 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	return returns
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -752,7 +752,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
 	)
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewComputeRegionNetworkFirewallPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionNetworkFirewallPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

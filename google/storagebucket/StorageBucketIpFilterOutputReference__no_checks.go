@@ -55,7 +55,7 @@ func (s *jsiiProxy_StorageBucketIpFilterOutputReference) validatePutVpcNetworkSo
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketIpFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketIpFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_StorageBucketIpFilterOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketIpFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketIpFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBucketIpFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBucketIpFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

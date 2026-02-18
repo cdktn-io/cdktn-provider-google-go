@@ -5,16 +5,16 @@ package networksecuritygatewaysecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/networksecuritygatewaysecuritypolicyrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/networksecuritygatewaysecuritypolicyrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
 type NetworkSecurityGatewaySecurityPolicyRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationMatcher() *string
 	SetApplicationMatcher(val *string)
 	ApplicationMatcherInput() *string
@@ -22,7 +22,7 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	SetBasicProfile(val *string)
 	BasicProfileInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,9 +45,9 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,9 +59,9 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -77,9 +77,9 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	SetSessionMatcher(val *string)
 	SessionMatcherInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -110,7 +110,7 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -128,9 +128,9 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -170,7 +170,7 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 
 // The jsii proxy struct for NetworkSecurityGatewaySecurityPolicyRule
 type jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ApplicationMatcher() *string {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) BasicProfileInput()
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) EnabledInput() inte
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -483,8 +483,8 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ProjectInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -543,8 +543,8 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) SessionMatcherInput
 	return returns
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -727,7 +727,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetEnabled(val inter
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -757,7 +757,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -812,7 +812,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetProject(val *stri
 	)
 }
 
-func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -853,14 +853,14 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetTlsInspectionEnab
 	)
 }
 
-// Generates CDKTF code for importing a NetworkSecurityGatewaySecurityPolicyRule resource upon running "cdktf plan <stack-name>".
-func NetworkSecurityGatewaySecurityPolicyRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetworkSecurityGatewaySecurityPolicyRule resource upon running "cdktn plan <stack-name>".
+func NetworkSecurityGatewaySecurityPolicyRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetworkSecurityGatewaySecurityPolicyRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.networkSecurityGatewaySecurityPolicyRule.NetworkSecurityGatewaySecurityPolicyRule",
@@ -994,11 +994,11 @@ func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) GetAnyMapAttribute(
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1135,7 +1135,7 @@ func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) HasResourceMove() i
 	return returns
 }
 
-func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1146,11 +1146,11 @@ func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ImportFrom(id *stri
 	)
 }
 
-func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

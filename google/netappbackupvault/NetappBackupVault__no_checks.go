@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetappBackupVault) validateSetLabelsParameters(val *map[strin
 	return nil
 }
 
-func (j *jsiiProxy_NetappBackupVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetappBackupVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

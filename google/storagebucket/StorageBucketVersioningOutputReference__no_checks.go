@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageBucketVersioningOutputReference) validateInterpolation
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketVersioningOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketVersioningOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StorageBucketVersioningOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketVersioningOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketVersioningOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBucketVersioningOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageBucketVersioningOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

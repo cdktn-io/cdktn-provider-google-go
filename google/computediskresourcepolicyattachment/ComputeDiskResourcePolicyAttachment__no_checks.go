@@ -111,7 +111,7 @@ func (j *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

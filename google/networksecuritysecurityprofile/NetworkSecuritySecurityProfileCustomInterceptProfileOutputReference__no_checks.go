@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputRef
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomInterceptProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecuritySecurityProfileCustomInterceptProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecuritySecurityProfileCustomInterceptProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package beyondcorpsecuritygateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/beyondcorpsecuritygateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/beyondcorpsecuritygateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AssignedIps() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -38,15 +38,15 @@ type BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -62,12 +62,12 @@ type BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -77,7 +77,7 @@ type BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference interface {
 
 // The jsii proxy struct for BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference
 type jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) AssignedIps() *[]*string {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -161,7 +161,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) 
 }
 
 
-func NewBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference {
+func NewBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBeyondcorpSecurityGatewayHubsInternetGatewayOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -178,7 +178,7 @@ func NewBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference(terraformRes
 	return &j
 }
 
-func NewBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference_Override(b BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference_Override(b BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -232,7 +232,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -272,11 +272,11 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) 
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -400,8 +400,8 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) 
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -413,11 +413,11 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) 
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -429,7 +429,7 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) 
 	return returns
 }
 
-func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

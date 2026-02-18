@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterEnterpriseConfigOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterEnterpriseConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterEnterpriseConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterEnterpriseConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterEnterpriseConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterEnterpriseConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterEnterpriseConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterEnterpriseConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

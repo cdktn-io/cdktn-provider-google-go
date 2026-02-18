@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowConversationProfileAutomatedAgentConfigOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowConversationProfileAutomatedAgentConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowConversationProfileAutomatedAgentConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowConversationProfileAutomatedAgentConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowConversationProfileAutomatedAgentConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowConversationProfileAutomatedAgentConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowConversationProfileAutomatedAgentConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowConversationProfileAutomatedAgentConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

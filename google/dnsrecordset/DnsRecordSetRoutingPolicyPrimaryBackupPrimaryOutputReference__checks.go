@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancers:
 		value := value.(*[]*DnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancers)
@@ -117,14 +117,14 @@ func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancers; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DnsRecordSetRoutingPolicyPrimaryBackupPrimaryInternalLoadBalancers; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -221,7 +221,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -229,7 +229,7 @@ func (j *jsiiProxy_DnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReference)
 	return nil
 }
 
-func validateNewDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsRecordSetRoutingPolicyPrimaryBackupPrimaryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

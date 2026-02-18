@@ -47,7 +47,7 @@ func (e *jsiiProxy_EdgecontainerNodePoolNodeConfigOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_EdgecontainerNodePoolNodeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EdgecontainerNodePoolNodeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_EdgecontainerNodePoolNodeConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EdgecontainerNodePoolNodeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EdgecontainerNodePoolNodeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEdgecontainerNodePoolNodeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEdgecontainerNodePoolNodeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

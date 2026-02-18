@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputRef
 	return nil
 }
 
-func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_PubsubTopicIngestionDataSourceSettingsConfluentCloudOutputRef
 	return nil
 }
 
-func validateNewPubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

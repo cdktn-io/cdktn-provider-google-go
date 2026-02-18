@@ -47,7 +47,7 @@ func (s *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (s *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SourcerepoRepositoryIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func validateNewSourcerepoRepositoryIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSourcerepoRepositoryIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

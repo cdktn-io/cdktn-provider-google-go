@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference) valid
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableTableConstraintsPrimaryKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryTableTableConstraintsPrimaryKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableTableConstraintsPrimaryKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

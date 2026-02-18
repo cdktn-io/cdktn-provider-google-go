@@ -47,7 +47,7 @@ func (i *jsiiProxy_IdentityPlatformConfigBlockingFunctionsForwardInboundCredenti
 	return nil
 }
 
-func (i *jsiiProxy_IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsForwardInboundCredenti
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

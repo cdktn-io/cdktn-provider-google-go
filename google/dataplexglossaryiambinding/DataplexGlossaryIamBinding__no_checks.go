@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataplexGlossaryIamBinding) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataplexGlossaryIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataplexGlossaryIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

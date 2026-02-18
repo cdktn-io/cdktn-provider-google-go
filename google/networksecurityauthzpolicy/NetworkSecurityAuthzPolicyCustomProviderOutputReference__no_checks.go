@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyCustomProviderOutputReference) vali
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityAuthzPolicyCustomProviderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyCustomProviderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyCustomProviderOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityAuthzPolicyCustomProviderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyCustomProviderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityAuthzPolicyCustomProviderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityAuthzPolicyCustomProviderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

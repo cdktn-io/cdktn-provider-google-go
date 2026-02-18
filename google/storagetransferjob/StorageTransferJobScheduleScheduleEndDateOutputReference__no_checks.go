@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageTransferJobScheduleScheduleEndDateOutputReference) val
 	return nil
 }
 
-func validateNewStorageTransferJobScheduleScheduleEndDateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageTransferJobScheduleScheduleEndDateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

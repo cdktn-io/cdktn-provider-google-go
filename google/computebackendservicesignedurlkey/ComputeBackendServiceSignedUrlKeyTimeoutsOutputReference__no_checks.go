@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeBackendServiceSignedUrlKeyTimeoutsOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceSignedUrlKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceSignedUrlKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ComputeBackendServiceSignedUrlKeyTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceSignedUrlKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceSignedUrlKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewComputeBackendServiceSignedUrlKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeBackendServiceSignedUrlKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package apihubapihubinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apihubapihubinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apihubapihubinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance}.
 type ApihubApiHubInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApiHubInstanceId() *string
 	SetApiHubInstanceId(val *string)
 	ApiHubInstanceIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Config() ApihubApiHubInstanceConfigAOutputReference
 	ConfigInput() *ApihubApiHubInstanceConfigA
 	// Experimental.
@@ -40,11 +40,11 @@ type ApihubApiHubInstance interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type ApihubApiHubInstance interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -69,9 +69,9 @@ type ApihubApiHubInstance interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,8 +81,8 @@ type ApihubApiHubInstance interface {
 	State() *string
 	StateMessage() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type ApihubApiHubInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -116,9 +116,9 @@ type ApihubApiHubInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type ApihubApiHubInstance interface {
 
 // The jsii proxy struct for ApihubApiHubInstance
 type jsiiProxy_ApihubApiHubInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApihubApiHubInstance) ApiHubInstanceId() *string {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) ApiHubInstanceIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApihubApiHubInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -282,8 +282,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ApihubApiHubInstance) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApihubApiHubInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApihubApiHubInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -432,8 +432,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApihubApiHubInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -482,8 +482,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) StateMessage() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApihubApiHubInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -492,8 +492,8 @@ func (j *jsiiProxy_ApihubApiHubInstance) TerraformGeneratorMetadata() *cdktf.Ter
 	return returns
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ApihubApiHubInstance) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -634,7 +634,7 @@ func (j *jsiiProxy_ApihubApiHubInstance)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApihubApiHubInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -664,7 +664,7 @@ func (j *jsiiProxy_ApihubApiHubInstance)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApihubApiHubInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -697,7 +697,7 @@ func (j *jsiiProxy_ApihubApiHubInstance)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApihubApiHubInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApihubApiHubInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -716,14 +716,14 @@ func (j *jsiiProxy_ApihubApiHubInstance)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a ApihubApiHubInstance resource upon running "cdktf plan <stack-name>".
-func ApihubApiHubInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApihubApiHubInstance resource upon running "cdktn plan <stack-name>".
+func ApihubApiHubInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApihubApiHubInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.apihubApiHubInstance.ApihubApiHubInstance",
@@ -857,11 +857,11 @@ func (a *jsiiProxy_ApihubApiHubInstance) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (a *jsiiProxy_ApihubApiHubInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApihubApiHubInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -998,7 +998,7 @@ func (a *jsiiProxy_ApihubApiHubInstance) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApihubApiHubInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApihubApiHubInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1009,11 +1009,11 @@ func (a *jsiiProxy_ApihubApiHubInstance) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (a *jsiiProxy_ApihubApiHubInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApihubApiHubInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

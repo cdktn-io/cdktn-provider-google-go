@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ClouddomainsRegistrationYearlyPriceOutputReference) validateS
 	return nil
 }
 
-func validateNewClouddomainsRegistrationYearlyPriceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewClouddomainsRegistrationYearlyPriceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

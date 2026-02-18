@@ -111,7 +111,7 @@ func (j *jsiiProxy_GkeHubScope) validateSetLabelsParameters(val *map[string]*str
 	return nil
 }
 
-func (j *jsiiProxy_GkeHubScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GkeHubScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

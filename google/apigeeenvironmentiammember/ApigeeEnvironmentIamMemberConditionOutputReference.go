@@ -5,14 +5,14 @@ package apigeeenvironmentiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/apigeeenvironmentiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeeenvironmentiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApigeeEnvironmentIamMemberConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ApigeeEnvironmentIamMemberConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -54,7 +54,7 @@ type ApigeeEnvironmentIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type ApigeeEnvironmentIamMemberConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type ApigeeEnvironmentIamMemberConditionOutputReference interface {
 
 // The jsii proxy struct for ApigeeEnvironmentIamMemberConditionOutputReference
 type jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) TitleInpu
 }
 
 
-func NewApigeeEnvironmentIamMemberConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApigeeEnvironmentIamMemberConditionOutputReference {
+func NewApigeeEnvironmentIamMemberConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApigeeEnvironmentIamMemberConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApigeeEnvironmentIamMemberConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewApigeeEnvironmentIamMemberConditionOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewApigeeEnvironmentIamMemberConditionOutputReference_Override(a ApigeeEnvironmentIamMemberConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApigeeEnvironmentIamMemberConditionOutputReference_Override(a ApigeeEnvironmentIamMemberConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -492,8 +492,8 @@ func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -505,11 +505,11 @@ func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -529,7 +529,7 @@ func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) ResetDesc
 	)
 }
 
-func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApigeeEnvironmentIamMemberConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -119,7 +119,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) validateSetIsSecretDataBa
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerRegionalSecretVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

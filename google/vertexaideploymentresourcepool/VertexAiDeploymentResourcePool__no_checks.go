@@ -111,7 +111,7 @@ func (j *jsiiProxy_VertexAiDeploymentResourcePool) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_VertexAiDeploymentResourcePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VertexAiDeploymentResourcePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package assuredworkloadsworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/assuredworkloadsworkload/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/assuredworkloadsworkload/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/assured_workloads_workload google_assured_workloads_workload}.
 type AssuredWorkloadsWorkload interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BillingAccount() *string
 	SetBillingAccount(val *string)
 	BillingAccountInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComplianceRegime() *string
 	SetComplianceRegime(val *string)
 	ComplianceRegimeInput() *string
@@ -43,15 +43,15 @@ type AssuredWorkloadsWorkload interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EkmProvisioningResponse() AssuredWorkloadsWorkloadEkmProvisioningResponseList
 	EnableSovereignControls() interface{}
 	SetEnableSovereignControls(val interface{})
 	EnableSovereignControlsInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -66,9 +66,9 @@ type AssuredWorkloadsWorkload interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -87,9 +87,9 @@ type AssuredWorkloadsWorkload interface {
 	SetPartnerServicesBillingAccount(val *string)
 	PartnerServicesBillingAccountInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProvisionedResourcesParent() *string
 	SetProvisionedResourcesParent(val *string)
 	ProvisionedResourcesParentInput() *string
@@ -104,8 +104,8 @@ type AssuredWorkloadsWorkload interface {
 	ResourceSettingsInput() interface{}
 	SaaEnrollmentResponse() AssuredWorkloadsWorkloadSaaEnrollmentResponseList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -125,7 +125,7 @@ type AssuredWorkloadsWorkload interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -143,9 +143,9 @@ type AssuredWorkloadsWorkload interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -196,7 +196,7 @@ type AssuredWorkloadsWorkload interface {
 
 // The jsii proxy struct for AssuredWorkloadsWorkload
 type jsiiProxy_AssuredWorkloadsWorkload struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AssuredWorkloadsWorkload) BillingAccount() *string {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) BillingAccountInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AssuredWorkloadsWorkload) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -339,8 +339,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_AssuredWorkloadsWorkload) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -379,8 +379,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) EnableSovereignControlsInput() inte
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AssuredWorkloadsWorkload) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -479,8 +479,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AssuredWorkloadsWorkload) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -609,8 +609,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) PartnerServicesBillingAccountInput(
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AssuredWorkloadsWorkload) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -699,8 +699,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) SaaEnrollmentResponse() AssuredWork
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AssuredWorkloadsWorkload) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -709,8 +709,8 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) TerraformGeneratorMetadata() *cdktf
 	return returns
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_AssuredWorkloadsWorkload) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -903,7 +903,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload)SetEnableSovereignControls(val inter
 	)
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AssuredWorkloadsWorkload)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -933,7 +933,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AssuredWorkloadsWorkload)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -988,7 +988,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload)SetPartnerServicesBillingAccount(val
 	)
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AssuredWorkloadsWorkload)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1029,14 +1029,14 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload)SetViolationNotificationsEnabled(val
 	)
 }
 
-// Generates CDKTF code for importing a AssuredWorkloadsWorkload resource upon running "cdktf plan <stack-name>".
-func AssuredWorkloadsWorkload_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AssuredWorkloadsWorkload resource upon running "cdktn plan <stack-name>".
+func AssuredWorkloadsWorkload_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAssuredWorkloadsWorkload_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.assuredWorkloadsWorkload.AssuredWorkloadsWorkload",
@@ -1170,11 +1170,11 @@ func (a *jsiiProxy_AssuredWorkloadsWorkload) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkload) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AssuredWorkloadsWorkload) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1311,7 +1311,7 @@ func (a *jsiiProxy_AssuredWorkloadsWorkload) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkload) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AssuredWorkloadsWorkload) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1322,11 +1322,11 @@ func (a *jsiiProxy_AssuredWorkloadsWorkload) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (a *jsiiProxy_AssuredWorkloadsWorkload) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AssuredWorkloadsWorkload) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

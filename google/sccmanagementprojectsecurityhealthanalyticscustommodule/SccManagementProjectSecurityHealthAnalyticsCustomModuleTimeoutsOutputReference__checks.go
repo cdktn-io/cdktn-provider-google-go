@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeou
 	return nil
 }
 
-func (s *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeou
 
 func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeouts:
 		val := val.(*SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeou
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeou
 	return nil
 }
 
-func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModuleTimeou
 	return nil
 }
 
-func validateNewSccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSccManagementProjectSecurityHealthAnalyticsCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

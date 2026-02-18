@@ -131,7 +131,7 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfig) validateSetIssuerParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_IdentityPlatformOauthIdpConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IdentityPlatformOauthIdpConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

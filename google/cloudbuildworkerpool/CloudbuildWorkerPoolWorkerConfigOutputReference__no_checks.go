@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudbuildWorkerPoolWorkerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildWorkerPoolWorkerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

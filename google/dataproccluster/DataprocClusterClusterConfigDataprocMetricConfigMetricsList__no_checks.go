@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataprocClusterClusterConfigDataprocMetricConfigMetricsList) 
 	return nil
 }
 
-func validateNewDataprocClusterClusterConfigDataprocMetricConfigMetricsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataprocClusterClusterConfigDataprocMetricConfigMetricsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

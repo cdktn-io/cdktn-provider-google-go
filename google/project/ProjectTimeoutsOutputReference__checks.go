@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_ProjectTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (p *jsiiProxy_ProjectTimeoutsOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (p *jsiiProxy_ProjectTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_ProjectTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetDeleteParameters(v
 
 func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ProjectTimeouts:
 		val := val.(*ProjectTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetInternalValueParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ProjectTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ProjectTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_ProjectTimeoutsOutputReference) validateSetUpdateParameters(v
 	return nil
 }
 
-func validateNewProjectTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewProjectTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

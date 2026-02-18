@@ -51,7 +51,7 @@ func (d *jsiiProxy_DialogflowCxIntentTrainingPhrasesOutputReference) validatePut
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxIntentTrainingPhrasesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxIntentTrainingPhrasesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DialogflowCxIntentTrainingPhrasesOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxIntentTrainingPhrasesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxIntentTrainingPhrasesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxIntentTrainingPhrasesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDialogflowCxIntentTrainingPhrasesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

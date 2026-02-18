@@ -55,7 +55,7 @@ func (d *jsiiProxy_DnsManagedZonePrivateVisibilityConfigOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DnsManagedZonePrivateVisibilityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsManagedZonePrivateVisibilityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DnsManagedZonePrivateVisibilityConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DnsManagedZonePrivateVisibilityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsManagedZonePrivateVisibilityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDnsManagedZonePrivateVisibilityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDnsManagedZonePrivateVisibilityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudTasksQueueHttpTargetOidcTokenOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CloudTasksQueueHttpTargetOidcTokenOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudTasksQueueHttpTargetOidcTokenOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudTasksQueueHttpTargetOidcTokenOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CloudTasksQueueHttpTargetOidcTokenOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudTasksQueueHttpTargetOidcTokenOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudTasksQueueHttpTargetOidcTokenOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudTasksQueueHttpTargetOidcTokenOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

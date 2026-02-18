@@ -47,7 +47,7 @@ func (t *jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputRef
 	return nil
 }
 
-func (t *jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

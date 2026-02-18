@@ -71,7 +71,7 @@ func (c *jsiiProxy_ContainerAwsNodePoolConfigAOutputReference) validatePutTaints
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAwsNodePoolConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAwsNodePoolConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -111,11 +111,11 @@ func (j *jsiiProxy_ContainerAwsNodePoolConfigAOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAwsNodePoolConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAwsNodePoolConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAwsNodePoolConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAwsNodePoolConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

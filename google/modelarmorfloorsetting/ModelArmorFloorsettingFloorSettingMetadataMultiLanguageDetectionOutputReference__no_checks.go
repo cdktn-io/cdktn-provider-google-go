@@ -47,7 +47,7 @@ func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetect
 	return nil
 }
 
-func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetect
 	return nil
 }
 
-func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewModelArmorFloorsettingFloorSettingMetadataMultiLanguageDetectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

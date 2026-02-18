@@ -15,7 +15,7 @@ func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) 
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) 
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList) 
 	return nil
 }
 
-func validateNewCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

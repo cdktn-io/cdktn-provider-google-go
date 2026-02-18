@@ -51,7 +51,7 @@ func (a *jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbInstanceClientConnectionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlloydbInstanceClientConnectionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlloydbInstanceClientConnectionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

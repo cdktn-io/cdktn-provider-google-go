@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EventarcTriggerMatchingCriteriaOutputReference) validateSetVa
 	return nil
 }
 
-func validateNewEventarcTriggerMatchingCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventarcTriggerMatchingCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

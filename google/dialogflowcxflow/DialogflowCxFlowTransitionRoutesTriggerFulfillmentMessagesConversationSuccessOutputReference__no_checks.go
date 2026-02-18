@@ -47,7 +47,7 @@ func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesCon
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesCon
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxFlowTransitionRoutesTriggerFulfillmentMessagesConversationSuccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

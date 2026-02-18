@@ -15,7 +15,7 @@ func (m *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateGetParame
 	return nil
 }
 
-func (m *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_MemorystoreInstanceMaintenanceScheduleList) validateSetWrapsS
 	return nil
 }
 
-func validateNewMemorystoreInstanceMaintenanceScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMemorystoreInstanceMaintenanceScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

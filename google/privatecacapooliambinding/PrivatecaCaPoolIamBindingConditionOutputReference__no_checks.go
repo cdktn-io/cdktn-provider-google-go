@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateIn
 	return nil
 }
 
-func (p *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PrivatecaCaPoolIamBindingConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewPrivatecaCaPoolIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivatecaCaPoolIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

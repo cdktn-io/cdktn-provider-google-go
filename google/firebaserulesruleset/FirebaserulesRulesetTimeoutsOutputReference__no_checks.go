@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirebaserulesRulesetTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (f *jsiiProxy_FirebaserulesRulesetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirebaserulesRulesetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FirebaserulesRulesetTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_FirebaserulesRulesetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirebaserulesRulesetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirebaserulesRulesetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirebaserulesRulesetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -143,7 +143,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_AssuredWorkloadsWorkload) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AssuredWorkloadsWorkload) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

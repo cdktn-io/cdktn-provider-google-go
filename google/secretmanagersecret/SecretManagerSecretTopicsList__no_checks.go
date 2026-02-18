@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecretManagerSecretTopicsList) validateGetParameters(index *f
 	return nil
 }
 
-func (s *jsiiProxy_SecretManagerSecretTopicsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecretManagerSecretTopicsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecretManagerSecretTopicsList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_SecretManagerSecretTopicsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecretManagerSecretTopicsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecretManagerSecretTopicsList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewSecretManagerSecretTopicsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecretManagerSecretTopicsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

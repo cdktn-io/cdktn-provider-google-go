@@ -47,7 +47,7 @@ func (a *jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference) validateInterpo
 	return nil
 }
 
-func (a *jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AlloydbInstanceReadPoolConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAlloydbInstanceReadPoolConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAlloydbInstanceReadPoolConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

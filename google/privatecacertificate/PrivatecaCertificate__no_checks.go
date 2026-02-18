@@ -123,7 +123,7 @@ func (j *jsiiProxy_PrivatecaCertificate) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_PrivatecaCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivatecaCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

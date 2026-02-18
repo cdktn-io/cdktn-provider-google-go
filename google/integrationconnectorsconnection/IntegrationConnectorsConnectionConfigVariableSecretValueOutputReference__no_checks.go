@@ -47,7 +47,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionConfigVariableSecretValueOutpu
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionConfigVariableSecretValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionConfigVariableSecretValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionConfigVariableSecretValueOutpu
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionConfigVariableSecretValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionConfigVariableSecretValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionConfigVariableSecretValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIntegrationConnectorsConnectionConfigVariableSecretValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

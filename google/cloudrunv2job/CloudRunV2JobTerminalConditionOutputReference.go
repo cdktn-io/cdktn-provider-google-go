@@ -5,14 +5,14 @@ package cloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudrunv2job/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/cloudrunv2job/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CloudRunV2JobTerminalConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -44,16 +44,16 @@ type CloudRunV2JobTerminalConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type CloudRunV2JobTerminalConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type CloudRunV2JobTerminalConditionOutputReference interface {
 
 // The jsii proxy struct for CloudRunV2JobTerminalConditionOutputReference
 type jsiiProxy_CloudRunV2JobTerminalConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -217,8 +217,8 @@ func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -238,7 +238,7 @@ func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) Type() *string
 }
 
 
-func NewCloudRunV2JobTerminalConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudRunV2JobTerminalConditionOutputReference {
+func NewCloudRunV2JobTerminalConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudRunV2JobTerminalConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudRunV2JobTerminalConditionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewCloudRunV2JobTerminalConditionOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewCloudRunV2JobTerminalConditionOutputReference_Override(c CloudRunV2JobTerminalConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCloudRunV2JobTerminalConditionOutputReference_Override(c CloudRunV2JobTerminalConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -309,7 +309,7 @@ func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -349,11 +349,11 @@ func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -477,8 +477,8 @@ func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) GetStringMapAt
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -490,11 +490,11 @@ func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) InterpolationA
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -506,7 +506,7 @@ func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) InterpolationF
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CloudRunV2JobTerminalConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

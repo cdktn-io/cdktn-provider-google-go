@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputRef
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2ServiceTemplateContainersLivenessProbeGrpcOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

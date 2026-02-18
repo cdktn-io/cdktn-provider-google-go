@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HealthcareDatasetIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func validateNewHealthcareDatasetIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareDatasetIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

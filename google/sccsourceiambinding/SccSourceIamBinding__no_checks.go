@@ -107,7 +107,7 @@ func (j *jsiiProxy_SccSourceIamBinding) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_SccSourceIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SccSourceIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

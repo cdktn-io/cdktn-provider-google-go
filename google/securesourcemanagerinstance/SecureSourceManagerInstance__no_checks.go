@@ -131,7 +131,7 @@ func (j *jsiiProxy_SecureSourceManagerInstance) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_SecureSourceManagerInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecureSourceManagerInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

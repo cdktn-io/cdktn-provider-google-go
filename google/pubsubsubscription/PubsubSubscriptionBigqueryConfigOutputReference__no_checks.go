@@ -47,7 +47,7 @@ func (p *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateInte
 	return nil
 }
 
-func (p *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_PubsubSubscriptionBigqueryConfigOutputReference) validateSetW
 	return nil
 }
 
-func validateNewPubsubSubscriptionBigqueryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPubsubSubscriptionBigqueryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

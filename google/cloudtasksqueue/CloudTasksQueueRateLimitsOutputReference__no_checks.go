@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudTasksQueueRateLimitsOutputReference) validateInterpolati
 	return nil
 }
 
-func (c *jsiiProxy_CloudTasksQueueRateLimitsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudTasksQueueRateLimitsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudTasksQueueRateLimitsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CloudTasksQueueRateLimitsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudTasksQueueRateLimitsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudTasksQueueRateLimitsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudTasksQueueRateLimitsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

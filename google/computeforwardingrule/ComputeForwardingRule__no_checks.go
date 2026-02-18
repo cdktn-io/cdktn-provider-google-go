@@ -155,7 +155,7 @@ func (j *jsiiProxy_ComputeForwardingRule) validateSetLabelsParameters(val *map[s
 	return nil
 }
 
-func (j *jsiiProxy_ComputeForwardingRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeForwardingRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

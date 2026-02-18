@@ -115,7 +115,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) validateSetIdP
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

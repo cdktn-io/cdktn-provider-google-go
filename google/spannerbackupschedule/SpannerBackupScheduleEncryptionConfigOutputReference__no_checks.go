@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpannerBackupScheduleEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpannerBackupScheduleEncryptionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpannerBackupScheduleEncryptionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

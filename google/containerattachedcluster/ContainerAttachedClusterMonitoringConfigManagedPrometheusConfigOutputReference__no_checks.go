@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAttachedClusterMonitoringConfigManagedPrometheusConf
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerAttachedClusterMonitoringConfigManagedPrometheusConf
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

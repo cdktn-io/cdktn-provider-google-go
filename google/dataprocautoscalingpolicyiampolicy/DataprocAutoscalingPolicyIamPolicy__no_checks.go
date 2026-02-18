@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

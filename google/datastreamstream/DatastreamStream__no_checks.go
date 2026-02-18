@@ -143,7 +143,7 @@ func (j *jsiiProxy_DatastreamStream) validateSetLabelsParameters(val *map[string
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamStream) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatastreamStream) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

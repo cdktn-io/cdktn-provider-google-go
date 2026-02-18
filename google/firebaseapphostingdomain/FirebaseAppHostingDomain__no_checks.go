@@ -119,7 +119,7 @@ func (j *jsiiProxy_FirebaseAppHostingDomain) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_FirebaseAppHostingDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FirebaseAppHostingDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

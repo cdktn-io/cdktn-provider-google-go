@@ -127,7 +127,7 @@ func (j *jsiiProxy_DialogflowCxSecuritySettings) validateSetInspectTemplateParam
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxSecuritySettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DialogflowCxSecuritySettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

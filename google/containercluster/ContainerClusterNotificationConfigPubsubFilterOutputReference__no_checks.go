@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNotificationConfigPubsubFilterOutputReference
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNotificationConfigPubsubFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNotificationConfigPubsubFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterNotificationConfigPubsubFilterOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNotificationConfigPubsubFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNotificationConfigPubsubFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNotificationConfigPubsubFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNotificationConfigPubsubFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

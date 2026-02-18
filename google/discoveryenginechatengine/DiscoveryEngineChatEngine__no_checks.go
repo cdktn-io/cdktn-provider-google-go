@@ -135,7 +135,7 @@ func (j *jsiiProxy_DiscoveryEngineChatEngine) validateSetIndustryVerticalParamet
 	return nil
 }
 
-func (j *jsiiProxy_DiscoveryEngineChatEngine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DiscoveryEngineChatEngine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

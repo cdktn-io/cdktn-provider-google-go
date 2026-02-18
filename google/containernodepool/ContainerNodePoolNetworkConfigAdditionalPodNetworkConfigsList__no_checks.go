@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList
 	return nil
 }
 
-func (j *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList
 	return nil
 }
 
-func validateNewContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

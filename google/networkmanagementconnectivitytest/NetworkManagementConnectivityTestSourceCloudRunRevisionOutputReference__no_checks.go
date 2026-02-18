@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutput
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutput
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestSourceCloudRunRevisionOutput
 	return nil
 }
 
-func validateNewNetworkManagementConnectivityTestSourceCloudRunRevisionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkManagementConnectivityTestSourceCloudRunRevisionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

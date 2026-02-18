@@ -5,14 +5,14 @@ package developerconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/developerconnectconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/developerconnectconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthorizerCredential() DeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference
 	AuthorizerCredentialInput() *DeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential
 	// the index of the complex object in a list.
@@ -50,9 +50,9 @@ type DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WebhookSecretSecretVersion() *string
 	SetWebhookSecretSecretVersion(val *string)
 	WebhookSecretSecretVersionInput() *string
@@ -61,7 +61,7 @@ type DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference interfac
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthorizerCredential(value *DeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential)
 	PutReadAuthorizerCredential(value *DeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential)
 	PutServiceDirectoryConfig(value *DeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig)
@@ -87,7 +87,7 @@ type DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference interfac
 	ResetSslCaCertificate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -97,7 +97,7 @@ type DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference interfac
 
 // The jsii proxy struct for DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference
 type jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) AuthorizerCredential() DeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference {
@@ -270,8 +270,8 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -301,7 +301,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 }
 
 
-func NewDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference {
+func NewDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDeveloperConnectConnectionBitbucketDataCenterConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -318,7 +318,7 @@ func NewDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference(terra
 	return &j
 }
 
-func NewDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference_Override(d DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference_Override(d DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 	)
 }
 
-func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -445,11 +445,11 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -573,8 +573,8 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -586,11 +586,11 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -651,7 +651,7 @@ func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputRefe
 	)
 }
 
-func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DeveloperConnectConnectionBitbucketDataCenterConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConf
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConf
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerClusterNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

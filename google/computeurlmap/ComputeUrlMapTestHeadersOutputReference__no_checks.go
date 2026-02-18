@@ -47,7 +47,7 @@ func (c *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateInterpolatio
 	return nil
 }
 
-func (c *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ComputeUrlMapTestHeadersOutputReference) validateSetValuePara
 	return nil
 }
 
-func validateNewComputeUrlMapTestHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewComputeUrlMapTestHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

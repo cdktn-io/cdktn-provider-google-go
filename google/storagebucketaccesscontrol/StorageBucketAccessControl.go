@@ -5,21 +5,21 @@ package storagebucketaccesscontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/storagebucketaccesscontrol/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/storagebucketaccesscontrol/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
 type StorageBucketAccessControl interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type StorageBucketAccessControl interface {
 	SetEntity(val *string)
 	EntityInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,15 +51,15 @@ type StorageBucketAccessControl interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type StorageBucketAccessControl interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type StorageBucketAccessControl interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,9 +103,9 @@ type StorageBucketAccessControl interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -142,7 +142,7 @@ type StorageBucketAccessControl interface {
 
 // The jsii proxy struct for StorageBucketAccessControl
 type jsiiProxy_StorageBucketAccessControl struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StorageBucketAccessControl) Bucket() *string {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_StorageBucketAccessControl) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StorageBucketAccessControl) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_StorageBucketAccessControl) EntityInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StorageBucketAccessControl) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_StorageBucketAccessControl) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StorageBucketAccessControl) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_StorageBucketAccessControl) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StorageBucketAccessControl) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -375,8 +375,8 @@ func (j *jsiiProxy_StorageBucketAccessControl) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StorageBucketAccessControl) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -507,7 +507,7 @@ func (j *jsiiProxy_StorageBucketAccessControl)SetEntity(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StorageBucketAccessControl)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -526,7 +526,7 @@ func (j *jsiiProxy_StorageBucketAccessControl)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StorageBucketAccessControl)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -537,7 +537,7 @@ func (j *jsiiProxy_StorageBucketAccessControl)SetLifecycle(val *cdktf.TerraformR
 	)
 }
 
-func (j *jsiiProxy_StorageBucketAccessControl)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StorageBucketAccessControl)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -567,14 +567,14 @@ func (j *jsiiProxy_StorageBucketAccessControl)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a StorageBucketAccessControl resource upon running "cdktf plan <stack-name>".
-func StorageBucketAccessControl_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StorageBucketAccessControl resource upon running "cdktn plan <stack-name>".
+func StorageBucketAccessControl_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStorageBucketAccessControl_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.storageBucketAccessControl.StorageBucketAccessControl",
@@ -708,11 +708,11 @@ func (s *jsiiProxy_StorageBucketAccessControl) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (s *jsiiProxy_StorageBucketAccessControl) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBucketAccessControl) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -849,7 +849,7 @@ func (s *jsiiProxy_StorageBucketAccessControl) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_StorageBucketAccessControl) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StorageBucketAccessControl) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -860,11 +860,11 @@ func (s *jsiiProxy_StorageBucketAccessControl) ImportFrom(id *string, provider c
 	)
 }
 
-func (s *jsiiProxy_StorageBucketAccessControl) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBucketAccessControl) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

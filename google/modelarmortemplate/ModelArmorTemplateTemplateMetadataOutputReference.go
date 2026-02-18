@@ -5,14 +5,14 @@ package modelarmortemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/modelarmortemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/modelarmortemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ModelArmorTemplateTemplateMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -63,15 +63,15 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMultiLanguageDetection(value *ModelArmorTemplateTemplateMetadataMultiLanguageDetection)
 	ResetCustomLlmResponseSafetyErrorCode()
 	ResetCustomLlmResponseSafetyErrorMessage()
@@ -102,7 +102,7 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	ResetMultiLanguageDetection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 
 // The jsii proxy struct for ModelArmorTemplateTemplateMetadataOutputReference
 type jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ComplexObjectIndex() interface{} {
@@ -355,8 +355,8 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -366,7 +366,7 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) TerraformR
 }
 
 
-func NewModelArmorTemplateTemplateMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ModelArmorTemplateTemplateMetadataOutputReference {
+func NewModelArmorTemplateTemplateMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ModelArmorTemplateTemplateMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewModelArmorTemplateTemplateMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -383,7 +383,7 @@ func NewModelArmorTemplateTemplateMetadataOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewModelArmorTemplateTemplateMetadataOutputReference_Override(m ModelArmorTemplateTemplateMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewModelArmorTemplateTemplateMetadataOutputReference_Override(m ModelArmorTemplateTemplateMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -525,7 +525,7 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -565,11 +565,11 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) GetAnyMapA
 	return returns
 }
 
-func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -693,8 +693,8 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) GetStringM
 	return returns
 }
 
-func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -706,11 +706,11 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) Interpolat
 	return returns
 }
 
-func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -805,7 +805,7 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetMulti
 	)
 }
 
-func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

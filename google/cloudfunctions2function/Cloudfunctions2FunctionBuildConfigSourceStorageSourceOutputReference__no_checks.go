@@ -47,7 +47,7 @@ func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

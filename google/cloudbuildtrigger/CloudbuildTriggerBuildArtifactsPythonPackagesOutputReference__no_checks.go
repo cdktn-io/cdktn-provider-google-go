@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerBuildArtifactsPythonPackagesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudbuildTriggerBuildArtifactsPythonPackagesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCloudbuildTriggerBuildArtifactsPythonPackagesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableInstanceClusterAutoscalingConfigOutputReference) vali
 	return nil
 }
 
-func (b *jsiiProxy_BigtableInstanceClusterAutoscalingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableInstanceClusterAutoscalingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_BigtableInstanceClusterAutoscalingConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_BigtableInstanceClusterAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableInstanceClusterAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigtableInstanceClusterAutoscalingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigtableInstanceClusterAutoscalingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

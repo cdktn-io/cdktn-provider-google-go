@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateInterpolati
 	return nil
 }
 
-func (d *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataplexAssetResourceSpecOutputReference) validateSetTypePara
 	return nil
 }
 
-func validateNewDataplexAssetResourceSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexAssetResourceSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

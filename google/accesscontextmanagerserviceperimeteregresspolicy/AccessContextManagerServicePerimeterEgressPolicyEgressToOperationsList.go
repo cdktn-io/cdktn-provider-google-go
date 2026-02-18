@@ -5,14 +5,14 @@ package accesscontextmanagerserviceperimeteregresspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanagerserviceperimeteregresspolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/accesscontextmanagerserviceperimeteregresspolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList inte
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList inte
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList inte
 
 // The jsii proxy struct for AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList
 type jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOpera
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOpera
 }
 
 
-func NewAccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList {
+func NewAccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList {
 	_init_.Initialize()
 
 	if err := validateNewAccessContextManagerServicePerimeterEgressPolicyEgressToOperationsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList(t
 	return &j
 }
 
-func NewAccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList_Override(a AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList_Override(a AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOpera
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOpera
 	)
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOpera
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicyEgressToOperationsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

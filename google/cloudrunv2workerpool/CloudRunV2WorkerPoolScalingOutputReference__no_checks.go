@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolScalingOutputReference) validateInterpola
 	return nil
 }
 
-func (c *jsiiProxy_CloudRunV2WorkerPoolScalingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudRunV2WorkerPoolScalingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolScalingOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolScalingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudRunV2WorkerPoolScalingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudRunV2WorkerPoolScalingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudRunV2WorkerPoolScalingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

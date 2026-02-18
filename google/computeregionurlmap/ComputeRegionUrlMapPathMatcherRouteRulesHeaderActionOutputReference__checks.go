@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputRef
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd:
 		value := value.(*[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputRef
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputRef
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd:
 		value := value.(*[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd)
@@ -148,14 +148,14 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputRef
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -260,7 +260,7 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputRef
 	return nil
 }
 
-func validateNewComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewComputeRegionUrlMapPathMatcherRouteRulesHeaderActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

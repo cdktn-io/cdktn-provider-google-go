@@ -59,7 +59,7 @@ func (d *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOu
 	return nil
 }
 
-func (d *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOu
 	return nil
 }
 
-func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

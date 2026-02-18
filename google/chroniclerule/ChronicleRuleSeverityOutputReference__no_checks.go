@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChronicleRuleSeverityOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (c *jsiiProxy_ChronicleRuleSeverityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChronicleRuleSeverityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ChronicleRuleSeverityOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ChronicleRuleSeverityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChronicleRuleSeverityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChronicleRuleSeverityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewChronicleRuleSeverityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateInterpolati
 	return nil
 }
 
-func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BigtableTableColumnFamilyOutputReference) validateSetTypePara
 	return nil
 }
 
-func validateNewBigtableTableColumnFamilyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBigtableTableColumnFamilyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataprocWorkflowTemplateJobsList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataprocWorkflowTemplateJobsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataprocWorkflowTemplateJobsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplateJobsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataprocWorkflowTemplateJobsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataprocWorkflowTemplateJobsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataprocWorkflowTemplateJobsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataprocWorkflowTemplateJobsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataprocWorkflowTemplateJobsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

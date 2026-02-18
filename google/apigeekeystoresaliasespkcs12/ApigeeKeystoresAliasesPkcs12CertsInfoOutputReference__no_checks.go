@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12CertsInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApigeeKeystoresAliasesPkcs12CertsInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApigeeKeystoresAliasesPkcs12CertsInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

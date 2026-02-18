@@ -5,14 +5,14 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datagooglecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datagooglecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdvancedMachineFeatures() DataGoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesList
 	BootDisk() DataGoogleContainerClusterNodePoolNodeConfigBootDiskList
 	BootDiskKmsKey() *string
@@ -36,10 +36,10 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	DiskSizeGb() *float64
 	DiskType() *string
 	EffectiveTaints() DataGoogleContainerClusterNodePoolNodeConfigEffectiveTaintsList
-	EnableConfidentialStorage() cdktf.IResolvable
+	EnableConfidentialStorage() cdktn.IResolvable
 	EphemeralStorageLocalSsdConfig() DataGoogleContainerClusterNodePoolNodeConfigEphemeralStorageLocalSsdConfigList
 	FastSocket() DataGoogleContainerClusterNodePoolNodeConfigFastSocketList
-	FlexStart() cdktf.IResolvable
+	FlexStart() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	GcfsConfig() DataGoogleContainerClusterNodePoolNodeConfigGcfsConfigList
@@ -50,7 +50,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	InternalValue() *DataGoogleContainerClusterNodePoolNodeConfig
 	SetInternalValue(val *DataGoogleContainerClusterNodePoolNodeConfig)
 	KubeletConfig() DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigList
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	LinuxNodeConfig() DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigList
 	LocalNvmeSsdBlockConfig() DataGoogleContainerClusterNodePoolNodeConfigLocalNvmeSsdBlockConfigList
 	LocalSsdCount() *float64
@@ -58,19 +58,19 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	LoggingVariant() *string
 	MachineType() *string
 	MaxRunDuration() *string
-	Metadata() cdktf.StringMap
+	Metadata() cdktn.StringMap
 	MinCpuPlatform() *string
 	NodeGroup() *string
 	OauthScopes() *[]*string
-	Preemptible() cdktf.IResolvable
+	Preemptible() cdktn.IResolvable
 	ReservationAffinity() DataGoogleContainerClusterNodePoolNodeConfigReservationAffinityList
-	ResourceLabels() cdktf.StringMap
-	ResourceManagerTags() cdktf.StringMap
+	ResourceLabels() cdktn.StringMap
+	ResourceManagerTags() cdktn.StringMap
 	SecondaryBootDisks() DataGoogleContainerClusterNodePoolNodeConfigSecondaryBootDisksList
 	ServiceAccount() *string
 	ShieldedInstanceConfig() DataGoogleContainerClusterNodePoolNodeConfigShieldedInstanceConfigList
 	SoleTenantConfig() DataGoogleContainerClusterNodePoolNodeConfigSoleTenantConfigList
-	Spot() cdktf.IResolvable
+	Spot() cdktn.IResolvable
 	StoragePools() *[]*string
 	Tags() *[]*string
 	Taint() DataGoogleContainerClusterNodePoolNodeConfigTaintList
@@ -79,9 +79,9 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WindowsNodeConfig() DataGoogleContainerClusterNodePoolNodeConfigWindowsNodeConfigList
 	WorkloadMetadataConfig() DataGoogleContainerClusterNodePoolNodeConfigWorkloadMetadataConfigList
 	// Experimental.
@@ -89,7 +89,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,12 +105,12 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 
 // The jsii proxy struct for DataGoogleContainerClusterNodePoolNodeConfigOutputReference
 type jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) AdvancedMachineFeatures() DataGoogleContainerClusterNodePoolNodeConfigAdvancedMachineFeaturesList {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) EnableConfidentialStorage() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) EnableConfidentialStorage() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableConfidentialStorage",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) FlexStart() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) FlexStart() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"flexStart",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -433,8 +433,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Metadata() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Metadata() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -473,8 +473,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Preemptible() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Preemptible() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"preemptible",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) ResourceLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) ResourceLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"resourceLabels",
@@ -503,8 +503,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) ResourceManagerTags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) ResourceManagerTags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"resourceManagerTags",
@@ -553,8 +553,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Spot() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Spot() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"spot",
@@ -603,8 +603,8 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -634,7 +634,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 }
 
 
-func NewDataGoogleContainerClusterNodePoolNodeConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleContainerClusterNodePoolNodeConfigOutputReference {
+func NewDataGoogleContainerClusterNodePoolNodeConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleContainerClusterNodePoolNodeConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleContainerClusterNodePoolNodeConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -651,7 +651,7 @@ func NewDataGoogleContainerClusterNodePoolNodeConfigOutputReference(terraformRes
 	return &j
 }
 
-func NewDataGoogleContainerClusterNodePoolNodeConfigOutputReference_Override(d DataGoogleContainerClusterNodePoolNodeConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleContainerClusterNodePoolNodeConfigOutputReference_Override(d DataGoogleContainerClusterNodePoolNodeConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -705,7 +705,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -745,11 +745,11 @@ func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -873,8 +873,8 @@ func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -886,11 +886,11 @@ func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -902,7 +902,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

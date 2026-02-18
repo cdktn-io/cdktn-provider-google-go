@@ -139,7 +139,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyRule) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_ComputeFirewallPolicyRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeFirewallPolicyRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

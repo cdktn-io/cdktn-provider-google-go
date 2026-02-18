@@ -5,14 +5,14 @@ package datastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/datastreamstream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/datastreamstream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppendOnly() DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference
 	AppendOnlyInput() *DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly
 	BlmtConfig() DatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference
@@ -50,15 +50,15 @@ type DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -74,9 +74,9 @@ type DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAppendOnly(value *DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly)
 	PutBlmtConfig(value *DatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig)
 	PutMerge(value *DatastreamStreamDestinationConfigBigqueryDestinationConfigMerge)
@@ -90,7 +90,7 @@ type DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference i
 	ResetSourceHierarchyDatasets()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference i
 
 // The jsii proxy struct for DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference
 type jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) AppendOnly() DatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 	return returns
 }
 
-func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 }
 
 
-func NewDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference {
+func NewDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReferenc
 	return &j
 }
 
-func NewDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference_Override(d DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference_Override(d DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 	)
 }
 
-func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -416,11 +416,11 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -544,8 +544,8 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -557,11 +557,11 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 	return returns
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -676,7 +676,7 @@ func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOut
 	)
 }
 
-func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

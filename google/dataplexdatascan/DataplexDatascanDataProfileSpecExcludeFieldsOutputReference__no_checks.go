@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataplexDatascanDataProfileSpecExcludeFieldsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataplexDatascanDataProfileSpecExcludeFieldsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataplexDatascanDataProfileSpecExcludeFieldsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataplexDatascanDataProfileSpecExcludeFieldsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataplexDatascanDataProfileSpecExcludeFieldsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecExcludeFieldsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataplexDatascanDataProfileSpecExcludeFieldsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataplexDatascanDataProfileSpecExcludeFieldsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

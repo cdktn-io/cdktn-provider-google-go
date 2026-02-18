@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateGetPar
 	return nil
 }
 
-func (c *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeBackendServiceBackendCustomMetricsList) validateSetWra
 	return nil
 }
 
-func validateNewComputeBackendServiceBackendCustomMetricsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeBackendServiceBackendCustomMetricsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

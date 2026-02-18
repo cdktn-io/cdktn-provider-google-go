@@ -5,14 +5,14 @@ package accesscontextmanagerserviceperimeter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/accesscontextmanagerserviceperimeter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/accesscontextmanagerserviceperimeter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessLevel() *string
 	SetAccessLevel(val *string)
 	AccessLevelInput() *string
@@ -43,15 +43,15 @@ type AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutp
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutp
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccessLevel()
 	ResetResource()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutp
 
 // The jsii proxy struct for AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference
 type jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) AccessLevel() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 	return returns
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 }
 
 
-func NewAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference {
+func NewAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesO
 	return &j
 }
 
-func NewAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference_Override(a AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference_Override(a AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 	)
 }
 
-func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -459,8 +459,8 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -472,11 +472,11 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 	return returns
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressF
 	)
 }
 
-func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

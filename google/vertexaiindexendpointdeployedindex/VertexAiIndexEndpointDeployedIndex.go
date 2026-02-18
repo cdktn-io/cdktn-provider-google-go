@@ -5,20 +5,20 @@ package vertexaiindexendpointdeployedindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/vertexaiindexendpointdeployedindex/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/vertexaiindexendpointdeployedindex/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index}.
 type VertexAiIndexEndpointDeployedIndex interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AutomaticResources() VertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference
 	AutomaticResourcesInput() *VertexAiIndexEndpointDeployedIndexAutomaticResources
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -51,9 +51,9 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	SetEnableAccessLogging(val interface{})
 	EnableAccessLoggingInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -69,17 +69,17 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	IndexInput() *string
 	IndexSyncTime() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	PrivateEndpoints() VertexAiIndexEndpointDeployedIndexPrivateEndpointsList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	SetReservedIpRanges(val *[]*string)
 	ReservedIpRangesInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -175,7 +175,7 @@ type VertexAiIndexEndpointDeployedIndex interface {
 
 // The jsii proxy struct for VertexAiIndexEndpointDeployedIndex
 type jsiiProxy_VertexAiIndexEndpointDeployedIndex struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) AutomaticResources() VertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) AutomaticResourcesInput()
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) EnableAccessLoggingInput(
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -478,8 +478,8 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) IndexSyncTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -518,8 +518,8 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) PrivateEndpoints() Vertex
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -588,8 +588,8 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ReservedIpRangesInput() *
 	return returns
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -742,7 +742,7 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetEnableAccessLogging(val
 	)
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -783,7 +783,7 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetIndexEndpoint(val *stri
 	)
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -794,7 +794,7 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetLifecycle(val *cdktf.Te
 	)
 }
 
-func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -835,14 +835,14 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetReservedIpRanges(val *[
 	)
 }
 
-// Generates CDKTF code for importing a VertexAiIndexEndpointDeployedIndex resource upon running "cdktf plan <stack-name>".
-func VertexAiIndexEndpointDeployedIndex_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VertexAiIndexEndpointDeployedIndex resource upon running "cdktn plan <stack-name>".
+func VertexAiIndexEndpointDeployedIndex_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVertexAiIndexEndpointDeployedIndex_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.vertexAiIndexEndpointDeployedIndex.VertexAiIndexEndpointDeployedIndex",
@@ -976,11 +976,11 @@ func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1117,7 +1117,7 @@ func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) HasResourceMove() interfa
 	return returns
 }
 
-func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1128,11 +1128,11 @@ func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ImportFrom(id *string, pr
 	)
 }
 
-func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

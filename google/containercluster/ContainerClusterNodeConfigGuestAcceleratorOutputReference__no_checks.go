@@ -55,7 +55,7 @@ func (c *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ContainerClusterNodeConfigGuestAcceleratorOutputReference) va
 	return nil
 }
 
-func validateNewContainerClusterNodeConfigGuestAcceleratorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerClusterNodeConfigGuestAcceleratorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

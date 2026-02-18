@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 
 func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCa:
 		val := val.(*NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCa)
@@ -205,7 +205,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCa; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCa; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -220,7 +220,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -228,7 +228,7 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOut
 	return nil
 }
 
-func validateNewNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (g *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GkeonpremVmwareNodePoolTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewGkeonpremVmwareNodePoolTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGkeonpremVmwareNodePoolTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

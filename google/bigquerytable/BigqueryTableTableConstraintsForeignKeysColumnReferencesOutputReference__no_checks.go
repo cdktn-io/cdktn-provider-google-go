@@ -47,7 +47,7 @@ func (b *jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutpu
 	return nil
 }
 
-func (b *jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutpu
 	return nil
 }
 
-func (j *jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBigqueryTableTableConstraintsForeignKeysColumnReferencesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

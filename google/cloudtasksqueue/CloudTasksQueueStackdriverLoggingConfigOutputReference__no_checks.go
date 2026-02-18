@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudTasksQueueStackdriverLoggingConfigOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CloudTasksQueueStackdriverLoggingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudTasksQueueStackdriverLoggingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudTasksQueueStackdriverLoggingConfigOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CloudTasksQueueStackdriverLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudTasksQueueStackdriverLoggingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudTasksQueueStackdriverLoggingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudTasksQueueStackdriverLoggingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

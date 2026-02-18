@@ -151,7 +151,7 @@ func (j *jsiiProxy_DataprocMetastoreService) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_DataprocMetastoreService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocMetastoreService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

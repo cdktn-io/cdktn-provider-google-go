@@ -8,7 +8,7 @@ package apphubservice
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApphubServiceServiceReferenceList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (a *jsiiProxy_ApphubServiceServiceReferenceList) validateGetParameters(inde
 	return nil
 }
 
-func (a *jsiiProxy_ApphubServiceServiceReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApphubServiceServiceReferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_ApphubServiceServiceReferenceList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_ApphubServiceServiceReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApphubServiceServiceReferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_ApphubServiceServiceReferenceList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewApphubServiceServiceReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApphubServiceServiceReferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

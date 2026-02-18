@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (c *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputRefere
 
 func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ClouddeployTargetAssociatedEntitiesAnthosClusters:
 		val := val.(*ClouddeployTargetAssociatedEntitiesAnthosClusters)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ClouddeployTargetAssociatedEntitiesAnthosClusters; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ClouddeployTargetAssociatedEntitiesAnthosClusters; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_ClouddeployTargetAssociatedEntitiesAnthosClustersOutputRefere
 	return nil
 }
 
-func validateNewClouddeployTargetAssociatedEntitiesAnthosClustersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewClouddeployTargetAssociatedEntitiesAnthosClustersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

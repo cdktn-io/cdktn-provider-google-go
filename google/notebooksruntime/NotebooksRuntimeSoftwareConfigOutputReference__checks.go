@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (n *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validatePutKer
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NotebooksRuntimeSoftwareConfigKernels:
 		value := value.(*[]*NotebooksRuntimeSoftwareConfigKernels)
@@ -117,14 +117,14 @@ func (n *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validatePutKer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*NotebooksRuntimeSoftwareConfigKernels; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NotebooksRuntimeSoftwareConfigKernels; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (n *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -214,11 +214,11 @@ func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetEna
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -234,11 +234,11 @@ func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetIdl
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -262,11 +262,11 @@ func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetIns
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -313,7 +313,7 @@ func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -321,7 +321,7 @@ func (j *jsiiProxy_NotebooksRuntimeSoftwareConfigOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewNotebooksRuntimeSoftwareConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotebooksRuntimeSoftwareConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -197,11 +197,11 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference)
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -210,7 +210,7 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference)
 
 func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ContainerClusterAddonsConfigRayOperatorConfig:
 		val := val.(*ContainerClusterAddonsConfigRayOperatorConfig)
@@ -225,7 +225,7 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ContainerClusterAddonsConfigRayOperatorConfig; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ContainerClusterAddonsConfigRayOperatorConfig; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -240,7 +240,7 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -248,7 +248,7 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigRayOperatorConfigOutputReference)
 	return nil
 }
 
-func validateNewContainerClusterAddonsConfigRayOperatorConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerClusterAddonsConfigRayOperatorConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

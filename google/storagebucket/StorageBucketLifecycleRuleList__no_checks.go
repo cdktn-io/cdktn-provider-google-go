@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageBucketLifecycleRuleList) validateGetParameters(index *
 	return nil
 }
 
-func (s *jsiiProxy_StorageBucketLifecycleRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBucketLifecycleRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageBucketLifecycleRuleList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_StorageBucketLifecycleRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBucketLifecycleRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageBucketLifecycleRuleList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewStorageBucketLifecycleRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageBucketLifecycleRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DatastreamConnectionProfileForwardSshConnectivityOutputRefere
 	return nil
 }
 
-func validateNewDatastreamConnectionProfileForwardSshConnectivityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatastreamConnectionProfileForwardSshConnectivityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

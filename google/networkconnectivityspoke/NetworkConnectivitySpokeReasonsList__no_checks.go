@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateGetParameters(in
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkConnectivitySpokeReasonsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewNetworkConnectivitySpokeReasonsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkConnectivitySpokeReasonsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

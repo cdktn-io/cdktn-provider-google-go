@@ -55,7 +55,7 @@ func (n *jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReferenc
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityClientTlsPolicyClientCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityClientTlsPolicyClientCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityClientTlsPolicyClientCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

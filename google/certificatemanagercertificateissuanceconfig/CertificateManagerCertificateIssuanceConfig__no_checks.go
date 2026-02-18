@@ -123,7 +123,7 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) validateSetLabel
 	return nil
 }
 
-func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

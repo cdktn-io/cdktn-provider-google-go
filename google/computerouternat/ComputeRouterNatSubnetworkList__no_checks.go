@@ -15,7 +15,7 @@ func (c *jsiiProxy_ComputeRouterNatSubnetworkList) validateGetParameters(index *
 	return nil
 }
 
-func (c *jsiiProxy_ComputeRouterNatSubnetworkList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ComputeRouterNatSubnetworkList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ComputeRouterNatSubnetworkList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_ComputeRouterNatSubnetworkList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ComputeRouterNatSubnetworkList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ComputeRouterNatSubnetworkList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewComputeRouterNatSubnetworkListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewComputeRouterNatSubnetworkListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

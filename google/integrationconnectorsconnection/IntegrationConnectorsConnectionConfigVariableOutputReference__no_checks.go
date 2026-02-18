@@ -55,7 +55,7 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionConfigVariableOutputReference)
 	return nil
 }
 
-func (i *jsiiProxy_IntegrationConnectorsConnectionConfigVariableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IntegrationConnectorsConnectionConfigVariableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionConfigVariableOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationConnectorsConnectionConfigVariableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IntegrationConnectorsConnectionConfigVariableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIntegrationConnectorsConnectionConfigVariableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIntegrationConnectorsConnectionConfigVariableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

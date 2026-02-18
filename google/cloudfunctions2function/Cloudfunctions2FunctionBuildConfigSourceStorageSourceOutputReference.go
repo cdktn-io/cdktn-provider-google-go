@@ -5,14 +5,14 @@ package cloudfunctions2function
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/cloudfunctions2function/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/cloudfunctions2function/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -46,15 +46,15 @@ type Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBucket()
 	ResetGeneration()
 	ResetObject()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference interf
 
 // The jsii proxy struct for Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference
 type jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) Bucket() *string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 }
 
 
-func NewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference {
+func NewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference(ter
 	return &j
 }
 
-func NewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference_Override(c Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference_Override(c Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	)
 }
 
-func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	return returns
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -494,8 +494,8 @@ func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	return returns
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -507,11 +507,11 @@ func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	return returns
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputRe
 	)
 }
 
-func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_Cloudfunctions2FunctionBuildConfigSourceStorageSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

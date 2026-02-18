@@ -5,14 +5,14 @@ package eventarctrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/eventarctrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/eventarctrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventarcTriggerDestinationCloudRunServiceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type EventarcTriggerDestinationCloudRunServiceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type EventarcTriggerDestinationCloudRunServiceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPath()
 	ResetRegion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type EventarcTriggerDestinationCloudRunServiceOutputReference interface {
 
 // The jsii proxy struct for EventarcTriggerDestinationCloudRunServiceOutputReference
 type jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Ter
 }
 
 
-func NewEventarcTriggerDestinationCloudRunServiceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EventarcTriggerDestinationCloudRunServiceOutputReference {
+func NewEventarcTriggerDestinationCloudRunServiceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EventarcTriggerDestinationCloudRunServiceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventarcTriggerDestinationCloudRunServiceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewEventarcTriggerDestinationCloudRunServiceOutputReference(terraformResour
 	return &j
 }
 
-func NewEventarcTriggerDestinationCloudRunServiceOutputReference_Override(e EventarcTriggerDestinationCloudRunServiceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEventarcTriggerDestinationCloudRunServiceOutputReference_Override(e EventarcTriggerDestinationCloudRunServiceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Get
 	return returns
 }
 
-func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -493,8 +493,8 @@ func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Get
 	return returns
 }
 
-func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -506,11 +506,11 @@ func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Int
 	return returns
 }
 
-func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -538,7 +538,7 @@ func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Res
 	)
 }
 
-func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventarcTriggerDestinationCloudRunServiceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -123,7 +123,7 @@ func (j *jsiiProxy_ComputeNetworkPeering) validateSetImportSubnetRoutesWithPubli
 	return nil
 }
 
-func (j *jsiiProxy_ComputeNetworkPeering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ComputeNetworkPeering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

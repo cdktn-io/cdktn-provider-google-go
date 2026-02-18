@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigCl
 	return nil
 }
 
-func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -190,7 +190,7 @@ func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigCl
 	return nil
 }
 
-func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigCl
 	return nil
 }
 
-func validateNewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

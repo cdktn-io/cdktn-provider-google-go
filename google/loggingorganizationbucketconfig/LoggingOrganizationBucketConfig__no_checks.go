@@ -119,7 +119,7 @@ func (j *jsiiProxy_LoggingOrganizationBucketConfig) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_LoggingOrganizationBucketConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LoggingOrganizationBucketConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

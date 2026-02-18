@@ -15,7 +15,7 @@ func (b *jsiiProxy_BackupDrManagementServerManagementUriList) validateGetParamet
 	return nil
 }
 
-func (b *jsiiProxy_BackupDrManagementServerManagementUriList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupDrManagementServerManagementUriList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_BackupDrManagementServerManagementUriList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_BackupDrManagementServerManagementUriList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupDrManagementServerManagementUriList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_BackupDrManagementServerManagementUriList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewBackupDrManagementServerManagementUriListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBackupDrManagementServerManagementUriListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

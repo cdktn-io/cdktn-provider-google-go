@@ -15,7 +15,7 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVp
 	return nil
 }
 
-func (a *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVpcNetworkSourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVpcNetworkSourcesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVp
 	return nil
 }
 
-func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVpcNetworkSourcesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVpcNetworkSourcesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelsAccessLevelsBasicConditionsVp
 	return nil
 }
 
-func validateNewAccessContextManagerAccessLevelsAccessLevelsBasicConditionsVpcNetworkSourcesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAccessContextManagerAccessLevelsAccessLevelsBasicConditionsVpcNetworkSourcesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

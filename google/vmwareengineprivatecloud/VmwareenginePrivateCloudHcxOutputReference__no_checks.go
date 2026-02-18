@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwareenginePrivateCloudHcxOutputReference) validateInterpola
 	return nil
 }
 
-func (v *jsiiProxy_VmwareenginePrivateCloudHcxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareenginePrivateCloudHcxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_VmwareenginePrivateCloudHcxOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_VmwareenginePrivateCloudHcxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareenginePrivateCloudHcxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVmwareenginePrivateCloudHcxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVmwareenginePrivateCloudHcxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

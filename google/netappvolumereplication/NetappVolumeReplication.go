@@ -5,18 +5,18 @@ package netappvolumereplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v16/netappvolumereplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/netappvolumereplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_volume_replication google_netapp_volume_replication}.
 type NetappVolumeReplication interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,19 +41,19 @@ type NetappVolumeReplication interface {
 	DestinationVolume() *string
 	DestinationVolumeParameters() NetappVolumeReplicationDestinationVolumeParametersOutputReference
 	DestinationVolumeParametersInput() *NetappVolumeReplicationDestinationVolumeParameters
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ForceStopping() interface{}
 	SetForceStopping(val interface{})
 	ForceStoppingInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	Healthy() cdktf.IResolvable
+	Healthy() cdktn.IResolvable
 	HybridPeeringDetails() NetappVolumeReplicationHybridPeeringDetailsList
 	HybridReplicationType() *string
 	Id() *string
@@ -63,9 +63,9 @@ type NetappVolumeReplication interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -79,9 +79,9 @@ type NetappVolumeReplication interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,8 +99,8 @@ type NetappVolumeReplication interface {
 	State() *string
 	StateDetails() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -122,7 +122,7 @@ type NetappVolumeReplication interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -140,9 +140,9 @@ type NetappVolumeReplication interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -187,11 +187,11 @@ type NetappVolumeReplication interface {
 
 // The jsii proxy struct for NetappVolumeReplication
 type jsiiProxy_NetappVolumeReplication struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetappVolumeReplication) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -320,8 +320,8 @@ func (j *jsiiProxy_NetappVolumeReplication) DestinationVolumeParametersInput() *
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetappVolumeReplication) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -350,8 +350,8 @@ func (j *jsiiProxy_NetappVolumeReplication) ForceStoppingInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetappVolumeReplication) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_NetappVolumeReplication) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) Healthy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_NetappVolumeReplication) Healthy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"healthy",
@@ -450,8 +450,8 @@ func (j *jsiiProxy_NetappVolumeReplication) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetappVolumeReplication) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -540,8 +540,8 @@ func (j *jsiiProxy_NetappVolumeReplication) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetappVolumeReplication) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -650,8 +650,8 @@ func (j *jsiiProxy_NetappVolumeReplication) StateDetails() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetappVolumeReplication) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -660,8 +660,8 @@ func (j *jsiiProxy_NetappVolumeReplication) TerraformGeneratorMetadata() *cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeReplication) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_NetappVolumeReplication) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -853,7 +853,7 @@ func (j *jsiiProxy_NetappVolumeReplication)SetForceStopping(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_NetappVolumeReplication)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetappVolumeReplication)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -883,7 +883,7 @@ func (j *jsiiProxy_NetappVolumeReplication)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_NetappVolumeReplication)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetappVolumeReplication)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -927,7 +927,7 @@ func (j *jsiiProxy_NetappVolumeReplication)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetappVolumeReplication)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetappVolumeReplication)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -990,14 +990,14 @@ func (j *jsiiProxy_NetappVolumeReplication)SetWaitForMirror(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a NetappVolumeReplication resource upon running "cdktf plan <stack-name>".
-func NetappVolumeReplication_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetappVolumeReplication resource upon running "cdktn plan <stack-name>".
+func NetappVolumeReplication_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetappVolumeReplication_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google.netappVolumeReplication.NetappVolumeReplication",
@@ -1131,11 +1131,11 @@ func (n *jsiiProxy_NetappVolumeReplication) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeReplication) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappVolumeReplication) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1272,7 +1272,7 @@ func (n *jsiiProxy_NetappVolumeReplication) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeReplication) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetappVolumeReplication) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1283,11 +1283,11 @@ func (n *jsiiProxy_NetappVolumeReplication) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (n *jsiiProxy_NetappVolumeReplication) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappVolumeReplication) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

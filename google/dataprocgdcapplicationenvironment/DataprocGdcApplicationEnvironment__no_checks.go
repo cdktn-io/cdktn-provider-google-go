@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataprocGdcApplicationEnvironment) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataprocGdcApplicationEnvironment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataprocGdcApplicationEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

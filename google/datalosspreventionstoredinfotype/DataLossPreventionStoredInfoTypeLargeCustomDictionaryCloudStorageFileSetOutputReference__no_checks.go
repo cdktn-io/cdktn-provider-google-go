@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudSto
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudSto
 	return nil
 }
 
-func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudSto
 	return nil
 }
 
-func validateNewDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

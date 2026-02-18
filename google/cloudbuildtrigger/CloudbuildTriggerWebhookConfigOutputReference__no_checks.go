@@ -47,7 +47,7 @@ func (c *jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CloudbuildTriggerWebhookConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCloudbuildTriggerWebhookConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCloudbuildTriggerWebhookConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 
