@@ -335,6 +335,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userManagedKeysConfigInput", GoGetter: "UserManagedKeysConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verticalPodAutoscaling", GoGetter: "VerticalPodAutoscaling"},
 			_jsii_.MemberProperty{JsiiProperty: "verticalPodAutoscalingInput", GoGetter: "VerticalPodAutoscalingInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityConfig", GoGetter: "WorkloadIdentityConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityConfigInput", GoGetter: "WorkloadIdentityConfigInput"},
 		},

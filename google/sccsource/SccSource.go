@@ -5,10 +5,10 @@ package sccsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/sccsource/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/sccsource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -137,6 +137,15 @@ type SccSource interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SccSource
@@ -1024,6 +1033,24 @@ func (s *jsiiProxy_SccSource) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SccSource) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -5,9 +5,9 @@ package apigeedeveloper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v17/apigeedeveloper/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apigeedeveloper/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
