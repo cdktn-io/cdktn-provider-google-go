@@ -5,14 +5,14 @@ package integrationsauthconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/integrationsauthconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/integrationsauthconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/integrations_auth_config google_integrations_auth_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/integrations_auth_config google_integrations_auth_config}.
 type IntegrationsAuthConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -678,7 +678,7 @@ func (j *jsiiProxy_IntegrationsAuthConfig) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/integrations_auth_config google_integrations_auth_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/integrations_auth_config google_integrations_auth_config} Resource.
 func NewIntegrationsAuthConfig(scope constructs.Construct, id *string, config *IntegrationsAuthConfigConfig) IntegrationsAuthConfig {
 	_init_.Initialize()
 
@@ -696,7 +696,7 @@ func NewIntegrationsAuthConfig(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/integrations_auth_config google_integrations_auth_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/integrations_auth_config google_integrations_auth_config} Resource.
 func NewIntegrationsAuthConfig_Override(i IntegrationsAuthConfig, scope constructs.Construct, id *string, config *IntegrationsAuthConfigConfig) {
 	_init_.Initialize()
 

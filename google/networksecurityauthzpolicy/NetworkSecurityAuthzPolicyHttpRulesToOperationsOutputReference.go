@@ -5,9 +5,9 @@ package networksecurityauthzpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networksecurityauthzpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networksecurityauthzpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,8 @@ type NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference interface {
 	HostsInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Mcp() NetworkSecurityAuthzPolicyHttpRulesToOperationsMcpOutputReference
+	McpInput() *NetworkSecurityAuthzPolicyHttpRulesToOperationsMcp
 	Methods() *[]*string
 	SetMethods(val *[]*string)
 	MethodsInput() *[]*string
@@ -75,9 +77,11 @@ type NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeaderSet(value *NetworkSecurityAuthzPolicyHttpRulesToOperationsHeaderSet)
 	PutHosts(value interface{})
+	PutMcp(value *NetworkSecurityAuthzPolicyHttpRulesToOperationsMcp)
 	PutPaths(value interface{})
 	ResetHeaderSet()
 	ResetHosts()
+	ResetMcp()
 	ResetMethods()
 	ResetPaths()
 	// Produce the Token's value at resolution time.
@@ -180,6 +184,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReferenc
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference) Mcp() NetworkSecurityAuthzPolicyHttpRulesToOperationsMcpOutputReference {
+	var returns NetworkSecurityAuthzPolicyHttpRulesToOperationsMcpOutputReference
+	_jsii_.Get(
+		j,
+		"mcp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference) McpInput() *NetworkSecurityAuthzPolicyHttpRulesToOperationsMcp {
+	var returns *NetworkSecurityAuthzPolicyHttpRulesToOperationsMcp
+	_jsii_.Get(
+		j,
+		"mcpInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReferenc
 	)
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference) PutMcp(value *NetworkSecurityAuthzPolicyHttpRulesToOperationsMcp) {
+	if err := n.validatePutMcpParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putMcp",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference) PutPaths(value interface{}) {
 	if err := n.validatePutPathsParameters(value); err != nil {
 		panic(err)
@@ -570,6 +605,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReferenc
 	_jsii_.InvokeVoid(
 		n,
 		"resetHosts",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesToOperationsOutputReference) ResetMcp() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetMcp",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func validateComputeSubnetwork_IsTerraformResourceParameters(x interface{}) erro
 	return nil
 }
 
+func (j *jsiiProxy_ComputeSubnetwork) validateSetAllowSubnetCidrRoutesOverlapParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeSubnetwork) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -119,15 +123,15 @@ func (j *jsiiProxy_ComputeSubnetwork) validateSetDescriptionParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_ComputeSubnetwork) validateSetEnableFlowLogsParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_ComputeSubnetwork) validateSetExternalIpv6PrefixParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_ComputeSubnetwork) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) validateSetInternalIpv6PrefixParameters(val *string) error {
 	return nil
 }
 
@@ -180,6 +184,10 @@ func (j *jsiiProxy_ComputeSubnetwork) validateSetRegionParameters(val *string) e
 }
 
 func (j *jsiiProxy_ComputeSubnetwork) validateSetReservedInternalRangeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) validateSetResolveSubnetMaskParameters(val *string) error {
 	return nil
 }
 

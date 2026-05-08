@@ -5,9 +5,9 @@ package firestoreindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/firestoreindex/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/firestoreindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type FirestoreIndexTimeoutsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type FirestoreIndexTimeoutsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_FirestoreIndexTimeoutsOutputReference) TerraformResource() cd
 	return returns
 }
 
+func (j *jsiiProxy_FirestoreIndexTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreIndexTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewFirestoreIndexTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FirestoreIndexTimeoutsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_FirestoreIndexTimeoutsOutputReference)SetTerraformResource(va
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreIndexTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (f *jsiiProxy_FirestoreIndexTimeoutsOutputReference) ResetDelete() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FirestoreIndexTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

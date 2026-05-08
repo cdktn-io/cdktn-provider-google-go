@@ -177,6 +177,26 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) validateSetEnableDirectBigtableAccessParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) validateSetInternalValueParameters(val *VertexAiFeatureOnlineStoreBigtable) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -194,6 +214,14 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) validateSe
 }
 
 func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) validateSetZoneParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

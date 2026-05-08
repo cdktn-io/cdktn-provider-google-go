@@ -123,6 +123,10 @@ func (j *jsiiProxy_StorageInsightsReportConfig) validateSetDisplayNameParameters
 	return nil
 }
 
+func (j *jsiiProxy_StorageInsightsReportConfig) validateSetForceDestroyParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageInsightsReportConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

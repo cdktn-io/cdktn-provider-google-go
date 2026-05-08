@@ -5,14 +5,14 @@ package storagebucketaccesscontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/storagebucketaccesscontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/storagebucketaccesscontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
 type StorageBucketAccessControl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_StorageBucketAccessControl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
 func NewStorageBucketAccessControl(scope constructs.Construct, id *string, config *StorageBucketAccessControlConfig) StorageBucketAccessControl {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewStorageBucketAccessControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
 func NewStorageBucketAccessControl_Override(s StorageBucketAccessControl, scope constructs.Construct, id *string, config *StorageBucketAccessControlConfig) {
 	_init_.Initialize()
 

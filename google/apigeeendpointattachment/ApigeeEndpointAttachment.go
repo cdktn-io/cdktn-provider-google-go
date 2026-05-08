@@ -5,14 +5,14 @@ package apigeeendpointattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apigeeendpointattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apigeeendpointattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_endpoint_attachment google_apigee_endpoint_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_endpoint_attachment google_apigee_endpoint_attachment}.
 type ApigeeEndpointAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -468,7 +468,7 @@ func (j *jsiiProxy_ApigeeEndpointAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_endpoint_attachment google_apigee_endpoint_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_endpoint_attachment google_apigee_endpoint_attachment} Resource.
 func NewApigeeEndpointAttachment(scope constructs.Construct, id *string, config *ApigeeEndpointAttachmentConfig) ApigeeEndpointAttachment {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewApigeeEndpointAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_endpoint_attachment google_apigee_endpoint_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_endpoint_attachment google_apigee_endpoint_attachment} Resource.
 func NewApigeeEndpointAttachment_Override(a ApigeeEndpointAttachment, scope constructs.Construct, id *string, config *ApigeeEndpointAttachmentConfig) {
 	_init_.Initialize()
 

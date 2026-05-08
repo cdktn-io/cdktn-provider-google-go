@@ -5,14 +5,14 @@ package networkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networkservicesauthzextension/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networkservicesauthzextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_authz_extension google_network_services_authz_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_authz_extension google_network_services_authz_extension}.
 type NetworkServicesAuthzExtension interface {
 	cdktn.TerraformResource
 	Authority() *string
@@ -153,11 +153,13 @@ type NetworkServicesAuthzExtension interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkServicesAuthzExtensionTimeouts)
+	ResetAuthority()
 	ResetDescription()
 	ResetFailOpen()
 	ResetForwardHeaders()
 	ResetId()
 	ResetLabels()
+	ResetLoadBalancingScheme()
 	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -693,7 +695,7 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) WireFormatInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, config *NetworkServicesAuthzExtensionConfig) NetworkServicesAuthzExtension {
 	_init_.Initialize()
 
@@ -711,7 +713,7 @@ func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewNetworkServicesAuthzExtension_Override(n NetworkServicesAuthzExtension, scope constructs.Construct, id *string, config *NetworkServicesAuthzExtensionConfig) {
 	_init_.Initialize()
 
@@ -1308,6 +1310,14 @@ func (n *jsiiProxy_NetworkServicesAuthzExtension) PutTimeouts(value *NetworkServ
 	)
 }
 
+func (n *jsiiProxy_NetworkServicesAuthzExtension) ResetAuthority() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetAuthority",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkServicesAuthzExtension) ResetDescription() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1344,6 +1354,14 @@ func (n *jsiiProxy_NetworkServicesAuthzExtension) ResetLabels() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesAuthzExtension) ResetLoadBalancingScheme() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetLoadBalancingScheme",
 		nil, // no parameters
 	)
 }

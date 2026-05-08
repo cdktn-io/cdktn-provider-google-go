@@ -5,14 +5,16 @@ package colabruntimetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/colabruntimetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/colabruntimetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ColabRuntimeTemplateSoftwareConfigOutputReference interface {
 	cdktn.ComplexObject
+	ColabImage() ColabRuntimeTemplateSoftwareConfigColabImageOutputReference
+	ColabImageInput() *ColabRuntimeTemplateSoftwareConfigColabImage
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -68,8 +70,10 @@ type ColabRuntimeTemplateSoftwareConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutColabImage(value *ColabRuntimeTemplateSoftwareConfigColabImage)
 	PutEnv(value interface{})
 	PutPostStartupScriptConfig(value *ColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig)
+	ResetColabImage()
 	ResetEnv()
 	ResetPostStartupScriptConfig()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type ColabRuntimeTemplateSoftwareConfigOutputReference interface {
 // The jsii proxy struct for ColabRuntimeTemplateSoftwareConfigOutputReference
 type jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) ColabImage() ColabRuntimeTemplateSoftwareConfigColabImageOutputReference {
+	var returns ColabRuntimeTemplateSoftwareConfigColabImageOutputReference
+	_jsii_.Get(
+		j,
+		"colabImage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) ColabImageInput() *ColabRuntimeTemplateSoftwareConfigColabImage {
+	var returns *ColabRuntimeTemplateSoftwareConfigColabImage
+	_jsii_.Get(
+		j,
+		"colabImageInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -466,6 +490,17 @@ func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) Interpolat
 	return returns
 }
 
+func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) PutColabImage(value *ColabRuntimeTemplateSoftwareConfigColabImage) {
+	if err := c.validatePutColabImageParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putColabImage",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) PutEnv(value interface{}) {
 	if err := c.validatePutEnvParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) PutPostSta
 		c,
 		"putPostStartupScriptConfig",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ColabRuntimeTemplateSoftwareConfigOutputReference) ResetColabImage() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetColabImage",
+		nil, // no parameters
 	)
 }
 

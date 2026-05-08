@@ -5,14 +5,14 @@ package bigqueryanalyticshublisting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigqueryanalyticshublisting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigqueryanalyticshublisting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing}.
 type BigqueryAnalyticsHubListing interface {
 	cdktn.TerraformResource
 	AllowOnlyMetadataSharing() interface{}
@@ -852,7 +852,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListing) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
 func NewBigqueryAnalyticsHubListing(scope constructs.Construct, id *string, config *BigqueryAnalyticsHubListingConfig) BigqueryAnalyticsHubListing {
 	_init_.Initialize()
 
@@ -870,7 +870,7 @@ func NewBigqueryAnalyticsHubListing(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
 func NewBigqueryAnalyticsHubListing_Override(b BigqueryAnalyticsHubListing, scope constructs.Construct, id *string, config *BigqueryAnalyticsHubListingConfig) {
 	_init_.Initialize()
 

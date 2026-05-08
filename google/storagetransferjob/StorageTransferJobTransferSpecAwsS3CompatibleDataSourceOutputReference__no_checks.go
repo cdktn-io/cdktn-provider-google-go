@@ -1,0 +1,97 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package storagetransferjob
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validatePutS3MetadataParameters(value *StorageTransferJobTransferSpecAwsS3CompatibleDataSourceS3Metadata) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetEndpointParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetInternalValueParameters(val *StorageTransferJobTransferSpecAwsS3CompatibleDataSource) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewStorageTransferJobTransferSpecAwsS3CompatibleDataSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

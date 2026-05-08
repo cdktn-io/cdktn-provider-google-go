@@ -5,9 +5,9 @@ package sqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/sqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/sqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,9 @@ type SqlDatabaseInstanceSettingsInsightsConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnhancedQueryInsightsEnabled() interface{}
+	SetEnhancedQueryInsightsEnabled(val interface{})
+	EnhancedQueryInsightsEnabledInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *SqlDatabaseInstanceSettingsInsightsConfig
@@ -79,6 +82,7 @@ type SqlDatabaseInstanceSettingsInsightsConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetEnhancedQueryInsightsEnabled()
 	ResetQueryInsightsEnabled()
 	ResetQueryPlansPerMinute()
 	ResetQueryStringLength()
@@ -124,6 +128,26 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference) Cre
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference) EnhancedQueryInsightsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enhancedQueryInsightsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference) EnhancedQueryInsightsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enhancedQueryInsightsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -315,6 +339,17 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference)SetC
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference)SetEnhancedQueryInsightsEnabled(val interface{}) {
+	if err := j.validateSetEnhancedQueryInsightsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enhancedQueryInsightsEnabled",
 		val,
 	)
 }
@@ -591,6 +626,14 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference) Int
 	)
 
 	return returns
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference) ResetEnhancedQueryInsightsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetEnhancedQueryInsightsEnabled",
+		nil, // no parameters
+	)
 }
 
 func (s *jsiiProxy_SqlDatabaseInstanceSettingsInsightsConfigOutputReference) ResetQueryInsightsEnabled() {

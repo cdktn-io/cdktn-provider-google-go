@@ -5,9 +5,9 @@ package networksecurityauthzpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networksecurityauthzpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networksecurityauthzpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,11 @@ type NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference 
 	Prefix() *string
 	SetPrefix(val *string)
 	PrefixInput() *string
+	Principal() NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipalOutputReference
+	PrincipalInput() *NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal
+	PrincipalSelector() *string
+	SetPrincipalSelector(val *string)
+	PrincipalSelectorInput() *string
 	Suffix() *string
 	SetSuffix(val *string)
 	SuffixInput() *string
@@ -79,10 +84,13 @@ type NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPrincipal(value *NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal)
 	ResetContains()
 	ResetExact()
 	ResetIgnoreCase()
 	ResetPrefix()
+	ResetPrincipal()
+	ResetPrincipalSelector()
 	ResetSuffix()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -229,6 +237,46 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOu
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) Principal() NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipalOutputReference {
+	var returns NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipalOutputReference
+	_jsii_.Get(
+		j,
+		"principal",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) PrincipalInput() *NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal {
+	var returns *NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal
+	_jsii_.Get(
+		j,
+		"principalInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) PrincipalSelector() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"principalSelector",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) PrincipalSelectorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"principalSelectorInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) Suffix() *string {
 	var returns *string
 	_jsii_.Get(
@@ -370,6 +418,17 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOu
 	_jsii_.Set(
 		j,
 		"prefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference)SetPrincipalSelector(val *string) {
+	if err := j.validateSetPrincipalSelectorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"principalSelector",
 		val,
 	)
 }
@@ -593,6 +652,17 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOu
 	return returns
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) PutPrincipal(value *NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsPrincipal) {
+	if err := n.validatePutPrincipalParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putPrincipal",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) ResetContains() {
 	_jsii_.InvokeVoid(
 		n,
@@ -621,6 +691,22 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOu
 	_jsii_.InvokeVoid(
 		n,
 		"resetPrefix",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) ResetPrincipal() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPrincipal",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsOutputReference) ResetPrincipalSelector() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPrincipalSelector",
 		nil, // no parameters
 	)
 }

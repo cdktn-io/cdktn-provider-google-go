@@ -1,0 +1,97 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package cesapp
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutAudioRecordingConfigParameters(value *CesAppLoggingSettingsAudioRecordingConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutBigqueryExportSettingsParameters(value *CesAppLoggingSettingsBigqueryExportSettings) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutCloudLoggingSettingsParameters(value *CesAppLoggingSettingsCloudLoggingSettings) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutConversationLoggingSettingsParameters(value *CesAppLoggingSettingsConversationLoggingSettings) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutRedactionConfigParameters(value *CesAppLoggingSettingsRedactionConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppLoggingSettingsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppLoggingSettingsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppLoggingSettingsOutputReference) validateSetInternalValueParameters(val *CesAppLoggingSettings) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppLoggingSettingsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppLoggingSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewCesAppLoggingSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

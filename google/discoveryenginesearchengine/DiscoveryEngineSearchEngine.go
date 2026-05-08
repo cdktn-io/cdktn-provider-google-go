@@ -5,16 +5,19 @@ package discoveryenginesearchengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/discoveryenginesearchengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/discoveryenginesearchengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine}.
 type DiscoveryEngineSearchEngine interface {
 	cdktn.TerraformResource
+	AppType() *string
+	SetAppType(val *string)
+	AppTypeInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	CollectionId() *string
@@ -40,12 +43,18 @@ type DiscoveryEngineSearchEngine interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DisableAnalytics() interface{}
+	SetDisableAnalytics(val interface{})
+	DisableAnalyticsInput() interface{}
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	EngineId() *string
 	SetEngineId(val *string)
 	EngineIdInput() *string
+	Features() *map[string]*string
+	SetFeatures(val *map[string]*string)
+	FeaturesInput() *map[string]*string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -60,6 +69,11 @@ type DiscoveryEngineSearchEngine interface {
 	IndustryVertical() *string
 	SetIndustryVertical(val *string)
 	IndustryVerticalInput() *string
+	KmsKeyName() *string
+	SetKmsKeyName(val *string)
+	KmsKeyNameInput() *string
+	KnowledgeGraphConfig() DiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference
+	KnowledgeGraphConfigInput() *DiscoveryEngineSearchEngineKnowledgeGraphConfig
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -138,11 +152,17 @@ type DiscoveryEngineSearchEngine interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutCommonConfig(value *DiscoveryEngineSearchEngineCommonConfig)
+	PutKnowledgeGraphConfig(value *DiscoveryEngineSearchEngineKnowledgeGraphConfig)
 	PutSearchEngineConfig(value *DiscoveryEngineSearchEngineSearchEngineConfig)
 	PutTimeouts(value *DiscoveryEngineSearchEngineTimeouts)
+	ResetAppType()
 	ResetCommonConfig()
+	ResetDisableAnalytics()
+	ResetFeatures()
 	ResetId()
 	ResetIndustryVertical()
+	ResetKmsKeyName()
+	ResetKnowledgeGraphConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -173,6 +193,26 @@ type DiscoveryEngineSearchEngine interface {
 // The jsii proxy struct for DiscoveryEngineSearchEngine
 type jsiiProxy_DiscoveryEngineSearchEngine struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) AppType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"appType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) AppTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"appTypeInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DiscoveryEngineSearchEngine) CdktfStack() cdktn.TerraformStack {
@@ -295,6 +335,26 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) DisableAnalytics() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableAnalytics",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) DisableAnalyticsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableAnalyticsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DiscoveryEngineSearchEngine) DisplayName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -330,6 +390,26 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) EngineIdInput() *string {
 	_jsii_.Get(
 		j,
 		"engineIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) Features() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"features",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) FeaturesInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"featuresInput",
 		&returns,
 	)
 	return returns
@@ -400,6 +480,46 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) IndustryVerticalInput() *string 
 	_jsii_.Get(
 		j,
 		"industryVerticalInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) KmsKeyName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) KmsKeyNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) KnowledgeGraphConfig() DiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference {
+	var returns DiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference
+	_jsii_.Get(
+		j,
+		"knowledgeGraphConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) KnowledgeGraphConfigInput() *DiscoveryEngineSearchEngineKnowledgeGraphConfig {
+	var returns *DiscoveryEngineSearchEngineKnowledgeGraphConfig
+	_jsii_.Get(
+		j,
+		"knowledgeGraphConfigInput",
 		&returns,
 	)
 	return returns
@@ -586,7 +706,7 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
 func NewDiscoveryEngineSearchEngine(scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineConfig) DiscoveryEngineSearchEngine {
 	_init_.Initialize()
 
@@ -604,7 +724,7 @@ func NewDiscoveryEngineSearchEngine(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
 func NewDiscoveryEngineSearchEngine_Override(d DiscoveryEngineSearchEngine, scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineConfig) {
 	_init_.Initialize()
 
@@ -612,6 +732,17 @@ func NewDiscoveryEngineSearchEngine_Override(d DiscoveryEngineSearchEngine, scop
 		"@cdktn/provider-google.discoveryEngineSearchEngine.DiscoveryEngineSearchEngine",
 		[]interface{}{scope, id, config},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetAppType(val *string) {
+	if err := j.validateSetAppTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"appType",
+		val,
 	)
 }
 
@@ -667,6 +798,17 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetDependsOn(val *[]*string) {
 	)
 }
 
+func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetDisableAnalytics(val interface{}) {
+	if err := j.validateSetDisableAnalyticsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableAnalytics",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetDisplayName(val *string) {
 	if err := j.validateSetDisplayNameParameters(val); err != nil {
 		panic(err)
@@ -685,6 +827,17 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetEngineId(val *string) {
 	_jsii_.Set(
 		j,
 		"engineId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetFeatures(val *map[string]*string) {
+	if err := j.validateSetFeaturesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"features",
 		val,
 	)
 }
@@ -715,6 +868,17 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetIndustryVertical(val *string) 
 	_jsii_.Set(
 		j,
 		"industryVertical",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetKmsKeyName(val *string) {
+	if err := j.validateSetKmsKeyNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyName",
 		val,
 	)
 }
@@ -1135,6 +1299,17 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngine) PutCommonConfig(value *Discovery
 	)
 }
 
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) PutKnowledgeGraphConfig(value *DiscoveryEngineSearchEngineKnowledgeGraphConfig) {
+	if err := d.validatePutKnowledgeGraphConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putKnowledgeGraphConfig",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DiscoveryEngineSearchEngine) PutSearchEngineConfig(value *DiscoveryEngineSearchEngineSearchEngineConfig) {
 	if err := d.validatePutSearchEngineConfigParameters(value); err != nil {
 		panic(err)
@@ -1157,10 +1332,34 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngine) PutTimeouts(value *DiscoveryEngi
 	)
 }
 
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetAppType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAppType",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetCommonConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCommonConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetDisableAnalytics() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDisableAnalytics",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetFeatures() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFeatures",
 		nil, // no parameters
 	)
 }
@@ -1177,6 +1376,22 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetIndustryVertical() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetIndustryVertical",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetKmsKeyName() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetKmsKeyName",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetKnowledgeGraphConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetKnowledgeGraphConfig",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -76,6 +76,7 @@ type ContainerClusterMaintenancePolicyMaintenanceExclusionOutputReference interf
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExclusionOptions(value *ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions)
+	ResetEndTime()
 	ResetExclusionOptions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -552,6 +553,14 @@ func (c *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionOutputRe
 		c,
 		"putExclusionOptions",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionOutputReference) ResetEndTime() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEndTime",
+		nil, // no parameters
 	)
 }
 

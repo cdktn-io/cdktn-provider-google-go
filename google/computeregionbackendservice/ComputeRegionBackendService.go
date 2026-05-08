@@ -5,14 +5,14 @@ package computeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeregionbackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeregionbackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_backend_service google_compute_region_backend_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_backend_service google_compute_region_backend_service}.
 type ComputeRegionBackendService interface {
 	cdktn.TerraformResource
 	AffinityCookieTtlSec() *float64
@@ -97,10 +97,14 @@ type ComputeRegionBackendService interface {
 	Network() *string
 	SetNetwork(val *string)
 	NetworkInput() *string
+	NetworkPassThroughLbTrafficPolicy() ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference
+	NetworkPassThroughLbTrafficPolicyInput() *ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy
 	// The tree node.
 	Node() constructs.Node
 	OutlierDetection() ComputeRegionBackendServiceOutlierDetectionOutputReference
 	OutlierDetectionInput() *ComputeRegionBackendServiceOutlierDetection
+	Params() ComputeRegionBackendServiceParamsOutputReference
+	ParamsInput() *ComputeRegionBackendServiceParams
 	PortName() *string
 	SetPortName(val *string)
 	PortNameInput() *string
@@ -123,6 +127,9 @@ type ComputeRegionBackendService interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	SecurityPolicy() *string
+	SetSecurityPolicy(val *string)
+	SecurityPolicyInput() *string
 	SelfLink() *string
 	SessionAffinity() *string
 	SetSessionAffinity(val *string)
@@ -140,6 +147,8 @@ type ComputeRegionBackendService interface {
 	SetTimeoutSec(val *float64)
 	TimeoutSecInput() *float64
 	TimeoutsInput() interface{}
+	TlsSettings() ComputeRegionBackendServiceTlsSettingsOutputReference
+	TlsSettingsInput() *ComputeRegionBackendServiceTlsSettings
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -192,9 +201,12 @@ type ComputeRegionBackendService interface {
 	PutHaPolicy(value *ComputeRegionBackendServiceHaPolicy)
 	PutIap(value *ComputeRegionBackendServiceIap)
 	PutLogConfig(value *ComputeRegionBackendServiceLogConfig)
+	PutNetworkPassThroughLbTrafficPolicy(value *ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy)
 	PutOutlierDetection(value *ComputeRegionBackendServiceOutlierDetection)
+	PutParams(value *ComputeRegionBackendServiceParams)
 	PutStrongSessionAffinityCookie(value *ComputeRegionBackendServiceStrongSessionAffinityCookie)
 	PutTimeouts(value *ComputeRegionBackendServiceTimeouts)
+	PutTlsSettings(value *ComputeRegionBackendServiceTlsSettings)
 	ResetAffinityCookieTtlSec()
 	ResetBackend()
 	ResetCdnPolicy()
@@ -214,18 +226,22 @@ type ComputeRegionBackendService interface {
 	ResetLocalityLbPolicy()
 	ResetLogConfig()
 	ResetNetwork()
+	ResetNetworkPassThroughLbTrafficPolicy()
 	ResetOutlierDetection()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetPortName()
 	ResetProject()
 	ResetProtocol()
 	ResetRegion()
+	ResetSecurityPolicy()
 	ResetSessionAffinity()
 	ResetStrongSessionAffinityCookie()
 	ResetTimeouts()
 	ResetTimeoutSec()
+	ResetTlsSettings()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -773,6 +789,26 @@ func (j *jsiiProxy_ComputeRegionBackendService) NetworkInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionBackendService) NetworkPassThroughLbTrafficPolicy() ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference {
+	var returns ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"networkPassThroughLbTrafficPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) NetworkPassThroughLbTrafficPolicyInput() *ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy {
+	var returns *ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy
+	_jsii_.Get(
+		j,
+		"networkPassThroughLbTrafficPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionBackendService) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -798,6 +834,26 @@ func (j *jsiiProxy_ComputeRegionBackendService) OutlierDetectionInput() *Compute
 	_jsii_.Get(
 		j,
 		"outlierDetectionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) Params() ComputeRegionBackendServiceParamsOutputReference {
+	var returns ComputeRegionBackendServiceParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) ParamsInput() *ComputeRegionBackendServiceParams {
+	var returns *ComputeRegionBackendServiceParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
 		&returns,
 	)
 	return returns
@@ -908,6 +964,26 @@ func (j *jsiiProxy_ComputeRegionBackendService) RegionInput() *string {
 	_jsii_.Get(
 		j,
 		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) SecurityPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"securityPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) SecurityPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"securityPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1033,8 +1109,28 @@ func (j *jsiiProxy_ComputeRegionBackendService) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionBackendService) TlsSettings() ComputeRegionBackendServiceTlsSettingsOutputReference {
+	var returns ComputeRegionBackendServiceTlsSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"tlsSettings",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
+func (j *jsiiProxy_ComputeRegionBackendService) TlsSettingsInput() *ComputeRegionBackendServiceTlsSettings {
+	var returns *ComputeRegionBackendServiceTlsSettings
+	_jsii_.Get(
+		j,
+		"tlsSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
 func NewComputeRegionBackendService(scope constructs.Construct, id *string, config *ComputeRegionBackendServiceConfig) ComputeRegionBackendService {
 	_init_.Initialize()
 
@@ -1052,7 +1148,7 @@ func NewComputeRegionBackendService(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
 func NewComputeRegionBackendService_Override(c ComputeRegionBackendService, scope constructs.Construct, id *string, config *ComputeRegionBackendServiceConfig) {
 	_init_.Initialize()
 
@@ -1292,6 +1388,17 @@ func (j *jsiiProxy_ComputeRegionBackendService)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService)SetSecurityPolicy(val *string) {
+	if err := j.validateSetSecurityPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"securityPolicy",
 		val,
 	)
 }
@@ -1770,6 +1877,17 @@ func (c *jsiiProxy_ComputeRegionBackendService) PutLogConfig(value *ComputeRegio
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionBackendService) PutNetworkPassThroughLbTrafficPolicy(value *ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy) {
+	if err := c.validatePutNetworkPassThroughLbTrafficPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putNetworkPassThroughLbTrafficPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionBackendService) PutOutlierDetection(value *ComputeRegionBackendServiceOutlierDetection) {
 	if err := c.validatePutOutlierDetectionParameters(value); err != nil {
 		panic(err)
@@ -1777,6 +1895,17 @@ func (c *jsiiProxy_ComputeRegionBackendService) PutOutlierDetection(value *Compu
 	_jsii_.InvokeVoid(
 		c,
 		"putOutlierDetection",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) PutParams(value *ComputeRegionBackendServiceParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
 		[]interface{}{value},
 	)
 }
@@ -1799,6 +1928,17 @@ func (c *jsiiProxy_ComputeRegionBackendService) PutTimeouts(value *ComputeRegion
 	_jsii_.InvokeVoid(
 		c,
 		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) PutTlsSettings(value *ComputeRegionBackendServiceTlsSettings) {
+	if err := c.validatePutTlsSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putTlsSettings",
 		[]interface{}{value},
 	)
 }
@@ -1955,6 +2095,14 @@ func (c *jsiiProxy_ComputeRegionBackendService) ResetNetwork() {
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionBackendService) ResetNetworkPassThroughLbTrafficPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNetworkPassThroughLbTrafficPolicy",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionBackendService) ResetOutlierDetection() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1967,6 +2115,14 @@ func (c *jsiiProxy_ComputeRegionBackendService) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }
@@ -2003,6 +2159,14 @@ func (c *jsiiProxy_ComputeRegionBackendService) ResetRegion() {
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionBackendService) ResetSecurityPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSecurityPolicy",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionBackendService) ResetSessionAffinity() {
 	_jsii_.InvokeVoid(
 		c,
@@ -2031,6 +2195,14 @@ func (c *jsiiProxy_ComputeRegionBackendService) ResetTimeoutSec() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeoutSec",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) ResetTlsSettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTlsSettings",
 		nil, // no parameters
 	)
 }

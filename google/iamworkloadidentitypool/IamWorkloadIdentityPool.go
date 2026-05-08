@@ -5,16 +5,18 @@ package iamworkloadidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iamworkloadidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iamworkloadidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_workload_identity_pool google_iam_workload_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_workload_identity_pool google_iam_workload_identity_pool}.
 type IamWorkloadIdentityPool interface {
 	cdktn.TerraformResource
+	AttestationRules() IamWorkloadIdentityPoolAttestationRulesList
+	AttestationRulesInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -51,10 +53,17 @@ type IamWorkloadIdentityPool interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	InlineCertificateIssuanceConfig() IamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReference
+	InlineCertificateIssuanceConfigInput() *IamWorkloadIdentityPoolInlineCertificateIssuanceConfig
+	InlineTrustConfig() IamWorkloadIdentityPoolInlineTrustConfigOutputReference
+	InlineTrustConfigInput() *IamWorkloadIdentityPoolInlineTrustConfig
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Mode() *string
+	SetMode(val *string)
+	ModeInput() *string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -126,11 +135,18 @@ type IamWorkloadIdentityPool interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAttestationRules(value interface{})
+	PutInlineCertificateIssuanceConfig(value *IamWorkloadIdentityPoolInlineCertificateIssuanceConfig)
+	PutInlineTrustConfig(value *IamWorkloadIdentityPoolInlineTrustConfig)
 	PutTimeouts(value *IamWorkloadIdentityPoolTimeouts)
+	ResetAttestationRules()
 	ResetDescription()
 	ResetDisabled()
 	ResetDisplayName()
 	ResetId()
+	ResetInlineCertificateIssuanceConfig()
+	ResetInlineTrustConfig()
+	ResetMode()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -161,6 +177,26 @@ type IamWorkloadIdentityPool interface {
 // The jsii proxy struct for IamWorkloadIdentityPool
 type jsiiProxy_IamWorkloadIdentityPool struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) AttestationRules() IamWorkloadIdentityPoolAttestationRulesList {
+	var returns IamWorkloadIdentityPoolAttestationRulesList
+	_jsii_.Get(
+		j,
+		"attestationRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) AttestationRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"attestationRulesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_IamWorkloadIdentityPool) CdktfStack() cdktn.TerraformStack {
@@ -323,11 +359,71 @@ func (j *jsiiProxy_IamWorkloadIdentityPool) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_IamWorkloadIdentityPool) InlineCertificateIssuanceConfig() IamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReference {
+	var returns IamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReference
+	_jsii_.Get(
+		j,
+		"inlineCertificateIssuanceConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) InlineCertificateIssuanceConfigInput() *IamWorkloadIdentityPoolInlineCertificateIssuanceConfig {
+	var returns *IamWorkloadIdentityPoolInlineCertificateIssuanceConfig
+	_jsii_.Get(
+		j,
+		"inlineCertificateIssuanceConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) InlineTrustConfig() IamWorkloadIdentityPoolInlineTrustConfigOutputReference {
+	var returns IamWorkloadIdentityPoolInlineTrustConfigOutputReference
+	_jsii_.Get(
+		j,
+		"inlineTrustConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) InlineTrustConfigInput() *IamWorkloadIdentityPoolInlineTrustConfig {
+	var returns *IamWorkloadIdentityPoolInlineTrustConfig
+	_jsii_.Get(
+		j,
+		"inlineTrustConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IamWorkloadIdentityPool) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) Mode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool) ModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modeInput",
 		&returns,
 	)
 	return returns
@@ -484,7 +580,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPool) WorkloadIdentityPoolIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_workload_identity_pool google_iam_workload_identity_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_workload_identity_pool google_iam_workload_identity_pool} Resource.
 func NewIamWorkloadIdentityPool(scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolConfig) IamWorkloadIdentityPool {
 	_init_.Initialize()
 
@@ -502,7 +598,7 @@ func NewIamWorkloadIdentityPool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_workload_identity_pool google_iam_workload_identity_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_workload_identity_pool google_iam_workload_identity_pool} Resource.
 func NewIamWorkloadIdentityPool_Override(i IamWorkloadIdentityPool, scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolConfig) {
 	_init_.Initialize()
 
@@ -602,6 +698,17 @@ func (j *jsiiProxy_IamWorkloadIdentityPool)SetLifecycle(val *cdktn.TerraformReso
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPool)SetMode(val *string) {
+	if err := j.validateSetModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mode",
 		val,
 	)
 }
@@ -1000,6 +1107,39 @@ func (i *jsiiProxy_IamWorkloadIdentityPool) OverrideLogicalId(newLogicalId *stri
 	)
 }
 
+func (i *jsiiProxy_IamWorkloadIdentityPool) PutAttestationRules(value interface{}) {
+	if err := i.validatePutAttestationRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putAttestationRules",
+		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) PutInlineCertificateIssuanceConfig(value *IamWorkloadIdentityPoolInlineCertificateIssuanceConfig) {
+	if err := i.validatePutInlineCertificateIssuanceConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putInlineCertificateIssuanceConfig",
+		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) PutInlineTrustConfig(value *IamWorkloadIdentityPoolInlineTrustConfig) {
+	if err := i.validatePutInlineTrustConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putInlineTrustConfig",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IamWorkloadIdentityPool) PutTimeouts(value *IamWorkloadIdentityPoolTimeouts) {
 	if err := i.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1008,6 +1148,14 @@ func (i *jsiiProxy_IamWorkloadIdentityPool) PutTimeouts(value *IamWorkloadIdenti
 		i,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) ResetAttestationRules() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetAttestationRules",
+		nil, // no parameters
 	)
 }
 
@@ -1039,6 +1187,30 @@ func (i *jsiiProxy_IamWorkloadIdentityPool) ResetId() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) ResetInlineCertificateIssuanceConfig() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetInlineCertificateIssuanceConfig",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) ResetInlineTrustConfig() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetInlineTrustConfig",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) ResetMode() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetMode",
 		nil, // no parameters
 	)
 }

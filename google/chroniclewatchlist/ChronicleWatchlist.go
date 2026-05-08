@@ -5,14 +5,14 @@ package chroniclewatchlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/chroniclewatchlist/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/chroniclewatchlist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/chronicle_watchlist google_chronicle_watchlist}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_watchlist google_chronicle_watchlist}.
 type ChronicleWatchlist interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -599,7 +599,7 @@ func (j *jsiiProxy_ChronicleWatchlist) WatchlistUserPreferencesInput() *Chronicl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/chronicle_watchlist google_chronicle_watchlist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_watchlist google_chronicle_watchlist} Resource.
 func NewChronicleWatchlist(scope constructs.Construct, id *string, config *ChronicleWatchlistConfig) ChronicleWatchlist {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewChronicleWatchlist(scope constructs.Construct, id *string, config *Chron
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/chronicle_watchlist google_chronicle_watchlist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_watchlist google_chronicle_watchlist} Resource.
 func NewChronicleWatchlist_Override(c ChronicleWatchlist, scope constructs.Construct, id *string, config *ChronicleWatchlistConfig) {
 	_init_.Initialize()
 

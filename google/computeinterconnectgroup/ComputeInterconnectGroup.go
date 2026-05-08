@@ -5,14 +5,14 @@ package computeinterconnectgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeinterconnectgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeinterconnectgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect_group google_compute_interconnect_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_interconnect_group google_compute_interconnect_group}.
 type ComputeInterconnectGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_ComputeInterconnectGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect_group google_compute_interconnect_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_interconnect_group google_compute_interconnect_group} Resource.
 func NewComputeInterconnectGroup(scope constructs.Construct, id *string, config *ComputeInterconnectGroupConfig) ComputeInterconnectGroup {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewComputeInterconnectGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect_group google_compute_interconnect_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_interconnect_group google_compute_interconnect_group} Resource.
 func NewComputeInterconnectGroup_Override(c ComputeInterconnectGroup, scope constructs.Construct, id *string, config *ComputeInterconnectGroupConfig) {
 	_init_.Initialize()
 

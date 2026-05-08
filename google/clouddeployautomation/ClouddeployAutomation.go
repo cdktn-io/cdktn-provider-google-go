@@ -5,14 +5,14 @@ package clouddeployautomation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/clouddeployautomation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/clouddeployautomation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/clouddeploy_automation google_clouddeploy_automation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/clouddeploy_automation google_clouddeploy_automation}.
 type ClouddeployAutomation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -678,7 +678,7 @@ func (j *jsiiProxy_ClouddeployAutomation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/clouddeploy_automation google_clouddeploy_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/clouddeploy_automation google_clouddeploy_automation} Resource.
 func NewClouddeployAutomation(scope constructs.Construct, id *string, config *ClouddeployAutomationConfig) ClouddeployAutomation {
 	_init_.Initialize()
 
@@ -696,7 +696,7 @@ func NewClouddeployAutomation(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/clouddeploy_automation google_clouddeploy_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/clouddeploy_automation google_clouddeploy_automation} Resource.
 func NewClouddeployAutomation_Override(c ClouddeployAutomation, scope constructs.Construct, id *string, config *ClouddeployAutomationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datafusioninstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datafusioninstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datafusioninstanceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_fusion_instance_iam_member google_data_fusion_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_fusion_instance_iam_member google_data_fusion_instance_iam_member}.
 type DataFusionInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataFusionInstanceIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_fusion_instance_iam_member google_data_fusion_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_fusion_instance_iam_member google_data_fusion_instance_iam_member} Resource.
 func NewDataFusionInstanceIamMember(scope constructs.Construct, id *string, config *DataFusionInstanceIamMemberConfig) DataFusionInstanceIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataFusionInstanceIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_fusion_instance_iam_member google_data_fusion_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_fusion_instance_iam_member google_data_fusion_instance_iam_member} Resource.
 func NewDataFusionInstanceIamMember_Override(d DataFusionInstanceIamMember, scope constructs.Construct, id *string, config *DataFusionInstanceIamMemberConfig) {
 	_init_.Initialize()
 

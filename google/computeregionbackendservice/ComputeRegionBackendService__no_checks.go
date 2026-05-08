@@ -111,7 +111,15 @@ func (c *jsiiProxy_ComputeRegionBackendService) validatePutLogConfigParameters(v
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionBackendService) validatePutNetworkPassThroughLbTrafficPolicyParameters(value *ComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionBackendService) validatePutOutlierDetectionParameters(value *ComputeRegionBackendServiceOutlierDetection) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) validatePutParamsParameters(value *ComputeRegionBackendServiceParams) error {
 	return nil
 }
 
@@ -120,6 +128,10 @@ func (c *jsiiProxy_ComputeRegionBackendService) validatePutStrongSessionAffinity
 }
 
 func (c *jsiiProxy_ComputeRegionBackendService) validatePutTimeoutsParameters(value *ComputeRegionBackendServiceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) validatePutTlsSettingsParameters(value *ComputeRegionBackendServiceTlsSettings) error {
 	return nil
 }
 
@@ -212,6 +224,10 @@ func (j *jsiiProxy_ComputeRegionBackendService) validateSetProvisionersParameter
 }
 
 func (j *jsiiProxy_ComputeRegionBackendService) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) validateSetSecurityPolicyParameters(val *string) error {
 	return nil
 }
 

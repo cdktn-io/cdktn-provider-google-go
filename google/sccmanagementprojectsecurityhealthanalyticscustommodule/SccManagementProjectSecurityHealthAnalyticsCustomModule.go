@@ -5,14 +5,14 @@ package sccmanagementprojectsecurityhealthanalyticscustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/sccmanagementprojectsecurityhealthanalyticscustommodule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/sccmanagementprojectsecurityhealthanalyticscustommodule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_management_project_security_health_analytics_custom_module google_scc_management_project_security_health_analytics_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_management_project_security_health_analytics_custom_module google_scc_management_project_security_health_analytics_custom_module}.
 type SccManagementProjectSecurityHealthAnalyticsCustomModule interface {
 	cdktn.TerraformResource
 	AncestorModule() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_SccManagementProjectSecurityHealthAnalyticsCustomModule) Upda
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_management_project_security_health_analytics_custom_module google_scc_management_project_security_health_analytics_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_management_project_security_health_analytics_custom_module google_scc_management_project_security_health_analytics_custom_module} Resource.
 func NewSccManagementProjectSecurityHealthAnalyticsCustomModule(scope constructs.Construct, id *string, config *SccManagementProjectSecurityHealthAnalyticsCustomModuleConfig) SccManagementProjectSecurityHealthAnalyticsCustomModule {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewSccManagementProjectSecurityHealthAnalyticsCustomModule(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_management_project_security_health_analytics_custom_module google_scc_management_project_security_health_analytics_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_management_project_security_health_analytics_custom_module google_scc_management_project_security_health_analytics_custom_module} Resource.
 func NewSccManagementProjectSecurityHealthAnalyticsCustomModule_Override(s SccManagementProjectSecurityHealthAnalyticsCustomModule, scope constructs.Construct, id *string, config *SccManagementProjectSecurityHealthAnalyticsCustomModuleConfig) {
 	_init_.Initialize()
 

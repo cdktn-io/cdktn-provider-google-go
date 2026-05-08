@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type ContainerClusterSecretManagerConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *ContainerClusterSecretManagerConfig
 	SetInternalValue(val *ContainerClusterSecretManagerConfig)
+	RotationConfig() ContainerClusterSecretManagerConfigRotationConfigOutputReference
+	RotationConfigInput() *ContainerClusterSecretManagerConfigRotationConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +69,8 @@ type ContainerClusterSecretManagerConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRotationConfig(value *ContainerClusterSecretManagerConfigRotationConfig)
+	ResetRotationConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) InternalV
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) RotationConfig() ContainerClusterSecretManagerConfigRotationConfigOutputReference {
+	var returns ContainerClusterSecretManagerConfigRotationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"rotationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) RotationConfigInput() *ContainerClusterSecretManagerConfigRotationConfig {
+	var returns *ContainerClusterSecretManagerConfigRotationConfig
+	_jsii_.Get(
+		j,
+		"rotationConfigInput",
 		&returns,
 	)
 	return returns
@@ -450,6 +474,25 @@ func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) Interpola
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) PutRotationConfig(value *ContainerClusterSecretManagerConfigRotationConfig) {
+	if err := c.validatePutRotationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putRotationConfig",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) ResetRotationConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRotationConfig",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

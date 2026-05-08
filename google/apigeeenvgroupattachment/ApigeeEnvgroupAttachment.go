@@ -5,14 +5,14 @@ package apigeeenvgroupattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apigeeenvgroupattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apigeeenvgroupattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_envgroup_attachment google_apigee_envgroup_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_envgroup_attachment google_apigee_envgroup_attachment}.
 type ApigeeEnvgroupAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_ApigeeEnvgroupAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
 func NewApigeeEnvgroupAttachment(scope constructs.Construct, id *string, config *ApigeeEnvgroupAttachmentConfig) ApigeeEnvgroupAttachment {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewApigeeEnvgroupAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
 func NewApigeeEnvgroupAttachment_Override(a ApigeeEnvgroupAttachment, scope constructs.Construct, id *string, config *ApigeeEnvgroupAttachmentConfig) {
 	_init_.Initialize()
 

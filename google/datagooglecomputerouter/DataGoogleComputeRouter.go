@@ -5,14 +5,14 @@ package datagooglecomputerouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecomputerouter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecomputerouter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_router google_compute_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_router google_compute_router}.
 type DataGoogleComputeRouter interface {
 	cdktn.TerraformDataSource
 	Bgp() DataGoogleComputeRouterBgpList
@@ -55,6 +55,7 @@ type DataGoogleComputeRouter interface {
 	NetworkInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() DataGoogleComputeRouterParamsList
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -333,6 +334,16 @@ func (j *jsiiProxy_DataGoogleComputeRouter) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRouter) Params() DataGoogleComputeRouterParamsList {
+	var returns DataGoogleComputeRouterParamsList
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRouter) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -434,7 +445,7 @@ func (j *jsiiProxy_DataGoogleComputeRouter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_router google_compute_router} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_router google_compute_router} Data Source.
 func NewDataGoogleComputeRouter(scope constructs.Construct, id *string, config *DataGoogleComputeRouterConfig) DataGoogleComputeRouter {
 	_init_.Initialize()
 
@@ -452,7 +463,7 @@ func NewDataGoogleComputeRouter(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_router google_compute_router} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_router google_compute_router} Data Source.
 func NewDataGoogleComputeRouter_Override(d DataGoogleComputeRouter, scope constructs.Construct, id *string, config *DataGoogleComputeRouterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package bigquerybireservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigquerybireservation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigquerybireservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_bi_reservation google_bigquery_bi_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_bi_reservation google_bigquery_bi_reservation}.
 type BigqueryBiReservation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_BigqueryBiReservation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
 func NewBigqueryBiReservation(scope constructs.Construct, id *string, config *BigqueryBiReservationConfig) BigqueryBiReservation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewBigqueryBiReservation(scope constructs.Construct, id *string, config *Bi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
 func NewBigqueryBiReservation_Override(b BigqueryBiReservation, scope constructs.Construct, id *string, config *BigqueryBiReservationConfig) {
 	_init_.Initialize()
 

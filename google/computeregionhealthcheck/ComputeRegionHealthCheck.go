@@ -5,14 +5,14 @@ package computeregionhealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeregionhealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeregionhealthcheck/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_health_check google_compute_region_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_health_check google_compute_region_health_check}.
 type ComputeRegionHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -48,6 +48,8 @@ type ComputeRegionHealthCheck interface {
 	FriendlyUniqueId() *string
 	GrpcHealthCheck() ComputeRegionHealthCheckGrpcHealthCheckOutputReference
 	GrpcHealthCheckInput() *ComputeRegionHealthCheckGrpcHealthCheck
+	GrpcTlsHealthCheck() ComputeRegionHealthCheckGrpcTlsHealthCheckOutputReference
+	GrpcTlsHealthCheckInput() *ComputeRegionHealthCheckGrpcTlsHealthCheck
 	HealthCheckId() *float64
 	HealthyThreshold() *float64
 	SetHealthyThreshold(val *float64)
@@ -152,6 +154,7 @@ type ComputeRegionHealthCheck interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutGrpcHealthCheck(value *ComputeRegionHealthCheckGrpcHealthCheck)
+	PutGrpcTlsHealthCheck(value *ComputeRegionHealthCheckGrpcTlsHealthCheck)
 	PutHttp2HealthCheck(value *ComputeRegionHealthCheckHttp2HealthCheck)
 	PutHttpHealthCheck(value *ComputeRegionHealthCheckHttpHealthCheck)
 	PutHttpsHealthCheck(value *ComputeRegionHealthCheckHttpsHealthCheck)
@@ -162,6 +165,7 @@ type ComputeRegionHealthCheck interface {
 	ResetCheckIntervalSec()
 	ResetDescription()
 	ResetGrpcHealthCheck()
+	ResetGrpcTlsHealthCheck()
 	ResetHealthyThreshold()
 	ResetHttp2HealthCheck()
 	ResetHttpHealthCheck()
@@ -350,6 +354,26 @@ func (j *jsiiProxy_ComputeRegionHealthCheck) GrpcHealthCheckInput() *ComputeRegi
 	_jsii_.Get(
 		j,
 		"grpcHealthCheckInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionHealthCheck) GrpcTlsHealthCheck() ComputeRegionHealthCheckGrpcTlsHealthCheckOutputReference {
+	var returns ComputeRegionHealthCheckGrpcTlsHealthCheckOutputReference
+	_jsii_.Get(
+		j,
+		"grpcTlsHealthCheck",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionHealthCheck) GrpcTlsHealthCheckInput() *ComputeRegionHealthCheckGrpcTlsHealthCheck {
+	var returns *ComputeRegionHealthCheckGrpcTlsHealthCheck
+	_jsii_.Get(
+		j,
+		"grpcTlsHealthCheckInput",
 		&returns,
 	)
 	return returns
@@ -746,7 +770,7 @@ func (j *jsiiProxy_ComputeRegionHealthCheck) UnhealthyThresholdInput() *float64 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_health_check google_compute_region_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_health_check google_compute_region_health_check} Resource.
 func NewComputeRegionHealthCheck(scope constructs.Construct, id *string, config *ComputeRegionHealthCheckConfig) ComputeRegionHealthCheck {
 	_init_.Initialize()
 
@@ -764,7 +788,7 @@ func NewComputeRegionHealthCheck(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_health_check google_compute_region_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_health_check google_compute_region_health_check} Resource.
 func NewComputeRegionHealthCheck_Override(c ComputeRegionHealthCheck, scope constructs.Construct, id *string, config *ComputeRegionHealthCheckConfig) {
 	_init_.Initialize()
 
@@ -1306,6 +1330,17 @@ func (c *jsiiProxy_ComputeRegionHealthCheck) PutGrpcHealthCheck(value *ComputeRe
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionHealthCheck) PutGrpcTlsHealthCheck(value *ComputeRegionHealthCheckGrpcTlsHealthCheck) {
+	if err := c.validatePutGrpcTlsHealthCheckParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putGrpcTlsHealthCheck",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionHealthCheck) PutHttp2HealthCheck(value *ComputeRegionHealthCheckHttp2HealthCheck) {
 	if err := c.validatePutHttp2HealthCheckParameters(value); err != nil {
 		panic(err)
@@ -1403,6 +1438,14 @@ func (c *jsiiProxy_ComputeRegionHealthCheck) ResetGrpcHealthCheck() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetGrpcHealthCheck",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionHealthCheck) ResetGrpcTlsHealthCheck() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetGrpcTlsHealthCheck",
 		nil, // no parameters
 	)
 }

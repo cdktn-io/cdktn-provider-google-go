@@ -5,9 +5,9 @@ package vertexaifeatureonlinestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vertexaifeatureonlinestore/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vertexaifeatureonlinestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,6 +30,9 @@ type VertexAiFeatureOnlineStoreBigtableOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableDirectBigtableAccess() interface{}
+	SetEnableDirectBigtableAccess(val interface{})
+	EnableDirectBigtableAccessInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *VertexAiFeatureOnlineStoreBigtable
@@ -42,6 +45,9 @@ type VertexAiFeatureOnlineStoreBigtableOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Zone() *string
+	SetZone(val *string)
+	ZoneInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,6 +73,8 @@ type VertexAiFeatureOnlineStoreBigtableOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoScaling(value *VertexAiFeatureOnlineStoreBigtableAutoScaling)
+	ResetEnableDirectBigtableAccess()
+	ResetZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -132,6 +140,26 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) CreationSt
 	return returns
 }
 
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) EnableDirectBigtableAccess() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableDirectBigtableAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) EnableDirectBigtableAccessInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableDirectBigtableAccessInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -167,6 +195,26 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) TerraformR
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) Zone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"zone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) ZoneInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"zoneInput",
 		&returns,
 	)
 	return returns
@@ -222,6 +270,17 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference)SetComplexO
 	)
 }
 
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference)SetEnableDirectBigtableAccess(val interface{}) {
+	if err := j.validateSetEnableDirectBigtableAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableDirectBigtableAccess",
+		val,
+	)
+}
+
 func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference)SetInternalValue(val *VertexAiFeatureOnlineStoreBigtable) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -251,6 +310,17 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference)SetTerrafor
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference)SetZone(val *string) {
+	if err := j.validateSetZoneParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"zone",
 		val,
 	)
 }
@@ -449,6 +519,22 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) PutAutoSca
 		v,
 		"putAutoScaling",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) ResetEnableDirectBigtableAccess() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetEnableDirectBigtableAccess",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiFeatureOnlineStoreBigtableOutputReference) ResetZone() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetZone",
+		nil, // no parameters
 	)
 }
 

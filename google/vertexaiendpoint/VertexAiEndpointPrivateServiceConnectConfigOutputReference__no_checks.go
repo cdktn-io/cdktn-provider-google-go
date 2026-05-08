@@ -47,6 +47,10 @@ func (v *jsiiProxy_VertexAiEndpointPrivateServiceConnectConfigOutputReference) v
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiEndpointPrivateServiceConnectConfigOutputReference) validatePutPscAutomationConfigsParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiEndpointPrivateServiceConnectConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -60,10 +64,6 @@ func (j *jsiiProxy_VertexAiEndpointPrivateServiceConnectConfigOutputReference) v
 }
 
 func (j *jsiiProxy_VertexAiEndpointPrivateServiceConnectConfigOutputReference) validateSetEnablePrivateServiceConnectParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_VertexAiEndpointPrivateServiceConnectConfigOutputReference) validateSetEnableSecurePrivateServiceConnectParameters(val interface{}) error {
 	return nil
 }
 

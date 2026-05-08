@@ -5,14 +5,14 @@ package netappbackuppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/netappbackuppolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/netappbackuppolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_backup_policy google_netapp_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_backup_policy google_netapp_backup_policy}.
 type NetappBackupPolicy interface {
 	cdktn.TerraformResource
 	AssignedVolumeCount() *float64
@@ -609,7 +609,7 @@ func (j *jsiiProxy_NetappBackupPolicy) WeeklyBackupLimitInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) NetappBackupPolicy {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *Netap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy_Override(n NetappBackupPolicy, scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) {
 	_init_.Initialize()
 

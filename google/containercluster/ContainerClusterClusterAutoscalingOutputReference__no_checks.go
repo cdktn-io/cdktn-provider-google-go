@@ -75,6 +75,10 @@ func (j *jsiiProxy_ContainerClusterClusterAutoscalingOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_ContainerClusterClusterAutoscalingOutputReference) validateSetDefaultComputeClassEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerClusterClusterAutoscalingOutputReference) validateSetEnabledParameters(val interface{}) error {
 	return nil
 }

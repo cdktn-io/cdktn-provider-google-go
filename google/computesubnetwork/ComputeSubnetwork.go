@@ -5,16 +5,19 @@ package computesubnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computesubnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computesubnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_subnetwork google_compute_subnetwork}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_subnetwork google_compute_subnetwork}.
 type ComputeSubnetwork interface {
 	cdktn.TerraformResource
+	AllowSubnetCidrRoutesOverlap() interface{}
+	SetAllowSubnetCidrRoutesOverlap(val interface{})
+	AllowSubnetCidrRoutesOverlapInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -35,9 +38,6 @@ type ComputeSubnetwork interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EnableFlowLogs() interface{}
-	SetEnableFlowLogs(val interface{})
-	EnableFlowLogsInput() interface{}
 	ExternalIpv6Prefix() *string
 	SetExternalIpv6Prefix(val *string)
 	ExternalIpv6PrefixInput() *string
@@ -55,6 +55,8 @@ type ComputeSubnetwork interface {
 	SetId(val *string)
 	IdInput() *string
 	InternalIpv6Prefix() *string
+	SetInternalIpv6Prefix(val *string)
+	InternalIpv6PrefixInput() *string
 	IpCidrRange() *string
 	SetIpCidrRange(val *string)
 	IpCidrRangeInput() *string
@@ -110,6 +112,9 @@ type ComputeSubnetwork interface {
 	ReservedInternalRange() *string
 	SetReservedInternalRange(val *string)
 	ReservedInternalRangeInput() *string
+	ResolveSubnetMask() *string
+	SetResolveSubnetMask(val *string)
+	ResolveSubnetMaskInput() *string
 	Role() *string
 	SetRole(val *string)
 	RoleInput() *string
@@ -179,10 +184,11 @@ type ComputeSubnetwork interface {
 	PutParams(value *ComputeSubnetworkParams)
 	PutSecondaryIpRange(value interface{})
 	PutTimeouts(value *ComputeSubnetworkTimeouts)
+	ResetAllowSubnetCidrRoutesOverlap()
 	ResetDescription()
-	ResetEnableFlowLogs()
 	ResetExternalIpv6Prefix()
 	ResetId()
+	ResetInternalIpv6Prefix()
 	ResetIpCidrRange()
 	ResetIpCollection()
 	ResetIpv6AccessType()
@@ -197,6 +203,7 @@ type ComputeSubnetwork interface {
 	ResetPurpose()
 	ResetRegion()
 	ResetReservedInternalRange()
+	ResetResolveSubnetMask()
 	ResetRole()
 	ResetSecondaryIpRange()
 	ResetSendSecondaryIpRangeIfEmpty()
@@ -227,6 +234,26 @@ type ComputeSubnetwork interface {
 // The jsii proxy struct for ComputeSubnetwork
 type jsiiProxy_ComputeSubnetwork struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) AllowSubnetCidrRoutesOverlap() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowSubnetCidrRoutesOverlap",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) AllowSubnetCidrRoutesOverlapInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowSubnetCidrRoutesOverlapInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ComputeSubnetwork) CdktfStack() cdktn.TerraformStack {
@@ -304,26 +331,6 @@ func (j *jsiiProxy_ComputeSubnetwork) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ComputeSubnetwork) EnableFlowLogs() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableFlowLogs",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ComputeSubnetwork) EnableFlowLogsInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableFlowLogsInput",
 		&returns,
 	)
 	return returns
@@ -424,6 +431,16 @@ func (j *jsiiProxy_ComputeSubnetwork) InternalIpv6Prefix() *string {
 	_jsii_.Get(
 		j,
 		"internalIpv6Prefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) InternalIpv6PrefixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"internalIpv6PrefixInput",
 		&returns,
 	)
 	return returns
@@ -759,6 +776,26 @@ func (j *jsiiProxy_ComputeSubnetwork) ReservedInternalRangeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSubnetwork) ResolveSubnetMask() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resolveSubnetMask",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) ResolveSubnetMaskInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resolveSubnetMaskInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSubnetwork) Role() *string {
 	var returns *string
 	_jsii_.Get(
@@ -920,7 +957,7 @@ func (j *jsiiProxy_ComputeSubnetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
 func NewComputeSubnetwork(scope constructs.Construct, id *string, config *ComputeSubnetworkConfig) ComputeSubnetwork {
 	_init_.Initialize()
 
@@ -938,7 +975,7 @@ func NewComputeSubnetwork(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
 func NewComputeSubnetwork_Override(c ComputeSubnetwork, scope constructs.Construct, id *string, config *ComputeSubnetworkConfig) {
 	_init_.Initialize()
 
@@ -946,6 +983,17 @@ func NewComputeSubnetwork_Override(c ComputeSubnetwork, scope constructs.Constru
 		"@cdktn/provider-google.computeSubnetwork.ComputeSubnetwork",
 		[]interface{}{scope, id, config},
 		c,
+	)
+}
+
+func (j *jsiiProxy_ComputeSubnetwork)SetAllowSubnetCidrRoutesOverlap(val interface{}) {
+	if err := j.validateSetAllowSubnetCidrRoutesOverlapParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowSubnetCidrRoutesOverlap",
+		val,
 	)
 }
 
@@ -990,17 +1038,6 @@ func (j *jsiiProxy_ComputeSubnetwork)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ComputeSubnetwork)SetEnableFlowLogs(val interface{}) {
-	if err := j.validateSetEnableFlowLogsParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableFlowLogs",
-		val,
-	)
-}
-
 func (j *jsiiProxy_ComputeSubnetwork)SetExternalIpv6Prefix(val *string) {
 	if err := j.validateSetExternalIpv6PrefixParameters(val); err != nil {
 		panic(err)
@@ -1027,6 +1064,17 @@ func (j *jsiiProxy_ComputeSubnetwork)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSubnetwork)SetInternalIpv6Prefix(val *string) {
+	if err := j.validateSetInternalIpv6PrefixParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalIpv6Prefix",
 		val,
 	)
 }
@@ -1178,6 +1226,17 @@ func (j *jsiiProxy_ComputeSubnetwork)SetReservedInternalRange(val *string) {
 	_jsii_.Set(
 		j,
 		"reservedInternalRange",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSubnetwork)SetResolveSubnetMask(val *string) {
+	if err := j.validateSetResolveSubnetMaskParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resolveSubnetMask",
 		val,
 	)
 }
@@ -1612,18 +1671,18 @@ func (c *jsiiProxy_ComputeSubnetwork) PutTimeouts(value *ComputeSubnetworkTimeou
 	)
 }
 
-func (c *jsiiProxy_ComputeSubnetwork) ResetDescription() {
+func (c *jsiiProxy_ComputeSubnetwork) ResetAllowSubnetCidrRoutesOverlap() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetDescription",
+		"resetAllowSubnetCidrRoutesOverlap",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_ComputeSubnetwork) ResetEnableFlowLogs() {
+func (c *jsiiProxy_ComputeSubnetwork) ResetDescription() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetEnableFlowLogs",
+		"resetDescription",
 		nil, // no parameters
 	)
 }
@@ -1640,6 +1699,14 @@ func (c *jsiiProxy_ComputeSubnetwork) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSubnetwork) ResetInternalIpv6Prefix() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetInternalIpv6Prefix",
 		nil, // no parameters
 	)
 }
@@ -1736,6 +1803,14 @@ func (c *jsiiProxy_ComputeSubnetwork) ResetReservedInternalRange() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetReservedInternalRange",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSubnetwork) ResetResolveSubnetMask() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetResolveSubnetMask",
 		nil, // no parameters
 	)
 }

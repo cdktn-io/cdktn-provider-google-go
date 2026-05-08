@@ -1,0 +1,93 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package lustreinstance
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetHoursParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetInternalValueParameters(val *LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTime) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetMinutesParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetNanosParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetSecondsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewLustreInstanceMaintenancePolicyMaintenanceExclusionWindowTimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

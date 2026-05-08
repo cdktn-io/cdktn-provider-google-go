@@ -5,14 +5,14 @@ package projectiammemberremove
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/projectiammemberremove/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/projectiammemberremove/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_member_remove google_project_iam_member_remove}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_member_remove google_project_iam_member_remove}.
 type ProjectIamMemberRemove interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_ProjectIamMemberRemove) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_member_remove google_project_iam_member_remove} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_member_remove google_project_iam_member_remove} Resource.
 func NewProjectIamMemberRemove(scope constructs.Construct, id *string, config *ProjectIamMemberRemoveConfig) ProjectIamMemberRemove {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewProjectIamMemberRemove(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_member_remove google_project_iam_member_remove} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_member_remove google_project_iam_member_remove} Resource.
 func NewProjectIamMemberRemove_Override(p ProjectIamMemberRemove, scope constructs.Construct, id *string, config *ProjectIamMemberRemoveConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package dataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataproccluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -21,6 +21,9 @@ type DataprocClusterClusterConfigOutputReference interface {
 	ClusterTier() *string
 	SetClusterTier(val *string)
 	ClusterTierInput() *string
+	ClusterType() *string
+	SetClusterType(val *string)
+	ClusterTypeInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,6 +45,9 @@ type DataprocClusterClusterConfigOutputReference interface {
 	EncryptionConfigInput() *DataprocClusterClusterConfigEncryptionConfig
 	EndpointConfig() DataprocClusterClusterConfigEndpointConfigOutputReference
 	EndpointConfigInput() *DataprocClusterClusterConfigEndpointConfig
+	Engine() *string
+	SetEngine(val *string)
+	EngineInput() *string
 	// Experimental.
 	Fqn() *string
 	GceClusterConfig() DataprocClusterClusterConfigGceClusterConfigOutputReference
@@ -119,9 +125,11 @@ type DataprocClusterClusterConfigOutputReference interface {
 	ResetAutoscalingConfig()
 	ResetAuxiliaryNodeGroups()
 	ResetClusterTier()
+	ResetClusterType()
 	ResetDataprocMetricConfig()
 	ResetEncryptionConfig()
 	ResetEndpointConfig()
+	ResetEngine()
 	ResetGceClusterConfig()
 	ResetInitializationAction()
 	ResetLifecycleConfig()
@@ -218,6 +226,26 @@ func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) ClusterTierInput
 	return returns
 }
 
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) ClusterType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clusterType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) ClusterTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clusterTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -303,6 +331,26 @@ func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) EndpointConfigIn
 	_jsii_.Get(
 		j,
 		"endpointConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) Engine() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"engine",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference) EngineInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"engineInput",
 		&returns,
 	)
 	return returns
@@ -607,6 +655,17 @@ func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference)SetClusterTier(va
 	)
 }
 
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference)SetClusterType(val *string) {
+	if err := j.validateSetClusterTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clusterType",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -625,6 +684,17 @@ func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference)SetComplexObjectI
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigOutputReference)SetEngine(val *string) {
+	if err := j.validateSetEngineParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"engine",
 		val,
 	)
 }
@@ -1048,6 +1118,14 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) ResetClusterTier
 	)
 }
 
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) ResetClusterType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetClusterType",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) ResetDataprocMetricConfig() {
 	_jsii_.InvokeVoid(
 		d,
@@ -1068,6 +1146,14 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) ResetEndpointCon
 	_jsii_.InvokeVoid(
 		d,
 		"resetEndpointConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) ResetEngine() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEngine",
 		nil, // no parameters
 	)
 }

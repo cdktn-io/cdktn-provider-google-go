@@ -59,6 +59,10 @@ func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
 	return nil
 }
 
+func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) validateSetEndTimeBehaviorParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) validateSetInternalValueParameters(val *ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions) error {
 	return nil
 }

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputRef
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference) validatePutServiceAccountAuthConfigParameters(value *DialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowCxWebhookServiceDirectoryGenericWebServiceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

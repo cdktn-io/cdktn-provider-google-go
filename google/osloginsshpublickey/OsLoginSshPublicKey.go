@@ -5,14 +5,14 @@ package osloginsshpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/osloginsshpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/osloginsshpublickey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key}.
 type OsLoginSshPublicKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_OsLoginSshPublicKey) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
 func NewOsLoginSshPublicKey(scope constructs.Construct, id *string, config *OsLoginSshPublicKeyConfig) OsLoginSshPublicKey {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewOsLoginSshPublicKey(scope constructs.Construct, id *string, config *OsLo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
 func NewOsLoginSshPublicKey_Override(o OsLoginSshPublicKey, scope constructs.Construct, id *string, config *OsLoginSshPublicKeyConfig) {
 	_init_.Initialize()
 

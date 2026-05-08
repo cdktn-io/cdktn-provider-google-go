@@ -127,6 +127,10 @@ func (j *jsiiProxy_FirestoreDatabase) validateSetDeletionPolicyParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_FirestoreDatabase) validateSetFirestoreDataAccessModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirestoreDatabase) validateSetIdParameters(val *string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (j *jsiiProxy_FirestoreDatabase) validateSetLifecycleParameters(val *cdktn.
 }
 
 func (j *jsiiProxy_FirestoreDatabase) validateSetLocationIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_FirestoreDatabase) validateSetMongodbCompatibleDataAccessModeParameters(val *string) error {
 	return nil
 }
 
@@ -152,6 +160,10 @@ func (j *jsiiProxy_FirestoreDatabase) validateSetProjectParameters(val *string) 
 }
 
 func (j *jsiiProxy_FirestoreDatabase) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_FirestoreDatabase) validateSetRealtimeUpdatesModeParameters(val *string) error {
 	return nil
 }
 

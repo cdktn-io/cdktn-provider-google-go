@@ -5,14 +5,14 @@ package computepublicdelegatedprefix
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computepublicdelegatedprefix/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computepublicdelegatedprefix/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix}.
 type ComputePublicDelegatedPrefix interface {
 	cdktn.TerraformResource
 	AllocatablePrefixLength() *float64
@@ -37,6 +37,7 @@ type ComputePublicDelegatedPrefix interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	EnableEnhancedIpv4Allocation() cdktn.IResolvable
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -51,6 +52,7 @@ type ComputePublicDelegatedPrefix interface {
 	IpCidrRange() *string
 	SetIpCidrRange(val *string)
 	IpCidrRangeInput() *string
+	Ipv6AccessType() *string
 	IsLiveMigration() interface{}
 	SetIsLiveMigration(val interface{})
 	IsLiveMigrationInput() interface{}
@@ -80,6 +82,7 @@ type ComputePublicDelegatedPrefix interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PublicDelegatedSubPrefixs() ComputePublicDelegatedPrefixPublicDelegatedSubPrefixsList
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -265,6 +268,16 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) DescriptionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputePublicDelegatedPrefix) EnableEnhancedIpv4Allocation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"enableEnhancedIpv4Allocation",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputePublicDelegatedPrefix) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -330,6 +343,16 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) IpCidrRangeInput() *string {
 	_jsii_.Get(
 		j,
 		"ipCidrRangeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePublicDelegatedPrefix) Ipv6AccessType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6AccessType",
 		&returns,
 	)
 	return returns
@@ -475,6 +498,16 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ComputePublicDelegatedPrefix) PublicDelegatedSubPrefixs() ComputePublicDelegatedPrefixPublicDelegatedSubPrefixsList {
+	var returns ComputePublicDelegatedPrefixPublicDelegatedSubPrefixsList
+	_jsii_.Get(
+		j,
+		"publicDelegatedSubPrefixs",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputePublicDelegatedPrefix) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -566,7 +599,7 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
 func NewComputePublicDelegatedPrefix(scope constructs.Construct, id *string, config *ComputePublicDelegatedPrefixConfig) ComputePublicDelegatedPrefix {
 	_init_.Initialize()
 
@@ -584,7 +617,7 @@ func NewComputePublicDelegatedPrefix(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
 func NewComputePublicDelegatedPrefix_Override(c ComputePublicDelegatedPrefix, scope constructs.Construct, id *string, config *ComputePublicDelegatedPrefixConfig) {
 	_init_.Initialize()
 

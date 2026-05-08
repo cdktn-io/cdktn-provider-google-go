@@ -5,14 +5,14 @@ package datacatalogentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datacatalogentry/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datacatalogentry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_entry google_data_catalog_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_catalog_entry google_data_catalog_entry}.
 type DataCatalogEntry interface {
 	cdktn.TerraformResource
 	BigqueryDateShardedSpec() DataCatalogEntryBigqueryDateShardedSpecList
@@ -625,7 +625,7 @@ func (j *jsiiProxy_DataCatalogEntry) UserSpecifiedTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
 func NewDataCatalogEntry(scope constructs.Construct, id *string, config *DataCatalogEntryConfig) DataCatalogEntry {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewDataCatalogEntry(scope constructs.Construct, id *string, config *DataCat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
 func NewDataCatalogEntry_Override(d DataCatalogEntry, scope constructs.Construct, id *string, config *DataCatalogEntryConfig) {
 	_init_.Initialize()
 

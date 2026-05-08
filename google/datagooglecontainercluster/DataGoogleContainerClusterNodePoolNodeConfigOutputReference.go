@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -66,6 +66,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	ReservationAffinity() DataGoogleContainerClusterNodePoolNodeConfigReservationAffinityList
 	ResourceLabels() cdktn.StringMap
 	ResourceManagerTags() cdktn.StringMap
+	SandboxConfig() DataGoogleContainerClusterNodePoolNodeConfigSandboxConfigList
 	SecondaryBootDisks() DataGoogleContainerClusterNodePoolNodeConfigSecondaryBootDisksList
 	ServiceAccount() *string
 	ShieldedInstanceConfig() DataGoogleContainerClusterNodePoolNodeConfigShieldedInstanceConfigList
@@ -508,6 +509,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"resourceManagerTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) SandboxConfig() DataGoogleContainerClusterNodePoolNodeConfigSandboxConfigList {
+	var returns DataGoogleContainerClusterNodePoolNodeConfigSandboxConfigList
+	_jsii_.Get(
+		j,
+		"sandboxConfig",
 		&returns,
 	)
 	return returns

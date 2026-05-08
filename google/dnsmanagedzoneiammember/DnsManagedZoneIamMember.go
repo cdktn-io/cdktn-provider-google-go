@@ -5,14 +5,14 @@ package dnsmanagedzoneiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dnsmanagedzoneiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dnsmanagedzoneiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dns_managed_zone_iam_member google_dns_managed_zone_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dns_managed_zone_iam_member google_dns_managed_zone_iam_member}.
 type DnsManagedZoneIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_DnsManagedZoneIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
 func NewDnsManagedZoneIamMember(scope constructs.Construct, id *string, config *DnsManagedZoneIamMemberConfig) DnsManagedZoneIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDnsManagedZoneIamMember(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
 func NewDnsManagedZoneIamMember_Override(d DnsManagedZoneIamMember, scope constructs.Construct, id *string, config *DnsManagedZoneIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package computesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computesecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computesecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,9 @@ type ComputeSecurityPolicyAdvancedOptionsConfigOutputReference interface {
 	LogLevel() *string
 	SetLogLevel(val *string)
 	LogLevelInput() *string
+	RequestBodyInspectionSize() *string
+	SetRequestBodyInspectionSize(val *string)
+	RequestBodyInspectionSizeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,6 +82,7 @@ type ComputeSecurityPolicyAdvancedOptionsConfigOutputReference interface {
 	ResetJsonCustomConfig()
 	ResetJsonParsing()
 	ResetLogLevel()
+	ResetRequestBodyInspectionSize()
 	ResetUserIpRequestHeaders()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -205,6 +209,26 @@ func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference) Lo
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference) RequestBodyInspectionSize() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestBodyInspectionSize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference) RequestBodyInspectionSizeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestBodyInspectionSizeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -324,6 +348,17 @@ func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference)Set
 	_jsii_.Set(
 		j,
 		"logLevel",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference)SetRequestBodyInspectionSize(val *string) {
+	if err := j.validateSetRequestBodyInspectionSizeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"requestBodyInspectionSize",
 		val,
 	)
 }
@@ -578,6 +613,14 @@ func (c *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference) Re
 	_jsii_.InvokeVoid(
 		c,
 		"resetLogLevel",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSecurityPolicyAdvancedOptionsConfigOutputReference) ResetRequestBodyInspectionSize() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRequestBodyInspectionSize",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package kmskeyhandle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/kmskeyhandle/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/kmskeyhandle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/kms_key_handle google_kms_key_handle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/kms_key_handle google_kms_key_handle}.
 type KmsKeyHandle interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_KmsKeyHandle) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/kms_key_handle google_kms_key_handle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/kms_key_handle google_kms_key_handle} Resource.
 func NewKmsKeyHandle(scope constructs.Construct, id *string, config *KmsKeyHandleConfig) KmsKeyHandle {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewKmsKeyHandle(scope constructs.Construct, id *string, config *KmsKeyHandl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/kms_key_handle google_kms_key_handle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/kms_key_handle google_kms_key_handle} Resource.
 func NewKmsKeyHandle_Override(k KmsKeyHandle, scope constructs.Construct, id *string, config *KmsKeyHandleConfig) {
 	_init_.Initialize()
 

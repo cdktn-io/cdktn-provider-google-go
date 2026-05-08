@@ -123,6 +123,14 @@ func (j *jsiiProxy_AlloydbUser) validateSetPasswordParameters(val *string) error
 	return nil
 }
 
+func (j *jsiiProxy_AlloydbUser) validateSetPasswordWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AlloydbUser) validateSetPasswordWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AlloydbUser) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

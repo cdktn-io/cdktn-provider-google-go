@@ -5,14 +5,14 @@ package computepublicadvertisedprefix
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computepublicadvertisedprefix/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computepublicadvertisedprefix/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_public_advertised_prefix google_compute_public_advertised_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_public_advertised_prefix google_compute_public_advertised_prefix}.
 type ComputePublicAdvertisedPrefix interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,6 +51,9 @@ type ComputePublicAdvertisedPrefix interface {
 	IpCidrRange() *string
 	SetIpCidrRange(val *string)
 	IpCidrRangeInput() *string
+	Ipv6AccessType() *string
+	SetIpv6AccessType(val *string)
+	Ipv6AccessTypeInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -131,7 +134,9 @@ type ComputePublicAdvertisedPrefix interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputePublicAdvertisedPrefixTimeouts)
 	ResetDescription()
+	ResetDnsVerificationIp()
 	ResetId()
+	ResetIpv6AccessType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -325,6 +330,26 @@ func (j *jsiiProxy_ComputePublicAdvertisedPrefix) IpCidrRangeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputePublicAdvertisedPrefix) Ipv6AccessType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6AccessType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePublicAdvertisedPrefix) Ipv6AccessTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6AccessTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputePublicAdvertisedPrefix) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -506,7 +531,7 @@ func (j *jsiiProxy_ComputePublicAdvertisedPrefix) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
 func NewComputePublicAdvertisedPrefix(scope constructs.Construct, id *string, config *ComputePublicAdvertisedPrefixConfig) ComputePublicAdvertisedPrefix {
 	_init_.Initialize()
 
@@ -524,7 +549,7 @@ func NewComputePublicAdvertisedPrefix(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
 func NewComputePublicAdvertisedPrefix_Override(c ComputePublicAdvertisedPrefix, scope constructs.Construct, id *string, config *ComputePublicAdvertisedPrefixConfig) {
 	_init_.Initialize()
 
@@ -613,6 +638,17 @@ func (j *jsiiProxy_ComputePublicAdvertisedPrefix)SetIpCidrRange(val *string) {
 	_jsii_.Set(
 		j,
 		"ipCidrRange",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputePublicAdvertisedPrefix)SetIpv6AccessType(val *string) {
+	if err := j.validateSetIpv6AccessTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv6AccessType",
 		val,
 	)
 }
@@ -1052,10 +1088,26 @@ func (c *jsiiProxy_ComputePublicAdvertisedPrefix) ResetDescription() {
 	)
 }
 
+func (c *jsiiProxy_ComputePublicAdvertisedPrefix) ResetDnsVerificationIp() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDnsVerificationIp",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputePublicAdvertisedPrefix) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputePublicAdvertisedPrefix) ResetIpv6AccessType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIpv6AccessType",
 		nil, // no parameters
 	)
 }

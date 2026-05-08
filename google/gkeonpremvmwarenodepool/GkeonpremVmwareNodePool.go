@@ -5,14 +5,14 @@ package gkeonpremvmwarenodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/gkeonpremvmwarenodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/gkeonpremvmwarenodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool}.
 type GkeonpremVmwareNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -69,6 +69,8 @@ type GkeonpremVmwareNodePool interface {
 	NodePoolAutoscaling() GkeonpremVmwareNodePoolNodePoolAutoscalingOutputReference
 	NodePoolAutoscalingInput() *GkeonpremVmwareNodePoolNodePoolAutoscaling
 	OnPremVersion() *string
+	SetOnPremVersion(val *string)
+	OnPremVersionInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -148,6 +150,7 @@ type GkeonpremVmwareNodePool interface {
 	ResetDisplayName()
 	ResetId()
 	ResetNodePoolAutoscaling()
+	ResetOnPremVersion()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -470,6 +473,16 @@ func (j *jsiiProxy_GkeonpremVmwareNodePool) OnPremVersion() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GkeonpremVmwareNodePool) OnPremVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onPremVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GkeonpremVmwareNodePool) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -641,7 +654,7 @@ func (j *jsiiProxy_GkeonpremVmwareNodePool) VmwareClusterInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
 func NewGkeonpremVmwareNodePool(scope constructs.Construct, id *string, config *GkeonpremVmwareNodePoolConfig) GkeonpremVmwareNodePool {
 	_init_.Initialize()
 
@@ -659,7 +672,7 @@ func NewGkeonpremVmwareNodePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
 func NewGkeonpremVmwareNodePool_Override(g GkeonpremVmwareNodePool, scope constructs.Construct, id *string, config *GkeonpremVmwareNodePoolConfig) {
 	_init_.Initialize()
 
@@ -770,6 +783,17 @@ func (j *jsiiProxy_GkeonpremVmwareNodePool)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeonpremVmwareNodePool)SetOnPremVersion(val *string) {
+	if err := j.validateSetOnPremVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"onPremVersion",
 		val,
 	)
 }
@@ -1229,6 +1253,14 @@ func (g *jsiiProxy_GkeonpremVmwareNodePool) ResetNodePoolAutoscaling() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNodePoolAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GkeonpremVmwareNodePool) ResetOnPremVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOnPremVersion",
 		nil, // no parameters
 	)
 }

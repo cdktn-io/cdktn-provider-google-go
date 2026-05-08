@@ -115,6 +115,10 @@ func (c *jsiiProxy_ComputeBackendService) validatePutOutlierDetectionParameters(
 	return nil
 }
 
+func (c *jsiiProxy_ComputeBackendService) validatePutParamsParameters(value *ComputeBackendServiceParams) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeBackendService) validatePutSecuritySettingsParameters(value *ComputeBackendServiceSecuritySettings) error {
 	return nil
 }

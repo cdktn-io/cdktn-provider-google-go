@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package cloudrunv2workerpool
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validatePutHttpHeadersParameters(value *CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetInternalValueParameters(val *CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetPortParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

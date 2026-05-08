@@ -5,14 +5,14 @@ package folderiamauditconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/folderiamauditconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/folderiamauditconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/folder_iam_audit_config google_folder_iam_audit_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/folder_iam_audit_config google_folder_iam_audit_config}.
 type FolderIamAuditConfig interface {
 	cdktn.TerraformResource
 	AuditLogConfig() FolderIamAuditConfigAuditLogConfigList
@@ -399,7 +399,7 @@ func (j *jsiiProxy_FolderIamAuditConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/folder_iam_audit_config google_folder_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/folder_iam_audit_config google_folder_iam_audit_config} Resource.
 func NewFolderIamAuditConfig(scope constructs.Construct, id *string, config *FolderIamAuditConfigConfig) FolderIamAuditConfig {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewFolderIamAuditConfig(scope constructs.Construct, id *string, config *Fol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/folder_iam_audit_config google_folder_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/folder_iam_audit_config google_folder_iam_audit_config} Resource.
 func NewFolderIamAuditConfig_Override(f FolderIamAuditConfig, scope constructs.Construct, id *string, config *FolderIamAuditConfigConfig) {
 	_init_.Initialize()
 

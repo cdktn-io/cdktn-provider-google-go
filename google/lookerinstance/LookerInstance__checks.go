@@ -218,6 +218,17 @@ func (l *jsiiProxy_LookerInstance) validatePutAdminSettingsParameters(value *Loo
 	return nil
 }
 
+func (l *jsiiProxy_LookerInstance) validatePutControlledEgressConfigParameters(value *LookerInstanceControlledEgressConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LookerInstance) validatePutCustomDomainParameters(value *LookerInstanceCustomDomain) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -263,6 +274,17 @@ func (l *jsiiProxy_LookerInstance) validatePutMaintenanceWindowParameters(value 
 }
 
 func (l *jsiiProxy_LookerInstance) validatePutOauthConfigParameters(value *LookerInstanceOauthConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LookerInstance) validatePutPeriodicExportConfigParameters(value *LookerInstancePeriodicExportConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -387,6 +409,26 @@ func (j *jsiiProxy_LookerInstance) validateSetConsumerNetworkParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_LookerInstance) validateSetControlledEgressEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_LookerInstance) validateSetCountParameters(val interface{}) error {
 	switch val.(type) {
 	case *float64:
@@ -453,6 +495,26 @@ func (j *jsiiProxy_LookerInstance) validateSetDeletionPolicyParameters(val *stri
 }
 
 func (j *jsiiProxy_LookerInstance) validateSetFipsEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LookerInstance) validateSetGeminiEnabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

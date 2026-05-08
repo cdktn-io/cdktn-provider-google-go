@@ -115,6 +115,10 @@ func (j *jsiiProxy_KmsAutokeyConfig) validateSetKeyProjectParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_KmsAutokeyConfig) validateSetKeyProjectResolutionModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_KmsAutokeyConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

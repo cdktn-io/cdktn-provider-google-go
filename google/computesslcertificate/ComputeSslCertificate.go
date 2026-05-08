@@ -5,14 +5,14 @@ package computesslcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computesslcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computesslcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate}.
 type ComputeSslCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -66,6 +66,12 @@ type ComputeSslCertificate interface {
 	PrivateKey() *string
 	SetPrivateKey(val *string)
 	PrivateKeyInput() *string
+	PrivateKeyWo() *string
+	SetPrivateKeyWo(val *string)
+	PrivateKeyWoInput() *string
+	PrivateKeyWoVersion() *string
+	SetPrivateKeyWoVersion(val *string)
+	PrivateKeyWoVersionInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -139,6 +145,9 @@ type ComputeSslCertificate interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPrivateKey()
+	ResetPrivateKeyWo()
+	ResetPrivateKeyWoVersion()
 	ResetProject()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -418,6 +427,46 @@ func (j *jsiiProxy_ComputeSslCertificate) PrivateKeyInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSslCertificate) PrivateKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSslCertificate) PrivateKeyWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateKeyWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSslCertificate) PrivateKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSslCertificate) PrivateKeyWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateKeyWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSslCertificate) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -529,7 +578,7 @@ func (j *jsiiProxy_ComputeSslCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
 func NewComputeSslCertificate(scope constructs.Construct, id *string, config *ComputeSslCertificateConfig) ComputeSslCertificate {
 	_init_.Initialize()
 
@@ -547,7 +596,7 @@ func NewComputeSslCertificate(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
 func NewComputeSslCertificate_Override(c ComputeSslCertificate, scope constructs.Construct, id *string, config *ComputeSslCertificateConfig) {
 	_init_.Initialize()
 
@@ -669,6 +718,28 @@ func (j *jsiiProxy_ComputeSslCertificate)SetPrivateKey(val *string) {
 	_jsii_.Set(
 		j,
 		"privateKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSslCertificate)SetPrivateKeyWo(val *string) {
+	if err := j.validateSetPrivateKeyWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateKeyWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSslCertificate)SetPrivateKeyWoVersion(val *string) {
+	if err := j.validateSetPrivateKeyWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateKeyWoVersion",
 		val,
 	)
 }
@@ -1103,6 +1174,30 @@ func (c *jsiiProxy_ComputeSslCertificate) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSslCertificate) ResetPrivateKey() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPrivateKey",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSslCertificate) ResetPrivateKeyWo() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPrivateKeyWo",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSslCertificate) ResetPrivateKeyWoVersion() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPrivateKeyWoVersion",
 		nil, // no parameters
 	)
 }

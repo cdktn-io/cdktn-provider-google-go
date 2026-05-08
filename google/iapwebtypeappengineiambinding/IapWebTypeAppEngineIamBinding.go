@@ -5,14 +5,14 @@ package iapwebtypeappengineiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iapwebtypeappengineiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iapwebtypeappengineiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding}.
 type IapWebTypeAppEngineIamBinding interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_IapWebTypeAppEngineIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding} Resource.
 func NewIapWebTypeAppEngineIamBinding(scope constructs.Construct, id *string, config *IapWebTypeAppEngineIamBindingConfig) IapWebTypeAppEngineIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewIapWebTypeAppEngineIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding} Resource.
 func NewIapWebTypeAppEngineIamBinding_Override(i IapWebTypeAppEngineIamBinding, scope constructs.Construct, id *string, config *IapWebTypeAppEngineIamBindingConfig) {
 	_init_.Initialize()
 

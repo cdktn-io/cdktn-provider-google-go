@@ -5,14 +5,14 @@ package sccv2projectmuteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/sccv2projectmuteconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/sccv2projectmuteconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_v2_project_mute_config google_scc_v2_project_mute_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_v2_project_mute_config google_scc_v2_project_mute_config}.
 type SccV2ProjectMuteConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_SccV2ProjectMuteConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_v2_project_mute_config google_scc_v2_project_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_v2_project_mute_config google_scc_v2_project_mute_config} Resource.
 func NewSccV2ProjectMuteConfig(scope constructs.Construct, id *string, config *SccV2ProjectMuteConfigConfig) SccV2ProjectMuteConfig {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewSccV2ProjectMuteConfig(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_v2_project_mute_config google_scc_v2_project_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_v2_project_mute_config google_scc_v2_project_mute_config} Resource.
 func NewSccV2ProjectMuteConfig_Override(s SccV2ProjectMuteConfig, scope constructs.Construct, id *string, config *SccV2ProjectMuteConfigConfig) {
 	_init_.Initialize()
 

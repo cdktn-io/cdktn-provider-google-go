@@ -5,9 +5,9 @@ package computeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,9 @@ type ComputeServiceAttachmentConsumerAcceptListsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EndpointUrl() *string
+	SetEndpointUrl(val *string)
+	EndpointUrlInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -73,6 +76,7 @@ type ComputeServiceAttachmentConsumerAcceptListsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetEndpointUrl()
 	ResetNetworkUrl()
 	ResetProjectIdOrNum()
 	// Produce the Token's value at resolution time.
@@ -135,6 +139,26 @@ func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference) C
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference) EndpointUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference) EndpointUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointUrlInput",
 		&returns,
 	)
 	return returns
@@ -277,6 +301,17 @@ func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference)Se
 	_jsii_.Set(
 		j,
 		"connectionLimit",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference)SetEndpointUrl(val *string) {
+	if err := j.validateSetEndpointUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointUrl",
 		val,
 	)
 }
@@ -520,6 +555,14 @@ func (c *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference) I
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference) ResetEndpointUrl() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEndpointUrl",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ComputeServiceAttachmentConsumerAcceptListsOutputReference) ResetNetworkUrl() {

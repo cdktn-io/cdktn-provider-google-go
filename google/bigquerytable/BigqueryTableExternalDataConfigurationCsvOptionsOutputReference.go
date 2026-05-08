@@ -5,9 +5,9 @@ package bigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigquerytable/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigquerytable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,6 +50,9 @@ type BigqueryTableExternalDataConfigurationCsvOptionsOutputReference interface {
 	SkipLeadingRows() *float64
 	SetSkipLeadingRows(val *float64)
 	SkipLeadingRowsInput() *float64
+	SourceColumnMatch() *string
+	SetSourceColumnMatch(val *string)
+	SourceColumnMatchInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -87,6 +90,7 @@ type BigqueryTableExternalDataConfigurationCsvOptionsOutputReference interface {
 	ResetEncoding()
 	ResetFieldDelimiter()
 	ResetSkipLeadingRows()
+	ResetSourceColumnMatch()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -272,6 +276,26 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReference) SourceColumnMatch() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceColumnMatch",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReference) SourceColumnMatchInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceColumnMatchInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -415,6 +439,17 @@ func (j *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReferen
 	_jsii_.Set(
 		j,
 		"skipLeadingRows",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReference)SetSourceColumnMatch(val *string) {
+	if err := j.validateSetSourceColumnMatchParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceColumnMatch",
 		val,
 	)
 }
@@ -663,6 +698,14 @@ func (b *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReferen
 	_jsii_.InvokeVoid(
 		b,
 		"resetSkipLeadingRows",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryTableExternalDataConfigurationCsvOptionsOutputReference) ResetSourceColumnMatch() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSourceColumnMatch",
 		nil, // no parameters
 	)
 }

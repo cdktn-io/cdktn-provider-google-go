@@ -5,14 +5,14 @@ package apigeeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apigeeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apigeeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_instance google_apigee_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_instance google_apigee_instance}.
 type ApigeeInstance interface {
 	cdktn.TerraformResource
 	AccessLoggingConfig() ApigeeInstanceAccessLoggingConfigOutputReference
@@ -613,7 +613,7 @@ func (j *jsiiProxy_ApigeeInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_instance google_apigee_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_instance google_apigee_instance} Resource.
 func NewApigeeInstance(scope constructs.Construct, id *string, config *ApigeeInstanceConfig) ApigeeInstance {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewApigeeInstance(scope constructs.Construct, id *string, config *ApigeeIns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_instance google_apigee_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_instance google_apigee_instance} Resource.
 func NewApigeeInstance_Override(a ApigeeInstance, scope constructs.Construct, id *string, config *ApigeeInstanceConfig) {
 	_init_.Initialize()
 

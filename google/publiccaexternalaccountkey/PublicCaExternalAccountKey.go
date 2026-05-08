@@ -5,14 +5,14 @@ package publiccaexternalaccountkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/publiccaexternalaccountkey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/publiccaexternalaccountkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/public_ca_external_account_key google_public_ca_external_account_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/public_ca_external_account_key google_public_ca_external_account_key}.
 type PublicCaExternalAccountKey interface {
 	cdktn.TerraformResource
 	B64MacKey() *string
@@ -52,6 +52,7 @@ type PublicCaExternalAccountKey interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MacKey() *string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -314,6 +315,16 @@ func (j *jsiiProxy_PublicCaExternalAccountKey) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_PublicCaExternalAccountKey) MacKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"macKey",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PublicCaExternalAccountKey) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -435,7 +446,7 @@ func (j *jsiiProxy_PublicCaExternalAccountKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/public_ca_external_account_key google_public_ca_external_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/public_ca_external_account_key google_public_ca_external_account_key} Resource.
 func NewPublicCaExternalAccountKey(scope constructs.Construct, id *string, config *PublicCaExternalAccountKeyConfig) PublicCaExternalAccountKey {
 	_init_.Initialize()
 
@@ -453,7 +464,7 @@ func NewPublicCaExternalAccountKey(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/public_ca_external_account_key google_public_ca_external_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/public_ca_external_account_key google_public_ca_external_account_key} Resource.
 func NewPublicCaExternalAccountKey_Override(p PublicCaExternalAccountKey, scope constructs.Construct, id *string, config *PublicCaExternalAccountKeyConfig) {
 	_init_.Initialize()
 

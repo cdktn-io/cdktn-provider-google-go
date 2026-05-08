@@ -5,14 +5,14 @@ package dataprocjobiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataprocjobiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataprocjobiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataproc_job_iam_policy google_dataproc_job_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataproc_job_iam_policy google_dataproc_job_iam_policy}.
 type DataprocJobIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataprocJobIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataproc_job_iam_policy google_dataproc_job_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataproc_job_iam_policy google_dataproc_job_iam_policy} Resource.
 func NewDataprocJobIamPolicy(scope constructs.Construct, id *string, config *DataprocJobIamPolicyConfig) DataprocJobIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataprocJobIamPolicy(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataproc_job_iam_policy google_dataproc_job_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataproc_job_iam_policy google_dataproc_job_iam_policy} Resource.
 func NewDataprocJobIamPolicy_Override(d DataprocJobIamPolicy, scope constructs.Construct, id *string, config *DataprocJobIamPolicyConfig) {
 	_init_.Initialize()
 

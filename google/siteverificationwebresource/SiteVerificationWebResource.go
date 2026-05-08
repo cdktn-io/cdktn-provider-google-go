@@ -5,14 +5,14 @@ package siteverificationwebresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/siteverificationwebresource/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/siteverificationwebresource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/site_verification_web_resource google_site_verification_web_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/site_verification_web_resource google_site_verification_web_resource}.
 type SiteVerificationWebResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -411,7 +411,7 @@ func (j *jsiiProxy_SiteVerificationWebResource) WebResourceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
 func NewSiteVerificationWebResource(scope constructs.Construct, id *string, config *SiteVerificationWebResourceConfig) SiteVerificationWebResource {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewSiteVerificationWebResource(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
 func NewSiteVerificationWebResource_Override(s SiteVerificationWebResource, scope constructs.Construct, id *string, config *SiteVerificationWebResourceConfig) {
 	_init_.Initialize()
 

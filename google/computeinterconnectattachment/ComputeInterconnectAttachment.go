@@ -5,14 +5,14 @@ package computeinterconnectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeinterconnectattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeinterconnectattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect_attachment google_compute_interconnect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_interconnect_attachment google_compute_interconnect_attachment}.
 type ComputeInterconnectAttachment interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -22,6 +22,18 @@ type ComputeInterconnectAttachment interface {
 	Bandwidth() *string
 	SetBandwidth(val *string)
 	BandwidthInput() *string
+	CandidateCloudRouterIpAddress() *string
+	SetCandidateCloudRouterIpAddress(val *string)
+	CandidateCloudRouterIpAddressInput() *string
+	CandidateCloudRouterIpv6Address() *string
+	SetCandidateCloudRouterIpv6Address(val *string)
+	CandidateCloudRouterIpv6AddressInput() *string
+	CandidateCustomerRouterIpAddress() *string
+	SetCandidateCustomerRouterIpAddress(val *string)
+	CandidateCustomerRouterIpAddressInput() *string
+	CandidateCustomerRouterIpv6Address() *string
+	SetCandidateCustomerRouterIpv6Address(val *string)
+	CandidateCustomerRouterIpv6AddressInput() *string
 	CandidateSubnets() *[]*string
 	SetCandidateSubnets(val *[]*string)
 	CandidateSubnetsInput() *[]*string
@@ -74,6 +86,8 @@ type ComputeInterconnectAttachment interface {
 	IpsecInternalAddresses() *[]*string
 	SetIpsecInternalAddresses(val *[]*string)
 	IpsecInternalAddressesInput() *[]*string
+	L2Forwarding() ComputeInterconnectAttachmentL2ForwardingOutputReference
+	L2ForwardingInput() *ComputeInterconnectAttachmentL2Forwarding
 	LabelFingerprint() *string
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
@@ -91,6 +105,8 @@ type ComputeInterconnectAttachment interface {
 	// The tree node.
 	Node() constructs.Node
 	PairingKey() *string
+	Params() ComputeInterconnectAttachmentParamsOutputReference
+	ParamsInput() *ComputeInterconnectAttachmentParams
 	PartnerAsn() *string
 	PrivateInterconnectInfo() ComputeInterconnectAttachmentPrivateInterconnectInfoList
 	Project() *string
@@ -178,9 +194,15 @@ type ComputeInterconnectAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutL2Forwarding(value *ComputeInterconnectAttachmentL2Forwarding)
+	PutParams(value *ComputeInterconnectAttachmentParams)
 	PutTimeouts(value *ComputeInterconnectAttachmentTimeouts)
 	ResetAdminEnabled()
 	ResetBandwidth()
+	ResetCandidateCloudRouterIpAddress()
+	ResetCandidateCloudRouterIpv6Address()
+	ResetCandidateCustomerRouterIpAddress()
+	ResetCandidateCustomerRouterIpv6Address()
 	ResetCandidateSubnets()
 	ResetDescription()
 	ResetEdgeAvailabilityDomain()
@@ -188,13 +210,16 @@ type ComputeInterconnectAttachment interface {
 	ResetId()
 	ResetInterconnect()
 	ResetIpsecInternalAddresses()
+	ResetL2Forwarding()
 	ResetLabels()
 	ResetMtu()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRegion()
+	ResetRouter()
 	ResetStackType()
 	ResetSubnetLength()
 	ResetTimeouts()
@@ -272,6 +297,86 @@ func (j *jsiiProxy_ComputeInterconnectAttachment) BandwidthInput() *string {
 	_jsii_.Get(
 		j,
 		"bandwidthInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCloudRouterIpAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCloudRouterIpAddress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCloudRouterIpAddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCloudRouterIpAddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCloudRouterIpv6Address() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCloudRouterIpv6Address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCloudRouterIpv6AddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCloudRouterIpv6AddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCustomerRouterIpAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCustomerRouterIpAddress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCustomerRouterIpAddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCustomerRouterIpAddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCustomerRouterIpv6Address() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCustomerRouterIpv6Address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) CandidateCustomerRouterIpv6AddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"candidateCustomerRouterIpv6AddressInput",
 		&returns,
 	)
 	return returns
@@ -567,6 +672,26 @@ func (j *jsiiProxy_ComputeInterconnectAttachment) IpsecInternalAddressesInput() 
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInterconnectAttachment) L2Forwarding() ComputeInterconnectAttachmentL2ForwardingOutputReference {
+	var returns ComputeInterconnectAttachmentL2ForwardingOutputReference
+	_jsii_.Get(
+		j,
+		"l2Forwarding",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) L2ForwardingInput() *ComputeInterconnectAttachmentL2Forwarding {
+	var returns *ComputeInterconnectAttachmentL2Forwarding
+	_jsii_.Get(
+		j,
+		"l2ForwardingInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeInterconnectAttachment) LabelFingerprint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -662,6 +787,26 @@ func (j *jsiiProxy_ComputeInterconnectAttachment) PairingKey() *string {
 	_jsii_.Get(
 		j,
 		"pairingKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) Params() ComputeInterconnectAttachmentParamsOutputReference {
+	var returns ComputeInterconnectAttachmentParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment) ParamsInput() *ComputeInterconnectAttachmentParams {
+	var returns *ComputeInterconnectAttachmentParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
 		&returns,
 	)
 	return returns
@@ -938,7 +1083,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachment) VlanTag8021QInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect_attachment google_compute_interconnect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_interconnect_attachment google_compute_interconnect_attachment} Resource.
 func NewComputeInterconnectAttachment(scope constructs.Construct, id *string, config *ComputeInterconnectAttachmentConfig) ComputeInterconnectAttachment {
 	_init_.Initialize()
 
@@ -956,7 +1101,7 @@ func NewComputeInterconnectAttachment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_interconnect_attachment google_compute_interconnect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_interconnect_attachment google_compute_interconnect_attachment} Resource.
 func NewComputeInterconnectAttachment_Override(c ComputeInterconnectAttachment, scope constructs.Construct, id *string, config *ComputeInterconnectAttachmentConfig) {
 	_init_.Initialize()
 
@@ -985,6 +1130,50 @@ func (j *jsiiProxy_ComputeInterconnectAttachment)SetBandwidth(val *string) {
 	_jsii_.Set(
 		j,
 		"bandwidth",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment)SetCandidateCloudRouterIpAddress(val *string) {
+	if err := j.validateSetCandidateCloudRouterIpAddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"candidateCloudRouterIpAddress",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment)SetCandidateCloudRouterIpv6Address(val *string) {
+	if err := j.validateSetCandidateCloudRouterIpv6AddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"candidateCloudRouterIpv6Address",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment)SetCandidateCustomerRouterIpAddress(val *string) {
+	if err := j.validateSetCandidateCustomerRouterIpAddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"candidateCustomerRouterIpAddress",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachment)SetCandidateCustomerRouterIpv6Address(val *string) {
+	if err := j.validateSetCandidateCustomerRouterIpv6AddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"candidateCustomerRouterIpv6Address",
 		val,
 	)
 }
@@ -1597,6 +1786,28 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) OverrideLogicalId(newLogicalId
 	)
 }
 
+func (c *jsiiProxy_ComputeInterconnectAttachment) PutL2Forwarding(value *ComputeInterconnectAttachmentL2Forwarding) {
+	if err := c.validatePutL2ForwardingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putL2Forwarding",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) PutParams(value *ComputeInterconnectAttachmentParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeInterconnectAttachment) PutTimeouts(value *ComputeInterconnectAttachmentTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1620,6 +1831,38 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) ResetBandwidth() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetBandwidth",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetCandidateCloudRouterIpAddress() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCandidateCloudRouterIpAddress",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetCandidateCloudRouterIpv6Address() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCandidateCloudRouterIpv6Address",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetCandidateCustomerRouterIpAddress() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCandidateCustomerRouterIpAddress",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetCandidateCustomerRouterIpv6Address() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCandidateCustomerRouterIpv6Address",
 		nil, // no parameters
 	)
 }
@@ -1680,6 +1923,14 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) ResetIpsecInternalAddresses() 
 	)
 }
 
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetL2Forwarding() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetL2Forwarding",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeInterconnectAttachment) ResetLabels() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1704,6 +1955,14 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) ResetOverrideLogicalId() {
 	)
 }
 
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeInterconnectAttachment) ResetProject() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1716,6 +1975,14 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) ResetRegion() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) ResetRouter() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRouter",
 		nil, // no parameters
 	)
 }

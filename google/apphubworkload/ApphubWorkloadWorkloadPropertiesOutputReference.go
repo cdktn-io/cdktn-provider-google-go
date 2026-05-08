@@ -5,9 +5,9 @@ package apphubworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apphubworkload/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apphubworkload/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,9 +28,12 @@ type ApphubWorkloadWorkloadPropertiesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExtendedMetadata() ApphubWorkloadWorkloadPropertiesExtendedMetadataList
 	// Experimental.
 	Fqn() *string
+	FunctionalType() ApphubWorkloadWorkloadPropertiesFunctionalTypeList
 	GcpProject() *string
+	Identity() ApphubWorkloadWorkloadPropertiesIdentityList
 	InternalValue() *ApphubWorkloadWorkloadProperties
 	SetInternalValue(val *ApphubWorkloadWorkloadProperties)
 	Location() *string
@@ -112,6 +115,16 @@ func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) CreationStac
 	return returns
 }
 
+func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) ExtendedMetadata() ApphubWorkloadWorkloadPropertiesExtendedMetadataList {
+	var returns ApphubWorkloadWorkloadPropertiesExtendedMetadataList
+	_jsii_.Get(
+		j,
+		"extendedMetadata",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -122,11 +135,31 @@ func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) Fqn() *strin
 	return returns
 }
 
+func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) FunctionalType() ApphubWorkloadWorkloadPropertiesFunctionalTypeList {
+	var returns ApphubWorkloadWorkloadPropertiesFunctionalTypeList
+	_jsii_.Get(
+		j,
+		"functionalType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) GcpProject() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"gcpProject",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApphubWorkloadWorkloadPropertiesOutputReference) Identity() ApphubWorkloadWorkloadPropertiesIdentityList {
+	var returns ApphubWorkloadWorkloadPropertiesIdentityList
+	_jsii_.Get(
+		j,
+		"identity",
 		&returns,
 	)
 	return returns

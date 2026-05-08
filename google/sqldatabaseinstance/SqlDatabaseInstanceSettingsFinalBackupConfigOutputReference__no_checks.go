@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package sqldatabaseinstance
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetInternalValueParameters(val *SqlDatabaseInstanceSettingsFinalBackupConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetRetentionDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsFinalBackupConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewSqlDatabaseInstanceSettingsFinalBackupConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

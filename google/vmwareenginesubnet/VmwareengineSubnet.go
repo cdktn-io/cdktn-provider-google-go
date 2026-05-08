@@ -5,14 +5,14 @@ package vmwareenginesubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vmwareenginesubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vmwareenginesubnet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_subnet google_vmwareengine_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_subnet google_vmwareengine_subnet}.
 type VmwareengineSubnet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_VmwareengineSubnet) VlanId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_subnet google_vmwareengine_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_subnet google_vmwareengine_subnet} Resource.
 func NewVmwareengineSubnet(scope constructs.Construct, id *string, config *VmwareengineSubnetConfig) VmwareengineSubnet {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewVmwareengineSubnet(scope constructs.Construct, id *string, config *Vmwar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_subnet google_vmwareengine_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_subnet google_vmwareengine_subnet} Resource.
 func NewVmwareengineSubnet_Override(v VmwareengineSubnet, scope constructs.Construct, id *string, config *VmwareengineSubnetConfig) {
 	_init_.Initialize()
 

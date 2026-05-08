@@ -5,9 +5,9 @@ package datalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datalosspreventiondiscoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datalosspreventiondiscoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type DataLossPreventionDiscoveryConfigActionsExportDataOutputReference interface
 	SetInternalValue(val *DataLossPreventionDiscoveryConfigActionsExportData)
 	ProfileTable() DataLossPreventionDiscoveryConfigActionsExportDataProfileTableOutputReference
 	ProfileTableInput() *DataLossPreventionDiscoveryConfigActionsExportDataProfileTable
+	SampleFindingsTable() DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTableOutputReference
+	SampleFindingsTableInput() *DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type DataLossPreventionDiscoveryConfigActionsExportDataOutputReference interface
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutProfileTable(value *DataLossPreventionDiscoveryConfigActionsExportDataProfileTable)
+	PutSampleFindingsTable(value *DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTable)
 	ResetProfileTable()
+	ResetSampleFindingsTable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputRefer
 	_jsii_.Get(
 		j,
 		"profileTableInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) SampleFindingsTable() DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTableOutputReference {
+	var returns DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTableOutputReference
+	_jsii_.Get(
+		j,
+		"sampleFindingsTable",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) SampleFindingsTableInput() *DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTable {
+	var returns *DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTable
+	_jsii_.Get(
+		j,
+		"sampleFindingsTableInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputRefer
 	)
 }
 
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) PutSampleFindingsTable(value *DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTable) {
+	if err := d.validatePutSampleFindingsTableParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putSampleFindingsTable",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) ResetProfileTable() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetProfileTable",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) ResetSampleFindingsTable() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSampleFindingsTable",
 		nil, // no parameters
 	)
 }

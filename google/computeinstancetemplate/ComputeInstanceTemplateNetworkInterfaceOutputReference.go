@@ -5,9 +5,9 @@ package computeinstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeinstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeinstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,9 @@ type ComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IgmpQuery() *string
+	SetIgmpQuery(val *string)
+	IgmpQueryInput() *string
 	InternalIpv6PrefixLength() *float64
 	SetInternalIpv6PrefixLength(val *float64)
 	InternalIpv6PrefixLengthInput() *float64
@@ -48,6 +51,9 @@ type ComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	Name() *string
 	Network() *string
 	SetNetwork(val *string)
+	NetworkAttachment() *string
+	SetNetworkAttachment(val *string)
+	NetworkAttachmentInput() *string
 	NetworkInput() *string
 	NetworkIp() *string
 	SetNetworkIp(val *string)
@@ -55,6 +61,7 @@ type ComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	NicType() *string
 	SetNicType(val *string)
 	NicTypeInput() *string
+	ParentNicName() *string
 	QueueCount() *float64
 	SetQueueCount(val *float64)
 	QueueCountInput() *float64
@@ -75,6 +82,9 @@ type ComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Vlan() *float64
+	SetVlan(val *float64)
+	VlanInput() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -104,16 +114,19 @@ type ComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	PutIpv6AccessConfig(value interface{})
 	ResetAccessConfig()
 	ResetAliasIpRange()
+	ResetIgmpQuery()
 	ResetInternalIpv6PrefixLength()
 	ResetIpv6AccessConfig()
 	ResetIpv6Address()
 	ResetNetwork()
+	ResetNetworkAttachment()
 	ResetNetworkIp()
 	ResetNicType()
 	ResetQueueCount()
 	ResetStackType()
 	ResetSubnetwork()
 	ResetSubnetworkProject()
+	ResetVlan()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -204,6 +217,26 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Fqn()
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) IgmpQuery() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"igmpQuery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) IgmpQueryInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"igmpQueryInput",
 		&returns,
 	)
 	return returns
@@ -309,6 +342,26 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Netwo
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) NetworkAttachment() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkAttachment",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) NetworkAttachmentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkAttachmentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) NetworkInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -354,6 +407,16 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) NicTy
 	_jsii_.Get(
 		j,
 		"nicTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) ParentNicName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentNicName",
 		&returns,
 	)
 	return returns
@@ -459,6 +522,26 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Terra
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Vlan() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vlan",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) VlanInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vlanInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewComputeInstanceTemplateNetworkInterfaceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ComputeInstanceTemplateNetworkInterfaceOutputReference {
 	_init_.Initialize()
@@ -509,6 +592,17 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetCom
 	)
 }
 
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetIgmpQuery(val *string) {
+	if err := j.validateSetIgmpQueryParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"igmpQuery",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetInternalIpv6PrefixLength(val *float64) {
 	if err := j.validateSetInternalIpv6PrefixLengthParameters(val); err != nil {
 		panic(err)
@@ -549,6 +643,17 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetNet
 	_jsii_.Set(
 		j,
 		"network",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetNetworkAttachment(val *string) {
+	if err := j.validateSetNetworkAttachmentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkAttachment",
 		val,
 	)
 }
@@ -637,6 +742,17 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetTer
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference)SetVlan(val *float64) {
+	if err := j.validateSetVlanParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vlan",
 		val,
 	)
 }
@@ -876,6 +992,14 @@ func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Reset
 	)
 }
 
+func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) ResetIgmpQuery() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIgmpQuery",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) ResetInternalIpv6PrefixLength() {
 	_jsii_.InvokeVoid(
 		c,
@@ -904,6 +1028,14 @@ func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetNetwork",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) ResetNetworkAttachment() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNetworkAttachment",
 		nil, // no parameters
 	)
 }
@@ -952,6 +1084,14 @@ func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetSubnetworkProject",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) ResetVlan() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetVlan",
 		nil, // no parameters
 	)
 }

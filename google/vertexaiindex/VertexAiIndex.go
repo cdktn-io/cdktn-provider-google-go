@@ -5,14 +5,14 @@ package vertexaiindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vertexaiindex/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vertexaiindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_index google_vertex_ai_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_index google_vertex_ai_index}.
 type VertexAiIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -40,6 +40,8 @@ type VertexAiIndex interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	EffectiveLabels() cdktn.StringMap
+	EncryptionSpec() VertexAiIndexEncryptionSpecOutputReference
+	EncryptionSpecInput() *VertexAiIndexEncryptionSpec
 	Etag() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -138,13 +140,14 @@ type VertexAiIndex interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEncryptionSpec(value *VertexAiIndexEncryptionSpec)
 	PutMetadata(value *VertexAiIndexMetadata)
 	PutTimeouts(value *VertexAiIndexTimeouts)
 	ResetDescription()
+	ResetEncryptionSpec()
 	ResetId()
 	ResetIndexUpdateMethod()
 	ResetLabels()
-	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -293,6 +296,26 @@ func (j *jsiiProxy_VertexAiIndex) EffectiveLabels() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiIndex) EncryptionSpec() VertexAiIndexEncryptionSpecOutputReference {
+	var returns VertexAiIndexEncryptionSpecOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiIndex) EncryptionSpecInput() *VertexAiIndexEncryptionSpec {
+	var returns *VertexAiIndexEncryptionSpec
+	_jsii_.Get(
+		j,
+		"encryptionSpecInput",
 		&returns,
 	)
 	return returns
@@ -609,7 +632,7 @@ func (j *jsiiProxy_VertexAiIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
 func NewVertexAiIndex(scope constructs.Construct, id *string, config *VertexAiIndexConfig) VertexAiIndex {
 	_init_.Initialize()
 
@@ -627,7 +650,7 @@ func NewVertexAiIndex(scope constructs.Construct, id *string, config *VertexAiIn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
 func NewVertexAiIndex_Override(v VertexAiIndex, scope constructs.Construct, id *string, config *VertexAiIndexConfig) {
 	_init_.Initialize()
 
@@ -1136,6 +1159,17 @@ func (v *jsiiProxy_VertexAiIndex) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (v *jsiiProxy_VertexAiIndex) PutEncryptionSpec(value *VertexAiIndexEncryptionSpec) {
+	if err := v.validatePutEncryptionSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putEncryptionSpec",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiIndex) PutMetadata(value *VertexAiIndexMetadata) {
 	if err := v.validatePutMetadataParameters(value); err != nil {
 		panic(err)
@@ -1166,6 +1200,14 @@ func (v *jsiiProxy_VertexAiIndex) ResetDescription() {
 	)
 }
 
+func (v *jsiiProxy_VertexAiIndex) ResetEncryptionSpec() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetEncryptionSpec",
+		nil, // no parameters
+	)
+}
+
 func (v *jsiiProxy_VertexAiIndex) ResetId() {
 	_jsii_.InvokeVoid(
 		v,
@@ -1186,14 +1228,6 @@ func (v *jsiiProxy_VertexAiIndex) ResetLabels() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetLabels",
-		nil, // no parameters
-	)
-}
-
-func (v *jsiiProxy_VertexAiIndex) ResetMetadata() {
-	_jsii_.InvokeVoid(
-		v,
-		"resetMetadata",
 		nil, // no parameters
 	)
 }

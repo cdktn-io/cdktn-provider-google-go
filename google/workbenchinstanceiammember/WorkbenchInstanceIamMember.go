@@ -5,14 +5,14 @@ package workbenchinstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/workbenchinstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/workbenchinstanceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/workbench_instance_iam_member google_workbench_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/workbench_instance_iam_member google_workbench_instance_iam_member}.
 type WorkbenchInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_WorkbenchInstanceIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/workbench_instance_iam_member google_workbench_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/workbench_instance_iam_member google_workbench_instance_iam_member} Resource.
 func NewWorkbenchInstanceIamMember(scope constructs.Construct, id *string, config *WorkbenchInstanceIamMemberConfig) WorkbenchInstanceIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewWorkbenchInstanceIamMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/workbench_instance_iam_member google_workbench_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/workbench_instance_iam_member google_workbench_instance_iam_member} Resource.
 func NewWorkbenchInstanceIamMember_Override(w WorkbenchInstanceIamMember, scope constructs.Construct, id *string, config *WorkbenchInstanceIamMemberConfig) {
 	_init_.Initialize()
 

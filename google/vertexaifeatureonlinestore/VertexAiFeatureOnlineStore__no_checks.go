@@ -83,6 +83,10 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStore) validatePutDedicatedServingEndpoi
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiFeatureOnlineStore) validatePutEncryptionSpecParameters(value *VertexAiFeatureOnlineStoreEncryptionSpec) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiFeatureOnlineStore) validatePutOptimizedParameters(value *VertexAiFeatureOnlineStoreOptimized) error {
 	return nil
 }

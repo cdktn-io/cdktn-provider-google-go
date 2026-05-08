@@ -5,16 +5,14 @@ package gkehubfeaturemembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/gkehubfeaturemembership/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/gkehubfeaturemembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GkeHubFeatureMembershipConfigmanagementOutputReference interface {
 	cdktn.ComplexObject
-	Binauthz() GkeHubFeatureMembershipConfigmanagementBinauthzOutputReference
-	BinauthzInput() *GkeHubFeatureMembershipConfigmanagementBinauthz
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -78,11 +76,9 @@ type GkeHubFeatureMembershipConfigmanagementOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutBinauthz(value *GkeHubFeatureMembershipConfigmanagementBinauthz)
 	PutConfigSync(value *GkeHubFeatureMembershipConfigmanagementConfigSync)
 	PutHierarchyController(value *GkeHubFeatureMembershipConfigmanagementHierarchyController)
 	PutPolicyController(value *GkeHubFeatureMembershipConfigmanagementPolicyController)
-	ResetBinauthz()
 	ResetConfigSync()
 	ResetHierarchyController()
 	ResetManagement()
@@ -101,26 +97,6 @@ type GkeHubFeatureMembershipConfigmanagementOutputReference interface {
 // The jsii proxy struct for GkeHubFeatureMembershipConfigmanagementOutputReference
 type jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference struct {
 	internal.Type__cdktnComplexObject
-}
-
-func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) Binauthz() GkeHubFeatureMembershipConfigmanagementBinauthzOutputReference {
-	var returns GkeHubFeatureMembershipConfigmanagementBinauthzOutputReference
-	_jsii_.Get(
-		j,
-		"binauthz",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) BinauthzInput() *GkeHubFeatureMembershipConfigmanagementBinauthz {
-	var returns *GkeHubFeatureMembershipConfigmanagementBinauthz
-	_jsii_.Get(
-		j,
-		"binauthzInput",
-		&returns,
-	)
-	return returns
 }
 
 func (j *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) ComplexObjectIndex() interface{} {
@@ -584,17 +560,6 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) Inter
 	return returns
 }
 
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) PutBinauthz(value *GkeHubFeatureMembershipConfigmanagementBinauthz) {
-	if err := g.validatePutBinauthzParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		g,
-		"putBinauthz",
-		[]interface{}{value},
-	)
-}
-
 func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) PutConfigSync(value *GkeHubFeatureMembershipConfigmanagementConfigSync) {
 	if err := g.validatePutConfigSyncParameters(value); err != nil {
 		panic(err)
@@ -625,14 +590,6 @@ func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) PutPo
 		g,
 		"putPolicyController",
 		[]interface{}{value},
-	)
-}
-
-func (g *jsiiProxy_GkeHubFeatureMembershipConfigmanagementOutputReference) ResetBinauthz() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetBinauthz",
-		nil, // no parameters
 	)
 }
 

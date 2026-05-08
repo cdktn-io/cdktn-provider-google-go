@@ -5,14 +5,14 @@ package vpcaccessconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vpcaccessconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vpcaccessconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vpc_access_connector google_vpc_access_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vpc_access_connector google_vpc_access_connector}.
 type VpcAccessConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -639,7 +639,7 @@ func (j *jsiiProxy_VpcAccessConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vpc_access_connector google_vpc_access_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vpc_access_connector google_vpc_access_connector} Resource.
 func NewVpcAccessConnector(scope constructs.Construct, id *string, config *VpcAccessConnectorConfig) VpcAccessConnector {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewVpcAccessConnector(scope constructs.Construct, id *string, config *VpcAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vpc_access_connector google_vpc_access_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vpc_access_connector google_vpc_access_connector} Resource.
 func NewVpcAccessConnector_Override(v VpcAccessConnector, scope constructs.Construct, id *string, config *VpcAccessConnectorConfig) {
 	_init_.Initialize()
 

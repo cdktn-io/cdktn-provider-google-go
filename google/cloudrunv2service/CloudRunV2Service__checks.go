@@ -229,6 +229,17 @@ func (c *jsiiProxy_CloudRunV2Service) validatePutBuildConfigParameters(value *Cl
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2Service) validatePutMultiRegionSettingsParameters(value *CloudRunV2ServiceMultiRegionSettings) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2Service) validatePutScalingParameters(value *CloudRunV2ServiceScaling) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -455,6 +466,26 @@ func (j *jsiiProxy_CloudRunV2Service) validateSetCustomAudiencesParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2Service) validateSetDefaultUriDisabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2Service) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -478,6 +509,26 @@ func (j *jsiiProxy_CloudRunV2Service) validateSetDeletionProtectionParameters(va
 func (j *jsiiProxy_CloudRunV2Service) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2Service) validateSetIapEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

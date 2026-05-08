@@ -5,14 +5,14 @@ package storageinsightsreportconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/storageinsightsreportconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/storageinsightsreportconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_insights_report_config google_storage_insights_report_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_insights_report_config google_storage_insights_report_config}.
 type StorageInsightsReportConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type StorageInsightsReportConfig interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	ForceDestroy() interface{}
+	SetForceDestroy(val interface{})
+	ForceDestroyInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -134,6 +137,7 @@ type StorageInsightsReportConfig interface {
 	PutTimeouts(value *StorageInsightsReportConfigTimeouts)
 	ResetCsvOptions()
 	ResetDisplayName()
+	ResetForceDestroy()
 	ResetFrequencyOptions()
 	ResetId()
 	ResetObjectMetadataReportOptions()
@@ -255,6 +259,26 @@ func (j *jsiiProxy_StorageInsightsReportConfig) DisplayNameInput() *string {
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig) ForceDestroy() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceDestroy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig) ForceDestroyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceDestroyInput",
 		&returns,
 	)
 	return returns
@@ -521,7 +545,7 @@ func (j *jsiiProxy_StorageInsightsReportConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewStorageInsightsReportConfig(scope constructs.Construct, id *string, config *StorageInsightsReportConfigConfig) StorageInsightsReportConfig {
 	_init_.Initialize()
 
@@ -539,7 +563,7 @@ func NewStorageInsightsReportConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewStorageInsightsReportConfig_Override(s StorageInsightsReportConfig, scope constructs.Construct, id *string, config *StorageInsightsReportConfigConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_StorageInsightsReportConfig)SetDisplayName(val *string) {
 	_jsii_.Set(
 		j,
 		"displayName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig)SetForceDestroy(val interface{}) {
+	if err := j.validateSetForceDestroyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forceDestroy",
 		val,
 	)
 }
@@ -1082,6 +1117,14 @@ func (s *jsiiProxy_StorageInsightsReportConfig) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageInsightsReportConfig) ResetForceDestroy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetForceDestroy",
 		nil, // no parameters
 	)
 }

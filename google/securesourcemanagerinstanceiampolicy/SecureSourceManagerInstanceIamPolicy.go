@@ -5,14 +5,14 @@ package securesourcemanagerinstanceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/securesourcemanagerinstanceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/securesourcemanagerinstanceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/secure_source_manager_instance_iam_policy google_secure_source_manager_instance_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/secure_source_manager_instance_iam_policy google_secure_source_manager_instance_iam_policy}.
 type SecureSourceManagerInstanceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SecureSourceManagerInstanceIamPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/secure_source_manager_instance_iam_policy google_secure_source_manager_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/secure_source_manager_instance_iam_policy google_secure_source_manager_instance_iam_policy} Resource.
 func NewSecureSourceManagerInstanceIamPolicy(scope constructs.Construct, id *string, config *SecureSourceManagerInstanceIamPolicyConfig) SecureSourceManagerInstanceIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSecureSourceManagerInstanceIamPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/secure_source_manager_instance_iam_policy google_secure_source_manager_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/secure_source_manager_instance_iam_policy google_secure_source_manager_instance_iam_policy} Resource.
 func NewSecureSourceManagerInstanceIamPolicy_Override(s SecureSourceManagerInstanceIamPolicy, scope constructs.Construct, id *string, config *SecureSourceManagerInstanceIamPolicyConfig) {
 	_init_.Initialize()
 

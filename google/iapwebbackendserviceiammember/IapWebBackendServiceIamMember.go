@@ -5,14 +5,14 @@ package iapwebbackendserviceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iapwebbackendserviceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iapwebbackendserviceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member}.
 type IapWebBackendServiceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_IapWebBackendServiceIamMember) WebBackendServiceInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
 func NewIapWebBackendServiceIamMember(scope constructs.Construct, id *string, config *IapWebBackendServiceIamMemberConfig) IapWebBackendServiceIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewIapWebBackendServiceIamMember(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
 func NewIapWebBackendServiceIamMember_Override(i IapWebBackendServiceIamMember, scope constructs.Construct, id *string, config *IapWebBackendServiceIamMemberConfig) {
 	_init_.Initialize()
 

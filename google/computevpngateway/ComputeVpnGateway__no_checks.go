@@ -75,6 +75,10 @@ func (c *jsiiProxy_ComputeVpnGateway) validateOverrideLogicalIdParameters(newLog
 	return nil
 }
 
+func (c *jsiiProxy_ComputeVpnGateway) validatePutParamsParameters(value *ComputeVpnGatewayParams) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeVpnGateway) validatePutTimeoutsParameters(value *ComputeVpnGatewayTimeouts) error {
 	return nil
 }

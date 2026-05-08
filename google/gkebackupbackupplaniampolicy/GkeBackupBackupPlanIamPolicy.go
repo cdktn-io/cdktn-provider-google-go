@@ -5,14 +5,14 @@ package gkebackupbackupplaniampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/gkebackupbackupplaniampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/gkebackupbackupplaniampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_backup_backup_plan_iam_policy google_gke_backup_backup_plan_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_backup_backup_plan_iam_policy google_gke_backup_backup_plan_iam_policy}.
 type GkeBackupBackupPlanIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GkeBackupBackupPlanIamPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_backup_backup_plan_iam_policy google_gke_backup_backup_plan_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_backup_backup_plan_iam_policy google_gke_backup_backup_plan_iam_policy} Resource.
 func NewGkeBackupBackupPlanIamPolicy(scope constructs.Construct, id *string, config *GkeBackupBackupPlanIamPolicyConfig) GkeBackupBackupPlanIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGkeBackupBackupPlanIamPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_backup_backup_plan_iam_policy google_gke_backup_backup_plan_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_backup_backup_plan_iam_policy google_gke_backup_backup_plan_iam_policy} Resource.
 func NewGkeBackupBackupPlanIamPolicy_Override(g GkeBackupBackupPlanIamPolicy, scope constructs.Construct, id *string, config *GkeBackupBackupPlanIamPolicyConfig) {
 	_init_.Initialize()
 

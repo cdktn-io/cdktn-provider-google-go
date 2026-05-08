@@ -5,14 +5,14 @@ package apphubapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apphubapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apphubapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apphub_application google_apphub_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apphub_application google_apphub_application}.
 type ApphubApplication interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -563,7 +563,7 @@ func (j *jsiiProxy_ApphubApplication) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apphub_application google_apphub_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apphub_application google_apphub_application} Resource.
 func NewApphubApplication(scope constructs.Construct, id *string, config *ApphubApplicationConfig) ApphubApplication {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewApphubApplication(scope constructs.Construct, id *string, config *Apphub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apphub_application google_apphub_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apphub_application google_apphub_application} Resource.
 func NewApphubApplication_Override(a ApphubApplication, scope constructs.Construct, id *string, config *ApphubApplicationConfig) {
 	_init_.Initialize()
 

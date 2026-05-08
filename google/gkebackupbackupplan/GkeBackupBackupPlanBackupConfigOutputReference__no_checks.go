@@ -55,6 +55,10 @@ func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigOutputReference) validatePutSe
 	return nil
 }
 
+func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigOutputReference) validatePutSelectedNamespaceLabelsParameters(value *GkeBackupBackupPlanBackupConfigSelectedNamespaceLabels) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeBackupBackupPlanBackupConfigOutputReference) validatePutSelectedNamespacesParameters(value *GkeBackupBackupPlanBackupConfigSelectedNamespaces) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package projectiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/projectiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/projectiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_member google_project_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_member google_project_iam_member}.
 type ProjectIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ProjectIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_member google_project_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_member google_project_iam_member} Resource.
 func NewProjectIamMember(scope constructs.Construct, id *string, config *ProjectIamMemberConfig) ProjectIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewProjectIamMember(scope constructs.Construct, id *string, config *Project
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_member google_project_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_member google_project_iam_member} Resource.
 func NewProjectIamMember_Override(p ProjectIamMember, scope constructs.Construct, id *string, config *ProjectIamMemberConfig) {
 	_init_.Initialize()
 

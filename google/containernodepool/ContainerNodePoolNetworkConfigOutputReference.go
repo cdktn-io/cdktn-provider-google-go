@@ -5,14 +5,17 @@ package containernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containernodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerNodePoolNetworkConfigOutputReference interface {
 	cdktn.ComplexObject
+	AcceleratorNetworkProfile() *string
+	SetAcceleratorNetworkProfile(val *string)
+	AcceleratorNetworkProfileInput() *string
 	AdditionalNodeNetworkConfigs() ContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsList
 	AdditionalNodeNetworkConfigsInput() interface{}
 	AdditionalPodNetworkConfigs() ContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsList
@@ -53,6 +56,8 @@ type ContainerNodePoolNetworkConfigOutputReference interface {
 	SetPodRange(val *string)
 	PodRangeInput() *string
 	Subnetwork() *string
+	SetSubnetwork(val *string)
+	SubnetworkInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -89,6 +94,7 @@ type ContainerNodePoolNetworkConfigOutputReference interface {
 	PutAdditionalPodNetworkConfigs(value interface{})
 	PutNetworkPerformanceConfig(value *ContainerNodePoolNetworkConfigNetworkPerformanceConfig)
 	PutPodCidrOverprovisionConfig(value *ContainerNodePoolNetworkConfigPodCidrOverprovisionConfig)
+	ResetAcceleratorNetworkProfile()
 	ResetAdditionalNodeNetworkConfigs()
 	ResetAdditionalPodNetworkConfigs()
 	ResetCreatePodRange()
@@ -97,6 +103,7 @@ type ContainerNodePoolNetworkConfigOutputReference interface {
 	ResetPodCidrOverprovisionConfig()
 	ResetPodIpv4CidrBlock()
 	ResetPodRange()
+	ResetSubnetwork()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -110,6 +117,26 @@ type ContainerNodePoolNetworkConfigOutputReference interface {
 // The jsii proxy struct for ContainerNodePoolNetworkConfigOutputReference
 type jsiiProxy_ContainerNodePoolNetworkConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) AcceleratorNetworkProfile() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"acceleratorNetworkProfile",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) AcceleratorNetworkProfileInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"acceleratorNetworkProfileInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) AdditionalNodeNetworkConfigs() ContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsList {
@@ -332,6 +359,16 @@ func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) Subnetwork() *
 	return returns
 }
 
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) SubnetworkInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subnetworkInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -377,6 +414,17 @@ func NewContainerNodePoolNetworkConfigOutputReference_Override(c ContainerNodePo
 		"@cdktn/provider-google.containerNodePool.ContainerNodePoolNetworkConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
+	)
+}
+
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference)SetAcceleratorNetworkProfile(val *string) {
+	if err := j.validateSetAcceleratorNetworkProfileParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"acceleratorNetworkProfile",
+		val,
 	)
 }
 
@@ -453,6 +501,17 @@ func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference)SetPodRange(val
 	_jsii_.Set(
 		j,
 		"podRange",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference)SetSubnetwork(val *string) {
+	if err := j.validateSetSubnetworkParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"subnetwork",
 		val,
 	)
 }
@@ -709,6 +768,14 @@ func (c *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) PutPodCidrOver
 	)
 }
 
+func (c *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) ResetAcceleratorNetworkProfile() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAcceleratorNetworkProfile",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) ResetAdditionalNodeNetworkConfigs() {
 	_jsii_.InvokeVoid(
 		c,
@@ -769,6 +836,14 @@ func (c *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) ResetPodRange(
 	_jsii_.InvokeVoid(
 		c,
 		"resetPodRange",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePoolNetworkConfigOutputReference) ResetSubnetwork() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSubnetwork",
 		nil, // no parameters
 	)
 }

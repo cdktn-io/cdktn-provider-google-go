@@ -5,9 +5,9 @@ package datagooglecomputesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecomputesecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecomputesecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,7 @@ type DataGoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference interfa
 	JsonCustomConfig() DataGoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigList
 	JsonParsing() *string
 	LogLevel() *string
+	RequestBodyInspectionSize() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -158,6 +159,16 @@ func (j *jsiiProxy_DataGoogleComputeSecurityPolicyAdvancedOptionsConfigOutputRef
 	_jsii_.Get(
 		j,
 		"logLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference) RequestBodyInspectionSize() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestBodyInspectionSize",
 		&returns,
 	)
 	return returns

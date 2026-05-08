@@ -5,9 +5,9 @@ package filestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/filestoreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/filestoreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,9 @@ type FilestoreInstanceFileSharesNfsExportOptionsOutputReference interface {
 	IpRanges() *[]*string
 	SetIpRanges(val *[]*string)
 	IpRangesInput() *[]*string
+	Network() *string
+	SetNetwork(val *string)
+	NetworkInput() *string
 	SquashMode() *string
 	SetSquashMode(val *string)
 	SquashModeInput() *string
@@ -83,6 +86,7 @@ type FilestoreInstanceFileSharesNfsExportOptionsOutputReference interface {
 	ResetAnonGid()
 	ResetAnonUid()
 	ResetIpRanges()
+	ResetNetwork()
 	ResetSquashMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -229,6 +233,26 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference) I
 	return returns
 }
 
+func (j *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference) Network() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"network",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference) NetworkInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference) SquashMode() *string {
 	var returns *string
 	_jsii_.Get(
@@ -370,6 +394,17 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference)Se
 	_jsii_.Set(
 		j,
 		"ipRanges",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference)SetNetwork(val *string) {
+	if err := j.validateSetNetworkParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"network",
 		val,
 	)
 }
@@ -621,6 +656,14 @@ func (f *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference) R
 	_jsii_.InvokeVoid(
 		f,
 		"resetIpRanges",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FilestoreInstanceFileSharesNfsExportOptionsOutputReference) ResetNetwork() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetNetwork",
 		nil, // no parameters
 	)
 }

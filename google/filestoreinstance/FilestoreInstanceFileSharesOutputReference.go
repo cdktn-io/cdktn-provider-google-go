@@ -5,9 +5,9 @@ package filestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/filestoreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/filestoreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,9 @@ type FilestoreInstanceFileSharesOutputReference interface {
 	NfsExportOptionsInput() interface{}
 	SourceBackup() *string
 	SetSourceBackup(val *string)
+	SourceBackupdrBackup() *string
+	SetSourceBackupdrBackup(val *string)
+	SourceBackupdrBackupInput() *string
 	SourceBackupInput() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -78,6 +81,7 @@ type FilestoreInstanceFileSharesOutputReference interface {
 	PutNfsExportOptions(value interface{})
 	ResetNfsExportOptions()
 	ResetSourceBackup()
+	ResetSourceBackupdrBackup()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -213,6 +217,26 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) SourceBackup() *s
 	return returns
 }
 
+func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) SourceBackupdrBackup() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceBackupdrBackup",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) SourceBackupdrBackupInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceBackupdrBackupInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference) SourceBackupInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -333,6 +357,17 @@ func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference)SetSourceBackup(va
 	_jsii_.Set(
 		j,
 		"sourceBackup",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FilestoreInstanceFileSharesOutputReference)SetSourceBackupdrBackup(val *string) {
+	if err := j.validateSetSourceBackupdrBackupParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceBackupdrBackup",
 		val,
 	)
 }
@@ -568,6 +603,14 @@ func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) ResetSourceBackup
 	_jsii_.InvokeVoid(
 		f,
 		"resetSourceBackup",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FilestoreInstanceFileSharesOutputReference) ResetSourceBackupdrBackup() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetSourceBackupdrBackup",
 		nil, // no parameters
 	)
 }

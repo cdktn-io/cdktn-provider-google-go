@@ -5,9 +5,9 @@ package spannerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/spannerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/spannerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference interface
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TotalCpuUtilizationPercent() *float64
+	SetTotalCpuUtilizationPercent(val *float64)
+	TotalCpuUtilizationPercentInput() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference interface
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetHighPriorityCpuUtilizationPercent()
 	ResetStorageUtilizationPercent()
+	ResetTotalCpuUtilizationPercent()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputRefer
 	return returns
 }
 
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference) TotalCpuUtilizationPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"totalCpuUtilizationPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference) TotalCpuUtilizationPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"totalCpuUtilizationPercentInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputRefer
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference)SetTotalCpuUtilizationPercent(val *float64) {
+	if err := j.validateSetTotalCpuUtilizationPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"totalCpuUtilizationPercent",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputRefer
 	_jsii_.InvokeVoid(
 		s,
 		"resetStorageUtilizationPercent",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference) ResetTotalCpuUtilizationPercent() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetTotalCpuUtilizationPercent",
 		nil, // no parameters
 	)
 }

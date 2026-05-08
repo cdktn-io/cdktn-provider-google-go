@@ -5,14 +5,14 @@ package pubsubtopiciammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/pubsubtopiciammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/pubsubtopiciammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member}.
 type PubsubTopicIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_PubsubTopicIamMember) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
 func NewPubsubTopicIamMember(scope constructs.Construct, id *string, config *PubsubTopicIamMemberConfig) PubsubTopicIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPubsubTopicIamMember(scope constructs.Construct, id *string, config *Pub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
 func NewPubsubTopicIamMember_Override(p PubsubTopicIamMember, scope constructs.Construct, id *string, config *PubsubTopicIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networksecuritymirroringdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networksecuritymirroringdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networksecuritymirroringdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_security_mirroring_deployment google_network_security_mirroring_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_mirroring_deployment google_network_security_mirroring_deployment}.
 type NetworkSecurityMirroringDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -584,7 +584,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
 func NewNetworkSecurityMirroringDeployment(scope constructs.Construct, id *string, config *NetworkSecurityMirroringDeploymentConfig) NetworkSecurityMirroringDeployment {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewNetworkSecurityMirroringDeployment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
 func NewNetworkSecurityMirroringDeployment_Override(n NetworkSecurityMirroringDeployment, scope constructs.Construct, id *string, config *NetworkSecurityMirroringDeploymentConfig) {
 	_init_.Initialize()
 

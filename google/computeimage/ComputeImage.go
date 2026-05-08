@@ -5,14 +5,14 @@ package computeimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeimage/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_image google_compute_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_image google_compute_image}.
 type ComputeImage interface {
 	cdktn.TerraformResource
 	ArchiveSizeBytes() *float64
@@ -74,6 +74,8 @@ type ComputeImage interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeImageParamsOutputReference
+	ParamsInput() *ComputeImageParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -164,6 +166,7 @@ type ComputeImage interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutGuestOsFeatures(value interface{})
 	PutImageEncryptionKey(value *ComputeImageImageEncryptionKey)
+	PutParams(value *ComputeImageParams)
 	PutRawDisk(value *ComputeImageRawDisk)
 	PutShieldedInstanceInitialState(value *ComputeImageShieldedInstanceInitialState)
 	PutSourceDiskEncryptionKey(value *ComputeImageSourceDiskEncryptionKey)
@@ -181,6 +184,7 @@ type ComputeImage interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRawDisk()
 	ResetShieldedInstanceInitialState()
@@ -539,6 +543,26 @@ func (j *jsiiProxy_ComputeImage) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeImage) Params() ComputeImageParamsOutputReference {
+	var returns ComputeImageParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeImage) ParamsInput() *ComputeImageParams {
+	var returns *ComputeImageParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeImage) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -840,7 +864,7 @@ func (j *jsiiProxy_ComputeImage) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_image google_compute_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_image google_compute_image} Resource.
 func NewComputeImage(scope constructs.Construct, id *string, config *ComputeImageConfig) ComputeImage {
 	_init_.Initialize()
 
@@ -858,7 +882,7 @@ func NewComputeImage(scope constructs.Construct, id *string, config *ComputeImag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_image google_compute_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_image google_compute_image} Resource.
 func NewComputeImage_Override(c ComputeImage, scope constructs.Construct, id *string, config *ComputeImageConfig) {
 	_init_.Initialize()
 
@@ -1444,6 +1468,17 @@ func (c *jsiiProxy_ComputeImage) PutImageEncryptionKey(value *ComputeImageImageE
 	)
 }
 
+func (c *jsiiProxy_ComputeImage) PutParams(value *ComputeImageParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeImage) PutRawDisk(value *ComputeImageRawDisk) {
 	if err := c.validatePutRawDiskParameters(value); err != nil {
 		panic(err)
@@ -1578,6 +1613,14 @@ func (c *jsiiProxy_ComputeImage) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeImage) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

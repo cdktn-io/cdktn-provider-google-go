@@ -75,6 +75,10 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference) validateSetVersionParameters(val *string) error {
+	return nil
+}
+
 func validateNewOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

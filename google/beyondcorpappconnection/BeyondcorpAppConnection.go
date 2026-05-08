@@ -5,14 +5,14 @@ package beyondcorpappconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/beyondcorpappconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/beyondcorpappconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/beyondcorp_app_connection google_beyondcorp_app_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/beyondcorp_app_connection google_beyondcorp_app_connection}.
 type BeyondcorpAppConnection interface {
 	cdktn.TerraformResource
 	ApplicationEndpoint() BeyondcorpAppConnectionApplicationEndpointOutputReference
@@ -579,7 +579,7 @@ func (j *jsiiProxy_BeyondcorpAppConnection) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/beyondcorp_app_connection google_beyondcorp_app_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/beyondcorp_app_connection google_beyondcorp_app_connection} Resource.
 func NewBeyondcorpAppConnection(scope constructs.Construct, id *string, config *BeyondcorpAppConnectionConfig) BeyondcorpAppConnection {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewBeyondcorpAppConnection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/beyondcorp_app_connection google_beyondcorp_app_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/beyondcorp_app_connection google_beyondcorp_app_connection} Resource.
 func NewBeyondcorpAppConnection_Override(b BeyondcorpAppConnection, scope constructs.Construct, id *string, config *BeyondcorpAppConnectionConfig) {
 	_init_.Initialize()
 

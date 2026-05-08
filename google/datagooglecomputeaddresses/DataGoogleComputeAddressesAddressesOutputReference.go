@@ -5,9 +5,9 @@ package datagooglecomputeaddresses
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecomputeaddresses/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecomputeaddresses/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,7 @@ type DataGoogleComputeAddressesAddressesOutputReference interface {
 	InternalValue() *DataGoogleComputeAddressesAddresses
 	SetInternalValue(val *DataGoogleComputeAddressesAddresses)
 	Name() *string
+	PrefixLength() *float64
 	Region() *string
 	SelfLink() *string
 	Status() *string
@@ -171,6 +172,16 @@ func (j *jsiiProxy_DataGoogleComputeAddressesAddressesOutputReference) Name() *s
 	_jsii_.Get(
 		j,
 		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeAddressesAddressesOutputReference) PrefixLength() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixLength",
 		&returns,
 	)
 	return returns

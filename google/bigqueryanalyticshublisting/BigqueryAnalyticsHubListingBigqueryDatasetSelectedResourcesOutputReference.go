@@ -5,9 +5,9 @@ package bigqueryanalyticshublisting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigqueryanalyticshublisting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigqueryanalyticshublisting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,9 @@ type BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference 
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Routine() *string
+	SetRoutine(val *string)
+	RoutineInput() *string
 	Table() *string
 	SetTable(val *string)
 	TableInput() *string
@@ -67,6 +70,7 @@ type BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetRoutine()
 	ResetTable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference) Routine() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routine",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference) RoutineInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routineInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOu
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference)SetRoutine(val *string) {
+	if err := j.validateSetRoutineParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routine",
 		val,
 	)
 }
@@ -451,6 +486,14 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOu
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference) ResetRoutine() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetRoutine",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference) ResetTable() {

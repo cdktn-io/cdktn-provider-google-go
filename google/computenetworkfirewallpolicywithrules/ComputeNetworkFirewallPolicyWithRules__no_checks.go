@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyWithRules) validateSetNameParamet
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkFirewallPolicyWithRules) validateSetPolicyTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkFirewallPolicyWithRules) validateSetProjectParameters(val *string) error {
 	return nil
 }

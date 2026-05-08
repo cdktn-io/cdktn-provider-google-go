@@ -5,14 +5,14 @@ package apigeesecurityaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apigeesecurityaction/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apigeesecurityaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_security_action google_apigee_security_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_security_action google_apigee_security_action}.
 type ApigeeSecurityAction interface {
 	cdktn.TerraformResource
 	Allow() ApigeeSecurityActionAllowOutputReference
@@ -648,7 +648,7 @@ func (j *jsiiProxy_ApigeeSecurityAction) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_security_action google_apigee_security_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_security_action google_apigee_security_action} Resource.
 func NewApigeeSecurityAction(scope constructs.Construct, id *string, config *ApigeeSecurityActionConfig) ApigeeSecurityAction {
 	_init_.Initialize()
 
@@ -666,7 +666,7 @@ func NewApigeeSecurityAction(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apigee_security_action google_apigee_security_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_security_action google_apigee_security_action} Resource.
 func NewApigeeSecurityAction_Override(a ApigeeSecurityAction, scope constructs.Construct, id *string, config *ApigeeSecurityActionConfig) {
 	_init_.Initialize()
 

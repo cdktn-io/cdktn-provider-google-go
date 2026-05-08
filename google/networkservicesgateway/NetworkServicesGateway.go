@@ -5,19 +5,22 @@ package networkservicesgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networkservicesgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networkservicesgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_gateway google_network_services_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_gateway google_network_services_gateway}.
 type NetworkServicesGateway interface {
 	cdktn.TerraformResource
 	Addresses() *[]*string
 	SetAddresses(val *[]*string)
 	AddressesInput() *[]*string
+	AllPorts() interface{}
+	SetAllPorts(val interface{})
+	AllPortsInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	CertificateUrls() *[]*string
@@ -170,6 +173,7 @@ type NetworkServicesGateway interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkServicesGatewayTimeouts)
 	ResetAddresses()
+	ResetAllPorts()
 	ResetCertificateUrls()
 	ResetDeleteSwgAutogenRouterOnDestroy()
 	ResetDescription()
@@ -183,6 +187,7 @@ type NetworkServicesGateway interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPorts()
 	ResetProject()
 	ResetRoutingMode()
 	ResetScope()
@@ -231,6 +236,26 @@ func (j *jsiiProxy_NetworkServicesGateway) AddressesInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"addressesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGateway) AllPorts() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allPorts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGateway) AllPortsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allPortsInput",
 		&returns,
 	)
 	return returns
@@ -827,7 +852,7 @@ func (j *jsiiProxy_NetworkServicesGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
 func NewNetworkServicesGateway(scope constructs.Construct, id *string, config *NetworkServicesGatewayConfig) NetworkServicesGateway {
 	_init_.Initialize()
 
@@ -845,7 +870,7 @@ func NewNetworkServicesGateway(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
 func NewNetworkServicesGateway_Override(n NetworkServicesGateway, scope constructs.Construct, id *string, config *NetworkServicesGatewayConfig) {
 	_init_.Initialize()
 
@@ -863,6 +888,17 @@ func (j *jsiiProxy_NetworkServicesGateway)SetAddresses(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"addresses",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesGateway)SetAllPorts(val interface{}) {
+	if err := j.validateSetAllPortsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allPorts",
 		val,
 	)
 }
@@ -1505,6 +1541,14 @@ func (n *jsiiProxy_NetworkServicesGateway) ResetAddresses() {
 	)
 }
 
+func (n *jsiiProxy_NetworkServicesGateway) ResetAllPorts() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetAllPorts",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkServicesGateway) ResetCertificateUrls() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1589,6 +1633,14 @@ func (n *jsiiProxy_NetworkServicesGateway) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesGateway) ResetPorts() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPorts",
 		nil, // no parameters
 	)
 }

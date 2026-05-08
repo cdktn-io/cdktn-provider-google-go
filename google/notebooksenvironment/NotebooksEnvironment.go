@@ -5,14 +5,14 @@ package notebooksenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/notebooksenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/notebooksenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/notebooks_environment google_notebooks_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/notebooks_environment google_notebooks_environment}.
 type NotebooksEnvironment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_NotebooksEnvironment) VmImageInput() *NotebooksEnvironmentVmI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/notebooks_environment google_notebooks_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/notebooks_environment google_notebooks_environment} Resource.
 func NewNotebooksEnvironment(scope constructs.Construct, id *string, config *NotebooksEnvironmentConfig) NotebooksEnvironment {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewNotebooksEnvironment(scope constructs.Construct, id *string, config *Not
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/notebooks_environment google_notebooks_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/notebooks_environment google_notebooks_environment} Resource.
 func NewNotebooksEnvironment_Override(n NotebooksEnvironment, scope constructs.Construct, id *string, config *NotebooksEnvironmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package endpointsserviceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/endpointsserviceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/endpointsserviceiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/endpoints_service_iam_binding google_endpoints_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/endpoints_service_iam_binding google_endpoints_service_iam_binding}.
 type EndpointsServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_EndpointsServiceIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/endpoints_service_iam_binding google_endpoints_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/endpoints_service_iam_binding google_endpoints_service_iam_binding} Resource.
 func NewEndpointsServiceIamBinding(scope constructs.Construct, id *string, config *EndpointsServiceIamBindingConfig) EndpointsServiceIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewEndpointsServiceIamBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/endpoints_service_iam_binding google_endpoints_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/endpoints_service_iam_binding google_endpoints_service_iam_binding} Resource.
 func NewEndpointsServiceIamBinding_Override(e EndpointsServiceIamBinding, scope constructs.Construct, id *string, config *EndpointsServiceIamBindingConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (c *jsiiProxy_ChronicleReferenceListScopeInfoOutputReference) validateInter
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleReferenceListScopeInfoOutputReference) validatePutReferenceListScopeParameters(value *ChronicleReferenceListScopeInfoReferenceListScope) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleReferenceListScopeInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -71,7 +75,7 @@ func (j *jsiiProxy_ChronicleReferenceListScopeInfoOutputReference) validateSetTe
 	return nil
 }
 
-func validateNewChronicleReferenceListScopeInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewChronicleReferenceListScopeInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

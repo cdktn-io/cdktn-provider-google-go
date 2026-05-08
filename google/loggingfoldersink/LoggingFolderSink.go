@@ -5,14 +5,14 @@ package loggingfoldersink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/loggingfoldersink/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/loggingfoldersink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_folder_sink google_logging_folder_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_folder_sink google_logging_folder_sink}.
 type LoggingFolderSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() LoggingFolderSinkBigqueryOptionsOutputReference
@@ -567,7 +567,7 @@ func (j *jsiiProxy_LoggingFolderSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
 func NewLoggingFolderSink(scope constructs.Construct, id *string, config *LoggingFolderSinkConfig) LoggingFolderSink {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewLoggingFolderSink(scope constructs.Construct, id *string, config *Loggin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
 func NewLoggingFolderSink_Override(l LoggingFolderSink, scope constructs.Construct, id *string, config *LoggingFolderSinkConfig) {
 	_init_.Initialize()
 

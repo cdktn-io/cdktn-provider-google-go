@@ -5,14 +5,14 @@ package vmwareenginenetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vmwareenginenetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vmwareenginenetworkpeering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering}.
 type VmwareengineNetworkPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -645,7 +645,7 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) VmwareEngineNetworkInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
 func NewVmwareengineNetworkPeering(scope constructs.Construct, id *string, config *VmwareengineNetworkPeeringConfig) VmwareengineNetworkPeering {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewVmwareengineNetworkPeering(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
 func NewVmwareengineNetworkPeering_Override(v VmwareengineNetworkPeering, scope constructs.Construct, id *string, config *VmwareengineNetworkPeeringConfig) {
 	_init_.Initialize()
 

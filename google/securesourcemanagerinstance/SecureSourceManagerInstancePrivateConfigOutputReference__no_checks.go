@@ -47,6 +47,10 @@ func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) vali
 	return nil
 }
 
+func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) validatePutCustomHostConfigParameters(value *SecureSourceManagerInstancePrivateConfigCustomHostConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

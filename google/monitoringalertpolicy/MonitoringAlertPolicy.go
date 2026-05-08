@@ -5,14 +5,14 @@ package monitoringalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/monitoringalertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/monitoringalertpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy}.
 type MonitoringAlertPolicy interface {
 	cdktn.TerraformResource
 	AlertStrategy() MonitoringAlertPolicyAlertStrategyOutputReference
@@ -602,7 +602,7 @@ func (j *jsiiProxy_MonitoringAlertPolicy) UserLabelsInput() *map[string]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
 func NewMonitoringAlertPolicy(scope constructs.Construct, id *string, config *MonitoringAlertPolicyConfig) MonitoringAlertPolicy {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewMonitoringAlertPolicy(scope constructs.Construct, id *string, config *Mo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
 func NewMonitoringAlertPolicy_Override(m MonitoringAlertPolicy, scope constructs.Construct, id *string, config *MonitoringAlertPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package recaptchaenterprisekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/recaptchaenterprisekey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/recaptchaenterprisekey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key}.
 type RecaptchaEnterpriseKey interface {
 	cdktn.TerraformResource
 	AndroidSettings() RecaptchaEnterpriseKeyAndroidSettingsOutputReference
@@ -578,7 +578,7 @@ func (j *jsiiProxy_RecaptchaEnterpriseKey) WebSettingsInput() *RecaptchaEnterpri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
 func NewRecaptchaEnterpriseKey(scope constructs.Construct, id *string, config *RecaptchaEnterpriseKeyConfig) RecaptchaEnterpriseKey {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewRecaptchaEnterpriseKey(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
 func NewRecaptchaEnterpriseKey_Override(r RecaptchaEnterpriseKey, scope constructs.Construct, id *string, config *RecaptchaEnterpriseKeyConfig) {
 	_init_.Initialize()
 

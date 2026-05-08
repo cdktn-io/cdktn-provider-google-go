@@ -5,9 +5,9 @@ package containernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containernodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -118,6 +118,8 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	ResourceManagerTags() *map[string]*string
 	SetResourceManagerTags(val *map[string]*string)
 	ResourceManagerTagsInput() *map[string]*string
+	SandboxConfig() ContainerNodePoolNodeConfigSandboxConfigOutputReference
+	SandboxConfigInput() *ContainerNodePoolNodeConfigSandboxConfig
 	SecondaryBootDisks() ContainerNodePoolNodeConfigSecondaryBootDisksList
 	SecondaryBootDisksInput() interface{}
 	ServiceAccount() *string
@@ -188,6 +190,7 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	PutLinuxNodeConfig(value *ContainerNodePoolNodeConfigLinuxNodeConfig)
 	PutLocalNvmeSsdBlockConfig(value *ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig)
 	PutReservationAffinity(value *ContainerNodePoolNodeConfigReservationAffinity)
+	PutSandboxConfig(value *ContainerNodePoolNodeConfigSandboxConfig)
 	PutSecondaryBootDisks(value interface{})
 	PutShieldedInstanceConfig(value *ContainerNodePoolNodeConfigShieldedInstanceConfig)
 	PutSoleTenantConfig(value *ContainerNodePoolNodeConfigSoleTenantConfig)
@@ -227,6 +230,7 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	ResetReservationAffinity()
 	ResetResourceLabels()
 	ResetResourceManagerTags()
+	ResetSandboxConfig()
 	ResetSecondaryBootDisks()
 	ResetServiceAccount()
 	ResetShieldedInstanceConfig()
@@ -967,6 +971,26 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResourceManagerTa
 	_jsii_.Get(
 		j,
 		"resourceManagerTagsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) SandboxConfig() ContainerNodePoolNodeConfigSandboxConfigOutputReference {
+	var returns ContainerNodePoolNodeConfigSandboxConfigOutputReference
+	_jsii_.Get(
+		j,
+		"sandboxConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) SandboxConfigInput() *ContainerNodePoolNodeConfigSandboxConfig {
+	var returns *ContainerNodePoolNodeConfigSandboxConfig
+	_jsii_.Get(
+		j,
+		"sandboxConfigInput",
 		&returns,
 	)
 	return returns
@@ -1868,6 +1892,17 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) PutReservationAff
 	)
 }
 
+func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) PutSandboxConfig(value *ContainerNodePoolNodeConfigSandboxConfig) {
+	if err := c.validatePutSandboxConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSandboxConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) PutSecondaryBootDisks(value interface{}) {
 	if err := c.validatePutSecondaryBootDisksParameters(value); err != nil {
 		panic(err)
@@ -2194,6 +2229,14 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResetResourceMana
 	_jsii_.InvokeVoid(
 		c,
 		"resetResourceManagerTags",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResetSandboxConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSandboxConfig",
 		nil, // no parameters
 	)
 }

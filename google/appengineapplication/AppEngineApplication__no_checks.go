@@ -143,6 +143,10 @@ func (j *jsiiProxy_AppEngineApplication) validateSetServingStatusParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineApplication) validateSetSslPolicyParameters(val *string) error {
+	return nil
+}
+
 func validateNewAppEngineApplicationParameters(scope constructs.Construct, id *string, config *AppEngineApplicationConfig) error {
 	return nil
 }

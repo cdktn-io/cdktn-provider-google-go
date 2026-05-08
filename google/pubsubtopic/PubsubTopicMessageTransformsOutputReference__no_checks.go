@@ -47,6 +47,10 @@ func (p *jsiiProxy_PubsubTopicMessageTransformsOutputReference) validateInterpol
 	return nil
 }
 
+func (p *jsiiProxy_PubsubTopicMessageTransformsOutputReference) validatePutAiInferenceParameters(value *PubsubTopicMessageTransformsAiInference) error {
+	return nil
+}
+
 func (p *jsiiProxy_PubsubTopicMessageTransformsOutputReference) validatePutJavascriptUdfParameters(value *PubsubTopicMessageTransformsJavascriptUdf) error {
 	return nil
 }

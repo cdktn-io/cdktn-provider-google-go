@@ -75,6 +75,10 @@ func (f *jsiiProxy_FilestoreInstance) validateOverrideLogicalIdParameters(newLog
 	return nil
 }
 
+func (f *jsiiProxy_FilestoreInstance) validatePutDirectoryServicesParameters(value *FilestoreInstanceDirectoryServices) error {
+	return nil
+}
+
 func (f *jsiiProxy_FilestoreInstance) validatePutFileSharesParameters(value *FilestoreInstanceFileShares) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (j *jsiiProxy_FilestoreInstance) validateSetDeletionProtectionReasonParamet
 }
 
 func (j *jsiiProxy_FilestoreInstance) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_FilestoreInstance) validateSetDesiredReplicaStateParameters(val *string) error {
 	return nil
 }
 

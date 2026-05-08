@@ -5,14 +5,14 @@ package containernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containernodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_node_pool google_container_node_pool}.
 type ContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() ContainerNodePoolAutoscalingOutputReference
@@ -79,6 +79,8 @@ type ContainerNodePool interface {
 	NodeCount() *float64
 	SetNodeCount(val *float64)
 	NodeCountInput() *float64
+	NodeDrainConfig() ContainerNodePoolNodeDrainConfigList
+	NodeDrainConfigInput() interface{}
 	NodeLocations() *[]*string
 	SetNodeLocations(val *[]*string)
 	NodeLocationsInput() *[]*string
@@ -160,6 +162,7 @@ type ContainerNodePool interface {
 	PutManagement(value *ContainerNodePoolManagement)
 	PutNetworkConfig(value *ContainerNodePoolNetworkConfig)
 	PutNodeConfig(value *ContainerNodePoolNodeConfig)
+	PutNodeDrainConfig(value interface{})
 	PutPlacementPolicy(value *ContainerNodePoolPlacementPolicy)
 	PutQueuedProvisioning(value *ContainerNodePoolQueuedProvisioning)
 	PutTimeouts(value *ContainerNodePoolTimeouts)
@@ -175,6 +178,7 @@ type ContainerNodePool interface {
 	ResetNetworkConfig()
 	ResetNodeConfig()
 	ResetNodeCount()
+	ResetNodeDrainConfig()
 	ResetNodeLocations()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -572,6 +576,26 @@ func (j *jsiiProxy_ContainerNodePool) NodeCountInput() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_ContainerNodePool) NodeDrainConfig() ContainerNodePoolNodeDrainConfigList {
+	var returns ContainerNodePoolNodeDrainConfigList
+	_jsii_.Get(
+		j,
+		"nodeDrainConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) NodeDrainConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"nodeDrainConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerNodePool) NodeLocations() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -783,7 +807,7 @@ func (j *jsiiProxy_ContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool(scope constructs.Construct, id *string, config *ContainerNodePoolConfig) ContainerNodePool {
 	_init_.Initialize()
 
@@ -801,7 +825,7 @@ func NewContainerNodePool(scope constructs.Construct, id *string, config *Contai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool_Override(c ContainerNodePool, scope constructs.Construct, id *string, config *ContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -1398,6 +1422,17 @@ func (c *jsiiProxy_ContainerNodePool) PutNodeConfig(value *ContainerNodePoolNode
 	)
 }
 
+func (c *jsiiProxy_ContainerNodePool) PutNodeDrainConfig(value interface{}) {
+	if err := c.validatePutNodeDrainConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putNodeDrainConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerNodePool) PutPlacementPolicy(value *ContainerNodePoolPlacementPolicy) {
 	if err := c.validatePutPlacementPolicyParameters(value); err != nil {
 		panic(err)
@@ -1526,6 +1561,14 @@ func (c *jsiiProxy_ContainerNodePool) ResetNodeCount() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetNodeCount",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePool) ResetNodeDrainConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNodeDrainConfig",
 		nil, // no parameters
 	)
 }

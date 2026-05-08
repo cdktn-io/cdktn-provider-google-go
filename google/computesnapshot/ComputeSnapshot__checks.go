@@ -472,7 +472,23 @@ func (j *jsiiProxy_ComputeSnapshot) validateSetProvisionersParameters(val *[]int
 	return nil
 }
 
+func (j *jsiiProxy_ComputeSnapshot) validateSetSnapshotTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeSnapshot) validateSetSourceDiskParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ComputeSnapshot) validateSetSourceInstantSnapshotParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

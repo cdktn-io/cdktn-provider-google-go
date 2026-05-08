@@ -51,6 +51,10 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputRefer
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) validatePutSampleFindingsTableParameters(value *DataLossPreventionDiscoveryConfigActionsExportDataSampleFindingsTable) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionDiscoveryConfigActionsExportDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

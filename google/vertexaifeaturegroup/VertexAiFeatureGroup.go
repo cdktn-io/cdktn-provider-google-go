@@ -5,14 +5,14 @@ package vertexaifeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vertexaifeaturegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vertexaifeaturegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group}.
 type VertexAiFeatureGroup interface {
 	cdktn.TerraformResource
 	BigQuery() VertexAiFeatureGroupBigQueryOutputReference
@@ -542,7 +542,7 @@ func (j *jsiiProxy_VertexAiFeatureGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
 func NewVertexAiFeatureGroup(scope constructs.Construct, id *string, config *VertexAiFeatureGroupConfig) VertexAiFeatureGroup {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewVertexAiFeatureGroup(scope constructs.Construct, id *string, config *Ver
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
 func NewVertexAiFeatureGroup_Override(v VertexAiFeatureGroup, scope constructs.Construct, id *string, config *VertexAiFeatureGroupConfig) {
 	_init_.Initialize()
 

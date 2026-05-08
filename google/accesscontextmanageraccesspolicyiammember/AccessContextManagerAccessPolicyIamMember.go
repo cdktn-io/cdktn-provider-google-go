@@ -5,14 +5,14 @@ package accesscontextmanageraccesspolicyiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/accesscontextmanageraccesspolicyiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/accesscontextmanageraccesspolicyiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member}.
 type AccessContextManagerAccessPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_AccessContextManagerAccessPolicyIamMember) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
 func NewAccessContextManagerAccessPolicyIamMember(scope constructs.Construct, id *string, config *AccessContextManagerAccessPolicyIamMemberConfig) AccessContextManagerAccessPolicyIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewAccessContextManagerAccessPolicyIamMember(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
 func NewAccessContextManagerAccessPolicyIamMember_Override(a AccessContextManagerAccessPolicyIamMember, scope constructs.Construct, id *string, config *AccessContextManagerAccessPolicyIamMemberConfig) {
 	_init_.Initialize()
 

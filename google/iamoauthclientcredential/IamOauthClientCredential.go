@@ -5,14 +5,14 @@ package iamoauthclientcredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iamoauthclientcredential/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iamoauthclientcredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_oauth_client_credential google_iam_oauth_client_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_oauth_client_credential google_iam_oauth_client_credential}.
 type IamOauthClientCredential interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_IamOauthClientCredential) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_oauth_client_credential google_iam_oauth_client_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_oauth_client_credential google_iam_oauth_client_credential} Resource.
 func NewIamOauthClientCredential(scope constructs.Construct, id *string, config *IamOauthClientCredentialConfig) IamOauthClientCredential {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewIamOauthClientCredential(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_oauth_client_credential google_iam_oauth_client_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_oauth_client_credential google_iam_oauth_client_credential} Resource.
 func NewIamOauthClientCredential_Override(i IamOauthClientCredential, scope constructs.Construct, id *string, config *IamOauthClientCredentialConfig) {
 	_init_.Initialize()
 

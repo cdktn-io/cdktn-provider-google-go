@@ -5,14 +5,14 @@ package geminiloggingsettingbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/geminiloggingsettingbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/geminiloggingsettingbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding}.
 type GeminiLoggingSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GeminiLoggingSettingBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
 func NewGeminiLoggingSettingBinding(scope constructs.Construct, id *string, config *GeminiLoggingSettingBindingConfig) GeminiLoggingSettingBinding {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGeminiLoggingSettingBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
 func NewGeminiLoggingSettingBinding_Override(g GeminiLoggingSettingBinding, scope constructs.Construct, id *string, config *GeminiLoggingSettingBindingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataplexasset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataplexasset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataplexasset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_asset google_dataplex_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_asset google_dataplex_asset}.
 type DataplexAsset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -676,7 +676,7 @@ func (j *jsiiProxy_DataplexAsset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
 func NewDataplexAsset(scope constructs.Construct, id *string, config *DataplexAssetConfig) DataplexAsset {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewDataplexAsset(scope constructs.Construct, id *string, config *DataplexAs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
 func NewDataplexAsset_Override(d DataplexAsset, scope constructs.Construct, id *string, config *DataplexAssetConfig) {
 	_init_.Initialize()
 

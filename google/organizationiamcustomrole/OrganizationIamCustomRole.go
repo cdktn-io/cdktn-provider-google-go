@@ -5,14 +5,14 @@ package organizationiamcustomrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/organizationiamcustomrole/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/organizationiamcustomrole/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/organization_iam_custom_role google_organization_iam_custom_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/organization_iam_custom_role google_organization_iam_custom_role}.
 type OrganizationIamCustomRole interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -481,7 +481,7 @@ func (j *jsiiProxy_OrganizationIamCustomRole) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/organization_iam_custom_role google_organization_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/organization_iam_custom_role google_organization_iam_custom_role} Resource.
 func NewOrganizationIamCustomRole(scope constructs.Construct, id *string, config *OrganizationIamCustomRoleConfig) OrganizationIamCustomRole {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewOrganizationIamCustomRole(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/organization_iam_custom_role google_organization_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/organization_iam_custom_role google_organization_iam_custom_role} Resource.
 func NewOrganizationIamCustomRole_Override(o OrganizationIamCustomRole, scope constructs.Construct, id *string, config *OrganizationIamCustomRoleConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datacatalogpolicytag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datacatalogpolicytag/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datacatalogpolicytag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_policy_tag google_data_catalog_policy_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_catalog_policy_tag google_data_catalog_policy_tag}.
 type DataCatalogPolicyTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataCatalogPolicyTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
 func NewDataCatalogPolicyTag(scope constructs.Construct, id *string, config *DataCatalogPolicyTagConfig) DataCatalogPolicyTag {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDataCatalogPolicyTag(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
 func NewDataCatalogPolicyTag_Override(d DataCatalogPolicyTag, scope constructs.Construct, id *string, config *DataCatalogPolicyTagConfig) {
 	_init_.Initialize()
 

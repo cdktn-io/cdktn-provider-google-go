@@ -5,14 +5,14 @@ package firestoredatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/firestoredatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/firestoredatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/firestore_database google_firestore_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/firestore_database google_firestore_database}.
 type FirestoreDatabase interface {
 	cdktn.TerraformResource
 	AppEngineIntegrationMode() *string
@@ -51,6 +51,9 @@ type FirestoreDatabase interface {
 	SetDependsOn(val *[]*string)
 	EarliestVersionTime() *string
 	Etag() *string
+	FirestoreDataAccessMode() *string
+	SetFirestoreDataAccessMode(val *string)
+	FirestoreDataAccessModeInput() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -70,6 +73,9 @@ type FirestoreDatabase interface {
 	LocationId() *string
 	SetLocationId(val *string)
 	LocationIdInput() *string
+	MongodbCompatibleDataAccessMode() *string
+	SetMongodbCompatibleDataAccessMode(val *string)
+	MongodbCompatibleDataAccessModeInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -91,6 +97,9 @@ type FirestoreDatabase interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RealtimeUpdatesMode() *string
+	SetRealtimeUpdatesMode(val *string)
+	RealtimeUpdatesModeInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -159,12 +168,15 @@ type FirestoreDatabase interface {
 	ResetDatabaseEdition()
 	ResetDeleteProtectionState()
 	ResetDeletionPolicy()
+	ResetFirestoreDataAccessMode()
 	ResetId()
+	ResetMongodbCompatibleDataAccessMode()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPointInTimeRecoveryEnablement()
 	ResetProject()
+	ResetRealtimeUpdatesMode()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -394,6 +406,26 @@ func (j *jsiiProxy_FirestoreDatabase) Etag() *string {
 	return returns
 }
 
+func (j *jsiiProxy_FirestoreDatabase) FirestoreDataAccessMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firestoreDataAccessMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreDatabase) FirestoreDataAccessModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firestoreDataAccessModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FirestoreDatabase) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -479,6 +511,26 @@ func (j *jsiiProxy_FirestoreDatabase) LocationIdInput() *string {
 	_jsii_.Get(
 		j,
 		"locationIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreDatabase) MongodbCompatibleDataAccessMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mongodbCompatibleDataAccessMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreDatabase) MongodbCompatibleDataAccessModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mongodbCompatibleDataAccessModeInput",
 		&returns,
 	)
 	return returns
@@ -579,6 +631,26 @@ func (j *jsiiProxy_FirestoreDatabase) RawOverrides() interface{} {
 	_jsii_.Get(
 		j,
 		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreDatabase) RealtimeUpdatesMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"realtimeUpdatesMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreDatabase) RealtimeUpdatesModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"realtimeUpdatesModeInput",
 		&returns,
 	)
 	return returns
@@ -705,7 +777,7 @@ func (j *jsiiProxy_FirestoreDatabase) VersionRetentionPeriod() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/firestore_database google_firestore_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/firestore_database google_firestore_database} Resource.
 func NewFirestoreDatabase(scope constructs.Construct, id *string, config *FirestoreDatabaseConfig) FirestoreDatabase {
 	_init_.Initialize()
 
@@ -723,7 +795,7 @@ func NewFirestoreDatabase(scope constructs.Construct, id *string, config *Firest
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/firestore_database google_firestore_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/firestore_database google_firestore_database} Resource.
 func NewFirestoreDatabase_Override(f FirestoreDatabase, scope constructs.Construct, id *string, config *FirestoreDatabaseConfig) {
 	_init_.Initialize()
 
@@ -819,6 +891,17 @@ func (j *jsiiProxy_FirestoreDatabase)SetDependsOn(val *[]*string) {
 	)
 }
 
+func (j *jsiiProxy_FirestoreDatabase)SetFirestoreDataAccessMode(val *string) {
+	if err := j.validateSetFirestoreDataAccessModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"firestoreDataAccessMode",
+		val,
+	)
+}
+
 func (j *jsiiProxy_FirestoreDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
@@ -856,6 +939,17 @@ func (j *jsiiProxy_FirestoreDatabase)SetLocationId(val *string) {
 	_jsii_.Set(
 		j,
 		"locationId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreDatabase)SetMongodbCompatibleDataAccessMode(val *string) {
+	if err := j.validateSetMongodbCompatibleDataAccessModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mongodbCompatibleDataAccessMode",
 		val,
 	)
 }
@@ -908,6 +1002,17 @@ func (j *jsiiProxy_FirestoreDatabase)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreDatabase)SetRealtimeUpdatesMode(val *string) {
+	if err := j.validateSetRealtimeUpdatesModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"realtimeUpdatesMode",
 		val,
 	)
 }
@@ -1357,10 +1462,26 @@ func (f *jsiiProxy_FirestoreDatabase) ResetDeletionPolicy() {
 	)
 }
 
+func (f *jsiiProxy_FirestoreDatabase) ResetFirestoreDataAccessMode() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetFirestoreDataAccessMode",
+		nil, // no parameters
+	)
+}
+
 func (f *jsiiProxy_FirestoreDatabase) ResetId() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FirestoreDatabase) ResetMongodbCompatibleDataAccessMode() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetMongodbCompatibleDataAccessMode",
 		nil, // no parameters
 	)
 }
@@ -1385,6 +1506,14 @@ func (f *jsiiProxy_FirestoreDatabase) ResetProject() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FirestoreDatabase) ResetRealtimeUpdatesMode() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetRealtimeUpdatesMode",
 		nil, // no parameters
 	)
 }

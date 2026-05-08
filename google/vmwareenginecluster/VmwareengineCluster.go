@@ -5,14 +5,14 @@ package vmwareenginecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vmwareenginecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vmwareenginecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_cluster google_vmwareengine_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_cluster google_vmwareengine_cluster}.
 type VmwareengineCluster interface {
 	cdktn.TerraformResource
 	AutoscalingSettings() VmwareengineClusterAutoscalingSettingsOutputReference
@@ -29,6 +29,9 @@ type VmwareengineCluster interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CreateTime() *string
+	DatastoreMountConfig() VmwareengineClusterDatastoreMountConfigList
+	DatastoreMountConfigInput() interface{}
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -79,6 +82,7 @@ type VmwareengineCluster interface {
 	Timeouts() VmwareengineClusterTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	Uid() *string
+	UpdateTime() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -123,9 +127,11 @@ type VmwareengineCluster interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscalingSettings(value *VmwareengineClusterAutoscalingSettings)
+	PutDatastoreMountConfig(value interface{})
 	PutNodeTypeConfigs(value interface{})
 	PutTimeouts(value *VmwareengineClusterTimeouts)
 	ResetAutoscalingSettings()
+	ResetDatastoreMountConfig()
 	ResetId()
 	ResetNodeTypeConfigs()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -214,6 +220,36 @@ func (j *jsiiProxy_VmwareengineCluster) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineCluster) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineCluster) DatastoreMountConfig() VmwareengineClusterDatastoreMountConfigList {
+	var returns VmwareengineClusterDatastoreMountConfigList
+	_jsii_.Get(
+		j,
+		"datastoreMountConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineCluster) DatastoreMountConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"datastoreMountConfigInput",
 		&returns,
 	)
 	return returns
@@ -469,8 +505,18 @@ func (j *jsiiProxy_VmwareengineCluster) Uid() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VmwareengineCluster) UpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTime",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_cluster google_vmwareengine_cluster} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_cluster google_vmwareengine_cluster} Resource.
 func NewVmwareengineCluster(scope constructs.Construct, id *string, config *VmwareengineClusterConfig) VmwareengineCluster {
 	_init_.Initialize()
 
@@ -488,7 +534,7 @@ func NewVmwareengineCluster(scope constructs.Construct, id *string, config *Vmwa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_cluster google_vmwareengine_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_cluster google_vmwareengine_cluster} Resource.
 func NewVmwareengineCluster_Override(v VmwareengineCluster, scope constructs.Construct, id *string, config *VmwareengineClusterConfig) {
 	_init_.Initialize()
 
@@ -964,6 +1010,17 @@ func (v *jsiiProxy_VmwareengineCluster) PutAutoscalingSettings(value *Vmwareengi
 	)
 }
 
+func (v *jsiiProxy_VmwareengineCluster) PutDatastoreMountConfig(value interface{}) {
+	if err := v.validatePutDatastoreMountConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putDatastoreMountConfig",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VmwareengineCluster) PutNodeTypeConfigs(value interface{}) {
 	if err := v.validatePutNodeTypeConfigsParameters(value); err != nil {
 		panic(err)
@@ -990,6 +1047,14 @@ func (v *jsiiProxy_VmwareengineCluster) ResetAutoscalingSettings() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetAutoscalingSettings",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VmwareengineCluster) ResetDatastoreMountConfig() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDatastoreMountConfig",
 		nil, // no parameters
 	)
 }

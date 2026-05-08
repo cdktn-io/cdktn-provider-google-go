@@ -5,14 +5,14 @@ package computetargetsslproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computetargetsslproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computetargetsslproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_target_ssl_proxy google_compute_target_ssl_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_target_ssl_proxy google_compute_target_ssl_proxy}.
 type ComputeTargetSslProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -566,7 +566,7 @@ func (j *jsiiProxy_ComputeTargetSslProxy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_target_ssl_proxy google_compute_target_ssl_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_target_ssl_proxy google_compute_target_ssl_proxy} Resource.
 func NewComputeTargetSslProxy(scope constructs.Construct, id *string, config *ComputeTargetSslProxyConfig) ComputeTargetSslProxy {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewComputeTargetSslProxy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_target_ssl_proxy google_compute_target_ssl_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_target_ssl_proxy google_compute_target_ssl_proxy} Resource.
 func NewComputeTargetSslProxy_Override(c ComputeTargetSslProxy, scope constructs.Construct, id *string, config *ComputeTargetSslProxyConfig) {
 	_init_.Initialize()
 

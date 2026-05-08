@@ -5,14 +5,14 @@ package monitoringcustomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/monitoringcustomservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/monitoringcustomservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/monitoring_custom_service google_monitoring_custom_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_custom_service google_monitoring_custom_service}.
 type MonitoringCustomService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_MonitoringCustomService) UserLabelsInput() *map[string]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/monitoring_custom_service google_monitoring_custom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_custom_service google_monitoring_custom_service} Resource.
 func NewMonitoringCustomService(scope constructs.Construct, id *string, config *MonitoringCustomServiceConfig) MonitoringCustomService {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewMonitoringCustomService(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/monitoring_custom_service google_monitoring_custom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_custom_service google_monitoring_custom_service} Resource.
 func NewMonitoringCustomService_Override(m MonitoringCustomService, scope constructs.Construct, id *string, config *MonitoringCustomServiceConfig) {
 	_init_.Initialize()
 

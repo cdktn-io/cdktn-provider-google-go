@@ -47,6 +47,10 @@ func (d *jsiiProxy_DatastreamStreamBackfillAllOutputReference) validateInterpola
 	return nil
 }
 
+func (d *jsiiProxy_DatastreamStreamBackfillAllOutputReference) validatePutMongodbExcludedObjectsParameters(value *DatastreamStreamBackfillAllMongodbExcludedObjects) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatastreamStreamBackfillAllOutputReference) validatePutMysqlExcludedObjectsParameters(value *DatastreamStreamBackfillAllMysqlExcludedObjects) error {
 	return nil
 }
@@ -60,6 +64,10 @@ func (d *jsiiProxy_DatastreamStreamBackfillAllOutputReference) validatePutPostgr
 }
 
 func (d *jsiiProxy_DatastreamStreamBackfillAllOutputReference) validatePutSalesforceExcludedObjectsParameters(value *DatastreamStreamBackfillAllSalesforceExcludedObjects) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatastreamStreamBackfillAllOutputReference) validatePutSpannerExcludedObjectsParameters(value *DatastreamStreamBackfillAllSpannerExcludedObjects) error {
 	return nil
 }
 

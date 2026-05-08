@@ -5,14 +5,14 @@ package geminiloggingsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/geminiloggingsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/geminiloggingsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gemini_logging_setting google_gemini_logging_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_logging_setting google_gemini_logging_setting}.
 type GeminiLoggingSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -540,7 +540,7 @@ func (j *jsiiProxy_GeminiLoggingSetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gemini_logging_setting google_gemini_logging_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_logging_setting google_gemini_logging_setting} Resource.
 func NewGeminiLoggingSetting(scope constructs.Construct, id *string, config *GeminiLoggingSettingConfig) GeminiLoggingSetting {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewGeminiLoggingSetting(scope constructs.Construct, id *string, config *Gem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gemini_logging_setting google_gemini_logging_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_logging_setting google_gemini_logging_setting} Resource.
 func NewGeminiLoggingSetting_Override(g GeminiLoggingSetting, scope constructs.Construct, id *string, config *GeminiLoggingSettingConfig) {
 	_init_.Initialize()
 

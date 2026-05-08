@@ -47,6 +47,10 @@ func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateInterpolati
 	return nil
 }
 
+func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) validatePutPscConfigParameters(value *FilestoreInstanceNetworksPscConfig) error {
+	return nil
+}
+
 func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

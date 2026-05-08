@@ -5,14 +5,14 @@ package vertexaifeatureonlinestorefeatureview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vertexaifeatureonlinestorefeatureview/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vertexaifeatureonlinestorefeatureview/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview}.
 type VertexAiFeatureOnlineStoreFeatureview interface {
 	cdktn.TerraformResource
 	BigQuerySource() VertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReference
@@ -578,7 +578,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStoreFeatureview) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
 func NewVertexAiFeatureOnlineStoreFeatureview(scope constructs.Construct, id *string, config *VertexAiFeatureOnlineStoreFeatureviewConfig) VertexAiFeatureOnlineStoreFeatureview {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewVertexAiFeatureOnlineStoreFeatureview(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
 func NewVertexAiFeatureOnlineStoreFeatureview_Override(v VertexAiFeatureOnlineStoreFeatureview, scope constructs.Construct, id *string, config *VertexAiFeatureOnlineStoreFeatureviewConfig) {
 	_init_.Initialize()
 

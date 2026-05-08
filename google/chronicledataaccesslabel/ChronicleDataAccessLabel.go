@@ -5,14 +5,14 @@ package chronicledataaccesslabel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/chronicledataaccesslabel/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/chronicledataaccesslabel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/chronicle_data_access_label google_chronicle_data_access_label}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_access_label google_chronicle_data_access_label}.
 type ChronicleDataAccessLabel interface {
 	cdktn.TerraformResource
 	Author() *string
@@ -549,7 +549,7 @@ func (j *jsiiProxy_ChronicleDataAccessLabel) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/chronicle_data_access_label google_chronicle_data_access_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_access_label google_chronicle_data_access_label} Resource.
 func NewChronicleDataAccessLabel(scope constructs.Construct, id *string, config *ChronicleDataAccessLabelConfig) ChronicleDataAccessLabel {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewChronicleDataAccessLabel(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/chronicle_data_access_label google_chronicle_data_access_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_access_label google_chronicle_data_access_label} Resource.
 func NewChronicleDataAccessLabel_Override(c ChronicleDataAccessLabel, scope constructs.Construct, id *string, config *ChronicleDataAccessLabelConfig) {
 	_init_.Initialize()
 

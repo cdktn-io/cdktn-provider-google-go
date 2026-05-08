@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputePublicAdvertisedPrefix) validateSetIpCidrRangeParamete
 	return nil
 }
 
+func (j *jsiiProxy_ComputePublicAdvertisedPrefix) validateSetIpv6AccessTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputePublicAdvertisedPrefix) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

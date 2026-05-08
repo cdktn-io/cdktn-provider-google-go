@@ -47,6 +47,10 @@ func (s *jsiiProxy_StorageTransferJobTransferSpecOutputReference) validateInterp
 	return nil
 }
 
+func (s *jsiiProxy_StorageTransferJobTransferSpecOutputReference) validatePutAwsS3CompatibleDataSourceParameters(value *StorageTransferJobTransferSpecAwsS3CompatibleDataSource) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageTransferJobTransferSpecOutputReference) validatePutAwsS3DataSourceParameters(value *StorageTransferJobTransferSpecAwsS3DataSource) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StorageTransferJobTransferSpecOutputReference) validatePutPos
 }
 
 func (s *jsiiProxy_StorageTransferJobTransferSpecOutputReference) validatePutPosixDataSourceParameters(value *StorageTransferJobTransferSpecPosixDataSource) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecOutputReference) validatePutTransferManifestParameters(value *StorageTransferJobTransferSpecTransferManifest) error {
 	return nil
 }
 

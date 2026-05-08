@@ -5,14 +5,14 @@ package netappbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/netappbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/netappbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_backup_vault google_netapp_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_backup_vault google_netapp_backup_vault}.
 type NetappBackupVault interface {
 	cdktn.TerraformResource
 	BackupRegion() *string
@@ -20,6 +20,7 @@ type NetappBackupVault interface {
 	BackupRegionInput() *string
 	BackupRetentionPolicy() NetappBackupVaultBackupRetentionPolicyOutputReference
 	BackupRetentionPolicyInput() *NetappBackupVaultBackupRetentionPolicy
+	BackupsCryptoKeyVersion() *string
 	BackupVaultType() *string
 	SetBackupVaultType(val *string)
 	BackupVaultTypeInput() *string
@@ -45,6 +46,7 @@ type NetappBackupVault interface {
 	DescriptionInput() *string
 	DestinationBackupVault() *string
 	EffectiveLabels() cdktn.StringMap
+	EncryptionState() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -56,6 +58,9 @@ type NetappBackupVault interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KmsConfig() *string
+	SetKmsConfig(val *string)
+	KmsConfigInput() *string
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
@@ -146,6 +151,7 @@ type NetappBackupVault interface {
 	ResetBackupVaultType()
 	ResetDescription()
 	ResetId()
+	ResetKmsConfig()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -214,6 +220,16 @@ func (j *jsiiProxy_NetappBackupVault) BackupRetentionPolicyInput() *NetappBackup
 	_jsii_.Get(
 		j,
 		"backupRetentionPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappBackupVault) BackupsCryptoKeyVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupsCryptoKeyVersion",
 		&returns,
 	)
 	return returns
@@ -339,6 +355,16 @@ func (j *jsiiProxy_NetappBackupVault) EffectiveLabels() cdktn.StringMap {
 	return returns
 }
 
+func (j *jsiiProxy_NetappBackupVault) EncryptionState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionState",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappBackupVault) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -384,6 +410,26 @@ func (j *jsiiProxy_NetappBackupVault) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappBackupVault) KmsConfig() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappBackupVault) KmsConfigInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsConfigInput",
 		&returns,
 	)
 	return returns
@@ -610,7 +656,7 @@ func (j *jsiiProxy_NetappBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_backup_vault google_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_backup_vault google_netapp_backup_vault} Resource.
 func NewNetappBackupVault(scope constructs.Construct, id *string, config *NetappBackupVaultConfig) NetappBackupVault {
 	_init_.Initialize()
 
@@ -628,7 +674,7 @@ func NewNetappBackupVault(scope constructs.Construct, id *string, config *Netapp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_backup_vault google_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_backup_vault google_netapp_backup_vault} Resource.
 func NewNetappBackupVault_Override(n NetappBackupVault, scope constructs.Construct, id *string, config *NetappBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -717,6 +763,17 @@ func (j *jsiiProxy_NetappBackupVault)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappBackupVault)SetKmsConfig(val *string) {
+	if err := j.validateSetKmsConfigParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsConfig",
 		val,
 	)
 }
@@ -1206,6 +1263,14 @@ func (n *jsiiProxy_NetappBackupVault) ResetId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappBackupVault) ResetKmsConfig() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetKmsConfig",
 		nil, // no parameters
 	)
 }

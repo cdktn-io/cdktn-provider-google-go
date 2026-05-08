@@ -5,14 +5,14 @@ package projectiamauditconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/projectiamauditconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/projectiamauditconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_audit_config google_project_iam_audit_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_audit_config google_project_iam_audit_config}.
 type ProjectIamAuditConfig interface {
 	cdktn.TerraformResource
 	AuditLogConfig() ProjectIamAuditConfigAuditLogConfigList
@@ -399,7 +399,7 @@ func (j *jsiiProxy_ProjectIamAuditConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
 func NewProjectIamAuditConfig(scope constructs.Construct, id *string, config *ProjectIamAuditConfigConfig) ProjectIamAuditConfig {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewProjectIamAuditConfig(scope constructs.Construct, id *string, config *Pr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
 func NewProjectIamAuditConfig_Override(p ProjectIamAuditConfig, scope constructs.Construct, id *string, config *ProjectIamAuditConfigConfig) {
 	_init_.Initialize()
 

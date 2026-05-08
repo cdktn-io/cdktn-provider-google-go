@@ -5,14 +5,14 @@ package activedirectorydomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/activedirectorydomain/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/activedirectorydomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/active_directory_domain google_active_directory_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/active_directory_domain google_active_directory_domain}.
 type ActiveDirectoryDomain interface {
 	cdktn.TerraformResource
 	Admin() *string
@@ -576,7 +576,7 @@ func (j *jsiiProxy_ActiveDirectoryDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/active_directory_domain google_active_directory_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/active_directory_domain google_active_directory_domain} Resource.
 func NewActiveDirectoryDomain(scope constructs.Construct, id *string, config *ActiveDirectoryDomainConfig) ActiveDirectoryDomain {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewActiveDirectoryDomain(scope constructs.Construct, id *string, config *Ac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/active_directory_domain google_active_directory_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/active_directory_domain google_active_directory_domain} Resource.
 func NewActiveDirectoryDomain_Override(a ActiveDirectoryDomain, scope constructs.Construct, id *string, config *ActiveDirectoryDomainConfig) {
 	_init_.Initialize()
 

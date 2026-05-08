@@ -5,9 +5,9 @@ package bigqueryanalyticshublistingsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigqueryanalyticshublistingsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigqueryanalyticshublistingsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference in
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	ReplicaLocations() *[]*string
+	SetReplicaLocations(val *[]*string)
+	ReplicaLocationsInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -82,6 +85,7 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference in
 	ResetDescription()
 	ResetFriendlyName()
 	ResetLabels()
+	ResetReplicaLocations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -247,6 +251,26 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutp
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) ReplicaLocations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaLocations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) ReplicaLocationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaLocationsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -368,6 +392,17 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutp
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference)SetReplicaLocations(val *[]*string) {
+	if err := j.validateSetReplicaLocationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"replicaLocations",
 		val,
 	)
 }
@@ -611,6 +646,14 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutp
 	_jsii_.InvokeVoid(
 		b,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) ResetReplicaLocations() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetReplicaLocations",
 		nil, // no parameters
 	)
 }

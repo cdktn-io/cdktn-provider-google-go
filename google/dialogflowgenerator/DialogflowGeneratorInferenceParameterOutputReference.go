@@ -1,0 +1,621 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dialogflowgenerator
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dialogflowgenerator/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type DialogflowGeneratorInferenceParameterOutputReference interface {
+	cdktn.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	InternalValue() *DialogflowGeneratorInferenceParameter
+	SetInternalValue(val *DialogflowGeneratorInferenceParameter)
+	MaxOutputTokens() *float64
+	SetMaxOutputTokens(val *float64)
+	MaxOutputTokensInput() *float64
+	Temperature() *float64
+	SetTemperature(val *float64)
+	TemperatureInput() *float64
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TopK() *float64
+	SetTopK(val *float64)
+	TopKInput() *float64
+	TopP() *float64
+	SetTopP(val *float64)
+	TopPInput() *float64
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetMaxOutputTokens()
+	ResetTemperature()
+	ResetTopK()
+	ResetTopP()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for DialogflowGeneratorInferenceParameterOutputReference
+type jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) InternalValue() *DialogflowGeneratorInferenceParameter {
+	var returns *DialogflowGeneratorInferenceParameter
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) MaxOutputTokens() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxOutputTokens",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) MaxOutputTokensInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxOutputTokensInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) Temperature() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"temperature",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TemperatureInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"temperatureInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TopK() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"topK",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TopKInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"topKInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TopP() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"topP",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) TopPInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"topPInput",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewDialogflowGeneratorInferenceParameterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DialogflowGeneratorInferenceParameterOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewDialogflowGeneratorInferenceParameterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/provider-google.dialogflowGenerator.DialogflowGeneratorInferenceParameterOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+func NewDialogflowGeneratorInferenceParameterOutputReference_Override(d DialogflowGeneratorInferenceParameterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-google.dialogflowGenerator.DialogflowGeneratorInferenceParameterOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetInternalValue(val *DialogflowGeneratorInferenceParameter) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetMaxOutputTokens(val *float64) {
+	if err := j.validateSetMaxOutputTokensParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maxOutputTokens",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetTemperature(val *float64) {
+	if err := j.validateSetTemperatureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"temperature",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetTopK(val *float64) {
+	if err := j.validateSetTopKParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"topK",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference)SetTopP(val *float64) {
+	if err := j.validateSetTopPParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"topP",
+		val,
+	)
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := d.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := d.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := d.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		d,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := d.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := d.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := d.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := d.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := d.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		d,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ResetMaxOutputTokens() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMaxOutputTokens",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ResetTemperature() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTemperature",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ResetTopK() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTopK",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ResetTopP() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTopP",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DialogflowGeneratorInferenceParameterOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

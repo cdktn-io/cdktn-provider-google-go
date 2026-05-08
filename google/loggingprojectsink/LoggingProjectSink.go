@@ -5,14 +5,14 @@ package loggingprojectsink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/loggingprojectsink/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/loggingprojectsink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_project_sink google_logging_project_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_project_sink google_logging_project_sink}.
 type LoggingProjectSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() LoggingProjectSinkBigqueryOptionsOutputReference
@@ -568,7 +568,7 @@ func (j *jsiiProxy_LoggingProjectSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
 func NewLoggingProjectSink(scope constructs.Construct, id *string, config *LoggingProjectSinkConfig) LoggingProjectSink {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewLoggingProjectSink(scope constructs.Construct, id *string, config *Loggi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
 func NewLoggingProjectSink_Override(l LoggingProjectSink, scope constructs.Construct, id *string, config *LoggingProjectSinkConfig) {
 	_init_.Initialize()
 

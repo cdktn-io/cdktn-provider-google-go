@@ -5,14 +5,14 @@ package iaptunneldestgroupiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iaptunneldestgroupiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iaptunneldestgroupiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_tunnel_dest_group_iam_member google_iap_tunnel_dest_group_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_tunnel_dest_group_iam_member google_iap_tunnel_dest_group_iam_member}.
 type IapTunnelDestGroupIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_IapTunnelDestGroupIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_tunnel_dest_group_iam_member google_iap_tunnel_dest_group_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_tunnel_dest_group_iam_member google_iap_tunnel_dest_group_iam_member} Resource.
 func NewIapTunnelDestGroupIamMember(scope constructs.Construct, id *string, config *IapTunnelDestGroupIamMemberConfig) IapTunnelDestGroupIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewIapTunnelDestGroupIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_tunnel_dest_group_iam_member google_iap_tunnel_dest_group_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_tunnel_dest_group_iam_member google_iap_tunnel_dest_group_iam_member} Resource.
 func NewIapTunnelDestGroupIamMember_Override(i IapTunnelDestGroupIamMember, scope constructs.Construct, id *string, config *IapTunnelDestGroupIamMemberConfig) {
 	_init_.Initialize()
 

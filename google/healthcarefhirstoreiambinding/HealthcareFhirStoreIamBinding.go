@@ -5,14 +5,14 @@ package healthcarefhirstoreiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/healthcarefhirstoreiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/healthcarefhirstoreiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/healthcare_fhir_store_iam_binding google_healthcare_fhir_store_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/healthcare_fhir_store_iam_binding google_healthcare_fhir_store_iam_binding}.
 type HealthcareFhirStoreIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_HealthcareFhirStoreIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/healthcare_fhir_store_iam_binding google_healthcare_fhir_store_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/healthcare_fhir_store_iam_binding google_healthcare_fhir_store_iam_binding} Resource.
 func NewHealthcareFhirStoreIamBinding(scope constructs.Construct, id *string, config *HealthcareFhirStoreIamBindingConfig) HealthcareFhirStoreIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewHealthcareFhirStoreIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/healthcare_fhir_store_iam_binding google_healthcare_fhir_store_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/healthcare_fhir_store_iam_binding google_healthcare_fhir_store_iam_binding} Resource.
 func NewHealthcareFhirStoreIamBinding_Override(h HealthcareFhirStoreIamBinding, scope constructs.Construct, id *string, config *HealthcareFhirStoreIamBindingConfig) {
 	_init_.Initialize()
 

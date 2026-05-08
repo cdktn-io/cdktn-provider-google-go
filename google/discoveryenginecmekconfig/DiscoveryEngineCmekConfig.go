@@ -5,14 +5,14 @@ package discoveryenginecmekconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/discoveryenginecmekconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/discoveryenginecmekconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config}.
 type DiscoveryEngineCmekConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -134,7 +134,6 @@ type DiscoveryEngineCmekConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSingleRegionKeys(value interface{})
 	PutTimeouts(value *DiscoveryEngineCmekConfigTimeouts)
-	ResetCmekConfigId()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -551,7 +550,7 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
 func NewDiscoveryEngineCmekConfig(scope constructs.Construct, id *string, config *DiscoveryEngineCmekConfigConfig) DiscoveryEngineCmekConfig {
 	_init_.Initialize()
 
@@ -569,7 +568,7 @@ func NewDiscoveryEngineCmekConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
 func NewDiscoveryEngineCmekConfig_Override(d DiscoveryEngineCmekConfig, scope constructs.Construct, id *string, config *DiscoveryEngineCmekConfigConfig) {
 	_init_.Initialize()
 
@@ -1086,14 +1085,6 @@ func (d *jsiiProxy_DiscoveryEngineCmekConfig) PutTimeouts(value *DiscoveryEngine
 		d,
 		"putTimeouts",
 		[]interface{}{value},
-	)
-}
-
-func (d *jsiiProxy_DiscoveryEngineCmekConfig) ResetCmekConfigId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetCmekConfigId",
-		nil, // no parameters
 	)
 }
 

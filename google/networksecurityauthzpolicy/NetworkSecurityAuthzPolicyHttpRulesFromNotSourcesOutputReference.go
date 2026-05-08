@@ -5,9 +5,9 @@ package networksecurityauthzpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networksecurityauthzpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networksecurityauthzpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference interface 
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	IpBlocks() NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksList
+	IpBlocksInput() interface{}
 	Principals() NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesPrincipalsList
 	PrincipalsInput() interface{}
 	Resources() NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesResourcesList
@@ -68,8 +70,10 @@ type NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutIpBlocks(value interface{})
 	PutPrincipals(value interface{})
 	PutResources(value interface{})
+	ResetIpBlocks()
 	ResetPrincipals()
 	ResetResources()
 	// Produce the Token's value at resolution time.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputRefere
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) IpBlocks() NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksList {
+	var returns NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesIpBlocksList
+	_jsii_.Get(
+		j,
+		"ipBlocks",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) IpBlocksInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipBlocksInput",
 		&returns,
 	)
 	return returns
@@ -466,6 +490,17 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputRefere
 	return returns
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) PutIpBlocks(value interface{}) {
+	if err := n.validatePutIpBlocksParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putIpBlocks",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) PutPrincipals(value interface{}) {
 	if err := n.validatePutPrincipalsParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputRefere
 		n,
 		"putResources",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) ResetIpBlocks() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetIpBlocks",
+		nil, // no parameters
 	)
 }
 

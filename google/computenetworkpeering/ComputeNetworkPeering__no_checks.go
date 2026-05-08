@@ -147,6 +147,10 @@ func (j *jsiiProxy_ComputeNetworkPeering) validateSetStackTypeParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkPeering) validateSetUpdateStrategyParameters(val *string) error {
+	return nil
+}
+
 func validateNewComputeNetworkPeeringParameters(scope constructs.Construct, id *string, config *ComputeNetworkPeeringConfig) error {
 	return nil
 }

@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package networkserviceslbedgeextension
+
+
+type NetworkServicesLbEdgeExtensionExtensionChainsMatchCondition struct {
+	// A Common Expression Language (CEL) expression that is used to match requests for which the extension chain is executed.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_lb_edge_extension#cel_expression NetworkServicesLbEdgeExtension#cel_expression}
+	CelExpression *string `field:"required" json:"celExpression" yaml:"celExpression"`
+}
+

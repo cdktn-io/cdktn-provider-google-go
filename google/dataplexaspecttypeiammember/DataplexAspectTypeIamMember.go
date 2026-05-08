@@ -5,14 +5,14 @@ package dataplexaspecttypeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataplexaspecttypeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataplexaspecttypeiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_aspect_type_iam_member google_dataplex_aspect_type_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_aspect_type_iam_member google_dataplex_aspect_type_iam_member}.
 type DataplexAspectTypeIamMember interface {
 	cdktn.TerraformResource
 	AspectTypeId() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataplexAspectTypeIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_aspect_type_iam_member google_dataplex_aspect_type_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_aspect_type_iam_member google_dataplex_aspect_type_iam_member} Resource.
 func NewDataplexAspectTypeIamMember(scope constructs.Construct, id *string, config *DataplexAspectTypeIamMemberConfig) DataplexAspectTypeIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataplexAspectTypeIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_aspect_type_iam_member google_dataplex_aspect_type_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_aspect_type_iam_member google_dataplex_aspect_type_iam_member} Resource.
 func NewDataplexAspectTypeIamMember_Override(d DataplexAspectTypeIamMember, scope constructs.Construct, id *string, config *DataplexAspectTypeIamMemberConfig) {
 	_init_.Initialize()
 

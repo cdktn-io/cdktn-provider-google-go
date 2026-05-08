@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,7 @@ type ContainerClusterUserManagedKeysConfigOutputReference interface {
 	ControlPlaneDiskEncryptionKey() *string
 	SetControlPlaneDiskEncryptionKey(val *string)
 	ControlPlaneDiskEncryptionKeyInput() *string
+	ControlPlaneDiskEncryptionKeyVersions() *[]*string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -186,6 +187,16 @@ func (j *jsiiProxy_ContainerClusterUserManagedKeysConfigOutputReference) Control
 	_jsii_.Get(
 		j,
 		"controlPlaneDiskEncryptionKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterUserManagedKeysConfigOutputReference) ControlPlaneDiskEncryptionKeyVersions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"controlPlaneDiskEncryptionKeyVersions",
 		&returns,
 	)
 	return returns

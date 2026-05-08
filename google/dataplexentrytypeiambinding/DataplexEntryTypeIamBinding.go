@@ -5,14 +5,14 @@ package dataplexentrytypeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataplexentrytypeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataplexentrytypeiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding}.
 type DataplexEntryTypeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataplexEntryTypeIamBinding) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding} Resource.
 func NewDataplexEntryTypeIamBinding(scope constructs.Construct, id *string, config *DataplexEntryTypeIamBindingConfig) DataplexEntryTypeIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataplexEntryTypeIamBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataplex_entry_type_iam_binding google_dataplex_entry_type_iam_binding} Resource.
 func NewDataplexEntryTypeIamBinding_Override(d DataplexEntryTypeIamBinding, scope constructs.Construct, id *string, config *DataplexEntryTypeIamBindingConfig) {
 	_init_.Initialize()
 

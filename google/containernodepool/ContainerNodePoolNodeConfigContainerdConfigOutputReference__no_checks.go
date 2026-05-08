@@ -51,6 +51,14 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigOutputReference) v
 	return nil
 }
 
+func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigOutputReference) validatePutRegistryHostsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigOutputReference) validatePutWritableCgroupsParameters(value *ContainerNodePoolNodeConfigContainerdConfigWritableCgroups) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerNodePoolNodeConfigContainerdConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

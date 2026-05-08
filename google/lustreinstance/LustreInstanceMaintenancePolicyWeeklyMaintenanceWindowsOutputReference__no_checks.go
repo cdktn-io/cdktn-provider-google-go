@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package lustreinstance
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validatePutStartTimeParameters(value *LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsStartTime) error {
+	return nil
+}
+
+func (l *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateSetDayOfWeekParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateSetInternalValueParameters(val *LustreInstanceMaintenancePolicyWeeklyMaintenanceWindows) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_LustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewLustreInstanceMaintenancePolicyWeeklyMaintenanceWindowsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

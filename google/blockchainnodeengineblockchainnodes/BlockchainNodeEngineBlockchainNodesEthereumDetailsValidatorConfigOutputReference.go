@@ -5,14 +5,17 @@ package blockchainnodeengineblockchainnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/blockchainnodeengineblockchainnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/blockchainnodeengineblockchainnodes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference interface {
 	cdktn.ComplexObject
+	BeaconFeeRecipient() *string
+	SetBeaconFeeRecipient(val *string)
+	BeaconFeeRecipientInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -67,6 +70,7 @@ type BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputRefe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetBeaconFeeRecipient()
 	ResetMevRelayUrls()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -81,6 +85,26 @@ type BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputRefe
 // The jsii proxy struct for BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference
 type jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) BeaconFeeRecipient() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"beaconFeeRecipient",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) BeaconFeeRecipientInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"beaconFeeRecipientInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -198,6 +222,17 @@ func NewBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputR
 		"@cdktn/provider-google.blockchainNodeEngineBlockchainNodes.BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference)SetBeaconFeeRecipient(val *string) {
+	if err := j.validateSetBeaconFeeRecipientParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"beaconFeeRecipient",
+		val,
 	)
 }
 
@@ -451,6 +486,14 @@ func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorCo
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) ResetBeaconFeeRecipient() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetBeaconFeeRecipient",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) ResetMevRelayUrls() {

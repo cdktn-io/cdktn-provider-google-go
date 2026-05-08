@@ -5,9 +5,9 @@ package datagooglecomputeinstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecomputeinstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecomputeinstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,7 @@ type DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface 
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IgmpQuery() *string
 	InternalIpv6PrefixLength() *float64
 	InternalValue() *DataGoogleComputeInstanceTemplateNetworkInterface
 	SetInternalValue(val *DataGoogleComputeInstanceTemplateNetworkInterface)
@@ -40,8 +41,10 @@ type DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface 
 	Ipv6Address() *string
 	Name() *string
 	Network() *string
+	NetworkAttachment() *string
 	NetworkIp() *string
 	NicType() *string
+	ParentNicName() *string
 	QueueCount() *float64
 	StackType() *string
 	Subnetwork() *string
@@ -54,6 +57,7 @@ type DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface 
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Vlan() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -153,6 +157,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputRefere
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) IgmpQuery() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"igmpQuery",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) InternalIpv6PrefixLength() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -223,6 +237,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputRefere
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) NetworkAttachment() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkAttachment",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) NetworkIp() *string {
 	var returns *string
 	_jsii_.Get(
@@ -238,6 +262,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputRefere
 	_jsii_.Get(
 		j,
 		"nicType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) ParentNicName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentNicName",
 		&returns,
 	)
 	return returns
@@ -298,6 +332,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputRefere
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) Vlan() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vlan",
 		&returns,
 	)
 	return returns

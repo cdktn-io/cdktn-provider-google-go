@@ -5,14 +5,14 @@ package backupdrbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/backupdrbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/backupdrbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault}.
 type BackupDrBackupVault interface {
 	cdktn.TerraformResource
 	AccessRestriction() *string
@@ -60,6 +60,8 @@ type BackupDrBackupVault interface {
 	EffectiveTime() *string
 	SetEffectiveTime(val *string)
 	EffectiveTimeInput() *string
+	EncryptionConfig() BackupDrBackupVaultEncryptionConfigOutputReference
+	EncryptionConfigInput() *BackupDrBackupVaultEncryptionConfig
 	Etag() *string
 	ForceDelete() interface{}
 	SetForceDelete(val interface{})
@@ -167,6 +169,7 @@ type BackupDrBackupVault interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEncryptionConfig(value *BackupDrBackupVaultEncryptionConfig)
 	PutTimeouts(value *BackupDrBackupVaultTimeouts)
 	ResetAccessRestriction()
 	ResetAllowMissing()
@@ -174,6 +177,7 @@ type BackupDrBackupVault interface {
 	ResetBackupRetentionInheritance()
 	ResetDescription()
 	ResetEffectiveTime()
+	ResetEncryptionConfig()
 	ResetForceDelete()
 	ResetForceUpdate()
 	ResetId()
@@ -467,6 +471,26 @@ func (j *jsiiProxy_BackupDrBackupVault) EffectiveTimeInput() *string {
 	_jsii_.Get(
 		j,
 		"effectiveTimeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupVault) EncryptionConfig() BackupDrBackupVaultEncryptionConfigOutputReference {
+	var returns BackupDrBackupVaultEncryptionConfigOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupVault) EncryptionConfigInput() *BackupDrBackupVaultEncryptionConfig {
+	var returns *BackupDrBackupVaultEncryptionConfig
+	_jsii_.Get(
+		j,
+		"encryptionConfigInput",
 		&returns,
 	)
 	return returns
@@ -843,7 +867,7 @@ func (j *jsiiProxy_BackupDrBackupVault) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
 func NewBackupDrBackupVault(scope constructs.Construct, id *string, config *BackupDrBackupVaultConfig) BackupDrBackupVault {
 	_init_.Initialize()
 
@@ -861,7 +885,7 @@ func NewBackupDrBackupVault(scope constructs.Construct, id *string, config *Back
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
 func NewBackupDrBackupVault_Override(b BackupDrBackupVault, scope constructs.Construct, id *string, config *BackupDrBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -1469,6 +1493,17 @@ func (b *jsiiProxy_BackupDrBackupVault) OverrideLogicalId(newLogicalId *string) 
 	)
 }
 
+func (b *jsiiProxy_BackupDrBackupVault) PutEncryptionConfig(value *BackupDrBackupVaultEncryptionConfig) {
+	if err := b.validatePutEncryptionConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putEncryptionConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BackupDrBackupVault) PutTimeouts(value *BackupDrBackupVaultTimeouts) {
 	if err := b.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1524,6 +1559,14 @@ func (b *jsiiProxy_BackupDrBackupVault) ResetEffectiveTime() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetEffectiveTime",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrBackupVault) ResetEncryptionConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetEncryptionConfig",
 		nil, // no parameters
 	)
 }

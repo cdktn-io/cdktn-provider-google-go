@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataGoogleContainerClusterSecretManagerConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataGoogleContainerClusterSecretManagerConfig
 	SetInternalValue(val *DataGoogleContainerClusterSecretManagerConfig)
+	RotationConfig() DataGoogleContainerClusterSecretManagerConfigRotationConfigList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterSecretManagerConfigOutputReference)
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterSecretManagerConfigOutputReference) RotationConfig() DataGoogleContainerClusterSecretManagerConfigRotationConfigList {
+	var returns DataGoogleContainerClusterSecretManagerConfigRotationConfigList
+	_jsii_.Get(
+		j,
+		"rotationConfig",
 		&returns,
 	)
 	return returns

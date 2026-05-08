@@ -5,14 +5,14 @@ package iapwebtypeappengineiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iapwebtypeappengineiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iapwebtypeappengineiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_app_engine_iam_policy google_iap_web_type_app_engine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_app_engine_iam_policy google_iap_web_type_app_engine_iam_policy}.
 type IapWebTypeAppEngineIamPolicy interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_IapWebTypeAppEngineIamPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_app_engine_iam_policy google_iap_web_type_app_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_app_engine_iam_policy google_iap_web_type_app_engine_iam_policy} Resource.
 func NewIapWebTypeAppEngineIamPolicy(scope constructs.Construct, id *string, config *IapWebTypeAppEngineIamPolicyConfig) IapWebTypeAppEngineIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewIapWebTypeAppEngineIamPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_app_engine_iam_policy google_iap_web_type_app_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_app_engine_iam_policy google_iap_web_type_app_engine_iam_policy} Resource.
 func NewIapWebTypeAppEngineIamPolicy_Override(i IapWebTypeAppEngineIamPolicy, scope constructs.Construct, id *string, config *IapWebTypeAppEngineIamPolicyConfig) {
 	_init_.Initialize()
 

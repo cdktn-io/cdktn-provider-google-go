@@ -5,14 +5,14 @@ package servicenetworkingconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/servicenetworkingconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/servicenetworkingconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/service_networking_connection google_service_networking_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_connection google_service_networking_connection}.
 type ServiceNetworkingConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ServiceNetworkingConnection) UpdateOnCreationFailInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/service_networking_connection google_service_networking_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_connection google_service_networking_connection} Resource.
 func NewServiceNetworkingConnection(scope constructs.Construct, id *string, config *ServiceNetworkingConnectionConfig) ServiceNetworkingConnection {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewServiceNetworkingConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/service_networking_connection google_service_networking_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_connection google_service_networking_connection} Resource.
 func NewServiceNetworkingConnection_Override(s ServiceNetworkingConnection, scope constructs.Construct, id *string, config *ServiceNetworkingConnectionConfig) {
 	_init_.Initialize()
 

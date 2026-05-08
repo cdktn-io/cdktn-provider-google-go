@@ -5,14 +5,14 @@ package containeranalysisoccurrence
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containeranalysisoccurrence/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containeranalysisoccurrence/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence}.
 type ContainerAnalysisOccurrence interface {
 	cdktn.TerraformResource
 	Attestation() ContainerAnalysisOccurrenceAttestationOutputReference
@@ -504,7 +504,7 @@ func (j *jsiiProxy_ContainerAnalysisOccurrence) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
 func NewContainerAnalysisOccurrence(scope constructs.Construct, id *string, config *ContainerAnalysisOccurrenceConfig) ContainerAnalysisOccurrence {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewContainerAnalysisOccurrence(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
 func NewContainerAnalysisOccurrence_Override(c ContainerAnalysisOccurrence, scope constructs.Construct, id *string, config *ContainerAnalysisOccurrenceConfig) {
 	_init_.Initialize()
 

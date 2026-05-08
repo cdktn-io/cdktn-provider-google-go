@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicy) validateSetNameParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkFirewallPolicy) validateSetPolicyTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkFirewallPolicy) validateSetProjectParameters(val *string) error {
 	return nil
 }

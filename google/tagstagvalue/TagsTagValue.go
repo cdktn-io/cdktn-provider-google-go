@@ -5,14 +5,14 @@ package tagstagvalue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/tagstagvalue/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/tagstagvalue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/tags_tag_value google_tags_tag_value}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/tags_tag_value google_tags_tag_value}.
 type TagsTagValue interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -457,7 +457,7 @@ func (j *jsiiProxy_TagsTagValue) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/tags_tag_value google_tags_tag_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/tags_tag_value google_tags_tag_value} Resource.
 func NewTagsTagValue(scope constructs.Construct, id *string, config *TagsTagValueConfig) TagsTagValue {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewTagsTagValue(scope constructs.Construct, id *string, config *TagsTagValu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/tags_tag_value google_tags_tag_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/tags_tag_value google_tags_tag_value} Resource.
 func NewTagsTagValue_Override(t TagsTagValue, scope constructs.Construct, id *string, config *TagsTagValueConfig) {
 	_init_.Initialize()
 

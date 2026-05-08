@@ -5,14 +5,14 @@ package biglakecatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/biglakecatalog/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/biglakecatalog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/biglake_catalog google_biglake_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/biglake_catalog google_biglake_catalog}.
 type BiglakeCatalog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -457,7 +457,7 @@ func (j *jsiiProxy_BiglakeCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/biglake_catalog google_biglake_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/biglake_catalog google_biglake_catalog} Resource.
 func NewBiglakeCatalog(scope constructs.Construct, id *string, config *BiglakeCatalogConfig) BiglakeCatalog {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewBiglakeCatalog(scope constructs.Construct, id *string, config *BiglakeCa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/biglake_catalog google_biglake_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/biglake_catalog google_biglake_catalog} Resource.
 func NewBiglakeCatalog_Override(b BiglakeCatalog, scope constructs.Construct, id *string, config *BiglakeCatalogConfig) {
 	_init_.Initialize()
 

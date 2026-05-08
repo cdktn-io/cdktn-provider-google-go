@@ -5,14 +5,14 @@ package composerenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/composerenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/composerenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/composer_environment google_composer_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/composer_environment google_composer_environment}.
 type ComposerEnvironment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ComposerEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/composer_environment google_composer_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/composer_environment google_composer_environment} Resource.
 func NewComposerEnvironment(scope constructs.Construct, id *string, config *ComposerEnvironmentConfig) ComposerEnvironment {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewComposerEnvironment(scope constructs.Construct, id *string, config *Comp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/composer_environment google_composer_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/composer_environment google_composer_environment} Resource.
 func NewComposerEnvironment_Override(c ComposerEnvironment, scope constructs.Construct, id *string, config *ComposerEnvironmentConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package netappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/netappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/netappvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -19,6 +19,9 @@ type NetappVolumeExportPolicyRulesOutputReference interface {
 	AllowedClients() *string
 	SetAllowedClients(val *string)
 	AllowedClientsInput() *string
+	AnonUid() *float64
+	SetAnonUid(val *float64)
+	AnonUidInput() *float64
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -65,6 +68,9 @@ type NetappVolumeExportPolicyRulesOutputReference interface {
 	Nfsv4() interface{}
 	SetNfsv4(val interface{})
 	Nfsv4Input() interface{}
+	SquashMode() *string
+	SetSquashMode(val *string)
+	SquashModeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -99,6 +105,7 @@ type NetappVolumeExportPolicyRulesOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAccessType()
 	ResetAllowedClients()
+	ResetAnonUid()
 	ResetHasRootAccess()
 	ResetKerberos5IReadOnly()
 	ResetKerberos5IReadWrite()
@@ -108,6 +115,7 @@ type NetappVolumeExportPolicyRulesOutputReference interface {
 	ResetKerberos5ReadWrite()
 	ResetNfsv3()
 	ResetNfsv4()
+	ResetSquashMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -158,6 +166,26 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) AllowedClientsI
 	_jsii_.Get(
 		j,
 		"allowedClientsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) AnonUid() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"anonUid",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) AnonUidInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"anonUidInput",
 		&returns,
 	)
 	return returns
@@ -393,6 +421,26 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) Nfsv4Input() in
 	return returns
 }
 
+func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) SquashMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"squashMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) SquashModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"squashModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -459,6 +507,17 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference)SetAllowedClient
 	_jsii_.Set(
 		j,
 		"allowedClients",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference)SetAnonUid(val *float64) {
+	if err := j.validateSetAnonUidParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"anonUid",
 		val,
 	)
 }
@@ -591,6 +650,17 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference)SetNfsv4(val int
 	_jsii_.Set(
 		j,
 		"nfsv4",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference)SetSquashMode(val *string) {
+	if err := j.validateSetSquashModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"squashMode",
 		val,
 	)
 }
@@ -819,6 +889,14 @@ func (n *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) ResetAllowedCli
 	)
 }
 
+func (n *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) ResetAnonUid() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetAnonUid",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) ResetHasRootAccess() {
 	_jsii_.InvokeVoid(
 		n,
@@ -887,6 +965,14 @@ func (n *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) ResetNfsv4() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetNfsv4",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeExportPolicyRulesOutputReference) ResetSquashMode() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetSquashMode",
 		nil, // no parameters
 	)
 }

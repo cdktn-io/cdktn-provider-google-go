@@ -5,14 +5,14 @@ package iapwebtypecomputeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iapwebtypecomputeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iapwebtypecomputeiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_compute_iam_member google_iap_web_type_compute_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_compute_iam_member google_iap_web_type_compute_iam_member}.
 type IapWebTypeComputeIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_IapWebTypeComputeIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_compute_iam_member google_iap_web_type_compute_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_compute_iam_member google_iap_web_type_compute_iam_member} Resource.
 func NewIapWebTypeComputeIamMember(scope constructs.Construct, id *string, config *IapWebTypeComputeIamMemberConfig) IapWebTypeComputeIamMember {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewIapWebTypeComputeIamMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_web_type_compute_iam_member google_iap_web_type_compute_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_web_type_compute_iam_member google_iap_web_type_compute_iam_member} Resource.
 func NewIapWebTypeComputeIamMember_Override(i IapWebTypeComputeIamMember, scope constructs.Construct, id *string, config *IapWebTypeComputeIamMemberConfig) {
 	_init_.Initialize()
 

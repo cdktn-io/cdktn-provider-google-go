@@ -5,14 +5,14 @@ package loggingfolderexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/loggingfolderexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/loggingfolderexclusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_folder_exclusion google_logging_folder_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_folder_exclusion google_logging_folder_exclusion}.
 type LoggingFolderExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_LoggingFolderExclusion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_folder_exclusion google_logging_folder_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_folder_exclusion google_logging_folder_exclusion} Resource.
 func NewLoggingFolderExclusion(scope constructs.Construct, id *string, config *LoggingFolderExclusionConfig) LoggingFolderExclusion {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewLoggingFolderExclusion(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_folder_exclusion google_logging_folder_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_folder_exclusion google_logging_folder_exclusion} Resource.
 func NewLoggingFolderExclusion_Override(l LoggingFolderExclusion, scope constructs.Construct, id *string, config *LoggingFolderExclusionConfig) {
 	_init_.Initialize()
 

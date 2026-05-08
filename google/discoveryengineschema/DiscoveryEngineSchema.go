@@ -5,14 +5,14 @@ package discoveryengineschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/discoveryengineschema/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/discoveryengineschema/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_schema google_discovery_engine_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_schema google_discovery_engine_schema}.
 type DiscoveryEngineSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DiscoveryEngineSchema) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
 func NewDiscoveryEngineSchema(scope constructs.Construct, id *string, config *DiscoveryEngineSchemaConfig) DiscoveryEngineSchema {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDiscoveryEngineSchema(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
 func NewDiscoveryEngineSchema_Override(d DiscoveryEngineSchema, scope constructs.Construct, id *string, config *DiscoveryEngineSchemaConfig) {
 	_init_.Initialize()
 

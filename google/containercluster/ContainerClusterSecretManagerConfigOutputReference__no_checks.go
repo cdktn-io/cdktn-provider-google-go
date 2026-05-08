@@ -47,6 +47,10 @@ func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) validateI
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) validatePutRotationConfigParameters(value *ContainerClusterSecretManagerConfigRotationConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterSecretManagerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

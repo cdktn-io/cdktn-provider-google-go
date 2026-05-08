@@ -5,9 +5,9 @@ package datalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datalosspreventiondiscoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datalosspreventiondiscoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type DataLossPreventionDiscoveryConfigTargetsOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	OtherCloudTarget() DataLossPreventionDiscoveryConfigTargetsOtherCloudTargetOutputReference
+	OtherCloudTargetInput() *DataLossPreventionDiscoveryConfigTargetsOtherCloudTarget
 	SecretsTarget() DataLossPreventionDiscoveryConfigTargetsSecretsTargetOutputReference
 	SecretsTargetInput() *DataLossPreventionDiscoveryConfigTargetsSecretsTarget
 	// Experimental.
@@ -75,10 +77,12 @@ type DataLossPreventionDiscoveryConfigTargetsOutputReference interface {
 	PutBigQueryTarget(value *DataLossPreventionDiscoveryConfigTargetsBigQueryTarget)
 	PutCloudSqlTarget(value *DataLossPreventionDiscoveryConfigTargetsCloudSqlTarget)
 	PutCloudStorageTarget(value *DataLossPreventionDiscoveryConfigTargetsCloudStorageTarget)
+	PutOtherCloudTarget(value *DataLossPreventionDiscoveryConfigTargetsOtherCloudTarget)
 	PutSecretsTarget(value *DataLossPreventionDiscoveryConfigTargetsSecretsTarget)
 	ResetBigQueryTarget()
 	ResetCloudSqlTarget()
 	ResetCloudStorageTarget()
+	ResetOtherCloudTarget()
 	ResetSecretsTarget()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) Inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) OtherCloudTarget() DataLossPreventionDiscoveryConfigTargetsOtherCloudTargetOutputReference {
+	var returns DataLossPreventionDiscoveryConfigTargetsOtherCloudTargetOutputReference
+	_jsii_.Get(
+		j,
+		"otherCloudTarget",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) OtherCloudTargetInput() *DataLossPreventionDiscoveryConfigTargetsOtherCloudTarget {
+	var returns *DataLossPreventionDiscoveryConfigTargetsOtherCloudTarget
+	_jsii_.Get(
+		j,
+		"otherCloudTargetInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) PutC
 	)
 }
 
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) PutOtherCloudTarget(value *DataLossPreventionDiscoveryConfigTargetsOtherCloudTarget) {
+	if err := d.validatePutOtherCloudTargetParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putOtherCloudTarget",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) PutSecretsTarget(value *DataLossPreventionDiscoveryConfigTargetsSecretsTarget) {
 	if err := d.validatePutSecretsTargetParameters(value); err != nil {
 		panic(err)
@@ -578,6 +613,14 @@ func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) Rese
 	_jsii_.InvokeVoid(
 		d,
 		"resetCloudStorageTarget",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsOutputReference) ResetOtherCloudTarget() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOtherCloudTarget",
 		nil, // no parameters
 	)
 }

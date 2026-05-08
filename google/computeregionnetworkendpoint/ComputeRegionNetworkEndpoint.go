@@ -5,18 +5,21 @@ package computeregionnetworkendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeregionnetworkendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeregionnetworkendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_network_endpoint google_compute_region_network_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_network_endpoint google_compute_region_network_endpoint}.
 type ComputeRegionNetworkEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ClientDestinationPort() *float64
+	SetClientDestinationPort(val *float64)
+	ClientDestinationPortInput() *float64
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,6 +48,9 @@ type ComputeRegionNetworkEndpoint interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Instance() *string
+	SetInstance(val *string)
+	InstanceInput() *string
 	IpAddress() *string
 	SetIpAddress(val *string)
 	IpAddressInput() *string
@@ -129,8 +135,10 @@ type ComputeRegionNetworkEndpoint interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeRegionNetworkEndpointTimeouts)
+	ResetClientDestinationPort()
 	ResetFqdn()
 	ResetId()
+	ResetInstance()
 	ResetIpAddress()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -170,6 +178,26 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpoint) CdktfStack() cdktn.TerraformSta
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkEndpoint) ClientDestinationPort() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"clientDestinationPort",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkEndpoint) ClientDestinationPortInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"clientDestinationPortInput",
 		&returns,
 	)
 	return returns
@@ -280,6 +308,26 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpoint) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkEndpoint) Instance() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instance",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkEndpoint) InstanceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instanceInput",
 		&returns,
 	)
 	return returns
@@ -496,7 +544,7 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_network_endpoint google_compute_region_network_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_network_endpoint google_compute_region_network_endpoint} Resource.
 func NewComputeRegionNetworkEndpoint(scope constructs.Construct, id *string, config *ComputeRegionNetworkEndpointConfig) ComputeRegionNetworkEndpoint {
 	_init_.Initialize()
 
@@ -514,7 +562,7 @@ func NewComputeRegionNetworkEndpoint(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_network_endpoint google_compute_region_network_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_network_endpoint google_compute_region_network_endpoint} Resource.
 func NewComputeRegionNetworkEndpoint_Override(c ComputeRegionNetworkEndpoint, scope constructs.Construct, id *string, config *ComputeRegionNetworkEndpointConfig) {
 	_init_.Initialize()
 
@@ -522,6 +570,17 @@ func NewComputeRegionNetworkEndpoint_Override(c ComputeRegionNetworkEndpoint, sc
 		"@cdktn/provider-google.computeRegionNetworkEndpoint.ComputeRegionNetworkEndpoint",
 		[]interface{}{scope, id, config},
 		c,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkEndpoint)SetClientDestinationPort(val *float64) {
+	if err := j.validateSetClientDestinationPortParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientDestinationPort",
+		val,
 	)
 }
 
@@ -581,6 +640,17 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpoint)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkEndpoint)SetInstance(val *string) {
+	if err := j.validateSetInstanceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"instance",
 		val,
 	)
 }
@@ -1034,6 +1104,14 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpoint) PutTimeouts(value *ComputeRegio
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionNetworkEndpoint) ResetClientDestinationPort() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetClientDestinationPort",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionNetworkEndpoint) ResetFqdn() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1046,6 +1124,14 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpoint) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionNetworkEndpoint) ResetInstance() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetInstance",
 		nil, // no parameters
 	)
 }

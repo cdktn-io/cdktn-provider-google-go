@@ -5,14 +5,14 @@ package certificatemanagercertificateissuanceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/certificatemanagercertificateissuanceconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/certificatemanagercertificateissuanceconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}.
 type CertificateManagerCertificateIssuanceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -598,7 +598,7 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
 func NewCertificateManagerCertificateIssuanceConfig(scope constructs.Construct, id *string, config *CertificateManagerCertificateIssuanceConfigConfig) CertificateManagerCertificateIssuanceConfig {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewCertificateManagerCertificateIssuanceConfig(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
 func NewCertificateManagerCertificateIssuanceConfig_Override(c CertificateManagerCertificateIssuanceConfig, scope constructs.Construct, id *string, config *CertificateManagerCertificateIssuanceConfigConfig) {
 	_init_.Initialize()
 

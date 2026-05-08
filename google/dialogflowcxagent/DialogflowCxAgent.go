@@ -5,23 +5,27 @@ package dialogflowcxagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dialogflowcxagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dialogflowcxagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dialogflow_cx_agent google_dialogflow_cx_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_agent google_dialogflow_cx_agent}.
 type DialogflowCxAgent interface {
 	cdktn.TerraformResource
 	AdvancedSettings() DialogflowCxAgentAdvancedSettingsOutputReference
 	AdvancedSettingsInput() *DialogflowCxAgentAdvancedSettings
+	AnswerFeedbackSettings() DialogflowCxAgentAnswerFeedbackSettingsOutputReference
+	AnswerFeedbackSettingsInput() *DialogflowCxAgentAnswerFeedbackSettings
 	AvatarUri() *string
 	SetAvatarUri(val *string)
 	AvatarUriInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ClientCertificateSettings() DialogflowCxAgentClientCertificateSettingsOutputReference
+	ClientCertificateSettingsInput() *DialogflowCxAgentClientCertificateSettings
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -48,6 +52,9 @@ type DialogflowCxAgent interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	EnableMultiLanguageTraining() interface{}
+	SetEnableMultiLanguageTraining(val interface{})
+	EnableMultiLanguageTrainingInput() interface{}
 	EnableSpellCorrection() interface{}
 	SetEnableSpellCorrection(val interface{})
 	EnableSpellCorrectionInput() interface{}
@@ -76,9 +83,14 @@ type DialogflowCxAgent interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Locked() interface{}
+	SetLocked(val interface{})
+	LockedInput() interface{}
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	PersonalizationSettings() DialogflowCxAgentPersonalizationSettingsOutputReference
+	PersonalizationSettingsInput() *DialogflowCxAgentPersonalizationSettings
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -92,12 +104,17 @@ type DialogflowCxAgent interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SatisfiesPzi() cdktn.IResolvable
+	SatisfiesPzs() cdktn.IResolvable
 	SecuritySettings() *string
 	SetSecuritySettings(val *string)
 	SecuritySettingsInput() *string
 	SpeechToTextSettings() DialogflowCxAgentSpeechToTextSettingsOutputReference
 	SpeechToTextSettingsInput() *DialogflowCxAgentSpeechToTextSettings
 	StartFlow() *string
+	StartPlaybook() *string
+	SetStartPlaybook(val *string)
+	StartPlaybookInput() *string
 	SupportedLanguageCodes() *[]*string
 	SetSupportedLanguageCodes(val *[]*string)
 	SupportedLanguageCodesInput() *[]*string
@@ -158,26 +175,35 @@ type DialogflowCxAgent interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAdvancedSettings(value *DialogflowCxAgentAdvancedSettings)
+	PutAnswerFeedbackSettings(value *DialogflowCxAgentAnswerFeedbackSettings)
+	PutClientCertificateSettings(value *DialogflowCxAgentClientCertificateSettings)
 	PutGenAppBuilderSettings(value *DialogflowCxAgentGenAppBuilderSettings)
 	PutGitIntegrationSettings(value *DialogflowCxAgentGitIntegrationSettings)
+	PutPersonalizationSettings(value *DialogflowCxAgentPersonalizationSettings)
 	PutSpeechToTextSettings(value *DialogflowCxAgentSpeechToTextSettings)
 	PutTextToSpeechSettings(value *DialogflowCxAgentTextToSpeechSettings)
 	PutTimeouts(value *DialogflowCxAgentTimeouts)
 	ResetAdvancedSettings()
+	ResetAnswerFeedbackSettings()
 	ResetAvatarUri()
+	ResetClientCertificateSettings()
 	ResetDeleteChatEngineOnDestroy()
 	ResetDescription()
+	ResetEnableMultiLanguageTraining()
 	ResetEnableSpellCorrection()
 	ResetEnableStackdriverLogging()
 	ResetGenAppBuilderSettings()
 	ResetGitIntegrationSettings()
 	ResetId()
+	ResetLocked()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPersonalizationSettings()
 	ResetProject()
 	ResetSecuritySettings()
 	ResetSpeechToTextSettings()
+	ResetStartPlaybook()
 	ResetSupportedLanguageCodes()
 	ResetTextToSpeechSettings()
 	ResetTimeouts()
@@ -228,6 +254,26 @@ func (j *jsiiProxy_DialogflowCxAgent) AdvancedSettingsInput() *DialogflowCxAgent
 	return returns
 }
 
+func (j *jsiiProxy_DialogflowCxAgent) AnswerFeedbackSettings() DialogflowCxAgentAnswerFeedbackSettingsOutputReference {
+	var returns DialogflowCxAgentAnswerFeedbackSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"answerFeedbackSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) AnswerFeedbackSettingsInput() *DialogflowCxAgentAnswerFeedbackSettings {
+	var returns *DialogflowCxAgentAnswerFeedbackSettings
+	_jsii_.Get(
+		j,
+		"answerFeedbackSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DialogflowCxAgent) AvatarUri() *string {
 	var returns *string
 	_jsii_.Get(
@@ -253,6 +299,26 @@ func (j *jsiiProxy_DialogflowCxAgent) CdktfStack() cdktn.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) ClientCertificateSettings() DialogflowCxAgentClientCertificateSettingsOutputReference {
+	var returns DialogflowCxAgentClientCertificateSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"clientCertificateSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) ClientCertificateSettingsInput() *DialogflowCxAgentClientCertificateSettings {
+	var returns *DialogflowCxAgentClientCertificateSettings
+	_jsii_.Get(
+		j,
+		"clientCertificateSettingsInput",
 		&returns,
 	)
 	return returns
@@ -373,6 +439,26 @@ func (j *jsiiProxy_DialogflowCxAgent) DisplayNameInput() *string {
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) EnableMultiLanguageTraining() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableMultiLanguageTraining",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) EnableMultiLanguageTrainingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableMultiLanguageTrainingInput",
 		&returns,
 	)
 	return returns
@@ -538,6 +624,26 @@ func (j *jsiiProxy_DialogflowCxAgent) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DialogflowCxAgent) Locked() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"locked",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) LockedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"lockedInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DialogflowCxAgent) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -553,6 +659,26 @@ func (j *jsiiProxy_DialogflowCxAgent) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) PersonalizationSettings() DialogflowCxAgentPersonalizationSettingsOutputReference {
+	var returns DialogflowCxAgentPersonalizationSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"personalizationSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) PersonalizationSettingsInput() *DialogflowCxAgentPersonalizationSettings {
+	var returns *DialogflowCxAgentPersonalizationSettings
+	_jsii_.Get(
+		j,
+		"personalizationSettingsInput",
 		&returns,
 	)
 	return returns
@@ -608,6 +734,26 @@ func (j *jsiiProxy_DialogflowCxAgent) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DialogflowCxAgent) SatisfiesPzi() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"satisfiesPzi",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) SatisfiesPzs() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"satisfiesPzs",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DialogflowCxAgent) SecuritySettings() *string {
 	var returns *string
 	_jsii_.Get(
@@ -653,6 +799,26 @@ func (j *jsiiProxy_DialogflowCxAgent) StartFlow() *string {
 	_jsii_.Get(
 		j,
 		"startFlow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) StartPlaybook() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"startPlaybook",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxAgent) StartPlaybookInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"startPlaybookInput",
 		&returns,
 	)
 	return returns
@@ -769,7 +935,7 @@ func (j *jsiiProxy_DialogflowCxAgent) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
 func NewDialogflowCxAgent(scope constructs.Construct, id *string, config *DialogflowCxAgentConfig) DialogflowCxAgent {
 	_init_.Initialize()
 
@@ -787,7 +953,7 @@ func NewDialogflowCxAgent(scope constructs.Construct, id *string, config *Dialog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
 func NewDialogflowCxAgent_Override(d DialogflowCxAgent, scope constructs.Construct, id *string, config *DialogflowCxAgentConfig) {
 	_init_.Initialize()
 
@@ -883,6 +1049,17 @@ func (j *jsiiProxy_DialogflowCxAgent)SetDisplayName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_DialogflowCxAgent)SetEnableMultiLanguageTraining(val interface{}) {
+	if err := j.validateSetEnableMultiLanguageTrainingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableMultiLanguageTraining",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DialogflowCxAgent)SetEnableSpellCorrection(val interface{}) {
 	if err := j.validateSetEnableSpellCorrectionParameters(val); err != nil {
 		panic(err)
@@ -946,6 +1123,17 @@ func (j *jsiiProxy_DialogflowCxAgent)SetLocation(val *string) {
 	)
 }
 
+func (j *jsiiProxy_DialogflowCxAgent)SetLocked(val interface{}) {
+	if err := j.validateSetLockedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"locked",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DialogflowCxAgent)SetProject(val *string) {
 	if err := j.validateSetProjectParameters(val); err != nil {
 		panic(err)
@@ -983,6 +1171,17 @@ func (j *jsiiProxy_DialogflowCxAgent)SetSecuritySettings(val *string) {
 	_jsii_.Set(
 		j,
 		"securitySettings",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowCxAgent)SetStartPlaybook(val *string) {
+	if err := j.validateSetStartPlaybookParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"startPlaybook",
 		val,
 	)
 }
@@ -1373,6 +1572,28 @@ func (d *jsiiProxy_DialogflowCxAgent) PutAdvancedSettings(value *DialogflowCxAge
 	)
 }
 
+func (d *jsiiProxy_DialogflowCxAgent) PutAnswerFeedbackSettings(value *DialogflowCxAgentAnswerFeedbackSettings) {
+	if err := d.validatePutAnswerFeedbackSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putAnswerFeedbackSettings",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxAgent) PutClientCertificateSettings(value *DialogflowCxAgentClientCertificateSettings) {
+	if err := d.validatePutClientCertificateSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putClientCertificateSettings",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DialogflowCxAgent) PutGenAppBuilderSettings(value *DialogflowCxAgentGenAppBuilderSettings) {
 	if err := d.validatePutGenAppBuilderSettingsParameters(value); err != nil {
 		panic(err)
@@ -1391,6 +1612,17 @@ func (d *jsiiProxy_DialogflowCxAgent) PutGitIntegrationSettings(value *Dialogflo
 	_jsii_.InvokeVoid(
 		d,
 		"putGitIntegrationSettings",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxAgent) PutPersonalizationSettings(value *DialogflowCxAgentPersonalizationSettings) {
+	if err := d.validatePutPersonalizationSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putPersonalizationSettings",
 		[]interface{}{value},
 	)
 }
@@ -1436,10 +1668,26 @@ func (d *jsiiProxy_DialogflowCxAgent) ResetAdvancedSettings() {
 	)
 }
 
+func (d *jsiiProxy_DialogflowCxAgent) ResetAnswerFeedbackSettings() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAnswerFeedbackSettings",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DialogflowCxAgent) ResetAvatarUri() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAvatarUri",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxAgent) ResetClientCertificateSettings() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetClientCertificateSettings",
 		nil, // no parameters
 	)
 }
@@ -1456,6 +1704,14 @@ func (d *jsiiProxy_DialogflowCxAgent) ResetDescription() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxAgent) ResetEnableMultiLanguageTraining() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEnableMultiLanguageTraining",
 		nil, // no parameters
 	)
 }
@@ -1500,10 +1756,26 @@ func (d *jsiiProxy_DialogflowCxAgent) ResetId() {
 	)
 }
 
+func (d *jsiiProxy_DialogflowCxAgent) ResetLocked() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLocked",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DialogflowCxAgent) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxAgent) ResetPersonalizationSettings() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPersonalizationSettings",
 		nil, // no parameters
 	)
 }
@@ -1528,6 +1800,14 @@ func (d *jsiiProxy_DialogflowCxAgent) ResetSpeechToTextSettings() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetSpeechToTextSettings",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxAgent) ResetStartPlaybook() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetStartPlaybook",
 		nil, // no parameters
 	)
 }

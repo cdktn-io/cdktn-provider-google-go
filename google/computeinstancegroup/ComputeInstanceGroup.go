@@ -5,14 +5,14 @@ package computeinstancegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeinstancegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeinstancegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_instance_group google_compute_instance_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_instance_group google_compute_instance_group}.
 type ComputeInstanceGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ComputeInstanceGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
 func NewComputeInstanceGroup(scope constructs.Construct, id *string, config *ComputeInstanceGroupConfig) ComputeInstanceGroup {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewComputeInstanceGroup(scope constructs.Construct, id *string, config *Com
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
 func NewComputeInstanceGroup_Override(c ComputeInstanceGroup, scope constructs.Construct, id *string, config *ComputeInstanceGroupConfig) {
 	_init_.Initialize()
 

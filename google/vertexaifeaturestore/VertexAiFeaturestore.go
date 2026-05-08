@@ -5,14 +5,14 @@ package vertexaifeaturestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vertexaifeaturestore/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vertexaifeaturestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore}.
 type VertexAiFeaturestore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_VertexAiFeaturestore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
 func NewVertexAiFeaturestore(scope constructs.Construct, id *string, config *VertexAiFeaturestoreConfig) VertexAiFeaturestore {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewVertexAiFeaturestore(scope constructs.Construct, id *string, config *Ver
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
 func NewVertexAiFeaturestore_Override(v VertexAiFeaturestore, scope constructs.Construct, id *string, config *VertexAiFeaturestoreConfig) {
 	_init_.Initialize()
 

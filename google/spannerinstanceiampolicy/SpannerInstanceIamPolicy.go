@@ -5,14 +5,14 @@ package spannerinstanceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/spannerinstanceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/spannerinstanceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_instance_iam_policy google_spanner_instance_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/spanner_instance_iam_policy google_spanner_instance_iam_policy}.
 type SpannerInstanceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_SpannerInstanceIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_instance_iam_policy google_spanner_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/spanner_instance_iam_policy google_spanner_instance_iam_policy} Resource.
 func NewSpannerInstanceIamPolicy(scope constructs.Construct, id *string, config *SpannerInstanceIamPolicyConfig) SpannerInstanceIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewSpannerInstanceIamPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_instance_iam_policy google_spanner_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/spanner_instance_iam_policy google_spanner_instance_iam_policy} Resource.
 func NewSpannerInstanceIamPolicy_Override(s SpannerInstanceIamPolicy, scope constructs.Construct, id *string, config *SpannerInstanceIamPolicyConfig) {
 	_init_.Initialize()
 

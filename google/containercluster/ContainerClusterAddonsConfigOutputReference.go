@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -58,6 +58,8 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	ParallelstoreCsiDriverConfigInput() *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig
 	RayOperatorConfig() ContainerClusterAddonsConfigRayOperatorConfigList
 	RayOperatorConfigInput() interface{}
+	SliceControllerConfig() ContainerClusterAddonsConfigSliceControllerConfigOutputReference
+	SliceControllerConfigInput() *ContainerClusterAddonsConfigSliceControllerConfig
 	StatefulHaConfig() ContainerClusterAddonsConfigStatefulHaConfigOutputReference
 	StatefulHaConfigInput() *ContainerClusterAddonsConfigStatefulHaConfig
 	// Experimental.
@@ -105,6 +107,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	PutNetworkPolicyConfig(value *ContainerClusterAddonsConfigNetworkPolicyConfig)
 	PutParallelstoreCsiDriverConfig(value *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig)
 	PutRayOperatorConfig(value interface{})
+	PutSliceControllerConfig(value *ContainerClusterAddonsConfigSliceControllerConfig)
 	PutStatefulHaConfig(value *ContainerClusterAddonsConfigStatefulHaConfig)
 	ResetCloudrunConfig()
 	ResetConfigConnectorConfig()
@@ -119,6 +122,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	ResetNetworkPolicyConfig()
 	ResetParallelstoreCsiDriverConfig()
 	ResetRayOperatorConfig()
+	ResetSliceControllerConfig()
 	ResetStatefulHaConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -440,6 +444,26 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) RayOperatorConfi
 	_jsii_.Get(
 		j,
 		"rayOperatorConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) SliceControllerConfig() ContainerClusterAddonsConfigSliceControllerConfigOutputReference {
+	var returns ContainerClusterAddonsConfigSliceControllerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"sliceControllerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) SliceControllerConfigInput() *ContainerClusterAddonsConfigSliceControllerConfig {
+	var returns *ContainerClusterAddonsConfigSliceControllerConfig
+	_jsii_.Get(
+		j,
+		"sliceControllerConfigInput",
 		&returns,
 	)
 	return returns
@@ -897,6 +921,17 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutRayOperatorCo
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutSliceControllerConfig(value *ContainerClusterAddonsConfigSliceControllerConfig) {
+	if err := c.validatePutSliceControllerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSliceControllerConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutStatefulHaConfig(value *ContainerClusterAddonsConfigStatefulHaConfig) {
 	if err := c.validatePutStatefulHaConfigParameters(value); err != nil {
 		panic(err)
@@ -1008,6 +1043,14 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetRayOperator
 	_jsii_.InvokeVoid(
 		c,
 		"resetRayOperatorConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetSliceControllerConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSliceControllerConfig",
 		nil, // no parameters
 	)
 }

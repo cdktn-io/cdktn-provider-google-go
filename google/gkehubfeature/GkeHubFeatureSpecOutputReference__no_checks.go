@@ -63,6 +63,10 @@ func (g *jsiiProxy_GkeHubFeatureSpecOutputReference) validatePutRbacrolebindinga
 	return nil
 }
 
+func (g *jsiiProxy_GkeHubFeatureSpecOutputReference) validatePutWorkloadidentityParameters(value *GkeHubFeatureSpecWorkloadidentity) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeHubFeatureSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -147,6 +147,10 @@ func (j *jsiiProxy_ComputeInstanceTemplateDiskOutputReference) validateSetSource
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceTemplateDiskOutputReference) validateSetStoragePoolParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceTemplateDiskOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

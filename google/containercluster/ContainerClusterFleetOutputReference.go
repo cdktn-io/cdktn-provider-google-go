@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type ContainerClusterFleetOutputReference interface {
 	Membership() *string
 	MembershipId() *string
 	MembershipLocation() *string
+	MembershipType() *string
+	SetMembershipType(val *string)
+	MembershipTypeInput() *string
 	PreRegistered() cdktn.IResolvable
 	Project() *string
 	SetProject(val *string)
@@ -71,6 +74,7 @@ type ContainerClusterFleetOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetMembershipType()
 	ResetProject()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -162,6 +166,26 @@ func (j *jsiiProxy_ContainerClusterFleetOutputReference) MembershipLocation() *s
 	_jsii_.Get(
 		j,
 		"membershipLocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterFleetOutputReference) MembershipType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"membershipType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterFleetOutputReference) MembershipTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"membershipTypeInput",
 		&returns,
 	)
 	return returns
@@ -274,6 +298,17 @@ func (j *jsiiProxy_ContainerClusterFleetOutputReference)SetInternalValue(val *Co
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerClusterFleetOutputReference)SetMembershipType(val *string) {
+	if err := j.validateSetMembershipTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"membershipType",
 		val,
 	)
 }
@@ -495,6 +530,14 @@ func (c *jsiiProxy_ContainerClusterFleetOutputReference) InterpolationForAttribu
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ContainerClusterFleetOutputReference) ResetMembershipType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMembershipType",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ContainerClusterFleetOutputReference) ResetProject() {

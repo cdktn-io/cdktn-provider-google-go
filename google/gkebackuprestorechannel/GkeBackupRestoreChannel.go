@@ -5,14 +5,14 @@ package gkebackuprestorechannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/gkebackuprestorechannel/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/gkebackuprestorechannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_backup_restore_channel google_gke_backup_restore_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_backup_restore_channel google_gke_backup_restore_channel}.
 type GkeBackupRestoreChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_GkeBackupRestoreChannel) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_backup_restore_channel google_gke_backup_restore_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_backup_restore_channel google_gke_backup_restore_channel} Resource.
 func NewGkeBackupRestoreChannel(scope constructs.Construct, id *string, config *GkeBackupRestoreChannelConfig) GkeBackupRestoreChannel {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewGkeBackupRestoreChannel(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_backup_restore_channel google_gke_backup_restore_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_backup_restore_channel google_gke_backup_restore_channel} Resource.
 func NewGkeBackupRestoreChannel_Override(g GkeBackupRestoreChannel, scope constructs.Construct, id *string, config *GkeBackupRestoreChannelConfig) {
 	_init_.Initialize()
 

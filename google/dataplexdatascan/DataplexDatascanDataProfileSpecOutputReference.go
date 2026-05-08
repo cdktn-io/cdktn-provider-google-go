@@ -5,14 +5,17 @@ package dataplexdatascan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataplexdatascan/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataplexdatascan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataplexDatascanDataProfileSpecOutputReference interface {
 	cdktn.ComplexObject
+	CatalogPublishingEnabled() interface{}
+	SetCatalogPublishingEnabled(val interface{})
+	CatalogPublishingEnabledInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +82,7 @@ type DataplexDatascanDataProfileSpecOutputReference interface {
 	PutExcludeFields(value *DataplexDatascanDataProfileSpecExcludeFields)
 	PutIncludeFields(value *DataplexDatascanDataProfileSpecIncludeFields)
 	PutPostScanActions(value *DataplexDatascanDataProfileSpecPostScanActions)
+	ResetCatalogPublishingEnabled()
 	ResetExcludeFields()
 	ResetIncludeFields()
 	ResetPostScanActions()
@@ -97,6 +101,26 @@ type DataplexDatascanDataProfileSpecOutputReference interface {
 // The jsii proxy struct for DataplexDatascanDataProfileSpecOutputReference
 type jsiiProxy_DataplexDatascanDataProfileSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) CatalogPublishingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"catalogPublishingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) CatalogPublishingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"catalogPublishingEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -294,6 +318,17 @@ func NewDataplexDatascanDataProfileSpecOutputReference_Override(d DataplexDatasc
 		"@cdktn/provider-google.dataplexDatascan.DataplexDatascanDataProfileSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference)SetCatalogPublishingEnabled(val interface{}) {
+	if err := j.validateSetCatalogPublishingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"catalogPublishingEnabled",
+		val,
 	)
 }
 
@@ -590,6 +625,14 @@ func (d *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) PutPostScanAc
 		d,
 		"putPostScanActions",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) ResetCatalogPublishingEnabled() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCatalogPublishingEnabled",
+		nil, // no parameters
 	)
 }
 

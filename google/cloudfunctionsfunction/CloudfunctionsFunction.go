@@ -5,14 +5,14 @@ package cloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/cloudfunctionsfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/cloudfunctionsfunction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/cloudfunctions_function google_cloudfunctions_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/cloudfunctions_function google_cloudfunctions_function}.
 type CloudfunctionsFunction interface {
 	cdktn.TerraformResource
 	AutomaticUpdatePolicy() CloudfunctionsFunctionAutomaticUpdatePolicyOutputReference
@@ -1177,7 +1177,7 @@ func (j *jsiiProxy_CloudfunctionsFunction) VpcConnectorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/cloudfunctions_function google_cloudfunctions_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/cloudfunctions_function google_cloudfunctions_function} Resource.
 func NewCloudfunctionsFunction(scope constructs.Construct, id *string, config *CloudfunctionsFunctionConfig) CloudfunctionsFunction {
 	_init_.Initialize()
 
@@ -1195,7 +1195,7 @@ func NewCloudfunctionsFunction(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/cloudfunctions_function google_cloudfunctions_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/cloudfunctions_function google_cloudfunctions_function} Resource.
 func NewCloudfunctionsFunction_Override(c CloudfunctionsFunction, scope constructs.Construct, id *string, config *CloudfunctionsFunctionConfig) {
 	_init_.Initialize()
 

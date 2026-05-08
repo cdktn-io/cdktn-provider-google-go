@@ -5,14 +5,14 @@ package artifactregistryrepositoryiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/artifactregistryrepositoryiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/artifactregistryrepositoryiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding}.
 type ArtifactRegistryRepositoryIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryIamBinding) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
 func NewArtifactRegistryRepositoryIamBinding(scope constructs.Construct, id *string, config *ArtifactRegistryRepositoryIamBindingConfig) ArtifactRegistryRepositoryIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewArtifactRegistryRepositoryIamBinding(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
 func NewArtifactRegistryRepositoryIamBinding_Override(a ArtifactRegistryRepositoryIamBinding, scope constructs.Construct, id *string, config *ArtifactRegistryRepositoryIamBindingConfig) {
 	_init_.Initialize()
 

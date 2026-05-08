@@ -63,6 +63,10 @@ func (j *jsiiProxy_ContainerClusterFleetOutputReference) validateSetInternalValu
 	return nil
 }
 
+func (j *jsiiProxy_ContainerClusterFleetOutputReference) validateSetMembershipTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerClusterFleetOutputReference) validateSetProjectParameters(val *string) error {
 	return nil
 }

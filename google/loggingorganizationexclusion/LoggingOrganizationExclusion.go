@@ -5,14 +5,14 @@ package loggingorganizationexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/loggingorganizationexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/loggingorganizationexclusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_organization_exclusion google_logging_organization_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_organization_exclusion google_logging_organization_exclusion}.
 type LoggingOrganizationExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_LoggingOrganizationExclusion) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_organization_exclusion google_logging_organization_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_organization_exclusion google_logging_organization_exclusion} Resource.
 func NewLoggingOrganizationExclusion(scope constructs.Construct, id *string, config *LoggingOrganizationExclusionConfig) LoggingOrganizationExclusion {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewLoggingOrganizationExclusion(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/logging_organization_exclusion google_logging_organization_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/logging_organization_exclusion google_logging_organization_exclusion} Resource.
 func NewLoggingOrganizationExclusion_Override(l LoggingOrganizationExclusion, scope constructs.Construct, id *string, config *LoggingOrganizationExclusionConfig) {
 	_init_.Initialize()
 

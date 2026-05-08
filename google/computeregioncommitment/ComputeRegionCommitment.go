@@ -5,14 +5,14 @@ package computeregioncommitment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeregioncommitment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeregioncommitment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_commitment google_compute_region_commitment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_commitment google_compute_region_commitment}.
 type ComputeRegionCommitment interface {
 	cdktn.TerraformResource
 	AutoRenew() interface{}
@@ -68,6 +68,8 @@ type ComputeRegionCommitment interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeRegionCommitmentParamsOutputReference
+	ParamsInput() *ComputeRegionCommitmentParams
 	Plan() *string
 	SetPlan(val *string)
 	PlanInput() *string
@@ -148,6 +150,7 @@ type ComputeRegionCommitment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLicenseResource(value *ComputeRegionCommitmentLicenseResource)
+	PutParams(value *ComputeRegionCommitmentParams)
 	PutResources(value interface{})
 	PutTimeouts(value *ComputeRegionCommitmentTimeouts)
 	ResetAutoRenew()
@@ -159,6 +162,7 @@ type ComputeRegionCommitment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRegion()
 	ResetResources()
@@ -461,6 +465,26 @@ func (j *jsiiProxy_ComputeRegionCommitment) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionCommitment) Params() ComputeRegionCommitmentParamsOutputReference {
+	var returns ComputeRegionCommitmentParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionCommitment) ParamsInput() *ComputeRegionCommitmentParams {
+	var returns *ComputeRegionCommitmentParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionCommitment) Plan() *string {
 	var returns *string
 	_jsii_.Get(
@@ -682,7 +706,7 @@ func (j *jsiiProxy_ComputeRegionCommitment) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_commitment google_compute_region_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_commitment google_compute_region_commitment} Resource.
 func NewComputeRegionCommitment(scope constructs.Construct, id *string, config *ComputeRegionCommitmentConfig) ComputeRegionCommitment {
 	_init_.Initialize()
 
@@ -700,7 +724,7 @@ func NewComputeRegionCommitment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_region_commitment google_compute_region_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_commitment google_compute_region_commitment} Resource.
 func NewComputeRegionCommitment_Override(c ComputeRegionCommitment, scope constructs.Construct, id *string, config *ComputeRegionCommitmentConfig) {
 	_init_.Initialize()
 
@@ -1253,6 +1277,17 @@ func (c *jsiiProxy_ComputeRegionCommitment) PutLicenseResource(value *ComputeReg
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionCommitment) PutParams(value *ComputeRegionCommitmentParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionCommitment) PutResources(value interface{}) {
 	if err := c.validatePutResourcesParameters(value); err != nil {
 		panic(err)
@@ -1327,6 +1362,14 @@ func (c *jsiiProxy_ComputeRegionCommitment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionCommitment) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

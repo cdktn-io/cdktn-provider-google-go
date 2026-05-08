@@ -5,14 +5,16 @@ package pubsubsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/pubsubsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/pubsubsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PubsubSubscriptionMessageTransformsOutputReference interface {
 	cdktn.ComplexObject
+	AiInference() PubsubSubscriptionMessageTransformsAiInferenceOutputReference
+	AiInferenceInput() *PubsubSubscriptionMessageTransformsAiInference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -69,7 +71,9 @@ type PubsubSubscriptionMessageTransformsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAiInference(value *PubsubSubscriptionMessageTransformsAiInference)
 	PutJavascriptUdf(value *PubsubSubscriptionMessageTransformsJavascriptUdf)
+	ResetAiInference()
 	ResetDisabled()
 	ResetJavascriptUdf()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type PubsubSubscriptionMessageTransformsOutputReference interface {
 // The jsii proxy struct for PubsubSubscriptionMessageTransformsOutputReference
 type jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) AiInference() PubsubSubscriptionMessageTransformsAiInferenceOutputReference {
+	var returns PubsubSubscriptionMessageTransformsAiInferenceOutputReference
+	_jsii_.Get(
+		j,
+		"aiInference",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) AiInferenceInput() *PubsubSubscriptionMessageTransformsAiInference {
+	var returns *PubsubSubscriptionMessageTransformsAiInference
+	_jsii_.Get(
+		j,
+		"aiInferenceInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) ComplexObjectIndex() interface{} {
@@ -477,6 +501,17 @@ func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) Interpola
 	return returns
 }
 
+func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) PutAiInference(value *PubsubSubscriptionMessageTransformsAiInference) {
+	if err := p.validatePutAiInferenceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putAiInference",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) PutJavascriptUdf(value *PubsubSubscriptionMessageTransformsJavascriptUdf) {
 	if err := p.validatePutJavascriptUdfParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) PutJavasc
 		p,
 		"putJavascriptUdf",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) ResetAiInference() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetAiInference",
+		nil, // no parameters
 	)
 }
 

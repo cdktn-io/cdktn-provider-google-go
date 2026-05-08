@@ -99,6 +99,10 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutRayOp
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutSliceControllerConfigParameters(value *ContainerClusterAddonsConfigSliceControllerConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutStatefulHaConfigParameters(value *ContainerClusterAddonsConfigStatefulHaConfig) error {
 	return nil
 }

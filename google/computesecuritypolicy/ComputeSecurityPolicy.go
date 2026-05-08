@@ -5,14 +5,14 @@ package computesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computesecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computesecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_security_policy google_compute_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_security_policy google_compute_security_policy}.
 type ComputeSecurityPolicy interface {
 	cdktn.TerraformResource
 	AdaptiveProtectionConfig() ComputeSecurityPolicyAdaptiveProtectionConfigOutputReference
@@ -38,6 +38,7 @@ type ComputeSecurityPolicy interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	EffectiveLabels() cdktn.StringMap
 	Fingerprint() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -50,6 +51,10 @@ type ComputeSecurityPolicy interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	LabelFingerprint() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -79,6 +84,7 @@ type ComputeSecurityPolicy interface {
 	SelfLink() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -140,6 +146,7 @@ type ComputeSecurityPolicy interface {
 	ResetAdvancedOptionsConfig()
 	ResetDescription()
 	ResetId()
+	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -285,6 +292,16 @@ func (j *jsiiProxy_ComputeSecurityPolicy) DescriptionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSecurityPolicy) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSecurityPolicy) Fingerprint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -340,6 +357,36 @@ func (j *jsiiProxy_ComputeSecurityPolicy) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicy) LabelFingerprint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"labelFingerprint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicy) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicy) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -495,6 +542,16 @@ func (j *jsiiProxy_ComputeSecurityPolicy) TerraformGeneratorMetadata() *cdktn.Te
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSecurityPolicy) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSecurityPolicy) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -556,7 +613,7 @@ func (j *jsiiProxy_ComputeSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_security_policy google_compute_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_security_policy google_compute_security_policy} Resource.
 func NewComputeSecurityPolicy(scope constructs.Construct, id *string, config *ComputeSecurityPolicyConfig) ComputeSecurityPolicy {
 	_init_.Initialize()
 
@@ -574,7 +631,7 @@ func NewComputeSecurityPolicy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_security_policy google_compute_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_security_policy google_compute_security_policy} Resource.
 func NewComputeSecurityPolicy_Override(c ComputeSecurityPolicy, scope constructs.Construct, id *string, config *ComputeSecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -641,6 +698,17 @@ func (j *jsiiProxy_ComputeSecurityPolicy)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicy)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1144,6 +1212,14 @@ func (c *jsiiProxy_ComputeSecurityPolicy) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSecurityPolicy) ResetLabels() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

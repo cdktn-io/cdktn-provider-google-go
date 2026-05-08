@@ -5,9 +5,9 @@ package networksecuritysecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networksecuritysecurityprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networksecuritysecurityprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,9 +32,13 @@ type NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference interfa
 	Fqn() *string
 	InternalValue() *NetworkSecuritySecurityProfileCustomMirroringProfile
 	SetInternalValue(val *NetworkSecuritySecurityProfileCustomMirroringProfile)
+	MirroringDeploymentGroups() *[]*string
+	SetMirroringDeploymentGroups(val *[]*string)
+	MirroringDeploymentGroupsInput() *[]*string
 	MirroringEndpointGroup() *string
 	SetMirroringEndpointGroup(val *string)
 	MirroringEndpointGroupInput() *string
+	MirroringEndpointGroupType() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +71,7 @@ type NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference interfa
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetMirroringDeploymentGroups()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -132,6 +137,26 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputRef
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference) MirroringDeploymentGroups() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mirroringDeploymentGroups",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference) MirroringDeploymentGroupsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mirroringDeploymentGroupsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference) MirroringEndpointGroup() *string {
 	var returns *string
 	_jsii_.Get(
@@ -147,6 +172,16 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputRef
 	_jsii_.Get(
 		j,
 		"mirroringEndpointGroupInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference) MirroringEndpointGroupType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mirroringEndpointGroupType",
 		&returns,
 	)
 	return returns
@@ -229,6 +264,17 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputRef
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference)SetMirroringDeploymentGroups(val *[]*string) {
+	if err := j.validateSetMirroringDeploymentGroupsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mirroringDeploymentGroups",
 		val,
 	)
 }
@@ -450,6 +496,14 @@ func (n *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputRef
 	)
 
 	return returns
+}
+
+func (n *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference) ResetMirroringDeploymentGroups() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetMirroringDeploymentGroups",
+		nil, // no parameters
+	)
 }
 
 func (n *jsiiProxy_NetworkSecuritySecurityProfileCustomMirroringProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

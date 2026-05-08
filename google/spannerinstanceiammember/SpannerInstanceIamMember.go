@@ -5,14 +5,14 @@ package spannerinstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/spannerinstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/spannerinstanceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_instance_iam_member google_spanner_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/spanner_instance_iam_member google_spanner_instance_iam_member}.
 type SpannerInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_SpannerInstanceIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
 func NewSpannerInstanceIamMember(scope constructs.Construct, id *string, config *SpannerInstanceIamMemberConfig) SpannerInstanceIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewSpannerInstanceIamMember(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
 func NewSpannerInstanceIamMember_Override(s SpannerInstanceIamMember, scope constructs.Construct, id *string, config *SpannerInstanceIamMemberConfig) {
 	_init_.Initialize()
 

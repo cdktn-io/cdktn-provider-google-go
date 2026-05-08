@@ -5,9 +5,9 @@ package dataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataproccluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,6 +16,9 @@ type DataprocClusterClusterConfigLifecycleConfigOutputReference interface {
 	AutoDeleteTime() *string
 	SetAutoDeleteTime(val *string)
 	AutoDeleteTimeInput() *string
+	AutoStopTime() *string
+	SetAutoStopTime(val *string)
+	AutoStopTimeInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,6 +40,9 @@ type DataprocClusterClusterConfigLifecycleConfigOutputReference interface {
 	SetIdleDeleteTtl(val *string)
 	IdleDeleteTtlInput() *string
 	IdleStartTime() *string
+	IdleStopTtl() *string
+	SetIdleStopTtl(val *string)
+	IdleStopTtlInput() *string
 	InternalValue() *DataprocClusterClusterConfigLifecycleConfig
 	SetInternalValue(val *DataprocClusterClusterConfigLifecycleConfig)
 	// Experimental.
@@ -72,7 +78,9 @@ type DataprocClusterClusterConfigLifecycleConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutoDeleteTime()
+	ResetAutoStopTime()
 	ResetIdleDeleteTtl()
+	ResetIdleStopTtl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -103,6 +111,26 @@ func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) A
 	_jsii_.Get(
 		j,
 		"autoDeleteTimeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) AutoStopTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoStopTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) AutoStopTimeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoStopTimeInput",
 		&returns,
 	)
 	return returns
@@ -178,6 +206,26 @@ func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) I
 	return returns
 }
 
+func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) IdleStopTtl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idleStopTtl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) IdleStopTtlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idleStopTtlInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) InternalValue() *DataprocClusterClusterConfigLifecycleConfig {
 	var returns *DataprocClusterClusterConfigLifecycleConfig
 	_jsii_.Get(
@@ -247,6 +295,17 @@ func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference)Se
 	)
 }
 
+func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference)SetAutoStopTime(val *string) {
+	if err := j.validateSetAutoStopTimeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoStopTime",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -276,6 +335,17 @@ func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference)Se
 	_jsii_.Set(
 		j,
 		"idleDeleteTtl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference)SetIdleStopTtl(val *string) {
+	if err := j.validateSetIdleStopTtlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"idleStopTtl",
 		val,
 	)
 }
@@ -507,10 +577,26 @@ func (d *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) R
 	)
 }
 
+func (d *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) ResetAutoStopTime() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAutoStopTime",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) ResetIdleDeleteTtl() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetIdleDeleteTtl",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigLifecycleConfigOutputReference) ResetIdleStopTtl() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetIdleStopTtl",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package netappactivedirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/netappactivedirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/netappactivedirectory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_active_directory google_netapp_active_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_active_directory google_netapp_active_directory}.
 type NetappActiveDirectory interface {
 	cdktn.TerraformResource
 	Administrators() *[]*string
@@ -895,7 +895,7 @@ func (j *jsiiProxy_NetappActiveDirectory) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_active_directory google_netapp_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_active_directory google_netapp_active_directory} Resource.
 func NewNetappActiveDirectory(scope constructs.Construct, id *string, config *NetappActiveDirectoryConfig) NetappActiveDirectory {
 	_init_.Initialize()
 
@@ -913,7 +913,7 @@ func NewNetappActiveDirectory(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/netapp_active_directory google_netapp_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/netapp_active_directory google_netapp_active_directory} Resource.
 func NewNetappActiveDirectory_Override(n NetappActiveDirectory, scope constructs.Construct, id *string, config *NetappActiveDirectoryConfig) {
 	_init_.Initialize()
 

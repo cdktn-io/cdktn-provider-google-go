@@ -5,14 +5,14 @@ package iamworkforcepooliampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iamworkforcepooliampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iamworkforcepooliampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy}.
 type IamWorkforcePoolIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_IamWorkforcePoolIamPolicy) WorkforcePoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
 func NewIamWorkforcePoolIamPolicy(scope constructs.Construct, id *string, config *IamWorkforcePoolIamPolicyConfig) IamWorkforcePoolIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewIamWorkforcePoolIamPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
 func NewIamWorkforcePoolIamPolicy_Override(i IamWorkforcePoolIamPolicy, scope constructs.Construct, id *string, config *IamWorkforcePoolIamPolicyConfig) {
 	_init_.Initialize()
 

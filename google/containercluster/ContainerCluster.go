@@ -5,14 +5,14 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_cluster google_container_cluster}.
 type ContainerCluster interface {
 	cdktn.TerraformResource
 	AddonsConfig() ContainerClusterAddonsConfigOutputReference
@@ -24,6 +24,11 @@ type ContainerCluster interface {
 	AnonymousAuthenticationConfigInput() *ContainerClusterAnonymousAuthenticationConfig
 	AuthenticatorGroupsConfig() ContainerClusterAuthenticatorGroupsConfigOutputReference
 	AuthenticatorGroupsConfigInput() *ContainerClusterAuthenticatorGroupsConfig
+	AutopilotClusterPolicyConfig() ContainerClusterAutopilotClusterPolicyConfigOutputReference
+	AutopilotClusterPolicyConfigInput() *ContainerClusterAutopilotClusterPolicyConfig
+	AutopilotPrivilegedAdmission() *[]*string
+	SetAutopilotPrivilegedAdmission(val *[]*string)
+	AutopilotPrivilegedAdmissionInput() *[]*string
 	BinaryAuthorization() ContainerClusterBinaryAuthorizationOutputReference
 	BinaryAuthorizationInput() *ContainerClusterBinaryAuthorization
 	// Experimental.
@@ -304,6 +309,7 @@ type ContainerCluster interface {
 	PutAddonsConfig(value *ContainerClusterAddonsConfig)
 	PutAnonymousAuthenticationConfig(value *ContainerClusterAnonymousAuthenticationConfig)
 	PutAuthenticatorGroupsConfig(value *ContainerClusterAuthenticatorGroupsConfig)
+	PutAutopilotClusterPolicyConfig(value *ContainerClusterAutopilotClusterPolicyConfig)
 	PutBinaryAuthorization(value *ContainerClusterBinaryAuthorization)
 	PutClusterAutoscaling(value *ContainerClusterClusterAutoscaling)
 	PutConfidentialNodes(value *ContainerClusterConfidentialNodes)
@@ -348,6 +354,8 @@ type ContainerCluster interface {
 	ResetAllowNetAdmin()
 	ResetAnonymousAuthenticationConfig()
 	ResetAuthenticatorGroupsConfig()
+	ResetAutopilotClusterPolicyConfig()
+	ResetAutopilotPrivilegedAdmission()
 	ResetBinaryAuthorization()
 	ResetClusterAutoscaling()
 	ResetClusterIpv4Cidr()
@@ -525,6 +533,46 @@ func (j *jsiiProxy_ContainerCluster) AuthenticatorGroupsConfigInput() *Container
 	_jsii_.Get(
 		j,
 		"authenticatorGroupsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) AutopilotClusterPolicyConfig() ContainerClusterAutopilotClusterPolicyConfigOutputReference {
+	var returns ContainerClusterAutopilotClusterPolicyConfigOutputReference
+	_jsii_.Get(
+		j,
+		"autopilotClusterPolicyConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) AutopilotClusterPolicyConfigInput() *ContainerClusterAutopilotClusterPolicyConfig {
+	var returns *ContainerClusterAutopilotClusterPolicyConfig
+	_jsii_.Get(
+		j,
+		"autopilotClusterPolicyConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) AutopilotPrivilegedAdmission() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"autopilotPrivilegedAdmission",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) AutopilotPrivilegedAdmissionInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"autopilotPrivilegedAdmissionInput",
 		&returns,
 	)
 	return returns
@@ -2241,7 +2289,7 @@ func (j *jsiiProxy_ContainerCluster) WorkloadIdentityConfigInput() *ContainerClu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster(scope constructs.Construct, id *string, config *ContainerClusterConfig) ContainerCluster {
 	_init_.Initialize()
 
@@ -2259,7 +2307,7 @@ func NewContainerCluster(scope constructs.Construct, id *string, config *Contain
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster_Override(c ContainerCluster, scope constructs.Construct, id *string, config *ContainerClusterConfig) {
 	_init_.Initialize()
 
@@ -2277,6 +2325,17 @@ func (j *jsiiProxy_ContainerCluster)SetAllowNetAdmin(val interface{}) {
 	_jsii_.Set(
 		j,
 		"allowNetAdmin",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerCluster)SetAutopilotPrivilegedAdmission(val *[]*string) {
+	if err := j.validateSetAutopilotPrivilegedAdmissionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autopilotPrivilegedAdmission",
 		val,
 	)
 }
@@ -3098,6 +3157,17 @@ func (c *jsiiProxy_ContainerCluster) PutAuthenticatorGroupsConfig(value *Contain
 	)
 }
 
+func (c *jsiiProxy_ContainerCluster) PutAutopilotClusterPolicyConfig(value *ContainerClusterAutopilotClusterPolicyConfig) {
+	if err := c.validatePutAutopilotClusterPolicyConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putAutopilotClusterPolicyConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerCluster) PutBinaryAuthorization(value *ContainerClusterBinaryAuthorization) {
 	if err := c.validatePutBinaryAuthorizationParameters(value); err != nil {
 		panic(err)
@@ -3566,6 +3636,22 @@ func (c *jsiiProxy_ContainerCluster) ResetAuthenticatorGroupsConfig() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAuthenticatorGroupsConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) ResetAutopilotClusterPolicyConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAutopilotClusterPolicyConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) ResetAutopilotPrivilegedAdmission() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAutopilotPrivilegedAdmission",
 		nil, // no parameters
 	)
 }

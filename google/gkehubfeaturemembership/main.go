@@ -103,45 +103,6 @@ func init() {
 		reflect.TypeOf((*GkeHubFeatureMembershipConfigmanagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-google.gkeHubFeatureMembership.GkeHubFeatureMembershipConfigmanagementBinauthz",
-		reflect.TypeOf((*GkeHubFeatureMembershipConfigmanagementBinauthz)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-google.gkeHubFeatureMembership.GkeHubFeatureMembershipConfigmanagementBinauthzOutputReference",
-		reflect.TypeOf((*GkeHubFeatureMembershipConfigmanagementBinauthzOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
-			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_GkeHubFeatureMembershipConfigmanagementBinauthzOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.gkeHubFeatureMembership.GkeHubFeatureMembershipConfigmanagementConfigSync",
 		reflect.TypeOf((*GkeHubFeatureMembershipConfigmanagementConfigSync)(nil)).Elem(),
 	)
@@ -505,8 +466,6 @@ func init() {
 		"@cdktn/provider-google.gkeHubFeatureMembership.GkeHubFeatureMembershipConfigmanagementOutputReference",
 		reflect.TypeOf((*GkeHubFeatureMembershipConfigmanagementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "binauthz", GoGetter: "Binauthz"},
-			_jsii_.MemberProperty{JsiiProperty: "binauthzInput", GoGetter: "BinauthzInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -532,11 +491,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "managementInput", GoGetter: "ManagementInput"},
 			_jsii_.MemberProperty{JsiiProperty: "policyController", GoGetter: "PolicyController"},
 			_jsii_.MemberProperty{JsiiProperty: "policyControllerInput", GoGetter: "PolicyControllerInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putBinauthz", GoMethod: "PutBinauthz"},
 			_jsii_.MemberMethod{JsiiMethod: "putConfigSync", GoMethod: "PutConfigSync"},
 			_jsii_.MemberMethod{JsiiMethod: "putHierarchyController", GoMethod: "PutHierarchyController"},
 			_jsii_.MemberMethod{JsiiMethod: "putPolicyController", GoMethod: "PutPolicyController"},
-			_jsii_.MemberMethod{JsiiMethod: "resetBinauthz", GoMethod: "ResetBinauthz"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConfigSync", GoMethod: "ResetConfigSync"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHierarchyController", GoMethod: "ResetHierarchyController"},
 			_jsii_.MemberMethod{JsiiMethod: "resetManagement", GoMethod: "ResetManagement"},

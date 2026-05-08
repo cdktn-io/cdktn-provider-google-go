@@ -5,9 +5,9 @@ package oracledatabaseautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/oracledatabaseautonomousdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/oracledatabaseautonomousdatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,9 @@ type OracleDatabaseAutonomousDatabasePropertiesOutputReference interface {
 	ComputeCountInput() *float64
 	ConnectionStrings() OracleDatabaseAutonomousDatabasePropertiesConnectionStringsList
 	ConnectionUrls() OracleDatabaseAutonomousDatabasePropertiesConnectionUrlsList
+	CpuCoreCount() *float64
+	SetCpuCoreCount(val *float64)
+	CpuCoreCountInput() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -116,6 +119,9 @@ type OracleDatabaseAutonomousDatabasePropertiesOutputReference interface {
 	RefreshableState() *string
 	Role() *string
 	ScheduledOperationDetails() OracleDatabaseAutonomousDatabasePropertiesScheduledOperationDetailsList
+	SecretId() *string
+	SetSecretId(val *string)
+	SecretIdInput() *string
 	SqlWebDeveloperUrl() *string
 	State() *string
 	SupportedCloneRegions() *[]*string
@@ -129,6 +135,9 @@ type OracleDatabaseAutonomousDatabasePropertiesOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TotalAutoBackupStorageSizeGbs() *float64
 	UsedDataStorageSizeTbs() *float64
+	VaultId() *string
+	SetVaultId(val *string)
+	VaultIdInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -157,6 +166,7 @@ type OracleDatabaseAutonomousDatabasePropertiesOutputReference interface {
 	ResetBackupRetentionPeriodDays()
 	ResetCharacterSet()
 	ResetComputeCount()
+	ResetCpuCoreCount()
 	ResetCustomerContacts()
 	ResetDataStorageSizeGb()
 	ResetDataStorageSizeTb()
@@ -170,6 +180,8 @@ type OracleDatabaseAutonomousDatabasePropertiesOutputReference interface {
 	ResetOperationsInsightsState()
 	ResetPrivateEndpointIp()
 	ResetPrivateEndpointLabel()
+	ResetSecretId()
+	ResetVaultId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -340,6 +352,26 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) Co
 	_jsii_.Get(
 		j,
 		"connectionUrls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) CpuCoreCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuCoreCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) CpuCoreCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuCoreCountInput",
 		&returns,
 	)
 	return returns
@@ -905,6 +937,26 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) Sc
 	return returns
 }
 
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) SecretId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) SecretIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) SqlWebDeveloperUrl() *string {
 	var returns *string
 	_jsii_.Get(
@@ -970,6 +1022,26 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) Us
 	_jsii_.Get(
 		j,
 		"usedDataStorageSizeTbs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) VaultId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vaultId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) VaultIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vaultIdInput",
 		&returns,
 	)
 	return returns
@@ -1054,6 +1126,17 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)Set
 	_jsii_.Set(
 		j,
 		"computeCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)SetCpuCoreCount(val *float64) {
+	if err := j.validateSetCpuCoreCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cpuCoreCount",
 		val,
 	)
 }
@@ -1223,6 +1306,17 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)Set
 	)
 }
 
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)SetSecretId(val *string) {
+	if err := j.validateSetSecretIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)SetTerraformAttribute(val *string) {
 	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
 		panic(err)
@@ -1241,6 +1335,17 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)Set
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference)SetVaultId(val *string) {
+	if err := j.validateSetVaultIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vaultId",
 		val,
 	)
 }
@@ -1466,6 +1571,14 @@ func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) Re
 	)
 }
 
+func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) ResetCpuCoreCount() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetCpuCoreCount",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) ResetCustomerContacts() {
 	_jsii_.InvokeVoid(
 		o,
@@ -1566,6 +1679,22 @@ func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) Re
 	_jsii_.InvokeVoid(
 		o,
 		"resetPrivateEndpointLabel",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) ResetSecretId() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetSecretId",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseAutonomousDatabasePropertiesOutputReference) ResetVaultId() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetVaultId",
 		nil, // no parameters
 	)
 }

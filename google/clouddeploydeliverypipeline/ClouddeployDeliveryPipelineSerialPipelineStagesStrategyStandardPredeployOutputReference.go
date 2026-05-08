@@ -5,9 +5,9 @@ package clouddeploydeliverypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/clouddeploydeliverypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/clouddeploydeliverypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOut
 	Fqn() *string
 	InternalValue() *ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy
 	SetInternalValue(val *ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy)
+	Tasks() ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList
+	TasksInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOut
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutTasks(value interface{})
 	ResetActions()
+	ResetTasks()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStanda
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) Tasks() ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList {
+	var returns ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList
+	_jsii_.Get(
+		j,
+		"tasks",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) TasksInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tasksInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (c *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStanda
 	return returns
 }
 
+func (c *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) PutTasks(value interface{}) {
+	if err := c.validatePutTasksParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putTasks",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) ResetActions() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetActions",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) ResetTasks() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTasks",
 		nil, // no parameters
 	)
 }

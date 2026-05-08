@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package discoveryenginewidgetconfig
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validatePutShortcutsParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateSetInternalValueParameters(val *DiscoveryEngineWidgetConfigHomepageSetting) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigHomepageSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDiscoveryEngineWidgetConfigHomepageSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -5,14 +5,14 @@ package datagooglecomputevpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecomputevpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecomputevpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_vpn_gateway google_compute_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_vpn_gateway google_compute_vpn_gateway}.
 type DataGoogleComputeVpnGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataGoogleComputeVpnGateway) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_vpn_gateway google_compute_vpn_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_vpn_gateway google_compute_vpn_gateway} Data Source.
 func NewDataGoogleComputeVpnGateway(scope constructs.Construct, id *string, config *DataGoogleComputeVpnGatewayConfig) DataGoogleComputeVpnGateway {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewDataGoogleComputeVpnGateway(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/compute_vpn_gateway google_compute_vpn_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_vpn_gateway google_compute_vpn_gateway} Data Source.
 func NewDataGoogleComputeVpnGateway_Override(d DataGoogleComputeVpnGateway, scope constructs.Construct, id *string, config *DataGoogleComputeVpnGatewayConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package kmskeyringiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/kmskeyringiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/kmskeyringiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/kms_key_ring_iam_binding google_kms_key_ring_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/kms_key_ring_iam_binding google_kms_key_ring_iam_binding}.
 type KmsKeyRingIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_KmsKeyRingIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/kms_key_ring_iam_binding google_kms_key_ring_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/kms_key_ring_iam_binding google_kms_key_ring_iam_binding} Resource.
 func NewKmsKeyRingIamBinding(scope constructs.Construct, id *string, config *KmsKeyRingIamBindingConfig) KmsKeyRingIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewKmsKeyRingIamBinding(scope constructs.Construct, id *string, config *Kms
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/kms_key_ring_iam_binding google_kms_key_ring_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/kms_key_ring_iam_binding google_kms_key_ring_iam_binding} Resource.
 func NewKmsKeyRingIamBinding_Override(k KmsKeyRingIamBinding, scope constructs.Construct, id *string, config *KmsKeyRingIamBindingConfig) {
 	_init_.Initialize()
 

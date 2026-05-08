@@ -5,14 +5,14 @@ package appengineservicesplittraffic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/appengineservicesplittraffic/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/appengineservicesplittraffic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/app_engine_service_split_traffic google_app_engine_service_split_traffic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/app_engine_service_split_traffic google_app_engine_service_split_traffic}.
 type AppEngineServiceSplitTraffic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_AppEngineServiceSplitTraffic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/app_engine_service_split_traffic google_app_engine_service_split_traffic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/app_engine_service_split_traffic google_app_engine_service_split_traffic} Resource.
 func NewAppEngineServiceSplitTraffic(scope constructs.Construct, id *string, config *AppEngineServiceSplitTrafficConfig) AppEngineServiceSplitTraffic {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewAppEngineServiceSplitTraffic(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/app_engine_service_split_traffic google_app_engine_service_split_traffic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/app_engine_service_split_traffic google_app_engine_service_split_traffic} Resource.
 func NewAppEngineServiceSplitTraffic_Override(a AppEngineServiceSplitTraffic, scope constructs.Construct, id *string, config *AppEngineServiceSplitTrafficConfig) {
 	_init_.Initialize()
 

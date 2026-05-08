@@ -5,9 +5,9 @@ package cloudfunctions2function
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/cloudfunctions2function/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/cloudfunctions2function/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -84,7 +84,6 @@ type Cloudfunctions2FunctionEventTriggerOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEventFilters(value interface{})
 	ResetEventFilters()
-	ResetEventType()
 	ResetPubsubTopic()
 	ResetRetryPolicy()
 	ResetServiceAccountEmail()
@@ -643,14 +642,6 @@ func (c *jsiiProxy_Cloudfunctions2FunctionEventTriggerOutputReference) ResetEven
 	_jsii_.InvokeVoid(
 		c,
 		"resetEventFilters",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_Cloudfunctions2FunctionEventTriggerOutputReference) ResetEventType() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetEventType",
 		nil, // no parameters
 	)
 }

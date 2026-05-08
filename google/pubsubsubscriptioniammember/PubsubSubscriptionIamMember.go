@@ -5,14 +5,14 @@ package pubsubsubscriptioniammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/pubsubsubscriptioniammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/pubsubsubscriptioniammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_subscription_iam_member google_pubsub_subscription_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_subscription_iam_member google_pubsub_subscription_iam_member}.
 type PubsubSubscriptionIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_PubsubSubscriptionIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
 func NewPubsubSubscriptionIamMember(scope constructs.Construct, id *string, config *PubsubSubscriptionIamMemberConfig) PubsubSubscriptionIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPubsubSubscriptionIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
 func NewPubsubSubscriptionIamMember_Override(p PubsubSubscriptionIamMember, scope constructs.Construct, id *string, config *PubsubSubscriptionIamMemberConfig) {
 	_init_.Initialize()
 

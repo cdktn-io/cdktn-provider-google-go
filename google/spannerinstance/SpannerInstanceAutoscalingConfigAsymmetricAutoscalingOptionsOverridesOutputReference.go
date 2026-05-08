@@ -5,9 +5,9 @@ package spannerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/spannerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/spannerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,12 @@ type SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutput
 	cdktn.ComplexObject
 	AutoscalingLimits() SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference
 	AutoscalingLimitsInput() *SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits
+	AutoscalingTargetHighPriorityCpuUtilizationPercent() *float64
+	SetAutoscalingTargetHighPriorityCpuUtilizationPercent(val *float64)
+	AutoscalingTargetHighPriorityCpuUtilizationPercentInput() *float64
+	AutoscalingTargetTotalCpuUtilizationPercent() *float64
+	SetAutoscalingTargetTotalCpuUtilizationPercent(val *float64)
+	AutoscalingTargetTotalCpuUtilizationPercentInput() *float64
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,6 +36,12 @@ type SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutput
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisableHighPriorityCpuAutoscaling() interface{}
+	SetDisableHighPriorityCpuAutoscaling(val interface{})
+	DisableHighPriorityCpuAutoscalingInput() interface{}
+	DisableTotalCpuAutoscaling() interface{}
+	SetDisableTotalCpuAutoscaling(val interface{})
+	DisableTotalCpuAutoscalingInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides
@@ -67,6 +79,11 @@ type SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutput
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoscalingLimits(value *SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits)
+	ResetAutoscalingLimits()
+	ResetAutoscalingTargetHighPriorityCpuUtilizationPercent()
+	ResetAutoscalingTargetTotalCpuUtilizationPercent()
+	ResetDisableHighPriorityCpuAutoscaling()
+	ResetDisableTotalCpuAutoscaling()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -102,6 +119,46 @@ func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
 	return returns
 }
 
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) AutoscalingTargetHighPriorityCpuUtilizationPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"autoscalingTargetHighPriorityCpuUtilizationPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) AutoscalingTargetHighPriorityCpuUtilizationPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"autoscalingTargetHighPriorityCpuUtilizationPercentInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) AutoscalingTargetTotalCpuUtilizationPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"autoscalingTargetTotalCpuUtilizationPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) AutoscalingTargetTotalCpuUtilizationPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"autoscalingTargetTotalCpuUtilizationPercentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -127,6 +184,46 @@ func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) DisableHighPriorityCpuAutoscaling() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableHighPriorityCpuAutoscaling",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) DisableHighPriorityCpuAutoscalingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableHighPriorityCpuAutoscalingInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) DisableTotalCpuAutoscaling() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableTotalCpuAutoscaling",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) DisableTotalCpuAutoscalingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableTotalCpuAutoscalingInput",
 		&returns,
 	)
 	return returns
@@ -200,6 +297,28 @@ func NewSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOut
 	)
 }
 
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference)SetAutoscalingTargetHighPriorityCpuUtilizationPercent(val *float64) {
+	if err := j.validateSetAutoscalingTargetHighPriorityCpuUtilizationPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoscalingTargetHighPriorityCpuUtilizationPercent",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference)SetAutoscalingTargetTotalCpuUtilizationPercent(val *float64) {
+	if err := j.validateSetAutoscalingTargetTotalCpuUtilizationPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoscalingTargetTotalCpuUtilizationPercent",
+		val,
+	)
+}
+
 func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -218,6 +337,28 @@ func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference)SetDisableHighPriorityCpuAutoscaling(val interface{}) {
+	if err := j.validateSetDisableHighPriorityCpuAutoscalingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableHighPriorityCpuAutoscaling",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference)SetDisableTotalCpuAutoscaling(val interface{}) {
+	if err := j.validateSetDisableTotalCpuAutoscalingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableTotalCpuAutoscaling",
 		val,
 	)
 }
@@ -449,6 +590,46 @@ func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
 		s,
 		"putAutoscalingLimits",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ResetAutoscalingLimits() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAutoscalingLimits",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ResetAutoscalingTargetHighPriorityCpuUtilizationPercent() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAutoscalingTargetHighPriorityCpuUtilizationPercent",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ResetAutoscalingTargetTotalCpuUtilizationPercent() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAutoscalingTargetTotalCpuUtilizationPercent",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ResetDisableHighPriorityCpuAutoscaling() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDisableHighPriorityCpuAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ResetDisableTotalCpuAutoscaling() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDisableTotalCpuAutoscaling",
+		nil, // no parameters
 	)
 }
 

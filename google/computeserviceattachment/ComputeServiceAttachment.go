@@ -5,14 +5,14 @@ package computeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_service_attachment google_compute_service_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_service_attachment google_compute_service_attachment}.
 type ComputeServiceAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -87,6 +87,7 @@ type ComputeServiceAttachment interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PscServiceAttachmentId() ComputeServiceAttachmentPscServiceAttachmentIdList
 	// Experimental.
 	RawOverrides() interface{}
 	ReconcileConnections() interface{}
@@ -99,6 +100,9 @@ type ComputeServiceAttachment interface {
 	SendPropagatedConnectionLimitIfZero() interface{}
 	SetSendPropagatedConnectionLimitIfZero(val interface{})
 	SendPropagatedConnectionLimitIfZeroInput() interface{}
+	ShowNatIps() interface{}
+	SetShowNatIps(val interface{})
+	ShowNatIpsInput() interface{}
 	TargetService() *string
 	SetTargetService(val *string)
 	TargetServiceInput() *string
@@ -168,6 +172,7 @@ type ComputeServiceAttachment interface {
 	ResetReconcileConnections()
 	ResetRegion()
 	ResetSendPropagatedConnectionLimitIfZero()
+	ResetShowNatIps()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -556,6 +561,16 @@ func (j *jsiiProxy_ComputeServiceAttachment) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeServiceAttachment) PscServiceAttachmentId() ComputeServiceAttachmentPscServiceAttachmentIdList {
+	var returns ComputeServiceAttachmentPscServiceAttachmentIdList
+	_jsii_.Get(
+		j,
+		"pscServiceAttachmentId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeServiceAttachment) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -636,6 +651,26 @@ func (j *jsiiProxy_ComputeServiceAttachment) SendPropagatedConnectionLimitIfZero
 	return returns
 }
 
+func (j *jsiiProxy_ComputeServiceAttachment) ShowNatIps() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"showNatIps",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeServiceAttachment) ShowNatIpsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"showNatIpsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeServiceAttachment) TargetService() *string {
 	var returns *string
 	_jsii_.Get(
@@ -707,7 +742,7 @@ func (j *jsiiProxy_ComputeServiceAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
 func NewComputeServiceAttachment(scope constructs.Construct, id *string, config *ComputeServiceAttachmentConfig) ComputeServiceAttachment {
 	_init_.Initialize()
 
@@ -725,7 +760,7 @@ func NewComputeServiceAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
 func NewComputeServiceAttachment_Override(c ComputeServiceAttachment, scope constructs.Construct, id *string, config *ComputeServiceAttachmentConfig) {
 	_init_.Initialize()
 
@@ -943,6 +978,17 @@ func (j *jsiiProxy_ComputeServiceAttachment)SetSendPropagatedConnectionLimitIfZe
 	_jsii_.Set(
 		j,
 		"sendPropagatedConnectionLimitIfZero",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeServiceAttachment)SetShowNatIps(val interface{}) {
+	if err := j.validateSetShowNatIpsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"showNatIps",
 		val,
 	)
 }
@@ -1417,6 +1463,14 @@ func (c *jsiiProxy_ComputeServiceAttachment) ResetSendPropagatedConnectionLimitI
 	_jsii_.InvokeVoid(
 		c,
 		"resetSendPropagatedConnectionLimitIfZero",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeServiceAttachment) ResetShowNatIps() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetShowNatIps",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package colabruntimetemplateiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/colabruntimetemplateiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/colabruntimetemplateiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/colab_runtime_template_iam_policy google_colab_runtime_template_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/colab_runtime_template_iam_policy google_colab_runtime_template_iam_policy}.
 type ColabRuntimeTemplateIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateIamPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/colab_runtime_template_iam_policy google_colab_runtime_template_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/colab_runtime_template_iam_policy google_colab_runtime_template_iam_policy} Resource.
 func NewColabRuntimeTemplateIamPolicy(scope constructs.Construct, id *string, config *ColabRuntimeTemplateIamPolicyConfig) ColabRuntimeTemplateIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewColabRuntimeTemplateIamPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/colab_runtime_template_iam_policy google_colab_runtime_template_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/colab_runtime_template_iam_policy google_colab_runtime_template_iam_policy} Resource.
 func NewColabRuntimeTemplateIamPolicy_Override(c ColabRuntimeTemplateIamPolicy, scope constructs.Construct, id *string, config *ColabRuntimeTemplateIamPolicyConfig) {
 	_init_.Initialize()
 

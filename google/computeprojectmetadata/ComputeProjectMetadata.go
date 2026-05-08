@@ -5,14 +5,14 @@ package computeprojectmetadata
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeprojectmetadata/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeprojectmetadata/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_project_metadata google_compute_project_metadata}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_project_metadata google_compute_project_metadata}.
 type ComputeProjectMetadata interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ComputeProjectMetadata) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_project_metadata google_compute_project_metadata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_project_metadata google_compute_project_metadata} Resource.
 func NewComputeProjectMetadata(scope constructs.Construct, id *string, config *ComputeProjectMetadataConfig) ComputeProjectMetadata {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewComputeProjectMetadata(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_project_metadata google_compute_project_metadata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_project_metadata google_compute_project_metadata} Resource.
 func NewComputeProjectMetadata_Override(c ComputeProjectMetadata, scope constructs.Construct, id *string, config *ComputeProjectMetadataConfig) {
 	_init_.Initialize()
 

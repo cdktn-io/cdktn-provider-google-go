@@ -79,6 +79,10 @@ func (c *jsiiProxy_ClouddeployCustomTargetType) validatePutCustomActionsParamete
 	return nil
 }
 
+func (c *jsiiProxy_ClouddeployCustomTargetType) validatePutTasksParameters(value *ClouddeployCustomTargetTypeTasks) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClouddeployCustomTargetType) validatePutTimeoutsParameters(value *ClouddeployCustomTargetTypeTimeouts) error {
 	return nil
 }

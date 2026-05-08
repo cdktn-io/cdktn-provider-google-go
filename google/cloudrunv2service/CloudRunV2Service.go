@@ -5,14 +5,14 @@ package cloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/cloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/cloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service}.
 type CloudRunV2Service interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -46,6 +46,9 @@ type CloudRunV2Service interface {
 	CustomAudiences() *[]*string
 	SetCustomAudiences(val *[]*string)
 	CustomAudiencesInput() *[]*string
+	DefaultUriDisabled() interface{}
+	SetDefaultUriDisabled(val interface{})
+	DefaultUriDisabledInput() interface{}
 	DeleteTime() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
@@ -70,6 +73,9 @@ type CloudRunV2Service interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Generation() *string
+	IapEnabled() interface{}
+	SetIapEnabled(val interface{})
+	IapEnabledInput() interface{}
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -95,6 +101,8 @@ type CloudRunV2Service interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MultiRegionSettings() CloudRunV2ServiceMultiRegionSettingsOutputReference
+	MultiRegionSettingsInput() *CloudRunV2ServiceMultiRegionSettings
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -181,6 +189,7 @@ type CloudRunV2Service interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutBinaryAuthorization(value *CloudRunV2ServiceBinaryAuthorization)
 	PutBuildConfig(value *CloudRunV2ServiceBuildConfig)
+	PutMultiRegionSettings(value *CloudRunV2ServiceMultiRegionSettings)
 	PutScaling(value *CloudRunV2ServiceScaling)
 	PutTemplate(value *CloudRunV2ServiceTemplate)
 	PutTimeouts(value *CloudRunV2ServiceTimeouts)
@@ -191,13 +200,16 @@ type CloudRunV2Service interface {
 	ResetClient()
 	ResetClientVersion()
 	ResetCustomAudiences()
+	ResetDefaultUriDisabled()
 	ResetDeletionProtection()
 	ResetDescription()
+	ResetIapEnabled()
 	ResetId()
 	ResetIngress()
 	ResetInvokerIamDisabled()
 	ResetLabels()
 	ResetLaunchStage()
+	ResetMultiRegionSettings()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -422,6 +434,26 @@ func (j *jsiiProxy_CloudRunV2Service) CustomAudiencesInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudRunV2Service) DefaultUriDisabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"defaultUriDisabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) DefaultUriDisabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"defaultUriDisabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudRunV2Service) DeleteTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -557,6 +589,26 @@ func (j *jsiiProxy_CloudRunV2Service) Generation() *string {
 	_jsii_.Get(
 		j,
 		"generation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) IapEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"iapEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) IapEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"iapEnabledInput",
 		&returns,
 	)
 	return returns
@@ -717,6 +769,26 @@ func (j *jsiiProxy_CloudRunV2Service) LocationInput() *string {
 	_jsii_.Get(
 		j,
 		"locationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) MultiRegionSettings() CloudRunV2ServiceMultiRegionSettingsOutputReference {
+	var returns CloudRunV2ServiceMultiRegionSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"multiRegionSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) MultiRegionSettingsInput() *CloudRunV2ServiceMultiRegionSettings {
+	var returns *CloudRunV2ServiceMultiRegionSettings
+	_jsii_.Get(
+		j,
+		"multiRegionSettingsInput",
 		&returns,
 	)
 	return returns
@@ -1003,7 +1075,7 @@ func (j *jsiiProxy_CloudRunV2Service) Urls() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewCloudRunV2Service(scope constructs.Construct, id *string, config *CloudRunV2ServiceConfig) CloudRunV2Service {
 	_init_.Initialize()
 
@@ -1021,7 +1093,7 @@ func NewCloudRunV2Service(scope constructs.Construct, id *string, config *CloudR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewCloudRunV2Service_Override(c CloudRunV2Service, scope constructs.Construct, id *string, config *CloudRunV2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1098,6 +1170,17 @@ func (j *jsiiProxy_CloudRunV2Service)SetCustomAudiences(val *[]*string) {
 	)
 }
 
+func (j *jsiiProxy_CloudRunV2Service)SetDefaultUriDisabled(val interface{}) {
+	if err := j.validateSetDefaultUriDisabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"defaultUriDisabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_CloudRunV2Service)SetDeletionProtection(val interface{}) {
 	if err := j.validateSetDeletionProtectionParameters(val); err != nil {
 		panic(err)
@@ -1132,6 +1215,17 @@ func (j *jsiiProxy_CloudRunV2Service)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2Service)SetIapEnabled(val interface{}) {
+	if err := j.validateSetIapEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"iapEnabled",
 		val,
 	)
 }
@@ -1629,6 +1723,17 @@ func (c *jsiiProxy_CloudRunV2Service) PutBuildConfig(value *CloudRunV2ServiceBui
 	)
 }
 
+func (c *jsiiProxy_CloudRunV2Service) PutMultiRegionSettings(value *CloudRunV2ServiceMultiRegionSettings) {
+	if err := c.validatePutMultiRegionSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putMultiRegionSettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudRunV2Service) PutScaling(value *CloudRunV2ServiceScaling) {
 	if err := c.validatePutScalingParameters(value); err != nil {
 		panic(err)
@@ -1721,6 +1826,14 @@ func (c *jsiiProxy_CloudRunV2Service) ResetCustomAudiences() {
 	)
 }
 
+func (c *jsiiProxy_CloudRunV2Service) ResetDefaultUriDisabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDefaultUriDisabled",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CloudRunV2Service) ResetDeletionProtection() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1733,6 +1846,14 @@ func (c *jsiiProxy_CloudRunV2Service) ResetDescription() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2Service) ResetIapEnabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIapEnabled",
 		nil, // no parameters
 	)
 }
@@ -1773,6 +1894,14 @@ func (c *jsiiProxy_CloudRunV2Service) ResetLaunchStage() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetLaunchStage",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2Service) ResetMultiRegionSettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMultiRegionSettings",
 		nil, // no parameters
 	)
 }

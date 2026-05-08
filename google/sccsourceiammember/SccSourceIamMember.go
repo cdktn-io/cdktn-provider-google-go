@@ -5,14 +5,14 @@ package sccsourceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/sccsourceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/sccsourceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_source_iam_member google_scc_source_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_source_iam_member google_scc_source_iam_member}.
 type SccSourceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_SccSourceIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_source_iam_member google_scc_source_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_source_iam_member google_scc_source_iam_member} Resource.
 func NewSccSourceIamMember(scope constructs.Construct, id *string, config *SccSourceIamMemberConfig) SccSourceIamMember {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewSccSourceIamMember(scope constructs.Construct, id *string, config *SccSo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/scc_source_iam_member google_scc_source_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_source_iam_member google_scc_source_iam_member} Resource.
 func NewSccSourceIamMember_Override(s SccSourceIamMember, scope constructs.Construct, id *string, config *SccSourceIamMemberConfig) {
 	_init_.Initialize()
 

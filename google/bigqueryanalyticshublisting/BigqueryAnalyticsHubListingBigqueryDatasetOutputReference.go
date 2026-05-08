@@ -5,9 +5,9 @@ package bigqueryanalyticshublisting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigqueryanalyticshublisting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigqueryanalyticshublisting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,10 +31,14 @@ type BigqueryAnalyticsHubListingBigqueryDatasetOutputReference interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	EffectiveReplicas() BigqueryAnalyticsHubListingBigqueryDatasetEffectiveReplicasList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *BigqueryAnalyticsHubListingBigqueryDataset
 	SetInternalValue(val *BigqueryAnalyticsHubListingBigqueryDataset)
+	ReplicaLocations() *[]*string
+	SetReplicaLocations(val *[]*string)
+	ReplicaLocationsInput() *[]*string
 	SelectedResources() BigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesList
 	SelectedResourcesInput() interface{}
 	// Experimental.
@@ -70,6 +74,7 @@ type BigqueryAnalyticsHubListingBigqueryDatasetOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSelectedResources(value interface{})
+	ResetReplicaLocations()
 	ResetSelectedResources()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -136,6 +141,16 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) Da
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) EffectiveReplicas() BigqueryAnalyticsHubListingBigqueryDatasetEffectiveReplicasList {
+	var returns BigqueryAnalyticsHubListingBigqueryDatasetEffectiveReplicasList
+	_jsii_.Get(
+		j,
+		"effectiveReplicas",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -151,6 +166,26 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) In
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) ReplicaLocations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaLocations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) ReplicaLocationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaLocationsInput",
 		&returns,
 	)
 	return returns
@@ -264,6 +299,17 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference)Set
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference)SetReplicaLocations(val *[]*string) {
+	if err := j.validateSetReplicaLocationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"replicaLocations",
 		val,
 	)
 }
@@ -484,6 +530,14 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) Pu
 		b,
 		"putSelectedResources",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BigqueryAnalyticsHubListingBigqueryDatasetOutputReference) ResetReplicaLocations() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetReplicaLocations",
+		nil, // no parameters
 	)
 }
 

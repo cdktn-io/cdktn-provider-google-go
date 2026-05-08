@@ -5,14 +5,14 @@ package pubsubtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/pubsubtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/pubsubtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_topic google_pubsub_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_topic google_pubsub_topic}.
 type PubsubTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,6 +82,9 @@ type PubsubTopic interface {
 	RawOverrides() interface{}
 	SchemaSettings() PubsubTopicSchemaSettingsOutputReference
 	SchemaSettingsInput() *PubsubTopicSchemaSettings
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -151,6 +154,7 @@ type PubsubTopic interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetSchemaSettings()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -519,6 +523,26 @@ func (j *jsiiProxy_PubsubTopic) SchemaSettingsInput() *PubsubTopicSchemaSettings
 	return returns
 }
 
+func (j *jsiiProxy_PubsubTopic) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubTopic) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PubsubTopic) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -580,7 +604,7 @@ func (j *jsiiProxy_PubsubTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_topic google_pubsub_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_topic google_pubsub_topic} Resource.
 func NewPubsubTopic(scope constructs.Construct, id *string, config *PubsubTopicConfig) PubsubTopic {
 	_init_.Initialize()
 
@@ -598,7 +622,7 @@ func NewPubsubTopic(scope constructs.Construct, id *string, config *PubsubTopicC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_topic google_pubsub_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_topic google_pubsub_topic} Resource.
 func NewPubsubTopic_Override(p PubsubTopic, scope constructs.Construct, id *string, config *PubsubTopicConfig) {
 	_init_.Initialize()
 
@@ -739,6 +763,17 @@ func (j *jsiiProxy_PubsubTopic)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PubsubTopic)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1227,6 +1262,14 @@ func (p *jsiiProxy_PubsubTopic) ResetSchemaSettings() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetSchemaSettings",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubTopic) ResetTags() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTags",
 		nil, // no parameters
 	)
 }

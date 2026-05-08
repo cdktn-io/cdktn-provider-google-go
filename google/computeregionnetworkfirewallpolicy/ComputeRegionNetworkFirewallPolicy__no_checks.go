@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicy) validateSetNameParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicy) validateSetPolicyTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicy) validateSetProjectParameters(val *string) error {
 	return nil
 }

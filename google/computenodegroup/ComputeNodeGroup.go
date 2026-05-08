@@ -5,14 +5,14 @@ package computenodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computenodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computenodegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_node_group google_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_node_group google_compute_node_group}.
 type ComputeNodeGroup interface {
 	cdktn.TerraformResource
 	AutoscalingPolicy() ComputeNodeGroupAutoscalingPolicyOutputReference
@@ -614,7 +614,7 @@ func (j *jsiiProxy_ComputeNodeGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_node_group google_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_node_group google_compute_node_group} Resource.
 func NewComputeNodeGroup(scope constructs.Construct, id *string, config *ComputeNodeGroupConfig) ComputeNodeGroup {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewComputeNodeGroup(scope constructs.Construct, id *string, config *Compute
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_node_group google_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_node_group google_compute_node_group} Resource.
 func NewComputeNodeGroup_Override(c ComputeNodeGroup, scope constructs.Construct, id *string, config *ComputeNodeGroupConfig) {
 	_init_.Initialize()
 

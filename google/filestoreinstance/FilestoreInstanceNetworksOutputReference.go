@@ -5,9 +5,9 @@ package filestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/filestoreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/filestoreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,8 @@ type FilestoreInstanceNetworksOutputReference interface {
 	Network() *string
 	SetNetwork(val *string)
 	NetworkInput() *string
+	PscConfig() FilestoreInstanceNetworksPscConfigOutputReference
+	PscConfigInput() *FilestoreInstanceNetworksPscConfig
 	ReservedIpRange() *string
 	SetReservedIpRange(val *string)
 	ReservedIpRangeInput() *string
@@ -77,7 +79,9 @@ type FilestoreInstanceNetworksOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPscConfig(value *FilestoreInstanceNetworksPscConfig)
 	ResetConnectMode()
+	ResetPscConfig()
 	ResetReservedIpRange()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -209,6 +213,26 @@ func (j *jsiiProxy_FilestoreInstanceNetworksOutputReference) NetworkInput() *str
 	_jsii_.Get(
 		j,
 		"networkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FilestoreInstanceNetworksOutputReference) PscConfig() FilestoreInstanceNetworksPscConfigOutputReference {
+	var returns FilestoreInstanceNetworksPscConfigOutputReference
+	_jsii_.Get(
+		j,
+		"pscConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FilestoreInstanceNetworksOutputReference) PscConfigInput() *FilestoreInstanceNetworksPscConfig {
+	var returns *FilestoreInstanceNetworksPscConfig
+	_jsii_.Get(
+		j,
+		"pscConfigInput",
 		&returns,
 	)
 	return returns
@@ -567,10 +591,29 @@ func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) InterpolationForAtt
 	return returns
 }
 
+func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) PutPscConfig(value *FilestoreInstanceNetworksPscConfig) {
+	if err := f.validatePutPscConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		f,
+		"putPscConfig",
+		[]interface{}{value},
+	)
+}
+
 func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) ResetConnectMode() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetConnectMode",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FilestoreInstanceNetworksOutputReference) ResetPscConfig() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetPscConfig",
 		nil, // no parameters
 	)
 }

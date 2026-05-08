@@ -111,10 +111,6 @@ func (j *jsiiProxy_StorageNotification) validateSetEventTypesParameters(val *[]*
 	return nil
 }
 
-func (j *jsiiProxy_StorageNotification) validateSetIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_StorageNotification) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

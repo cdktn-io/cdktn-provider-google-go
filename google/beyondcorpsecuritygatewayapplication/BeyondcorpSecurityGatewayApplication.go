@@ -5,14 +5,14 @@ package beyondcorpsecuritygatewayapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/beyondcorpsecuritygatewayapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/beyondcorpsecuritygatewayapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application}.
 type BeyondcorpSecurityGatewayApplication interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -71,6 +71,9 @@ type BeyondcorpSecurityGatewayApplication interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Schema() *string
+	SetSchema(val *string)
+	SchemaInput() *string
 	SecurityGatewayId() *string
 	SetSecurityGatewayId(val *string)
 	SecurityGatewayIdInput() *string
@@ -132,11 +135,13 @@ type BeyondcorpSecurityGatewayApplication interface {
 	PutTimeouts(value *BeyondcorpSecurityGatewayApplicationTimeouts)
 	PutUpstreams(value interface{})
 	ResetDisplayName()
+	ResetEndpointMatchers()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSchema()
 	ResetTimeouts()
 	ResetUpstreams()
 	SynthesizeAttributes() *map[string]interface{}
@@ -416,6 +421,26 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication) RawOverrides() interfac
 	return returns
 }
 
+func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication) Schema() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"schema",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication) SchemaInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"schemaInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication) SecurityGatewayId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -517,7 +542,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication) UpstreamsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
 func NewBeyondcorpSecurityGatewayApplication(scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayApplicationConfig) BeyondcorpSecurityGatewayApplication {
 	_init_.Initialize()
 
@@ -535,7 +560,7 @@ func NewBeyondcorpSecurityGatewayApplication(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
 func NewBeyondcorpSecurityGatewayApplication_Override(b BeyondcorpSecurityGatewayApplication, scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayApplicationConfig) {
 	_init_.Initialize()
 
@@ -654,6 +679,17 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication)SetProvisioners(val *[]i
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BeyondcorpSecurityGatewayApplication)SetSchema(val *string) {
+	if err := j.validateSetSchemaParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"schema",
 		val,
 	)
 }
@@ -1063,6 +1099,14 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) ResetDisplayName() {
 	)
 }
 
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) ResetEndpointMatchers() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetEndpointMatchers",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) ResetId() {
 	_jsii_.InvokeVoid(
 		b,
@@ -1083,6 +1127,14 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) ResetProject() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) ResetSchema() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSchema",
 		nil, // no parameters
 	)
 }

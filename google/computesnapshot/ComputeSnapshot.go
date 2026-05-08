@@ -5,14 +5,14 @@ package computesnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computesnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computesnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_snapshot google_compute_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_snapshot google_compute_snapshot}.
 type ComputeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,11 +82,17 @@ type ComputeSnapshot interface {
 	SnapshotEncryptionKey() ComputeSnapshotSnapshotEncryptionKeyOutputReference
 	SnapshotEncryptionKeyInput() *ComputeSnapshotSnapshotEncryptionKey
 	SnapshotId() *float64
+	SnapshotType() *string
+	SetSnapshotType(val *string)
+	SnapshotTypeInput() *string
 	SourceDisk() *string
 	SetSourceDisk(val *string)
 	SourceDiskEncryptionKey() ComputeSnapshotSourceDiskEncryptionKeyOutputReference
 	SourceDiskEncryptionKeyInput() *ComputeSnapshotSourceDiskEncryptionKey
 	SourceDiskInput() *string
+	SourceInstantSnapshot() *string
+	SetSourceInstantSnapshot(val *string)
+	SourceInstantSnapshotInput() *string
 	StorageBytes() *float64
 	StorageLocations() *[]*string
 	SetStorageLocations(val *[]*string)
@@ -158,7 +164,10 @@ type ComputeSnapshot interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetSnapshotEncryptionKey()
+	ResetSnapshotType()
+	ResetSourceDisk()
 	ResetSourceDiskEncryptionKey()
+	ResetSourceInstantSnapshot()
 	ResetStorageLocations()
 	ResetTimeouts()
 	ResetZone()
@@ -529,6 +538,26 @@ func (j *jsiiProxy_ComputeSnapshot) SnapshotId() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSnapshot) SnapshotType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSnapshot) SnapshotTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSnapshot) SourceDisk() *string {
 	var returns *string
 	_jsii_.Get(
@@ -564,6 +593,26 @@ func (j *jsiiProxy_ComputeSnapshot) SourceDiskInput() *string {
 	_jsii_.Get(
 		j,
 		"sourceDiskInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSnapshot) SourceInstantSnapshot() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceInstantSnapshot",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSnapshot) SourceInstantSnapshotInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceInstantSnapshotInput",
 		&returns,
 	)
 	return returns
@@ -680,7 +729,7 @@ func (j *jsiiProxy_ComputeSnapshot) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
 func NewComputeSnapshot(scope constructs.Construct, id *string, config *ComputeSnapshotConfig) ComputeSnapshot {
 	_init_.Initialize()
 
@@ -698,7 +747,7 @@ func NewComputeSnapshot(scope constructs.Construct, id *string, config *ComputeS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
 func NewComputeSnapshot_Override(c ComputeSnapshot, scope constructs.Construct, id *string, config *ComputeSnapshotConfig) {
 	_init_.Initialize()
 
@@ -843,6 +892,17 @@ func (j *jsiiProxy_ComputeSnapshot)SetProvisioners(val *[]interface{}) {
 	)
 }
 
+func (j *jsiiProxy_ComputeSnapshot)SetSnapshotType(val *string) {
+	if err := j.validateSetSnapshotTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"snapshotType",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ComputeSnapshot)SetSourceDisk(val *string) {
 	if err := j.validateSetSourceDiskParameters(val); err != nil {
 		panic(err)
@@ -850,6 +910,17 @@ func (j *jsiiProxy_ComputeSnapshot)SetSourceDisk(val *string) {
 	_jsii_.Set(
 		j,
 		"sourceDisk",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSnapshot)SetSourceInstantSnapshot(val *string) {
+	if err := j.validateSetSourceInstantSnapshotParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceInstantSnapshot",
 		val,
 	)
 }
@@ -1318,10 +1389,34 @@ func (c *jsiiProxy_ComputeSnapshot) ResetSnapshotEncryptionKey() {
 	)
 }
 
+func (c *jsiiProxy_ComputeSnapshot) ResetSnapshotType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSnapshotType",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSnapshot) ResetSourceDisk() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSourceDisk",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeSnapshot) ResetSourceDiskEncryptionKey() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetSourceDiskEncryptionKey",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSnapshot) ResetSourceInstantSnapshot() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSourceInstantSnapshot",
 		nil, // no parameters
 	)
 }

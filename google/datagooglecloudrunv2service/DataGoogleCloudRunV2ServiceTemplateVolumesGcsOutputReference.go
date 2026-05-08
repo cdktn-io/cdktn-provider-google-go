@@ -5,9 +5,9 @@ package datagooglecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagooglecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagooglecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataGoogleCloudRunV2ServiceTemplateVolumesGcsOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataGoogleCloudRunV2ServiceTemplateVolumesGcs
 	SetInternalValue(val *DataGoogleCloudRunV2ServiceTemplateVolumesGcs)
+	MountOptions() *[]*string
 	ReadOnly() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateVolumesGcsOutputReference)
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateVolumesGcsOutputReference) MountOptions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mountOptions",
 		&returns,
 	)
 	return returns

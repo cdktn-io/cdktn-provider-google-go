@@ -51,6 +51,14 @@ func (c *jsiiProxy_ContainerClusterNodeConfigContainerdConfigOutputReference) va
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterNodeConfigContainerdConfigOutputReference) validatePutRegistryHostsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerClusterNodeConfigContainerdConfigOutputReference) validatePutWritableCgroupsParameters(value *ContainerClusterNodeConfigContainerdConfigWritableCgroups) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterNodeConfigContainerdConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

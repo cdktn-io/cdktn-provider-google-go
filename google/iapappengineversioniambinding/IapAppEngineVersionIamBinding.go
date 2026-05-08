@@ -5,14 +5,14 @@ package iapappengineversioniambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/iapappengineversioniambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iapappengineversioniambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_app_engine_version_iam_binding google_iap_app_engine_version_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_app_engine_version_iam_binding google_iap_app_engine_version_iam_binding}.
 type IapAppEngineVersionIamBinding interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_IapAppEngineVersionIamBinding) VersionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_app_engine_version_iam_binding google_iap_app_engine_version_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_app_engine_version_iam_binding google_iap_app_engine_version_iam_binding} Resource.
 func NewIapAppEngineVersionIamBinding(scope constructs.Construct, id *string, config *IapAppEngineVersionIamBindingConfig) IapAppEngineVersionIamBinding {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewIapAppEngineVersionIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/iap_app_engine_version_iam_binding google_iap_app_engine_version_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iap_app_engine_version_iam_binding google_iap_app_engine_version_iam_binding} Resource.
 func NewIapAppEngineVersionIamBinding_Override(i IapAppEngineVersionIamBinding, scope constructs.Construct, id *string, config *IapAppEngineVersionIamBindingConfig) {
 	_init_.Initialize()
 

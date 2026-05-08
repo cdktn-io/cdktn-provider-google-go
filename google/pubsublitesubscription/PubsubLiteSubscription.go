@@ -5,14 +5,14 @@ package pubsublitesubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/pubsublitesubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/pubsublitesubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription}.
 type PubsubLiteSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_PubsubLiteSubscription) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
 func NewPubsubLiteSubscription(scope constructs.Construct, id *string, config *PubsubLiteSubscriptionConfig) PubsubLiteSubscription {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewPubsubLiteSubscription(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
 func NewPubsubLiteSubscription_Override(p PubsubLiteSubscription, scope constructs.Construct, id *string, config *PubsubLiteSubscriptionConfig) {
 	_init_.Initialize()
 

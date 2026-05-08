@@ -5,14 +5,14 @@ package datagoogleloggingsink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datagoogleloggingsink/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datagoogleloggingsink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/logging_sink google_logging_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/logging_sink google_logging_sink}.
 type DataGoogleLoggingSink interface {
 	cdktn.TerraformDataSource
 	BigqueryOptions() DataGoogleLoggingSinkBigqueryOptionsList
@@ -361,7 +361,7 @@ func (j *jsiiProxy_DataGoogleLoggingSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/logging_sink google_logging_sink} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/logging_sink google_logging_sink} Data Source.
 func NewDataGoogleLoggingSink(scope constructs.Construct, id *string, config *DataGoogleLoggingSinkConfig) DataGoogleLoggingSink {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataGoogleLoggingSink(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/data-sources/logging_sink google_logging_sink} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/logging_sink google_logging_sink} Data Source.
 func NewDataGoogleLoggingSink_Override(d DataGoogleLoggingSink, scope constructs.Construct, id *string, config *DataGoogleLoggingSinkConfig) {
 	_init_.Initialize()
 

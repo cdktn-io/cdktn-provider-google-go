@@ -47,10 +47,6 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) validatePutCertInfoParameters(value interface{}) error {
-	return nil
-}
-
 func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -75,7 +71,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) va
 	return nil
 }
 
-func validateNewApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

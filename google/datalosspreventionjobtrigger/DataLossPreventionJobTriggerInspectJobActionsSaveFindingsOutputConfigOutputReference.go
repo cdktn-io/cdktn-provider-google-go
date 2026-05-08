@@ -5,9 +5,9 @@ package datalosspreventionjobtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/datalosspreventionjobtrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/datalosspreventionjobtrigger/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutput
 	OutputSchema() *string
 	SetOutputSchema(val *string)
 	OutputSchemaInput() *string
+	StoragePath() DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePathOutputReference
+	StoragePathInput() *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath
 	Table() DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTableOutputReference
 	TableInput() *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTable
 	// Experimental.
@@ -69,8 +71,11 @@ type DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutput
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutStoragePath(value *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath)
 	PutTable(value *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTable)
 	ResetOutputSchema()
+	ResetStoragePath()
+	ResetTable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -151,6 +156,26 @@ func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutp
 	_jsii_.Get(
 		j,
 		"outputSchemaInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) StoragePath() DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePathOutputReference {
+	var returns DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePathOutputReference
+	_jsii_.Get(
+		j,
+		"storagePath",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) StoragePathInput() *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath {
+	var returns *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath
+	_jsii_.Get(
+		j,
+		"storagePathInput",
 		&returns,
 	)
 	return returns
@@ -476,6 +501,17 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutp
 	return returns
 }
 
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) PutStoragePath(value *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath) {
+	if err := d.validatePutStoragePathParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putStoragePath",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) PutTable(value *DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTable) {
 	if err := d.validatePutTableParameters(value); err != nil {
 		panic(err)
@@ -491,6 +527,22 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutp
 	_jsii_.InvokeVoid(
 		d,
 		"resetOutputSchema",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) ResetStoragePath() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetStoragePath",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) ResetTable() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTable",
 		nil, // no parameters
 	)
 }

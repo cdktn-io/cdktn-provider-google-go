@@ -5,14 +5,14 @@ package storagebucketobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/storagebucketobject/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/storagebucketobject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_object google_storage_bucket_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_object google_storage_bucket_object}.
 type StorageBucketObject interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -44,6 +44,8 @@ type StorageBucketObject interface {
 	ContentType() *string
 	SetContentType(val *string)
 	ContentTypeInput() *string
+	Contexts() StorageBucketObjectContextsOutputReference
+	ContextsInput() *StorageBucketObjectContexts
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -174,6 +176,7 @@ type StorageBucketObject interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutContexts(value *StorageBucketObjectContexts)
 	PutCustomerEncryption(value *StorageBucketObjectCustomerEncryption)
 	PutRetention(value *StorageBucketObjectRetention)
 	PutTimeouts(value *StorageBucketObjectTimeouts)
@@ -183,6 +186,7 @@ type StorageBucketObject interface {
 	ResetContentEncoding()
 	ResetContentLanguage()
 	ResetContentType()
+	ResetContexts()
 	ResetCustomerEncryption()
 	ResetDeletionPolicy()
 	ResetDetectMd5Hash()
@@ -392,6 +396,26 @@ func (j *jsiiProxy_StorageBucketObject) ContentTypeInput() *string {
 	_jsii_.Get(
 		j,
 		"contentTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucketObject) Contexts() StorageBucketObjectContextsOutputReference {
+	var returns StorageBucketObjectContextsOutputReference
+	_jsii_.Get(
+		j,
+		"contexts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucketObject) ContextsInput() *StorageBucketObjectContexts {
+	var returns *StorageBucketObjectContexts
+	_jsii_.Get(
+		j,
+		"contextsInput",
 		&returns,
 	)
 	return returns
@@ -898,7 +922,7 @@ func (j *jsiiProxy_StorageBucketObject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_object google_storage_bucket_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_object google_storage_bucket_object} Resource.
 func NewStorageBucketObject(scope constructs.Construct, id *string, config *StorageBucketObjectConfig) StorageBucketObject {
 	_init_.Initialize()
 
@@ -916,7 +940,7 @@ func NewStorageBucketObject(scope constructs.Construct, id *string, config *Stor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_object google_storage_bucket_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_object google_storage_bucket_object} Resource.
 func NewStorageBucketObject_Override(s StorageBucketObject, scope constructs.Construct, id *string, config *StorageBucketObjectConfig) {
 	_init_.Initialize()
 
@@ -1557,6 +1581,17 @@ func (s *jsiiProxy_StorageBucketObject) OverrideLogicalId(newLogicalId *string) 
 	)
 }
 
+func (s *jsiiProxy_StorageBucketObject) PutContexts(value *StorageBucketObjectContexts) {
+	if err := s.validatePutContextsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putContexts",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_StorageBucketObject) PutCustomerEncryption(value *StorageBucketObjectCustomerEncryption) {
 	if err := s.validatePutCustomerEncryptionParameters(value); err != nil {
 		panic(err)
@@ -1634,6 +1669,14 @@ func (s *jsiiProxy_StorageBucketObject) ResetContentType() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetContentType",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBucketObject) ResetContexts() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetContexts",
 		nil, // no parameters
 	)
 }

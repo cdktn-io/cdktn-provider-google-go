@@ -5,14 +5,14 @@ package deploymentmanagerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/deploymentmanagerdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/deploymentmanagerdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/deployment_manager_deployment google_deployment_manager_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/deployment_manager_deployment google_deployment_manager_deployment}.
 type DeploymentManagerDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_DeploymentManagerDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/deployment_manager_deployment google_deployment_manager_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/deployment_manager_deployment google_deployment_manager_deployment} Resource.
 func NewDeploymentManagerDeployment(scope constructs.Construct, id *string, config *DeploymentManagerDeploymentConfig) DeploymentManagerDeployment {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewDeploymentManagerDeployment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/deployment_manager_deployment google_deployment_manager_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/deployment_manager_deployment google_deployment_manager_deployment} Resource.
 func NewDeploymentManagerDeployment_Override(d DeploymentManagerDeployment, scope constructs.Construct, id *string, config *DeploymentManagerDeploymentConfig) {
 	_init_.Initialize()
 

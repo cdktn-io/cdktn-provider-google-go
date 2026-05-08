@@ -5,14 +5,14 @@ package gkehubscopeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/gkehubscopeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/gkehubscopeiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_hub_scope_iam_binding google_gke_hub_scope_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_hub_scope_iam_binding google_gke_hub_scope_iam_binding}.
 type GkeHubScopeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GkeHubScopeIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_hub_scope_iam_binding google_gke_hub_scope_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_hub_scope_iam_binding google_gke_hub_scope_iam_binding} Resource.
 func NewGkeHubScopeIamBinding(scope constructs.Construct, id *string, config *GkeHubScopeIamBindingConfig) GkeHubScopeIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGkeHubScopeIamBinding(scope constructs.Construct, id *string, config *Gk
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/gke_hub_scope_iam_binding google_gke_hub_scope_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gke_hub_scope_iam_binding google_gke_hub_scope_iam_binding} Resource.
 func NewGkeHubScopeIamBinding_Override(g GkeHubScopeIamBinding, scope constructs.Construct, id *string, config *GkeHubScopeIamBindingConfig) {
 	_init_.Initialize()
 

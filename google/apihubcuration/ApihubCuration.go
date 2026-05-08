@@ -5,14 +5,14 @@ package apihubcuration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apihubcuration/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apihubcuration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_curation google_apihub_curation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apihub_curation google_apihub_curation}.
 type ApihubCuration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -560,7 +560,7 @@ func (j *jsiiProxy_ApihubCuration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_curation google_apihub_curation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apihub_curation google_apihub_curation} Resource.
 func NewApihubCuration(scope constructs.Construct, id *string, config *ApihubCurationConfig) ApihubCuration {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewApihubCuration(scope constructs.Construct, id *string, config *ApihubCur
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_curation google_apihub_curation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apihub_curation google_apihub_curation} Resource.
 func NewApihubCuration_Override(a ApihubCuration, scope constructs.Construct, id *string, config *ApihubCurationConfig) {
 	_init_.Initialize()
 

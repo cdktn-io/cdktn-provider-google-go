@@ -5,14 +5,14 @@ package computebackendbucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computebackendbucket/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computebackendbucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_backend_bucket google_compute_backend_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_backend_bucket google_compute_backend_bucket}.
 type ComputeBackendBucket interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -75,6 +75,8 @@ type ComputeBackendBucket interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeBackendBucketParamsOutputReference
+	ParamsInput() *ComputeBackendBucketParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -141,6 +143,7 @@ type ComputeBackendBucket interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutCdnPolicy(value *ComputeBackendBucketCdnPolicy)
+	PutParams(value *ComputeBackendBucketParams)
 	PutTimeouts(value *ComputeBackendBucketTimeouts)
 	ResetCdnPolicy()
 	ResetCompressionMode()
@@ -153,6 +156,7 @@ type ComputeBackendBucket interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -492,6 +496,26 @@ func (j *jsiiProxy_ComputeBackendBucket) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeBackendBucket) Params() ComputeBackendBucketParamsOutputReference {
+	var returns ComputeBackendBucketParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendBucket) ParamsInput() *ComputeBackendBucketParams {
+	var returns *ComputeBackendBucketParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeBackendBucket) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -603,7 +627,7 @@ func (j *jsiiProxy_ComputeBackendBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_backend_bucket google_compute_backend_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_backend_bucket google_compute_backend_bucket} Resource.
 func NewComputeBackendBucket(scope constructs.Construct, id *string, config *ComputeBackendBucketConfig) ComputeBackendBucket {
 	_init_.Initialize()
 
@@ -621,7 +645,7 @@ func NewComputeBackendBucket(scope constructs.Construct, id *string, config *Com
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_backend_bucket google_compute_backend_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_backend_bucket google_compute_backend_bucket} Resource.
 func NewComputeBackendBucket_Override(c ComputeBackendBucket, scope constructs.Construct, id *string, config *ComputeBackendBucketConfig) {
 	_init_.Initialize()
 
@@ -1174,6 +1198,17 @@ func (c *jsiiProxy_ComputeBackendBucket) PutCdnPolicy(value *ComputeBackendBucke
 	)
 }
 
+func (c *jsiiProxy_ComputeBackendBucket) PutParams(value *ComputeBackendBucketParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeBackendBucket) PutTimeouts(value *ComputeBackendBucketTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1253,6 +1288,14 @@ func (c *jsiiProxy_ComputeBackendBucket) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeBackendBucket) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

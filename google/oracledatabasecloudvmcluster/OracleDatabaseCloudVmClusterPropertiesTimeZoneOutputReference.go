@@ -5,9 +5,9 @@ package oracledatabasecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/oracledatabasecloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/oracledatabasecloudvmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -43,6 +43,9 @@ type OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Version() *string
+	SetVersion(val *string)
+	VersionInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetId()
+	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -173,6 +177,26 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference
 	return returns
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference) Version() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"version",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference) VersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"versionInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference {
 	_init_.Initialize()
@@ -263,6 +287,17 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference)SetVersion(val *string) {
+	if err := j.validateSetVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"version",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference
 	_jsii_.InvokeVoid(
 		o,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference) ResetVersion() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetVersion",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package bigqueryconnectioniampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/bigqueryconnectioniampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/bigqueryconnectioniampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy}.
 type BigqueryConnectionIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_BigqueryConnectionIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
 func NewBigqueryConnectionIamPolicy(scope constructs.Construct, id *string, config *BigqueryConnectionIamPolicyConfig) BigqueryConnectionIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewBigqueryConnectionIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
 func NewBigqueryConnectionIamPolicy_Override(b BigqueryConnectionIamPolicy, scope constructs.Construct, id *string, config *BigqueryConnectionIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networkmanagementvpcflowlogsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/networkmanagementvpcflowlogsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/networkmanagementvpcflowlogsconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config}.
 type NetworkManagementVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -76,6 +76,9 @@ type NetworkManagementVpcFlowLogsConfig interface {
 	MetadataFieldsInput() *[]*string
 	MetadataInput() *string
 	Name() *string
+	Network() *string
+	SetNetwork(val *string)
+	NetworkInput() *string
 	// The tree node.
 	Node() constructs.Node
 	Project() *string
@@ -94,6 +97,9 @@ type NetworkManagementVpcFlowLogsConfig interface {
 	State() *string
 	SetState(val *string)
 	StateInput() *string
+	Subnet() *string
+	SetSubnet(val *string)
+	SubnetInput() *string
 	TargetResourceState() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -164,11 +170,13 @@ type NetworkManagementVpcFlowLogsConfig interface {
 	ResetLabels()
 	ResetMetadata()
 	ResetMetadataFields()
+	ResetNetwork()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetState()
+	ResetSubnet()
 	ResetTimeouts()
 	ResetVpnTunnel()
 	SynthesizeAttributes() *map[string]interface{}
@@ -518,6 +526,26 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) Name() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) Network() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"network",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) NetworkInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -593,6 +621,26 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) StateInput() *string {
 	_jsii_.Get(
 		j,
 		"stateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) Subnet() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subnet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) SubnetInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subnetInput",
 		&returns,
 	)
 	return returns
@@ -719,7 +767,7 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) VpnTunnelInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
 func NewNetworkManagementVpcFlowLogsConfig(scope constructs.Construct, id *string, config *NetworkManagementVpcFlowLogsConfigConfig) NetworkManagementVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -737,7 +785,7 @@ func NewNetworkManagementVpcFlowLogsConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
 func NewNetworkManagementVpcFlowLogsConfig_Override(n NetworkManagementVpcFlowLogsConfig, scope constructs.Construct, id *string, config *NetworkManagementVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 
@@ -907,6 +955,17 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig)SetMetadataFields(val *[]*
 	)
 }
 
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig)SetNetwork(val *string) {
+	if err := j.validateSetNetworkParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"network",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig)SetProject(val *string) {
 	if err := j.validateSetProjectParameters(val); err != nil {
 		panic(err)
@@ -944,6 +1003,17 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig)SetState(val *string) {
 	_jsii_.Set(
 		j,
 		"state",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig)SetSubnet(val *string) {
+	if err := j.validateSetSubnetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"subnet",
 		val,
 	)
 }
@@ -1406,6 +1476,14 @@ func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) ResetMetadataFields() {
 	)
 }
 
+func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) ResetNetwork() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNetwork",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1426,6 +1504,14 @@ func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) ResetState() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetState",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) ResetSubnet() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetSubnet",
 		nil, // no parameters
 	)
 }

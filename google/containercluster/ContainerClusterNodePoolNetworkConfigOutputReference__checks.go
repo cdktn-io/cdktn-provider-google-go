@@ -185,6 +185,14 @@ func (c *jsiiProxy_ContainerClusterNodePoolNetworkConfigOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigOutputReference) validateSetAcceleratorNetworkProfileParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -307,6 +315,14 @@ func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigOutputReference) validat
 }
 
 func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigOutputReference) validateSetPodRangeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolNetworkConfigOutputReference) validateSetSubnetworkParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

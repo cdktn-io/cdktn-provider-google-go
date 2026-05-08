@@ -87,6 +87,10 @@ func (d *jsiiProxy_DatastreamConnectionProfile) validatePutGcsProfileParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DatastreamConnectionProfile) validatePutMongodbProfileParameters(value *DatastreamConnectionProfileMongodbProfile) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatastreamConnectionProfile) validatePutMysqlProfileParameters(value *DatastreamConnectionProfileMysqlProfile) error {
 	return nil
 }

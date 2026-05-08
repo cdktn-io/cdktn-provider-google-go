@@ -47,6 +47,10 @@ func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validateI
 	return nil
 }
 
+func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validatePutAiInferenceParameters(value *PubsubSubscriptionMessageTransformsAiInference) error {
+	return nil
+}
+
 func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) validatePutJavascriptUdfParameters(value *PubsubSubscriptionMessageTransformsJavascriptUdf) error {
 	return nil
 }

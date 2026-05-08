@@ -79,6 +79,10 @@ func (s *jsiiProxy_SqlDatabaseInstance) validatePutCloneParameters(value *SqlDat
 	return nil
 }
 
+func (s *jsiiProxy_SqlDatabaseInstance) validatePutPointInTimeRestoreContextParameters(value *SqlDatabaseInstancePointInTimeRestoreContext) error {
+	return nil
+}
+
 func (s *jsiiProxy_SqlDatabaseInstance) validatePutReplicaConfigurationParameters(value *SqlDatabaseInstanceReplicaConfiguration) error {
 	return nil
 }
@@ -115,6 +119,10 @@ func validateSqlDatabaseInstance_IsTerraformResourceParameters(x interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetBackupdrBackupParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -132,6 +140,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetDeletionProtectionParameters(
 }
 
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetEncryptionKeyNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetFinalBackupDescriptionParameters(val *string) error {
 	return nil
 }
 
@@ -180,6 +192,14 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetReplicaNamesParameters(val *[
 }
 
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetRootPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetRootPasswordWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetRootPasswordWoVersionParameters(val *string) error {
 	return nil
 }
 

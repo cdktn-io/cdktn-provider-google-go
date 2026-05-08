@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -77,6 +77,8 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	MaxParallelImagePulls() *float64
 	SetMaxParallelImagePulls(val *float64)
 	MaxParallelImagePullsInput() *float64
+	MemoryManager() ContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference
+	MemoryManagerInput() *ContainerClusterNodeConfigKubeletConfigMemoryManager
 	PodPidsLimit() *float64
 	SetPodPidsLimit(val *float64)
 	PodPidsLimitInput() *float64
@@ -91,6 +93,8 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TopologyManager() ContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference
+	TopologyManagerInput() *ContainerClusterNodeConfigKubeletConfigTopologyManager
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -118,6 +122,8 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	PutEvictionMinimumReclaim(value *ContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim)
 	PutEvictionSoft(value *ContainerClusterNodeConfigKubeletConfigEvictionSoft)
 	PutEvictionSoftGracePeriod(value *ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriod)
+	PutMemoryManager(value *ContainerClusterNodeConfigKubeletConfigMemoryManager)
+	PutTopologyManager(value *ContainerClusterNodeConfigKubeletConfigTopologyManager)
 	ResetAllowedUnsafeSysctls()
 	ResetContainerLogMaxFiles()
 	ResetContainerLogMaxSize()
@@ -134,8 +140,10 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	ResetImageMinimumGcAge()
 	ResetInsecureKubeletReadonlyPortEnabled()
 	ResetMaxParallelImagePulls()
+	ResetMemoryManager()
 	ResetPodPidsLimit()
 	ResetSingleProcessOomKill()
+	ResetTopologyManager()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -521,6 +529,26 @@ func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) MaxPa
 	return returns
 }
 
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) MemoryManager() ContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference {
+	var returns ContainerClusterNodeConfigKubeletConfigMemoryManagerOutputReference
+	_jsii_.Get(
+		j,
+		"memoryManager",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) MemoryManagerInput() *ContainerClusterNodeConfigKubeletConfigMemoryManager {
+	var returns *ContainerClusterNodeConfigKubeletConfigMemoryManager
+	_jsii_.Get(
+		j,
+		"memoryManagerInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) PodPidsLimit() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -576,6 +604,26 @@ func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) Terra
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) TopologyManager() ContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference {
+	var returns ContainerClusterNodeConfigKubeletConfigTopologyManagerOutputReference
+	_jsii_.Get(
+		j,
+		"topologyManager",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) TopologyManagerInput() *ContainerClusterNodeConfigKubeletConfigTopologyManager {
+	var returns *ContainerClusterNodeConfigKubeletConfigTopologyManager
+	_jsii_.Get(
+		j,
+		"topologyManagerInput",
 		&returns,
 	)
 	return returns
@@ -1048,6 +1096,28 @@ func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) PutEv
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) PutMemoryManager(value *ContainerClusterNodeConfigKubeletConfigMemoryManager) {
+	if err := c.validatePutMemoryManagerParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putMemoryManager",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) PutTopologyManager(value *ContainerClusterNodeConfigKubeletConfigTopologyManager) {
+	if err := c.validatePutTopologyManagerParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putTopologyManager",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) ResetAllowedUnsafeSysctls() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1176,6 +1246,14 @@ func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) Reset
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) ResetMemoryManager() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMemoryManager",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) ResetPodPidsLimit() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1188,6 +1266,14 @@ func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetSingleProcessOomKill",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) ResetTopologyManager() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTopologyManager",
 		nil, // no parameters
 	)
 }

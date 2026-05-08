@@ -5,9 +5,9 @@ package pubsubsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/pubsubsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/pubsubsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -67,6 +67,8 @@ type PubsubSubscriptionCloudStorageConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TextConfig() PubsubSubscriptionCloudStorageConfigTextConfigOutputReference
+	TextConfigInput() *PubsubSubscriptionCloudStorageConfigTextConfig
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -92,6 +94,7 @@ type PubsubSubscriptionCloudStorageConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAvroConfig(value *PubsubSubscriptionCloudStorageConfigAvroConfig)
+	PutTextConfig(value *PubsubSubscriptionCloudStorageConfigTextConfig)
 	ResetAvroConfig()
 	ResetFilenameDatetimeFormat()
 	ResetFilenamePrefix()
@@ -100,6 +103,7 @@ type PubsubSubscriptionCloudStorageConfigOutputReference interface {
 	ResetMaxDuration()
 	ResetMaxMessages()
 	ResetServiceAccountEmail()
+	ResetTextConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -370,6 +374,26 @@ func (j *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) Terrafor
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) TextConfig() PubsubSubscriptionCloudStorageConfigTextConfigOutputReference {
+	var returns PubsubSubscriptionCloudStorageConfigTextConfigOutputReference
+	_jsii_.Get(
+		j,
+		"textConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) TextConfigInput() *PubsubSubscriptionCloudStorageConfigTextConfig {
+	var returns *PubsubSubscriptionCloudStorageConfigTextConfig
+	_jsii_.Get(
+		j,
+		"textConfigInput",
 		&returns,
 	)
 	return returns
@@ -743,6 +767,17 @@ func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) PutAvroC
 	)
 }
 
+func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) PutTextConfig(value *PubsubSubscriptionCloudStorageConfigTextConfig) {
+	if err := p.validatePutTextConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putTextConfig",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) ResetAvroConfig() {
 	_jsii_.InvokeVoid(
 		p,
@@ -803,6 +838,14 @@ func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) ResetSer
 	_jsii_.InvokeVoid(
 		p,
 		"resetServiceAccountEmail",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubSubscriptionCloudStorageConfigOutputReference) ResetTextConfig() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTextConfig",
 		nil, // no parameters
 	)
 }

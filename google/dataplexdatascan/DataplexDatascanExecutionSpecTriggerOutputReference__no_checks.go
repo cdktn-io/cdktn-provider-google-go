@@ -51,6 +51,10 @@ func (d *jsiiProxy_DataplexDatascanExecutionSpecTriggerOutputReference) validate
 	return nil
 }
 
+func (d *jsiiProxy_DataplexDatascanExecutionSpecTriggerOutputReference) validatePutOneTimeParameters(value *DataplexDatascanExecutionSpecTriggerOneTime) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexDatascanExecutionSpecTriggerOutputReference) validatePutScheduleParameters(value *DataplexDatascanExecutionSpecTriggerSchedule) error {
 	return nil
 }

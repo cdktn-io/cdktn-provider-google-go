@@ -5,14 +5,14 @@ package serviceaccountiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/serviceaccountiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/serviceaccountiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/service_account_iam_member google_service_account_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_account_iam_member google_service_account_iam_member}.
 type ServiceAccountIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ServiceAccountIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
 func NewServiceAccountIamMember(scope constructs.Construct, id *string, config *ServiceAccountIamMemberConfig) ServiceAccountIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewServiceAccountIamMember(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
 func NewServiceAccountIamMember_Override(s ServiceAccountIamMember, scope constructs.Construct, id *string, config *ServiceAccountIamMemberConfig) {
 	_init_.Initialize()
 

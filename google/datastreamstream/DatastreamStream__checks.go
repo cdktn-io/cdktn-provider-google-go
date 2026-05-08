@@ -240,6 +240,37 @@ func (d *jsiiProxy_DatastreamStream) validatePutDestinationConfigParameters(valu
 	return nil
 }
 
+func (d *jsiiProxy_DatastreamStream) validatePutRuleSetsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*DatastreamStreamRuleSets:
+		value := value.(*[]*DatastreamStreamRuleSets)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DatastreamStreamRuleSets:
+		value_ := value.([]*DatastreamStreamRuleSets)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DatastreamStreamRuleSets; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DatastreamStream) validatePutSourceConfigParameters(value *DatastreamStreamSourceConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

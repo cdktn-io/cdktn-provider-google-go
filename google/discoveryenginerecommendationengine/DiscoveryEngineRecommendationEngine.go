@@ -5,14 +5,14 @@ package discoveryenginerecommendationengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/discoveryenginerecommendationengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/discoveryenginerecommendationengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine}.
 type DiscoveryEngineRecommendationEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
 func NewDiscoveryEngineRecommendationEngine(scope constructs.Construct, id *string, config *DiscoveryEngineRecommendationEngineConfig) DiscoveryEngineRecommendationEngine {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewDiscoveryEngineRecommendationEngine(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
 func NewDiscoveryEngineRecommendationEngine_Override(d DiscoveryEngineRecommendationEngine, scope constructs.Construct, id *string, config *DiscoveryEngineRecommendationEngineConfig) {
 	_init_.Initialize()
 

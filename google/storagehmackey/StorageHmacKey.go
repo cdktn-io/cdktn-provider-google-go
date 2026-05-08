@@ -5,14 +5,14 @@ package storagehmackey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/storagehmackey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/storagehmackey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_hmac_key google_storage_hmac_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_hmac_key google_storage_hmac_key}.
 type StorageHmacKey interface {
 	cdktn.TerraformResource
 	AccessId() *string
@@ -458,7 +458,7 @@ func (j *jsiiProxy_StorageHmacKey) Updated() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
 func NewStorageHmacKey(scope constructs.Construct, id *string, config *StorageHmacKeyConfig) StorageHmacKey {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewStorageHmacKey(scope constructs.Construct, id *string, config *StorageHm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
 func NewStorageHmacKey_Override(s StorageHmacKey, scope constructs.Construct, id *string, config *StorageHmacKeyConfig) {
 	_init_.Initialize()
 

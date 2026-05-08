@@ -5,9 +5,9 @@ package netappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/netappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/netappvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,9 @@ type NetappVolumeTieringPolicyOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	HotTierBypassModeEnabled() interface{}
+	SetHotTierBypassModeEnabled(val interface{})
+	HotTierBypassModeEnabledInput() interface{}
 	InternalValue() *NetappVolumeTieringPolicy
 	SetInternalValue(val *NetappVolumeTieringPolicy)
 	// Experimental.
@@ -71,6 +74,7 @@ type NetappVolumeTieringPolicyOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCoolingThresholdDays()
+	ResetHotTierBypassModeEnabled()
 	ResetTierAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -142,6 +146,26 @@ func (j *jsiiProxy_NetappVolumeTieringPolicyOutputReference) Fqn() *string {
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeTieringPolicyOutputReference) HotTierBypassModeEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hotTierBypassModeEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeTieringPolicyOutputReference) HotTierBypassModeEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hotTierBypassModeEnabledInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_NetappVolumeTieringPolicyOutputReference)SetCoolingThresholdD
 	_jsii_.Set(
 		j,
 		"coolingThresholdDays",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeTieringPolicyOutputReference)SetHotTierBypassModeEnabled(val interface{}) {
+	if err := j.validateSetHotTierBypassModeEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"hotTierBypassModeEnabled",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (n *jsiiProxy_NetappVolumeTieringPolicyOutputReference) ResetCoolingThresho
 	_jsii_.InvokeVoid(
 		n,
 		"resetCoolingThresholdDays",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeTieringPolicyOutputReference) ResetHotTierBypassModeEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetHotTierBypassModeEnabled",
 		nil, // no parameters
 	)
 }

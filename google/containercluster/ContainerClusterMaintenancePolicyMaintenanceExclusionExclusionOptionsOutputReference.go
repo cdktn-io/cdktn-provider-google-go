@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,9 @@ type ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutput
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EndTimeBehavior() *string
+	SetEndTimeBehavior(val *string)
+	EndTimeBehaviorInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions
@@ -67,6 +70,7 @@ type ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutput
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetEndTimeBehavior()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -107,6 +111,26 @@ func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) EndTimeBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endTimeBehavior",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) EndTimeBehaviorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endTimeBehaviorInput",
 		&returns,
 	)
 	return returns
@@ -218,6 +242,17 @@ func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference)SetEndTimeBehavior(val *string) {
+	if err := j.validateSetEndTimeBehaviorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endTimeBehavior",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (c *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusio
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) ResetEndTimeBehavior() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEndTimeBehavior",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

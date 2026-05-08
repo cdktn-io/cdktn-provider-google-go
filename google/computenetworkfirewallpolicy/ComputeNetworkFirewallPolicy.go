@@ -5,14 +5,14 @@ package computenetworkfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computenetworkfirewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computenetworkfirewallpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_network_firewall_policy google_compute_network_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_network_firewall_policy google_compute_network_firewall_policy}.
 type ComputeNetworkFirewallPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -57,6 +57,9 @@ type ComputeNetworkFirewallPolicy interface {
 	NetworkFirewallPolicyId() *string
 	// The tree node.
 	Node() constructs.Node
+	PolicyType() *string
+	SetPolicyType(val *string)
+	PolicyTypeInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -130,6 +133,7 @@ type ComputeNetworkFirewallPolicy interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPolicyType()
 	ResetProject()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -349,6 +353,26 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicy) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeNetworkFirewallPolicy) PolicyType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"policyType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkFirewallPolicy) PolicyTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"policyTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeNetworkFirewallPolicy) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -480,7 +504,7 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_network_firewall_policy google_compute_network_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_network_firewall_policy google_compute_network_firewall_policy} Resource.
 func NewComputeNetworkFirewallPolicy(scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyConfig) ComputeNetworkFirewallPolicy {
 	_init_.Initialize()
 
@@ -498,7 +522,7 @@ func NewComputeNetworkFirewallPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_network_firewall_policy google_compute_network_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_network_firewall_policy google_compute_network_firewall_policy} Resource.
 func NewComputeNetworkFirewallPolicy_Override(c ComputeNetworkFirewallPolicy, scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicy)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNetworkFirewallPolicy)SetPolicyType(val *string) {
+	if err := j.validateSetPolicyTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"policyType",
 		val,
 	)
 }
@@ -1005,6 +1040,14 @@ func (c *jsiiProxy_ComputeNetworkFirewallPolicy) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkFirewallPolicy) ResetPolicyType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPolicyType",
 		nil, // no parameters
 	)
 }

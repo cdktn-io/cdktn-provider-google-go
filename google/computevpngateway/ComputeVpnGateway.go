@@ -5,14 +5,14 @@ package computevpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computevpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computevpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway}.
 type ComputeVpnGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -59,6 +59,8 @@ type ComputeVpnGateway interface {
 	NetworkInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeVpnGatewayParamsOutputReference
+	ParamsInput() *ComputeVpnGatewayParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -127,12 +129,14 @@ type ComputeVpnGateway interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutParams(value *ComputeVpnGatewayParams)
 	PutTimeouts(value *ComputeVpnGatewayTimeouts)
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRegion()
 	ResetTimeouts()
@@ -363,6 +367,26 @@ func (j *jsiiProxy_ComputeVpnGateway) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeVpnGateway) Params() ComputeVpnGatewayParamsOutputReference {
+	var returns ComputeVpnGatewayParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeVpnGateway) ParamsInput() *ComputeVpnGatewayParams {
+	var returns *ComputeVpnGatewayParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeVpnGateway) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -494,7 +518,7 @@ func (j *jsiiProxy_ComputeVpnGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
 func NewComputeVpnGateway(scope constructs.Construct, id *string, config *ComputeVpnGatewayConfig) ComputeVpnGateway {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewComputeVpnGateway(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
 func NewComputeVpnGateway_Override(c ComputeVpnGateway, scope constructs.Construct, id *string, config *ComputeVpnGatewayConfig) {
 	_init_.Initialize()
 
@@ -1010,6 +1034,17 @@ func (c *jsiiProxy_ComputeVpnGateway) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (c *jsiiProxy_ComputeVpnGateway) PutParams(value *ComputeVpnGatewayParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeVpnGateway) PutTimeouts(value *ComputeVpnGatewayTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1041,6 +1076,14 @@ func (c *jsiiProxy_ComputeVpnGateway) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeVpnGateway) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package dnsrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dnsrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dnsrecordset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dns_record_set google_dns_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dns_record_set google_dns_record_set}.
 type DnsRecordSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DnsRecordSet) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dns_record_set google_dns_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dns_record_set google_dns_record_set} Resource.
 func NewDnsRecordSet(scope constructs.Construct, id *string, config *DnsRecordSetConfig) DnsRecordSet {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDnsRecordSet(scope constructs.Construct, id *string, config *DnsRecordSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dns_record_set google_dns_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dns_record_set google_dns_record_set} Resource.
 func NewDnsRecordSet_Override(d DnsRecordSet, scope constructs.Construct, id *string, config *DnsRecordSetConfig) {
 	_init_.Initialize()
 

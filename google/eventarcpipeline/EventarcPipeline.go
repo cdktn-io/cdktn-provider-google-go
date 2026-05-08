@@ -5,14 +5,14 @@ package eventarcpipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/eventarcpipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/eventarcpipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/eventarc_pipeline google_eventarc_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/eventarc_pipeline google_eventarc_pipeline}.
 type EventarcPipeline interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -716,7 +716,7 @@ func (j *jsiiProxy_EventarcPipeline) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
 func NewEventarcPipeline(scope constructs.Construct, id *string, config *EventarcPipelineConfig) EventarcPipeline {
 	_init_.Initialize()
 
@@ -734,7 +734,7 @@ func NewEventarcPipeline(scope constructs.Construct, id *string, config *Eventar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
 func NewEventarcPipeline_Override(e EventarcPipeline, scope constructs.Construct, id *string, config *EventarcPipelineConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package apihubapihubinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/apihubapihubinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/apihubapihubinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance}.
 type ApihubApiHubInstance interface {
 	cdktn.TerraformResource
 	ApiHubInstanceId() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_ApihubApiHubInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance} Resource.
 func NewApihubApiHubInstance(scope constructs.Construct, id *string, config *ApihubApiHubInstanceConfig) ApihubApiHubInstance {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewApihubApiHubInstance(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apihub_api_hub_instance google_apihub_api_hub_instance} Resource.
 func NewApihubApiHubInstance_Override(a ApihubApiHubInstance, scope constructs.Construct, id *string, config *ApihubApiHubInstanceConfig) {
 	_init_.Initialize()
 

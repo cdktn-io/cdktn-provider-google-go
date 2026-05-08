@@ -5,14 +5,14 @@ package computeinstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeinstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeinstanceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_instance_iam_member google_compute_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_instance_iam_member google_compute_instance_iam_member}.
 type ComputeInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ComputeInstanceIamMember) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_instance_iam_member google_compute_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_instance_iam_member google_compute_instance_iam_member} Resource.
 func NewComputeInstanceIamMember(scope constructs.Construct, id *string, config *ComputeInstanceIamMemberConfig) ComputeInstanceIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewComputeInstanceIamMember(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_instance_iam_member google_compute_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_instance_iam_member google_compute_instance_iam_member} Resource.
 func NewComputeInstanceIamMember_Override(c ComputeInstanceIamMember, scope constructs.Construct, id *string, config *ComputeInstanceIamMemberConfig) {
 	_init_.Initialize()
 

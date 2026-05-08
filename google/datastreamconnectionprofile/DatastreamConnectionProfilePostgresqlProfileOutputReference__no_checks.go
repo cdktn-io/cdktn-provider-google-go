@@ -47,6 +47,10 @@ func (d *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) 
 	return nil
 }
 
+func (d *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) validatePutSslConfigParameters(value *DatastreamConnectionProfilePostgresqlProfileSslConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatastreamConnectionProfilePostgresqlProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

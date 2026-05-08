@@ -5,9 +5,9 @@ package cloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/cloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/cloudrunv2job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type CloudRunV2JobTemplateTemplateVolumesGcsOutputReference interface {
 	Fqn() *string
 	InternalValue() *CloudRunV2JobTemplateTemplateVolumesGcs
 	SetInternalValue(val *CloudRunV2JobTemplateTemplateVolumesGcs)
+	MountOptions() *[]*string
+	SetMountOptions(val *[]*string)
+	MountOptionsInput() *[]*string
 	ReadOnly() interface{}
 	SetReadOnly(val interface{})
 	ReadOnlyInput() interface{}
@@ -70,6 +73,7 @@ type CloudRunV2JobTemplateTemplateVolumesGcsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetMountOptions()
 	ResetReadOnly()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -151,6 +155,26 @@ func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference) Inter
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference) MountOptions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mountOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference) MountOptionsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mountOptionsInput",
 		&returns,
 	)
 	return returns
@@ -264,6 +288,17 @@ func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference)SetInt
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference)SetMountOptions(val *[]*string) {
+	if err := j.validateSetMountOptionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mountOptions",
 		val,
 	)
 }
@@ -485,6 +520,14 @@ func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference) Inter
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference) ResetMountOptions() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMountOptions",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CloudRunV2JobTemplateTemplateVolumesGcsOutputReference) ResetReadOnly() {

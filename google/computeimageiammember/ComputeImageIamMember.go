@@ -5,14 +5,14 @@ package computeimageiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/computeimageiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeimageiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_image_iam_member google_compute_image_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_image_iam_member google_compute_image_iam_member}.
 type ComputeImageIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ComputeImageIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_image_iam_member google_compute_image_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_image_iam_member google_compute_image_iam_member} Resource.
 func NewComputeImageIamMember(scope constructs.Construct, id *string, config *ComputeImageIamMemberConfig) ComputeImageIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewComputeImageIamMember(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/compute_image_iam_member google_compute_image_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_image_iam_member google_compute_image_iam_member} Resource.
 func NewComputeImageIamMember_Override(c ComputeImageIamMember, scope constructs.Construct, id *string, config *ComputeImageIamMemberConfig) {
 	_init_.Initialize()
 

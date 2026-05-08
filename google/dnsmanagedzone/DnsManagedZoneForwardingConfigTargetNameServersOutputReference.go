@@ -5,9 +5,9 @@ package dnsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dnsmanagedzone/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dnsmanagedzone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,9 @@ type DnsManagedZoneForwardingConfigTargetNameServersOutputReference interface {
 	Ipv4Address() *string
 	SetIpv4Address(val *string)
 	Ipv4AddressInput() *string
+	Ipv6Address() *string
+	SetIpv6Address(val *string)
+	Ipv6AddressInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,6 +79,7 @@ type DnsManagedZoneForwardingConfigTargetNameServersOutputReference interface {
 	ResetDomainName()
 	ResetForwardingPath()
 	ResetIpv4Address()
+	ResetIpv6Address()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -201,6 +205,26 @@ func (j *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReference) Ipv6Address() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6Address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReference) Ipv6AddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6AddressInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -311,6 +335,17 @@ func (j *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReferenc
 	_jsii_.Set(
 		j,
 		"ipv4Address",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReference)SetIpv6Address(val *string) {
+	if err := j.validateSetIpv6AddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv6Address",
 		val,
 	)
 }
@@ -543,6 +578,14 @@ func (d *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReferenc
 	_jsii_.InvokeVoid(
 		d,
 		"resetIpv4Address",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DnsManagedZoneForwardingConfigTargetNameServersOutputReference) ResetIpv6Address() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetIpv6Address",
 		nil, // no parameters
 	)
 }

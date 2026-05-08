@@ -5,9 +5,9 @@ package sqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/sqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/sqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,7 @@ type SqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 	cdktn.ComplexObject
 	BackupRetentionSettings() SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference
 	BackupRetentionSettingsInput() *SqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings
+	BackupTier() *string
 	BinaryLogEnabled() interface{}
 	SetBinaryLogEnabled(val interface{})
 	BinaryLogEnabledInput() interface{}
@@ -122,6 +123,16 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference
 	_jsii_.Get(
 		j,
 		"backupRetentionSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsBackupConfigurationOutputReference) BackupTier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupTier",
 		&returns,
 	)
 	return returns

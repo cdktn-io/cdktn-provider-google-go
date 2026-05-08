@@ -79,6 +79,10 @@ func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_SpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference) validateSetTotalCpuUtilizationPercentParameters(val *float64) error {
+	return nil
+}
+
 func validateNewSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

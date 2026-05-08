@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputePacketMirroring) validateSetDescriptionParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputePacketMirroring) validateSetEnableParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputePacketMirroring) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -5,14 +5,17 @@ package dataplexdatascan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dataplexdatascan/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dataplexdatascan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	cdktn.ComplexObject
+	Attributes() *map[string]*string
+	SetAttributes(val *map[string]*string)
+	AttributesInput() *map[string]*string
 	Column() *string
 	SetColumn(val *string)
 	ColumnInput() *string
@@ -66,6 +69,8 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	SuspendedInput() interface{}
 	TableConditionExpectation() DataplexDatascanDataQualitySpecRulesTableConditionExpectationOutputReference
 	TableConditionExpectationInput() *DataplexDatascanDataQualitySpecRulesTableConditionExpectation
+	TemplateReference() DataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference
+	TemplateReferenceInput() *DataplexDatascanDataQualitySpecRulesTemplateReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -111,7 +116,9 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	PutSqlAssertion(value *DataplexDatascanDataQualitySpecRulesSqlAssertion)
 	PutStatisticRangeExpectation(value *DataplexDatascanDataQualitySpecRulesStatisticRangeExpectation)
 	PutTableConditionExpectation(value *DataplexDatascanDataQualitySpecRulesTableConditionExpectation)
+	PutTemplateReference(value *DataplexDatascanDataQualitySpecRulesTemplateReference)
 	PutUniquenessExpectation(value *DataplexDatascanDataQualitySpecRulesUniquenessExpectation)
+	ResetAttributes()
 	ResetColumn()
 	ResetDescription()
 	ResetIgnoreNull()
@@ -125,6 +132,7 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	ResetStatisticRangeExpectation()
 	ResetSuspended()
 	ResetTableConditionExpectation()
+	ResetTemplateReference()
 	ResetThreshold()
 	ResetUniquenessExpectation()
 	// Produce the Token's value at resolution time.
@@ -140,6 +148,26 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 // The jsii proxy struct for DataplexDatascanDataQualitySpecRulesOutputReference
 type jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) Attributes() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"attributes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) AttributesInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"attributesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) Column() *string {
@@ -472,6 +500,26 @@ func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) TableCon
 	return returns
 }
 
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) TemplateReference() DataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference {
+	var returns DataplexDatascanDataQualitySpecRulesTemplateReferenceOutputReference
+	_jsii_.Get(
+		j,
+		"templateReference",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) TemplateReferenceInput() *DataplexDatascanDataQualitySpecRulesTemplateReference {
+	var returns *DataplexDatascanDataQualitySpecRulesTemplateReference
+	_jsii_.Get(
+		j,
+		"templateReferenceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -557,6 +605,17 @@ func NewDataplexDatascanDataQualitySpecRulesOutputReference_Override(d DataplexD
 		"@cdktn/provider-google.dataplexDatascan.DataplexDatascanDataQualitySpecRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference)SetAttributes(val *map[string]*string) {
+	if err := j.validateSetAttributesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"attributes",
+		val,
 	)
 }
 
@@ -966,6 +1025,17 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) PutTable
 	)
 }
 
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) PutTemplateReference(value *DataplexDatascanDataQualitySpecRulesTemplateReference) {
+	if err := d.validatePutTemplateReferenceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTemplateReference",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) PutUniquenessExpectation(value *DataplexDatascanDataQualitySpecRulesUniquenessExpectation) {
 	if err := d.validatePutUniquenessExpectationParameters(value); err != nil {
 		panic(err)
@@ -974,6 +1044,14 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) PutUniqu
 		d,
 		"putUniquenessExpectation",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) ResetAttributes() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAttributes",
+		nil, // no parameters
 	)
 }
 
@@ -1077,6 +1155,14 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) ResetTab
 	_jsii_.InvokeVoid(
 		d,
 		"resetTableConditionExpectation",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) ResetTemplateReference() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTemplateReference",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package storagebucketiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/storagebucketiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/storagebucketiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_iam_policy google_storage_bucket_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_iam_policy google_storage_bucket_iam_policy}.
 type StorageBucketIamPolicy interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -71,6 +71,8 @@ type StorageBucketIamPolicy interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() StorageBucketIamPolicyTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -114,10 +116,12 @@ type StorageBucketIamPolicy interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutTimeouts(value *StorageBucketIamPolicyTimeouts)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -375,8 +379,28 @@ func (j *jsiiProxy_StorageBucketIamPolicy) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_StorageBucketIamPolicy) Timeouts() StorageBucketIamPolicyTimeoutsOutputReference {
+	var returns StorageBucketIamPolicyTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_iam_policy google_storage_bucket_iam_policy} Resource.
+func (j *jsiiProxy_StorageBucketIamPolicy) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_iam_policy google_storage_bucket_iam_policy} Resource.
 func NewStorageBucketIamPolicy(scope constructs.Construct, id *string, config *StorageBucketIamPolicyConfig) StorageBucketIamPolicy {
 	_init_.Initialize()
 
@@ -394,7 +418,7 @@ func NewStorageBucketIamPolicy(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/storage_bucket_iam_policy google_storage_bucket_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/storage_bucket_iam_policy google_storage_bucket_iam_policy} Resource.
 func NewStorageBucketIamPolicy_Override(s StorageBucketIamPolicy, scope constructs.Construct, id *string, config *StorageBucketIamPolicyConfig) {
 	_init_.Initialize()
 
@@ -859,6 +883,17 @@ func (s *jsiiProxy_StorageBucketIamPolicy) OverrideLogicalId(newLogicalId *strin
 	)
 }
 
+func (s *jsiiProxy_StorageBucketIamPolicy) PutTimeouts(value *StorageBucketIamPolicyTimeouts) {
+	if err := s.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_StorageBucketIamPolicy) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
@@ -871,6 +906,14 @@ func (s *jsiiProxy_StorageBucketIamPolicy) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBucketIamPolicy) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

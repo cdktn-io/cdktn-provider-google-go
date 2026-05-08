@@ -5,14 +5,14 @@ package vmwareengineexternaladdress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/vmwareengineexternaladdress/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/vmwareengineexternaladdress/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_external_address google_vmwareengine_external_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_external_address google_vmwareengine_external_address}.
 type VmwareengineExternalAddress interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -491,7 +491,7 @@ func (j *jsiiProxy_VmwareengineExternalAddress) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_external_address google_vmwareengine_external_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_external_address google_vmwareengine_external_address} Resource.
 func NewVmwareengineExternalAddress(scope constructs.Construct, id *string, config *VmwareengineExternalAddressConfig) VmwareengineExternalAddress {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewVmwareengineExternalAddress(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/vmwareengine_external_address google_vmwareengine_external_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/vmwareengine_external_address google_vmwareengine_external_address} Resource.
 func NewVmwareengineExternalAddress_Override(v VmwareengineExternalAddress, scope constructs.Construct, id *string, config *VmwareengineExternalAddressConfig) {
 	_init_.Initialize()
 

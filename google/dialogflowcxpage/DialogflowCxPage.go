@@ -5,14 +5,14 @@ package dialogflowcxpage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v18/dialogflowcxpage/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/dialogflowcxpage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dialogflow_cx_page google_dialogflow_cx_page}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_page google_dialogflow_cx_page}.
 type DialogflowCxPage interface {
 	cdktn.TerraformResource
 	AdvancedSettings() DialogflowCxPageAdvancedSettingsOutputReference
@@ -593,7 +593,7 @@ func (j *jsiiProxy_DialogflowCxPage) TransitionRoutesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dialogflow_cx_page google_dialogflow_cx_page} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_page google_dialogflow_cx_page} Resource.
 func NewDialogflowCxPage(scope constructs.Construct, id *string, config *DialogflowCxPageConfig) DialogflowCxPage {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewDialogflowCxPage(scope constructs.Construct, id *string, config *Dialogf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/6.50.0/docs/resources/dialogflow_cx_page google_dialogflow_cx_page} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_page google_dialogflow_cx_page} Resource.
 func NewDialogflowCxPage_Override(d DialogflowCxPage, scope constructs.Construct, id *string, config *DialogflowCxPageConfig) {
 	_init_.Initialize()
 
