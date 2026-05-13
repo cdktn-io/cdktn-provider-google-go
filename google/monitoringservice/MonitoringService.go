@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_service google_monitoring_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_service google_monitoring_service}.
 type MonitoringService interface {
 	cdktn.TerraformResource
 	BasicService() MonitoringServiceBasicServiceOutputReference
@@ -484,7 +484,7 @@ func (j *jsiiProxy_MonitoringService) UserLabelsInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_service google_monitoring_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_service google_monitoring_service} Resource.
 func NewMonitoringService(scope constructs.Construct, id *string, config *MonitoringServiceConfig) MonitoringService {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewMonitoringService(scope constructs.Construct, id *string, config *Monito
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/monitoring_service google_monitoring_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_service google_monitoring_service} Resource.
 func NewMonitoringService_Override(m MonitoringService, scope constructs.Construct, id *string, config *MonitoringServiceConfig) {
 	_init_.Initialize()
 

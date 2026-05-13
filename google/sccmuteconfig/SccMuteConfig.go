@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_mute_config google_scc_mute_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_mute_config google_scc_mute_config}.
 type SccMuteConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_SccMuteConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_mute_config google_scc_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_mute_config google_scc_mute_config} Resource.
 func NewSccMuteConfig(scope constructs.Construct, id *string, config *SccMuteConfigConfig) SccMuteConfig {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewSccMuteConfig(scope constructs.Construct, id *string, config *SccMuteCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/scc_mute_config google_scc_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_mute_config google_scc_mute_config} Resource.
 func NewSccMuteConfig_Override(s SccMuteConfig, scope constructs.Construct, id *string, config *SccMuteConfigConfig) {
 	_init_.Initialize()
 

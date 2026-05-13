@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/certificate_manager_certificate_map google_certificate_manager_certificate_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_certificate_map google_certificate_manager_certificate_map}.
 type CertificateManagerCertificateMap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_CertificateManagerCertificateMap) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/certificate_manager_certificate_map google_certificate_manager_certificate_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_certificate_map google_certificate_manager_certificate_map} Resource.
 func NewCertificateManagerCertificateMap(scope constructs.Construct, id *string, config *CertificateManagerCertificateMapConfig) CertificateManagerCertificateMap {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewCertificateManagerCertificateMap(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/certificate_manager_certificate_map google_certificate_manager_certificate_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_certificate_map google_certificate_manager_certificate_map} Resource.
 func NewCertificateManagerCertificateMap_Override(c CertificateManagerCertificateMap, scope constructs.Construct, id *string, config *CertificateManagerCertificateMapConfig) {
 	_init_.Initialize()
 

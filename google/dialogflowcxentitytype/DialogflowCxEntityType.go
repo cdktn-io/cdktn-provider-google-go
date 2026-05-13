@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_entity_type google_dialogflow_cx_entity_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_cx_entity_type google_dialogflow_cx_entity_type}.
 type DialogflowCxEntityType interface {
 	cdktn.TerraformResource
 	AutoExpansionMode() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DialogflowCxEntityType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
 func NewDialogflowCxEntityType(scope constructs.Construct, id *string, config *DialogflowCxEntityTypeConfig) DialogflowCxEntityType {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewDialogflowCxEntityType(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
 func NewDialogflowCxEntityType_Override(d DialogflowCxEntityType, scope constructs.Construct, id *string, config *DialogflowCxEntityTypeConfig) {
 	_init_.Initialize()
 

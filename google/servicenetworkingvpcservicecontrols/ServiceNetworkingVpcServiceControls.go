@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_vpc_service_controls google_service_networking_vpc_service_controls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_networking_vpc_service_controls google_service_networking_vpc_service_controls}.
 type ServiceNetworkingVpcServiceControls interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ServiceNetworkingVpcServiceControls) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_vpc_service_controls google_service_networking_vpc_service_controls} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_networking_vpc_service_controls google_service_networking_vpc_service_controls} Resource.
 func NewServiceNetworkingVpcServiceControls(scope constructs.Construct, id *string, config *ServiceNetworkingVpcServiceControlsConfig) ServiceNetworkingVpcServiceControls {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewServiceNetworkingVpcServiceControls(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_vpc_service_controls google_service_networking_vpc_service_controls} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_networking_vpc_service_controls google_service_networking_vpc_service_controls} Resource.
 func NewServiceNetworkingVpcServiceControls_Override(s ServiceNetworkingVpcServiceControls, scope constructs.Construct, id *string, config *ServiceNetworkingVpcServiceControlsConfig) {
 	_init_.Initialize()
 

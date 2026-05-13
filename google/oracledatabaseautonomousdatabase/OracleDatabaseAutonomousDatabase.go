@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database}.
 type OracleDatabaseAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -754,7 +754,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabase) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *string, config *OracleDatabaseAutonomousDatabaseConfig) OracleDatabaseAutonomousDatabase {
 	_init_.Initialize()
 
@@ -772,7 +772,7 @@ func NewOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewOracleDatabaseAutonomousDatabase_Override(o OracleDatabaseAutonomousDatabase, scope constructs.Construct, id *string, config *OracleDatabaseAutonomousDatabaseConfig) {
 	_init_.Initialize()
 

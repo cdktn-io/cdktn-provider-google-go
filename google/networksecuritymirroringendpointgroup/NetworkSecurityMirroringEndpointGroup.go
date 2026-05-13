@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
 type NetworkSecurityMirroringEndpointGroup interface {
 	cdktn.TerraformResource
 	Associations() NetworkSecurityMirroringEndpointGroupAssociationsList
@@ -632,7 +632,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointGroupConfig) NetworkSecurityMirroringEndpointGroup {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewNetworkSecurityMirroringEndpointGroup_Override(n NetworkSecurityMirroringEndpointGroup, scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointGroupConfig) {
 	_init_.Initialize()
 

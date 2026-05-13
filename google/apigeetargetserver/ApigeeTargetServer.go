@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_target_server google_apigee_target_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_target_server google_apigee_target_server}.
 type ApigeeTargetServer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ApigeeTargetServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_target_server google_apigee_target_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_target_server google_apigee_target_server} Resource.
 func NewApigeeTargetServer(scope constructs.Construct, id *string, config *ApigeeTargetServerConfig) ApigeeTargetServer {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewApigeeTargetServer(scope constructs.Construct, id *string, config *Apige
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_target_server google_apigee_target_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_target_server google_apigee_target_server} Resource.
 func NewApigeeTargetServer_Override(a ApigeeTargetServer, scope constructs.Construct, id *string, config *ApigeeTargetServerConfig) {
 	_init_.Initialize()
 

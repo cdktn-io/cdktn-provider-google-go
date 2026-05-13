@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_url_lists google_network_security_url_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_url_lists google_network_security_url_lists}.
 type NetworkSecurityUrlLists interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_NetworkSecurityUrlLists) ValuesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
 func NewNetworkSecurityUrlLists(scope constructs.Construct, id *string, config *NetworkSecurityUrlListsConfig) NetworkSecurityUrlLists {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewNetworkSecurityUrlLists(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
 func NewNetworkSecurityUrlLists_Override(n NetworkSecurityUrlLists, scope constructs.Construct, id *string, config *NetworkSecurityUrlListsConfig) {
 	_init_.Initialize()
 

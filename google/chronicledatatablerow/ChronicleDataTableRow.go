@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row}.
 type ChronicleDataTableRow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_ChronicleDataTableRow) ValuesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
 func NewChronicleDataTableRow(scope constructs.Construct, id *string, config *ChronicleDataTableRowConfig) ChronicleDataTableRow {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewChronicleDataTableRow(scope constructs.Construct, id *string, config *Ch
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
 func NewChronicleDataTableRow_Override(c ChronicleDataTableRow, scope constructs.Construct, id *string, config *ChronicleDataTableRowConfig) {
 	_init_.Initialize()
 

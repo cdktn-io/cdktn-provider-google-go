@@ -87,6 +87,10 @@ func (c *jsiiProxy_ComputeRegionDisk) validatePutGuestOsFeaturesParameters(value
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionDisk) validatePutSourceImageEncryptionKeyParameters(value *ComputeRegionDiskSourceImageEncryptionKey) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionDisk) validatePutSourceSnapshotEncryptionKeyParameters(value *ComputeRegionDiskSourceSnapshotEncryptionKey) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (j *jsiiProxy_ComputeRegionDisk) validateSetDescriptionParameters(val *stri
 }
 
 func (j *jsiiProxy_ComputeRegionDisk) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDisk) validateSetImageParameters(val *string) error {
 	return nil
 }
 

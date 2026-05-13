@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/contact_center_insights_assessment_rule google_contact_center_insights_assessment_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_assessment_rule google_contact_center_insights_assessment_rule}.
 type ContactCenterInsightsAssessmentRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -543,7 +543,7 @@ func (j *jsiiProxy_ContactCenterInsightsAssessmentRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/contact_center_insights_assessment_rule google_contact_center_insights_assessment_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_assessment_rule google_contact_center_insights_assessment_rule} Resource.
 func NewContactCenterInsightsAssessmentRule(scope constructs.Construct, id *string, config *ContactCenterInsightsAssessmentRuleConfig) ContactCenterInsightsAssessmentRule {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewContactCenterInsightsAssessmentRule(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/contact_center_insights_assessment_rule google_contact_center_insights_assessment_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_assessment_rule google_contact_center_insights_assessment_rule} Resource.
 func NewContactCenterInsightsAssessmentRule_Override(c ContactCenterInsightsAssessmentRule, scope constructs.Construct, id *string, config *ContactCenterInsightsAssessmentRuleConfig) {
 	_init_.Initialize()
 

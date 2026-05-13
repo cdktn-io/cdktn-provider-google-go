@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association}.
 type NetworkServicesMulticastProducerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -584,7 +584,7 @@ func (j *jsiiProxy_NetworkServicesMulticastProducerAssociation) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
 func NewNetworkServicesMulticastProducerAssociation(scope constructs.Construct, id *string, config *NetworkServicesMulticastProducerAssociationConfig) NetworkServicesMulticastProducerAssociation {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewNetworkServicesMulticastProducerAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
 func NewNetworkServicesMulticastProducerAssociation_Override(n NetworkServicesMulticastProducerAssociation, scope constructs.Construct, id *string, config *NetworkServicesMulticastProducerAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
 type ContactCenterInsightsAutoLabelingRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -591,7 +591,7 @@ func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewContactCenterInsightsAutoLabelingRule(scope constructs.Construct, id *string, config *ContactCenterInsightsAutoLabelingRuleConfig) ContactCenterInsightsAutoLabelingRule {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewContactCenterInsightsAutoLabelingRule(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewContactCenterInsightsAutoLabelingRule_Override(c ContactCenterInsightsAutoLabelingRule, scope constructs.Construct, id *string, config *ContactCenterInsightsAutoLabelingRuleConfig) {
 	_init_.Initialize()
 

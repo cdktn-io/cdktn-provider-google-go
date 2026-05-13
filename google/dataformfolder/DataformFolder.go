@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataform_folder google_dataform_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_folder google_dataform_folder}.
 type DataformFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataformFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_folder google_dataform_folder} Resource.
 func NewDataformFolder(scope constructs.Construct, id *string, config *DataformFolderConfig) DataformFolder {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDataformFolder(scope constructs.Construct, id *string, config *DataformF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_folder google_dataform_folder} Resource.
 func NewDataformFolder_Override(d DataformFolder, scope constructs.Construct, id *string, config *DataformFolderConfig) {
 	_init_.Initialize()
 

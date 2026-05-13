@@ -25,6 +25,8 @@ type RecaptchaEnterpriseKeyWebSettingsOutputReference interface {
 	ChallengeSecurityPreference() *string
 	SetChallengeSecurityPreference(val *string)
 	ChallengeSecurityPreferenceInput() *string
+	ChallengeSettings() RecaptchaEnterpriseKeyWebSettingsChallengeSettingsOutputReference
+	ChallengeSettingsInput() *RecaptchaEnterpriseKeyWebSettingsChallengeSettings
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,10 +81,12 @@ type RecaptchaEnterpriseKeyWebSettingsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutChallengeSettings(value *RecaptchaEnterpriseKeyWebSettingsChallengeSettings)
 	ResetAllowAllDomains()
 	ResetAllowAmpTraffic()
 	ResetAllowedDomains()
 	ResetChallengeSecurityPreference()
+	ResetChallengeSettings()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -173,6 +177,26 @@ func (j *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) ChallengeSe
 	_jsii_.Get(
 		j,
 		"challengeSecurityPreferenceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) ChallengeSettings() RecaptchaEnterpriseKeyWebSettingsChallengeSettingsOutputReference {
+	var returns RecaptchaEnterpriseKeyWebSettingsChallengeSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"challengeSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) ChallengeSettingsInput() *RecaptchaEnterpriseKeyWebSettingsChallengeSettings {
+	var returns *RecaptchaEnterpriseKeyWebSettingsChallengeSettings
+	_jsii_.Get(
+		j,
+		"challengeSettingsInput",
 		&returns,
 	)
 	return returns
@@ -592,6 +616,17 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) Interpolati
 	return returns
 }
 
+func (r *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) PutChallengeSettings(value *RecaptchaEnterpriseKeyWebSettingsChallengeSettings) {
+	if err := r.validatePutChallengeSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putChallengeSettings",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) ResetAllowAllDomains() {
 	_jsii_.InvokeVoid(
 		r,
@@ -620,6 +655,14 @@ func (r *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) ResetChalle
 	_jsii_.InvokeVoid(
 		r,
 		"resetChallengeSecurityPreference",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RecaptchaEnterpriseKeyWebSettingsOutputReference) ResetChallengeSettings() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetChallengeSettings",
 		nil, // no parameters
 	)
 }

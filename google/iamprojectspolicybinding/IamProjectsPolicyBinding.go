@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_projects_policy_binding google_iam_projects_policy_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_projects_policy_binding google_iam_projects_policy_binding}.
 type IamProjectsPolicyBinding interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -632,7 +632,7 @@ func (j *jsiiProxy_IamProjectsPolicyBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_projects_policy_binding google_iam_projects_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_projects_policy_binding google_iam_projects_policy_binding} Resource.
 func NewIamProjectsPolicyBinding(scope constructs.Construct, id *string, config *IamProjectsPolicyBindingConfig) IamProjectsPolicyBinding {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewIamProjectsPolicyBinding(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/iam_projects_policy_binding google_iam_projects_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_projects_policy_binding google_iam_projects_policy_binding} Resource.
 func NewIamProjectsPolicyBinding_Override(i IamProjectsPolicyBinding, scope constructs.Construct, id *string, config *IamProjectsPolicyBindingConfig) {
 	_init_.Initialize()
 

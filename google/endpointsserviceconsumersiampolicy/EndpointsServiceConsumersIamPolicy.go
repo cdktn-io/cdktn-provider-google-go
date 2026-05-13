@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/endpoints_service_consumers_iam_policy google_endpoints_service_consumers_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/endpoints_service_consumers_iam_policy google_endpoints_service_consumers_iam_policy}.
 type EndpointsServiceConsumersIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_EndpointsServiceConsumersIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/endpoints_service_consumers_iam_policy google_endpoints_service_consumers_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/endpoints_service_consumers_iam_policy google_endpoints_service_consumers_iam_policy} Resource.
 func NewEndpointsServiceConsumersIamPolicy(scope constructs.Construct, id *string, config *EndpointsServiceConsumersIamPolicyConfig) EndpointsServiceConsumersIamPolicy {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewEndpointsServiceConsumersIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/endpoints_service_consumers_iam_policy google_endpoints_service_consumers_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/endpoints_service_consumers_iam_policy google_endpoints_service_consumers_iam_policy} Resource.
 func NewEndpointsServiceConsumersIamPolicy_Override(e EndpointsServiceConsumersIamPolicy, scope constructs.Construct, id *string, config *EndpointsServiceConsumersIamPolicyConfig) {
 	_init_.Initialize()
 

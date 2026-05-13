@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataproc_job google_dataproc_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_job google_dataproc_job}.
 type DataprocJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -757,7 +757,7 @@ func (j *jsiiProxy_DataprocJob) WaitForCompletionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataproc_job google_dataproc_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_job google_dataproc_job} Resource.
 func NewDataprocJob(scope constructs.Construct, id *string, config *DataprocJobConfig) DataprocJob {
 	_init_.Initialize()
 
@@ -775,7 +775,7 @@ func NewDataprocJob(scope constructs.Construct, id *string, config *DataprocJobC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dataproc_job google_dataproc_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_job google_dataproc_job} Resource.
 func NewDataprocJob_Override(d DataprocJob, scope constructs.Construct, id *string, config *DataprocJobConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_lineage_config google_data_lineage_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config google_data_lineage_config}.
 type DataLineageConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataLineageConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_lineage_config google_data_lineage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config google_data_lineage_config} Resource.
 func NewDataLineageConfig(scope constructs.Construct, id *string, config *DataLineageConfigConfig) DataLineageConfig {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewDataLineageConfig(scope constructs.Construct, id *string, config *DataLi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/data_lineage_config google_data_lineage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config google_data_lineage_config} Resource.
 func NewDataLineageConfig_Override(d DataLineageConfig, scope constructs.Construct, id *string, config *DataLineageConfigConfig) {
 	_init_.Initialize()
 

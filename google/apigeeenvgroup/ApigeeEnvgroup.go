@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_envgroup google_apigee_envgroup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_envgroup google_apigee_envgroup}.
 type ApigeeEnvgroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ApigeeEnvgroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_envgroup google_apigee_envgroup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_envgroup google_apigee_envgroup} Resource.
 func NewApigeeEnvgroup(scope constructs.Construct, id *string, config *ApigeeEnvgroupConfig) ApigeeEnvgroup {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewApigeeEnvgroup(scope constructs.Construct, id *string, config *ApigeeEnv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_envgroup google_apigee_envgroup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_envgroup google_apigee_envgroup} Resource.
 func NewApigeeEnvgroup_Override(a ApigeeEnvgroup, scope constructs.Construct, id *string, config *ApigeeEnvgroupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding}.
 type GeminiDataSharingWithGoogleSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GeminiDataSharingWithGoogleSettingBinding) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
 func NewGeminiDataSharingWithGoogleSettingBinding(scope constructs.Construct, id *string, config *GeminiDataSharingWithGoogleSettingBindingConfig) GeminiDataSharingWithGoogleSettingBinding {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGeminiDataSharingWithGoogleSettingBinding(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
 func NewGeminiDataSharingWithGoogleSettingBinding_Override(g GeminiDataSharingWithGoogleSettingBinding, scope constructs.Construct, id *string, config *GeminiDataSharingWithGoogleSettingBindingConfig) {
 	_init_.Initialize()
 

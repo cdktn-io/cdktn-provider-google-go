@@ -75,6 +75,10 @@ func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) validateOverrideLogicalIdP
 	return nil
 }
 
+func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) validatePutAdvancedOptionsConfigParameters(value *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) validatePutTimeoutsParameters(value *ComputeOrganizationSecurityPolicyTimeouts) error {
 	return nil
 }

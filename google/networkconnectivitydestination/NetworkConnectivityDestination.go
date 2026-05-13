@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_connectivity_destination google_network_connectivity_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_destination google_network_connectivity_destination}.
 type NetworkConnectivityDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -607,7 +607,7 @@ func (j *jsiiProxy_NetworkConnectivityDestination) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_connectivity_destination google_network_connectivity_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_destination google_network_connectivity_destination} Resource.
 func NewNetworkConnectivityDestination(scope constructs.Construct, id *string, config *NetworkConnectivityDestinationConfig) NetworkConnectivityDestination {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewNetworkConnectivityDestination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_connectivity_destination google_network_connectivity_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_destination google_network_connectivity_destination} Resource.
 func NewNetworkConnectivityDestination_Override(n NetworkConnectivityDestination, scope constructs.Construct, id *string, config *NetworkConnectivityDestinationConfig) {
 	_init_.Initialize()
 

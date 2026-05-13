@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster}.
 type WorkstationsWorkstationCluster interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -714,7 +714,7 @@ func (j *jsiiProxy_WorkstationsWorkstationCluster) WorkstationClusterIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
 func NewWorkstationsWorkstationCluster(scope constructs.Construct, id *string, config *WorkstationsWorkstationClusterConfig) WorkstationsWorkstationCluster {
 	_init_.Initialize()
 
@@ -732,7 +732,7 @@ func NewWorkstationsWorkstationCluster(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
 func NewWorkstationsWorkstationCluster_Override(w WorkstationsWorkstationCluster, scope constructs.Construct, id *string, config *WorkstationsWorkstationClusterConfig) {
 	_init_.Initialize()
 

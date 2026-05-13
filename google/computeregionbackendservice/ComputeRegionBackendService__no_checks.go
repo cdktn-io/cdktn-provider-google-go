@@ -87,6 +87,10 @@ func (c *jsiiProxy_ComputeRegionBackendService) validatePutCircuitBreakersParame
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionBackendService) validatePutConnectionTrackingPolicyParameters(value *ComputeRegionBackendServiceConnectionTrackingPolicy) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionBackendService) validatePutConsistentHashParameters(value *ComputeRegionBackendServiceConsistentHash) error {
 	return nil
 }

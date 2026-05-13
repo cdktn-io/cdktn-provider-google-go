@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_backend_service google_compute_region_backend_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_backend_service google_compute_region_backend_service}.
 type ComputeRegionBackendService interface {
 	cdktn.TerraformResource
 	AffinityCookieTtlSec() *float64
@@ -33,6 +33,8 @@ type ComputeRegionBackendService interface {
 	ConnectionDrainingTimeoutSec() *float64
 	SetConnectionDrainingTimeoutSec(val *float64)
 	ConnectionDrainingTimeoutSecInput() *float64
+	ConnectionTrackingPolicy() ComputeRegionBackendServiceConnectionTrackingPolicyOutputReference
+	ConnectionTrackingPolicyInput() *ComputeRegionBackendServiceConnectionTrackingPolicy
 	ConsistentHash() ComputeRegionBackendServiceConsistentHashOutputReference
 	ConsistentHashInput() *ComputeRegionBackendServiceConsistentHash
 	// Experimental.
@@ -195,6 +197,7 @@ type ComputeRegionBackendService interface {
 	PutBackend(value interface{})
 	PutCdnPolicy(value *ComputeRegionBackendServiceCdnPolicy)
 	PutCircuitBreakers(value *ComputeRegionBackendServiceCircuitBreakers)
+	PutConnectionTrackingPolicy(value *ComputeRegionBackendServiceConnectionTrackingPolicy)
 	PutConsistentHash(value *ComputeRegionBackendServiceConsistentHash)
 	PutCustomMetrics(value interface{})
 	PutFailoverPolicy(value *ComputeRegionBackendServiceFailoverPolicy)
@@ -212,6 +215,7 @@ type ComputeRegionBackendService interface {
 	ResetCdnPolicy()
 	ResetCircuitBreakers()
 	ResetConnectionDrainingTimeoutSec()
+	ResetConnectionTrackingPolicy()
 	ResetConsistentHash()
 	ResetCustomMetrics()
 	ResetDescription()
@@ -384,6 +388,26 @@ func (j *jsiiProxy_ComputeRegionBackendService) ConnectionDrainingTimeoutSecInpu
 	_jsii_.Get(
 		j,
 		"connectionDrainingTimeoutSecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) ConnectionTrackingPolicy() ComputeRegionBackendServiceConnectionTrackingPolicyOutputReference {
+	var returns ComputeRegionBackendServiceConnectionTrackingPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"connectionTrackingPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) ConnectionTrackingPolicyInput() *ComputeRegionBackendServiceConnectionTrackingPolicy {
+	var returns *ComputeRegionBackendServiceConnectionTrackingPolicy
+	_jsii_.Get(
+		j,
+		"connectionTrackingPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1130,7 +1154,7 @@ func (j *jsiiProxy_ComputeRegionBackendService) TlsSettingsInput() *ComputeRegio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
 func NewComputeRegionBackendService(scope constructs.Construct, id *string, config *ComputeRegionBackendServiceConfig) ComputeRegionBackendService {
 	_init_.Initialize()
 
@@ -1148,7 +1172,7 @@ func NewComputeRegionBackendService(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
 func NewComputeRegionBackendService_Override(c ComputeRegionBackendService, scope constructs.Construct, id *string, config *ComputeRegionBackendServiceConfig) {
 	_init_.Initialize()
 
@@ -1811,6 +1835,17 @@ func (c *jsiiProxy_ComputeRegionBackendService) PutCircuitBreakers(value *Comput
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionBackendService) PutConnectionTrackingPolicy(value *ComputeRegionBackendServiceConnectionTrackingPolicy) {
+	if err := c.validatePutConnectionTrackingPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putConnectionTrackingPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionBackendService) PutConsistentHash(value *ComputeRegionBackendServiceConsistentHash) {
 	if err := c.validatePutConsistentHashParameters(value); err != nil {
 		panic(err)
@@ -1979,6 +2014,14 @@ func (c *jsiiProxy_ComputeRegionBackendService) ResetConnectionDrainingTimeoutSe
 	_jsii_.InvokeVoid(
 		c,
 		"resetConnectionDrainingTimeoutSec",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) ResetConnectionTrackingPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetConnectionTrackingPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment}.
 type ApigeeEnvironmentApiRevisionDeployment interface {
 	cdktn.TerraformResource
 	Api() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_ApigeeEnvironmentApiRevisionDeployment) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
 func NewApigeeEnvironmentApiRevisionDeployment(scope constructs.Construct, id *string, config *ApigeeEnvironmentApiRevisionDeploymentConfig) ApigeeEnvironmentApiRevisionDeployment {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewApigeeEnvironmentApiRevisionDeployment(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
 func NewApigeeEnvironmentApiRevisionDeployment_Override(a ApigeeEnvironmentApiRevisionDeployment, scope constructs.Construct, id *string, config *ApigeeEnvironmentApiRevisionDeploymentConfig) {
 	_init_.Initialize()
 

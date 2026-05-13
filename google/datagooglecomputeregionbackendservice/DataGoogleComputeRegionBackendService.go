@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_region_backend_service google_compute_region_backend_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_region_backend_service google_compute_region_backend_service}.
 type DataGoogleComputeRegionBackendService interface {
 	cdktn.TerraformDataSource
 	AffinityCookieTtlSec() *float64
@@ -22,6 +22,7 @@ type DataGoogleComputeRegionBackendService interface {
 	CdnPolicy() DataGoogleComputeRegionBackendServiceCdnPolicyList
 	CircuitBreakers() DataGoogleComputeRegionBackendServiceCircuitBreakersList
 	ConnectionDrainingTimeoutSec() *float64
+	ConnectionTrackingPolicy() DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList
 	ConsistentHash() DataGoogleComputeRegionBackendServiceConsistentHashList
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -211,6 +212,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendService) ConnectionDrainingTime
 	_jsii_.Get(
 		j,
 		"connectionDrainingTimeoutSec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionBackendService) ConnectionTrackingPolicy() DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList {
+	var returns DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList
+	_jsii_.Get(
+		j,
+		"connectionTrackingPolicy",
 		&returns,
 	)
 	return returns
@@ -697,7 +708,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendService) TlsSettings() DataGoog
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_region_backend_service google_compute_region_backend_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_region_backend_service google_compute_region_backend_service} Data Source.
 func NewDataGoogleComputeRegionBackendService(scope constructs.Construct, id *string, config *DataGoogleComputeRegionBackendServiceConfig) DataGoogleComputeRegionBackendService {
 	_init_.Initialize()
 
@@ -715,7 +726,7 @@ func NewDataGoogleComputeRegionBackendService(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_region_backend_service google_compute_region_backend_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_region_backend_service google_compute_region_backend_service} Data Source.
 func NewDataGoogleComputeRegionBackendService_Override(d DataGoogleComputeRegionBackendService, scope constructs.Construct, id *string, config *DataGoogleComputeRegionBackendServiceConfig) {
 	_init_.Initialize()
 

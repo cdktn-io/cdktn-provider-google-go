@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/ces_toolset google_ces_toolset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset google_ces_toolset}.
 type CesToolset interface {
 	cdktn.TerraformResource
 	App() *string
@@ -600,7 +600,7 @@ func (j *jsiiProxy_CesToolset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetConfig) CesToolset {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset_Override(c CesToolset, scope constructs.Construct, id *string, config *CesToolsetConfig) {
 	_init_.Initialize()
 

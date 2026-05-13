@@ -12,11 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_address google_compute_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_address google_compute_address}.
 type ComputeAddress interface {
 	cdktn.TerraformResource
 	Address() *string
 	SetAddress(val *string)
+	AddressId() *string
 	AddressInput() *string
 	AddressType() *string
 	SetAddressType(val *string)
@@ -212,6 +213,16 @@ func (j *jsiiProxy_ComputeAddress) Address() *string {
 	_jsii_.Get(
 		j,
 		"address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeAddress) AddressId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"addressId",
 		&returns,
 	)
 	return returns
@@ -768,7 +779,7 @@ func (j *jsiiProxy_ComputeAddress) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_address google_compute_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_address google_compute_address} Resource.
 func NewComputeAddress(scope constructs.Construct, id *string, config *ComputeAddressConfig) ComputeAddress {
 	_init_.Initialize()
 
@@ -786,7 +797,7 @@ func NewComputeAddress(scope constructs.Construct, id *string, config *ComputeAd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_address google_compute_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_address google_compute_address} Resource.
 func NewComputeAddress_Override(c ComputeAddress, scope constructs.Construct, id *string, config *ComputeAddressConfig) {
 	_init_.Initialize()
 

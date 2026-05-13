@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_access_approval_settings google_project_access_approval_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_access_approval_settings google_project_access_approval_settings}.
 type ProjectAccessApprovalSettings interface {
 	cdktn.TerraformResource
 	ActiveKeyVersion() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_ProjectAccessApprovalSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_access_approval_settings google_project_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_access_approval_settings google_project_access_approval_settings} Resource.
 func NewProjectAccessApprovalSettings(scope constructs.Construct, id *string, config *ProjectAccessApprovalSettingsConfig) ProjectAccessApprovalSettings {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewProjectAccessApprovalSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/project_access_approval_settings google_project_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_access_approval_settings google_project_access_approval_settings} Resource.
 func NewProjectAccessApprovalSettings_Override(p ProjectAccessApprovalSettings, scope constructs.Construct, id *string, config *ProjectAccessApprovalSettingsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_region_disk google_compute_region_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_region_disk google_compute_region_disk}.
 type DataGoogleComputeRegionDisk interface {
 	cdktn.TerraformDataSource
 	AccessMode() *string
@@ -48,6 +48,7 @@ type DataGoogleComputeRegionDisk interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Image() *string
 	LabelFingerprint() *string
 	Labels() cdktn.StringMap
 	LastAttachTimestamp() *string
@@ -83,6 +84,8 @@ type DataGoogleComputeRegionDisk interface {
 	Snapshot() *string
 	SourceDisk() *string
 	SourceDiskId() *string
+	SourceImageEncryptionKey() DataGoogleComputeRegionDiskSourceImageEncryptionKeyList
+	SourceImageId() *string
 	SourceSnapshotEncryptionKey() DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyList
 	SourceSnapshotId() *string
 	// Experimental.
@@ -343,6 +346,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionDisk) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionDisk) Image() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"image",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionDisk) LabelFingerprint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -583,6 +596,26 @@ func (j *jsiiProxy_DataGoogleComputeRegionDisk) SourceDiskId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionDisk) SourceImageEncryptionKey() DataGoogleComputeRegionDiskSourceImageEncryptionKeyList {
+	var returns DataGoogleComputeRegionDiskSourceImageEncryptionKeyList
+	_jsii_.Get(
+		j,
+		"sourceImageEncryptionKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionDisk) SourceImageId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceImageId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionDisk) SourceSnapshotEncryptionKey() DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyList {
 	var returns DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyList
 	_jsii_.Get(
@@ -664,7 +697,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionDisk) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
 func NewDataGoogleComputeRegionDisk(scope constructs.Construct, id *string, config *DataGoogleComputeRegionDiskConfig) DataGoogleComputeRegionDisk {
 	_init_.Initialize()
 
@@ -682,7 +715,7 @@ func NewDataGoogleComputeRegionDisk(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
 func NewDataGoogleComputeRegionDisk_Override(d DataGoogleComputeRegionDisk, scope constructs.Construct, id *string, config *DataGoogleComputeRegionDiskConfig) {
 	_init_.Initialize()
 

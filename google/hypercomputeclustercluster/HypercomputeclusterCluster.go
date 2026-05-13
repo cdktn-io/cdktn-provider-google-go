@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster}.
 type HypercomputeclusterCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -623,7 +623,7 @@ func (j *jsiiProxy_HypercomputeclusterCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewHypercomputeclusterCluster(scope constructs.Construct, id *string, config *HypercomputeclusterClusterConfig) HypercomputeclusterCluster {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewHypercomputeclusterCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewHypercomputeclusterCluster_Override(h HypercomputeclusterCluster, scope constructs.Construct, id *string, config *HypercomputeclusterClusterConfig) {
 	_init_.Initialize()
 

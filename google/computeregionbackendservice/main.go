@@ -28,6 +28,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "connectionDrainingTimeoutSec", GoGetter: "ConnectionDrainingTimeoutSec"},
 			_jsii_.MemberProperty{JsiiProperty: "connectionDrainingTimeoutSecInput", GoGetter: "ConnectionDrainingTimeoutSecInput"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionTrackingPolicy", GoGetter: "ConnectionTrackingPolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionTrackingPolicyInput", GoGetter: "ConnectionTrackingPolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "consistentHash", GoGetter: "ConsistentHash"},
 			_jsii_.MemberProperty{JsiiProperty: "consistentHashInput", GoGetter: "ConsistentHashInput"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -102,6 +104,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putBackend", GoMethod: "PutBackend"},
 			_jsii_.MemberMethod{JsiiMethod: "putCdnPolicy", GoMethod: "PutCdnPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putCircuitBreakers", GoMethod: "PutCircuitBreakers"},
+			_jsii_.MemberMethod{JsiiMethod: "putConnectionTrackingPolicy", GoMethod: "PutConnectionTrackingPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putConsistentHash", GoMethod: "PutConsistentHash"},
 			_jsii_.MemberMethod{JsiiMethod: "putCustomMetrics", GoMethod: "PutCustomMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putFailoverPolicy", GoMethod: "PutFailoverPolicy"},
@@ -122,6 +125,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetCdnPolicy", GoMethod: "ResetCdnPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCircuitBreakers", GoMethod: "ResetCircuitBreakers"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConnectionDrainingTimeoutSec", GoMethod: "ResetConnectionDrainingTimeoutSec"},
+			_jsii_.MemberMethod{JsiiMethod: "resetConnectionTrackingPolicy", GoMethod: "ResetConnectionTrackingPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConsistentHash", GoMethod: "ResetConsistentHash"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomMetrics", GoMethod: "ResetCustomMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
@@ -576,6 +580,54 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.computeRegionBackendService.ComputeRegionBackendServiceConfig",
 		reflect.TypeOf((*ComputeRegionBackendServiceConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.computeRegionBackendService.ComputeRegionBackendServiceConnectionTrackingPolicy",
+		reflect.TypeOf((*ComputeRegionBackendServiceConnectionTrackingPolicy)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.computeRegionBackendService.ComputeRegionBackendServiceConnectionTrackingPolicyOutputReference",
+		reflect.TypeOf((*ComputeRegionBackendServiceConnectionTrackingPolicyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionPersistenceOnUnhealthyBackends", GoGetter: "ConnectionPersistenceOnUnhealthyBackends"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionPersistenceOnUnhealthyBackendsInput", GoGetter: "ConnectionPersistenceOnUnhealthyBackendsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enableStrongAffinity", GoGetter: "EnableStrongAffinity"},
+			_jsii_.MemberProperty{JsiiProperty: "enableStrongAffinityInput", GoGetter: "EnableStrongAffinityInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "idleTimeoutSec", GoGetter: "IdleTimeoutSec"},
+			_jsii_.MemberProperty{JsiiProperty: "idleTimeoutSecInput", GoGetter: "IdleTimeoutSecInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetConnectionPersistenceOnUnhealthyBackends", GoMethod: "ResetConnectionPersistenceOnUnhealthyBackends"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnableStrongAffinity", GoMethod: "ResetEnableStrongAffinity"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdleTimeoutSec", GoMethod: "ResetIdleTimeoutSec"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTrackingMode", GoMethod: "ResetTrackingMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "trackingMode", GoGetter: "TrackingMode"},
+			_jsii_.MemberProperty{JsiiProperty: "trackingModeInput", GoGetter: "TrackingModeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ComputeRegionBackendServiceConnectionTrackingPolicyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.computeRegionBackendService.ComputeRegionBackendServiceConsistentHash",

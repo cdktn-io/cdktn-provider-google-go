@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_target_http_proxy google_compute_region_target_http_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_target_http_proxy google_compute_region_target_http_proxy}.
 type ComputeRegionTargetHttpProxy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_ComputeRegionTargetHttpProxy) UrlMapInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_target_http_proxy google_compute_region_target_http_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_target_http_proxy google_compute_region_target_http_proxy} Resource.
 func NewComputeRegionTargetHttpProxy(scope constructs.Construct, id *string, config *ComputeRegionTargetHttpProxyConfig) ComputeRegionTargetHttpProxy {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewComputeRegionTargetHttpProxy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_target_http_proxy google_compute_region_target_http_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_target_http_proxy google_compute_region_target_http_proxy} Resource.
 func NewComputeRegionTargetHttpProxy_Override(c ComputeRegionTargetHttpProxy, scope constructs.Construct, id *string, config *ComputeRegionTargetHttpProxyConfig) {
 	_init_.Initialize()
 

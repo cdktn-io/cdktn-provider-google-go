@@ -47,6 +47,10 @@ func (w *jsiiProxy_WorkstationsWorkstationConfigPersistentDirectoriesOutputRefer
 	return nil
 }
 
+func (w *jsiiProxy_WorkstationsWorkstationConfigPersistentDirectoriesOutputReference) validatePutGceHdParameters(value *WorkstationsWorkstationConfigPersistentDirectoriesGceHd) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkstationsWorkstationConfigPersistentDirectoriesOutputReference) validatePutGcePdParameters(value *WorkstationsWorkstationConfigPersistentDirectoriesGcePd) error {
 	return nil
 }

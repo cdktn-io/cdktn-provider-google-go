@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_disk google_compute_region_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_disk google_compute_region_disk}.
 type ComputeRegionDisk interface {
 	cdktn.TerraformResource
 	AccessMode() *string
@@ -63,6 +63,9 @@ type ComputeRegionDisk interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Image() *string
+	SetImage(val *string)
+	ImageInput() *string
 	LabelFingerprint() *string
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
@@ -120,6 +123,9 @@ type ComputeRegionDisk interface {
 	SetSourceDisk(val *string)
 	SourceDiskId() *string
 	SourceDiskInput() *string
+	SourceImageEncryptionKey() ComputeRegionDiskSourceImageEncryptionKeyOutputReference
+	SourceImageEncryptionKeyInput() *ComputeRegionDiskSourceImageEncryptionKey
+	SourceImageId() *string
 	SourceSnapshotEncryptionKey() ComputeRegionDiskSourceSnapshotEncryptionKeyOutputReference
 	SourceSnapshotEncryptionKeyInput() *ComputeRegionDiskSourceSnapshotEncryptionKey
 	SourceSnapshotId() *string
@@ -182,6 +188,7 @@ type ComputeRegionDisk interface {
 	PutAsyncPrimaryDisk(value *ComputeRegionDiskAsyncPrimaryDisk)
 	PutDiskEncryptionKey(value *ComputeRegionDiskDiskEncryptionKey)
 	PutGuestOsFeatures(value interface{})
+	PutSourceImageEncryptionKey(value *ComputeRegionDiskSourceImageEncryptionKey)
 	PutSourceSnapshotEncryptionKey(value *ComputeRegionDiskSourceSnapshotEncryptionKey)
 	PutTimeouts(value *ComputeRegionDiskTimeouts)
 	ResetAccessMode()
@@ -192,6 +199,7 @@ type ComputeRegionDisk interface {
 	ResetDiskEncryptionKey()
 	ResetGuestOsFeatures()
 	ResetId()
+	ResetImage()
 	ResetLabels()
 	ResetLicenses()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -205,6 +213,7 @@ type ComputeRegionDisk interface {
 	ResetSize()
 	ResetSnapshot()
 	ResetSourceDisk()
+	ResetSourceImageEncryptionKey()
 	ResetSourceSnapshotEncryptionKey()
 	ResetTimeouts()
 	ResetType()
@@ -500,6 +509,26 @@ func (j *jsiiProxy_ComputeRegionDisk) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDisk) Image() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"image",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDisk) ImageInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"imageInput",
 		&returns,
 	)
 	return returns
@@ -845,6 +874,36 @@ func (j *jsiiProxy_ComputeRegionDisk) SourceDiskInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionDisk) SourceImageEncryptionKey() ComputeRegionDiskSourceImageEncryptionKeyOutputReference {
+	var returns ComputeRegionDiskSourceImageEncryptionKeyOutputReference
+	_jsii_.Get(
+		j,
+		"sourceImageEncryptionKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDisk) SourceImageEncryptionKeyInput() *ComputeRegionDiskSourceImageEncryptionKey {
+	var returns *ComputeRegionDiskSourceImageEncryptionKey
+	_jsii_.Get(
+		j,
+		"sourceImageEncryptionKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDisk) SourceImageId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceImageId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionDisk) SourceSnapshotEncryptionKey() ComputeRegionDiskSourceSnapshotEncryptionKeyOutputReference {
 	var returns ComputeRegionDiskSourceSnapshotEncryptionKeyOutputReference
 	_jsii_.Get(
@@ -966,7 +1025,7 @@ func (j *jsiiProxy_ComputeRegionDisk) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
 func NewComputeRegionDisk(scope constructs.Construct, id *string, config *ComputeRegionDiskConfig) ComputeRegionDisk {
 	_init_.Initialize()
 
@@ -984,7 +1043,7 @@ func NewComputeRegionDisk(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
 func NewComputeRegionDisk_Override(c ComputeRegionDisk, scope constructs.Construct, id *string, config *ComputeRegionDiskConfig) {
 	_init_.Initialize()
 
@@ -1084,6 +1143,17 @@ func (j *jsiiProxy_ComputeRegionDisk)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionDisk)SetImage(val *string) {
+	if err := j.validateSetImageParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"image",
 		val,
 	)
 }
@@ -1647,6 +1717,17 @@ func (c *jsiiProxy_ComputeRegionDisk) PutGuestOsFeatures(value interface{}) {
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionDisk) PutSourceImageEncryptionKey(value *ComputeRegionDiskSourceImageEncryptionKey) {
+	if err := c.validatePutSourceImageEncryptionKeyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSourceImageEncryptionKey",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionDisk) PutSourceSnapshotEncryptionKey(value *ComputeRegionDiskSourceSnapshotEncryptionKey) {
 	if err := c.validatePutSourceSnapshotEncryptionKeyParameters(value); err != nil {
 		panic(err)
@@ -1729,6 +1810,14 @@ func (c *jsiiProxy_ComputeRegionDisk) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionDisk) ResetImage() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetImage",
 		nil, // no parameters
 	)
 }
@@ -1817,6 +1906,14 @@ func (c *jsiiProxy_ComputeRegionDisk) ResetSourceDisk() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetSourceDisk",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionDisk) ResetSourceImageEncryptionKey() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSourceImageEncryptionKey",
 		nil, // no parameters
 	)
 }

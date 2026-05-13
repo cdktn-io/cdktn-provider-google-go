@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation}.
 type NetworkServicesMulticastDomainActivation interface {
 	cdktn.TerraformResource
 	AdminNetwork() *string
@@ -620,7 +620,7 @@ func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
 func NewNetworkServicesMulticastDomainActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastDomainActivationConfig) NetworkServicesMulticastDomainActivation {
 	_init_.Initialize()
 
@@ -638,7 +638,7 @@ func NewNetworkServicesMulticastDomainActivation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
 func NewNetworkServicesMulticastDomainActivation_Override(n NetworkServicesMulticastDomainActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastDomainActivationConfig) {
 	_init_.Initialize()
 

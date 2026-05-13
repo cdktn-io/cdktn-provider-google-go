@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding}.
 type HealthcareDatasetIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_HealthcareDatasetIamBinding) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
 func NewHealthcareDatasetIamBinding(scope constructs.Construct, id *string, config *HealthcareDatasetIamBindingConfig) HealthcareDatasetIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewHealthcareDatasetIamBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
 func NewHealthcareDatasetIamBinding_Override(h HealthcareDatasetIamBinding, scope constructs.Construct, id *string, config *HealthcareDatasetIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_environment google_dialogflow_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_environment google_dialogflow_environment}.
 type DialogflowEnvironment interface {
 	cdktn.TerraformResource
 	AgentVersion() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DialogflowEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
 func NewDialogflowEnvironment(scope constructs.Construct, id *string, config *DialogflowEnvironmentConfig) DialogflowEnvironment {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewDialogflowEnvironment(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
 func NewDialogflowEnvironment_Override(d DialogflowEnvironment, scope constructs.Construct, id *string, config *DialogflowEnvironmentConfig) {
 	_init_.Initialize()
 

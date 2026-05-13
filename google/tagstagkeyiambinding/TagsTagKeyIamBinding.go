@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/tags_tag_key_iam_binding google_tags_tag_key_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/tags_tag_key_iam_binding google_tags_tag_key_iam_binding}.
 type TagsTagKeyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_TagsTagKeyIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/tags_tag_key_iam_binding google_tags_tag_key_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/tags_tag_key_iam_binding google_tags_tag_key_iam_binding} Resource.
 func NewTagsTagKeyIamBinding(scope constructs.Construct, id *string, config *TagsTagKeyIamBindingConfig) TagsTagKeyIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewTagsTagKeyIamBinding(scope constructs.Construct, id *string, config *Tag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/tags_tag_key_iam_binding google_tags_tag_key_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/tags_tag_key_iam_binding google_tags_tag_key_iam_binding} Resource.
 func NewTagsTagKeyIamBinding_Override(t TagsTagKeyIamBinding, scope constructs.Construct, id *string, config *TagsTagKeyIamBindingConfig) {
 	_init_.Initialize()
 

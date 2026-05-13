@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_wire_group google_compute_wire_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_wire_group google_compute_wire_group}.
 type ComputeWireGroup interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -542,7 +542,7 @@ func (j *jsiiProxy_ComputeWireGroup) Wires() ComputeWireGroupWiresList {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_wire_group google_compute_wire_group} Resource.
 func NewComputeWireGroup(scope constructs.Construct, id *string, config *ComputeWireGroupConfig) ComputeWireGroup {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewComputeWireGroup(scope constructs.Construct, id *string, config *Compute
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_wire_group google_compute_wire_group} Resource.
 func NewComputeWireGroup_Override(c ComputeWireGroup, scope constructs.Construct, id *string, config *ComputeWireGroupConfig) {
 	_init_.Initialize()
 

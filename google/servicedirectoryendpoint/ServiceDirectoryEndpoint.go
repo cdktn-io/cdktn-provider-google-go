@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_directory_endpoint google_service_directory_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_endpoint google_service_directory_endpoint}.
 type ServiceDirectoryEndpoint interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_ServiceDirectoryEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
 func NewServiceDirectoryEndpoint(scope constructs.Construct, id *string, config *ServiceDirectoryEndpointConfig) ServiceDirectoryEndpoint {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewServiceDirectoryEndpoint(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
 func NewServiceDirectoryEndpoint_Override(s ServiceDirectoryEndpoint, scope constructs.Construct, id *string, config *ServiceDirectoryEndpointConfig) {
 	_init_.Initialize()
 

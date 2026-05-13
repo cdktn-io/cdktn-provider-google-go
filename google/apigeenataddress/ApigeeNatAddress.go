@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_nat_address google_apigee_nat_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_nat_address google_apigee_nat_address}.
 type ApigeeNatAddress interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ApigeeNatAddress) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
 func NewApigeeNatAddress(scope constructs.Construct, id *string, config *ApigeeNatAddressConfig) ApigeeNatAddress {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewApigeeNatAddress(scope constructs.Construct, id *string, config *ApigeeN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
 func NewApigeeNatAddress_Override(a ApigeeNatAddress, scope constructs.Construct, id *string, config *ApigeeNatAddressConfig) {
 	_init_.Initialize()
 

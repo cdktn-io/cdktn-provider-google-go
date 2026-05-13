@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_peered_dns_domain google_service_networking_peered_dns_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_networking_peered_dns_domain google_service_networking_peered_dns_domain}.
 type ServiceNetworkingPeeredDnsDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomain) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Resource.
 func NewServiceNetworkingPeeredDnsDomain(scope constructs.Construct, id *string, config *ServiceNetworkingPeeredDnsDomainConfig) ServiceNetworkingPeeredDnsDomain {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewServiceNetworkingPeeredDnsDomain(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Resource.
 func NewServiceNetworkingPeeredDnsDomain_Override(s ServiceNetworkingPeeredDnsDomain, scope constructs.Construct, id *string, config *ServiceNetworkingPeeredDnsDomainConfig) {
 	_init_.Initialize()
 

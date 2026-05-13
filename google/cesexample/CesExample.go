@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/ces_example google_ces_example}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_example google_ces_example}.
 type CesExample interface {
 	cdktn.TerraformResource
 	App() *string
@@ -586,7 +586,7 @@ func (j *jsiiProxy_CesExample) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_example google_ces_example} Resource.
 func NewCesExample(scope constructs.Construct, id *string, config *CesExampleConfig) CesExample {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewCesExample(scope constructs.Construct, id *string, config *CesExampleCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_example google_ces_example} Resource.
 func NewCesExample_Override(c CesExample, scope constructs.Construct, id *string, config *CesExampleConfig) {
 	_init_.Initialize()
 

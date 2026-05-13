@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint}.
 type NetworkSecurityFirewallEndpoint interface {
 	cdktn.TerraformResource
 	AssociatedNetworks() *[]*string
@@ -136,6 +136,7 @@ type NetworkSecurityFirewallEndpoint interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEndpointSettings(value *NetworkSecurityFirewallEndpointEndpointSettings)
 	PutTimeouts(value *NetworkSecurityFirewallEndpointTimeouts)
+	ResetBillingProjectId()
 	ResetEndpointSettings()
 	ResetId()
 	ResetLabels()
@@ -571,7 +572,7 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
 func NewNetworkSecurityFirewallEndpoint(scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointConfig) NetworkSecurityFirewallEndpoint {
 	_init_.Initialize()
 
@@ -589,7 +590,7 @@ func NewNetworkSecurityFirewallEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
 func NewNetworkSecurityFirewallEndpoint_Override(n NetworkSecurityFirewallEndpoint, scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointConfig) {
 	_init_.Initialize()
 
@@ -1106,6 +1107,14 @@ func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) PutTimeouts(value *NetworkSe
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) ResetBillingProjectId() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetBillingProjectId",
+		nil, // no parameters
 	)
 }
 

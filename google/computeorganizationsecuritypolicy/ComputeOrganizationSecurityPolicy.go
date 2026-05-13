@@ -12,9 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy}.
 type ComputeOrganizationSecurityPolicy interface {
 	cdktn.TerraformResource
+	AdvancedOptionsConfig() ComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference
+	AdvancedOptionsConfigInput() *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -126,7 +128,9 @@ type ComputeOrganizationSecurityPolicy interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAdvancedOptionsConfig(value *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig)
 	PutTimeouts(value *ComputeOrganizationSecurityPolicyTimeouts)
+	ResetAdvancedOptionsConfig()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -161,6 +165,26 @@ type ComputeOrganizationSecurityPolicy interface {
 // The jsii proxy struct for ComputeOrganizationSecurityPolicy
 type jsiiProxy_ComputeOrganizationSecurityPolicy struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) AdvancedOptionsConfig() ComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference {
+	var returns ComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"advancedOptionsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) AdvancedOptionsConfigInput() *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig {
+	var returns *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig
+	_jsii_.Get(
+		j,
+		"advancedOptionsConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) CdktfStack() cdktn.TerraformStack {
@@ -484,7 +508,7 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyConfig) ComputeOrganizationSecurityPolicy {
 	_init_.Initialize()
 
@@ -502,7 +526,7 @@ func NewComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewComputeOrganizationSecurityPolicy_Override(c ComputeOrganizationSecurityPolicy, scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -1000,6 +1024,17 @@ func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) OverrideLogicalId(newLogic
 	)
 }
 
+func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) PutAdvancedOptionsConfig(value *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig) {
+	if err := c.validatePutAdvancedOptionsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putAdvancedOptionsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) PutTimeouts(value *ComputeOrganizationSecurityPolicyTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1008,6 +1043,14 @@ func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) PutTimeouts(value *Compute
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) ResetAdvancedOptionsConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAdvancedOptionsConfig",
+		nil, // no parameters
 	)
 }
 

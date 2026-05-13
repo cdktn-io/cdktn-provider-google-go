@@ -12,7 +12,7 @@ type ChronicleDataTableScopeInfo struct {
 	// full resource names and should be of the format:
 	// "projects/{project}/locations/{location}/instances/{instance}/dataAccessScopes/{scope_name}"
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.31.0/docs/resources/chronicle_data_table#data_access_scopes ChronicleDataTable#data_access_scopes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/chronicle_data_table#data_access_scopes ChronicleDataTable#data_access_scopes}
 	DataAccessScopes *[]*string `field:"required" json:"dataAccessScopes" yaml:"dataAccessScopes"`
 }
 
