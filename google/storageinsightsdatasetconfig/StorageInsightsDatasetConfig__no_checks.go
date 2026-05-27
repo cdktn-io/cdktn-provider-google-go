@@ -139,6 +139,10 @@ func (j *jsiiProxy_StorageInsightsDatasetConfig) validateSetDatasetConfigIdParam
 	return nil
 }
 
+func (j *jsiiProxy_StorageInsightsDatasetConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageInsightsDatasetConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

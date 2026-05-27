@@ -107,6 +107,10 @@ func (j *jsiiProxy_DataplexGlossaryCategory) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_DataplexGlossaryCategory) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexGlossaryCategory) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

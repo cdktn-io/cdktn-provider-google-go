@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/organization_access_approval_settings google_organization_access_approval_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/organization_access_approval_settings google_organization_access_approval_settings}.
 type OrganizationAccessApprovalSettings interface {
 	cdktn.TerraformResource
 	ActiveKeyVersion() *string
@@ -31,6 +31,9 @@ type OrganizationAccessApprovalSettings interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type OrganizationAccessApprovalSettings interface {
 	PutEnrolledServices(value interface{})
 	PutTimeouts(value *OrganizationAccessApprovalSettingsTimeouts)
 	ResetActiveKeyVersion()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNotificationEmails()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -225,6 +229,26 @@ func (j *jsiiProxy_OrganizationAccessApprovalSettings) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationAccessApprovalSettings) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationAccessApprovalSettings) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -481,7 +505,7 @@ func (j *jsiiProxy_OrganizationAccessApprovalSettings) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/organization_access_approval_settings google_organization_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/organization_access_approval_settings google_organization_access_approval_settings} Resource.
 func NewOrganizationAccessApprovalSettings(scope constructs.Construct, id *string, config *OrganizationAccessApprovalSettingsConfig) OrganizationAccessApprovalSettings {
 	_init_.Initialize()
 
@@ -499,7 +523,7 @@ func NewOrganizationAccessApprovalSettings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/organization_access_approval_settings google_organization_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/organization_access_approval_settings google_organization_access_approval_settings} Resource.
 func NewOrganizationAccessApprovalSettings_Override(o OrganizationAccessApprovalSettings, scope constructs.Construct, id *string, config *OrganizationAccessApprovalSettingsConfig) {
 	_init_.Initialize()
 
@@ -539,6 +563,17 @@ func (j *jsiiProxy_OrganizationAccessApprovalSettings)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrganizationAccessApprovalSettings)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1001,6 +1036,14 @@ func (o *jsiiProxy_OrganizationAccessApprovalSettings) ResetActiveKeyVersion() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetActiveKeyVersion",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrganizationAccessApprovalSettings) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

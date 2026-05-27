@@ -103,6 +103,10 @@ func (j *jsiiProxy_FirebaseAppCheckServiceConfig) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_FirebaseAppCheckServiceConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirebaseAppCheckServiceConfig) validateSetEnforcementModeParameters(val *string) error {
 	return nil
 }

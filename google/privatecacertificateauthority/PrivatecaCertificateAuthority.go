@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_certificate_authority google_privateca_certificate_authority}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_certificate_authority google_privateca_certificate_authority}.
 type PrivatecaCertificateAuthority interface {
 	cdktn.TerraformResource
 	AccessUrls() PrivatecaCertificateAuthorityAccessUrlsList
@@ -34,6 +34,9 @@ type PrivatecaCertificateAuthority interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -169,6 +172,7 @@ type PrivatecaCertificateAuthority interface {
 	PutSubordinateConfig(value *PrivatecaCertificateAuthoritySubordinateConfig)
 	PutTimeouts(value *PrivatecaCertificateAuthorityTimeouts)
 	PutUserDefinedAccessUrls(value *PrivatecaCertificateAuthorityUserDefinedAccessUrls)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDesiredState()
 	ResetGcsBucket()
@@ -308,6 +312,26 @@ func (j *jsiiProxy_PrivatecaCertificateAuthority) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCertificateAuthority) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCertificateAuthority) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -834,7 +858,7 @@ func (j *jsiiProxy_PrivatecaCertificateAuthority) UserDefinedAccessUrlsInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_certificate_authority google_privateca_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_certificate_authority google_privateca_certificate_authority} Resource.
 func NewPrivatecaCertificateAuthority(scope constructs.Construct, id *string, config *PrivatecaCertificateAuthorityConfig) PrivatecaCertificateAuthority {
 	_init_.Initialize()
 
@@ -852,7 +876,7 @@ func NewPrivatecaCertificateAuthority(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_certificate_authority google_privateca_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_certificate_authority google_privateca_certificate_authority} Resource.
 func NewPrivatecaCertificateAuthority_Override(p PrivatecaCertificateAuthority, scope constructs.Construct, id *string, config *PrivatecaCertificateAuthorityConfig) {
 	_init_.Initialize()
 
@@ -892,6 +916,17 @@ func (j *jsiiProxy_PrivatecaCertificateAuthority)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivatecaCertificateAuthority)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1490,6 +1525,14 @@ func (p *jsiiProxy_PrivatecaCertificateAuthority) PutUserDefinedAccessUrls(value
 		p,
 		"putUserDefinedAccessUrls",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCertificateAuthority) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

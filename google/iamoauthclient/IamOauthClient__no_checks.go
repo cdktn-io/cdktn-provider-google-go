@@ -119,6 +119,10 @@ func (j *jsiiProxy_IamOauthClient) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_IamOauthClient) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamOauthClient) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

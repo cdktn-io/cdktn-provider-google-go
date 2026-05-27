@@ -348,6 +348,14 @@ func (j *jsiiProxy_KmsProjectAutokeyConfig) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_KmsProjectAutokeyConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_KmsProjectAutokeyConfig) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

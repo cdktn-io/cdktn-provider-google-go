@@ -75,6 +75,10 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutPscInterfaceConfigParameters(value *DatabaseMigrationServicePrivateConnectionPscInterfaceConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutTimeoutsParameters(value *DatabaseMigrationServicePrivateConnectionTimeouts) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateSetCountPa
 }
 
 func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateSetCreateWithoutValidationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

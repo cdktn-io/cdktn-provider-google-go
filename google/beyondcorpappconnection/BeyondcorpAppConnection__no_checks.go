@@ -115,6 +115,10 @@ func (j *jsiiProxy_BeyondcorpAppConnection) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_BeyondcorpAppConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BeyondcorpAppConnection) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

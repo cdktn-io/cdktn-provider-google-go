@@ -167,6 +167,10 @@ func (j *jsiiProxy_GkeonpremBareMetalCluster) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GkeonpremBareMetalCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeonpremBareMetalCluster) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

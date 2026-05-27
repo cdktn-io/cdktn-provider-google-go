@@ -111,6 +111,10 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_FolderAccessApprovalSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FolderAccessApprovalSettings) validateSetFolderIdParameters(val *string) error {
 	return nil
 }

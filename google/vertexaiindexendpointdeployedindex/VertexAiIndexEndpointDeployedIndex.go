@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index}.
 type VertexAiIndexEndpointDeployedIndex interface {
 	cdktn.TerraformResource
 	AutomaticResources() VertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference
@@ -32,6 +32,9 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	CreateTime() *string
 	DedicatedResources() VertexAiIndexEndpointDeployedIndexDedicatedResourcesOutputReference
 	DedicatedResourcesInput() *VertexAiIndexEndpointDeployedIndexDedicatedResources
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type VertexAiIndexEndpointDeployedIndex interface {
 	PutTimeouts(value *VertexAiIndexEndpointDeployedIndexTimeouts)
 	ResetAutomaticResources()
 	ResetDedicatedResources()
+	ResetDeletionPolicy()
 	ResetDeployedIndexAuthConfig()
 	ResetDeploymentGroup()
 	ResetDisplayName()
@@ -272,6 +276,26 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) DedicatedResourcesInput()
 	_jsii_.Get(
 		j,
 		"dedicatedResourcesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -648,7 +672,7 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index} Resource.
 func NewVertexAiIndexEndpointDeployedIndex(scope constructs.Construct, id *string, config *VertexAiIndexEndpointDeployedIndexConfig) VertexAiIndexEndpointDeployedIndex {
 	_init_.Initialize()
 
@@ -666,7 +690,7 @@ func NewVertexAiIndexEndpointDeployedIndex(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_index_endpoint_deployed_index google_vertex_ai_index_endpoint_deployed_index} Resource.
 func NewVertexAiIndexEndpointDeployedIndex_Override(v VertexAiIndexEndpointDeployedIndex, scope constructs.Construct, id *string, config *VertexAiIndexEndpointDeployedIndexConfig) {
 	_init_.Initialize()
 
@@ -695,6 +719,17 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1253,6 +1288,14 @@ func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ResetDedicatedResources()
 	_jsii_.InvokeVoid(
 		v,
 		"resetDedicatedResources",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiIndexEndpointDeployedIndex) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_ChronicleWatchlist) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_ChronicleWatchlist) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ChronicleWatchlist) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

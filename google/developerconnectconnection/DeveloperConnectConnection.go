@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_connection google_developer_connect_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_connection google_developer_connect_connection}.
 type DeveloperConnectConnection interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -41,6 +41,9 @@ type DeveloperConnectConnection interface {
 	CryptoKeyConfig() DeveloperConnectConnectionCryptoKeyConfigOutputReference
 	CryptoKeyConfigInput() *DeveloperConnectConnectionCryptoKeyConfig
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -169,6 +172,7 @@ type DeveloperConnectConnection interface {
 	ResetBitbucketCloudConfig()
 	ResetBitbucketDataCenterConfig()
 	ResetCryptoKeyConfig()
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetEtag()
 	ResetGithubConfig()
@@ -365,6 +369,26 @@ func (j *jsiiProxy_DeveloperConnectConnection) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeveloperConnectConnection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeveloperConnectConnection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -811,7 +835,7 @@ func (j *jsiiProxy_DeveloperConnectConnection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_connection google_developer_connect_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_connection google_developer_connect_connection} Resource.
 func NewDeveloperConnectConnection(scope constructs.Construct, id *string, config *DeveloperConnectConnectionConfig) DeveloperConnectConnection {
 	_init_.Initialize()
 
@@ -829,7 +853,7 @@ func NewDeveloperConnectConnection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_connection google_developer_connect_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_connection google_developer_connect_connection} Resource.
 func NewDeveloperConnectConnection_Override(d DeveloperConnectConnection, scope constructs.Construct, id *string, config *DeveloperConnectConnectionConfig) {
 	_init_.Initialize()
 
@@ -880,6 +904,17 @@ func (j *jsiiProxy_DeveloperConnectConnection)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DeveloperConnectConnection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1476,6 +1511,14 @@ func (d *jsiiProxy_DeveloperConnectConnection) ResetCryptoKeyConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCryptoKeyConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DeveloperConnectConnection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

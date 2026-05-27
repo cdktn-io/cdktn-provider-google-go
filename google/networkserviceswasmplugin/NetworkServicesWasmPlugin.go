@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin}.
 type NetworkServicesWasmPlugin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkServicesWasmPlugin interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type NetworkServicesWasmPlugin interface {
 	PutLogConfig(value *NetworkServicesWasmPluginLogConfig)
 	PutTimeouts(value *NetworkServicesWasmPluginTimeouts)
 	PutVersions(value interface{})
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -221,6 +225,26 @@ func (j *jsiiProxy_NetworkServicesWasmPlugin) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesWasmPlugin) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesWasmPlugin) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -587,7 +611,7 @@ func (j *jsiiProxy_NetworkServicesWasmPlugin) VersionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
 func NewNetworkServicesWasmPlugin(scope constructs.Construct, id *string, config *NetworkServicesWasmPluginConfig) NetworkServicesWasmPlugin {
 	_init_.Initialize()
 
@@ -605,7 +629,7 @@ func NewNetworkServicesWasmPlugin(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
 func NewNetworkServicesWasmPlugin_Override(n NetworkServicesWasmPlugin, scope constructs.Construct, id *string, config *NetworkServicesWasmPluginConfig) {
 	_init_.Initialize()
 
@@ -634,6 +658,17 @@ func (j *jsiiProxy_NetworkServicesWasmPlugin)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesWasmPlugin)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1144,6 +1179,14 @@ func (n *jsiiProxy_NetworkServicesWasmPlugin) PutVersions(value interface{}) {
 		n,
 		"putVersions",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesWasmPlugin) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

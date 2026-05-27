@@ -123,6 +123,10 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheOrigin) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesEdgeCacheOrigin) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesEdgeCacheOrigin) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

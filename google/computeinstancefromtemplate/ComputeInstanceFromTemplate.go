@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_from_template google_compute_instance_from_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_from_template google_compute_instance_from_template}.
 type ComputeInstanceFromTemplate interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() ComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReference
@@ -44,6 +44,9 @@ type ComputeInstanceFromTemplate interface {
 	CpuPlatform() *string
 	CreationTimestamp() *string
 	CurrentStatus() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -225,6 +228,7 @@ type ComputeInstanceFromTemplate interface {
 	ResetBootDisk()
 	ResetCanIpForward()
 	ResetConfidentialInstanceConfig()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
 	ResetDesiredStatus()
@@ -467,6 +471,26 @@ func (j *jsiiProxy_ComputeInstanceFromTemplate) CurrentStatus() *string {
 	_jsii_.Get(
 		j,
 		"currentStatus",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceFromTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceFromTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1243,7 +1267,7 @@ func (j *jsiiProxy_ComputeInstanceFromTemplate) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_from_template google_compute_instance_from_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_from_template google_compute_instance_from_template} Resource.
 func NewComputeInstanceFromTemplate(scope constructs.Construct, id *string, config *ComputeInstanceFromTemplateConfig) ComputeInstanceFromTemplate {
 	_init_.Initialize()
 
@@ -1261,7 +1285,7 @@ func NewComputeInstanceFromTemplate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_from_template google_compute_instance_from_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_from_template google_compute_instance_from_template} Resource.
 func NewComputeInstanceFromTemplate_Override(c ComputeInstanceFromTemplate, scope constructs.Construct, id *string, config *ComputeInstanceFromTemplateConfig) {
 	_init_.Initialize()
 
@@ -1312,6 +1336,17 @@ func (j *jsiiProxy_ComputeInstanceFromTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceFromTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -2122,6 +2157,14 @@ func (c *jsiiProxy_ComputeInstanceFromTemplate) ResetConfidentialInstanceConfig(
 	_jsii_.InvokeVoid(
 		c,
 		"resetConfidentialInstanceConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceFromTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

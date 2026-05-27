@@ -111,6 +111,10 @@ func (j *jsiiProxy_DialogflowCxIntent) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowCxIntent) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowCxIntent) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

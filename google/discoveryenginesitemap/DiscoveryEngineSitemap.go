@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap}.
 type DiscoveryEngineSitemap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type DiscoveryEngineSitemap interface {
 	DataStoreId() *string
 	SetDataStoreId(val *string)
 	DataStoreIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type DiscoveryEngineSitemap interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DiscoveryEngineSitemapTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -224,6 +228,26 @@ func (j *jsiiProxy_DiscoveryEngineSitemap) DataStoreIdInput() *string {
 	_jsii_.Get(
 		j,
 		"dataStoreIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSitemap) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSitemap) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -470,7 +494,7 @@ func (j *jsiiProxy_DiscoveryEngineSitemap) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
 func NewDiscoveryEngineSitemap(scope constructs.Construct, id *string, config *DiscoveryEngineSitemapConfig) DiscoveryEngineSitemap {
 	_init_.Initialize()
 
@@ -488,7 +512,7 @@ func NewDiscoveryEngineSitemap(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
 func NewDiscoveryEngineSitemap_Override(d DiscoveryEngineSitemap, scope constructs.Construct, id *string, config *DiscoveryEngineSitemapConfig) {
 	_init_.Initialize()
 
@@ -528,6 +552,17 @@ func (j *jsiiProxy_DiscoveryEngineSitemap)SetDataStoreId(val *string) {
 	_jsii_.Set(
 		j,
 		"dataStoreId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineSitemap)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -983,6 +1018,14 @@ func (d *jsiiProxy_DiscoveryEngineSitemap) PutTimeouts(value *DiscoveryEngineSit
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSitemap) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

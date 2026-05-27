@@ -111,6 +111,10 @@ func (j *jsiiProxy_GeminiRepositoryGroup) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GeminiRepositoryGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiRepositoryGroup) validateSetIdParameters(val *string) error {
 	return nil
 }

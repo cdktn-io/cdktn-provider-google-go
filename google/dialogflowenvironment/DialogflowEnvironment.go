@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_environment google_dialogflow_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_environment google_dialogflow_environment}.
 type DialogflowEnvironment interface {
 	cdktn.TerraformResource
 	AgentVersion() *string
@@ -30,6 +30,9 @@ type DialogflowEnvironment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type DialogflowEnvironment interface {
 	PutTextToSpeechSettings(value *DialogflowEnvironmentTextToSpeechSettings)
 	PutTimeouts(value *DialogflowEnvironmentTimeouts)
 	ResetAgentVersion()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFulfillment()
 	ResetId()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_DialogflowEnvironment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowEnvironment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowEnvironment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -532,7 +556,7 @@ func (j *jsiiProxy_DialogflowEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
 func NewDialogflowEnvironment(scope constructs.Construct, id *string, config *DialogflowEnvironmentConfig) DialogflowEnvironment {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewDialogflowEnvironment(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
 func NewDialogflowEnvironment_Override(d DialogflowEnvironment, scope constructs.Construct, id *string, config *DialogflowEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -590,6 +614,17 @@ func (j *jsiiProxy_DialogflowEnvironment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowEnvironment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1085,6 +1120,14 @@ func (d *jsiiProxy_DialogflowEnvironment) ResetAgentVersion() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAgentVersion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowEnvironment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
 type NetworkManagementOrganizationVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -34,6 +34,9 @@ type NetworkManagementOrganizationVpcFlowLogsConfig interface {
 	CrossProjectMetadata() *string
 	SetCrossProjectMetadata(val *string)
 	CrossProjectMetadataInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type NetworkManagementOrganizationVpcFlowLogsConfig interface {
 	PutTimeouts(value *NetworkManagementOrganizationVpcFlowLogsConfigTimeouts)
 	ResetAggregationInterval()
 	ResetCrossProjectMetadata()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFilterExpr()
 	ResetFlowSampling()
@@ -277,6 +281,26 @@ func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) CrossProjectM
 	_jsii_.Get(
 		j,
 		"crossProjectMetadataInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -683,7 +707,7 @@ func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) VpcFlowLogsCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construct, id *string, config *NetworkManagementOrganizationVpcFlowLogsConfigConfig) NetworkManagementOrganizationVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -701,7 +725,7 @@ func NewNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewNetworkManagementOrganizationVpcFlowLogsConfig_Override(n NetworkManagementOrganizationVpcFlowLogsConfig, scope constructs.Construct, id *string, config *NetworkManagementOrganizationVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 
@@ -752,6 +776,17 @@ func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig)SetCrossProjec
 	_jsii_.Set(
 		j,
 		"crossProjectMetadata",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1299,6 +1334,14 @@ func (n *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) ResetCrossPro
 	_jsii_.InvokeVoid(
 		n,
 		"resetCrossProjectMetadata",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

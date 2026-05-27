@@ -111,6 +111,10 @@ func (j *jsiiProxy_DialogflowIntent) validateSetDefaultResponsePlatformsParamete
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowIntent) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowIntent) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

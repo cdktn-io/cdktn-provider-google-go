@@ -115,6 +115,10 @@ func (j *jsiiProxy_CesToolset) validateSetCountParameters(val interface{}) error
 	return nil
 }
 
+func (j *jsiiProxy_CesToolset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesToolset) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

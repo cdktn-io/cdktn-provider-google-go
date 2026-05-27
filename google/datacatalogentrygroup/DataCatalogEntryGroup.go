@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group}.
 type DataCatalogEntryGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DataCatalogEntryGroup interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type DataCatalogEntryGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataCatalogEntryGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -197,6 +201,26 @@ func (j *jsiiProxy_DataCatalogEntryGroup) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataCatalogEntryGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataCatalogEntryGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -473,7 +497,7 @@ func (j *jsiiProxy_DataCatalogEntryGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group} Resource.
 func NewDataCatalogEntryGroup(scope constructs.Construct, id *string, config *DataCatalogEntryGroupConfig) DataCatalogEntryGroup {
 	_init_.Initialize()
 
@@ -491,7 +515,7 @@ func NewDataCatalogEntryGroup(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_catalog_entry_group google_data_catalog_entry_group} Resource.
 func NewDataCatalogEntryGroup_Override(d DataCatalogEntryGroup, scope constructs.Construct, id *string, config *DataCatalogEntryGroupConfig) {
 	_init_.Initialize()
 
@@ -520,6 +544,17 @@ func (j *jsiiProxy_DataCatalogEntryGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataCatalogEntryGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -997,6 +1032,14 @@ func (d *jsiiProxy_DataCatalogEntryGroup) PutTimeouts(value *DataCatalogEntryGro
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataCatalogEntryGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -32,17 +32,29 @@ type ComputeVpnTunnelConfig struct {
 	// be a dash, lowercase letter, or digit,
 	// except the last character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#name ComputeVpnTunnel#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#name ComputeVpnTunnel#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// cipher_suite block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#cipher_suite ComputeVpnTunnel#cipher_suite}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#cipher_suite ComputeVpnTunnel#cipher_suite}
 	CipherSuite *ComputeVpnTunnelCipherSuite `field:"optional" json:"cipherSuite" yaml:"cipherSuite"`
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#deletion_policy ComputeVpnTunnel#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#description ComputeVpnTunnel#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#description ComputeVpnTunnel#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#id ComputeVpnTunnel#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#id ComputeVpnTunnel#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,14 +63,14 @@ type ComputeVpnTunnelConfig struct {
 	//
 	// Acceptable IKE versions are 1 or 2. Default version is 2.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#ike_version ComputeVpnTunnel#ike_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#ike_version ComputeVpnTunnel#ike_version}
 	IkeVersion *float64 `field:"optional" json:"ikeVersion" yaml:"ikeVersion"`
 	// Labels to apply to this VpnTunnel.
 	//
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#labels ComputeVpnTunnel#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#labels ComputeVpnTunnel#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// Local traffic selector to use when establishing the VPN tunnel with peer VPN gateway.
 	//
@@ -66,19 +78,19 @@ type ComputeVpnTunnelConfig struct {
 	// for example '192.168.0.0/16'. The ranges should be disjoint.
 	// Only IPv4 is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#local_traffic_selector ComputeVpnTunnel#local_traffic_selector}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#local_traffic_selector ComputeVpnTunnel#local_traffic_selector}
 	LocalTrafficSelector *[]*string `field:"optional" json:"localTrafficSelector" yaml:"localTrafficSelector"`
 	// params block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#params ComputeVpnTunnel#params}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#params ComputeVpnTunnel#params}
 	Params *ComputeVpnTunnelParams `field:"optional" json:"params" yaml:"params"`
 	// URL of the peer side external VPN gateway to which this VPN tunnel is connected.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#peer_external_gateway ComputeVpnTunnel#peer_external_gateway}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#peer_external_gateway ComputeVpnTunnel#peer_external_gateway}
 	PeerExternalGateway *string `field:"optional" json:"peerExternalGateway" yaml:"peerExternalGateway"`
 	// The interface ID of the external VPN gateway to which this VPN tunnel is connected.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#peer_external_gateway_interface ComputeVpnTunnel#peer_external_gateway_interface}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#peer_external_gateway_interface ComputeVpnTunnel#peer_external_gateway_interface}
 	PeerExternalGatewayInterface *float64 `field:"optional" json:"peerExternalGatewayInterface" yaml:"peerExternalGatewayInterface"`
 	// URL of the peer side HA GCP VPN gateway to which this VPN tunnel is connected.
 	//
@@ -86,17 +98,17 @@ type ComputeVpnTunnelConfig struct {
 	// ID in the peer GCP VPN gateway.
 	// This field must reference a 'google_compute_ha_vpn_gateway' resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#peer_gcp_gateway ComputeVpnTunnel#peer_gcp_gateway}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#peer_gcp_gateway ComputeVpnTunnel#peer_gcp_gateway}
 	PeerGcpGateway *string `field:"optional" json:"peerGcpGateway" yaml:"peerGcpGateway"`
 	// IP address of the peer VPN gateway. Only IPv4 is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#peer_ip ComputeVpnTunnel#peer_ip}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#peer_ip ComputeVpnTunnel#peer_ip}
 	PeerIp *string `field:"optional" json:"peerIp" yaml:"peerIp"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#project ComputeVpnTunnel#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#project ComputeVpnTunnel#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#region ComputeVpnTunnel#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#region ComputeVpnTunnel#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// Remote traffic selector to use when establishing the VPN tunnel with peer VPN gateway.
 	//
@@ -104,44 +116,44 @@ type ComputeVpnTunnelConfig struct {
 	// for example '192.168.0.0/16'. The ranges should be disjoint.
 	// Only IPv4 is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#remote_traffic_selector ComputeVpnTunnel#remote_traffic_selector}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#remote_traffic_selector ComputeVpnTunnel#remote_traffic_selector}
 	RemoteTrafficSelector *[]*string `field:"optional" json:"remoteTrafficSelector" yaml:"remoteTrafficSelector"`
 	// URL of router resource to be used for dynamic routing.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#router ComputeVpnTunnel#router}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#router ComputeVpnTunnel#router}
 	Router *string `field:"optional" json:"router" yaml:"router"`
 	// Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#shared_secret ComputeVpnTunnel#shared_secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#shared_secret ComputeVpnTunnel#shared_secret}
 	SharedSecret *string `field:"optional" json:"sharedSecret" yaml:"sharedSecret"`
 	// Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#shared_secret_wo ComputeVpnTunnel#shared_secret_wo}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#shared_secret_wo ComputeVpnTunnel#shared_secret_wo}
 	SharedSecretWo *string `field:"optional" json:"sharedSecretWo" yaml:"sharedSecretWo"`
 	// Triggers update of 'shared_secret_wo' write-only.
 	//
 	// Increment this value when an update to 'shared_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#shared_secret_wo_version ComputeVpnTunnel#shared_secret_wo_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#shared_secret_wo_version ComputeVpnTunnel#shared_secret_wo_version}
 	SharedSecretWoVersion *string `field:"optional" json:"sharedSecretWoVersion" yaml:"sharedSecretWoVersion"`
 	// URL of the Target VPN gateway with which this VPN tunnel is associated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#target_vpn_gateway ComputeVpnTunnel#target_vpn_gateway}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#target_vpn_gateway ComputeVpnTunnel#target_vpn_gateway}
 	TargetVpnGateway *string `field:"optional" json:"targetVpnGateway" yaml:"targetVpnGateway"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#timeouts ComputeVpnTunnel#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#timeouts ComputeVpnTunnel#timeouts}
 	Timeouts *ComputeVpnTunnelTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// URL of the VPN gateway with which this VPN tunnel is associated.
 	//
 	// This must be used if a High Availability VPN gateway resource is created.
 	// This field must reference a 'google_compute_ha_vpn_gateway' resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#vpn_gateway ComputeVpnTunnel#vpn_gateway}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#vpn_gateway ComputeVpnTunnel#vpn_gateway}
 	VpnGateway *string `field:"optional" json:"vpnGateway" yaml:"vpnGateway"`
 	// The interface ID of the VPN gateway with which this VPN tunnel is associated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel#vpn_gateway_interface ComputeVpnTunnel#vpn_gateway_interface}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel#vpn_gateway_interface ComputeVpnTunnel#vpn_gateway_interface}
 	VpnGatewayInterface *float64 `field:"optional" json:"vpnGatewayInterface" yaml:"vpnGatewayInterface"`
 }
 

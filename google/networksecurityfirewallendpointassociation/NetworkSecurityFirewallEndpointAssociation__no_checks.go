@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpointAssociation) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityFirewallEndpointAssociation) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_enrollment google_eventarc_enrollment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_enrollment google_eventarc_enrollment}.
 type EventarcEnrollment interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type EventarcEnrollment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type EventarcEnrollment interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *EventarcEnrollmentTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_EventarcEnrollment) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcEnrollment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcEnrollment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -642,7 +666,7 @@ func (j *jsiiProxy_EventarcEnrollment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
 func NewEventarcEnrollment(scope constructs.Construct, id *string, config *EventarcEnrollmentConfig) EventarcEnrollment {
 	_init_.Initialize()
 
@@ -660,7 +684,7 @@ func NewEventarcEnrollment(scope constructs.Construct, id *string, config *Event
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
 func NewEventarcEnrollment_Override(e EventarcEnrollment, scope constructs.Construct, id *string, config *EventarcEnrollmentConfig) {
 	_init_.Initialize()
 
@@ -711,6 +735,17 @@ func (j *jsiiProxy_EventarcEnrollment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventarcEnrollment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1217,6 +1252,14 @@ func (e *jsiiProxy_EventarcEnrollment) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventarcEnrollment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

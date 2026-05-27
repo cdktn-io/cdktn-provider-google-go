@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy}.
 type NetworkSecurityGatewaySecurityPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkSecurityGatewaySecurityPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type NetworkSecurityGatewaySecurityPolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityGatewaySecurityPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLocation()
@@ -209,6 +213,26 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -495,7 +519,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
 func NewNetworkSecurityGatewaySecurityPolicy(scope constructs.Construct, id *string, config *NetworkSecurityGatewaySecurityPolicyConfig) NetworkSecurityGatewaySecurityPolicy {
 	_init_.Initialize()
 
@@ -513,7 +537,7 @@ func NewNetworkSecurityGatewaySecurityPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
 func NewNetworkSecurityGatewaySecurityPolicy_Override(n NetworkSecurityGatewaySecurityPolicy, scope constructs.Construct, id *string, config *NetworkSecurityGatewaySecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -542,6 +566,17 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1019,6 +1054,14 @@ func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) PutTimeouts(value *Netw
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

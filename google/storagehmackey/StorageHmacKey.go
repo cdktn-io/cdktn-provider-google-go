@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_hmac_key google_storage_hmac_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_hmac_key google_storage_hmac_key}.
 type StorageHmacKey interface {
 	cdktn.TerraformResource
 	AccessId() *string
@@ -28,6 +28,9 @@ type StorageHmacKey interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type StorageHmacKey interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *StorageHmacKeyTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -202,6 +206,26 @@ func (j *jsiiProxy_StorageHmacKey) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageHmacKey) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageHmacKey) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -458,7 +482,7 @@ func (j *jsiiProxy_StorageHmacKey) Updated() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
 func NewStorageHmacKey(scope constructs.Construct, id *string, config *StorageHmacKeyConfig) StorageHmacKey {
 	_init_.Initialize()
 
@@ -476,7 +500,7 @@ func NewStorageHmacKey(scope constructs.Construct, id *string, config *StorageHm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_hmac_key google_storage_hmac_key} Resource.
 func NewStorageHmacKey_Override(s StorageHmacKey, scope constructs.Construct, id *string, config *StorageHmacKeyConfig) {
 	_init_.Initialize()
 
@@ -505,6 +529,17 @@ func (j *jsiiProxy_StorageHmacKey)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageHmacKey)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -960,6 +995,14 @@ func (s *jsiiProxy_StorageHmacKey) PutTimeouts(value *StorageHmacKeyTimeouts) {
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_StorageHmacKey) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

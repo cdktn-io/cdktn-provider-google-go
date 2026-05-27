@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicyAssociation) validateSetCoun
 	return nil
 }
 
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicyAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeOrganizationSecurityPolicyAssociation) validateSetExcludedFoldersParameters(val *[]*string) error {
 	return nil
 }

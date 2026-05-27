@@ -107,6 +107,10 @@ func (j *jsiiProxy_DialogflowEntityType) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowEntityType) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowEntityType) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

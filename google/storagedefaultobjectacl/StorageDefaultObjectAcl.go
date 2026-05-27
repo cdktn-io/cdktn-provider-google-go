@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_default_object_acl google_storage_default_object_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_default_object_acl google_storage_default_object_acl}.
 type StorageDefaultObjectAcl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -30,6 +30,9 @@ type StorageDefaultObjectAcl interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -113,6 +116,7 @@ type StorageDefaultObjectAcl interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageDefaultObjectAcl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageDefaultObjectAcl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -366,7 +390,7 @@ func (j *jsiiProxy_StorageDefaultObjectAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_default_object_acl google_storage_default_object_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_default_object_acl google_storage_default_object_acl} Resource.
 func NewStorageDefaultObjectAcl(scope constructs.Construct, id *string, config *StorageDefaultObjectAclConfig) StorageDefaultObjectAcl {
 	_init_.Initialize()
 
@@ -384,7 +408,7 @@ func NewStorageDefaultObjectAcl(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_default_object_acl google_storage_default_object_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_default_object_acl google_storage_default_object_acl} Resource.
 func NewStorageDefaultObjectAcl_Override(s StorageDefaultObjectAcl, scope constructs.Construct, id *string, config *StorageDefaultObjectAclConfig) {
 	_init_.Initialize()
 
@@ -424,6 +448,17 @@ func (j *jsiiProxy_StorageDefaultObjectAcl)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageDefaultObjectAcl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -846,6 +881,14 @@ func (s *jsiiProxy_StorageDefaultObjectAcl) OverrideLogicalId(newLogicalId *stri
 		s,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (s *jsiiProxy_StorageDefaultObjectAcl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

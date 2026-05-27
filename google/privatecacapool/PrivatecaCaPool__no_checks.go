@@ -115,6 +115,10 @@ func (j *jsiiProxy_PrivatecaCaPool) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_PrivatecaCaPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivatecaCaPool) validateSetIdParameters(val *string) error {
 	return nil
 }

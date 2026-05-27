@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetappBackupPolicy) validateSetDailyBackupLimitParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_NetappBackupPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappBackupPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

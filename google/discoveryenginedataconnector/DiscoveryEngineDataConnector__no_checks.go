@@ -143,6 +143,10 @@ func (j *jsiiProxy_DiscoveryEngineDataConnector) validateSetDataSourceVersionPar
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineDataConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineDataConnector) validateSetIdParameters(val *string) error {
 	return nil
 }

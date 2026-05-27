@@ -111,6 +111,10 @@ func (j *jsiiProxy_DataprocCluster) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_DataprocCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocCluster) validateSetGracefulDecommissionTimeoutParameters(val *string) error {
 	return nil
 }

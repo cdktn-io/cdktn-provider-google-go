@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group}.
 type ComputeInterconnectAttachmentGroup interface {
 	cdktn.TerraformResource
 	Attachments() ComputeInterconnectAttachmentGroupAttachmentsList
@@ -31,6 +31,9 @@ type ComputeInterconnectAttachmentGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type ComputeInterconnectAttachmentGroup interface {
 	PutIntent(value *ComputeInterconnectAttachmentGroupIntent)
 	PutTimeouts(value *ComputeInterconnectAttachmentGroupTimeouts)
 	ResetAttachments()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInterconnectGroup()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) CreationTimestamp() *stri
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
 func NewComputeInterconnectAttachmentGroup(scope constructs.Construct, id *string, config *ComputeInterconnectAttachmentGroupConfig) ComputeInterconnectAttachmentGroup {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewComputeInterconnectAttachmentGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
 func NewComputeInterconnectAttachmentGroup_Override(c ComputeInterconnectAttachmentGroup, scope constructs.Construct, id *string, config *ComputeInterconnectAttachmentGroupConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroup)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1060,6 +1095,14 @@ func (c *jsiiProxy_ComputeInterconnectAttachmentGroup) ResetAttachments() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAttachments",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachmentGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

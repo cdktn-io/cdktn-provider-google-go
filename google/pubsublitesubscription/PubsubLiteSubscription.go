@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription}.
 type PubsubLiteSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type PubsubLiteSubscription interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeliveryConfig() PubsubLiteSubscriptionDeliveryConfigOutputReference
 	DeliveryConfigInput() *PubsubLiteSubscriptionDeliveryConfig
 	// Experimental.
@@ -128,6 +131,7 @@ type PubsubLiteSubscription interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDeliveryConfig(value *PubsubLiteSubscriptionDeliveryConfig)
 	PutTimeouts(value *PubsubLiteSubscriptionTimeouts)
+	ResetDeletionPolicy()
 	ResetDeliveryConfig()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -199,6 +203,26 @@ func (j *jsiiProxy_PubsubLiteSubscription) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubLiteSubscription) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubLiteSubscription) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -485,7 +509,7 @@ func (j *jsiiProxy_PubsubLiteSubscription) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
 func NewPubsubLiteSubscription(scope constructs.Construct, id *string, config *PubsubLiteSubscriptionConfig) PubsubLiteSubscription {
 	_init_.Initialize()
 
@@ -503,7 +527,7 @@ func NewPubsubLiteSubscription(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_lite_subscription google_pubsub_lite_subscription} Resource.
 func NewPubsubLiteSubscription_Override(p PubsubLiteSubscription, scope constructs.Construct, id *string, config *PubsubLiteSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -532,6 +556,17 @@ func (j *jsiiProxy_PubsubLiteSubscription)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PubsubLiteSubscription)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1020,6 +1055,14 @@ func (p *jsiiProxy_PubsubLiteSubscription) PutTimeouts(value *PubsubLiteSubscrip
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PubsubLiteSubscription) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

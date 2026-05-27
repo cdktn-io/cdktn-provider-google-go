@@ -111,6 +111,10 @@ func (j *jsiiProxy_CesExample) validateSetCountParameters(val interface{}) error
 	return nil
 }
 
+func (j *jsiiProxy_CesExample) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesExample) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

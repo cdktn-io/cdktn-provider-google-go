@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
 type OsConfigV2PolicyOrchestratorForFolder interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -31,6 +31,9 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type OsConfigV2PolicyOrchestratorForFolder interface {
 	PutOrchestratedResource(value *OsConfigV2PolicyOrchestratorForFolderOrchestratedResource)
 	PutOrchestrationScope(value *OsConfigV2PolicyOrchestratorForFolderOrchestrationScope)
 	PutTimeouts(value *OsConfigV2PolicyOrchestratorForFolderTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -243,6 +247,26 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -619,7 +643,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
 func NewOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, id *string, config *OsConfigV2PolicyOrchestratorForFolderConfig) OsConfigV2PolicyOrchestratorForFolder {
 	_init_.Initialize()
 
@@ -637,7 +661,7 @@ func NewOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
 func NewOsConfigV2PolicyOrchestratorForFolder_Override(o OsConfigV2PolicyOrchestratorForFolder, scope constructs.Construct, id *string, config *OsConfigV2PolicyOrchestratorForFolderConfig) {
 	_init_.Initialize()
 
@@ -677,6 +701,17 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetCount(val interface{
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1176,6 +1211,14 @@ func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) PutTimeouts(value *OsC
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

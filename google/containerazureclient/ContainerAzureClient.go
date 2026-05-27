@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_azure_client google_container_azure_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_azure_client google_container_azure_client}.
 type ContainerAzureClient interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -32,6 +32,9 @@ type ContainerAzureClient interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type ContainerAzureClient interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ContainerAzureClientTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -236,6 +240,26 @@ func (j *jsiiProxy_ContainerAzureClient) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAzureClient) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAzureClient) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -492,7 +516,7 @@ func (j *jsiiProxy_ContainerAzureClient) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_azure_client google_container_azure_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_azure_client google_container_azure_client} Resource.
 func NewContainerAzureClient(scope constructs.Construct, id *string, config *ContainerAzureClientConfig) ContainerAzureClient {
 	_init_.Initialize()
 
@@ -510,7 +534,7 @@ func NewContainerAzureClient(scope constructs.Construct, id *string, config *Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_azure_client google_container_azure_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_azure_client google_container_azure_client} Resource.
 func NewContainerAzureClient_Override(c ContainerAzureClient, scope constructs.Construct, id *string, config *ContainerAzureClientConfig) {
 	_init_.Initialize()
 
@@ -550,6 +574,17 @@ func (j *jsiiProxy_ContainerAzureClient)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerAzureClient)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1016,6 +1051,14 @@ func (c *jsiiProxy_ContainerAzureClient) PutTimeouts(value *ContainerAzureClient
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerAzureClient) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -119,6 +119,10 @@ func (j *jsiiProxy_CloudbuildWorkerPool) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_CloudbuildWorkerPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudbuildWorkerPool) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

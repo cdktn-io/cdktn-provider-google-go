@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace}.
 type IamWorkloadIdentityPoolNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type IamWorkloadIdentityPoolNamespace interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type IamWorkloadIdentityPoolNamespace interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *IamWorkloadIdentityPoolNamespaceTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetId()
@@ -198,6 +202,26 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) WorkloadIdentityPoolNamespa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
 func NewIamWorkloadIdentityPoolNamespace(scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolNamespaceConfig) IamWorkloadIdentityPoolNamespace {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewIamWorkloadIdentityPoolNamespace(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
 func NewIamWorkloadIdentityPoolNamespace_Override(i IamWorkloadIdentityPoolNamespace, scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolNamespaceConfig) {
 	_init_.Initialize()
 
@@ -541,6 +565,17 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1018,6 +1053,14 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolNamespace) PutTimeouts(value *IamWorkl
 		i,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPoolNamespace) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

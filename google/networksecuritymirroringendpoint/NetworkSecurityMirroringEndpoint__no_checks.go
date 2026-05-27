@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

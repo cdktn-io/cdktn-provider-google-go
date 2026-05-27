@@ -111,6 +111,10 @@ func (j *jsiiProxy_ProjectAccessApprovalSettings) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_ProjectAccessApprovalSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ProjectAccessApprovalSettings) validateSetIdParameters(val *string) error {
 	return nil
 }

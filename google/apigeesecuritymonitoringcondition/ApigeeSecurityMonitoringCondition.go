@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition}.
 type ApigeeSecurityMonitoringCondition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type ApigeeSecurityMonitoringCondition interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type ApigeeSecurityMonitoringCondition interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutIncludeAllResources(value *ApigeeSecurityMonitoringConditionIncludeAllResources)
 	PutTimeouts(value *ApigeeSecurityMonitoringConditionTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIncludeAllResources()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -514,7 +538,7 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
 func NewApigeeSecurityMonitoringCondition(scope constructs.Construct, id *string, config *ApigeeSecurityMonitoringConditionConfig) ApigeeSecurityMonitoringCondition {
 	_init_.Initialize()
 
@@ -532,7 +556,7 @@ func NewApigeeSecurityMonitoringCondition(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
 func NewApigeeSecurityMonitoringCondition_Override(a ApigeeSecurityMonitoringCondition, scope constructs.Construct, id *string, config *ApigeeSecurityMonitoringConditionConfig) {
 	_init_.Initialize()
 
@@ -572,6 +596,17 @@ func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeSecurityMonitoringCondition)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1038,6 +1073,14 @@ func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) PutTimeouts(value *ApigeeS
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ApigeeSecurityMonitoringCondition) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

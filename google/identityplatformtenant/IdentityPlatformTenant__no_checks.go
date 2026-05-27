@@ -111,6 +111,10 @@ func (j *jsiiProxy_IdentityPlatformTenant) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_IdentityPlatformTenant) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IdentityPlatformTenant) validateSetDisableAuthParameters(val interface{}) error {
 	return nil
 }

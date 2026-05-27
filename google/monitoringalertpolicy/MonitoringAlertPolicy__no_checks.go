@@ -119,6 +119,10 @@ func (j *jsiiProxy_MonitoringAlertPolicy) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringAlertPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringAlertPolicy) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

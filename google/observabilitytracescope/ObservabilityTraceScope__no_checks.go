@@ -103,6 +103,10 @@ func (j *jsiiProxy_ObservabilityTraceScope) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityTraceScope) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityTraceScope) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeNetworkPeering) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkPeering) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkPeering) validateSetExportCustomRoutesParameters(val interface{}) error {
 	return nil
 }

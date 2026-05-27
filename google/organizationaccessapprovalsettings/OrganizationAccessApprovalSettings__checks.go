@@ -387,6 +387,14 @@ func (j *jsiiProxy_OrganizationAccessApprovalSettings) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_OrganizationAccessApprovalSettings) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_OrganizationAccessApprovalSettings) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

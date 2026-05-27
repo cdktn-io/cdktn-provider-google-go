@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_service_binding google_network_services_service_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_service_binding google_network_services_service_binding}.
 type NetworkServicesServiceBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkServicesServiceBinding interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type NetworkServicesServiceBinding interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkServicesServiceBindingTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -209,6 +213,26 @@ func (j *jsiiProxy_NetworkServicesServiceBinding) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesServiceBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesServiceBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +529,7 @@ func (j *jsiiProxy_NetworkServicesServiceBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_service_binding google_network_services_service_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_service_binding google_network_services_service_binding} Resource.
 func NewNetworkServicesServiceBinding(scope constructs.Construct, id *string, config *NetworkServicesServiceBindingConfig) NetworkServicesServiceBinding {
 	_init_.Initialize()
 
@@ -523,7 +547,7 @@ func NewNetworkServicesServiceBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_service_binding google_network_services_service_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_service_binding google_network_services_service_binding} Resource.
 func NewNetworkServicesServiceBinding_Override(n NetworkServicesServiceBinding, scope constructs.Construct, id *string, config *NetworkServicesServiceBindingConfig) {
 	_init_.Initialize()
 
@@ -552,6 +576,17 @@ func (j *jsiiProxy_NetworkServicesServiceBinding)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesServiceBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1029,6 +1064,14 @@ func (n *jsiiProxy_NetworkServicesServiceBinding) PutTimeouts(value *NetworkServ
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesServiceBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

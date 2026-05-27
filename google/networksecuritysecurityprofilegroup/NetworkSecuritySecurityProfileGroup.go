@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_security_profile_group google_network_security_security_profile_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_security_profile_group google_network_security_security_profile_group}.
 type NetworkSecuritySecurityProfileGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -34,6 +34,9 @@ type NetworkSecuritySecurityProfileGroup interface {
 	CustomMirroringProfile() *string
 	SetCustomMirroringProfile(val *string)
 	CustomMirroringProfileInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type NetworkSecuritySecurityProfileGroup interface {
 	PutTimeouts(value *NetworkSecuritySecurityProfileGroupTimeouts)
 	ResetCustomInterceptProfile()
 	ResetCustomMirroringProfile()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) CustomMirroringProfileIn
 	_jsii_.Get(
 		j,
 		"customMirroringProfileInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -613,7 +637,7 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) UrlFilteringProfileInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_security_profile_group google_network_security_security_profile_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_security_profile_group google_network_security_security_profile_group} Resource.
 func NewNetworkSecuritySecurityProfileGroup(scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileGroupConfig) NetworkSecuritySecurityProfileGroup {
 	_init_.Initialize()
 
@@ -631,7 +655,7 @@ func NewNetworkSecuritySecurityProfileGroup(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_security_profile_group google_network_security_security_profile_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_security_profile_group google_network_security_security_profile_group} Resource.
 func NewNetworkSecuritySecurityProfileGroup_Override(n NetworkSecuritySecurityProfileGroup, scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileGroupConfig) {
 	_init_.Initialize()
 
@@ -682,6 +706,17 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup)SetCustomMirroringProfile
 	_jsii_.Set(
 		j,
 		"customMirroringProfile",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1196,6 +1231,14 @@ func (n *jsiiProxy_NetworkSecuritySecurityProfileGroup) ResetCustomMirroringProf
 	_jsii_.InvokeVoid(
 		n,
 		"resetCustomMirroringProfile",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecuritySecurityProfileGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

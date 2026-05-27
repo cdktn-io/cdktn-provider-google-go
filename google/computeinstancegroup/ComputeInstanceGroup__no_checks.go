@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeInstanceGroup) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

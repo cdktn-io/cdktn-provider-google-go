@@ -111,6 +111,10 @@ func (j *jsiiProxy_LoggingProjectSink) validateSetCustomWriterIdentityParameters
 	return nil
 }
 
+func (j *jsiiProxy_LoggingProjectSink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingProjectSink) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

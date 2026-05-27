@@ -389,6 +389,14 @@ func (j *jsiiProxy_HealthcarePipelineJob) validateSetDatasetParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_HealthcarePipelineJob) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_HealthcarePipelineJob) validateSetDisableLineageParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/org_policy_policy google_org_policy_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/org_policy_policy google_org_policy_policy}.
 type OrgPolicyPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type OrgPolicyPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type OrgPolicyPolicy interface {
 	PutDryRunSpec(value *OrgPolicyPolicyDryRunSpec)
 	PutSpec(value *OrgPolicyPolicySpec)
 	PutTimeouts(value *OrgPolicyPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDryRunSpec()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -192,6 +196,26 @@ func (j *jsiiProxy_OrgPolicyPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrgPolicyPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrgPolicyPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -448,7 +472,7 @@ func (j *jsiiProxy_OrgPolicyPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/org_policy_policy google_org_policy_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/org_policy_policy google_org_policy_policy} Resource.
 func NewOrgPolicyPolicy(scope constructs.Construct, id *string, config *OrgPolicyPolicyConfig) OrgPolicyPolicy {
 	_init_.Initialize()
 
@@ -466,7 +490,7 @@ func NewOrgPolicyPolicy(scope constructs.Construct, id *string, config *OrgPolic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/org_policy_policy google_org_policy_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/org_policy_policy google_org_policy_policy} Resource.
 func NewOrgPolicyPolicy_Override(o OrgPolicyPolicy, scope constructs.Construct, id *string, config *OrgPolicyPolicyConfig) {
 	_init_.Initialize()
 
@@ -495,6 +519,17 @@ func (j *jsiiProxy_OrgPolicyPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrgPolicyPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -961,6 +996,14 @@ func (o *jsiiProxy_OrgPolicyPolicy) PutTimeouts(value *OrgPolicyPolicyTimeouts) 
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OrgPolicyPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

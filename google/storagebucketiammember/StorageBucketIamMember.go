@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_iam_member google_storage_bucket_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_iam_member google_storage_bucket_iam_member}.
 type StorageBucketIamMember interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_StorageBucketIamMember) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_iam_member google_storage_bucket_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_iam_member google_storage_bucket_iam_member} Resource.
 func NewStorageBucketIamMember(scope constructs.Construct, id *string, config *StorageBucketIamMemberConfig) StorageBucketIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewStorageBucketIamMember(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_iam_member google_storage_bucket_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_iam_member google_storage_bucket_iam_member} Resource.
 func NewStorageBucketIamMember_Override(s StorageBucketIamMember, scope constructs.Construct, id *string, config *StorageBucketIamMemberConfig) {
 	_init_.Initialize()
 

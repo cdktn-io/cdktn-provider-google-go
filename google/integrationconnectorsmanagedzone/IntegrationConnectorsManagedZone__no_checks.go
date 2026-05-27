@@ -103,6 +103,10 @@ func (j *jsiiProxy_IntegrationConnectorsManagedZone) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_IntegrationConnectorsManagedZone) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IntegrationConnectorsManagedZone) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

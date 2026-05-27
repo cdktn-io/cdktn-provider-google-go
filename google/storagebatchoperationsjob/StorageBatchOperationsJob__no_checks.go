@@ -127,6 +127,14 @@ func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDeleteProtectionParamet
 	return nil
 }
 
+func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageBatchOperationsJob) validateSetIdParameters(val *string) error {
 	return nil
 }

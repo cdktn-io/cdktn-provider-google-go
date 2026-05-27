@@ -107,6 +107,10 @@ func (j *jsiiProxy_DocumentAiWarehouseDocumentSchema) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_DocumentAiWarehouseDocumentSchema) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DocumentAiWarehouseDocumentSchema) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

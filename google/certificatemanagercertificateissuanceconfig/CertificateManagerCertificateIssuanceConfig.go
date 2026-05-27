@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}.
 type CertificateManagerCertificateIssuanceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type CertificateManagerCertificateIssuanceConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type CertificateManagerCertificateIssuanceConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCertificateAuthorityConfig(value *CertificateManagerCertificateIssuanceConfigCertificateAuthorityConfig)
 	PutTimeouts(value *CertificateManagerCertificateIssuanceConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) CreateTime() *st
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -598,7 +622,7 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
 func NewCertificateManagerCertificateIssuanceConfig(scope constructs.Construct, id *string, config *CertificateManagerCertificateIssuanceConfigConfig) CertificateManagerCertificateIssuanceConfig {
 	_init_.Initialize()
 
@@ -616,7 +640,7 @@ func NewCertificateManagerCertificateIssuanceConfig(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource.
 func NewCertificateManagerCertificateIssuanceConfig_Override(c CertificateManagerCertificateIssuanceConfig, scope constructs.Construct, id *string, config *CertificateManagerCertificateIssuanceConfigConfig) {
 	_init_.Initialize()
 
@@ -645,6 +669,17 @@ func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig)SetCount(val inte
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CertificateManagerCertificateIssuanceConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1166,6 +1201,14 @@ func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfig) PutTimeouts(valu
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CertificateManagerCertificateIssuanceConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

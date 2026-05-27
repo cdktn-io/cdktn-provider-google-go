@@ -115,6 +115,10 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

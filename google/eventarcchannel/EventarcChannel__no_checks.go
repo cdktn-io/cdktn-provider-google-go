@@ -107,6 +107,10 @@ func (j *jsiiProxy_EventarcChannel) validateSetCryptoKeyNameParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_EventarcChannel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EventarcChannel) validateSetIdParameters(val *string) error {
 	return nil
 }

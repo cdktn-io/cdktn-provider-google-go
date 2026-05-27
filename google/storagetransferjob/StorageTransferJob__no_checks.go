@@ -123,6 +123,10 @@ func (j *jsiiProxy_StorageTransferJob) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_StorageTransferJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageTransferJob) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

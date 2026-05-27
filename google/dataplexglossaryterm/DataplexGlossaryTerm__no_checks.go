@@ -103,6 +103,10 @@ func (j *jsiiProxy_DataplexGlossaryTerm) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_DataplexGlossaryTerm) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexGlossaryTerm) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

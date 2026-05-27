@@ -348,6 +348,14 @@ func (j *jsiiProxy_NetworkSecurityMirroringDeployment) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityMirroringDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityMirroringDeployment) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

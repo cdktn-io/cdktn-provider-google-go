@@ -103,6 +103,10 @@ func (j *jsiiProxy_DataformTeamFolder) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_DataformTeamFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataformTeamFolder) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

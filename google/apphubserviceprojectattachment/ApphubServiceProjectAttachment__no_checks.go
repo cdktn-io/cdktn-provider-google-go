@@ -103,6 +103,10 @@ func (j *jsiiProxy_ApphubServiceProjectAttachment) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_ApphubServiceProjectAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApphubServiceProjectAttachment) validateSetIdParameters(val *string) error {
 	return nil
 }

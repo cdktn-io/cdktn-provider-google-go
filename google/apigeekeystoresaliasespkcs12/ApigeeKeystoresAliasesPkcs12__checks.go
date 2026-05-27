@@ -356,6 +356,14 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) validateSetEnvironmentParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

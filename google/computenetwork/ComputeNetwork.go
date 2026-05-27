@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network google_compute_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network google_compute_network}.
 type ComputeNetwork interface {
 	cdktn.TerraformResource
 	AutoCreateSubnetworks() interface{}
@@ -45,6 +45,9 @@ type ComputeNetwork interface {
 	DeleteDefaultRoutesOnCreate() interface{}
 	SetDeleteDefaultRoutesOnCreate(val interface{})
 	DeleteDefaultRoutesOnCreateInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -168,6 +171,7 @@ type ComputeNetwork interface {
 	ResetBgpInterRegionCost()
 	ResetDeleteBgpAlwaysCompareMed()
 	ResetDeleteDefaultRoutesOnCreate()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableUlaInternalIpv6()
 	ResetId()
@@ -364,6 +368,26 @@ func (j *jsiiProxy_ComputeNetwork) DeleteDefaultRoutesOnCreateInput() interface{
 	_jsii_.Get(
 		j,
 		"deleteDefaultRoutesOnCreateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetwork) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetwork) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -770,7 +794,7 @@ func (j *jsiiProxy_ComputeNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network google_compute_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network google_compute_network} Resource.
 func NewComputeNetwork(scope constructs.Construct, id *string, config *ComputeNetworkConfig) ComputeNetwork {
 	_init_.Initialize()
 
@@ -788,7 +812,7 @@ func NewComputeNetwork(scope constructs.Construct, id *string, config *ComputeNe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network google_compute_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network google_compute_network} Resource.
 func NewComputeNetwork_Override(c ComputeNetwork, scope constructs.Construct, id *string, config *ComputeNetworkConfig) {
 	_init_.Initialize()
 
@@ -883,6 +907,17 @@ func (j *jsiiProxy_ComputeNetwork)SetDeleteDefaultRoutesOnCreate(val interface{}
 	_jsii_.Set(
 		j,
 		"deleteDefaultRoutesOnCreate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNetwork)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1462,6 +1497,14 @@ func (c *jsiiProxy_ComputeNetwork) ResetDeleteDefaultRoutesOnCreate() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDeleteDefaultRoutesOnCreate",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNetwork) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

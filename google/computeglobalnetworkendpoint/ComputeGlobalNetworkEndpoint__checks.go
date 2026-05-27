@@ -348,6 +348,14 @@ func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetFqdnParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

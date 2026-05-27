@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeResizeRequest) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ComputeResizeRequest) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeResizeRequest) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

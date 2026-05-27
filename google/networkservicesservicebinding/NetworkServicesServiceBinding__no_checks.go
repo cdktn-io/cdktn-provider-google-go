@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkServicesServiceBinding) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesServiceBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesServiceBinding) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

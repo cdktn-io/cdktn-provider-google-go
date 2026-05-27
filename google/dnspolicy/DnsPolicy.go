@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dns_policy google_dns_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dns_policy google_dns_policy}.
 type DnsPolicy interface {
 	cdktn.TerraformResource
 	AlternativeNameServerConfig() DnsPolicyAlternativeNameServerConfigOutputReference
@@ -29,6 +29,9 @@ type DnsPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type DnsPolicy interface {
 	PutNetworks(value interface{})
 	PutTimeouts(value *DnsPolicyTimeouts)
 	ResetAlternativeNameServerConfig()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDns64Config()
 	ResetEnableInboundForwarding()
@@ -228,6 +232,26 @@ func (j *jsiiProxy_DnsPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -534,7 +558,7 @@ func (j *jsiiProxy_DnsPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dns_policy google_dns_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dns_policy google_dns_policy} Resource.
 func NewDnsPolicy(scope constructs.Construct, id *string, config *DnsPolicyConfig) DnsPolicy {
 	_init_.Initialize()
 
@@ -552,7 +576,7 @@ func NewDnsPolicy(scope constructs.Construct, id *string, config *DnsPolicyConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dns_policy google_dns_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dns_policy google_dns_policy} Resource.
 func NewDnsPolicy_Override(d DnsPolicy, scope constructs.Construct, id *string, config *DnsPolicyConfig) {
 	_init_.Initialize()
 
@@ -581,6 +605,17 @@ func (j *jsiiProxy_DnsPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DnsPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1098,6 +1133,14 @@ func (d *jsiiProxy_DnsPolicy) ResetAlternativeNameServerConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAlternativeNameServerConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DnsPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

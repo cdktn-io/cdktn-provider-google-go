@@ -115,6 +115,10 @@ func (j *jsiiProxy_ChronicleDashboardChart) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ChronicleDashboardChart) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ChronicleDashboardChart) validateSetIdParameters(val *string) error {
 	return nil
 }

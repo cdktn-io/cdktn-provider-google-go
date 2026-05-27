@@ -103,6 +103,10 @@ func (j *jsiiProxy_BeyondcorpAppGateway) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_BeyondcorpAppGateway) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BeyondcorpAppGateway) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_network_policy google_vmwareengine_network_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_network_policy google_vmwareengine_network_policy}.
 type VmwareengineNetworkPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type VmwareengineNetworkPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type VmwareengineNetworkPolicy interface {
 	PutExternalIp(value *VmwareengineNetworkPolicyExternalIp)
 	PutInternetAccess(value *VmwareengineNetworkPolicyInternetAccess)
 	PutTimeouts(value *VmwareengineNetworkPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExternalIp()
 	ResetId()
@@ -219,6 +223,26 @@ func (j *jsiiProxy_VmwareengineNetworkPolicy) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineNetworkPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineNetworkPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -575,7 +599,7 @@ func (j *jsiiProxy_VmwareengineNetworkPolicy) VmwareEngineNetworkInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
 func NewVmwareengineNetworkPolicy(scope constructs.Construct, id *string, config *VmwareengineNetworkPolicyConfig) VmwareengineNetworkPolicy {
 	_init_.Initialize()
 
@@ -593,7 +617,7 @@ func NewVmwareengineNetworkPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
 func NewVmwareengineNetworkPolicy_Override(v VmwareengineNetworkPolicy, scope constructs.Construct, id *string, config *VmwareengineNetworkPolicyConfig) {
 	_init_.Initialize()
 
@@ -622,6 +646,17 @@ func (j *jsiiProxy_VmwareengineNetworkPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VmwareengineNetworkPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1132,6 +1167,14 @@ func (v *jsiiProxy_VmwareengineNetworkPolicy) PutTimeouts(value *VmwareengineNet
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VmwareengineNetworkPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

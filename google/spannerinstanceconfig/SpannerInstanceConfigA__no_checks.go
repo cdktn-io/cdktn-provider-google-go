@@ -111,6 +111,10 @@ func (j *jsiiProxy_SpannerInstanceConfigA) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_SpannerInstanceConfigA) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SpannerInstanceConfigA) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_ComputeSnapshot) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeSnapshot) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeSnapshot) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

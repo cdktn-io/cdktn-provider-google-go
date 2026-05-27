@@ -119,6 +119,10 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControl) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_CloudSecurityComplianceCloudControl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudSecurityComplianceCloudControl) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

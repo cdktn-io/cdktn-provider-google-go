@@ -103,6 +103,10 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) validateSetGeminiGcpEnablementSettingIdParameters(val *string) error {
 	return nil
 }

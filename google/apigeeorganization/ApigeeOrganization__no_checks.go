@@ -131,6 +131,10 @@ func (j *jsiiProxy_ApigeeOrganization) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeOrganization) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeOrganization) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -127,6 +127,10 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabase) validateSetDatabaseParamete
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseAutonomousDatabase) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleDatabaseAutonomousDatabase) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

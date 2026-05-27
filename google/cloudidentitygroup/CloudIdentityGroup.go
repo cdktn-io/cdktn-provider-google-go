@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_identity_group google_cloud_identity_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_identity_group google_cloud_identity_group}.
 type CloudIdentityGroup interface {
 	cdktn.TerraformResource
 	AdditionalGroupKeys() CloudIdentityGroupAdditionalGroupKeysList
@@ -29,6 +29,9 @@ type CloudIdentityGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type CloudIdentityGroup interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutGroupKey(value *CloudIdentityGroupGroupKey)
 	PutTimeouts(value *CloudIdentityGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_CloudIdentityGroup) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudIdentityGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudIdentityGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -528,7 +552,7 @@ func (j *jsiiProxy_CloudIdentityGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_identity_group google_cloud_identity_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_identity_group google_cloud_identity_group} Resource.
 func NewCloudIdentityGroup(scope constructs.Construct, id *string, config *CloudIdentityGroupConfig) CloudIdentityGroup {
 	_init_.Initialize()
 
@@ -546,7 +570,7 @@ func NewCloudIdentityGroup(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_identity_group google_cloud_identity_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_identity_group google_cloud_identity_group} Resource.
 func NewCloudIdentityGroup_Override(c CloudIdentityGroup, scope constructs.Construct, id *string, config *CloudIdentityGroupConfig) {
 	_init_.Initialize()
 
@@ -575,6 +599,17 @@ func (j *jsiiProxy_CloudIdentityGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudIdentityGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1063,6 +1098,14 @@ func (c *jsiiProxy_CloudIdentityGroup) PutTimeouts(value *CloudIdentityGroupTime
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CloudIdentityGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

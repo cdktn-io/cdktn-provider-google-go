@@ -111,6 +111,10 @@ func (j *jsiiProxy_DataPipelinePipeline) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_DataPipelinePipeline) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataPipelinePipeline) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

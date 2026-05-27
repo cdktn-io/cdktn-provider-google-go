@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_folder_sink google_logging_folder_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_folder_sink google_logging_folder_sink}.
 type LoggingFolderSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() LoggingFolderSinkBigqueryOptionsOutputReference
@@ -29,6 +29,9 @@ type LoggingFolderSink interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type LoggingFolderSink interface {
 	PutBigqueryOptions(value *LoggingFolderSinkBigqueryOptions)
 	PutExclusions(value interface{})
 	ResetBigqueryOptions()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetExclusions()
@@ -231,6 +235,26 @@ func (j *jsiiProxy_LoggingFolderSink) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingFolderSink) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingFolderSink) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -567,7 +591,7 @@ func (j *jsiiProxy_LoggingFolderSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
 func NewLoggingFolderSink(scope constructs.Construct, id *string, config *LoggingFolderSinkConfig) LoggingFolderSink {
 	_init_.Initialize()
 
@@ -585,7 +609,7 @@ func NewLoggingFolderSink(scope constructs.Construct, id *string, config *Loggin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_folder_sink google_logging_folder_sink} Resource.
 func NewLoggingFolderSink_Override(l LoggingFolderSink, scope constructs.Construct, id *string, config *LoggingFolderSinkConfig) {
 	_init_.Initialize()
 
@@ -614,6 +638,17 @@ func (j *jsiiProxy_LoggingFolderSink)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LoggingFolderSink)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (l *jsiiProxy_LoggingFolderSink) ResetBigqueryOptions() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetBigqueryOptions",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LoggingFolderSink) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

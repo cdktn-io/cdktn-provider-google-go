@@ -167,6 +167,10 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) validateSetDeleteServiceOnDestro
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AppEngineFlexibleAppVersion) validateSetEnvVariablesParameters(val *map[string]*string) error {
 	return nil
 }

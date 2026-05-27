@@ -356,6 +356,14 @@ func (j *jsiiProxy_BiglakeIcebergNamespace) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_BiglakeIcebergNamespace) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BiglakeIcebergNamespace) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

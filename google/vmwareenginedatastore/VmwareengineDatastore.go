@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore}.
 type VmwareengineDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type VmwareengineDatastore interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type VmwareengineDatastore interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutNfsDatastore(value *VmwareengineDatastoreNfsDatastore)
 	PutTimeouts(value *VmwareengineDatastoreTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -219,6 +223,26 @@ func (j *jsiiProxy_VmwareengineDatastore) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineDatastore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineDatastore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -515,7 +539,7 @@ func (j *jsiiProxy_VmwareengineDatastore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewVmwareengineDatastore(scope constructs.Construct, id *string, config *VmwareengineDatastoreConfig) VmwareengineDatastore {
 	_init_.Initialize()
 
@@ -533,7 +557,7 @@ func NewVmwareengineDatastore(scope constructs.Construct, id *string, config *Vm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewVmwareengineDatastore_Override(v VmwareengineDatastore, scope constructs.Construct, id *string, config *VmwareengineDatastoreConfig) {
 	_init_.Initialize()
 
@@ -562,6 +586,17 @@ func (j *jsiiProxy_VmwareengineDatastore)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VmwareengineDatastore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1039,6 +1074,14 @@ func (v *jsiiProxy_VmwareengineDatastore) PutTimeouts(value *VmwareengineDatasto
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VmwareengineDatastore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

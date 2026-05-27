@@ -348,6 +348,14 @@ func (j *jsiiProxy_GeminiLoggingSettingBinding) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GeminiLoggingSettingBinding) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GeminiLoggingSettingBinding) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeTargetGrpcProxy) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_ComputeTargetGrpcProxy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeTargetGrpcProxy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

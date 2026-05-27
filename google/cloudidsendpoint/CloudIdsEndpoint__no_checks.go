@@ -103,6 +103,10 @@ func (j *jsiiProxy_CloudIdsEndpoint) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_CloudIdsEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudIdsEndpoint) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

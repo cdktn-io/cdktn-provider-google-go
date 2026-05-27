@@ -107,6 +107,10 @@ func (j *jsiiProxy_StorageTransferAgentPool) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_StorageTransferAgentPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageTransferAgentPool) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

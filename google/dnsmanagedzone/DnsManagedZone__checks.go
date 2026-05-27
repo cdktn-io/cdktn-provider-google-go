@@ -403,6 +403,14 @@ func (j *jsiiProxy_DnsManagedZone) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_DnsManagedZone) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DnsManagedZone) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

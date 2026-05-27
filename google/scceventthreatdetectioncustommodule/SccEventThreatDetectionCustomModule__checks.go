@@ -356,6 +356,14 @@ func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

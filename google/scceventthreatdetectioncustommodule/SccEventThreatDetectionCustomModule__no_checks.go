@@ -107,6 +107,10 @@ func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccEventThreatDetectionCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

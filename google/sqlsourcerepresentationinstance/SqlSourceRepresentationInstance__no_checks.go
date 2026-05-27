@@ -119,6 +119,10 @@ func (j *jsiiProxy_SqlSourceRepresentationInstance) validateSetDatabaseVersionPa
 	return nil
 }
 
+func (j *jsiiProxy_SqlSourceRepresentationInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlSourceRepresentationInstance) validateSetDumpFilePathParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_DataformFolder) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_DataformFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataformFolder) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

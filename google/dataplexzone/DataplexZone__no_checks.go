@@ -111,6 +111,10 @@ func (j *jsiiProxy_DataplexZone) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_DataplexZone) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexZone) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

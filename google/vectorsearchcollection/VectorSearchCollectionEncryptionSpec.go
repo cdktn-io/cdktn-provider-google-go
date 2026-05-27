@@ -11,7 +11,7 @@ type VectorSearchCollectionEncryptionSpec struct {
 	// the format
 	// 'projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vector_search_collection#crypto_key_name VectorSearchCollection#crypto_key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vector_search_collection#crypto_key_name VectorSearchCollection#crypto_key_name}
 	CryptoKeyName *string `field:"required" json:"cryptoKeyName" yaml:"cryptoKeyName"`
 }
 

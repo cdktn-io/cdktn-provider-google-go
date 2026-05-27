@@ -107,6 +107,10 @@ func (j *jsiiProxy_MonitoringDashboard) validateSetDashboardJsonParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringDashboard) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringDashboard) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_DialogflowCxSecuritySettings) validateSetDeidentifyTemplatePa
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowCxSecuritySettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowCxSecuritySettings) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel google_compute_vpn_tunnel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel google_compute_vpn_tunnel}.
 type ComputeVpnTunnel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type ComputeVpnTunnel interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -182,6 +185,7 @@ type ComputeVpnTunnel interface {
 	PutParams(value *ComputeVpnTunnelParams)
 	PutTimeouts(value *ComputeVpnTunnelTimeouts)
 	ResetCipherSuite()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIkeVersion()
@@ -298,6 +302,26 @@ func (j *jsiiProxy_ComputeVpnTunnel) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeVpnTunnel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeVpnTunnel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -934,7 +958,7 @@ func (j *jsiiProxy_ComputeVpnTunnel) VpnGatewayInterfaceInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel google_compute_vpn_tunnel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel google_compute_vpn_tunnel} Resource.
 func NewComputeVpnTunnel(scope constructs.Construct, id *string, config *ComputeVpnTunnelConfig) ComputeVpnTunnel {
 	_init_.Initialize()
 
@@ -952,7 +976,7 @@ func NewComputeVpnTunnel(scope constructs.Construct, id *string, config *Compute
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_vpn_tunnel google_compute_vpn_tunnel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_vpn_tunnel google_compute_vpn_tunnel} Resource.
 func NewComputeVpnTunnel_Override(c ComputeVpnTunnel, scope constructs.Construct, id *string, config *ComputeVpnTunnelConfig) {
 	_init_.Initialize()
 
@@ -981,6 +1005,17 @@ func (j *jsiiProxy_ComputeVpnTunnel)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeVpnTunnel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1641,6 +1676,14 @@ func (c *jsiiProxy_ComputeVpnTunnel) ResetCipherSuite() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetCipherSuite",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeVpnTunnel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

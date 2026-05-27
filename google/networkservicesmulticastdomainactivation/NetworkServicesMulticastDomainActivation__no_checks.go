@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) validateSetCountPar
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

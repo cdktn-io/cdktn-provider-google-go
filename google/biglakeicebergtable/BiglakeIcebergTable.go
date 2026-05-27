@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table}.
 type BiglakeIcebergTable interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -30,6 +30,9 @@ type BiglakeIcebergTable interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type BiglakeIcebergTable interface {
 	PutPartitionSpec(value *BiglakeIcebergTablePartitionSpec)
 	PutSchema(value *BiglakeIcebergTableSchema)
 	PutTimeouts(value *BiglakeIcebergTableTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -225,6 +229,26 @@ func (j *jsiiProxy_BiglakeIcebergTable) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeIcebergTable) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeIcebergTable) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -531,7 +555,7 @@ func (j *jsiiProxy_BiglakeIcebergTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewBiglakeIcebergTable(scope constructs.Construct, id *string, config *BiglakeIcebergTableConfig) BiglakeIcebergTable {
 	_init_.Initialize()
 
@@ -549,7 +573,7 @@ func NewBiglakeIcebergTable(scope constructs.Construct, id *string, config *Bigl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewBiglakeIcebergTable_Override(b BiglakeIcebergTable, scope constructs.Construct, id *string, config *BiglakeIcebergTableConfig) {
 	_init_.Initialize()
 
@@ -589,6 +613,17 @@ func (j *jsiiProxy_BiglakeIcebergTable)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BiglakeIcebergTable)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1088,6 +1123,14 @@ func (b *jsiiProxy_BiglakeIcebergTable) PutTimeouts(value *BiglakeIcebergTableTi
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BiglakeIcebergTable) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

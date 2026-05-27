@@ -119,6 +119,10 @@ func (j *jsiiProxy_BigtableAppProfile) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_BigtableAppProfile) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigtableAppProfile) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

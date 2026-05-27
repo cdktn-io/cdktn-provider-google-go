@@ -103,6 +103,10 @@ func (j *jsiiProxy_OsLoginSshPublicKey) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_OsLoginSshPublicKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OsLoginSshPublicKey) validateSetExpirationTimeUsecParameters(val *string) error {
 	return nil
 }

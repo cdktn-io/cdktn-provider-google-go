@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_url_map google_compute_url_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_url_map google_compute_url_map}.
 type ComputeUrlMap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -37,6 +37,9 @@ type ComputeUrlMap interface {
 	DefaultServiceInput() *string
 	DefaultUrlRedirect() ComputeUrlMapDefaultUrlRedirectOutputReference
 	DefaultUrlRedirectInput() *ComputeUrlMapDefaultUrlRedirect
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type ComputeUrlMap interface {
 	ResetDefaultRouteAction()
 	ResetDefaultService()
 	ResetDefaultUrlRedirect()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHeaderAction()
 	ResetHostRule()
@@ -314,6 +318,26 @@ func (j *jsiiProxy_ComputeUrlMap) DefaultUrlRedirectInput() *ComputeUrlMapDefaul
 	_jsii_.Get(
 		j,
 		"defaultUrlRedirectInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeUrlMap) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeUrlMap) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -650,7 +674,7 @@ func (j *jsiiProxy_ComputeUrlMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_url_map google_compute_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_url_map google_compute_url_map} Resource.
 func NewComputeUrlMap(scope constructs.Construct, id *string, config *ComputeUrlMapConfig) ComputeUrlMap {
 	_init_.Initialize()
 
@@ -668,7 +692,7 @@ func NewComputeUrlMap(scope constructs.Construct, id *string, config *ComputeUrl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_url_map google_compute_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_url_map google_compute_url_map} Resource.
 func NewComputeUrlMap_Override(c ComputeUrlMap, scope constructs.Construct, id *string, config *ComputeUrlMapConfig) {
 	_init_.Initialize()
 
@@ -708,6 +732,17 @@ func (j *jsiiProxy_ComputeUrlMap)SetDefaultService(val *string) {
 	_jsii_.Set(
 		j,
 		"defaultService",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeUrlMap)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1271,6 +1306,14 @@ func (c *jsiiProxy_ComputeUrlMap) ResetDefaultUrlRedirect() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDefaultUrlRedirect",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeUrlMap) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

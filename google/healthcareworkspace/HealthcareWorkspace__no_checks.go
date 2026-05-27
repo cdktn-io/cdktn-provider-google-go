@@ -111,6 +111,10 @@ func (j *jsiiProxy_HealthcareWorkspace) validateSetDatasetParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_HealthcareWorkspace) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HealthcareWorkspace) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_BigtableInstance) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_BigtableInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigtableInstance) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

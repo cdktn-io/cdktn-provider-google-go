@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_run_service google_cloud_run_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_run_service google_cloud_run_service}.
 type CloudRunService interface {
 	cdktn.TerraformResource
 	AutogenerateRevisionName() interface{}
@@ -30,6 +30,9 @@ type CloudRunService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type CloudRunService interface {
 	PutTimeouts(value *CloudRunServiceTimeouts)
 	PutTraffic(value interface{})
 	ResetAutogenerateRevisionName()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -224,6 +228,26 @@ func (j *jsiiProxy_CloudRunService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -520,7 +544,7 @@ func (j *jsiiProxy_CloudRunService) TrafficInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_run_service google_cloud_run_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_run_service google_cloud_run_service} Resource.
 func NewCloudRunService(scope constructs.Construct, id *string, config *CloudRunServiceConfig) CloudRunService {
 	_init_.Initialize()
 
@@ -538,7 +562,7 @@ func NewCloudRunService(scope constructs.Construct, id *string, config *CloudRun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_run_service google_cloud_run_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_run_service google_cloud_run_service} Resource.
 func NewCloudRunService_Override(c CloudRunService, scope constructs.Construct, id *string, config *CloudRunServiceConfig) {
 	_init_.Initialize()
 
@@ -578,6 +602,17 @@ func (j *jsiiProxy_CloudRunService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1073,6 +1108,14 @@ func (c *jsiiProxy_CloudRunService) ResetAutogenerateRevisionName() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAutogenerateRevisionName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud}.
 type VmwareenginePrivateCloud interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type VmwareenginePrivateCloud interface {
 	DeletionDelayHours() *float64
 	SetDeletionDelayHours(val *float64)
 	DeletionDelayHoursInput() *float64
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type VmwareenginePrivateCloud interface {
 	PutNetworkConfig(value *VmwareenginePrivateCloudNetworkConfig)
 	PutTimeouts(value *VmwareenginePrivateCloudTimeouts)
 	ResetDeletionDelayHours()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -258,6 +262,26 @@ func (j *jsiiProxy_VmwareenginePrivateCloud) DeletionDelayHoursInput() *float64 
 	_jsii_.Get(
 		j,
 		"deletionDelayHoursInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareenginePrivateCloud) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareenginePrivateCloud) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -654,7 +678,7 @@ func (j *jsiiProxy_VmwareenginePrivateCloud) Vcenter() VmwareenginePrivateCloudV
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
 func NewVmwareenginePrivateCloud(scope constructs.Construct, id *string, config *VmwareenginePrivateCloudConfig) VmwareenginePrivateCloud {
 	_init_.Initialize()
 
@@ -672,7 +696,7 @@ func NewVmwareenginePrivateCloud(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
 func NewVmwareenginePrivateCloud_Override(v VmwareenginePrivateCloud, scope constructs.Construct, id *string, config *VmwareenginePrivateCloudConfig) {
 	_init_.Initialize()
 
@@ -712,6 +736,17 @@ func (j *jsiiProxy_VmwareenginePrivateCloud)SetDeletionDelayHours(val *float64) 
 	_jsii_.Set(
 		j,
 		"deletionDelayHours",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VmwareenginePrivateCloud)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1229,6 +1264,14 @@ func (v *jsiiProxy_VmwareenginePrivateCloud) ResetDeletionDelayHours() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetDeletionDelayHours",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VmwareenginePrivateCloud) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

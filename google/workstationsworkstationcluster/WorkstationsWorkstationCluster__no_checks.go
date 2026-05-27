@@ -115,6 +115,10 @@ func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }
@@ -155,7 +159,15 @@ func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetTagsParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetWorkstationAuthorizationUrlParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetWorkstationClusterIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_WorkstationsWorkstationCluster) validateSetWorkstationLaunchUrlParameters(val *string) error {
 	return nil
 }
 

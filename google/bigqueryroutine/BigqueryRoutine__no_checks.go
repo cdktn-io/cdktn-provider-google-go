@@ -127,6 +127,10 @@ func (j *jsiiProxy_BigqueryRoutine) validateSetDefinitionBodyParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryRoutine) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryRoutine) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

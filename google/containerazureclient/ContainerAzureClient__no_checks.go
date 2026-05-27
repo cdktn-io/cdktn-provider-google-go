@@ -107,6 +107,10 @@ func (j *jsiiProxy_ContainerAzureClient) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAzureClient) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAzureClient) validateSetIdParameters(val *string) error {
 	return nil
 }

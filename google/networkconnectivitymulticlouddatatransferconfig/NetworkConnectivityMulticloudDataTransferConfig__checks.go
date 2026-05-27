@@ -379,6 +379,14 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

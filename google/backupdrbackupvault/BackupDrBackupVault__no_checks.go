@@ -131,6 +131,10 @@ func (j *jsiiProxy_BackupDrBackupVault) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_BackupDrBackupVault) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BackupDrBackupVault) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

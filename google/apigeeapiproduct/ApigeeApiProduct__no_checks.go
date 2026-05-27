@@ -127,6 +127,10 @@ func (j *jsiiProxy_ApigeeApiProduct) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeApiProduct) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeApiProduct) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

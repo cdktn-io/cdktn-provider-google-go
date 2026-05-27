@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12}.
 type ApigeeKeystoresAliasesPkcs12 interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -31,6 +31,9 @@ type ApigeeKeystoresAliasesPkcs12 interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type ApigeeKeystoresAliasesPkcs12 interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ApigeeKeystoresAliasesPkcs12Timeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -231,6 +235,26 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -527,7 +551,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12} Resource.
 func NewApigeeKeystoresAliasesPkcs12(scope constructs.Construct, id *string, config *ApigeeKeystoresAliasesPkcs12Config) ApigeeKeystoresAliasesPkcs12 {
 	_init_.Initialize()
 
@@ -545,7 +569,7 @@ func NewApigeeKeystoresAliasesPkcs12(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_keystores_aliases_pkcs12 google_apigee_keystores_aliases_pkcs12} Resource.
 func NewApigeeKeystoresAliasesPkcs12_Override(a ApigeeKeystoresAliasesPkcs12, scope constructs.Construct, id *string, config *ApigeeKeystoresAliasesPkcs12Config) {
 	_init_.Initialize()
 
@@ -585,6 +609,17 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1073,6 +1108,14 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12) PutTimeouts(value *ApigeeKeysto
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ApigeeKeystoresAliasesPkcs12) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

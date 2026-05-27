@@ -111,6 +111,10 @@ func (j *jsiiProxy_LoggingLinkedDataset) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_LoggingLinkedDataset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingLinkedDataset) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

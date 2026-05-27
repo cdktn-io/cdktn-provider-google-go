@@ -107,6 +107,10 @@ func (j *jsiiProxy_DataCatalogTaxonomy) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_DataCatalogTaxonomy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataCatalogTaxonomy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

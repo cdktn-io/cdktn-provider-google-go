@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_namespace google_gke_hub_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_namespace google_gke_hub_namespace}.
 type GkeHubNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GkeHubNamespace interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GkeHubNamespace interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GkeHubNamespaceTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetNamespaceLabels()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_GkeHubNamespace) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubNamespace) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubNamespace) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -572,7 +596,7 @@ func (j *jsiiProxy_GkeHubNamespace) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
 func NewGkeHubNamespace(scope constructs.Construct, id *string, config *GkeHubNamespaceConfig) GkeHubNamespace {
 	_init_.Initialize()
 
@@ -590,7 +614,7 @@ func NewGkeHubNamespace(scope constructs.Construct, id *string, config *GkeHubNa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
 func NewGkeHubNamespace_Override(g GkeHubNamespace, scope constructs.Construct, id *string, config *GkeHubNamespaceConfig) {
 	_init_.Initialize()
 
@@ -619,6 +643,17 @@ func (j *jsiiProxy_GkeHubNamespace)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeHubNamespace)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1107,6 +1142,14 @@ func (g *jsiiProxy_GkeHubNamespace) PutTimeouts(value *GkeHubNamespaceTimeouts) 
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GkeHubNamespace) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

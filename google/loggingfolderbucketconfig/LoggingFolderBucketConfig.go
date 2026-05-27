@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config}.
 type LoggingFolderBucketConfig interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -32,6 +32,9 @@ type LoggingFolderBucketConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type LoggingFolderBucketConfig interface {
 	PutCmekSettings(value *LoggingFolderBucketConfigCmekSettings)
 	PutIndexConfigs(value interface{})
 	ResetCmekSettings()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIndexConfigs()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_LoggingFolderBucketConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingFolderBucketConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingFolderBucketConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_LoggingFolderBucketConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
 func NewLoggingFolderBucketConfig(scope constructs.Construct, id *string, config *LoggingFolderBucketConfigConfig) LoggingFolderBucketConfig {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewLoggingFolderBucketConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
 func NewLoggingFolderBucketConfig_Override(l LoggingFolderBucketConfig, scope constructs.Construct, id *string, config *LoggingFolderBucketConfigConfig) {
 	_init_.Initialize()
 
@@ -564,6 +588,17 @@ func (j *jsiiProxy_LoggingFolderBucketConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LoggingFolderBucketConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1048,6 +1083,14 @@ func (l *jsiiProxy_LoggingFolderBucketConfig) ResetCmekSettings() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetCmekSettings",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LoggingFolderBucketConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

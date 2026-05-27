@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_db_system google_oracle_database_db_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_db_system google_oracle_database_db_system}.
 type OracleDatabaseDbSystem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type OracleDatabaseDbSystem interface {
 	DbSystemId() *string
 	SetDbSystemId(val *string)
 	DbSystemIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -146,6 +149,7 @@ type OracleDatabaseDbSystem interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProperties(value *OracleDatabaseDbSystemProperties)
 	PutTimeouts(value *OracleDatabaseDbSystemTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetGcpOracleZone()
 	ResetId()
@@ -249,6 +253,26 @@ func (j *jsiiProxy_OracleDatabaseDbSystem) DbSystemIdInput() *string {
 	_jsii_.Get(
 		j,
 		"dbSystemIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseDbSystem) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseDbSystem) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -645,7 +669,7 @@ func (j *jsiiProxy_OracleDatabaseDbSystem) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_db_system google_oracle_database_db_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_db_system google_oracle_database_db_system} Resource.
 func NewOracleDatabaseDbSystem(scope constructs.Construct, id *string, config *OracleDatabaseDbSystemConfig) OracleDatabaseDbSystem {
 	_init_.Initialize()
 
@@ -663,7 +687,7 @@ func NewOracleDatabaseDbSystem(scope constructs.Construct, id *string, config *O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_db_system google_oracle_database_db_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_db_system google_oracle_database_db_system} Resource.
 func NewOracleDatabaseDbSystem_Override(o OracleDatabaseDbSystem, scope constructs.Construct, id *string, config *OracleDatabaseDbSystemConfig) {
 	_init_.Initialize()
 
@@ -703,6 +727,17 @@ func (j *jsiiProxy_OracleDatabaseDbSystem)SetDbSystemId(val *string) {
 	_jsii_.Set(
 		j,
 		"dbSystemId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseDbSystem)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1224,6 +1259,14 @@ func (o *jsiiProxy_OracleDatabaseDbSystem) PutTimeouts(value *OracleDatabaseDbSy
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseDbSystem) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

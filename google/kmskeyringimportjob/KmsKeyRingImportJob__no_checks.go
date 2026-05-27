@@ -103,6 +103,10 @@ func (j *jsiiProxy_KmsKeyRingImportJob) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_KmsKeyRingImportJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_KmsKeyRingImportJob) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_AccessContextManagerAccessPolicy) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_AccessContextManagerAccessPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AccessContextManagerAccessPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

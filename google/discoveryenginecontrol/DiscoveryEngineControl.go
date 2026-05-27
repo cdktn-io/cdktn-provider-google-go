@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_control google_discovery_engine_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_control google_discovery_engine_control}.
 type DiscoveryEngineControl interface {
 	cdktn.TerraformResource
 	BoostAction() DiscoveryEngineControlBoostActionOutputReference
@@ -37,6 +37,9 @@ type DiscoveryEngineControl interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -156,6 +159,7 @@ type DiscoveryEngineControl interface {
 	ResetBoostAction()
 	ResetCollectionId()
 	ResetConditions()
+	ResetDeletionPolicy()
 	ResetFilterAction()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -309,6 +313,26 @@ func (j *jsiiProxy_DiscoveryEngineControl) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineControl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineControl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -685,7 +709,7 @@ func (j *jsiiProxy_DiscoveryEngineControl) UseCasesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
 func NewDiscoveryEngineControl(scope constructs.Construct, id *string, config *DiscoveryEngineControlConfig) DiscoveryEngineControl {
 	_init_.Initialize()
 
@@ -703,7 +727,7 @@ func NewDiscoveryEngineControl(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
 func NewDiscoveryEngineControl_Override(d DiscoveryEngineControl, scope constructs.Construct, id *string, config *DiscoveryEngineControlConfig) {
 	_init_.Initialize()
 
@@ -754,6 +778,17 @@ func (j *jsiiProxy_DiscoveryEngineControl)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineControl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1331,6 +1366,14 @@ func (d *jsiiProxy_DiscoveryEngineControl) ResetConditions() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetConditions",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineControl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

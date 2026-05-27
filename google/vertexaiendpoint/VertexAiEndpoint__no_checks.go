@@ -119,6 +119,10 @@ func (j *jsiiProxy_VertexAiEndpoint) validateSetDedicatedEndpointEnabledParamete
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiEndpoint) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -400,6 +400,14 @@ func (j *jsiiProxy_ComputeReservation) validateSetDeleteAtTimeParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_ComputeReservation) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeReservation) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

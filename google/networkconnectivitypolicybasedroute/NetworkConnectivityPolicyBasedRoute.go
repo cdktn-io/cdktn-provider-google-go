@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
 type NetworkConnectivityPolicyBasedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkConnectivityPolicyBasedRoute interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type NetworkConnectivityPolicyBasedRoute interface {
 	PutInterconnectAttachment(value *NetworkConnectivityPolicyBasedRouteInterconnectAttachment)
 	PutTimeouts(value *NetworkConnectivityPolicyBasedRouteTimeouts)
 	PutVirtualMachine(value *NetworkConnectivityPolicyBasedRouteVirtualMachine)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInterconnectAttachment()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -670,7 +694,7 @@ func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) Warnings() NetworkConnec
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id *string, config *NetworkConnectivityPolicyBasedRouteConfig) NetworkConnectivityPolicyBasedRoute {
 	_init_.Initialize()
 
@@ -688,7 +712,7 @@ func NewNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewNetworkConnectivityPolicyBasedRoute_Override(n NetworkConnectivityPolicyBasedRoute, scope constructs.Construct, id *string, config *NetworkConnectivityPolicyBasedRouteConfig) {
 	_init_.Initialize()
 
@@ -717,6 +741,17 @@ func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1260,6 +1295,14 @@ func (n *jsiiProxy_NetworkConnectivityPolicyBasedRoute) PutVirtualMachine(value 
 		n,
 		"putVirtualMachine",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkConnectivityPolicyBasedRoute) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

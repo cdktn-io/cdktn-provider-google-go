@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version}.
 type AppEngineFlexibleAppVersion interface {
 	cdktn.TerraformResource
 	ApiConfig() AppEngineFlexibleAppVersionApiConfigOutputReference
@@ -40,6 +40,9 @@ type AppEngineFlexibleAppVersion interface {
 	DeleteServiceOnDestroy() interface{}
 	SetDeleteServiceOnDestroy(val interface{})
 	DeleteServiceOnDestroyInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -206,6 +209,7 @@ type AppEngineFlexibleAppVersion interface {
 	ResetBetaSettings()
 	ResetDefaultExpiration()
 	ResetDeleteServiceOnDestroy()
+	ResetDeletionPolicy()
 	ResetDeployment()
 	ResetEndpointsApiService()
 	ResetEntrypoint()
@@ -394,6 +398,26 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) DeleteServiceOnDestroyInput() in
 	_jsii_.Get(
 		j,
 		"deleteServiceOnDestroyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineFlexibleAppVersion) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1070,7 +1094,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) VpcAccessConnectorInput() *AppEn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
 func NewAppEngineFlexibleAppVersion(scope constructs.Construct, id *string, config *AppEngineFlexibleAppVersionConfig) AppEngineFlexibleAppVersion {
 	_init_.Initialize()
 
@@ -1088,7 +1112,7 @@ func NewAppEngineFlexibleAppVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
 func NewAppEngineFlexibleAppVersion_Override(a AppEngineFlexibleAppVersion, scope constructs.Construct, id *string, config *AppEngineFlexibleAppVersionConfig) {
 	_init_.Initialize()
 
@@ -1150,6 +1174,17 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetDeleteServiceOnDestroy(val int
 	_jsii_.Set(
 		j,
 		"deleteServiceOnDestroy",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppEngineFlexibleAppVersion)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1908,6 +1943,14 @@ func (a *jsiiProxy_AppEngineFlexibleAppVersion) ResetDeleteServiceOnDestroy() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetDeleteServiceOnDestroy",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppEngineFlexibleAppVersion) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateSetDiskParameters(val *string) error {
 	return nil
 }

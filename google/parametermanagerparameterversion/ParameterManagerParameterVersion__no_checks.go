@@ -103,6 +103,10 @@ func (j *jsiiProxy_ParameterManagerParameterVersion) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_ParameterManagerParameterVersion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ParameterManagerParameterVersion) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

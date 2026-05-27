@@ -24,7 +24,7 @@ type SccFolderCustomModuleConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// custom_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module#custom_config SccFolderCustomModule#custom_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#custom_config SccFolderCustomModule#custom_config}
 	CustomConfig *SccFolderCustomModuleCustomConfig `field:"required" json:"customConfig" yaml:"customConfig"`
 	// The display name of the Security Health Analytics custom module.
 	//
@@ -34,24 +34,36 @@ type SccFolderCustomModuleConfig struct {
 	// 128 characters, start with a lowercase letter, and contain alphanumeric
 	// characters or underscores only.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module#display_name SccFolderCustomModule#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#display_name SccFolderCustomModule#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module#enablement_state SccFolderCustomModule#enablement_state}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#enablement_state SccFolderCustomModule#enablement_state}
 	EnablementState *string `field:"required" json:"enablementState" yaml:"enablementState"`
 	// Numerical ID of the parent folder.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module#folder SccFolderCustomModule#folder}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#folder SccFolderCustomModule#folder}
 	Folder *string `field:"required" json:"folder" yaml:"folder"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module#id SccFolderCustomModule#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#deletion_policy SccFolderCustomModule#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#id SccFolderCustomModule#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module#timeouts SccFolderCustomModule#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module#timeouts SccFolderCustomModule#timeouts}
 	Timeouts *SccFolderCustomModuleTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

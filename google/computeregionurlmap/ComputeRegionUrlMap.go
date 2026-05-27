@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_url_map google_compute_region_url_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_url_map google_compute_region_url_map}.
 type ComputeRegionUrlMap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -35,6 +35,9 @@ type ComputeRegionUrlMap interface {
 	DefaultServiceInput() *string
 	DefaultUrlRedirect() ComputeRegionUrlMapDefaultUrlRedirectOutputReference
 	DefaultUrlRedirectInput() *ComputeRegionUrlMapDefaultUrlRedirect
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -150,6 +153,7 @@ type ComputeRegionUrlMap interface {
 	ResetDefaultRouteAction()
 	ResetDefaultService()
 	ResetDefaultUrlRedirect()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHeaderAction()
 	ResetHostRule()
@@ -294,6 +298,26 @@ func (j *jsiiProxy_ComputeRegionUrlMap) DefaultUrlRedirectInput() *ComputeRegion
 	_jsii_.Get(
 		j,
 		"defaultUrlRedirectInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMap) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMap) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -650,7 +674,7 @@ func (j *jsiiProxy_ComputeRegionUrlMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_url_map google_compute_region_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_url_map google_compute_region_url_map} Resource.
 func NewComputeRegionUrlMap(scope constructs.Construct, id *string, config *ComputeRegionUrlMapConfig) ComputeRegionUrlMap {
 	_init_.Initialize()
 
@@ -668,7 +692,7 @@ func NewComputeRegionUrlMap(scope constructs.Construct, id *string, config *Comp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_url_map google_compute_region_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_url_map google_compute_region_url_map} Resource.
 func NewComputeRegionUrlMap_Override(c ComputeRegionUrlMap, scope constructs.Construct, id *string, config *ComputeRegionUrlMapConfig) {
 	_init_.Initialize()
 
@@ -708,6 +732,17 @@ func (j *jsiiProxy_ComputeRegionUrlMap)SetDefaultService(val *string) {
 	_jsii_.Set(
 		j,
 		"defaultService",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMap)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1263,6 +1298,14 @@ func (c *jsiiProxy_ComputeRegionUrlMap) ResetDefaultUrlRedirect() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDefaultUrlRedirect",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionUrlMap) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_EventarcGoogleApiSource) validateSetCryptoKeyNameParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_EventarcGoogleApiSource) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EventarcGoogleApiSource) validateSetDestinationParameters(val *string) error {
 	return nil
 }

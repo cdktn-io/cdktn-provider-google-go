@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_url_lists google_network_security_url_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_url_lists google_network_security_url_lists}.
 type NetworkSecurityUrlLists interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkSecurityUrlLists interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type NetworkSecurityUrlLists interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityUrlListsTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -206,6 +210,26 @@ func (j *jsiiProxy_NetworkSecurityUrlLists) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityUrlLists) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityUrlLists) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -482,7 +506,7 @@ func (j *jsiiProxy_NetworkSecurityUrlLists) ValuesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
 func NewNetworkSecurityUrlLists(scope constructs.Construct, id *string, config *NetworkSecurityUrlListsConfig) NetworkSecurityUrlLists {
 	_init_.Initialize()
 
@@ -500,7 +524,7 @@ func NewNetworkSecurityUrlLists(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_url_lists google_network_security_url_lists} Resource.
 func NewNetworkSecurityUrlLists_Override(n NetworkSecurityUrlLists, scope constructs.Construct, id *string, config *NetworkSecurityUrlListsConfig) {
 	_init_.Initialize()
 
@@ -529,6 +553,17 @@ func (j *jsiiProxy_NetworkSecurityUrlLists)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityUrlLists)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1006,6 +1041,14 @@ func (n *jsiiProxy_NetworkSecurityUrlLists) PutTimeouts(value *NetworkSecurityUr
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityUrlLists) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

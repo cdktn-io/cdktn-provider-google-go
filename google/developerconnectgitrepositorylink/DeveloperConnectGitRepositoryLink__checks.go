@@ -364,6 +364,14 @@ func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetEtagParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

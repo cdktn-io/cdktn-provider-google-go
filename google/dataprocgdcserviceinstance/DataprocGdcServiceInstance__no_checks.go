@@ -111,6 +111,10 @@ func (j *jsiiProxy_DataprocGdcServiceInstance) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_DataprocGdcServiceInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocGdcServiceInstance) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

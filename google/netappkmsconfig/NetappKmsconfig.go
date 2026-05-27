@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_kmsconfig google_netapp_kmsconfig}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_kmsconfig google_netapp_kmsconfig}.
 type NetappKmsconfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type NetappKmsconfig interface {
 	CryptoKeyName() *string
 	SetCryptoKeyName(val *string)
 	CryptoKeyNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type NetappKmsconfig interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetappKmsconfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_NetappKmsconfig) CryptoKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappKmsconfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappKmsconfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -528,7 +552,7 @@ func (j *jsiiProxy_NetappKmsconfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_kmsconfig google_netapp_kmsconfig} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_kmsconfig google_netapp_kmsconfig} Resource.
 func NewNetappKmsconfig(scope constructs.Construct, id *string, config *NetappKmsconfigConfig) NetappKmsconfig {
 	_init_.Initialize()
 
@@ -546,7 +570,7 @@ func NewNetappKmsconfig(scope constructs.Construct, id *string, config *NetappKm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_kmsconfig google_netapp_kmsconfig} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_kmsconfig google_netapp_kmsconfig} Resource.
 func NewNetappKmsconfig_Override(n NetappKmsconfig, scope constructs.Construct, id *string, config *NetappKmsconfigConfig) {
 	_init_.Initialize()
 
@@ -586,6 +610,17 @@ func (j *jsiiProxy_NetappKmsconfig)SetCryptoKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappKmsconfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1063,6 +1098,14 @@ func (n *jsiiProxy_NetappKmsconfig) PutTimeouts(value *NetappKmsconfigTimeouts) 
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetappKmsconfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

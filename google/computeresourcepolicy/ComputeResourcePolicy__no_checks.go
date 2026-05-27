@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputeResourcePolicy) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ComputeResourcePolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeResourcePolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

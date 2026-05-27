@@ -119,6 +119,10 @@ func (j *jsiiProxy_DataprocSessionTemplate) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_DataprocSessionTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocSessionTemplate) validateSetIdParameters(val *string) error {
 	return nil
 }

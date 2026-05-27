@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
 type StorageBucketAccessControl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -30,6 +30,9 @@ type StorageBucketAccessControl interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -121,6 +124,7 @@ type StorageBucketAccessControl interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *StorageBucketAccessControlTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -209,6 +213,26 @@ func (j *jsiiProxy_StorageBucketAccessControl) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucketAccessControl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucketAccessControl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -435,7 +459,7 @@ func (j *jsiiProxy_StorageBucketAccessControl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
 func NewStorageBucketAccessControl(scope constructs.Construct, id *string, config *StorageBucketAccessControlConfig) StorageBucketAccessControl {
 	_init_.Initialize()
 
@@ -453,7 +477,7 @@ func NewStorageBucketAccessControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
 func NewStorageBucketAccessControl_Override(s StorageBucketAccessControl, scope constructs.Construct, id *string, config *StorageBucketAccessControlConfig) {
 	_init_.Initialize()
 
@@ -493,6 +517,17 @@ func (j *jsiiProxy_StorageBucketAccessControl)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageBucketAccessControl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -937,6 +972,14 @@ func (s *jsiiProxy_StorageBucketAccessControl) PutTimeouts(value *StorageBucketA
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_StorageBucketAccessControl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

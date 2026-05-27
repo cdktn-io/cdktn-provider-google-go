@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/billing_project_info google_billing_project_info}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/billing_project_info google_billing_project_info}.
 type BillingProjectInfo interface {
 	cdktn.TerraformResource
 	BillingAccount() *string
@@ -30,6 +30,9 @@ type BillingProjectInfo interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type BillingProjectInfo interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *BillingProjectInfoTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_BillingProjectInfo) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BillingProjectInfo) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BillingProjectInfo) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_BillingProjectInfo) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/billing_project_info google_billing_project_info} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/billing_project_info google_billing_project_info} Resource.
 func NewBillingProjectInfo(scope constructs.Construct, id *string, config *BillingProjectInfoConfig) BillingProjectInfo {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewBillingProjectInfo(scope constructs.Construct, id *string, config *Billi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/billing_project_info google_billing_project_info} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/billing_project_info google_billing_project_info} Resource.
 func NewBillingProjectInfo_Override(b BillingProjectInfo, scope constructs.Construct, id *string, config *BillingProjectInfoConfig) {
 	_init_.Initialize()
 
@@ -448,6 +472,17 @@ func (j *jsiiProxy_BillingProjectInfo)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BillingProjectInfo)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -881,6 +916,14 @@ func (b *jsiiProxy_BillingProjectInfo) PutTimeouts(value *BillingProjectInfoTime
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BillingProjectInfo) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

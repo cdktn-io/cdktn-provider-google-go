@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_organization google_apigee_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_organization google_apigee_organization}.
 type ApigeeOrganization interface {
 	cdktn.TerraformResource
 	AnalyticsRegion() *string
@@ -47,6 +47,9 @@ type ApigeeOrganization interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -162,6 +165,7 @@ type ApigeeOrganization interface {
 	ResetAuthorizedNetwork()
 	ResetBillingType()
 	ResetControlPlaneEncryptionKeyName()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisableVpcPeering()
 	ResetDisplayName()
@@ -376,6 +380,26 @@ func (j *jsiiProxy_ApigeeOrganization) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeOrganization) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeOrganization) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -722,7 +746,7 @@ func (j *jsiiProxy_ApigeeOrganization) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_organization google_apigee_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_organization google_apigee_organization} Resource.
 func NewApigeeOrganization(scope constructs.Construct, id *string, config *ApigeeOrganizationConfig) ApigeeOrganization {
 	_init_.Initialize()
 
@@ -740,7 +764,7 @@ func NewApigeeOrganization(scope constructs.Construct, id *string, config *Apige
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_organization google_apigee_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_organization google_apigee_organization} Resource.
 func NewApigeeOrganization_Override(a ApigeeOrganization, scope constructs.Construct, id *string, config *ApigeeOrganizationConfig) {
 	_init_.Initialize()
 
@@ -835,6 +859,17 @@ func (j *jsiiProxy_ApigeeOrganization)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeOrganization)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1392,6 +1427,14 @@ func (a *jsiiProxy_ApigeeOrganization) ResetControlPlaneEncryptionKeyName() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetControlPlaneEncryptionKeyName",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeOrganization) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

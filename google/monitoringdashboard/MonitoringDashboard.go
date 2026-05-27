@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_dashboard google_monitoring_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_dashboard google_monitoring_dashboard}.
 type MonitoringDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type MonitoringDashboard interface {
 	DashboardJson() *string
 	SetDashboardJson(val *string)
 	DashboardJsonInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type MonitoringDashboard interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *MonitoringDashboardTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_MonitoringDashboard) DashboardJsonInput() *string {
 	_jsii_.Get(
 		j,
 		"dashboardJsonInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitoringDashboard) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitoringDashboard) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_MonitoringDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
 func NewMonitoringDashboard(scope constructs.Construct, id *string, config *MonitoringDashboardConfig) MonitoringDashboard {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewMonitoringDashboard(scope constructs.Construct, id *string, config *Moni
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
 func NewMonitoringDashboard_Override(m MonitoringDashboard, scope constructs.Construct, id *string, config *MonitoringDashboardConfig) {
 	_init_.Initialize()
 
@@ -448,6 +472,17 @@ func (j *jsiiProxy_MonitoringDashboard)SetDashboardJson(val *string) {
 	_jsii_.Set(
 		j,
 		"dashboardJson",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MonitoringDashboard)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -881,6 +916,14 @@ func (m *jsiiProxy_MonitoringDashboard) PutTimeouts(value *MonitoringDashboardTi
 		m,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MonitoringDashboard) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

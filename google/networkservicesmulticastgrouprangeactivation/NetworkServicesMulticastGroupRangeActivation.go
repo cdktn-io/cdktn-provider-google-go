@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
 type NetworkServicesMulticastGroupRangeActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkServicesMulticastGroupRangeActivation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type NetworkServicesMulticastGroupRangeActivation interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutLogConfig(value *NetworkServicesMulticastGroupRangeActivationLogConfig)
 	PutTimeouts(value *NetworkServicesMulticastGroupRangeActivationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -224,6 +228,26 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) CreateTime() *s
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -630,7 +654,7 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) UpdateTime() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
 func NewNetworkServicesMulticastGroupRangeActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupRangeActivationConfig) NetworkServicesMulticastGroupRangeActivation {
 	_init_.Initialize()
 
@@ -648,7 +672,7 @@ func NewNetworkServicesMulticastGroupRangeActivation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
 func NewNetworkServicesMulticastGroupRangeActivation_Override(n NetworkServicesMulticastGroupRangeActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupRangeActivationConfig) {
 	_init_.Initialize()
 
@@ -677,6 +701,17 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation)SetCount(val int
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1187,6 +1222,14 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) PutTimeouts(val
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

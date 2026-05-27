@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigtable_authorized_view google_bigtable_authorized_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigtable_authorized_view google_bigtable_authorized_view}.
 type BigtableAuthorizedView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type BigtableAuthorizedView interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() *string
 	SetDeletionProtection(val *string)
 	DeletionProtectionInput() *string
@@ -128,6 +131,7 @@ type BigtableAuthorizedView interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSubsetView(value *BigtableAuthorizedViewSubsetView)
 	PutTimeouts(value *BigtableAuthorizedViewTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -198,6 +202,26 @@ func (j *jsiiProxy_BigtableAuthorizedView) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigtableAuthorizedView) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigtableAuthorizedView) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -484,7 +508,7 @@ func (j *jsiiProxy_BigtableAuthorizedView) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigtable_authorized_view google_bigtable_authorized_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigtable_authorized_view google_bigtable_authorized_view} Resource.
 func NewBigtableAuthorizedView(scope constructs.Construct, id *string, config *BigtableAuthorizedViewConfig) BigtableAuthorizedView {
 	_init_.Initialize()
 
@@ -502,7 +526,7 @@ func NewBigtableAuthorizedView(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigtable_authorized_view google_bigtable_authorized_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigtable_authorized_view google_bigtable_authorized_view} Resource.
 func NewBigtableAuthorizedView_Override(b BigtableAuthorizedView, scope constructs.Construct, id *string, config *BigtableAuthorizedViewConfig) {
 	_init_.Initialize()
 
@@ -531,6 +555,17 @@ func (j *jsiiProxy_BigtableAuthorizedView)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigtableAuthorizedView)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1019,6 +1054,14 @@ func (b *jsiiProxy_BigtableAuthorizedView) PutTimeouts(value *BigtableAuthorized
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BigtableAuthorizedView) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

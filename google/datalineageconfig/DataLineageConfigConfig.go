@@ -24,24 +24,36 @@ type DataLineageConfigConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// ingestion block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config#ingestion DataLineageConfig#ingestion}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_lineage_config#ingestion DataLineageConfig#ingestion}
 	Ingestion *DataLineageConfigIngestion `field:"required" json:"ingestion" yaml:"ingestion"`
 	// The region of the data lineage configuration for integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config#location DataLineageConfig#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_lineage_config#location DataLineageConfig#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Parent scope for the config. Format: projects/{project-id|project-number} or folders/{folder-number} or organizations/{organization-number}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config#parent DataLineageConfig#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_lineage_config#parent DataLineageConfig#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config#id DataLineageConfig#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_lineage_config#deletion_policy DataLineageConfig#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_lineage_config#id DataLineageConfig#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_lineage_config#timeouts DataLineageConfig#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_lineage_config#timeouts DataLineageConfig#timeouts}
 	Timeouts *DataLineageConfigTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

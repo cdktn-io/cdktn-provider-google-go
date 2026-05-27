@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_hl7_v2_store google_healthcare_hl7_v2_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_hl7_v2_store google_healthcare_hl7_v2_store}.
 type HealthcareHl7V2Store interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type HealthcareHl7V2Store interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type HealthcareHl7V2Store interface {
 	PutNotificationConfigs(value interface{})
 	PutParserConfig(value *HealthcareHl7V2StoreParserConfig)
 	PutTimeouts(value *HealthcareHl7V2StoreTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetNotificationConfig()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_HealthcareHl7V2Store) DatasetInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcareHl7V2Store) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcareHl7V2Store) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +566,7 @@ func (j *jsiiProxy_HealthcareHl7V2Store) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_hl7_v2_store google_healthcare_hl7_v2_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_hl7_v2_store google_healthcare_hl7_v2_store} Resource.
 func NewHealthcareHl7V2Store(scope constructs.Construct, id *string, config *HealthcareHl7V2StoreConfig) HealthcareHl7V2Store {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewHealthcareHl7V2Store(scope constructs.Construct, id *string, config *Hea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_hl7_v2_store google_healthcare_hl7_v2_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_hl7_v2_store google_healthcare_hl7_v2_store} Resource.
 func NewHealthcareHl7V2Store_Override(h HealthcareHl7V2Store, scope constructs.Construct, id *string, config *HealthcareHl7V2StoreConfig) {
 	_init_.Initialize()
 
@@ -600,6 +624,17 @@ func (j *jsiiProxy_HealthcareHl7V2Store)SetDataset(val *string) {
 	_jsii_.Set(
 		j,
 		"dataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HealthcareHl7V2Store)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1088,6 +1123,14 @@ func (h *jsiiProxy_HealthcareHl7V2Store) PutTimeouts(value *HealthcareHl7V2Store
 		h,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (h *jsiiProxy_HealthcareHl7V2Store) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

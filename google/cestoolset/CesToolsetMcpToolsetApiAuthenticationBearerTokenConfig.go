@@ -5,7 +5,7 @@ package cestoolset
 
 
 type CesToolsetMcpToolsetApiAuthenticationBearerTokenConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset#token CesToolset#token}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_toolset#token CesToolset#token}.
 	Token *string `field:"optional" json:"token" yaml:"token"`
 }
 

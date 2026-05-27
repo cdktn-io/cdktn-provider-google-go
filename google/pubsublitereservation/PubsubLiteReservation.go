@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation}.
 type PubsubLiteReservation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type PubsubLiteReservation interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type PubsubLiteReservation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *PubsubLiteReservationTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -191,6 +195,26 @@ func (j *jsiiProxy_PubsubLiteReservation) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubLiteReservation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubLiteReservation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -437,7 +461,7 @@ func (j *jsiiProxy_PubsubLiteReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
 func NewPubsubLiteReservation(scope constructs.Construct, id *string, config *PubsubLiteReservationConfig) PubsubLiteReservation {
 	_init_.Initialize()
 
@@ -455,7 +479,7 @@ func NewPubsubLiteReservation(scope constructs.Construct, id *string, config *Pu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
 func NewPubsubLiteReservation_Override(p PubsubLiteReservation, scope constructs.Construct, id *string, config *PubsubLiteReservationConfig) {
 	_init_.Initialize()
 
@@ -484,6 +508,17 @@ func (j *jsiiProxy_PubsubLiteReservation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PubsubLiteReservation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -950,6 +985,14 @@ func (p *jsiiProxy_PubsubLiteReservation) PutTimeouts(value *PubsubLiteReservati
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PubsubLiteReservation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

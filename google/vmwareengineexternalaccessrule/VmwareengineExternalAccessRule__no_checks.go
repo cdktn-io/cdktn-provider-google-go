@@ -115,6 +115,10 @@ func (j *jsiiProxy_VmwareengineExternalAccessRule) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_VmwareengineExternalAccessRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VmwareengineExternalAccessRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

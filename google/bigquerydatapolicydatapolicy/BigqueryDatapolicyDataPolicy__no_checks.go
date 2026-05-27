@@ -115,6 +115,10 @@ func (j *jsiiProxy_BigqueryDatapolicyDataPolicy) validateSetDataPolicyTypeParame
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryDatapolicyDataPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryDatapolicyDataPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

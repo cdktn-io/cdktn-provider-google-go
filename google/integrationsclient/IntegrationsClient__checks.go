@@ -379,6 +379,14 @@ func (j *jsiiProxy_IntegrationsClient) validateSetCreateSampleIntegrationsParame
 	return nil
 }
 
+func (j *jsiiProxy_IntegrationsClient) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_IntegrationsClient) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

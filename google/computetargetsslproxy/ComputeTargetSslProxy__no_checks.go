@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComputeTargetSslProxy) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ComputeTargetSslProxy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeTargetSslProxy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

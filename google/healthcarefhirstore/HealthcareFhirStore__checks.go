@@ -468,6 +468,14 @@ func (j *jsiiProxy_HealthcareFhirStore) validateSetDefaultSearchHandlingStrictPa
 	return nil
 }
 
+func (j *jsiiProxy_HealthcareFhirStore) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_HealthcareFhirStore) validateSetDisableReferentialIntegrityParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

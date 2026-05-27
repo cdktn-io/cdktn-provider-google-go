@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_account_key google_service_account_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_account_key google_service_account_key}.
 type ServiceAccountKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ServiceAccountKey interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type ServiceAccountKey interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetKeepers()
 	ResetKeyAlgorithm()
@@ -201,6 +205,26 @@ func (j *jsiiProxy_ServiceAccountKey) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceAccountKey) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceAccountKey) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -517,7 +541,7 @@ func (j *jsiiProxy_ServiceAccountKey) ValidBefore() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_account_key google_service_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_account_key google_service_account_key} Resource.
 func NewServiceAccountKey(scope constructs.Construct, id *string, config *ServiceAccountKeyConfig) ServiceAccountKey {
 	_init_.Initialize()
 
@@ -535,7 +559,7 @@ func NewServiceAccountKey(scope constructs.Construct, id *string, config *Servic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_account_key google_service_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_account_key google_service_account_key} Resource.
 func NewServiceAccountKey_Override(s ServiceAccountKey, scope constructs.Construct, id *string, config *ServiceAccountKeyConfig) {
 	_init_.Initialize()
 
@@ -564,6 +588,17 @@ func (j *jsiiProxy_ServiceAccountKey)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ServiceAccountKey)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1041,6 +1076,14 @@ func (s *jsiiProxy_ServiceAccountKey) OverrideLogicalId(newLogicalId *string) {
 		s,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (s *jsiiProxy_ServiceAccountKey) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workbench_instance google_workbench_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/workbench_instance google_workbench_instance}.
 type WorkbenchInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type WorkbenchInstance interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Creator() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type WorkbenchInstance interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutGceSetup(value *WorkbenchInstanceGceSetup)
 	PutTimeouts(value *WorkbenchInstanceTimeouts)
+	ResetDeletionPolicy()
 	ResetDesiredState()
 	ResetDisableProxyAccess()
 	ResetEnableManagedEuc()
@@ -249,6 +253,26 @@ func (j *jsiiProxy_WorkbenchInstance) Creator() *string {
 	_jsii_.Get(
 		j,
 		"creator",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkbenchInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkbenchInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -715,7 +739,7 @@ func (j *jsiiProxy_WorkbenchInstance) UpgradeHistory() WorkbenchInstanceUpgradeH
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workbench_instance google_workbench_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/workbench_instance google_workbench_instance} Resource.
 func NewWorkbenchInstance(scope constructs.Construct, id *string, config *WorkbenchInstanceConfig) WorkbenchInstance {
 	_init_.Initialize()
 
@@ -733,7 +757,7 @@ func NewWorkbenchInstance(scope constructs.Construct, id *string, config *Workbe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workbench_instance google_workbench_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/workbench_instance google_workbench_instance} Resource.
 func NewWorkbenchInstance_Override(w WorkbenchInstance, scope constructs.Construct, id *string, config *WorkbenchInstanceConfig) {
 	_init_.Initialize()
 
@@ -762,6 +786,17 @@ func (j *jsiiProxy_WorkbenchInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkbenchInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1305,6 +1340,14 @@ func (w *jsiiProxy_WorkbenchInstance) PutTimeouts(value *WorkbenchInstanceTimeou
 		w,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_WorkbenchInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

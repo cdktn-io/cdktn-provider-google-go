@@ -111,6 +111,10 @@ func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) validateSetEtagParameters(val *string) error {
 	return nil
 }

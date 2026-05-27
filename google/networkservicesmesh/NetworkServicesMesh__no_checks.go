@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkServicesMesh) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesMesh) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesMesh) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

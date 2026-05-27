@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeSslPolicy) validateSetCustomFeaturesParameters(val *[]
 	return nil
 }
 
+func (j *jsiiProxy_ComputeSslPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeSslPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

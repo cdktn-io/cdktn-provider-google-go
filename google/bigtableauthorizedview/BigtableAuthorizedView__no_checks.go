@@ -107,6 +107,10 @@ func (j *jsiiProxy_BigtableAuthorizedView) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_BigtableAuthorizedView) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigtableAuthorizedView) validateSetDeletionProtectionParameters(val *string) error {
 	return nil
 }

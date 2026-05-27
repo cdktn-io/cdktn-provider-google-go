@@ -103,6 +103,10 @@ func (j *jsiiProxy_DataCatalogPolicyTag) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_DataCatalogPolicyTag) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataCatalogPolicyTag) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

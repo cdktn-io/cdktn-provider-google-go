@@ -131,6 +131,10 @@ func (j *jsiiProxy_ContainerAzureNodePool) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAzureNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAzureNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

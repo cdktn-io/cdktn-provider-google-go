@@ -24,46 +24,58 @@ type SecureSourceManagerHookConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID for the Hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#hook_id SecureSourceManagerHook#hook_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#hook_id SecureSourceManagerHook#hook_id}
 	HookId *string `field:"required" json:"hookId" yaml:"hookId"`
 	// The location for the Repository.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#location SecureSourceManagerHook#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#location SecureSourceManagerHook#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The ID for the Repository.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#repository_id SecureSourceManagerHook#repository_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#repository_id SecureSourceManagerHook#repository_id}
 	RepositoryId *string `field:"required" json:"repositoryId" yaml:"repositoryId"`
 	// The target URI to which the payloads will be delivered.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#target_uri SecureSourceManagerHook#target_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#target_uri SecureSourceManagerHook#target_uri}
 	TargetUri *string `field:"required" json:"targetUri" yaml:"targetUri"`
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#deletion_policy SecureSourceManagerHook#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Determines if the hook disabled or not. Set to true to stop sending traffic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#disabled SecureSourceManagerHook#disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#disabled SecureSourceManagerHook#disabled}
 	Disabled interface{} `field:"optional" json:"disabled" yaml:"disabled"`
 	// The events that trigger hook on. Possible values: ["PUSH", "PULL_REQUEST"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#events SecureSourceManagerHook#events}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#events SecureSourceManagerHook#events}
 	Events *[]*string `field:"optional" json:"events" yaml:"events"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#id SecureSourceManagerHook#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#id SecureSourceManagerHook#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#project SecureSourceManagerHook#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#project SecureSourceManagerHook#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// push_option block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#push_option SecureSourceManagerHook#push_option}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#push_option SecureSourceManagerHook#push_option}
 	PushOption *SecureSourceManagerHookPushOption `field:"optional" json:"pushOption" yaml:"pushOption"`
 	// The sensitive query string to be appended to the target URI.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#sensitive_query_string SecureSourceManagerHook#sensitive_query_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#sensitive_query_string SecureSourceManagerHook#sensitive_query_string}
 	SensitiveQueryString *string `field:"optional" json:"sensitiveQueryString" yaml:"sensitiveQueryString"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook#timeouts SecureSourceManagerHook#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook#timeouts SecureSourceManagerHook#timeouts}
 	Timeouts *SecureSourceManagerHookTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

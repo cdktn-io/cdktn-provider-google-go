@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_subnetwork google_compute_subnetwork}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_subnetwork google_compute_subnetwork}.
 type ComputeSubnetwork interface {
 	cdktn.TerraformResource
 	AllowSubnetCidrRoutesOverlap() interface{}
@@ -31,6 +31,9 @@ type ComputeSubnetwork interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -185,6 +188,7 @@ type ComputeSubnetwork interface {
 	PutSecondaryIpRange(value interface{})
 	PutTimeouts(value *ComputeSubnetworkTimeouts)
 	ResetAllowSubnetCidrRoutesOverlap()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExternalIpv6Prefix()
 	ResetId()
@@ -301,6 +305,26 @@ func (j *jsiiProxy_ComputeSubnetwork) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSubnetwork) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -957,7 +981,7 @@ func (j *jsiiProxy_ComputeSubnetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
 func NewComputeSubnetwork(scope constructs.Construct, id *string, config *ComputeSubnetworkConfig) ComputeSubnetwork {
 	_init_.Initialize()
 
@@ -975,7 +999,7 @@ func NewComputeSubnetwork(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_subnetwork google_compute_subnetwork} Resource.
 func NewComputeSubnetwork_Override(c ComputeSubnetwork, scope constructs.Construct, id *string, config *ComputeSubnetworkConfig) {
 	_init_.Initialize()
 
@@ -1015,6 +1039,17 @@ func (j *jsiiProxy_ComputeSubnetwork)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSubnetwork)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1675,6 +1710,14 @@ func (c *jsiiProxy_ComputeSubnetwork) ResetAllowSubnetCidrRoutesOverlap() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAllowSubnetCidrRoutesOverlap",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSubnetwork) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

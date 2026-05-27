@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_management_folder_security_health_analytics_custom_module google_scc_management_folder_security_health_analytics_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_management_folder_security_health_analytics_custom_module google_scc_management_folder_security_health_analytics_custom_module}.
 type SccManagementFolderSecurityHealthAnalyticsCustomModule interface {
 	cdktn.TerraformResource
 	AncestorModule() *string
@@ -30,6 +30,9 @@ type SccManagementFolderSecurityHealthAnalyticsCustomModule interface {
 	SetCount(val interface{})
 	CustomConfig() SccManagementFolderSecurityHealthAnalyticsCustomModuleCustomConfigOutputReference
 	CustomConfigInput() *SccManagementFolderSecurityHealthAnalyticsCustomModuleCustomConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type SccManagementFolderSecurityHealthAnalyticsCustomModule interface {
 	PutCustomConfig(value *SccManagementFolderSecurityHealthAnalyticsCustomModuleCustomConfig)
 	PutTimeouts(value *SccManagementFolderSecurityHealthAnalyticsCustomModuleTimeouts)
 	ResetCustomConfig()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetEnablementState()
 	ResetId()
@@ -230,6 +234,26 @@ func (j *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule) Custo
 	_jsii_.Get(
 		j,
 		"customConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule) Updat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_management_folder_security_health_analytics_custom_module google_scc_management_folder_security_health_analytics_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_management_folder_security_health_analytics_custom_module google_scc_management_folder_security_health_analytics_custom_module} Resource.
 func NewSccManagementFolderSecurityHealthAnalyticsCustomModule(scope constructs.Construct, id *string, config *SccManagementFolderSecurityHealthAnalyticsCustomModuleConfig) SccManagementFolderSecurityHealthAnalyticsCustomModule {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewSccManagementFolderSecurityHealthAnalyticsCustomModule(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_management_folder_security_health_analytics_custom_module google_scc_management_folder_security_health_analytics_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_management_folder_security_health_analytics_custom_module google_scc_management_folder_security_health_analytics_custom_module} Resource.
 func NewSccManagementFolderSecurityHealthAnalyticsCustomModule_Override(s SccManagementFolderSecurityHealthAnalyticsCustomModule, scope constructs.Construct, id *string, config *SccManagementFolderSecurityHealthAnalyticsCustomModuleConfig) {
 	_init_.Initialize()
 
@@ -553,6 +577,17 @@ func (j *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule)SetCou
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1037,6 +1072,14 @@ func (s *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule) Reset
 	_jsii_.InvokeVoid(
 		s,
 		"resetCustomConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SccManagementFolderSecurityHealthAnalyticsCustomModule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

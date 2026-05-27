@@ -115,6 +115,10 @@ func (j *jsiiProxy_FirestoreBackupSchedule) validateSetDatabaseParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_FirestoreBackupSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirestoreBackupSchedule) validateSetIdParameters(val *string) error {
 	return nil
 }

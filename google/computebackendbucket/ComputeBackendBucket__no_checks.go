@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputeBackendBucket) validateSetCustomResponseHeadersParamet
 	return nil
 }
 
+func (j *jsiiProxy_ComputeBackendBucket) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeBackendBucket) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

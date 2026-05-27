@@ -127,6 +127,10 @@ func (j *jsiiProxy_BigqueryDataTransferConfig) validateSetDataSourceIdParameters
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryDataTransferConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryDataTransferConfig) validateSetDestinationDatasetIdParameters(val *string) error {
 	return nil
 }

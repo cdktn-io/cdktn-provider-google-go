@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_notification_config google_scc_folder_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_notification_config google_scc_folder_notification_config}.
 type SccFolderNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type SccFolderNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type SccFolderNotificationConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutStreamingConfig(value *SccFolderNotificationConfigStreamingConfig)
 	PutTimeouts(value *SccFolderNotificationConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_SccFolderNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccFolderNotificationConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccFolderNotificationConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -481,7 +505,7 @@ func (j *jsiiProxy_SccFolderNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_notification_config google_scc_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_notification_config google_scc_folder_notification_config} Resource.
 func NewSccFolderNotificationConfig(scope constructs.Construct, id *string, config *SccFolderNotificationConfigConfig) SccFolderNotificationConfig {
 	_init_.Initialize()
 
@@ -499,7 +523,7 @@ func NewSccFolderNotificationConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_notification_config google_scc_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_notification_config google_scc_folder_notification_config} Resource.
 func NewSccFolderNotificationConfig_Override(s SccFolderNotificationConfig, scope constructs.Construct, id *string, config *SccFolderNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -539,6 +563,17 @@ func (j *jsiiProxy_SccFolderNotificationConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccFolderNotificationConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1005,6 +1040,14 @@ func (s *jsiiProxy_SccFolderNotificationConfig) PutTimeouts(value *SccFolderNoti
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccFolderNotificationConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

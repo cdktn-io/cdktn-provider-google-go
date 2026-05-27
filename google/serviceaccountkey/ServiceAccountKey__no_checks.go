@@ -99,6 +99,10 @@ func (j *jsiiProxy_ServiceAccountKey) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ServiceAccountKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ServiceAccountKey) validateSetIdParameters(val *string) error {
 	return nil
 }

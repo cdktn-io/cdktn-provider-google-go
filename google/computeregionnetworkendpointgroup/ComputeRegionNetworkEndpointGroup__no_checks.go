@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

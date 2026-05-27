@@ -107,6 +107,10 @@ func (j *jsiiProxy_BigtableSchemaBundle) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_BigtableSchemaBundle) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigtableSchemaBundle) validateSetIdParameters(val *string) error {
 	return nil
 }

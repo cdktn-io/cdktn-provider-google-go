@@ -103,6 +103,10 @@ func (j *jsiiProxy_PubsubLiteReservation) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_PubsubLiteReservation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PubsubLiteReservation) validateSetIdParameters(val *string) error {
 	return nil
 }

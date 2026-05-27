@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding}.
 type GkeHubScopeRbacRoleBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GkeHubScopeRbacRoleBinding interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GkeHubScopeRbacRoleBinding interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRole(value *GkeHubScopeRbacRoleBindingRole)
 	PutTimeouts(value *GkeHubScopeRbacRoleBindingTimeouts)
+	ResetDeletionPolicy()
 	ResetGroup()
 	ResetId()
 	ResetLabels()
@@ -230,6 +234,26 @@ func (j *jsiiProxy_GkeHubScopeRbacRoleBinding) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubScopeRbacRoleBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubScopeRbacRoleBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -596,7 +620,7 @@ func (j *jsiiProxy_GkeHubScopeRbacRoleBinding) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
 func NewGkeHubScopeRbacRoleBinding(scope constructs.Construct, id *string, config *GkeHubScopeRbacRoleBindingConfig) GkeHubScopeRbacRoleBinding {
 	_init_.Initialize()
 
@@ -614,7 +638,7 @@ func NewGkeHubScopeRbacRoleBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
 func NewGkeHubScopeRbacRoleBinding_Override(g GkeHubScopeRbacRoleBinding, scope constructs.Construct, id *string, config *GkeHubScopeRbacRoleBindingConfig) {
 	_init_.Initialize()
 
@@ -643,6 +667,17 @@ func (j *jsiiProxy_GkeHubScopeRbacRoleBinding)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeHubScopeRbacRoleBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (g *jsiiProxy_GkeHubScopeRbacRoleBinding) PutTimeouts(value *GkeHubScopeRba
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GkeHubScopeRbacRoleBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

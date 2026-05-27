@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_version google_dialogflow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_version google_dialogflow_version}.
 type DialogflowVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DialogflowVersion interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -119,6 +122,7 @@ type DialogflowVersion interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DialogflowVersionTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -188,6 +192,26 @@ func (j *jsiiProxy_DialogflowVersion) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowVersion) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowVersion) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -424,7 +448,7 @@ func (j *jsiiProxy_DialogflowVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_version google_dialogflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_version google_dialogflow_version} Resource.
 func NewDialogflowVersion(scope constructs.Construct, id *string, config *DialogflowVersionConfig) DialogflowVersion {
 	_init_.Initialize()
 
@@ -442,7 +466,7 @@ func NewDialogflowVersion(scope constructs.Construct, id *string, config *Dialog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_version google_dialogflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_version google_dialogflow_version} Resource.
 func NewDialogflowVersion_Override(d DialogflowVersion, scope constructs.Construct, id *string, config *DialogflowVersionConfig) {
 	_init_.Initialize()
 
@@ -471,6 +495,17 @@ func (j *jsiiProxy_DialogflowVersion)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowVersion)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -915,6 +950,14 @@ func (d *jsiiProxy_DialogflowVersion) PutTimeouts(value *DialogflowVersionTimeou
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DialogflowVersion) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

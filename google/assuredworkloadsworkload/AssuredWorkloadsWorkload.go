@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/assured_workloads_workload google_assured_workloads_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/assured_workloads_workload google_assured_workloads_workload}.
 type AssuredWorkloadsWorkload interface {
 	cdktn.TerraformResource
 	BillingAccount() *string
@@ -36,6 +36,9 @@ type AssuredWorkloadsWorkload interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -166,6 +169,7 @@ type AssuredWorkloadsWorkload interface {
 	PutTimeouts(value *AssuredWorkloadsWorkloadTimeouts)
 	PutWorkloadOptions(value *AssuredWorkloadsWorkloadWorkloadOptions)
 	ResetBillingAccount()
+	ResetDeletionPolicy()
 	ResetEnableSovereignControls()
 	ResetId()
 	ResetKmsSettings()
@@ -313,6 +317,26 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AssuredWorkloadsWorkload) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AssuredWorkloadsWorkload) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -809,7 +833,7 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload) WorkloadOptionsInput() *AssuredWork
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/assured_workloads_workload google_assured_workloads_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/assured_workloads_workload google_assured_workloads_workload} Resource.
 func NewAssuredWorkloadsWorkload(scope constructs.Construct, id *string, config *AssuredWorkloadsWorkloadConfig) AssuredWorkloadsWorkload {
 	_init_.Initialize()
 
@@ -827,7 +851,7 @@ func NewAssuredWorkloadsWorkload(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/assured_workloads_workload google_assured_workloads_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/assured_workloads_workload google_assured_workloads_workload} Resource.
 func NewAssuredWorkloadsWorkload_Override(a AssuredWorkloadsWorkload, scope constructs.Construct, id *string, config *AssuredWorkloadsWorkloadConfig) {
 	_init_.Initialize()
 
@@ -878,6 +902,17 @@ func (j *jsiiProxy_AssuredWorkloadsWorkload)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AssuredWorkloadsWorkload)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1450,6 +1485,14 @@ func (a *jsiiProxy_AssuredWorkloadsWorkload) ResetBillingAccount() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetBillingAccount",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AssuredWorkloadsWorkload) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

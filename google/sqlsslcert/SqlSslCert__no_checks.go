@@ -107,6 +107,10 @@ func (j *jsiiProxy_SqlSslCert) validateSetCountParameters(val interface{}) error
 	return nil
 }
 
+func (j *jsiiProxy_SqlSslCert) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlSslCert) validateSetIdParameters(val *string) error {
 	return nil
 }

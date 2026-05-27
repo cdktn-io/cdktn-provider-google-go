@@ -107,6 +107,10 @@ func (j *jsiiProxy_DnsResponsePolicyRule) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_DnsResponsePolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DnsResponsePolicyRule) validateSetDnsNameParameters(val *string) error {
 	return nil
 }

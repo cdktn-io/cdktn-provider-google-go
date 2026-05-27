@@ -135,6 +135,10 @@ func (j *jsiiProxy_ColabRuntimeTemplate) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ColabRuntimeTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ColabRuntimeTemplate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

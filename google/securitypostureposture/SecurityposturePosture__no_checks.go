@@ -107,6 +107,10 @@ func (j *jsiiProxy_SecurityposturePosture) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_SecurityposturePosture) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SecurityposturePosture) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

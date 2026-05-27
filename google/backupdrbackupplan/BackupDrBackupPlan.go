@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan}.
 type BackupDrBackupPlan interface {
 	cdktn.TerraformResource
 	BackupPlanId() *string
@@ -26,6 +26,8 @@ type BackupDrBackupPlan interface {
 	BackupVaultServiceAccount() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ComputeInstanceBackupPlanProperties() BackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference
+	ComputeInstanceBackupPlanPropertiesInput() *BackupDrBackupPlanComputeInstanceBackupPlanProperties
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,6 +39,9 @@ type BackupDrBackupPlan interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,9 +148,12 @@ type BackupDrBackupPlan interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutBackupRules(value interface{})
+	PutComputeInstanceBackupPlanProperties(value *BackupDrBackupPlanComputeInstanceBackupPlanProperties)
 	PutDiskBackupPlanProperties(value *BackupDrBackupPlanDiskBackupPlanProperties)
 	PutTimeouts(value *BackupDrBackupPlanTimeouts)
 	ResetBackupRules()
+	ResetComputeInstanceBackupPlanProperties()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDiskBackupPlanProperties()
 	ResetId()
@@ -263,6 +271,26 @@ func (j *jsiiProxy_BackupDrBackupPlan) CdktfStack() cdktn.TerraformStack {
 	return returns
 }
 
+func (j *jsiiProxy_BackupDrBackupPlan) ComputeInstanceBackupPlanProperties() BackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference {
+	var returns BackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference
+	_jsii_.Get(
+		j,
+		"computeInstanceBackupPlanProperties",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan) ComputeInstanceBackupPlanPropertiesInput() *BackupDrBackupPlanComputeInstanceBackupPlanProperties {
+	var returns *BackupDrBackupPlanComputeInstanceBackupPlanProperties
+	_jsii_.Get(
+		j,
+		"computeInstanceBackupPlanPropertiesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BackupDrBackupPlan) Connection() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -298,6 +326,26 @@ func (j *jsiiProxy_BackupDrBackupPlan) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -634,7 +682,7 @@ func (j *jsiiProxy_BackupDrBackupPlan) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
 func NewBackupDrBackupPlan(scope constructs.Construct, id *string, config *BackupDrBackupPlanConfig) BackupDrBackupPlan {
 	_init_.Initialize()
 
@@ -652,7 +700,7 @@ func NewBackupDrBackupPlan(scope constructs.Construct, id *string, config *Backu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
 func NewBackupDrBackupPlan_Override(b BackupDrBackupPlan, scope constructs.Construct, id *string, config *BackupDrBackupPlanConfig) {
 	_init_.Initialize()
 
@@ -703,6 +751,17 @@ func (j *jsiiProxy_BackupDrBackupPlan)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1194,6 +1253,17 @@ func (b *jsiiProxy_BackupDrBackupPlan) PutBackupRules(value interface{}) {
 	)
 }
 
+func (b *jsiiProxy_BackupDrBackupPlan) PutComputeInstanceBackupPlanProperties(value *BackupDrBackupPlanComputeInstanceBackupPlanProperties) {
+	if err := b.validatePutComputeInstanceBackupPlanPropertiesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putComputeInstanceBackupPlanProperties",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BackupDrBackupPlan) PutDiskBackupPlanProperties(value *BackupDrBackupPlanDiskBackupPlanProperties) {
 	if err := b.validatePutDiskBackupPlanPropertiesParameters(value); err != nil {
 		panic(err)
@@ -1220,6 +1290,22 @@ func (b *jsiiProxy_BackupDrBackupPlan) ResetBackupRules() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetBackupRules",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrBackupPlan) ResetComputeInstanceBackupPlanProperties() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetComputeInstanceBackupPlanProperties",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrBackupPlan) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

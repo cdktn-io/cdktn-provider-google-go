@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy_rule google_compute_organization_security_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_organization_security_policy_rule google_compute_organization_security_policy_rule}.
 type ComputeOrganizationSecurityPolicyRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -30,6 +30,9 @@ type ComputeOrganizationSecurityPolicyRule interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type ComputeOrganizationSecurityPolicyRule interface {
 	PutPreconfiguredWafConfig(value *ComputeOrganizationSecurityPolicyRulePreconfiguredWafConfig)
 	PutRedirectOptions(value *ComputeOrganizationSecurityPolicyRuleRedirectOptions)
 	PutTimeouts(value *ComputeOrganizationSecurityPolicyRuleTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHeaderAction()
 	ResetId()
@@ -229,6 +233,26 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicyRule) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicyRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicyRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -555,7 +579,7 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicyRule) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
 func NewComputeOrganizationSecurityPolicyRule(scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyRuleConfig) ComputeOrganizationSecurityPolicyRule {
 	_init_.Initialize()
 
@@ -573,7 +597,7 @@ func NewComputeOrganizationSecurityPolicyRule(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
 func NewComputeOrganizationSecurityPolicyRule_Override(c ComputeOrganizationSecurityPolicyRule, scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyRuleConfig) {
 	_init_.Initialize()
 
@@ -613,6 +637,17 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicyRule)SetCount(val interface{
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicyRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1123,6 +1158,14 @@ func (c *jsiiProxy_ComputeOrganizationSecurityPolicyRule) PutTimeouts(value *Com
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeOrganizationSecurityPolicyRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

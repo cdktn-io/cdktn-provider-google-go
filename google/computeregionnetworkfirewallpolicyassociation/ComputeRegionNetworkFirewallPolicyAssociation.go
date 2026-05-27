@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association}.
 type ComputeRegionNetworkFirewallPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentTarget() *string
@@ -30,6 +30,9 @@ type ComputeRegionNetworkFirewallPolicyAssociation interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type ComputeRegionNetworkFirewallPolicyAssociation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeRegionNetworkFirewallPolicyAssociationTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) Count() interf
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -471,7 +495,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
 func NewComputeRegionNetworkFirewallPolicyAssociation(scope constructs.Construct, id *string, config *ComputeRegionNetworkFirewallPolicyAssociationConfig) ComputeRegionNetworkFirewallPolicyAssociation {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewComputeRegionNetworkFirewallPolicyAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
 func NewComputeRegionNetworkFirewallPolicyAssociation_Override(c ComputeRegionNetworkFirewallPolicyAssociation, scope constructs.Construct, id *string, config *ComputeRegionNetworkFirewallPolicyAssociationConfig) {
 	_init_.Initialize()
 
@@ -529,6 +553,17 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation)SetCount(val in
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -995,6 +1030,14 @@ func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) PutTimeouts(va
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

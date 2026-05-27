@@ -111,6 +111,10 @@ func (j *jsiiProxy_ManagedKafkaTopic) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ManagedKafkaTopic) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ManagedKafkaTopic) validateSetIdParameters(val *string) error {
 	return nil
 }

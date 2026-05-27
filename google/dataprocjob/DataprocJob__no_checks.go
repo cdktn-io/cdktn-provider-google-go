@@ -143,6 +143,10 @@ func (j *jsiiProxy_DataprocJob) validateSetCountParameters(val interface{}) erro
 	return nil
 }
 
+func (j *jsiiProxy_DataprocJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocJob) validateSetForceDeleteParameters(val interface{}) error {
 	return nil
 }

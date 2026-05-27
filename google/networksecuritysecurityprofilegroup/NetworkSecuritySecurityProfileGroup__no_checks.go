@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetCustomMirrori
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

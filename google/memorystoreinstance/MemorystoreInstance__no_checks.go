@@ -143,6 +143,10 @@ func (j *jsiiProxy_MemorystoreInstance) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_MemorystoreInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MemorystoreInstance) validateSetDeletionProtectionEnabledParameters(val interface{}) error {
 	return nil
 }

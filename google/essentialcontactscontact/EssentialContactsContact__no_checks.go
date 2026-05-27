@@ -103,6 +103,10 @@ func (j *jsiiProxy_EssentialContactsContact) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_EssentialContactsContact) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EssentialContactsContact) validateSetEmailParameters(val *string) error {
 	return nil
 }

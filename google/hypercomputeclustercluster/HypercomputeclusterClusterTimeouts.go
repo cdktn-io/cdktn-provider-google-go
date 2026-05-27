@@ -5,11 +5,11 @@ package hypercomputeclustercluster
 
 
 type HypercomputeclusterClusterTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster#create HypercomputeclusterCluster#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/hypercomputecluster_cluster#create HypercomputeclusterCluster#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster#delete HypercomputeclusterCluster#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/hypercomputecluster_cluster#delete HypercomputeclusterCluster#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster#update HypercomputeclusterCluster#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/hypercomputecluster_cluster#update HypercomputeclusterCluster#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

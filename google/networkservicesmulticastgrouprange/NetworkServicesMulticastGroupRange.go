@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_range google_network_services_multicast_group_range}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_range google_network_services_multicast_group_range}.
 type NetworkServicesMulticastGroupRange interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type NetworkServicesMulticastGroupRange interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -152,6 +155,7 @@ type NetworkServicesMulticastGroupRange interface {
 	PutLogConfig(value *NetworkServicesMulticastGroupRangeLogConfig)
 	PutTimeouts(value *NetworkServicesMulticastGroupRangeTimeouts)
 	ResetConsumerAcceptList()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDistributionScope()
 	ResetId()
@@ -255,6 +259,26 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRange) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupRange) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupRange) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -691,7 +715,7 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRange) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
 func NewNetworkServicesMulticastGroupRange(scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupRangeConfig) NetworkServicesMulticastGroupRange {
 	_init_.Initialize()
 
@@ -709,7 +733,7 @@ func NewNetworkServicesMulticastGroupRange(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
 func NewNetworkServicesMulticastGroupRange_Override(n NetworkServicesMulticastGroupRange, scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupRangeConfig) {
 	_init_.Initialize()
 
@@ -749,6 +773,17 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRange)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupRange)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1288,6 +1323,14 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupRange) ResetConsumerAcceptList()
 	_jsii_.InvokeVoid(
 		n,
 		"resetConsumerAcceptList",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastGroupRange) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeRouterInterface) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRouterInterface) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRouterInterface) validateSetIdParameters(val *string) error {
 	return nil
 }

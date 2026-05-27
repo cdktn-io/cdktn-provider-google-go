@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module google_scc_folder_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module google_scc_folder_custom_module}.
 type SccFolderCustomModule interface {
 	cdktn.TerraformResource
 	AncestorModule() *string
@@ -30,6 +30,9 @@ type SccFolderCustomModule interface {
 	SetCount(val interface{})
 	CustomConfig() SccFolderCustomModuleCustomConfigOutputReference
 	CustomConfigInput() *SccFolderCustomModuleCustomConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type SccFolderCustomModule interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCustomConfig(value *SccFolderCustomModuleCustomConfig)
 	PutTimeouts(value *SccFolderCustomModuleTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -223,6 +227,26 @@ func (j *jsiiProxy_SccFolderCustomModule) CustomConfigInput() *SccFolderCustomMo
 	_jsii_.Get(
 		j,
 		"customConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccFolderCustomModule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccFolderCustomModule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -479,7 +503,7 @@ func (j *jsiiProxy_SccFolderCustomModule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module google_scc_folder_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module google_scc_folder_custom_module} Resource.
 func NewSccFolderCustomModule(scope constructs.Construct, id *string, config *SccFolderCustomModuleConfig) SccFolderCustomModule {
 	_init_.Initialize()
 
@@ -497,7 +521,7 @@ func NewSccFolderCustomModule(scope constructs.Construct, id *string, config *Sc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_folder_custom_module google_scc_folder_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_custom_module google_scc_folder_custom_module} Resource.
 func NewSccFolderCustomModule_Override(s SccFolderCustomModule, scope constructs.Construct, id *string, config *SccFolderCustomModuleConfig) {
 	_init_.Initialize()
 
@@ -526,6 +550,17 @@ func (j *jsiiProxy_SccFolderCustomModule)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccFolderCustomModule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -992,6 +1027,14 @@ func (s *jsiiProxy_SccFolderCustomModule) PutTimeouts(value *SccFolderCustomModu
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccFolderCustomModule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firebaserules_release google_firebaserules_release}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firebaserules_release google_firebaserules_release}.
 type FirebaserulesRelease interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type FirebaserulesRelease interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type FirebaserulesRelease interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *FirebaserulesReleaseTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_FirebaserulesRelease) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirebaserulesRelease) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirebaserulesRelease) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -446,7 +470,7 @@ func (j *jsiiProxy_FirebaserulesRelease) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firebaserules_release google_firebaserules_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firebaserules_release google_firebaserules_release} Resource.
 func NewFirebaserulesRelease(scope constructs.Construct, id *string, config *FirebaserulesReleaseConfig) FirebaserulesRelease {
 	_init_.Initialize()
 
@@ -464,7 +488,7 @@ func NewFirebaserulesRelease(scope constructs.Construct, id *string, config *Fir
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firebaserules_release google_firebaserules_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firebaserules_release google_firebaserules_release} Resource.
 func NewFirebaserulesRelease_Override(f FirebaserulesRelease, scope constructs.Construct, id *string, config *FirebaserulesReleaseConfig) {
 	_init_.Initialize()
 
@@ -493,6 +517,17 @@ func (j *jsiiProxy_FirebaserulesRelease)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirebaserulesRelease)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -948,6 +983,14 @@ func (f *jsiiProxy_FirebaserulesRelease) PutTimeouts(value *FirebaserulesRelease
 		f,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (f *jsiiProxy_FirebaserulesRelease) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

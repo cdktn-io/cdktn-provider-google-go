@@ -356,6 +356,14 @@ func (j *jsiiProxy_DataformFolder) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_DataformFolder) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataformFolder) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -359,6 +359,14 @@ func (j *jsiiProxy_VertexAiFeatureGroup) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiFeatureGroup) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiFeatureGroup) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

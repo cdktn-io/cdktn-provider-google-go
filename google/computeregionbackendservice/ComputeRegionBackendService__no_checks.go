@@ -171,6 +171,10 @@ func (j *jsiiProxy_ComputeRegionBackendService) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionBackendService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionBackendService) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

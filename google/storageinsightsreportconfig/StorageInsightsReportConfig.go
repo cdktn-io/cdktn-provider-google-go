@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_insights_report_config google_storage_insights_report_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_insights_report_config google_storage_insights_report_config}.
 type StorageInsightsReportConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type StorageInsightsReportConfig interface {
 	SetCount(val interface{})
 	CsvOptions() StorageInsightsReportConfigCsvOptionsOutputReference
 	CsvOptionsInput() *StorageInsightsReportConfigCsvOptions
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type StorageInsightsReportConfig interface {
 	PutParquetOptions(value *StorageInsightsReportConfigParquetOptions)
 	PutTimeouts(value *StorageInsightsReportConfigTimeouts)
 	ResetCsvOptions()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetForceDestroy()
 	ResetFrequencyOptions()
@@ -229,6 +233,26 @@ func (j *jsiiProxy_StorageInsightsReportConfig) CsvOptionsInput() *StorageInsigh
 	_jsii_.Get(
 		j,
 		"csvOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -545,7 +569,7 @@ func (j *jsiiProxy_StorageInsightsReportConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewStorageInsightsReportConfig(scope constructs.Construct, id *string, config *StorageInsightsReportConfigConfig) StorageInsightsReportConfig {
 	_init_.Initialize()
 
@@ -563,7 +587,7 @@ func NewStorageInsightsReportConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewStorageInsightsReportConfig_Override(s StorageInsightsReportConfig, scope constructs.Construct, id *string, config *StorageInsightsReportConfigConfig) {
 	_init_.Initialize()
 
@@ -592,6 +616,17 @@ func (j *jsiiProxy_StorageInsightsReportConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (s *jsiiProxy_StorageInsightsReportConfig) ResetCsvOptions() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetCsvOptions",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageInsightsReportConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

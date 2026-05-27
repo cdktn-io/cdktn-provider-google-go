@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_view google_contact_center_insights_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_view google_contact_center_insights_view}.
 type ContactCenterInsightsView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ContactCenterInsightsView interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type ContactCenterInsightsView interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ContactCenterInsightsViewTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -205,6 +209,26 @@ func (j *jsiiProxy_ContactCenterInsightsView) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContactCenterInsightsView) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContactCenterInsightsView) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -471,7 +495,7 @@ func (j *jsiiProxy_ContactCenterInsightsView) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
 func NewContactCenterInsightsView(scope constructs.Construct, id *string, config *ContactCenterInsightsViewConfig) ContactCenterInsightsView {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewContactCenterInsightsView(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
 func NewContactCenterInsightsView_Override(c ContactCenterInsightsView, scope constructs.Construct, id *string, config *ContactCenterInsightsViewConfig) {
 	_init_.Initialize()
 
@@ -518,6 +542,17 @@ func (j *jsiiProxy_ContactCenterInsightsView)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContactCenterInsightsView)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -984,6 +1019,14 @@ func (c *jsiiProxy_ContactCenterInsightsView) PutTimeouts(value *ContactCenterIn
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContactCenterInsightsView) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

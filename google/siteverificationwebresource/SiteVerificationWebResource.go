@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_web_resource google_site_verification_web_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_web_resource google_site_verification_web_resource}.
 type SiteVerificationWebResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type SiteVerificationWebResource interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -118,6 +121,7 @@ type SiteVerificationWebResource interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSite(value *SiteVerificationWebResourceSite)
 	PutTimeouts(value *SiteVerificationWebResourceTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -185,6 +189,26 @@ func (j *jsiiProxy_SiteVerificationWebResource) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SiteVerificationWebResource) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SiteVerificationWebResource) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -411,7 +435,7 @@ func (j *jsiiProxy_SiteVerificationWebResource) WebResourceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
 func NewSiteVerificationWebResource(scope constructs.Construct, id *string, config *SiteVerificationWebResourceConfig) SiteVerificationWebResource {
 	_init_.Initialize()
 
@@ -429,7 +453,7 @@ func NewSiteVerificationWebResource(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_web_resource google_site_verification_web_resource} Resource.
 func NewSiteVerificationWebResource_Override(s SiteVerificationWebResource, scope constructs.Construct, id *string, config *SiteVerificationWebResourceConfig) {
 	_init_.Initialize()
 
@@ -458,6 +482,17 @@ func (j *jsiiProxy_SiteVerificationWebResource)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SiteVerificationWebResource)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -902,6 +937,14 @@ func (s *jsiiProxy_SiteVerificationWebResource) PutTimeouts(value *SiteVerificat
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SiteVerificationWebResource) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

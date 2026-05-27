@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeRegionAutoscaler) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionAutoscaler) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionAutoscaler) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

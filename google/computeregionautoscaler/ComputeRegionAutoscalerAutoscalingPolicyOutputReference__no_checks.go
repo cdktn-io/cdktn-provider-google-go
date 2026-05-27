@@ -99,6 +99,10 @@ func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) validateSetStabilizationPeriodParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

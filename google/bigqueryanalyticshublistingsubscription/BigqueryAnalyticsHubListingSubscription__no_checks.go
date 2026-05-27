@@ -111,6 +111,10 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validateSetDataExcha
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validateSetIdParameters(val *string) error {
 	return nil
 }

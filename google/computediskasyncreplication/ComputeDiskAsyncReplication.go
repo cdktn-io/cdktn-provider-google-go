@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_disk_async_replication google_compute_disk_async_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_disk_async_replication google_compute_disk_async_replication}.
 type ComputeDiskAsyncReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeDiskAsyncReplication interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type ComputeDiskAsyncReplication interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSecondaryDisk(value *ComputeDiskAsyncReplicationSecondaryDisk)
 	PutTimeouts(value *ComputeDiskAsyncReplicationTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -183,6 +187,26 @@ func (j *jsiiProxy_ComputeDiskAsyncReplication) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeDiskAsyncReplication) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeDiskAsyncReplication) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -389,7 +413,7 @@ func (j *jsiiProxy_ComputeDiskAsyncReplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_disk_async_replication google_compute_disk_async_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_disk_async_replication google_compute_disk_async_replication} Resource.
 func NewComputeDiskAsyncReplication(scope constructs.Construct, id *string, config *ComputeDiskAsyncReplicationConfig) ComputeDiskAsyncReplication {
 	_init_.Initialize()
 
@@ -407,7 +431,7 @@ func NewComputeDiskAsyncReplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_disk_async_replication google_compute_disk_async_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_disk_async_replication google_compute_disk_async_replication} Resource.
 func NewComputeDiskAsyncReplication_Override(c ComputeDiskAsyncReplication, scope constructs.Construct, id *string, config *ComputeDiskAsyncReplicationConfig) {
 	_init_.Initialize()
 
@@ -436,6 +460,17 @@ func (j *jsiiProxy_ComputeDiskAsyncReplication)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeDiskAsyncReplication)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -880,6 +915,14 @@ func (c *jsiiProxy_ComputeDiskAsyncReplication) PutTimeouts(value *ComputeDiskAs
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeDiskAsyncReplication) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

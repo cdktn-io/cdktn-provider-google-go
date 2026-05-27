@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_pipeline google_eventarc_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_pipeline google_eventarc_pipeline}.
 type EventarcPipeline interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type EventarcPipeline interface {
 	CryptoKeyName() *string
 	SetCryptoKeyName(val *string)
 	CryptoKeyNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -156,6 +159,7 @@ type EventarcPipeline interface {
 	PutTimeouts(value *EventarcPipelineTimeouts)
 	ResetAnnotations()
 	ResetCryptoKeyName()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetInputPayloadFormat()
@@ -280,6 +284,26 @@ func (j *jsiiProxy_EventarcPipeline) CryptoKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcPipeline) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcPipeline) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -716,7 +740,7 @@ func (j *jsiiProxy_EventarcPipeline) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
 func NewEventarcPipeline(scope constructs.Construct, id *string, config *EventarcPipelineConfig) EventarcPipeline {
 	_init_.Initialize()
 
@@ -734,7 +758,7 @@ func NewEventarcPipeline(scope constructs.Construct, id *string, config *Eventar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_pipeline google_eventarc_pipeline} Resource.
 func NewEventarcPipeline_Override(e EventarcPipeline, scope constructs.Construct, id *string, config *EventarcPipelineConfig) {
 	_init_.Initialize()
 
@@ -785,6 +809,17 @@ func (j *jsiiProxy_EventarcPipeline)SetCryptoKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventarcPipeline)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1332,6 +1367,14 @@ func (e *jsiiProxy_EventarcPipeline) ResetCryptoKeyName() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetCryptoKeyName",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventarcPipeline) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

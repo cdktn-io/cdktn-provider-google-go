@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings}.
 type FolderAccessApprovalSettings interface {
 	cdktn.TerraformResource
 	ActiveKeyVersion() *string
@@ -31,6 +31,9 @@ type FolderAccessApprovalSettings interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type FolderAccessApprovalSettings interface {
 	PutEnrolledServices(value interface{})
 	PutTimeouts(value *FolderAccessApprovalSettingsTimeouts)
 	ResetActiveKeyVersion()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNotificationEmails()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -225,6 +229,26 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FolderAccessApprovalSettings) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FolderAccessApprovalSettings) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -481,7 +505,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
 func NewFolderAccessApprovalSettings(scope constructs.Construct, id *string, config *FolderAccessApprovalSettingsConfig) FolderAccessApprovalSettings {
 	_init_.Initialize()
 
@@ -499,7 +523,7 @@ func NewFolderAccessApprovalSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
 func NewFolderAccessApprovalSettings_Override(f FolderAccessApprovalSettings, scope constructs.Construct, id *string, config *FolderAccessApprovalSettingsConfig) {
 	_init_.Initialize()
 
@@ -539,6 +563,17 @@ func (j *jsiiProxy_FolderAccessApprovalSettings)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FolderAccessApprovalSettings)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1001,6 +1036,14 @@ func (f *jsiiProxy_FolderAccessApprovalSettings) ResetActiveKeyVersion() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetActiveKeyVersion",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FolderAccessApprovalSettings) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

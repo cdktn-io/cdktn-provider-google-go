@@ -115,6 +115,10 @@ func (j *jsiiProxy_PrivatecaCertificateTemplate) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_PrivatecaCertificateTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivatecaCertificateTemplate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

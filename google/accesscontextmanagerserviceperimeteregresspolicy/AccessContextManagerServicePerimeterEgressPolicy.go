@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy}.
 type AccessContextManagerServicePerimeterEgressPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -28,6 +28,9 @@ type AccessContextManagerServicePerimeterEgressPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type AccessContextManagerServicePerimeterEgressPolicy interface {
 	PutEgressFrom(value *AccessContextManagerServicePerimeterEgressPolicyEgressFrom)
 	PutEgressTo(value *AccessContextManagerServicePerimeterEgressPolicyEgressTo)
 	PutTimeouts(value *AccessContextManagerServicePerimeterEgressPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetEgressFrom()
 	ResetEgressTo()
 	ResetId()
@@ -204,6 +208,26 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) Count() int
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -460,7 +484,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) TitleInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
 func NewAccessContextManagerServicePerimeterEgressPolicy(scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterEgressPolicyConfig) AccessContextManagerServicePerimeterEgressPolicy {
 	_init_.Initialize()
 
@@ -478,7 +502,7 @@ func NewAccessContextManagerServicePerimeterEgressPolicy(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
 func NewAccessContextManagerServicePerimeterEgressPolicy_Override(a AccessContextManagerServicePerimeterEgressPolicy, scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterEgressPolicyConfig) {
 	_init_.Initialize()
 
@@ -507,6 +531,17 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy)SetCount(val
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -973,6 +1008,14 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) PutTimeouts
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

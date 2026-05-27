@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder google_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder google_folder}.
 type Folder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type Folder interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -128,6 +131,7 @@ type Folder interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *FolderTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -217,6 +221,26 @@ func (j *jsiiProxy_Folder) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Folder) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Folder) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -503,7 +527,7 @@ func (j *jsiiProxy_Folder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder google_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder google_folder} Resource.
 func NewFolder(scope constructs.Construct, id *string, config *FolderConfig) Folder {
 	_init_.Initialize()
 
@@ -521,7 +545,7 @@ func NewFolder(scope constructs.Construct, id *string, config *FolderConfig) Fol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder google_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder google_folder} Resource.
 func NewFolder_Override(f Folder, scope constructs.Construct, id *string, config *FolderConfig) {
 	_init_.Initialize()
 
@@ -550,6 +574,17 @@ func (j *jsiiProxy_Folder)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Folder)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1016,6 +1051,14 @@ func (f *jsiiProxy_Folder) PutTimeouts(value *FolderTimeouts) {
 		f,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (f *jsiiProxy_Folder) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

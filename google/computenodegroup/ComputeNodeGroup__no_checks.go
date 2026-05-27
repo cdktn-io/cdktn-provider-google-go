@@ -115,6 +115,10 @@ func (j *jsiiProxy_ComputeNodeGroup) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNodeGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNodeGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

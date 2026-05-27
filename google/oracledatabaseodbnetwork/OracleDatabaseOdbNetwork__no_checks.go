@@ -103,6 +103,10 @@ func (j *jsiiProxy_OracleDatabaseOdbNetwork) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseOdbNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleDatabaseOdbNetwork) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

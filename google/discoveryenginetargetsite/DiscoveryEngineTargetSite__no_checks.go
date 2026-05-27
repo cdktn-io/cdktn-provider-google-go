@@ -107,6 +107,10 @@ func (j *jsiiProxy_DiscoveryEngineTargetSite) validateSetDataStoreIdParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineTargetSite) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineTargetSite) validateSetExactMatchParameters(val interface{}) error {
 	return nil
 }

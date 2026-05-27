@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetappKmsconfig) validateSetCryptoKeyNameParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_NetappKmsconfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappKmsconfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

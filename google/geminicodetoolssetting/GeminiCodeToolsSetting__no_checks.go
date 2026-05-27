@@ -111,6 +111,10 @@ func (j *jsiiProxy_GeminiCodeToolsSetting) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GeminiCodeToolsSetting) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiCodeToolsSetting) validateSetIdParameters(val *string) error {
 	return nil
 }

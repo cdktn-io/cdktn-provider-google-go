@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector}.
 type DeveloperConnectAccountConnector interface {
 	cdktn.TerraformResource
 	AccountConnectorId() *string
@@ -36,6 +36,9 @@ type DeveloperConnectAccountConnector interface {
 	CreateTime() *string
 	CustomOauthConfig() DeveloperConnectAccountConnectorCustomOauthConfigOutputReference
 	CustomOauthConfigInput() *DeveloperConnectAccountConnectorCustomOauthConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type DeveloperConnectAccountConnector interface {
 	PutTimeouts(value *DeveloperConnectAccountConnectorTimeouts)
 	ResetAnnotations()
 	ResetCustomOauthConfig()
+	ResetDeletionPolicy()
 	ResetEtag()
 	ResetId()
 	ResetLabels()
@@ -288,6 +292,26 @@ func (j *jsiiProxy_DeveloperConnectAccountConnector) CustomOauthConfigInput() *D
 	_jsii_.Get(
 		j,
 		"customOauthConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeveloperConnectAccountConnector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeveloperConnectAccountConnector) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -634,7 +658,7 @@ func (j *jsiiProxy_DeveloperConnectAccountConnector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
 func NewDeveloperConnectAccountConnector(scope constructs.Construct, id *string, config *DeveloperConnectAccountConnectorConfig) DeveloperConnectAccountConnector {
 	_init_.Initialize()
 
@@ -652,7 +676,7 @@ func NewDeveloperConnectAccountConnector(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
 func NewDeveloperConnectAccountConnector_Override(d DeveloperConnectAccountConnector, scope constructs.Construct, id *string, config *DeveloperConnectAccountConnectorConfig) {
 	_init_.Initialize()
 
@@ -703,6 +727,17 @@ func (j *jsiiProxy_DeveloperConnectAccountConnector)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DeveloperConnectAccountConnector)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1217,6 +1252,14 @@ func (d *jsiiProxy_DeveloperConnectAccountConnector) ResetCustomOauthConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCustomOauthConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DeveloperConnectAccountConnector) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

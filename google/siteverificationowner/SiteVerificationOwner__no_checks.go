@@ -103,6 +103,10 @@ func (j *jsiiProxy_SiteVerificationOwner) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_SiteVerificationOwner) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SiteVerificationOwner) validateSetEmailParameters(val *string) error {
 	return nil
 }

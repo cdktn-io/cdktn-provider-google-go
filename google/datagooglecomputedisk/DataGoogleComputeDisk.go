@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_disk google_compute_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/compute_disk google_compute_disk}.
 type DataGoogleComputeDisk interface {
 	cdktn.TerraformDataSource
 	AccessMode() *string
@@ -29,6 +29,7 @@ type DataGoogleComputeDisk interface {
 	CreateSnapshotBeforeDestroy() cdktn.IResolvable
 	CreateSnapshotBeforeDestroyPrefix() *string
 	CreationTimestamp() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -247,6 +248,16 @@ func (j *jsiiProxy_DataGoogleComputeDisk) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeDisk) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -763,7 +774,7 @@ func (j *jsiiProxy_DataGoogleComputeDisk) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_disk google_compute_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/compute_disk google_compute_disk} Data Source.
 func NewDataGoogleComputeDisk(scope constructs.Construct, id *string, config *DataGoogleComputeDiskConfig) DataGoogleComputeDisk {
 	_init_.Initialize()
 
@@ -781,7 +792,7 @@ func NewDataGoogleComputeDisk(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_disk google_compute_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/compute_disk google_compute_disk} Data Source.
 func NewDataGoogleComputeDisk_Override(d DataGoogleComputeDisk, scope constructs.Construct, id *string, config *DataGoogleComputeDiskConfig) {
 	_init_.Initialize()
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeRegionSslCertificate) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionSslCertificate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionSslCertificate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

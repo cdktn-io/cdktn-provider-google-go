@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project}.
 type ComputeSharedVpcHostProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeSharedVpcHostProject interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -113,6 +116,7 @@ type ComputeSharedVpcHostProject interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeSharedVpcHostProjectTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -180,6 +184,26 @@ func (j *jsiiProxy_ComputeSharedVpcHostProject) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSharedVpcHostProject) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSharedVpcHostProject) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -366,7 +390,7 @@ func (j *jsiiProxy_ComputeSharedVpcHostProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
 func NewComputeSharedVpcHostProject(scope constructs.Construct, id *string, config *ComputeSharedVpcHostProjectConfig) ComputeSharedVpcHostProject {
 	_init_.Initialize()
 
@@ -384,7 +408,7 @@ func NewComputeSharedVpcHostProject(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
 func NewComputeSharedVpcHostProject_Override(c ComputeSharedVpcHostProject, scope constructs.Construct, id *string, config *ComputeSharedVpcHostProjectConfig) {
 	_init_.Initialize()
 
@@ -413,6 +437,17 @@ func (j *jsiiProxy_ComputeSharedVpcHostProject)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSharedVpcHostProject)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -846,6 +881,14 @@ func (c *jsiiProxy_ComputeSharedVpcHostProject) PutTimeouts(value *ComputeShared
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeSharedVpcHostProject) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -356,6 +356,14 @@ func (j *jsiiProxy_BigqueryRowAccessPolicy) validateSetDatasetIdParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryRowAccessPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryRowAccessPolicy) validateSetFilterPredicateParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

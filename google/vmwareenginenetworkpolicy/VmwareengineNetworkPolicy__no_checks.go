@@ -111,6 +111,10 @@ func (j *jsiiProxy_VmwareengineNetworkPolicy) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_VmwareengineNetworkPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VmwareengineNetworkPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

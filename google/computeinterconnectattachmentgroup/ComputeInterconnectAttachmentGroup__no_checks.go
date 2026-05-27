@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

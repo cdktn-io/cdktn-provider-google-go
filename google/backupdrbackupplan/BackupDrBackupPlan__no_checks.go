@@ -79,6 +79,10 @@ func (b *jsiiProxy_BackupDrBackupPlan) validatePutBackupRulesParameters(value in
 	return nil
 }
 
+func (b *jsiiProxy_BackupDrBackupPlan) validatePutComputeInstanceBackupPlanPropertiesParameters(value *BackupDrBackupPlanComputeInstanceBackupPlanProperties) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupDrBackupPlan) validatePutDiskBackupPlanPropertiesParameters(value *BackupDrBackupPlanDiskBackupPlanProperties) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (j *jsiiProxy_BackupDrBackupPlan) validateSetConnectionParameters(val inter
 }
 
 func (j *jsiiProxy_BackupDrBackupPlan) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

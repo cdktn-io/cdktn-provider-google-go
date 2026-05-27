@@ -135,6 +135,10 @@ func (j *jsiiProxy_ContainerAwsNodePool) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAwsNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAwsNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

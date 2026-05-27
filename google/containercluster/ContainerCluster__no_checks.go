@@ -227,6 +227,10 @@ func (c *jsiiProxy_ContainerCluster) validatePutSecretManagerConfigParameters(va
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutSecretSyncConfigParameters(value *ContainerClusterSecretSyncConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutSecurityPostureConfigParameters(value *ContainerClusterSecurityPostureConfig) error {
 	return nil
 }
@@ -292,6 +296,10 @@ func (j *jsiiProxy_ContainerCluster) validateSetDatapathProviderParameters(val *
 }
 
 func (j *jsiiProxy_ContainerCluster) validateSetDefaultMaxPodsPerNodeParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

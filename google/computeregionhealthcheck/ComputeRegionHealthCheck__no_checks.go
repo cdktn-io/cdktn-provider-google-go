@@ -139,6 +139,10 @@ func (j *jsiiProxy_ComputeRegionHealthCheck) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionHealthCheck) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionHealthCheck) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

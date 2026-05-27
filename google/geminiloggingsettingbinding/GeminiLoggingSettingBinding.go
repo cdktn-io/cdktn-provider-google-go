@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding}.
 type GeminiLoggingSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GeminiLoggingSettingBinding interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GeminiLoggingSettingBinding interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GeminiLoggingSettingBindingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetLocation()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_GeminiLoggingSettingBinding) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiLoggingSettingBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiLoggingSettingBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -563,7 +587,7 @@ func (j *jsiiProxy_GeminiLoggingSettingBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
 func NewGeminiLoggingSettingBinding(scope constructs.Construct, id *string, config *GeminiLoggingSettingBindingConfig) GeminiLoggingSettingBinding {
 	_init_.Initialize()
 
@@ -581,7 +605,7 @@ func NewGeminiLoggingSettingBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
 func NewGeminiLoggingSettingBinding_Override(g GeminiLoggingSettingBinding, scope constructs.Construct, id *string, config *GeminiLoggingSettingBindingConfig) {
 	_init_.Initialize()
 
@@ -610,6 +634,17 @@ func (j *jsiiProxy_GeminiLoggingSettingBinding)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiLoggingSettingBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (g *jsiiProxy_GeminiLoggingSettingBinding) PutTimeouts(value *GeminiLogging
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiLoggingSettingBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

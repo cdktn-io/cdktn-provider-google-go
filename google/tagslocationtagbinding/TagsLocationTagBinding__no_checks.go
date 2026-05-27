@@ -103,6 +103,10 @@ func (j *jsiiProxy_TagsLocationTagBinding) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_TagsLocationTagBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_TagsLocationTagBinding) validateSetIdParameters(val *string) error {
 	return nil
 }

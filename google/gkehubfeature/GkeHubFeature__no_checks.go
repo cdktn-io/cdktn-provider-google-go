@@ -111,6 +111,10 @@ func (j *jsiiProxy_GkeHubFeature) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_GkeHubFeature) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeHubFeature) validateSetIdParameters(val *string) error {
 	return nil
 }

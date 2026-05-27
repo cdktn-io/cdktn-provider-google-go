@@ -378,6 +378,14 @@ func (j *jsiiProxy_LoggingMetric) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_LoggingMetric) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_LoggingMetric) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkSecurityInterceptDeployment) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityInterceptDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityInterceptDeployment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

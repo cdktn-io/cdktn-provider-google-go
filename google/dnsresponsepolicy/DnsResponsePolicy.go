@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dns_response_policy google_dns_response_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dns_response_policy google_dns_response_policy}.
 type DnsResponsePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DnsResponsePolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type DnsResponsePolicy interface {
 	PutGkeClusters(value interface{})
 	PutNetworks(value interface{})
 	PutTimeouts(value *DnsResponsePolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGkeClusters()
 	ResetId()
@@ -196,6 +200,26 @@ func (j *jsiiProxy_DnsResponsePolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsResponsePolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsResponsePolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -462,7 +486,7 @@ func (j *jsiiProxy_DnsResponsePolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dns_response_policy google_dns_response_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dns_response_policy google_dns_response_policy} Resource.
 func NewDnsResponsePolicy(scope constructs.Construct, id *string, config *DnsResponsePolicyConfig) DnsResponsePolicy {
 	_init_.Initialize()
 
@@ -480,7 +504,7 @@ func NewDnsResponsePolicy(scope constructs.Construct, id *string, config *DnsRes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dns_response_policy google_dns_response_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dns_response_policy google_dns_response_policy} Resource.
 func NewDnsResponsePolicy_Override(d DnsResponsePolicy, scope constructs.Construct, id *string, config *DnsResponsePolicyConfig) {
 	_init_.Initialize()
 
@@ -509,6 +533,17 @@ func (j *jsiiProxy_DnsResponsePolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DnsResponsePolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -986,6 +1021,14 @@ func (d *jsiiProxy_DnsResponsePolicy) PutTimeouts(value *DnsResponsePolicyTimeou
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DnsResponsePolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

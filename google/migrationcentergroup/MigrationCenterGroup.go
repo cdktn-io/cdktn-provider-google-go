@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/migration_center_group google_migration_center_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/migration_center_group google_migration_center_group}.
 type MigrationCenterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type MigrationCenterGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type MigrationCenterGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *MigrationCenterGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -214,6 +218,26 @@ func (j *jsiiProxy_MigrationCenterGroup) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MigrationCenterGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MigrationCenterGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -540,7 +564,7 @@ func (j *jsiiProxy_MigrationCenterGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/migration_center_group google_migration_center_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/migration_center_group google_migration_center_group} Resource.
 func NewMigrationCenterGroup(scope constructs.Construct, id *string, config *MigrationCenterGroupConfig) MigrationCenterGroup {
 	_init_.Initialize()
 
@@ -558,7 +582,7 @@ func NewMigrationCenterGroup(scope constructs.Construct, id *string, config *Mig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/migration_center_group google_migration_center_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/migration_center_group google_migration_center_group} Resource.
 func NewMigrationCenterGroup_Override(m MigrationCenterGroup, scope constructs.Construct, id *string, config *MigrationCenterGroupConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_MigrationCenterGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MigrationCenterGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1075,6 +1110,14 @@ func (m *jsiiProxy_MigrationCenterGroup) PutTimeouts(value *MigrationCenterGroup
 		m,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MigrationCenterGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

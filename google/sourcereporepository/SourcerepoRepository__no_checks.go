@@ -111,6 +111,10 @@ func (j *jsiiProxy_SourcerepoRepository) validateSetCreateIgnoreAlreadyExistsPar
 	return nil
 }
 
+func (j *jsiiProxy_SourcerepoRepository) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SourcerepoRepository) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_ManagedKafkaConnectCluster) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_ManagedKafkaConnectCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ManagedKafkaConnectCluster) validateSetIdParameters(val *string) error {
 	return nil
 }

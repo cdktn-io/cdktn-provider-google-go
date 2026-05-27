@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_instance google_compute_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/compute_instance google_compute_instance}.
 type DataGoogleComputeInstance interface {
 	cdktn.TerraformDataSource
 	AdvancedMachineFeatures() DataGoogleComputeInstanceAdvancedMachineFeaturesList
@@ -32,6 +32,7 @@ type DataGoogleComputeInstance interface {
 	CpuPlatform() *string
 	CreationTimestamp() *string
 	CurrentStatus() *string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
@@ -282,6 +283,16 @@ func (j *jsiiProxy_DataGoogleComputeInstance) CurrentStatus() *string {
 	_jsii_.Get(
 		j,
 		"currentStatus",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -788,7 +799,7 @@ func (j *jsiiProxy_DataGoogleComputeInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_instance google_compute_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/compute_instance google_compute_instance} Data Source.
 func NewDataGoogleComputeInstance(scope constructs.Construct, id *string, config *DataGoogleComputeInstanceConfig) DataGoogleComputeInstance {
 	_init_.Initialize()
 
@@ -806,7 +817,7 @@ func NewDataGoogleComputeInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/compute_instance google_compute_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/compute_instance google_compute_instance} Data Source.
 func NewDataGoogleComputeInstance_Override(d DataGoogleComputeInstance, scope constructs.Construct, id *string, config *DataGoogleComputeInstanceConfig) {
 	_init_.Initialize()
 

@@ -115,6 +115,10 @@ func (j *jsiiProxy_ClouddeployCustomTargetType) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_ClouddeployCustomTargetType) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ClouddeployCustomTargetType) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

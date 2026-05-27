@@ -115,6 +115,10 @@ func (j *jsiiProxy_DataprocGdcApplicationEnvironment) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_DataprocGdcApplicationEnvironment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocGdcApplicationEnvironment) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

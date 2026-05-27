@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_asset_project_feed google_cloud_asset_project_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_asset_project_feed google_cloud_asset_project_feed}.
 type CloudAssetProjectFeed interface {
 	cdktn.TerraformResource
 	AssetNames() *[]*string
@@ -41,6 +41,9 @@ type CloudAssetProjectFeed interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type CloudAssetProjectFeed interface {
 	ResetBillingProject()
 	ResetCondition()
 	ResetContentType()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -308,6 +312,26 @@ func (j *jsiiProxy_CloudAssetProjectFeed) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudAssetProjectFeed) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudAssetProjectFeed) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -544,7 +568,7 @@ func (j *jsiiProxy_CloudAssetProjectFeed) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_asset_project_feed google_cloud_asset_project_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_asset_project_feed google_cloud_asset_project_feed} Resource.
 func NewCloudAssetProjectFeed(scope constructs.Construct, id *string, config *CloudAssetProjectFeedConfig) CloudAssetProjectFeed {
 	_init_.Initialize()
 
@@ -562,7 +586,7 @@ func NewCloudAssetProjectFeed(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_asset_project_feed google_cloud_asset_project_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_asset_project_feed google_cloud_asset_project_feed} Resource.
 func NewCloudAssetProjectFeed_Override(c CloudAssetProjectFeed, scope constructs.Construct, id *string, config *CloudAssetProjectFeedConfig) {
 	_init_.Initialize()
 
@@ -635,6 +659,17 @@ func (j *jsiiProxy_CloudAssetProjectFeed)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudAssetProjectFeed)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1140,6 +1175,14 @@ func (c *jsiiProxy_CloudAssetProjectFeed) ResetContentType() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetContentType",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudAssetProjectFeed) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

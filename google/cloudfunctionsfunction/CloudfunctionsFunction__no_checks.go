@@ -143,6 +143,10 @@ func (j *jsiiProxy_CloudfunctionsFunction) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_CloudfunctionsFunction) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudfunctionsFunction) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

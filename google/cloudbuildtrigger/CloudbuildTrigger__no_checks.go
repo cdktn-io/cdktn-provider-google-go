@@ -147,6 +147,10 @@ func (j *jsiiProxy_CloudbuildTrigger) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_CloudbuildTrigger) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudbuildTrigger) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

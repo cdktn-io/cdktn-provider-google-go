@@ -99,6 +99,10 @@ func (j *jsiiProxy_ProjectIamCustomRole) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ProjectIamCustomRole) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ProjectIamCustomRole) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

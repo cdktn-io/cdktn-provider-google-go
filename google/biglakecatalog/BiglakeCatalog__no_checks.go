@@ -103,6 +103,10 @@ func (j *jsiiProxy_BiglakeCatalog) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_BiglakeCatalog) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BiglakeCatalog) validateSetIdParameters(val *string) error {
 	return nil
 }

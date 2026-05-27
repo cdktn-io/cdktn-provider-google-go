@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apphub_service google_apphub_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apphub_service google_apphub_service}.
 type ApphubService interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -33,6 +33,9 @@ type ApphubService interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type ApphubService interface {
 	PutAttributes(value *ApphubServiceAttributes)
 	PutTimeouts(value *ApphubServiceTimeouts)
 	ResetAttributes()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -262,6 +266,26 @@ func (j *jsiiProxy_ApphubService) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApphubService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApphubService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -608,7 +632,7 @@ func (j *jsiiProxy_ApphubService) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apphub_service google_apphub_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apphub_service google_apphub_service} Resource.
 func NewApphubService(scope constructs.Construct, id *string, config *ApphubServiceConfig) ApphubService {
 	_init_.Initialize()
 
@@ -626,7 +650,7 @@ func NewApphubService(scope constructs.Construct, id *string, config *ApphubServ
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apphub_service google_apphub_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apphub_service google_apphub_service} Resource.
 func NewApphubService_Override(a ApphubService, scope constructs.Construct, id *string, config *ApphubServiceConfig) {
 	_init_.Initialize()
 
@@ -666,6 +690,17 @@ func (j *jsiiProxy_ApphubService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApphubService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1172,6 +1207,14 @@ func (a *jsiiProxy_ApphubService) ResetAttributes() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAttributes",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApphubService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

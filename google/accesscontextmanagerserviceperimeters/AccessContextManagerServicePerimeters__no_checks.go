@@ -107,6 +107,10 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeters) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_AccessContextManagerServicePerimeters) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AccessContextManagerServicePerimeters) validateSetIdParameters(val *string) error {
 	return nil
 }

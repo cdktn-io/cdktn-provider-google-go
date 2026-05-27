@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_metastore_federation google_dataproc_metastore_federation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_metastore_federation google_dataproc_metastore_federation}.
 type DataprocMetastoreFederation interface {
 	cdktn.TerraformResource
 	BackendMetastores() DataprocMetastoreFederationBackendMetastoresList
@@ -30,6 +30,9 @@ type DataprocMetastoreFederation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -143,6 +146,7 @@ type DataprocMetastoreFederation interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutBackendMetastores(value interface{})
 	PutTimeouts(value *DataprocMetastoreFederationTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetId()
 	ResetLabels()
@@ -245,6 +249,26 @@ func (j *jsiiProxy_DataprocMetastoreFederation) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocMetastoreFederation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocMetastoreFederation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -631,7 +655,7 @@ func (j *jsiiProxy_DataprocMetastoreFederation) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
 func NewDataprocMetastoreFederation(scope constructs.Construct, id *string, config *DataprocMetastoreFederationConfig) DataprocMetastoreFederation {
 	_init_.Initialize()
 
@@ -649,7 +673,7 @@ func NewDataprocMetastoreFederation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
 func NewDataprocMetastoreFederation_Override(d DataprocMetastoreFederation, scope constructs.Construct, id *string, config *DataprocMetastoreFederationConfig) {
 	_init_.Initialize()
 
@@ -678,6 +702,17 @@ func (j *jsiiProxy_DataprocMetastoreFederation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocMetastoreFederation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1188,6 +1223,14 @@ func (d *jsiiProxy_DataprocMetastoreFederation) PutTimeouts(value *DataprocMetas
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocMetastoreFederation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

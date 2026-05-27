@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_ids_endpoint google_cloud_ids_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_ids_endpoint google_cloud_ids_endpoint}.
 type CloudIdsEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type CloudIdsEndpoint interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type CloudIdsEndpoint interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *CloudIdsEndpointTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_CloudIdsEndpoint) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudIdsEndpoint) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudIdsEndpoint) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -551,7 +575,7 @@ func (j *jsiiProxy_CloudIdsEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
 func NewCloudIdsEndpoint(scope constructs.Construct, id *string, config *CloudIdsEndpointConfig) CloudIdsEndpoint {
 	_init_.Initialize()
 
@@ -569,7 +593,7 @@ func NewCloudIdsEndpoint(scope constructs.Construct, id *string, config *CloudId
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
 func NewCloudIdsEndpoint_Override(c CloudIdsEndpoint, scope constructs.Construct, id *string, config *CloudIdsEndpointConfig) {
 	_init_.Initialize()
 
@@ -598,6 +622,17 @@ func (j *jsiiProxy_CloudIdsEndpoint)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudIdsEndpoint)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1097,6 +1132,14 @@ func (c *jsiiProxy_CloudIdsEndpoint) PutTimeouts(value *CloudIdsEndpointTimeouts
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CloudIdsEndpoint) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

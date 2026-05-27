@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_service_iam_binding google_service_directory_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_service_iam_binding google_service_directory_service_iam_binding}.
 type ServiceDirectoryServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ServiceDirectoryServiceIamBinding) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_service_iam_binding google_service_directory_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_service_iam_binding google_service_directory_service_iam_binding} Resource.
 func NewServiceDirectoryServiceIamBinding(scope constructs.Construct, id *string, config *ServiceDirectoryServiceIamBindingConfig) ServiceDirectoryServiceIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewServiceDirectoryServiceIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_service_iam_binding google_service_directory_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_service_iam_binding google_service_directory_service_iam_binding} Resource.
 func NewServiceDirectoryServiceIamBinding_Override(s ServiceDirectoryServiceIamBinding, scope constructs.Construct, id *string, config *ServiceDirectoryServiceIamBindingConfig) {
 	_init_.Initialize()
 

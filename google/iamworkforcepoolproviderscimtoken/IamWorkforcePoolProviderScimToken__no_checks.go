@@ -103,6 +103,10 @@ func (j *jsiiProxy_IamWorkforcePoolProviderScimToken) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_IamWorkforcePoolProviderScimToken) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamWorkforcePoolProviderScimToken) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

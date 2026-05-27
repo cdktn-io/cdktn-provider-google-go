@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeAttachedDisk) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_ComputeAttachedDisk) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeAttachedDisk) validateSetDeviceNameParameters(val *string) error {
 	return nil
 }

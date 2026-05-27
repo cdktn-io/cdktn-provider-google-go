@@ -103,6 +103,10 @@ func (j *jsiiProxy_ApigeeEndpointAttachment) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeEndpointAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeEndpointAttachment) validateSetEndpointAttachmentIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_dataset google_healthcare_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_dataset google_healthcare_dataset}.
 type HealthcareDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type HealthcareDataset interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type HealthcareDataset interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEncryptionSpec(value *HealthcareDatasetEncryptionSpec)
 	PutTimeouts(value *HealthcareDatasetTimeouts)
+	ResetDeletionPolicy()
 	ResetEncryptionSpec()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -196,6 +200,26 @@ func (j *jsiiProxy_HealthcareDataset) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcareDataset) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcareDataset) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -472,7 +496,7 @@ func (j *jsiiProxy_HealthcareDataset) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_dataset google_healthcare_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_dataset google_healthcare_dataset} Resource.
 func NewHealthcareDataset(scope constructs.Construct, id *string, config *HealthcareDatasetConfig) HealthcareDataset {
 	_init_.Initialize()
 
@@ -490,7 +514,7 @@ func NewHealthcareDataset(scope constructs.Construct, id *string, config *Health
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_dataset google_healthcare_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_dataset google_healthcare_dataset} Resource.
 func NewHealthcareDataset_Override(h HealthcareDataset, scope constructs.Construct, id *string, config *HealthcareDatasetConfig) {
 	_init_.Initialize()
 
@@ -519,6 +543,17 @@ func (j *jsiiProxy_HealthcareDataset)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HealthcareDataset)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -996,6 +1031,14 @@ func (h *jsiiProxy_HealthcareDataset) PutTimeouts(value *HealthcareDatasetTimeou
 		h,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (h *jsiiProxy_HealthcareDataset) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

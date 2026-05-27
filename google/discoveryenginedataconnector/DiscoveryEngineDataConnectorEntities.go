@@ -12,7 +12,7 @@ type DiscoveryEngineDataConnectorEntities struct {
 	// * Jira: project, issue, attachment, comment, worklog
 	// * Confluence: 'Content', 'Space'
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_data_connector#entity_name DiscoveryEngineDataConnector#entity_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_data_connector#entity_name DiscoveryEngineDataConnector#entity_name}
 	EntityName *string `field:"optional" json:"entityName" yaml:"entityName"`
 	// Attributes for indexing.
 	//
@@ -24,11 +24,11 @@ type DiscoveryEngineDataConnectorEntities struct {
 	// * 'description': The description for data record. This would be displayed
 	//   on search results.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_data_connector#key_property_mappings DiscoveryEngineDataConnector#key_property_mappings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_data_connector#key_property_mappings DiscoveryEngineDataConnector#key_property_mappings}
 	KeyPropertyMappings *map[string]*string `field:"optional" json:"keyPropertyMappings" yaml:"keyPropertyMappings"`
 	// The parameters for the entity to facilitate data ingestion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_data_connector#params DiscoveryEngineDataConnector#params}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_data_connector#params DiscoveryEngineDataConnector#params}
 	Params *string `field:"optional" json:"params" yaml:"params"`
 }
 

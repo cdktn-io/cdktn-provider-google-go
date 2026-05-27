@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetappVolumeQuotaRule) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolumeQuotaRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolumeQuotaRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

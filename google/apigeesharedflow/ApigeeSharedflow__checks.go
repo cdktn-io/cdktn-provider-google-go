@@ -356,6 +356,14 @@ func (j *jsiiProxy_ApigeeSharedflow) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeSharedflow) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeSharedflow) validateSetDetectMd5HashParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

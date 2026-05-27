@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_dns_authorization google_certificate_manager_dns_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/certificate_manager_dns_authorization google_certificate_manager_dns_authorization}.
 type CertificateManagerDnsAuthorization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type CertificateManagerDnsAuthorization interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type CertificateManagerDnsAuthorization interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *CertificateManagerDnsAuthorizationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -206,6 +210,26 @@ func (j *jsiiProxy_CertificateManagerDnsAuthorization) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CertificateManagerDnsAuthorization) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CertificateManagerDnsAuthorization) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +566,7 @@ func (j *jsiiProxy_CertificateManagerDnsAuthorization) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
 func NewCertificateManagerDnsAuthorization(scope constructs.Construct, id *string, config *CertificateManagerDnsAuthorizationConfig) CertificateManagerDnsAuthorization {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewCertificateManagerDnsAuthorization(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
 func NewCertificateManagerDnsAuthorization_Override(c CertificateManagerDnsAuthorization, scope constructs.Construct, id *string, config *CertificateManagerDnsAuthorizationConfig) {
 	_init_.Initialize()
 
@@ -589,6 +613,17 @@ func (j *jsiiProxy_CertificateManagerDnsAuthorization)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CertificateManagerDnsAuthorization)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1088,6 +1123,14 @@ func (c *jsiiProxy_CertificateManagerDnsAuthorization) PutTimeouts(value *Certif
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CertificateManagerDnsAuthorization) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

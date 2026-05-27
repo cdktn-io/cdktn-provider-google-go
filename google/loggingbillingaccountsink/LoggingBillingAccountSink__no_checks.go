@@ -111,6 +111,10 @@ func (j *jsiiProxy_LoggingBillingAccountSink) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_LoggingBillingAccountSink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingBillingAccountSink) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

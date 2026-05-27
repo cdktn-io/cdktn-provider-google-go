@@ -119,6 +119,10 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

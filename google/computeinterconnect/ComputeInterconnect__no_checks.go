@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputeInterconnect) validateSetCustomerNameParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInterconnect) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInterconnect) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

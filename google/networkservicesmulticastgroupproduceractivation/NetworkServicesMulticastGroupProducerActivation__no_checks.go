@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_table google_bigquery_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_table google_bigquery_table}.
 type BigqueryTable interface {
 	cdktn.TerraformResource
 	BiglakeConfiguration() BigqueryTableBiglakeConfigurationOutputReference
@@ -36,6 +36,9 @@ type BigqueryTable interface {
 	DatasetId() *string
 	SetDatasetId(val *string)
 	DatasetIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -202,6 +205,7 @@ type BigqueryTable interface {
 	PutView(value *BigqueryTableView)
 	ResetBiglakeConfiguration()
 	ResetClustering()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
 	ResetEncryptionConfiguration()
@@ -361,6 +365,26 @@ func (j *jsiiProxy_BigqueryTable) DatasetIdInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryTable) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryTable) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1097,7 +1121,7 @@ func (j *jsiiProxy_BigqueryTable) ViewInput() *BigqueryTableView {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_table google_bigquery_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_table google_bigquery_table} Resource.
 func NewBigqueryTable(scope constructs.Construct, id *string, config *BigqueryTableConfig) BigqueryTable {
 	_init_.Initialize()
 
@@ -1115,7 +1139,7 @@ func NewBigqueryTable(scope constructs.Construct, id *string, config *BigqueryTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_table google_bigquery_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_table google_bigquery_table} Resource.
 func NewBigqueryTable_Override(b BigqueryTable, scope constructs.Construct, id *string, config *BigqueryTableConfig) {
 	_init_.Initialize()
 
@@ -1166,6 +1190,17 @@ func (j *jsiiProxy_BigqueryTable)SetDatasetId(val *string) {
 	_jsii_.Set(
 		j,
 		"datasetId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryTable)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1867,6 +1902,14 @@ func (b *jsiiProxy_BigqueryTable) ResetClustering() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetClustering",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryTable) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

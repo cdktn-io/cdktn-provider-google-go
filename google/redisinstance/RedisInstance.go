@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/redis_instance google_redis_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/redis_instance google_redis_instance}.
 type RedisInstance interface {
 	cdktn.TerraformResource
 	AlternativeLocationId() *string
@@ -45,6 +45,9 @@ type RedisInstance interface {
 	CustomerManagedKey() *string
 	SetCustomerManagedKey(val *string)
 	CustomerManagedKeyInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -201,6 +204,7 @@ type RedisInstance interface {
 	ResetAuthorizedNetwork()
 	ResetConnectMode()
 	ResetCustomerManagedKey()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetId()
@@ -415,6 +419,26 @@ func (j *jsiiProxy_RedisInstance) CustomerManagedKeyInput() *string {
 	_jsii_.Get(
 		j,
 		"customerManagedKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedisInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedisInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1071,7 +1095,7 @@ func (j *jsiiProxy_RedisInstance) TransitEncryptionModeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/redis_instance google_redis_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/redis_instance google_redis_instance} Resource.
 func NewRedisInstance(scope constructs.Construct, id *string, config *RedisInstanceConfig) RedisInstance {
 	_init_.Initialize()
 
@@ -1089,7 +1113,7 @@ func NewRedisInstance(scope constructs.Construct, id *string, config *RedisInsta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/redis_instance google_redis_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/redis_instance google_redis_instance} Resource.
 func NewRedisInstance_Override(r RedisInstance, scope constructs.Construct, id *string, config *RedisInstanceConfig) {
 	_init_.Initialize()
 
@@ -1173,6 +1197,17 @@ func (j *jsiiProxy_RedisInstance)SetCustomerManagedKey(val *string) {
 	_jsii_.Set(
 		j,
 		"customerManagedKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RedisInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1843,6 +1878,14 @@ func (r *jsiiProxy_RedisInstance) ResetCustomerManagedKey() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetCustomerManagedKey",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RedisInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

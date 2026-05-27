@@ -111,6 +111,10 @@ func (j *jsiiProxy_CertificateManagerTrustConfig) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_CertificateManagerTrustConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CertificateManagerTrustConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

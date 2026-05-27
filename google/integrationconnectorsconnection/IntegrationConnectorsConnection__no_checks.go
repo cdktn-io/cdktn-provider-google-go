@@ -139,6 +139,10 @@ func (j *jsiiProxy_IntegrationConnectorsConnection) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_IntegrationConnectorsConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IntegrationConnectorsConnection) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

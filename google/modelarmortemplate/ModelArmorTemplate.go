@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/model_armor_template google_model_armor_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/model_armor_template google_model_armor_template}.
 type ModelArmorTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ModelArmorTemplate interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type ModelArmorTemplate interface {
 	PutFilterConfig(value *ModelArmorTemplateFilterConfig)
 	PutTemplateMetadata(value *ModelArmorTemplateTemplateMetadata)
 	PutTimeouts(value *ModelArmorTemplateTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -213,6 +217,26 @@ func (j *jsiiProxy_ModelArmorTemplate) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -539,7 +563,7 @@ func (j *jsiiProxy_ModelArmorTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/model_armor_template google_model_armor_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/model_armor_template google_model_armor_template} Resource.
 func NewModelArmorTemplate(scope constructs.Construct, id *string, config *ModelArmorTemplateConfig) ModelArmorTemplate {
 	_init_.Initialize()
 
@@ -557,7 +581,7 @@ func NewModelArmorTemplate(scope constructs.Construct, id *string, config *Model
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/model_armor_template google_model_armor_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/model_armor_template google_model_armor_template} Resource.
 func NewModelArmorTemplate_Override(m ModelArmorTemplate, scope constructs.Construct, id *string, config *ModelArmorTemplateConfig) {
 	_init_.Initialize()
 
@@ -586,6 +610,17 @@ func (j *jsiiProxy_ModelArmorTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ModelArmorTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1074,6 +1109,14 @@ func (m *jsiiProxy_ModelArmorTemplate) PutTimeouts(value *ModelArmorTemplateTime
 		m,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_ModelArmorTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

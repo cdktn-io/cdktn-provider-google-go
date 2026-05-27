@@ -107,6 +107,10 @@ func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) va
 	return nil
 }
 
+func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job}.
 type StorageBatchOperationsJob interface {
 	cdktn.TerraformResource
 	BucketList() StorageBatchOperationsJobBucketListStructOutputReference
@@ -36,10 +36,16 @@ type StorageBatchOperationsJob interface {
 	DeleteProtection() interface{}
 	SetDeleteProtection(val interface{})
 	DeleteProtectionInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Description() *string
+	SetDescription(val *string)
+	DescriptionInput() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -142,6 +148,8 @@ type StorageBatchOperationsJob interface {
 	ResetBucketList()
 	ResetDeleteObject()
 	ResetDeleteProtection()
+	ResetDeletionPolicy()
+	ResetDescription()
 	ResetId()
 	ResetJobId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -299,11 +307,51 @@ func (j *jsiiProxy_StorageBatchOperationsJob) DeleteProtectionInput() interface{
 	return returns
 }
 
+func (j *jsiiProxy_StorageBatchOperationsJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageBatchOperationsJob) DependsOn() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) Description() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) DescriptionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"descriptionInput",
 		&returns,
 	)
 	return returns
@@ -590,7 +638,7 @@ func (j *jsiiProxy_StorageBatchOperationsJob) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
 func NewStorageBatchOperationsJob(scope constructs.Construct, id *string, config *StorageBatchOperationsJobConfig) StorageBatchOperationsJob {
 	_init_.Initialize()
 
@@ -608,7 +656,7 @@ func NewStorageBatchOperationsJob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
 func NewStorageBatchOperationsJob_Override(s StorageBatchOperationsJob, scope constructs.Construct, id *string, config *StorageBatchOperationsJobConfig) {
 	_init_.Initialize()
 
@@ -652,10 +700,32 @@ func (j *jsiiProxy_StorageBatchOperationsJob)SetDeleteProtection(val interface{}
 	)
 }
 
+func (j *jsiiProxy_StorageBatchOperationsJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
+		val,
+	)
+}
+
 func (j *jsiiProxy_StorageBatchOperationsJob)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob)SetDescription(val *string) {
+	if err := j.validateSetDescriptionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"description",
 		val,
 	)
 }
@@ -1170,6 +1240,22 @@ func (s *jsiiProxy_StorageBatchOperationsJob) ResetDeleteProtection() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDeleteProtection",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBatchOperationsJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBatchOperationsJob) ResetDescription() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDescription",
 		nil, // no parameters
 	)
 }

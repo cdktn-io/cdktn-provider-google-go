@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_router_peer google_compute_router_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_router_peer google_compute_router_peer}.
 type ComputeRouterPeer interface {
 	cdktn.TerraformResource
 	AdvertisedGroups() *[]*string
@@ -45,6 +45,9 @@ type ComputeRouterPeer interface {
 	CustomLearnedRoutePriority() *float64
 	SetCustomLearnedRoutePriority(val *float64)
 	CustomLearnedRoutePriorityInput() *float64
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -204,6 +207,7 @@ type ComputeRouterPeer interface {
 	ResetBfd()
 	ResetCustomLearnedIpRanges()
 	ResetCustomLearnedRoutePriority()
+	ResetDeletionPolicy()
 	ResetEnable()
 	ResetEnableIpv4()
 	ResetEnableIpv6()
@@ -428,6 +432,26 @@ func (j *jsiiProxy_ComputeRouterPeer) CustomLearnedRoutePriorityInput() *float64
 	_jsii_.Get(
 		j,
 		"customLearnedRoutePriorityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRouterPeer) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRouterPeer) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1044,7 +1068,7 @@ func (j *jsiiProxy_ComputeRouterPeer) ZeroCustomLearnedRoutePriorityInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_router_peer google_compute_router_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_router_peer google_compute_router_peer} Resource.
 func NewComputeRouterPeer(scope constructs.Construct, id *string, config *ComputeRouterPeerConfig) ComputeRouterPeer {
 	_init_.Initialize()
 
@@ -1062,7 +1086,7 @@ func NewComputeRouterPeer(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_router_peer google_compute_router_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_router_peer google_compute_router_peer} Resource.
 func NewComputeRouterPeer_Override(c ComputeRouterPeer, scope constructs.Construct, id *string, config *ComputeRouterPeerConfig) {
 	_init_.Initialize()
 
@@ -1135,6 +1159,17 @@ func (j *jsiiProxy_ComputeRouterPeer)SetCustomLearnedRoutePriority(val *float64)
 	_jsii_.Set(
 		j,
 		"customLearnedRoutePriority",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRouterPeer)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1876,6 +1911,14 @@ func (c *jsiiProxy_ComputeRouterPeer) ResetCustomLearnedRoutePriority() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetCustomLearnedRoutePriority",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRouterPeer) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

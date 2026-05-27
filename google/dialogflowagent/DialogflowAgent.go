@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_agent google_dialogflow_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_agent google_dialogflow_agent}.
 type DialogflowAgent interface {
 	cdktn.TerraformResource
 	ApiVersion() *string
@@ -40,6 +40,9 @@ type DialogflowAgent interface {
 	DefaultLanguageCode() *string
 	SetDefaultLanguageCode(val *string)
 	DefaultLanguageCodeInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -150,6 +153,7 @@ type DialogflowAgent interface {
 	ResetApiVersion()
 	ResetAvatarUri()
 	ResetClassificationThreshold()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableLogging()
 	ResetId()
@@ -313,6 +317,26 @@ func (j *jsiiProxy_DialogflowAgent) DefaultLanguageCodeInput() *string {
 	_jsii_.Get(
 		j,
 		"defaultLanguageCodeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowAgent) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowAgent) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -639,7 +663,7 @@ func (j *jsiiProxy_DialogflowAgent) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_agent google_dialogflow_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_agent google_dialogflow_agent} Resource.
 func NewDialogflowAgent(scope constructs.Construct, id *string, config *DialogflowAgentConfig) DialogflowAgent {
 	_init_.Initialize()
 
@@ -657,7 +681,7 @@ func NewDialogflowAgent(scope constructs.Construct, id *string, config *Dialogfl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_agent google_dialogflow_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_agent google_dialogflow_agent} Resource.
 func NewDialogflowAgent_Override(d DialogflowAgent, scope constructs.Construct, id *string, config *DialogflowAgentConfig) {
 	_init_.Initialize()
 
@@ -730,6 +754,17 @@ func (j *jsiiProxy_DialogflowAgent)SetDefaultLanguageCode(val *string) {
 	_jsii_.Set(
 		j,
 		"defaultLanguageCode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowAgent)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1263,6 +1298,14 @@ func (d *jsiiProxy_DialogflowAgent) ResetClassificationThreshold() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetClassificationThreshold",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowAgent) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

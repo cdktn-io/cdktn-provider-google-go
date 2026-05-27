@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy}.
 type IamPrincipalAccessBoundaryPolicy interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -31,6 +31,9 @@ type IamPrincipalAccessBoundaryPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type IamPrincipalAccessBoundaryPolicy interface {
 	PutDetails(value *IamPrincipalAccessBoundaryPolicyDetails)
 	PutTimeouts(value *IamPrincipalAccessBoundaryPolicyTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDetails()
 	ResetDisplayName()
 	ResetId()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -550,7 +574,7 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
 func NewIamPrincipalAccessBoundaryPolicy(scope constructs.Construct, id *string, config *IamPrincipalAccessBoundaryPolicyConfig) IamPrincipalAccessBoundaryPolicy {
 	_init_.Initialize()
 
@@ -568,7 +592,7 @@ func NewIamPrincipalAccessBoundaryPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
 func NewIamPrincipalAccessBoundaryPolicy_Override(i IamPrincipalAccessBoundaryPolicy, scope constructs.Construct, id *string, config *IamPrincipalAccessBoundaryPolicyConfig) {
 	_init_.Initialize()
 
@@ -608,6 +632,17 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1092,6 +1127,14 @@ func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicy) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamPrincipalAccessBoundaryPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

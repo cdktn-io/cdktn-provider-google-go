@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_repository_group google_gemini_repository_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_repository_group google_gemini_repository_group}.
 type GeminiRepositoryGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GeminiRepositoryGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GeminiRepositoryGroup interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRepositories(value interface{})
 	PutTimeouts(value *GeminiRepositoryGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -232,6 +236,26 @@ func (j *jsiiProxy_GeminiRepositoryGroup) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiRepositoryGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiRepositoryGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -538,7 +562,7 @@ func (j *jsiiProxy_GeminiRepositoryGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_repository_group google_gemini_repository_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_repository_group google_gemini_repository_group} Resource.
 func NewGeminiRepositoryGroup(scope constructs.Construct, id *string, config *GeminiRepositoryGroupConfig) GeminiRepositoryGroup {
 	_init_.Initialize()
 
@@ -556,7 +580,7 @@ func NewGeminiRepositoryGroup(scope constructs.Construct, id *string, config *Ge
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_repository_group google_gemini_repository_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_repository_group google_gemini_repository_group} Resource.
 func NewGeminiRepositoryGroup_Override(g GeminiRepositoryGroup, scope constructs.Construct, id *string, config *GeminiRepositoryGroupConfig) {
 	_init_.Initialize()
 
@@ -596,6 +620,17 @@ func (j *jsiiProxy_GeminiRepositoryGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiRepositoryGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1073,6 +1108,14 @@ func (g *jsiiProxy_GeminiRepositoryGroup) PutTimeouts(value *GeminiRepositoryGro
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiRepositoryGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

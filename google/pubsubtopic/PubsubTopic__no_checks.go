@@ -119,6 +119,10 @@ func (j *jsiiProxy_PubsubTopic) validateSetCountParameters(val interface{}) erro
 	return nil
 }
 
+func (j *jsiiProxy_PubsubTopic) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PubsubTopic) validateSetIdParameters(val *string) error {
 	return nil
 }

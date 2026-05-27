@@ -107,6 +107,10 @@ func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

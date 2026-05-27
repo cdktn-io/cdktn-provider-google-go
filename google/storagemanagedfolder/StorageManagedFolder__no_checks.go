@@ -107,6 +107,10 @@ func (j *jsiiProxy_StorageManagedFolder) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_StorageManagedFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageManagedFolder) validateSetForceDestroyParameters(val interface{}) error {
 	return nil
 }

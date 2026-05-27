@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_tool google_ces_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_tool google_ces_tool}.
 type CesTool interface {
 	cdktn.TerraformResource
 	App() *string
@@ -35,6 +35,9 @@ type CesTool interface {
 	CreateTime() *string
 	DataStoreTool() CesToolDataStoreToolOutputReference
 	DataStoreToolInput() *CesToolDataStoreTool
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type CesTool interface {
 	PutTimeouts(value *CesToolTimeouts)
 	ResetClientFunction()
 	ResetDataStoreTool()
+	ResetDeletionPolicy()
 	ResetExecutionType()
 	ResetGoogleSearchTool()
 	ResetId()
@@ -288,6 +292,26 @@ func (j *jsiiProxy_CesTool) DataStoreToolInput() *CesToolDataStoreTool {
 	_jsii_.Get(
 		j,
 		"dataStoreToolInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesTool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesTool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -644,7 +668,7 @@ func (j *jsiiProxy_CesTool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_tool google_ces_tool} Resource.
 func NewCesTool(scope constructs.Construct, id *string, config *CesToolConfig) CesTool {
 	_init_.Initialize()
 
@@ -662,7 +686,7 @@ func NewCesTool(scope constructs.Construct, id *string, config *CesToolConfig) C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_tool google_ces_tool} Resource.
 func NewCesTool_Override(c CesTool, scope constructs.Construct, id *string, config *CesToolConfig) {
 	_init_.Initialize()
 
@@ -702,6 +726,17 @@ func (j *jsiiProxy_CesTool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesTool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1227,6 +1262,14 @@ func (c *jsiiProxy_CesTool) ResetDataStoreTool() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDataStoreTool",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesTool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

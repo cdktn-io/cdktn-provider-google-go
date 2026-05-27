@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/sql_database_instance google_sql_database_instance}.
 type SqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -37,6 +37,9 @@ type SqlDatabaseInstance interface {
 	DatabaseVersion() *string
 	SetDatabaseVersion(val *string)
 	DatabaseVersionInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -190,6 +193,7 @@ type SqlDatabaseInstance interface {
 	PutTimeouts(value *SqlDatabaseInstanceTimeouts)
 	ResetBackupdrBackup()
 	ResetClone()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetEncryptionKeyName()
 	ResetFinalBackupDescription()
@@ -356,6 +360,26 @@ func (j *jsiiProxy_SqlDatabaseInstance) DatabaseVersionInput() *string {
 	_jsii_.Get(
 		j,
 		"databaseVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1002,7 +1026,7 @@ func (j *jsiiProxy_SqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) SqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1020,7 +1044,7 @@ func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance_Override(s SqlDatabaseInstance, scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1071,6 +1095,17 @@ func (j *jsiiProxy_SqlDatabaseInstance)SetDatabaseVersion(val *string) {
 	_jsii_.Set(
 		j,
 		"databaseVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1728,6 +1763,14 @@ func (s *jsiiProxy_SqlDatabaseInstance) ResetClone() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetClone",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

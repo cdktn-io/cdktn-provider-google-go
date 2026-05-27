@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/binary_authorization_attestor google_binary_authorization_attestor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/binary_authorization_attestor google_binary_authorization_attestor}.
 type BinaryAuthorizationAttestor interface {
 	cdktn.TerraformResource
 	AttestationAuthorityNote() BinaryAuthorizationAttestorAttestationAuthorityNoteOutputReference
@@ -29,6 +29,9 @@ type BinaryAuthorizationAttestor interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type BinaryAuthorizationAttestor interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAttestationAuthorityNote(value *BinaryAuthorizationAttestorAttestationAuthorityNote)
 	PutTimeouts(value *BinaryAuthorizationAttestorTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -211,6 +215,26 @@ func (j *jsiiProxy_BinaryAuthorizationAttestor) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BinaryAuthorizationAttestor) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BinaryAuthorizationAttestor) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -437,7 +461,7 @@ func (j *jsiiProxy_BinaryAuthorizationAttestor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/binary_authorization_attestor google_binary_authorization_attestor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/binary_authorization_attestor google_binary_authorization_attestor} Resource.
 func NewBinaryAuthorizationAttestor(scope constructs.Construct, id *string, config *BinaryAuthorizationAttestorConfig) BinaryAuthorizationAttestor {
 	_init_.Initialize()
 
@@ -455,7 +479,7 @@ func NewBinaryAuthorizationAttestor(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/binary_authorization_attestor google_binary_authorization_attestor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/binary_authorization_attestor google_binary_authorization_attestor} Resource.
 func NewBinaryAuthorizationAttestor_Override(b BinaryAuthorizationAttestor, scope constructs.Construct, id *string, config *BinaryAuthorizationAttestorConfig) {
 	_init_.Initialize()
 
@@ -484,6 +508,17 @@ func (j *jsiiProxy_BinaryAuthorizationAttestor)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BinaryAuthorizationAttestor)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -950,6 +985,14 @@ func (b *jsiiProxy_BinaryAuthorizationAttestor) PutTimeouts(value *BinaryAuthori
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BinaryAuthorizationAttestor) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

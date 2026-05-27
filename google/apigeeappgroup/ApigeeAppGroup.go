@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_app_group google_apigee_app_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_app_group google_apigee_app_group}.
 type ApigeeAppGroup interface {
 	cdktn.TerraformResource
 	AppGroupId() *string
@@ -37,6 +37,9 @@ type ApigeeAppGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreatedAt() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type ApigeeAppGroup interface {
 	ResetAttributes()
 	ResetChannelId()
 	ResetChannelUri()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -287,6 +291,26 @@ func (j *jsiiProxy_ApigeeAppGroup) CreatedAt() *string {
 	_jsii_.Get(
 		j,
 		"createdAt",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeAppGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeAppGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_ApigeeAppGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
 func NewApigeeAppGroup(scope constructs.Construct, id *string, config *ApigeeAppGroupConfig) ApigeeAppGroup {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewApigeeAppGroup(scope constructs.Construct, id *string, config *ApigeeApp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
 func NewApigeeAppGroup_Override(a ApigeeAppGroup, scope constructs.Construct, id *string, config *ApigeeAppGroupConfig) {
 	_init_.Initialize()
 
@@ -622,6 +646,17 @@ func (j *jsiiProxy_ApigeeAppGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeAppGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1122,6 +1157,14 @@ func (a *jsiiProxy_ApigeeAppGroup) ResetChannelUri() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetChannelUri",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeAppGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

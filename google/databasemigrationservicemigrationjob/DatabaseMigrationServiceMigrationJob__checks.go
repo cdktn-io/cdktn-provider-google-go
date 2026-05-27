@@ -240,6 +240,17 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutPerformanceC
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutPostgresHomogeneousConfigParameters(value *DatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutReverseSshConnectivityParameters(value *DatabaseMigrationServiceMigrationJobReverseSshConnectivity) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -409,6 +420,14 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetCountParamet
 		if !_jsii_.IsAnonymousProxy(val) {
 			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktn.TerraformCount; received %#v (a %T)", val, val)
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

@@ -103,6 +103,10 @@ func (j *jsiiProxy_EdgenetworkNetwork) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_EdgenetworkNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EdgenetworkNetwork) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

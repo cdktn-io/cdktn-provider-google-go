@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComputeStoragePool) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_ComputeStoragePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeStoragePool) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_deny_policy google_iam_deny_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_deny_policy google_iam_deny_policy}.
 type IamDenyPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type IamDenyPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type IamDenyPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRules(value interface{})
 	PutTimeouts(value *IamDenyPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -191,6 +195,26 @@ func (j *jsiiProxy_IamDenyPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamDenyPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamDenyPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -447,7 +471,7 @@ func (j *jsiiProxy_IamDenyPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_deny_policy google_iam_deny_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_deny_policy google_iam_deny_policy} Resource.
 func NewIamDenyPolicy(scope constructs.Construct, id *string, config *IamDenyPolicyConfig) IamDenyPolicy {
 	_init_.Initialize()
 
@@ -465,7 +489,7 @@ func NewIamDenyPolicy(scope constructs.Construct, id *string, config *IamDenyPol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_deny_policy google_iam_deny_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_deny_policy google_iam_deny_policy} Resource.
 func NewIamDenyPolicy_Override(i IamDenyPolicy, scope constructs.Construct, id *string, config *IamDenyPolicyConfig) {
 	_init_.Initialize()
 
@@ -494,6 +518,17 @@ func (j *jsiiProxy_IamDenyPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamDenyPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -960,6 +995,14 @@ func (i *jsiiProxy_IamDenyPolicy) PutTimeouts(value *IamDenyPolicyTimeouts) {
 		i,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IamDenyPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

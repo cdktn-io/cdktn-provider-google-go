@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/project_service google_project_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/project_service google_project_service}.
 type DataGoogleProjectService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,6 +23,7 @@ type DataGoogleProjectService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +148,16 @@ func (j *jsiiProxy_DataGoogleProjectService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleProjectService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -343,7 +354,7 @@ func (j *jsiiProxy_DataGoogleProjectService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/project_service google_project_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/project_service google_project_service} Data Source.
 func NewDataGoogleProjectService(scope constructs.Construct, id *string, config *DataGoogleProjectServiceConfig) DataGoogleProjectService {
 	_init_.Initialize()
 
@@ -361,7 +372,7 @@ func NewDataGoogleProjectService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/project_service google_project_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/project_service google_project_service} Data Source.
 func NewDataGoogleProjectService_Override(d DataGoogleProjectService, scope constructs.Construct, id *string, config *DataGoogleProjectServiceConfig) {
 	_init_.Initialize()
 

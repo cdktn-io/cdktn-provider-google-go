@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeNetworkEndpoints) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkEndpoints) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkEndpoints) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
 type PrivilegedAccessManagerEntitlement interface {
 	cdktn.TerraformResource
 	AdditionalNotificationTargets() PrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference
@@ -32,6 +32,9 @@ type PrivilegedAccessManagerEntitlement interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type PrivilegedAccessManagerEntitlement interface {
 	PutTimeouts(value *PrivilegedAccessManagerEntitlementTimeouts)
 	ResetAdditionalNotificationTargets()
 	ResetApprovalWorkflow()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -261,6 +265,26 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -607,7 +631,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
 func NewPrivilegedAccessManagerEntitlement(scope constructs.Construct, id *string, config *PrivilegedAccessManagerEntitlementConfig) PrivilegedAccessManagerEntitlement {
 	_init_.Initialize()
 
@@ -625,7 +649,7 @@ func NewPrivilegedAccessManagerEntitlement(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
 func NewPrivilegedAccessManagerEntitlement_Override(p PrivilegedAccessManagerEntitlement, scope constructs.Construct, id *string, config *PrivilegedAccessManagerEntitlementConfig) {
 	_init_.Initialize()
 
@@ -654,6 +678,17 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlement)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlement)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1190,6 +1225,14 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) ResetApprovalWorkflow() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetApprovalWorkflow",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

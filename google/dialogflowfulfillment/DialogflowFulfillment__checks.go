@@ -390,6 +390,14 @@ func (j *jsiiProxy_DialogflowFulfillment) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowFulfillment) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowFulfillment) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

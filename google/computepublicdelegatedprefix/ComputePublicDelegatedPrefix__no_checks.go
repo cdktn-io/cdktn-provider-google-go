@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputePublicDelegatedPrefix) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputePublicDelegatedPrefix) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_SecureSourceManagerHook) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_SecureSourceManagerHook) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SecureSourceManagerHook) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

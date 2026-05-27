@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_http_route google_network_services_http_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_http_route google_network_services_http_route}.
 type NetworkServicesHttpRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkServicesHttpRoute interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type NetworkServicesHttpRoute interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRules(value interface{})
 	PutTimeouts(value *NetworkServicesHttpRouteTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGateways()
 	ResetId()
@@ -221,6 +225,26 @@ func (j *jsiiProxy_NetworkServicesHttpRoute) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRoute) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRoute) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -587,7 +611,7 @@ func (j *jsiiProxy_NetworkServicesHttpRoute) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_http_route google_network_services_http_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_http_route google_network_services_http_route} Resource.
 func NewNetworkServicesHttpRoute(scope constructs.Construct, id *string, config *NetworkServicesHttpRouteConfig) NetworkServicesHttpRoute {
 	_init_.Initialize()
 
@@ -605,7 +629,7 @@ func NewNetworkServicesHttpRoute(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_http_route google_network_services_http_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_http_route google_network_services_http_route} Resource.
 func NewNetworkServicesHttpRoute_Override(n NetworkServicesHttpRoute, scope constructs.Construct, id *string, config *NetworkServicesHttpRouteConfig) {
 	_init_.Initialize()
 
@@ -634,6 +658,17 @@ func (j *jsiiProxy_NetworkServicesHttpRoute)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRoute)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1144,6 +1179,14 @@ func (n *jsiiProxy_NetworkServicesHttpRoute) PutTimeouts(value *NetworkServicesH
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesHttpRoute) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

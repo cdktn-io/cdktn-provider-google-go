@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster}.
 type HypercomputeclusterCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type HypercomputeclusterCluster interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type HypercomputeclusterCluster interface {
 	PutStorageResources(value interface{})
 	PutTimeouts(value *HypercomputeclusterClusterTimeouts)
 	ResetComputeResources()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_HypercomputeclusterCluster) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HypercomputeclusterCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HypercomputeclusterCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -623,7 +647,7 @@ func (j *jsiiProxy_HypercomputeclusterCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewHypercomputeclusterCluster(scope constructs.Construct, id *string, config *HypercomputeclusterClusterConfig) HypercomputeclusterCluster {
 	_init_.Initialize()
 
@@ -641,7 +665,7 @@ func NewHypercomputeclusterCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewHypercomputeclusterCluster_Override(h HypercomputeclusterCluster, scope constructs.Construct, id *string, config *HypercomputeclusterClusterConfig) {
 	_init_.Initialize()
 
@@ -681,6 +705,17 @@ func (j *jsiiProxy_HypercomputeclusterCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HypercomputeclusterCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1198,6 +1233,14 @@ func (h *jsiiProxy_HypercomputeclusterCluster) ResetComputeResources() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetComputeResources",
+		nil, // no parameters
+	)
+}
+
+func (h *jsiiProxy_HypercomputeclusterCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

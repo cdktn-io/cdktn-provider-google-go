@@ -367,6 +367,14 @@ func (j *jsiiProxy_HealthcareDicomStore) validateSetDatasetParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_HealthcareDicomStore) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_HealthcareDicomStore) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

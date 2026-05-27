@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/beyondcorp_app_connector google_beyondcorp_app_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/beyondcorp_app_connector google_beyondcorp_app_connector}.
 type BeyondcorpAppConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type BeyondcorpAppConnector interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type BeyondcorpAppConnector interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPrincipalInfo(value *BeyondcorpAppConnectorPrincipalInfo)
 	PutTimeouts(value *BeyondcorpAppConnectorTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -202,6 +206,26 @@ func (j *jsiiProxy_BeyondcorpAppConnector) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BeyondcorpAppConnector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BeyondcorpAppConnector) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_BeyondcorpAppConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/beyondcorp_app_connector google_beyondcorp_app_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/beyondcorp_app_connector google_beyondcorp_app_connector} Resource.
 func NewBeyondcorpAppConnector(scope constructs.Construct, id *string, config *BeyondcorpAppConnectorConfig) BeyondcorpAppConnector {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewBeyondcorpAppConnector(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/beyondcorp_app_connector google_beyondcorp_app_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/beyondcorp_app_connector google_beyondcorp_app_connector} Resource.
 func NewBeyondcorpAppConnector_Override(b BeyondcorpAppConnector, scope constructs.Construct, id *string, config *BeyondcorpAppConnectorConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_BeyondcorpAppConnector)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BeyondcorpAppConnector)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1053,6 +1088,14 @@ func (b *jsiiProxy_BeyondcorpAppConnector) PutTimeouts(value *BeyondcorpAppConne
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BeyondcorpAppConnector) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

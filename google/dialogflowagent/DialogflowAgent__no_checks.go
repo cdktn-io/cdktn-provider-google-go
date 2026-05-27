@@ -119,6 +119,10 @@ func (j *jsiiProxy_DialogflowAgent) validateSetDefaultLanguageCodeParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowAgent) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowAgent) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -123,6 +123,10 @@ func (j *jsiiProxy_OsConfigPatchDeployment) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_OsConfigPatchDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OsConfigPatchDeployment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

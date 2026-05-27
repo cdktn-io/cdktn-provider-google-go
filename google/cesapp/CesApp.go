@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_app google_ces_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_app google_ces_app}.
 type CesApp interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -39,6 +39,9 @@ type CesApp interface {
 	DataStoreSettingsInput() *CesAppDataStoreSettings
 	DefaultChannelProfile() CesAppDefaultChannelProfileOutputReference
 	DefaultChannelProfileInput() *CesAppDefaultChannelProfile
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -118,6 +121,9 @@ type CesApp interface {
 	TimeoutsInput() interface{}
 	TimeZoneSettings() CesAppTimeZoneSettingsOutputReference
 	TimeZoneSettingsInput() *CesAppTimeZoneSettings
+	ToolExecutionMode() *string
+	SetToolExecutionMode(val *string)
+	ToolExecutionModeInput() *string
 	UpdateTime() *string
 	VariableDeclarations() CesAppVariableDeclarationsList
 	VariableDeclarationsInput() interface{}
@@ -179,6 +185,7 @@ type CesApp interface {
 	ResetClientCertificateSettings()
 	ResetDataStoreSettings()
 	ResetDefaultChannelProfile()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEvaluationMetricsThresholds()
 	ResetGlobalInstruction()
@@ -196,6 +203,7 @@ type CesApp interface {
 	ResetRootAgent()
 	ResetTimeouts()
 	ResetTimeZoneSettings()
+	ResetToolExecutionMode()
 	ResetVariableDeclarations()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -369,6 +377,26 @@ func (j *jsiiProxy_CesApp) DefaultChannelProfileInput() *CesAppDefaultChannelPro
 	_jsii_.Get(
 		j,
 		"defaultChannelProfileInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesApp) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesApp) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -844,6 +872,26 @@ func (j *jsiiProxy_CesApp) TimeZoneSettingsInput() *CesAppTimeZoneSettings {
 	return returns
 }
 
+func (j *jsiiProxy_CesApp) ToolExecutionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"toolExecutionMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesApp) ToolExecutionModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"toolExecutionModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesApp) UpdateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -875,7 +923,7 @@ func (j *jsiiProxy_CesApp) VariableDeclarationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_app google_ces_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_app google_ces_app} Resource.
 func NewCesApp(scope constructs.Construct, id *string, config *CesAppConfig) CesApp {
 	_init_.Initialize()
 
@@ -893,7 +941,7 @@ func NewCesApp(scope constructs.Construct, id *string, config *CesAppConfig) Ces
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_app google_ces_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_app google_ces_app} Resource.
 func NewCesApp_Override(c CesApp, scope constructs.Construct, id *string, config *CesAppConfig) {
 	_init_.Initialize()
 
@@ -933,6 +981,17 @@ func (j *jsiiProxy_CesApp)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesApp)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1089,6 +1148,17 @@ func (j *jsiiProxy_CesApp)SetRootAgent(val *string) {
 	_jsii_.Set(
 		j,
 		"rootAgent",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesApp)SetToolExecutionMode(val *string) {
+	if err := j.validateSetToolExecutionModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"toolExecutionMode",
 		val,
 	)
 }
@@ -1599,6 +1669,14 @@ func (c *jsiiProxy_CesApp) ResetDefaultChannelProfile() {
 	)
 }
 
+func (c *jsiiProxy_CesApp) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CesApp) ResetDescription() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1715,6 +1793,14 @@ func (c *jsiiProxy_CesApp) ResetTimeZoneSettings() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeZoneSettings",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesApp) ResetToolExecutionMode() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetToolExecutionMode",
 		nil, // no parameters
 	)
 }

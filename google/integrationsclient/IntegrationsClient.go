@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integrations_client google_integrations_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integrations_client google_integrations_client}.
 type IntegrationsClient interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type IntegrationsClient interface {
 	CreateSampleIntegrations() interface{}
 	SetCreateSampleIntegrations(val interface{})
 	CreateSampleIntegrationsInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type IntegrationsClient interface {
 	PutTimeouts(value *IntegrationsClientTimeouts)
 	ResetCloudKmsConfig()
 	ResetCreateSampleIntegrations()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -236,6 +240,26 @@ func (j *jsiiProxy_IntegrationsClient) CreateSampleIntegrationsInput() interface
 	_jsii_.Get(
 		j,
 		"createSampleIntegrationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsClient) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsClient) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -462,7 +486,7 @@ func (j *jsiiProxy_IntegrationsClient) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integrations_client google_integrations_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integrations_client google_integrations_client} Resource.
 func NewIntegrationsClient(scope constructs.Construct, id *string, config *IntegrationsClientConfig) IntegrationsClient {
 	_init_.Initialize()
 
@@ -480,7 +504,7 @@ func NewIntegrationsClient(scope constructs.Construct, id *string, config *Integ
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integrations_client google_integrations_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integrations_client google_integrations_client} Resource.
 func NewIntegrationsClient_Override(i IntegrationsClient, scope constructs.Construct, id *string, config *IntegrationsClientConfig) {
 	_init_.Initialize()
 
@@ -520,6 +544,17 @@ func (j *jsiiProxy_IntegrationsClient)SetCreateSampleIntegrations(val interface{
 	_jsii_.Set(
 		j,
 		"createSampleIntegrations",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IntegrationsClient)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1001,6 +1036,14 @@ func (i *jsiiProxy_IntegrationsClient) ResetCreateSampleIntegrations() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetCreateSampleIntegrations",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationsClient) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

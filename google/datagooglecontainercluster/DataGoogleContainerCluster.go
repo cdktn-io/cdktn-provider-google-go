@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/container_cluster google_container_cluster}.
 type DataGoogleContainerCluster interface {
 	cdktn.TerraformDataSource
 	AddonsConfig() DataGoogleContainerClusterAddonsConfigList
@@ -39,6 +39,7 @@ type DataGoogleContainerCluster interface {
 	DatapathProvider() *string
 	DefaultMaxPodsPerNode() *float64
 	DefaultSnatStatus() DataGoogleContainerClusterDefaultSnatStatusList
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
@@ -132,6 +133,7 @@ type DataGoogleContainerCluster interface {
 	ResourceLabels() cdktn.StringMap
 	ResourceUsageExportConfig() DataGoogleContainerClusterResourceUsageExportConfigList
 	SecretManagerConfig() DataGoogleContainerClusterSecretManagerConfigList
+	SecretSyncConfig() DataGoogleContainerClusterSecretSyncConfigList
 	SecurityPostureConfig() DataGoogleContainerClusterSecurityPostureConfigList
 	SelfLink() *string
 	ServiceExternalIpsConfig() DataGoogleContainerClusterServiceExternalIpsConfigList
@@ -392,6 +394,16 @@ func (j *jsiiProxy_DataGoogleContainerCluster) DefaultSnatStatus() DataGoogleCon
 	_jsii_.Get(
 		j,
 		"defaultSnatStatus",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -1127,6 +1139,16 @@ func (j *jsiiProxy_DataGoogleContainerCluster) SecretManagerConfig() DataGoogleC
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerCluster) SecretSyncConfig() DataGoogleContainerClusterSecretSyncConfigList {
+	var returns DataGoogleContainerClusterSecretSyncConfigList
+	_jsii_.Get(
+		j,
+		"secretSyncConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerCluster) SecurityPostureConfig() DataGoogleContainerClusterSecurityPostureConfigList {
 	var returns DataGoogleContainerClusterSecurityPostureConfigList
 	_jsii_.Get(
@@ -1258,7 +1280,7 @@ func (j *jsiiProxy_DataGoogleContainerCluster) WorkloadIdentityConfig() DataGoog
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/container_cluster google_container_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/container_cluster google_container_cluster} Data Source.
 func NewDataGoogleContainerCluster(scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) DataGoogleContainerCluster {
 	_init_.Initialize()
 
@@ -1276,7 +1298,7 @@ func NewDataGoogleContainerCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/container_cluster google_container_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/container_cluster google_container_cluster} Data Source.
 func NewDataGoogleContainerCluster_Override(d DataGoogleContainerCluster, scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) {
 	_init_.Initialize()
 

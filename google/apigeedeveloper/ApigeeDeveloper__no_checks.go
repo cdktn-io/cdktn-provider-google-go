@@ -107,6 +107,10 @@ func (j *jsiiProxy_ApigeeDeveloper) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeDeveloper) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeDeveloper) validateSetEmailParameters(val *string) error {
 	return nil
 }

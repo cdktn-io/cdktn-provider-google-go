@@ -103,6 +103,10 @@ func (j *jsiiProxy_GkeHubNamespace) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_GkeHubNamespace) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeHubNamespace) validateSetIdParameters(val *string) error {
 	return nil
 }

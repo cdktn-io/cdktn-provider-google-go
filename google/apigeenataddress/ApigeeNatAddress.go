@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_nat_address google_apigee_nat_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_nat_address google_apigee_nat_address}.
 type ApigeeNatAddress interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -30,6 +30,9 @@ type ApigeeNatAddress interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type ApigeeNatAddress interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ApigeeNatAddressTimeouts)
 	ResetActivate()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -209,6 +213,26 @@ func (j *jsiiProxy_ApigeeNatAddress) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeNatAddress) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeNatAddress) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -435,7 +459,7 @@ func (j *jsiiProxy_ApigeeNatAddress) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
 func NewApigeeNatAddress(scope constructs.Construct, id *string, config *ApigeeNatAddressConfig) ApigeeNatAddress {
 	_init_.Initialize()
 
@@ -453,7 +477,7 @@ func NewApigeeNatAddress(scope constructs.Construct, id *string, config *ApigeeN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_nat_address google_apigee_nat_address} Resource.
 func NewApigeeNatAddress_Override(a ApigeeNatAddress, scope constructs.Construct, id *string, config *ApigeeNatAddressConfig) {
 	_init_.Initialize()
 
@@ -493,6 +517,17 @@ func (j *jsiiProxy_ApigeeNatAddress)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeNatAddress)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -944,6 +979,14 @@ func (a *jsiiProxy_ApigeeNatAddress) ResetActivate() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetActivate",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeNatAddress) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

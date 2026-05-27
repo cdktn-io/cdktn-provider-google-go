@@ -123,6 +123,10 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) validateSetEntitlementIdParameters(val *string) error {
 	return nil
 }

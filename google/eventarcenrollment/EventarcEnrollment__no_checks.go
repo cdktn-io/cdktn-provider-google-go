@@ -111,6 +111,10 @@ func (j *jsiiProxy_EventarcEnrollment) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_EventarcEnrollment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EventarcEnrollment) validateSetDestinationParameters(val *string) error {
 	return nil
 }

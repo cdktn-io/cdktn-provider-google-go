@@ -123,6 +123,10 @@ func (j *jsiiProxy_FilestoreInstance) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_FilestoreInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FilestoreInstance) validateSetDeletionProtectionEnabledParameters(val interface{}) error {
 	return nil
 }

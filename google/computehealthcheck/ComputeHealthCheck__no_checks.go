@@ -139,6 +139,10 @@ func (j *jsiiProxy_ComputeHealthCheck) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_ComputeHealthCheck) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeHealthCheck) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

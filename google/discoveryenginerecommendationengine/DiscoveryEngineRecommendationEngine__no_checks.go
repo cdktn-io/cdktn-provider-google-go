@@ -115,6 +115,10 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) validateSetDataStoreIdsP
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

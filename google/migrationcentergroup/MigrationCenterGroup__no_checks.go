@@ -103,6 +103,10 @@ func (j *jsiiProxy_MigrationCenterGroup) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_MigrationCenterGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MigrationCenterGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

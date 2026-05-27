@@ -103,6 +103,10 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamWorkloadIdentityPoolNamespace) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

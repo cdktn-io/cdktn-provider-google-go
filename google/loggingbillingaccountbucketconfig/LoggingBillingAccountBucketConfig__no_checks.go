@@ -115,6 +115,10 @@ func (j *jsiiProxy_LoggingBillingAccountBucketConfig) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_LoggingBillingAccountBucketConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingBillingAccountBucketConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

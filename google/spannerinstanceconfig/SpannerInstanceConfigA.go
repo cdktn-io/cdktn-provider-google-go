@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/spanner_instance_config google_spanner_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/spanner_instance_config google_spanner_instance_config}.
 type SpannerInstanceConfigA interface {
 	cdktn.TerraformResource
 	BaseConfig() *string
@@ -31,6 +31,9 @@ type SpannerInstanceConfigA interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type SpannerInstanceConfigA interface {
 	PutReplicas(value interface{})
 	PutTimeouts(value *SpannerInstanceConfigTimeouts)
 	ResetBaseConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetName()
@@ -232,6 +236,26 @@ func (j *jsiiProxy_SpannerInstanceConfigA) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceConfigA) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerInstanceConfigA) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_SpannerInstanceConfigA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/spanner_instance_config google_spanner_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/spanner_instance_config google_spanner_instance_config} Resource.
 func NewSpannerInstanceConfigA(scope constructs.Construct, id *string, config *SpannerInstanceConfigAConfig) SpannerInstanceConfigA {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewSpannerInstanceConfigA(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/spanner_instance_config google_spanner_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/spanner_instance_config google_spanner_instance_config} Resource.
 func NewSpannerInstanceConfigA_Override(s SpannerInstanceConfigA, scope constructs.Construct, id *string, config *SpannerInstanceConfigAConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_SpannerInstanceConfigA)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpannerInstanceConfigA)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1060,6 +1095,14 @@ func (s *jsiiProxy_SpannerInstanceConfigA) ResetBaseConfig() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetBaseConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerInstanceConfigA) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

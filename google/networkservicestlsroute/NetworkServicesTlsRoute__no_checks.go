@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkServicesTlsRoute) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesTlsRoute) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesTlsRoute) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

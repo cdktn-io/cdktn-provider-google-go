@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy}.
 type ComputeOrganizationSecurityPolicy interface {
 	cdktn.TerraformResource
 	AdvancedOptionsConfig() ComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference
@@ -29,6 +29,9 @@ type ComputeOrganizationSecurityPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type ComputeOrganizationSecurityPolicy interface {
 	PutAdvancedOptionsConfig(value *ComputeOrganizationSecurityPolicyAdvancedOptionsConfig)
 	PutTimeouts(value *ComputeOrganizationSecurityPolicyTimeouts)
 	ResetAdvancedOptionsConfig()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -508,7 +532,7 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyConfig) ComputeOrganizationSecurityPolicy {
 	_init_.Initialize()
 
@@ -526,7 +550,7 @@ func NewComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewComputeOrganizationSecurityPolicy_Override(c ComputeOrganizationSecurityPolicy, scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -555,6 +579,17 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1050,6 +1085,14 @@ func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) ResetAdvancedOptionsConfig
 	_jsii_.InvokeVoid(
 		c,
 		"resetAdvancedOptionsConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeOrganizationSecurityPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

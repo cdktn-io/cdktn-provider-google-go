@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_autoscaling_policy google_dataproc_autoscaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_autoscaling_policy google_dataproc_autoscaling_policy}.
 type DataprocAutoscalingPolicy interface {
 	cdktn.TerraformResource
 	BasicAlgorithm() DataprocAutoscalingPolicyBasicAlgorithmOutputReference
@@ -29,6 +29,9 @@ type DataprocAutoscalingPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type DataprocAutoscalingPolicy interface {
 	PutTimeouts(value *DataprocAutoscalingPolicyTimeouts)
 	PutWorkerConfig(value *DataprocAutoscalingPolicyWorkerConfig)
 	ResetBasicAlgorithm()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -221,6 +225,26 @@ func (j *jsiiProxy_DataprocAutoscalingPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocAutoscalingPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocAutoscalingPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -497,7 +521,7 @@ func (j *jsiiProxy_DataprocAutoscalingPolicy) WorkerConfigInput() *DataprocAutos
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
 func NewDataprocAutoscalingPolicy(scope constructs.Construct, id *string, config *DataprocAutoscalingPolicyConfig) DataprocAutoscalingPolicy {
 	_init_.Initialize()
 
@@ -515,7 +539,7 @@ func NewDataprocAutoscalingPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
 func NewDataprocAutoscalingPolicy_Override(d DataprocAutoscalingPolicy, scope constructs.Construct, id *string, config *DataprocAutoscalingPolicyConfig) {
 	_init_.Initialize()
 
@@ -544,6 +568,17 @@ func (j *jsiiProxy_DataprocAutoscalingPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocAutoscalingPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1039,6 +1074,14 @@ func (d *jsiiProxy_DataprocAutoscalingPolicy) ResetBasicAlgorithm() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetBasicAlgorithm",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocAutoscalingPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

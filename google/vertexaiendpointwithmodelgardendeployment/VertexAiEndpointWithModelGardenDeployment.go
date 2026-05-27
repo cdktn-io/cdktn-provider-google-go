@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment}.
 type VertexAiEndpointWithModelGardenDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type VertexAiEndpointWithModelGardenDeployment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type VertexAiEndpointWithModelGardenDeployment interface {
 	PutEndpointConfig(value *VertexAiEndpointWithModelGardenDeploymentEndpointConfig)
 	PutModelConfig(value *VertexAiEndpointWithModelGardenDeploymentModelConfig)
 	PutTimeouts(value *VertexAiEndpointWithModelGardenDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetDeployConfig()
 	ResetEndpointConfig()
 	ResetHuggingFaceModelId()
@@ -207,6 +211,26 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) Count() interface{
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -543,7 +567,7 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
 func NewVertexAiEndpointWithModelGardenDeployment(scope constructs.Construct, id *string, config *VertexAiEndpointWithModelGardenDeploymentConfig) VertexAiEndpointWithModelGardenDeployment {
 	_init_.Initialize()
 
@@ -561,7 +585,7 @@ func NewVertexAiEndpointWithModelGardenDeployment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
 func NewVertexAiEndpointWithModelGardenDeployment_Override(v VertexAiEndpointWithModelGardenDeployment, scope constructs.Construct, id *string, config *VertexAiEndpointWithModelGardenDeploymentConfig) {
 	_init_.Initialize()
 
@@ -590,6 +614,17 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment)SetCount(val interf
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1089,6 +1124,14 @@ func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) PutTimeouts(value 
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

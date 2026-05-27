@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputePerInstanceConfig) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_ComputePerInstanceConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputePerInstanceConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment}.
 type DialogflowFulfillment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DialogflowFulfillment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type DialogflowFulfillment interface {
 	PutFeatures(value interface{})
 	PutGenericWebService(value *DialogflowFulfillmentGenericWebService)
 	PutTimeouts(value *DialogflowFulfillmentTimeouts)
+	ResetDeletionPolicy()
 	ResetEnabled()
 	ResetFeatures()
 	ResetGenericWebService()
@@ -197,6 +201,26 @@ func (j *jsiiProxy_DialogflowFulfillment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowFulfillment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowFulfillment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -473,7 +497,7 @@ func (j *jsiiProxy_DialogflowFulfillment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
 func NewDialogflowFulfillment(scope constructs.Construct, id *string, config *DialogflowFulfillmentConfig) DialogflowFulfillment {
 	_init_.Initialize()
 
@@ -491,7 +515,7 @@ func NewDialogflowFulfillment(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
 func NewDialogflowFulfillment_Override(d DialogflowFulfillment, scope constructs.Construct, id *string, config *DialogflowFulfillmentConfig) {
 	_init_.Initialize()
 
@@ -520,6 +544,17 @@ func (j *jsiiProxy_DialogflowFulfillment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowFulfillment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -997,6 +1032,14 @@ func (d *jsiiProxy_DialogflowFulfillment) PutTimeouts(value *DialogflowFulfillme
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DialogflowFulfillment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

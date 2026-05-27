@@ -111,6 +111,10 @@ func (j *jsiiProxy_ActiveDirectoryDomain) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ActiveDirectoryDomain) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ActiveDirectoryDomain) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

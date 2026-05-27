@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_session_template google_dataproc_session_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_session_template google_dataproc_session_template}.
 type DataprocSessionTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type DataprocSessionTemplate interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Creator() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type DataprocSessionTemplate interface {
 	PutRuntimeConfig(value *DataprocSessionTemplateRuntimeConfig)
 	PutSparkConnectSession(value *DataprocSessionTemplateSparkConnectSession)
 	PutTimeouts(value *DataprocSessionTemplateTimeouts)
+	ResetDeletionPolicy()
 	ResetEnvironmentConfig()
 	ResetId()
 	ResetJupyterSession()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_DataprocSessionTemplate) Creator() *string {
 	_jsii_.Get(
 		j,
 		"creator",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocSessionTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocSessionTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -600,7 +624,7 @@ func (j *jsiiProxy_DataprocSessionTemplate) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
 func NewDataprocSessionTemplate(scope constructs.Construct, id *string, config *DataprocSessionTemplateConfig) DataprocSessionTemplate {
 	_init_.Initialize()
 
@@ -618,7 +642,7 @@ func NewDataprocSessionTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
 func NewDataprocSessionTemplate_Override(d DataprocSessionTemplate, scope constructs.Construct, id *string, config *DataprocSessionTemplateConfig) {
 	_init_.Initialize()
 
@@ -647,6 +671,17 @@ func (j *jsiiProxy_DataprocSessionTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocSessionTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1157,6 +1192,14 @@ func (d *jsiiProxy_DataprocSessionTemplate) PutTimeouts(value *DataprocSessionTe
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocSessionTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

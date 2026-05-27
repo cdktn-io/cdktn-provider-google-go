@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster}.
 type EdgecontainerCluster interface {
 	cdktn.TerraformResource
 	Authorization() EdgecontainerClusterAuthorizationOutputReference
@@ -39,6 +39,9 @@ type EdgecontainerCluster interface {
 	DefaultMaxPodsPerNode() *float64
 	SetDefaultMaxPodsPerNode(val *float64)
 	DefaultMaxPodsPerNodeInput() *float64
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -169,6 +172,7 @@ type EdgecontainerCluster interface {
 	ResetControlPlane()
 	ResetControlPlaneEncryption()
 	ResetDefaultMaxPodsPerNode()
+	ResetDeletionPolicy()
 	ResetExternalLoadBalancerIpv4AddressPools()
 	ResetId()
 	ResetLabels()
@@ -353,6 +357,26 @@ func (j *jsiiProxy_EdgecontainerCluster) DefaultMaxPodsPerNodeInput() *float64 {
 	_jsii_.Get(
 		j,
 		"defaultMaxPodsPerNodeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgecontainerCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgecontainerCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -819,7 +843,7 @@ func (j *jsiiProxy_EdgecontainerCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
 func NewEdgecontainerCluster(scope constructs.Construct, id *string, config *EdgecontainerClusterConfig) EdgecontainerCluster {
 	_init_.Initialize()
 
@@ -837,7 +861,7 @@ func NewEdgecontainerCluster(scope constructs.Construct, id *string, config *Edg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
 func NewEdgecontainerCluster_Override(e EdgecontainerCluster, scope constructs.Construct, id *string, config *EdgecontainerClusterConfig) {
 	_init_.Initialize()
 
@@ -877,6 +901,17 @@ func (j *jsiiProxy_EdgecontainerCluster)SetDefaultMaxPodsPerNode(val *float64) {
 	_jsii_.Set(
 		j,
 		"defaultMaxPodsPerNode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EdgecontainerCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1476,6 +1511,14 @@ func (e *jsiiProxy_EdgecontainerCluster) ResetDefaultMaxPodsPerNode() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetDefaultMaxPodsPerNode",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EdgecontainerCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

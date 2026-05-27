@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkServicesGrpcRoute) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesGrpcRoute) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesGrpcRoute) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

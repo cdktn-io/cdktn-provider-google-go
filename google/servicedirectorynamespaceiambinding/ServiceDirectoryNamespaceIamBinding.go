@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_namespace_iam_binding google_service_directory_namespace_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_namespace_iam_binding google_service_directory_namespace_iam_binding}.
 type ServiceDirectoryNamespaceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ServiceDirectoryNamespaceIamBinding) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_namespace_iam_binding google_service_directory_namespace_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_namespace_iam_binding google_service_directory_namespace_iam_binding} Resource.
 func NewServiceDirectoryNamespaceIamBinding(scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamBindingConfig) ServiceDirectoryNamespaceIamBinding {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewServiceDirectoryNamespaceIamBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_namespace_iam_binding google_service_directory_namespace_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_namespace_iam_binding google_service_directory_namespace_iam_binding} Resource.
 func NewServiceDirectoryNamespaceIamBinding_Override(s ServiceDirectoryNamespaceIamBinding, scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamBindingConfig) {
 	_init_.Initialize()
 

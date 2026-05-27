@@ -111,6 +111,10 @@ func (j *jsiiProxy_SccV2ProjectSccBigQueryExport) validateSetDatasetParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_SccV2ProjectSccBigQueryExport) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccV2ProjectSccBigQueryExport) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

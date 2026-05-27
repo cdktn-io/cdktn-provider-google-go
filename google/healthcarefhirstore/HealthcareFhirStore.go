@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_fhir_store google_healthcare_fhir_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_fhir_store google_healthcare_fhir_store}.
 type HealthcareFhirStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type HealthcareFhirStore interface {
 	DefaultSearchHandlingStrict() interface{}
 	SetDefaultSearchHandlingStrict(val interface{})
 	DefaultSearchHandlingStrictInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -157,6 +160,7 @@ type HealthcareFhirStore interface {
 	PutValidationConfig(value *HealthcareFhirStoreValidationConfig)
 	ResetComplexDataTypeReferenceParsing()
 	ResetDefaultSearchHandlingStrict()
+	ResetDeletionPolicy()
 	ResetDisableReferentialIntegrity()
 	ResetDisableResourceVersioning()
 	ResetEnableHistoryImport()
@@ -293,6 +297,26 @@ func (j *jsiiProxy_HealthcareFhirStore) DefaultSearchHandlingStrictInput() inter
 	_jsii_.Get(
 		j,
 		"defaultSearchHandlingStrictInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcareFhirStore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcareFhirStore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -709,7 +733,7 @@ func (j *jsiiProxy_HealthcareFhirStore) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_fhir_store google_healthcare_fhir_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_fhir_store google_healthcare_fhir_store} Resource.
 func NewHealthcareFhirStore(scope constructs.Construct, id *string, config *HealthcareFhirStoreConfig) HealthcareFhirStore {
 	_init_.Initialize()
 
@@ -727,7 +751,7 @@ func NewHealthcareFhirStore(scope constructs.Construct, id *string, config *Heal
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_fhir_store google_healthcare_fhir_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_fhir_store google_healthcare_fhir_store} Resource.
 func NewHealthcareFhirStore_Override(h HealthcareFhirStore, scope constructs.Construct, id *string, config *HealthcareFhirStoreConfig) {
 	_init_.Initialize()
 
@@ -789,6 +813,17 @@ func (j *jsiiProxy_HealthcareFhirStore)SetDefaultSearchHandlingStrict(val interf
 	_jsii_.Set(
 		j,
 		"defaultSearchHandlingStrict",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HealthcareFhirStore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1347,6 +1382,14 @@ func (h *jsiiProxy_HealthcareFhirStore) ResetDefaultSearchHandlingStrict() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetDefaultSearchHandlingStrict",
+		nil, // no parameters
+	)
+}
+
+func (h *jsiiProxy_HealthcareFhirStore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

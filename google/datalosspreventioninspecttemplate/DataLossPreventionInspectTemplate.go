@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}.
 type DataLossPreventionInspectTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DataLossPreventionInspectTemplate interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type DataLossPreventionInspectTemplate interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutInspectConfig(value *DataLossPreventionInspectTemplateInspectConfig)
 	PutTimeouts(value *DataLossPreventionInspectTemplateTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -197,6 +201,26 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplate) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -473,7 +497,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplate) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
 func NewDataLossPreventionInspectTemplate(scope constructs.Construct, id *string, config *DataLossPreventionInspectTemplateConfig) DataLossPreventionInspectTemplate {
 	_init_.Initialize()
 
@@ -491,7 +515,7 @@ func NewDataLossPreventionInspectTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
 func NewDataLossPreventionInspectTemplate_Override(d DataLossPreventionInspectTemplate, scope constructs.Construct, id *string, config *DataLossPreventionInspectTemplateConfig) {
 	_init_.Initialize()
 
@@ -520,6 +544,17 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -997,6 +1032,14 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplate) PutTimeouts(value *DataLos
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

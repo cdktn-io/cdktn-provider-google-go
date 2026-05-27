@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config}.
 type LoggingBillingAccountBucketConfig interface {
 	cdktn.TerraformResource
 	BillingAccount() *string
@@ -35,6 +35,9 @@ type LoggingBillingAccountBucketConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type LoggingBillingAccountBucketConfig interface {
 	PutCmekSettings(value *LoggingBillingAccountBucketConfigCmekSettings)
 	PutIndexConfigs(value interface{})
 	ResetCmekSettings()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIndexConfigs()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_LoggingBillingAccountBucketConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingBillingAccountBucketConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingBillingAccountBucketConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_LoggingBillingAccountBucketConfig) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
 func NewLoggingBillingAccountBucketConfig(scope constructs.Construct, id *string, config *LoggingBillingAccountBucketConfigConfig) LoggingBillingAccountBucketConfig {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewLoggingBillingAccountBucketConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
 func NewLoggingBillingAccountBucketConfig_Override(l LoggingBillingAccountBucketConfig, scope constructs.Construct, id *string, config *LoggingBillingAccountBucketConfigConfig) {
 	_init_.Initialize()
 
@@ -575,6 +599,17 @@ func (j *jsiiProxy_LoggingBillingAccountBucketConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LoggingBillingAccountBucketConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1048,6 +1083,14 @@ func (l *jsiiProxy_LoggingBillingAccountBucketConfig) ResetCmekSettings() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetCmekSettings",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LoggingBillingAccountBucketConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

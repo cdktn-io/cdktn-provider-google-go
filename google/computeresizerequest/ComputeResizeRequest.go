@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_resize_request google_compute_resize_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_resize_request google_compute_resize_request}.
 type ComputeResizeRequest interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ComputeResizeRequest interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type ComputeResizeRequest interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRequestedRunDuration(value *ComputeResizeRequestRequestedRunDuration)
 	PutTimeouts(value *ComputeResizeRequestTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_ComputeResizeRequest) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeResizeRequest) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeResizeRequest) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -541,7 +565,7 @@ func (j *jsiiProxy_ComputeResizeRequest) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_resize_request google_compute_resize_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_resize_request google_compute_resize_request} Resource.
 func NewComputeResizeRequest(scope constructs.Construct, id *string, config *ComputeResizeRequestConfig) ComputeResizeRequest {
 	_init_.Initialize()
 
@@ -559,7 +583,7 @@ func NewComputeResizeRequest(scope constructs.Construct, id *string, config *Com
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_resize_request google_compute_resize_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_resize_request google_compute_resize_request} Resource.
 func NewComputeResizeRequest_Override(c ComputeResizeRequest, scope constructs.Construct, id *string, config *ComputeResizeRequestConfig) {
 	_init_.Initialize()
 
@@ -588,6 +612,17 @@ func (j *jsiiProxy_ComputeResizeRequest)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeResizeRequest)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1087,6 +1122,14 @@ func (c *jsiiProxy_ComputeResizeRequest) PutTimeouts(value *ComputeResizeRequest
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeResizeRequest) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

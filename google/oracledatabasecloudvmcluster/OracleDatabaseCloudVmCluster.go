@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
 type OracleDatabaseCloudVmCluster interface {
 	cdktn.TerraformResource
 	BackupOdbSubnet() *string
@@ -40,6 +40,9 @@ type OracleDatabaseCloudVmCluster interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -160,6 +163,7 @@ type OracleDatabaseCloudVmCluster interface {
 	ResetBackupOdbSubnet()
 	ResetBackupSubnetCidr()
 	ResetCidr()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetId()
@@ -325,6 +329,26 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -731,7 +755,7 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, config *OracleDatabaseCloudVmClusterConfig) OracleDatabaseCloudVmCluster {
 	_init_.Initialize()
 
@@ -749,7 +773,7 @@ func NewOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewOracleDatabaseCloudVmCluster_Override(o OracleDatabaseCloudVmCluster, scope constructs.Construct, id *string, config *OracleDatabaseCloudVmClusterConfig) {
 	_init_.Initialize()
 
@@ -822,6 +846,17 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1377,6 +1412,14 @@ func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ResetCidr() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetCidr",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

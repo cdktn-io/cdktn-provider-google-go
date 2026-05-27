@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeProjectCloudArmorTier) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeProjectCloudArmorTier) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeProjectCloudArmorTier) validateSetIdParameters(val *string) error {
 	return nil
 }

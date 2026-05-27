@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeSslCertificate) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ComputeSslCertificate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeSslCertificate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

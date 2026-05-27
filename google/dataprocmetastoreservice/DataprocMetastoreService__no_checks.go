@@ -139,6 +139,10 @@ func (j *jsiiProxy_DataprocMetastoreService) validateSetDatabaseTypeParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_DataprocMetastoreService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocMetastoreService) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

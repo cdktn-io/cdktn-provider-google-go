@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeBackendServiceSignedUrlKey) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeBackendServiceSignedUrlKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeBackendServiceSignedUrlKey) validateSetIdParameters(val *string) error {
 	return nil
 }

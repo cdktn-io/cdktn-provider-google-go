@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_peering google_compute_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_peering google_compute_network_peering}.
 type ComputeNetworkPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeNetworkPeering interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type ComputeNetworkPeering interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeNetworkPeeringTimeouts)
+	ResetDeletionPolicy()
 	ResetExportCustomRoutes()
 	ResetExportSubnetRoutesWithPublicIp()
 	ResetId()
@@ -212,6 +216,26 @@ func (j *jsiiProxy_ComputeNetworkPeering) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkPeering) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkPeering) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_ComputeNetworkPeering) UpdateStrategyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_peering google_compute_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_peering google_compute_network_peering} Resource.
 func NewComputeNetworkPeering(scope constructs.Construct, id *string, config *ComputeNetworkPeeringConfig) ComputeNetworkPeering {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewComputeNetworkPeering(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_peering google_compute_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_peering google_compute_network_peering} Resource.
 func NewComputeNetworkPeering_Override(c ComputeNetworkPeering, scope constructs.Construct, id *string, config *ComputeNetworkPeeringConfig) {
 	_init_.Initialize()
 
@@ -625,6 +649,17 @@ func (j *jsiiProxy_ComputeNetworkPeering)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNetworkPeering)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1146,6 +1181,14 @@ func (c *jsiiProxy_ComputeNetworkPeering) PutTimeouts(value *ComputeNetworkPeeri
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkPeering) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_index google_vertex_ai_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_index google_vertex_ai_index}.
 type VertexAiIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type VertexAiIndex interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type VertexAiIndex interface {
 	PutEncryptionSpec(value *VertexAiIndexEncryptionSpec)
 	PutMetadata(value *VertexAiIndexMetadata)
 	PutTimeouts(value *VertexAiIndexTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptionSpec()
 	ResetId()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_VertexAiIndex) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiIndex) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiIndex) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -632,7 +656,7 @@ func (j *jsiiProxy_VertexAiIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
 func NewVertexAiIndex(scope constructs.Construct, id *string, config *VertexAiIndexConfig) VertexAiIndex {
 	_init_.Initialize()
 
@@ -650,7 +674,7 @@ func NewVertexAiIndex(scope constructs.Construct, id *string, config *VertexAiIn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
 func NewVertexAiIndex_Override(v VertexAiIndex, scope constructs.Construct, id *string, config *VertexAiIndexConfig) {
 	_init_.Initialize()
 
@@ -679,6 +703,17 @@ func (j *jsiiProxy_VertexAiIndex)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiIndex)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1189,6 +1224,14 @@ func (v *jsiiProxy_VertexAiIndex) PutTimeouts(value *VertexAiIndexTimeouts) {
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiIndex) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateSetIdParameters(val *string) error {
 	return nil
 }

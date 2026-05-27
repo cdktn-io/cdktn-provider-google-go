@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project}.
 type MonitoringMonitoredProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type MonitoringMonitoredProject interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -117,6 +120,7 @@ type MonitoringMonitoredProject interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *MonitoringMonitoredProjectTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_MonitoringMonitoredProject) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitoringMonitoredProject) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitoringMonitoredProject) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -400,7 +424,7 @@ func (j *jsiiProxy_MonitoringMonitoredProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
 func NewMonitoringMonitoredProject(scope constructs.Construct, id *string, config *MonitoringMonitoredProjectConfig) MonitoringMonitoredProject {
 	_init_.Initialize()
 
@@ -418,7 +442,7 @@ func NewMonitoringMonitoredProject(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
 func NewMonitoringMonitoredProject_Override(m MonitoringMonitoredProject, scope constructs.Construct, id *string, config *MonitoringMonitoredProjectConfig) {
 	_init_.Initialize()
 
@@ -447,6 +471,17 @@ func (j *jsiiProxy_MonitoringMonitoredProject)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MonitoringMonitoredProject)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -891,6 +926,14 @@ func (m *jsiiProxy_MonitoringMonitoredProject) PutTimeouts(value *MonitoringMoni
 		m,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MonitoringMonitoredProject) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

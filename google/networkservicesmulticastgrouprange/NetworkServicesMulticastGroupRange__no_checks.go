@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRange) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesMulticastGroupRange) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesMulticastGroupRange) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

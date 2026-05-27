@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_metric google_logging_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_metric google_logging_metric}.
 type LoggingMetric interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -32,6 +32,9 @@ type LoggingMetric interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type LoggingMetric interface {
 	PutTimeouts(value *LoggingMetricTimeouts)
 	ResetBucketName()
 	ResetBucketOptions()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetId()
@@ -255,6 +259,26 @@ func (j *jsiiProxy_LoggingMetric) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingMetric) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingMetric) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -581,7 +605,7 @@ func (j *jsiiProxy_LoggingMetric) ValueExtractorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_metric google_logging_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_metric google_logging_metric} Resource.
 func NewLoggingMetric(scope constructs.Construct, id *string, config *LoggingMetricConfig) LoggingMetric {
 	_init_.Initialize()
 
@@ -599,7 +623,7 @@ func NewLoggingMetric(scope constructs.Construct, id *string, config *LoggingMet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_metric google_logging_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_metric google_logging_metric} Resource.
 func NewLoggingMetric_Override(l LoggingMetric, scope constructs.Construct, id *string, config *LoggingMetricConfig) {
 	_init_.Initialize()
 
@@ -639,6 +663,17 @@ func (j *jsiiProxy_LoggingMetric)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LoggingMetric)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1175,6 +1210,14 @@ func (l *jsiiProxy_LoggingMetric) ResetBucketOptions() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetBucketOptions",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LoggingMetric) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

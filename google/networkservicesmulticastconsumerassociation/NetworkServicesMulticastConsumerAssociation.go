@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
 type NetworkServicesMulticastConsumerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkServicesMulticastConsumerAssociation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type NetworkServicesMulticastConsumerAssociation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkServicesMulticastConsumerAssociationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -219,6 +223,26 @@ func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation) CreateTime() *st
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -595,7 +619,7 @@ func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
 func NewNetworkServicesMulticastConsumerAssociation(scope constructs.Construct, id *string, config *NetworkServicesMulticastConsumerAssociationConfig) NetworkServicesMulticastConsumerAssociation {
 	_init_.Initialize()
 
@@ -613,7 +637,7 @@ func NewNetworkServicesMulticastConsumerAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
 func NewNetworkServicesMulticastConsumerAssociation_Override(n NetworkServicesMulticastConsumerAssociation, scope constructs.Construct, id *string, config *NetworkServicesMulticastConsumerAssociationConfig) {
 	_init_.Initialize()
 
@@ -642,6 +666,17 @@ func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation)SetCount(val inte
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1141,6 +1176,14 @@ func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) PutTimeouts(valu
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

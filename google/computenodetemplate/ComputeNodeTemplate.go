@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_node_template google_compute_node_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_node_template google_compute_node_template}.
 type ComputeNodeTemplate interface {
 	cdktn.TerraformResource
 	Accelerators() ComputeNodeTemplateAcceleratorsList
@@ -33,6 +33,9 @@ type ComputeNodeTemplate interface {
 	SetCpuOvercommitType(val *string)
 	CpuOvercommitTypeInput() *string
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type ComputeNodeTemplate interface {
 	PutTimeouts(value *ComputeNodeTemplateTimeouts)
 	ResetAccelerators()
 	ResetCpuOvercommitType()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisks()
 	ResetId()
@@ -272,6 +276,26 @@ func (j *jsiiProxy_ComputeNodeTemplate) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNodeTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNodeTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -628,7 +652,7 @@ func (j *jsiiProxy_ComputeNodeTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_node_template google_compute_node_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_node_template google_compute_node_template} Resource.
 func NewComputeNodeTemplate(scope constructs.Construct, id *string, config *ComputeNodeTemplateConfig) ComputeNodeTemplate {
 	_init_.Initialize()
 
@@ -646,7 +670,7 @@ func NewComputeNodeTemplate(scope constructs.Construct, id *string, config *Comp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_node_template google_compute_node_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_node_template google_compute_node_template} Resource.
 func NewComputeNodeTemplate_Override(c ComputeNodeTemplate, scope constructs.Construct, id *string, config *ComputeNodeTemplateConfig) {
 	_init_.Initialize()
 
@@ -686,6 +710,17 @@ func (j *jsiiProxy_ComputeNodeTemplate)SetCpuOvercommitType(val *string) {
 	_jsii_.Set(
 		j,
 		"cpuOvercommitType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNodeTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1233,6 +1268,14 @@ func (c *jsiiProxy_ComputeNodeTemplate) ResetCpuOvercommitType() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetCpuOvercommitType",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNodeTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

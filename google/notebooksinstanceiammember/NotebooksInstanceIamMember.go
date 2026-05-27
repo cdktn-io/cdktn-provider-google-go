@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_instance_iam_member google_notebooks_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_instance_iam_member google_notebooks_instance_iam_member}.
 type NotebooksInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_NotebooksInstanceIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_instance_iam_member google_notebooks_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_instance_iam_member google_notebooks_instance_iam_member} Resource.
 func NewNotebooksInstanceIamMember(scope constructs.Construct, id *string, config *NotebooksInstanceIamMemberConfig) NotebooksInstanceIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewNotebooksInstanceIamMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_instance_iam_member google_notebooks_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_instance_iam_member google_notebooks_instance_iam_member} Resource.
 func NewNotebooksInstanceIamMember_Override(n NotebooksInstanceIamMember, scope constructs.Construct, id *string, config *NotebooksInstanceIamMemberConfig) {
 	_init_.Initialize()
 

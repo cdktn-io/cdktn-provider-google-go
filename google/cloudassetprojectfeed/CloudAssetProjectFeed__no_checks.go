@@ -127,6 +127,10 @@ func (j *jsiiProxy_CloudAssetProjectFeed) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_CloudAssetProjectFeed) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudAssetProjectFeed) validateSetFeedIdParameters(val *string) error {
 	return nil
 }

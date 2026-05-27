@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_git_repository_link google_developer_connect_git_repository_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_git_repository_link google_developer_connect_git_repository_link}.
 type DeveloperConnectGitRepositoryLink interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -35,6 +35,9 @@ type DeveloperConnectGitRepositoryLink interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type DeveloperConnectGitRepositoryLink interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DeveloperConnectGitRepositoryLinkTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetEtag()
 	ResetId()
 	ResetLabels()
@@ -274,6 +278,26 @@ func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -630,7 +654,7 @@ func (j *jsiiProxy_DeveloperConnectGitRepositoryLink) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
 func NewDeveloperConnectGitRepositoryLink(scope constructs.Construct, id *string, config *DeveloperConnectGitRepositoryLinkConfig) DeveloperConnectGitRepositoryLink {
 	_init_.Initialize()
 
@@ -648,7 +672,7 @@ func NewDeveloperConnectGitRepositoryLink(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
 func NewDeveloperConnectGitRepositoryLink_Override(d DeveloperConnectGitRepositoryLink, scope constructs.Construct, id *string, config *DeveloperConnectGitRepositoryLinkConfig) {
 	_init_.Initialize()
 
@@ -699,6 +723,17 @@ func (j *jsiiProxy_DeveloperConnectGitRepositoryLink)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DeveloperConnectGitRepositoryLink)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1194,6 +1229,14 @@ func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

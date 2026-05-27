@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_organization_mute_config google_scc_v2_organization_mute_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_organization_mute_config google_scc_v2_organization_mute_config}.
 type SccV2OrganizationMuteConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type SccV2OrganizationMuteConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type SccV2OrganizationMuteConfig interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SccV2OrganizationMuteConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLocation()
@@ -211,6 +215,26 @@ func (j *jsiiProxy_SccV2OrganizationMuteConfig) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2OrganizationMuteConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2OrganizationMuteConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -527,7 +551,7 @@ func (j *jsiiProxy_SccV2OrganizationMuteConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_organization_mute_config google_scc_v2_organization_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_organization_mute_config google_scc_v2_organization_mute_config} Resource.
 func NewSccV2OrganizationMuteConfig(scope constructs.Construct, id *string, config *SccV2OrganizationMuteConfigConfig) SccV2OrganizationMuteConfig {
 	_init_.Initialize()
 
@@ -545,7 +569,7 @@ func NewSccV2OrganizationMuteConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_organization_mute_config google_scc_v2_organization_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_organization_mute_config google_scc_v2_organization_mute_config} Resource.
 func NewSccV2OrganizationMuteConfig_Override(s SccV2OrganizationMuteConfig, scope constructs.Construct, id *string, config *SccV2OrganizationMuteConfigConfig) {
 	_init_.Initialize()
 
@@ -574,6 +598,17 @@ func (j *jsiiProxy_SccV2OrganizationMuteConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccV2OrganizationMuteConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1062,6 +1097,14 @@ func (s *jsiiProxy_SccV2OrganizationMuteConfig) PutTimeouts(value *SccV2Organiza
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccV2OrganizationMuteConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

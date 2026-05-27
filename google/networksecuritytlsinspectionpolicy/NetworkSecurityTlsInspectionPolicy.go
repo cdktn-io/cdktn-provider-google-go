@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy}.
 type NetworkSecurityTlsInspectionPolicy interface {
 	cdktn.TerraformResource
 	CaPool() *string
@@ -34,6 +34,9 @@ type NetworkSecurityTlsInspectionPolicy interface {
 	CustomTlsFeatures() *[]*string
 	SetCustomTlsFeatures(val *[]*string)
 	CustomTlsFeaturesInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type NetworkSecurityTlsInspectionPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityTlsInspectionPolicyTimeouts)
 	ResetCustomTlsFeatures()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExcludePublicCaSet()
 	ResetId()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) CustomTlsFeaturesInput() 
 	_jsii_.Get(
 		j,
 		"customTlsFeaturesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -603,7 +627,7 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
 func NewNetworkSecurityTlsInspectionPolicy(scope constructs.Construct, id *string, config *NetworkSecurityTlsInspectionPolicyConfig) NetworkSecurityTlsInspectionPolicy {
 	_init_.Initialize()
 
@@ -621,7 +645,7 @@ func NewNetworkSecurityTlsInspectionPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
 func NewNetworkSecurityTlsInspectionPolicy_Override(n NetworkSecurityTlsInspectionPolicy, scope constructs.Construct, id *string, config *NetworkSecurityTlsInspectionPolicyConfig) {
 	_init_.Initialize()
 
@@ -672,6 +696,17 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy)SetCustomTlsFeatures(val *
 	_jsii_.Set(
 		j,
 		"customTlsFeatures",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1189,6 +1224,14 @@ func (n *jsiiProxy_NetworkSecurityTlsInspectionPolicy) ResetCustomTlsFeatures() 
 	_jsii_.InvokeVoid(
 		n,
 		"resetCustomTlsFeatures",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityTlsInspectionPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

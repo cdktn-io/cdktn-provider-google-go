@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
 type OracleDatabaseCloudExadataInfrastructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type OracleDatabaseCloudExadataInfrastructure interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -139,6 +142,7 @@ type OracleDatabaseCloudExadataInfrastructure interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProperties(value *OracleDatabaseCloudExadataInfrastructureProperties)
 	PutTimeouts(value *OracleDatabaseCloudExadataInfrastructureTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetGcpOracleZone()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) CreateTime() *strin
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -588,7 +612,7 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureConfig) OracleDatabaseCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -606,7 +630,7 @@ func NewOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewOracleDatabaseCloudExadataInfrastructure_Override(o OracleDatabaseCloudExadataInfrastructure, scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 
@@ -646,6 +670,17 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1145,6 +1180,14 @@ func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) PutTimeouts(value *
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

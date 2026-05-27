@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config}.
 type DiscoveryEngineCmekConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type DiscoveryEngineCmekConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type DiscoveryEngineCmekConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSingleRegionKeys(value interface{})
 	PutTimeouts(value *DiscoveryEngineCmekConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -224,6 +228,26 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineCmekConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineCmekConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -550,7 +574,7 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
 func NewDiscoveryEngineCmekConfig(scope constructs.Construct, id *string, config *DiscoveryEngineCmekConfigConfig) DiscoveryEngineCmekConfig {
 	_init_.Initialize()
 
@@ -568,7 +592,7 @@ func NewDiscoveryEngineCmekConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_cmek_config google_discovery_engine_cmek_config} Resource.
 func NewDiscoveryEngineCmekConfig_Override(d DiscoveryEngineCmekConfig, scope constructs.Construct, id *string, config *DiscoveryEngineCmekConfigConfig) {
 	_init_.Initialize()
 
@@ -608,6 +632,17 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineCmekConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1085,6 +1120,14 @@ func (d *jsiiProxy_DiscoveryEngineCmekConfig) PutTimeouts(value *DiscoveryEngine
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineCmekConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

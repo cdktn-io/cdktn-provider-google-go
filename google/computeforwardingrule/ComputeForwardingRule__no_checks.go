@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputeForwardingRule) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ComputeForwardingRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeForwardingRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_Cloudbuildv2Repository) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_Cloudbuildv2Repository) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Cloudbuildv2Repository) validateSetIdParameters(val *string) error {
 	return nil
 }

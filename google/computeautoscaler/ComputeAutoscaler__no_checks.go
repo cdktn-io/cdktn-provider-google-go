@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeAutoscaler) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ComputeAutoscaler) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeAutoscaler) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

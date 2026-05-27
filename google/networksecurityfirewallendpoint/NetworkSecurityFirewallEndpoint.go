@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint}.
 type NetworkSecurityFirewallEndpoint interface {
 	cdktn.TerraformResource
 	AssociatedNetworks() *[]*string
@@ -32,6 +32,9 @@ type NetworkSecurityFirewallEndpoint interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type NetworkSecurityFirewallEndpoint interface {
 	PutEndpointSettings(value *NetworkSecurityFirewallEndpointEndpointSettings)
 	PutTimeouts(value *NetworkSecurityFirewallEndpointTimeouts)
 	ResetBillingProjectId()
+	ResetDeletionPolicy()
 	ResetEndpointSettings()
 	ResetId()
 	ResetLabels()
@@ -246,6 +250,26 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -572,7 +596,7 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
 func NewNetworkSecurityFirewallEndpoint(scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointConfig) NetworkSecurityFirewallEndpoint {
 	_init_.Initialize()
 
@@ -590,7 +614,7 @@ func NewNetworkSecurityFirewallEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
 func NewNetworkSecurityFirewallEndpoint_Override(n NetworkSecurityFirewallEndpoint, scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointConfig) {
 	_init_.Initialize()
 
@@ -630,6 +654,17 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpoint)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpoint)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1114,6 +1149,14 @@ func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) ResetBillingProjectId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetBillingProjectId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -419,6 +419,14 @@ func (j *jsiiProxy_BackupDrBackupVault) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_BackupDrBackupVault) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BackupDrBackupVault) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

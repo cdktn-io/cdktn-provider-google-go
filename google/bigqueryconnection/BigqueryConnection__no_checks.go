@@ -135,6 +135,10 @@ func (j *jsiiProxy_BigqueryConnection) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryConnection) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

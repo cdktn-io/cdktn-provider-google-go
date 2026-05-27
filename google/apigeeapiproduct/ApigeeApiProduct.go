@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_api_product google_apigee_api_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_api_product google_apigee_api_product}.
 type ApigeeApiProduct interface {
 	cdktn.TerraformResource
 	ApiResources() *[]*string
@@ -36,6 +36,9 @@ type ApigeeApiProduct interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreatedAt() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -169,6 +172,7 @@ type ApigeeApiProduct interface {
 	ResetApiResources()
 	ResetApprovalType()
 	ResetAttributes()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnvironments()
 	ResetGraphqlOperationGroup()
@@ -318,6 +322,26 @@ func (j *jsiiProxy_ApigeeApiProduct) CreatedAt() *string {
 	_jsii_.Get(
 		j,
 		"createdAt",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeApiProduct) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeApiProduct) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -794,7 +818,7 @@ func (j *jsiiProxy_ApigeeApiProduct) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_api_product google_apigee_api_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_api_product google_apigee_api_product} Resource.
 func NewApigeeApiProduct(scope constructs.Construct, id *string, config *ApigeeApiProductConfig) ApigeeApiProduct {
 	_init_.Initialize()
 
@@ -812,7 +836,7 @@ func NewApigeeApiProduct(scope constructs.Construct, id *string, config *ApigeeA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_api_product google_apigee_api_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_api_product google_apigee_api_product} Resource.
 func NewApigeeApiProduct_Override(a ApigeeApiProduct, scope constructs.Construct, id *string, config *ApigeeApiProductConfig) {
 	_init_.Initialize()
 
@@ -863,6 +887,17 @@ func (j *jsiiProxy_ApigeeApiProduct)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeApiProduct)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1484,6 +1519,14 @@ func (a *jsiiProxy_ApigeeApiProduct) ResetAttributes() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAttributes",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeApiProduct) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

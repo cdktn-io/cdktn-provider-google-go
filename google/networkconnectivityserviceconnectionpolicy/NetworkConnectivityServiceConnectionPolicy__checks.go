@@ -359,6 +359,14 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

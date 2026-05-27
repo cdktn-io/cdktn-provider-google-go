@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config}.
 type NetworkSecurityBackendAuthenticationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type NetworkSecurityBackendAuthenticationConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type NetworkSecurityBackendAuthenticationConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityBackendAuthenticationConfigTimeouts)
 	ResetClientCertificate()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) CreateTime() *str
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) WellKnownRootsInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
 func NewNetworkSecurityBackendAuthenticationConfig(scope constructs.Construct, id *string, config *NetworkSecurityBackendAuthenticationConfigConfig) NetworkSecurityBackendAuthenticationConfig {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewNetworkSecurityBackendAuthenticationConfig(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
 func NewNetworkSecurityBackendAuthenticationConfig_Override(n NetworkSecurityBackendAuthenticationConfig, scope constructs.Construct, id *string, config *NetworkSecurityBackendAuthenticationConfigConfig) {
 	_init_.Initialize()
 
@@ -636,6 +660,17 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) ResetClientCertif
 	_jsii_.InvokeVoid(
 		n,
 		"resetClientCertificate",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

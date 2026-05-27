@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputeWireGroup) validateSetCrossSiteNetworkParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_ComputeWireGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeWireGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

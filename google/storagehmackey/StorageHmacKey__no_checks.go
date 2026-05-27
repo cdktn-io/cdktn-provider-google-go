@@ -103,6 +103,10 @@ func (j *jsiiProxy_StorageHmacKey) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_StorageHmacKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageHmacKey) validateSetIdParameters(val *string) error {
 	return nil
 }

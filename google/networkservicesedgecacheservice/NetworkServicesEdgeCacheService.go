@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_edge_cache_service google_network_services_edge_cache_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_edge_cache_service google_network_services_edge_cache_service}.
 type NetworkServicesEdgeCacheService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type NetworkServicesEdgeCacheService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -150,6 +153,7 @@ type NetworkServicesEdgeCacheService interface {
 	PutLogConfig(value *NetworkServicesEdgeCacheServiceLogConfig)
 	PutRouting(value *NetworkServicesEdgeCacheServiceRouting)
 	PutTimeouts(value *NetworkServicesEdgeCacheServiceTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisableHttp2()
 	ResetDisableQuic()
@@ -227,6 +231,26 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesEdgeCacheService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesEdgeCacheService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -673,7 +697,7 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheService) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_edge_cache_service google_network_services_edge_cache_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_edge_cache_service google_network_services_edge_cache_service} Resource.
 func NewNetworkServicesEdgeCacheService(scope constructs.Construct, id *string, config *NetworkServicesEdgeCacheServiceConfig) NetworkServicesEdgeCacheService {
 	_init_.Initialize()
 
@@ -691,7 +715,7 @@ func NewNetworkServicesEdgeCacheService(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_edge_cache_service google_network_services_edge_cache_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_edge_cache_service google_network_services_edge_cache_service} Resource.
 func NewNetworkServicesEdgeCacheService_Override(n NetworkServicesEdgeCacheService, scope constructs.Construct, id *string, config *NetworkServicesEdgeCacheServiceConfig) {
 	_init_.Initialize()
 
@@ -720,6 +744,17 @@ func (j *jsiiProxy_NetworkServicesEdgeCacheService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesEdgeCacheService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1274,6 +1309,14 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheService) PutTimeouts(value *NetworkSe
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesEdgeCacheService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputeReservation) validateSetDeleteAtTimeParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_ComputeReservation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeReservation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_BigtableMaterializedView) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_BigtableMaterializedView) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigtableMaterializedView) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

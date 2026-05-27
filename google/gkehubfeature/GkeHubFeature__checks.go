@@ -370,6 +370,14 @@ func (j *jsiiProxy_GkeHubFeature) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_GkeHubFeature) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GkeHubFeature) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

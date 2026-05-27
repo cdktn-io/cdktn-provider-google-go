@@ -107,6 +107,10 @@ func (j *jsiiProxy_ProjectUsageExportBucket) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_ProjectUsageExportBucket) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ProjectUsageExportBucket) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

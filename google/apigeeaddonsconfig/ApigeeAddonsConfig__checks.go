@@ -359,6 +359,14 @@ func (j *jsiiProxy_ApigeeAddonsConfig) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeAddonsConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeAddonsConfig) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

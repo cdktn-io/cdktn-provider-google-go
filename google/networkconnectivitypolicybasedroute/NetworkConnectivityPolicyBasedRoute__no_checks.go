@@ -115,6 +115,10 @@ func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityPolicyBasedRoute) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

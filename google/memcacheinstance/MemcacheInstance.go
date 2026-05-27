@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memcache_instance google_memcache_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memcache_instance google_memcache_instance}.
 type MemcacheInstance interface {
 	cdktn.TerraformResource
 	AuthorizedNetwork() *string
@@ -31,6 +31,9 @@ type MemcacheInstance interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -160,6 +163,7 @@ type MemcacheInstance interface {
 	PutNodeConfig(value *MemcacheInstanceNodeConfig)
 	PutTimeouts(value *MemcacheInstanceTimeouts)
 	ResetAuthorizedNetwork()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetId()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_MemcacheInstance) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemcacheInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemcacheInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -753,7 +777,7 @@ func (j *jsiiProxy_MemcacheInstance) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memcache_instance google_memcache_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memcache_instance google_memcache_instance} Resource.
 func NewMemcacheInstance(scope constructs.Construct, id *string, config *MemcacheInstanceConfig) MemcacheInstance {
 	_init_.Initialize()
 
@@ -771,7 +795,7 @@ func NewMemcacheInstance(scope constructs.Construct, id *string, config *Memcach
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memcache_instance google_memcache_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memcache_instance google_memcache_instance} Resource.
 func NewMemcacheInstance_Override(m MemcacheInstance, scope constructs.Construct, id *string, config *MemcacheInstanceConfig) {
 	_init_.Initialize()
 
@@ -811,6 +835,17 @@ func (j *jsiiProxy_MemcacheInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MemcacheInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1383,6 +1418,14 @@ func (m *jsiiProxy_MemcacheInstance) ResetAuthorizedNetwork() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetAuthorizedNetwork",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MemcacheInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

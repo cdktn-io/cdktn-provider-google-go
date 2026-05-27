@@ -107,6 +107,10 @@ func (j *jsiiProxy_GeminiCodeRepositoryIndex) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GeminiCodeRepositoryIndex) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiCodeRepositoryIndex) validateSetForceDestroyParameters(val interface{}) error {
 	return nil
 }

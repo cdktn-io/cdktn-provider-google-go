@@ -379,6 +379,14 @@ func (j *jsiiProxy_ColabRuntime) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_ColabRuntime) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ColabRuntime) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

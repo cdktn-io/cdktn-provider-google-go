@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memorystore_instance google_memorystore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memorystore_instance google_memorystore_instance}.
 type MemorystoreInstance interface {
 	cdktn.TerraformResource
 	AuthorizationMode() *string
@@ -37,6 +37,9 @@ type MemorystoreInstance interface {
 	CreateTime() *string
 	CrossInstanceReplicationConfig() MemorystoreInstanceCrossInstanceReplicationConfigOutputReference
 	CrossInstanceReplicationConfigInput() *MemorystoreInstanceCrossInstanceReplicationConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtectionEnabled() interface{}
 	SetDeletionProtectionEnabled(val interface{})
 	DeletionProtectionEnabledInput() interface{}
@@ -209,6 +212,7 @@ type MemorystoreInstance interface {
 	ResetAuthorizationMode()
 	ResetAutomatedBackupConfig()
 	ResetCrossInstanceReplicationConfig()
+	ResetDeletionPolicy()
 	ResetDeletionProtectionEnabled()
 	ResetDesiredAutoCreatedEndpoints()
 	ResetDesiredPscAutoConnections()
@@ -386,6 +390,26 @@ func (j *jsiiProxy_MemorystoreInstance) CrossInstanceReplicationConfigInput() *M
 	_jsii_.Get(
 		j,
 		"crossInstanceReplicationConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1162,7 +1186,7 @@ func (j *jsiiProxy_MemorystoreInstance) ZoneDistributionConfigInput() *Memorysto
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
 func NewMemorystoreInstance(scope constructs.Construct, id *string, config *MemorystoreInstanceConfig) MemorystoreInstance {
 	_init_.Initialize()
 
@@ -1180,7 +1204,7 @@ func NewMemorystoreInstance(scope constructs.Construct, id *string, config *Memo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
 func NewMemorystoreInstance_Override(m MemorystoreInstance, scope constructs.Construct, id *string, config *MemorystoreInstanceConfig) {
 	_init_.Initialize()
 
@@ -1220,6 +1244,17 @@ func (j *jsiiProxy_MemorystoreInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MemorystoreInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1940,6 +1975,14 @@ func (m *jsiiProxy_MemorystoreInstance) ResetCrossInstanceReplicationConfig() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetCrossInstanceReplicationConfig",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MemorystoreInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

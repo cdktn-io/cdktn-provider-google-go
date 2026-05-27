@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integration_connectors_managed_zone google_integration_connectors_managed_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integration_connectors_managed_zone google_integration_connectors_managed_zone}.
 type IntegrationConnectorsManagedZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type IntegrationConnectorsManagedZone interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type IntegrationConnectorsManagedZone interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *IntegrationConnectorsManagedZoneTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -215,6 +219,26 @@ func (j *jsiiProxy_IntegrationConnectorsManagedZone) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsManagedZone) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsManagedZone) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -551,7 +575,7 @@ func (j *jsiiProxy_IntegrationConnectorsManagedZone) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
 func NewIntegrationConnectorsManagedZone(scope constructs.Construct, id *string, config *IntegrationConnectorsManagedZoneConfig) IntegrationConnectorsManagedZone {
 	_init_.Initialize()
 
@@ -569,7 +593,7 @@ func NewIntegrationConnectorsManagedZone(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
 func NewIntegrationConnectorsManagedZone_Override(i IntegrationConnectorsManagedZone, scope constructs.Construct, id *string, config *IntegrationConnectorsManagedZoneConfig) {
 	_init_.Initialize()
 
@@ -598,6 +622,17 @@ func (j *jsiiProxy_IntegrationConnectorsManagedZone)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IntegrationConnectorsManagedZone)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1097,6 +1132,14 @@ func (i *jsiiProxy_IntegrationConnectorsManagedZone) PutTimeouts(value *Integrat
 		i,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsManagedZone) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

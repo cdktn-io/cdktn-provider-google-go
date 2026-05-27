@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/org_policy_custom_constraint google_org_policy_custom_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/org_policy_custom_constraint google_org_policy_custom_constraint}.
 type OrgPolicyCustomConstraint interface {
 	cdktn.TerraformResource
 	ActionType() *string
@@ -33,6 +33,9 @@ type OrgPolicyCustomConstraint interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type OrgPolicyCustomConstraint interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *OrgPolicyCustomConstraintTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -244,6 +248,26 @@ func (j *jsiiProxy_OrgPolicyCustomConstraint) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrgPolicyCustomConstraint) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrgPolicyCustomConstraint) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -540,7 +564,7 @@ func (j *jsiiProxy_OrgPolicyCustomConstraint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/org_policy_custom_constraint google_org_policy_custom_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/org_policy_custom_constraint google_org_policy_custom_constraint} Resource.
 func NewOrgPolicyCustomConstraint(scope constructs.Construct, id *string, config *OrgPolicyCustomConstraintConfig) OrgPolicyCustomConstraint {
 	_init_.Initialize()
 
@@ -558,7 +582,7 @@ func NewOrgPolicyCustomConstraint(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/org_policy_custom_constraint google_org_policy_custom_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/org_policy_custom_constraint google_org_policy_custom_constraint} Resource.
 func NewOrgPolicyCustomConstraint_Override(o OrgPolicyCustomConstraint, scope constructs.Construct, id *string, config *OrgPolicyCustomConstraintConfig) {
 	_init_.Initialize()
 
@@ -609,6 +633,17 @@ func (j *jsiiProxy_OrgPolicyCustomConstraint)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrgPolicyCustomConstraint)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1097,6 +1132,14 @@ func (o *jsiiProxy_OrgPolicyCustomConstraint) PutTimeouts(value *OrgPolicyCustom
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OrgPolicyCustomConstraint) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -111,6 +111,10 @@ func (j *jsiiProxy_ContainerAnalysisNote) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAnalysisNote) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAnalysisNote) validateSetExpirationTimeParameters(val *string) error {
 	return nil
 }

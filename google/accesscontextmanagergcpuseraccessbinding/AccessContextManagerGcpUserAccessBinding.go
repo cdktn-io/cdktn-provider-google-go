@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
 type AccessContextManagerGcpUserAccessBinding interface {
 	cdktn.TerraformResource
 	AccessLevels() *[]*string
@@ -30,6 +30,9 @@ type AccessContextManagerGcpUserAccessBinding interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type AccessContextManagerGcpUserAccessBinding interface {
 	PutSessionSettings(value *AccessContextManagerGcpUserAccessBindingSessionSettings)
 	PutTimeouts(value *AccessContextManagerGcpUserAccessBindingTimeouts)
 	ResetAccessLevels()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -216,6 +220,26 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) Count() interface{}
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -472,7 +496,7 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
 func NewAccessContextManagerGcpUserAccessBinding(scope constructs.Construct, id *string, config *AccessContextManagerGcpUserAccessBindingConfig) AccessContextManagerGcpUserAccessBinding {
 	_init_.Initialize()
 
@@ -490,7 +514,7 @@ func NewAccessContextManagerGcpUserAccessBinding(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
 func NewAccessContextManagerGcpUserAccessBinding_Override(a AccessContextManagerGcpUserAccessBinding, scope constructs.Construct, id *string, config *AccessContextManagerGcpUserAccessBindingConfig) {
 	_init_.Initialize()
 
@@ -530,6 +554,17 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1003,6 +1038,14 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) ResetAccessLevels()
 	_jsii_.InvokeVoid(
 		a,
 		"resetAccessLevels",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

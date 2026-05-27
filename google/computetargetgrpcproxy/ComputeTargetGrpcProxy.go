@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy}.
 type ComputeTargetGrpcProxy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ComputeTargetGrpcProxy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type ComputeTargetGrpcProxy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeTargetGrpcProxyTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -210,6 +214,26 @@ func (j *jsiiProxy_ComputeTargetGrpcProxy) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeTargetGrpcProxy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeTargetGrpcProxy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_ComputeTargetGrpcProxy) ValidateForProxylessInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
 func NewComputeTargetGrpcProxy(scope constructs.Construct, id *string, config *ComputeTargetGrpcProxyConfig) ComputeTargetGrpcProxy {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewComputeTargetGrpcProxy(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
 func NewComputeTargetGrpcProxy_Override(c ComputeTargetGrpcProxy, scope constructs.Construct, id *string, config *ComputeTargetGrpcProxyConfig) {
 	_init_.Initialize()
 
@@ -553,6 +577,17 @@ func (j *jsiiProxy_ComputeTargetGrpcProxy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeTargetGrpcProxy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1030,6 +1065,14 @@ func (c *jsiiProxy_ComputeTargetGrpcProxy) PutTimeouts(value *ComputeTargetGrpcP
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeTargetGrpcProxy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

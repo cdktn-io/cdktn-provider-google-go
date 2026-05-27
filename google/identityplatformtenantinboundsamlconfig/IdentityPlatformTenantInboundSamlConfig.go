@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
 type IdentityPlatformTenantInboundSamlConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type IdentityPlatformTenantInboundSamlConfig interface {
 	PutIdpConfig(value *IdentityPlatformTenantInboundSamlConfigIdpConfig)
 	PutSpConfig(value *IdentityPlatformTenantInboundSamlConfigSpConfig)
 	PutTimeouts(value *IdentityPlatformTenantInboundSamlConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetEnabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) Count() interface{} 
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
 func NewIdentityPlatformTenantInboundSamlConfig(scope constructs.Construct, id *string, config *IdentityPlatformTenantInboundSamlConfigConfig) IdentityPlatformTenantInboundSamlConfig {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewIdentityPlatformTenantInboundSamlConfig(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
 func NewIdentityPlatformTenantInboundSamlConfig_Override(i IdentityPlatformTenantInboundSamlConfig, scope constructs.Construct, id *string, config *IdentityPlatformTenantInboundSamlConfigConfig) {
 	_init_.Initialize()
 
@@ -553,6 +577,17 @@ func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IdentityPlatformTenantInboundSamlConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1052,6 +1087,14 @@ func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) PutTimeouts(value *I
 		i,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IdentityPlatformTenantInboundSamlConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group}.
 type VertexAiFeatureGroup interface {
 	cdktn.TerraformResource
 	BigQuery() VertexAiFeatureGroupBigQueryOutputReference
@@ -30,6 +30,9 @@ type VertexAiFeatureGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type VertexAiFeatureGroup interface {
 	PutBigQuery(value *VertexAiFeatureGroupBigQuery)
 	PutTimeouts(value *VertexAiFeatureGroupTimeouts)
 	ResetBigQuery()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -236,6 +240,26 @@ func (j *jsiiProxy_VertexAiFeatureGroup) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +566,7 @@ func (j *jsiiProxy_VertexAiFeatureGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
 func NewVertexAiFeatureGroup(scope constructs.Construct, id *string, config *VertexAiFeatureGroupConfig) VertexAiFeatureGroup {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewVertexAiFeatureGroup(scope constructs.Construct, id *string, config *Ver
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_feature_group google_vertex_ai_feature_group} Resource.
 func NewVertexAiFeatureGroup_Override(v VertexAiFeatureGroup, scope constructs.Construct, id *string, config *VertexAiFeatureGroupConfig) {
 	_init_.Initialize()
 
@@ -589,6 +613,17 @@ func (j *jsiiProxy_VertexAiFeatureGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiFeatureGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1084,6 +1119,14 @@ func (v *jsiiProxy_VertexAiFeatureGroup) ResetBigQuery() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetBigQuery",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiFeatureGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

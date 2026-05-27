@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_pipeline_job google_healthcare_pipeline_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_pipeline_job google_healthcare_pipeline_job}.
 type HealthcarePipelineJob interface {
 	cdktn.TerraformResource
 	BackfillPipelineJob() HealthcarePipelineJobBackfillPipelineJobOutputReference
@@ -32,6 +32,9 @@ type HealthcarePipelineJob interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type HealthcarePipelineJob interface {
 	PutReconciliationPipelineJob(value *HealthcarePipelineJobReconciliationPipelineJob)
 	PutTimeouts(value *HealthcarePipelineJobTimeouts)
 	ResetBackfillPipelineJob()
+	ResetDeletionPolicy()
 	ResetDisableLineage()
 	ResetId()
 	ResetLabels()
@@ -249,6 +253,26 @@ func (j *jsiiProxy_HealthcarePipelineJob) DatasetInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcarePipelineJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthcarePipelineJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -565,7 +589,7 @@ func (j *jsiiProxy_HealthcarePipelineJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_pipeline_job google_healthcare_pipeline_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_pipeline_job google_healthcare_pipeline_job} Resource.
 func NewHealthcarePipelineJob(scope constructs.Construct, id *string, config *HealthcarePipelineJobConfig) HealthcarePipelineJob {
 	_init_.Initialize()
 
@@ -583,7 +607,7 @@ func NewHealthcarePipelineJob(scope constructs.Construct, id *string, config *He
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/healthcare_pipeline_job google_healthcare_pipeline_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/healthcare_pipeline_job google_healthcare_pipeline_job} Resource.
 func NewHealthcarePipelineJob_Override(h HealthcarePipelineJob, scope constructs.Construct, id *string, config *HealthcarePipelineJobConfig) {
 	_init_.Initialize()
 
@@ -623,6 +647,17 @@ func (j *jsiiProxy_HealthcarePipelineJob)SetDataset(val *string) {
 	_jsii_.Set(
 		j,
 		"dataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HealthcarePipelineJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1129,6 +1164,14 @@ func (h *jsiiProxy_HealthcarePipelineJob) ResetBackfillPipelineJob() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetBackfillPipelineJob",
+		nil, // no parameters
+	)
+}
+
+func (h *jsiiProxy_HealthcarePipelineJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

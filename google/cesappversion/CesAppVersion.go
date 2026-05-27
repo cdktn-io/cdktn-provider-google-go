@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_app_version google_ces_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_app_version google_ces_app_version}.
 type CesAppVersion interface {
 	cdktn.TerraformResource
 	App() *string
@@ -35,6 +35,9 @@ type CesAppVersion interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Creator() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type CesAppVersion interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *CesAppVersionTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -263,6 +267,26 @@ func (j *jsiiProxy_CesAppVersion) Creator() *string {
 	_jsii_.Get(
 		j,
 		"creator",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersion) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersion) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -539,7 +563,7 @@ func (j *jsiiProxy_CesAppVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_app_version google_ces_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_app_version google_ces_app_version} Resource.
 func NewCesAppVersion(scope constructs.Construct, id *string, config *CesAppVersionConfig) CesAppVersion {
 	_init_.Initialize()
 
@@ -557,7 +581,7 @@ func NewCesAppVersion(scope constructs.Construct, id *string, config *CesAppVers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_app_version google_ces_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_app_version google_ces_app_version} Resource.
 func NewCesAppVersion_Override(c CesAppVersion, scope constructs.Construct, id *string, config *CesAppVersionConfig) {
 	_init_.Initialize()
 
@@ -608,6 +632,17 @@ func (j *jsiiProxy_CesAppVersion)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesAppVersion)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1074,6 +1109,14 @@ func (c *jsiiProxy_CesAppVersion) PutTimeouts(value *CesAppVersionTimeouts) {
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesAppVersion) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

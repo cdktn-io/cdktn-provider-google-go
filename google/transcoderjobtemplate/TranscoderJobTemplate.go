@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/transcoder_job_template google_transcoder_job_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/transcoder_job_template google_transcoder_job_template}.
 type TranscoderJobTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type TranscoderJobTemplate interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type TranscoderJobTemplate interface {
 	PutConfig(value *TranscoderJobTemplateConfigA)
 	PutTimeouts(value *TranscoderJobTemplateTimeouts)
 	ResetConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -218,6 +222,26 @@ func (j *jsiiProxy_TranscoderJobTemplate) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TranscoderJobTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TranscoderJobTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_TranscoderJobTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/transcoder_job_template google_transcoder_job_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/transcoder_job_template google_transcoder_job_template} Resource.
 func NewTranscoderJobTemplate(scope constructs.Construct, id *string, config *TranscoderJobTemplateConfig) TranscoderJobTemplate {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewTranscoderJobTemplate(scope constructs.Construct, id *string, config *Tr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/transcoder_job_template google_transcoder_job_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/transcoder_job_template google_transcoder_job_template} Resource.
 func NewTranscoderJobTemplate_Override(t TranscoderJobTemplate, scope constructs.Construct, id *string, config *TranscoderJobTemplateConfig) {
 	_init_.Initialize()
 
@@ -541,6 +565,17 @@ func (j *jsiiProxy_TranscoderJobTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TranscoderJobTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1025,6 +1060,14 @@ func (t *jsiiProxy_TranscoderJobTemplate) ResetConfig() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetConfig",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TranscoderJobTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

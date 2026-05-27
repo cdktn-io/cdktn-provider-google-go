@@ -111,6 +111,10 @@ func (j *jsiiProxy_DialogflowCxWebhook) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowCxWebhook) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowCxWebhook) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

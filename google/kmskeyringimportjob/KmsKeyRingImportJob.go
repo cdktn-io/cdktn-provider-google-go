@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/kms_key_ring_import_job google_kms_key_ring_import_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/kms_key_ring_import_job google_kms_key_ring_import_job}.
 type KmsKeyRingImportJob interface {
 	cdktn.TerraformResource
 	Attestation() KmsKeyRingImportJobAttestationList
@@ -28,6 +28,9 @@ type KmsKeyRingImportJob interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type KmsKeyRingImportJob interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *KmsKeyRingImportJobTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_KmsKeyRingImportJob) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KmsKeyRingImportJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KmsKeyRingImportJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -490,7 +514,7 @@ func (j *jsiiProxy_KmsKeyRingImportJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/kms_key_ring_import_job google_kms_key_ring_import_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/kms_key_ring_import_job google_kms_key_ring_import_job} Resource.
 func NewKmsKeyRingImportJob(scope constructs.Construct, id *string, config *KmsKeyRingImportJobConfig) KmsKeyRingImportJob {
 	_init_.Initialize()
 
@@ -508,7 +532,7 @@ func NewKmsKeyRingImportJob(scope constructs.Construct, id *string, config *KmsK
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/kms_key_ring_import_job google_kms_key_ring_import_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/kms_key_ring_import_job google_kms_key_ring_import_job} Resource.
 func NewKmsKeyRingImportJob_Override(k KmsKeyRingImportJob, scope constructs.Construct, id *string, config *KmsKeyRingImportJobConfig) {
 	_init_.Initialize()
 
@@ -537,6 +561,17 @@ func (j *jsiiProxy_KmsKeyRingImportJob)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KmsKeyRingImportJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1003,6 +1038,14 @@ func (k *jsiiProxy_KmsKeyRingImportJob) PutTimeouts(value *KmsKeyRingImportJobTi
 		k,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (k *jsiiProxy_KmsKeyRingImportJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

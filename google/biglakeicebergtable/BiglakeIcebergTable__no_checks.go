@@ -115,6 +115,10 @@ func (j *jsiiProxy_BiglakeIcebergTable) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_BiglakeIcebergTable) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BiglakeIcebergTable) validateSetIdParameters(val *string) error {
 	return nil
 }

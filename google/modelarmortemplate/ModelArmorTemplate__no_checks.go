@@ -111,6 +111,10 @@ func (j *jsiiProxy_ModelArmorTemplate) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_ModelArmorTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ModelArmorTemplate) validateSetIdParameters(val *string) error {
 	return nil
 }

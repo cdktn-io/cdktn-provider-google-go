@@ -359,6 +359,14 @@ func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BinaryAuthorizationAttestor) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

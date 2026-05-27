@@ -67,6 +67,10 @@ func (j *jsiiProxy_HypercomputeclusterClusterStorageResourcesConfigNewBucketAuto
 	return nil
 }
 
+func (j *jsiiProxy_HypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference) validateSetTerminalStorageClassParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

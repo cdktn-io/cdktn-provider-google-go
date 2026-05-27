@@ -111,6 +111,10 @@ func (j *jsiiProxy_IntegrationsClient) validateSetCreateSampleIntegrationsParame
 	return nil
 }
 
+func (j *jsiiProxy_IntegrationsClient) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IntegrationsClient) validateSetIdParameters(val *string) error {
 	return nil
 }

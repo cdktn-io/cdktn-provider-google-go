@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/alloydb_instance google_alloydb_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/alloydb_instance google_alloydb_instance}.
 type DataGoogleAlloydbInstance interface {
 	cdktn.TerraformDataSource
 	ActivationPolicy() *string
@@ -34,6 +34,7 @@ type DataGoogleAlloydbInstance interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DatabaseFlags() cdktn.StringMap
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -280,6 +281,16 @@ func (j *jsiiProxy_DataGoogleAlloydbInstance) DatabaseFlags() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"databaseFlags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleAlloydbInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -676,7 +687,7 @@ func (j *jsiiProxy_DataGoogleAlloydbInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/alloydb_instance google_alloydb_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/alloydb_instance google_alloydb_instance} Data Source.
 func NewDataGoogleAlloydbInstance(scope constructs.Construct, id *string, config *DataGoogleAlloydbInstanceConfig) DataGoogleAlloydbInstance {
 	_init_.Initialize()
 
@@ -694,7 +705,7 @@ func NewDataGoogleAlloydbInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/data-sources/alloydb_instance google_alloydb_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/data-sources/alloydb_instance google_alloydb_instance} Data Source.
 func NewDataGoogleAlloydbInstance_Override(d DataGoogleAlloydbInstance, scope constructs.Construct, id *string, config *DataGoogleAlloydbInstanceConfig) {
 	_init_.Initialize()
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_LoggingLogView) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_LoggingLogView) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingLogView) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

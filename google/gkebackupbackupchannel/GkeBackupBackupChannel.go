@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel}.
 type GkeBackupBackupChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GkeBackupBackupChannel interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GkeBackupBackupChannel interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GkeBackupBackupChannelTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -203,6 +207,26 @@ func (j *jsiiProxy_GkeBackupBackupChannel) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeBackupBackupChannel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeBackupBackupChannel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -539,7 +563,7 @@ func (j *jsiiProxy_GkeBackupBackupChannel) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
 func NewGkeBackupBackupChannel(scope constructs.Construct, id *string, config *GkeBackupBackupChannelConfig) GkeBackupBackupChannel {
 	_init_.Initialize()
 
@@ -557,7 +581,7 @@ func NewGkeBackupBackupChannel(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
 func NewGkeBackupBackupChannel_Override(g GkeBackupBackupChannel, scope constructs.Construct, id *string, config *GkeBackupBackupChannelConfig) {
 	_init_.Initialize()
 
@@ -586,6 +610,17 @@ func (j *jsiiProxy_GkeBackupBackupChannel)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeBackupBackupChannel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1074,6 +1109,14 @@ func (g *jsiiProxy_GkeBackupBackupChannel) PutTimeouts(value *GkeBackupBackupCha
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GkeBackupBackupChannel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

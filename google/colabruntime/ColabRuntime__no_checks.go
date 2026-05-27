@@ -111,6 +111,10 @@ func (j *jsiiProxy_ColabRuntime) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_ColabRuntime) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ColabRuntime) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

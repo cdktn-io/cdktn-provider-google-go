@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_example google_ces_example}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_example google_ces_example}.
 type CesExample interface {
 	cdktn.TerraformResource
 	App() *string
@@ -31,6 +31,9 @@ type CesExample interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type CesExample interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutMessages(value interface{})
 	PutTimeouts(value *CesExampleTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEntryAgent()
 	ResetId()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_CesExample) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesExample) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesExample) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -586,7 +610,7 @@ func (j *jsiiProxy_CesExample) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_example google_ces_example} Resource.
 func NewCesExample(scope constructs.Construct, id *string, config *CesExampleConfig) CesExample {
 	_init_.Initialize()
 
@@ -604,7 +628,7 @@ func NewCesExample(scope constructs.Construct, id *string, config *CesExampleCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_example google_ces_example} Resource.
 func NewCesExample_Override(c CesExample, scope constructs.Construct, id *string, config *CesExampleConfig) {
 	_init_.Initialize()
 
@@ -644,6 +668,17 @@ func (j *jsiiProxy_CesExample)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesExample)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1143,6 +1178,14 @@ func (c *jsiiProxy_CesExample) PutTimeouts(value *CesExampleTimeouts) {
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesExample) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_IamDenyPolicy) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_IamDenyPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamDenyPolicy) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_DnsRecordSet) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_DnsRecordSet) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DnsRecordSet) validateSetIdParameters(val *string) error {
 	return nil
 }

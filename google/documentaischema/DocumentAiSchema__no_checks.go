@@ -103,6 +103,10 @@ func (j *jsiiProxy_DocumentAiSchema) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_DocumentAiSchema) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DocumentAiSchema) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

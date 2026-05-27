@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder_organization_policy google_folder_organization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_organization_policy google_folder_organization_policy}.
 type FolderOrganizationPolicy interface {
 	cdktn.TerraformResource
 	BooleanPolicy() FolderOrganizationPolicyBooleanPolicyOutputReference
@@ -32,6 +32,9 @@ type FolderOrganizationPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type FolderOrganizationPolicy interface {
 	PutRestorePolicy(value *FolderOrganizationPolicyRestorePolicy)
 	PutTimeouts(value *FolderOrganizationPolicyTimeouts)
 	ResetBooleanPolicy()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetListPolicy()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -241,6 +245,26 @@ func (j *jsiiProxy_FolderOrganizationPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FolderOrganizationPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FolderOrganizationPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -507,7 +531,7 @@ func (j *jsiiProxy_FolderOrganizationPolicy) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
 func NewFolderOrganizationPolicy(scope constructs.Construct, id *string, config *FolderOrganizationPolicyConfig) FolderOrganizationPolicy {
 	_init_.Initialize()
 
@@ -525,7 +549,7 @@ func NewFolderOrganizationPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
 func NewFolderOrganizationPolicy_Override(f FolderOrganizationPolicy, scope constructs.Construct, id *string, config *FolderOrganizationPolicyConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_FolderOrganizationPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FolderOrganizationPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1049,6 +1084,14 @@ func (f *jsiiProxy_FolderOrganizationPolicy) ResetBooleanPolicy() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetBooleanPolicy",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FolderOrganizationPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

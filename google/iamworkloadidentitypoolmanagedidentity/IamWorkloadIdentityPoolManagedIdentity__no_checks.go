@@ -107,6 +107,10 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolManagedIdentity) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_IamWorkloadIdentityPoolManagedIdentity) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamWorkloadIdentityPoolManagedIdentity) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -123,6 +123,10 @@ func (j *jsiiProxy_DeveloperConnectAccountConnector) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_DeveloperConnectAccountConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DeveloperConnectAccountConnector) validateSetEtagParameters(val *string) error {
 	return nil
 }

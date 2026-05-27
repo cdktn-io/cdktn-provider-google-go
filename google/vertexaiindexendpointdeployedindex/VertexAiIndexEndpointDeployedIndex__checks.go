@@ -381,6 +381,14 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) validateSetDeployedIndexIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

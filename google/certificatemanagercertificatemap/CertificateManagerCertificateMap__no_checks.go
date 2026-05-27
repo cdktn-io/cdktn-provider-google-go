@@ -103,6 +103,10 @@ func (j *jsiiProxy_CertificateManagerCertificateMap) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_CertificateManagerCertificateMap) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CertificateManagerCertificateMap) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

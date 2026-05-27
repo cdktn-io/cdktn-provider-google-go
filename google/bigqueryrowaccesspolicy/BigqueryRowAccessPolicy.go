@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_row_access_policy google_bigquery_row_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_row_access_policy google_bigquery_row_access_policy}.
 type BigqueryRowAccessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type BigqueryRowAccessPolicy interface {
 	DatasetId() *string
 	SetDatasetId(val *string)
 	DatasetIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type BigqueryRowAccessPolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *BigqueryRowAccessPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetGrantees()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -229,6 +233,26 @@ func (j *jsiiProxy_BigqueryRowAccessPolicy) DatasetIdInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryRowAccessPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryRowAccessPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +529,7 @@ func (j *jsiiProxy_BigqueryRowAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
 func NewBigqueryRowAccessPolicy(scope constructs.Construct, id *string, config *BigqueryRowAccessPolicyConfig) BigqueryRowAccessPolicy {
 	_init_.Initialize()
 
@@ -523,7 +547,7 @@ func NewBigqueryRowAccessPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
 func NewBigqueryRowAccessPolicy_Override(b BigqueryRowAccessPolicy, scope constructs.Construct, id *string, config *BigqueryRowAccessPolicyConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_BigqueryRowAccessPolicy)SetDatasetId(val *string) {
 	_jsii_.Set(
 		j,
 		"datasetId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryRowAccessPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1040,6 +1075,14 @@ func (b *jsiiProxy_BigqueryRowAccessPolicy) PutTimeouts(value *BigqueryRowAccess
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BigqueryRowAccessPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

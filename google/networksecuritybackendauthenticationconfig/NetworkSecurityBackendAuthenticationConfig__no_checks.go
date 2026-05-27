@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

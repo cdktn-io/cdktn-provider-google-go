@@ -103,6 +103,10 @@ func (j *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

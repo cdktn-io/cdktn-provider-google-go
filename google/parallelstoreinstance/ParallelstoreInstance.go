@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parallelstore_instance google_parallelstore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parallelstore_instance google_parallelstore_instance}.
 type ParallelstoreInstance interface {
 	cdktn.TerraformResource
 	AccessPoints() *[]*string
@@ -33,6 +33,9 @@ type ParallelstoreInstance interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DaosVersion() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -152,6 +155,7 @@ type ParallelstoreInstance interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ParallelstoreInstanceTimeouts)
+	ResetDeletionPolicy()
 	ResetDeploymentType()
 	ResetDescription()
 	ResetDirectoryStripeLevel()
@@ -277,6 +281,26 @@ func (j *jsiiProxy_ParallelstoreInstance) DaosVersion() *string {
 	_jsii_.Get(
 		j,
 		"daosVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParallelstoreInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParallelstoreInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -703,7 +727,7 @@ func (j *jsiiProxy_ParallelstoreInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parallelstore_instance google_parallelstore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parallelstore_instance google_parallelstore_instance} Resource.
 func NewParallelstoreInstance(scope constructs.Construct, id *string, config *ParallelstoreInstanceConfig) ParallelstoreInstance {
 	_init_.Initialize()
 
@@ -721,7 +745,7 @@ func NewParallelstoreInstance(scope constructs.Construct, id *string, config *Pa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parallelstore_instance google_parallelstore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parallelstore_instance google_parallelstore_instance} Resource.
 func NewParallelstoreInstance_Override(p ParallelstoreInstance, scope constructs.Construct, id *string, config *ParallelstoreInstanceConfig) {
 	_init_.Initialize()
 
@@ -761,6 +785,17 @@ func (j *jsiiProxy_ParallelstoreInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ParallelstoreInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1293,6 +1328,14 @@ func (p *jsiiProxy_ParallelstoreInstance) PutTimeouts(value *ParallelstoreInstan
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_ParallelstoreInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

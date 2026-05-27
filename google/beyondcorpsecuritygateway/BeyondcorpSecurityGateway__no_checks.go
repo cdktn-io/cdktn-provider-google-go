@@ -119,6 +119,10 @@ func (j *jsiiProxy_BeyondcorpSecurityGateway) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_BeyondcorpSecurityGateway) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BeyondcorpSecurityGateway) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

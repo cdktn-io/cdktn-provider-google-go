@@ -119,6 +119,10 @@ func (j *jsiiProxy_NetappStoragePool) validateSetCustomPerformanceEnabledParamet
 	return nil
 }
 
+func (j *jsiiProxy_NetappStoragePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappStoragePool) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

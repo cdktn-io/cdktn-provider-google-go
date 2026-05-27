@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/endpoints_service google_endpoints_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/endpoints_service google_endpoints_service}.
 type EndpointsService interface {
 	cdktn.TerraformResource
 	Apis() EndpointsServiceApisList
@@ -29,6 +29,9 @@ type EndpointsService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type EndpointsService interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *EndpointsServiceTimeouts)
+	ResetDeletionPolicy()
 	ResetGrpcConfig()
 	ResetId()
 	ResetOpenapiConfig()
@@ -220,6 +224,26 @@ func (j *jsiiProxy_EndpointsService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EndpointsService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EndpointsService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_EndpointsService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/endpoints_service google_endpoints_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/endpoints_service google_endpoints_service} Resource.
 func NewEndpointsService(scope constructs.Construct, id *string, config *EndpointsServiceConfig) EndpointsService {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewEndpointsService(scope constructs.Construct, id *string, config *Endpoin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/endpoints_service google_endpoints_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/endpoints_service google_endpoints_service} Resource.
 func NewEndpointsService_Override(e EndpointsService, scope constructs.Construct, id *string, config *EndpointsServiceConfig) {
 	_init_.Initialize()
 
@@ -553,6 +577,17 @@ func (j *jsiiProxy_EndpointsService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EndpointsService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1030,6 +1065,14 @@ func (e *jsiiProxy_EndpointsService) PutTimeouts(value *EndpointsServiceTimeouts
 		e,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EndpointsService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

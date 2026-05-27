@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeCrossSiteNetwork) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ComputeCrossSiteNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeCrossSiteNetwork) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

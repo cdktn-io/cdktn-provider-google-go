@@ -103,6 +103,10 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_VmwareengineNetworkPeering) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VmwareengineNetworkPeering) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

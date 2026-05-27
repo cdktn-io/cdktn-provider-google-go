@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_security_policy google_compute_region_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_security_policy google_compute_region_security_policy}.
 type ComputeRegionSecurityPolicy interface {
 	cdktn.TerraformResource
 	AdvancedOptionsConfig() ComputeRegionSecurityPolicyAdvancedOptionsConfigOutputReference
@@ -31,6 +31,9 @@ type ComputeRegionSecurityPolicy interface {
 	SetCount(val interface{})
 	DdosProtectionConfig() ComputeRegionSecurityPolicyDdosProtectionConfigOutputReference
 	DdosProtectionConfigInput() *ComputeRegionSecurityPolicyDdosProtectionConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type ComputeRegionSecurityPolicy interface {
 	PutUserDefinedFields(value interface{})
 	ResetAdvancedOptionsConfig()
 	ResetDdosProtectionConfig()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -256,6 +260,26 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) DdosProtectionConfigInput() *Com
 	_jsii_.Get(
 		j,
 		"ddosProtectionConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionSecurityPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy) UserDefinedFieldsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_security_policy google_compute_region_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_security_policy google_compute_region_security_policy} Resource.
 func NewComputeRegionSecurityPolicy(scope constructs.Construct, id *string, config *ComputeRegionSecurityPolicyConfig) ComputeRegionSecurityPolicy {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewComputeRegionSecurityPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_security_policy google_compute_region_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_security_policy google_compute_region_security_policy} Resource.
 func NewComputeRegionSecurityPolicy_Override(c ComputeRegionSecurityPolicy, scope constructs.Construct, id *string, config *ComputeRegionSecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -649,6 +673,17 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionSecurityPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1185,6 +1220,14 @@ func (c *jsiiProxy_ComputeRegionSecurityPolicy) ResetDdosProtectionConfig() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDdosProtectionConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionSecurityPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

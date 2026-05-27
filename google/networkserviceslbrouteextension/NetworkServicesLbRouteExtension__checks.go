@@ -379,6 +379,14 @@ func (j *jsiiProxy_NetworkServicesLbRouteExtension) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesLbRouteExtension) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesLbRouteExtension) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

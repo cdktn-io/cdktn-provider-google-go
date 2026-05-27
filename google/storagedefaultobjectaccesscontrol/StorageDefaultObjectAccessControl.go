@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_default_object_access_control google_storage_default_object_access_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_default_object_access_control google_storage_default_object_access_control}.
 type StorageDefaultObjectAccessControl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -30,6 +30,9 @@ type StorageDefaultObjectAccessControl interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type StorageDefaultObjectAccessControl interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *StorageDefaultObjectAccessControlTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetObject()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_StorageDefaultObjectAccessControl) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageDefaultObjectAccessControl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageDefaultObjectAccessControl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -491,7 +515,7 @@ func (j *jsiiProxy_StorageDefaultObjectAccessControl) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_default_object_access_control google_storage_default_object_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_default_object_access_control google_storage_default_object_access_control} Resource.
 func NewStorageDefaultObjectAccessControl(scope constructs.Construct, id *string, config *StorageDefaultObjectAccessControlConfig) StorageDefaultObjectAccessControl {
 	_init_.Initialize()
 
@@ -509,7 +533,7 @@ func NewStorageDefaultObjectAccessControl(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_default_object_access_control google_storage_default_object_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_default_object_access_control google_storage_default_object_access_control} Resource.
 func NewStorageDefaultObjectAccessControl_Override(s StorageDefaultObjectAccessControl, scope constructs.Construct, id *string, config *StorageDefaultObjectAccessControlConfig) {
 	_init_.Initialize()
 
@@ -549,6 +573,17 @@ func (j *jsiiProxy_StorageDefaultObjectAccessControl)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageDefaultObjectAccessControl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1004,6 +1039,14 @@ func (s *jsiiProxy_StorageDefaultObjectAccessControl) PutTimeouts(value *Storage
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_StorageDefaultObjectAccessControl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector}.
 type DiscoveryEngineDataConnector interface {
 	cdktn.TerraformResource
 	ActionConfig() DiscoveryEngineDataConnectorActionConfigOutputReference
@@ -53,6 +53,9 @@ type DiscoveryEngineDataConnector interface {
 	DataSourceVersion() *float64
 	SetDataSourceVersion(val *float64)
 	DataSourceVersionInput() *float64
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -188,6 +191,7 @@ type DiscoveryEngineDataConnector interface {
 	ResetBapConfig()
 	ResetConnectorModes()
 	ResetDataSourceVersion()
+	ResetDeletionPolicy()
 	ResetDestinationConfigs()
 	ResetEntities()
 	ResetId()
@@ -465,6 +469,26 @@ func (j *jsiiProxy_DiscoveryEngineDataConnector) DataSourceVersionInput() *float
 	_jsii_.Get(
 		j,
 		"dataSourceVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataConnector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataConnector) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -961,7 +985,7 @@ func (j *jsiiProxy_DiscoveryEngineDataConnector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewDiscoveryEngineDataConnector(scope constructs.Construct, id *string, config *DiscoveryEngineDataConnectorConfig) DiscoveryEngineDataConnector {
 	_init_.Initialize()
 
@@ -979,7 +1003,7 @@ func NewDiscoveryEngineDataConnector(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewDiscoveryEngineDataConnector_Override(d DiscoveryEngineDataConnector, scope constructs.Construct, id *string, config *DiscoveryEngineDataConnectorConfig) {
 	_init_.Initialize()
 
@@ -1074,6 +1098,17 @@ func (j *jsiiProxy_DiscoveryEngineDataConnector)SetDataSourceVersion(val *float6
 	_jsii_.Set(
 		j,
 		"dataSourceVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataConnector)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1689,6 +1724,14 @@ func (d *jsiiProxy_DiscoveryEngineDataConnector) ResetDataSourceVersion() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetDataSourceVersion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineDataConnector) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

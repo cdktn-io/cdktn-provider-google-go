@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module}.
 type SccManagementOrganizationEventThreatDetectionCustomModule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type SccManagementOrganizationEventThreatDetectionCustomModule interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type SccManagementOrganizationEventThreatDetectionCustomModule interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SccManagementOrganizationEventThreatDetectionCustomModuleTimeouts)
 	ResetConfig()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetEnablementState()
 	ResetId()
@@ -223,6 +227,26 @@ func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) Co
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -519,7 +543,7 @@ func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) Up
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
 func NewSccManagementOrganizationEventThreatDetectionCustomModule(scope constructs.Construct, id *string, config *SccManagementOrganizationEventThreatDetectionCustomModuleConfig) SccManagementOrganizationEventThreatDetectionCustomModule {
 	_init_.Initialize()
 
@@ -537,7 +561,7 @@ func NewSccManagementOrganizationEventThreatDetectionCustomModule(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
 func NewSccManagementOrganizationEventThreatDetectionCustomModule_Override(s SccManagementOrganizationEventThreatDetectionCustomModule, scope constructs.Construct, id *string, config *SccManagementOrganizationEventThreatDetectionCustomModuleConfig) {
 	_init_.Initialize()
 
@@ -577,6 +601,17 @@ func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule)Set
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1061,6 +1096,14 @@ func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) Re
 	_jsii_.InvokeVoid(
 		s,
 		"resetConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

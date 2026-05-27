@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/document_ai_processor google_document_ai_processor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/document_ai_processor google_document_ai_processor}.
 type DocumentAiProcessor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DocumentAiProcessor interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type DocumentAiProcessor interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DocumentAiProcessorTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetKmsKeyName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -195,6 +199,26 @@ func (j *jsiiProxy_DocumentAiProcessor) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocumentAiProcessor) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocumentAiProcessor) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -471,7 +495,7 @@ func (j *jsiiProxy_DocumentAiProcessor) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
 func NewDocumentAiProcessor(scope constructs.Construct, id *string, config *DocumentAiProcessorConfig) DocumentAiProcessor {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewDocumentAiProcessor(scope constructs.Construct, id *string, config *Docu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
 func NewDocumentAiProcessor_Override(d DocumentAiProcessor, scope constructs.Construct, id *string, config *DocumentAiProcessorConfig) {
 	_init_.Initialize()
 
@@ -518,6 +542,17 @@ func (j *jsiiProxy_DocumentAiProcessor)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DocumentAiProcessor)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -995,6 +1030,14 @@ func (d *jsiiProxy_DocumentAiProcessor) PutTimeouts(value *DocumentAiProcessorTi
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DocumentAiProcessor) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

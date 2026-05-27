@@ -107,6 +107,10 @@ func (j *jsiiProxy_BigqueryBiReservation) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryBiReservation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryBiReservation) validateSetIdParameters(val *string) error {
 	return nil
 }

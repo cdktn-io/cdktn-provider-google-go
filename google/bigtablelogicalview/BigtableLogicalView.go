@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigtable_logical_view google_bigtable_logical_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigtable_logical_view google_bigtable_logical_view}.
 type BigtableLogicalView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type BigtableLogicalView interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -126,6 +129,7 @@ type BigtableLogicalView interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *BigtableLogicalViewTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetId()
 	ResetInstance()
@@ -196,6 +200,26 @@ func (j *jsiiProxy_BigtableLogicalView) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigtableLogicalView) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigtableLogicalView) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -472,7 +496,7 @@ func (j *jsiiProxy_BigtableLogicalView) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigtable_logical_view google_bigtable_logical_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigtable_logical_view google_bigtable_logical_view} Resource.
 func NewBigtableLogicalView(scope constructs.Construct, id *string, config *BigtableLogicalViewConfig) BigtableLogicalView {
 	_init_.Initialize()
 
@@ -490,7 +514,7 @@ func NewBigtableLogicalView(scope constructs.Construct, id *string, config *Bigt
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigtable_logical_view google_bigtable_logical_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigtable_logical_view google_bigtable_logical_view} Resource.
 func NewBigtableLogicalView_Override(b BigtableLogicalView, scope constructs.Construct, id *string, config *BigtableLogicalViewConfig) {
 	_init_.Initialize()
 
@@ -519,6 +543,17 @@ func (j *jsiiProxy_BigtableLogicalView)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigtableLogicalView)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -996,6 +1031,14 @@ func (b *jsiiProxy_BigtableLogicalView) PutTimeouts(value *BigtableLogicalViewTi
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BigtableLogicalView) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

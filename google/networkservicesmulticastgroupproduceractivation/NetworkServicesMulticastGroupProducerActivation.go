@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation}.
 type NetworkServicesMulticastGroupProducerActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkServicesMulticastGroupProducerActivation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type NetworkServicesMulticastGroupProducerActivation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkServicesMulticastGroupProducerActivationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -218,6 +222,26 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) CreateTime()
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -584,7 +608,7 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
 func NewNetworkServicesMulticastGroupProducerActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupProducerActivationConfig) NetworkServicesMulticastGroupProducerActivation {
 	_init_.Initialize()
 
@@ -602,7 +626,7 @@ func NewNetworkServicesMulticastGroupProducerActivation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
 func NewNetworkServicesMulticastGroupProducerActivation_Override(n NetworkServicesMulticastGroupProducerActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupProducerActivationConfig) {
 	_init_.Initialize()
 
@@ -631,6 +655,17 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation)SetCount(val 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1130,6 +1165,14 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) PutTimeouts(
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

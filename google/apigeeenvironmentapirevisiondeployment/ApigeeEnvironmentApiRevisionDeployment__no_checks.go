@@ -107,6 +107,10 @@ func (j *jsiiProxy_ApigeeEnvironmentApiRevisionDeployment) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeEnvironmentApiRevisionDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeEnvironmentApiRevisionDeployment) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

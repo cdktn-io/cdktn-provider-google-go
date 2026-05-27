@@ -123,6 +123,10 @@ func (j *jsiiProxy_NetworkConnectivitySpoke) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivitySpoke) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivitySpoke) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

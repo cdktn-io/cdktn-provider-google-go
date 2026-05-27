@@ -440,6 +440,14 @@ func (j *jsiiProxy_DataprocWorkflowTemplate) validateSetDagTimeoutParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_DataprocWorkflowTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataprocWorkflowTemplate) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

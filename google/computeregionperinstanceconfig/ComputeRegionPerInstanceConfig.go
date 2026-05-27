@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_per_instance_config google_compute_region_per_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_per_instance_config google_compute_region_per_instance_config}.
 type ComputeRegionPerInstanceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeRegionPerInstanceConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type ComputeRegionPerInstanceConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPreservedState(value *ComputeRegionPerInstanceConfigPreservedState)
 	PutTimeouts(value *ComputeRegionPerInstanceConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMinimalAction()
 	ResetMostDisruptiveAllowedAction()
@@ -211,6 +215,26 @@ func (j *jsiiProxy_ComputeRegionPerInstanceConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionPerInstanceConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionPerInstanceConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -557,7 +581,7 @@ func (j *jsiiProxy_ComputeRegionPerInstanceConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_per_instance_config google_compute_region_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_per_instance_config google_compute_region_per_instance_config} Resource.
 func NewComputeRegionPerInstanceConfig(scope constructs.Construct, id *string, config *ComputeRegionPerInstanceConfigConfig) ComputeRegionPerInstanceConfig {
 	_init_.Initialize()
 
@@ -575,7 +599,7 @@ func NewComputeRegionPerInstanceConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_per_instance_config google_compute_region_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_per_instance_config google_compute_region_per_instance_config} Resource.
 func NewComputeRegionPerInstanceConfig_Override(c ComputeRegionPerInstanceConfig, scope constructs.Construct, id *string, config *ComputeRegionPerInstanceConfigConfig) {
 	_init_.Initialize()
 
@@ -604,6 +628,17 @@ func (j *jsiiProxy_ComputeRegionPerInstanceConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionPerInstanceConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1125,6 +1160,14 @@ func (c *jsiiProxy_ComputeRegionPerInstanceConfig) PutTimeouts(value *ComputeReg
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionPerInstanceConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

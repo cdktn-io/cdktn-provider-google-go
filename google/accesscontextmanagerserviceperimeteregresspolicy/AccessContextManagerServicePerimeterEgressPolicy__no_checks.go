@@ -111,6 +111,10 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AccessContextManagerServicePerimeterEgressPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeNetworkEndpointGroup) validateSetDefaultPortParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkEndpointGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkEndpointGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

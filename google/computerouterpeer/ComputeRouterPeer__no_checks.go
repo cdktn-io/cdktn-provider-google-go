@@ -135,6 +135,10 @@ func (j *jsiiProxy_ComputeRouterPeer) validateSetCustomLearnedRoutePriorityParam
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRouterPeer) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRouterPeer) validateSetEnableParameters(val interface{}) error {
 	return nil
 }

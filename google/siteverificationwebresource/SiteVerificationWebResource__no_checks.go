@@ -107,6 +107,10 @@ func (j *jsiiProxy_SiteVerificationWebResource) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_SiteVerificationWebResource) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SiteVerificationWebResource) validateSetIdParameters(val *string) error {
 	return nil
 }

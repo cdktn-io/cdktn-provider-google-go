@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding}.
 type GeminiGeminiGcpEnablementSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GeminiGeminiGcpEnablementSettingBinding interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GeminiGeminiGcpEnablementSettingBinding interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GeminiGeminiGcpEnablementSettingBindingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetLocation()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) CreateTime() *string
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -563,7 +587,7 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
 func NewGeminiGeminiGcpEnablementSettingBinding(scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingBindingConfig) GeminiGeminiGcpEnablementSettingBinding {
 	_init_.Initialize()
 
@@ -581,7 +605,7 @@ func NewGeminiGeminiGcpEnablementSettingBinding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
 func NewGeminiGeminiGcpEnablementSettingBinding_Override(g GeminiGeminiGcpEnablementSettingBinding, scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingBindingConfig) {
 	_init_.Initialize()
 
@@ -610,6 +634,17 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (g *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

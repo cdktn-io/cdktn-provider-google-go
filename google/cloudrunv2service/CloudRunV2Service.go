@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service}.
 type CloudRunV2Service interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -50,6 +50,9 @@ type CloudRunV2Service interface {
 	SetDefaultUriDisabled(val interface{})
 	DefaultUriDisabledInput() interface{}
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -201,6 +204,7 @@ type CloudRunV2Service interface {
 	ResetClientVersion()
 	ResetCustomAudiences()
 	ResetDefaultUriDisabled()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
 	ResetIapEnabled()
@@ -459,6 +463,26 @@ func (j *jsiiProxy_CloudRunV2Service) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1075,7 +1099,7 @@ func (j *jsiiProxy_CloudRunV2Service) Urls() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewCloudRunV2Service(scope constructs.Construct, id *string, config *CloudRunV2ServiceConfig) CloudRunV2Service {
 	_init_.Initialize()
 
@@ -1093,7 +1117,7 @@ func NewCloudRunV2Service(scope constructs.Construct, id *string, config *CloudR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewCloudRunV2Service_Override(c CloudRunV2Service, scope constructs.Construct, id *string, config *CloudRunV2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1177,6 +1201,17 @@ func (j *jsiiProxy_CloudRunV2Service)SetDefaultUriDisabled(val interface{}) {
 	_jsii_.Set(
 		j,
 		"defaultUriDisabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2Service)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1830,6 +1865,14 @@ func (c *jsiiProxy_CloudRunV2Service) ResetDefaultUriDisabled() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDefaultUriDisabled",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2Service) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

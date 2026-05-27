@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeRegionInstantSnapshot) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionInstantSnapshot) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionInstantSnapshot) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

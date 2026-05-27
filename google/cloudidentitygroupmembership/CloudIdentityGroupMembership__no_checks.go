@@ -115,6 +115,10 @@ func (j *jsiiProxy_CloudIdentityGroupMembership) validateSetCreateIgnoreAlreadyE
 	return nil
 }
 
+func (j *jsiiProxy_CloudIdentityGroupMembership) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudIdentityGroupMembership) validateSetGroupParameters(val *string) error {
 	return nil
 }

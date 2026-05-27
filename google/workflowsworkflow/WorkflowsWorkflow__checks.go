@@ -364,6 +364,14 @@ func (j *jsiiProxy_WorkflowsWorkflow) validateSetCryptoKeyNameParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_WorkflowsWorkflow) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_WorkflowsWorkflow) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

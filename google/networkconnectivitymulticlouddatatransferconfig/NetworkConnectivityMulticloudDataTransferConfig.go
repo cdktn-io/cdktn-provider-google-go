@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
 type NetworkConnectivityMulticloudDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkConnectivityMulticloudDataTransferConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type NetworkConnectivityMulticloudDataTransferConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutServices(value interface{})
 	PutTimeouts(value *NetworkConnectivityMulticloudDataTransferConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) CreateTime()
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -573,7 +597,7 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Construct, id *string, config *NetworkConnectivityMulticloudDataTransferConfigConfig) NetworkConnectivityMulticloudDataTransferConfig {
 	_init_.Initialize()
 
@@ -591,7 +615,7 @@ func NewNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewNetworkConnectivityMulticloudDataTransferConfig_Override(n NetworkConnectivityMulticloudDataTransferConfig, scope constructs.Construct, id *string, config *NetworkConnectivityMulticloudDataTransferConfigConfig) {
 	_init_.Initialize()
 
@@ -620,6 +644,17 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig)SetCount(val 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1108,6 +1143,14 @@ func (n *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) PutTimeouts(
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

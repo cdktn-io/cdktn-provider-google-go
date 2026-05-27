@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_cluster google_dataproc_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_cluster google_dataproc_cluster}.
 type DataprocCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type DataprocCluster interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type DataprocCluster interface {
 	PutTimeouts(value *DataprocClusterTimeouts)
 	PutVirtualClusterConfig(value *DataprocClusterVirtualClusterConfig)
 	ResetClusterConfig()
+	ResetDeletionPolicy()
 	ResetGracefulDecommissionTimeout()
 	ResetId()
 	ResetLabels()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_DataprocCluster) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -532,7 +556,7 @@ func (j *jsiiProxy_DataprocCluster) VirtualClusterConfigInput() *DataprocCluster
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_cluster google_dataproc_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_cluster google_dataproc_cluster} Resource.
 func NewDataprocCluster(scope constructs.Construct, id *string, config *DataprocClusterConfig) DataprocCluster {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewDataprocCluster(scope constructs.Construct, id *string, config *Dataproc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_cluster google_dataproc_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_cluster google_dataproc_cluster} Resource.
 func NewDataprocCluster_Override(d DataprocCluster, scope constructs.Construct, id *string, config *DataprocClusterConfig) {
 	_init_.Initialize()
 
@@ -579,6 +603,17 @@ func (j *jsiiProxy_DataprocCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1085,6 +1120,14 @@ func (d *jsiiProxy_DataprocCluster) ResetClusterConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetClusterConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

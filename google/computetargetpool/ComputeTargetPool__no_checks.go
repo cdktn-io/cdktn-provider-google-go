@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeTargetPool) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ComputeTargetPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeTargetPool) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

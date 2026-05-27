@@ -103,6 +103,10 @@ func (j *jsiiProxy_KmsAutokeyConfig) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_KmsAutokeyConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_KmsAutokeyConfig) validateSetFolderParameters(val *string) error {
 	return nil
 }

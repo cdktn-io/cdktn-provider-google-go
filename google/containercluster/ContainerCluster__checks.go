@@ -645,6 +645,17 @@ func (c *jsiiProxy_ContainerCluster) validatePutSecretManagerConfigParameters(va
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutSecretSyncConfigParameters(value *ContainerClusterSecretSyncConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutSecurityPostureConfigParameters(value *ContainerClusterSecurityPostureConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -886,6 +897,14 @@ func (j *jsiiProxy_ContainerCluster) validateSetDatapathProviderParameters(val *
 }
 
 func (j *jsiiProxy_ContainerCluster) validateSetDefaultMaxPodsPerNodeParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetDeletionPolicyParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

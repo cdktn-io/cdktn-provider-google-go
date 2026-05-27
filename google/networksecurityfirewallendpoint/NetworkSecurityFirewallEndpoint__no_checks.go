@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) validateSetIdParameters(val *string) error {
 	return nil
 }

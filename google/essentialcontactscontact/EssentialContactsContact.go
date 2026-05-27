@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/essential_contacts_contact google_essential_contacts_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/essential_contacts_contact google_essential_contacts_contact}.
 type EssentialContactsContact interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type EssentialContactsContact interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type EssentialContactsContact interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *EssentialContactsContactTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -190,6 +194,26 @@ func (j *jsiiProxy_EssentialContactsContact) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EssentialContactsContact) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EssentialContactsContact) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -446,7 +470,7 @@ func (j *jsiiProxy_EssentialContactsContact) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/essential_contacts_contact google_essential_contacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/essential_contacts_contact google_essential_contacts_contact} Resource.
 func NewEssentialContactsContact(scope constructs.Construct, id *string, config *EssentialContactsContactConfig) EssentialContactsContact {
 	_init_.Initialize()
 
@@ -464,7 +488,7 @@ func NewEssentialContactsContact(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/essential_contacts_contact google_essential_contacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/essential_contacts_contact google_essential_contacts_contact} Resource.
 func NewEssentialContactsContact_Override(e EssentialContactsContact, scope constructs.Construct, id *string, config *EssentialContactsContactConfig) {
 	_init_.Initialize()
 
@@ -493,6 +517,17 @@ func (j *jsiiProxy_EssentialContactsContact)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EssentialContactsContact)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -959,6 +994,14 @@ func (e *jsiiProxy_EssentialContactsContact) PutTimeouts(value *EssentialContact
 		e,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EssentialContactsContact) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -56,6 +56,8 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	NetworkPolicyConfigInput() *ContainerClusterAddonsConfigNetworkPolicyConfig
 	ParallelstoreCsiDriverConfig() ContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference
 	ParallelstoreCsiDriverConfigInput() *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig
+	PodSnapshotConfig() ContainerClusterAddonsConfigPodSnapshotConfigOutputReference
+	PodSnapshotConfigInput() *ContainerClusterAddonsConfigPodSnapshotConfig
 	RayOperatorConfig() ContainerClusterAddonsConfigRayOperatorConfigList
 	RayOperatorConfigInput() interface{}
 	SliceControllerConfig() ContainerClusterAddonsConfigSliceControllerConfigOutputReference
@@ -106,6 +108,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	PutLustreCsiDriverConfig(value *ContainerClusterAddonsConfigLustreCsiDriverConfig)
 	PutNetworkPolicyConfig(value *ContainerClusterAddonsConfigNetworkPolicyConfig)
 	PutParallelstoreCsiDriverConfig(value *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig)
+	PutPodSnapshotConfig(value *ContainerClusterAddonsConfigPodSnapshotConfig)
 	PutRayOperatorConfig(value interface{})
 	PutSliceControllerConfig(value *ContainerClusterAddonsConfigSliceControllerConfig)
 	PutStatefulHaConfig(value *ContainerClusterAddonsConfigStatefulHaConfig)
@@ -121,6 +124,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	ResetLustreCsiDriverConfig()
 	ResetNetworkPolicyConfig()
 	ResetParallelstoreCsiDriverConfig()
+	ResetPodSnapshotConfig()
 	ResetRayOperatorConfig()
 	ResetSliceControllerConfig()
 	ResetStatefulHaConfig()
@@ -424,6 +428,26 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ParallelstoreCsi
 	_jsii_.Get(
 		j,
 		"parallelstoreCsiDriverConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PodSnapshotConfig() ContainerClusterAddonsConfigPodSnapshotConfigOutputReference {
+	var returns ContainerClusterAddonsConfigPodSnapshotConfigOutputReference
+	_jsii_.Get(
+		j,
+		"podSnapshotConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PodSnapshotConfigInput() *ContainerClusterAddonsConfigPodSnapshotConfig {
+	var returns *ContainerClusterAddonsConfigPodSnapshotConfig
+	_jsii_.Get(
+		j,
+		"podSnapshotConfigInput",
 		&returns,
 	)
 	return returns
@@ -910,6 +934,17 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutParallelstore
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutPodSnapshotConfig(value *ContainerClusterAddonsConfigPodSnapshotConfig) {
+	if err := c.validatePutPodSnapshotConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putPodSnapshotConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutRayOperatorConfig(value interface{}) {
 	if err := c.validatePutRayOperatorConfigParameters(value); err != nil {
 		panic(err)
@@ -1035,6 +1070,14 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetParallelsto
 	_jsii_.InvokeVoid(
 		c,
 		"resetParallelstoreCsiDriverConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetPodSnapshotConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPodSnapshotConfig",
 		nil, // no parameters
 	)
 }

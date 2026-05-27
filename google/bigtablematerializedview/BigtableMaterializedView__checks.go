@@ -348,6 +348,14 @@ func (j *jsiiProxy_BigtableMaterializedView) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_BigtableMaterializedView) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BigtableMaterializedView) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

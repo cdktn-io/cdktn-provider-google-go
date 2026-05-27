@@ -147,6 +147,10 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplate) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionInstanceTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionInstanceTemplate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

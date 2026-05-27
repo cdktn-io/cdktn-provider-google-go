@@ -123,6 +123,10 @@ func (j *jsiiProxy_DnsManagedZone) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_DnsManagedZone) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DnsManagedZone) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateSetIdParameters(val *string) error {
 	return nil
 }

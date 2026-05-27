@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firestore_user_creds google_firestore_user_creds}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firestore_user_creds google_firestore_user_creds}.
 type FirestoreUserCreds interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type FirestoreUserCreds interface {
 	Database() *string
 	SetDatabase(val *string)
 	DatabaseInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type FirestoreUserCreds interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *FirestoreUserCredsTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -222,6 +226,26 @@ func (j *jsiiProxy_FirestoreUserCreds) DatabaseInput() *string {
 	_jsii_.Get(
 		j,
 		"databaseInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreUserCreds) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreUserCreds) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -468,7 +492,7 @@ func (j *jsiiProxy_FirestoreUserCreds) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firestore_user_creds google_firestore_user_creds} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firestore_user_creds google_firestore_user_creds} Resource.
 func NewFirestoreUserCreds(scope constructs.Construct, id *string, config *FirestoreUserCredsConfig) FirestoreUserCreds {
 	_init_.Initialize()
 
@@ -486,7 +510,7 @@ func NewFirestoreUserCreds(scope constructs.Construct, id *string, config *Fires
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firestore_user_creds google_firestore_user_creds} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firestore_user_creds google_firestore_user_creds} Resource.
 func NewFirestoreUserCreds_Override(f FirestoreUserCreds, scope constructs.Construct, id *string, config *FirestoreUserCredsConfig) {
 	_init_.Initialize()
 
@@ -526,6 +550,17 @@ func (j *jsiiProxy_FirestoreUserCreds)SetDatabase(val *string) {
 	_jsii_.Set(
 		j,
 		"database",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreUserCreds)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -970,6 +1005,14 @@ func (f *jsiiProxy_FirestoreUserCreds) PutTimeouts(value *FirestoreUserCredsTime
 		f,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (f *jsiiProxy_FirestoreUserCreds) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

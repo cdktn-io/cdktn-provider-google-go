@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeInstanceGroupMembership) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceGroupMembership) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceGroupMembership) validateSetIdParameters(val *string) error {
 	return nil
 }

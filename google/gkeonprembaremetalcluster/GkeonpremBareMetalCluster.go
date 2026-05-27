@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster}.
 type GkeonpremBareMetalCluster interface {
 	cdktn.TerraformResource
 	AdminClusterMembership() *string
@@ -44,6 +44,9 @@ type GkeonpremBareMetalCluster interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -186,6 +189,7 @@ type GkeonpremBareMetalCluster interface {
 	ResetAnnotations()
 	ResetBinaryAuthorization()
 	ResetClusterOperations()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetMaintenanceConfig()
@@ -402,6 +406,26 @@ func (j *jsiiProxy_GkeonpremBareMetalCluster) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeonpremBareMetalCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeonpremBareMetalCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -958,7 +982,7 @@ func (j *jsiiProxy_GkeonpremBareMetalCluster) ValidationCheck() GkeonpremBareMet
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster} Resource.
 func NewGkeonpremBareMetalCluster(scope constructs.Construct, id *string, config *GkeonpremBareMetalClusterConfig) GkeonpremBareMetalCluster {
 	_init_.Initialize()
 
@@ -976,7 +1000,7 @@ func NewGkeonpremBareMetalCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster} Resource.
 func NewGkeonpremBareMetalCluster_Override(g GkeonpremBareMetalCluster, scope constructs.Construct, id *string, config *GkeonpremBareMetalClusterConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1062,17 @@ func (j *jsiiProxy_GkeonpremBareMetalCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeonpremBareMetalCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1670,6 +1705,14 @@ func (g *jsiiProxy_GkeonpremBareMetalCluster) ResetClusterOperations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClusterOperations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GkeonpremBareMetalCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type}.
 type ClouddeployCustomTargetType interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type ClouddeployCustomTargetType interface {
 	CustomActions() ClouddeployCustomTargetTypeCustomActionsOutputReference
 	CustomActionsInput() *ClouddeployCustomTargetTypeCustomActions
 	CustomTargetTypeId() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type ClouddeployCustomTargetType interface {
 	PutTimeouts(value *ClouddeployCustomTargetTypeTimeouts)
 	ResetAnnotations()
 	ResetCustomActions()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -275,6 +279,26 @@ func (j *jsiiProxy_ClouddeployCustomTargetType) CustomTargetTypeId() *string {
 	_jsii_.Get(
 		j,
 		"customTargetTypeId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ClouddeployCustomTargetType) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ClouddeployCustomTargetType) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -621,7 +645,7 @@ func (j *jsiiProxy_ClouddeployCustomTargetType) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
 func NewClouddeployCustomTargetType(scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeConfig) ClouddeployCustomTargetType {
 	_init_.Initialize()
 
@@ -639,7 +663,7 @@ func NewClouddeployCustomTargetType(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
 func NewClouddeployCustomTargetType_Override(c ClouddeployCustomTargetType, scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeConfig) {
 	_init_.Initialize()
 
@@ -679,6 +703,17 @@ func (j *jsiiProxy_ClouddeployCustomTargetType)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ClouddeployCustomTargetType)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1193,6 +1228,14 @@ func (c *jsiiProxy_ClouddeployCustomTargetType) ResetCustomActions() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetCustomActions",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ClouddeployCustomTargetType) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

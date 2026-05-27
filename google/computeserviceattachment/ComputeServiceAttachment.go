@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_service_attachment google_compute_service_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_service_attachment google_compute_service_attachment}.
 type ComputeServiceAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type ComputeServiceAttachment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -161,6 +164,7 @@ type ComputeServiceAttachment interface {
 	PutTimeouts(value *ComputeServiceAttachmentTimeouts)
 	ResetConsumerAcceptLists()
 	ResetConsumerRejectLists()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDomainNames()
 	ResetId()
@@ -306,6 +310,26 @@ func (j *jsiiProxy_ComputeServiceAttachment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeServiceAttachment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeServiceAttachment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -742,7 +766,7 @@ func (j *jsiiProxy_ComputeServiceAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
 func NewComputeServiceAttachment(scope constructs.Construct, id *string, config *ComputeServiceAttachmentConfig) ComputeServiceAttachment {
 	_init_.Initialize()
 
@@ -760,7 +784,7 @@ func NewComputeServiceAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
 func NewComputeServiceAttachment_Override(c ComputeServiceAttachment, scope constructs.Construct, id *string, config *ComputeServiceAttachmentConfig) {
 	_init_.Initialize()
 
@@ -811,6 +835,17 @@ func (j *jsiiProxy_ComputeServiceAttachment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeServiceAttachment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1391,6 +1426,14 @@ func (c *jsiiProxy_ComputeServiceAttachment) ResetConsumerRejectLists() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetConsumerRejectLists",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeServiceAttachment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

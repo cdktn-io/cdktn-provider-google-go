@@ -35,6 +35,8 @@ type CesDeploymentChannelProfileWebWidgetConfigOutputReference interface {
 	Modality() *string
 	SetModality(val *string)
 	ModalityInput() *string
+	SecuritySettings() CesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+	SecuritySettingsInput() *CesDeploymentChannelProfileWebWidgetConfigSecuritySettings
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,7 +75,9 @@ type CesDeploymentChannelProfileWebWidgetConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSecuritySettings(value *CesDeploymentChannelProfileWebWidgetConfigSecuritySettings)
 	ResetModality()
+	ResetSecuritySettings()
 	ResetTheme()
 	ResetWebWidgetTitle()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) Mo
 	_jsii_.Get(
 		j,
 		"modalityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) SecuritySettings() CesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference {
+	var returns CesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+	_jsii_.Get(
+		j,
+		"securitySettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) SecuritySettingsInput() *CesDeploymentChannelProfileWebWidgetConfigSecuritySettings {
+	var returns *CesDeploymentChannelProfileWebWidgetConfigSecuritySettings
+	_jsii_.Get(
+		j,
+		"securitySettingsInput",
 		&returns,
 	)
 	return returns
@@ -523,10 +547,29 @@ func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) In
 	return returns
 }
 
+func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) PutSecuritySettings(value *CesDeploymentChannelProfileWebWidgetConfigSecuritySettings) {
+	if err := c.validatePutSecuritySettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSecuritySettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) ResetModality() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetModality",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) ResetSecuritySettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSecuritySettings",
 		nil, // no parameters
 	)
 }

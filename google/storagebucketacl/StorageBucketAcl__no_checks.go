@@ -107,6 +107,10 @@ func (j *jsiiProxy_StorageBucketAcl) validateSetDefaultAclParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_StorageBucketAcl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageBucketAcl) validateSetIdParameters(val *string) error {
 	return nil
 }

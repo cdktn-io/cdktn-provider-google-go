@@ -131,6 +131,10 @@ func (j *jsiiProxy_ContactCenterInsightsQaQuestion) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_ContactCenterInsightsQaQuestion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContactCenterInsightsQaQuestion) validateSetIdParameters(val *string) error {
 	return nil
 }

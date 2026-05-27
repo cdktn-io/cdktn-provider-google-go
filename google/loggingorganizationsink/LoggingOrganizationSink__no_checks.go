@@ -107,6 +107,10 @@ func (j *jsiiProxy_LoggingOrganizationSink) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_LoggingOrganizationSink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingOrganizationSink) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

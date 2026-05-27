@@ -103,6 +103,10 @@ func (j *jsiiProxy_EndpointsService) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_EndpointsService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EndpointsService) validateSetGrpcConfigParameters(val *string) error {
 	return nil
 }

@@ -381,6 +381,14 @@ func (j *jsiiProxy_DialogflowCxTool) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowCxTool) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowCxTool) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

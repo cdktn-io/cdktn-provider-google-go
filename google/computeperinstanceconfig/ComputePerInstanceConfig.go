@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_per_instance_config google_compute_per_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_per_instance_config google_compute_per_instance_config}.
 type ComputePerInstanceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputePerInstanceConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type ComputePerInstanceConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPreservedState(value *ComputePerInstanceConfigPreservedState)
 	PutTimeouts(value *ComputePerInstanceConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMinimalAction()
 	ResetMostDisruptiveAllowedAction()
@@ -211,6 +215,26 @@ func (j *jsiiProxy_ComputePerInstanceConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePerInstanceConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePerInstanceConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -557,7 +581,7 @@ func (j *jsiiProxy_ComputePerInstanceConfig) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_per_instance_config google_compute_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_per_instance_config google_compute_per_instance_config} Resource.
 func NewComputePerInstanceConfig(scope constructs.Construct, id *string, config *ComputePerInstanceConfigConfig) ComputePerInstanceConfig {
 	_init_.Initialize()
 
@@ -575,7 +599,7 @@ func NewComputePerInstanceConfig(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_per_instance_config google_compute_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_per_instance_config google_compute_per_instance_config} Resource.
 func NewComputePerInstanceConfig_Override(c ComputePerInstanceConfig, scope constructs.Construct, id *string, config *ComputePerInstanceConfigConfig) {
 	_init_.Initialize()
 
@@ -604,6 +628,17 @@ func (j *jsiiProxy_ComputePerInstanceConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputePerInstanceConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1125,6 +1160,14 @@ func (c *jsiiProxy_ComputePerInstanceConfig) PutTimeouts(value *ComputePerInstan
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputePerInstanceConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

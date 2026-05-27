@@ -103,6 +103,10 @@ func (j *jsiiProxy_GeminiReleaseChannelSetting) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GeminiReleaseChannelSetting) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiReleaseChannelSetting) validateSetIdParameters(val *string) error {
 	return nil
 }

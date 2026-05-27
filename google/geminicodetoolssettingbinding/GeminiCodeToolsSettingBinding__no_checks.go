@@ -107,6 +107,10 @@ func (j *jsiiProxy_GeminiCodeToolsSettingBinding) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GeminiCodeToolsSettingBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiCodeToolsSettingBinding) validateSetIdParameters(val *string) error {
 	return nil
 }

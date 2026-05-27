@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
 type OracleDatabaseExascaleDbStorageVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type OracleDatabaseExascaleDbStorageVault interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -139,6 +142,7 @@ type OracleDatabaseExascaleDbStorageVault interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProperties(value *OracleDatabaseExascaleDbStorageVaultProperties)
 	PutTimeouts(value *OracleDatabaseExascaleDbStorageVaultTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetGcpOracleZone()
 	ResetId()
@@ -220,6 +224,26 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -586,7 +610,7 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *string, config *OracleDatabaseExascaleDbStorageVaultConfig) OracleDatabaseExascaleDbStorageVault {
 	_init_.Initialize()
 
@@ -604,7 +628,7 @@ func NewOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewOracleDatabaseExascaleDbStorageVault_Override(o OracleDatabaseExascaleDbStorageVault, scope constructs.Construct, id *string, config *OracleDatabaseExascaleDbStorageVaultConfig) {
 	_init_.Initialize()
 
@@ -633,6 +657,17 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1143,6 +1178,14 @@ func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) PutTimeouts(value *Orac
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

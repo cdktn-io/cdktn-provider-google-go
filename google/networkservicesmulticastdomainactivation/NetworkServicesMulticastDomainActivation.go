@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation}.
 type NetworkServicesMulticastDomainActivation interface {
 	cdktn.TerraformResource
 	AdminNetwork() *string
@@ -29,6 +29,9 @@ type NetworkServicesMulticastDomainActivation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type NetworkServicesMulticastDomainActivation interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkServicesMulticastDomainActivationTimeouts)
 	PutTrafficSpec(value *NetworkServicesMulticastDomainActivationTrafficSpec)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisablePlacementPolicy()
 	ResetId()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) CreateTime() *strin
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -620,7 +644,7 @@ func (j *jsiiProxy_NetworkServicesMulticastDomainActivation) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
 func NewNetworkServicesMulticastDomainActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastDomainActivationConfig) NetworkServicesMulticastDomainActivation {
 	_init_.Initialize()
 
@@ -638,7 +662,7 @@ func NewNetworkServicesMulticastDomainActivation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
 func NewNetworkServicesMulticastDomainActivation_Override(n NetworkServicesMulticastDomainActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastDomainActivationConfig) {
 	_init_.Initialize()
 
@@ -667,6 +691,17 @@ func (j *jsiiProxy_NetworkServicesMulticastDomainActivation)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesMulticastDomainActivation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1177,6 +1212,14 @@ func (n *jsiiProxy_NetworkServicesMulticastDomainActivation) PutTrafficSpec(valu
 		n,
 		"putTrafficSpec",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastDomainActivation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

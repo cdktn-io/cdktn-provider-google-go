@@ -111,6 +111,10 @@ func (j *jsiiProxy_OrganizationAccessApprovalSettings) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_OrganizationAccessApprovalSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrganizationAccessApprovalSettings) validateSetIdParameters(val *string) error {
 	return nil
 }

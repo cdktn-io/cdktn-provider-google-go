@@ -115,6 +115,10 @@ func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiIndexEndpointDeployedIndex) validateSetDeployedIndexIdParameters(val *string) error {
 	return nil
 }

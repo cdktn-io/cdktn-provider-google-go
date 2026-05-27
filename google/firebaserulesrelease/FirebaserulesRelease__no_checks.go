@@ -103,6 +103,10 @@ func (j *jsiiProxy_FirebaserulesRelease) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_FirebaserulesRelease) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirebaserulesRelease) validateSetIdParameters(val *string) error {
 	return nil
 }

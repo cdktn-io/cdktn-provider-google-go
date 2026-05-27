@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association}.
 type NetworkSecurityMirroringEndpointGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkSecurityMirroringEndpointGroupAssociation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type NetworkSecurityMirroringEndpointGroupAssociation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityMirroringEndpointGroupAssociationTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetMirroringEndpointGroupAssociationId()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation) CreateTime(
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -583,7 +607,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation) UpdateTime(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
 func NewNetworkSecurityMirroringEndpointGroupAssociation(scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointGroupAssociationConfig) NetworkSecurityMirroringEndpointGroupAssociation {
 	_init_.Initialize()
 
@@ -601,7 +625,7 @@ func NewNetworkSecurityMirroringEndpointGroupAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
 func NewNetworkSecurityMirroringEndpointGroupAssociation_Override(n NetworkSecurityMirroringEndpointGroupAssociation, scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointGroupAssociationConfig) {
 	_init_.Initialize()
 
@@ -630,6 +654,17 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation)SetCount(val
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1118,6 +1153,14 @@ func (n *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation) PutTimeouts
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityMirroringEndpointGroupAssociation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

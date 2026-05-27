@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application}.
 type DataprocGdcSparkApplication interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type DataprocGdcSparkApplication interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DependencyImages() *[]*string
 	SetDependencyImages(val *[]*string)
 	DependencyImagesInput() *[]*string
@@ -172,6 +175,7 @@ type DataprocGdcSparkApplication interface {
 	PutTimeouts(value *DataprocGdcSparkApplicationTimeouts)
 	ResetAnnotations()
 	ResetApplicationEnvironment()
+	ResetDeletionPolicy()
 	ResetDependencyImages()
 	ResetDisplayName()
 	ResetId()
@@ -300,6 +304,26 @@ func (j *jsiiProxy_DataprocGdcSparkApplication) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocGdcSparkApplication) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocGdcSparkApplication) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -856,7 +880,7 @@ func (j *jsiiProxy_DataprocGdcSparkApplication) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
 func NewDataprocGdcSparkApplication(scope constructs.Construct, id *string, config *DataprocGdcSparkApplicationConfig) DataprocGdcSparkApplication {
 	_init_.Initialize()
 
@@ -874,7 +898,7 @@ func NewDataprocGdcSparkApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
 func NewDataprocGdcSparkApplication_Override(d DataprocGdcSparkApplication, scope constructs.Construct, id *string, config *DataprocGdcSparkApplicationConfig) {
 	_init_.Initialize()
 
@@ -925,6 +949,17 @@ func (j *jsiiProxy_DataprocGdcSparkApplication)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocGdcSparkApplication)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1516,6 +1551,14 @@ func (d *jsiiProxy_DataprocGdcSparkApplication) ResetApplicationEnvironment() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetApplicationEnvironment",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocGdcSparkApplication) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

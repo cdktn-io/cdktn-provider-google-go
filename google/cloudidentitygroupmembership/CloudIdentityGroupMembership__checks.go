@@ -410,6 +410,14 @@ func (j *jsiiProxy_CloudIdentityGroupMembership) validateSetCreateIgnoreAlreadyE
 	return nil
 }
 
+func (j *jsiiProxy_CloudIdentityGroupMembership) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_CloudIdentityGroupMembership) validateSetGroupParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

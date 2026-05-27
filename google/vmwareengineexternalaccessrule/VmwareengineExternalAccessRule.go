@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
 type VmwareengineExternalAccessRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -31,6 +31,9 @@ type VmwareengineExternalAccessRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type VmwareengineExternalAccessRule interface {
 	PutDestinationIpRanges(value interface{})
 	PutSourceIpRanges(value interface{})
 	PutTimeouts(value *VmwareengineExternalAccessRuleTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -242,6 +246,26 @@ func (j *jsiiProxy_VmwareengineExternalAccessRule) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineExternalAccessRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VmwareengineExternalAccessRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -618,7 +642,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewVmwareengineExternalAccessRule(scope constructs.Construct, id *string, config *VmwareengineExternalAccessRuleConfig) VmwareengineExternalAccessRule {
 	_init_.Initialize()
 
@@ -636,7 +660,7 @@ func NewVmwareengineExternalAccessRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewVmwareengineExternalAccessRule_Override(v VmwareengineExternalAccessRule, scope constructs.Construct, id *string, config *VmwareengineExternalAccessRuleConfig) {
 	_init_.Initialize()
 
@@ -676,6 +700,17 @@ func (j *jsiiProxy_VmwareengineExternalAccessRule)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VmwareengineExternalAccessRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1197,6 +1232,14 @@ func (v *jsiiProxy_VmwareengineExternalAccessRule) PutTimeouts(value *Vmwareengi
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VmwareengineExternalAccessRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

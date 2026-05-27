@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_gateway google_network_services_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_gateway google_network_services_gateway}.
 type NetworkServicesGateway interface {
 	cdktn.TerraformResource
 	Addresses() *[]*string
@@ -40,6 +40,9 @@ type NetworkServicesGateway interface {
 	DeleteSwgAutogenRouterOnDestroy() interface{}
 	SetDeleteSwgAutogenRouterOnDestroy(val interface{})
 	DeleteSwgAutogenRouterOnDestroyInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -176,6 +179,7 @@ type NetworkServicesGateway interface {
 	ResetAllPorts()
 	ResetCertificateUrls()
 	ResetDeleteSwgAutogenRouterOnDestroy()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnvoyHeaders()
 	ResetGatewaySecurityPolicy()
@@ -346,6 +350,26 @@ func (j *jsiiProxy_NetworkServicesGateway) DeleteSwgAutogenRouterOnDestroyInput(
 	_jsii_.Get(
 		j,
 		"deleteSwgAutogenRouterOnDestroyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGateway) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGateway) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -852,7 +876,7 @@ func (j *jsiiProxy_NetworkServicesGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
 func NewNetworkServicesGateway(scope constructs.Construct, id *string, config *NetworkServicesGatewayConfig) NetworkServicesGateway {
 	_init_.Initialize()
 
@@ -870,7 +894,7 @@ func NewNetworkServicesGateway(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_gateway google_network_services_gateway} Resource.
 func NewNetworkServicesGateway_Override(n NetworkServicesGateway, scope constructs.Construct, id *string, config *NetworkServicesGatewayConfig) {
 	_init_.Initialize()
 
@@ -943,6 +967,17 @@ func (j *jsiiProxy_NetworkServicesGateway)SetDeleteSwgAutogenRouterOnDestroy(val
 	_jsii_.Set(
 		j,
 		"deleteSwgAutogenRouterOnDestroy",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesGateway)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1561,6 +1596,14 @@ func (n *jsiiProxy_NetworkServicesGateway) ResetDeleteSwgAutogenRouterOnDestroy(
 	_jsii_.InvokeVoid(
 		n,
 		"resetDeleteSwgAutogenRouterOnDestroy",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesGateway) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_VmwareengineDatastore) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_VmwareengineDatastore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VmwareengineDatastore) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

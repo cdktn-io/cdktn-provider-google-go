@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComputeGlobalForwardingRule) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_ComputeGlobalForwardingRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeGlobalForwardingRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

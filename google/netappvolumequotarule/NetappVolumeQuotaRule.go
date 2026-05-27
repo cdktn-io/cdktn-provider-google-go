@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_volume_quota_rule google_netapp_volume_quota_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_volume_quota_rule google_netapp_volume_quota_rule}.
 type NetappVolumeQuotaRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetappVolumeQuotaRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type NetappVolumeQuotaRule interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetappVolumeQuotaRuleTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -224,6 +228,26 @@ func (j *jsiiProxy_NetappVolumeQuotaRule) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeQuotaRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeQuotaRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -610,7 +634,7 @@ func (j *jsiiProxy_NetappVolumeQuotaRule) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
 func NewNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *NetappVolumeQuotaRuleConfig) NetappVolumeQuotaRule {
 	_init_.Initialize()
 
@@ -628,7 +652,7 @@ func NewNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
 func NewNetappVolumeQuotaRule_Override(n NetappVolumeQuotaRule, scope constructs.Construct, id *string, config *NetappVolumeQuotaRuleConfig) {
 	_init_.Initialize()
 
@@ -657,6 +681,17 @@ func (j *jsiiProxy_NetappVolumeQuotaRule)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeQuotaRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1178,6 +1213,14 @@ func (n *jsiiProxy_NetappVolumeQuotaRule) PutTimeouts(value *NetappVolumeQuotaRu
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeQuotaRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

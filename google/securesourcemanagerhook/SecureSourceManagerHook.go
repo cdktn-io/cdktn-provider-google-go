@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook}.
 type SecureSourceManagerHook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type SecureSourceManagerHook interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type SecureSourceManagerHook interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPushOption(value *SecureSourceManagerHookPushOption)
 	PutTimeouts(value *SecureSourceManagerHookTimeouts)
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetEvents()
 	ResetId()
@@ -223,6 +227,26 @@ func (j *jsiiProxy_SecureSourceManagerHook) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerHook) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerHook) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -599,7 +623,7 @@ func (j *jsiiProxy_SecureSourceManagerHook) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewSecureSourceManagerHook(scope constructs.Construct, id *string, config *SecureSourceManagerHookConfig) SecureSourceManagerHook {
 	_init_.Initialize()
 
@@ -617,7 +641,7 @@ func NewSecureSourceManagerHook(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewSecureSourceManagerHook_Override(s SecureSourceManagerHook, scope constructs.Construct, id *string, config *SecureSourceManagerHookConfig) {
 	_init_.Initialize()
 
@@ -646,6 +670,17 @@ func (j *jsiiProxy_SecureSourceManagerHook)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecureSourceManagerHook)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1167,6 +1202,14 @@ func (s *jsiiProxy_SecureSourceManagerHook) PutTimeouts(value *SecureSourceManag
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecureSourceManagerHook) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

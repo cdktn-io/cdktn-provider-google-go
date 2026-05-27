@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parameter_manager_regional_parameter_version google_parameter_manager_regional_parameter_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_regional_parameter_version google_parameter_manager_regional_parameter_version}.
 type ParameterManagerRegionalParameterVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ParameterManagerRegionalParameterVersion interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type ParameterManagerRegionalParameterVersion interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ParameterManagerRegionalParameterVersionTimeouts)
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -205,6 +209,26 @@ func (j *jsiiProxy_ParameterManagerRegionalParameterVersion) CreateTime() *strin
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerRegionalParameterVersion) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerRegionalParameterVersion) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -491,7 +515,7 @@ func (j *jsiiProxy_ParameterManagerRegionalParameterVersion) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parameter_manager_regional_parameter_version google_parameter_manager_regional_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_regional_parameter_version google_parameter_manager_regional_parameter_version} Resource.
 func NewParameterManagerRegionalParameterVersion(scope constructs.Construct, id *string, config *ParameterManagerRegionalParameterVersionConfig) ParameterManagerRegionalParameterVersion {
 	_init_.Initialize()
 
@@ -509,7 +533,7 @@ func NewParameterManagerRegionalParameterVersion(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parameter_manager_regional_parameter_version google_parameter_manager_regional_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_regional_parameter_version google_parameter_manager_regional_parameter_version} Resource.
 func NewParameterManagerRegionalParameterVersion_Override(p ParameterManagerRegionalParameterVersion, scope constructs.Construct, id *string, config *ParameterManagerRegionalParameterVersionConfig) {
 	_init_.Initialize()
 
@@ -538,6 +562,17 @@ func (j *jsiiProxy_ParameterManagerRegionalParameterVersion)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ParameterManagerRegionalParameterVersion)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1004,6 +1039,14 @@ func (p *jsiiProxy_ParameterManagerRegionalParameterVersion) PutTimeouts(value *
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_ParameterManagerRegionalParameterVersion) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -423,6 +423,14 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) validateSetEntitlementIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

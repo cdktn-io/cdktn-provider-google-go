@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket}.
 type ProjectUsageExportBucket interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -30,6 +30,9 @@ type ProjectUsageExportBucket interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -119,6 +122,7 @@ type ProjectUsageExportBucket interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ProjectUsageExportBucketTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -208,6 +212,26 @@ func (j *jsiiProxy_ProjectUsageExportBucket) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ProjectUsageExportBucket) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ProjectUsageExportBucket) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -414,7 +438,7 @@ func (j *jsiiProxy_ProjectUsageExportBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
 func NewProjectUsageExportBucket(scope constructs.Construct, id *string, config *ProjectUsageExportBucketConfig) ProjectUsageExportBucket {
 	_init_.Initialize()
 
@@ -432,7 +456,7 @@ func NewProjectUsageExportBucket(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
 func NewProjectUsageExportBucket_Override(p ProjectUsageExportBucket, scope constructs.Construct, id *string, config *ProjectUsageExportBucketConfig) {
 	_init_.Initialize()
 
@@ -472,6 +496,17 @@ func (j *jsiiProxy_ProjectUsageExportBucket)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ProjectUsageExportBucket)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -916,6 +951,14 @@ func (p *jsiiProxy_ProjectUsageExportBucket) PutTimeouts(value *ProjectUsageExpo
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_ProjectUsageExportBucket) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

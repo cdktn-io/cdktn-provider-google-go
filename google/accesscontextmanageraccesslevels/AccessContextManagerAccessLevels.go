@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_access_levels google_access_context_manager_access_levels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_access_levels google_access_context_manager_access_levels}.
 type AccessContextManagerAccessLevels interface {
 	cdktn.TerraformResource
 	AccessLevels() AccessContextManagerAccessLevelsAccessLevelsList
@@ -29,6 +29,9 @@ type AccessContextManagerAccessLevels interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -117,6 +120,7 @@ type AccessContextManagerAccessLevels interface {
 	PutAccessLevels(value interface{})
 	PutTimeouts(value *AccessContextManagerAccessLevelsTimeouts)
 	ResetAccessLevels()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_AccessContextManagerAccessLevels) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerAccessLevels) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerAccessLevels) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevels) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
 func NewAccessContextManagerAccessLevels(scope constructs.Construct, id *string, config *AccessContextManagerAccessLevelsConfig) AccessContextManagerAccessLevels {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewAccessContextManagerAccessLevels(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
 func NewAccessContextManagerAccessLevels_Override(a AccessContextManagerAccessLevels, scope constructs.Construct, id *string, config *AccessContextManagerAccessLevelsConfig) {
 	_init_.Initialize()
 
@@ -437,6 +461,17 @@ func (j *jsiiProxy_AccessContextManagerAccessLevels)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerAccessLevels)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -888,6 +923,14 @@ func (a *jsiiProxy_AccessContextManagerAccessLevels) ResetAccessLevels() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAccessLevels",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerAccessLevels) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

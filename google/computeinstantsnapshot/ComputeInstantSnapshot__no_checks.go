@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeInstantSnapshot) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstantSnapshot) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstantSnapshot) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

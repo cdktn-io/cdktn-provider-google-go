@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

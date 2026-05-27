@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

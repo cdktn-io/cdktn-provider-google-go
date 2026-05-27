@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkConnectivityHub) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityHub) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityHub) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

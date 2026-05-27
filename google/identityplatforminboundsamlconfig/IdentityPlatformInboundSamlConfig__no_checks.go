@@ -111,6 +111,10 @@ func (j *jsiiProxy_IdentityPlatformInboundSamlConfig) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_IdentityPlatformInboundSamlConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IdentityPlatformInboundSamlConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

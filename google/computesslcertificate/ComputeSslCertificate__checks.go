@@ -356,6 +356,14 @@ func (j *jsiiProxy_ComputeSslCertificate) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_ComputeSslCertificate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeSslCertificate) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

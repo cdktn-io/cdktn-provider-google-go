@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_group_membership google_compute_instance_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_group_membership google_compute_instance_group_membership}.
 type ComputeInstanceGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeInstanceGroupMembership interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type ComputeInstanceGroupMembership interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeInstanceGroupMembershipTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -191,6 +195,26 @@ func (j *jsiiProxy_ComputeInstanceGroupMembership) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceGroupMembership) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceGroupMembership) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -437,7 +461,7 @@ func (j *jsiiProxy_ComputeInstanceGroupMembership) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_group_membership google_compute_instance_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_group_membership google_compute_instance_group_membership} Resource.
 func NewComputeInstanceGroupMembership(scope constructs.Construct, id *string, config *ComputeInstanceGroupMembershipConfig) ComputeInstanceGroupMembership {
 	_init_.Initialize()
 
@@ -455,7 +479,7 @@ func NewComputeInstanceGroupMembership(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_group_membership google_compute_instance_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_group_membership google_compute_instance_group_membership} Resource.
 func NewComputeInstanceGroupMembership_Override(c ComputeInstanceGroupMembership, scope constructs.Construct, id *string, config *ComputeInstanceGroupMembershipConfig) {
 	_init_.Initialize()
 
@@ -484,6 +508,17 @@ func (j *jsiiProxy_ComputeInstanceGroupMembership)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceGroupMembership)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -950,6 +985,14 @@ func (c *jsiiProxy_ComputeInstanceGroupMembership) PutTimeouts(value *ComputeIns
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceGroupMembership) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

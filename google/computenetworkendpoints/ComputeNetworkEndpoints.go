@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_endpoints google_compute_network_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_endpoints google_compute_network_endpoints}.
 type ComputeNetworkEndpoints interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeNetworkEndpoints interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type ComputeNetworkEndpoints interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutNetworkEndpoints(value interface{})
 	PutTimeouts(value *ComputeNetworkEndpointsTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNetworkEndpoints()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -192,6 +196,26 @@ func (j *jsiiProxy_ComputeNetworkEndpoints) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkEndpoints) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkEndpoints) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -438,7 +462,7 @@ func (j *jsiiProxy_ComputeNetworkEndpoints) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_endpoints google_compute_network_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_endpoints google_compute_network_endpoints} Resource.
 func NewComputeNetworkEndpoints(scope constructs.Construct, id *string, config *ComputeNetworkEndpointsConfig) ComputeNetworkEndpoints {
 	_init_.Initialize()
 
@@ -456,7 +480,7 @@ func NewComputeNetworkEndpoints(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_endpoints google_compute_network_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_endpoints google_compute_network_endpoints} Resource.
 func NewComputeNetworkEndpoints_Override(c ComputeNetworkEndpoints, scope constructs.Construct, id *string, config *ComputeNetworkEndpointsConfig) {
 	_init_.Initialize()
 
@@ -485,6 +509,17 @@ func (j *jsiiProxy_ComputeNetworkEndpoints)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNetworkEndpoints)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -951,6 +986,14 @@ func (c *jsiiProxy_ComputeNetworkEndpoints) PutTimeouts(value *ComputeNetworkEnd
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkEndpoints) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
 type NetworkSecurityGatewaySecurityPolicyRule interface {
 	cdktn.TerraformResource
 	ApplicationMatcher() *string
@@ -34,6 +34,9 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type NetworkSecurityGatewaySecurityPolicyRule interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityGatewaySecurityPolicyRuleTimeouts)
 	ResetApplicationMatcher()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -267,6 +271,26 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) CreateTime() *strin
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -633,7 +657,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
 func NewNetworkSecurityGatewaySecurityPolicyRule(scope constructs.Construct, id *string, config *NetworkSecurityGatewaySecurityPolicyRuleConfig) NetworkSecurityGatewaySecurityPolicyRule {
 	_init_.Initialize()
 
@@ -651,7 +675,7 @@ func NewNetworkSecurityGatewaySecurityPolicyRule(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
 func NewNetworkSecurityGatewaySecurityPolicyRule_Override(n NetworkSecurityGatewaySecurityPolicyRule, scope constructs.Construct, id *string, config *NetworkSecurityGatewaySecurityPolicyRuleConfig) {
 	_init_.Initialize()
 
@@ -702,6 +726,17 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1230,6 +1265,14 @@ func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ResetApplicationMat
 	_jsii_.InvokeVoid(
 		n,
 		"resetApplicationMatcher",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityGatewaySecurityPolicyRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

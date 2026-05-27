@@ -123,6 +123,10 @@ func (j *jsiiProxy_PrivatecaCertificateAuthority) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_PrivatecaCertificateAuthority) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivatecaCertificateAuthority) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

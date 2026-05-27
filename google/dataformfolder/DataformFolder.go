@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_folder google_dataform_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataform_folder google_dataform_folder}.
 type DataformFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type DataformFolder interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type DataformFolder interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataformFolderTimeouts)
 	ResetContainingFolder()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -213,6 +217,26 @@ func (j *jsiiProxy_DataformFolder) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataformFolder) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataformFolder) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -459,7 +483,7 @@ func (j *jsiiProxy_DataformFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataform_folder google_dataform_folder} Resource.
 func NewDataformFolder(scope constructs.Construct, id *string, config *DataformFolderConfig) DataformFolder {
 	_init_.Initialize()
 
@@ -477,7 +501,7 @@ func NewDataformFolder(scope constructs.Construct, id *string, config *DataformF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataform_folder google_dataform_folder} Resource.
 func NewDataformFolder_Override(d DataformFolder, scope constructs.Construct, id *string, config *DataformFolderConfig) {
 	_init_.Initialize()
 
@@ -517,6 +541,17 @@ func (j *jsiiProxy_DataformFolder)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataformFolder)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -979,6 +1014,14 @@ func (d *jsiiProxy_DataformFolder) ResetContainingFolder() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetContainingFolder",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataformFolder) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

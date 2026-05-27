@@ -107,6 +107,10 @@ func (j *jsiiProxy_SccOrganizationCustomModule) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_SccOrganizationCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccOrganizationCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -147,6 +147,10 @@ func (j *jsiiProxy_CesApp) validateSetCountParameters(val interface{}) error {
 	return nil
 }
 
+func (j *jsiiProxy_CesApp) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesApp) validateSetDescriptionParameters(val *string) error {
 	return nil
 }
@@ -192,6 +196,10 @@ func (j *jsiiProxy_CesApp) validateSetProvisionersParameters(val *[]interface{})
 }
 
 func (j *jsiiProxy_CesApp) validateSetRootAgentParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesApp) validateSetToolExecutionModeParameters(val *string) error {
 	return nil
 }
 

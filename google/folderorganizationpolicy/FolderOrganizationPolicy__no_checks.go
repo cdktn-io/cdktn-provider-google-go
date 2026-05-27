@@ -119,6 +119,10 @@ func (j *jsiiProxy_FolderOrganizationPolicy) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_FolderOrganizationPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FolderOrganizationPolicy) validateSetFolderParameters(val *string) error {
 	return nil
 }

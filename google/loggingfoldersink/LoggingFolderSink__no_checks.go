@@ -107,6 +107,10 @@ func (j *jsiiProxy_LoggingFolderSink) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_LoggingFolderSink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingFolderSink) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -139,6 +139,10 @@ func (j *jsiiProxy_DialogflowConversationProfile) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowConversationProfile) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowConversationProfile) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

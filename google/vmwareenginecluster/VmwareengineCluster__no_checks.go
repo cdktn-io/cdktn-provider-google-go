@@ -115,6 +115,10 @@ func (j *jsiiProxy_VmwareengineCluster) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_VmwareengineCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VmwareengineCluster) validateSetIdParameters(val *string) error {
 	return nil
 }

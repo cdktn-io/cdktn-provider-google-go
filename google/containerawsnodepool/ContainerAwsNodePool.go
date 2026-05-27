@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_aws_node_pool google_container_aws_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_aws_node_pool google_container_aws_node_pool}.
 type ContainerAwsNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -38,6 +38,9 @@ type ContainerAwsNodePool interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -157,6 +160,7 @@ type ContainerAwsNodePool interface {
 	PutTimeouts(value *ContainerAwsNodePoolTimeouts)
 	PutUpdateSettings(value *ContainerAwsNodePoolUpdateSettings)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetKubeletConfig()
 	ResetManagement()
@@ -318,6 +322,26 @@ func (j *jsiiProxy_ContainerAwsNodePool) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAwsNodePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAwsNodePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -724,7 +748,7 @@ func (j *jsiiProxy_ContainerAwsNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_aws_node_pool google_container_aws_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_aws_node_pool google_container_aws_node_pool} Resource.
 func NewContainerAwsNodePool(scope constructs.Construct, id *string, config *ContainerAwsNodePoolConfig) ContainerAwsNodePool {
 	_init_.Initialize()
 
@@ -742,7 +766,7 @@ func NewContainerAwsNodePool(scope constructs.Construct, id *string, config *Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_aws_node_pool google_container_aws_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_aws_node_pool google_container_aws_node_pool} Resource.
 func NewContainerAwsNodePool_Override(c ContainerAwsNodePool, scope constructs.Construct, id *string, config *ContainerAwsNodePoolConfig) {
 	_init_.Initialize()
 
@@ -793,6 +817,17 @@ func (j *jsiiProxy_ContainerAwsNodePool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerAwsNodePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1343,6 +1378,14 @@ func (c *jsiiProxy_ContainerAwsNodePool) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerAwsNodePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) validateSetCountPa
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) validateSetHuggingFaceModelIdParameters(val *string) error {
 	return nil
 }

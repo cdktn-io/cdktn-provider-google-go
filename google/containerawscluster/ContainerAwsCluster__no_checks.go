@@ -131,6 +131,10 @@ func (j *jsiiProxy_ContainerAwsCluster) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAwsCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAwsCluster) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

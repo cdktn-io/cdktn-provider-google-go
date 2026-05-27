@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store}.
 type VertexAiFeatureOnlineStore interface {
 	cdktn.TerraformResource
 	Bigtable() VertexAiFeatureOnlineStoreBigtableOutputReference
@@ -32,6 +32,9 @@ type VertexAiFeatureOnlineStore interface {
 	CreateTime() *string
 	DedicatedServingEndpoint() VertexAiFeatureOnlineStoreDedicatedServingEndpointOutputReference
 	DedicatedServingEndpointInput() *VertexAiFeatureOnlineStoreDedicatedServingEndpoint
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type VertexAiFeatureOnlineStore interface {
 	PutTimeouts(value *VertexAiFeatureOnlineStoreTimeouts)
 	ResetBigtable()
 	ResetDedicatedServingEndpoint()
+	ResetDeletionPolicy()
 	ResetEncryptionSpec()
 	ResetForceDestroy()
 	ResetId()
@@ -268,6 +272,26 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) DedicatedServingEndpointInput() *
 	_jsii_.Get(
 		j,
 		"dedicatedServingEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -624,7 +648,7 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
 func NewVertexAiFeatureOnlineStore(scope constructs.Construct, id *string, config *VertexAiFeatureOnlineStoreConfig) VertexAiFeatureOnlineStore {
 	_init_.Initialize()
 
@@ -642,7 +666,7 @@ func NewVertexAiFeatureOnlineStore(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
 func NewVertexAiFeatureOnlineStore_Override(v VertexAiFeatureOnlineStore, scope constructs.Construct, id *string, config *VertexAiFeatureOnlineStoreConfig) {
 	_init_.Initialize()
 
@@ -671,6 +695,17 @@ func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiFeatureOnlineStore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1207,6 +1242,14 @@ func (v *jsiiProxy_VertexAiFeatureOnlineStore) ResetDedicatedServingEndpoint() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetDedicatedServingEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiFeatureOnlineStore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

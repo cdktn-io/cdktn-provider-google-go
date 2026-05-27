@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_runtime google_notebooks_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_runtime google_notebooks_runtime}.
 type NotebooksRuntime interface {
 	cdktn.TerraformResource
 	AccessConfig() NotebooksRuntimeAccessConfigOutputReference
@@ -29,6 +29,9 @@ type NotebooksRuntime interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type NotebooksRuntime interface {
 	PutTimeouts(value *NotebooksRuntimeTimeouts)
 	PutVirtualMachine(value *NotebooksRuntimeVirtualMachine)
 	ResetAccessConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_NotebooksRuntime) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NotebooksRuntime) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NotebooksRuntime) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -564,7 +588,7 @@ func (j *jsiiProxy_NotebooksRuntime) VirtualMachineInput() *NotebooksRuntimeVirt
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_runtime google_notebooks_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_runtime google_notebooks_runtime} Resource.
 func NewNotebooksRuntime(scope constructs.Construct, id *string, config *NotebooksRuntimeConfig) NotebooksRuntime {
 	_init_.Initialize()
 
@@ -582,7 +606,7 @@ func NewNotebooksRuntime(scope constructs.Construct, id *string, config *Noteboo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_runtime google_notebooks_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_runtime google_notebooks_runtime} Resource.
 func NewNotebooksRuntime_Override(n NotebooksRuntime, scope constructs.Construct, id *string, config *NotebooksRuntimeConfig) {
 	_init_.Initialize()
 
@@ -611,6 +635,17 @@ func (j *jsiiProxy_NotebooksRuntime)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NotebooksRuntime)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1117,6 +1152,14 @@ func (n *jsiiProxy_NotebooksRuntime) ResetAccessConfig() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetAccessConfig",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NotebooksRuntime) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

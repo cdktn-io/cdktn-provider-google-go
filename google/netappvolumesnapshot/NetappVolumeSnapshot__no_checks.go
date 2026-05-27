@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetappVolumeSnapshot) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolumeSnapshot) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolumeSnapshot) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

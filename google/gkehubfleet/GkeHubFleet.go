@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_fleet google_gke_hub_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_fleet google_gke_hub_fleet}.
 type GkeHubFleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GkeHubFleet interface {
 	DefaultClusterConfig() GkeHubFleetDefaultClusterConfigOutputReference
 	DefaultClusterConfigInput() *GkeHubFleetDefaultClusterConfig
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type GkeHubFleet interface {
 	PutDefaultClusterConfig(value *GkeHubFleetDefaultClusterConfig)
 	PutTimeouts(value *GkeHubFleetTimeouts)
 	ResetDefaultClusterConfig()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -234,6 +238,26 @@ func (j *jsiiProxy_GkeHubFleet) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubFleet) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubFleet) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -470,7 +494,7 @@ func (j *jsiiProxy_GkeHubFleet) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGkeHubFleet(scope constructs.Construct, id *string, config *GkeHubFleetConfig) GkeHubFleet {
 	_init_.Initialize()
 
@@ -488,7 +512,7 @@ func NewGkeHubFleet(scope constructs.Construct, id *string, config *GkeHubFleetC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGkeHubFleet_Override(g GkeHubFleet, scope constructs.Construct, id *string, config *GkeHubFleetConfig) {
 	_init_.Initialize()
 
@@ -517,6 +541,17 @@ func (j *jsiiProxy_GkeHubFleet)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeHubFleet)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -979,6 +1014,14 @@ func (g *jsiiProxy_GkeHubFleet) ResetDefaultClusterConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultClusterConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GkeHubFleet) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

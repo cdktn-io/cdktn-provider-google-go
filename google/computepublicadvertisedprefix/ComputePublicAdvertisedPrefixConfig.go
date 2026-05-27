@@ -24,7 +24,7 @@ type ComputePublicAdvertisedPrefixConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The address range, in CIDR format, represented by this public advertised prefix.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#ip_cidr_range ComputePublicAdvertisedPrefix#ip_cidr_range}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#ip_cidr_range ComputePublicAdvertisedPrefix#ip_cidr_range}
 	IpCidrRange *string `field:"required" json:"ipCidrRange" yaml:"ipCidrRange"`
 	// Name of the resource.
 	//
@@ -35,17 +35,29 @@ type ComputePublicAdvertisedPrefixConfig struct {
 	// following characters must be a dash, lowercase letter, or digit,
 	// except the last character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#name ComputePublicAdvertisedPrefix#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#name ComputePublicAdvertisedPrefix#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#deletion_policy ComputePublicAdvertisedPrefix#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#description ComputePublicAdvertisedPrefix#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#description ComputePublicAdvertisedPrefix#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The IPv4 address to be used for reverse DNS verification.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#dns_verification_ip ComputePublicAdvertisedPrefix#dns_verification_ip}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#dns_verification_ip ComputePublicAdvertisedPrefix#dns_verification_ip}
 	DnsVerificationIp *string `field:"optional" json:"dnsVerificationIp" yaml:"dnsVerificationIp"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#id ComputePublicAdvertisedPrefix#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#id ComputePublicAdvertisedPrefix#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +72,7 @@ type ComputePublicAdvertisedPrefixConfig struct {
 	//   be used privately within Google Cloud. All children PDPs will have
 	//   access type as INTERNAL. Possible values: ["EXTERNAL", "INTERNAL"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#ipv6_access_type ComputePublicAdvertisedPrefix#ipv6_access_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#ipv6_access_type ComputePublicAdvertisedPrefix#ipv6_access_type}
 	Ipv6AccessType *string `field:"optional" json:"ipv6AccessType" yaml:"ipv6AccessType"`
 	// Specifies how child public delegated prefix will be scoped.
 	//
@@ -71,13 +83,13 @@ type ComputePublicAdvertisedPrefixConfig struct {
 	// * GLOBAL: The public delegated prefix is global only. The provisioning
 	// will take ~4 weeks. Possible values: ["GLOBAL", "REGIONAL"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#pdp_scope ComputePublicAdvertisedPrefix#pdp_scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#pdp_scope ComputePublicAdvertisedPrefix#pdp_scope}
 	PdpScope *string `field:"optional" json:"pdpScope" yaml:"pdpScope"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#project ComputePublicAdvertisedPrefix#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#project ComputePublicAdvertisedPrefix#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_advertised_prefix#timeouts ComputePublicAdvertisedPrefix#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_advertised_prefix#timeouts ComputePublicAdvertisedPrefix#timeouts}
 	Timeouts *ComputePublicAdvertisedPrefixTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

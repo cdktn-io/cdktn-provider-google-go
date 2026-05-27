@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComputeVpnTunnel) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_ComputeVpnTunnel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeVpnTunnel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

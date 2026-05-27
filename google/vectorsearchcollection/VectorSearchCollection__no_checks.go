@@ -119,6 +119,10 @@ func (j *jsiiProxy_VectorSearchCollection) validateSetDataSchemaParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_VectorSearchCollection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VectorSearchCollection) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

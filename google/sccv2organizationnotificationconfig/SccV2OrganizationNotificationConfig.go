@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_organization_notification_config google_scc_v2_organization_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_organization_notification_config google_scc_v2_organization_notification_config}.
 type SccV2OrganizationNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type SccV2OrganizationNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type SccV2OrganizationNotificationConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutStreamingConfig(value *SccV2OrganizationNotificationConfigStreamingConfig)
 	PutTimeouts(value *SccV2OrganizationNotificationConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLocation()
@@ -219,6 +223,26 @@ func (j *jsiiProxy_SccV2OrganizationNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2OrganizationNotificationConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2OrganizationNotificationConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +529,7 @@ func (j *jsiiProxy_SccV2OrganizationNotificationConfig) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
 func NewSccV2OrganizationNotificationConfig(scope constructs.Construct, id *string, config *SccV2OrganizationNotificationConfigConfig) SccV2OrganizationNotificationConfig {
 	_init_.Initialize()
 
@@ -523,7 +547,7 @@ func NewSccV2OrganizationNotificationConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
 func NewSccV2OrganizationNotificationConfig_Override(s SccV2OrganizationNotificationConfig, scope constructs.Construct, id *string, config *SccV2OrganizationNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_SccV2OrganizationNotificationConfig)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccV2OrganizationNotificationConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1040,6 +1075,14 @@ func (s *jsiiProxy_SccV2OrganizationNotificationConfig) PutTimeouts(value *SccV2
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccV2OrganizationNotificationConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

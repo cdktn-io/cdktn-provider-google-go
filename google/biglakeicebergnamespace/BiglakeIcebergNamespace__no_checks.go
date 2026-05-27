@@ -107,6 +107,10 @@ func (j *jsiiProxy_BiglakeIcebergNamespace) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_BiglakeIcebergNamespace) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BiglakeIcebergNamespace) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -119,6 +119,10 @@ func (j *jsiiProxy_MonitoringSlo) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringSlo) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringSlo) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

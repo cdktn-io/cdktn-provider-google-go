@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/migration_center_preference_set google_migration_center_preference_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/migration_center_preference_set google_migration_center_preference_set}.
 type MigrationCenterPreferenceSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type MigrationCenterPreferenceSet interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type MigrationCenterPreferenceSet interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *MigrationCenterPreferenceSetTimeouts)
 	PutVirtualMachinePreferences(value *MigrationCenterPreferenceSetVirtualMachinePreferences)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -212,6 +216,26 @@ func (j *jsiiProxy_MigrationCenterPreferenceSet) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MigrationCenterPreferenceSet) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MigrationCenterPreferenceSet) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_MigrationCenterPreferenceSet) VirtualMachinePreferencesInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
 func NewMigrationCenterPreferenceSet(scope constructs.Construct, id *string, config *MigrationCenterPreferenceSetConfig) MigrationCenterPreferenceSet {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewMigrationCenterPreferenceSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
 func NewMigrationCenterPreferenceSet_Override(m MigrationCenterPreferenceSet, scope constructs.Construct, id *string, config *MigrationCenterPreferenceSetConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_MigrationCenterPreferenceSet)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MigrationCenterPreferenceSet)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1053,6 +1088,14 @@ func (m *jsiiProxy_MigrationCenterPreferenceSet) PutVirtualMachinePreferences(va
 		m,
 		"putVirtualMachinePreferences",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MigrationCenterPreferenceSet) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

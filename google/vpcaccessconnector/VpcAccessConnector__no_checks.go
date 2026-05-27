@@ -107,6 +107,10 @@ func (j *jsiiProxy_VpcAccessConnector) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_VpcAccessConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VpcAccessConnector) validateSetIdParameters(val *string) error {
 	return nil
 }

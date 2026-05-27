@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy}.
 type NetworkServicesEndpointPolicy interface {
 	cdktn.TerraformResource
 	AuthorizationPolicy() *string
@@ -34,6 +34,9 @@ type NetworkServicesEndpointPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type NetworkServicesEndpointPolicy interface {
 	PutTrafficPortSelector(value *NetworkServicesEndpointPolicyTrafficPortSelector)
 	ResetAuthorizationPolicy()
 	ResetClientTlsPolicy()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -268,6 +272,26 @@ func (j *jsiiProxy_NetworkServicesEndpointPolicy) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesEndpointPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesEndpointPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -624,7 +648,7 @@ func (j *jsiiProxy_NetworkServicesEndpointPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
 func NewNetworkServicesEndpointPolicy(scope constructs.Construct, id *string, config *NetworkServicesEndpointPolicyConfig) NetworkServicesEndpointPolicy {
 	_init_.Initialize()
 
@@ -642,7 +666,7 @@ func NewNetworkServicesEndpointPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
 func NewNetworkServicesEndpointPolicy_Override(n NetworkServicesEndpointPolicy, scope constructs.Construct, id *string, config *NetworkServicesEndpointPolicyConfig) {
 	_init_.Initialize()
 
@@ -693,6 +717,17 @@ func (j *jsiiProxy_NetworkServicesEndpointPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesEndpointPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1218,6 +1253,14 @@ func (n *jsiiProxy_NetworkServicesEndpointPolicy) ResetClientTlsPolicy() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetClientTlsPolicy",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesEndpointPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

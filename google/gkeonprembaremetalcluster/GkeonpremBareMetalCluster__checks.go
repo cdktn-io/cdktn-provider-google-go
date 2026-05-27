@@ -515,6 +515,14 @@ func (j *jsiiProxy_GkeonpremBareMetalCluster) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GkeonpremBareMetalCluster) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GkeonpremBareMetalCluster) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

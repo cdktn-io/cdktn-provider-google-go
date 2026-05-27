@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_vpn_connection google_edgecontainer_vpn_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_vpn_connection google_edgecontainer_vpn_connection}.
 type EdgecontainerVpnConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type EdgecontainerVpnConnection interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type EdgecontainerVpnConnection interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *EdgecontainerVpnConnectionTimeouts)
 	PutVpcProject(value *EdgecontainerVpnConnectionVpcProject)
+	ResetDeletionPolicy()
 	ResetEnableHighAvailability()
 	ResetId()
 	ResetLabels()
@@ -249,6 +253,26 @@ func (j *jsiiProxy_EdgecontainerVpnConnection) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgecontainerVpnConnection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgecontainerVpnConnection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -635,7 +659,7 @@ func (j *jsiiProxy_EdgecontainerVpnConnection) VpcProjectInput() *EdgecontainerV
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
 func NewEdgecontainerVpnConnection(scope constructs.Construct, id *string, config *EdgecontainerVpnConnectionConfig) EdgecontainerVpnConnection {
 	_init_.Initialize()
 
@@ -653,7 +677,7 @@ func NewEdgecontainerVpnConnection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
 func NewEdgecontainerVpnConnection_Override(e EdgecontainerVpnConnection, scope constructs.Construct, id *string, config *EdgecontainerVpnConnectionConfig) {
 	_init_.Initialize()
 
@@ -693,6 +717,17 @@ func (j *jsiiProxy_EdgecontainerVpnConnection)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EdgecontainerVpnConnection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (e *jsiiProxy_EdgecontainerVpnConnection) PutVpcProject(value *Edgecontaine
 		e,
 		"putVpcProject",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EdgecontainerVpnConnection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

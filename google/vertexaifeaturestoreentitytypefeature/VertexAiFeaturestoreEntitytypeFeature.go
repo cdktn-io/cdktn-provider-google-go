@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature}.
 type VertexAiFeaturestoreEntitytypeFeature interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type VertexAiFeaturestoreEntitytypeFeature interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type VertexAiFeaturestoreEntitytypeFeature interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *VertexAiFeaturestoreEntitytypeFeatureTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -211,6 +215,26 @@ func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -527,7 +551,7 @@ func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) ValueTypeInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
 func NewVertexAiFeaturestoreEntitytypeFeature(scope constructs.Construct, id *string, config *VertexAiFeaturestoreEntitytypeFeatureConfig) VertexAiFeaturestoreEntitytypeFeature {
 	_init_.Initialize()
 
@@ -545,7 +569,7 @@ func NewVertexAiFeaturestoreEntitytypeFeature(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
 func NewVertexAiFeaturestoreEntitytypeFeature_Override(v VertexAiFeaturestoreEntitytypeFeature, scope constructs.Construct, id *string, config *VertexAiFeaturestoreEntitytypeFeatureConfig) {
 	_init_.Initialize()
 
@@ -574,6 +598,17 @@ func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature)SetCount(val interface{
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1051,6 +1086,14 @@ func (v *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) PutTimeouts(value *Ver
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

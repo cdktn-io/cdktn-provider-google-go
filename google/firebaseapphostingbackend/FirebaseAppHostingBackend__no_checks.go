@@ -119,6 +119,10 @@ func (j *jsiiProxy_FirebaseAppHostingBackend) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_FirebaseAppHostingBackend) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirebaseAppHostingBackend) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -301,6 +301,14 @@ func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) validateSetStabilizationPeriodParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config}.
 type StorageInsightsDatasetConfig interface {
 	cdktn.TerraformResource
 	ActivityDataRetentionPeriodDays() *float64
@@ -35,6 +35,9 @@ type StorageInsightsDatasetConfig interface {
 	SetDatasetConfigId(val *string)
 	DatasetConfigIdInput() *string
 	DatasetConfigState() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -168,6 +171,7 @@ type StorageInsightsDatasetConfig interface {
 	PutSourceProjects(value *StorageInsightsDatasetConfigSourceProjects)
 	PutTimeouts(value *StorageInsightsDatasetConfigTimeouts)
 	ResetActivityDataRetentionPeriodDays()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExcludeCloudStorageBuckets()
 	ResetExcludeCloudStorageLocations()
@@ -307,6 +311,26 @@ func (j *jsiiProxy_StorageInsightsDatasetConfig) DatasetConfigState() *string {
 	_jsii_.Get(
 		j,
 		"datasetConfigState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsDatasetConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsDatasetConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -813,7 +837,7 @@ func (j *jsiiProxy_StorageInsightsDatasetConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
 func NewStorageInsightsDatasetConfig(scope constructs.Construct, id *string, config *StorageInsightsDatasetConfigConfig) StorageInsightsDatasetConfig {
 	_init_.Initialize()
 
@@ -831,7 +855,7 @@ func NewStorageInsightsDatasetConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
 func NewStorageInsightsDatasetConfig_Override(s StorageInsightsDatasetConfig, scope constructs.Construct, id *string, config *StorageInsightsDatasetConfigConfig) {
 	_init_.Initialize()
 
@@ -882,6 +906,17 @@ func (j *jsiiProxy_StorageInsightsDatasetConfig)SetDatasetConfigId(val *string) 
 	_jsii_.Set(
 		j,
 		"datasetConfigId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageInsightsDatasetConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1476,6 +1511,14 @@ func (s *jsiiProxy_StorageInsightsDatasetConfig) ResetActivityDataRetentionPerio
 	_jsii_.InvokeVoid(
 		s,
 		"resetActivityDataRetentionPeriodDays",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageInsightsDatasetConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

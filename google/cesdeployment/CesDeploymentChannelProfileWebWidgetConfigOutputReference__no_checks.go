@@ -47,6 +47,10 @@ func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) va
 	return nil
 }
 
+func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) validatePutSecuritySettingsParameters(value *CesDeploymentChannelProfileWebWidgetConfigSecuritySettings) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesDeploymentChannelProfileWebWidgetConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

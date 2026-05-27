@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkServicesLbEdgeExtension) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesLbEdgeExtension) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesLbEdgeExtension) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

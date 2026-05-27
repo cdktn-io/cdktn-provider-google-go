@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy google_access_context_manager_service_perimeter_dry_run_ingress_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy google_access_context_manager_service_perimeter_dry_run_ingress_policy}.
 type AccessContextManagerServicePerimeterDryRunIngressPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -28,6 +28,9 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicy interface {
 	PutIngressFrom(value *AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFrom)
 	PutIngressTo(value *AccessContextManagerServicePerimeterDryRunIngressPolicyIngressTo)
 	PutTimeouts(value *AccessContextManagerServicePerimeterDryRunIngressPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIngressFrom()
 	ResetIngressTo()
@@ -204,6 +208,26 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) Coun
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -460,7 +484,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) Titl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy google_access_context_manager_service_perimeter_dry_run_ingress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy google_access_context_manager_service_perimeter_dry_run_ingress_policy} Resource.
 func NewAccessContextManagerServicePerimeterDryRunIngressPolicy(scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterDryRunIngressPolicyConfig) AccessContextManagerServicePerimeterDryRunIngressPolicy {
 	_init_.Initialize()
 
@@ -478,7 +502,7 @@ func NewAccessContextManagerServicePerimeterDryRunIngressPolicy(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy google_access_context_manager_service_perimeter_dry_run_ingress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy google_access_context_manager_service_perimeter_dry_run_ingress_policy} Resource.
 func NewAccessContextManagerServicePerimeterDryRunIngressPolicy_Override(a AccessContextManagerServicePerimeterDryRunIngressPolicy, scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterDryRunIngressPolicyConfig) {
 	_init_.Initialize()
 
@@ -507,6 +531,17 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy)SetCo
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -973,6 +1008,14 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) PutT
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

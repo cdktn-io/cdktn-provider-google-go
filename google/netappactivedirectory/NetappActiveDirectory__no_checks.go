@@ -115,6 +115,10 @@ func (j *jsiiProxy_NetappActiveDirectory) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_NetappActiveDirectory) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappActiveDirectory) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

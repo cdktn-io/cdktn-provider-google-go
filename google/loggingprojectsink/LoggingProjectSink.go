@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_project_sink google_logging_project_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_project_sink google_logging_project_sink}.
 type LoggingProjectSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() LoggingProjectSinkBigqueryOptionsOutputReference
@@ -32,6 +32,9 @@ type LoggingProjectSink interface {
 	CustomWriterIdentity() *string
 	SetCustomWriterIdentity(val *string)
 	CustomWriterIdentityInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type LoggingProjectSink interface {
 	PutExclusions(value interface{})
 	ResetBigqueryOptions()
 	ResetCustomWriterIdentity()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetExclusions()
@@ -252,6 +256,26 @@ func (j *jsiiProxy_LoggingProjectSink) CustomWriterIdentityInput() *string {
 	_jsii_.Get(
 		j,
 		"customWriterIdentityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingProjectSink) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingProjectSink) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -568,7 +592,7 @@ func (j *jsiiProxy_LoggingProjectSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
 func NewLoggingProjectSink(scope constructs.Construct, id *string, config *LoggingProjectSinkConfig) LoggingProjectSink {
 	_init_.Initialize()
 
@@ -586,7 +610,7 @@ func NewLoggingProjectSink(scope constructs.Construct, id *string, config *Loggi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_project_sink google_logging_project_sink} Resource.
 func NewLoggingProjectSink_Override(l LoggingProjectSink, scope constructs.Construct, id *string, config *LoggingProjectSinkConfig) {
 	_init_.Initialize()
 
@@ -626,6 +650,17 @@ func (j *jsiiProxy_LoggingProjectSink)SetCustomWriterIdentity(val *string) {
 	_jsii_.Set(
 		j,
 		"customWriterIdentity",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LoggingProjectSink)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1151,6 +1186,14 @@ func (l *jsiiProxy_LoggingProjectSink) ResetCustomWriterIdentity() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetCustomWriterIdentity",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LoggingProjectSink) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

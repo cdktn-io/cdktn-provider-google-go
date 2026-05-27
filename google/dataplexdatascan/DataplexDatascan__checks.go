@@ -433,6 +433,14 @@ func (j *jsiiProxy_DataplexDatascan) validateSetDataScanIdParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDatascan) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDatascan) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

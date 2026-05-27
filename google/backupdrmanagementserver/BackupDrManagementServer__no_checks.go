@@ -107,6 +107,10 @@ func (j *jsiiProxy_BackupDrManagementServer) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_BackupDrManagementServer) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BackupDrManagementServer) validateSetIdParameters(val *string) error {
 	return nil
 }

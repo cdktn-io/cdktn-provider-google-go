@@ -119,6 +119,10 @@ func (j *jsiiProxy_CloudbuildBitbucketServerConfig) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_CloudbuildBitbucketServerConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudbuildBitbucketServerConfig) validateSetHostUriParameters(val *string) error {
 	return nil
 }

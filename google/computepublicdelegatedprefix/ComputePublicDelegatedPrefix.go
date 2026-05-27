@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix}.
 type ComputePublicDelegatedPrefix interface {
 	cdktn.TerraformResource
 	AllocatablePrefixLength() *float64
@@ -30,6 +30,9 @@ type ComputePublicDelegatedPrefix interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type ComputePublicDelegatedPrefix interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputePublicDelegatedPrefixTimeouts)
 	ResetAllocatablePrefixLength()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIsLiveMigration()
@@ -233,6 +237,26 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePublicDelegatedPrefix) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePublicDelegatedPrefix) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -599,7 +623,7 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
 func NewComputePublicDelegatedPrefix(scope constructs.Construct, id *string, config *ComputePublicDelegatedPrefixConfig) ComputePublicDelegatedPrefix {
 	_init_.Initialize()
 
@@ -617,7 +641,7 @@ func NewComputePublicDelegatedPrefix(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_public_delegated_prefix google_compute_public_delegated_prefix} Resource.
 func NewComputePublicDelegatedPrefix_Override(c ComputePublicDelegatedPrefix, scope constructs.Construct, id *string, config *ComputePublicDelegatedPrefixConfig) {
 	_init_.Initialize()
 
@@ -657,6 +681,17 @@ func (j *jsiiProxy_ComputePublicDelegatedPrefix)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputePublicDelegatedPrefix)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1174,6 +1209,14 @@ func (c *jsiiProxy_ComputePublicDelegatedPrefix) ResetAllocatablePrefixLength() 
 	_jsii_.InvokeVoid(
 		c,
 		"resetAllocatablePrefixLength",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputePublicDelegatedPrefix) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeRouterRoutePolicy) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRouterRoutePolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRouterRoutePolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

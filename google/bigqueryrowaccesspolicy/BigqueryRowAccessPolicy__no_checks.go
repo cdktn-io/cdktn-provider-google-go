@@ -107,6 +107,10 @@ func (j *jsiiProxy_BigqueryRowAccessPolicy) validateSetDatasetIdParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryRowAccessPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryRowAccessPolicy) validateSetFilterPredicateParameters(val *string) error {
 	return nil
 }

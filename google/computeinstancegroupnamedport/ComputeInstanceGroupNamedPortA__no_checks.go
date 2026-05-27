@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeInstanceGroupNamedPortA) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceGroupNamedPortA) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceGroupNamedPortA) validateSetGroupParameters(val *string) error {
 	return nil
 }

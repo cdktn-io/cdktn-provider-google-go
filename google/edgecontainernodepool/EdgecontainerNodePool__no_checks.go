@@ -115,6 +115,10 @@ func (j *jsiiProxy_EdgecontainerNodePool) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_EdgecontainerNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EdgecontainerNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

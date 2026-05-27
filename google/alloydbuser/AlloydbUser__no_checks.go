@@ -111,6 +111,10 @@ func (j *jsiiProxy_AlloydbUser) validateSetDatabaseRolesParameters(val *[]*strin
 	return nil
 }
 
+func (j *jsiiProxy_AlloydbUser) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AlloydbUser) validateSetIdParameters(val *string) error {
 	return nil
 }

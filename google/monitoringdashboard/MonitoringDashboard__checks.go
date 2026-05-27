@@ -356,6 +356,14 @@ func (j *jsiiProxy_MonitoringDashboard) validateSetDashboardJsonParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringDashboard) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringDashboard) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -348,6 +348,14 @@ func (j *jsiiProxy_VmwareengineNetworkPeering) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_VmwareengineNetworkPeering) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VmwareengineNetworkPeering) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

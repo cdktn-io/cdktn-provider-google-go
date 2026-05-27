@@ -115,6 +115,10 @@ func (j *jsiiProxy_NotebooksRuntime) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_NotebooksRuntime) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NotebooksRuntime) validateSetIdParameters(val *string) error {
 	return nil
 }

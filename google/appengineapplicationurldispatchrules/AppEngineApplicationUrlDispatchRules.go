@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/app_engine_application_url_dispatch_rules google_app_engine_application_url_dispatch_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/app_engine_application_url_dispatch_rules google_app_engine_application_url_dispatch_rules}.
 type AppEngineApplicationUrlDispatchRules interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type AppEngineApplicationUrlDispatchRules interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type AppEngineApplicationUrlDispatchRules interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDispatchRules(value interface{})
 	PutTimeouts(value *AppEngineApplicationUrlDispatchRulesTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -184,6 +188,26 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/app_engine_application_url_dispatch_rules google_app_engine_application_url_dispatch_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/app_engine_application_url_dispatch_rules google_app_engine_application_url_dispatch_rules} Resource.
 func NewAppEngineApplicationUrlDispatchRules(scope constructs.Construct, id *string, config *AppEngineApplicationUrlDispatchRulesConfig) AppEngineApplicationUrlDispatchRules {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewAppEngineApplicationUrlDispatchRules(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/app_engine_application_url_dispatch_rules google_app_engine_application_url_dispatch_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/app_engine_application_url_dispatch_rules google_app_engine_application_url_dispatch_rules} Resource.
 func NewAppEngineApplicationUrlDispatchRules_Override(a AppEngineApplicationUrlDispatchRules, scope constructs.Construct, id *string, config *AppEngineApplicationUrlDispatchRulesConfig) {
 	_init_.Initialize()
 
@@ -437,6 +461,17 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -881,6 +916,14 @@ func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) PutTimeouts(value *AppE
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

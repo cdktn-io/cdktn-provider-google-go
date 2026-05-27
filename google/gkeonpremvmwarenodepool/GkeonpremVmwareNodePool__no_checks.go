@@ -115,6 +115,10 @@ func (j *jsiiProxy_GkeonpremVmwareNodePool) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GkeonpremVmwareNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeonpremVmwareNodePool) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

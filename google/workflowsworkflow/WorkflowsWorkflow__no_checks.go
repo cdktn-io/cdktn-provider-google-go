@@ -111,6 +111,10 @@ func (j *jsiiProxy_WorkflowsWorkflow) validateSetCryptoKeyNameParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_WorkflowsWorkflow) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WorkflowsWorkflow) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

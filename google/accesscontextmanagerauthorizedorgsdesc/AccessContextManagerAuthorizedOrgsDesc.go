@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
 type AccessContextManagerAuthorizedOrgsDesc interface {
 	cdktn.TerraformResource
 	AssetType() *string
@@ -37,6 +37,9 @@ type AccessContextManagerAuthorizedOrgsDesc interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type AccessContextManagerAuthorizedOrgsDesc interface {
 	ResetAssetType()
 	ResetAuthorizationDirection()
 	ResetAuthorizationType()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetOrgs()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -271,6 +275,26 @@ func (j *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc) CreateTime() *string 
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -507,7 +531,7 @@ func (j *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct, id *string, config *AccessContextManagerAuthorizedOrgsDescConfig) AccessContextManagerAuthorizedOrgsDesc {
 	_init_.Initialize()
 
@@ -525,7 +549,7 @@ func NewAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewAccessContextManagerAuthorizedOrgsDesc_Override(a AccessContextManagerAuthorizedOrgsDesc, scope constructs.Construct, id *string, config *AccessContextManagerAuthorizedOrgsDescConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc)SetCount(val interface
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1065,6 +1100,14 @@ func (a *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc) ResetAuthorizationTyp
 	_jsii_.InvokeVoid(
 		a,
 		"resetAuthorizationType",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerAuthorizedOrgsDesc) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

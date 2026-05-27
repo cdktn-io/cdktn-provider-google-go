@@ -107,6 +107,10 @@ func (j *jsiiProxy_ServiceDirectoryEndpoint) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_ServiceDirectoryEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ServiceDirectoryEndpoint) validateSetEndpointIdParameters(val *string) error {
 	return nil
 }

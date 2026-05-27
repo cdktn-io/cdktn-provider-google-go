@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComposerEnvironment) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_ComposerEnvironment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComposerEnvironment) validateSetIdParameters(val *string) error {
 	return nil
 }

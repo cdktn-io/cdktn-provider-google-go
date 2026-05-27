@@ -103,6 +103,10 @@ func (j *jsiiProxy_SccV2ProjectMuteConfig) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_SccV2ProjectMuteConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccV2ProjectMuteConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

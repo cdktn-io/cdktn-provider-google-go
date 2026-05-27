@@ -123,6 +123,10 @@ func (j *jsiiProxy_RecaptchaEnterpriseKey) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_RecaptchaEnterpriseKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_RecaptchaEnterpriseKey) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

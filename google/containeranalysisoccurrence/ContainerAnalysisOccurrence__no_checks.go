@@ -107,6 +107,10 @@ func (j *jsiiProxy_ContainerAnalysisOccurrence) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAnalysisOccurrence) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAnalysisOccurrence) validateSetIdParameters(val *string) error {
 	return nil
 }

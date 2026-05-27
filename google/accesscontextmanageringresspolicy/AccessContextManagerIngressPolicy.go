@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_ingress_policy google_access_context_manager_ingress_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_ingress_policy google_access_context_manager_ingress_policy}.
 type AccessContextManagerIngressPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -28,6 +28,9 @@ type AccessContextManagerIngressPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -117,6 +120,7 @@ type AccessContextManagerIngressPolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *AccessContextManagerIngressPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_AccessContextManagerIngressPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerIngressPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerIngressPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -400,7 +424,7 @@ func (j *jsiiProxy_AccessContextManagerIngressPolicy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_ingress_policy google_access_context_manager_ingress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_ingress_policy google_access_context_manager_ingress_policy} Resource.
 func NewAccessContextManagerIngressPolicy(scope constructs.Construct, id *string, config *AccessContextManagerIngressPolicyConfig) AccessContextManagerIngressPolicy {
 	_init_.Initialize()
 
@@ -418,7 +442,7 @@ func NewAccessContextManagerIngressPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_ingress_policy google_access_context_manager_ingress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_ingress_policy google_access_context_manager_ingress_policy} Resource.
 func NewAccessContextManagerIngressPolicy_Override(a AccessContextManagerIngressPolicy, scope constructs.Construct, id *string, config *AccessContextManagerIngressPolicyConfig) {
 	_init_.Initialize()
 
@@ -447,6 +471,17 @@ func (j *jsiiProxy_AccessContextManagerIngressPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerIngressPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -891,6 +926,14 @@ func (a *jsiiProxy_AccessContextManagerIngressPolicy) PutTimeouts(value *AccessC
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerIngressPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

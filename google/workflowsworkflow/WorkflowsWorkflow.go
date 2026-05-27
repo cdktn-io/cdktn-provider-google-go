@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workflows_workflow google_workflows_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/workflows_workflow google_workflows_workflow}.
 type WorkflowsWorkflow interface {
 	cdktn.TerraformResource
 	CallLogLevel() *string
@@ -34,6 +34,9 @@ type WorkflowsWorkflow interface {
 	CryptoKeyName() *string
 	SetCryptoKeyName(val *string)
 	CryptoKeyNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -160,6 +163,7 @@ type WorkflowsWorkflow interface {
 	PutTimeouts(value *WorkflowsWorkflowTimeouts)
 	ResetCallLogLevel()
 	ResetCryptoKeyName()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
 	ResetExecutionHistoryLevel()
@@ -289,6 +293,26 @@ func (j *jsiiProxy_WorkflowsWorkflow) CryptoKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkflowsWorkflow) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkflowsWorkflow) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -745,7 +769,7 @@ func (j *jsiiProxy_WorkflowsWorkflow) UserEnvVarsInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
 func NewWorkflowsWorkflow(scope constructs.Construct, id *string, config *WorkflowsWorkflowConfig) WorkflowsWorkflow {
 	_init_.Initialize()
 
@@ -763,7 +787,7 @@ func NewWorkflowsWorkflow(scope constructs.Construct, id *string, config *Workfl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
 func NewWorkflowsWorkflow_Override(w WorkflowsWorkflow, scope constructs.Construct, id *string, config *WorkflowsWorkflowConfig) {
 	_init_.Initialize()
 
@@ -814,6 +838,17 @@ func (j *jsiiProxy_WorkflowsWorkflow)SetCryptoKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkflowsWorkflow)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1383,6 +1418,14 @@ func (w *jsiiProxy_WorkflowsWorkflow) ResetCryptoKeyName() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetCryptoKeyName",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkflowsWorkflow) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

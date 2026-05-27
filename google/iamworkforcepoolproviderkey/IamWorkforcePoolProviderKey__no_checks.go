@@ -107,6 +107,10 @@ func (j *jsiiProxy_IamWorkforcePoolProviderKey) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_IamWorkforcePoolProviderKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamWorkforcePoolProviderKey) validateSetIdParameters(val *string) error {
 	return nil
 }

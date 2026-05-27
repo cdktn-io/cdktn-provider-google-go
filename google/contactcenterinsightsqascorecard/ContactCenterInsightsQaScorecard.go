@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard}.
 type ContactCenterInsightsQaScorecard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ContactCenterInsightsQaScorecard interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type ContactCenterInsightsQaScorecard interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ContactCenterInsightsQaScorecardTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -216,6 +220,26 @@ func (j *jsiiProxy_ContactCenterInsightsQaScorecard) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContactCenterInsightsQaScorecard) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContactCenterInsightsQaScorecard) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +566,7 @@ func (j *jsiiProxy_ContactCenterInsightsQaScorecard) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
 func NewContactCenterInsightsQaScorecard(scope constructs.Construct, id *string, config *ContactCenterInsightsQaScorecardConfig) ContactCenterInsightsQaScorecard {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewContactCenterInsightsQaScorecard(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
 func NewContactCenterInsightsQaScorecard_Override(c ContactCenterInsightsQaScorecard, scope constructs.Construct, id *string, config *ContactCenterInsightsQaScorecardConfig) {
 	_init_.Initialize()
 
@@ -589,6 +613,17 @@ func (j *jsiiProxy_ContactCenterInsightsQaScorecard)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContactCenterInsightsQaScorecard)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1088,6 +1123,14 @@ func (c *jsiiProxy_ContactCenterInsightsQaScorecard) PutTimeouts(value *ContactC
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContactCenterInsightsQaScorecard) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

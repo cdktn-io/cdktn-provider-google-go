@@ -111,6 +111,10 @@ func (j *jsiiProxy_ArtifactRegistryRule) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ArtifactRegistryRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ArtifactRegistryRule) validateSetIdParameters(val *string) error {
 	return nil
 }

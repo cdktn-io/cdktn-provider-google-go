@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_team_folder google_dataform_team_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataform_team_folder google_dataform_team_folder}.
 type DataformTeamFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DataformTeamFolder interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -121,6 +124,7 @@ type DataformTeamFolder interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataformTeamFolderTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -189,6 +193,26 @@ func (j *jsiiProxy_DataformTeamFolder) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataformTeamFolder) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataformTeamFolder) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -435,7 +459,7 @@ func (j *jsiiProxy_DataformTeamFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
 func NewDataformTeamFolder(scope constructs.Construct, id *string, config *DataformTeamFolderConfig) DataformTeamFolder {
 	_init_.Initialize()
 
@@ -453,7 +477,7 @@ func NewDataformTeamFolder(scope constructs.Construct, id *string, config *Dataf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
 func NewDataformTeamFolder_Override(d DataformTeamFolder, scope constructs.Construct, id *string, config *DataformTeamFolderConfig) {
 	_init_.Initialize()
 
@@ -482,6 +506,17 @@ func (j *jsiiProxy_DataformTeamFolder)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataformTeamFolder)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -937,6 +972,14 @@ func (d *jsiiProxy_DataformTeamFolder) PutTimeouts(value *DataformTeamFolderTime
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataformTeamFolder) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

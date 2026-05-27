@@ -119,6 +119,10 @@ func (j *jsiiProxy_FirestoreField) validateSetDatabaseParameters(val *string) er
 	return nil
 }
 
+func (j *jsiiProxy_FirestoreField) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirestoreField) validateSetFieldParameters(val *string) error {
 	return nil
 }

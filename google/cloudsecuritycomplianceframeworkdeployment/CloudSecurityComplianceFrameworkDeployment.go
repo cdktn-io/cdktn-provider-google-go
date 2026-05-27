@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
 type CloudSecurityComplianceFrameworkDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type CloudSecurityComplianceFrameworkDeployment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type CloudSecurityComplianceFrameworkDeployment interface {
 	PutFramework(value *CloudSecurityComplianceFrameworkDeploymentFramework)
 	PutTargetResourceConfig(value *CloudSecurityComplianceFrameworkDeploymentTargetResourceConfig)
 	PutTimeouts(value *CloudSecurityComplianceFrameworkDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -257,6 +261,26 @@ func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) CreateTime() *str
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -593,7 +617,7 @@ func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkDeploymentConfig) CloudSecurityComplianceFrameworkDeployment {
 	_init_.Initialize()
 
@@ -611,7 +635,7 @@ func NewCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewCloudSecurityComplianceFrameworkDeployment_Override(c CloudSecurityComplianceFrameworkDeployment, scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkDeploymentConfig) {
 	_init_.Initialize()
 
@@ -640,6 +664,17 @@ func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1139,6 +1174,14 @@ func (c *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) PutTimeouts(value
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

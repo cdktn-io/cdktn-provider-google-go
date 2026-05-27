@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_connection google_bigquery_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_connection google_bigquery_connection}.
 type BigqueryConnection interface {
 	cdktn.TerraformResource
 	Aws() BigqueryConnectionAwsOutputReference
@@ -42,6 +42,9 @@ type BigqueryConnection interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -158,6 +161,7 @@ type BigqueryConnection interface {
 	ResetCloudSql()
 	ResetConfiguration()
 	ResetConnectionId()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFriendlyName()
 	ResetId()
@@ -371,6 +375,26 @@ func (j *jsiiProxy_BigqueryConnection) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -677,7 +701,7 @@ func (j *jsiiProxy_BigqueryConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
 func NewBigqueryConnection(scope constructs.Construct, id *string, config *BigqueryConnectionConfig) BigqueryConnection {
 	_init_.Initialize()
 
@@ -695,7 +719,7 @@ func NewBigqueryConnection(scope constructs.Construct, id *string, config *Bigqu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
 func NewBigqueryConnection_Override(b BigqueryConnection, scope constructs.Construct, id *string, config *BigqueryConnectionConfig) {
 	_init_.Initialize()
 
@@ -735,6 +759,17 @@ func (j *jsiiProxy_BigqueryConnection)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryConnection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1344,6 +1379,14 @@ func (b *jsiiProxy_BigqueryConnection) ResetConnectionId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetConnectionId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryConnection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -119,6 +119,10 @@ func (j *jsiiProxy_HealthcarePipelineJob) validateSetDatasetParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_HealthcarePipelineJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HealthcarePipelineJob) validateSetDisableLineageParameters(val interface{}) error {
 	return nil
 }

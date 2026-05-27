@@ -123,6 +123,10 @@ func (j *jsiiProxy_DataprocWorkflowTemplate) validateSetDagTimeoutParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_DataprocWorkflowTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocWorkflowTemplate) validateSetIdParameters(val *string) error {
 	return nil
 }

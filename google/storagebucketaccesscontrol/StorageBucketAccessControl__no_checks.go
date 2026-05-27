@@ -107,6 +107,10 @@ func (j *jsiiProxy_StorageBucketAccessControl) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_StorageBucketAccessControl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageBucketAccessControl) validateSetEntityParameters(val *string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_BigqueryAnalyticsHubDataExchange) validateSetDataExchangeIdPa
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryAnalyticsHubDataExchange) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryAnalyticsHubDataExchange) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

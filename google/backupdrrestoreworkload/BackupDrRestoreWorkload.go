@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_restore_workload google_backup_dr_restore_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_restore_workload google_backup_dr_restore_workload}.
 type BackupDrRestoreWorkload interface {
 	cdktn.TerraformResource
 	BackupId() *string
@@ -46,6 +46,9 @@ type BackupDrRestoreWorkload interface {
 	DeleteRestoredInstance() interface{}
 	SetDeleteRestoredInstance(val interface{})
 	DeleteRestoredInstanceInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -154,6 +157,7 @@ type BackupDrRestoreWorkload interface {
 	ResetComputeInstanceRestoreProperties()
 	ResetComputeInstanceTargetEnvironment()
 	ResetDeleteRestoredInstance()
+	ResetDeletionPolicy()
 	ResetDiskRestoreProperties()
 	ResetDiskTargetEnvironment()
 	ResetId()
@@ -366,6 +370,26 @@ func (j *jsiiProxy_BackupDrRestoreWorkload) DeleteRestoredInstanceInput() interf
 	_jsii_.Get(
 		j,
 		"deleteRestoredInstanceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrRestoreWorkload) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrRestoreWorkload) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -662,7 +686,7 @@ func (j *jsiiProxy_BackupDrRestoreWorkload) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
 func NewBackupDrRestoreWorkload(scope constructs.Construct, id *string, config *BackupDrRestoreWorkloadConfig) BackupDrRestoreWorkload {
 	_init_.Initialize()
 
@@ -680,7 +704,7 @@ func NewBackupDrRestoreWorkload(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
 func NewBackupDrRestoreWorkload_Override(b BackupDrRestoreWorkload, scope constructs.Construct, id *string, config *BackupDrRestoreWorkloadConfig) {
 	_init_.Initialize()
 
@@ -764,6 +788,17 @@ func (j *jsiiProxy_BackupDrRestoreWorkload)SetDeleteRestoredInstance(val interfa
 	_jsii_.Set(
 		j,
 		"deleteRestoredInstance",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BackupDrRestoreWorkload)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1305,6 +1340,14 @@ func (b *jsiiProxy_BackupDrRestoreWorkload) ResetDeleteRestoredInstance() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDeleteRestoredInstance",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrRestoreWorkload) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

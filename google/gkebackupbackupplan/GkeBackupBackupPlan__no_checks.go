@@ -123,6 +123,10 @@ func (j *jsiiProxy_GkeBackupBackupPlan) validateSetDeactivatedParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GkeBackupBackupPlan) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeBackupBackupPlan) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

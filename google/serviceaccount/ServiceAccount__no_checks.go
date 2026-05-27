@@ -111,6 +111,10 @@ func (j *jsiiProxy_ServiceAccount) validateSetCreateIgnoreAlreadyExistsParameter
 	return nil
 }
 
+func (j *jsiiProxy_ServiceAccount) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ServiceAccount) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetappBackup) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_NetappBackup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappBackup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

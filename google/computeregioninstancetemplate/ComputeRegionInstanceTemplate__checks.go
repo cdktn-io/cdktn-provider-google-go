@@ -538,6 +538,14 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplate) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionInstanceTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionInstanceTemplate) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_acl google_storage_bucket_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_acl google_storage_bucket_acl}.
 type StorageBucketAcl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -33,6 +33,9 @@ type StorageBucketAcl interface {
 	DefaultAcl() *string
 	SetDefaultAcl(val *string)
 	DefaultAclInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -120,6 +123,7 @@ type StorageBucketAcl interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	ResetDefaultAcl()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_StorageBucketAcl) DefaultAclInput() *string {
 	_jsii_.Get(
 		j,
 		"defaultAclInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucketAcl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucketAcl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -414,7 +438,7 @@ func (j *jsiiProxy_StorageBucketAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
 func NewStorageBucketAcl(scope constructs.Construct, id *string, config *StorageBucketAclConfig) StorageBucketAcl {
 	_init_.Initialize()
 
@@ -432,7 +456,7 @@ func NewStorageBucketAcl(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
 func NewStorageBucketAcl_Override(s StorageBucketAcl, scope constructs.Construct, id *string, config *StorageBucketAclConfig) {
 	_init_.Initialize()
 
@@ -483,6 +507,17 @@ func (j *jsiiProxy_StorageBucketAcl)SetDefaultAcl(val *string) {
 	_jsii_.Set(
 		j,
 		"defaultAcl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageBucketAcl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -923,6 +958,14 @@ func (s *jsiiProxy_StorageBucketAcl) ResetDefaultAcl() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDefaultAcl",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBucketAcl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

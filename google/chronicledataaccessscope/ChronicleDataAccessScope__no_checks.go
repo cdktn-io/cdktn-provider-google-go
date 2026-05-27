@@ -119,6 +119,10 @@ func (j *jsiiProxy_ChronicleDataAccessScope) validateSetDataAccessScopeIdParamet
 	return nil
 }
 
+func (j *jsiiProxy_ChronicleDataAccessScope) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ChronicleDataAccessScope) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

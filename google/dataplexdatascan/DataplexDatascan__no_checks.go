@@ -135,6 +135,10 @@ func (j *jsiiProxy_DataplexDatascan) validateSetDataScanIdParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDatascan) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDatascan) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

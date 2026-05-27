@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_fusion_instance google_data_fusion_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_fusion_instance google_data_fusion_instance}.
 type DataFusionInstance interface {
 	cdktn.TerraformResource
 	Accelerators() DataFusionInstanceAcceleratorsList
@@ -36,6 +36,9 @@ type DataFusionInstance interface {
 	DataprocServiceAccount() *string
 	SetDataprocServiceAccount(val *string)
 	DataprocServiceAccountInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -187,6 +190,7 @@ type DataFusionInstance interface {
 	ResetAccelerators()
 	ResetCryptoKeyConfig()
 	ResetDataprocServiceAccount()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetEnableRbac()
@@ -350,6 +354,26 @@ func (j *jsiiProxy_DataFusionInstance) DataprocServiceAccountInput() *string {
 	_jsii_.Get(
 		j,
 		"dataprocServiceAccountInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFusionInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFusionInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -966,7 +990,7 @@ func (j *jsiiProxy_DataFusionInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
 func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataFusionInstanceConfig) DataFusionInstance {
 	_init_.Initialize()
 
@@ -984,7 +1008,7 @@ func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
 func NewDataFusionInstance_Override(d DataFusionInstance, scope constructs.Construct, id *string, config *DataFusionInstanceConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1048,17 @@ func (j *jsiiProxy_DataFusionInstance)SetDataprocServiceAccount(val *string) {
 	_jsii_.Set(
 		j,
 		"dataprocServiceAccount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataFusionInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1689,6 +1724,14 @@ func (d *jsiiProxy_DataFusionInstance) ResetDataprocServiceAccount() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetDataprocServiceAccount",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataFusionInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

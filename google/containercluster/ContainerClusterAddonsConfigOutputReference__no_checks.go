@@ -95,6 +95,10 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutParal
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutPodSnapshotConfigParameters(value *ContainerClusterAddonsConfigPodSnapshotConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutRayOperatorConfigParameters(value interface{}) error {
 	return nil
 }

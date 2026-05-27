@@ -111,6 +111,10 @@ func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamPrincipalAccessBoundaryPolicy) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

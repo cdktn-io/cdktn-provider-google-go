@@ -115,6 +115,10 @@ func (j *jsiiProxy_ColabSchedule) validateSetCronParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_ColabSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ColabSchedule) validateSetDesiredStateParameters(val *string) error {
 	return nil
 }

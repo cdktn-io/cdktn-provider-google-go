@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_control_project_intelligence_config google_storage_control_project_intelligence_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_control_project_intelligence_config google_storage_control_project_intelligence_config}.
 type StorageControlProjectIntelligenceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_StorageControlProjectIntelligenceConfig) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Resource.
 func NewStorageControlProjectIntelligenceConfig(scope constructs.Construct, id *string, config *StorageControlProjectIntelligenceConfigConfig) StorageControlProjectIntelligenceConfig {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewStorageControlProjectIntelligenceConfig(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Resource.
 func NewStorageControlProjectIntelligenceConfig_Override(s StorageControlProjectIntelligenceConfig, scope constructs.Construct, id *string, config *StorageControlProjectIntelligenceConfigConfig) {
 	_init_.Initialize()
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_TranscoderJob) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_TranscoderJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_TranscoderJob) validateSetIdParameters(val *string) error {
 	return nil
 }

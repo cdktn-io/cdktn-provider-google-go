@@ -115,6 +115,10 @@ func (j *jsiiProxy_IamOrganizationsPolicyBinding) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_IamOrganizationsPolicyBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamOrganizationsPolicyBinding) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

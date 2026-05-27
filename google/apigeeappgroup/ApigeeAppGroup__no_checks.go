@@ -115,6 +115,10 @@ func (j *jsiiProxy_ApigeeAppGroup) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeAppGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeAppGroup) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

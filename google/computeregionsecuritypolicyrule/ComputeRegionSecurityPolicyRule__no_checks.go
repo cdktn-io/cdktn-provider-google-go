@@ -123,6 +123,10 @@ func (j *jsiiProxy_ComputeRegionSecurityPolicyRule) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionSecurityPolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionSecurityPolicyRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

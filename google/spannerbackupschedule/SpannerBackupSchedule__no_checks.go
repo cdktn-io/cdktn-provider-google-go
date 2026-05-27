@@ -123,6 +123,10 @@ func (j *jsiiProxy_SpannerBackupSchedule) validateSetDatabaseParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_SpannerBackupSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SpannerBackupSchedule) validateSetIdParameters(val *string) error {
 	return nil
 }

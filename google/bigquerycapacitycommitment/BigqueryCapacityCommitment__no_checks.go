@@ -107,6 +107,10 @@ func (j *jsiiProxy_BigqueryCapacityCommitment) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryCapacityCommitment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryCapacityCommitment) validateSetEditionParameters(val *string) error {
 	return nil
 }

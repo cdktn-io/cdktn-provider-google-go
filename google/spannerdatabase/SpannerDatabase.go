@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/spanner_database google_spanner_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/spanner_database google_spanner_database}.
 type SpannerDatabase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type SpannerDatabase interface {
 	DefaultTimeZone() *string
 	SetDefaultTimeZone(val *string)
 	DefaultTimeZoneInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -144,6 +147,7 @@ type SpannerDatabase interface {
 	ResetDatabaseDialect()
 	ResetDdl()
 	ResetDefaultTimeZone()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetEnableDropProtection()
 	ResetEncryptionConfig()
@@ -276,6 +280,26 @@ func (j *jsiiProxy_SpannerDatabase) DefaultTimeZoneInput() *string {
 	_jsii_.Get(
 		j,
 		"defaultTimeZoneInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerDatabase) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpannerDatabase) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -592,7 +616,7 @@ func (j *jsiiProxy_SpannerDatabase) VersionRetentionPeriodInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/spanner_database google_spanner_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/spanner_database google_spanner_database} Resource.
 func NewSpannerDatabase(scope constructs.Construct, id *string, config *SpannerDatabaseConfig) SpannerDatabase {
 	_init_.Initialize()
 
@@ -610,7 +634,7 @@ func NewSpannerDatabase(scope constructs.Construct, id *string, config *SpannerD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/spanner_database google_spanner_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/spanner_database google_spanner_database} Resource.
 func NewSpannerDatabase_Override(s SpannerDatabase, scope constructs.Construct, id *string, config *SpannerDatabaseConfig) {
 	_init_.Initialize()
 
@@ -672,6 +696,17 @@ func (j *jsiiProxy_SpannerDatabase)SetDefaultTimeZone(val *string) {
 	_jsii_.Set(
 		j,
 		"defaultTimeZone",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SpannerDatabase)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1194,6 +1229,14 @@ func (s *jsiiProxy_SpannerDatabase) ResetDefaultTimeZone() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDefaultTimeZone",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpannerDatabase) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

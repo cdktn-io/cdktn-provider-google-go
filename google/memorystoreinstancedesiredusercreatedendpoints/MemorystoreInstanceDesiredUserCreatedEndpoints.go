@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints}.
 type MemorystoreInstanceDesiredUserCreatedEndpoints interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type MemorystoreInstanceDesiredUserCreatedEndpoints interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type MemorystoreInstanceDesiredUserCreatedEndpoints interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDesiredUserCreatedEndpoints(value interface{})
 	PutTimeouts(value *MemorystoreInstanceDesiredUserCreatedEndpointsTimeouts)
+	ResetDeletionPolicy()
 	ResetDesiredUserCreatedEndpoints()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -191,6 +195,26 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) Count() inter
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -437,7 +461,7 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
 func NewMemorystoreInstanceDesiredUserCreatedEndpoints(scope constructs.Construct, id *string, config *MemorystoreInstanceDesiredUserCreatedEndpointsConfig) MemorystoreInstanceDesiredUserCreatedEndpoints {
 	_init_.Initialize()
 
@@ -455,7 +479,7 @@ func NewMemorystoreInstanceDesiredUserCreatedEndpoints(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
 func NewMemorystoreInstanceDesiredUserCreatedEndpoints_Override(m MemorystoreInstanceDesiredUserCreatedEndpoints, scope constructs.Construct, id *string, config *MemorystoreInstanceDesiredUserCreatedEndpointsConfig) {
 	_init_.Initialize()
 
@@ -484,6 +508,17 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints)SetCount(val i
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -950,6 +985,14 @@ func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) PutTimeouts(v
 		m,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

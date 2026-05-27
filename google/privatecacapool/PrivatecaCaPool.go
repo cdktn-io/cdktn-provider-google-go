@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_ca_pool google_privateca_ca_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_ca_pool google_privateca_ca_pool}.
 type PrivatecaCaPool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type PrivatecaCaPool interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type PrivatecaCaPool interface {
 	PutIssuancePolicy(value *PrivatecaCaPoolIssuancePolicy)
 	PutPublishingOptions(value *PrivatecaCaPoolPublishingOptions)
 	PutTimeouts(value *PrivatecaCaPoolTimeouts)
+	ResetDeletionPolicy()
 	ResetEncryptionSpec()
 	ResetId()
 	ResetIssuancePolicy()
@@ -208,6 +212,26 @@ func (j *jsiiProxy_PrivatecaCaPool) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCaPool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCaPool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -554,7 +578,7 @@ func (j *jsiiProxy_PrivatecaCaPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_ca_pool google_privateca_ca_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_ca_pool google_privateca_ca_pool} Resource.
 func NewPrivatecaCaPool(scope constructs.Construct, id *string, config *PrivatecaCaPoolConfig) PrivatecaCaPool {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewPrivatecaCaPool(scope constructs.Construct, id *string, config *Privatec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_ca_pool google_privateca_ca_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_ca_pool google_privateca_ca_pool} Resource.
 func NewPrivatecaCaPool_Override(p PrivatecaCaPool, scope constructs.Construct, id *string, config *PrivatecaCaPoolConfig) {
 	_init_.Initialize()
 
@@ -601,6 +625,17 @@ func (j *jsiiProxy_PrivatecaCaPool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivatecaCaPool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1111,6 +1146,14 @@ func (p *jsiiProxy_PrivatecaCaPool) PutTimeouts(value *PrivatecaCaPoolTimeouts) 
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCaPool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

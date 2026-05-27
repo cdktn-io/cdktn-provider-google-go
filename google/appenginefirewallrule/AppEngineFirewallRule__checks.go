@@ -356,6 +356,14 @@ func (j *jsiiProxy_AppEngineFirewallRule) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineFirewallRule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_AppEngineFirewallRule) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

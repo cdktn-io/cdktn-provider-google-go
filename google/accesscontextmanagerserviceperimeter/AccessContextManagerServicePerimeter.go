@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter}.
 type AccessContextManagerServicePerimeter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type AccessContextManagerServicePerimeter interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type AccessContextManagerServicePerimeter interface {
 	PutSpec(value *AccessContextManagerServicePerimeterSpec)
 	PutStatus(value *AccessContextManagerServicePerimeterStatus)
 	PutTimeouts(value *AccessContextManagerServicePerimeterTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -218,6 +222,26 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeter) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeter) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeter) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -554,7 +578,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeter) UseExplicitDryRunSpecIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
 func NewAccessContextManagerServicePerimeter(scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterConfig) AccessContextManagerServicePerimeter {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewAccessContextManagerServicePerimeter(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
 func NewAccessContextManagerServicePerimeter_Override(a AccessContextManagerServicePerimeter, scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterConfig) {
 	_init_.Initialize()
 
@@ -601,6 +625,17 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeter)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeter)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1111,6 +1146,14 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeter) PutTimeouts(value *Acce
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeter) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

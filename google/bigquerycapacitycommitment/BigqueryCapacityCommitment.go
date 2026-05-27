@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment}.
 type BigqueryCapacityCommitment interface {
 	cdktn.TerraformResource
 	CapacityCommitmentId() *string
@@ -32,6 +32,9 @@ type BigqueryCapacityCommitment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type BigqueryCapacityCommitment interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *BigqueryCapacityCommitmentTimeouts)
 	ResetCapacityCommitmentId()
+	ResetDeletionPolicy()
 	ResetEdition()
 	ResetEnforceSingleAdminProjectPerOrg()
 	ResetId()
@@ -251,6 +255,26 @@ func (j *jsiiProxy_BigqueryCapacityCommitment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryCapacityCommitment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryCapacityCommitment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -577,7 +601,7 @@ func (j *jsiiProxy_BigqueryCapacityCommitment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
 func NewBigqueryCapacityCommitment(scope constructs.Construct, id *string, config *BigqueryCapacityCommitmentConfig) BigqueryCapacityCommitment {
 	_init_.Initialize()
 
@@ -595,7 +619,7 @@ func NewBigqueryCapacityCommitment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
 func NewBigqueryCapacityCommitment_Override(b BigqueryCapacityCommitment, scope constructs.Construct, id *string, config *BigqueryCapacityCommitmentConfig) {
 	_init_.Initialize()
 
@@ -635,6 +659,17 @@ func (j *jsiiProxy_BigqueryCapacityCommitment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryCapacityCommitment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1141,6 +1176,14 @@ func (b *jsiiProxy_BigqueryCapacityCommitment) ResetCapacityCommitmentId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetCapacityCommitmentId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryCapacityCommitment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

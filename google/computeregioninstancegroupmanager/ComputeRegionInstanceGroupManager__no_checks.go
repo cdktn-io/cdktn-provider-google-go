@@ -159,6 +159,10 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManager) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionInstanceGroupManager) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionInstanceGroupManager) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

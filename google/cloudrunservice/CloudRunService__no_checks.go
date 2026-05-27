@@ -119,6 +119,10 @@ func (j *jsiiProxy_CloudRunService) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunService) validateSetIdParameters(val *string) error {
 	return nil
 }

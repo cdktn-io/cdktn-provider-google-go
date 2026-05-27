@@ -131,6 +131,10 @@ func (j *jsiiProxy_ComputeNetwork) validateSetDeleteDefaultRoutesOnCreateParamet
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetwork) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

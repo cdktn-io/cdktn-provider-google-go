@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
 type ContactCenterInsightsAutoLabelingRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -36,6 +36,9 @@ type ContactCenterInsightsAutoLabelingRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type ContactCenterInsightsAutoLabelingRule interface {
 	ResetActive()
 	ResetAutoLabelingRuleId()
 	ResetConditions()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -285,6 +289,26 @@ func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -591,7 +615,7 @@ func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewContactCenterInsightsAutoLabelingRule(scope constructs.Construct, id *string, config *ContactCenterInsightsAutoLabelingRuleConfig) ContactCenterInsightsAutoLabelingRule {
 	_init_.Initialize()
 
@@ -609,7 +633,7 @@ func NewContactCenterInsightsAutoLabelingRule(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewContactCenterInsightsAutoLabelingRule_Override(c ContactCenterInsightsAutoLabelingRule, scope constructs.Construct, id *string, config *ContactCenterInsightsAutoLabelingRuleConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule)SetCount(val interface{
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1182,6 +1217,14 @@ func (c *jsiiProxy_ContactCenterInsightsAutoLabelingRule) ResetConditions() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetConditions",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContactCenterInsightsAutoLabelingRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

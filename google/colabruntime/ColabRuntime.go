@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_runtime google_colab_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_runtime google_colab_runtime}.
 type ColabRuntime interface {
 	cdktn.TerraformResource
 	AutoUpgrade() interface{}
@@ -30,6 +30,9 @@ type ColabRuntime interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type ColabRuntime interface {
 	PutNotebookRuntimeTemplateRef(value *ColabRuntimeNotebookRuntimeTemplateRef)
 	PutTimeouts(value *ColabRuntimeTimeouts)
 	ResetAutoUpgrade()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDesiredState()
 	ResetId()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_ColabRuntime) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabRuntime) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabRuntime) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -600,7 +624,7 @@ func (j *jsiiProxy_ColabRuntime) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_runtime google_colab_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_runtime google_colab_runtime} Resource.
 func NewColabRuntime(scope constructs.Construct, id *string, config *ColabRuntimeConfig) ColabRuntime {
 	_init_.Initialize()
 
@@ -618,7 +642,7 @@ func NewColabRuntime(scope constructs.Construct, id *string, config *ColabRuntim
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_runtime google_colab_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_runtime google_colab_runtime} Resource.
 func NewColabRuntime_Override(c ColabRuntime, scope constructs.Construct, id *string, config *ColabRuntimeConfig) {
 	_init_.Initialize()
 
@@ -658,6 +682,17 @@ func (j *jsiiProxy_ColabRuntime)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ColabRuntime)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1175,6 +1210,14 @@ func (c *jsiiProxy_ColabRuntime) ResetAutoUpgrade() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAutoUpgrade",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabRuntime) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ApigeeEnvKeystore) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeEnvKeystore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeEnvKeystore) validateSetEnvIdParameters(val *string) error {
 	return nil
 }

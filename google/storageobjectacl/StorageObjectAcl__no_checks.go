@@ -103,6 +103,10 @@ func (j *jsiiProxy_StorageObjectAcl) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_StorageObjectAcl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageObjectAcl) validateSetIdParameters(val *string) error {
 	return nil
 }

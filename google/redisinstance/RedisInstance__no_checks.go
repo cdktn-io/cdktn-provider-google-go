@@ -131,6 +131,10 @@ func (j *jsiiProxy_RedisInstance) validateSetCustomerManagedKeyParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_RedisInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_RedisInstance) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

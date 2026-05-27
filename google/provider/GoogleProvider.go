@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs google}.
 type GoogleProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -250,6 +250,9 @@ type GoogleProvider interface {
 	DefaultLabels() *map[string]*string
 	SetDefaultLabels(val *map[string]*string)
 	DefaultLabelsInput() *map[string]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeploymentManagerCustomEndpoint() *string
 	SetDeploymentManagerCustomEndpoint(val *string)
 	DeploymentManagerCustomEndpointInput() *string
@@ -708,6 +711,7 @@ type GoogleProvider interface {
 	ResetDataprocMetastoreCustomEndpoint()
 	ResetDatastreamCustomEndpoint()
 	ResetDefaultLabels()
+	ResetDeletionPolicy()
 	ResetDeploymentManagerCustomEndpoint()
 	ResetDeveloperConnectCustomEndpoint()
 	ResetDialogflowCustomEndpoint()
@@ -2413,6 +2417,26 @@ func (j *jsiiProxy_GoogleProvider) DefaultLabelsInput() *map[string]*string {
 	_jsii_.Get(
 		j,
 		"defaultLabelsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -4899,7 +4923,7 @@ func (j *jsiiProxy_GoogleProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs google} Resource.
 func NewGoogleProvider(scope constructs.Construct, id *string, config *GoogleProviderConfig) GoogleProvider {
 	_init_.Initialize()
 
@@ -4917,7 +4941,7 @@ func NewGoogleProvider(scope constructs.Construct, id *string, config *GooglePro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs google} Resource.
 func NewGoogleProvider_Override(g GoogleProvider, scope constructs.Construct, id *string, config *GoogleProviderConfig) {
 	_init_.Initialize()
 
@@ -5546,6 +5570,14 @@ func (j *jsiiProxy_GoogleProvider)SetDefaultLabels(val *map[string]*string) {
 	_jsii_.Set(
 		j,
 		"defaultLabels",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetDeletionPolicy(val *string) {
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -7259,6 +7291,14 @@ func (g *jsiiProxy_GoogleProvider) ResetDefaultLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

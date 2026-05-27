@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetworkServicesWasmPlugin) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesWasmPlugin) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesWasmPlugin) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

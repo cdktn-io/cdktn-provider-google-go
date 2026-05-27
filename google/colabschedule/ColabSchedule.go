@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_schedule google_colab_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_schedule google_colab_schedule}.
 type ColabSchedule interface {
 	cdktn.TerraformResource
 	AllowQueueing() interface{}
@@ -35,6 +35,9 @@ type ColabSchedule interface {
 	Cron() *string
 	SetCron(val *string)
 	CronInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type ColabSchedule interface {
 	PutCreateNotebookExecutionJobRequest(value *ColabScheduleCreateNotebookExecutionJobRequest)
 	PutTimeouts(value *ColabScheduleTimeouts)
 	ResetAllowQueueing()
+	ResetDeletionPolicy()
 	ResetDesiredState()
 	ResetEndTime()
 	ResetId()
@@ -278,6 +282,26 @@ func (j *jsiiProxy_ColabSchedule) CronInput() *string {
 	_jsii_.Get(
 		j,
 		"cronInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabSchedule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabSchedule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -624,7 +648,7 @@ func (j *jsiiProxy_ColabSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_schedule google_colab_schedule} Resource.
 func NewColabSchedule(scope constructs.Construct, id *string, config *ColabScheduleConfig) ColabSchedule {
 	_init_.Initialize()
 
@@ -642,7 +666,7 @@ func NewColabSchedule(scope constructs.Construct, id *string, config *ColabSched
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_schedule google_colab_schedule} Resource.
 func NewColabSchedule_Override(c ColabSchedule, scope constructs.Construct, id *string, config *ColabScheduleConfig) {
 	_init_.Initialize()
 
@@ -693,6 +717,17 @@ func (j *jsiiProxy_ColabSchedule)SetCron(val *string) {
 	_jsii_.Set(
 		j,
 		"cron",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ColabSchedule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1221,6 +1256,14 @@ func (c *jsiiProxy_ColabSchedule) ResetAllowQueueing() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAllowQueueing",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabSchedule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

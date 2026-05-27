@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps}.
 type ApigeeEnvironmentKeyvaluemaps interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ApigeeEnvironmentKeyvaluemaps interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type ApigeeEnvironmentKeyvaluemaps interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ApigeeEnvironmentKeyvaluemapsTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -183,6 +187,26 @@ func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -389,7 +413,7 @@ func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
 func NewApigeeEnvironmentKeyvaluemaps(scope constructs.Construct, id *string, config *ApigeeEnvironmentKeyvaluemapsConfig) ApigeeEnvironmentKeyvaluemaps {
 	_init_.Initialize()
 
@@ -407,7 +431,7 @@ func NewApigeeEnvironmentKeyvaluemaps(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
 func NewApigeeEnvironmentKeyvaluemaps_Override(a ApigeeEnvironmentKeyvaluemaps, scope constructs.Construct, id *string, config *ApigeeEnvironmentKeyvaluemapsConfig) {
 	_init_.Initialize()
 
@@ -436,6 +460,17 @@ func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -880,6 +915,14 @@ func (a *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) PutTimeouts(value *ApigeeEnvir
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

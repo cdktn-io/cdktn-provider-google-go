@@ -107,6 +107,10 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeKeystoresAliasesPkcs12) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

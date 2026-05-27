@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

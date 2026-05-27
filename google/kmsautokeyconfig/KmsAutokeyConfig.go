@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/kms_autokey_config google_kms_autokey_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/kms_autokey_config google_kms_autokey_config}.
 type KmsAutokeyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type KmsAutokeyConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -120,6 +123,7 @@ type KmsAutokeyConfig interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *KmsAutokeyConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetKeyProject()
 	ResetKeyProjectResolutionMode()
@@ -189,6 +193,26 @@ func (j *jsiiProxy_KmsAutokeyConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KmsAutokeyConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KmsAutokeyConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -425,7 +449,7 @@ func (j *jsiiProxy_KmsAutokeyConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
 func NewKmsAutokeyConfig(scope constructs.Construct, id *string, config *KmsAutokeyConfigConfig) KmsAutokeyConfig {
 	_init_.Initialize()
 
@@ -443,7 +467,7 @@ func NewKmsAutokeyConfig(scope constructs.Construct, id *string, config *KmsAuto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
 func NewKmsAutokeyConfig_Override(k KmsAutokeyConfig, scope constructs.Construct, id *string, config *KmsAutokeyConfigConfig) {
 	_init_.Initialize()
 
@@ -472,6 +496,17 @@ func (j *jsiiProxy_KmsAutokeyConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KmsAutokeyConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -927,6 +962,14 @@ func (k *jsiiProxy_KmsAutokeyConfig) PutTimeouts(value *KmsAutokeyConfigTimeouts
 		k,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (k *jsiiProxy_KmsAutokeyConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

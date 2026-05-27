@@ -111,6 +111,10 @@ func (j *jsiiProxy_LoggingFolderBucketConfig) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_LoggingFolderBucketConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LoggingFolderBucketConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_autoscaler google_compute_autoscaler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_autoscaler google_compute_autoscaler}.
 type ComputeAutoscaler interface {
 	cdktn.TerraformResource
 	AutoscalingPolicy() ComputeAutoscalerAutoscalingPolicyOutputReference
@@ -30,6 +30,9 @@ type ComputeAutoscaler interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type ComputeAutoscaler interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscalingPolicy(value *ComputeAutoscalerAutoscalingPolicy)
 	PutTimeouts(value *ComputeAutoscalerTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -230,6 +234,26 @@ func (j *jsiiProxy_ComputeAutoscaler) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeAutoscaler) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeAutoscaler) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_ComputeAutoscaler) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
 func NewComputeAutoscaler(scope constructs.Construct, id *string, config *ComputeAutoscalerConfig) ComputeAutoscaler {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewComputeAutoscaler(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
 func NewComputeAutoscaler_Override(c ComputeAutoscaler, scope constructs.Construct, id *string, config *ComputeAutoscalerConfig) {
 	_init_.Initialize()
 
@@ -553,6 +577,17 @@ func (j *jsiiProxy_ComputeAutoscaler)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeAutoscaler)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1041,6 +1076,14 @@ func (c *jsiiProxy_ComputeAutoscaler) PutTimeouts(value *ComputeAutoscalerTimeou
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeAutoscaler) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

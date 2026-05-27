@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apikeys_key google_apikeys_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apikeys_key google_apikeys_key}.
 type ApikeysKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ApikeysKey interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type ApikeysKey interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRestrictions(value *ApikeysKeyRestrictions)
 	PutTimeouts(value *ApikeysKeyTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -198,6 +202,26 @@ func (j *jsiiProxy_ApikeysKey) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApikeysKey) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApikeysKey) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -484,7 +508,7 @@ func (j *jsiiProxy_ApikeysKey) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apikeys_key google_apikeys_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apikeys_key google_apikeys_key} Resource.
 func NewApikeysKey(scope constructs.Construct, id *string, config *ApikeysKeyConfig) ApikeysKey {
 	_init_.Initialize()
 
@@ -502,7 +526,7 @@ func NewApikeysKey(scope constructs.Construct, id *string, config *ApikeysKeyCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apikeys_key google_apikeys_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apikeys_key google_apikeys_key} Resource.
 func NewApikeysKey_Override(a ApikeysKey, scope constructs.Construct, id *string, config *ApikeysKeyConfig) {
 	_init_.Initialize()
 
@@ -531,6 +555,17 @@ func (j *jsiiProxy_ApikeysKey)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApikeysKey)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1008,6 +1043,14 @@ func (a *jsiiProxy_ApikeysKey) PutTimeouts(value *ApikeysKeyTimeouts) {
 		a,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ApikeysKey) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

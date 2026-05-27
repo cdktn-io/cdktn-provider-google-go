@@ -111,6 +111,10 @@ func (j *jsiiProxy_BiglakeDatabase) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_BiglakeDatabase) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BiglakeDatabase) validateSetIdParameters(val *string) error {
 	return nil
 }

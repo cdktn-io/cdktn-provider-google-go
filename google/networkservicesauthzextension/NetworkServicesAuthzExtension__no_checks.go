@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiFeaturestoreEntitytypeFeature) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

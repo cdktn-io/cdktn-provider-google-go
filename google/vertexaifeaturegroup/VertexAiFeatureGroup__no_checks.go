@@ -107,6 +107,10 @@ func (j *jsiiProxy_VertexAiFeatureGroup) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiFeatureGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiFeatureGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

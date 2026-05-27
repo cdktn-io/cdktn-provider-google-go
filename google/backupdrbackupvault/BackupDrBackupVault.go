@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault}.
 type BackupDrBackupVault interface {
 	cdktn.TerraformResource
 	AccessRestriction() *string
@@ -48,6 +48,9 @@ type BackupDrBackupVault interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Deletable() cdktn.IResolvable
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -175,6 +178,7 @@ type BackupDrBackupVault interface {
 	ResetAllowMissing()
 	ResetAnnotations()
 	ResetBackupRetentionInheritance()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEffectiveTime()
 	ResetEncryptionConfig()
@@ -401,6 +405,26 @@ func (j *jsiiProxy_BackupDrBackupVault) Deletable() cdktn.IResolvable {
 	_jsii_.Get(
 		j,
 		"deletable",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupVault) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupVault) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -867,7 +891,7 @@ func (j *jsiiProxy_BackupDrBackupVault) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
 func NewBackupDrBackupVault(scope constructs.Construct, id *string, config *BackupDrBackupVaultConfig) BackupDrBackupVault {
 	_init_.Initialize()
 
@@ -885,7 +909,7 @@ func NewBackupDrBackupVault(scope constructs.Construct, id *string, config *Back
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
 func NewBackupDrBackupVault_Override(b BackupDrBackupVault, scope constructs.Construct, id *string, config *BackupDrBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -980,6 +1004,17 @@ func (j *jsiiProxy_BackupDrBackupVault)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BackupDrBackupVault)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1543,6 +1578,14 @@ func (b *jsiiProxy_BackupDrBackupVault) ResetBackupRetentionInheritance() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetBackupRetentionInheritance",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrBackupVault) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

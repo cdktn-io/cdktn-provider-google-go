@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_job google_dataproc_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_job google_dataproc_job}.
 type DataprocJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type DataprocJob interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -160,6 +163,7 @@ type DataprocJob interface {
 	PutSparkConfig(value *DataprocJobSparkConfig)
 	PutSparksqlConfig(value *DataprocJobSparksqlConfig)
 	PutTimeouts(value *DataprocJobTimeouts)
+	ResetDeletionPolicy()
 	ResetForceDelete()
 	ResetHadoopConfig()
 	ResetHiveConfig()
@@ -241,6 +245,26 @@ func (j *jsiiProxy_DataprocJob) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -757,7 +781,7 @@ func (j *jsiiProxy_DataprocJob) WaitForCompletionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_job google_dataproc_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_job google_dataproc_job} Resource.
 func NewDataprocJob(scope constructs.Construct, id *string, config *DataprocJobConfig) DataprocJob {
 	_init_.Initialize()
 
@@ -775,7 +799,7 @@ func NewDataprocJob(scope constructs.Construct, id *string, config *DataprocJobC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataproc_job google_dataproc_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_job google_dataproc_job} Resource.
 func NewDataprocJob_Override(d DataprocJob, scope constructs.Construct, id *string, config *DataprocJobConfig) {
 	_init_.Initialize()
 
@@ -804,6 +828,17 @@ func (j *jsiiProxy_DataprocJob)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1391,6 +1426,14 @@ func (d *jsiiProxy_DataprocJob) PutTimeouts(value *DataprocJobTimeouts) {
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

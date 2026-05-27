@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_management_connectivity_test google_network_management_connectivity_test}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_management_connectivity_test google_network_management_connectivity_test}.
 type NetworkManagementConnectivityTest interface {
 	cdktn.TerraformResource
 	BypassFirewallChecks() interface{}
@@ -30,6 +30,9 @@ type NetworkManagementConnectivityTest interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type NetworkManagementConnectivityTest interface {
 	PutSource(value *NetworkManagementConnectivityTestSource)
 	PutTimeouts(value *NetworkManagementConnectivityTestTimeouts)
 	ResetBypassFirewallChecks()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -236,6 +240,26 @@ func (j *jsiiProxy_NetworkManagementConnectivityTest) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTest) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTest) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_NetworkManagementConnectivityTest) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_management_connectivity_test google_network_management_connectivity_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_management_connectivity_test google_network_management_connectivity_test} Resource.
 func NewNetworkManagementConnectivityTest(scope constructs.Construct, id *string, config *NetworkManagementConnectivityTestConfig) NetworkManagementConnectivityTest {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewNetworkManagementConnectivityTest(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_management_connectivity_test google_network_management_connectivity_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_management_connectivity_test google_network_management_connectivity_test} Resource.
 func NewNetworkManagementConnectivityTest_Override(n NetworkManagementConnectivityTest, scope constructs.Construct, id *string, config *NetworkManagementConnectivityTestConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_NetworkManagementConnectivityTest)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTest)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1188,6 +1223,14 @@ func (n *jsiiProxy_NetworkManagementConnectivityTest) ResetBypassFirewallChecks(
 	_jsii_.InvokeVoid(
 		n,
 		"resetBypassFirewallChecks",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagementConnectivityTest) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

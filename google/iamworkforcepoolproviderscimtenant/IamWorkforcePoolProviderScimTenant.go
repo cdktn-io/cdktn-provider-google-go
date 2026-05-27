@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
 type IamWorkforcePoolProviderScimTenant interface {
 	cdktn.TerraformResource
 	BaseUri() *string
@@ -31,6 +31,9 @@ type IamWorkforcePoolProviderScimTenant interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type IamWorkforcePoolProviderScimTenant interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *IamWorkforcePoolProviderScimTenantTimeouts)
 	ResetClaimMapping()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetHardDelete()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_IamWorkforcePoolProviderScimTenant) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderScimTenant) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderScimTenant) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -586,7 +610,7 @@ func (j *jsiiProxy_IamWorkforcePoolProviderScimTenant) WorkforcePoolIdInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
 func NewIamWorkforcePoolProviderScimTenant(scope constructs.Construct, id *string, config *IamWorkforcePoolProviderScimTenantConfig) IamWorkforcePoolProviderScimTenant {
 	_init_.Initialize()
 
@@ -604,7 +628,7 @@ func NewIamWorkforcePoolProviderScimTenant(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
 func NewIamWorkforcePoolProviderScimTenant_Override(i IamWorkforcePoolProviderScimTenant, scope constructs.Construct, id *string, config *IamWorkforcePoolProviderScimTenantConfig) {
 	_init_.Initialize()
 
@@ -644,6 +668,17 @@ func (j *jsiiProxy_IamWorkforcePoolProviderScimTenant)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderScimTenant)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1150,6 +1185,14 @@ func (i *jsiiProxy_IamWorkforcePoolProviderScimTenant) ResetClaimMapping() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetClaimMapping",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamWorkforcePoolProviderScimTenant) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

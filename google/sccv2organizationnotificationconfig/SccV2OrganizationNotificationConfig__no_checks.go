@@ -111,6 +111,10 @@ func (j *jsiiProxy_SccV2OrganizationNotificationConfig) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_SccV2OrganizationNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccV2OrganizationNotificationConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

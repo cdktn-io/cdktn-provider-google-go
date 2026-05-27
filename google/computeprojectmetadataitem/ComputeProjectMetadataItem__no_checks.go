@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeProjectMetadataItem) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_ComputeProjectMetadataItem) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeProjectMetadataItem) validateSetIdParameters(val *string) error {
 	return nil
 }

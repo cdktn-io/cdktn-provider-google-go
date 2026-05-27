@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_organization_policy google_project_organization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/project_organization_policy google_project_organization_policy}.
 type ProjectOrganizationPolicy interface {
 	cdktn.TerraformResource
 	BooleanPolicy() ProjectOrganizationPolicyBooleanPolicyOutputReference
@@ -32,6 +32,9 @@ type ProjectOrganizationPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type ProjectOrganizationPolicy interface {
 	PutRestorePolicy(value *ProjectOrganizationPolicyRestorePolicy)
 	PutTimeouts(value *ProjectOrganizationPolicyTimeouts)
 	ResetBooleanPolicy()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetListPolicy()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -241,6 +245,26 @@ func (j *jsiiProxy_ProjectOrganizationPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ProjectOrganizationPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ProjectOrganizationPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -507,7 +531,7 @@ func (j *jsiiProxy_ProjectOrganizationPolicy) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_organization_policy google_project_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/project_organization_policy google_project_organization_policy} Resource.
 func NewProjectOrganizationPolicy(scope constructs.Construct, id *string, config *ProjectOrganizationPolicyConfig) ProjectOrganizationPolicy {
 	_init_.Initialize()
 
@@ -525,7 +549,7 @@ func NewProjectOrganizationPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/project_organization_policy google_project_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/project_organization_policy google_project_organization_policy} Resource.
 func NewProjectOrganizationPolicy_Override(p ProjectOrganizationPolicy, scope constructs.Construct, id *string, config *ProjectOrganizationPolicyConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_ProjectOrganizationPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ProjectOrganizationPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1049,6 +1084,14 @@ func (p *jsiiProxy_ProjectOrganizationPolicy) ResetBooleanPolicy() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetBooleanPolicy",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_ProjectOrganizationPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

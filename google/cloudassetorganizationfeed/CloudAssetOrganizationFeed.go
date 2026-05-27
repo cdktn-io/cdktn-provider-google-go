@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_asset_organization_feed google_cloud_asset_organization_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_asset_organization_feed google_cloud_asset_organization_feed}.
 type CloudAssetOrganizationFeed interface {
 	cdktn.TerraformResource
 	AssetNames() *[]*string
@@ -41,6 +41,9 @@ type CloudAssetOrganizationFeed interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type CloudAssetOrganizationFeed interface {
 	ResetAssetTypes()
 	ResetCondition()
 	ResetContentType()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -306,6 +310,26 @@ func (j *jsiiProxy_CloudAssetOrganizationFeed) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudAssetOrganizationFeed) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudAssetOrganizationFeed) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +566,7 @@ func (j *jsiiProxy_CloudAssetOrganizationFeed) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_asset_organization_feed google_cloud_asset_organization_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_asset_organization_feed google_cloud_asset_organization_feed} Resource.
 func NewCloudAssetOrganizationFeed(scope constructs.Construct, id *string, config *CloudAssetOrganizationFeedConfig) CloudAssetOrganizationFeed {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewCloudAssetOrganizationFeed(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/cloud_asset_organization_feed google_cloud_asset_organization_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/cloud_asset_organization_feed google_cloud_asset_organization_feed} Resource.
 func NewCloudAssetOrganizationFeed_Override(c CloudAssetOrganizationFeed, scope constructs.Construct, id *string, config *CloudAssetOrganizationFeedConfig) {
 	_init_.Initialize()
 
@@ -633,6 +657,17 @@ func (j *jsiiProxy_CloudAssetOrganizationFeed)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudAssetOrganizationFeed)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1130,6 +1165,14 @@ func (c *jsiiProxy_CloudAssetOrganizationFeed) ResetContentType() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetContentType",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudAssetOrganizationFeed) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

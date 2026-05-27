@@ -111,6 +111,10 @@ func (j *jsiiProxy_IapSettings) validateSetCountParameters(val interface{}) erro
 	return nil
 }
 
+func (j *jsiiProxy_IapSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IapSettings) validateSetIdParameters(val *string) error {
 	return nil
 }

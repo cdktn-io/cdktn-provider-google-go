@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_subscription google_pubsub_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_subscription google_pubsub_subscription}.
 type PubsubSubscription interface {
 	cdktn.TerraformResource
 	AckDeadlineSeconds() *float64
@@ -36,6 +36,9 @@ type PubsubSubscription interface {
 	SetCount(val interface{})
 	DeadLetterPolicy() PubsubSubscriptionDeadLetterPolicyOutputReference
 	DeadLetterPolicyInput() *PubsubSubscriptionDeadLetterPolicy
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -170,6 +173,7 @@ type PubsubSubscription interface {
 	ResetBigqueryConfig()
 	ResetCloudStorageConfig()
 	ResetDeadLetterPolicy()
+	ResetDeletionPolicy()
 	ResetEnableExactlyOnceDelivery()
 	ResetEnableMessageOrdering()
 	ResetExpirationPolicy()
@@ -329,6 +333,26 @@ func (j *jsiiProxy_PubsubSubscription) DeadLetterPolicyInput() *PubsubSubscripti
 	_jsii_.Get(
 		j,
 		"deadLetterPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscription) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscription) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -795,7 +819,7 @@ func (j *jsiiProxy_PubsubSubscription) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
 func NewPubsubSubscription(scope constructs.Construct, id *string, config *PubsubSubscriptionConfig) PubsubSubscription {
 	_init_.Initialize()
 
@@ -813,7 +837,7 @@ func NewPubsubSubscription(scope constructs.Construct, id *string, config *Pubsu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
 func NewPubsubSubscription_Override(p PubsubSubscription, scope constructs.Construct, id *string, config *PubsubSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -853,6 +877,17 @@ func (j *jsiiProxy_PubsubSubscription)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PubsubSubscription)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1493,6 +1528,14 @@ func (p *jsiiProxy_PubsubSubscription) ResetDeadLetterPolicy() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetDeadLetterPolicy",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubSubscription) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

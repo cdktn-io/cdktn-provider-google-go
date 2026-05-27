@@ -119,6 +119,10 @@ func (j *jsiiProxy_OrganizationPolicy) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_OrganizationPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrganizationPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

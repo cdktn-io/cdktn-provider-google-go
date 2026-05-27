@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_attachment google_compute_network_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_attachment google_compute_network_attachment}.
 type ComputeNetworkAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type ComputeNetworkAttachment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type ComputeNetworkAttachment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeNetworkAttachmentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -250,6 +254,26 @@ func (j *jsiiProxy_ComputeNetworkAttachment) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkAttachment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkAttachment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -596,7 +620,7 @@ func (j *jsiiProxy_ComputeNetworkAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
 func NewComputeNetworkAttachment(scope constructs.Construct, id *string, config *ComputeNetworkAttachmentConfig) ComputeNetworkAttachment {
 	_init_.Initialize()
 
@@ -614,7 +638,7 @@ func NewComputeNetworkAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
 func NewComputeNetworkAttachment_Override(c ComputeNetworkAttachment, scope constructs.Construct, id *string, config *ComputeNetworkAttachmentConfig) {
 	_init_.Initialize()
 
@@ -654,6 +678,17 @@ func (j *jsiiProxy_ComputeNetworkAttachment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNetworkAttachment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (c *jsiiProxy_ComputeNetworkAttachment) PutTimeouts(value *ComputeNetworkAt
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkAttachment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

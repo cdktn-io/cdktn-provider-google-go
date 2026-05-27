@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group}.
 type NetworkSecurityInterceptDeploymentGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type NetworkSecurityInterceptDeploymentGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type NetworkSecurityInterceptDeploymentGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityInterceptDeploymentGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -227,6 +231,26 @@ func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) CreateTime() *string
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -583,7 +607,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
 func NewNetworkSecurityInterceptDeploymentGroup(scope constructs.Construct, id *string, config *NetworkSecurityInterceptDeploymentGroupConfig) NetworkSecurityInterceptDeploymentGroup {
 	_init_.Initialize()
 
@@ -601,7 +625,7 @@ func NewNetworkSecurityInterceptDeploymentGroup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
 func NewNetworkSecurityInterceptDeploymentGroup_Override(n NetworkSecurityInterceptDeploymentGroup, scope constructs.Construct, id *string, config *NetworkSecurityInterceptDeploymentGroupConfig) {
 	_init_.Initialize()
 
@@ -630,6 +654,17 @@ func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1118,6 +1153,14 @@ func (n *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) PutTimeouts(value *N
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

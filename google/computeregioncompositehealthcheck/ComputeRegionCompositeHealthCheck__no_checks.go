@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeRegionCompositeHealthCheck) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionCompositeHealthCheck) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionCompositeHealthCheck) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

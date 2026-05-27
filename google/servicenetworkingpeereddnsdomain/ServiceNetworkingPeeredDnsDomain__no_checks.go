@@ -103,6 +103,10 @@ func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateSetDnsSuffixParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/securityposture_posture_deployment google_securityposture_posture_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/securityposture_posture_deployment google_securityposture_posture_deployment}.
 type SecurityposturePostureDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type SecurityposturePostureDeployment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type SecurityposturePostureDeployment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SecurityposturePostureDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -218,6 +222,26 @@ func (j *jsiiProxy_SecurityposturePostureDeployment) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityposturePostureDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityposturePostureDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -604,7 +628,7 @@ func (j *jsiiProxy_SecurityposturePostureDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/securityposture_posture_deployment google_securityposture_posture_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/securityposture_posture_deployment google_securityposture_posture_deployment} Resource.
 func NewSecurityposturePostureDeployment(scope constructs.Construct, id *string, config *SecurityposturePostureDeploymentConfig) SecurityposturePostureDeployment {
 	_init_.Initialize()
 
@@ -622,7 +646,7 @@ func NewSecurityposturePostureDeployment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/securityposture_posture_deployment google_securityposture_posture_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/securityposture_posture_deployment google_securityposture_posture_deployment} Resource.
 func NewSecurityposturePostureDeployment_Override(s SecurityposturePostureDeployment, scope constructs.Construct, id *string, config *SecurityposturePostureDeploymentConfig) {
 	_init_.Initialize()
 
@@ -651,6 +675,17 @@ func (j *jsiiProxy_SecurityposturePostureDeployment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecurityposturePostureDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1150,6 +1185,14 @@ func (s *jsiiProxy_SecurityposturePostureDeployment) PutTimeouts(value *Security
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityposturePostureDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

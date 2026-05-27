@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config}.
 type IdentityPlatformTenantOauthIdpConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type IdentityPlatformTenantOauthIdpConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type IdentityPlatformTenantOauthIdpConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *IdentityPlatformTenantOauthIdpConfigTimeouts)
 	ResetClientSecret()
+	ResetDeletionPolicy()
 	ResetEnabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -244,6 +248,26 @@ func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -530,7 +554,7 @@ func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
 func NewIdentityPlatformTenantOauthIdpConfig(scope constructs.Construct, id *string, config *IdentityPlatformTenantOauthIdpConfigConfig) IdentityPlatformTenantOauthIdpConfig {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewIdentityPlatformTenantOauthIdpConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
 func NewIdentityPlatformTenantOauthIdpConfig_Override(i IdentityPlatformTenantOauthIdpConfig, scope constructs.Construct, id *string, config *IdentityPlatformTenantOauthIdpConfigConfig) {
 	_init_.Initialize()
 
@@ -599,6 +623,17 @@ func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1094,6 +1129,14 @@ func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) ResetClientSecret() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_DataprocAutoscalingPolicy) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_DataprocAutoscalingPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocAutoscalingPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

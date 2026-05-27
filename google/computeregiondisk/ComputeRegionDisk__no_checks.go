@@ -135,6 +135,10 @@ func (j *jsiiProxy_ComputeRegionDisk) validateSetCreateSnapshotBeforeDestroyPref
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionDisk) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionDisk) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

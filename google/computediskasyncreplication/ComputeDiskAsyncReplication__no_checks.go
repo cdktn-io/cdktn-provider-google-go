@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeDiskAsyncReplication) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_ComputeDiskAsyncReplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeDiskAsyncReplication) validateSetIdParameters(val *string) error {
 	return nil
 }

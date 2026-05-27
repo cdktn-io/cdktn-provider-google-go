@@ -143,6 +143,10 @@ func (j *jsiiProxy_ComputeDisk) validateSetCreateSnapshotBeforeDestroyPrefixPara
 	return nil
 }
 
+func (j *jsiiProxy_ComputeDisk) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeDisk) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

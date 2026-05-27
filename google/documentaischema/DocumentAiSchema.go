@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/document_ai_schema google_document_ai_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/document_ai_schema google_document_ai_schema}.
 type DocumentAiSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type DocumentAiSchema interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type DocumentAiSchema interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DocumentAiSchemaTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -207,6 +211,26 @@ func (j *jsiiProxy_DocumentAiSchema) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocumentAiSchema) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocumentAiSchema) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -493,7 +517,7 @@ func (j *jsiiProxy_DocumentAiSchema) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
 func NewDocumentAiSchema(scope constructs.Construct, id *string, config *DocumentAiSchemaConfig) DocumentAiSchema {
 	_init_.Initialize()
 
@@ -511,7 +535,7 @@ func NewDocumentAiSchema(scope constructs.Construct, id *string, config *Documen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
 func NewDocumentAiSchema_Override(d DocumentAiSchema, scope constructs.Construct, id *string, config *DocumentAiSchemaConfig) {
 	_init_.Initialize()
 
@@ -540,6 +564,17 @@ func (j *jsiiProxy_DocumentAiSchema)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DocumentAiSchema)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1006,6 +1041,14 @@ func (d *jsiiProxy_DocumentAiSchema) PutTimeouts(value *DocumentAiSchemaTimeouts
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DocumentAiSchema) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

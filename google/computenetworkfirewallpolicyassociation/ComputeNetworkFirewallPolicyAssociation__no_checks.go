@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyAssociation) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkFirewallPolicyAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkFirewallPolicyAssociation) validateSetFirewallPolicyParameters(val *string) error {
 	return nil
 }

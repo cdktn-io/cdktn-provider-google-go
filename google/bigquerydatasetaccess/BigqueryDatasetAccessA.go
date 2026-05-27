@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_dataset_access google_bigquery_dataset_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_dataset_access google_bigquery_dataset_access}.
 type BigqueryDatasetAccessA interface {
 	cdktn.TerraformResource
 	ApiUpdatedMember() cdktn.IResolvable
@@ -35,6 +35,9 @@ type BigqueryDatasetAccessA interface {
 	SetDatasetId(val *string)
 	DatasetIdInput() *string
 	DatasetInput() *BigqueryDatasetAccessDatasetA
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type BigqueryDatasetAccessA interface {
 	PutView(value *BigqueryDatasetAccessViewA)
 	ResetCondition()
 	ResetDataset()
+	ResetDeletionPolicy()
 	ResetDomain()
 	ResetGroupByEmail()
 	ResetIamMember()
@@ -295,6 +299,26 @@ func (j *jsiiProxy_BigqueryDatasetAccessA) DatasetInput() *BigqueryDatasetAccess
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryDatasetAccessA) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryDatasetAccessA) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -641,7 +665,7 @@ func (j *jsiiProxy_BigqueryDatasetAccessA) ViewInput() *BigqueryDatasetAccessVie
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_dataset_access google_bigquery_dataset_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_dataset_access google_bigquery_dataset_access} Resource.
 func NewBigqueryDatasetAccessA(scope constructs.Construct, id *string, config *BigqueryDatasetAccessAConfig) BigqueryDatasetAccessA {
 	_init_.Initialize()
 
@@ -659,7 +683,7 @@ func NewBigqueryDatasetAccessA(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_dataset_access google_bigquery_dataset_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_dataset_access google_bigquery_dataset_access} Resource.
 func NewBigqueryDatasetAccessA_Override(b BigqueryDatasetAccessA, scope constructs.Construct, id *string, config *BigqueryDatasetAccessAConfig) {
 	_init_.Initialize()
 
@@ -699,6 +723,17 @@ func (j *jsiiProxy_BigqueryDatasetAccessA)SetDatasetId(val *string) {
 	_jsii_.Set(
 		j,
 		"datasetId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryDatasetAccessA)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1257,6 +1292,14 @@ func (b *jsiiProxy_BigqueryDatasetAccessA) ResetDataset() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDataset",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryDatasetAccessA) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

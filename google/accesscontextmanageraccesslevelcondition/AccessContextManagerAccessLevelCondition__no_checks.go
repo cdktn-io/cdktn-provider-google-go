@@ -115,6 +115,10 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) validateSetCountPar
 	return nil
 }
 
+func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -79,6 +79,10 @@ func (j *jsiiProxy_HypercomputeclusterClusterStorageResourcesConfigNewLustreOutp
 	return nil
 }
 
+func (j *jsiiProxy_HypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) validateSetPerUnitStorageThroughputParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

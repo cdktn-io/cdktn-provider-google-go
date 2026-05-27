@@ -44,6 +44,7 @@ type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 	LustreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigLustreCsiDriverConfigList
 	NetworkPolicyConfig() DataGoogleContainerClusterAddonsConfigNetworkPolicyConfigList
 	ParallelstoreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigList
+	PodSnapshotConfig() DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList
 	RayOperatorConfig() DataGoogleContainerClusterAddonsConfigRayOperatorConfigList
 	SliceControllerConfig() DataGoogleContainerClusterAddonsConfigSliceControllerConfigList
 	StatefulHaConfig() DataGoogleContainerClusterAddonsConfigStatefulHaConfigList
@@ -259,6 +260,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) Parall
 	_jsii_.Get(
 		j,
 		"parallelstoreCsiDriverConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) PodSnapshotConfig() DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList
+	_jsii_.Get(
+		j,
+		"podSnapshotConfig",
 		&returns,
 	)
 	return returns

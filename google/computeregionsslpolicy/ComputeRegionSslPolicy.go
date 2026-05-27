@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy}.
 type ComputeRegionSslPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type ComputeRegionSslPolicy interface {
 	CustomFeatures() *[]*string
 	SetCustomFeatures(val *[]*string)
 	CustomFeaturesInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type ComputeRegionSslPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeRegionSslPolicyTimeouts)
 	ResetCustomFeatures()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetMinTlsVersion()
@@ -238,6 +242,26 @@ func (j *jsiiProxy_ComputeRegionSslPolicy) CustomFeaturesInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"customFeaturesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionSslPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionSslPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -554,7 +578,7 @@ func (j *jsiiProxy_ComputeRegionSslPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
 func NewComputeRegionSslPolicy(scope constructs.Construct, id *string, config *ComputeRegionSslPolicyConfig) ComputeRegionSslPolicy {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewComputeRegionSslPolicy(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
 func NewComputeRegionSslPolicy_Override(c ComputeRegionSslPolicy, scope constructs.Construct, id *string, config *ComputeRegionSslPolicyConfig) {
 	_init_.Initialize()
 
@@ -612,6 +636,17 @@ func (j *jsiiProxy_ComputeRegionSslPolicy)SetCustomFeatures(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"customFeatures",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionSslPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1107,6 +1142,14 @@ func (c *jsiiProxy_ComputeRegionSslPolicy) ResetCustomFeatures() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetCustomFeatures",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionSslPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

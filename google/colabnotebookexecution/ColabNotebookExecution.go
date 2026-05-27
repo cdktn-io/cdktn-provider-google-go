@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_notebook_execution google_colab_notebook_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_notebook_execution google_colab_notebook_execution}.
 type ColabNotebookExecution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type ColabNotebookExecution interface {
 	CustomEnvironmentSpecInput() *ColabNotebookExecutionCustomEnvironmentSpec
 	DataformRepositorySource() ColabNotebookExecutionDataformRepositorySourceOutputReference
 	DataformRepositorySourceInput() *ColabNotebookExecutionDataformRepositorySource
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type ColabNotebookExecution interface {
 	PutTimeouts(value *ColabNotebookExecutionTimeouts)
 	ResetCustomEnvironmentSpec()
 	ResetDataformRepositorySource()
+	ResetDeletionPolicy()
 	ResetDirectNotebookSource()
 	ResetExecutionTimeout()
 	ResetExecutionUser()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_ColabNotebookExecution) DataformRepositorySourceInput() *Cola
 	_jsii_.Get(
 		j,
 		"dataformRepositorySourceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecution) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecution) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -652,7 +676,7 @@ func (j *jsiiProxy_ColabNotebookExecution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewColabNotebookExecution(scope constructs.Construct, id *string, config *ColabNotebookExecutionConfig) ColabNotebookExecution {
 	_init_.Initialize()
 
@@ -670,7 +694,7 @@ func NewColabNotebookExecution(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewColabNotebookExecution_Override(c ColabNotebookExecution, scope constructs.Construct, id *string, config *ColabNotebookExecutionConfig) {
 	_init_.Initialize()
 
@@ -699,6 +723,17 @@ func (j *jsiiProxy_ColabNotebookExecution)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ColabNotebookExecution)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1279,6 +1314,14 @@ func (c *jsiiProxy_ColabNotebookExecution) ResetDataformRepositorySource() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDataformRepositorySource",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabNotebookExecution) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

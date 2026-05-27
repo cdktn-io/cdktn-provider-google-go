@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
 type NetworkSecurityMirroringEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type NetworkSecurityMirroringEndpoint interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type NetworkSecurityMirroringEndpoint interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetworkSecurityMirroringEndpointTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -215,6 +219,26 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -561,7 +585,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
 func NewNetworkSecurityMirroringEndpoint(scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointConfig) NetworkSecurityMirroringEndpoint {
 	_init_.Initialize()
 
@@ -579,7 +603,7 @@ func NewNetworkSecurityMirroringEndpoint(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
 func NewNetworkSecurityMirroringEndpoint_Override(n NetworkSecurityMirroringEndpoint, scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointConfig) {
 	_init_.Initialize()
 
@@ -608,6 +632,17 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpoint)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityMirroringEndpoint)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1096,6 +1131,14 @@ func (n *jsiiProxy_NetworkSecurityMirroringEndpoint) PutTimeouts(value *NetworkS
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityMirroringEndpoint) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

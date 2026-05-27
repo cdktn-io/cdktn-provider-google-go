@@ -127,6 +127,10 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfile) validateSetCountPa
 	return nil
 }
 
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfile) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfile) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfile) validateSetProject
 }
 
 func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfile) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DatabaseMigrationServiceConnectionProfile) validateSetRoleParameters(val *string) error {
 	return nil
 }
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_MlEngineModel) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_MlEngineModel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MlEngineModel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -87,6 +87,10 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutPerformanceC
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutPostgresHomogeneousConfigParameters(value *DatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutReverseSshConnectivityParameters(value *DatabaseMigrationServiceMigrationJobReverseSshConnectivity) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetConnectionPa
 }
 
 func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

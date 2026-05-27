@@ -135,6 +135,10 @@ func (j *jsiiProxy_ComputeImage) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_ComputeImage) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeImage) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

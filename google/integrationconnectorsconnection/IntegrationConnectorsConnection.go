@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integration_connectors_connection google_integration_connectors_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integration_connectors_connection google_integration_connectors_connection}.
 type IntegrationConnectorsConnection interface {
 	cdktn.TerraformResource
 	AuthConfig() IntegrationConnectorsConnectionAuthConfigOutputReference
@@ -38,6 +38,9 @@ type IntegrationConnectorsConnection interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -174,6 +177,7 @@ type IntegrationConnectorsConnection interface {
 	PutTimeouts(value *IntegrationConnectorsConnectionTimeouts)
 	ResetAuthConfig()
 	ResetConfigVariable()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDestinationConfig()
 	ResetEventingConfig()
@@ -353,6 +357,26 @@ func (j *jsiiProxy_IntegrationConnectorsConnection) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -869,7 +893,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
 func NewIntegrationConnectorsConnection(scope constructs.Construct, id *string, config *IntegrationConnectorsConnectionConfig) IntegrationConnectorsConnection {
 	_init_.Initialize()
 
@@ -887,7 +911,7 @@ func NewIntegrationConnectorsConnection(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
 func NewIntegrationConnectorsConnection_Override(i IntegrationConnectorsConnection, scope constructs.Construct, id *string, config *IntegrationConnectorsConnectionConfig) {
 	_init_.Initialize()
 
@@ -927,6 +951,17 @@ func (j *jsiiProxy_IntegrationConnectorsConnection)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1540,6 +1575,14 @@ func (i *jsiiProxy_IntegrationConnectorsConnection) ResetConfigVariable() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetConfigVariable",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

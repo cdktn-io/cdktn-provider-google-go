@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy}.
 type FirebaseAppCheckResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type FirebaseAppCheckResourcePolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type FirebaseAppCheckResourcePolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *FirebaseAppCheckResourcePolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetEnforcementMode()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_FirebaseAppCheckResourcePolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirebaseAppCheckResourcePolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirebaseAppCheckResourcePolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -470,7 +494,7 @@ func (j *jsiiProxy_FirebaseAppCheckResourcePolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
 func NewFirebaseAppCheckResourcePolicy(scope constructs.Construct, id *string, config *FirebaseAppCheckResourcePolicyConfig) FirebaseAppCheckResourcePolicy {
 	_init_.Initialize()
 
@@ -488,7 +512,7 @@ func NewFirebaseAppCheckResourcePolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
 func NewFirebaseAppCheckResourcePolicy_Override(f FirebaseAppCheckResourcePolicy, scope constructs.Construct, id *string, config *FirebaseAppCheckResourcePolicyConfig) {
 	_init_.Initialize()
 
@@ -517,6 +541,17 @@ func (j *jsiiProxy_FirebaseAppCheckResourcePolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirebaseAppCheckResourcePolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -983,6 +1018,14 @@ func (f *jsiiProxy_FirebaseAppCheckResourcePolicy) PutTimeouts(value *FirebaseAp
 		f,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (f *jsiiProxy_FirebaseAppCheckResourcePolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

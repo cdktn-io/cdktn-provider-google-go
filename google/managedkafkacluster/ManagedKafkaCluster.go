@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster}.
 type ManagedKafkaCluster interface {
 	cdktn.TerraformResource
 	BrokerCapacityConfig() ManagedKafkaClusterBrokerCapacityConfigOutputReference
@@ -35,6 +35,9 @@ type ManagedKafkaCluster interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type ManagedKafkaCluster interface {
 	PutTimeouts(value *ManagedKafkaClusterTimeouts)
 	PutTlsConfig(value *ManagedKafkaClusterTlsConfig)
 	ResetBrokerCapacityConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -285,6 +289,26 @@ func (j *jsiiProxy_ManagedKafkaCluster) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -621,7 +645,7 @@ func (j *jsiiProxy_ManagedKafkaCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
 func NewManagedKafkaCluster(scope constructs.Construct, id *string, config *ManagedKafkaClusterConfig) ManagedKafkaCluster {
 	_init_.Initialize()
 
@@ -639,7 +663,7 @@ func NewManagedKafkaCluster(scope constructs.Construct, id *string, config *Mana
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
 func NewManagedKafkaCluster_Override(m ManagedKafkaCluster, scope constructs.Construct, id *string, config *ManagedKafkaClusterConfig) {
 	_init_.Initialize()
 
@@ -679,6 +703,17 @@ func (j *jsiiProxy_ManagedKafkaCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1196,6 +1231,14 @@ func (m *jsiiProxy_ManagedKafkaCluster) ResetBrokerCapacityConfig() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetBrokerCapacityConfig",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_ManagedKafkaCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_IntegrationsAuthConfig) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_IntegrationsAuthConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IntegrationsAuthConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_SpannerInstance) validateSetDefaultBackupScheduleTypeParamete
 	return nil
 }
 
+func (j *jsiiProxy_SpannerInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SpannerInstance) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

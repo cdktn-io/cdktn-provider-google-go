@@ -115,6 +115,10 @@ func (j *jsiiProxy_IamFoldersPolicyBinding) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_IamFoldersPolicyBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamFoldersPolicyBinding) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

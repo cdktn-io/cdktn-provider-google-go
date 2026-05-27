@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_backup_policy google_netapp_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_backup_policy google_netapp_backup_policy}.
 type NetappBackupPolicy interface {
 	cdktn.TerraformResource
 	AssignedVolumeCount() *float64
@@ -32,6 +32,9 @@ type NetappBackupPolicy interface {
 	DailyBackupLimit() *float64
 	SetDailyBackupLimit(val *float64)
 	DailyBackupLimitInput() *float64
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type NetappBackupPolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetappBackupPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnabled()
 	ResetId()
@@ -253,6 +257,26 @@ func (j *jsiiProxy_NetappBackupPolicy) DailyBackupLimitInput() *float64 {
 	_jsii_.Get(
 		j,
 		"dailyBackupLimitInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappBackupPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappBackupPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -609,7 +633,7 @@ func (j *jsiiProxy_NetappBackupPolicy) WeeklyBackupLimitInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) NetappBackupPolicy {
 	_init_.Initialize()
 
@@ -627,7 +651,7 @@ func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *Netap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_backup_policy google_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy_Override(n NetappBackupPolicy, scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) {
 	_init_.Initialize()
 
@@ -667,6 +691,17 @@ func (j *jsiiProxy_NetappBackupPolicy)SetDailyBackupLimit(val *float64) {
 	_jsii_.Set(
 		j,
 		"dailyBackupLimit",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappBackupPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1177,6 +1212,14 @@ func (n *jsiiProxy_NetappBackupPolicy) PutTimeouts(value *NetappBackupPolicyTime
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetappBackupPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

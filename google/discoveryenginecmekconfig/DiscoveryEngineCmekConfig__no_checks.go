@@ -111,6 +111,10 @@ func (j *jsiiProxy_DiscoveryEngineCmekConfig) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineCmekConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineCmekConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

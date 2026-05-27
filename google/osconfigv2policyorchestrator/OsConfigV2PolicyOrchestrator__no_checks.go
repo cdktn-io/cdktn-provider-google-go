@@ -115,6 +115,10 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestrator) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_OsConfigV2PolicyOrchestrator) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OsConfigV2PolicyOrchestrator) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

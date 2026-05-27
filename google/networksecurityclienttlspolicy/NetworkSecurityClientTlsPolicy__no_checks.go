@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

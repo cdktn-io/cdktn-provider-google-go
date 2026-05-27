@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_packet_mirroring google_compute_packet_mirroring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_packet_mirroring google_compute_packet_mirroring}.
 type ComputePacketMirroring interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type ComputePacketMirroring interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type ComputePacketMirroring interface {
 	PutMirroredResources(value *ComputePacketMirroringMirroredResources)
 	PutNetwork(value *ComputePacketMirroringNetwork)
 	PutTimeouts(value *ComputePacketMirroringTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnable()
 	ResetFilter()
@@ -233,6 +237,26 @@ func (j *jsiiProxy_ComputePacketMirroring) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePacketMirroring) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputePacketMirroring) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -579,7 +603,7 @@ func (j *jsiiProxy_ComputePacketMirroring) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_packet_mirroring google_compute_packet_mirroring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_packet_mirroring google_compute_packet_mirroring} Resource.
 func NewComputePacketMirroring(scope constructs.Construct, id *string, config *ComputePacketMirroringConfig) ComputePacketMirroring {
 	_init_.Initialize()
 
@@ -597,7 +621,7 @@ func NewComputePacketMirroring(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_packet_mirroring google_compute_packet_mirroring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_packet_mirroring google_compute_packet_mirroring} Resource.
 func NewComputePacketMirroring_Override(c ComputePacketMirroring, scope constructs.Construct, id *string, config *ComputePacketMirroringConfig) {
 	_init_.Initialize()
 
@@ -626,6 +650,17 @@ func (j *jsiiProxy_ComputePacketMirroring)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputePacketMirroring)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1158,6 +1193,14 @@ func (c *jsiiProxy_ComputePacketMirroring) PutTimeouts(value *ComputePacketMirro
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputePacketMirroring) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

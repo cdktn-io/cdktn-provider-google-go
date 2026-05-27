@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_resource_policy google_compute_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_resource_policy google_compute_resource_policy}.
 type ComputeResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeResourcePolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type ComputeResourcePolicy interface {
 	PutSnapshotSchedulePolicy(value *ComputeResourcePolicySnapshotSchedulePolicy)
 	PutTimeouts(value *ComputeResourcePolicyTimeouts)
 	PutWorkloadPolicy(value *ComputeResourcePolicyWorkloadPolicy)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDiskConsistencyGroupPolicy()
 	ResetGroupPlacementPolicy()
@@ -213,6 +217,26 @@ func (j *jsiiProxy_ComputeResourcePolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeResourcePolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeResourcePolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -569,7 +593,7 @@ func (j *jsiiProxy_ComputeResourcePolicy) WorkloadPolicyInput() *ComputeResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
 func NewComputeResourcePolicy(scope constructs.Construct, id *string, config *ComputeResourcePolicyConfig) ComputeResourcePolicy {
 	_init_.Initialize()
 
@@ -587,7 +611,7 @@ func NewComputeResourcePolicy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
 func NewComputeResourcePolicy_Override(c ComputeResourcePolicy, scope constructs.Construct, id *string, config *ComputeResourcePolicyConfig) {
 	_init_.Initialize()
 
@@ -616,6 +640,17 @@ func (j *jsiiProxy_ComputeResourcePolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeResourcePolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1137,6 +1172,14 @@ func (c *jsiiProxy_ComputeResourcePolicy) PutWorkloadPolicy(value *ComputeResour
 		c,
 		"putWorkloadPolicy",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeResourcePolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

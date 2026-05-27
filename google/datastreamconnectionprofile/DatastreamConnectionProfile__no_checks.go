@@ -147,6 +147,10 @@ func (j *jsiiProxy_DatastreamConnectionProfile) validateSetCreateWithoutValidati
 	return nil
 }
 
+func (j *jsiiProxy_DatastreamConnectionProfile) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatastreamConnectionProfile) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

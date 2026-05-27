@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputePacketMirroring) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_ComputePacketMirroring) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputePacketMirroring) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

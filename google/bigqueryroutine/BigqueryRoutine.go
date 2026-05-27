@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_routine google_bigquery_routine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_routine google_bigquery_routine}.
 type BigqueryRoutine interface {
 	cdktn.TerraformResource
 	Arguments() BigqueryRoutineArgumentsList
@@ -39,6 +39,9 @@ type BigqueryRoutine interface {
 	DefinitionBody() *string
 	SetDefinitionBody(val *string)
 	DefinitionBodyInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -162,6 +165,7 @@ type BigqueryRoutine interface {
 	PutTimeouts(value *BigqueryRoutineTimeouts)
 	ResetArguments()
 	ResetDataGovernanceType()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDeterminismLevel()
 	ResetId()
@@ -329,6 +333,26 @@ func (j *jsiiProxy_BigqueryRoutine) DefinitionBodyInput() *string {
 	_jsii_.Get(
 		j,
 		"definitionBodyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryRoutine) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryRoutine) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -745,7 +769,7 @@ func (j *jsiiProxy_BigqueryRoutine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_routine google_bigquery_routine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_routine google_bigquery_routine} Resource.
 func NewBigqueryRoutine(scope constructs.Construct, id *string, config *BigqueryRoutineConfig) BigqueryRoutine {
 	_init_.Initialize()
 
@@ -763,7 +787,7 @@ func NewBigqueryRoutine(scope constructs.Construct, id *string, config *Bigquery
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/bigquery_routine google_bigquery_routine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/bigquery_routine google_bigquery_routine} Resource.
 func NewBigqueryRoutine_Override(b BigqueryRoutine, scope constructs.Construct, id *string, config *BigqueryRoutineConfig) {
 	_init_.Initialize()
 
@@ -825,6 +849,17 @@ func (j *jsiiProxy_BigqueryRoutine)SetDefinitionBody(val *string) {
 	_jsii_.Set(
 		j,
 		"definitionBody",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryRoutine)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1405,6 +1440,14 @@ func (b *jsiiProxy_BigqueryRoutine) ResetDataGovernanceType() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDataGovernanceType",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryRoutine) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

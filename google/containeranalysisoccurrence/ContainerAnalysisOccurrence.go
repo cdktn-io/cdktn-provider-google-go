@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence}.
 type ContainerAnalysisOccurrence interface {
 	cdktn.TerraformResource
 	Attestation() ContainerAnalysisOccurrenceAttestationOutputReference
@@ -30,6 +30,9 @@ type ContainerAnalysisOccurrence interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type ContainerAnalysisOccurrence interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAttestation(value *ContainerAnalysisOccurrenceAttestation)
 	PutTimeouts(value *ContainerAnalysisOccurrenceTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_ContainerAnalysisOccurrence) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAnalysisOccurrence) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAnalysisOccurrence) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -504,7 +528,7 @@ func (j *jsiiProxy_ContainerAnalysisOccurrence) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
 func NewContainerAnalysisOccurrence(scope constructs.Construct, id *string, config *ContainerAnalysisOccurrenceConfig) ContainerAnalysisOccurrence {
 	_init_.Initialize()
 
@@ -522,7 +546,7 @@ func NewContainerAnalysisOccurrence(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_analysis_occurrence google_container_analysis_occurrence} Resource.
 func NewContainerAnalysisOccurrence_Override(c ContainerAnalysisOccurrence, scope constructs.Construct, id *string, config *ContainerAnalysisOccurrenceConfig) {
 	_init_.Initialize()
 
@@ -551,6 +575,17 @@ func (j *jsiiProxy_ContainerAnalysisOccurrence)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerAnalysisOccurrence)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1028,6 +1063,14 @@ func (c *jsiiProxy_ContainerAnalysisOccurrence) PutTimeouts(value *ContainerAnal
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerAnalysisOccurrence) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

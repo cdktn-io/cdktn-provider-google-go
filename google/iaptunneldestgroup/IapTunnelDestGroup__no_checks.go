@@ -107,6 +107,10 @@ func (j *jsiiProxy_IapTunnelDestGroup) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_IapTunnelDestGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IapTunnelDestGroup) validateSetFqdnsParameters(val *[]*string) error {
 	return nil
 }

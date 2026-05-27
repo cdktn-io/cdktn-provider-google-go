@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/sql_source_representation_instance google_sql_source_representation_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/sql_source_representation_instance google_sql_source_representation_instance}.
 type SqlSourceRepresentationInstance interface {
 	cdktn.TerraformResource
 	CaCertificate() *string
@@ -39,6 +39,9 @@ type SqlSourceRepresentationInstance interface {
 	DatabaseVersion() *string
 	SetDatabaseVersion(val *string)
 	DatabaseVersionInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type SqlSourceRepresentationInstance interface {
 	ResetCaCertificate()
 	ResetClientCertificate()
 	ResetClientKey()
+	ResetDeletionPolicy()
 	ResetDumpFilePath()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -302,6 +306,26 @@ func (j *jsiiProxy_SqlSourceRepresentationInstance) DatabaseVersionInput() *stri
 	_jsii_.Get(
 		j,
 		"databaseVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlSourceRepresentationInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlSourceRepresentationInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -628,7 +652,7 @@ func (j *jsiiProxy_SqlSourceRepresentationInstance) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/sql_source_representation_instance google_sql_source_representation_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/sql_source_representation_instance google_sql_source_representation_instance} Resource.
 func NewSqlSourceRepresentationInstance(scope constructs.Construct, id *string, config *SqlSourceRepresentationInstanceConfig) SqlSourceRepresentationInstance {
 	_init_.Initialize()
 
@@ -646,7 +670,7 @@ func NewSqlSourceRepresentationInstance(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/sql_source_representation_instance google_sql_source_representation_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/sql_source_representation_instance google_sql_source_representation_instance} Resource.
 func NewSqlSourceRepresentationInstance_Override(s SqlSourceRepresentationInstance, scope constructs.Construct, id *string, config *SqlSourceRepresentationInstanceConfig) {
 	_init_.Initialize()
 
@@ -719,6 +743,17 @@ func (j *jsiiProxy_SqlSourceRepresentationInstance)SetDatabaseVersion(val *strin
 	_jsii_.Set(
 		j,
 		"databaseVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlSourceRepresentationInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1252,6 +1287,14 @@ func (s *jsiiProxy_SqlSourceRepresentationInstance) ResetClientKey() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetClientKey",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlSourceRepresentationInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

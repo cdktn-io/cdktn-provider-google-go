@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_project_custom_module google_scc_project_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_project_custom_module google_scc_project_custom_module}.
 type SccProjectCustomModule interface {
 	cdktn.TerraformResource
 	AncestorModule() *string
@@ -30,6 +30,9 @@ type SccProjectCustomModule interface {
 	SetCount(val interface{})
 	CustomConfig() SccProjectCustomModuleCustomConfigOutputReference
 	CustomConfigInput() *SccProjectCustomModuleCustomConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type SccProjectCustomModule interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCustomConfig(value *SccProjectCustomModuleCustomConfig)
 	PutTimeouts(value *SccProjectCustomModuleTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -224,6 +228,26 @@ func (j *jsiiProxy_SccProjectCustomModule) CustomConfigInput() *SccProjectCustom
 	_jsii_.Get(
 		j,
 		"customConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccProjectCustomModule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccProjectCustomModule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -480,7 +504,7 @@ func (j *jsiiProxy_SccProjectCustomModule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_project_custom_module google_scc_project_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_project_custom_module google_scc_project_custom_module} Resource.
 func NewSccProjectCustomModule(scope constructs.Construct, id *string, config *SccProjectCustomModuleConfig) SccProjectCustomModule {
 	_init_.Initialize()
 
@@ -498,7 +522,7 @@ func NewSccProjectCustomModule(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_project_custom_module google_scc_project_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_project_custom_module google_scc_project_custom_module} Resource.
 func NewSccProjectCustomModule_Override(s SccProjectCustomModule, scope constructs.Construct, id *string, config *SccProjectCustomModuleConfig) {
 	_init_.Initialize()
 
@@ -527,6 +551,17 @@ func (j *jsiiProxy_SccProjectCustomModule)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccProjectCustomModule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -993,6 +1028,14 @@ func (s *jsiiProxy_SccProjectCustomModule) PutTimeouts(value *SccProjectCustomMo
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccProjectCustomModule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

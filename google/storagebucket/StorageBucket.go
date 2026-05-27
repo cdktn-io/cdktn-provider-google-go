@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket google_storage_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket google_storage_bucket}.
 type StorageBucket interface {
 	cdktn.TerraformResource
 	Autoclass() StorageBucketAutoclassOutputReference
@@ -36,6 +36,9 @@ type StorageBucket interface {
 	DefaultEventBasedHold() interface{}
 	SetDefaultEventBasedHold(val interface{})
 	DefaultEventBasedHoldInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -193,6 +196,7 @@ type StorageBucket interface {
 	ResetCors()
 	ResetCustomPlacementConfig()
 	ResetDefaultEventBasedHold()
+	ResetDeletionPolicy()
 	ResetEnableObjectRetention()
 	ResetEncryption()
 	ResetForceDestroy()
@@ -358,6 +362,26 @@ func (j *jsiiProxy_StorageBucket) DefaultEventBasedHoldInput() interface{} {
 	_jsii_.Get(
 		j,
 		"defaultEventBasedHoldInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucket) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBucket) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -994,7 +1018,7 @@ func (j *jsiiProxy_StorageBucket) WebsiteInput() *StorageBucketWebsite {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket google_storage_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket google_storage_bucket} Resource.
 func NewStorageBucket(scope constructs.Construct, id *string, config *StorageBucketConfig) StorageBucket {
 	_init_.Initialize()
 
@@ -1012,7 +1036,7 @@ func NewStorageBucket(scope constructs.Construct, id *string, config *StorageBuc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_bucket google_storage_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_bucket google_storage_bucket} Resource.
 func NewStorageBucket_Override(s StorageBucket, scope constructs.Construct, id *string, config *StorageBucketConfig) {
 	_init_.Initialize()
 
@@ -1052,6 +1076,17 @@ func (j *jsiiProxy_StorageBucket)SetDefaultEventBasedHold(val interface{}) {
 	_jsii_.Set(
 		j,
 		"defaultEventBasedHold",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageBucket)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1758,6 +1793,14 @@ func (s *jsiiProxy_StorageBucket) ResetDefaultEventBasedHold() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDefaultEventBasedHold",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBucket) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

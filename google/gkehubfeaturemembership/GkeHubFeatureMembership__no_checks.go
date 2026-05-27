@@ -115,6 +115,10 @@ func (j *jsiiProxy_GkeHubFeatureMembership) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GkeHubFeatureMembership) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeHubFeatureMembership) validateSetFeatureParameters(val *string) error {
 	return nil
 }

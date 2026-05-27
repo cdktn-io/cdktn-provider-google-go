@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_attached_disk google_compute_attached_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_attached_disk google_compute_attached_disk}.
 type ComputeAttachedDisk interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeAttachedDisk interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type ComputeAttachedDisk interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeAttachedDiskTimeouts)
+	ResetDeletionPolicy()
 	ResetDeviceName()
 	ResetId()
 	ResetInterface()
@@ -203,6 +207,26 @@ func (j *jsiiProxy_ComputeAttachedDisk) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeAttachedDisk) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeAttachedDisk) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -509,7 +533,7 @@ func (j *jsiiProxy_ComputeAttachedDisk) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_attached_disk google_compute_attached_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_attached_disk google_compute_attached_disk} Resource.
 func NewComputeAttachedDisk(scope constructs.Construct, id *string, config *ComputeAttachedDiskConfig) ComputeAttachedDisk {
 	_init_.Initialize()
 
@@ -527,7 +551,7 @@ func NewComputeAttachedDisk(scope constructs.Construct, id *string, config *Comp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_attached_disk google_compute_attached_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_attached_disk google_compute_attached_disk} Resource.
 func NewComputeAttachedDisk_Override(c ComputeAttachedDisk, scope constructs.Construct, id *string, config *ComputeAttachedDiskConfig) {
 	_init_.Initialize()
 
@@ -556,6 +580,17 @@ func (j *jsiiProxy_ComputeAttachedDisk)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeAttachedDisk)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1055,6 +1090,14 @@ func (c *jsiiProxy_ComputeAttachedDisk) PutTimeouts(value *ComputeAttachedDiskTi
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeAttachedDisk) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

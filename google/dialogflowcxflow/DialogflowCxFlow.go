@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_cx_flow google_dialogflow_cx_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_cx_flow google_dialogflow_cx_flow}.
 type DialogflowCxFlow interface {
 	cdktn.TerraformResource
 	AdvancedSettings() DialogflowCxFlowAdvancedSettingsOutputReference
@@ -29,6 +29,9 @@ type DialogflowCxFlow interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type DialogflowCxFlow interface {
 	PutTimeouts(value *DialogflowCxFlowTimeouts)
 	PutTransitionRoutes(value interface{})
 	ResetAdvancedSettings()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEventHandlers()
 	ResetId()
@@ -241,6 +245,26 @@ func (j *jsiiProxy_DialogflowCxFlow) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxFlow) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowCxFlow) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -617,7 +641,7 @@ func (j *jsiiProxy_DialogflowCxFlow) TransitionRoutesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
 func NewDialogflowCxFlow(scope constructs.Construct, id *string, config *DialogflowCxFlowConfig) DialogflowCxFlow {
 	_init_.Initialize()
 
@@ -635,7 +659,7 @@ func NewDialogflowCxFlow(scope constructs.Construct, id *string, config *Dialogf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
 func NewDialogflowCxFlow_Override(d DialogflowCxFlow, scope constructs.Construct, id *string, config *DialogflowCxFlowConfig) {
 	_init_.Initialize()
 
@@ -664,6 +688,17 @@ func (j *jsiiProxy_DialogflowCxFlow)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DialogflowCxFlow)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (d *jsiiProxy_DialogflowCxFlow) ResetAdvancedSettings() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAdvancedSettings",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowCxFlow) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

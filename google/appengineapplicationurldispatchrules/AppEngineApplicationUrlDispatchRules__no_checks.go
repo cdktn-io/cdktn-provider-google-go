@@ -107,6 +107,10 @@ func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateSetIdParameters(val *string) error {
 	return nil
 }

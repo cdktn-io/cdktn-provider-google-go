@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_cluster google_container_cluster}.
 type ContainerCluster interface {
 	cdktn.TerraformResource
 	AddonsConfig() ContainerClusterAddonsConfigOutputReference
@@ -64,6 +64,9 @@ type ContainerCluster interface {
 	DefaultMaxPodsPerNodeInput() *float64
 	DefaultSnatStatus() ContainerClusterDefaultSnatStatusOutputReference
 	DefaultSnatStatusInput() *ContainerClusterDefaultSnatStatus
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -238,6 +241,8 @@ type ContainerCluster interface {
 	ResourceUsageExportConfigInput() *ContainerClusterResourceUsageExportConfig
 	SecretManagerConfig() ContainerClusterSecretManagerConfigOutputReference
 	SecretManagerConfigInput() *ContainerClusterSecretManagerConfig
+	SecretSyncConfig() ContainerClusterSecretSyncConfigOutputReference
+	SecretSyncConfigInput() *ContainerClusterSecretSyncConfig
 	SecurityPostureConfig() ContainerClusterSecurityPostureConfigOutputReference
 	SecurityPostureConfigInput() *ContainerClusterSecurityPostureConfig
 	SelfLink() *string
@@ -344,6 +349,7 @@ type ContainerCluster interface {
 	PutReleaseChannel(value *ContainerClusterReleaseChannel)
 	PutResourceUsageExportConfig(value *ContainerClusterResourceUsageExportConfig)
 	PutSecretManagerConfig(value *ContainerClusterSecretManagerConfig)
+	PutSecretSyncConfig(value *ContainerClusterSecretSyncConfig)
 	PutSecurityPostureConfig(value *ContainerClusterSecurityPostureConfig)
 	PutServiceExternalIpsConfig(value *ContainerClusterServiceExternalIpsConfig)
 	PutTimeouts(value *ContainerClusterTimeouts)
@@ -366,6 +372,7 @@ type ContainerCluster interface {
 	ResetDatapathProvider()
 	ResetDefaultMaxPodsPerNode()
 	ResetDefaultSnatStatus()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
 	ResetDisableL4LbFirewallReconciliation()
@@ -424,6 +431,7 @@ type ContainerCluster interface {
 	ResetResourceLabels()
 	ResetResourceUsageExportConfig()
 	ResetSecretManagerConfig()
+	ResetSecretSyncConfig()
 	ResetSecurityPostureConfig()
 	ResetServiceExternalIpsConfig()
 	ResetSubnetwork()
@@ -813,6 +821,26 @@ func (j *jsiiProxy_ContainerCluster) DefaultSnatStatusInput() *ContainerClusterD
 	_jsii_.Get(
 		j,
 		"defaultSnatStatusInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -2078,6 +2106,26 @@ func (j *jsiiProxy_ContainerCluster) SecretManagerConfigInput() *ContainerCluste
 	return returns
 }
 
+func (j *jsiiProxy_ContainerCluster) SecretSyncConfig() ContainerClusterSecretSyncConfigOutputReference {
+	var returns ContainerClusterSecretSyncConfigOutputReference
+	_jsii_.Get(
+		j,
+		"secretSyncConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) SecretSyncConfigInput() *ContainerClusterSecretSyncConfig {
+	var returns *ContainerClusterSecretSyncConfig
+	_jsii_.Get(
+		j,
+		"secretSyncConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerCluster) SecurityPostureConfig() ContainerClusterSecurityPostureConfigOutputReference {
 	var returns ContainerClusterSecurityPostureConfigOutputReference
 	_jsii_.Get(
@@ -2289,7 +2337,7 @@ func (j *jsiiProxy_ContainerCluster) WorkloadIdentityConfigInput() *ContainerClu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster(scope constructs.Construct, id *string, config *ContainerClusterConfig) ContainerCluster {
 	_init_.Initialize()
 
@@ -2307,7 +2355,7 @@ func NewContainerCluster(scope constructs.Construct, id *string, config *Contain
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster_Override(c ContainerCluster, scope constructs.Construct, id *string, config *ContainerClusterConfig) {
 	_init_.Initialize()
 
@@ -2391,6 +2439,17 @@ func (j *jsiiProxy_ContainerCluster)SetDefaultMaxPodsPerNode(val *float64) {
 	_jsii_.Set(
 		j,
 		"defaultMaxPodsPerNode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -3542,6 +3601,17 @@ func (c *jsiiProxy_ContainerCluster) PutSecretManagerConfig(value *ContainerClus
 	)
 }
 
+func (c *jsiiProxy_ContainerCluster) PutSecretSyncConfig(value *ContainerClusterSecretSyncConfig) {
+	if err := c.validatePutSecretSyncConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSecretSyncConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerCluster) PutSecurityPostureConfig(value *ContainerClusterSecurityPostureConfig) {
 	if err := c.validatePutSecurityPostureConfigParameters(value); err != nil {
 		panic(err)
@@ -3732,6 +3802,14 @@ func (c *jsiiProxy_ContainerCluster) ResetDefaultSnatStatus() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDefaultSnatStatus",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }
@@ -4180,6 +4258,14 @@ func (c *jsiiProxy_ContainerCluster) ResetSecretManagerConfig() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetSecretManagerConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) ResetSecretSyncConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSecretSyncConfig",
 		nil, // no parameters
 	)
 }

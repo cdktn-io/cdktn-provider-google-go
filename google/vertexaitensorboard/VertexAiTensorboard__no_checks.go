@@ -107,6 +107,10 @@ func (j *jsiiProxy_VertexAiTensorboard) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiTensorboard) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiTensorboard) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

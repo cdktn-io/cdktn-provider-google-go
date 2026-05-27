@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy}.
 type MonitoringAlertPolicy interface {
 	cdktn.TerraformResource
 	AlertStrategy() MonitoringAlertPolicyAlertStrategyOutputReference
@@ -35,6 +35,9 @@ type MonitoringAlertPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationRecord() MonitoringAlertPolicyCreationRecordList
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type MonitoringAlertPolicy interface {
 	PutDocumentation(value *MonitoringAlertPolicyDocumentation)
 	PutTimeouts(value *MonitoringAlertPolicyTimeouts)
 	ResetAlertStrategy()
+	ResetDeletionPolicy()
 	ResetDocumentation()
 	ResetEnabled()
 	ResetId()
@@ -286,6 +290,26 @@ func (j *jsiiProxy_MonitoringAlertPolicy) CreationRecord() MonitoringAlertPolicy
 	_jsii_.Get(
 		j,
 		"creationRecord",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitoringAlertPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitoringAlertPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_MonitoringAlertPolicy) UserLabelsInput() *map[string]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
 func NewMonitoringAlertPolicy(scope constructs.Construct, id *string, config *MonitoringAlertPolicyConfig) MonitoringAlertPolicy {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewMonitoringAlertPolicy(scope constructs.Construct, id *string, config *Mo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/monitoring_alert_policy google_monitoring_alert_policy} Resource.
 func NewMonitoringAlertPolicy_Override(m MonitoringAlertPolicy, scope constructs.Construct, id *string, config *MonitoringAlertPolicyConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_MonitoringAlertPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MonitoringAlertPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1188,6 +1223,14 @@ func (m *jsiiProxy_MonitoringAlertPolicy) ResetAlertStrategy() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetAlertStrategy",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MonitoringAlertPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

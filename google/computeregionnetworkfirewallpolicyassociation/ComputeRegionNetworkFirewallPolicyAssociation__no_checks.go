@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) validateSetCou
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) validateSetFirewallPolicyParameters(val *string) error {
 	return nil
 }

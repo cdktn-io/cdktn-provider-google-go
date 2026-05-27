@@ -370,6 +370,14 @@ func (j *jsiiProxy_DataprocCluster) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_DataprocCluster) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataprocCluster) validateSetGracefulDecommissionTimeoutParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

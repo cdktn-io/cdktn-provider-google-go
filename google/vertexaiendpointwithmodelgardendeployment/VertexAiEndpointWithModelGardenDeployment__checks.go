@@ -381,6 +381,14 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) validateSetCountPa
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeployment) validateSetHuggingFaceModelIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -115,6 +115,10 @@ func (j *jsiiProxy_NetworkManagementConnectivityTest) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_NetworkManagementConnectivityTest) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkManagementConnectivityTest) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

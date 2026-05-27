@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_flowhook google_apigee_flowhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_flowhook google_apigee_flowhook}.
 type ApigeeFlowhook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type ApigeeFlowhook interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type ApigeeFlowhook interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ApigeeFlowhookTimeouts)
 	ResetContinueOnError()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -217,6 +221,26 @@ func (j *jsiiProxy_ApigeeFlowhook) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeFlowhook) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeFlowhook) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -483,7 +507,7 @@ func (j *jsiiProxy_ApigeeFlowhook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
 func NewApigeeFlowhook(scope constructs.Construct, id *string, config *ApigeeFlowhookConfig) ApigeeFlowhook {
 	_init_.Initialize()
 
@@ -501,7 +525,7 @@ func NewApigeeFlowhook(scope constructs.Construct, id *string, config *ApigeeFlo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
 func NewApigeeFlowhook_Override(a ApigeeFlowhook, scope constructs.Construct, id *string, config *ApigeeFlowhookConfig) {
 	_init_.Initialize()
 
@@ -541,6 +565,17 @@ func (j *jsiiProxy_ApigeeFlowhook)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeFlowhook)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1025,6 +1060,14 @@ func (a *jsiiProxy_ApigeeFlowhook) ResetContinueOnError() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetContinueOnError",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeFlowhook) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_VertexAiIndex) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiIndex) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiIndex) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

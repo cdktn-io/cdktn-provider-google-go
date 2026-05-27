@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetappVolumeReplication) validateSetDeleteDestinationVolumePa
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolumeReplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolumeReplication) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

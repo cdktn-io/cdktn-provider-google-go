@@ -119,6 +119,10 @@ func (j *jsiiProxy_NetworkServicesGateway) validateSetDeleteSwgAutogenRouterOnDe
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesGateway) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesGateway) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

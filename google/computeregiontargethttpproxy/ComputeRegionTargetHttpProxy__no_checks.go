@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeRegionTargetHttpProxy) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionTargetHttpProxy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionTargetHttpProxy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

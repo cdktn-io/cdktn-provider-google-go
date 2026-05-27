@@ -103,6 +103,10 @@ func (j *jsiiProxy_ContactCenterInsightsView) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_ContactCenterInsightsView) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContactCenterInsightsView) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

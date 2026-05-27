@@ -119,6 +119,10 @@ func (j *jsiiProxy_DeploymentManagerDeployment) validateSetDeletePolicyParameter
 	return nil
 }
 
+func (j *jsiiProxy_DeploymentManagerDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DeploymentManagerDeployment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

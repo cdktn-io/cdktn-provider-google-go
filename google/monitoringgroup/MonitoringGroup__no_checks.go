@@ -103,6 +103,10 @@ func (j *jsiiProxy_MonitoringGroup) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringGroup) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_schema google_discovery_engine_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_schema google_discovery_engine_schema}.
 type DiscoveryEngineSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type DiscoveryEngineSchema interface {
 	DataStoreId() *string
 	SetDataStoreId(val *string)
 	DataStoreIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type DiscoveryEngineSchema interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DiscoveryEngineSchemaTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetJsonSchema()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_DiscoveryEngineSchema) DataStoreIdInput() *string {
 	_jsii_.Get(
 		j,
 		"dataStoreIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSchema) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSchema) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -471,7 +495,7 @@ func (j *jsiiProxy_DiscoveryEngineSchema) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
 func NewDiscoveryEngineSchema(scope constructs.Construct, id *string, config *DiscoveryEngineSchemaConfig) DiscoveryEngineSchema {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewDiscoveryEngineSchema(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_schema google_discovery_engine_schema} Resource.
 func NewDiscoveryEngineSchema_Override(d DiscoveryEngineSchema, scope constructs.Construct, id *string, config *DiscoveryEngineSchemaConfig) {
 	_init_.Initialize()
 
@@ -529,6 +553,17 @@ func (j *jsiiProxy_DiscoveryEngineSchema)SetDataStoreId(val *string) {
 	_jsii_.Set(
 		j,
 		"dataStoreId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineSchema)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -995,6 +1030,14 @@ func (d *jsiiProxy_DiscoveryEngineSchema) PutTimeouts(value *DiscoveryEngineSche
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSchema) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

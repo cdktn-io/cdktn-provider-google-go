@@ -135,6 +135,10 @@ func (j *jsiiProxy_PubsubSubscription) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_PubsubSubscription) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PubsubSubscription) validateSetEnableExactlyOnceDeliveryParameters(val interface{}) error {
 	return nil
 }

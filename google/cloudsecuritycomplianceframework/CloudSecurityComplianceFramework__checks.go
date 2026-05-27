@@ -379,6 +379,14 @@ func (j *jsiiProxy_CloudSecurityComplianceFramework) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_CloudSecurityComplianceFramework) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_CloudSecurityComplianceFramework) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

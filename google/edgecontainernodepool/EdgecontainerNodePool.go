@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool}.
 type EdgecontainerNodePool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type EdgecontainerNodePool interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type EdgecontainerNodePool interface {
 	PutLocalDiskEncryption(value *EdgecontainerNodePoolLocalDiskEncryption)
 	PutNodeConfig(value *EdgecontainerNodePoolNodeConfig)
 	PutTimeouts(value *EdgecontainerNodePoolTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetLocalDiskEncryption()
@@ -247,6 +251,26 @@ func (j *jsiiProxy_EdgecontainerNodePool) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgecontainerNodePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgecontainerNodePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -633,7 +657,7 @@ func (j *jsiiProxy_EdgecontainerNodePool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
 func NewEdgecontainerNodePool(scope constructs.Construct, id *string, config *EdgecontainerNodePoolConfig) EdgecontainerNodePool {
 	_init_.Initialize()
 
@@ -651,7 +675,7 @@ func NewEdgecontainerNodePool(scope constructs.Construct, id *string, config *Ed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
 func NewEdgecontainerNodePool_Override(e EdgecontainerNodePool, scope constructs.Construct, id *string, config *EdgecontainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -691,6 +715,17 @@ func (j *jsiiProxy_EdgecontainerNodePool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EdgecontainerNodePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1212,6 +1247,14 @@ func (e *jsiiProxy_EdgecontainerNodePool) PutTimeouts(value *EdgecontainerNodePo
 		e,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EdgecontainerNodePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

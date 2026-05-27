@@ -127,6 +127,10 @@ func (j *jsiiProxy_DialogflowCxPage) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowCxPage) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowCxPage) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

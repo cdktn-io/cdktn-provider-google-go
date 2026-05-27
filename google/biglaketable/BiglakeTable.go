@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/biglake_table google_biglake_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_table google_biglake_table}.
 type BiglakeTable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type BiglakeTable interface {
 	SetDatabase(val *string)
 	DatabaseInput() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type BiglakeTable interface {
 	PutHiveOptions(value *BiglakeTableHiveOptions)
 	PutTimeouts(value *BiglakeTableTimeouts)
 	ResetDatabase()
+	ResetDeletionPolicy()
 	ResetHiveOptions()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -237,6 +241,26 @@ func (j *jsiiProxy_BiglakeTable) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeTable) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeTable) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -493,7 +517,7 @@ func (j *jsiiProxy_BiglakeTable) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/biglake_table google_biglake_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_table google_biglake_table} Resource.
 func NewBiglakeTable(scope constructs.Construct, id *string, config *BiglakeTableConfig) BiglakeTable {
 	_init_.Initialize()
 
@@ -511,7 +535,7 @@ func NewBiglakeTable(scope constructs.Construct, id *string, config *BiglakeTabl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/biglake_table google_biglake_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_table google_biglake_table} Resource.
 func NewBiglakeTable_Override(b BiglakeTable, scope constructs.Construct, id *string, config *BiglakeTableConfig) {
 	_init_.Initialize()
 
@@ -551,6 +575,17 @@ func (j *jsiiProxy_BiglakeTable)SetDatabase(val *string) {
 	_jsii_.Set(
 		j,
 		"database",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BiglakeTable)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1013,6 +1048,14 @@ func (b *jsiiProxy_BiglakeTable) ResetDatabase() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDatabase",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BiglakeTable) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -411,6 +411,14 @@ func (j *jsiiProxy_Cloudbuildv2Connection) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_Cloudbuildv2Connection) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_Cloudbuildv2Connection) validateSetDisabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

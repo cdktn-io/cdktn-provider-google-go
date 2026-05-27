@@ -111,6 +111,10 @@ func (j *jsiiProxy_HealthcareConsentStore) validateSetDefaultConsentTtlParameter
 	return nil
 }
 
+func (j *jsiiProxy_HealthcareConsentStore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HealthcareConsentStore) validateSetEnableConsentCreateOnUpdateParameters(val interface{}) error {
 	return nil
 }

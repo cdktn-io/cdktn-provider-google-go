@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_backend_service google_compute_region_backend_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_backend_service google_compute_region_backend_service}.
 type ComputeRegionBackendService interface {
 	cdktn.TerraformResource
 	AffinityCookieTtlSec() *float64
@@ -46,6 +46,9 @@ type ComputeRegionBackendService interface {
 	CreationTimestamp() *string
 	CustomMetrics() ComputeRegionBackendServiceCustomMetricsList
 	CustomMetricsInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -218,6 +221,7 @@ type ComputeRegionBackendService interface {
 	ResetConnectionTrackingPolicy()
 	ResetConsistentHash()
 	ResetCustomMetrics()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableCdn()
 	ResetFailoverPolicy()
@@ -478,6 +482,26 @@ func (j *jsiiProxy_ComputeRegionBackendService) CustomMetricsInput() interface{}
 	_jsii_.Get(
 		j,
 		"customMetricsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1154,7 +1178,7 @@ func (j *jsiiProxy_ComputeRegionBackendService) TlsSettingsInput() *ComputeRegio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
 func NewComputeRegionBackendService(scope constructs.Construct, id *string, config *ComputeRegionBackendServiceConfig) ComputeRegionBackendService {
 	_init_.Initialize()
 
@@ -1172,7 +1196,7 @@ func NewComputeRegionBackendService(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_backend_service google_compute_region_backend_service} Resource.
 func NewComputeRegionBackendService_Override(c ComputeRegionBackendService, scope constructs.Construct, id *string, config *ComputeRegionBackendServiceConfig) {
 	_init_.Initialize()
 
@@ -1223,6 +1247,17 @@ func (j *jsiiProxy_ComputeRegionBackendService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionBackendService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -2038,6 +2073,14 @@ func (c *jsiiProxy_ComputeRegionBackendService) ResetCustomMetrics() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetCustomMetrics",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionBackendService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

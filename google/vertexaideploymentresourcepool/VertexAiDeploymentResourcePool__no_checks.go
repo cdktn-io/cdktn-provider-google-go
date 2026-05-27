@@ -107,6 +107,10 @@ func (j *jsiiProxy_VertexAiDeploymentResourcePool) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiDeploymentResourcePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiDeploymentResourcePool) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_service google_service_directory_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_service google_service_directory_service}.
 type ServiceDirectoryService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ServiceDirectoryService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -120,6 +123,7 @@ type ServiceDirectoryService interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ServiceDirectoryServiceTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -188,6 +192,26 @@ func (j *jsiiProxy_ServiceDirectoryService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceDirectoryService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceDirectoryService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -424,7 +448,7 @@ func (j *jsiiProxy_ServiceDirectoryService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_service google_service_directory_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_service google_service_directory_service} Resource.
 func NewServiceDirectoryService(scope constructs.Construct, id *string, config *ServiceDirectoryServiceConfig) ServiceDirectoryService {
 	_init_.Initialize()
 
@@ -442,7 +466,7 @@ func NewServiceDirectoryService(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/service_directory_service google_service_directory_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_service google_service_directory_service} Resource.
 func NewServiceDirectoryService_Override(s ServiceDirectoryService, scope constructs.Construct, id *string, config *ServiceDirectoryServiceConfig) {
 	_init_.Initialize()
 
@@ -471,6 +495,17 @@ func (j *jsiiProxy_ServiceDirectoryService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ServiceDirectoryService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -926,6 +961,14 @@ func (s *jsiiProxy_ServiceDirectoryService) PutTimeouts(value *ServiceDirectoryS
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_ServiceDirectoryService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

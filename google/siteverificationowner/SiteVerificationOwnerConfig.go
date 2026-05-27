@@ -24,20 +24,32 @@ type SiteVerificationOwnerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The email address of the owner.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner#email SiteVerificationOwner#email}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner#email SiteVerificationOwner#email}
 	Email *string `field:"required" json:"email" yaml:"email"`
 	// The id of the Web Resource to add this owner to, in the form "webResource/<web-resource-id>".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner#web_resource_id SiteVerificationOwner#web_resource_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner#web_resource_id SiteVerificationOwner#web_resource_id}
 	WebResourceId *string `field:"required" json:"webResourceId" yaml:"webResourceId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner#id SiteVerificationOwner#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner#deletion_policy SiteVerificationOwner#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner#id SiteVerificationOwner#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner#timeouts SiteVerificationOwner#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner#timeouts SiteVerificationOwner#timeouts}
 	Timeouts *SiteVerificationOwnerTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

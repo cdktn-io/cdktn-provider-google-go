@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComposerUserWorkloadsConfigMap) validateSetDataParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_ComposerUserWorkloadsConfigMap) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComposerUserWorkloadsConfigMap) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

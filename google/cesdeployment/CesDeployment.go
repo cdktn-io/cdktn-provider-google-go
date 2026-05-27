@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_deployment google_ces_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_deployment google_ces_deployment}.
 type CesDeployment interface {
 	cdktn.TerraformResource
 	App() *string
@@ -36,6 +36,9 @@ type CesDeployment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type CesDeployment interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutChannelProfile(value *CesDeploymentChannelProfile)
 	PutTimeouts(value *CesDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -270,6 +274,26 @@ func (j *jsiiProxy_CesDeployment) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -526,7 +550,7 @@ func (j *jsiiProxy_CesDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploymentConfig) CesDeployment {
 	_init_.Initialize()
 
@@ -544,7 +568,7 @@ func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploym
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment_Override(c CesDeployment, scope constructs.Construct, id *string, config *CesDeploymentConfig) {
 	_init_.Initialize()
 
@@ -595,6 +619,17 @@ func (j *jsiiProxy_CesDeployment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1061,6 +1096,14 @@ func (c *jsiiProxy_CesDeployment) PutTimeouts(value *CesDeploymentTimeouts) {
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

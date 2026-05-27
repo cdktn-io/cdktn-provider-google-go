@@ -464,6 +464,14 @@ func (j *jsiiProxy_RedisCluster) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_RedisCluster) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_RedisCluster) validateSetDeletionProtectionEnabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

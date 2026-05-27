@@ -111,6 +111,10 @@ func (j *jsiiProxy_ApphubWorkload) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_ApphubWorkload) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApphubWorkload) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

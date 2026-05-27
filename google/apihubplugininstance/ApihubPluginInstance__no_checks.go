@@ -111,6 +111,10 @@ func (j *jsiiProxy_ApihubPluginInstance) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_ApihubPluginInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApihubPluginInstance) validateSetDisableParameters(val interface{}) error {
 	return nil
 }

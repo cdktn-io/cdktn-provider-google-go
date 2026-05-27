@@ -103,6 +103,10 @@ func (j *jsiiProxy_NetworkSecurityUrlLists) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityUrlLists) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityUrlLists) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_MonitoringCustomService) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringCustomService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringCustomService) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

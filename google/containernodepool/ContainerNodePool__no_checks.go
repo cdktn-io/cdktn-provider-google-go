@@ -139,6 +139,10 @@ func (j *jsiiProxy_ContainerNodePool) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ContainerNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

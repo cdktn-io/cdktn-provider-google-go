@@ -111,6 +111,10 @@ func (j *jsiiProxy_NetworkConnectivityInternalRange) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityInternalRange) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityInternalRange) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

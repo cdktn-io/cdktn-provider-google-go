@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot}.
 type NetappVolumeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type NetappVolumeSnapshot interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type NetappVolumeSnapshot interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *NetappVolumeSnapshotTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -201,6 +205,26 @@ func (j *jsiiProxy_NetappVolumeSnapshot) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeSnapshot) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeSnapshot) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -517,7 +541,7 @@ func (j *jsiiProxy_NetappVolumeSnapshot) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
 func NewNetappVolumeSnapshot(scope constructs.Construct, id *string, config *NetappVolumeSnapshotConfig) NetappVolumeSnapshot {
 	_init_.Initialize()
 
@@ -535,7 +559,7 @@ func NewNetappVolumeSnapshot(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
 func NewNetappVolumeSnapshot_Override(n NetappVolumeSnapshot, scope constructs.Construct, id *string, config *NetappVolumeSnapshotConfig) {
 	_init_.Initialize()
 
@@ -564,6 +588,17 @@ func (j *jsiiProxy_NetappVolumeSnapshot)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeSnapshot)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1052,6 +1087,14 @@ func (n *jsiiProxy_NetappVolumeSnapshot) PutTimeouts(value *NetappVolumeSnapshot
 		n,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeSnapshot) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeResourcePolicyAttachment) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_ComputeResourcePolicyAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeResourcePolicyAttachment) validateSetIdParameters(val *string) error {
 	return nil
 }

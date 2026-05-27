@@ -115,6 +115,10 @@ func (j *jsiiProxy_VmwareenginePrivateCloud) validateSetDeletionDelayHoursParame
 	return nil
 }
 
+func (j *jsiiProxy_VmwareenginePrivateCloud) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VmwareenginePrivateCloud) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

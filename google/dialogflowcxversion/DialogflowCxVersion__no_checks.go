@@ -103,6 +103,10 @@ func (j *jsiiProxy_DialogflowCxVersion) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_DialogflowCxVersion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DialogflowCxVersion) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

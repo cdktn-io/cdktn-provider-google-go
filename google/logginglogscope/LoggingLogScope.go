@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_log_scope google_logging_log_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_log_scope google_logging_log_scope}.
 type LoggingLogScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type LoggingLogScope interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type LoggingLogScope interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *LoggingLogScopeTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLocation()
@@ -207,6 +211,26 @@ func (j *jsiiProxy_LoggingLogScope) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingLogScope) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LoggingLogScope) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -483,7 +507,7 @@ func (j *jsiiProxy_LoggingLogScope) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_log_scope google_logging_log_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_log_scope google_logging_log_scope} Resource.
 func NewLoggingLogScope(scope constructs.Construct, id *string, config *LoggingLogScopeConfig) LoggingLogScope {
 	_init_.Initialize()
 
@@ -501,7 +525,7 @@ func NewLoggingLogScope(scope constructs.Construct, id *string, config *LoggingL
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/logging_log_scope google_logging_log_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/logging_log_scope google_logging_log_scope} Resource.
 func NewLoggingLogScope_Override(l LoggingLogScope, scope constructs.Construct, id *string, config *LoggingLogScopeConfig) {
 	_init_.Initialize()
 
@@ -530,6 +554,17 @@ func (j *jsiiProxy_LoggingLogScope)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LoggingLogScope)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1007,6 +1042,14 @@ func (l *jsiiProxy_LoggingLogScope) PutTimeouts(value *LoggingLogScopeTimeouts) 
 		l,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (l *jsiiProxy_LoggingLogScope) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

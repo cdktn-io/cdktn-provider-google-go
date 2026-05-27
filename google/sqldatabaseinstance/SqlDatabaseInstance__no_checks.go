@@ -135,6 +135,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetDatabaseVersionParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

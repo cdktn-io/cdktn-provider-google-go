@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_group google_compute_instance_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_group google_compute_instance_group}.
 type ComputeInstanceGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeInstanceGroup interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type ComputeInstanceGroup interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutNamedPort(value interface{})
 	PutTimeouts(value *ComputeInstanceGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInstances()
@@ -206,6 +210,26 @@ func (j *jsiiProxy_ComputeInstanceGroup) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -532,7 +556,7 @@ func (j *jsiiProxy_ComputeInstanceGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
 func NewComputeInstanceGroup(scope constructs.Construct, id *string, config *ComputeInstanceGroupConfig) ComputeInstanceGroup {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewComputeInstanceGroup(scope constructs.Construct, id *string, config *Com
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_instance_group google_compute_instance_group} Resource.
 func NewComputeInstanceGroup_Override(c ComputeInstanceGroup, scope constructs.Construct, id *string, config *ComputeInstanceGroupConfig) {
 	_init_.Initialize()
 
@@ -579,6 +603,17 @@ func (j *jsiiProxy_ComputeInstanceGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1078,6 +1113,14 @@ func (c *jsiiProxy_ComputeInstanceGroup) PutTimeouts(value *ComputeInstanceGroup
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine}.
 type DiscoveryEngineRecommendationEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type DiscoveryEngineRecommendationEngine interface {
 	DataStoreIds() *[]*string
 	SetDataStoreIds(val *[]*string)
 	DataStoreIdsInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type DiscoveryEngineRecommendationEngine interface {
 	PutMediaRecommendationEngineConfig(value *DiscoveryEngineRecommendationEngineMediaRecommendationEngineConfig)
 	PutTimeouts(value *DiscoveryEngineRecommendationEngineTimeouts)
 	ResetCommonConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIndustryVertical()
 	ResetMediaRecommendationEngineConfig()
@@ -258,6 +262,26 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) DataStoreIdsInput() *[]*
 	_jsii_.Get(
 		j,
 		"dataStoreIdsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -564,7 +588,7 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
 func NewDiscoveryEngineRecommendationEngine(scope constructs.Construct, id *string, config *DiscoveryEngineRecommendationEngineConfig) DiscoveryEngineRecommendationEngine {
 	_init_.Initialize()
 
@@ -582,7 +606,7 @@ func NewDiscoveryEngineRecommendationEngine(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
 func NewDiscoveryEngineRecommendationEngine_Override(d DiscoveryEngineRecommendationEngine, scope constructs.Construct, id *string, config *DiscoveryEngineRecommendationEngineConfig) {
 	_init_.Initialize()
 
@@ -622,6 +646,17 @@ func (j *jsiiProxy_DiscoveryEngineRecommendationEngine)SetDataStoreIds(val *[]*s
 	_jsii_.Set(
 		j,
 		"dataStoreIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineRecommendationEngine)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1128,6 +1163,14 @@ func (d *jsiiProxy_DiscoveryEngineRecommendationEngine) ResetCommonConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCommonConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineRecommendationEngine) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

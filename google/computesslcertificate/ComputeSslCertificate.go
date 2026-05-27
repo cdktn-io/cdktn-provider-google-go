@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate}.
 type ComputeSslCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type ComputeSslCertificate interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type ComputeSslCertificate interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeSslCertificateTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetName()
@@ -252,6 +256,26 @@ func (j *jsiiProxy_ComputeSslCertificate) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSslCertificate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSslCertificate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_ComputeSslCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
 func NewComputeSslCertificate(scope constructs.Construct, id *string, config *ComputeSslCertificateConfig) ComputeSslCertificate {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewComputeSslCertificate(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
 func NewComputeSslCertificate_Override(c ComputeSslCertificate, scope constructs.Construct, id *string, config *ComputeSslCertificateConfig) {
 	_init_.Initialize()
 
@@ -636,6 +660,17 @@ func (j *jsiiProxy_ComputeSslCertificate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeSslCertificate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1135,6 +1170,14 @@ func (c *jsiiProxy_ComputeSslCertificate) PutTimeouts(value *ComputeSslCertifica
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeSslCertificate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

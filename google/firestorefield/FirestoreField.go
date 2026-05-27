@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firestore_field google_firestore_field}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firestore_field google_firestore_field}.
 type FirestoreField interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type FirestoreField interface {
 	Database() *string
 	SetDatabase(val *string)
 	DatabaseInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type FirestoreField interface {
 	PutTimeouts(value *FirestoreFieldTimeouts)
 	PutTtlConfig(value *FirestoreFieldTtlConfig)
 	ResetDatabase()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIndexConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -240,6 +244,26 @@ func (j *jsiiProxy_FirestoreField) DatabaseInput() *string {
 	_jsii_.Get(
 		j,
 		"databaseInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreField) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreField) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -496,7 +520,7 @@ func (j *jsiiProxy_FirestoreField) TtlConfigInput() *FirestoreFieldTtlConfig {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firestore_field google_firestore_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firestore_field google_firestore_field} Resource.
 func NewFirestoreField(scope constructs.Construct, id *string, config *FirestoreFieldConfig) FirestoreField {
 	_init_.Initialize()
 
@@ -514,7 +538,7 @@ func NewFirestoreField(scope constructs.Construct, id *string, config *Firestore
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/firestore_field google_firestore_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/firestore_field google_firestore_field} Resource.
 func NewFirestoreField_Override(f FirestoreField, scope constructs.Construct, id *string, config *FirestoreFieldConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_FirestoreField)SetDatabase(val *string) {
 	_jsii_.Set(
 		j,
 		"database",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreField)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1038,6 +1073,14 @@ func (f *jsiiProxy_FirestoreField) ResetDatabase() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetDatabase",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FirestoreField) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

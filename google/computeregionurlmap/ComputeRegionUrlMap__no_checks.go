@@ -131,6 +131,10 @@ func (j *jsiiProxy_ComputeRegionUrlMap) validateSetDefaultServiceParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionUrlMap) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionUrlMap) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

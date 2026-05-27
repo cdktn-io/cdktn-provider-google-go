@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_access_level_condition google_access_context_manager_access_level_condition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_access_level_condition google_access_context_manager_access_level_condition}.
 type AccessContextManagerAccessLevelCondition interface {
 	cdktn.TerraformResource
 	AccessLevel() *string
@@ -31,6 +31,9 @@ type AccessContextManagerAccessLevelCondition interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type AccessContextManagerAccessLevelCondition interface {
 	PutDevicePolicy(value *AccessContextManagerAccessLevelConditionDevicePolicy)
 	PutTimeouts(value *AccessContextManagerAccessLevelConditionTimeouts)
 	PutVpcNetworkSources(value interface{})
+	ResetDeletionPolicy()
 	ResetDevicePolicy()
 	ResetId()
 	ResetIpSubnetworks()
@@ -239,6 +243,26 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) Count() interface{}
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -545,7 +569,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCondition) VpcNetworkSourcesIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
 func NewAccessContextManagerAccessLevelCondition(scope constructs.Construct, id *string, config *AccessContextManagerAccessLevelConditionConfig) AccessContextManagerAccessLevelCondition {
 	_init_.Initialize()
 
@@ -563,7 +587,7 @@ func NewAccessContextManagerAccessLevelCondition(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
 func NewAccessContextManagerAccessLevelCondition_Override(a AccessContextManagerAccessLevelCondition, scope constructs.Construct, id *string, config *AccessContextManagerAccessLevelConditionConfig) {
 	_init_.Initialize()
 
@@ -603,6 +627,17 @@ func (j *jsiiProxy_AccessContextManagerAccessLevelCondition)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerAccessLevelCondition)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1102,6 +1137,14 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) PutVpcNetworkSource
 		a,
 		"putVpcNetworkSources",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

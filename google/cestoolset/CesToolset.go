@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset google_ces_toolset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_toolset google_ces_toolset}.
 type CesToolset interface {
 	cdktn.TerraformResource
 	App() *string
@@ -31,6 +31,9 @@ type CesToolset interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type CesToolset interface {
 	PutMcpToolset(value *CesToolsetMcpToolset)
 	PutOpenApiToolset(value *CesToolsetOpenApiToolset)
 	PutTimeouts(value *CesToolsetTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetExecutionType()
@@ -244,6 +248,26 @@ func (j *jsiiProxy_CesToolset) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolset) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolset) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -600,7 +624,7 @@ func (j *jsiiProxy_CesToolset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetConfig) CesToolset {
 	_init_.Initialize()
 
@@ -618,7 +642,7 @@ func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset_Override(c CesToolset, scope constructs.Construct, id *string, config *CesToolsetConfig) {
 	_init_.Initialize()
 
@@ -658,6 +682,17 @@ func (j *jsiiProxy_CesToolset)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesToolset)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1168,6 +1203,14 @@ func (c *jsiiProxy_CesToolset) PutTimeouts(value *CesToolsetTimeouts) {
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesToolset) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

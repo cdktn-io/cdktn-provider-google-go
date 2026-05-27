@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting}.
 type GeminiReleaseChannelSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GeminiReleaseChannelSetting interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GeminiReleaseChannelSetting interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GeminiReleaseChannelSettingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -210,6 +214,26 @@ func (j *jsiiProxy_GeminiReleaseChannelSetting) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiReleaseChannelSetting) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiReleaseChannelSetting) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -516,7 +540,7 @@ func (j *jsiiProxy_GeminiReleaseChannelSetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
 func NewGeminiReleaseChannelSetting(scope constructs.Construct, id *string, config *GeminiReleaseChannelSettingConfig) GeminiReleaseChannelSetting {
 	_init_.Initialize()
 
@@ -534,7 +558,7 @@ func NewGeminiReleaseChannelSetting(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
 func NewGeminiReleaseChannelSetting_Override(g GeminiReleaseChannelSetting, scope constructs.Construct, id *string, config *GeminiReleaseChannelSettingConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_GeminiReleaseChannelSetting)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiReleaseChannelSetting)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1040,6 +1075,14 @@ func (g *jsiiProxy_GeminiReleaseChannelSetting) PutTimeouts(value *GeminiRelease
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiReleaseChannelSetting) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

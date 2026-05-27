@@ -107,6 +107,10 @@ func (j *jsiiProxy_SccFolderCustomModule) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_SccFolderCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccFolderCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

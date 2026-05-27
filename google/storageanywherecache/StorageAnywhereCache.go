@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_anywhere_cache google_storage_anywhere_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_anywhere_cache google_storage_anywhere_cache}.
 type StorageAnywhereCache interface {
 	cdktn.TerraformResource
 	AdmissionPolicy() *string
@@ -35,6 +35,9 @@ type StorageAnywhereCache interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type StorageAnywhereCache interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *StorageAnywhereCacheTimeouts)
 	ResetAdmissionPolicy()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIngestOnWrite()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -260,6 +264,26 @@ func (j *jsiiProxy_StorageAnywhereCache) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAnywhereCache) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAnywhereCache) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -516,7 +540,7 @@ func (j *jsiiProxy_StorageAnywhereCache) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_anywhere_cache google_storage_anywhere_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_anywhere_cache google_storage_anywhere_cache} Resource.
 func NewStorageAnywhereCache(scope constructs.Construct, id *string, config *StorageAnywhereCacheConfig) StorageAnywhereCache {
 	_init_.Initialize()
 
@@ -534,7 +558,7 @@ func NewStorageAnywhereCache(scope constructs.Construct, id *string, config *Sto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/storage_anywhere_cache google_storage_anywhere_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/storage_anywhere_cache google_storage_anywhere_cache} Resource.
 func NewStorageAnywhereCache_Override(s StorageAnywhereCache, scope constructs.Construct, id *string, config *StorageAnywhereCacheConfig) {
 	_init_.Initialize()
 
@@ -585,6 +609,17 @@ func (j *jsiiProxy_StorageAnywhereCache)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageAnywhereCache)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1047,6 +1082,14 @@ func (s *jsiiProxy_StorageAnywhereCache) ResetAdmissionPolicy() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetAdmissionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageAnywhereCache) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

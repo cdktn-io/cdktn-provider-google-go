@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_project_notification_config google_scc_project_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_project_notification_config google_scc_project_notification_config}.
 type SccProjectNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type SccProjectNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type SccProjectNotificationConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutStreamingConfig(value *SccProjectNotificationConfigStreamingConfig)
 	PutTimeouts(value *SccProjectNotificationConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -216,6 +220,26 @@ func (j *jsiiProxy_SccProjectNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccProjectNotificationConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccProjectNotificationConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -482,7 +506,7 @@ func (j *jsiiProxy_SccProjectNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
 func NewSccProjectNotificationConfig(scope constructs.Construct, id *string, config *SccProjectNotificationConfigConfig) SccProjectNotificationConfig {
 	_init_.Initialize()
 
@@ -500,7 +524,7 @@ func NewSccProjectNotificationConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
 func NewSccProjectNotificationConfig_Override(s SccProjectNotificationConfig, scope constructs.Construct, id *string, config *SccProjectNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -540,6 +564,17 @@ func (j *jsiiProxy_SccProjectNotificationConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccProjectNotificationConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1006,6 +1041,14 @@ func (s *jsiiProxy_SccProjectNotificationConfig) PutTimeouts(value *SccProjectNo
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccProjectNotificationConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

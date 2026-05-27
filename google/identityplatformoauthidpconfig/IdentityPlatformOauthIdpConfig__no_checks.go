@@ -115,6 +115,10 @@ func (j *jsiiProxy_IdentityPlatformOauthIdpConfig) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_IdentityPlatformOauthIdpConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IdentityPlatformOauthIdpConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

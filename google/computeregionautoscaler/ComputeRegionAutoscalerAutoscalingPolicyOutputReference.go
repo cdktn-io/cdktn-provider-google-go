@@ -54,6 +54,9 @@ type ComputeRegionAutoscalerAutoscalingPolicyOutputReference interface {
 	ScaleInControlInput() *ComputeRegionAutoscalerAutoscalingPolicyScaleInControl
 	ScalingSchedules() ComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesList
 	ScalingSchedulesInput() interface{}
+	StabilizationPeriod() *float64
+	SetStabilizationPeriod(val *float64)
+	StabilizationPeriodInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -98,6 +101,7 @@ type ComputeRegionAutoscalerAutoscalingPolicyOutputReference interface {
 	ResetMode()
 	ResetScaleInControl()
 	ResetScalingSchedules()
+	ResetStabilizationPeriod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -343,6 +347,26 @@ func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) Scal
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) StabilizationPeriod() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"stabilizationPeriod",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) StabilizationPeriodInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"stabilizationPeriodInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -464,6 +488,17 @@ func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference)SetMo
 	_jsii_.Set(
 		j,
 		"mode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference)SetStabilizationPeriod(val *float64) {
+	if err := j.validateSetStabilizationPeriodParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stabilizationPeriod",
 		val,
 	)
 }
@@ -783,6 +818,14 @@ func (c *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) Rese
 	_jsii_.InvokeVoid(
 		c,
 		"resetScalingSchedules",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionAutoscalerAutoscalingPolicyOutputReference) ResetStabilizationPeriod() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetStabilizationPeriod",
 		nil, // no parameters
 	)
 }

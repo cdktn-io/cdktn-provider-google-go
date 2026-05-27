@@ -119,6 +119,10 @@ func (j *jsiiProxy_ComputeFirewall) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeFirewall) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeFirewall) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

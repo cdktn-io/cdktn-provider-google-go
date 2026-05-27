@@ -356,6 +356,14 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

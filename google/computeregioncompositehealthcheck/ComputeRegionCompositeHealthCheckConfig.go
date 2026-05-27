@@ -31,7 +31,7 @@ type ComputeRegionCompositeHealthCheckConfig struct {
 	// as the CompositeHealthCheck (cross-region deployment for
 	// INTERNAL_MANAGED is not supported). Can be mutated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#health_destination ComputeRegionCompositeHealthCheck#health_destination}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#health_destination ComputeRegionCompositeHealthCheck#health_destination}
 	HealthDestination *string `field:"required" json:"healthDestination" yaml:"healthDestination"`
 	// Name of the resource.
 	//
@@ -43,15 +43,27 @@ type ComputeRegionCompositeHealthCheckConfig struct {
 	// be a dash, lowercase letter, or digit, except the last character, which
 	// cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#name ComputeRegionCompositeHealthCheck#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#name ComputeRegionCompositeHealthCheck#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// URL of the region where the composite health check resides.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#region ComputeRegionCompositeHealthCheck#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#region ComputeRegionCompositeHealthCheck#region}
 	Region *string `field:"required" json:"region" yaml:"region"`
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#deletion_policy ComputeRegionCompositeHealthCheck#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource. Provide this property when you create the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#description ComputeRegionCompositeHealthCheck#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#description ComputeRegionCompositeHealthCheck#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// URLs to the HealthSource resources whose results are AND'ed.
 	//
@@ -60,13 +72,13 @@ type ComputeRegionCompositeHealthCheckConfig struct {
 	// Must be regional and in the same region as the
 	// CompositeHealthCheck. Can be mutated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#health_sources ComputeRegionCompositeHealthCheck#health_sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#health_sources ComputeRegionCompositeHealthCheck#health_sources}
 	HealthSources *[]*string `field:"optional" json:"healthSources" yaml:"healthSources"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#project ComputeRegionCompositeHealthCheck#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#project ComputeRegionCompositeHealthCheck#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_region_composite_health_check#timeouts ComputeRegionCompositeHealthCheck#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_region_composite_health_check#timeouts ComputeRegionCompositeHealthCheck#timeouts}
 	Timeouts *ComputeRegionCompositeHealthCheckTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

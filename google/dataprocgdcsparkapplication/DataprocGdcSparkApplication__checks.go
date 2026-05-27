@@ -408,6 +408,14 @@ func (j *jsiiProxy_DataprocGdcSparkApplication) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_DataprocGdcSparkApplication) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataprocGdcSparkApplication) validateSetDependencyImagesParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

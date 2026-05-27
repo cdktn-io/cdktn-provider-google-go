@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner google_site_verification_owner}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner google_site_verification_owner}.
 type SiteVerificationOwner interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type SiteVerificationOwner interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type SiteVerificationOwner interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SiteVerificationOwnerTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -183,6 +187,26 @@ func (j *jsiiProxy_SiteVerificationOwner) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SiteVerificationOwner) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SiteVerificationOwner) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -389,7 +413,7 @@ func (j *jsiiProxy_SiteVerificationOwner) WebResourceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner google_site_verification_owner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner google_site_verification_owner} Resource.
 func NewSiteVerificationOwner(scope constructs.Construct, id *string, config *SiteVerificationOwnerConfig) SiteVerificationOwner {
 	_init_.Initialize()
 
@@ -407,7 +431,7 @@ func NewSiteVerificationOwner(scope constructs.Construct, id *string, config *Si
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/site_verification_owner google_site_verification_owner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/site_verification_owner google_site_verification_owner} Resource.
 func NewSiteVerificationOwner_Override(s SiteVerificationOwner, scope constructs.Construct, id *string, config *SiteVerificationOwnerConfig) {
 	_init_.Initialize()
 
@@ -436,6 +460,17 @@ func (j *jsiiProxy_SiteVerificationOwner)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SiteVerificationOwner)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -880,6 +915,14 @@ func (s *jsiiProxy_SiteVerificationOwner) PutTimeouts(value *SiteVerificationOwn
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SiteVerificationOwner) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

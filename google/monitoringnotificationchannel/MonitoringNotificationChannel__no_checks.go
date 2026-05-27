@@ -107,6 +107,10 @@ func (j *jsiiProxy_MonitoringNotificationChannel) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_MonitoringNotificationChannel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitoringNotificationChannel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

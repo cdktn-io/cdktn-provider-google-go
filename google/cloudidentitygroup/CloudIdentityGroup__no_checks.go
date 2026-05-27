@@ -107,6 +107,10 @@ func (j *jsiiProxy_CloudIdentityGroup) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_CloudIdentityGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudIdentityGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

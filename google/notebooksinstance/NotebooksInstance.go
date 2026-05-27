@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_instance google_notebooks_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_instance google_notebooks_instance}.
 type NotebooksInstance interface {
 	cdktn.TerraformResource
 	AcceleratorConfig() NotebooksInstanceAcceleratorConfigOutputReference
@@ -49,6 +49,9 @@ type NotebooksInstance interface {
 	DataDiskType() *string
 	SetDataDiskType(val *string)
 	DataDiskTypeInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -221,6 +224,7 @@ type NotebooksInstance interface {
 	ResetCustomGpuDriverPath()
 	ResetDataDiskSizeGb()
 	ResetDataDiskType()
+	ResetDeletionPolicy()
 	ResetDesiredState()
 	ResetDiskEncryption()
 	ResetId()
@@ -470,6 +474,26 @@ func (j *jsiiProxy_NotebooksInstance) DataDiskTypeInput() *string {
 	_jsii_.Get(
 		j,
 		"dataDiskTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NotebooksInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NotebooksInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1176,7 +1200,7 @@ func (j *jsiiProxy_NotebooksInstance) VmImageInput() *NotebooksInstanceVmImage {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
 func NewNotebooksInstance(scope constructs.Construct, id *string, config *NotebooksInstanceConfig) NotebooksInstance {
 	_init_.Initialize()
 
@@ -1194,7 +1218,7 @@ func NewNotebooksInstance(scope constructs.Construct, id *string, config *Notebo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
 func NewNotebooksInstance_Override(n NotebooksInstance, scope constructs.Construct, id *string, config *NotebooksInstanceConfig) {
 	_init_.Initialize()
 
@@ -1289,6 +1313,17 @@ func (j *jsiiProxy_NotebooksInstance)SetDataDiskType(val *string) {
 	_jsii_.Set(
 		j,
 		"dataDiskType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NotebooksInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -2071,6 +2106,14 @@ func (n *jsiiProxy_NotebooksInstance) ResetDataDiskType() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetDataDiskType",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NotebooksInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

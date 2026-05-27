@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_dataset google_vertex_ai_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_dataset google_vertex_ai_dataset}.
 type VertexAiDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type VertexAiDataset interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type VertexAiDataset interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEncryptionSpec(value *VertexAiDatasetEncryptionSpec)
 	PutTimeouts(value *VertexAiDatasetTimeouts)
+	ResetDeletionPolicy()
 	ResetEncryptionSpec()
 	ResetId()
 	ResetLabels()
@@ -214,6 +218,26 @@ func (j *jsiiProxy_VertexAiDataset) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiDataset) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiDataset) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -540,7 +564,7 @@ func (j *jsiiProxy_VertexAiDataset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_dataset google_vertex_ai_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_dataset google_vertex_ai_dataset} Resource.
 func NewVertexAiDataset(scope constructs.Construct, id *string, config *VertexAiDatasetConfig) VertexAiDataset {
 	_init_.Initialize()
 
@@ -558,7 +582,7 @@ func NewVertexAiDataset(scope constructs.Construct, id *string, config *VertexAi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_dataset google_vertex_ai_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_dataset google_vertex_ai_dataset} Resource.
 func NewVertexAiDataset_Override(v VertexAiDataset, scope constructs.Construct, id *string, config *VertexAiDatasetConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_VertexAiDataset)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiDataset)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1075,6 +1110,14 @@ func (v *jsiiProxy_VertexAiDataset) PutTimeouts(value *VertexAiDatasetTimeouts) 
 		v,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiDataset) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

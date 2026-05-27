@@ -119,6 +119,10 @@ func (j *jsiiProxy_SpannerDatabase) validateSetDefaultTimeZoneParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_SpannerDatabase) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SpannerDatabase) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

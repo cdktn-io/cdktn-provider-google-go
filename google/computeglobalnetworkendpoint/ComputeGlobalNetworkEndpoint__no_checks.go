@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeGlobalNetworkEndpoint) validateSetFqdnParameters(val *string) error {
 	return nil
 }

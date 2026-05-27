@@ -103,6 +103,10 @@ func (j *jsiiProxy_ActiveDirectoryDomainTrust) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_ActiveDirectoryDomainTrust) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ActiveDirectoryDomainTrust) validateSetDomainParameters(val *string) error {
 	return nil
 }

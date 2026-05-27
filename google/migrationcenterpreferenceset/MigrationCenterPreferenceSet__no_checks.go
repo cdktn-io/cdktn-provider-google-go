@@ -107,6 +107,10 @@ func (j *jsiiProxy_MigrationCenterPreferenceSet) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_MigrationCenterPreferenceSet) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MigrationCenterPreferenceSet) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

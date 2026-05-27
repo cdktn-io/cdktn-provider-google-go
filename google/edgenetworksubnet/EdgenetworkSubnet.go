@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgenetwork_subnet google_edgenetwork_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgenetwork_subnet google_edgenetwork_subnet}.
 type EdgenetworkSubnet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type EdgenetworkSubnet interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type EdgenetworkSubnet interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *EdgenetworkSubnetTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIpv4Cidr()
@@ -229,6 +233,26 @@ func (j *jsiiProxy_EdgenetworkSubnet) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgenetworkSubnet) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EdgenetworkSubnet) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -645,7 +669,7 @@ func (j *jsiiProxy_EdgenetworkSubnet) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgenetwork_subnet google_edgenetwork_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgenetwork_subnet google_edgenetwork_subnet} Resource.
 func NewEdgenetworkSubnet(scope constructs.Construct, id *string, config *EdgenetworkSubnetConfig) EdgenetworkSubnet {
 	_init_.Initialize()
 
@@ -663,7 +687,7 @@ func NewEdgenetworkSubnet(scope constructs.Construct, id *string, config *Edgene
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/edgenetwork_subnet google_edgenetwork_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/edgenetwork_subnet google_edgenetwork_subnet} Resource.
 func NewEdgenetworkSubnet_Override(e EdgenetworkSubnet, scope constructs.Construct, id *string, config *EdgenetworkSubnetConfig) {
 	_init_.Initialize()
 
@@ -692,6 +716,17 @@ func (j *jsiiProxy_EdgenetworkSubnet)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EdgenetworkSubnet)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1224,6 +1259,14 @@ func (e *jsiiProxy_EdgenetworkSubnet) PutTimeouts(value *EdgenetworkSubnetTimeou
 		e,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EdgenetworkSubnet) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

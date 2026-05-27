@@ -107,6 +107,10 @@ func (j *jsiiProxy_ComputeVpnGateway) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_ComputeVpnGateway) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeVpnGateway) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

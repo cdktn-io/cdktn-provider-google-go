@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_certificate_template google_privateca_certificate_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_certificate_template google_privateca_certificate_template}.
 type PrivatecaCertificateTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type PrivatecaCertificateTemplate interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type PrivatecaCertificateTemplate interface {
 	PutPassthroughExtensions(value *PrivatecaCertificateTemplatePassthroughExtensions)
 	PutPredefinedValues(value *PrivatecaCertificateTemplatePredefinedValues)
 	PutTimeouts(value *PrivatecaCertificateTemplateTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIdentityConstraints()
@@ -225,6 +229,26 @@ func (j *jsiiProxy_PrivatecaCertificateTemplate) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCertificateTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCertificateTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -601,7 +625,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_certificate_template google_privateca_certificate_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_certificate_template google_privateca_certificate_template} Resource.
 func NewPrivatecaCertificateTemplate(scope constructs.Construct, id *string, config *PrivatecaCertificateTemplateConfig) PrivatecaCertificateTemplate {
 	_init_.Initialize()
 
@@ -619,7 +643,7 @@ func NewPrivatecaCertificateTemplate(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/privateca_certificate_template google_privateca_certificate_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/privateca_certificate_template google_privateca_certificate_template} Resource.
 func NewPrivatecaCertificateTemplate_Override(p PrivatecaCertificateTemplate, scope constructs.Construct, id *string, config *PrivatecaCertificateTemplateConfig) {
 	_init_.Initialize()
 
@@ -648,6 +672,17 @@ func (j *jsiiProxy_PrivatecaCertificateTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivatecaCertificateTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1169,6 +1204,14 @@ func (p *jsiiProxy_PrivatecaCertificateTemplate) PutTimeouts(value *PrivatecaCer
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCertificateTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

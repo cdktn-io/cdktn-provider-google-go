@@ -119,6 +119,10 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicy) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

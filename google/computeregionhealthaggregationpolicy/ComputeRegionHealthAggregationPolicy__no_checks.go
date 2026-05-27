@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeRegionHealthAggregationPolicy) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionHealthAggregationPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionHealthAggregationPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

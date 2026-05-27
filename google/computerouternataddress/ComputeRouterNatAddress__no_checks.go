@@ -103,6 +103,10 @@ func (j *jsiiProxy_ComputeRouterNatAddress) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRouterNatAddress) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRouterNatAddress) validateSetDrainNatIpsParameters(val *[]*string) error {
 	return nil
 }

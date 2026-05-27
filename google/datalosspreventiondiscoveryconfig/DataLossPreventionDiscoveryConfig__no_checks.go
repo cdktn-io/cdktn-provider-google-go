@@ -119,6 +119,10 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfig) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataLossPreventionDiscoveryConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetFormatParameters(val *string) error {
 	return nil
 }

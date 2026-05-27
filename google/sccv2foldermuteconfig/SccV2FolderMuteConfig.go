@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config}.
 type SccV2FolderMuteConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type SccV2FolderMuteConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type SccV2FolderMuteConfig interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SccV2FolderMuteConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLocation()
@@ -211,6 +215,26 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2FolderMuteConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2FolderMuteConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -527,7 +551,7 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config} Resource.
 func NewSccV2FolderMuteConfig(scope constructs.Construct, id *string, config *SccV2FolderMuteConfigConfig) SccV2FolderMuteConfig {
 	_init_.Initialize()
 
@@ -545,7 +569,7 @@ func NewSccV2FolderMuteConfig(scope constructs.Construct, id *string, config *Sc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_v2_folder_mute_config google_scc_v2_folder_mute_config} Resource.
 func NewSccV2FolderMuteConfig_Override(s SccV2FolderMuteConfig, scope constructs.Construct, id *string, config *SccV2FolderMuteConfigConfig) {
 	_init_.Initialize()
 
@@ -574,6 +598,17 @@ func (j *jsiiProxy_SccV2FolderMuteConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccV2FolderMuteConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1062,6 +1097,14 @@ func (s *jsiiProxy_SccV2FolderMuteConfig) PutTimeouts(value *SccV2FolderMuteConf
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SccV2FolderMuteConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

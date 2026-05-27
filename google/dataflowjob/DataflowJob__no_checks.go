@@ -107,6 +107,10 @@ func (j *jsiiProxy_DataflowJob) validateSetCountParameters(val interface{}) erro
 	return nil
 }
 
+func (j *jsiiProxy_DataflowJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataflowJob) validateSetEnableStreamingEngineParameters(val interface{}) error {
 	return nil
 }

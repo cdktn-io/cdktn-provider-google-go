@@ -107,6 +107,10 @@ func (j *jsiiProxy_PubsubLiteSubscription) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_PubsubLiteSubscription) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PubsubLiteSubscription) validateSetIdParameters(val *string) error {
 	return nil
 }

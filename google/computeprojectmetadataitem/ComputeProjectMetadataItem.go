@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item}.
 type ComputeProjectMetadataItem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type ComputeProjectMetadataItem interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -119,6 +122,7 @@ type ComputeProjectMetadataItem interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ComputeProjectMetadataItemTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -187,6 +191,26 @@ func (j *jsiiProxy_ComputeProjectMetadataItem) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeProjectMetadataItem) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeProjectMetadataItem) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -413,7 +437,7 @@ func (j *jsiiProxy_ComputeProjectMetadataItem) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
 func NewComputeProjectMetadataItem(scope constructs.Construct, id *string, config *ComputeProjectMetadataItemConfig) ComputeProjectMetadataItem {
 	_init_.Initialize()
 
@@ -431,7 +455,7 @@ func NewComputeProjectMetadataItem(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
 func NewComputeProjectMetadataItem_Override(c ComputeProjectMetadataItem, scope constructs.Construct, id *string, config *ComputeProjectMetadataItemConfig) {
 	_init_.Initialize()
 
@@ -460,6 +484,17 @@ func (j *jsiiProxy_ComputeProjectMetadataItem)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeProjectMetadataItem)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -915,6 +950,14 @@ func (c *jsiiProxy_ComputeProjectMetadataItem) PutTimeouts(value *ComputeProject
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeProjectMetadataItem) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule}.
 type SecureSourceManagerBranchRule interface {
 	cdktn.TerraformResource
 	AllowStaleReviews() interface{}
@@ -34,6 +34,9 @@ type SecureSourceManagerBranchRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type SecureSourceManagerBranchRule interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SecureSourceManagerBranchRuleTimeouts)
 	ResetAllowStaleReviews()
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetId()
 	ResetMinimumApprovalsCount()
@@ -275,6 +279,26 @@ func (j *jsiiProxy_SecureSourceManagerBranchRule) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerBranchRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerBranchRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -671,7 +695,7 @@ func (j *jsiiProxy_SecureSourceManagerBranchRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
 func NewSecureSourceManagerBranchRule(scope constructs.Construct, id *string, config *SecureSourceManagerBranchRuleConfig) SecureSourceManagerBranchRule {
 	_init_.Initialize()
 
@@ -689,7 +713,7 @@ func NewSecureSourceManagerBranchRule(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
 func NewSecureSourceManagerBranchRule_Override(s SecureSourceManagerBranchRule, scope constructs.Construct, id *string, config *SecureSourceManagerBranchRuleConfig) {
 	_init_.Initialize()
 
@@ -740,6 +764,17 @@ func (j *jsiiProxy_SecureSourceManagerBranchRule)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecureSourceManagerBranchRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1279,6 +1314,14 @@ func (s *jsiiProxy_SecureSourceManagerBranchRule) ResetAllowStaleReviews() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetAllowStaleReviews",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecureSourceManagerBranchRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

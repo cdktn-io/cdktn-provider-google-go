@@ -356,6 +356,14 @@ func (j *jsiiProxy_ComposerUserWorkloadsSecret) validateSetDataParameters(val *m
 	return nil
 }
 
+func (j *jsiiProxy_ComposerUserWorkloadsSecret) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComposerUserWorkloadsSecret) validateSetEnvironmentParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

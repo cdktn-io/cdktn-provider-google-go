@@ -103,6 +103,10 @@ func (j *jsiiProxy_ServiceDirectoryNamespace) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_ServiceDirectoryNamespace) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ServiceDirectoryNamespace) validateSetIdParameters(val *string) error {
 	return nil
 }

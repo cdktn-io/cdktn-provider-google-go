@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_channel google_eventarc_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_channel google_eventarc_channel}.
 type EventarcChannel interface {
 	cdktn.TerraformResource
 	ActivationToken() *string
@@ -32,6 +32,9 @@ type EventarcChannel interface {
 	CryptoKeyName() *string
 	SetCryptoKeyName(val *string)
 	CryptoKeyNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type EventarcChannel interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *EventarcChannelTimeouts)
 	ResetCryptoKeyName()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -247,6 +251,26 @@ func (j *jsiiProxy_EventarcChannel) CryptoKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcChannel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcChannel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -573,7 +597,7 @@ func (j *jsiiProxy_EventarcChannel) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
 func NewEventarcChannel(scope constructs.Construct, id *string, config *EventarcChannelConfig) EventarcChannel {
 	_init_.Initialize()
 
@@ -591,7 +615,7 @@ func NewEventarcChannel(scope constructs.Construct, id *string, config *Eventarc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
 func NewEventarcChannel_Override(e EventarcChannel, scope constructs.Construct, id *string, config *EventarcChannelConfig) {
 	_init_.Initialize()
 
@@ -631,6 +655,17 @@ func (j *jsiiProxy_EventarcChannel)SetCryptoKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventarcChannel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1115,6 +1150,14 @@ func (e *jsiiProxy_EventarcChannel) ResetCryptoKeyName() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetCryptoKeyName",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventarcChannel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

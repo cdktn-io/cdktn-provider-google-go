@@ -107,6 +107,10 @@ func (j *jsiiProxy_ChronicleDataAccessLabel) validateSetDataAccessLabelIdParamet
 	return nil
 }
 
+func (j *jsiiProxy_ChronicleDataAccessLabel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ChronicleDataAccessLabel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

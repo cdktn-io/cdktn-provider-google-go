@@ -123,6 +123,10 @@ func (j *jsiiProxy_BigqueryDatasetAccessA) validateSetDatasetIdParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryDatasetAccessA) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryDatasetAccessA) validateSetDomainParameters(val *string) error {
 	return nil
 }

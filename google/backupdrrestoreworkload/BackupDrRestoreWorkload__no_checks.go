@@ -143,6 +143,10 @@ func (j *jsiiProxy_BackupDrRestoreWorkload) validateSetDeleteRestoredInstancePar
 	return nil
 }
 
+func (j *jsiiProxy_BackupDrRestoreWorkload) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BackupDrRestoreWorkload) validateSetIdParameters(val *string) error {
 	return nil
 }

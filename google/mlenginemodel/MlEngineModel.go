@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ml_engine_model google_ml_engine_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ml_engine_model google_ml_engine_model}.
 type MlEngineModel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type MlEngineModel interface {
 	SetCount(val interface{})
 	DefaultVersion() MlEngineModelDefaultVersionOutputReference
 	DefaultVersionInput() *MlEngineModelDefaultVersion
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type MlEngineModel interface {
 	PutDefaultVersion(value *MlEngineModelDefaultVersion)
 	PutTimeouts(value *MlEngineModelTimeouts)
 	ResetDefaultVersion()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -230,6 +234,26 @@ func (j *jsiiProxy_MlEngineModel) DefaultVersionInput() *MlEngineModelDefaultVer
 	_jsii_.Get(
 		j,
 		"defaultVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MlEngineModel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MlEngineModel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -556,7 +580,7 @@ func (j *jsiiProxy_MlEngineModel) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ml_engine_model google_ml_engine_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ml_engine_model google_ml_engine_model} Resource.
 func NewMlEngineModel(scope constructs.Construct, id *string, config *MlEngineModelConfig) MlEngineModel {
 	_init_.Initialize()
 
@@ -574,7 +598,7 @@ func NewMlEngineModel(scope constructs.Construct, id *string, config *MlEngineMo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/ml_engine_model google_ml_engine_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/ml_engine_model google_ml_engine_model} Resource.
 func NewMlEngineModel_Override(m MlEngineModel, scope constructs.Construct, id *string, config *MlEngineModelConfig) {
 	_init_.Initialize()
 
@@ -603,6 +627,17 @@ func (j *jsiiProxy_MlEngineModel)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MlEngineModel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1120,6 +1155,14 @@ func (m *jsiiProxy_MlEngineModel) ResetDefaultVersion() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetDefaultVersion",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MlEngineModel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

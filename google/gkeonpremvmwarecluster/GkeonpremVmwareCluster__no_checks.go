@@ -151,6 +151,10 @@ func (j *jsiiProxy_GkeonpremVmwareCluster) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GkeonpremVmwareCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GkeonpremVmwareCluster) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

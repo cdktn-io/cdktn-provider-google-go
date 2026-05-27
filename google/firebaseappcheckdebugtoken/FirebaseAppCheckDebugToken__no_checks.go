@@ -107,6 +107,10 @@ func (j *jsiiProxy_FirebaseAppCheckDebugToken) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_FirebaseAppCheckDebugToken) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirebaseAppCheckDebugToken) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

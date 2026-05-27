@@ -123,6 +123,10 @@ func (j *jsiiProxy_BillingBudget) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_BillingBudget) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BillingBudget) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

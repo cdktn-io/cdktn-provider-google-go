@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_analysis_note google_container_analysis_note}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_analysis_note google_container_analysis_note}.
 type ContainerAnalysisNote interface {
 	cdktn.TerraformResource
 	AttestationAuthority() ContainerAnalysisNoteAttestationAuthorityOutputReference
@@ -30,6 +30,9 @@ type ContainerAnalysisNote interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type ContainerAnalysisNote interface {
 	PutAttestationAuthority(value *ContainerAnalysisNoteAttestationAuthority)
 	PutRelatedUrl(value interface{})
 	PutTimeouts(value *ContainerAnalysisNoteTimeouts)
+	ResetDeletionPolicy()
 	ResetExpirationTime()
 	ResetId()
 	ResetLongDescription()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_ContainerAnalysisNote) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAnalysisNote) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAnalysisNote) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -566,7 +590,7 @@ func (j *jsiiProxy_ContainerAnalysisNote) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_analysis_note google_container_analysis_note} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_analysis_note google_container_analysis_note} Resource.
 func NewContainerAnalysisNote(scope constructs.Construct, id *string, config *ContainerAnalysisNoteConfig) ContainerAnalysisNote {
 	_init_.Initialize()
 
@@ -584,7 +608,7 @@ func NewContainerAnalysisNote(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/container_analysis_note google_container_analysis_note} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/container_analysis_note google_container_analysis_note} Resource.
 func NewContainerAnalysisNote_Override(c ContainerAnalysisNote, scope constructs.Construct, id *string, config *ContainerAnalysisNoteConfig) {
 	_init_.Initialize()
 
@@ -613,6 +637,17 @@ func (j *jsiiProxy_ContainerAnalysisNote)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerAnalysisNote)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1123,6 +1158,14 @@ func (c *jsiiProxy_ContainerAnalysisNote) PutTimeouts(value *ContainerAnalysisNo
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerAnalysisNote) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

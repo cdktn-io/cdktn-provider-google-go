@@ -115,6 +115,10 @@ func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContactCenterInsightsAutoLabelingRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -131,6 +131,10 @@ func (j *jsiiProxy_DatastreamStream) validateSetCustomerManagedEncryptionKeyPara
 	return nil
 }
 
+func (j *jsiiProxy_DatastreamStream) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatastreamStream) validateSetDesiredStateParameters(val *string) error {
 	return nil
 }

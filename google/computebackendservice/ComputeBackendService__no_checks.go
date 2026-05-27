@@ -179,6 +179,10 @@ func (j *jsiiProxy_ComputeBackendService) validateSetCustomResponseHeadersParame
 	return nil
 }
 
+func (j *jsiiProxy_ComputeBackendService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeBackendService) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_SecureSourceManagerBranchRule) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_SecureSourceManagerBranchRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SecureSourceManagerBranchRule) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

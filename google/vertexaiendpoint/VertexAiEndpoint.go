@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_endpoint google_vertex_ai_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_endpoint google_vertex_ai_endpoint}.
 type VertexAiEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type VertexAiEndpoint interface {
 	DedicatedEndpointEnabled() interface{}
 	SetDedicatedEndpointEnabled(val interface{})
 	DedicatedEndpointEnabledInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -158,6 +161,7 @@ type VertexAiEndpoint interface {
 	PutPrivateServiceConnectConfig(value *VertexAiEndpointPrivateServiceConnectConfig)
 	PutTimeouts(value *VertexAiEndpointTimeouts)
 	ResetDedicatedEndpointEnabled()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptionSpec()
 	ResetId()
@@ -274,6 +278,26 @@ func (j *jsiiProxy_VertexAiEndpoint) DedicatedEndpointEnabledInput() interface{}
 	_jsii_.Get(
 		j,
 		"dedicatedEndpointEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiEndpoint) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiEndpoint) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -740,7 +764,7 @@ func (j *jsiiProxy_VertexAiEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_endpoint google_vertex_ai_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_endpoint google_vertex_ai_endpoint} Resource.
 func NewVertexAiEndpoint(scope constructs.Construct, id *string, config *VertexAiEndpointConfig) VertexAiEndpoint {
 	_init_.Initialize()
 
@@ -758,7 +782,7 @@ func NewVertexAiEndpoint(scope constructs.Construct, id *string, config *VertexA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/vertex_ai_endpoint google_vertex_ai_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_endpoint google_vertex_ai_endpoint} Resource.
 func NewVertexAiEndpoint_Override(v VertexAiEndpoint, scope constructs.Construct, id *string, config *VertexAiEndpointConfig) {
 	_init_.Initialize()
 
@@ -798,6 +822,17 @@ func (j *jsiiProxy_VertexAiEndpoint)SetDedicatedEndpointEnabled(val interface{})
 	_jsii_.Set(
 		j,
 		"dedicatedEndpointEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiEndpoint)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1359,6 +1394,14 @@ func (v *jsiiProxy_VertexAiEndpoint) ResetDedicatedEndpointEnabled() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetDedicatedEndpointEnabled",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiEndpoint) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

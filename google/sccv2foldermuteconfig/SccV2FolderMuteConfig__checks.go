@@ -348,6 +348,14 @@ func (j *jsiiProxy_SccV2FolderMuteConfig) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_SccV2FolderMuteConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SccV2FolderMuteConfig) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

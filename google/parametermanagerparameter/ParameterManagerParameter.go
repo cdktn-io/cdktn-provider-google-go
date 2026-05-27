@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter}.
 type ParameterManagerParameter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ParameterManagerParameter interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type ParameterManagerParameter interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ParameterManagerParameterTimeouts)
+	ResetDeletionPolicy()
 	ResetFormat()
 	ResetId()
 	ResetKmsKey()
@@ -212,6 +216,26 @@ func (j *jsiiProxy_ParameterManagerParameter) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerParameter) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerParameter) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -528,7 +552,7 @@ func (j *jsiiProxy_ParameterManagerParameter) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
 func NewParameterManagerParameter(scope constructs.Construct, id *string, config *ParameterManagerParameterConfig) ParameterManagerParameter {
 	_init_.Initialize()
 
@@ -546,7 +570,7 @@ func NewParameterManagerParameter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
 func NewParameterManagerParameter_Override(p ParameterManagerParameter, scope constructs.Construct, id *string, config *ParameterManagerParameterConfig) {
 	_init_.Initialize()
 
@@ -575,6 +599,17 @@ func (j *jsiiProxy_ParameterManagerParameter)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ParameterManagerParameter)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1052,6 +1087,14 @@ func (p *jsiiProxy_ParameterManagerParameter) PutTimeouts(value *ParameterManage
 		p,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_ParameterManagerParameter) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

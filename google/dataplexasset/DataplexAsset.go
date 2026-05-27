@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataplex_asset google_dataplex_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataplex_asset google_dataplex_asset}.
 type DataplexAsset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type DataplexAsset interface {
 	DataplexZone() *string
 	SetDataplexZone(val *string)
 	DataplexZoneInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type DataplexAsset interface {
 	PutDiscoverySpec(value *DataplexAssetDiscoverySpec)
 	PutResourceSpec(value *DataplexAssetResourceSpec)
 	PutTimeouts(value *DataplexAssetTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -250,6 +254,26 @@ func (j *jsiiProxy_DataplexAsset) DataplexZoneInput() *string {
 	_jsii_.Get(
 		j,
 		"dataplexZoneInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexAsset) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexAsset) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -676,7 +700,7 @@ func (j *jsiiProxy_DataplexAsset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
 func NewDataplexAsset(scope constructs.Construct, id *string, config *DataplexAssetConfig) DataplexAsset {
 	_init_.Initialize()
 
@@ -694,7 +718,7 @@ func NewDataplexAsset(scope constructs.Construct, id *string, config *DataplexAs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.32.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataplex_asset google_dataplex_asset} Resource.
 func NewDataplexAsset_Override(d DataplexAsset, scope constructs.Construct, id *string, config *DataplexAssetConfig) {
 	_init_.Initialize()
 
@@ -734,6 +758,17 @@ func (j *jsiiProxy_DataplexAsset)SetDataplexZone(val *string) {
 	_jsii_.Set(
 		j,
 		"dataplexZone",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataplexAsset)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1255,6 +1290,14 @@ func (d *jsiiProxy_DataplexAsset) PutTimeouts(value *DataplexAssetTimeouts) {
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataplexAsset) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

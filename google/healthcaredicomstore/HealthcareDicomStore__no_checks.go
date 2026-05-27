@@ -111,6 +111,10 @@ func (j *jsiiProxy_HealthcareDicomStore) validateSetDatasetParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_HealthcareDicomStore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HealthcareDicomStore) validateSetIdParameters(val *string) error {
 	return nil
 }
