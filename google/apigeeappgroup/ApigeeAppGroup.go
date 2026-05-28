@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_app_group google_apigee_app_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_app_group google_apigee_app_group}.
 type ApigeeAppGroup interface {
 	cdktn.TerraformResource
 	AppGroupId() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ApigeeAppGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
 func NewApigeeAppGroup(scope constructs.Construct, id *string, config *ApigeeAppGroupConfig) ApigeeAppGroup {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewApigeeAppGroup(scope constructs.Construct, id *string, config *ApigeeApp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_app_group google_apigee_app_group} Resource.
 func NewApigeeAppGroup_Override(a ApigeeAppGroup, scope constructs.Construct, id *string, config *ApigeeAppGroupConfig) {
 	_init_.Initialize()
 

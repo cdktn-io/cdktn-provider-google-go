@@ -40,6 +40,8 @@ type DataGoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	DataApiAccess() *string
 	DatabaseFlags() DataGoogleSqlDatabaseInstanceSettingsDatabaseFlagsList
 	DataCacheConfig() DataGoogleSqlDatabaseInstanceSettingsDataCacheConfigList
+	DataDiskProvisionedIops() *float64
+	DataDiskProvisionedThroughput() *float64
 	DeletionProtectionEnabled() cdktn.IResolvable
 	DenyMaintenancePeriod() DataGoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodList
 	DiskAutoresize() cdktn.IResolvable
@@ -261,6 +263,26 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsOutputReference) DataCac
 	_jsii_.Get(
 		j,
 		"dataCacheConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsOutputReference) DataDiskProvisionedIops() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"dataDiskProvisionedIops",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsOutputReference) DataDiskProvisionedThroughput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"dataDiskProvisionedThroughput",
 		&returns,
 	)
 	return returns

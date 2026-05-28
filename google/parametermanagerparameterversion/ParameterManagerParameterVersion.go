@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version}.
 type ParameterManagerParameterVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -504,7 +504,7 @@ func (j *jsiiProxy_ParameterManagerParameterVersion) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
 func NewParameterManagerParameterVersion(scope constructs.Construct, id *string, config *ParameterManagerParameterVersionConfig) ParameterManagerParameterVersion {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewParameterManagerParameterVersion(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
 func NewParameterManagerParameterVersion_Override(p ParameterManagerParameterVersion, scope constructs.Construct, id *string, config *ParameterManagerParameterVersionConfig) {
 	_init_.Initialize()
 

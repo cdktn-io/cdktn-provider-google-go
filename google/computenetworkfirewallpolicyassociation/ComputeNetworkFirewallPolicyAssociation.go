@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_firewall_policy_association google_compute_network_firewall_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_network_firewall_policy_association google_compute_network_firewall_policy_association}.
 type ComputeNetworkFirewallPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentTarget() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyAssociation) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
 func NewComputeNetworkFirewallPolicyAssociation(scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyAssociationConfig) ComputeNetworkFirewallPolicyAssociation {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewComputeNetworkFirewallPolicyAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
 func NewComputeNetworkFirewallPolicyAssociation_Override(c ComputeNetworkFirewallPolicyAssociation, scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule}.
 type SecureSourceManagerBranchRule interface {
 	cdktn.TerraformResource
 	AllowStaleReviews() interface{}
@@ -695,7 +695,7 @@ func (j *jsiiProxy_SecureSourceManagerBranchRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
 func NewSecureSourceManagerBranchRule(scope constructs.Construct, id *string, config *SecureSourceManagerBranchRuleConfig) SecureSourceManagerBranchRule {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewSecureSourceManagerBranchRule(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
 func NewSecureSourceManagerBranchRule_Override(s SecureSourceManagerBranchRule, scope constructs.Construct, id *string, config *SecureSourceManagerBranchRuleConfig) {
 	_init_.Initialize()
 

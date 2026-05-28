@@ -60,6 +60,9 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	Fqn() *string
 	GcfsConfig() ContainerNodePoolNodeConfigGcfsConfigOutputReference
 	GcfsConfigInput() *ContainerNodePoolNodeConfigGcfsConfig
+	GpudirectStrategy() *string
+	SetGpudirectStrategy(val *string)
+	GpudirectStrategyInput() *string
 	GuestAccelerator() ContainerNodePoolNodeConfigGuestAcceleratorList
 	GuestAcceleratorInput() interface{}
 	Gvnic() ContainerNodePoolNodeConfigGvnicOutputReference
@@ -209,6 +212,7 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	ResetFastSocket()
 	ResetFlexStart()
 	ResetGcfsConfig()
+	ResetGpudirectStrategy()
 	ResetGuestAccelerator()
 	ResetGvnic()
 	ResetHostMaintenancePolicy()
@@ -541,6 +545,26 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) GcfsConfigInput()
 	_jsii_.Get(
 		j,
 		"gcfsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) GpudirectStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gpudirectStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) GpudirectStrategyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gpudirectStrategyInput",
 		&returns,
 	)
 	return returns
@@ -1321,6 +1345,17 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference)SetFlexStart(val i
 	)
 }
 
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference)SetGpudirectStrategy(val *string) {
+	if err := j.validateSetGpudirectStrategyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gpudirectStrategy",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference)SetImageType(val *string) {
 	if err := j.validateSetImageTypeParameters(val); err != nil {
 		panic(err)
@@ -2061,6 +2096,14 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResetGcfsConfig()
 	_jsii_.InvokeVoid(
 		c,
 		"resetGcfsConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResetGpudirectStrategy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetGpudirectStrategy",
 		nil, // no parameters
 	)
 }

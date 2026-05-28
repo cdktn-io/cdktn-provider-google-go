@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member}.
 type ServiceDirectoryNamespaceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ServiceDirectoryNamespaceIamMember) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
 func NewServiceDirectoryNamespaceIamMember(scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamMemberConfig) ServiceDirectoryNamespaceIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewServiceDirectoryNamespaceIamMember(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
 func NewServiceDirectoryNamespaceIamMember_Override(s ServiceDirectoryNamespaceIamMember, scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamMemberConfig) {
 	_init_.Initialize()
 

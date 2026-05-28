@@ -415,6 +415,14 @@ func (j *jsiiProxy_BigtableInstance) validateSetDisplayNameParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_BigtableInstance) validateSetEditionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BigtableInstance) validateSetForceDestroyParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_address_group_iam_member google_network_security_address_group_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/network_security_address_group_iam_member google_network_security_address_group_iam_member}.
 type NetworkSecurityAddressGroupIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_NetworkSecurityAddressGroupIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_address_group_iam_member google_network_security_address_group_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/network_security_address_group_iam_member google_network_security_address_group_iam_member} Resource.
 func NewNetworkSecurityAddressGroupIamMember(scope constructs.Construct, id *string, config *NetworkSecurityAddressGroupIamMemberConfig) NetworkSecurityAddressGroupIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewNetworkSecurityAddressGroupIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/network_security_address_group_iam_member google_network_security_address_group_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/network_security_address_group_iam_member google_network_security_address_group_iam_member} Resource.
 func NewNetworkSecurityAddressGroupIamMember_Override(n NetworkSecurityAddressGroupIamMember, scope constructs.Construct, id *string, config *NetworkSecurityAddressGroupIamMemberConfig) {
 	_init_.Initialize()
 

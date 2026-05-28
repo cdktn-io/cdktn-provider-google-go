@@ -1803,6 +1803,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dataApiAccess", GoGetter: "DataApiAccess"},
 			_jsii_.MemberProperty{JsiiProperty: "databaseFlags", GoGetter: "DatabaseFlags"},
 			_jsii_.MemberProperty{JsiiProperty: "dataCacheConfig", GoGetter: "DataCacheConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "dataDiskProvisionedIops", GoGetter: "DataDiskProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "dataDiskProvisionedThroughput", GoGetter: "DataDiskProvisionedThroughput"},
 			_jsii_.MemberProperty{JsiiProperty: "deletionProtectionEnabled", GoGetter: "DeletionProtectionEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "denyMaintenancePeriod", GoGetter: "DenyMaintenancePeriod"},
 			_jsii_.MemberProperty{JsiiProperty: "diskAutoresize", GoGetter: "DiskAutoresize"},

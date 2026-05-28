@@ -43,6 +43,7 @@ type DataGoogleContainerClusterNodeConfigOutputReference interface {
 	// Experimental.
 	Fqn() *string
 	GcfsConfig() DataGoogleContainerClusterNodeConfigGcfsConfigList
+	GpudirectStrategy() *string
 	GuestAccelerator() DataGoogleContainerClusterNodeConfigGuestAcceleratorList
 	Gvnic() DataGoogleContainerClusterNodeConfigGvnicList
 	HostMaintenancePolicy() DataGoogleContainerClusterNodeConfigHostMaintenancePolicyList
@@ -289,6 +290,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigOutputReference) GcfsConf
 	_jsii_.Get(
 		j,
 		"gcfsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigOutputReference) GpudirectStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gpudirectStrategy",
 		&returns,
 	)
 	return returns

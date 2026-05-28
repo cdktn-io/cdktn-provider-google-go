@@ -58,6 +58,12 @@ type SqlDatabaseInstanceSettingsOutputReference interface {
 	DatabaseFlagsInput() interface{}
 	DataCacheConfig() SqlDatabaseInstanceSettingsDataCacheConfigOutputReference
 	DataCacheConfigInput() *SqlDatabaseInstanceSettingsDataCacheConfig
+	DataDiskProvisionedIops() *float64
+	SetDataDiskProvisionedIops(val *float64)
+	DataDiskProvisionedIopsInput() *float64
+	DataDiskProvisionedThroughput() *float64
+	SetDataDiskProvisionedThroughput(val *float64)
+	DataDiskProvisionedThroughputInput() *float64
 	DeletionProtectionEnabled() interface{}
 	SetDeletionProtectionEnabled(val interface{})
 	DeletionProtectionEnabledInput() interface{}
@@ -183,6 +189,8 @@ type SqlDatabaseInstanceSettingsOutputReference interface {
 	ResetDataApiAccess()
 	ResetDatabaseFlags()
 	ResetDataCacheConfig()
+	ResetDataDiskProvisionedIops()
+	ResetDataDiskProvisionedThroughput()
 	ResetDeletionProtectionEnabled()
 	ResetDenyMaintenancePeriod()
 	ResetDiskAutoresize()
@@ -485,6 +493,46 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) DataCacheConfigIn
 	_jsii_.Get(
 		j,
 		"dataCacheConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) DataDiskProvisionedIops() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"dataDiskProvisionedIops",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) DataDiskProvisionedIopsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"dataDiskProvisionedIopsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) DataDiskProvisionedThroughput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"dataDiskProvisionedThroughput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) DataDiskProvisionedThroughputInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"dataDiskProvisionedThroughputInput",
 		&returns,
 	)
 	return returns
@@ -1126,6 +1174,28 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference)SetDataApiAccess(v
 	)
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference)SetDataDiskProvisionedIops(val *float64) {
+	if err := j.validateSetDataDiskProvisionedIopsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataDiskProvisionedIops",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference)SetDataDiskProvisionedThroughput(val *float64) {
+	if err := j.validateSetDataDiskProvisionedThroughputParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataDiskProvisionedThroughput",
+		val,
+	)
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference)SetDeletionProtectionEnabled(val interface{}) {
 	if err := j.validateSetDeletionProtectionEnabledParameters(val); err != nil {
 		panic(err)
@@ -1756,6 +1826,22 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ResetDataCacheCon
 	_jsii_.InvokeVoid(
 		s,
 		"resetDataCacheConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ResetDataDiskProvisionedIops() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDataDiskProvisionedIops",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ResetDataDiskProvisionedThroughput() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDataDiskProvisionedThroughput",
 		nil, // no parameters
 	)
 }

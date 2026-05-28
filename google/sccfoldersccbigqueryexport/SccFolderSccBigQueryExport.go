@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export}.
 type SccFolderSccBigQueryExport interface {
 	cdktn.TerraformResource
 	BigQueryExportId() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_SccFolderSccBigQueryExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
 func NewSccFolderSccBigQueryExport(scope constructs.Construct, id *string, config *SccFolderSccBigQueryExportConfig) SccFolderSccBigQueryExport {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewSccFolderSccBigQueryExport(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
 func NewSccFolderSccBigQueryExport_Override(s SccFolderSccBigQueryExport, scope constructs.Construct, id *string, config *SccFolderSccBigQueryExportConfig) {
 	_init_.Initialize()
 

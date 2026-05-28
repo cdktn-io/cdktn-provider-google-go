@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding}.
 type BiglakeIcebergTableIamBinding interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_BiglakeIcebergTableIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
 func NewBiglakeIcebergTableIamBinding(scope constructs.Construct, id *string, config *BiglakeIcebergTableIamBindingConfig) BiglakeIcebergTableIamBinding {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewBiglakeIcebergTableIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
 func NewBiglakeIcebergTableIamBinding_Override(b BiglakeIcebergTableIamBinding, scope constructs.Construct, id *string, config *BiglakeIcebergTableIamBindingConfig) {
 	_init_.Initialize()
 

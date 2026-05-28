@@ -163,6 +163,10 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetFlexSt
 	return nil
 }
 
+func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetGpudirectStrategyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validateSetImageTypeParameters(val *string) error {
 	return nil
 }

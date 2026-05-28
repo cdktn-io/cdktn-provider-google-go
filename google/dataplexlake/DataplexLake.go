@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataplex_lake google_dataplex_lake}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataplex_lake google_dataplex_lake}.
 type DataplexLake interface {
 	cdktn.TerraformResource
 	AssetStatus() DataplexLakeAssetStatusList
@@ -632,7 +632,7 @@ func (j *jsiiProxy_DataplexLake) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataplex_lake google_dataplex_lake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataplex_lake google_dataplex_lake} Resource.
 func NewDataplexLake(scope constructs.Construct, id *string, config *DataplexLakeConfig) DataplexLake {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewDataplexLake(scope constructs.Construct, id *string, config *DataplexLak
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataplex_lake google_dataplex_lake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataplex_lake google_dataplex_lake} Resource.
 func NewDataplexLake_Override(d DataplexLake, scope constructs.Construct, id *string, config *DataplexLakeConfig) {
 	_init_.Initialize()
 

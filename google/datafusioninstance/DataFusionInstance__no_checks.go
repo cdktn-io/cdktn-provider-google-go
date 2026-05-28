@@ -87,6 +87,10 @@ func (d *jsiiProxy_DataFusionInstance) validatePutEventPublishConfigParameters(v
 	return nil
 }
 
+func (d *jsiiProxy_DataFusionInstance) validatePutMaintenancePolicyParameters(value *DataFusionInstanceMaintenancePolicy) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFusionInstance) validatePutNetworkConfigParameters(value *DataFusionInstanceNetworkConfig) error {
 	return nil
 }

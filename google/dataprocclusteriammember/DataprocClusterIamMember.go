@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_cluster_iam_member google_dataproc_cluster_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataproc_cluster_iam_member google_dataproc_cluster_iam_member}.
 type DataprocClusterIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataprocClusterIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_cluster_iam_member google_dataproc_cluster_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataproc_cluster_iam_member google_dataproc_cluster_iam_member} Resource.
 func NewDataprocClusterIamMember(scope constructs.Construct, id *string, config *DataprocClusterIamMemberConfig) DataprocClusterIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataprocClusterIamMember(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_cluster_iam_member google_dataproc_cluster_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataproc_cluster_iam_member google_dataproc_cluster_iam_member} Resource.
 func NewDataprocClusterIamMember_Override(d DataprocClusterIamMember, scope constructs.Construct, id *string, config *DataprocClusterIamMemberConfig) {
 	_init_.Initialize()
 

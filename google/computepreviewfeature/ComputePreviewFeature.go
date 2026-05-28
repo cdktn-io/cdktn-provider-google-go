@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_preview_feature google_compute_preview_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_preview_feature google_compute_preview_feature}.
 type ComputePreviewFeature interface {
 	cdktn.TerraformResource
 	ActivationStatus() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_ComputePreviewFeature) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_preview_feature google_compute_preview_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_preview_feature google_compute_preview_feature} Resource.
 func NewComputePreviewFeature(scope constructs.Construct, id *string, config *ComputePreviewFeatureConfig) ComputePreviewFeature {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewComputePreviewFeature(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/compute_preview_feature google_compute_preview_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_preview_feature google_compute_preview_feature} Resource.
 func NewComputePreviewFeature_Override(c ComputePreviewFeature, scope constructs.Construct, id *string, config *ComputePreviewFeatureConfig) {
 	_init_.Initialize()
 

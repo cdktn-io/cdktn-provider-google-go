@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings}.
 type FolderAccessApprovalSettings interface {
 	cdktn.TerraformResource
 	ActiveKeyVersion() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_FolderAccessApprovalSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
 func NewFolderAccessApprovalSettings(scope constructs.Construct, id *string, config *FolderAccessApprovalSettingsConfig) FolderAccessApprovalSettings {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewFolderAccessApprovalSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/folder_access_approval_settings google_folder_access_approval_settings} Resource.
 func NewFolderAccessApprovalSettings_Override(f FolderAccessApprovalSettings, scope constructs.Construct, id *string, config *FolderAccessApprovalSettingsConfig) {
 	_init_.Initialize()
 

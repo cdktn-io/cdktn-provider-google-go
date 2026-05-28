@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application}.
 type DataprocGdcSparkApplication interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -880,7 +880,7 @@ func (j *jsiiProxy_DataprocGdcSparkApplication) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
 func NewDataprocGdcSparkApplication(scope constructs.Construct, id *string, config *DataprocGdcSparkApplicationConfig) DataprocGdcSparkApplication {
 	_init_.Initialize()
 
@@ -898,7 +898,7 @@ func NewDataprocGdcSparkApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dataproc_gdc_spark_application google_dataproc_gdc_spark_application} Resource.
 func NewDataprocGdcSparkApplication_Override(d DataprocGdcSparkApplication, scope constructs.Construct, id *string, config *DataprocGdcSparkApplicationConfig) {
 	_init_.Initialize()
 

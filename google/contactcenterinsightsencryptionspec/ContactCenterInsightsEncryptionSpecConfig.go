@@ -28,22 +28,22 @@ type ContactCenterInsightsEncryptionSpecConfig struct {
 	// Only the key in the same location as this resource is allowed to be used for encryption.
 	// Format: projects/{project}/locations/{location}/keyRings/{keyRing}/cryptoKeys/{key}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_encryption_spec#kms_key ContactCenterInsightsEncryptionSpec#kms_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/contact_center_insights_encryption_spec#kms_key ContactCenterInsightsEncryptionSpec#kms_key}
 	KmsKey *string `field:"required" json:"kmsKey" yaml:"kmsKey"`
 	// The location in which the encryptionSpec is to be initialized.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_encryption_spec#location ContactCenterInsightsEncryptionSpec#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/contact_center_insights_encryption_spec#location ContactCenterInsightsEncryptionSpec#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_encryption_spec#id ContactCenterInsightsEncryptionSpec#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/contact_center_insights_encryption_spec#id ContactCenterInsightsEncryptionSpec#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_encryption_spec#project ContactCenterInsightsEncryptionSpec#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/contact_center_insights_encryption_spec#project ContactCenterInsightsEncryptionSpec#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/contact_center_insights_encryption_spec#timeouts ContactCenterInsightsEncryptionSpec#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/contact_center_insights_encryption_spec#timeouts ContactCenterInsightsEncryptionSpec#timeouts}
 	Timeouts *ContactCenterInsightsEncryptionSpecTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

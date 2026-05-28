@@ -260,6 +260,17 @@ func (d *jsiiProxy_DataFusionInstance) validatePutEventPublishConfigParameters(v
 	return nil
 }
 
+func (d *jsiiProxy_DataFusionInstance) validatePutMaintenancePolicyParameters(value *DataFusionInstanceMaintenancePolicy) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataFusionInstance) validatePutNetworkConfigParameters(value *DataFusionInstanceNetworkConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -32,6 +32,9 @@ type CesGuardrailLlmPromptSecurityOutputReference interface {
 	CustomPolicyInput() *CesGuardrailLlmPromptSecurityCustomPolicy
 	DefaultSettings() CesGuardrailLlmPromptSecurityDefaultSettingsOutputReference
 	DefaultSettingsInput() *CesGuardrailLlmPromptSecurityDefaultSettings
+	FailOpen() interface{}
+	SetFailOpen(val interface{})
+	FailOpenInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *CesGuardrailLlmPromptSecurity
@@ -72,6 +75,7 @@ type CesGuardrailLlmPromptSecurityOutputReference interface {
 	PutDefaultSettings(value *CesGuardrailLlmPromptSecurityDefaultSettings)
 	ResetCustomPolicy()
 	ResetDefaultSettings()
+	ResetFailOpen()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -152,6 +156,26 @@ func (j *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference) DefaultSettings
 	_jsii_.Get(
 		j,
 		"defaultSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference) FailOpen() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"failOpen",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference) FailOpenInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"failOpenInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference)SetComplexObject
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference)SetFailOpen(val interface{}) {
+	if err := j.validateSetFailOpenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"failOpen",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (c *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference) ResetDefaultSet
 	_jsii_.InvokeVoid(
 		c,
 		"resetDefaultSettings",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesGuardrailLlmPromptSecurityOutputReference) ResetFailOpen() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetFailOpen",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_environment_addons_config google_apigee_environment_addons_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_environment_addons_config google_apigee_environment_addons_config}.
 type ApigeeEnvironmentAddonsConfig interface {
 	cdktn.TerraformResource
 	AnalyticsEnabled() interface{}
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ApigeeEnvironmentAddonsConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_environment_addons_config google_apigee_environment_addons_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_environment_addons_config google_apigee_environment_addons_config} Resource.
 func NewApigeeEnvironmentAddonsConfig(scope constructs.Construct, id *string, config *ApigeeEnvironmentAddonsConfigConfig) ApigeeEnvironmentAddonsConfig {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewApigeeEnvironmentAddonsConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/apigee_environment_addons_config google_apigee_environment_addons_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_environment_addons_config google_apigee_environment_addons_config} Resource.
 func NewApigeeEnvironmentAddonsConfig_Override(a ApigeeEnvironmentAddonsConfig, scope constructs.Construct, id *string, config *ApigeeEnvironmentAddonsConfigConfig) {
 	_init_.Initialize()
 

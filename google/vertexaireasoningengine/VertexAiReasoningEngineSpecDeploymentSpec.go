@@ -7,11 +7,11 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineSpecDeploymentSpec struct {
 	// Optional. Concurrency for each container and agent server. Recommended value: 2 * cpu + 1. Defaults to 9.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#container_concurrency VertexAiReasoningEngine#container_concurrency}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#container_concurrency VertexAiReasoningEngine#container_concurrency}
 	ContainerConcurrency *float64 `field:"optional" json:"containerConcurrency" yaml:"containerConcurrency"`
 	// env block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#env VertexAiReasoningEngine#env}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#env VertexAiReasoningEngine#env}
 	Env interface{} `field:"optional" json:"env" yaml:"env"`
 	// Optional.
 	//
@@ -20,18 +20,18 @@ type VertexAiReasoningEngineSpecDeploymentSpec struct {
 	// Range: [1, 1000]. If VPC-SC or PSC-I is enabled, the acceptable
 	// range is [1, 100].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#max_instances VertexAiReasoningEngine#max_instances}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#max_instances VertexAiReasoningEngine#max_instances}
 	MaxInstances *float64 `field:"optional" json:"maxInstances" yaml:"maxInstances"`
 	// Optional.
 	//
 	// The minimum number of application instances that will be
 	// kept running at all times. Defaults to 1. Range: [0, 10].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#min_instances VertexAiReasoningEngine#min_instances}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#min_instances VertexAiReasoningEngine#min_instances}
 	MinInstances *float64 `field:"optional" json:"minInstances" yaml:"minInstances"`
 	// psc_interface_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#psc_interface_config VertexAiReasoningEngine#psc_interface_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#psc_interface_config VertexAiReasoningEngine#psc_interface_config}
 	PscInterfaceConfig *VertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfig `field:"optional" json:"pscInterfaceConfig" yaml:"pscInterfaceConfig"`
 	// Optional. Resource limits for each container. Only 'cpu' and 'memory' keys are supported.
 	//
@@ -45,11 +45,11 @@ type VertexAiReasoningEngineSpecDeploymentSpec struct {
 	// For more information, go to
 	// https://cloud.google.com/run/docs/configuring/memory-limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#resource_limits VertexAiReasoningEngine#resource_limits}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#resource_limits VertexAiReasoningEngine#resource_limits}
 	ResourceLimits *map[string]*string `field:"optional" json:"resourceLimits" yaml:"resourceLimits"`
 	// secret_env block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/vertex_ai_reasoning_engine#secret_env VertexAiReasoningEngine#secret_env}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_reasoning_engine#secret_env VertexAiReasoningEngine#secret_env}
 	SecretEnv interface{} `field:"optional" json:"secretEnv" yaml:"secretEnv"`
 }
 

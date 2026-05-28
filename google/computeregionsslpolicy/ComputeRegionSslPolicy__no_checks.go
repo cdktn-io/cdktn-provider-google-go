@@ -131,6 +131,10 @@ func (j *jsiiProxy_ComputeRegionSslPolicy) validateSetNameParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionSslPolicy) validateSetPostQuantumKeyExchangeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionSslPolicy) validateSetProfileParameters(val *string) error {
 	return nil
 }

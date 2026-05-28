@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_fusion_instance google_data_fusion_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_fusion_instance google_data_fusion_instance}.
 type DataFusionInstance interface {
 	cdktn.TerraformResource
 	Accelerators() DataFusionInstanceAcceleratorsList
@@ -80,6 +80,9 @@ type DataFusionInstance interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MaintenanceEvents() DataFusionInstanceMaintenanceEventsList
+	MaintenancePolicy() DataFusionInstanceMaintenancePolicyOutputReference
+	MaintenancePolicyInput() *DataFusionInstanceMaintenancePolicy
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -185,6 +188,7 @@ type DataFusionInstance interface {
 	PutAccelerators(value interface{})
 	PutCryptoKeyConfig(value *DataFusionInstanceCryptoKeyConfig)
 	PutEventPublishConfig(value *DataFusionInstanceEventPublishConfig)
+	PutMaintenancePolicy(value *DataFusionInstanceMaintenancePolicy)
 	PutNetworkConfig(value *DataFusionInstanceNetworkConfig)
 	PutTimeouts(value *DataFusionInstanceTimeouts)
 	ResetAccelerators()
@@ -199,6 +203,7 @@ type DataFusionInstance interface {
 	ResetEventPublishConfig()
 	ResetId()
 	ResetLabels()
+	ResetMaintenancePolicy()
 	ResetNetworkConfig()
 	ResetOptions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -609,6 +614,36 @@ func (j *jsiiProxy_DataFusionInstance) Lifecycle() *cdktn.TerraformResourceLifec
 	return returns
 }
 
+func (j *jsiiProxy_DataFusionInstance) MaintenanceEvents() DataFusionInstanceMaintenanceEventsList {
+	var returns DataFusionInstanceMaintenanceEventsList
+	_jsii_.Get(
+		j,
+		"maintenanceEvents",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFusionInstance) MaintenancePolicy() DataFusionInstanceMaintenancePolicyOutputReference {
+	var returns DataFusionInstanceMaintenancePolicyOutputReference
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFusionInstance) MaintenancePolicyInput() *DataFusionInstanceMaintenancePolicy {
+	var returns *DataFusionInstanceMaintenancePolicy
+	_jsii_.Get(
+		j,
+		"maintenancePolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataFusionInstance) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -990,7 +1025,7 @@ func (j *jsiiProxy_DataFusionInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
 func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataFusionInstanceConfig) DataFusionInstance {
 	_init_.Initialize()
 
@@ -1008,7 +1043,7 @@ func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
 func NewDataFusionInstance_Override(d DataFusionInstance, scope constructs.Construct, id *string, config *DataFusionInstanceConfig) {
 	_init_.Initialize()
 
@@ -1682,6 +1717,17 @@ func (d *jsiiProxy_DataFusionInstance) PutEventPublishConfig(value *DataFusionIn
 	)
 }
 
+func (d *jsiiProxy_DataFusionInstance) PutMaintenancePolicy(value *DataFusionInstanceMaintenancePolicy) {
+	if err := d.validatePutMaintenancePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putMaintenancePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataFusionInstance) PutNetworkConfig(value *DataFusionInstanceNetworkConfig) {
 	if err := d.validatePutNetworkConfigParameters(value); err != nil {
 		panic(err)
@@ -1796,6 +1842,14 @@ func (d *jsiiProxy_DataFusionInstance) ResetLabels() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataFusionInstance) ResetMaintenancePolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMaintenancePolicy",
 		nil, // no parameters
 	)
 }

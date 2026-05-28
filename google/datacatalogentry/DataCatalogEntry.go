@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_catalog_entry google_data_catalog_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_catalog_entry google_data_catalog_entry}.
 type DataCatalogEntry interface {
 	cdktn.TerraformResource
 	BigqueryDateShardedSpec() DataCatalogEntryBigqueryDateShardedSpecList
@@ -649,7 +649,7 @@ func (j *jsiiProxy_DataCatalogEntry) UserSpecifiedTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
 func NewDataCatalogEntry(scope constructs.Construct, id *string, config *DataCatalogEntryConfig) DataCatalogEntry {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewDataCatalogEntry(scope constructs.Construct, id *string, config *DataCat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.33.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_catalog_entry google_data_catalog_entry} Resource.
 func NewDataCatalogEntry_Override(d DataCatalogEntry, scope constructs.Construct, id *string, config *DataCatalogEntryConfig) {
 	_init_.Initialize()
 
