@@ -47,6 +47,10 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigKubeletConfigOutputReference) vali
 	return nil
 }
 
+func (c *jsiiProxy_ContainerNodePoolNodeConfigKubeletConfigOutputReference) validatePutCrashLoopBackOffParameters(value *ContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerNodePoolNodeConfigKubeletConfigOutputReference) validatePutEvictionMinimumReclaimParameters(value *ContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim) error {
 	return nil
 }

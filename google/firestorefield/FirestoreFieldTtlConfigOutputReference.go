@@ -28,6 +28,9 @@ type FirestoreFieldTtlConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExpirationOffset() *string
+	SetExpirationOffset(val *string)
+	ExpirationOffsetInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *FirestoreFieldTtlConfig
@@ -65,6 +68,7 @@ type FirestoreFieldTtlConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetExpirationOffset()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -105,6 +109,26 @@ func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference) CreationStack() *[]*s
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference) ExpirationOffset() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"expirationOffset",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference) ExpirationOffsetInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"expirationOffsetInput",
 		&returns,
 	)
 	return returns
@@ -206,6 +230,17 @@ func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference)SetComplexObjectIsFrom
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference)SetExpirationOffset(val *string) {
+	if err := j.validateSetExpirationOffsetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"expirationOffset",
 		val,
 	)
 }
@@ -427,6 +462,14 @@ func (f *jsiiProxy_FirestoreFieldTtlConfigOutputReference) InterpolationForAttri
 	)
 
 	return returns
+}
+
+func (f *jsiiProxy_FirestoreFieldTtlConfigOutputReference) ResetExpirationOffset() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetExpirationOffset",
+		nil, // no parameters
+	)
 }
 
 func (f *jsiiProxy_FirestoreFieldTtlConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

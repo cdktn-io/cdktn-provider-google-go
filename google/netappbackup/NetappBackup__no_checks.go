@@ -75,6 +75,10 @@ func (n *jsiiProxy_NetappBackup) validateOverrideLogicalIdParameters(newLogicalI
 	return nil
 }
 
+func (n *jsiiProxy_NetappBackup) validatePutOntapSourceParameters(value *NetappBackupOntapSource) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappBackup) validatePutTimeoutsParameters(value *NetappBackupTimeouts) error {
 	return nil
 }

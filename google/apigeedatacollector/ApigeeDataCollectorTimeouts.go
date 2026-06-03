@@ -5,11 +5,11 @@ package apigeedatacollector
 
 
 type ApigeeDataCollectorTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_data_collector#create ApigeeDataCollector#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/apigee_data_collector#create ApigeeDataCollector#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_data_collector#delete ApigeeDataCollector#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/apigee_data_collector#delete ApigeeDataCollector#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_data_collector#update ApigeeDataCollector#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/apigee_data_collector#update ApigeeDataCollector#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

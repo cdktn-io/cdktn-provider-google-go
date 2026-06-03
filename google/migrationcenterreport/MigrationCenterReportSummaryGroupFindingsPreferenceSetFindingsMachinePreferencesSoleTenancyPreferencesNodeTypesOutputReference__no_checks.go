@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package migrationcenterreport
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateSetInternalValueParameters(val *MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypes) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewMigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

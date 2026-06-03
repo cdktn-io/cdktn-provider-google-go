@@ -24,26 +24,26 @@ type CesToolConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#app CesTool#app}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#app CesTool#app}
 	App *string `field:"required" json:"app" yaml:"app"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#location CesTool#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#location CesTool#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The ID to use for the tool, which will become the final component of the tool's resource name.
 	//
 	// If not provided, a unique ID will be
 	// automatically assigned for the tool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#tool_id CesTool#tool_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#tool_id CesTool#tool_id}
 	ToolId *string `field:"required" json:"toolId" yaml:"toolId"`
 	// client_function block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#client_function CesTool#client_function}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#client_function CesTool#client_function}
 	ClientFunction *CesToolClientFunction `field:"optional" json:"clientFunction" yaml:"clientFunction"`
 	// data_store_tool block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#data_store_tool CesTool#data_store_tool}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#data_store_tool CesTool#data_store_tool}
 	DataStoreTool *CesToolDataStoreTool `field:"optional" json:"dataStoreTool" yaml:"dataStoreTool"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -55,30 +55,30 @@ type CesToolConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#deletion_policy CesTool#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#deletion_policy CesTool#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Possible values: SYNCHRONOUS ASYNCHRONOUS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#execution_type CesTool#execution_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#execution_type CesTool#execution_type}
 	ExecutionType *string `field:"optional" json:"executionType" yaml:"executionType"`
 	// google_search_tool block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#google_search_tool CesTool#google_search_tool}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#google_search_tool CesTool#google_search_tool}
 	GoogleSearchTool *CesToolGoogleSearchTool `field:"optional" json:"googleSearchTool" yaml:"googleSearchTool"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#id CesTool#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#id CesTool#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#project CesTool#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#project CesTool#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// python_function block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#python_function CesTool#python_function}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#python_function CesTool#python_function}
 	PythonFunction *CesToolPythonFunction `field:"optional" json:"pythonFunction" yaml:"pythonFunction"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#timeouts CesTool#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#timeouts CesTool#timeouts}
 	Timeouts *CesToolTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

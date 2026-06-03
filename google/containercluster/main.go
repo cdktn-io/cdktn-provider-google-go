@@ -4672,6 +4672,45 @@ func init() {
 		reflect.TypeOf((*ContainerClusterNodeConfigKubeletConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.containerCluster.ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff",
+		reflect.TypeOf((*ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.containerCluster.ContainerClusterNodeConfigKubeletConfigCrashLoopBackOffOutputReference",
+		reflect.TypeOf((*ContainerClusterNodeConfigKubeletConfigCrashLoopBackOffOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "maxContainerRestartPeriod", GoGetter: "MaxContainerRestartPeriod"},
+			_jsii_.MemberProperty{JsiiProperty: "maxContainerRestartPeriodInput", GoGetter: "MaxContainerRestartPeriodInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaxContainerRestartPeriod", GoMethod: "ResetMaxContainerRestartPeriod"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ContainerClusterNodeConfigKubeletConfigCrashLoopBackOffOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.containerCluster.ContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim",
 		reflect.TypeOf((*ContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim)(nil)).Elem(),
 	)
@@ -4891,6 +4930,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "cpuCfsQuotaPeriodInput", GoGetter: "CpuCfsQuotaPeriodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cpuManagerPolicy", GoGetter: "CpuManagerPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "cpuManagerPolicyInput", GoGetter: "CpuManagerPolicyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "crashLoopBackOff", GoGetter: "CrashLoopBackOff"},
+			_jsii_.MemberProperty{JsiiProperty: "crashLoopBackOffInput", GoGetter: "CrashLoopBackOffInput"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "evictionMaxPodGracePeriodSeconds", GoGetter: "EvictionMaxPodGracePeriodSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "evictionMaxPodGracePeriodSecondsInput", GoGetter: "EvictionMaxPodGracePeriodSecondsInput"},
@@ -4929,6 +4970,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "memoryManagerInput", GoGetter: "MemoryManagerInput"},
 			_jsii_.MemberProperty{JsiiProperty: "podPidsLimit", GoGetter: "PodPidsLimit"},
 			_jsii_.MemberProperty{JsiiProperty: "podPidsLimitInput", GoGetter: "PodPidsLimitInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putCrashLoopBackOff", GoMethod: "PutCrashLoopBackOff"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvictionMinimumReclaim", GoMethod: "PutEvictionMinimumReclaim"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvictionSoft", GoMethod: "PutEvictionSoft"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvictionSoftGracePeriod", GoMethod: "PutEvictionSoftGracePeriod"},
@@ -4940,6 +4982,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetCpuCfsQuota", GoMethod: "ResetCpuCfsQuota"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCpuCfsQuotaPeriod", GoMethod: "ResetCpuCfsQuotaPeriod"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCpuManagerPolicy", GoMethod: "ResetCpuManagerPolicy"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCrashLoopBackOff", GoMethod: "ResetCrashLoopBackOff"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvictionMaxPodGracePeriodSeconds", GoMethod: "ResetEvictionMaxPodGracePeriodSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvictionMinimumReclaim", GoMethod: "ResetEvictionMinimumReclaim"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvictionSoft", GoMethod: "ResetEvictionSoft"},
@@ -8634,6 +8677,45 @@ func init() {
 		reflect.TypeOf((*ContainerClusterNodePoolNodeConfigKubeletConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.containerCluster.ContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOff",
+		reflect.TypeOf((*ContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOff)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.containerCluster.ContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOffOutputReference",
+		reflect.TypeOf((*ContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOffOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "maxContainerRestartPeriod", GoGetter: "MaxContainerRestartPeriod"},
+			_jsii_.MemberProperty{JsiiProperty: "maxContainerRestartPeriodInput", GoGetter: "MaxContainerRestartPeriodInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaxContainerRestartPeriod", GoMethod: "ResetMaxContainerRestartPeriod"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOffOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.containerCluster.ContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim",
 		reflect.TypeOf((*ContainerClusterNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim)(nil)).Elem(),
 	)
@@ -8853,6 +8935,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "cpuCfsQuotaPeriodInput", GoGetter: "CpuCfsQuotaPeriodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cpuManagerPolicy", GoGetter: "CpuManagerPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "cpuManagerPolicyInput", GoGetter: "CpuManagerPolicyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "crashLoopBackOff", GoGetter: "CrashLoopBackOff"},
+			_jsii_.MemberProperty{JsiiProperty: "crashLoopBackOffInput", GoGetter: "CrashLoopBackOffInput"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "evictionMaxPodGracePeriodSeconds", GoGetter: "EvictionMaxPodGracePeriodSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "evictionMaxPodGracePeriodSecondsInput", GoGetter: "EvictionMaxPodGracePeriodSecondsInput"},
@@ -8891,6 +8975,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "memoryManagerInput", GoGetter: "MemoryManagerInput"},
 			_jsii_.MemberProperty{JsiiProperty: "podPidsLimit", GoGetter: "PodPidsLimit"},
 			_jsii_.MemberProperty{JsiiProperty: "podPidsLimitInput", GoGetter: "PodPidsLimitInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putCrashLoopBackOff", GoMethod: "PutCrashLoopBackOff"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvictionMinimumReclaim", GoMethod: "PutEvictionMinimumReclaim"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvictionSoft", GoMethod: "PutEvictionSoft"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvictionSoftGracePeriod", GoMethod: "PutEvictionSoftGracePeriod"},
@@ -8902,6 +8987,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetCpuCfsQuota", GoMethod: "ResetCpuCfsQuota"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCpuCfsQuotaPeriod", GoMethod: "ResetCpuCfsQuotaPeriod"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCpuManagerPolicy", GoMethod: "ResetCpuManagerPolicy"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCrashLoopBackOff", GoMethod: "ResetCrashLoopBackOff"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvictionMaxPodGracePeriodSeconds", GoMethod: "ResetEvictionMaxPodGracePeriodSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvictionMinimumReclaim", GoMethod: "ResetEvictionMinimumReclaim"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvictionSoft", GoMethod: "ResetEvictionSoft"},

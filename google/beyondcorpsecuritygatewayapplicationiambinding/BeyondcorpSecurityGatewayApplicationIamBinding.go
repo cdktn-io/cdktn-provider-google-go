@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/beyondcorp_security_gateway_application_iam_binding google_beyondcorp_security_gateway_application_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/beyondcorp_security_gateway_application_iam_binding google_beyondcorp_security_gateway_application_iam_binding}.
 type BeyondcorpSecurityGatewayApplicationIamBinding interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamBinding) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/beyondcorp_security_gateway_application_iam_binding google_beyondcorp_security_gateway_application_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/beyondcorp_security_gateway_application_iam_binding google_beyondcorp_security_gateway_application_iam_binding} Resource.
 func NewBeyondcorpSecurityGatewayApplicationIamBinding(scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayApplicationIamBindingConfig) BeyondcorpSecurityGatewayApplicationIamBinding {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewBeyondcorpSecurityGatewayApplicationIamBinding(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/beyondcorp_security_gateway_application_iam_binding google_beyondcorp_security_gateway_application_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/beyondcorp_security_gateway_application_iam_binding google_beyondcorp_security_gateway_application_iam_binding} Resource.
 func NewBeyondcorpSecurityGatewayApplicationIamBinding_Override(b BeyondcorpSecurityGatewayApplicationIamBinding, scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayApplicationIamBindingConfig) {
 	_init_.Initialize()
 

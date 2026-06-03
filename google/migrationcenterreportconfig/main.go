@@ -11,8 +11,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/provider-google.migrationCenterReportConfig.MigrationCenterReportConfig",
-		reflect.TypeOf((*MigrationCenterReportConfig)(nil)).Elem(),
+		"@cdktn/provider-google.migrationCenterReportConfig.MigrationCenterReportConfigA",
+		reflect.TypeOf((*MigrationCenterReportConfigA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -87,14 +87,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_MigrationCenterReportConfig{}
+			j := jsiiProxy_MigrationCenterReportConfigA{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-google.migrationCenterReportConfig.MigrationCenterReportConfigConfig",
-		reflect.TypeOf((*MigrationCenterReportConfigConfig)(nil)).Elem(),
+		"@cdktn/provider-google.migrationCenterReportConfig.MigrationCenterReportConfigAConfig",
+		reflect.TypeOf((*MigrationCenterReportConfigAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.migrationCenterReportConfig.MigrationCenterReportConfigGroupPreferencesetAssignments",

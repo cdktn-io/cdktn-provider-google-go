@@ -12,13 +12,13 @@ type ComputeRegionHealthCheckGrpcTlsHealthCheck struct {
 	//
 	// The grpcServiceName can only be ASCII.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_health_check#grpc_service_name ComputeRegionHealthCheck#grpc_service_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_health_check#grpc_service_name ComputeRegionHealthCheck#grpc_service_name}
 	GrpcServiceName *string `field:"optional" json:"grpcServiceName" yaml:"grpcServiceName"`
 	// The port number for the health check request.
 	//
 	// Must be specified if port_specification is USE_FIXED_PORT. Valid values are 1 through 65535.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_health_check#port ComputeRegionHealthCheck#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_health_check#port ComputeRegionHealthCheck#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 	// Specifies how port is selected for health checking, can be one of the following values:.
 	//
@@ -33,7 +33,7 @@ type ComputeRegionHealthCheckGrpcTlsHealthCheck struct {
 	//
 	// If not specified, gRPC health check follows behavior specified in the 'port' field. Possible values: ["USE_FIXED_PORT", "USE_NAMED_PORT", "USE_SERVING_PORT"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_health_check#port_specification ComputeRegionHealthCheck#port_specification}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_health_check#port_specification ComputeRegionHealthCheck#port_specification}
 	PortSpecification *string `field:"optional" json:"portSpecification" yaml:"portSpecification"`
 }
 

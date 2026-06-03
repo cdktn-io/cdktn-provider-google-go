@@ -59,6 +59,10 @@ func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference) validateSetComplexObj
 	return nil
 }
 
+func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference) validateSetExpirationOffsetParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FirestoreFieldTtlConfigOutputReference) validateSetInternalValueParameters(val *FirestoreFieldTtlConfig) error {
 	return nil
 }

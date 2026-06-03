@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_security_policy_rule google_compute_security_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_security_policy_rule google_compute_security_policy_rule}.
 type ComputeSecurityPolicyRuleA interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_ComputeSecurityPolicyRuleA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_security_policy_rule google_compute_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_security_policy_rule google_compute_security_policy_rule} Resource.
 func NewComputeSecurityPolicyRuleA(scope constructs.Construct, id *string, config *ComputeSecurityPolicyRuleAConfig) ComputeSecurityPolicyRuleA {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewComputeSecurityPolicyRuleA(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_security_policy_rule google_compute_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_security_policy_rule google_compute_security_policy_rule} Resource.
 func NewComputeSecurityPolicyRuleA_Override(c ComputeSecurityPolicyRuleA, scope constructs.Construct, id *string, config *ComputeSecurityPolicyRuleAConfig) {
 	_init_.Initialize()
 

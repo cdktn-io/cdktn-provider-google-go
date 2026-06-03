@@ -5,11 +5,11 @@ package managedkafkaconnector
 
 
 type ManagedKafkaConnectorTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/managed_kafka_connector#create ManagedKafkaConnector#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#create ManagedKafkaConnector#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/managed_kafka_connector#delete ManagedKafkaConnector#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#delete ManagedKafkaConnector#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/managed_kafka_connector#update ManagedKafkaConnector#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#update ManagedKafkaConnector#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package migrationcenterreport
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateSetInternalValueParameters(val *MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNode) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewMigrationCenterReportSummaryGroupFindingsPreferenceSetFindingsVmwareEngineFindingNodeAllocationsVmwareNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

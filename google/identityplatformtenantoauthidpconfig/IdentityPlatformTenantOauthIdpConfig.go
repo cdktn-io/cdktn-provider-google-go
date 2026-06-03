@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config}.
 type IdentityPlatformTenantOauthIdpConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
 func NewIdentityPlatformTenantOauthIdpConfig(scope constructs.Construct, id *string, config *IdentityPlatformTenantOauthIdpConfigConfig) IdentityPlatformTenantOauthIdpConfig {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewIdentityPlatformTenantOauthIdpConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
 func NewIdentityPlatformTenantOauthIdpConfig_Override(i IdentityPlatformTenantOauthIdpConfig, scope constructs.Construct, id *string, config *IdentityPlatformTenantOauthIdpConfigConfig) {
 	_init_.Initialize()
 

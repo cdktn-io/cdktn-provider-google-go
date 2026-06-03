@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/document_ai_schema google_document_ai_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/document_ai_schema google_document_ai_schema}.
 type DocumentAiSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DocumentAiSchema) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
 func NewDocumentAiSchema(scope constructs.Construct, id *string, config *DocumentAiSchemaConfig) DocumentAiSchema {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDocumentAiSchema(scope constructs.Construct, id *string, config *Documen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/document_ai_schema google_document_ai_schema} Resource.
 func NewDocumentAiSchema_Override(d DocumentAiSchema, scope constructs.Construct, id *string, config *DocumentAiSchemaConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package chronicledashboardchart
 type ChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter struct {
 	// dashboard_filters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/chronicle_dashboard_chart#dashboard_filters ChronicleDashboardChart#dashboard_filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/chronicle_dashboard_chart#dashboard_filters ChronicleDashboardChart#dashboard_filters}
 	DashboardFilters interface{} `field:"required" json:"dashboardFilters" yaml:"dashboardFilters"`
 }
 

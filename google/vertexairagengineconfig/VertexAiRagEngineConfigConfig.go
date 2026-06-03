@@ -24,7 +24,7 @@ type VertexAiRagEngineConfigConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// rag_managed_db_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_rag_engine_config#rag_managed_db_config VertexAiRagEngineConfig#rag_managed_db_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_rag_engine_config#rag_managed_db_config VertexAiRagEngineConfig#rag_managed_db_config}
 	RagManagedDbConfig *VertexAiRagEngineConfigRagManagedDbConfig `field:"required" json:"ragManagedDbConfig" yaml:"ragManagedDbConfig"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -36,22 +36,22 @@ type VertexAiRagEngineConfigConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_rag_engine_config#deletion_policy VertexAiRagEngineConfig#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_rag_engine_config#deletion_policy VertexAiRagEngineConfig#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_rag_engine_config#id VertexAiRagEngineConfig#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_rag_engine_config#id VertexAiRagEngineConfig#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_rag_engine_config#project VertexAiRagEngineConfig#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_rag_engine_config#project VertexAiRagEngineConfig#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// The region of the RagEngineConfig. eg us-central1.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_rag_engine_config#region VertexAiRagEngineConfig#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_rag_engine_config#region VertexAiRagEngineConfig#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/vertex_ai_rag_engine_config#timeouts VertexAiRagEngineConfig#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_rag_engine_config#timeouts VertexAiRagEngineConfig#timeouts}
 	Timeouts *VertexAiRagEngineConfigTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

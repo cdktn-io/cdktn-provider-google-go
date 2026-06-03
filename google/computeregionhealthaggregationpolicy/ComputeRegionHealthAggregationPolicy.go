@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
 type ComputeRegionHealthAggregationPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ComputeRegionHealthAggregationPolicy) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
 func NewComputeRegionHealthAggregationPolicy(scope constructs.Construct, id *string, config *ComputeRegionHealthAggregationPolicyConfig) ComputeRegionHealthAggregationPolicy {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewComputeRegionHealthAggregationPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
 func NewComputeRegionHealthAggregationPolicy_Override(c ComputeRegionHealthAggregationPolicy, scope constructs.Construct, id *string, config *ComputeRegionHealthAggregationPolicyConfig) {
 	_init_.Initialize()
 

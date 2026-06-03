@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config}.
 type NetworkSecurityBackendAuthenticationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) WellKnownRootsInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
 func NewNetworkSecurityBackendAuthenticationConfig(scope constructs.Construct, id *string, config *NetworkSecurityBackendAuthenticationConfigConfig) NetworkSecurityBackendAuthenticationConfig {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewNetworkSecurityBackendAuthenticationConfig(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
 func NewNetworkSecurityBackendAuthenticationConfig_Override(n NetworkSecurityBackendAuthenticationConfig, scope constructs.Construct, id *string, config *NetworkSecurityBackendAuthenticationConfigConfig) {
 	_init_.Initialize()
 

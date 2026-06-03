@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_disk google_compute_region_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_disk google_compute_region_disk}.
 type ComputeRegionDisk interface {
 	cdktn.TerraformResource
 	AccessMode() *string
@@ -1049,7 +1049,7 @@ func (j *jsiiProxy_ComputeRegionDisk) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
 func NewComputeRegionDisk(scope constructs.Construct, id *string, config *ComputeRegionDiskConfig) ComputeRegionDisk {
 	_init_.Initialize()
 
@@ -1067,7 +1067,7 @@ func NewComputeRegionDisk(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_region_disk google_compute_region_disk} Resource.
 func NewComputeRegionDisk_Override(c ComputeRegionDisk, scope constructs.Construct, id *string, config *ComputeRegionDiskConfig) {
 	_init_.Initialize()
 

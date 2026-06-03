@@ -30,7 +30,7 @@ type ComputeCrossSiteNetworkConfig struct {
 	// character must be a lowercase letter, and all following characters must be a dash,
 	// lowercase letter, or digit, except the last character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_cross_site_network#name ComputeCrossSiteNetwork#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network#name ComputeCrossSiteNetwork#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -42,22 +42,22 @@ type ComputeCrossSiteNetworkConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_cross_site_network#deletion_policy ComputeCrossSiteNetwork#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network#deletion_policy ComputeCrossSiteNetwork#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_cross_site_network#description ComputeCrossSiteNetwork#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network#description ComputeCrossSiteNetwork#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_cross_site_network#id ComputeCrossSiteNetwork#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network#id ComputeCrossSiteNetwork#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_cross_site_network#project ComputeCrossSiteNetwork#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network#project ComputeCrossSiteNetwork#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_cross_site_network#timeouts ComputeCrossSiteNetwork#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network#timeouts ComputeCrossSiteNetwork#timeouts}
 	Timeouts *ComputeCrossSiteNetworkTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

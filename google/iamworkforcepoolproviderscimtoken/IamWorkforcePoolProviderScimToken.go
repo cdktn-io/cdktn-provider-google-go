@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token}.
 type IamWorkforcePoolProviderScimToken interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_IamWorkforcePoolProviderScimToken) WorkforcePoolIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token} Resource.
 func NewIamWorkforcePoolProviderScimToken(scope constructs.Construct, id *string, config *IamWorkforcePoolProviderScimTokenConfig) IamWorkforcePoolProviderScimToken {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewIamWorkforcePoolProviderScimToken(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token} Resource.
 func NewIamWorkforcePoolProviderScimToken_Override(i IamWorkforcePoolProviderScimToken, scope constructs.Construct, id *string, config *IamWorkforcePoolProviderScimTokenConfig) {
 	_init_.Initialize()
 

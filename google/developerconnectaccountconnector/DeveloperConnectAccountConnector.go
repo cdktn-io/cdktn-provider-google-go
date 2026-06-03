@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector}.
 type DeveloperConnectAccountConnector interface {
 	cdktn.TerraformResource
 	AccountConnectorId() *string
@@ -658,7 +658,7 @@ func (j *jsiiProxy_DeveloperConnectAccountConnector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
 func NewDeveloperConnectAccountConnector(scope constructs.Construct, id *string, config *DeveloperConnectAccountConnectorConfig) DeveloperConnectAccountConnector {
 	_init_.Initialize()
 
@@ -676,7 +676,7 @@ func NewDeveloperConnectAccountConnector(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_account_connector google_developer_connect_account_connector} Resource.
 func NewDeveloperConnectAccountConnector_Override(d DeveloperConnectAccountConnector, scope constructs.Construct, id *string, config *DeveloperConnectAccountConnectorConfig) {
 	_init_.Initialize()
 

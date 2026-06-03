@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/scc_project_notification_config google_scc_project_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/scc_project_notification_config google_scc_project_notification_config}.
 type SccProjectNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_SccProjectNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
 func NewSccProjectNotificationConfig(scope constructs.Construct, id *string, config *SccProjectNotificationConfigConfig) SccProjectNotificationConfig {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewSccProjectNotificationConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
 func NewSccProjectNotificationConfig_Override(s SccProjectNotificationConfig, scope constructs.Construct, id *string, config *SccProjectNotificationConfigConfig) {
 	_init_.Initialize()
 

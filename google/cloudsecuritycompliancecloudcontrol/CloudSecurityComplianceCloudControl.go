@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
 type CloudSecurityComplianceCloudControl interface {
 	cdktn.TerraformResource
 	Categories() *[]*string
@@ -718,7 +718,7 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControl) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewCloudSecurityComplianceCloudControl(scope constructs.Construct, id *string, config *CloudSecurityComplianceCloudControlConfig) CloudSecurityComplianceCloudControl {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewCloudSecurityComplianceCloudControl(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewCloudSecurityComplianceCloudControl_Override(c CloudSecurityComplianceCloudControl, scope constructs.Construct, id *string, config *CloudSecurityComplianceCloudControlConfig) {
 	_init_.Initialize()
 

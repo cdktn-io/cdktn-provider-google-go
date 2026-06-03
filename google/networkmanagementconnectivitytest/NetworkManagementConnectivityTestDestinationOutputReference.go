@@ -42,6 +42,9 @@ type NetworkManagementConnectivityTestDestinationOutputReference interface {
 	GkeMasterCluster() *string
 	SetGkeMasterCluster(val *string)
 	GkeMasterClusterInput() *string
+	GkePod() *string
+	SetGkePod(val *string)
+	GkePodInput() *string
 	Instance() *string
 	SetInstance(val *string)
 	InstanceInput() *string
@@ -53,6 +56,9 @@ type NetworkManagementConnectivityTestDestinationOutputReference interface {
 	Network() *string
 	SetNetwork(val *string)
 	NetworkInput() *string
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
@@ -101,9 +107,11 @@ type NetworkManagementConnectivityTestDestinationOutputReference interface {
 	ResetForwardingRule()
 	ResetFqdn()
 	ResetGkeMasterCluster()
+	ResetGkePod()
 	ResetInstance()
 	ResetIpAddress()
 	ResetNetwork()
+	ResetNetworkType()
 	ResetPort()
 	ResetProjectId()
 	ResetRedisCluster()
@@ -243,6 +251,26 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) GkePod() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gkePod",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) GkePodInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gkePodInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) Instance() *string {
 	var returns *string
 	_jsii_.Get(
@@ -308,6 +336,26 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) 
 	_jsii_.Get(
 		j,
 		"networkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
 		&returns,
 	)
 	return returns
@@ -507,6 +555,17 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference)S
 	)
 }
 
+func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference)SetGkePod(val *string) {
+	if err := j.validateSetGkePodParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gkePod",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference)SetInstance(val *string) {
 	if err := j.validateSetInstanceParameters(val); err != nil {
 		panic(err)
@@ -547,6 +606,17 @@ func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference)S
 	_jsii_.Set(
 		j,
 		"network",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -835,6 +905,14 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) 
 	)
 }
 
+func (n *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) ResetGkePod() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetGkePod",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) ResetInstance() {
 	_jsii_.InvokeVoid(
 		n,
@@ -855,6 +933,14 @@ func (n *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) 
 	_jsii_.InvokeVoid(
 		n,
 		"resetNetwork",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagementConnectivityTestDestinationOutputReference) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNetworkType",
 		nil, // no parameters
 	)
 }

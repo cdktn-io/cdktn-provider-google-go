@@ -41,6 +41,8 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	CpuManagerPolicy() *string
 	SetCpuManagerPolicy(val *string)
 	CpuManagerPolicyInput() *string
+	CrashLoopBackOff() ContainerClusterNodeConfigKubeletConfigCrashLoopBackOffOutputReference
+	CrashLoopBackOffInput() *ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -119,6 +121,7 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCrashLoopBackOff(value *ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff)
 	PutEvictionMinimumReclaim(value *ContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim)
 	PutEvictionSoft(value *ContainerClusterNodeConfigKubeletConfigEvictionSoft)
 	PutEvictionSoftGracePeriod(value *ContainerClusterNodeConfigKubeletConfigEvictionSoftGracePeriod)
@@ -130,6 +133,7 @@ type ContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	ResetCpuCfsQuota()
 	ResetCpuCfsQuotaPeriod()
 	ResetCpuManagerPolicy()
+	ResetCrashLoopBackOff()
 	ResetEvictionMaxPodGracePeriodSeconds()
 	ResetEvictionMinimumReclaim()
 	ResetEvictionSoft()
@@ -294,6 +298,26 @@ func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) CpuMa
 	_jsii_.Get(
 		j,
 		"cpuManagerPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) CrashLoopBackOff() ContainerClusterNodeConfigKubeletConfigCrashLoopBackOffOutputReference {
+	var returns ContainerClusterNodeConfigKubeletConfigCrashLoopBackOffOutputReference
+	_jsii_.Get(
+		j,
+		"crashLoopBackOff",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) CrashLoopBackOffInput() *ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff {
+	var returns *ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff
+	_jsii_.Get(
+		j,
+		"crashLoopBackOffInput",
 		&returns,
 	)
 	return returns
@@ -1063,6 +1087,17 @@ func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) Inter
 	return returns
 }
 
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) PutCrashLoopBackOff(value *ContainerClusterNodeConfigKubeletConfigCrashLoopBackOff) {
+	if err := c.validatePutCrashLoopBackOffParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCrashLoopBackOff",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) PutEvictionMinimumReclaim(value *ContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim) {
 	if err := c.validatePutEvictionMinimumReclaimParameters(value); err != nil {
 		panic(err)
@@ -1162,6 +1197,14 @@ func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetCpuManagerPolicy",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodeConfigKubeletConfigOutputReference) ResetCrashLoopBackOff() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCrashLoopBackOff",
 		nil, // no parameters
 	)
 }

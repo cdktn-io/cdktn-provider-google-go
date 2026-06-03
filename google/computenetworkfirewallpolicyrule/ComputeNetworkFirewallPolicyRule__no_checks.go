@@ -167,7 +167,15 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyRule) validateSetSecurityProfileG
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkFirewallPolicyRule) validateSetTargetForwardingRulesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkFirewallPolicyRule) validateSetTargetServiceAccountsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeNetworkFirewallPolicyRule) validateSetTargetTypeParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/netapp_host_group google_netapp_host_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/netapp_host_group google_netapp_host_group}.
 type NetappHostGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -598,7 +598,7 @@ func (j *jsiiProxy_NetappHostGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/netapp_host_group google_netapp_host_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/netapp_host_group google_netapp_host_group} Resource.
 func NewNetappHostGroup(scope constructs.Construct, id *string, config *NetappHostGroupConfig) NetappHostGroup {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewNetappHostGroup(scope constructs.Construct, id *string, config *NetappHo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/netapp_host_group google_netapp_host_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/netapp_host_group google_netapp_host_group} Resource.
 func NewNetappHostGroup_Override(n NetappHostGroup, scope constructs.Construct, id *string, config *NetappHostGroupConfig) {
 	_init_.Initialize()
 

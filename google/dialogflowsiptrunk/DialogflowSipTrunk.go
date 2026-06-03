@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dialogflow_sip_trunk google_dialogflow_sip_trunk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/dialogflow_sip_trunk google_dialogflow_sip_trunk}.
 type DialogflowSipTrunk interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_DialogflowSipTrunk) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
 func NewDialogflowSipTrunk(scope constructs.Construct, id *string, config *DialogflowSipTrunkConfig) DialogflowSipTrunk {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewDialogflowSipTrunk(scope constructs.Construct, id *string, config *Dialo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
 func NewDialogflowSipTrunk_Override(d DialogflowSipTrunk, scope constructs.Construct, id *string, config *DialogflowSipTrunkConfig) {
 	_init_.Initialize()
 

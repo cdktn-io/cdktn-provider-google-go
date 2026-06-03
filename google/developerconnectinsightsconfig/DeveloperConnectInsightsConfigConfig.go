@@ -24,26 +24,26 @@ type DeveloperConnectInsightsConfigConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// ID of the requesting InsightsConfig.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#insights_config_id DeveloperConnectInsightsConfig#insights_config_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#insights_config_id DeveloperConnectInsightsConfig#insights_config_id}
 	InsightsConfigId *string `field:"required" json:"insightsConfigId" yaml:"insightsConfigId"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#location DeveloperConnectInsightsConfig#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#location DeveloperConnectInsightsConfig#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// User specified annotations. See https://google.aip.dev/148#annotations for more details such as format and size limitations.
 	//
 	// **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 	// Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#annotations DeveloperConnectInsightsConfig#annotations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#annotations DeveloperConnectInsightsConfig#annotations}
 	Annotations *map[string]*string `field:"optional" json:"annotations" yaml:"annotations"`
 	// The name of the App Hub Application. Format: projects/{project}/locations/{location}/applications/{application}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#app_hub_application DeveloperConnectInsightsConfig#app_hub_application}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#app_hub_application DeveloperConnectInsightsConfig#app_hub_application}
 	AppHubApplication *string `field:"optional" json:"appHubApplication" yaml:"appHubApplication"`
 	// artifact_configs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#artifact_configs DeveloperConnectInsightsConfig#artifact_configs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#artifact_configs DeveloperConnectInsightsConfig#artifact_configs}
 	ArtifactConfigs interface{} `field:"optional" json:"artifactConfigs" yaml:"artifactConfigs"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -55,9 +55,9 @@ type DeveloperConnectInsightsConfigConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#deletion_policy DeveloperConnectInsightsConfig#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#deletion_policy DeveloperConnectInsightsConfig#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#id DeveloperConnectInsightsConfig#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#id DeveloperConnectInsightsConfig#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,17 +67,17 @@ type DeveloperConnectInsightsConfigConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#labels DeveloperConnectInsightsConfig#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#labels DeveloperConnectInsightsConfig#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#project DeveloperConnectInsightsConfig#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#project DeveloperConnectInsightsConfig#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// target_projects block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#target_projects DeveloperConnectInsightsConfig#target_projects}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#target_projects DeveloperConnectInsightsConfig#target_projects}
 	TargetProjects *DeveloperConnectInsightsConfigTargetProjects `field:"optional" json:"targetProjects" yaml:"targetProjects"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/developer_connect_insights_config#timeouts DeveloperConnectInsightsConfig#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/developer_connect_insights_config#timeouts DeveloperConnectInsightsConfig#timeouts}
 	Timeouts *DeveloperConnectInsightsConfigTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

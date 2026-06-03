@@ -13,7 +13,7 @@ type CesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs struct {
 	// Example: To boost suggestions in languages en or fr:
 	// (lang_code: ANY("en", "fr"))
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#condition CesTool#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#condition CesTool#condition}
 	Condition *string `field:"required" json:"condition" yaml:"condition"`
 	// Strength of the boost, which should be in [-1, 1].
 	//
@@ -26,11 +26,11 @@ type CesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs struct {
 	// Setting to 0.0 means no boost applied. The boosting condition is
 	// ignored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#boost CesTool#boost}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#boost CesTool#boost}
 	Boost *float64 `field:"optional" json:"boost" yaml:"boost"`
 	// boost_control_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/ces_tool#boost_control_spec CesTool#boost_control_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool#boost_control_spec CesTool#boost_control_spec}
 	BoostControlSpec *CesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec `field:"optional" json:"boostControlSpec" yaml:"boostControlSpec"`
 }
 

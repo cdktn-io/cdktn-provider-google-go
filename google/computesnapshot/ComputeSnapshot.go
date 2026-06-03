@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_snapshot google_compute_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_snapshot google_compute_snapshot}.
 type ComputeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -753,7 +753,7 @@ func (j *jsiiProxy_ComputeSnapshot) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
 func NewComputeSnapshot(scope constructs.Construct, id *string, config *ComputeSnapshotConfig) ComputeSnapshot {
 	_init_.Initialize()
 
@@ -771,7 +771,7 @@ func NewComputeSnapshot(scope constructs.Construct, id *string, config *ComputeS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
 func NewComputeSnapshot_Override(c ComputeSnapshot, scope constructs.Construct, id *string, config *ComputeSnapshotConfig) {
 	_init_.Initialize()
 

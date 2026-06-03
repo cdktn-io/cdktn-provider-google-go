@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_sharedflow google_apigee_sharedflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/apigee_sharedflow google_apigee_sharedflow}.
 type ApigeeSharedflow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -504,7 +504,7 @@ func (j *jsiiProxy_ApigeeSharedflow) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_sharedflow google_apigee_sharedflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/apigee_sharedflow google_apigee_sharedflow} Resource.
 func NewApigeeSharedflow(scope constructs.Construct, id *string, config *ApigeeSharedflowConfig) ApigeeSharedflow {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewApigeeSharedflow(scope constructs.Construct, id *string, config *ApigeeS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/apigee_sharedflow google_apigee_sharedflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/apigee_sharedflow google_apigee_sharedflow} Resource.
 func NewApigeeSharedflow_Override(a ApigeeSharedflow, scope constructs.Construct, id *string, config *ApigeeSharedflowConfig) {
 	_init_.Initialize()
 

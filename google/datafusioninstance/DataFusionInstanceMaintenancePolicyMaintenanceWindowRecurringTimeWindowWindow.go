@@ -7,11 +7,11 @@ package datafusioninstance
 type DataFusionInstanceMaintenancePolicyMaintenanceWindowRecurringTimeWindowWindow struct {
 	// The end time of the time window provided in RFC 3339 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_fusion_instance#end_time DataFusionInstance#end_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/data_fusion_instance#end_time DataFusionInstance#end_time}
 	EndTime *string `field:"required" json:"endTime" yaml:"endTime"`
 	// The start time of the time window provided in RFC 3339 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/data_fusion_instance#start_time DataFusionInstance#start_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/data_fusion_instance#start_time DataFusionInstance#start_time}
 	StartTime *string `field:"required" json:"startTime" yaml:"startTime"`
 }
 

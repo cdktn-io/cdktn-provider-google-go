@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/netapp_backup google_netapp_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/netapp_backup google_netapp_backup}.
 type NetappBackup interface {
 	cdktn.TerraformResource
 	BackupRegion() *string
@@ -68,6 +68,8 @@ type NetappBackup interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	OntapSource() NetappBackupOntapSourceOutputReference
+	OntapSourceInput() *NetappBackupOntapSource
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -145,11 +147,13 @@ type NetappBackup interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutOntapSource(value *NetappBackupOntapSource)
 	PutTimeouts(value *NetappBackupTimeouts)
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
+	ResetOntapSource()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -454,6 +458,26 @@ func (j *jsiiProxy_NetappBackup) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_NetappBackup) OntapSource() NetappBackupOntapSourceOutputReference {
+	var returns NetappBackupOntapSourceOutputReference
+	_jsii_.Get(
+		j,
+		"ontapSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappBackup) OntapSourceInput() *NetappBackupOntapSource {
+	var returns *NetappBackupOntapSource
+	_jsii_.Get(
+		j,
+		"ontapSourceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappBackup) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -655,7 +679,7 @@ func (j *jsiiProxy_NetappBackup) VolumeUsageBytes() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/netapp_backup google_netapp_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/netapp_backup google_netapp_backup} Resource.
 func NewNetappBackup(scope constructs.Construct, id *string, config *NetappBackupConfig) NetappBackup {
 	_init_.Initialize()
 
@@ -673,7 +697,7 @@ func NewNetappBackup(scope constructs.Construct, id *string, config *NetappBacku
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/netapp_backup google_netapp_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/netapp_backup google_netapp_backup} Resource.
 func NewNetappBackup_Override(n NetappBackup, scope constructs.Construct, id *string, config *NetappBackupConfig) {
 	_init_.Initialize()
 
@@ -1215,6 +1239,17 @@ func (n *jsiiProxy_NetappBackup) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (n *jsiiProxy_NetappBackup) PutOntapSource(value *NetappBackupOntapSource) {
+	if err := n.validatePutOntapSourceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putOntapSource",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetappBackup) PutTimeouts(value *NetappBackupTimeouts) {
 	if err := n.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1254,6 +1289,14 @@ func (n *jsiiProxy_NetappBackup) ResetLabels() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappBackup) ResetOntapSource() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetOntapSource",
 		nil, // no parameters
 	)
 }

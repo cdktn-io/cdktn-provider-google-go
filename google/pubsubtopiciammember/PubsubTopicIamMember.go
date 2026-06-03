@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member}.
 type PubsubTopicIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_PubsubTopicIamMember) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
 func NewPubsubTopicIamMember(scope constructs.Construct, id *string, config *PubsubTopicIamMemberConfig) PubsubTopicIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPubsubTopicIamMember(scope constructs.Construct, id *string, config *Pub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.34.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/pubsub_topic_iam_member google_pubsub_topic_iam_member} Resource.
 func NewPubsubTopicIamMember_Override(p PubsubTopicIamMember, scope constructs.Construct, id *string, config *PubsubTopicIamMemberConfig) {
 	_init_.Initialize()
 
