@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group}.
 type NetworkSecurityInterceptDeploymentGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -607,7 +607,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptDeploymentGroup) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
 func NewNetworkSecurityInterceptDeploymentGroup(scope constructs.Construct, id *string, config *NetworkSecurityInterceptDeploymentGroupConfig) NetworkSecurityInterceptDeploymentGroup {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewNetworkSecurityInterceptDeploymentGroup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
 func NewNetworkSecurityInterceptDeploymentGroup_Override(n NetworkSecurityInterceptDeploymentGroup, scope constructs.Construct, id *string, config *NetworkSecurityInterceptDeploymentGroupConfig) {
 	_init_.Initialize()
 

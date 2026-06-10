@@ -41,6 +41,9 @@ type SecureSourceManagerInstancePrivateConfigOutputReference interface {
 	IsPrivate() interface{}
 	SetIsPrivate(val interface{})
 	IsPrivateInput() interface{}
+	PscAllowedProjects() *[]*string
+	SetPscAllowedProjects(val *[]*string)
+	PscAllowedProjectsInput() *[]*string
 	SshServiceAttachment() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -77,6 +80,7 @@ type SecureSourceManagerInstancePrivateConfigOutputReference interface {
 	PutCustomHostConfig(value *SecureSourceManagerInstancePrivateConfigCustomHostConfig)
 	ResetCaPool()
 	ResetCustomHostConfig()
+	ResetPscAllowedProjects()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -212,6 +216,26 @@ func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) IsPr
 	return returns
 }
 
+func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) PscAllowedProjects() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"pscAllowedProjects",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) PscAllowedProjectsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"pscAllowedProjectsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) SshServiceAttachment() *string {
 	var returns *string
 	_jsii_.Get(
@@ -321,6 +345,17 @@ func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference)SetIs
 	_jsii_.Set(
 		j,
 		"isPrivate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference)SetPscAllowedProjects(val *[]*string) {
+	if err := j.validateSetPscAllowedProjectsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscAllowedProjects",
 		val,
 	)
 }
@@ -556,6 +591,14 @@ func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) Rese
 	_jsii_.InvokeVoid(
 		s,
 		"resetCustomHostConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecureSourceManagerInstancePrivateConfigOutputReference) ResetPscAllowedProjects() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPscAllowedProjects",
 		nil, // no parameters
 	)
 }

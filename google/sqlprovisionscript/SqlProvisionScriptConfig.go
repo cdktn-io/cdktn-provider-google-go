@@ -24,7 +24,7 @@ type SqlProvisionScriptConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Cloud SQL instance. Changing this forces the script to be run on the new instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#instance SqlProvisionScript#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#instance SqlProvisionScript#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
 	// The SQL script to provision database resources.
 	//
@@ -34,7 +34,7 @@ type SqlProvisionScriptConfig struct {
 	// 				"if not exists (select …) then … end if" to prevent existence-related errors. If it's not
 	// 				possible to make a statement idempotent, you can run it once and then remove it from this script.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#script SqlProvisionScript#script}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#script SqlProvisionScript#script}
 	Script *string `field:"required" json:"script" yaml:"script"`
 	// The name of the database to which Terraform connects.
 	//
@@ -44,7 +44,7 @@ type SqlProvisionScriptConfig struct {
 	// 				a database. You can create and use a database in the script or explicitly reference a
 	// 				google_sql_database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#database SqlProvisionScript#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#database SqlProvisionScript#database}
 	Database *string `field:"optional" json:"database" yaml:"database"`
 	// The deletion policy for the resources created by the script.
 	//
@@ -52,13 +52,13 @@ type SqlProvisionScriptConfig struct {
 	// 				It must be "ABANDON" to allow Terraform to abandon the resources. If you want to delete resources, add statements
 	// 				in the script such as "drop … if exists".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#deletion_policy SqlProvisionScript#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#deletion_policy SqlProvisionScript#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// The description of the provision script.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#description SqlProvisionScript#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#description SqlProvisionScript#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#id SqlProvisionScript#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#id SqlProvisionScript#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ type SqlProvisionScriptConfig struct {
 	//
 	// If it is not provided, the provider project is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sql_provision_script#project SqlProvisionScript#project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sql_provision_script#project SqlProvisionScript#project}
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

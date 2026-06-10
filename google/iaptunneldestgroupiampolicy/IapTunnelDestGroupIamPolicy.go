@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy}.
 type IapTunnelDestGroupIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_IapTunnelDestGroupIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy} Resource.
 func NewIapTunnelDestGroupIamPolicy(scope constructs.Construct, id *string, config *IapTunnelDestGroupIamPolicyConfig) IapTunnelDestGroupIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewIapTunnelDestGroupIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy} Resource.
 func NewIapTunnelDestGroupIamPolicy_Override(i IapTunnelDestGroupIamPolicy, scope constructs.Construct, id *string, config *IapTunnelDestGroupIamPolicyConfig) {
 	_init_.Initialize()
 

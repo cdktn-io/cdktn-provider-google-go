@@ -11,22 +11,22 @@ type CesExampleMessagesChunksToolResponse struct {
 	// error details (if any). If "output" and "error" keys are not specified,
 	// then whole "response" is treated as tool execution result.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_example#response CesExample#response}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_example#response CesExample#response}
 	Response *string `field:"required" json:"response" yaml:"response"`
 	// The matching ID of the tool call the response is for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_example#id CesExample#id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_example#id CesExample#id}
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The name of the tool to execute. Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_example#tool CesExample#tool}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_example#tool CesExample#tool}
 	Tool *string `field:"optional" json:"tool" yaml:"tool"`
 	// toolset_tool block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_example#toolset_tool CesExample#toolset_tool}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_example#toolset_tool CesExample#toolset_tool}
 	ToolsetTool *CesExampleMessagesChunksToolResponseToolsetTool `field:"optional" json:"toolsetTool" yaml:"toolsetTool"`
 }
 

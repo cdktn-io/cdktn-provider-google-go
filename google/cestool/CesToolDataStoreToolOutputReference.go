@@ -30,11 +30,16 @@ type CesToolDataStoreToolOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DataStoreSource() CesToolDataStoreToolDataStoreSourceOutputReference
+	DataStoreSourceInput() *CesToolDataStoreToolDataStoreSource
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
 	EngineSource() CesToolDataStoreToolEngineSourceOutputReference
 	EngineSourceInput() *CesToolDataStoreToolEngineSource
+	FilterParameterBehavior() *string
+	SetFilterParameterBehavior(val *string)
+	FilterParameterBehaviorInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *CesToolDataStoreTool
@@ -80,11 +85,14 @@ type CesToolDataStoreToolOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBoostSpecs(value interface{})
+	PutDataStoreSource(value *CesToolDataStoreToolDataStoreSource)
 	PutEngineSource(value *CesToolDataStoreToolEngineSource)
 	PutModalityConfigs(value interface{})
 	ResetBoostSpecs()
+	ResetDataStoreSource()
 	ResetDescription()
 	ResetEngineSource()
+	ResetFilterParameterBehavior()
 	ResetMaxResults()
 	ResetModalityConfigs()
 	// Produce the Token's value at resolution time.
@@ -152,6 +160,26 @@ func (j *jsiiProxy_CesToolDataStoreToolOutputReference) CreationStack() *[]*stri
 	return returns
 }
 
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference) DataStoreSource() CesToolDataStoreToolDataStoreSourceOutputReference {
+	var returns CesToolDataStoreToolDataStoreSourceOutputReference
+	_jsii_.Get(
+		j,
+		"dataStoreSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference) DataStoreSourceInput() *CesToolDataStoreToolDataStoreSource {
+	var returns *CesToolDataStoreToolDataStoreSource
+	_jsii_.Get(
+		j,
+		"dataStoreSourceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesToolDataStoreToolOutputReference) Description() *string {
 	var returns *string
 	_jsii_.Get(
@@ -187,6 +215,26 @@ func (j *jsiiProxy_CesToolDataStoreToolOutputReference) EngineSourceInput() *Ces
 	_jsii_.Get(
 		j,
 		"engineSourceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference) FilterParameterBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"filterParameterBehavior",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference) FilterParameterBehaviorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"filterParameterBehaviorInput",
 		&returns,
 	)
 	return returns
@@ -349,6 +397,17 @@ func (j *jsiiProxy_CesToolDataStoreToolOutputReference)SetDescription(val *strin
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference)SetFilterParameterBehavior(val *string) {
+	if err := j.validateSetFilterParameterBehaviorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"filterParameterBehavior",
 		val,
 	)
 }
@@ -605,6 +664,17 @@ func (c *jsiiProxy_CesToolDataStoreToolOutputReference) PutBoostSpecs(value inte
 	)
 }
 
+func (c *jsiiProxy_CesToolDataStoreToolOutputReference) PutDataStoreSource(value *CesToolDataStoreToolDataStoreSource) {
+	if err := c.validatePutDataStoreSourceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putDataStoreSource",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesToolDataStoreToolOutputReference) PutEngineSource(value *CesToolDataStoreToolEngineSource) {
 	if err := c.validatePutEngineSourceParameters(value); err != nil {
 		panic(err)
@@ -635,6 +705,14 @@ func (c *jsiiProxy_CesToolDataStoreToolOutputReference) ResetBoostSpecs() {
 	)
 }
 
+func (c *jsiiProxy_CesToolDataStoreToolOutputReference) ResetDataStoreSource() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDataStoreSource",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CesToolDataStoreToolOutputReference) ResetDescription() {
 	_jsii_.InvokeVoid(
 		c,
@@ -647,6 +725,14 @@ func (c *jsiiProxy_CesToolDataStoreToolOutputReference) ResetEngineSource() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetEngineSource",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesToolDataStoreToolOutputReference) ResetFilterParameterBehavior() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetFilterParameterBehavior",
 		nil, // no parameters
 	)
 }

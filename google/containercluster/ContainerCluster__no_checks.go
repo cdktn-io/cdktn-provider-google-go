@@ -187,6 +187,10 @@ func (c *jsiiProxy_ContainerCluster) validatePutNodeConfigParameters(value *Cont
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutNodeCreationConfigParameters(value *ContainerClusterNodeCreationConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutNodePoolParameters(value interface{}) error {
 	return nil
 }

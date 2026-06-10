@@ -12,9 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool google_ces_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_tool google_ces_tool}.
 type CesTool interface {
 	cdktn.TerraformResource
+	AgentTool() CesToolAgentToolOutputReference
+	AgentToolInput() *CesToolAgentTool
 	App() *string
 	SetApp(val *string)
 	AppInput() *string
@@ -26,6 +28,7 @@ type CesTool interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConnectorTool() CesToolConnectorToolList
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -47,6 +50,8 @@ type CesTool interface {
 	ExecutionType() *string
 	SetExecutionType(val *string)
 	ExecutionTypeInput() *string
+	FileSearchTool() CesToolFileSearchToolOutputReference
+	FileSearchToolInput() *CesToolFileSearchTool
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -68,6 +73,7 @@ type CesTool interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	McpTool() CesToolMcpToolList
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -87,6 +93,7 @@ type CesTool interface {
 	PythonFunctionInput() *CesToolPythonFunction
 	// Experimental.
 	RawOverrides() interface{}
+	RemoteAgentTool() CesToolRemoteAgentToolList
 	SystemTool() CesToolSystemToolList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -100,6 +107,8 @@ type CesTool interface {
 	SetToolId(val *string)
 	ToolIdInput() *string
 	UpdateTime() *string
+	WidgetTool() CesToolWidgetToolOutputReference
+	WidgetToolInput() *CesToolWidgetTool
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -143,15 +152,20 @@ type CesTool interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAgentTool(value *CesToolAgentTool)
 	PutClientFunction(value *CesToolClientFunction)
 	PutDataStoreTool(value *CesToolDataStoreTool)
+	PutFileSearchTool(value *CesToolFileSearchTool)
 	PutGoogleSearchTool(value *CesToolGoogleSearchTool)
 	PutPythonFunction(value *CesToolPythonFunction)
 	PutTimeouts(value *CesToolTimeouts)
+	PutWidgetTool(value *CesToolWidgetTool)
+	ResetAgentTool()
 	ResetClientFunction()
 	ResetDataStoreTool()
 	ResetDeletionPolicy()
 	ResetExecutionType()
+	ResetFileSearchTool()
 	ResetGoogleSearchTool()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -160,6 +174,7 @@ type CesTool interface {
 	ResetProject()
 	ResetPythonFunction()
 	ResetTimeouts()
+	ResetWidgetTool()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -185,6 +200,26 @@ type CesTool interface {
 // The jsii proxy struct for CesTool
 type jsiiProxy_CesTool struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_CesTool) AgentTool() CesToolAgentToolOutputReference {
+	var returns CesToolAgentToolOutputReference
+	_jsii_.Get(
+		j,
+		"agentTool",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesTool) AgentToolInput() *CesToolAgentTool {
+	var returns *CesToolAgentTool
+	_jsii_.Get(
+		j,
+		"agentToolInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CesTool) App() *string {
@@ -242,6 +277,16 @@ func (j *jsiiProxy_CesTool) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesTool) ConnectorTool() CesToolConnectorToolList {
+	var returns CesToolConnectorToolList
+	_jsii_.Get(
+		j,
+		"connectorTool",
 		&returns,
 	)
 	return returns
@@ -367,6 +412,26 @@ func (j *jsiiProxy_CesTool) ExecutionTypeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesTool) FileSearchTool() CesToolFileSearchToolOutputReference {
+	var returns CesToolFileSearchToolOutputReference
+	_jsii_.Get(
+		j,
+		"fileSearchTool",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesTool) FileSearchToolInput() *CesToolFileSearchTool {
+	var returns *CesToolFileSearchTool
+	_jsii_.Get(
+		j,
+		"fileSearchToolInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesTool) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -477,6 +542,16 @@ func (j *jsiiProxy_CesTool) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesTool) McpTool() CesToolMcpToolList {
+	var returns CesToolMcpToolList
+	_jsii_.Get(
+		j,
+		"mcpTool",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesTool) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -577,6 +652,16 @@ func (j *jsiiProxy_CesTool) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_CesTool) RemoteAgentTool() CesToolRemoteAgentToolList {
+	var returns CesToolRemoteAgentToolList
+	_jsii_.Get(
+		j,
+		"remoteAgentTool",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesTool) SystemTool() CesToolSystemToolList {
 	var returns CesToolSystemToolList
 	_jsii_.Get(
@@ -667,8 +752,28 @@ func (j *jsiiProxy_CesTool) UpdateTime() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesTool) WidgetTool() CesToolWidgetToolOutputReference {
+	var returns CesToolWidgetToolOutputReference
+	_jsii_.Get(
+		j,
+		"widgetTool",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool google_ces_tool} Resource.
+func (j *jsiiProxy_CesTool) WidgetToolInput() *CesToolWidgetTool {
+	var returns *CesToolWidgetTool
+	_jsii_.Get(
+		j,
+		"widgetToolInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_tool google_ces_tool} Resource.
 func NewCesTool(scope constructs.Construct, id *string, config *CesToolConfig) CesTool {
 	_init_.Initialize()
 
@@ -686,7 +791,7 @@ func NewCesTool(scope constructs.Construct, id *string, config *CesToolConfig) C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/ces_tool google_ces_tool} Resource.
 func NewCesTool_Override(c CesTool, scope constructs.Construct, id *string, config *CesToolConfig) {
 	_init_.Initialize()
 
@@ -1195,6 +1300,17 @@ func (c *jsiiProxy_CesTool) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (c *jsiiProxy_CesTool) PutAgentTool(value *CesToolAgentTool) {
+	if err := c.validatePutAgentToolParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putAgentTool",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesTool) PutClientFunction(value *CesToolClientFunction) {
 	if err := c.validatePutClientFunctionParameters(value); err != nil {
 		panic(err)
@@ -1213,6 +1329,17 @@ func (c *jsiiProxy_CesTool) PutDataStoreTool(value *CesToolDataStoreTool) {
 	_jsii_.InvokeVoid(
 		c,
 		"putDataStoreTool",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesTool) PutFileSearchTool(value *CesToolFileSearchTool) {
+	if err := c.validatePutFileSearchToolParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putFileSearchTool",
 		[]interface{}{value},
 	)
 }
@@ -1250,6 +1377,25 @@ func (c *jsiiProxy_CesTool) PutTimeouts(value *CesToolTimeouts) {
 	)
 }
 
+func (c *jsiiProxy_CesTool) PutWidgetTool(value *CesToolWidgetTool) {
+	if err := c.validatePutWidgetToolParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWidgetTool",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesTool) ResetAgentTool() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAgentTool",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CesTool) ResetClientFunction() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1278,6 +1424,14 @@ func (c *jsiiProxy_CesTool) ResetExecutionType() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetExecutionType",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesTool) ResetFileSearchTool() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetFileSearchTool",
 		nil, // no parameters
 	)
 }
@@ -1326,6 +1480,14 @@ func (c *jsiiProxy_CesTool) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesTool) ResetWidgetTool() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWidgetTool",
 		nil, // no parameters
 	)
 }

@@ -59,7 +59,15 @@ func (j *jsiiProxy_ContainerClusterNodePoolNodeDrainConfigOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_ContainerClusterNodePoolNodeDrainConfigOutputReference) validateSetGraceTerminationDurationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerClusterNodePoolNodeDrainConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolNodeDrainConfigOutputReference) validateSetPdbTimeoutDurationParameters(val *string) error {
 	return nil
 }
 

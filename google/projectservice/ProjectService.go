@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/project_service google_project_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/project_service google_project_service}.
 type ProjectService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ProjectService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/project_service google_project_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/project_service google_project_service} Resource.
 func NewProjectService(scope constructs.Construct, id *string, config *ProjectServiceConfig) ProjectService {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewProjectService(scope constructs.Construct, id *string, config *ProjectSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/project_service google_project_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/project_service google_project_service} Resource.
 func NewProjectService_Override(p ProjectService, scope constructs.Construct, id *string, config *ProjectServiceConfig) {
 	_init_.Initialize()
 

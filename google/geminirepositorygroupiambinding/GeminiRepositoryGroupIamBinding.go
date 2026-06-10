@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/gemini_repository_group_iam_binding google_gemini_repository_group_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/gemini_repository_group_iam_binding google_gemini_repository_group_iam_binding}.
 type GeminiRepositoryGroupIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_GeminiRepositoryGroupIamBinding) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/gemini_repository_group_iam_binding google_gemini_repository_group_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/gemini_repository_group_iam_binding google_gemini_repository_group_iam_binding} Resource.
 func NewGeminiRepositoryGroupIamBinding(scope constructs.Construct, id *string, config *GeminiRepositoryGroupIamBindingConfig) GeminiRepositoryGroupIamBinding {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewGeminiRepositoryGroupIamBinding(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/gemini_repository_group_iam_binding google_gemini_repository_group_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/gemini_repository_group_iam_binding google_gemini_repository_group_iam_binding} Resource.
 func NewGeminiRepositoryGroupIamBinding_Override(g GeminiRepositoryGroupIamBinding, scope constructs.Construct, id *string, config *GeminiRepositoryGroupIamBindingConfig) {
 	_init_.Initialize()
 

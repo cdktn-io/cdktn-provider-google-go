@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/scc_v2_organization_source_iam_binding google_scc_v2_organization_source_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/scc_v2_organization_source_iam_binding google_scc_v2_organization_source_iam_binding}.
 type SccV2OrganizationSourceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_SccV2OrganizationSourceIamBinding) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/scc_v2_organization_source_iam_binding google_scc_v2_organization_source_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/scc_v2_organization_source_iam_binding google_scc_v2_organization_source_iam_binding} Resource.
 func NewSccV2OrganizationSourceIamBinding(scope constructs.Construct, id *string, config *SccV2OrganizationSourceIamBindingConfig) SccV2OrganizationSourceIamBinding {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewSccV2OrganizationSourceIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/scc_v2_organization_source_iam_binding google_scc_v2_organization_source_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/scc_v2_organization_source_iam_binding google_scc_v2_organization_source_iam_binding} Resource.
 func NewSccV2OrganizationSourceIamBinding_Override(s SccV2OrganizationSourceIamBinding, scope constructs.Construct, id *string, config *SccV2OrganizationSourceIamBindingConfig) {
 	_init_.Initialize()
 

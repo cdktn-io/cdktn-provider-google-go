@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/folder_iam_member google_folder_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/folder_iam_member google_folder_iam_member}.
 type FolderIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_FolderIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/folder_iam_member google_folder_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/folder_iam_member google_folder_iam_member} Resource.
 func NewFolderIamMember(scope constructs.Construct, id *string, config *FolderIamMemberConfig) FolderIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewFolderIamMember(scope constructs.Construct, id *string, config *FolderIa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/folder_iam_member google_folder_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/folder_iam_member google_folder_iam_member} Resource.
 func NewFolderIamMember_Override(f FolderIamMember, scope constructs.Construct, id *string, config *FolderIamMemberConfig) {
 	_init_.Initialize()
 

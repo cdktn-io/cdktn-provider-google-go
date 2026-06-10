@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/workstations_workstation_iam_binding google_workstations_workstation_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/workstations_workstation_iam_binding google_workstations_workstation_iam_binding}.
 type WorkstationsWorkstationIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_WorkstationsWorkstationIamBinding) WorkstationIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/workstations_workstation_iam_binding google_workstations_workstation_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/workstations_workstation_iam_binding google_workstations_workstation_iam_binding} Resource.
 func NewWorkstationsWorkstationIamBinding(scope constructs.Construct, id *string, config *WorkstationsWorkstationIamBindingConfig) WorkstationsWorkstationIamBinding {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewWorkstationsWorkstationIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/workstations_workstation_iam_binding google_workstations_workstation_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/workstations_workstation_iam_binding google_workstations_workstation_iam_binding} Resource.
 func NewWorkstationsWorkstationIamBinding_Override(w WorkstationsWorkstationIamBinding, scope constructs.Construct, id *string, config *WorkstationsWorkstationIamBindingConfig) {
 	_init_.Initialize()
 

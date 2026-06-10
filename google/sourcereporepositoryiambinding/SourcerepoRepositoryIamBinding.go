@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sourcerepo_repository_iam_binding google_sourcerepo_repository_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sourcerepo_repository_iam_binding google_sourcerepo_repository_iam_binding}.
 type SourcerepoRepositoryIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_SourcerepoRepositoryIamBinding) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sourcerepo_repository_iam_binding google_sourcerepo_repository_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sourcerepo_repository_iam_binding google_sourcerepo_repository_iam_binding} Resource.
 func NewSourcerepoRepositoryIamBinding(scope constructs.Construct, id *string, config *SourcerepoRepositoryIamBindingConfig) SourcerepoRepositoryIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewSourcerepoRepositoryIamBinding(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/sourcerepo_repository_iam_binding google_sourcerepo_repository_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/sourcerepo_repository_iam_binding google_sourcerepo_repository_iam_binding} Resource.
 func NewSourcerepoRepositoryIamBinding_Override(s SourcerepoRepositoryIamBinding, scope constructs.Construct, id *string, config *SourcerepoRepositoryIamBindingConfig) {
 	_init_.Initialize()
 

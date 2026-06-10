@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config}.
 type NetworkManagementVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -791,7 +791,7 @@ func (j *jsiiProxy_NetworkManagementVpcFlowLogsConfig) VpnTunnelInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
 func NewNetworkManagementVpcFlowLogsConfig(scope constructs.Construct, id *string, config *NetworkManagementVpcFlowLogsConfigConfig) NetworkManagementVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -809,7 +809,7 @@ func NewNetworkManagementVpcFlowLogsConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
 func NewNetworkManagementVpcFlowLogsConfig_Override(n NetworkManagementVpcFlowLogsConfig, scope constructs.Construct, id *string, config *NetworkManagementVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 

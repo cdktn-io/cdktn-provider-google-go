@@ -182,6 +182,14 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateSetLocationsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) validateSetRetentionPeriodParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association}.
 type NetworkSecurityFirewallEndpointAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -632,7 +632,7 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpointAssociation) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
 func NewNetworkSecurityFirewallEndpointAssociation(scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointAssociationConfig) NetworkSecurityFirewallEndpointAssociation {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewNetworkSecurityFirewallEndpointAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
 func NewNetworkSecurityFirewallEndpointAssociation_Override(n NetworkSecurityFirewallEndpointAssociation, scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointAssociationConfig) {
 	_init_.Initialize()
 

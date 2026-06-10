@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding}.
 type PrivatecaCertificateTemplateIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_PrivatecaCertificateTemplateIamBinding) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding} Resource.
 func NewPrivatecaCertificateTemplateIamBinding(scope constructs.Construct, id *string, config *PrivatecaCertificateTemplateIamBindingConfig) PrivatecaCertificateTemplateIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewPrivatecaCertificateTemplateIamBinding(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/privateca_certificate_template_iam_binding google_privateca_certificate_template_iam_binding} Resource.
 func NewPrivatecaCertificateTemplateIamBinding_Override(p PrivatecaCertificateTemplateIamBinding, scope constructs.Construct, id *string, config *PrivatecaCertificateTemplateIamBindingConfig) {
 	_init_.Initialize()
 

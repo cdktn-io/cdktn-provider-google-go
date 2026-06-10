@@ -35,6 +35,9 @@ type BigtableTableAutomatedBackupPolicyOutputReference interface {
 	FrequencyInput() *string
 	InternalValue() *BigtableTableAutomatedBackupPolicy
 	SetInternalValue(val *BigtableTableAutomatedBackupPolicy)
+	Locations() *[]*string
+	SetLocations(val *[]*string)
+	LocationsInput() *[]*string
 	RetentionPeriod() *string
 	SetRetentionPeriod(val *string)
 	RetentionPeriodInput() *string
@@ -71,6 +74,7 @@ type BigtableTableAutomatedBackupPolicyOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFrequency()
+	ResetLocations()
 	ResetRetentionPeriod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) InternalVa
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) Locations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"locations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) LocationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"locationsInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference)SetInternal
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference)SetLocations(val *[]*string) {
+	if err := j.validateSetLocationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"locations",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) ResetFrequ
 	_jsii_.InvokeVoid(
 		b,
 		"resetFrequency",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigtableTableAutomatedBackupPolicyOutputReference) ResetLocations() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLocations",
 		nil, // no parameters
 	)
 }

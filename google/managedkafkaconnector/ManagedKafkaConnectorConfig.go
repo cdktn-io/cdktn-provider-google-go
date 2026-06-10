@@ -24,21 +24,21 @@ type ManagedKafkaConnectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The connect cluster name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#connect_cluster ManagedKafkaConnector#connect_cluster}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#connect_cluster ManagedKafkaConnector#connect_cluster}
 	ConnectCluster *string `field:"required" json:"connectCluster" yaml:"connectCluster"`
 	// The ID to use for the connector, which will become the final component of the connector's name.
 	//
 	// This value is structured like: 'my-connector-id'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#connector_id ManagedKafkaConnector#connector_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#connector_id ManagedKafkaConnector#connector_id}
 	ConnectorId *string `field:"required" json:"connectorId" yaml:"connectorId"`
 	// ID of the location of the Kafka Connect resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#location ManagedKafkaConnector#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#location ManagedKafkaConnector#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Connector config as keys/values. The keys of the map are connector property names, for example: 'connector.class', 'tasks.max', 'key.converter'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#configs ManagedKafkaConnector#configs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#configs ManagedKafkaConnector#configs}
 	Configs *map[string]*string `field:"optional" json:"configs" yaml:"configs"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -50,22 +50,22 @@ type ManagedKafkaConnectorConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#deletion_policy ManagedKafkaConnector#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#deletion_policy ManagedKafkaConnector#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#id ManagedKafkaConnector#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#id ManagedKafkaConnector#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#project ManagedKafkaConnector#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#project ManagedKafkaConnector#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// task_restart_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#task_restart_policy ManagedKafkaConnector#task_restart_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#task_restart_policy ManagedKafkaConnector#task_restart_policy}
 	TaskRestartPolicy *ManagedKafkaConnectorTaskRestartPolicy `field:"optional" json:"taskRestartPolicy" yaml:"taskRestartPolicy"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/managed_kafka_connector#timeouts ManagedKafkaConnector#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/managed_kafka_connector#timeouts ManagedKafkaConnector#timeouts}
 	Timeouts *ManagedKafkaConnectorTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

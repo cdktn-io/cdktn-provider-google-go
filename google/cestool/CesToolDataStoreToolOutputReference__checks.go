@@ -124,6 +124,17 @@ func (c *jsiiProxy_CesToolDataStoreToolOutputReference) validatePutBoostSpecsPar
 	return nil
 }
 
+func (c *jsiiProxy_CesToolDataStoreToolOutputReference) validatePutDataStoreSourceParameters(value *CesToolDataStoreToolDataStoreSource) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CesToolDataStoreToolOutputReference) validatePutEngineSourceParameters(value *CesToolDataStoreToolEngineSource) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -240,6 +251,14 @@ func (j *jsiiProxy_CesToolDataStoreToolOutputReference) validateSetComplexObject
 }
 
 func (j *jsiiProxy_CesToolDataStoreToolOutputReference) validateSetDescriptionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference) validateSetFilterParameterBehaviorParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

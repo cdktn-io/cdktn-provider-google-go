@@ -75,11 +75,19 @@ func (c *jsiiProxy_CesTool) validateOverrideLogicalIdParameters(newLogicalId *st
 	return nil
 }
 
+func (c *jsiiProxy_CesTool) validatePutAgentToolParameters(value *CesToolAgentTool) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesTool) validatePutClientFunctionParameters(value *CesToolClientFunction) error {
 	return nil
 }
 
 func (c *jsiiProxy_CesTool) validatePutDataStoreToolParameters(value *CesToolDataStoreTool) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesTool) validatePutFileSearchToolParameters(value *CesToolFileSearchTool) error {
 	return nil
 }
 
@@ -92,6 +100,10 @@ func (c *jsiiProxy_CesTool) validatePutPythonFunctionParameters(value *CesToolPy
 }
 
 func (c *jsiiProxy_CesTool) validatePutTimeoutsParameters(value *CesToolTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesTool) validatePutWidgetToolParameters(value *CesToolWidgetTool) error {
 	return nil
 }
 

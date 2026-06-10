@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network google_compute_cross_site_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_cross_site_network google_compute_cross_site_network}.
 type ComputeCrossSiteNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_ComputeCrossSiteNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network google_compute_cross_site_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_cross_site_network google_compute_cross_site_network} Resource.
 func NewComputeCrossSiteNetwork(scope constructs.Construct, id *string, config *ComputeCrossSiteNetworkConfig) ComputeCrossSiteNetwork {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewComputeCrossSiteNetwork(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_cross_site_network google_compute_cross_site_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_cross_site_network google_compute_cross_site_network} Resource.
 func NewComputeCrossSiteNetwork_Override(c ComputeCrossSiteNetwork, scope constructs.Construct, id *string, config *ComputeCrossSiteNetworkConfig) {
 	_init_.Initialize()
 

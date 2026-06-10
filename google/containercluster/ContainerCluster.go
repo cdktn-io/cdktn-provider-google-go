@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/container_cluster google_container_cluster}.
 type ContainerCluster interface {
 	cdktn.TerraformResource
 	AddonsConfig() ContainerClusterAddonsConfigOutputReference
@@ -192,6 +192,8 @@ type ContainerCluster interface {
 	Node() constructs.Node
 	NodeConfig() ContainerClusterNodeConfigOutputReference
 	NodeConfigInput() *ContainerClusterNodeConfig
+	NodeCreationConfig() ContainerClusterNodeCreationConfigOutputReference
+	NodeCreationConfigInput() *ContainerClusterNodeCreationConfig
 	NodeLocations() *[]*string
 	SetNodeLocations(val *[]*string)
 	NodeLocationsInput() *[]*string
@@ -339,6 +341,7 @@ type ContainerCluster interface {
 	PutNetworkPerformanceConfig(value *ContainerClusterNetworkPerformanceConfig)
 	PutNetworkPolicy(value *ContainerClusterNetworkPolicy)
 	PutNodeConfig(value *ContainerClusterNodeConfig)
+	PutNodeCreationConfig(value *ContainerClusterNodeCreationConfig)
 	PutNodePool(value interface{})
 	PutNodePoolAutoConfig(value *ContainerClusterNodePoolAutoConfig)
 	PutNodePoolDefaults(value *ContainerClusterNodePoolDefaults)
@@ -412,6 +415,7 @@ type ContainerCluster interface {
 	ResetNetworkPerformanceConfig()
 	ResetNetworkPolicy()
 	ResetNodeConfig()
+	ResetNodeCreationConfig()
 	ResetNodeLocations()
 	ResetNodePool()
 	ResetNodePoolAutoConfig()
@@ -1746,6 +1750,26 @@ func (j *jsiiProxy_ContainerCluster) NodeConfigInput() *ContainerClusterNodeConf
 	return returns
 }
 
+func (j *jsiiProxy_ContainerCluster) NodeCreationConfig() ContainerClusterNodeCreationConfigOutputReference {
+	var returns ContainerClusterNodeCreationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"nodeCreationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) NodeCreationConfigInput() *ContainerClusterNodeCreationConfig {
+	var returns *ContainerClusterNodeCreationConfig
+	_jsii_.Get(
+		j,
+		"nodeCreationConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerCluster) NodeLocations() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -2337,7 +2361,7 @@ func (j *jsiiProxy_ContainerCluster) WorkloadIdentityConfigInput() *ContainerClu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster(scope constructs.Construct, id *string, config *ContainerClusterConfig) ContainerCluster {
 	_init_.Initialize()
 
@@ -2355,7 +2379,7 @@ func NewContainerCluster(scope constructs.Construct, id *string, config *Contain
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster_Override(c ContainerCluster, scope constructs.Construct, id *string, config *ContainerClusterConfig) {
 	_init_.Initialize()
 
@@ -3491,6 +3515,17 @@ func (c *jsiiProxy_ContainerCluster) PutNodeConfig(value *ContainerClusterNodeCo
 	)
 }
 
+func (c *jsiiProxy_ContainerCluster) PutNodeCreationConfig(value *ContainerClusterNodeCreationConfig) {
+	if err := c.validatePutNodeCreationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putNodeCreationConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerCluster) PutNodePool(value interface{}) {
 	if err := c.validatePutNodePoolParameters(value); err != nil {
 		panic(err)
@@ -4122,6 +4157,14 @@ func (c *jsiiProxy_ContainerCluster) ResetNodeConfig() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetNodeConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) ResetNodeCreationConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNodeCreationConfig",
 		nil, // no parameters
 	)
 }

@@ -51,6 +51,10 @@ func (c *jsiiProxy_CesToolDataStoreToolOutputReference) validatePutBoostSpecsPar
 	return nil
 }
 
+func (c *jsiiProxy_CesToolDataStoreToolOutputReference) validatePutDataStoreSourceParameters(value *CesToolDataStoreToolDataStoreSource) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolDataStoreToolOutputReference) validatePutEngineSourceParameters(value *CesToolDataStoreToolEngineSource) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (j *jsiiProxy_CesToolDataStoreToolOutputReference) validateSetComplexObject
 }
 
 func (j *jsiiProxy_CesToolDataStoreToolOutputReference) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolOutputReference) validateSetFilterParameterBehaviorParameters(val *string) error {
 	return nil
 }
 

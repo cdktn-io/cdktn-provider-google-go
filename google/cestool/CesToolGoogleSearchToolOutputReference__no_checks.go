@@ -47,6 +47,10 @@ func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) validateInterpolation
 	return nil
 }
 
+func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) validatePutPromptConfigParameters(value *CesToolGoogleSearchToolPromptConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

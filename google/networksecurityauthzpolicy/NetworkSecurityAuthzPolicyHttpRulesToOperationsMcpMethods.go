@@ -13,11 +13,11 @@ type NetworkSecurityAuthzPolicyHttpRulesToOperationsMcpMethods struct {
 	// 3) “prompts/get”, “tools/call”, “resources/subscribe”, “resources/unsubscribe”, “resources/read”
 	// Params cannot be specified for categories 1) and 2).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_authz_policy#name NetworkSecurityAuthzPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_authz_policy#name NetworkSecurityAuthzPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// params block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_security_authz_policy#params NetworkSecurityAuthzPolicy#params}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_authz_policy#params NetworkSecurityAuthzPolicy#params}
 	Params interface{} `field:"optional" json:"params" yaml:"params"`
 }
 

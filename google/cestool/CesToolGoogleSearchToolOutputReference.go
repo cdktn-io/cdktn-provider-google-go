@@ -47,6 +47,8 @@ type CesToolGoogleSearchToolOutputReference interface {
 	PreferredDomains() *[]*string
 	SetPreferredDomains(val *[]*string)
 	PreferredDomainsInput() *[]*string
+	PromptConfig() CesToolGoogleSearchToolPromptConfigOutputReference
+	PromptConfigInput() *CesToolGoogleSearchToolPromptConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,10 +81,12 @@ type CesToolGoogleSearchToolOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPromptConfig(value *CesToolGoogleSearchToolPromptConfig)
 	ResetContextUrls()
 	ResetDescription()
 	ResetExcludeDomains()
 	ResetPreferredDomains()
+	ResetPromptConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -243,6 +247,26 @@ func (j *jsiiProxy_CesToolGoogleSearchToolOutputReference) PreferredDomainsInput
 	_jsii_.Get(
 		j,
 		"preferredDomainsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolGoogleSearchToolOutputReference) PromptConfig() CesToolGoogleSearchToolPromptConfigOutputReference {
+	var returns CesToolGoogleSearchToolPromptConfigOutputReference
+	_jsii_.Get(
+		j,
+		"promptConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolGoogleSearchToolOutputReference) PromptConfigInput() *CesToolGoogleSearchToolPromptConfig {
+	var returns *CesToolGoogleSearchToolPromptConfig
+	_jsii_.Get(
+		j,
+		"promptConfigInput",
 		&returns,
 	)
 	return returns
@@ -592,6 +616,17 @@ func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) InterpolationForAttri
 	return returns
 }
 
+func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) PutPromptConfig(value *CesToolGoogleSearchToolPromptConfig) {
+	if err := c.validatePutPromptConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putPromptConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) ResetContextUrls() {
 	_jsii_.InvokeVoid(
 		c,
@@ -620,6 +655,14 @@ func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) ResetPreferredDomains
 	_jsii_.InvokeVoid(
 		c,
 		"resetPreferredDomains",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesToolGoogleSearchToolOutputReference) ResetPromptConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPromptConfig",
 		nil, // no parameters
 	)
 }

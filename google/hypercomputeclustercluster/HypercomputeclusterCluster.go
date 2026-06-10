@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster}.
 type HypercomputeclusterCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -151,7 +151,6 @@ type HypercomputeclusterCluster interface {
 	ResetDescription()
 	ResetId()
 	ResetLabels()
-	ResetNetworkResources()
 	ResetOrchestrator()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -647,7 +646,7 @@ func (j *jsiiProxy_HypercomputeclusterCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewHypercomputeclusterCluster(scope constructs.Construct, id *string, config *HypercomputeclusterClusterConfig) HypercomputeclusterCluster {
 	_init_.Initialize()
 
@@ -665,7 +664,7 @@ func NewHypercomputeclusterCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewHypercomputeclusterCluster_Override(h HypercomputeclusterCluster, scope constructs.Construct, id *string, config *HypercomputeclusterClusterConfig) {
 	_init_.Initialize()
 
@@ -1265,14 +1264,6 @@ func (h *jsiiProxy_HypercomputeclusterCluster) ResetLabels() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetLabels",
-		nil, // no parameters
-	)
-}
-
-func (h *jsiiProxy_HypercomputeclusterCluster) ResetNetworkResources() {
-	_jsii_.InvokeVoid(
-		h,
-		"resetNetworkResources",
 		nil, // no parameters
 	)
 }

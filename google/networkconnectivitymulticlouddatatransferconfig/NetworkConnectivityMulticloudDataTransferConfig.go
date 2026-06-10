@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
 type NetworkConnectivityMulticloudDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -597,7 +597,7 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Construct, id *string, config *NetworkConnectivityMulticloudDataTransferConfigConfig) NetworkConnectivityMulticloudDataTransferConfig {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewNetworkConnectivityMulticloudDataTransferConfig_Override(n NetworkConnectivityMulticloudDataTransferConfig, scope constructs.Construct, id *string, config *NetworkConnectivityMulticloudDataTransferConfigConfig) {
 	_init_.Initialize()
 

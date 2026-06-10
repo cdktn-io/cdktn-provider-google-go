@@ -207,6 +207,17 @@ func (c *jsiiProxy_CesTool) validateOverrideLogicalIdParameters(newLogicalId *st
 	return nil
 }
 
+func (c *jsiiProxy_CesTool) validatePutAgentToolParameters(value *CesToolAgentTool) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CesTool) validatePutClientFunctionParameters(value *CesToolClientFunction) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -219,6 +230,17 @@ func (c *jsiiProxy_CesTool) validatePutClientFunctionParameters(value *CesToolCl
 }
 
 func (c *jsiiProxy_CesTool) validatePutDataStoreToolParameters(value *CesToolDataStoreTool) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CesTool) validatePutFileSearchToolParameters(value *CesToolFileSearchTool) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -252,6 +274,17 @@ func (c *jsiiProxy_CesTool) validatePutPythonFunctionParameters(value *CesToolPy
 }
 
 func (c *jsiiProxy_CesTool) validatePutTimeoutsParameters(value *CesToolTimeouts) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CesTool) validatePutWidgetToolParameters(value *CesToolWidgetTool) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

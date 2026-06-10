@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/binary_authorization_policy google_binary_authorization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/binary_authorization_policy google_binary_authorization_policy}.
 type BinaryAuthorizationPolicy interface {
 	cdktn.TerraformResource
 	AdmissionWhitelistPatterns() BinaryAuthorizationPolicyAdmissionWhitelistPatternsList
@@ -510,7 +510,7 @@ func (j *jsiiProxy_BinaryAuthorizationPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/binary_authorization_policy google_binary_authorization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/binary_authorization_policy google_binary_authorization_policy} Resource.
 func NewBinaryAuthorizationPolicy(scope constructs.Construct, id *string, config *BinaryAuthorizationPolicyConfig) BinaryAuthorizationPolicy {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewBinaryAuthorizationPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/binary_authorization_policy google_binary_authorization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/binary_authorization_policy google_binary_authorization_policy} Resource.
 func NewBinaryAuthorizationPolicy_Override(b BinaryAuthorizationPolicy, scope constructs.Construct, id *string, config *BinaryAuthorizationPolicyConfig) {
 	_init_.Initialize()
 

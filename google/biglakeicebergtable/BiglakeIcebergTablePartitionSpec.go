@@ -7,7 +7,7 @@ package biglakeicebergtable
 type BiglakeIcebergTablePartitionSpec struct {
 	// fields block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/biglake_iceberg_table#fields BiglakeIcebergTable#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/biglake_iceberg_table#fields BiglakeIcebergTable#fields}
 	Fields interface{} `field:"required" json:"fields" yaml:"fields"`
 }
 

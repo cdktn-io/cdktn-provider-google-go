@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/logging_organization_sink google_logging_organization_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/logging_organization_sink google_logging_organization_sink}.
 type LoggingOrganizationSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() LoggingOrganizationSinkBigqueryOptionsOutputReference
@@ -591,7 +591,7 @@ func (j *jsiiProxy_LoggingOrganizationSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/logging_organization_sink google_logging_organization_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/logging_organization_sink google_logging_organization_sink} Resource.
 func NewLoggingOrganizationSink(scope constructs.Construct, id *string, config *LoggingOrganizationSinkConfig) LoggingOrganizationSink {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewLoggingOrganizationSink(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/logging_organization_sink google_logging_organization_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/logging_organization_sink google_logging_organization_sink} Resource.
 func NewLoggingOrganizationSink_Override(l LoggingOrganizationSink, scope constructs.Construct, id *string, config *LoggingOrganizationSinkConfig) {
 	_init_.Initialize()
 

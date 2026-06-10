@@ -7,7 +7,7 @@ package beyondcorpsecuritygateway
 type BeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfo struct {
 	// The output type of the delegated group info. Possible values: ["PROTOBUF", "JSON", "NONE"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/beyondcorp_security_gateway#output_type BeyondcorpSecurityGateway#output_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/beyondcorp_security_gateway#output_type BeyondcorpSecurityGateway#output_type}
 	OutputType *string `field:"optional" json:"outputType" yaml:"outputType"`
 }
 

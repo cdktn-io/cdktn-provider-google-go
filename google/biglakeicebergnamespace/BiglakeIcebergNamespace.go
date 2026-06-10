@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/biglake_iceberg_namespace google_biglake_iceberg_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/biglake_iceberg_namespace google_biglake_iceberg_namespace}.
 type BiglakeIcebergNamespace interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_BiglakeIcebergNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/biglake_iceberg_namespace google_biglake_iceberg_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/biglake_iceberg_namespace google_biglake_iceberg_namespace} Resource.
 func NewBiglakeIcebergNamespace(scope constructs.Construct, id *string, config *BiglakeIcebergNamespaceConfig) BiglakeIcebergNamespace {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewBiglakeIcebergNamespace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/biglake_iceberg_namespace google_biglake_iceberg_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/biglake_iceberg_namespace google_biglake_iceberg_namespace} Resource.
 func NewBiglakeIcebergNamespace_Override(b BiglakeIcebergNamespace, scope constructs.Construct, id *string, config *BiglakeIcebergNamespaceConfig) {
 	_init_.Initialize()
 

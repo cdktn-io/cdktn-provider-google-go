@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore}.
 type VertexAiFeaturestore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_VertexAiFeaturestore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
 func NewVertexAiFeaturestore(scope constructs.Construct, id *string, config *VertexAiFeaturestoreConfig) VertexAiFeaturestore {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewVertexAiFeaturestore(scope constructs.Construct, id *string, config *Ver
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/vertex_ai_featurestore google_vertex_ai_featurestore} Resource.
 func NewVertexAiFeaturestore_Override(v VertexAiFeaturestore, scope constructs.Construct, id *string, config *VertexAiFeaturestoreConfig) {
 	_init_.Initialize()
 

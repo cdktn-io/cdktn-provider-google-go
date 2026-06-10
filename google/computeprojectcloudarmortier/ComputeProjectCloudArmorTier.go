@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier}.
 type ComputeProjectCloudArmorTier interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ComputeProjectCloudArmorTier) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier} Resource.
 func NewComputeProjectCloudArmorTier(scope constructs.Construct, id *string, config *ComputeProjectCloudArmorTierConfig) ComputeProjectCloudArmorTier {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewComputeProjectCloudArmorTier(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier} Resource.
 func NewComputeProjectCloudArmorTier_Override(c ComputeProjectCloudArmorTier, scope constructs.Construct, id *string, config *ComputeProjectCloudArmorTierConfig) {
 	_init_.Initialize()
 

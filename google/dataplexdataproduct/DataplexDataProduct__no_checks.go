@@ -75,6 +75,10 @@ func (d *jsiiProxy_DataplexDataProduct) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (d *jsiiProxy_DataplexDataProduct) validatePutAccessApprovalConfigParameters(value *DataplexDataProductAccessApprovalConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexDataProduct) validatePutAccessGroupsParameters(value interface{}) error {
 	return nil
 }

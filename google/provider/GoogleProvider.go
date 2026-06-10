@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs google}.
 type GoogleProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -380,6 +380,9 @@ type GoogleProvider interface {
 	KmsCustomEndpoint() *string
 	SetKmsCustomEndpoint(val *string)
 	KmsCustomEndpointInput() *string
+	LicenseManagerCustomEndpoint() *string
+	SetLicenseManagerCustomEndpoint(val *string)
+	LicenseManagerCustomEndpointInput() *string
 	LoggingCustomEndpoint() *string
 	SetLoggingCustomEndpoint(val *string)
 	LoggingCustomEndpointInput() *string
@@ -756,6 +759,7 @@ type GoogleProvider interface {
 	ResetIntegrationConnectorsCustomEndpoint()
 	ResetIntegrationsCustomEndpoint()
 	ResetKmsCustomEndpoint()
+	ResetLicenseManagerCustomEndpoint()
 	ResetLoggingCustomEndpoint()
 	ResetLookerCustomEndpoint()
 	ResetLustreCustomEndpoint()
@@ -3286,6 +3290,26 @@ func (j *jsiiProxy_GoogleProvider) KmsCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleProvider) LicenseManagerCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"licenseManagerCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) LicenseManagerCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"licenseManagerCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleProvider) LoggingCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -4947,7 +4971,7 @@ func (j *jsiiProxy_GoogleProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs google} Resource.
 func NewGoogleProvider(scope constructs.Construct, id *string, config *GoogleProviderConfig) GoogleProvider {
 	_init_.Initialize()
 
@@ -4965,7 +4989,7 @@ func NewGoogleProvider(scope constructs.Construct, id *string, config *GooglePro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs google} Resource.
 func NewGoogleProvider_Override(g GoogleProvider, scope constructs.Construct, id *string, config *GoogleProviderConfig) {
 	_init_.Initialize()
 
@@ -5933,6 +5957,14 @@ func (j *jsiiProxy_GoogleProvider)SetKmsCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"kmsCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetLicenseManagerCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"licenseManagerCustomEndpoint",
 		val,
 	)
 }
@@ -7659,6 +7691,14 @@ func (g *jsiiProxy_GoogleProvider) ResetKmsCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetKmsCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetLicenseManagerCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLicenseManagerCustomEndpoint",
 		nil, // no parameters
 	)
 }

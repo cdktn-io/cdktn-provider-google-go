@@ -7,7 +7,7 @@ package networkserviceswasmplugin
 type NetworkServicesWasmPluginLogConfig struct {
 	// Optional. Specifies whether to enable logging for activity by this plugin.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_services_wasm_plugin#enable NetworkServicesWasmPlugin#enable}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_services_wasm_plugin#enable NetworkServicesWasmPlugin#enable}
 	Enable interface{} `field:"optional" json:"enable" yaml:"enable"`
 	// Non-empty default.
 	//
@@ -15,7 +15,7 @@ type NetworkServicesWasmPluginLogConfig struct {
 	// This field is can be set only if logging is enabled for the plugin.
 	// If the field is not provided when logging is enabled, it is set to INFO by default. Possible values: ["LOG_LEVEL_UNSPECIFIED", "TRACE", "DEBUG", "INFO", "WARN", "ERROR", "CRITICAL"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_services_wasm_plugin#min_log_level NetworkServicesWasmPlugin#min_log_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_services_wasm_plugin#min_log_level NetworkServicesWasmPlugin#min_log_level}
 	MinLogLevel *string `field:"optional" json:"minLogLevel" yaml:"minLogLevel"`
 	// Non-empty default.
 	//
@@ -24,7 +24,7 @@ type NetworkServicesWasmPluginLogConfig struct {
 	// The default value when logging is enabled is 1.0. The value of the field must be between 0 and 1 (inclusive).
 	// This field can be specified only if logging is enabled for this plugin.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/network_services_wasm_plugin#sample_rate NetworkServicesWasmPlugin#sample_rate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_services_wasm_plugin#sample_rate NetworkServicesWasmPlugin#sample_rate}
 	SampleRate *float64 `field:"optional" json:"sampleRate" yaml:"sampleRate"`
 }
 

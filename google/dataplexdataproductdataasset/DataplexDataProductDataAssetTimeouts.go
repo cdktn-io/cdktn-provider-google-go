@@ -5,11 +5,11 @@ package dataplexdataproductdataasset
 
 
 type DataplexDataProductDataAssetTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/dataplex_data_product_data_asset#create DataplexDataProductDataAsset#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/dataplex_data_product_data_asset#create DataplexDataProductDataAsset#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/dataplex_data_product_data_asset#delete DataplexDataProductDataAsset#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/dataplex_data_product_data_asset#delete DataplexDataProductDataAsset#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.35.0/docs/resources/dataplex_data_product_data_asset#update DataplexDataProductDataAsset#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/dataplex_data_product_data_asset#update DataplexDataProductDataAsset#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 
