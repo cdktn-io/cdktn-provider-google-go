@@ -83,6 +83,10 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicy) validatePutHttpRulesParameters(va
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicy) validatePutNetworkRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicy) validatePutTargetParameters(value *NetworkSecurityAuthzPolicyTarget) error {
 	return nil
 }

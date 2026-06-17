@@ -30,8 +30,11 @@ type CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputR
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders
-	SetInternalValue(val *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	Name() *string
+	SetName(val *string)
+	NameInput() *string
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
@@ -70,6 +73,8 @@ type CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetName()
+	ResetPort()
 	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -126,11 +131,31 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) InternalValue() *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders {
-	var returns *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) NameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nameInput",
 		&returns,
 	)
 	return returns
@@ -197,29 +222,29 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 }
 
 
-func NewCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference {
+func NewCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+	if err := validateNewCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-google.cloudRunV2WorkerPool.CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
 
 	return &j
 }
 
-func NewCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference_Override(c CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+func NewCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference_Override(c CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-google.cloudRunV2WorkerPool.CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)
 }
@@ -246,13 +271,24 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 	)
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference)SetInternalValue(val *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders) {
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference)SetName(val *string) {
+	if err := j.validateSetNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"name",
 		val,
 	)
 }
@@ -485,6 +521,22 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) ResetName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) ResetPort() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPort",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) ResetValue() {

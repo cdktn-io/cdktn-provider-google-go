@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group}.
 type ComputeInterconnectAttachmentGroup interface {
 	cdktn.TerraformResource
 	Attachments() ComputeInterconnectAttachmentGroupAttachmentsList
@@ -542,7 +542,7 @@ func (j *jsiiProxy_ComputeInterconnectAttachmentGroup) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
 func NewComputeInterconnectAttachmentGroup(scope constructs.Construct, id *string, config *ComputeInterconnectAttachmentGroupConfig) ComputeInterconnectAttachmentGroup {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewComputeInterconnectAttachmentGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_interconnect_attachment_group google_compute_interconnect_attachment_group} Resource.
 func NewComputeInterconnectAttachmentGroup_Override(c ComputeInterconnectAttachmentGroup, scope constructs.Construct, id *string, config *ComputeInterconnectAttachmentGroupConfig) {
 	_init_.Initialize()
 

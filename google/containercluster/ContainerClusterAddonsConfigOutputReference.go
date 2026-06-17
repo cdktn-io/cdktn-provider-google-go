@@ -62,6 +62,8 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	RayOperatorConfigInput() interface{}
 	SliceControllerConfig() ContainerClusterAddonsConfigSliceControllerConfigOutputReference
 	SliceControllerConfigInput() *ContainerClusterAddonsConfigSliceControllerConfig
+	SlurmOperatorConfig() ContainerClusterAddonsConfigSlurmOperatorConfigOutputReference
+	SlurmOperatorConfigInput() *ContainerClusterAddonsConfigSlurmOperatorConfig
 	StatefulHaConfig() ContainerClusterAddonsConfigStatefulHaConfigOutputReference
 	StatefulHaConfigInput() *ContainerClusterAddonsConfigStatefulHaConfig
 	// Experimental.
@@ -111,6 +113,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	PutPodSnapshotConfig(value *ContainerClusterAddonsConfigPodSnapshotConfig)
 	PutRayOperatorConfig(value interface{})
 	PutSliceControllerConfig(value *ContainerClusterAddonsConfigSliceControllerConfig)
+	PutSlurmOperatorConfig(value *ContainerClusterAddonsConfigSlurmOperatorConfig)
 	PutStatefulHaConfig(value *ContainerClusterAddonsConfigStatefulHaConfig)
 	ResetCloudrunConfig()
 	ResetConfigConnectorConfig()
@@ -127,6 +130,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	ResetPodSnapshotConfig()
 	ResetRayOperatorConfig()
 	ResetSliceControllerConfig()
+	ResetSlurmOperatorConfig()
 	ResetStatefulHaConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -488,6 +492,26 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) SliceControllerC
 	_jsii_.Get(
 		j,
 		"sliceControllerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) SlurmOperatorConfig() ContainerClusterAddonsConfigSlurmOperatorConfigOutputReference {
+	var returns ContainerClusterAddonsConfigSlurmOperatorConfigOutputReference
+	_jsii_.Get(
+		j,
+		"slurmOperatorConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) SlurmOperatorConfigInput() *ContainerClusterAddonsConfigSlurmOperatorConfig {
+	var returns *ContainerClusterAddonsConfigSlurmOperatorConfig
+	_jsii_.Get(
+		j,
+		"slurmOperatorConfigInput",
 		&returns,
 	)
 	return returns
@@ -967,6 +991,17 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutSliceControll
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutSlurmOperatorConfig(value *ContainerClusterAddonsConfigSlurmOperatorConfig) {
+	if err := c.validatePutSlurmOperatorConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSlurmOperatorConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutStatefulHaConfig(value *ContainerClusterAddonsConfigStatefulHaConfig) {
 	if err := c.validatePutStatefulHaConfigParameters(value); err != nil {
 		panic(err)
@@ -1094,6 +1129,14 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetSliceContro
 	_jsii_.InvokeVoid(
 		c,
 		"resetSliceControllerConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetSlurmOperatorConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSlurmOperatorConfig",
 		nil, // no parameters
 	)
 }

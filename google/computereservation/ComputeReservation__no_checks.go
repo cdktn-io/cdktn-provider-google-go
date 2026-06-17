@@ -79,6 +79,10 @@ func (c *jsiiProxy_ComputeReservation) validatePutDeleteAfterDurationParameters(
 	return nil
 }
 
+func (c *jsiiProxy_ComputeReservation) validatePutParamsParameters(value *ComputeReservationParams) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeReservation) validatePutReservationSharingPolicyParameters(value *ComputeReservationReservationSharingPolicy) error {
 	return nil
 }

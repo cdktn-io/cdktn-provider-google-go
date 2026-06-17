@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_services_lb_edge_extension google_network_services_lb_edge_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_services_lb_edge_extension google_network_services_lb_edge_extension}.
 type NetworkServicesLbEdgeExtension interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -576,7 +576,7 @@ func (j *jsiiProxy_NetworkServicesLbEdgeExtension) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
 func NewNetworkServicesLbEdgeExtension(scope constructs.Construct, id *string, config *NetworkServicesLbEdgeExtensionConfig) NetworkServicesLbEdgeExtension {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewNetworkServicesLbEdgeExtension(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
 func NewNetworkServicesLbEdgeExtension_Override(n NetworkServicesLbEdgeExtension, scope constructs.Construct, id *string, config *NetworkServicesLbEdgeExtensionConfig) {
 	_init_.Initialize()
 

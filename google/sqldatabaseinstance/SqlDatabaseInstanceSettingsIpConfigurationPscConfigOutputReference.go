@@ -40,9 +40,15 @@ type SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference interfac
 	NetworkAttachmentUriInput() *string
 	PscAutoConnections() SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList
 	PscAutoConnectionsInput() interface{}
+	PscAutoDnsEnabled() interface{}
+	SetPscAutoDnsEnabled(val interface{})
+	PscAutoDnsEnabledInput() interface{}
 	PscEnabled() interface{}
 	SetPscEnabled(val interface{})
 	PscEnabledInput() interface{}
+	PscWriteEndpointDnsEnabled() interface{}
+	SetPscWriteEndpointDnsEnabled(val interface{})
+	PscWriteEndpointDnsEnabledInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,7 +85,9 @@ type SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference interfac
 	ResetAllowedConsumerProjects()
 	ResetNetworkAttachmentUri()
 	ResetPscAutoConnections()
+	ResetPscAutoDnsEnabled()
 	ResetPscEnabled()
+	ResetPscWriteEndpointDnsEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -205,6 +213,26 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	return returns
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscAutoDnsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutoDnsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscAutoDnsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutoDnsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -220,6 +248,26 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"pscEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscWriteEndpointDnsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscWriteEndpointDnsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscWriteEndpointDnsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscWriteEndpointDnsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -328,6 +376,17 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	)
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscAutoDnsEnabled(val interface{}) {
+	if err := j.validateSetPscAutoDnsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscAutoDnsEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscEnabled(val interface{}) {
 	if err := j.validateSetPscEnabledParameters(val); err != nil {
 		panic(err)
@@ -335,6 +394,17 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	_jsii_.Set(
 		j,
 		"pscEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscWriteEndpointDnsEnabled(val interface{}) {
+	if err := j.validateSetPscWriteEndpointDnsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscWriteEndpointDnsEnabled",
 		val,
 	)
 }
@@ -582,10 +652,26 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	)
 }
 
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscAutoDnsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPscAutoDnsEnabled",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscEnabled() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetPscEnabled",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscWriteEndpointDnsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPscWriteEndpointDnsEnabled",
 		nil, // no parameters
 	)
 }

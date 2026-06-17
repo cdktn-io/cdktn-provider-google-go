@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket}.
 type ProjectUsageExportBucket interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_ProjectUsageExportBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
 func NewProjectUsageExportBucket(scope constructs.Construct, id *string, config *ProjectUsageExportBucketConfig) ProjectUsageExportBucket {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewProjectUsageExportBucket(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/project_usage_export_bucket google_project_usage_export_bucket} Resource.
 func NewProjectUsageExportBucket_Override(p ProjectUsageExportBucket, scope constructs.Construct, id *string, config *ProjectUsageExportBucketConfig) {
 	_init_.Initialize()
 

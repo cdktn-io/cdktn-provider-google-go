@@ -24,7 +24,7 @@ type ComputeWireGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Required cross site network to which wire group belongs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#cross_site_network ComputeWireGroup#cross_site_network}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#cross_site_network ComputeWireGroup#cross_site_network}
 	CrossSiteNetwork *string `field:"required" json:"crossSiteNetwork" yaml:"crossSiteNetwork"`
 	// Name of the resource.
 	//
@@ -34,11 +34,11 @@ type ComputeWireGroupConfig struct {
 	// character must be a lowercase letter, and all following characters must be a dash,
 	// lowercase letter, or digit, except the last character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#name ComputeWireGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#name ComputeWireGroup#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Indicates whether the wire group is administratively enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#admin_enabled ComputeWireGroup#admin_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#admin_enabled ComputeWireGroup#admin_enabled}
 	AdminEnabled interface{} `field:"optional" json:"adminEnabled" yaml:"adminEnabled"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -50,30 +50,30 @@ type ComputeWireGroupConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#deletion_policy ComputeWireGroup#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#deletion_policy ComputeWireGroup#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource. Provide this property when you create the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#description ComputeWireGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#description ComputeWireGroup#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// endpoints block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#endpoints ComputeWireGroup#endpoints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#endpoints ComputeWireGroup#endpoints}
 	Endpoints interface{} `field:"optional" json:"endpoints" yaml:"endpoints"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#id ComputeWireGroup#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#id ComputeWireGroup#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#project ComputeWireGroup#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#project ComputeWireGroup#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#timeouts ComputeWireGroup#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#timeouts ComputeWireGroup#timeouts}
 	Timeouts *ComputeWireGroupTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// wire_properties block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_wire_group#wire_properties ComputeWireGroup#wire_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_wire_group#wire_properties ComputeWireGroup#wire_properties}
 	WireProperties *ComputeWireGroupWireProperties `field:"optional" json:"wireProperties" yaml:"wireProperties"`
 }
 

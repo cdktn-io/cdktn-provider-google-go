@@ -135,6 +135,10 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetDeletionPoli
 	return nil
 }
 
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetDesiredStateParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetDestinationParameters(val *string) error {
 	return nil
 }
@@ -180,6 +184,10 @@ func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetProvisioners
 }
 
 func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetSourceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateSetStopOnWarningsParameters(val interface{}) error {
 	return nil
 }
 

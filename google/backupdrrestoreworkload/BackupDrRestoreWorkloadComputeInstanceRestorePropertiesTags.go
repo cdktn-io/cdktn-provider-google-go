@@ -5,7 +5,7 @@ package backupdrrestoreworkload
 
 
 type BackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/backup_dr_restore_workload#items BackupDrRestoreWorkload#items}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/backup_dr_restore_workload#items BackupDrRestoreWorkload#items}.
 	Items *[]*string `field:"optional" json:"items" yaml:"items"`
 }
 

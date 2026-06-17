@@ -7,7 +7,7 @@ package datastreamstream
 type DatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumns struct {
 	// Column name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/datastream_stream#column DatastreamStream#column}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/datastream_stream#column DatastreamStream#column}
 	Column *string `field:"required" json:"column" yaml:"column"`
 }
 

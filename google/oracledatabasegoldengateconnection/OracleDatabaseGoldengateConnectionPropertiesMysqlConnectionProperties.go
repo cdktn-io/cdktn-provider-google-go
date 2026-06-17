@@ -7,23 +7,23 @@ package oracledatabasegoldengateconnection
 type OracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties struct {
 	// additional_attributes block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#additional_attributes OracleDatabaseGoldengateConnection#additional_attributes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#additional_attributes OracleDatabaseGoldengateConnection#additional_attributes}
 	AdditionalAttributes interface{} `field:"optional" json:"additionalAttributes" yaml:"additionalAttributes"`
 	// The name of the database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#database OracleDatabaseGoldengateConnection#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#database OracleDatabaseGoldengateConnection#database}
 	Database *string `field:"optional" json:"database" yaml:"database"`
 	// The OCID of the database system being referenced.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#db_system_id OracleDatabaseGoldengateConnection#db_system_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#db_system_id OracleDatabaseGoldengateConnection#db_system_id}
 	DbSystemId *string `field:"optional" json:"dbSystemId" yaml:"dbSystemId"`
 	// The name or address of a host.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#host OracleDatabaseGoldengateConnection#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#host OracleDatabaseGoldengateConnection#host}
 	Host *string `field:"optional" json:"host" yaml:"host"`
 	// Input only. The password Oracle Goldengate uses to connect to MySQL in plain text.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#password OracleDatabaseGoldengateConnection#password}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#password OracleDatabaseGoldengateConnection#password}
 	Password *string `field:"optional" json:"password" yaml:"password"`
 	// Input only.
 	//
@@ -31,43 +31,43 @@ type OracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties struc
 	// the password Oracle Goldengate uses to connect to MySQL.
 	// Format: projects/{project}/secrets/{secret}/versions/{version}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#password_secret_version OracleDatabaseGoldengateConnection#password_secret_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#password_secret_version OracleDatabaseGoldengateConnection#password_secret_version}
 	PasswordSecretVersion *string `field:"optional" json:"passwordSecretVersion" yaml:"passwordSecretVersion"`
 	// The port of an endpoint usually specified for a connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#port OracleDatabaseGoldengateConnection#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#port OracleDatabaseGoldengateConnection#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 	// Security Type for MySQL. Possible values: PLAIN TLS MTLS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#security_protocol OracleDatabaseGoldengateConnection#security_protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#security_protocol OracleDatabaseGoldengateConnection#security_protocol}
 	SecurityProtocol *string `field:"optional" json:"securityProtocol" yaml:"securityProtocol"`
 	// Database Certificate - The content of a .pem or .crt file containing the server public key (for 1 and 2-way SSL).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#ssl_ca_file OracleDatabaseGoldengateConnection#ssl_ca_file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#ssl_ca_file OracleDatabaseGoldengateConnection#ssl_ca_file}
 	SslCaFile *string `field:"optional" json:"sslCaFile" yaml:"sslCaFile"`
 	// Client Certificate - The content of a .pem or .crt file containing the client public key (for 2-way SSL).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#ssl_cert_file OracleDatabaseGoldengateConnection#ssl_cert_file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#ssl_cert_file OracleDatabaseGoldengateConnection#ssl_cert_file}
 	SslCertFile *string `field:"optional" json:"sslCertFile" yaml:"sslCertFile"`
 	// The list of certificates revoked by the trusted certificate authorities (Trusted CA).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#ssl_crl_file OracleDatabaseGoldengateConnection#ssl_crl_file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#ssl_crl_file OracleDatabaseGoldengateConnection#ssl_crl_file}
 	SslCrlFile *string `field:"optional" json:"sslCrlFile" yaml:"sslCrlFile"`
 	// Client Key - The content of a .pem or .crt file containing the client private key (for 2-way SSL).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#ssl_key_file OracleDatabaseGoldengateConnection#ssl_key_file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#ssl_key_file OracleDatabaseGoldengateConnection#ssl_key_file}
 	SslKeyFile *string `field:"optional" json:"sslKeyFile" yaml:"sslKeyFile"`
 	// SSL modes for MySQL. Possible values: DISABLED PREFERRED REQUIRED VERIFY_CA VERIFY_IDENTITY.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#ssl_mode OracleDatabaseGoldengateConnection#ssl_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#ssl_mode OracleDatabaseGoldengateConnection#ssl_mode}
 	SslMode *string `field:"optional" json:"sslMode" yaml:"sslMode"`
 	// The technology type of MysqlConnection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#technology_type OracleDatabaseGoldengateConnection#technology_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#technology_type OracleDatabaseGoldengateConnection#technology_type}
 	TechnologyType *string `field:"optional" json:"technologyType" yaml:"technologyType"`
 	// The username Oracle Goldengate uses to connect the associated system of the given technology.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/oracle_database_goldengate_connection#username OracleDatabaseGoldengateConnection#username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_connection#username OracleDatabaseGoldengateConnection#username}
 	Username *string `field:"optional" json:"username" yaml:"username"`
 }
 

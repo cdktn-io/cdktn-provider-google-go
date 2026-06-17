@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_binding google_bigquery_datapolicyv2_data_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_binding google_bigquery_datapolicyv2_data_policy_iam_binding}.
 type BigqueryDatapolicyv2DataPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamBinding) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_binding google_bigquery_datapolicyv2_data_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_binding google_bigquery_datapolicyv2_data_policy_iam_binding} Resource.
 func NewBigqueryDatapolicyv2DataPolicyIamBinding(scope constructs.Construct, id *string, config *BigqueryDatapolicyv2DataPolicyIamBindingConfig) BigqueryDatapolicyv2DataPolicyIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewBigqueryDatapolicyv2DataPolicyIamBinding(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_binding google_bigquery_datapolicyv2_data_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_binding google_bigquery_datapolicyv2_data_policy_iam_binding} Resource.
 func NewBigqueryDatapolicyv2DataPolicyIamBinding_Override(b BigqueryDatapolicyv2DataPolicyIamBinding, scope constructs.Construct, id *string, config *BigqueryDatapolicyv2DataPolicyIamBindingConfig) {
 	_init_.Initialize()
 

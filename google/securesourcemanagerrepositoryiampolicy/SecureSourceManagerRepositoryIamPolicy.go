@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy}.
 type SecureSourceManagerRepositoryIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SecureSourceManagerRepositoryIamPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy} Resource.
 func NewSecureSourceManagerRepositoryIamPolicy(scope constructs.Construct, id *string, config *SecureSourceManagerRepositoryIamPolicyConfig) SecureSourceManagerRepositoryIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSecureSourceManagerRepositoryIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy} Resource.
 func NewSecureSourceManagerRepositoryIamPolicy_Override(s SecureSourceManagerRepositoryIamPolicy, scope constructs.Construct, id *string, config *SecureSourceManagerRepositoryIamPolicyConfig) {
 	_init_.Initialize()
 

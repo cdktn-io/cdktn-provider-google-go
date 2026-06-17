@@ -31,10 +31,16 @@ type PubsubTopicSchemaSettingsOutputReference interface {
 	Encoding() *string
 	SetEncoding(val *string)
 	EncodingInput() *string
+	FirstRevisionId() *string
+	SetFirstRevisionId(val *string)
+	FirstRevisionIdInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *PubsubTopicSchemaSettings
 	SetInternalValue(val *PubsubTopicSchemaSettings)
+	LastRevisionId() *string
+	SetLastRevisionId(val *string)
+	LastRevisionIdInput() *string
 	Schema() *string
 	SetSchema(val *string)
 	SchemaInput() *string
@@ -71,6 +77,8 @@ type PubsubTopicSchemaSettingsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEncoding()
+	ResetFirstRevisionId()
+	ResetLastRevisionId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -136,6 +144,26 @@ func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) EncodingInput() *st
 	return returns
 }
 
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) FirstRevisionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firstRevisionId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) FirstRevisionIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firstRevisionIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -151,6 +179,26 @@ func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) InternalValue() *Pu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) LastRevisionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastRevisionId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) LastRevisionIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastRevisionIdInput",
 		&returns,
 	)
 	return returns
@@ -257,6 +305,17 @@ func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference)SetEncoding(val *str
 	)
 }
 
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference)SetFirstRevisionId(val *string) {
+	if err := j.validateSetFirstRevisionIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"firstRevisionId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference)SetInternalValue(val *PubsubTopicSchemaSettings) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -264,6 +323,17 @@ func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference)SetInternalValue(val
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference)SetLastRevisionId(val *string) {
+	if err := j.validateSetLastRevisionIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lastRevisionId",
 		val,
 	)
 }
@@ -491,6 +561,22 @@ func (p *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) ResetEncoding() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetEncoding",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) ResetFirstRevisionId() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetFirstRevisionId",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) ResetLastRevisionId() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetLastRevisionId",
 		nil, // no parameters
 	)
 }

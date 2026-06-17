@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding}.
 type BigqueryRoutineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_BigqueryRoutineIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
 func NewBigqueryRoutineIamBinding(scope constructs.Construct, id *string, config *BigqueryRoutineIamBindingConfig) BigqueryRoutineIamBinding {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewBigqueryRoutineIamBinding(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
 func NewBigqueryRoutineIamBinding_Override(b BigqueryRoutineIamBinding, scope constructs.Construct, id *string, config *BigqueryRoutineIamBindingConfig) {
 	_init_.Initialize()
 

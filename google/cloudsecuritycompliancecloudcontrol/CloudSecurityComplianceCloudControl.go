@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
 type CloudSecurityComplianceCloudControl interface {
 	cdktn.TerraformResource
 	Categories() *[]*string
@@ -77,6 +77,9 @@ type CloudSecurityComplianceCloudControl interface {
 	OrganizationInput() *string
 	ParameterSpec() CloudSecurityComplianceCloudControlParameterSpecList
 	ParameterSpecInput() interface{}
+	Parent() *string
+	SetParent(val *string)
+	ParentInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -161,10 +164,12 @@ type CloudSecurityComplianceCloudControl interface {
 	ResetDisplayName()
 	ResetFindingCategory()
 	ResetId()
+	ResetOrganization()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetParameterSpec()
+	ResetParent()
 	ResetRemediationSteps()
 	ResetRules()
 	ResetSeverity()
@@ -527,6 +532,26 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControl) ParameterSpecInput() int
 	return returns
 }
 
+func (j *jsiiProxy_CloudSecurityComplianceCloudControl) Parent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControl) ParentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudSecurityComplianceCloudControl) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -718,7 +743,7 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControl) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewCloudSecurityComplianceCloudControl(scope constructs.Construct, id *string, config *CloudSecurityComplianceCloudControlConfig) CloudSecurityComplianceCloudControl {
 	_init_.Initialize()
 
@@ -736,7 +761,7 @@ func NewCloudSecurityComplianceCloudControl(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewCloudSecurityComplianceCloudControl_Override(c CloudSecurityComplianceCloudControl, scope constructs.Construct, id *string, config *CloudSecurityComplianceCloudControlConfig) {
 	_init_.Initialize()
 
@@ -891,6 +916,17 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControl)SetOrganization(val *stri
 	_jsii_.Set(
 		j,
 		"organization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControl)SetParent(val *string) {
+	if err := j.validateSetParentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"parent",
 		val,
 	)
 }
@@ -1381,6 +1417,14 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControl) ResetId() {
 	)
 }
 
+func (c *jsiiProxy_CloudSecurityComplianceCloudControl) ResetOrganization() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOrganization",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CloudSecurityComplianceCloudControl) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1393,6 +1437,14 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControl) ResetParameterSpec() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetParameterSpec",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControl) ResetParent() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParent",
 		nil, // no parameters
 	)
 }

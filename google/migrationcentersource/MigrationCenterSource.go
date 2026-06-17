@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/migration_center_source google_migration_center_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/migration_center_source google_migration_center_source}.
 type MigrationCenterSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -623,7 +623,7 @@ func (j *jsiiProxy_MigrationCenterSource) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/migration_center_source google_migration_center_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/migration_center_source google_migration_center_source} Resource.
 func NewMigrationCenterSource(scope constructs.Construct, id *string, config *MigrationCenterSourceConfig) MigrationCenterSource {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewMigrationCenterSource(scope constructs.Construct, id *string, config *Mi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/migration_center_source google_migration_center_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/migration_center_source google_migration_center_source} Resource.
 func NewMigrationCenterSource_Override(m MigrationCenterSource, scope constructs.Construct, id *string, config *MigrationCenterSourceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/iap_web_type_compute_iam_binding google_iap_web_type_compute_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/iap_web_type_compute_iam_binding google_iap_web_type_compute_iam_binding}.
 type IapWebTypeComputeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_IapWebTypeComputeIamBinding) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/iap_web_type_compute_iam_binding google_iap_web_type_compute_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/iap_web_type_compute_iam_binding google_iap_web_type_compute_iam_binding} Resource.
 func NewIapWebTypeComputeIamBinding(scope constructs.Construct, id *string, config *IapWebTypeComputeIamBindingConfig) IapWebTypeComputeIamBinding {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewIapWebTypeComputeIamBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/iap_web_type_compute_iam_binding google_iap_web_type_compute_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/iap_web_type_compute_iam_binding google_iap_web_type_compute_iam_binding} Resource.
 func NewIapWebTypeComputeIamBinding_Override(i IapWebTypeComputeIamBinding, scope constructs.Construct, id *string, config *IapWebTypeComputeIamBindingConfig) {
 	_init_.Initialize()
 

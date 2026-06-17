@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/storage_bucket_acl google_storage_bucket_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/storage_bucket_acl google_storage_bucket_acl}.
 type StorageBucketAcl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_StorageBucketAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
 func NewStorageBucketAcl(scope constructs.Construct, id *string, config *StorageBucketAclConfig) StorageBucketAcl {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewStorageBucketAcl(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/storage_bucket_acl google_storage_bucket_acl} Resource.
 func NewStorageBucketAcl_Override(s StorageBucketAcl, scope constructs.Construct, id *string, config *StorageBucketAclConfig) {
 	_init_.Initialize()
 

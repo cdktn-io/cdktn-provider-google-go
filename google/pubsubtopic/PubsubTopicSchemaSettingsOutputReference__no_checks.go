@@ -63,7 +63,15 @@ func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetEncoding
 	return nil
 }
 
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetFirstRevisionIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetInternalValueParameters(val *PubsubTopicSchemaSettings) error {
+	return nil
+}
+
+func (j *jsiiProxy_PubsubTopicSchemaSettingsOutputReference) validateSetLastRevisionIdParameters(val *string) error {
 	return nil
 }
 

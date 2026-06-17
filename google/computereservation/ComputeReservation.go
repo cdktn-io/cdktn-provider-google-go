@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_reservation google_compute_reservation}.
 type ComputeReservation interface {
 	cdktn.TerraformResource
 	BlockNames() *[]*string
@@ -65,6 +65,8 @@ type ComputeReservation interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeReservationParamsOutputReference
+	ParamsInput() *ComputeReservationParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -147,6 +149,7 @@ type ComputeReservation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutDeleteAfterDuration(value *ComputeReservationDeleteAfterDuration)
+	PutParams(value *ComputeReservationParams)
 	PutReservationSharingPolicy(value *ComputeReservationReservationSharingPolicy)
 	PutShareSettings(value *ComputeReservationShareSettings)
 	PutSpecificReservation(value *ComputeReservationSpecificReservation)
@@ -158,6 +161,7 @@ type ComputeReservation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetReservationSharingPolicy()
 	ResetShareSettings()
@@ -450,6 +454,26 @@ func (j *jsiiProxy_ComputeReservation) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeReservation) Params() ComputeReservationParamsOutputReference {
+	var returns ComputeReservationParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeReservation) ParamsInput() *ComputeReservationParams {
+	var returns *ComputeReservationParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeReservation) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -701,7 +725,7 @@ func (j *jsiiProxy_ComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_reservation google_compute_reservation} Resource.
 func NewComputeReservation(scope constructs.Construct, id *string, config *ComputeReservationConfig) ComputeReservation {
 	_init_.Initialize()
 
@@ -719,7 +743,7 @@ func NewComputeReservation(scope constructs.Construct, id *string, config *Compu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_reservation google_compute_reservation} Resource.
 func NewComputeReservation_Override(c ComputeReservation, scope constructs.Construct, id *string, config *ComputeReservationConfig) {
 	_init_.Initialize()
 
@@ -1239,6 +1263,17 @@ func (c *jsiiProxy_ComputeReservation) PutDeleteAfterDuration(value *ComputeRese
 	)
 }
 
+func (c *jsiiProxy_ComputeReservation) PutParams(value *ComputeReservationParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeReservation) PutReservationSharingPolicy(value *ComputeReservationReservationSharingPolicy) {
 	if err := c.validatePutReservationSharingPolicyParameters(value); err != nil {
 		panic(err)
@@ -1319,6 +1354,14 @@ func (c *jsiiProxy_ComputeReservation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeReservation) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

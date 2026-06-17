@@ -107,6 +107,8 @@ type ContainerClusterNodeConfigOutputReference interface {
 	NodeGroup() *string
 	SetNodeGroup(val *string)
 	NodeGroupInput() *string
+	NodeImageConfig() ContainerClusterNodeConfigNodeImageConfigList
+	NodeImageConfigInput() interface{}
 	OauthScopes() *[]*string
 	SetOauthScopes(val *[]*string)
 	OauthScopesInput() *[]*string
@@ -192,6 +194,7 @@ type ContainerClusterNodeConfigOutputReference interface {
 	PutKubeletConfig(value *ContainerClusterNodeConfigKubeletConfig)
 	PutLinuxNodeConfig(value *ContainerClusterNodeConfigLinuxNodeConfig)
 	PutLocalNvmeSsdBlockConfig(value *ContainerClusterNodeConfigLocalNvmeSsdBlockConfig)
+	PutNodeImageConfig(value interface{})
 	PutReservationAffinity(value *ContainerClusterNodeConfigReservationAffinity)
 	PutSandboxConfig(value *ContainerClusterNodeConfigSandboxConfig)
 	PutSecondaryBootDisks(value interface{})
@@ -229,6 +232,7 @@ type ContainerClusterNodeConfigOutputReference interface {
 	ResetMetadata()
 	ResetMinCpuPlatform()
 	ResetNodeGroup()
+	ResetNodeImageConfig()
 	ResetOauthScopes()
 	ResetPreemptible()
 	ResetReservationAffinity()
@@ -895,6 +899,26 @@ func (j *jsiiProxy_ContainerClusterNodeConfigOutputReference) NodeGroupInput() *
 	_jsii_.Get(
 		j,
 		"nodeGroupInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigOutputReference) NodeImageConfig() ContainerClusterNodeConfigNodeImageConfigList {
+	var returns ContainerClusterNodeConfigNodeImageConfigList
+	_jsii_.Get(
+		j,
+		"nodeImageConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodeConfigOutputReference) NodeImageConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"nodeImageConfigInput",
 		&returns,
 	)
 	return returns
@@ -1916,6 +1940,17 @@ func (c *jsiiProxy_ContainerClusterNodeConfigOutputReference) PutLocalNvmeSsdBlo
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterNodeConfigOutputReference) PutNodeImageConfig(value interface{}) {
+	if err := c.validatePutNodeImageConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putNodeImageConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodeConfigOutputReference) PutReservationAffinity(value *ContainerClusterNodeConfigReservationAffinity) {
 	if err := c.validatePutReservationAffinityParameters(value); err != nil {
 		panic(err)
@@ -2232,6 +2267,14 @@ func (c *jsiiProxy_ContainerClusterNodeConfigOutputReference) ResetNodeGroup() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetNodeGroup",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodeConfigOutputReference) ResetNodeImageConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNodeImageConfig",
 		nil, // no parameters
 	)
 }

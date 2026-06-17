@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy}.
 type WorkstationsWorkstationConfigIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) WorkstationConfigIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy} Resource.
 func NewWorkstationsWorkstationConfigIamPolicy(scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigIamPolicyConfig) WorkstationsWorkstationConfigIamPolicy {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewWorkstationsWorkstationConfigIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy} Resource.
 func NewWorkstationsWorkstationConfigIamPolicy_Override(w WorkstationsWorkstationConfigIamPolicy, scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigIamPolicyConfig) {
 	_init_.Initialize()
 

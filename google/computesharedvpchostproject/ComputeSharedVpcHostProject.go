@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project}.
 type ComputeSharedVpcHostProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ComputeSharedVpcHostProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
 func NewComputeSharedVpcHostProject(scope constructs.Construct, id *string, config *ComputeSharedVpcHostProjectConfig) ComputeSharedVpcHostProject {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewComputeSharedVpcHostProject(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_shared_vpc_host_project google_compute_shared_vpc_host_project} Resource.
 func NewComputeSharedVpcHostProject_Override(c ComputeSharedVpcHostProject, scope constructs.Construct, id *string, config *ComputeSharedVpcHostProjectConfig) {
 	_init_.Initialize()
 

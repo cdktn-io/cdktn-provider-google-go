@@ -30,8 +30,8 @@ type CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference in
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	HttpHeaders() CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference
-	HttpHeadersInput() *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders
+	HttpHeaders() CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList
+	HttpHeadersInput() interface{}
 	InternalValue() *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet
 	SetInternalValue(val *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet)
 	Path() *string
@@ -72,7 +72,7 @@ type CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutHttpHeaders(value *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders)
+	PutHttpHeaders(value interface{})
 	ResetHttpHeaders()
 	ResetPath()
 	ResetPort()
@@ -131,8 +131,8 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutp
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) HttpHeaders() CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference {
-	var returns CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) HttpHeaders() CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList {
+	var returns CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList
 	_jsii_.Get(
 		j,
 		"httpHeaders",
@@ -141,8 +141,8 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutp
 	return returns
 }
 
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) HttpHeadersInput() *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders {
-	var returns *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) HttpHeadersInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"httpHeadersInput",
@@ -512,7 +512,7 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutp
 	return returns
 }
 
-func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) PutHttpHeaders(value *CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders) {
+func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) PutHttpHeaders(value interface{}) {
 	if err := c.validatePutHttpHeadersParameters(value); err != nil {
 		panic(err)
 	}

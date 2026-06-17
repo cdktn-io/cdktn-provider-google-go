@@ -139,6 +139,10 @@ func (j *jsiiProxy_CloudSecurityComplianceFramework) validateSetOrganizationPara
 	return nil
 }
 
+func (j *jsiiProxy_CloudSecurityComplianceFramework) validateSetParentParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudSecurityComplianceFramework) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

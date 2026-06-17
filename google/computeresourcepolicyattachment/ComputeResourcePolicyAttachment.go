@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_resource_policy_attachment google_compute_resource_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_resource_policy_attachment google_compute_resource_policy_attachment}.
 type ComputeResourcePolicyAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ComputeResourcePolicyAttachment) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_resource_policy_attachment google_compute_resource_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_resource_policy_attachment google_compute_resource_policy_attachment} Resource.
 func NewComputeResourcePolicyAttachment(scope constructs.Construct, id *string, config *ComputeResourcePolicyAttachmentConfig) ComputeResourcePolicyAttachment {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewComputeResourcePolicyAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/compute_resource_policy_attachment google_compute_resource_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_resource_policy_attachment google_compute_resource_policy_attachment} Resource.
 func NewComputeResourcePolicyAttachment_Override(c ComputeResourcePolicyAttachment, scope constructs.Construct, id *string, config *ComputeResourcePolicyAttachmentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_authz_policy google_network_security_authz_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_security_authz_policy google_network_security_authz_policy}.
 type NetworkSecurityAuthzPolicy interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -70,6 +70,8 @@ type NetworkSecurityAuthzPolicy interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkRules() NetworkSecurityAuthzPolicyNetworkRulesList
+	NetworkRulesInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	PolicyProfile() *string
@@ -145,6 +147,7 @@ type NetworkSecurityAuthzPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCustomProvider(value *NetworkSecurityAuthzPolicyCustomProvider)
 	PutHttpRules(value interface{})
+	PutNetworkRules(value interface{})
 	PutTarget(value *NetworkSecurityAuthzPolicyTarget)
 	PutTimeouts(value *NetworkSecurityAuthzPolicyTimeouts)
 	ResetCustomProvider()
@@ -153,6 +156,7 @@ type NetworkSecurityAuthzPolicy interface {
 	ResetHttpRules()
 	ResetId()
 	ResetLabels()
+	ResetNetworkRules()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -476,6 +480,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicy) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicy) NetworkRules() NetworkSecurityAuthzPolicyNetworkRulesList {
+	var returns NetworkSecurityAuthzPolicyNetworkRulesList
+	_jsii_.Get(
+		j,
+		"networkRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicy) NetworkRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"networkRulesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicy) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -647,7 +671,7 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string, config *NetworkSecurityAuthzPolicyConfig) NetworkSecurityAuthzPolicy {
 	_init_.Initialize()
 
@@ -665,7 +689,7 @@ func NewNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewNetworkSecurityAuthzPolicy_Override(n NetworkSecurityAuthzPolicy, scope constructs.Construct, id *string, config *NetworkSecurityAuthzPolicyConfig) {
 	_init_.Initialize()
 
@@ -1218,6 +1242,17 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicy) PutHttpRules(value interface{}) {
 	)
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicy) PutNetworkRules(value interface{}) {
+	if err := n.validatePutNetworkRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNetworkRules",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicy) PutTarget(value *NetworkSecurityAuthzPolicyTarget) {
 	if err := n.validatePutTargetParameters(value); err != nil {
 		panic(err)
@@ -1284,6 +1319,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicy) ResetLabels() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicy) ResetNetworkRules() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNetworkRules",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutSlice
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutSlurmOperatorConfigParameters(value *ContainerClusterAddonsConfigSlurmOperatorConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutStatefulHaConfigParameters(value *ContainerClusterAddonsConfigStatefulHaConfig) error {
 	return nil
 }

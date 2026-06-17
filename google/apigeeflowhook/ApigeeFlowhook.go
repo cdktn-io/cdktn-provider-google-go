@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/apigee_flowhook google_apigee_flowhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/apigee_flowhook google_apigee_flowhook}.
 type ApigeeFlowhook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ApigeeFlowhook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
 func NewApigeeFlowhook(scope constructs.Construct, id *string, config *ApigeeFlowhookConfig) ApigeeFlowhook {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewApigeeFlowhook(scope constructs.Construct, id *string, config *ApigeeFlo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/apigee_flowhook google_apigee_flowhook} Resource.
 func NewApigeeFlowhook_Override(a ApigeeFlowhook, scope constructs.Construct, id *string, config *ApigeeFlowhookConfig) {
 	_init_.Initialize()
 

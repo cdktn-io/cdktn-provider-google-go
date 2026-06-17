@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module}.
 type SccManagementOrganizationEventThreatDetectionCustomModule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) Up
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
 func NewSccManagementOrganizationEventThreatDetectionCustomModule(scope constructs.Construct, id *string, config *SccManagementOrganizationEventThreatDetectionCustomModuleConfig) SccManagementOrganizationEventThreatDetectionCustomModule {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewSccManagementOrganizationEventThreatDetectionCustomModule(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/scc_management_organization_event_threat_detection_custom_module google_scc_management_organization_event_threat_detection_custom_module} Resource.
 func NewSccManagementOrganizationEventThreatDetectionCustomModule_Override(s SccManagementOrganizationEventThreatDetectionCustomModule, scope constructs.Construct, id *string, config *SccManagementOrganizationEventThreatDetectionCustomModuleConfig) {
 	_init_.Initialize()
 

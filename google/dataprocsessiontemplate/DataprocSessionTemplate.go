@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/dataproc_session_template google_dataproc_session_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/dataproc_session_template google_dataproc_session_template}.
 type DataprocSessionTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -624,7 +624,7 @@ func (j *jsiiProxy_DataprocSessionTemplate) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
 func NewDataprocSessionTemplate(scope constructs.Construct, id *string, config *DataprocSessionTemplateConfig) DataprocSessionTemplate {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewDataprocSessionTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/dataproc_session_template google_dataproc_session_template} Resource.
 func NewDataprocSessionTemplate_Override(d DataprocSessionTemplate, scope constructs.Construct, id *string, config *DataprocSessionTemplateConfig) {
 	_init_.Initialize()
 

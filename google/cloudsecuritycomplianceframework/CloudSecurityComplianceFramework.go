@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/cloud_security_compliance_framework google_cloud_security_compliance_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/cloud_security_compliance_framework google_cloud_security_compliance_framework}.
 type CloudSecurityComplianceFramework interface {
 	cdktn.TerraformResource
 	Category() *[]*string
@@ -71,6 +71,9 @@ type CloudSecurityComplianceFramework interface {
 	Organization() *string
 	SetOrganization(val *string)
 	OrganizationInput() *string
+	Parent() *string
+	SetParent(val *string)
+	ParentInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -143,9 +146,11 @@ type CloudSecurityComplianceFramework interface {
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
+	ResetOrganization()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParent()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -464,6 +469,26 @@ func (j *jsiiProxy_CloudSecurityComplianceFramework) OrganizationInput() *string
 	return returns
 }
 
+func (j *jsiiProxy_CloudSecurityComplianceFramework) Parent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceFramework) ParentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudSecurityComplianceFramework) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -585,7 +610,7 @@ func (j *jsiiProxy_CloudSecurityComplianceFramework) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
 func NewCloudSecurityComplianceFramework(scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkConfig) CloudSecurityComplianceFramework {
 	_init_.Initialize()
 
@@ -603,7 +628,7 @@ func NewCloudSecurityComplianceFramework(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
 func NewCloudSecurityComplianceFramework_Override(c CloudSecurityComplianceFramework, scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkConfig) {
 	_init_.Initialize()
 
@@ -736,6 +761,17 @@ func (j *jsiiProxy_CloudSecurityComplianceFramework)SetOrganization(val *string)
 	_jsii_.Set(
 		j,
 		"organization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceFramework)SetParent(val *string) {
+	if err := j.validateSetParentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"parent",
 		val,
 	)
 }
@@ -1174,10 +1210,26 @@ func (c *jsiiProxy_CloudSecurityComplianceFramework) ResetId() {
 	)
 }
 
+func (c *jsiiProxy_CloudSecurityComplianceFramework) ResetOrganization() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOrganization",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CloudSecurityComplianceFramework) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceFramework) ResetParent() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParent",
 		nil, // no parameters
 	)
 }

@@ -99,6 +99,10 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutLocalN
 	return nil
 }
 
+func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutNodeImageConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutReservationAffinityParameters(value *ContainerNodePoolNodeConfigReservationAffinity) error {
 	return nil
 }

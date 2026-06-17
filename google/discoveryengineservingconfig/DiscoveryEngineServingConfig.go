@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config}.
 type DiscoveryEngineServingConfig interface {
 	cdktn.TerraformResource
 	BoostControlIds() *[]*string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_DiscoveryEngineServingConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
 func NewDiscoveryEngineServingConfig(scope constructs.Construct, id *string, config *DiscoveryEngineServingConfigConfig) DiscoveryEngineServingConfig {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewDiscoveryEngineServingConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
 func NewDiscoveryEngineServingConfig_Override(d DiscoveryEngineServingConfig, scope constructs.Construct, id *string, config *DiscoveryEngineServingConfigConfig) {
 	_init_.Initialize()
 

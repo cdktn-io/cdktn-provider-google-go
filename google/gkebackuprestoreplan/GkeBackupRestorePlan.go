@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/gke_backup_restore_plan google_gke_backup_restore_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_backup_restore_plan google_gke_backup_restore_plan}.
 type GkeBackupRestorePlan interface {
 	cdktn.TerraformResource
 	BackupPlan() *string
@@ -609,7 +609,7 @@ func (j *jsiiProxy_GkeBackupRestorePlan) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
 func NewGkeBackupRestorePlan(scope constructs.Construct, id *string, config *GkeBackupRestorePlanConfig) GkeBackupRestorePlan {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewGkeBackupRestorePlan(scope constructs.Construct, id *string, config *Gke
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.36.0/docs/resources/gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
 func NewGkeBackupRestorePlan_Override(g GkeBackupRestorePlan, scope constructs.Construct, id *string, config *GkeBackupRestorePlanConfig) {
 	_init_.Initialize()
 

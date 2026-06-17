@@ -71,6 +71,14 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateOutputReference) validateSetAnnot
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateOutputReference) validateSetClientParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateOutputReference) validateSetClientVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
