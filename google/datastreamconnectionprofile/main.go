@@ -328,6 +328,8 @@ func init() {
 		"@cdktn/provider-google.datastreamConnectionProfile.DatastreamConnectionProfileMongodbProfileOutputReference",
 		reflect.TypeOf((*DatastreamConnectionProfileMongodbProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "additionalOptions", GoGetter: "AdditionalOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "additionalOptionsInput", GoGetter: "AdditionalOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -355,6 +357,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putStandardConnectionFormat", GoMethod: "PutStandardConnectionFormat"},
 			_jsii_.MemberProperty{JsiiProperty: "replicaSet", GoGetter: "ReplicaSet"},
 			_jsii_.MemberProperty{JsiiProperty: "replicaSetInput", GoGetter: "ReplicaSetInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalOptions", GoMethod: "ResetAdditionalOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPassword", GoMethod: "ResetPassword"},
 			_jsii_.MemberMethod{JsiiMethod: "resetReplicaSet", GoMethod: "ResetReplicaSet"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretManagerStoredPassword", GoMethod: "ResetSecretManagerStoredPassword"},

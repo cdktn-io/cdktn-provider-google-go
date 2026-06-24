@@ -13,6 +13,9 @@ import (
 
 type DatastreamConnectionProfileMongodbProfileOutputReference interface {
 	cdktn.ComplexObject
+	AdditionalOptions() *map[string]*string
+	SetAdditionalOptions(val *map[string]*string)
+	AdditionalOptionsInput() *map[string]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -88,6 +91,7 @@ type DatastreamConnectionProfileMongodbProfileOutputReference interface {
 	PutSrvConnectionFormat(value *DatastreamConnectionProfileMongodbProfileSrvConnectionFormat)
 	PutSslConfig(value *DatastreamConnectionProfileMongodbProfileSslConfig)
 	PutStandardConnectionFormat(value *DatastreamConnectionProfileMongodbProfileStandardConnectionFormat)
+	ResetAdditionalOptions()
 	ResetPassword()
 	ResetReplicaSet()
 	ResetSecretManagerStoredPassword()
@@ -107,6 +111,26 @@ type DatastreamConnectionProfileMongodbProfileOutputReference interface {
 // The jsii proxy struct for DatastreamConnectionProfileMongodbProfileOutputReference
 type jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) AdditionalOptions() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"additionalOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) AdditionalOptionsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"additionalOptionsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) ComplexObjectIndex() interface{} {
@@ -364,6 +388,17 @@ func NewDatastreamConnectionProfileMongodbProfileOutputReference_Override(d Data
 		"@cdktn/provider-google.datastreamConnectionProfile.DatastreamConnectionProfileMongodbProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference)SetAdditionalOptions(val *map[string]*string) {
+	if err := j.validateSetAdditionalOptionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"additionalOptions",
+		val,
 	)
 }
 
@@ -693,6 +728,14 @@ func (d *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) Put
 		d,
 		"putStandardConnectionFormat",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) ResetAdditionalOptions() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAdditionalOptions",
+		nil, // no parameters
 	)
 }
 

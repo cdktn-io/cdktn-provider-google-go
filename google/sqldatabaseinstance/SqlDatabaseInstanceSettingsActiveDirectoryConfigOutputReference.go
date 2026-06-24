@@ -13,6 +13,9 @@ import (
 
 type SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 	cdktn.ComplexObject
+	AdminCredentialSecretName() *string
+	SetAdminCredentialSecretName(val *string)
+	AdminCredentialSecretNameInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,6 +31,9 @@ type SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DnsServers() *[]*string
+	SetDnsServers(val *[]*string)
+	DnsServersInput() *[]*string
 	Domain() *string
 	SetDomain(val *string)
 	DomainInput() *string
@@ -35,6 +41,12 @@ type SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *SqlDatabaseInstanceSettingsActiveDirectoryConfig
 	SetInternalValue(val *SqlDatabaseInstanceSettingsActiveDirectoryConfig)
+	Mode() *string
+	SetMode(val *string)
+	ModeInput() *string
+	OrganizationalUnit() *string
+	SetOrganizationalUnit(val *string)
+	OrganizationalUnitInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +79,10 @@ type SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdminCredentialSecretName()
+	ResetDnsServers()
+	ResetMode()
+	ResetOrganizationalUnit()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -80,6 +96,26 @@ type SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 // The jsii proxy struct for SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference
 type jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) AdminCredentialSecretName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"adminCredentialSecretName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) AdminCredentialSecretNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"adminCredentialSecretNameInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -107,6 +143,26 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) DnsServers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dnsServers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) DnsServersInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dnsServersInput",
 		&returns,
 	)
 	return returns
@@ -147,6 +203,46 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) Mode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) OrganizationalUnit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationalUnit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) OrganizationalUnitInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationalUnitInput",
 		&returns,
 	)
 	return returns
@@ -200,6 +296,17 @@ func NewSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference_Override
 	)
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetAdminCredentialSecretName(val *string) {
+	if err := j.validateSetAdminCredentialSecretNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"adminCredentialSecretName",
+		val,
+	)
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -222,6 +329,17 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	)
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetDnsServers(val *[]*string) {
+	if err := j.validateSetDnsServersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dnsServers",
+		val,
+	)
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetDomain(val *string) {
 	if err := j.validateSetDomainParameters(val); err != nil {
 		panic(err)
@@ -240,6 +358,28 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetMode(val *string) {
+	if err := j.validateSetModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetOrganizationalUnit(val *string) {
+	if err := j.validateSetOrganizationalUnitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"organizationalUnit",
 		val,
 	)
 }
@@ -450,6 +590,38 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	)
 
 	return returns
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetAdminCredentialSecretName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAdminCredentialSecretName",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetDnsServers() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDnsServers",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetMode() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMode",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetOrganizationalUnit() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetOrganizationalUnit",
+		nil, // no parameters
+	)
 }
 
 func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs google}.
 type GoogleProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -69,6 +69,9 @@ type GoogleProvider interface {
 	BiglakeCustomEndpoint() *string
 	SetBiglakeCustomEndpoint(val *string)
 	BiglakeCustomEndpointInput() *string
+	BiglakeHiveCustomEndpoint() *string
+	SetBiglakeHiveCustomEndpoint(val *string)
+	BiglakeHiveCustomEndpointInput() *string
 	BiglakeIcebergCustomEndpoint() *string
 	SetBiglakeIcebergCustomEndpoint(val *string)
 	BiglakeIcebergCustomEndpointInput() *string
@@ -658,6 +661,7 @@ type GoogleProvider interface {
 	ResetBatching()
 	ResetBeyondcorpCustomEndpoint()
 	ResetBiglakeCustomEndpoint()
+	ResetBiglakeHiveCustomEndpoint()
 	ResetBiglakeIcebergCustomEndpoint()
 	ResetBigqueryAnalyticsHubCustomEndpoint()
 	ResetBigqueryConnectionCustomEndpoint()
@@ -1225,6 +1229,26 @@ func (j *jsiiProxy_GoogleProvider) BiglakeCustomEndpointInput() *string {
 	_jsii_.Get(
 		j,
 		"biglakeCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) BiglakeHiveCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"biglakeHiveCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) BiglakeHiveCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"biglakeHiveCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -4971,7 +4995,7 @@ func (j *jsiiProxy_GoogleProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs google} Resource.
 func NewGoogleProvider(scope constructs.Construct, id *string, config *GoogleProviderConfig) GoogleProvider {
 	_init_.Initialize()
 
@@ -4989,7 +5013,7 @@ func NewGoogleProvider(scope constructs.Construct, id *string, config *GooglePro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs google} Resource.
 func NewGoogleProvider_Override(g GoogleProvider, scope constructs.Construct, id *string, config *GoogleProviderConfig) {
 	_init_.Initialize()
 
@@ -5146,6 +5170,14 @@ func (j *jsiiProxy_GoogleProvider)SetBiglakeCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"biglakeCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetBiglakeHiveCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"biglakeHiveCustomEndpoint",
 		val,
 	)
 }
@@ -6883,6 +6915,14 @@ func (g *jsiiProxy_GoogleProvider) ResetBiglakeCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBiglakeCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetBiglakeHiveCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBiglakeHiveCustomEndpoint",
 		nil, // no parameters
 	)
 }

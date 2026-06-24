@@ -67,6 +67,14 @@ func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientS
 	return nil
 }
 
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) validateSetPlainTextWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) validateSetPlainTextWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

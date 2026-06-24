@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool}.
 type EdgecontainerNodePool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -657,7 +657,7 @@ func (j *jsiiProxy_EdgecontainerNodePool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
 func NewEdgecontainerNodePool(scope constructs.Construct, id *string, config *EdgecontainerNodePoolConfig) EdgecontainerNodePool {
 	_init_.Initialize()
 
@@ -675,7 +675,7 @@ func NewEdgecontainerNodePool(scope constructs.Construct, id *string, config *Ed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
 func NewEdgecontainerNodePool_Override(e EdgecontainerNodePool, scope constructs.Construct, id *string, config *EdgecontainerNodePoolConfig) {
 	_init_.Initialize()
 

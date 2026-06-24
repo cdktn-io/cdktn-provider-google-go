@@ -75,6 +75,10 @@ func (c *jsiiProxy_ComputeSnapshot) validateOverrideLogicalIdParameters(newLogic
 	return nil
 }
 
+func (c *jsiiProxy_ComputeSnapshot) validatePutParamsParameters(value *ComputeSnapshotParams) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeSnapshot) validatePutSnapshotEncryptionKeyParameters(value *ComputeSnapshotSnapshotEncryptionKey) error {
 	return nil
 }

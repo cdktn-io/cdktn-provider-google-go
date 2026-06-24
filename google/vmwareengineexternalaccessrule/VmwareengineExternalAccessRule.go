@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
 type VmwareengineExternalAccessRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -642,7 +642,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewVmwareengineExternalAccessRule(scope constructs.Construct, id *string, config *VmwareengineExternalAccessRuleConfig) VmwareengineExternalAccessRule {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewVmwareengineExternalAccessRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewVmwareengineExternalAccessRule_Override(v VmwareengineExternalAccessRule, scope constructs.Construct, id *string, config *VmwareengineExternalAccessRuleConfig) {
 	_init_.Initialize()
 

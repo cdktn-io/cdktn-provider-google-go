@@ -24,11 +24,11 @@ type ServiceDirectoryServiceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The resource name of the namespace this service will belong to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/service_directory_service#namespace ServiceDirectoryService#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/service_directory_service#namespace ServiceDirectoryService#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// The Resource ID must be 1-63 characters long, including digits, lowercase letters or the hyphen character.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/service_directory_service#service_id ServiceDirectoryService#service_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/service_directory_service#service_id ServiceDirectoryService#service_id}
 	ServiceId *string `field:"required" json:"serviceId" yaml:"serviceId"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,9 +40,9 @@ type ServiceDirectoryServiceConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/service_directory_service#deletion_policy ServiceDirectoryService#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/service_directory_service#deletion_policy ServiceDirectoryService#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/service_directory_service#id ServiceDirectoryService#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/service_directory_service#id ServiceDirectoryService#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,11 +54,11 @@ type ServiceDirectoryServiceConfig struct {
 	// up to 2000 characters, spread across all key-value pairs.
 	// Metadata that goes beyond any these limits will be rejected.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/service_directory_service#metadata ServiceDirectoryService#metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/service_directory_service#metadata ServiceDirectoryService#metadata}
 	Metadata *map[string]*string `field:"optional" json:"metadata" yaml:"metadata"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/service_directory_service#timeouts ServiceDirectoryService#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/service_directory_service#timeouts ServiceDirectoryService#timeouts}
 	Timeouts *ServiceDirectoryServiceTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

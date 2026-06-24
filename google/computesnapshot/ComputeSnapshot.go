@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_snapshot google_compute_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_snapshot google_compute_snapshot}.
 type ComputeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -68,6 +68,8 @@ type ComputeSnapshot interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeSnapshotParamsOutputReference
+	ParamsInput() *ComputeSnapshotParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -155,6 +157,7 @@ type ComputeSnapshot interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutParams(value *ComputeSnapshotParams)
 	PutSnapshotEncryptionKey(value *ComputeSnapshotSnapshotEncryptionKey)
 	PutSourceDiskEncryptionKey(value *ComputeSnapshotSourceDiskEncryptionKey)
 	PutTimeouts(value *ComputeSnapshotTimeouts)
@@ -166,6 +169,7 @@ type ComputeSnapshot interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetSnapshotEncryptionKey()
 	ResetSnapshotType()
@@ -472,6 +476,26 @@ func (j *jsiiProxy_ComputeSnapshot) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeSnapshot) Params() ComputeSnapshotParamsOutputReference {
+	var returns ComputeSnapshotParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSnapshot) ParamsInput() *ComputeSnapshotParams {
+	var returns *ComputeSnapshotParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeSnapshot) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -753,7 +777,7 @@ func (j *jsiiProxy_ComputeSnapshot) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
 func NewComputeSnapshot(scope constructs.Construct, id *string, config *ComputeSnapshotConfig) ComputeSnapshot {
 	_init_.Initialize()
 
@@ -771,7 +795,7 @@ func NewComputeSnapshot(scope constructs.Construct, id *string, config *ComputeS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_snapshot google_compute_snapshot} Resource.
 func NewComputeSnapshot_Override(c ComputeSnapshot, scope constructs.Construct, id *string, config *ComputeSnapshotConfig) {
 	_init_.Initialize()
 
@@ -1335,6 +1359,17 @@ func (c *jsiiProxy_ComputeSnapshot) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (c *jsiiProxy_ComputeSnapshot) PutParams(value *ComputeSnapshotParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeSnapshot) PutSnapshotEncryptionKey(value *ComputeSnapshotSnapshotEncryptionKey) {
 	if err := c.validatePutSnapshotEncryptionKeyParameters(value); err != nil {
 		panic(err)
@@ -1412,6 +1447,14 @@ func (c *jsiiProxy_ComputeSnapshot) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeSnapshot) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

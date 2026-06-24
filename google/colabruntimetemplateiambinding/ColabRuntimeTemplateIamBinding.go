@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/colab_runtime_template_iam_binding google_colab_runtime_template_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/colab_runtime_template_iam_binding google_colab_runtime_template_iam_binding}.
 type ColabRuntimeTemplateIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ColabRuntimeTemplateIamBinding) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/colab_runtime_template_iam_binding google_colab_runtime_template_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/colab_runtime_template_iam_binding google_colab_runtime_template_iam_binding} Resource.
 func NewColabRuntimeTemplateIamBinding(scope constructs.Construct, id *string, config *ColabRuntimeTemplateIamBindingConfig) ColabRuntimeTemplateIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewColabRuntimeTemplateIamBinding(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/colab_runtime_template_iam_binding google_colab_runtime_template_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/colab_runtime_template_iam_binding google_colab_runtime_template_iam_binding} Resource.
 func NewColabRuntimeTemplateIamBinding_Override(c ColabRuntimeTemplateIamBinding, scope constructs.Construct, id *string, config *ColabRuntimeTemplateIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/apigee_developer_app google_apigee_developer_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apigee_developer_app google_apigee_developer_app}.
 type ApigeeDeveloperApp interface {
 	cdktn.TerraformResource
 	ApiProducts() *[]*string
@@ -35,6 +35,12 @@ type ApigeeDeveloperApp interface {
 	SetConnection(val interface{})
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
+	ConsumerKey() *string
+	SetConsumerKey(val *string)
+	ConsumerKeyInput() *string
+	ConsumerSecret() *string
+	SetConsumerSecret(val *string)
+	ConsumerSecretInput() *string
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -151,6 +157,8 @@ type ApigeeDeveloperApp interface {
 	ResetApiProducts()
 	ResetAppFamily()
 	ResetAttributes()
+	ResetConsumerKey()
+	ResetConsumerSecret()
 	ResetDeletionPolicy()
 	ResetId()
 	ResetKeyExpiresIn()
@@ -302,6 +310,46 @@ func (j *jsiiProxy_ApigeeDeveloperApp) ConstructNodeMetadata() *map[string]inter
 	_jsii_.Get(
 		j,
 		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp) ConsumerKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp) ConsumerKeyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp) ConsumerSecret() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerSecret",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp) ConsumerSecretInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerSecretInput",
 		&returns,
 	)
 	return returns
@@ -658,7 +706,7 @@ func (j *jsiiProxy_ApigeeDeveloperApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/apigee_developer_app google_apigee_developer_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apigee_developer_app google_apigee_developer_app} Resource.
 func NewApigeeDeveloperApp(scope constructs.Construct, id *string, config *ApigeeDeveloperAppConfig) ApigeeDeveloperApp {
 	_init_.Initialize()
 
@@ -676,7 +724,7 @@ func NewApigeeDeveloperApp(scope constructs.Construct, id *string, config *Apige
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/apigee_developer_app google_apigee_developer_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apigee_developer_app google_apigee_developer_app} Resource.
 func NewApigeeDeveloperApp_Override(a ApigeeDeveloperApp, scope constructs.Construct, id *string, config *ApigeeDeveloperAppConfig) {
 	_init_.Initialize()
 
@@ -727,6 +775,28 @@ func (j *jsiiProxy_ApigeeDeveloperApp)SetConnection(val interface{}) {
 	_jsii_.Set(
 		j,
 		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp)SetConsumerKey(val *string) {
+	if err := j.validateSetConsumerKeyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumerKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp)SetConsumerSecret(val *string) {
+	if err := j.validateSetConsumerSecretParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumerSecret",
 		val,
 	)
 }
@@ -1271,6 +1341,22 @@ func (a *jsiiProxy_ApigeeDeveloperApp) ResetAttributes() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAttributes",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeDeveloperApp) ResetConsumerKey() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetConsumerKey",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeDeveloperApp) ResetConsumerSecret() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetConsumerSecret",
 		nil, // no parameters
 	)
 }

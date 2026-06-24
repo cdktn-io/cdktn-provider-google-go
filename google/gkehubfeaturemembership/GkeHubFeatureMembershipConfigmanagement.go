@@ -7,23 +7,23 @@ package gkehubfeaturemembership
 type GkeHubFeatureMembershipConfigmanagement struct {
 	// config_sync block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_hub_feature_membership#config_sync GkeHubFeatureMembership#config_sync}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_hub_feature_membership#config_sync GkeHubFeatureMembership#config_sync}
 	ConfigSync *GkeHubFeatureMembershipConfigmanagementConfigSync `field:"optional" json:"configSync" yaml:"configSync"`
 	// hierarchy_controller block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_hub_feature_membership#hierarchy_controller GkeHubFeatureMembership#hierarchy_controller}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_hub_feature_membership#hierarchy_controller GkeHubFeatureMembership#hierarchy_controller}
 	HierarchyController *GkeHubFeatureMembershipConfigmanagementHierarchyController `field:"optional" json:"hierarchyController" yaml:"hierarchyController"`
 	// Set this field to MANAGEMENT_AUTOMATIC to enable Config Sync auto-upgrades, and set this field to MANAGEMENT_MANUAL or MANAGEMENT_UNSPECIFIED to disable Config Sync auto-upgrades.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_hub_feature_membership#management GkeHubFeatureMembership#management}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_hub_feature_membership#management GkeHubFeatureMembership#management}
 	Management *string `field:"optional" json:"management" yaml:"management"`
 	// policy_controller block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_hub_feature_membership#policy_controller GkeHubFeatureMembership#policy_controller}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_hub_feature_membership#policy_controller GkeHubFeatureMembership#policy_controller}
 	PolicyController *GkeHubFeatureMembershipConfigmanagementPolicyController `field:"optional" json:"policyController" yaml:"policyController"`
 	// Optional. Version of ACM to install. Defaults to the latest version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/gke_hub_feature_membership#version GkeHubFeatureMembership#version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_hub_feature_membership#version GkeHubFeatureMembership#version}
 	Version *string `field:"optional" json:"version" yaml:"version"`
 }
 

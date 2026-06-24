@@ -284,6 +284,17 @@ func (c *jsiiProxy_CesTool) validatePutTimeoutsParameters(value *CesToolTimeouts
 	return nil
 }
 
+func (c *jsiiProxy_CesTool) validatePutToolFakeConfigParameters(value *CesToolToolFakeConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CesTool) validatePutWidgetToolParameters(value *CesToolWidgetTool) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -522,6 +533,14 @@ func (j *jsiiProxy_CesTool) validateSetProvisionersParameters(val *[]interface{}
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CesTool) validateSetTimeoutParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

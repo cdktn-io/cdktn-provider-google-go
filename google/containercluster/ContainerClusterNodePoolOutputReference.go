@@ -32,6 +32,9 @@ type ContainerClusterNodePoolOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IgnoreNodeCountChanges() interface{}
+	SetIgnoreNodeCountChanges(val interface{})
+	IgnoreNodeCountChangesInput() interface{}
 	InitialNodeCount() *float64
 	SetInitialNodeCount(val *float64)
 	InitialNodeCountInput() *float64
@@ -112,6 +115,7 @@ type ContainerClusterNodePoolOutputReference interface {
 	PutQueuedProvisioning(value *ContainerClusterNodePoolQueuedProvisioning)
 	PutUpgradeSettings(value *ContainerClusterNodePoolUpgradeSettings)
 	ResetAutoscaling()
+	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetManagement()
 	ResetMaxPodsPerNode()
@@ -196,6 +200,26 @@ func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) Fqn() *string {
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) IgnoreNodeCountChanges() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) IgnoreNodeCountChangesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChangesInput",
 		&returns,
 	)
 	return returns
@@ -577,6 +601,17 @@ func (j *jsiiProxy_ContainerClusterNodePoolOutputReference)SetComplexObjectIsFro
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference)SetIgnoreNodeCountChanges(val interface{}) {
+	if err := j.validateSetIgnoreNodeCountChangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreNodeCountChanges",
 		val,
 	)
 }
@@ -969,6 +1004,14 @@ func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) ResetAutoscaling() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) ResetIgnoreNodeCountChanges() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIgnoreNodeCountChanges",
 		nil, // no parameters
 	)
 }

@@ -5,11 +5,11 @@ package migrationcentersettings
 
 
 type MigrationCenterSettingsTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/migration_center_settings#create MigrationCenterSettings#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/migration_center_settings#create MigrationCenterSettings#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/migration_center_settings#delete MigrationCenterSettings#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/migration_center_settings#delete MigrationCenterSettings#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/migration_center_settings#update MigrationCenterSettings#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/migration_center_settings#update MigrationCenterSettings#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

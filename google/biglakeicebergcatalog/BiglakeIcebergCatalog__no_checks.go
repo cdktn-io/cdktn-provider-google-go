@@ -75,6 +75,10 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (b *jsiiProxy_BiglakeIcebergCatalog) validatePutRestrictedLocationsConfigParameters(value *BiglakeIcebergCatalogRestrictedLocationsConfig) error {
+	return nil
+}
+
 func (b *jsiiProxy_BiglakeIcebergCatalog) validatePutTimeoutsParameters(value *BiglakeIcebergCatalogTimeouts) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (j *jsiiProxy_BiglakeIcebergCatalog) validateSetCountParameters(val interfa
 }
 
 func (j *jsiiProxy_BiglakeIcebergCatalog) validateSetCredentialModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BiglakeIcebergCatalog) validateSetDefaultLocationParameters(val *string) error {
 	return nil
 }
 

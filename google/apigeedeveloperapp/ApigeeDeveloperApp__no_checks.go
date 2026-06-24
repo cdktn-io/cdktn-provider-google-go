@@ -115,6 +115,14 @@ func (j *jsiiProxy_ApigeeDeveloperApp) validateSetConnectionParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeDeveloperApp) validateSetConsumerKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApigeeDeveloperApp) validateSetConsumerSecretParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeDeveloperApp) validateSetCountParameters(val interface{}) error {
 	return nil
 }

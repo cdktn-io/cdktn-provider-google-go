@@ -87,6 +87,10 @@ func (c *jsiiProxy_CesToolset) validatePutTimeoutsParameters(value *CesToolsetTi
 	return nil
 }
 
+func (c *jsiiProxy_CesToolset) validatePutToolFakeConfigParameters(value *CesToolsetToolFakeConfig) error {
+	return nil
+}
+
 func validateCesToolset_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

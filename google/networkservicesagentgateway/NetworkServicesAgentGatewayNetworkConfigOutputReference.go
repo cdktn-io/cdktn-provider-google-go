@@ -28,6 +28,8 @@ type NetworkServicesAgentGatewayNetworkConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DnsPeeringConfig() NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference
+	DnsPeeringConfigInput() *NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig
 	Egress() NetworkServicesAgentGatewayNetworkConfigEgressOutputReference
 	EgressInput() *NetworkServicesAgentGatewayNetworkConfigEgress
 	// Experimental.
@@ -66,7 +68,9 @@ type NetworkServicesAgentGatewayNetworkConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDnsPeeringConfig(value *NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig)
 	PutEgress(value *NetworkServicesAgentGatewayNetworkConfigEgress)
+	ResetDnsPeeringConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -107,6 +111,26 @@ func (j *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) Crea
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) DnsPeeringConfig() NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference {
+	var returns NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference
+	_jsii_.Get(
+		j,
+		"dnsPeeringConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) DnsPeeringConfigInput() *NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig {
+	var returns *NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig
+	_jsii_.Get(
+		j,
+		"dnsPeeringConfigInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +465,17 @@ func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) Inte
 	return returns
 }
 
+func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) PutDnsPeeringConfig(value *NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig) {
+	if err := n.validatePutDnsPeeringConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putDnsPeeringConfig",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) PutEgress(value *NetworkServicesAgentGatewayNetworkConfigEgress) {
 	if err := n.validatePutEgressParameters(value); err != nil {
 		panic(err)
@@ -449,6 +484,14 @@ func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) PutE
 		n,
 		"putEgress",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) ResetDnsPeeringConfig() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDnsPeeringConfig",
+		nil, // no parameters
 	)
 }
 

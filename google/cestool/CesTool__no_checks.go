@@ -103,6 +103,10 @@ func (c *jsiiProxy_CesTool) validatePutTimeoutsParameters(value *CesToolTimeouts
 	return nil
 }
 
+func (c *jsiiProxy_CesTool) validatePutToolFakeConfigParameters(value *CesToolToolFakeConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesTool) validatePutWidgetToolParameters(value *CesToolWidgetTool) error {
 	return nil
 }
@@ -160,6 +164,10 @@ func (j *jsiiProxy_CesTool) validateSetProjectParameters(val *string) error {
 }
 
 func (j *jsiiProxy_CesTool) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesTool) validateSetTimeoutParameters(val *string) error {
 	return nil
 }
 

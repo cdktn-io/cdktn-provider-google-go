@@ -147,6 +147,10 @@ func (j *jsiiProxy_ContainerNodePool) validateSetIdParameters(val *string) error
 	return nil
 }
 
+func (j *jsiiProxy_ContainerNodePool) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerNodePool) validateSetInitialNodeCountParameters(val *float64) error {
 	return nil
 }

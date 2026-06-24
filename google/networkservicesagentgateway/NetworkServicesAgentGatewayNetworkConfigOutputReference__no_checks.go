@@ -47,6 +47,10 @@ func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) vali
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) validatePutDnsPeeringConfigParameters(value *NetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesAgentGatewayNetworkConfigOutputReference) validatePutEgressParameters(value *NetworkServicesAgentGatewayNetworkConfigEgress) error {
 	return nil
 }

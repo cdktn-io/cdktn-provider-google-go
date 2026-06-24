@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment}.
 type ChronicleRuleDeployment interface {
 	cdktn.TerraformResource
 	Alerting() interface{}
@@ -598,7 +598,7 @@ func (j *jsiiProxy_ChronicleRuleDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewChronicleRuleDeployment(scope constructs.Construct, id *string, config *ChronicleRuleDeploymentConfig) ChronicleRuleDeployment {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewChronicleRuleDeployment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewChronicleRuleDeployment_Override(c ChronicleRuleDeployment, scope constructs.Construct, id *string, config *ChronicleRuleDeploymentConfig) {
 	_init_.Initialize()
 

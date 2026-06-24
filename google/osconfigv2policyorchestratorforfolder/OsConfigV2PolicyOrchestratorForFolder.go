@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
 type OsConfigV2PolicyOrchestratorForFolder interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -643,7 +643,7 @@ func (j *jsiiProxy_OsConfigV2PolicyOrchestratorForFolder) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
 func NewOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, id *string, config *OsConfigV2PolicyOrchestratorForFolderConfig) OsConfigV2PolicyOrchestratorForFolder {
 	_init_.Initialize()
 
@@ -661,7 +661,7 @@ func NewOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
 func NewOsConfigV2PolicyOrchestratorForFolder_Override(o OsConfigV2PolicyOrchestratorForFolder, scope constructs.Construct, id *string, config *OsConfigV2PolicyOrchestratorForFolderConfig) {
 	_init_.Initialize()
 

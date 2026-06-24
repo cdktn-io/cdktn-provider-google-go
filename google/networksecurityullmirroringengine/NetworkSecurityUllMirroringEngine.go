@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_security_ull_mirroring_engine google_network_security_ull_mirroring_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_ull_mirroring_engine google_network_security_ull_mirroring_engine}.
 type NetworkSecurityUllMirroringEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_NetworkSecurityUllMirroringEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_security_ull_mirroring_engine google_network_security_ull_mirroring_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_ull_mirroring_engine google_network_security_ull_mirroring_engine} Resource.
 func NewNetworkSecurityUllMirroringEngine(scope constructs.Construct, id *string, config *NetworkSecurityUllMirroringEngineConfig) NetworkSecurityUllMirroringEngine {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewNetworkSecurityUllMirroringEngine(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/network_security_ull_mirroring_engine google_network_security_ull_mirroring_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_ull_mirroring_engine google_network_security_ull_mirroring_engine} Resource.
 func NewNetworkSecurityUllMirroringEngine_Override(n NetworkSecurityUllMirroringEngine, scope constructs.Construct, id *string, config *NetworkSecurityUllMirroringEngineConfig) {
 	_init_.Initialize()
 

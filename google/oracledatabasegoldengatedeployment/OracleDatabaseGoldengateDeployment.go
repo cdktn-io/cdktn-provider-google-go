@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment}.
 type OracleDatabaseGoldengateDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -644,7 +644,7 @@ func (j *jsiiProxy_OracleDatabaseGoldengateDeployment) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
 func NewOracleDatabaseGoldengateDeployment(scope constructs.Construct, id *string, config *OracleDatabaseGoldengateDeploymentConfig) OracleDatabaseGoldengateDeployment {
 	_init_.Initialize()
 
@@ -662,7 +662,7 @@ func NewOracleDatabaseGoldengateDeployment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
 func NewOracleDatabaseGoldengateDeployment_Override(o OracleDatabaseGoldengateDeployment, scope constructs.Construct, id *string, config *OracleDatabaseGoldengateDeploymentConfig) {
 	_init_.Initialize()
 

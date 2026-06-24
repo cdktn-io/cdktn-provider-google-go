@@ -144,6 +144,8 @@ type ContainerClusterNodePoolNodeConfigOutputReference interface {
 	SetTags(val *[]*string)
 	TagsInput() *[]*string
 	Taint() ContainerClusterNodePoolNodeConfigTaintList
+	TaintConfig() ContainerClusterNodePoolNodeConfigTaintConfigOutputReference
+	TaintConfigInput() *ContainerClusterNodePoolNodeConfigTaintConfig
 	TaintInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
@@ -201,6 +203,7 @@ type ContainerClusterNodePoolNodeConfigOutputReference interface {
 	PutShieldedInstanceConfig(value *ContainerClusterNodePoolNodeConfigShieldedInstanceConfig)
 	PutSoleTenantConfig(value *ContainerClusterNodePoolNodeConfigSoleTenantConfig)
 	PutTaint(value interface{})
+	PutTaintConfig(value *ContainerClusterNodePoolNodeConfigTaintConfig)
 	PutWindowsNodeConfig(value *ContainerClusterNodePoolNodeConfigWindowsNodeConfig)
 	PutWorkloadMetadataConfig(value *ContainerClusterNodePoolNodeConfigWorkloadMetadataConfig)
 	ResetAdvancedMachineFeatures()
@@ -247,6 +250,7 @@ type ContainerClusterNodePoolNodeConfigOutputReference interface {
 	ResetStoragePools()
 	ResetTags()
 	ResetTaint()
+	ResetTaintConfig()
 	ResetWindowsNodeConfig()
 	ResetWorkloadMetadataConfig()
 	// Produce the Token's value at resolution time.
@@ -1194,6 +1198,26 @@ func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) Taint() Co
 	return returns
 }
 
+func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) TaintConfig() ContainerClusterNodePoolNodeConfigTaintConfigOutputReference {
+	var returns ContainerClusterNodePoolNodeConfigTaintConfigOutputReference
+	_jsii_.Get(
+		j,
+		"taintConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) TaintConfigInput() *ContainerClusterNodePoolNodeConfigTaintConfig {
+	var returns *ContainerClusterNodePoolNodeConfigTaintConfig
+	_jsii_.Get(
+		j,
+		"taintConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) TaintInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -2017,6 +2041,17 @@ func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) PutTaint(v
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) PutTaintConfig(value *ContainerClusterNodePoolNodeConfigTaintConfig) {
+	if err := c.validatePutTaintConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putTaintConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) PutWindowsNodeConfig(value *ContainerClusterNodePoolNodeConfigWindowsNodeConfig) {
 	if err := c.validatePutWindowsNodeConfigParameters(value); err != nil {
 		panic(err)
@@ -2387,6 +2422,14 @@ func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) ResetTaint
 	_jsii_.InvokeVoid(
 		c,
 		"resetTaint",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) ResetTaintConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTaintConfig",
 		nil, // no parameters
 	)
 }

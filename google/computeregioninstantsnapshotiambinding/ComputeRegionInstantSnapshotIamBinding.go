@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding}.
 type ComputeRegionInstantSnapshotIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ComputeRegionInstantSnapshotIamBinding) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
 func NewComputeRegionInstantSnapshotIamBinding(scope constructs.Construct, id *string, config *ComputeRegionInstantSnapshotIamBindingConfig) ComputeRegionInstantSnapshotIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewComputeRegionInstantSnapshotIamBinding(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
 func NewComputeRegionInstantSnapshotIamBinding_Override(c ComputeRegionInstantSnapshotIamBinding, scope constructs.Construct, id *string, config *ComputeRegionInstantSnapshotIamBindingConfig) {
 	_init_.Initialize()
 

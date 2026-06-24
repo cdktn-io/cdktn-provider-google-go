@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/colab_schedule google_colab_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/colab_schedule google_colab_schedule}.
 type ColabSchedule interface {
 	cdktn.TerraformResource
 	AllowQueueing() interface{}
@@ -648,7 +648,7 @@ func (j *jsiiProxy_ColabSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/colab_schedule google_colab_schedule} Resource.
 func NewColabSchedule(scope constructs.Construct, id *string, config *ColabScheduleConfig) ColabSchedule {
 	_init_.Initialize()
 
@@ -666,7 +666,7 @@ func NewColabSchedule(scope constructs.Construct, id *string, config *ColabSched
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/colab_schedule google_colab_schedule} Resource.
 func NewColabSchedule_Override(c ColabSchedule, scope constructs.Construct, id *string, config *ColabScheduleConfig) {
 	_init_.Initialize()
 

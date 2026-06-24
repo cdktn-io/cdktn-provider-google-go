@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/container_node_pool google_container_node_pool}.
 type ContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() ContainerNodePoolAutoscalingOutputReference
@@ -50,6 +50,9 @@ type ContainerNodePool interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IgnoreNodeCountChanges() interface{}
+	SetIgnoreNodeCountChanges(val interface{})
+	IgnoreNodeCountChangesInput() interface{}
 	InitialNodeCount() *float64
 	SetInitialNodeCount(val *float64)
 	InitialNodeCountInput() *float64
@@ -173,6 +176,7 @@ type ContainerNodePool interface {
 	ResetAutoscaling()
 	ResetDeletionPolicy()
 	ResetId()
+	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetLocation()
 	ResetManagement()
@@ -375,6 +379,26 @@ func (j *jsiiProxy_ContainerNodePool) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) IgnoreNodeCountChanges() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) IgnoreNodeCountChangesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChangesInput",
 		&returns,
 	)
 	return returns
@@ -831,7 +855,7 @@ func (j *jsiiProxy_ContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool(scope constructs.Construct, id *string, config *ContainerNodePoolConfig) ContainerNodePool {
 	_init_.Initialize()
 
@@ -849,7 +873,7 @@ func NewContainerNodePool(scope constructs.Construct, id *string, config *Contai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool_Override(c ContainerNodePool, scope constructs.Construct, id *string, config *ContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -927,6 +951,17 @@ func (j *jsiiProxy_ContainerNodePool)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerNodePool)SetIgnoreNodeCountChanges(val interface{}) {
+	if err := j.validateSetIgnoreNodeCountChangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreNodeCountChanges",
 		val,
 	)
 }
@@ -1532,6 +1567,14 @@ func (c *jsiiProxy_ContainerNodePool) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePool) ResetIgnoreNodeCountChanges() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIgnoreNodeCountChanges",
 		nil, // no parameters
 	)
 }

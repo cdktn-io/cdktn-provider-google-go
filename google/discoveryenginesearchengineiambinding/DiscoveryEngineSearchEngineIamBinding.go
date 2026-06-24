@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding}.
 type DiscoveryEngineSearchEngineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
 func NewDiscoveryEngineSearchEngineIamBinding(scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineIamBindingConfig) DiscoveryEngineSearchEngineIamBinding {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewDiscoveryEngineSearchEngineIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
 func NewDiscoveryEngineSearchEngineIamBinding_Override(d DiscoveryEngineSearchEngineIamBinding, scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineIamBindingConfig) {
 	_init_.Initialize()
 

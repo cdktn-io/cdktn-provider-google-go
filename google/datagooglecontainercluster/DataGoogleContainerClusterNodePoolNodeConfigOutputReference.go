@@ -77,6 +77,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	StoragePools() *[]*string
 	Tags() *[]*string
 	Taint() DataGoogleContainerClusterNodePoolNodeConfigTaintList
+	TaintConfig() DataGoogleContainerClusterNodePoolNodeConfigTaintConfigList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -621,6 +622,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"taint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) TaintConfig() DataGoogleContainerClusterNodePoolNodeConfigTaintConfigList {
+	var returns DataGoogleContainerClusterNodePoolNodeConfigTaintConfigList
+	_jsii_.Get(
+		j,
+		"taintConfig",
 		&returns,
 	)
 	return returns

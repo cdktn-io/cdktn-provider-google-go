@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table}.
 type BiglakeIcebergTable interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -83,6 +83,8 @@ type BiglakeIcebergTable interface {
 	RawOverrides() interface{}
 	Schema() BiglakeIcebergTableSchemaOutputReference
 	SchemaInput() *BiglakeIcebergTableSchema
+	SortOrder() BiglakeIcebergTableSortOrderOutputReference
+	SortOrderInput() *BiglakeIcebergTableSortOrder
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -136,6 +138,7 @@ type BiglakeIcebergTable interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPartitionSpec(value *BiglakeIcebergTablePartitionSpec)
 	PutSchema(value *BiglakeIcebergTableSchema)
+	PutSortOrder(value *BiglakeIcebergTableSortOrder)
 	PutTimeouts(value *BiglakeIcebergTableTimeouts)
 	ResetDeletionPolicy()
 	ResetId()
@@ -146,6 +149,7 @@ type BiglakeIcebergTable interface {
 	ResetPartitionSpec()
 	ResetProject()
 	ResetProperties()
+	ResetSortOrder()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -504,6 +508,26 @@ func (j *jsiiProxy_BiglakeIcebergTable) SchemaInput() *BiglakeIcebergTableSchema
 	return returns
 }
 
+func (j *jsiiProxy_BiglakeIcebergTable) SortOrder() BiglakeIcebergTableSortOrderOutputReference {
+	var returns BiglakeIcebergTableSortOrderOutputReference
+	_jsii_.Get(
+		j,
+		"sortOrder",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeIcebergTable) SortOrderInput() *BiglakeIcebergTableSortOrder {
+	var returns *BiglakeIcebergTableSortOrder
+	_jsii_.Get(
+		j,
+		"sortOrderInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BiglakeIcebergTable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -555,7 +579,7 @@ func (j *jsiiProxy_BiglakeIcebergTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewBiglakeIcebergTable(scope constructs.Construct, id *string, config *BiglakeIcebergTableConfig) BiglakeIcebergTable {
 	_init_.Initialize()
 
@@ -573,7 +597,7 @@ func NewBiglakeIcebergTable(scope constructs.Construct, id *string, config *Bigl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewBiglakeIcebergTable_Override(b BiglakeIcebergTable, scope constructs.Construct, id *string, config *BiglakeIcebergTableConfig) {
 	_init_.Initialize()
 
@@ -1115,6 +1139,17 @@ func (b *jsiiProxy_BiglakeIcebergTable) PutSchema(value *BiglakeIcebergTableSche
 	)
 }
 
+func (b *jsiiProxy_BiglakeIcebergTable) PutSortOrder(value *BiglakeIcebergTableSortOrder) {
+	if err := b.validatePutSortOrderParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSortOrder",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BiglakeIcebergTable) PutTimeouts(value *BiglakeIcebergTableTimeouts) {
 	if err := b.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1178,6 +1213,14 @@ func (b *jsiiProxy_BiglakeIcebergTable) ResetProperties() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetProperties",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BiglakeIcebergTable) ResetSortOrder() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSortOrder",
 		nil, // no parameters
 	)
 }

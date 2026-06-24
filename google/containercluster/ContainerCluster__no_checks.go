@@ -299,6 +299,10 @@ func (j *jsiiProxy_ContainerCluster) validateSetDatapathProviderParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_ContainerCluster) validateSetDataplaneOptimizationModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerCluster) validateSetDefaultMaxPodsPerNodeParameters(val *float64) error {
 	return nil
 }
@@ -360,6 +364,10 @@ func (j *jsiiProxy_ContainerCluster) validateSetEnableTpuParameters(val interfac
 }
 
 func (j *jsiiProxy_ContainerCluster) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
 	return nil
 }
 
@@ -428,6 +436,10 @@ func (j *jsiiProxy_ContainerCluster) validateSetRemoveDefaultNodePoolParameters(
 }
 
 func (j *jsiiProxy_ContainerCluster) validateSetResourceLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetSkipNodePoolRefreshParameters(val interface{}) error {
 	return nil
 }
 

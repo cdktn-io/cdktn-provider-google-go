@@ -119,6 +119,14 @@ func (j *jsiiProxy_StorageBucketLifecycleRuleConditionOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_StorageBucketLifecycleRuleConditionOutputReference) validateSetSizeAboveBytesParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageBucketLifecycleRuleConditionOutputReference) validateSetSizeBelowBytesParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageBucketLifecycleRuleConditionOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

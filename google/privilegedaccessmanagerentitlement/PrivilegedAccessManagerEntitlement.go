@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
 type PrivilegedAccessManagerEntitlement interface {
 	cdktn.TerraformResource
 	AdditionalNotificationTargets() PrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference
@@ -631,7 +631,7 @@ func (j *jsiiProxy_PrivilegedAccessManagerEntitlement) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
 func NewPrivilegedAccessManagerEntitlement(scope constructs.Construct, id *string, config *PrivilegedAccessManagerEntitlementConfig) PrivilegedAccessManagerEntitlement {
 	_init_.Initialize()
 
@@ -649,7 +649,7 @@ func NewPrivilegedAccessManagerEntitlement(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
 func NewPrivilegedAccessManagerEntitlement_Override(p PrivilegedAccessManagerEntitlement, scope constructs.Construct, id *string, config *PrivilegedAccessManagerEntitlementConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/biglake_iceberg_catalog google_biglake_iceberg_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/biglake_iceberg_catalog google_biglake_iceberg_catalog}.
 type BiglakeIcebergCatalog interface {
 	cdktn.TerraformResource
 	BiglakeServiceAccount() *string
@@ -36,6 +36,8 @@ type BiglakeIcebergCatalog interface {
 	SetCredentialMode(val *string)
 	CredentialModeInput() *string
 	DefaultLocation() *string
+	SetDefaultLocation(val *string)
+	DefaultLocationInput() *string
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -80,6 +82,8 @@ type BiglakeIcebergCatalog interface {
 	// Experimental.
 	RawOverrides() interface{}
 	Replicas() BiglakeIcebergCatalogReplicasList
+	RestrictedLocationsConfig() BiglakeIcebergCatalogRestrictedLocationsConfigOutputReference
+	RestrictedLocationsConfigInput() *BiglakeIcebergCatalogRestrictedLocationsConfig
 	StorageRegions() *[]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -133,8 +137,10 @@ type BiglakeIcebergCatalog interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutRestrictedLocationsConfig(value *BiglakeIcebergCatalogRestrictedLocationsConfig)
 	PutTimeouts(value *BiglakeIcebergCatalogTimeouts)
 	ResetCredentialMode()
+	ResetDefaultLocation()
 	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -142,6 +148,7 @@ type BiglakeIcebergCatalog interface {
 	ResetOverrideLogicalId()
 	ResetPrimaryLocation()
 	ResetProject()
+	ResetRestrictedLocationsConfig()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -275,6 +282,16 @@ func (j *jsiiProxy_BiglakeIcebergCatalog) DefaultLocation() *string {
 	_jsii_.Get(
 		j,
 		"defaultLocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeIcebergCatalog) DefaultLocationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultLocationInput",
 		&returns,
 	)
 	return returns
@@ -480,6 +497,26 @@ func (j *jsiiProxy_BiglakeIcebergCatalog) Replicas() BiglakeIcebergCatalogReplic
 	return returns
 }
 
+func (j *jsiiProxy_BiglakeIcebergCatalog) RestrictedLocationsConfig() BiglakeIcebergCatalogRestrictedLocationsConfigOutputReference {
+	var returns BiglakeIcebergCatalogRestrictedLocationsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"restrictedLocationsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeIcebergCatalog) RestrictedLocationsConfigInput() *BiglakeIcebergCatalogRestrictedLocationsConfig {
+	var returns *BiglakeIcebergCatalogRestrictedLocationsConfig
+	_jsii_.Get(
+		j,
+		"restrictedLocationsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BiglakeIcebergCatalog) StorageRegions() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -551,7 +588,7 @@ func (j *jsiiProxy_BiglakeIcebergCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewBiglakeIcebergCatalog(scope constructs.Construct, id *string, config *BiglakeIcebergCatalogConfig) BiglakeIcebergCatalog {
 	_init_.Initialize()
 
@@ -569,7 +606,7 @@ func NewBiglakeIcebergCatalog(scope constructs.Construct, id *string, config *Bi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewBiglakeIcebergCatalog_Override(b BiglakeIcebergCatalog, scope constructs.Construct, id *string, config *BiglakeIcebergCatalogConfig) {
 	_init_.Initialize()
 
@@ -620,6 +657,17 @@ func (j *jsiiProxy_BiglakeIcebergCatalog)SetCredentialMode(val *string) {
 	_jsii_.Set(
 		j,
 		"credentialMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BiglakeIcebergCatalog)SetDefaultLocation(val *string) {
+	if err := j.validateSetDefaultLocationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"defaultLocation",
 		val,
 	)
 }
@@ -1078,6 +1126,17 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) OverrideLogicalId(newLogicalId *string
 	)
 }
 
+func (b *jsiiProxy_BiglakeIcebergCatalog) PutRestrictedLocationsConfig(value *BiglakeIcebergCatalogRestrictedLocationsConfig) {
+	if err := b.validatePutRestrictedLocationsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putRestrictedLocationsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BiglakeIcebergCatalog) PutTimeouts(value *BiglakeIcebergCatalogTimeouts) {
 	if err := b.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1093,6 +1152,14 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) ResetCredentialMode() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetCredentialMode",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BiglakeIcebergCatalog) ResetDefaultLocation() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDefaultLocation",
 		nil, // no parameters
 	)
 }
@@ -1133,6 +1200,14 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) ResetProject() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BiglakeIcebergCatalog) ResetRestrictedLocationsConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetRestrictedLocationsConfig",
 		nil, // no parameters
 	)
 }

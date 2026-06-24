@@ -101,6 +101,14 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetAdminCredentialSecretNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -166,6 +174,14 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDnsServersParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDomainParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -177,6 +193,22 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetInternalValueParameters(val *SqlDatabaseInstanceSettingsActiveDirectoryConfig) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetOrganizationalUnitParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

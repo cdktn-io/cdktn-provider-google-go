@@ -67,6 +67,10 @@ func (d *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) validateSetAdditionalOptionsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatastreamConnectionProfileMongodbProfileOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
 type IamWorkloadIdentityPoolManagedIdentity interface {
 	cdktn.TerraformResource
 	AttestationRules() IamWorkloadIdentityPoolManagedIdentityAttestationRulesList
@@ -554,7 +554,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolManagedIdentity) WorkloadIdentityPoolN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolManagedIdentityConfig) IamWorkloadIdentityPoolManagedIdentity {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewIamWorkloadIdentityPoolManagedIdentity_Override(i IamWorkloadIdentityPoolManagedIdentity, scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolManagedIdentityConfig) {
 	_init_.Initialize()
 

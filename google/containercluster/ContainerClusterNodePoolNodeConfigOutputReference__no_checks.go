@@ -127,6 +127,10 @@ func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) validatePu
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) validatePutTaintConfigParameters(value *ContainerClusterNodePoolNodeConfigTaintConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) validatePutWindowsNodeConfigParameters(value *ContainerClusterNodePoolNodeConfigWindowsNodeConfig) error {
 	return nil
 }

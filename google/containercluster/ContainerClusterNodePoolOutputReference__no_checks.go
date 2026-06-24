@@ -91,6 +91,10 @@ func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) validateSetComplexOb
 	return nil
 }
 
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) validateSetInitialNodeCountParameters(val *float64) error {
 	return nil
 }

@@ -51,6 +51,10 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetAdminCredentialSecretNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -59,11 +63,23 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReferen
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDnsServersParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDomainParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetInternalValueParameters(val *SqlDatabaseInstanceSettingsActiveDirectoryConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetOrganizationalUnitParameters(val *string) error {
 	return nil
 }
 

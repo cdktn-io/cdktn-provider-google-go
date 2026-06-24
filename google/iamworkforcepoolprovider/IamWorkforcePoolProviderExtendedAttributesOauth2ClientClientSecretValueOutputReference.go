@@ -35,6 +35,12 @@ type IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutp
 	PlainText() *string
 	SetPlainText(val *string)
 	PlainTextInput() *string
+	PlainTextWo() *string
+	SetPlainTextWo(val *string)
+	PlainTextWoInput() *string
+	PlainTextWoVersion() *string
+	SetPlainTextWoVersion(val *string)
+	PlainTextWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +74,9 @@ type IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutp
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetPlainText()
+	ResetPlainTextWo()
+	ResetPlainTextWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +157,46 @@ func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientS
 	_jsii_.Get(
 		j,
 		"plainTextInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) PlainTextWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"plainTextWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) PlainTextWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"plainTextWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) PlainTextWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"plainTextWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) PlainTextWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"plainTextWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -251,6 +300,28 @@ func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientS
 	_jsii_.Set(
 		j,
 		"plainText",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference)SetPlainTextWo(val *string) {
+	if err := j.validateSetPlainTextWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"plainTextWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference)SetPlainTextWoVersion(val *string) {
+	if err := j.validateSetPlainTextWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"plainTextWoVersion",
 		val,
 	)
 }
@@ -461,6 +532,30 @@ func (i *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientS
 	)
 
 	return returns
+}
+
+func (i *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) ResetPlainText() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetPlainText",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) ResetPlainTextWo() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetPlainTextWo",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) ResetPlainTextWoVersion() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetPlainTextWoVersion",
+		nil, // no parameters
+	)
 }
 
 func (i *jsiiProxy_IamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

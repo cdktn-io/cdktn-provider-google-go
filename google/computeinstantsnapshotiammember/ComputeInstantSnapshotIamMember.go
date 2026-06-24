@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member}.
 type ComputeInstantSnapshotIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ComputeInstantSnapshotIamMember) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member} Resource.
 func NewComputeInstantSnapshotIamMember(scope constructs.Construct, id *string, config *ComputeInstantSnapshotIamMemberConfig) ComputeInstantSnapshotIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewComputeInstantSnapshotIamMember(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member} Resource.
 func NewComputeInstantSnapshotIamMember_Override(c ComputeInstantSnapshotIamMember, scope constructs.Construct, id *string, config *ComputeInstantSnapshotIamMemberConfig) {
 	_init_.Initialize()
 

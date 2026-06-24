@@ -907,6 +907,14 @@ func (j *jsiiProxy_ContainerCluster) validateSetDatapathProviderParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_ContainerCluster) validateSetDataplaneOptimizationModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ContainerCluster) validateSetDefaultMaxPodsPerNodeParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -1179,6 +1187,26 @@ func (j *jsiiProxy_ContainerCluster) validateSetIdParameters(val *string) error 
 	return nil
 }
 
+func (j *jsiiProxy_ContainerCluster) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ContainerCluster) validateSetInitialNodeCountParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -1360,6 +1388,26 @@ func (j *jsiiProxy_ContainerCluster) validateSetRemoveDefaultNodePoolParameters(
 func (j *jsiiProxy_ContainerCluster) validateSetResourceLabelsParameters(val *map[string]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetSkipNodePoolRefreshParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

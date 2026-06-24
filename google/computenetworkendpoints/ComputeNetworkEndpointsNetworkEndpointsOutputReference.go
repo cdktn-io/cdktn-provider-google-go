@@ -74,6 +74,7 @@ type ComputeNetworkEndpointsNetworkEndpointsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetInstance()
+	ResetIpAddress()
 	ResetPort()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -526,6 +527,14 @@ func (c *jsiiProxy_ComputeNetworkEndpointsNetworkEndpointsOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetInstance",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkEndpointsNetworkEndpointsOutputReference) ResetIpAddress() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIpAddress",
 		nil, // no parameters
 	)
 }

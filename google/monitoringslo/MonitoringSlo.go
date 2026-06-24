@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/monitoring_slo google_monitoring_slo}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/monitoring_slo google_monitoring_slo}.
 type MonitoringSlo interface {
 	cdktn.TerraformResource
 	BasicSli() MonitoringSloBasicSliOutputReference
@@ -640,7 +640,7 @@ func (j *jsiiProxy_MonitoringSlo) WindowsBasedSliInput() *MonitoringSloWindowsBa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/monitoring_slo google_monitoring_slo} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/monitoring_slo google_monitoring_slo} Resource.
 func NewMonitoringSlo(scope constructs.Construct, id *string, config *MonitoringSloConfig) MonitoringSlo {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewMonitoringSlo(scope constructs.Construct, id *string, config *Monitoring
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.37.0/docs/resources/monitoring_slo google_monitoring_slo} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/monitoring_slo google_monitoring_slo} Resource.
 func NewMonitoringSlo_Override(m MonitoringSlo, scope constructs.Construct, id *string, config *MonitoringSloConfig) {
 	_init_.Initialize()
 
