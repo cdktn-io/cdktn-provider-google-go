@@ -13,7 +13,7 @@ type IamWorkforcePoolProviderExtraAttributesOauth2ClientQueryParameters struct {
 	// should be security enabled. See https://learn.microsoft.com/en-us/graph/search-query-parameter for more
 	// details.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/iam_workforce_pool_provider#filter IamWorkforcePoolProvider#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/iam_workforce_pool_provider#filter IamWorkforcePoolProvider#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
 }
 

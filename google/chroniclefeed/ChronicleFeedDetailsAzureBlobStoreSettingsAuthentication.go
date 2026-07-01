@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsAzureBlobStoreSettingsAuthentication struct {
 	// SAS Token.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#sas_token ChronicleFeed#sas_token}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#sas_token ChronicleFeed#sas_token}
 	SasToken *string `field:"optional" json:"sasToken" yaml:"sasToken"`
 	// Shared Key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#shared_key ChronicleFeed#shared_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#shared_key ChronicleFeed#shared_key}
 	SharedKey *string `field:"optional" json:"sharedKey" yaml:"sharedKey"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/scc_source google_scc_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/scc_source google_scc_source}.
 type SccSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SccSource) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/scc_source google_scc_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/scc_source google_scc_source} Resource.
 func NewSccSource(scope constructs.Construct, id *string, config *SccSourceConfig) SccSource {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSccSource(scope constructs.Construct, id *string, config *SccSourceConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/scc_source google_scc_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/scc_source google_scc_source} Resource.
 func NewSccSource_Override(s SccSource, scope constructs.Construct, id *string, config *SccSourceConfig) {
 	_init_.Initialize()
 

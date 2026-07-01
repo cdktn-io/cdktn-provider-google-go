@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/clouddeploy_custom_target_type_iam_member google_clouddeploy_custom_target_type_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/clouddeploy_custom_target_type_iam_member google_clouddeploy_custom_target_type_iam_member}.
 type ClouddeployCustomTargetTypeIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ClouddeployCustomTargetTypeIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/clouddeploy_custom_target_type_iam_member google_clouddeploy_custom_target_type_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/clouddeploy_custom_target_type_iam_member google_clouddeploy_custom_target_type_iam_member} Resource.
 func NewClouddeployCustomTargetTypeIamMember(scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeIamMemberConfig) ClouddeployCustomTargetTypeIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewClouddeployCustomTargetTypeIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/clouddeploy_custom_target_type_iam_member google_clouddeploy_custom_target_type_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/clouddeploy_custom_target_type_iam_member google_clouddeploy_custom_target_type_iam_member} Resource.
 func NewClouddeployCustomTargetTypeIamMember_Override(c ClouddeployCustomTargetTypeIamMember, scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeIamMemberConfig) {
 	_init_.Initialize()
 

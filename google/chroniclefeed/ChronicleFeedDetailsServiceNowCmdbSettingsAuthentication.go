@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsServiceNowCmdbSettingsAuthentication struct {
 	// Secret of the account identified by user_name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#secret ChronicleFeed#secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#secret ChronicleFeed#secret}
 	Secret *string `field:"optional" json:"secret" yaml:"secret"`
 	// Username of an identity used for authentication.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#user ChronicleFeed#user}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#user ChronicleFeed#user}
 	User *string `field:"optional" json:"user" yaml:"user"`
 }
 

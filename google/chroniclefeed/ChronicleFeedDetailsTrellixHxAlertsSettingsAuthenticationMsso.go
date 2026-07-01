@@ -9,7 +9,7 @@ type ChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMsso struct {
 	//
 	// This must be a valid URL with an http or https scheme. It has no default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#api_endpoint ChronicleFeed#api_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#api_endpoint ChronicleFeed#api_endpoint}
 	ApiEndpoint *string `field:"optional" json:"apiEndpoint" yaml:"apiEndpoint"`
 	// Password of the account identified by username.
 	//
@@ -19,7 +19,7 @@ type ChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMsso struct {
 	// they have provided a password that is internally consistent with MSSO
 	// authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#password ChronicleFeed#password}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#password ChronicleFeed#password}
 	Password *string `field:"optional" json:"password" yaml:"password"`
 	// Username for MSSO authentication.
 	//
@@ -29,7 +29,7 @@ type ChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMsso struct {
 	// they have provided a username that is internally consistent with MSSO
 	// authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#username ChronicleFeed#username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#username ChronicleFeed#username}
 	Username *string `field:"optional" json:"username" yaml:"username"`
 }
 

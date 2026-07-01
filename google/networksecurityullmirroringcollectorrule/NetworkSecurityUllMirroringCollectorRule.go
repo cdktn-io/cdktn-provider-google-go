@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}.
 type NetworkSecurityUllMirroringCollectorRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -573,7 +573,7 @@ func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRule) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
 func NewNetworkSecurityUllMirroringCollectorRule(scope constructs.Construct, id *string, config *NetworkSecurityUllMirroringCollectorRuleConfig) NetworkSecurityUllMirroringCollectorRule {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewNetworkSecurityUllMirroringCollectorRule(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
 func NewNetworkSecurityUllMirroringCollectorRule_Override(n NetworkSecurityUllMirroringCollectorRule, scope constructs.Construct, id *string, config *NetworkSecurityUllMirroringCollectorRuleConfig) {
 	_init_.Initialize()
 

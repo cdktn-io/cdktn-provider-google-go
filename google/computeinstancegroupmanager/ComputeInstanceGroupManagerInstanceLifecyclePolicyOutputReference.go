@@ -38,6 +38,9 @@ type ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference interface
 	Fqn() *string
 	InternalValue() *ComputeInstanceGroupManagerInstanceLifecyclePolicy
 	SetInternalValue(val *ComputeInstanceGroupManagerInstanceLifecyclePolicy)
+	OnFailedHealthCheck() *string
+	SetOnFailedHealthCheck(val *string)
+	OnFailedHealthCheckInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference interface
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDefaultActionOnFailure()
 	ResetForceUpdateOnRepair()
+	ResetOnFailedHealthCheck()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -177,6 +181,26 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputRefer
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference) OnFailedHealthCheck() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onFailedHealthCheck",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference) OnFailedHealthCheckInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onFailedHealthCheckInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -276,6 +300,17 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputRefer
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference)SetOnFailedHealthCheck(val *string) {
+	if err := j.validateSetOnFailedHealthCheckParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"onFailedHealthCheck",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (c *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputRefer
 	_jsii_.InvokeVoid(
 		c,
 		"resetForceUpdateOnRepair",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference) ResetOnFailedHealthCheck() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOnFailedHealthCheck",
 		nil, // no parameters
 	)
 }

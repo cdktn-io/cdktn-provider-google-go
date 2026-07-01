@@ -186,6 +186,14 @@ func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutput
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) validateSetForwardAttributesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) validateSetForwardHeadersParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/alloydb_user google_alloydb_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/alloydb_user google_alloydb_user}.
 type AlloydbUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_AlloydbUser) UserTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/alloydb_user google_alloydb_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/alloydb_user google_alloydb_user} Resource.
 func NewAlloydbUser(scope constructs.Construct, id *string, config *AlloydbUserConfig) AlloydbUser {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewAlloydbUser(scope constructs.Construct, id *string, config *AlloydbUserC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/alloydb_user google_alloydb_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/alloydb_user google_alloydb_user} Resource.
 func NewAlloydbUser_Override(a AlloydbUser, scope constructs.Construct, id *string, config *AlloydbUserConfig) {
 	_init_.Initialize()
 

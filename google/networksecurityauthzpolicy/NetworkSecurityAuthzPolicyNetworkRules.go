@@ -7,11 +7,11 @@ package networksecurityauthzpolicy
 type NetworkSecurityAuthzPolicyNetworkRules struct {
 	// from block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_authz_policy#from NetworkSecurityAuthzPolicy#from}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_authz_policy#from NetworkSecurityAuthzPolicy#from}
 	From *NetworkSecurityAuthzPolicyNetworkRulesFrom `field:"optional" json:"from" yaml:"from"`
 	// to block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_authz_policy#to NetworkSecurityAuthzPolicy#to}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_authz_policy#to NetworkSecurityAuthzPolicy#to}
 	To *NetworkSecurityAuthzPolicyNetworkRulesTo `field:"optional" json:"to" yaml:"to"`
 }
 

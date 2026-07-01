@@ -5,7 +5,7 @@ package networksecurityauthzpolicy
 
 
 type NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnis struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_authz_policy#exact NetworkSecurityAuthzPolicy#exact}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_authz_policy#exact NetworkSecurityAuthzPolicy#exact}.
 	Exact *string `field:"optional" json:"exact" yaml:"exact"`
 }
 

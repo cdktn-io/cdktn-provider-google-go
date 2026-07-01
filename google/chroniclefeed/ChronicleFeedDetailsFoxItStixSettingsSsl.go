@@ -16,10 +16,9 @@ type ChronicleFeedDetailsFoxItStixSettingsSsl struct {
 	// Proc-Type: 4,ENCRYPTED
 	// DEK-Info: DES-EDE3-CBC,F23074E02CF47304
 	//
-	//
 	// -----END RSA PRIVATE KEY-----
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#encoded_private_key ChronicleFeed#encoded_private_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#encoded_private_key ChronicleFeed#encoded_private_key}
 	EncodedPrivateKey *string `field:"optional" json:"encodedPrivateKey" yaml:"encodedPrivateKey"`
 	// The encoded SSL certificate.
 	//
@@ -32,7 +31,7 @@ type ChronicleFeedDetailsFoxItStixSettingsSsl struct {
 	//
 	// -----END CERTIFICATE-----
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#ssl_certificate ChronicleFeed#ssl_certificate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#ssl_certificate ChronicleFeed#ssl_certificate}
 	SslCertificate *string `field:"optional" json:"sslCertificate" yaml:"sslCertificate"`
 }
 

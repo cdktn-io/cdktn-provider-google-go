@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}.
 type DataLossPreventionInspectTemplate interface {
 	cdktn.TerraformResource
+	AllowLimitedAvailabilityInfoTypes() interface{}
+	SetAllowLimitedAvailabilityInfoTypes(val interface{})
+	AllowLimitedAvailabilityInfoTypesInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -129,6 +132,7 @@ type DataLossPreventionInspectTemplate interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutInspectConfig(value *DataLossPreventionInspectTemplateInspectConfig)
 	PutTimeouts(value *DataLossPreventionInspectTemplateTimeouts)
+	ResetAllowLimitedAvailabilityInfoTypes()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
@@ -164,6 +168,26 @@ type DataLossPreventionInspectTemplate interface {
 // The jsii proxy struct for DataLossPreventionInspectTemplate
 type jsiiProxy_DataLossPreventionInspectTemplate struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplate) AllowLimitedAvailabilityInfoTypes() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowLimitedAvailabilityInfoTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplate) AllowLimitedAvailabilityInfoTypesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowLimitedAvailabilityInfoTypesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataLossPreventionInspectTemplate) CdktfStack() cdktn.TerraformStack {
@@ -497,7 +521,7 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplate) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
 func NewDataLossPreventionInspectTemplate(scope constructs.Construct, id *string, config *DataLossPreventionInspectTemplateConfig) DataLossPreventionInspectTemplate {
 	_init_.Initialize()
 
@@ -515,7 +539,7 @@ func NewDataLossPreventionInspectTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
 func NewDataLossPreventionInspectTemplate_Override(d DataLossPreventionInspectTemplate, scope constructs.Construct, id *string, config *DataLossPreventionInspectTemplateConfig) {
 	_init_.Initialize()
 
@@ -523,6 +547,17 @@ func NewDataLossPreventionInspectTemplate_Override(d DataLossPreventionInspectTe
 		"@cdktn/provider-google.dataLossPreventionInspectTemplate.DataLossPreventionInspectTemplate",
 		[]interface{}{scope, id, config},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplate)SetAllowLimitedAvailabilityInfoTypes(val interface{}) {
+	if err := j.validateSetAllowLimitedAvailabilityInfoTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowLimitedAvailabilityInfoTypes",
+		val,
 	)
 }
 
@@ -1032,6 +1067,14 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplate) PutTimeouts(value *DataLos
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplate) ResetAllowLimitedAvailabilityInfoTypes() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAllowLimitedAvailabilityInfoTypes",
+		nil, // no parameters
 	)
 }
 

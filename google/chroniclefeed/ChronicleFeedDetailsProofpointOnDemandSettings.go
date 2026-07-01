@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsProofpointOnDemandSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsProofpointOnDemandSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 	// Cluster ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#cluster_id ChronicleFeed#cluster_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#cluster_id ChronicleFeed#cluster_id}
 	ClusterId *string `field:"optional" json:"clusterId" yaml:"clusterId"`
 }
 

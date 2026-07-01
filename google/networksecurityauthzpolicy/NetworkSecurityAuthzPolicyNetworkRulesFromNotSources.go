@@ -7,11 +7,11 @@ package networksecurityauthzpolicy
 type NetworkSecurityAuthzPolicyNetworkRulesFromNotSources struct {
 	// ip_blocks block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_authz_policy#ip_blocks NetworkSecurityAuthzPolicy#ip_blocks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_authz_policy#ip_blocks NetworkSecurityAuthzPolicy#ip_blocks}
 	IpBlocks interface{} `field:"optional" json:"ipBlocks" yaml:"ipBlocks"`
 	// principals block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_authz_policy#principals NetworkSecurityAuthzPolicy#principals}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_authz_policy#principals NetworkSecurityAuthzPolicy#principals}
 	Principals interface{} `field:"optional" json:"principals" yaml:"principals"`
 }
 

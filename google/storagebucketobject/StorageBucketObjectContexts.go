@@ -7,7 +7,7 @@ package storagebucketobject
 type StorageBucketObjectContexts struct {
 	// custom block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/storage_bucket_object#custom StorageBucketObject#custom}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_bucket_object#custom StorageBucketObject#custom}
 	Custom interface{} `field:"required" json:"custom" yaml:"custom"`
 }
 

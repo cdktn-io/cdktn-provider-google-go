@@ -34,6 +34,9 @@ type NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference int
 	FailOpen() interface{}
 	SetFailOpen(val interface{})
 	FailOpenInput() interface{}
+	ForwardAttributes() *[]*string
+	SetForwardAttributes(val *[]*string)
+	ForwardAttributesInput() *[]*string
 	ForwardHeaders() *[]*string
 	SetForwardHeaders(val *[]*string)
 	ForwardHeadersInput() *[]*string
@@ -96,6 +99,7 @@ type NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference int
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthority()
 	ResetFailOpen()
+	ResetForwardAttributes()
 	ResetForwardHeaders()
 	ResetMetadata()
 	ResetObservabilityMode()
@@ -182,6 +186,26 @@ func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutpu
 	_jsii_.Get(
 		j,
 		"failOpenInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) ForwardAttributes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) ForwardAttributesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributesInput",
 		&returns,
 	)
 	return returns
@@ -455,6 +479,17 @@ func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutpu
 	_jsii_.Set(
 		j,
 		"failOpen",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference)SetForwardAttributes(val *[]*string) {
+	if err := j.validateSetForwardAttributesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forwardAttributes",
 		val,
 	)
 }
@@ -778,6 +813,14 @@ func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutpu
 	_jsii_.InvokeVoid(
 		n,
 		"resetFailOpen",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) ResetForwardAttributes() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetForwardAttributes",
 		nil, // no parameters
 	)
 }

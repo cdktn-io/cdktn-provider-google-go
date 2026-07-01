@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/bigquery_routine_iam_policy google_bigquery_routine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/bigquery_routine_iam_policy google_bigquery_routine_iam_policy}.
 type BigqueryRoutineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_BigqueryRoutineIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Resource.
 func NewBigqueryRoutineIamPolicy(scope constructs.Construct, id *string, config *BigqueryRoutineIamPolicyConfig) BigqueryRoutineIamPolicy {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewBigqueryRoutineIamPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/bigquery_routine_iam_policy google_bigquery_routine_iam_policy} Resource.
 func NewBigqueryRoutineIamPolicy_Override(b BigqueryRoutineIamPolicy, scope constructs.Construct, id *string, config *BigqueryRoutineIamPolicyConfig) {
 	_init_.Initialize()
 

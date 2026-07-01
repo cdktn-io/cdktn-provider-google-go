@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apihub_plugin google_apihub_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apihub_plugin google_apihub_plugin}.
 type ApihubPlugin interface {
 	cdktn.TerraformResource
 	ActionsConfig() ApihubPluginActionsConfigList
@@ -659,7 +659,7 @@ func (j *jsiiProxy_ApihubPlugin) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apihub_plugin google_apihub_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apihub_plugin google_apihub_plugin} Resource.
 func NewApihubPlugin(scope constructs.Construct, id *string, config *ApihubPluginConfig) ApihubPlugin {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewApihubPlugin(scope constructs.Construct, id *string, config *ApihubPlugi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apihub_plugin google_apihub_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apihub_plugin google_apihub_plugin} Resource.
 func NewApihubPlugin_Override(a ApihubPlugin, scope constructs.Construct, id *string, config *ApihubPluginConfig) {
 	_init_.Initialize()
 

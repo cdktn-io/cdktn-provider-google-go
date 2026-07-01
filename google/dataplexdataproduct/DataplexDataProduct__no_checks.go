@@ -127,6 +127,10 @@ func (j *jsiiProxy_DataplexDataProduct) validateSetDisplayNameParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDataProduct) validateSetIconParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDataProduct) validateSetIdParameters(val *string) error {
 	return nil
 }

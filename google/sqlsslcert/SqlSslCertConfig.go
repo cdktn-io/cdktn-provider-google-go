@@ -26,11 +26,11 @@ type SqlSslCertConfig struct {
 	//
 	// Constrained to [a-zA-Z.-_ ]+. Changing this forces a new resource to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/sql_ssl_cert#common_name SqlSslCert#common_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_ssl_cert#common_name SqlSslCert#common_name}
 	CommonName *string `field:"required" json:"commonName" yaml:"commonName"`
 	// The name of the Cloud SQL instance. Changing this forces a new resource to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/sql_ssl_cert#instance SqlSslCert#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_ssl_cert#instance SqlSslCert#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -42,9 +42,9 @@ type SqlSslCertConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/sql_ssl_cert#deletion_policy SqlSslCert#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_ssl_cert#deletion_policy SqlSslCert#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/sql_ssl_cert#id SqlSslCert#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_ssl_cert#id SqlSslCert#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,11 +53,11 @@ type SqlSslCertConfig struct {
 	//
 	// If it is not provided, the provider project is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/sql_ssl_cert#project SqlSslCert#project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_ssl_cert#project SqlSslCert#project}
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/sql_ssl_cert#timeouts SqlSslCert#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_ssl_cert#timeouts SqlSslCert#timeouts}
 	Timeouts *SqlSslCertTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

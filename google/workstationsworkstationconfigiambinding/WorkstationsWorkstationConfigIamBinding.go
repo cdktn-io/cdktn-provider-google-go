@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation_config_iam_binding google_workstations_workstation_config_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation_config_iam_binding google_workstations_workstation_config_iam_binding}.
 type WorkstationsWorkstationConfigIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigIamBinding) WorkstationConfigIdI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation_config_iam_binding google_workstations_workstation_config_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation_config_iam_binding google_workstations_workstation_config_iam_binding} Resource.
 func NewWorkstationsWorkstationConfigIamBinding(scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigIamBindingConfig) WorkstationsWorkstationConfigIamBinding {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewWorkstationsWorkstationConfigIamBinding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation_config_iam_binding google_workstations_workstation_config_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation_config_iam_binding google_workstations_workstation_config_iam_binding} Resource.
 func NewWorkstationsWorkstationConfigIamBinding_Override(w WorkstationsWorkstationConfigIamBinding, scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigIamBindingConfig) {
 	_init_.Initialize()
 

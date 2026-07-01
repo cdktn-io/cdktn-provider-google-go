@@ -63,6 +63,10 @@ func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutput
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) validateSetForwardAttributesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) validateSetForwardHeadersParameters(val *[]*string) error {
 	return nil
 }

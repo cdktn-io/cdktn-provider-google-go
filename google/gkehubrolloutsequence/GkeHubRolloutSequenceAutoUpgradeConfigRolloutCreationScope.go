@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package gkehubrolloutsequence
+
+
+type GkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScope struct {
+	// The list of enabled upgrade types. Current valid values are 'CONTROL_PLANE_MINOR', 'CONTROL_PLANE_PATCH', 'NODE_MINOR', and 'NODE_PATCH'.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gke_hub_rollout_sequence#upgrade_types GkeHubRolloutSequence#upgrade_types}
+	UpgradeTypes *[]*string `field:"optional" json:"upgradeTypes" yaml:"upgradeTypes"`
+}
+

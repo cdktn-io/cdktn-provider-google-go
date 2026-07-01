@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_dns_threat_detector google_network_security_dns_threat_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_dns_threat_detector google_network_security_dns_threat_detector}.
 type NetworkSecurityDnsThreatDetector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_NetworkSecurityDnsThreatDetector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *string, config *NetworkSecurityDnsThreatDetectorConfig) NetworkSecurityDnsThreatDetector {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewNetworkSecurityDnsThreatDetector_Override(n NetworkSecurityDnsThreatDetector, scope constructs.Construct, id *string, config *NetworkSecurityDnsThreatDetectorConfig) {
 	_init_.Initialize()
 

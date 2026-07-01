@@ -26,23 +26,23 @@ type CesExampleConfig struct {
 	//
 	// It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#app CesExample#app}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#app CesExample#app}
 	App *string `field:"required" json:"app" yaml:"app"`
 	// Display name of the example.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#display_name CesExample#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#display_name CesExample#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The ID to use for the example, which will become the final component of the example's resource name.
 	//
 	// In Terraform, this field is required.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#example_id CesExample#example_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#example_id CesExample#example_id}
 	ExampleId *string `field:"required" json:"exampleId" yaml:"exampleId"`
 	// Resource ID segment making up resource 'name', defining what region the parent app is in.
 	//
 	// It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#location CesExample#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#location CesExample#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -54,11 +54,11 @@ type CesExampleConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#deletion_policy CesExample#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#deletion_policy CesExample#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Human-readable description of the example.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#description CesExample#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#description CesExample#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The agent that initially handles the conversation.
 	//
@@ -66,22 +66,22 @@ type CesExampleConfig struct {
 	// example represents a conversation that is handled by the root agent.
 	// Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#entry_agent CesExample#entry_agent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#entry_agent CesExample#entry_agent}
 	EntryAgent *string `field:"optional" json:"entryAgent" yaml:"entryAgent"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#id CesExample#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#id CesExample#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// messages block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#messages CesExample#messages}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#messages CesExample#messages}
 	Messages interface{} `field:"optional" json:"messages" yaml:"messages"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#project CesExample#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#project CesExample#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/ces_example#timeouts CesExample#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_example#timeouts CesExample#timeouts}
 	Timeouts *CesExampleTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

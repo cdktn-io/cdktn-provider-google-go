@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/monitoring_dashboard google_monitoring_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/monitoring_dashboard google_monitoring_dashboard}.
 type MonitoringDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_MonitoringDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
 func NewMonitoringDashboard(scope constructs.Construct, id *string, config *MonitoringDashboardConfig) MonitoringDashboard {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewMonitoringDashboard(scope constructs.Construct, id *string, config *Moni
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/monitoring_dashboard google_monitoring_dashboard} Resource.
 func NewMonitoringDashboard_Override(m MonitoringDashboard, scope constructs.Construct, id *string, config *MonitoringDashboardConfig) {
 	_init_.Initialize()
 

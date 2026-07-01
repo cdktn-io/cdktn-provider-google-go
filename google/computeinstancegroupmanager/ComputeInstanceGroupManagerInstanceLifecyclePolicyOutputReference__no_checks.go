@@ -71,6 +71,10 @@ func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference) validateSetOnFailedHealthCheckParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

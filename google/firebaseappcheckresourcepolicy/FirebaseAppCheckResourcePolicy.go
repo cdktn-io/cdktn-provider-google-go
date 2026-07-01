@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy}.
 type FirebaseAppCheckResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_FirebaseAppCheckResourcePolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
 func NewFirebaseAppCheckResourcePolicy(scope constructs.Construct, id *string, config *FirebaseAppCheckResourcePolicyConfig) FirebaseAppCheckResourcePolicy {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewFirebaseAppCheckResourcePolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firebase_app_check_resource_policy google_firebase_app_check_resource_policy} Resource.
 func NewFirebaseAppCheckResourcePolicy_Override(f FirebaseAppCheckResourcePolicy, scope constructs.Construct, id *string, config *FirebaseAppCheckResourcePolicyConfig) {
 	_init_.Initialize()
 

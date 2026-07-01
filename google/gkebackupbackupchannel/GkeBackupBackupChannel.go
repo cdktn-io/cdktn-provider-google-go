@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel}.
 type GkeBackupBackupChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GkeBackupBackupChannel) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
 func NewGkeBackupBackupChannel(scope constructs.Construct, id *string, config *GkeBackupBackupChannelConfig) GkeBackupBackupChannel {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGkeBackupBackupChannel(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gke_backup_backup_channel google_gke_backup_backup_channel} Resource.
 func NewGkeBackupBackupChannel_Override(g GkeBackupBackupChannel, scope constructs.Construct, id *string, config *GkeBackupBackupChannelConfig) {
 	_init_.Initialize()
 

@@ -5,11 +5,11 @@ package computepreviewfeature
 
 
 type ComputePreviewFeatureTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_preview_feature#create ComputePreviewFeature#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_preview_feature#create ComputePreviewFeature#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_preview_feature#delete ComputePreviewFeature#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_preview_feature#delete ComputePreviewFeature#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/compute_preview_feature#update ComputePreviewFeature#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_preview_feature#update ComputePreviewFeature#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

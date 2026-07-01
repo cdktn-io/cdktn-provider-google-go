@@ -11,7 +11,7 @@ type BackupDrBackupPlanDiskBackupPlanProperties struct {
 	// application-consistent backups. When set to false, the system will
 	// create crash-consistent backups.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/backup_dr_backup_plan#guest_flush BackupDrBackupPlan#guest_flush}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/backup_dr_backup_plan#guest_flush BackupDrBackupPlan#guest_flush}
 	GuestFlush interface{} `field:"required" json:"guestFlush" yaml:"guestFlush"`
 }
 

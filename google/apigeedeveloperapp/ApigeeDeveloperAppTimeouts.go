@@ -5,11 +5,11 @@ package apigeedeveloperapp
 
 
 type ApigeeDeveloperAppTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apigee_developer_app#create ApigeeDeveloperApp#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_developer_app#create ApigeeDeveloperApp#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apigee_developer_app#delete ApigeeDeveloperApp#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_developer_app#delete ApigeeDeveloperApp#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/apigee_developer_app#update ApigeeDeveloperApp#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_developer_app#update ApigeeDeveloperApp#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

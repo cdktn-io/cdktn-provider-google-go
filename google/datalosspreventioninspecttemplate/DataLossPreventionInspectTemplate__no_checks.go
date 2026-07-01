@@ -99,6 +99,10 @@ func validateDataLossPreventionInspectTemplate_IsTerraformResourceParameters(x i
 	return nil
 }
 
+func (j *jsiiProxy_DataLossPreventionInspectTemplate) validateSetAllowLimitedAvailabilityInfoTypesParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataLossPreventionInspectTemplate) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

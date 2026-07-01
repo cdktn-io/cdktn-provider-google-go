@@ -47,6 +47,10 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validateInterpol
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutAgentSandboxConfigParameters(value *ContainerClusterAddonsConfigAgentSandboxConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutCloudrunConfigParameters(value *ContainerClusterAddonsConfigCloudrunConfig) error {
 	return nil
 }

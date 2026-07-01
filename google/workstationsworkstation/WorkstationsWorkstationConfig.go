@@ -24,26 +24,26 @@ type WorkstationsWorkstationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The location where the workstation parent resources reside.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#location WorkstationsWorkstation#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#location WorkstationsWorkstation#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The ID of the parent workstation cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#workstation_cluster_id WorkstationsWorkstation#workstation_cluster_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#workstation_cluster_id WorkstationsWorkstation#workstation_cluster_id}
 	WorkstationClusterId *string `field:"required" json:"workstationClusterId" yaml:"workstationClusterId"`
 	// The ID of the parent workstation cluster config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#workstation_config_id WorkstationsWorkstation#workstation_config_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#workstation_config_id WorkstationsWorkstation#workstation_config_id}
 	WorkstationConfigId *string `field:"required" json:"workstationConfigId" yaml:"workstationConfigId"`
 	// ID to use for the workstation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#workstation_id WorkstationsWorkstation#workstation_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#workstation_id WorkstationsWorkstation#workstation_id}
 	WorkstationId *string `field:"required" json:"workstationId" yaml:"workstationId"`
 	// Client-specified annotations. This is distinct from labels.
 	//
 	// **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 	// Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#annotations WorkstationsWorkstation#annotations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#annotations WorkstationsWorkstation#annotations}
 	Annotations *map[string]*string `field:"optional" json:"annotations" yaml:"annotations"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -55,17 +55,17 @@ type WorkstationsWorkstationConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#deletion_policy WorkstationsWorkstation#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#deletion_policy WorkstationsWorkstation#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Human-readable name for this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#display_name WorkstationsWorkstation#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#display_name WorkstationsWorkstation#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// 'Client-specified environment variables passed to the workstation container's entrypoint.'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#env WorkstationsWorkstation#env}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#env WorkstationsWorkstation#env}
 	Env *map[string]*string `field:"optional" json:"env" yaml:"env"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#id WorkstationsWorkstation#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#id WorkstationsWorkstation#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,17 +75,17 @@ type WorkstationsWorkstationConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#labels WorkstationsWorkstation#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#labels WorkstationsWorkstation#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#project WorkstationsWorkstation#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#project WorkstationsWorkstation#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// Full resource name of the source workstation from which the workstation's persistent directories will be cloned from during creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#source_workstation WorkstationsWorkstation#source_workstation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#source_workstation WorkstationsWorkstation#source_workstation}
 	SourceWorkstation *string `field:"optional" json:"sourceWorkstation" yaml:"sourceWorkstation"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/workstations_workstation#timeouts WorkstationsWorkstation#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation#timeouts WorkstationsWorkstation#timeouts}
 	Timeouts *WorkstationsWorkstationTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

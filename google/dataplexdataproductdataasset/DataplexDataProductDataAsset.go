@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/dataplex_data_product_data_asset google_dataplex_data_product_data_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dataplex_data_product_data_asset google_dataplex_data_product_data_asset}.
 type DataplexDataProductDataAsset interface {
 	cdktn.TerraformResource
 	AccessGroupConfigs() DataplexDataProductDataAssetAccessGroupConfigsList
@@ -64,6 +64,7 @@ type DataplexDataProductDataAsset interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	Project() *string
@@ -413,6 +414,16 @@ func (j *jsiiProxy_DataplexDataProductDataAsset) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataplexDataProductDataAsset) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataplexDataProductDataAsset) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -564,7 +575,7 @@ func (j *jsiiProxy_DataplexDataProductDataAsset) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
 func NewDataplexDataProductDataAsset(scope constructs.Construct, id *string, config *DataplexDataProductDataAssetConfig) DataplexDataProductDataAsset {
 	_init_.Initialize()
 
@@ -582,7 +593,7 @@ func NewDataplexDataProductDataAsset(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
 func NewDataplexDataProductDataAsset_Override(d DataplexDataProductDataAsset, scope constructs.Construct, id *string, config *DataplexDataProductDataAssetConfig) {
 	_init_.Initialize()
 

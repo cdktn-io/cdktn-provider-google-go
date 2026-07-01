@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy}.
 type DataCatalogEntryGroupIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataCatalogEntryGroupIamPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy} Resource.
 func NewDataCatalogEntryGroupIamPolicy(scope constructs.Construct, id *string, config *DataCatalogEntryGroupIamPolicyConfig) DataCatalogEntryGroupIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataCatalogEntryGroupIamPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy} Resource.
 func NewDataCatalogEntryGroupIamPolicy_Override(d DataCatalogEntryGroupIamPolicy, scope constructs.Construct, id *string, config *DataCatalogEntryGroupIamPolicyConfig) {
 	_init_.Initialize()
 

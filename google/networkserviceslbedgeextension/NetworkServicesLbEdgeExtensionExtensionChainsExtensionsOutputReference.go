@@ -31,6 +31,9 @@ type NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference inte
 	FailOpen() interface{}
 	SetFailOpen(val interface{})
 	FailOpenInput() interface{}
+	ForwardAttributes() *[]*string
+	SetForwardAttributes(val *[]*string)
+	ForwardAttributesInput() *[]*string
 	ForwardHeaders() *[]*string
 	SetForwardHeaders(val *[]*string)
 	ForwardHeadersInput() *[]*string
@@ -80,6 +83,7 @@ type NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference inte
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFailOpen()
+	ResetForwardAttributes()
 	ResetForwardHeaders()
 	ResetSupportedEvents()
 	// Produce the Token's value at resolution time.
@@ -142,6 +146,26 @@ func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutput
 	_jsii_.Get(
 		j,
 		"failOpenInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) ForwardAttributes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) ForwardAttributesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributesInput",
 		&returns,
 	)
 	return returns
@@ -324,6 +348,17 @@ func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutput
 	_jsii_.Set(
 		j,
 		"failOpen",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference)SetForwardAttributes(val *[]*string) {
+	if err := j.validateSetForwardAttributesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forwardAttributes",
 		val,
 	)
 }
@@ -595,6 +630,14 @@ func (n *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutput
 	_jsii_.InvokeVoid(
 		n,
 		"resetFailOpen",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesLbEdgeExtensionExtensionChainsExtensionsOutputReference) ResetForwardAttributes() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetForwardAttributes",
 		nil, // no parameters
 	)
 }

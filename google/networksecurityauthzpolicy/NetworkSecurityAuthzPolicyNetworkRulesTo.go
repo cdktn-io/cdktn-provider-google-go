@@ -7,7 +7,7 @@ package networksecurityauthzpolicy
 type NetworkSecurityAuthzPolicyNetworkRulesTo struct {
 	// operations block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/network_security_authz_policy#operations NetworkSecurityAuthzPolicy#operations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_authz_policy#operations NetworkSecurityAuthzPolicy#operations}
 	Operations interface{} `field:"optional" json:"operations" yaml:"operations"`
 }
 

@@ -13,11 +13,11 @@ type ChronicleFeedDetailsTrellixHxHostsSettings struct {
 	// - or -
 	// https://htapdeviceproxy.md.mandiant.net/dphb/hx//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#endpoint ChronicleFeed#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#endpoint ChronicleFeed#endpoint}
 	Endpoint *string `field:"required" json:"endpoint" yaml:"endpoint"`
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.38.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsTrellixHxHostsSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 }
 
