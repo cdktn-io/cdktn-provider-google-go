@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_custom_list google_chronicle_custom_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_custom_list google_chronicle_custom_list}.
 type ChronicleCustomList interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_ChronicleCustomList) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
 func NewChronicleCustomList(scope constructs.Construct, id *string, config *ChronicleCustomListConfig) ChronicleCustomList {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewChronicleCustomList(scope constructs.Construct, id *string, config *Chro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
 func NewChronicleCustomList_Override(c ChronicleCustomList, scope constructs.Construct, id *string, config *ChronicleCustomListConfig) {
 	_init_.Initialize()
 

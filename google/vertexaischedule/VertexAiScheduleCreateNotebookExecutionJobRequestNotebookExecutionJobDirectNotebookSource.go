@@ -7,7 +7,7 @@ package vertexaischedule
 type VertexAiScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDirectNotebookSource struct {
 	// The base64-encoded contents of the input notebook file.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/vertex_ai_schedule#content VertexAiSchedule#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vertex_ai_schedule#content VertexAiSchedule#content}
 	Content *string `field:"optional" json:"content" yaml:"content"`
 }
 

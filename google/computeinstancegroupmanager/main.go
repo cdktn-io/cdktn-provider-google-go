@@ -251,6 +251,45 @@ func init() {
 		"@cdktn/provider-google.computeInstanceGroupManager.ComputeInstanceGroupManagerInstanceLifecyclePolicy",
 		reflect.TypeOf((*ComputeInstanceGroupManagerInstanceLifecyclePolicy)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.computeInstanceGroupManager.ComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepair",
+		reflect.TypeOf((*ComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepair)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.computeInstanceGroupManager.ComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference",
+		reflect.TypeOf((*ComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowChangingZone", GoGetter: "AllowChangingZone"},
+			_jsii_.MemberProperty{JsiiProperty: "allowChangingZoneInput", GoGetter: "AllowChangingZoneInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowChangingZone", GoMethod: "ResetAllowChangingZone"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google.computeInstanceGroupManager.ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference",
 		reflect.TypeOf((*ComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference)(nil)).Elem(),
@@ -278,9 +317,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "onFailedHealthCheck", GoGetter: "OnFailedHealthCheck"},
 			_jsii_.MemberProperty{JsiiProperty: "onFailedHealthCheckInput", GoGetter: "OnFailedHealthCheckInput"},
+			_jsii_.MemberProperty{JsiiProperty: "onRepair", GoGetter: "OnRepair"},
+			_jsii_.MemberProperty{JsiiProperty: "onRepairInput", GoGetter: "OnRepairInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putOnRepair", GoMethod: "PutOnRepair"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDefaultActionOnFailure", GoMethod: "ResetDefaultActionOnFailure"},
 			_jsii_.MemberMethod{JsiiMethod: "resetForceUpdateOnRepair", GoMethod: "ResetForceUpdateOnRepair"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOnFailedHealthCheck", GoMethod: "ResetOnFailedHealthCheck"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOnRepair", GoMethod: "ResetOnRepair"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},

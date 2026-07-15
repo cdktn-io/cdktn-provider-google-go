@@ -12,12 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version}.
 type AppEngineStandardAppVersion interface {
 	cdktn.TerraformResource
 	AppEngineApis() interface{}
 	SetAppEngineApis(val interface{})
 	AppEngineApisInput() interface{}
+	AppEngineBundledServices() *[]*string
+	SetAppEngineBundledServices(val *[]*string)
+	AppEngineBundledServicesInput() *[]*string
 	AutomaticScaling() AppEngineStandardAppVersionAutomaticScalingOutputReference
 	AutomaticScalingInput() *AppEngineStandardAppVersionAutomaticScaling
 	BasicScaling() AppEngineStandardAppVersionBasicScalingOutputReference
@@ -178,6 +181,7 @@ type AppEngineStandardAppVersion interface {
 	PutTimeouts(value *AppEngineStandardAppVersionTimeouts)
 	PutVpcAccessConnector(value *AppEngineStandardAppVersionVpcAccessConnector)
 	ResetAppEngineApis()
+	ResetAppEngineBundledServices()
 	ResetAutomaticScaling()
 	ResetBasicScaling()
 	ResetDeleteServiceOnDestroy()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_AppEngineStandardAppVersion) AppEngineApisInput() interface{}
 	_jsii_.Get(
 		j,
 		"appEngineApisInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineStandardAppVersion) AppEngineBundledServices() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"appEngineBundledServices",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineStandardAppVersion) AppEngineBundledServicesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"appEngineBundledServicesInput",
 		&returns,
 	)
 	return returns
@@ -878,7 +902,7 @@ func (j *jsiiProxy_AppEngineStandardAppVersion) VpcAccessConnectorInput() *AppEn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewAppEngineStandardAppVersion(scope constructs.Construct, id *string, config *AppEngineStandardAppVersionConfig) AppEngineStandardAppVersion {
 	_init_.Initialize()
 
@@ -896,7 +920,7 @@ func NewAppEngineStandardAppVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewAppEngineStandardAppVersion_Override(a AppEngineStandardAppVersion, scope constructs.Construct, id *string, config *AppEngineStandardAppVersionConfig) {
 	_init_.Initialize()
 
@@ -914,6 +938,17 @@ func (j *jsiiProxy_AppEngineStandardAppVersion)SetAppEngineApis(val interface{})
 	_jsii_.Set(
 		j,
 		"appEngineApis",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppEngineStandardAppVersion)SetAppEngineBundledServices(val *[]*string) {
+	if err := j.validateSetAppEngineBundledServicesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"appEngineBundledServices",
 		val,
 	)
 }
@@ -1596,6 +1631,14 @@ func (a *jsiiProxy_AppEngineStandardAppVersion) ResetAppEngineApis() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAppEngineApis",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppEngineStandardAppVersion) ResetAppEngineBundledServices() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAppEngineBundledServices",
 		nil, // no parameters
 	)
 }

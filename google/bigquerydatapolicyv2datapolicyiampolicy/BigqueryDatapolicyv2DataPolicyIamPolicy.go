@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy}.
 type BigqueryDatapolicyv2DataPolicyIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Resource.
 func NewBigqueryDatapolicyv2DataPolicyIamPolicy(scope constructs.Construct, id *string, config *BigqueryDatapolicyv2DataPolicyIamPolicyConfig) BigqueryDatapolicyv2DataPolicyIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewBigqueryDatapolicyv2DataPolicyIamPolicy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Resource.
 func NewBigqueryDatapolicyv2DataPolicyIamPolicy_Override(b BigqueryDatapolicyv2DataPolicyIamPolicy, scope constructs.Construct, id *string, config *BigqueryDatapolicyv2DataPolicyIamPolicyConfig) {
 	_init_.Initialize()
 

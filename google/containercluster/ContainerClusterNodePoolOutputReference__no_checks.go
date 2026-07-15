@@ -51,6 +51,10 @@ func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) validatePutAutoscali
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) validatePutMaintenancePolicyParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) validatePutManagementParameters(value *ContainerClusterNodePoolManagement) error {
 	return nil
 }

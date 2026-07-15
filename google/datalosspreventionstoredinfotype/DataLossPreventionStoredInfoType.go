@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}.
 type DataLossPreventionStoredInfoType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_DataLossPreventionStoredInfoType) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
 func NewDataLossPreventionStoredInfoType(scope constructs.Construct, id *string, config *DataLossPreventionStoredInfoTypeConfig) DataLossPreventionStoredInfoType {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewDataLossPreventionStoredInfoType(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
 func NewDataLossPreventionStoredInfoType_Override(d DataLossPreventionStoredInfoType, scope constructs.Construct, id *string, config *DataLossPreventionStoredInfoTypeConfig) {
 	_init_.Initialize()
 

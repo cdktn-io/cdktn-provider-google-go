@@ -7,15 +7,15 @@ package chroniclefeed
 type ChronicleFeedDetailsServiceNowCmdbSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsServiceNowCmdbSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 	// Feedname.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#feedname ChronicleFeed#feedname}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#feedname ChronicleFeed#feedname}
 	Feedname *string `field:"optional" json:"feedname" yaml:"feedname"`
 	// API Hostname.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
 	Hostname *string `field:"optional" json:"hostname" yaml:"hostname"`
 }
 

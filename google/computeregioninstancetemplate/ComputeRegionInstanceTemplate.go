@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_instance_template google_compute_region_instance_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_instance_template google_compute_region_instance_template}.
 type ComputeRegionInstanceTemplate interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() ComputeRegionInstanceTemplateAdvancedMachineFeaturesOutputReference
@@ -144,6 +144,8 @@ type ComputeRegionInstanceTemplate interface {
 	TerraformResourceType() *string
 	Timeouts() ComputeRegionInstanceTemplateTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WorkloadIdentityConfig() ComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference
+	WorkloadIdentityConfigInput() *ComputeRegionInstanceTemplateWorkloadIdentityConfig
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -198,6 +200,7 @@ type ComputeRegionInstanceTemplate interface {
 	PutServiceAccount(value *ComputeRegionInstanceTemplateServiceAccount)
 	PutShieldedInstanceConfig(value *ComputeRegionInstanceTemplateShieldedInstanceConfig)
 	PutTimeouts(value *ComputeRegionInstanceTemplateTimeouts)
+	PutWorkloadIdentityConfig(value *ComputeRegionInstanceTemplateWorkloadIdentityConfig)
 	ResetAdvancedMachineFeatures()
 	ResetCanIpForward()
 	ResetConfidentialInstanceConfig()
@@ -228,6 +231,7 @@ type ComputeRegionInstanceTemplate interface {
 	ResetShieldedInstanceConfig()
 	ResetTags()
 	ResetTimeouts()
+	ResetWorkloadIdentityConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1065,8 +1069,28 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplate) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionInstanceTemplate) WorkloadIdentityConfig() ComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference {
+	var returns ComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_instance_template google_compute_region_instance_template} Resource.
+func (j *jsiiProxy_ComputeRegionInstanceTemplate) WorkloadIdentityConfigInput() *ComputeRegionInstanceTemplateWorkloadIdentityConfig {
+	var returns *ComputeRegionInstanceTemplateWorkloadIdentityConfig
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_instance_template google_compute_region_instance_template} Resource.
 func NewComputeRegionInstanceTemplate(scope constructs.Construct, id *string, config *ComputeRegionInstanceTemplateConfig) ComputeRegionInstanceTemplate {
 	_init_.Initialize()
 
@@ -1084,7 +1108,7 @@ func NewComputeRegionInstanceTemplate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_instance_template google_compute_region_instance_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_instance_template google_compute_region_instance_template} Resource.
 func NewComputeRegionInstanceTemplate_Override(c ComputeRegionInstanceTemplate, scope constructs.Construct, id *string, config *ComputeRegionInstanceTemplateConfig) {
 	_init_.Initialize()
 
@@ -1835,6 +1859,17 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplate) PutTimeouts(value *ComputeRegi
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionInstanceTemplate) PutWorkloadIdentityConfig(value *ComputeRegionInstanceTemplateWorkloadIdentityConfig) {
+	if err := c.validatePutWorkloadIdentityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWorkloadIdentityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionInstanceTemplate) ResetAdvancedMachineFeatures() {
 	_jsii_.InvokeVoid(
 		c,
@@ -2055,6 +2090,14 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplate) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionInstanceTemplate) ResetWorkloadIdentityConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWorkloadIdentityConfig",
 		nil, // no parameters
 	)
 }

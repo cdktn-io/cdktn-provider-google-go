@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_client_tls_policy google_network_security_client_tls_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_security_client_tls_policy google_network_security_client_tls_policy}.
 type NetworkSecurityClientTlsPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_NetworkSecurityClientTlsPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_client_tls_policy google_network_security_client_tls_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_security_client_tls_policy google_network_security_client_tls_policy} Resource.
 func NewNetworkSecurityClientTlsPolicy(scope constructs.Construct, id *string, config *NetworkSecurityClientTlsPolicyConfig) NetworkSecurityClientTlsPolicy {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewNetworkSecurityClientTlsPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_client_tls_policy google_network_security_client_tls_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_security_client_tls_policy google_network_security_client_tls_policy} Resource.
 func NewNetworkSecurityClientTlsPolicy_Override(n NetworkSecurityClientTlsPolicy, scope constructs.Construct, id *string, config *NetworkSecurityClientTlsPolicyConfig) {
 	_init_.Initialize()
 

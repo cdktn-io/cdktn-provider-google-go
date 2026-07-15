@@ -119,6 +119,10 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateSetDisplayNameP
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateSetExadataInfrastructureParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateSetExascaleDbStorageVaultIdParameters(val *string) error {
 	return nil
 }

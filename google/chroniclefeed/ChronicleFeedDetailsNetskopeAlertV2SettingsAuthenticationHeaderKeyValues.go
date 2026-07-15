@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsNetskopeAlertV2SettingsAuthenticationHeaderKeyValues struct {
 	// Key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#key ChronicleFeed#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#key ChronicleFeed#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#value ChronicleFeed#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#value ChronicleFeed#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

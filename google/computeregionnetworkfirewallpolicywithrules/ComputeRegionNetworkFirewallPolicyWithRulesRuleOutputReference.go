@@ -58,11 +58,17 @@ type ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference interface {
 	SecurityProfileGroup() *string
 	SetSecurityProfileGroup(val *string)
 	SecurityProfileGroupInput() *string
+	TargetForwardingRules() *[]*string
+	SetTargetForwardingRules(val *[]*string)
+	TargetForwardingRulesInput() *[]*string
 	TargetSecureTag() ComputeRegionNetworkFirewallPolicyWithRulesRuleTargetSecureTagList
 	TargetSecureTagInput() interface{}
 	TargetServiceAccounts() *[]*string
 	SetTargetServiceAccounts(val *[]*string)
 	TargetServiceAccountsInput() *[]*string
+	TargetType() *string
+	SetTargetType(val *string)
+	TargetTypeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -106,8 +112,10 @@ type ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference interface {
 	ResetEnableLogging()
 	ResetRuleName()
 	ResetSecurityProfileGroup()
+	ResetTargetForwardingRules()
 	ResetTargetSecureTag()
 	ResetTargetServiceAccounts()
+	ResetTargetType()
 	ResetTlsInspect()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -354,6 +362,26 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) TargetForwardingRules() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"targetForwardingRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) TargetForwardingRulesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"targetForwardingRulesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) TargetSecureTag() ComputeRegionNetworkFirewallPolicyWithRulesRuleTargetSecureTagList {
 	var returns ComputeRegionNetworkFirewallPolicyWithRulesRuleTargetSecureTagList
 	_jsii_.Get(
@@ -389,6 +417,26 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	_jsii_.Get(
 		j,
 		"targetServiceAccountsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) TargetType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) TargetTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetTypeInput",
 		&returns,
 	)
 	return returns
@@ -583,6 +631,17 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	)
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference)SetTargetForwardingRules(val *[]*string) {
+	if err := j.validateSetTargetForwardingRulesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetForwardingRules",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference)SetTargetServiceAccounts(val *[]*string) {
 	if err := j.validateSetTargetServiceAccountsParameters(val); err != nil {
 		panic(err)
@@ -590,6 +649,17 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	_jsii_.Set(
 		j,
 		"targetServiceAccounts",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference)SetTargetType(val *string) {
+	if err := j.validateSetTargetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetType",
 		val,
 	)
 }
@@ -883,6 +953,14 @@ func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) ResetTargetForwardingRules() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTargetForwardingRules",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) ResetTargetSecureTag() {
 	_jsii_.InvokeVoid(
 		c,
@@ -895,6 +973,14 @@ func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	_jsii_.InvokeVoid(
 		c,
 		"resetTargetServiceAccounts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) ResetTargetType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTargetType",
 		nil, // no parameters
 	)
 }

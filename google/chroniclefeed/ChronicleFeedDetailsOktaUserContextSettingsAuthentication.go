@@ -7,7 +7,7 @@ package chroniclefeed
 type ChronicleFeedDetailsOktaUserContextSettingsAuthentication struct {
 	// header_key_values block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_feed#header_key_values ChronicleFeed#header_key_values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#header_key_values ChronicleFeed#header_key_values}
 	HeaderKeyValues interface{} `field:"optional" json:"headerKeyValues" yaml:"headerKeyValues"`
 }
 

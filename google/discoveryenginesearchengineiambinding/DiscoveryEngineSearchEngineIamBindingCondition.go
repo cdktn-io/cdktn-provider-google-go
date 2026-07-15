@@ -5,11 +5,11 @@ package discoveryenginesearchengineiambinding
 
 
 type DiscoveryEngineSearchEngineIamBindingCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/discovery_engine_search_engine_iam_binding#expression DiscoveryEngineSearchEngineIamBinding#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/discovery_engine_search_engine_iam_binding#expression DiscoveryEngineSearchEngineIamBinding#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/discovery_engine_search_engine_iam_binding#title DiscoveryEngineSearchEngineIamBinding#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/discovery_engine_search_engine_iam_binding#title DiscoveryEngineSearchEngineIamBinding#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/discovery_engine_search_engine_iam_binding#description DiscoveryEngineSearchEngineIamBinding#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/discovery_engine_search_engine_iam_binding#description DiscoveryEngineSearchEngineIamBinding#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

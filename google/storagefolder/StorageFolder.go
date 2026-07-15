@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_folder google_storage_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_folder google_storage_folder}.
 type StorageFolder interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_StorageFolder) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_folder google_storage_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_folder google_storage_folder} Resource.
 func NewStorageFolder(scope constructs.Construct, id *string, config *StorageFolderConfig) StorageFolder {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewStorageFolder(scope constructs.Construct, id *string, config *StorageFol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_folder google_storage_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_folder google_storage_folder} Resource.
 func NewStorageFolder_Override(s StorageFolder, scope constructs.Construct, id *string, config *StorageFolderConfig) {
 	_init_.Initialize()
 

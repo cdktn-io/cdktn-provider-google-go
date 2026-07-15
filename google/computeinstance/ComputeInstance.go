@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_instance google_compute_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_instance google_compute_instance}.
 type ComputeInstance interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() ComputeInstanceAdvancedMachineFeaturesOutputReference
@@ -158,6 +158,8 @@ type ComputeInstance interface {
 	TerraformResourceType() *string
 	Timeouts() ComputeInstanceTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WorkloadIdentityConfig() ComputeInstanceWorkloadIdentityConfigOutputReference
+	WorkloadIdentityConfigInput() *ComputeInstanceWorkloadIdentityConfig
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
@@ -219,6 +221,7 @@ type ComputeInstance interface {
 	PutServiceAccount(value *ComputeInstanceServiceAccount)
 	PutShieldedInstanceConfig(value *ComputeInstanceShieldedInstanceConfig)
 	PutTimeouts(value *ComputeInstanceTimeouts)
+	PutWorkloadIdentityConfig(value *ComputeInstanceWorkloadIdentityConfig)
 	ResetAdvancedMachineFeatures()
 	ResetAllowStoppingForUpdate()
 	ResetAttachedDisk()
@@ -252,6 +255,7 @@ type ComputeInstance interface {
 	ResetShieldedInstanceConfig()
 	ResetTags()
 	ResetTimeouts()
+	ResetWorkloadIdentityConfig()
 	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -1220,6 +1224,26 @@ func (j *jsiiProxy_ComputeInstance) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInstance) WorkloadIdentityConfig() ComputeInstanceWorkloadIdentityConfigOutputReference {
+	var returns ComputeInstanceWorkloadIdentityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstance) WorkloadIdentityConfigInput() *ComputeInstanceWorkloadIdentityConfig {
+	var returns *ComputeInstanceWorkloadIdentityConfig
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeInstance) Zone() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1241,7 +1265,7 @@ func (j *jsiiProxy_ComputeInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_instance google_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_instance google_compute_instance} Resource.
 func NewComputeInstance(scope constructs.Construct, id *string, config *ComputeInstanceConfig) ComputeInstance {
 	_init_.Initialize()
 
@@ -1259,7 +1283,7 @@ func NewComputeInstance(scope constructs.Construct, id *string, config *ComputeI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_instance google_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_instance google_compute_instance} Resource.
 func NewComputeInstance_Override(c ComputeInstance, scope constructs.Construct, id *string, config *ComputeInstanceConfig) {
 	_init_.Initialize()
 
@@ -2076,6 +2100,17 @@ func (c *jsiiProxy_ComputeInstance) PutTimeouts(value *ComputeInstanceTimeouts) 
 	)
 }
 
+func (c *jsiiProxy_ComputeInstance) PutWorkloadIdentityConfig(value *ComputeInstanceWorkloadIdentityConfig) {
+	if err := c.validatePutWorkloadIdentityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWorkloadIdentityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeInstance) ResetAdvancedMachineFeatures() {
 	_jsii_.InvokeVoid(
 		c,
@@ -2320,6 +2355,14 @@ func (c *jsiiProxy_ComputeInstance) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstance) ResetWorkloadIdentityConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWorkloadIdentityConfig",
 		nil, // no parameters
 	)
 }

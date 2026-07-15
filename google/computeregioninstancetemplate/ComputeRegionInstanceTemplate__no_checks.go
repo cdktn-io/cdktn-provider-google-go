@@ -119,6 +119,10 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplate) validatePutTimeoutsParameters(
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionInstanceTemplate) validatePutWorkloadIdentityConfigParameters(value *ComputeRegionInstanceTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
 func validateComputeRegionInstanceTemplate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

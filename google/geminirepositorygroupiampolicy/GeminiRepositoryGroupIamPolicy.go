@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gemini_repository_group_iam_policy google_gemini_repository_group_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gemini_repository_group_iam_policy google_gemini_repository_group_iam_policy}.
 type GeminiRepositoryGroupIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GeminiRepositoryGroupIamPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gemini_repository_group_iam_policy google_gemini_repository_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gemini_repository_group_iam_policy google_gemini_repository_group_iam_policy} Resource.
 func NewGeminiRepositoryGroupIamPolicy(scope constructs.Construct, id *string, config *GeminiRepositoryGroupIamPolicyConfig) GeminiRepositoryGroupIamPolicy {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGeminiRepositoryGroupIamPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gemini_repository_group_iam_policy google_gemini_repository_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gemini_repository_group_iam_policy google_gemini_repository_group_iam_policy} Resource.
 func NewGeminiRepositoryGroupIamPolicy_Override(g GeminiRepositoryGroupIamPolicy, scope constructs.Construct, id *string, config *GeminiRepositoryGroupIamPolicyConfig) {
 	_init_.Initialize()
 

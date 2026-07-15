@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/project_iam_audit_config google_project_iam_audit_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/project_iam_audit_config google_project_iam_audit_config}.
 type ProjectIamAuditConfig interface {
 	cdktn.TerraformResource
 	AuditLogConfig() ProjectIamAuditConfigAuditLogConfigList
@@ -399,7 +399,7 @@ func (j *jsiiProxy_ProjectIamAuditConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
 func NewProjectIamAuditConfig(scope constructs.Construct, id *string, config *ProjectIamAuditConfigConfig) ProjectIamAuditConfig {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewProjectIamAuditConfig(scope constructs.Construct, id *string, config *Pr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/project_iam_audit_config google_project_iam_audit_config} Resource.
 func NewProjectIamAuditConfig_Override(p ProjectIamAuditConfig, scope constructs.Construct, id *string, config *ProjectIamAuditConfigConfig) {
 	_init_.Initialize()
 

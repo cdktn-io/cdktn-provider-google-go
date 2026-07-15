@@ -51,6 +51,10 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) va
 	return nil
 }
 
+func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) validatePutCustomNodeInitParameters(value *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) validatePutHugepagesConfigParameters(value *ContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig) error {
 	return nil
 }

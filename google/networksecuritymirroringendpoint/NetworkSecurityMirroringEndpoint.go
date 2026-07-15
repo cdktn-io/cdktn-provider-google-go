@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
 type NetworkSecurityMirroringEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -585,7 +585,7 @@ func (j *jsiiProxy_NetworkSecurityMirroringEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
 func NewNetworkSecurityMirroringEndpoint(scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointConfig) NetworkSecurityMirroringEndpoint {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewNetworkSecurityMirroringEndpoint(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
 func NewNetworkSecurityMirroringEndpoint_Override(n NetworkSecurityMirroringEndpoint, scope constructs.Construct, id *string, config *NetworkSecurityMirroringEndpointConfig) {
 	_init_.Initialize()
 

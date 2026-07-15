@@ -22,11 +22,11 @@ type DialogflowEnvironmentConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#environmentid DialogflowEnvironment#environmentid}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#environmentid DialogflowEnvironment#environmentid}.
 	Environmentid *string `field:"required" json:"environmentid" yaml:"environmentid"`
 	// The agent version loaded into this environment. Supported formats: - projects/<Project ID>/agent/versions/<Version ID> - projects/<Project ID>/locations/<Location ID>/agent/versions/<Version ID>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#agent_version DialogflowEnvironment#agent_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#agent_version DialogflowEnvironment#agent_version}
 	AgentVersion *string `field:"optional" json:"agentVersion" yaml:"agentVersion"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -38,32 +38,32 @@ type DialogflowEnvironmentConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#deletion_policy DialogflowEnvironment#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#deletion_policy DialogflowEnvironment#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// The developer-provided description for this environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#description DialogflowEnvironment#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#description DialogflowEnvironment#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// fulfillment block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#fulfillment DialogflowEnvironment#fulfillment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#fulfillment DialogflowEnvironment#fulfillment}
 	Fulfillment *DialogflowEnvironmentFulfillment `field:"optional" json:"fulfillment" yaml:"fulfillment"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#id DialogflowEnvironment#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#id DialogflowEnvironment#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#location DialogflowEnvironment#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#location DialogflowEnvironment#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#project DialogflowEnvironment#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#project DialogflowEnvironment#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// text_to_speech_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#text_to_speech_settings DialogflowEnvironment#text_to_speech_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#text_to_speech_settings DialogflowEnvironment#text_to_speech_settings}
 	TextToSpeechSettings *DialogflowEnvironmentTextToSpeechSettings `field:"optional" json:"textToSpeechSettings" yaml:"textToSpeechSettings"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dialogflow_environment#timeouts DialogflowEnvironment#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dialogflow_environment#timeouts DialogflowEnvironment#timeouts}
 	Timeouts *DialogflowEnvironmentTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

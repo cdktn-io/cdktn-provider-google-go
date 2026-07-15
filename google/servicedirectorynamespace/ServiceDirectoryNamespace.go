@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/service_directory_namespace google_service_directory_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/service_directory_namespace google_service_directory_namespace}.
 type ServiceDirectoryNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_ServiceDirectoryNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/service_directory_namespace google_service_directory_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/service_directory_namespace google_service_directory_namespace} Resource.
 func NewServiceDirectoryNamespace(scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceConfig) ServiceDirectoryNamespace {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewServiceDirectoryNamespace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/service_directory_namespace google_service_directory_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/service_directory_namespace google_service_directory_namespace} Resource.
 func NewServiceDirectoryNamespace_Override(s ServiceDirectoryNamespace, scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceConfig) {
 	_init_.Initialize()
 

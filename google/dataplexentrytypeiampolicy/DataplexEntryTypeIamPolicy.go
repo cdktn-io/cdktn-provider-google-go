@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dataplex_entry_type_iam_policy google_dataplex_entry_type_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dataplex_entry_type_iam_policy google_dataplex_entry_type_iam_policy}.
 type DataplexEntryTypeIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataplexEntryTypeIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dataplex_entry_type_iam_policy google_dataplex_entry_type_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dataplex_entry_type_iam_policy google_dataplex_entry_type_iam_policy} Resource.
 func NewDataplexEntryTypeIamPolicy(scope constructs.Construct, id *string, config *DataplexEntryTypeIamPolicyConfig) DataplexEntryTypeIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataplexEntryTypeIamPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/dataplex_entry_type_iam_policy google_dataplex_entry_type_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/dataplex_entry_type_iam_policy google_dataplex_entry_type_iam_policy} Resource.
 func NewDataplexEntryTypeIamPolicy_Override(d DataplexEntryTypeIamPolicy, scope constructs.Construct, id *string, config *DataplexEntryTypeIamPolicyConfig) {
 	_init_.Initialize()
 

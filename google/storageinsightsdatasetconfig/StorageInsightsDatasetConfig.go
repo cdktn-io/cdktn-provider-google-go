@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config}.
 type StorageInsightsDatasetConfig interface {
 	cdktn.TerraformResource
 	ActivityDataRetentionPeriodDays() *float64
@@ -837,7 +837,7 @@ func (j *jsiiProxy_StorageInsightsDatasetConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
 func NewStorageInsightsDatasetConfig(scope constructs.Construct, id *string, config *StorageInsightsDatasetConfigConfig) StorageInsightsDatasetConfig {
 	_init_.Initialize()
 
@@ -855,7 +855,7 @@ func NewStorageInsightsDatasetConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
 func NewStorageInsightsDatasetConfig_Override(s StorageInsightsDatasetConfig, scope constructs.Construct, id *string, config *StorageInsightsDatasetConfigConfig) {
 	_init_.Initialize()
 

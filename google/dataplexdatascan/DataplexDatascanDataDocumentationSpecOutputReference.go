@@ -13,6 +13,9 @@ import (
 
 type DataplexDatascanDataDocumentationSpecOutputReference interface {
 	cdktn.ComplexObject
+	CatalogPublishingEnabled() interface{}
+	SetCatalogPublishingEnabled(val interface{})
+	CatalogPublishingEnabledInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -64,6 +67,7 @@ type DataplexDatascanDataDocumentationSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetCatalogPublishingEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -77,6 +81,26 @@ type DataplexDatascanDataDocumentationSpecOutputReference interface {
 // The jsii proxy struct for DataplexDatascanDataDocumentationSpecOutputReference
 type jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) CatalogPublishingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"catalogPublishingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) CatalogPublishingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"catalogPublishingEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -174,6 +198,17 @@ func NewDataplexDatascanDataDocumentationSpecOutputReference_Override(d Dataplex
 		"@cdktn/provider-google.dataplexDatascan.DataplexDatascanDataDocumentationSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference)SetCatalogPublishingEnabled(val interface{}) {
+	if err := j.validateSetCatalogPublishingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"catalogPublishingEnabled",
+		val,
 	)
 }
 
@@ -416,6 +451,14 @@ func (d *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) Interpo
 	)
 
 	return returns
+}
+
+func (d *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) ResetCatalogPublishingEnabled() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCatalogPublishingEnabled",
+		nil, // no parameters
+	)
 }
 
 func (d *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

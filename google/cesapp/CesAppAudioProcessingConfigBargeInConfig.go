@@ -10,7 +10,7 @@ type CesAppAudioProcessingConfigBargeInConfig struct {
 	// This should not be used in scenarios where agent responses are displayed
 	// visually.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/ces_app#barge_in_awareness CesApp#barge_in_awareness}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/ces_app#barge_in_awareness CesApp#barge_in_awareness}
 	BargeInAwareness interface{} `field:"optional" json:"bargeInAwareness" yaml:"bargeInAwareness"`
 }
 

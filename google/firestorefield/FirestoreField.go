@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firestore_field google_firestore_field}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firestore_field google_firestore_field}.
 type FirestoreField interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -76,6 +76,9 @@ type FirestoreField interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SkipWait() interface{}
+	SetSkipWait(val interface{})
+	SkipWaitInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -140,6 +143,7 @@ type FirestoreField interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSkipWait()
 	ResetTimeouts()
 	ResetTtlConfig()
 	SynthesizeAttributes() *map[string]interface{}
@@ -449,6 +453,26 @@ func (j *jsiiProxy_FirestoreField) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_FirestoreField) SkipWait() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipWait",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreField) SkipWaitInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipWaitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FirestoreField) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -520,7 +544,7 @@ func (j *jsiiProxy_FirestoreField) TtlConfigInput() *FirestoreFieldTtlConfig {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firestore_field google_firestore_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firestore_field google_firestore_field} Resource.
 func NewFirestoreField(scope constructs.Construct, id *string, config *FirestoreFieldConfig) FirestoreField {
 	_init_.Initialize()
 
@@ -538,7 +562,7 @@ func NewFirestoreField(scope constructs.Construct, id *string, config *Firestore
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firestore_field google_firestore_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firestore_field google_firestore_field} Resource.
 func NewFirestoreField_Override(f FirestoreField, scope constructs.Construct, id *string, config *FirestoreFieldConfig) {
 	_init_.Initialize()
 
@@ -679,6 +703,17 @@ func (j *jsiiProxy_FirestoreField)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FirestoreField)SetSkipWait(val interface{}) {
+	if err := j.validateSetSkipWaitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipWait",
 		val,
 	)
 }
@@ -1113,6 +1148,14 @@ func (f *jsiiProxy_FirestoreField) ResetProject() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FirestoreField) ResetSkipWait() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetSkipWait",
 		nil, // no parameters
 	)
 }

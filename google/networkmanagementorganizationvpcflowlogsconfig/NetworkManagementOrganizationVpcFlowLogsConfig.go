@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
 type NetworkManagementOrganizationVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -707,7 +707,7 @@ func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) VpcFlowLogsCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construct, id *string, config *NetworkManagementOrganizationVpcFlowLogsConfigConfig) NetworkManagementOrganizationVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -725,7 +725,7 @@ func NewNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewNetworkManagementOrganizationVpcFlowLogsConfig_Override(n NetworkManagementOrganizationVpcFlowLogsConfig, scope constructs.Construct, id *string, config *NetworkManagementOrganizationVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 

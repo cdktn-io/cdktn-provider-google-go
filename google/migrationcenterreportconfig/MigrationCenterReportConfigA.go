@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/migration_center_report_config google_migration_center_report_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/migration_center_report_config google_migration_center_report_config}.
 type MigrationCenterReportConfigA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_MigrationCenterReportConfigA) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/migration_center_report_config google_migration_center_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/migration_center_report_config google_migration_center_report_config} Resource.
 func NewMigrationCenterReportConfigA(scope constructs.Construct, id *string, config *MigrationCenterReportConfigAConfig) MigrationCenterReportConfigA {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewMigrationCenterReportConfigA(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/migration_center_report_config google_migration_center_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/migration_center_report_config google_migration_center_report_config} Resource.
 func NewMigrationCenterReportConfigA_Override(m MigrationCenterReportConfigA, scope constructs.Construct, id *string, config *MigrationCenterReportConfigAConfig) {
 	_init_.Initialize()
 

@@ -207,6 +207,17 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (b *jsiiProxy_BiglakeIcebergCatalog) validatePutFederatedCatalogOptionsParameters(value *BiglakeIcebergCatalogFederatedCatalogOptions) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BiglakeIcebergCatalog) validatePutRestrictedLocationsConfigParameters(value *BiglakeIcebergCatalogRestrictedLocationsConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -384,6 +395,14 @@ func (j *jsiiProxy_BiglakeIcebergCatalog) validateSetDefaultLocationParameters(v
 }
 
 func (j *jsiiProxy_BiglakeIcebergCatalog) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_BiglakeIcebergCatalog) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -32,11 +32,11 @@ type ComputeRegionHealthSourceConfig struct {
 	// be a dash, lowercase letter, or digit, except the last character, which
 	// cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#name ComputeRegionHealthSource#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#name ComputeRegionHealthSource#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// URL of the region where the health source resides.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#region ComputeRegionHealthSource#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#region ComputeRegionHealthSource#region}
 	Region *string `field:"required" json:"region" yaml:"region"`
 	// Specifies the type of the 'HealthSource'.
 	//
@@ -44,7 +44,7 @@ type ComputeRegionHealthSourceConfig struct {
 	// is 'BACKEND_SERVICE'. Must be specified when the
 	// 'HealthSource' is created, and cannot be mutated. Possible values: ["BACKEND_SERVICE"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#source_type ComputeRegionHealthSource#source_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#source_type ComputeRegionHealthSource#source_type}
 	SourceType *string `field:"required" json:"sourceType" yaml:"sourceType"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -56,11 +56,11 @@ type ComputeRegionHealthSourceConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#deletion_policy ComputeRegionHealthSource#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#deletion_policy ComputeRegionHealthSource#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource. Provide this property when you create the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#description ComputeRegionHealthSource#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#description ComputeRegionHealthSource#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// URL to the 'HealthAggregationPolicy' resource.
 	//
@@ -68,9 +68,9 @@ type ComputeRegionHealthSourceConfig struct {
 	// be regional and in the same region as the 'HealthSource'. Can be
 	// mutated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#health_aggregation_policy ComputeRegionHealthSource#health_aggregation_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#health_aggregation_policy ComputeRegionHealthSource#health_aggregation_policy}
 	HealthAggregationPolicy *string `field:"optional" json:"healthAggregationPolicy" yaml:"healthAggregationPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#project ComputeRegionHealthSource#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#project ComputeRegionHealthSource#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// URLs to the source resources.
 	//
@@ -85,11 +85,11 @@ type ComputeRegionHealthSourceConfig struct {
 	// 'BackendService' may not use 'haPolicy'. Can be
 	// mutated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#sources ComputeRegionHealthSource#sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#sources ComputeRegionHealthSource#sources}
 	Sources *[]*string `field:"optional" json:"sources" yaml:"sources"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_health_source#timeouts ComputeRegionHealthSource#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_health_source#timeouts ComputeRegionHealthSource#timeouts}
 	Timeouts *ComputeRegionHealthSourceTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/vertex_ai_deployment_resource_pool google_vertex_ai_deployment_resource_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vertex_ai_deployment_resource_pool google_vertex_ai_deployment_resource_pool}.
 type VertexAiDeploymentResourcePool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_VertexAiDeploymentResourcePool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/vertex_ai_deployment_resource_pool google_vertex_ai_deployment_resource_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vertex_ai_deployment_resource_pool google_vertex_ai_deployment_resource_pool} Resource.
 func NewVertexAiDeploymentResourcePool(scope constructs.Construct, id *string, config *VertexAiDeploymentResourcePoolConfig) VertexAiDeploymentResourcePool {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewVertexAiDeploymentResourcePool(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/vertex_ai_deployment_resource_pool google_vertex_ai_deployment_resource_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vertex_ai_deployment_resource_pool google_vertex_ai_deployment_resource_pool} Resource.
 func NewVertexAiDeploymentResourcePool_Override(v VertexAiDeploymentResourcePool, scope constructs.Construct, id *string, config *VertexAiDeploymentResourcePoolConfig) {
 	_init_.Initialize()
 

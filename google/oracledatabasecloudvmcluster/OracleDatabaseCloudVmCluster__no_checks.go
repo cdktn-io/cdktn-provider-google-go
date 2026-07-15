@@ -139,6 +139,10 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) validateSetExadataInfrastructur
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) validateSetExascaleDbStorageVaultParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleDatabaseCloudVmCluster) validateSetIdParameters(val *string) error {
 	return nil
 }

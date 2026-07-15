@@ -38,6 +38,8 @@ type ContainerClusterMaintenancePolicyOutputReference interface {
 	SetInternalValue(val *ContainerClusterMaintenancePolicy)
 	MaintenanceExclusion() ContainerClusterMaintenancePolicyMaintenanceExclusionList
 	MaintenanceExclusionInput() interface{}
+	RecurringMaintenanceWindow() ContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference
+	RecurringMaintenanceWindowInput() *ContainerClusterMaintenancePolicyRecurringMaintenanceWindow
 	RecurringWindow() ContainerClusterMaintenancePolicyRecurringWindowOutputReference
 	RecurringWindowInput() *ContainerClusterMaintenancePolicyRecurringWindow
 	// Experimental.
@@ -75,10 +77,12 @@ type ContainerClusterMaintenancePolicyOutputReference interface {
 	PutDailyMaintenanceWindow(value *ContainerClusterMaintenancePolicyDailyMaintenanceWindow)
 	PutDisruptionBudget(value *ContainerClusterMaintenancePolicyDisruptionBudget)
 	PutMaintenanceExclusion(value interface{})
+	PutRecurringMaintenanceWindow(value *ContainerClusterMaintenancePolicyRecurringMaintenanceWindow)
 	PutRecurringWindow(value *ContainerClusterMaintenancePolicyRecurringWindow)
 	ResetDailyMaintenanceWindow()
 	ResetDisruptionBudget()
 	ResetMaintenanceExclusion()
+	ResetRecurringMaintenanceWindow()
 	ResetRecurringWindow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) Maintenance
 	_jsii_.Get(
 		j,
 		"maintenanceExclusionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) RecurringMaintenanceWindow() ContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference {
+	var returns ContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference
+	_jsii_.Get(
+		j,
+		"recurringMaintenanceWindow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) RecurringMaintenanceWindowInput() *ContainerClusterMaintenancePolicyRecurringMaintenanceWindow {
+	var returns *ContainerClusterMaintenancePolicyRecurringMaintenanceWindow
+	_jsii_.Get(
+		j,
+		"recurringMaintenanceWindowInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) PutMaintena
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) PutRecurringMaintenanceWindow(value *ContainerClusterMaintenancePolicyRecurringMaintenanceWindow) {
+	if err := c.validatePutRecurringMaintenanceWindowParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putRecurringMaintenanceWindow",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) PutRecurringWindow(value *ContainerClusterMaintenancePolicyRecurringWindow) {
 	if err := c.validatePutRecurringWindowParameters(value); err != nil {
 		panic(err)
@@ -578,6 +613,14 @@ func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) ResetMainte
 	_jsii_.InvokeVoid(
 		c,
 		"resetMaintenanceExclusion",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) ResetRecurringMaintenanceWindow() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRecurringMaintenanceWindow",
 		nil, // no parameters
 	)
 }

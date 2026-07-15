@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy}.
 type ComputeOrganizationSecurityPolicy interface {
 	cdktn.TerraformResource
 	AdvancedOptionsConfig() ComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyConfig) ComputeOrganizationSecurityPolicy {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewComputeOrganizationSecurityPolicy_Override(c ComputeOrganizationSecurityPolicy, scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyConfig) {
 	_init_.Initialize()
 

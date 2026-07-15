@@ -24,15 +24,15 @@ type ApigeeDataCollectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID for the data collector. Must begin with 'dc_'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#data_collector_id ApigeeDataCollector#data_collector_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#data_collector_id ApigeeDataCollector#data_collector_id}
 	DataCollectorId *string `field:"required" json:"dataCollectorId" yaml:"dataCollectorId"`
 	// The Apigee Organization associated with the Apigee data collector, in the format 'organizations/{{org_name}}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#org_id ApigeeDataCollector#org_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#org_id ApigeeDataCollector#org_id}
 	OrgId *string `field:"required" json:"orgId" yaml:"orgId"`
 	// The type of data this data collector will collect. Possible values: ["BOOLEAN", "DATETIME", "FLOAT", "INTEGER", "STRING"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#type ApigeeDataCollector#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#type ApigeeDataCollector#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -44,20 +44,20 @@ type ApigeeDataCollectorConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#deletion_policy ApigeeDataCollector#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#deletion_policy ApigeeDataCollector#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A description of the data collector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#description ApigeeDataCollector#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#description ApigeeDataCollector#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#id ApigeeDataCollector#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#id ApigeeDataCollector#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_data_collector#timeouts ApigeeDataCollector#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_data_collector#timeouts ApigeeDataCollector#timeouts}
 	Timeouts *ApigeeDataCollectorTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

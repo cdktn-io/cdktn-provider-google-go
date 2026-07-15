@@ -7,7 +7,7 @@ package gkehubrolloutsequence
 type GkeHubRolloutSequenceAutoUpgradeConfig struct {
 	// rollout_creation_scope block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/gke_hub_rollout_sequence#rollout_creation_scope GkeHubRolloutSequence#rollout_creation_scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gke_hub_rollout_sequence#rollout_creation_scope GkeHubRolloutSequence#rollout_creation_scope}
 	RolloutCreationScope *GkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScope `field:"optional" json:"rolloutCreationScope" yaml:"rolloutCreationScope"`
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) validatePut
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) validatePutRecurringMaintenanceWindowParameters(value *ContainerClusterMaintenancePolicyRecurringMaintenanceWindow) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterMaintenancePolicyOutputReference) validatePutRecurringWindowParameters(value *ContainerClusterMaintenancePolicyRecurringWindow) error {
 	return nil
 }

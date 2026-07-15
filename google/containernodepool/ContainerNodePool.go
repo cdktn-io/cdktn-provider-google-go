@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/container_node_pool google_container_node_pool}.
 type ContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() ContainerNodePoolAutoscalingOutputReference
@@ -64,6 +64,8 @@ type ContainerNodePool interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MaintenancePolicy() ContainerNodePoolMaintenancePolicyList
+	MaintenancePolicyInput() interface{}
 	ManagedInstanceGroupUrls() *[]*string
 	Management() ContainerNodePoolManagementOutputReference
 	ManagementInput() *ContainerNodePoolManagement
@@ -165,6 +167,7 @@ type ContainerNodePool interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscaling(value *ContainerNodePoolAutoscaling)
+	PutMaintenancePolicy(value interface{})
 	PutManagement(value *ContainerNodePoolManagement)
 	PutNetworkConfig(value *ContainerNodePoolNetworkConfig)
 	PutNodeConfig(value *ContainerNodePoolNodeConfig)
@@ -179,6 +182,7 @@ type ContainerNodePool interface {
 	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetLocation()
+	ResetMaintenancePolicy()
 	ResetManagement()
 	ResetMaxPodsPerNode()
 	ResetName()
@@ -459,6 +463,26 @@ func (j *jsiiProxy_ContainerNodePool) LocationInput() *string {
 	_jsii_.Get(
 		j,
 		"locationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) MaintenancePolicy() ContainerNodePoolMaintenancePolicyList {
+	var returns ContainerNodePoolMaintenancePolicyList
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) MaintenancePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"maintenancePolicyInput",
 		&returns,
 	)
 	return returns
@@ -855,7 +879,7 @@ func (j *jsiiProxy_ContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool(scope constructs.Construct, id *string, config *ContainerNodePoolConfig) ContainerNodePool {
 	_init_.Initialize()
 
@@ -873,7 +897,7 @@ func NewContainerNodePool(scope constructs.Construct, id *string, config *Contai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool_Override(c ContainerNodePool, scope constructs.Construct, id *string, config *ContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -1459,6 +1483,17 @@ func (c *jsiiProxy_ContainerNodePool) PutAutoscaling(value *ContainerNodePoolAut
 	)
 }
 
+func (c *jsiiProxy_ContainerNodePool) PutMaintenancePolicy(value interface{}) {
+	if err := c.validatePutMaintenancePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putMaintenancePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerNodePool) PutManagement(value *ContainerNodePoolManagement) {
 	if err := c.validatePutManagementParameters(value); err != nil {
 		panic(err)
@@ -1591,6 +1626,14 @@ func (c *jsiiProxy_ContainerNodePool) ResetLocation() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetLocation",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePool) ResetMaintenancePolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMaintenancePolicy",
 		nil, // no parameters
 	)
 }

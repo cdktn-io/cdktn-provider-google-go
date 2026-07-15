@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/eventarc_channel google_eventarc_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/eventarc_channel google_eventarc_channel}.
 type EventarcChannel interface {
 	cdktn.TerraformResource
 	ActivationToken() *string
@@ -597,7 +597,7 @@ func (j *jsiiProxy_EventarcChannel) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
 func NewEventarcChannel(scope constructs.Construct, id *string, config *EventarcChannelConfig) EventarcChannel {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewEventarcChannel(scope constructs.Construct, id *string, config *Eventarc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/eventarc_channel google_eventarc_channel} Resource.
 func NewEventarcChannel_Override(e EventarcChannel, scope constructs.Construct, id *string, config *EventarcChannelConfig) {
 	_init_.Initialize()
 

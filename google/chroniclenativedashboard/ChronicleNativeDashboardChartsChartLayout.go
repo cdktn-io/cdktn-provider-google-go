@@ -7,19 +7,19 @@ package chroniclenativedashboard
 type ChronicleNativeDashboardChartsChartLayout struct {
 	// The number of columns the chart spans.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_native_dashboard#span_x ChronicleNativeDashboard#span_x}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_native_dashboard#span_x ChronicleNativeDashboard#span_x}
 	SpanX *float64 `field:"required" json:"spanX" yaml:"spanX"`
 	// The number of rows the chart spans.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_native_dashboard#span_y ChronicleNativeDashboard#span_y}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_native_dashboard#span_y ChronicleNativeDashboard#span_y}
 	SpanY *float64 `field:"required" json:"spanY" yaml:"spanY"`
 	// The starting X coordinate.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_native_dashboard#start_x ChronicleNativeDashboard#start_x}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_native_dashboard#start_x ChronicleNativeDashboard#start_x}
 	StartX *float64 `field:"optional" json:"startX" yaml:"startX"`
 	// The starting Y coordinate.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/chronicle_native_dashboard#start_y ChronicleNativeDashboard#start_y}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_native_dashboard#start_y ChronicleNativeDashboard#start_y}
 	StartY *float64 `field:"optional" json:"startY" yaml:"startY"`
 }
 

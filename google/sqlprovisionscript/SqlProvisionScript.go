@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_provision_script google_sql_provision_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_provision_script google_sql_provision_script}.
 type SqlProvisionScript interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_SqlProvisionScript) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_provision_script google_sql_provision_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_provision_script google_sql_provision_script} Resource.
 func NewSqlProvisionScript(scope constructs.Construct, id *string, config *SqlProvisionScriptConfig) SqlProvisionScript {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewSqlProvisionScript(scope constructs.Construct, id *string, config *SqlPr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/sql_provision_script google_sql_provision_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_provision_script google_sql_provision_script} Resource.
 func NewSqlProvisionScript_Override(s SqlProvisionScript, scope constructs.Construct, id *string, config *SqlProvisionScriptConfig) {
 	_init_.Initialize()
 

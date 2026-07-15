@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/iap_web_region_forwarding_rule_service_iam_policy google_iap_web_region_forwarding_rule_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_region_forwarding_rule_service_iam_policy google_iap_web_region_forwarding_rule_service_iam_policy}.
 type IapWebRegionForwardingRuleServiceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/iap_web_region_forwarding_rule_service_iam_policy google_iap_web_region_forwarding_rule_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_region_forwarding_rule_service_iam_policy google_iap_web_region_forwarding_rule_service_iam_policy} Resource.
 func NewIapWebRegionForwardingRuleServiceIamPolicy(scope constructs.Construct, id *string, config *IapWebRegionForwardingRuleServiceIamPolicyConfig) IapWebRegionForwardingRuleServiceIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewIapWebRegionForwardingRuleServiceIamPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/iap_web_region_forwarding_rule_service_iam_policy google_iap_web_region_forwarding_rule_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_region_forwarding_rule_service_iam_policy google_iap_web_region_forwarding_rule_service_iam_policy} Resource.
 func NewIapWebRegionForwardingRuleServiceIamPolicy_Override(i IapWebRegionForwardingRuleServiceIamPolicy, scope constructs.Construct, id *string, config *IapWebRegionForwardingRuleServiceIamPolicyConfig) {
 	_init_.Initialize()
 

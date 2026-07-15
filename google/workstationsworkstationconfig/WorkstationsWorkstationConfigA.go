@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation_config google_workstations_workstation_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/workstations_workstation_config google_workstations_workstation_config}.
 type WorkstationsWorkstationConfigA interface {
 	cdktn.TerraformResource
 	AllowedPorts() WorkstationsWorkstationConfigAllowedPortsList
@@ -943,7 +943,7 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigA) WorkstationConfigIdInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
 func NewWorkstationsWorkstationConfigA(scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigAConfig) WorkstationsWorkstationConfigA {
 	_init_.Initialize()
 
@@ -961,7 +961,7 @@ func NewWorkstationsWorkstationConfigA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
 func NewWorkstationsWorkstationConfigA_Override(w WorkstationsWorkstationConfigA, scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigAConfig) {
 	_init_.Initialize()
 

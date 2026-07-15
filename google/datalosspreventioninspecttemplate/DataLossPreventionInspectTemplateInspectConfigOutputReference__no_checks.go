@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) validatePutMinLikelihoodPerInfoTypeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) validatePutRuleSetParameters(value interface{}) error {
 	return nil
 }

@@ -41,6 +41,8 @@ type ContainerClusterNodePoolOutputReference interface {
 	InstanceGroupUrls() *[]*string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	MaintenancePolicy() ContainerClusterNodePoolMaintenancePolicyList
+	MaintenancePolicyInput() interface{}
 	ManagedInstanceGroupUrls() *[]*string
 	Management() ContainerClusterNodePoolManagementOutputReference
 	ManagementInput() *ContainerClusterNodePoolManagement
@@ -107,6 +109,7 @@ type ContainerClusterNodePoolOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoscaling(value *ContainerClusterNodePoolAutoscaling)
+	PutMaintenancePolicy(value interface{})
 	PutManagement(value *ContainerClusterNodePoolManagement)
 	PutNetworkConfig(value *ContainerClusterNodePoolNetworkConfig)
 	PutNodeConfig(value *ContainerClusterNodePoolNodeConfig)
@@ -117,6 +120,7 @@ type ContainerClusterNodePoolOutputReference interface {
 	ResetAutoscaling()
 	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
+	ResetMaintenancePolicy()
 	ResetManagement()
 	ResetMaxPodsPerNode()
 	ResetName()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) InternalValue() inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) MaintenancePolicy() ContainerClusterNodePoolMaintenancePolicyList {
+	var returns ContainerClusterNodePoolMaintenancePolicyList
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) MaintenancePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"maintenancePolicyInput",
 		&returns,
 	)
 	return returns
@@ -923,6 +947,17 @@ func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) PutAutoscaling(value
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) PutMaintenancePolicy(value interface{}) {
+	if err := c.validatePutMaintenancePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putMaintenancePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) PutManagement(value *ContainerClusterNodePoolManagement) {
 	if err := c.validatePutManagementParameters(value); err != nil {
 		panic(err)
@@ -1020,6 +1055,14 @@ func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) ResetInitialNodeCoun
 	_jsii_.InvokeVoid(
 		c,
 		"resetInitialNodeCount",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) ResetMaintenancePolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMaintenancePolicy",
 		nil, // no parameters
 	)
 }

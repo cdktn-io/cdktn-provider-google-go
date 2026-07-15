@@ -220,6 +220,14 @@ func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutpu
 	return nil
 }
 
+func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) validateSetPrivateNetworkServiceParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) validateSetStorageAccountParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

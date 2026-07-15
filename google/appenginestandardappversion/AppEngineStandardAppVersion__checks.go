@@ -406,6 +406,14 @@ func (j *jsiiProxy_AppEngineStandardAppVersion) validateSetAppEngineApisParamete
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineStandardAppVersion) validateSetAppEngineBundledServicesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_AppEngineStandardAppVersion) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
 	case *cdktn.SSHProvisionerConnection:

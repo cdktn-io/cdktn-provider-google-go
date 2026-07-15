@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firebase_app_check_device_check_config google_firebase_app_check_device_check_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firebase_app_check_device_check_config google_firebase_app_check_device_check_config}.
 type FirebaseAppCheckDeviceCheckConfig interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_FirebaseAppCheckDeviceCheckConfig) TokenTtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
 func NewFirebaseAppCheckDeviceCheckConfig(scope constructs.Construct, id *string, config *FirebaseAppCheckDeviceCheckConfigConfig) FirebaseAppCheckDeviceCheckConfig {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewFirebaseAppCheckDeviceCheckConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firebase_app_check_device_check_config google_firebase_app_check_device_check_config} Resource.
 func NewFirebaseAppCheckDeviceCheckConfig_Override(f FirebaseAppCheckDeviceCheckConfig, scope constructs.Construct, id *string, config *FirebaseAppCheckDeviceCheckConfigConfig) {
 	_init_.Initialize()
 

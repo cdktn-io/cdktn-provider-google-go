@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_api google_apigee_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_api google_apigee_api}.
 type ApigeeApi interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -504,7 +504,7 @@ func (j *jsiiProxy_ApigeeApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_api google_apigee_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_api google_apigee_api} Resource.
 func NewApigeeApi(scope constructs.Construct, id *string, config *ApigeeApiConfig) ApigeeApi {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewApigeeApi(scope constructs.Construct, id *string, config *ApigeeApiConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/apigee_api google_apigee_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_api google_apigee_api} Resource.
 func NewApigeeApi_Override(a ApigeeApi, scope constructs.Construct, id *string, config *ApigeeApiConfig) {
 	_init_.Initialize()
 

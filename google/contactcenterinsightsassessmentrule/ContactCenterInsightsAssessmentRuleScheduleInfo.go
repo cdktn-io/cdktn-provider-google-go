@@ -12,7 +12,7 @@ type ContactCenterInsightsAssessmentRuleScheduleInfo struct {
 	// A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and
 	// up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/contact_center_insights_assessment_rule#end_time ContactCenterInsightsAssessmentRule#end_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/contact_center_insights_assessment_rule#end_time ContactCenterInsightsAssessmentRule#end_time}
 	EndTime *string `field:"optional" json:"endTime" yaml:"endTime"`
 	// The groc expression.
 	//
@@ -26,7 +26,7 @@ type ContactCenterInsightsAssessmentRuleScheduleInfo struct {
 	// Example: 'every 5 minutes'
 	// could be  00:02, 00:07, 00:12, ...
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/contact_center_insights_assessment_rule#schedule ContactCenterInsightsAssessmentRule#schedule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/contact_center_insights_assessment_rule#schedule ContactCenterInsightsAssessmentRule#schedule}
 	Schedule *string `field:"optional" json:"schedule" yaml:"schedule"`
 	// Start time of the schedule.
 	//
@@ -35,11 +35,11 @@ type ContactCenterInsightsAssessmentRuleScheduleInfo struct {
 	// A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and
 	// up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/contact_center_insights_assessment_rule#start_time ContactCenterInsightsAssessmentRule#start_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/contact_center_insights_assessment_rule#start_time ContactCenterInsightsAssessmentRule#start_time}
 	StartTime *string `field:"optional" json:"startTime" yaml:"startTime"`
 	// The timezone to use for the groc expression. If not specified, defaults to UTC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/contact_center_insights_assessment_rule#time_zone ContactCenterInsightsAssessmentRule#time_zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/contact_center_insights_assessment_rule#time_zone ContactCenterInsightsAssessmentRule#time_zone}
 	TimeZone *string `field:"optional" json:"timeZone" yaml:"timeZone"`
 }
 

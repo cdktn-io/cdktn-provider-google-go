@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
 type OracleDatabaseExascaleDbStorageVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,6 +43,9 @@ type OracleDatabaseExascaleDbStorageVault interface {
 	DisplayNameInput() *string
 	EffectiveLabels() cdktn.StringMap
 	EntitlementId() *string
+	ExadataInfrastructure() *string
+	SetExadataInfrastructure(val *string)
+	ExadataInfrastructureInput() *string
 	ExascaleDbStorageVaultId() *string
 	SetExascaleDbStorageVaultId(val *string)
 	ExascaleDbStorageVaultIdInput() *string
@@ -144,6 +147,7 @@ type OracleDatabaseExascaleDbStorageVault interface {
 	PutTimeouts(value *OracleDatabaseExascaleDbStorageVaultTimeouts)
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
+	ResetExadataInfrastructure()
 	ResetGcpOracleZone()
 	ResetId()
 	ResetLabels()
@@ -314,6 +318,26 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) EntitlementId() *string
 	_jsii_.Get(
 		j,
 		"entitlementId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) ExadataInfrastructure() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exadataInfrastructure",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) ExadataInfrastructureInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exadataInfrastructureInput",
 		&returns,
 	)
 	return returns
@@ -610,7 +634,7 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *string, config *OracleDatabaseExascaleDbStorageVaultConfig) OracleDatabaseExascaleDbStorageVault {
 	_init_.Initialize()
 
@@ -628,7 +652,7 @@ func NewOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewOracleDatabaseExascaleDbStorageVault_Override(o OracleDatabaseExascaleDbStorageVault, scope constructs.Construct, id *string, config *OracleDatabaseExascaleDbStorageVaultConfig) {
 	_init_.Initialize()
 
@@ -698,6 +722,17 @@ func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault)SetDisplayName(val *stri
 	_jsii_.Set(
 		j,
 		"displayName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseExascaleDbStorageVault)SetExadataInfrastructure(val *string) {
+	if err := j.validateSetExadataInfrastructureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"exadataInfrastructure",
 		val,
 	)
 }
@@ -1193,6 +1228,14 @@ func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) ResetDeletionProtection
 	_jsii_.InvokeVoid(
 		o,
 		"resetDeletionProtection",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) ResetExadataInfrastructure() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetExadataInfrastructure",
 		nil, // no parameters
 	)
 }

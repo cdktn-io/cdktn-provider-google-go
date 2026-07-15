@@ -135,6 +135,10 @@ func (c *jsiiProxy_ComputeInstanceFromTemplate) validatePutTimeoutsParameters(va
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInstanceFromTemplate) validatePutWorkloadIdentityConfigParameters(value *ComputeInstanceFromTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
 func validateComputeInstanceFromTemplate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

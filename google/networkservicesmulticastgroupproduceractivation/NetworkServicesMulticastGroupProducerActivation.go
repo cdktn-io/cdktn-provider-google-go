@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation}.
 type NetworkServicesMulticastGroupProducerActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -608,7 +608,7 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupProducerActivation) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
 func NewNetworkServicesMulticastGroupProducerActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupProducerActivationConfig) NetworkServicesMulticastGroupProducerActivation {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewNetworkServicesMulticastGroupProducerActivation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation} Resource.
 func NewNetworkServicesMulticastGroupProducerActivation_Override(n NetworkServicesMulticastGroupProducerActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupProducerActivationConfig) {
 	_init_.Initialize()
 

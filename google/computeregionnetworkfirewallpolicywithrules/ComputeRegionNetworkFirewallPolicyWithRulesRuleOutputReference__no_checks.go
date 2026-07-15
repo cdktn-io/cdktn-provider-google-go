@@ -103,7 +103,15 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) validateSetTargetForwardingRulesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) validateSetTargetServiceAccountsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) validateSetTargetTypeParameters(val *string) error {
 	return nil
 }
 

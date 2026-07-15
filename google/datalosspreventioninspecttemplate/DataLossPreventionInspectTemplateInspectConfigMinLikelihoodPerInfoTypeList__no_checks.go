@@ -1,0 +1,41 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package datalosspreventioninspecttemplate
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewDataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

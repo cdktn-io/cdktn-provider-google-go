@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/access_context_manager_service_perimeter_resource google_access_context_manager_service_perimeter_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/access_context_manager_service_perimeter_resource google_access_context_manager_service_perimeter_resource}.
 type AccessContextManagerServicePerimeterResource interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterResource) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/access_context_manager_service_perimeter_resource google_access_context_manager_service_perimeter_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/access_context_manager_service_perimeter_resource google_access_context_manager_service_perimeter_resource} Resource.
 func NewAccessContextManagerServicePerimeterResource(scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterResourceConfig) AccessContextManagerServicePerimeterResource {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewAccessContextManagerServicePerimeterResource(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/access_context_manager_service_perimeter_resource google_access_context_manager_service_perimeter_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/access_context_manager_service_perimeter_resource google_access_context_manager_service_perimeter_resource} Resource.
 func NewAccessContextManagerServicePerimeterResource_Override(a AccessContextManagerServicePerimeterResource, scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterResourceConfig) {
 	_init_.Initialize()
 

@@ -50,6 +50,8 @@ type DataLossPreventionInspectTemplateInspectConfigOutputReference interface {
 	MinLikelihood() *string
 	SetMinLikelihood(val *string)
 	MinLikelihoodInput() *string
+	MinLikelihoodPerInfoType() DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList
+	MinLikelihoodPerInfoTypeInput() interface{}
 	RuleSet() DataLossPreventionInspectTemplateInspectConfigRuleSetList
 	RuleSetInput() interface{}
 	// Experimental.
@@ -87,6 +89,7 @@ type DataLossPreventionInspectTemplateInspectConfigOutputReference interface {
 	PutCustomInfoTypes(value interface{})
 	PutInfoTypes(value interface{})
 	PutLimits(value *DataLossPreventionInspectTemplateInspectConfigLimits)
+	PutMinLikelihoodPerInfoType(value interface{})
 	PutRuleSet(value interface{})
 	ResetContentOptions()
 	ResetCustomInfoTypes()
@@ -95,6 +98,7 @@ type DataLossPreventionInspectTemplateInspectConfigOutputReference interface {
 	ResetInfoTypes()
 	ResetLimits()
 	ResetMinLikelihood()
+	ResetMinLikelihoodPerInfoType()
 	ResetRuleSet()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -296,6 +300,26 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference
 	_jsii_.Get(
 		j,
 		"minLikelihoodInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) MinLikelihoodPerInfoType() DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList {
+	var returns DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList
+	_jsii_.Get(
+		j,
+		"minLikelihoodPerInfoType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) MinLikelihoodPerInfoTypeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"minLikelihoodPerInfoTypeInput",
 		&returns,
 	)
 	return returns
@@ -687,6 +711,17 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference
 	)
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) PutMinLikelihoodPerInfoType(value interface{}) {
+	if err := d.validatePutMinLikelihoodPerInfoTypeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putMinLikelihoodPerInfoType",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) PutRuleSet(value interface{}) {
 	if err := d.validatePutRuleSetParameters(value); err != nil {
 		panic(err)
@@ -750,6 +785,14 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference
 	_jsii_.InvokeVoid(
 		d,
 		"resetMinLikelihood",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) ResetMinLikelihoodPerInfoType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMinLikelihoodPerInfoType",
 		nil, // no parameters
 	)
 }

@@ -38,6 +38,9 @@ type SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference interfac
 	NetworkAttachmentUri() *string
 	SetNetworkAttachmentUri(val *string)
 	NetworkAttachmentUriInput() *string
+	PscAutoConnectionPolicyEnabled() interface{}
+	SetPscAutoConnectionPolicyEnabled(val interface{})
+	PscAutoConnectionPolicyEnabledInput() interface{}
 	PscAutoConnections() SqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList
 	PscAutoConnectionsInput() interface{}
 	PscAutoDnsEnabled() interface{}
@@ -84,6 +87,7 @@ type SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference interfac
 	PutPscAutoConnections(value interface{})
 	ResetAllowedConsumerProjects()
 	ResetNetworkAttachmentUri()
+	ResetPscAutoConnectionPolicyEnabled()
 	ResetPscAutoConnections()
 	ResetPscAutoDnsEnabled()
 	ResetPscEnabled()
@@ -188,6 +192,26 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"networkAttachmentUriInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscAutoConnectionPolicyEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutoConnectionPolicyEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscAutoConnectionPolicyEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutoConnectionPolicyEnabledInput",
 		&returns,
 	)
 	return returns
@@ -372,6 +396,17 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	_jsii_.Set(
 		j,
 		"networkAttachmentUri",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscAutoConnectionPolicyEnabled(val interface{}) {
+	if err := j.validateSetPscAutoConnectionPolicyEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscAutoConnectionPolicyEnabled",
 		val,
 	)
 }
@@ -640,6 +675,14 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	_jsii_.InvokeVoid(
 		s,
 		"resetNetworkAttachmentUri",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscAutoConnectionPolicyEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPscAutoConnectionPolicyEnabled",
 		nil, // no parameters
 	)
 }

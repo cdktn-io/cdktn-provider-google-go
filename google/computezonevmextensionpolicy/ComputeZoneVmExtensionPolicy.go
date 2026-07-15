@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy}.
 type ComputeZoneVmExtensionPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_ComputeZoneVmExtensionPolicy) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
 func NewComputeZoneVmExtensionPolicy(scope constructs.Construct, id *string, config *ComputeZoneVmExtensionPolicyConfig) ComputeZoneVmExtensionPolicy {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewComputeZoneVmExtensionPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
 func NewComputeZoneVmExtensionPolicy_Override(c ComputeZoneVmExtensionPolicy, scope constructs.Construct, id *string, config *ComputeZoneVmExtensionPolicyConfig) {
 	_init_.Initialize()
 

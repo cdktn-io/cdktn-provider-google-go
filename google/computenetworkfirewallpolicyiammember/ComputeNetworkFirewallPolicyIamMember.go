@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member}.
 type ComputeNetworkFirewallPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyIamMember) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member} Resource.
 func NewComputeNetworkFirewallPolicyIamMember(scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyIamMemberConfig) ComputeNetworkFirewallPolicyIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewComputeNetworkFirewallPolicyIamMember(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_network_firewall_policy_iam_member google_compute_network_firewall_policy_iam_member} Resource.
 func NewComputeNetworkFirewallPolicyIamMember_Override(c ComputeNetworkFirewallPolicyIamMember, scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyIamMemberConfig) {
 	_init_.Initialize()
 

@@ -22,11 +22,11 @@ type ServiceDirectoryServiceIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/service_directory_service_iam_policy#name ServiceDirectoryServiceIamPolicy#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/service_directory_service_iam_policy#name ServiceDirectoryServiceIamPolicy#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/service_directory_service_iam_policy#policy_data ServiceDirectoryServiceIamPolicy#policy_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/service_directory_service_iam_policy#policy_data ServiceDirectoryServiceIamPolicy#policy_data}.
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/service_directory_service_iam_policy#id ServiceDirectoryServiceIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/service_directory_service_iam_policy#id ServiceDirectoryServiceIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

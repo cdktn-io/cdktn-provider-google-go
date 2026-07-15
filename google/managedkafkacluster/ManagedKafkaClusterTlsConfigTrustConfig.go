@@ -7,7 +7,7 @@ package managedkafkacluster
 type ManagedKafkaClusterTlsConfigTrustConfig struct {
 	// cas_configs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/managed_kafka_cluster#cas_configs ManagedKafkaCluster#cas_configs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/managed_kafka_cluster#cas_configs ManagedKafkaCluster#cas_configs}
 	CasConfigs interface{} `field:"optional" json:"casConfigs" yaml:"casConfigs"`
 }
 

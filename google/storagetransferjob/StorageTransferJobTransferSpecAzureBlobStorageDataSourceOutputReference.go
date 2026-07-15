@@ -45,6 +45,9 @@ type StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference int
 	Path() *string
 	SetPath(val *string)
 	PathInput() *string
+	PrivateNetworkService() *string
+	SetPrivateNetworkService(val *string)
+	PrivateNetworkServiceInput() *string
 	StorageAccount() *string
 	SetStorageAccount(val *string)
 	StorageAccountInput() *string
@@ -86,6 +89,7 @@ type StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference int
 	ResetCredentialsSecret()
 	ResetFederatedIdentityConfig()
 	ResetPath()
+	ResetPrivateNetworkService()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -251,6 +255,26 @@ func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutpu
 	return returns
 }
 
+func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) PrivateNetworkService() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateNetworkService",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) PrivateNetworkServiceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateNetworkServiceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) StorageAccount() *string {
 	var returns *string
 	_jsii_.Get(
@@ -381,6 +405,17 @@ func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutpu
 	_jsii_.Set(
 		j,
 		"path",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference)SetPrivateNetworkService(val *string) {
+	if err := j.validateSetPrivateNetworkServiceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateNetworkService",
 		val,
 	)
 }
@@ -654,6 +689,14 @@ func (s *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutpu
 	_jsii_.InvokeVoid(
 		s,
 		"resetPath",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) ResetPrivateNetworkService() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPrivateNetworkService",
 		nil, // no parameters
 	)
 }

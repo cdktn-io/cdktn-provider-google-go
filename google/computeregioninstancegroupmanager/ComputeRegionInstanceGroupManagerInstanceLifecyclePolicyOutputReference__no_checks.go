@@ -47,6 +47,10 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutpu
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) validatePutOnRepairParameters(value *ComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

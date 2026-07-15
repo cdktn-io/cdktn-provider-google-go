@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_network_firewall_policy_iam_policy google_compute_region_network_firewall_policy_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_network_firewall_policy_iam_policy google_compute_region_network_firewall_policy_iam_policy}.
 type ComputeRegionNetworkFirewallPolicyIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyIamPolicy) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_network_firewall_policy_iam_policy google_compute_region_network_firewall_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_network_firewall_policy_iam_policy google_compute_region_network_firewall_policy_iam_policy} Resource.
 func NewComputeRegionNetworkFirewallPolicyIamPolicy(scope constructs.Construct, id *string, config *ComputeRegionNetworkFirewallPolicyIamPolicyConfig) ComputeRegionNetworkFirewallPolicyIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewComputeRegionNetworkFirewallPolicyIamPolicy(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/compute_region_network_firewall_policy_iam_policy google_compute_region_network_firewall_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_network_firewall_policy_iam_policy google_compute_region_network_firewall_policy_iam_policy} Resource.
 func NewComputeRegionNetworkFirewallPolicyIamPolicy_Override(c ComputeRegionNetworkFirewallPolicyIamPolicy, scope constructs.Construct, id *string, config *ComputeRegionNetworkFirewallPolicyIamPolicyConfig) {
 	_init_.Initialize()
 

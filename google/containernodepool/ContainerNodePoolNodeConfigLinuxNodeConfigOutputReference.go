@@ -33,6 +33,8 @@ type ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomNodeInit() ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference
+	CustomNodeInitInput() *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit
 	// Experimental.
 	Fqn() *string
 	HugepagesConfig() ContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference
@@ -85,11 +87,13 @@ type ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccurateTimeConfig(value *ContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig)
+	PutCustomNodeInit(value *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit)
 	PutHugepagesConfig(value *ContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig)
 	PutNodeKernelModuleLoading(value *ContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading)
 	PutSwapConfig(value *ContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig)
 	ResetAccurateTimeConfig()
 	ResetCgroupMode()
+	ResetCustomNodeInit()
 	ResetHugepagesConfig()
 	ResetNodeKernelModuleLoading()
 	ResetSwapConfig()
@@ -176,6 +180,26 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) Cr
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) CustomNodeInit() ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference {
+	var returns ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference
+	_jsii_.Get(
+		j,
+		"customNodeInit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) CustomNodeInitInput() *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit {
+	var returns *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit
+	_jsii_.Get(
+		j,
+		"customNodeInitInput",
 		&returns,
 	)
 	return returns
@@ -665,6 +689,17 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) Pu
 	)
 }
 
+func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) PutCustomNodeInit(value *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit) {
+	if err := c.validatePutCustomNodeInitParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCustomNodeInit",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) PutHugepagesConfig(value *ContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig) {
 	if err := c.validatePutHugepagesConfigParameters(value); err != nil {
 		panic(err)
@@ -710,6 +745,14 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) Re
 	_jsii_.InvokeVoid(
 		c,
 		"resetCgroupMode",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePoolNodeConfigLinuxNodeConfigOutputReference) ResetCustomNodeInit() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCustomNodeInit",
 		nil, // no parameters
 	)
 }

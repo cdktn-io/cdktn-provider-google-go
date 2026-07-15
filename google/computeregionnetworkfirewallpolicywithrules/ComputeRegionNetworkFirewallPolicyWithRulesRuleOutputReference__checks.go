@@ -320,7 +320,23 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) validateSetTargetForwardingRulesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) validateSetTargetServiceAccountsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyWithRulesRuleOutputReference) validateSetTargetTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

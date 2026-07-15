@@ -24,19 +24,19 @@ type BiglakeIcebergTableConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the IcebergCatalog.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#catalog BiglakeIcebergTable#catalog}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#catalog BiglakeIcebergTable#catalog}
 	Catalog *string `field:"required" json:"catalog" yaml:"catalog"`
 	// The name of the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#name BiglakeIcebergTable#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#name BiglakeIcebergTable#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The parent namespace of the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#namespace BiglakeIcebergTable#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#namespace BiglakeIcebergTable#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// schema block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#schema BiglakeIcebergTable#schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#schema BiglakeIcebergTable#schema}
 	Schema *BiglakeIcebergTableSchema `field:"required" json:"schema" yaml:"schema"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -48,34 +48,34 @@ type BiglakeIcebergTableConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#deletion_policy BiglakeIcebergTable#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#deletion_policy BiglakeIcebergTable#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#id BiglakeIcebergTable#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#id BiglakeIcebergTable#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The location of the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#location BiglakeIcebergTable#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#location BiglakeIcebergTable#location}
 	Location *string `field:"optional" json:"location" yaml:"location"`
 	// partition_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#partition_spec BiglakeIcebergTable#partition_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#partition_spec BiglakeIcebergTable#partition_spec}
 	PartitionSpec *BiglakeIcebergTablePartitionSpec `field:"optional" json:"partitionSpec" yaml:"partitionSpec"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#project BiglakeIcebergTable#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#project BiglakeIcebergTable#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// User-defined properties for the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#properties BiglakeIcebergTable#properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#properties BiglakeIcebergTable#properties}
 	Properties *map[string]*string `field:"optional" json:"properties" yaml:"properties"`
 	// sort_order block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#sort_order BiglakeIcebergTable#sort_order}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#sort_order BiglakeIcebergTable#sort_order}
 	SortOrder *BiglakeIcebergTableSortOrder `field:"optional" json:"sortOrder" yaml:"sortOrder"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.39.0/docs/resources/biglake_iceberg_table#timeouts BiglakeIcebergTable#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/biglake_iceberg_table#timeouts BiglakeIcebergTable#timeouts}
 	Timeouts *BiglakeIcebergTableTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

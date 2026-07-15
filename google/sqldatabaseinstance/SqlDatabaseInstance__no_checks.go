@@ -147,6 +147,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetEncryptionKeyNameParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetEnforceNewSqlNetworkArchitectureParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetFinalBackupDescriptionParameters(val *string) error {
 	return nil
 }

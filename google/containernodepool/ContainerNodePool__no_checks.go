@@ -79,6 +79,10 @@ func (c *jsiiProxy_ContainerNodePool) validatePutAutoscalingParameters(value *Co
 	return nil
 }
 
+func (c *jsiiProxy_ContainerNodePool) validatePutMaintenancePolicyParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerNodePool) validatePutManagementParameters(value *ContainerNodePoolManagement) error {
 	return nil
 }

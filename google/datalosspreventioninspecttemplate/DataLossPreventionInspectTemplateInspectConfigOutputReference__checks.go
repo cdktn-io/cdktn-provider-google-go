@@ -166,6 +166,37 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) validatePutMinLikelihoodPerInfoTypeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoType:
+		value := value.(*[]*DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoType)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoType:
+		value_ := value.([]*DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoType)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoType; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigOutputReference) validatePutRuleSetParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
