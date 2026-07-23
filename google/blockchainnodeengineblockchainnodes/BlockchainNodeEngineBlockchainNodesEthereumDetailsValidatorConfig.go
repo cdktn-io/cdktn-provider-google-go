@@ -9,13 +9,13 @@ type BlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfig struct {
 	//
 	// See https://lighthouse-book.sigmaprime.io/suggested-fee-recipient.html or https://docs.prylabs.network/docs/execution-node/fee-recipient for examples of how this is used. Note that while this is often described as "suggested", as we run the execution node we can trust the execution node, and therefore this is considered enforced.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/blockchain_node_engine_blockchain_nodes#beacon_fee_recipient BlockchainNodeEngineBlockchainNodes#beacon_fee_recipient}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/blockchain_node_engine_blockchain_nodes#beacon_fee_recipient BlockchainNodeEngineBlockchainNodes#beacon_fee_recipient}
 	BeaconFeeRecipient *string `field:"optional" json:"beaconFeeRecipient" yaml:"beaconFeeRecipient"`
 	// URLs for MEV-relay services to use for block building.
 	//
 	// When set, a managed MEV-boost service is configured on the beacon client.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/blockchain_node_engine_blockchain_nodes#mev_relay_urls BlockchainNodeEngineBlockchainNodes#mev_relay_urls}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/blockchain_node_engine_blockchain_nodes#mev_relay_urls BlockchainNodeEngineBlockchainNodes#mev_relay_urls}
 	MevRelayUrls *[]*string `field:"optional" json:"mevRelayUrls" yaml:"mevRelayUrls"`
 }
 

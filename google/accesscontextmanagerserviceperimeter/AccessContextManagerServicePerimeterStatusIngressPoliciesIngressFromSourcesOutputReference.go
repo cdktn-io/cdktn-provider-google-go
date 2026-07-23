@@ -35,6 +35,8 @@ type AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSources
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PscEndpoint() AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference
+	PscEndpointInput() *AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpoint
 	Resource() *string
 	SetResource(val *string)
 	ResourceInput() *string
@@ -70,7 +72,9 @@ type AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSources
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPscEndpoint(value *AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpoint)
 	ResetAccessLevel()
+	ResetPscEndpoint()
 	ResetResource()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngr
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesOutputReference) PscEndpoint() AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference {
+	var returns AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"pscEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesOutputReference) PscEndpointInput() *AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpoint {
+	var returns *AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpoint
+	_jsii_.Get(
+		j,
+		"pscEndpointInput",
 		&returns,
 	)
 	return returns
@@ -488,10 +512,29 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngr
 	return returns
 }
 
+func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesOutputReference) PutPscEndpoint(value *AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesPscEndpoint) {
+	if err := a.validatePutPscEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putPscEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesOutputReference) ResetAccessLevel() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAccessLevel",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesOutputReference) ResetPscEndpoint() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPscEndpoint",
 		nil, // no parameters
 	)
 }

@@ -7,15 +7,15 @@ package oracledatabasegoldengateconnection
 type OracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties struct {
 	// The name of the GoldengateDeployment associated with the GoldengateConnection. Format: projects/{project}/locations/{location}/goldengateDeployments/{goldengate_deployment}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#goldengate_deployment_id OracleDatabaseGoldengateConnection#goldengate_deployment_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#goldengate_deployment_id OracleDatabaseGoldengateConnection#goldengate_deployment_id}
 	GoldengateDeploymentId *string `field:"optional" json:"goldengateDeploymentId" yaml:"goldengateDeploymentId"`
 	// The host of the GoldengateConnection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#host OracleDatabaseGoldengateConnection#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#host OracleDatabaseGoldengateConnection#host}
 	Host *string `field:"optional" json:"host" yaml:"host"`
 	// Input only. The password used to connect to the Oracle Goldengate in plain text.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#password OracleDatabaseGoldengateConnection#password}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#password OracleDatabaseGoldengateConnection#password}
 	Password *string `field:"optional" json:"password" yaml:"password"`
 	// Input only.
 	//
@@ -23,19 +23,19 @@ type OracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties 
 	// the password used to connect to the Oracle Goldengate.
 	// Format: projects/{project}/secrets/{secret}/versions/{version}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#password_secret_version OracleDatabaseGoldengateConnection#password_secret_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#password_secret_version OracleDatabaseGoldengateConnection#password_secret_version}
 	PasswordSecretVersion *string `field:"optional" json:"passwordSecretVersion" yaml:"passwordSecretVersion"`
 	// The port of the GoldengateConnection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#port OracleDatabaseGoldengateConnection#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#port OracleDatabaseGoldengateConnection#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 	// The technology type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#technology_type OracleDatabaseGoldengateConnection#technology_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#technology_type OracleDatabaseGoldengateConnection#technology_type}
 	TechnologyType *string `field:"optional" json:"technologyType" yaml:"technologyType"`
 	// The username credential.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/oracle_database_goldengate_connection#username OracleDatabaseGoldengateConnection#username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#username OracleDatabaseGoldengateConnection#username}
 	Username *string `field:"optional" json:"username" yaml:"username"`
 }
 

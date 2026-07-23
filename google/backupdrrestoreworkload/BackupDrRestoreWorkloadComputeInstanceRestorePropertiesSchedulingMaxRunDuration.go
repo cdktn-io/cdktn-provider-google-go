@@ -5,9 +5,9 @@ package backupdrrestoreworkload
 
 
 type BackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/backup_dr_restore_workload#nanos BackupDrRestoreWorkload#nanos}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_restore_workload#nanos BackupDrRestoreWorkload#nanos}.
 	Nanos *float64 `field:"optional" json:"nanos" yaml:"nanos"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/backup_dr_restore_workload#seconds BackupDrRestoreWorkload#seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_restore_workload#seconds BackupDrRestoreWorkload#seconds}.
 	Seconds *float64 `field:"optional" json:"seconds" yaml:"seconds"`
 }
 

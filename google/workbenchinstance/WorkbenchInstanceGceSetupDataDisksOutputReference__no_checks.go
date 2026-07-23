@@ -79,6 +79,10 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) validateSetResourcePoliciesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

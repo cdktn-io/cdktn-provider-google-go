@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigtable_gc_policy google_bigtable_gc_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigtable_gc_policy google_bigtable_gc_policy}.
 type BigtableGcPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_BigtableGcPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigtable_gc_policy google_bigtable_gc_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigtable_gc_policy google_bigtable_gc_policy} Resource.
 func NewBigtableGcPolicy(scope constructs.Construct, id *string, config *BigtableGcPolicyConfig) BigtableGcPolicy {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewBigtableGcPolicy(scope constructs.Construct, id *string, config *Bigtabl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigtable_gc_policy google_bigtable_gc_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigtable_gc_policy google_bigtable_gc_policy} Resource.
 func NewBigtableGcPolicy_Override(b BigtableGcPolicy, scope constructs.Construct, id *string, config *BigtableGcPolicyConfig) {
 	_init_.Initialize()
 

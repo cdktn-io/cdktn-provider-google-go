@@ -59,7 +59,15 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsin
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingConfigLayoutParsingConfigOutputReference) validateSetEnableGetProcessedDocumentParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingConfigLayoutParsingConfigOutputReference) validateSetEnableImageAnnotationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingConfigLayoutParsingConfigOutputReference) validateSetEnableLlmLayoutParsingParameters(val interface{}) error {
 	return nil
 }
 

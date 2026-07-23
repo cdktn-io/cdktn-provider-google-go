@@ -7,7 +7,7 @@ package firestoreindex
 type FirestoreIndexFieldsSearchConfigTextSpec struct {
 	// index_specs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/firestore_index#index_specs FirestoreIndex#index_specs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/firestore_index#index_specs FirestoreIndex#index_specs}
 	IndexSpecs interface{} `field:"required" json:"indexSpecs" yaml:"indexSpecs"`
 }
 

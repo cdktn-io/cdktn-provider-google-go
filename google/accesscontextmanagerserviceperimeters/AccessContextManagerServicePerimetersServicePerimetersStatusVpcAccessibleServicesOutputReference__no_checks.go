@@ -47,6 +47,10 @@ func (a *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersStatusV
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference) validatePutAllowedServicePatternsParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -68,6 +72,10 @@ func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersStatusV
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference) validateSetInternalValueParameters(val *AccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices) error {
+	return nil
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference) validateSetServicePatternsEnforcementScopesParameters(val *[]*string) error {
 	return nil
 }
 

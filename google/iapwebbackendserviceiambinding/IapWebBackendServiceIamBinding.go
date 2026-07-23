@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_backend_service_iam_binding google_iap_web_backend_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_web_backend_service_iam_binding google_iap_web_backend_service_iam_binding}.
 type IapWebBackendServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_IapWebBackendServiceIamBinding) WebBackendServiceInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_backend_service_iam_binding google_iap_web_backend_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_web_backend_service_iam_binding google_iap_web_backend_service_iam_binding} Resource.
 func NewIapWebBackendServiceIamBinding(scope constructs.Construct, id *string, config *IapWebBackendServiceIamBindingConfig) IapWebBackendServiceIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewIapWebBackendServiceIamBinding(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_backend_service_iam_binding google_iap_web_backend_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_web_backend_service_iam_binding google_iap_web_backend_service_iam_binding} Resource.
 func NewIapWebBackendServiceIamBinding_Override(i IapWebBackendServiceIamBinding, scope constructs.Construct, id *string, config *IapWebBackendServiceIamBindingConfig) {
 	_init_.Initialize()
 

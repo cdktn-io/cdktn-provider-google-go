@@ -159,6 +159,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetIdParameters(val *string) err
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetIncludeReplicasForMajorVersionUpgradeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetInstanceTypeParameters(val *string) error {
 	return nil
 }
@@ -208,6 +212,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetRootPasswordWoParameters(val 
 }
 
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetRootPasswordWoVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetSwitchTransactionLogsToCloudStorageEnabledParameters(val interface{}) error {
 	return nil
 }
 

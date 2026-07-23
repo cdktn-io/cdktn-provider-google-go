@@ -13,6 +13,8 @@ import (
 
 type AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference interface {
 	cdktn.ComplexObject
+	AllowedServicePatterns() AccessContextManagerServicePerimeterSpecVpcAccessibleServicesAllowedServicePatternsList
+	AllowedServicePatternsInput() interface{}
 	AllowedServices() *[]*string
 	SetAllowedServices(val *[]*string)
 	AllowedServicesInput() *[]*string
@@ -38,6 +40,9 @@ type AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReferenc
 	Fqn() *string
 	InternalValue() *AccessContextManagerServicePerimeterSpecVpcAccessibleServices
 	SetInternalValue(val *AccessContextManagerServicePerimeterSpecVpcAccessibleServices)
+	ServicePatternsEnforcementScopes() *[]*string
+	SetServicePatternsEnforcementScopes(val *[]*string)
+	ServicePatternsEnforcementScopesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +75,11 @@ type AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReferenc
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAllowedServicePatterns(value interface{})
+	ResetAllowedServicePatterns()
 	ResetAllowedServices()
 	ResetEnableRestriction()
+	ResetServicePatternsEnforcementScopes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -85,6 +93,26 @@ type AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReferenc
 // The jsii proxy struct for AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference
 type jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) AllowedServicePatterns() AccessContextManagerServicePerimeterSpecVpcAccessibleServicesAllowedServicePatternsList {
+	var returns AccessContextManagerServicePerimeterSpecVpcAccessibleServicesAllowedServicePatternsList
+	_jsii_.Get(
+		j,
+		"allowedServicePatterns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) AllowedServicePatternsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowedServicePatternsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) AllowedServices() *[]*string {
@@ -172,6 +200,26 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServices
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) ServicePatternsEnforcementScopes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"servicePatternsEnforcementScopes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) ServicePatternsEnforcementScopesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"servicePatternsEnforcementScopesInput",
 		&returns,
 	)
 	return returns
@@ -276,6 +324,17 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServices
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference)SetServicePatternsEnforcementScopes(val *[]*string) {
+	if err := j.validateSetServicePatternsEnforcementScopesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"servicePatternsEnforcementScopes",
 		val,
 	)
 }
@@ -488,6 +547,25 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServices
 	return returns
 }
 
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) PutAllowedServicePatterns(value interface{}) {
+	if err := a.validatePutAllowedServicePatternsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putAllowedServicePatterns",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) ResetAllowedServicePatterns() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAllowedServicePatterns",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) ResetAllowedServices() {
 	_jsii_.InvokeVoid(
 		a,
@@ -500,6 +578,14 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServices
 	_jsii_.InvokeVoid(
 		a,
 		"resetEnableRestriction",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference) ResetServicePatternsEnforcementScopes() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetServicePatternsEnforcementScopes",
 		nil, // no parameters
 	)
 }

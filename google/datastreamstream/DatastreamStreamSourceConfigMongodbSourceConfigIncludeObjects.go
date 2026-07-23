@@ -7,7 +7,7 @@ package datastreamstream
 type DatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects struct {
 	// databases block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/datastream_stream#databases DatastreamStream#databases}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/datastream_stream#databases DatastreamStream#databases}
 	Databases interface{} `field:"optional" json:"databases" yaml:"databases"`
 }
 

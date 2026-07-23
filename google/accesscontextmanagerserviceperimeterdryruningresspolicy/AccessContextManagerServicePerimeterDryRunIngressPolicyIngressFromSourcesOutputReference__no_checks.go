@@ -47,6 +47,10 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngres
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromSourcesOutputReference) validatePutPscEndpointParameters(value *AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromSourcesPscEndpoint) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromSourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

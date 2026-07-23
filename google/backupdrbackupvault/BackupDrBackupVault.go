@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault}.
 type BackupDrBackupVault interface {
 	cdktn.TerraformResource
 	AccessRestriction() *string
@@ -71,6 +71,9 @@ type BackupDrBackupVault interface {
 	ForceDeleteInput() interface{}
 	ForceUpdate() interface{}
 	SetForceUpdate(val interface{})
+	ForceUpdateAccessRestriction() interface{}
+	SetForceUpdateAccessRestriction(val interface{})
+	ForceUpdateAccessRestrictionInput() interface{}
 	ForceUpdateInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -184,6 +187,7 @@ type BackupDrBackupVault interface {
 	ResetEncryptionConfig()
 	ResetForceDelete()
 	ResetForceUpdate()
+	ResetForceUpdateAccessRestriction()
 	ResetId()
 	ResetIgnoreBackupPlanReferences()
 	ResetIgnoreInactiveDatasources()
@@ -560,6 +564,26 @@ func (j *jsiiProxy_BackupDrBackupVault) ForceUpdate() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_BackupDrBackupVault) ForceUpdateAccessRestriction() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceUpdateAccessRestriction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupVault) ForceUpdateAccessRestrictionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceUpdateAccessRestrictionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BackupDrBackupVault) ForceUpdateInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -891,7 +915,7 @@ func (j *jsiiProxy_BackupDrBackupVault) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
 func NewBackupDrBackupVault(scope constructs.Construct, id *string, config *BackupDrBackupVaultConfig) BackupDrBackupVault {
 	_init_.Initialize()
 
@@ -909,7 +933,7 @@ func NewBackupDrBackupVault(scope constructs.Construct, id *string, config *Back
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_backup_vault google_backup_dr_backup_vault} Resource.
 func NewBackupDrBackupVault_Override(b BackupDrBackupVault, scope constructs.Construct, id *string, config *BackupDrBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -1067,6 +1091,17 @@ func (j *jsiiProxy_BackupDrBackupVault)SetForceUpdate(val interface{}) {
 	_jsii_.Set(
 		j,
 		"forceUpdate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BackupDrBackupVault)SetForceUpdateAccessRestriction(val interface{}) {
+	if err := j.validateSetForceUpdateAccessRestrictionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forceUpdateAccessRestriction",
 		val,
 	)
 }
@@ -1626,6 +1661,14 @@ func (b *jsiiProxy_BackupDrBackupVault) ResetForceUpdate() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetForceUpdate",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrBackupVault) ResetForceUpdateAccessRestriction() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetForceUpdateAccessRestriction",
 		nil, // no parameters
 	)
 }

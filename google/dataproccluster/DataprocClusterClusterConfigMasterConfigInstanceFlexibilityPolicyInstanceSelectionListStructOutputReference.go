@@ -28,6 +28,8 @@ type DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSe
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DiskConfig() DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference
+	DiskConfigInput() *DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -70,6 +72,8 @@ type DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDiskConfig(value *DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig)
+	ResetDiskConfig()
 	ResetMachineTypes()
 	ResetRank()
 	// Produce the Token's value at resolution time.
@@ -112,6 +116,26 @@ func (j *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPo
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference) DiskConfig() DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference {
+	var returns DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference
+	_jsii_.Get(
+		j,
+		"diskConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference) DiskConfigInput() *DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig {
+	var returns *DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig
+	_jsii_.Get(
+		j,
+		"diskConfigInput",
 		&returns,
 	)
 	return returns
@@ -486,6 +510,25 @@ func (d *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPo
 	)
 
 	return returns
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference) PutDiskConfig(value *DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig) {
+	if err := d.validatePutDiskConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putDiskConfig",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference) ResetDiskConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDiskConfig",
+		nil, // no parameters
+	)
 }
 
 func (d *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference) ResetMachineTypes() {

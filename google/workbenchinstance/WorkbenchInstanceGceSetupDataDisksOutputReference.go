@@ -44,6 +44,9 @@ type WorkbenchInstanceGceSetupDataDisksOutputReference interface {
 	KmsKey() *string
 	SetKmsKey(val *string)
 	KmsKeyInput() *string
+	ResourcePolicies() *[]*string
+	SetResourcePolicies(val *[]*string)
+	ResourcePoliciesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -80,6 +83,7 @@ type WorkbenchInstanceGceSetupDataDisksOutputReference interface {
 	ResetDiskSizeGb()
 	ResetDiskType()
 	ResetKmsKey()
+	ResetResourcePolicies()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -225,6 +229,26 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) KmsKeyInpu
 	return returns
 }
 
+func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) ResourcePolicies() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourcePolicies",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) ResourcePoliciesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourcePoliciesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -346,6 +370,17 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference)SetKmsKey(v
 	_jsii_.Set(
 		j,
 		"kmsKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference)SetResourcePolicies(val *[]*string) {
+	if err := j.validateSetResourcePoliciesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourcePolicies",
 		val,
 	)
 }
@@ -586,6 +621,14 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) ResetKmsKe
 	_jsii_.InvokeVoid(
 		w,
 		"resetKmsKey",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkbenchInstanceGceSetupDataDisksOutputReference) ResetResourcePolicies() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetResourcePolicies",
 		nil, // no parameters
 	)
 }

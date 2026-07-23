@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service}.
 type CloudRunV2Service interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -128,6 +128,9 @@ type CloudRunV2Service interface {
 	Reconciling() cdktn.IResolvable
 	Scaling() CloudRunV2ServiceScalingOutputReference
 	ScalingInput() *CloudRunV2ServiceScaling
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	Template() CloudRunV2ServiceTemplateOutputReference
 	TemplateInput() *CloudRunV2ServiceTemplate
 	TerminalCondition() CloudRunV2ServiceTerminalConditionList
@@ -219,6 +222,7 @@ type CloudRunV2Service interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetScaling()
+	ResetTags()
 	ResetTimeouts()
 	ResetTraffic()
 	SynthesizeAttributes() *map[string]interface{}
@@ -938,6 +942,26 @@ func (j *jsiiProxy_CloudRunV2Service) ScalingInput() *CloudRunV2ServiceScaling {
 	return returns
 }
 
+func (j *jsiiProxy_CloudRunV2Service) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2Service) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudRunV2Service) Template() CloudRunV2ServiceTemplateOutputReference {
 	var returns CloudRunV2ServiceTemplateOutputReference
 	_jsii_.Get(
@@ -1099,7 +1123,7 @@ func (j *jsiiProxy_CloudRunV2Service) Urls() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewCloudRunV2Service(scope constructs.Construct, id *string, config *CloudRunV2ServiceConfig) CloudRunV2Service {
 	_init_.Initialize()
 
@@ -1117,7 +1141,7 @@ func NewCloudRunV2Service(scope constructs.Construct, id *string, config *CloudR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewCloudRunV2Service_Override(c CloudRunV2Service, scope constructs.Construct, id *string, config *CloudRunV2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1379,6 +1403,17 @@ func (j *jsiiProxy_CloudRunV2Service)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2Service)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1969,6 +2004,14 @@ func (c *jsiiProxy_CloudRunV2Service) ResetScaling() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetScaling",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2Service) ResetTags() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTags",
 		nil, // no parameters
 	)
 }

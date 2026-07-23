@@ -9,7 +9,7 @@ type EventarcPipelineLoggingConfig struct {
 	//
 	// Logs at severitiy ≥ this value will be sent, unless it is NONE. Possible values: ["NONE", "DEBUG", "INFO", "NOTICE", "WARNING", "ERROR", "CRITICAL", "ALERT", "EMERGENCY"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/eventarc_pipeline#log_severity EventarcPipeline#log_severity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/eventarc_pipeline#log_severity EventarcPipeline#log_severity}
 	LogSeverity *string `field:"optional" json:"logSeverity" yaml:"logSeverity"`
 }
 

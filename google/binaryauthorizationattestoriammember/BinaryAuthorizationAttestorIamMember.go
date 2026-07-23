@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/binary_authorization_attestor_iam_member google_binary_authorization_attestor_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/binary_authorization_attestor_iam_member google_binary_authorization_attestor_iam_member}.
 type BinaryAuthorizationAttestorIamMember interface {
 	cdktn.TerraformResource
 	Attestor() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_BinaryAuthorizationAttestorIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/binary_authorization_attestor_iam_member google_binary_authorization_attestor_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/binary_authorization_attestor_iam_member google_binary_authorization_attestor_iam_member} Resource.
 func NewBinaryAuthorizationAttestorIamMember(scope constructs.Construct, id *string, config *BinaryAuthorizationAttestorIamMemberConfig) BinaryAuthorizationAttestorIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewBinaryAuthorizationAttestorIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/binary_authorization_attestor_iam_member google_binary_authorization_attestor_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/binary_authorization_attestor_iam_member google_binary_authorization_attestor_iam_member} Resource.
 func NewBinaryAuthorizationAttestorIamMember_Override(b BinaryAuthorizationAttestorIamMember, scope constructs.Construct, id *string, config *BinaryAuthorizationAttestorIamMemberConfig) {
 	_init_.Initialize()
 

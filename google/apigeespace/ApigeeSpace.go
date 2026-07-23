@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_space google_apigee_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_space google_apigee_space}.
 type ApigeeSpace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_ApigeeSpace) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_space google_apigee_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_space google_apigee_space} Resource.
 func NewApigeeSpace(scope constructs.Construct, id *string, config *ApigeeSpaceConfig) ApigeeSpace {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewApigeeSpace(scope constructs.Construct, id *string, config *ApigeeSpaceC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_space google_apigee_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_space google_apigee_space} Resource.
 func NewApigeeSpace_Override(a ApigeeSpace, scope constructs.Construct, id *string, config *ApigeeSpaceConfig) {
 	_init_.Initialize()
 

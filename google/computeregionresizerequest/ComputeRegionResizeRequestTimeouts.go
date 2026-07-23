@@ -5,9 +5,9 @@ package computeregionresizerequest
 
 
 type ComputeRegionResizeRequestTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_resize_request#create ComputeRegionResizeRequest#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_region_resize_request#create ComputeRegionResizeRequest#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_resize_request#delete ComputeRegionResizeRequest#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_region_resize_request#delete ComputeRegionResizeRequest#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

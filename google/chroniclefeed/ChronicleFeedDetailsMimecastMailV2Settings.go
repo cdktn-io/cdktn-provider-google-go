@@ -7,7 +7,7 @@ package chroniclefeed
 type ChronicleFeedDetailsMimecastMailV2Settings struct {
 	// auth_credentials block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#auth_credentials ChronicleFeed#auth_credentials}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_feed#auth_credentials ChronicleFeed#auth_credentials}
 	AuthCredentials *ChronicleFeedDetailsMimecastMailV2SettingsAuthCredentials `field:"optional" json:"authCredentials" yaml:"authCredentials"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_storage_pool google_compute_storage_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_storage_pool google_compute_storage_pool}.
 type ComputeStoragePool interface {
 	cdktn.TerraformResource
 	CapacityProvisioningType() *string
@@ -739,7 +739,7 @@ func (j *jsiiProxy_ComputeStoragePool) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_storage_pool google_compute_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_storage_pool google_compute_storage_pool} Resource.
 func NewComputeStoragePool(scope constructs.Construct, id *string, config *ComputeStoragePoolConfig) ComputeStoragePool {
 	_init_.Initialize()
 
@@ -757,7 +757,7 @@ func NewComputeStoragePool(scope constructs.Construct, id *string, config *Compu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_storage_pool google_compute_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_storage_pool google_compute_storage_pool} Resource.
 func NewComputeStoragePool_Override(c ComputeStoragePool, scope constructs.Construct, id *string, config *ComputeStoragePoolConfig) {
 	_init_.Initialize()
 

@@ -28,9 +28,15 @@ type DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayou
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableGetProcessedDocument() interface{}
+	SetEnableGetProcessedDocument(val interface{})
+	EnableGetProcessedDocumentInput() interface{}
 	EnableImageAnnotation() interface{}
 	SetEnableImageAnnotation(val interface{})
 	EnableImageAnnotationInput() interface{}
+	EnableLlmLayoutParsing() interface{}
+	SetEnableLlmLayoutParsing(val interface{})
+	EnableLlmLayoutParsingInput() interface{}
 	EnableTableAnnotation() interface{}
 	SetEnableTableAnnotation(val interface{})
 	EnableTableAnnotationInput() interface{}
@@ -82,7 +88,9 @@ type DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayou
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetEnableGetProcessedDocument()
 	ResetEnableImageAnnotation()
+	ResetEnableLlmLayoutParsing()
 	ResetEnableTableAnnotation()
 	ResetExcludeHtmlClasses()
 	ResetExcludeHtmlElements()
@@ -133,6 +141,26 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	return returns
 }
 
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) EnableGetProcessedDocument() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableGetProcessedDocument",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) EnableGetProcessedDocumentInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableGetProcessedDocumentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) EnableImageAnnotation() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -148,6 +176,26 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	_jsii_.Get(
 		j,
 		"enableImageAnnotationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) EnableLlmLayoutParsing() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableLlmLayoutParsing",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) EnableLlmLayoutParsingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableLlmLayoutParsingInput",
 		&returns,
 	)
 	return returns
@@ -343,6 +391,17 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	)
 }
 
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference)SetEnableGetProcessedDocument(val interface{}) {
+	if err := j.validateSetEnableGetProcessedDocumentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableGetProcessedDocument",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference)SetEnableImageAnnotation(val interface{}) {
 	if err := j.validateSetEnableImageAnnotationParameters(val); err != nil {
 		panic(err)
@@ -350,6 +409,17 @@ func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	_jsii_.Set(
 		j,
 		"enableImageAnnotation",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference)SetEnableLlmLayoutParsing(val interface{}) {
+	if err := j.validateSetEnableLlmLayoutParsingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableLlmLayoutParsing",
 		val,
 	)
 }
@@ -628,10 +698,26 @@ func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfig
 	return returns
 }
 
+func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) ResetEnableGetProcessedDocument() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEnableGetProcessedDocument",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) ResetEnableImageAnnotation() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetEnableImageAnnotation",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineDataStoreDocumentProcessingConfigParsingConfigOverridesLayoutParsingConfigOutputReference) ResetEnableLlmLayoutParsing() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEnableLlmLayoutParsing",
 		nil, // no parameters
 	)
 }

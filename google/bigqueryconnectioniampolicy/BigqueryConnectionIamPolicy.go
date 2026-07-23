@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy}.
 type BigqueryConnectionIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_BigqueryConnectionIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
 func NewBigqueryConnectionIamPolicy(scope constructs.Construct, id *string, config *BigqueryConnectionIamPolicyConfig) BigqueryConnectionIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewBigqueryConnectionIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_connection_iam_policy google_bigquery_connection_iam_policy} Resource.
 func NewBigqueryConnectionIamPolicy_Override(b BigqueryConnectionIamPolicy, scope constructs.Construct, id *string, config *BigqueryConnectionIamPolicyConfig) {
 	_init_.Initialize()
 

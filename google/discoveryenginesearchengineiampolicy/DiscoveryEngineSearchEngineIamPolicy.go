@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy}.
 type DiscoveryEngineSearchEngineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngineIamPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
 func NewDiscoveryEngineSearchEngineIamPolicy(scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineIamPolicyConfig) DiscoveryEngineSearchEngineIamPolicy {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDiscoveryEngineSearchEngineIamPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
 func NewDiscoveryEngineSearchEngineIamPolicy_Override(d DiscoveryEngineSearchEngineIamPolicy, scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineIamPolicyConfig) {
 	_init_.Initialize()
 

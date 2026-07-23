@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy}.
 type ComputeRegionInstantSnapshotIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ComputeRegionInstantSnapshotIamPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
 func NewComputeRegionInstantSnapshotIamPolicy(scope constructs.Construct, id *string, config *ComputeRegionInstantSnapshotIamPolicyConfig) ComputeRegionInstantSnapshotIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewComputeRegionInstantSnapshotIamPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
 func NewComputeRegionInstantSnapshotIamPolicy_Override(c ComputeRegionInstantSnapshotIamPolicy, scope constructs.Construct, id *string, config *ComputeRegionInstantSnapshotIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -48,6 +48,9 @@ type WorkstationsWorkstationConfigHostGceInstanceOutputReference interface {
 	EnableNestedVirtualizationInput() interface{}
 	// Experimental.
 	Fqn() *string
+	InstanceMetadata() *map[string]*string
+	SetInstanceMetadata(val *map[string]*string)
+	InstanceMetadataInput() *map[string]*string
 	InternalValue() *WorkstationsWorkstationConfigHostGceInstance
 	SetInternalValue(val *WorkstationsWorkstationConfigHostGceInstance)
 	MachineType() *string
@@ -113,6 +116,7 @@ type WorkstationsWorkstationConfigHostGceInstanceOutputReference interface {
 	ResetDisablePublicIpAddresses()
 	ResetDisableSsh()
 	ResetEnableNestedVirtualization()
+	ResetInstanceMetadata()
 	ResetMachineType()
 	ResetPoolSize()
 	ResetServiceAccount()
@@ -310,6 +314,26 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) 
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) InstanceMetadata() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"instanceMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) InstanceMetadataInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"instanceMetadataInput",
 		&returns,
 	)
 	return returns
@@ -575,6 +599,17 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference)S
 	_jsii_.Set(
 		j,
 		"enableNestedVirtualization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference)SetInstanceMetadata(val *map[string]*string) {
+	if err := j.validateSetInstanceMetadataParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"instanceMetadata",
 		val,
 	)
 }
@@ -960,6 +995,14 @@ func (w *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) 
 	_jsii_.InvokeVoid(
 		w,
 		"resetEnableNestedVirtualization",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) ResetInstanceMetadata() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetInstanceMetadata",
 		nil, // no parameters
 	)
 }

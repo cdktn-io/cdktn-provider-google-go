@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vector_search_collection google_vector_search_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vector_search_collection google_vector_search_collection}.
 type VectorSearchCollection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_VectorSearchCollection) VectorSchemaInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vector_search_collection google_vector_search_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vector_search_collection google_vector_search_collection} Resource.
 func NewVectorSearchCollection(scope constructs.Construct, id *string, config *VectorSearchCollectionConfig) VectorSearchCollection {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewVectorSearchCollection(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/vector_search_collection google_vector_search_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vector_search_collection google_vector_search_collection} Resource.
 func NewVectorSearchCollection_Override(v VectorSearchCollection, scope constructs.Construct, id *string, config *VectorSearchCollectionConfig) {
 	_init_.Initialize()
 

@@ -91,6 +91,10 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) validateSetInstanceMetadataParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WorkstationsWorkstationConfigHostGceInstanceOutputReference) validateSetInternalValueParameters(val *WorkstationsWorkstationConfigHostGceInstance) error {
 	return nil
 }

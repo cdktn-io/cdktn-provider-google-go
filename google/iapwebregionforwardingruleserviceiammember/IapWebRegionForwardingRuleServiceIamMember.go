@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member}.
 type IapWebRegionForwardingRuleServiceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_IapWebRegionForwardingRuleServiceIamMember) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
 func NewIapWebRegionForwardingRuleServiceIamMember(scope constructs.Construct, id *string, config *IapWebRegionForwardingRuleServiceIamMemberConfig) IapWebRegionForwardingRuleServiceIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewIapWebRegionForwardingRuleServiceIamMember(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
 func NewIapWebRegionForwardingRuleServiceIamMember_Override(i IapWebRegionForwardingRuleServiceIamMember, scope constructs.Construct, id *string, config *IapWebRegionForwardingRuleServiceIamMemberConfig) {
 	_init_.Initialize()
 

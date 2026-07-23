@@ -54,6 +54,9 @@ type WorkbenchInstanceGceSetupOutputReference interface {
 	Metadata() *map[string]*string
 	SetMetadata(val *map[string]*string)
 	MetadataInput() *map[string]*string
+	MinCpuPlatform() *string
+	SetMinCpuPlatform(val *string)
+	MinCpuPlatformInput() *string
 	NetworkInterfaces() WorkbenchInstanceGceSetupNetworkInterfacesList
 	NetworkInterfacesInput() interface{}
 	ReservationAffinity() WorkbenchInstanceGceSetupReservationAffinityOutputReference
@@ -118,6 +121,7 @@ type WorkbenchInstanceGceSetupOutputReference interface {
 	ResetEnableIpForwarding()
 	ResetMachineType()
 	ResetMetadata()
+	ResetMinCpuPlatform()
 	ResetNetworkInterfaces()
 	ResetReservationAffinity()
 	ResetServiceAccounts()
@@ -369,6 +373,26 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) MetadataInput() *ma
 	return returns
 }
 
+func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) MinCpuPlatform() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatform",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) MinCpuPlatformInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatformInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) NetworkInterfaces() WorkbenchInstanceGceSetupNetworkInterfacesList {
 	var returns WorkbenchInstanceGceSetupNetworkInterfacesList
 	_jsii_.Get(
@@ -610,6 +634,17 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference)SetMetadata(val *map
 	_jsii_.Set(
 		j,
 		"metadata",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference)SetMinCpuPlatform(val *string) {
+	if err := j.validateSetMinCpuPlatformParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minCpuPlatform",
 		val,
 	)
 }
@@ -1011,6 +1046,14 @@ func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) ResetMetadata() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetMetadata",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) ResetMinCpuPlatform() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMinCpuPlatform",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_environment google_chronicle_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_environment google_chronicle_environment}.
 type ChronicleEnvironment interface {
 	cdktn.TerraformResource
 	AliasesJson() *string
@@ -669,7 +669,7 @@ func (j *jsiiProxy_ChronicleEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_environment google_chronicle_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_environment google_chronicle_environment} Resource.
 func NewChronicleEnvironment(scope constructs.Construct, id *string, config *ChronicleEnvironmentConfig) ChronicleEnvironment {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewChronicleEnvironment(scope constructs.Construct, id *string, config *Chr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_environment google_chronicle_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_environment google_chronicle_environment} Resource.
 func NewChronicleEnvironment_Override(c ChronicleEnvironment, scope constructs.Construct, id *string, config *ChronicleEnvironmentConfig) {
 	_init_.Initialize()
 

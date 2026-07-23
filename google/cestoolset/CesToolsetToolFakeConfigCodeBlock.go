@@ -7,7 +7,7 @@ package cestoolset
 type CesToolsetToolFakeConfigCodeBlock struct {
 	// Python code which will be invoked in tool fake mode.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/ces_toolset#python_code CesToolset#python_code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_toolset#python_code CesToolset#python_code}
 	PythonCode *string `field:"required" json:"pythonCode" yaml:"pythonCode"`
 }
 

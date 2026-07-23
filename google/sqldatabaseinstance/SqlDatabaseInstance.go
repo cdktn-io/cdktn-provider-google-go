@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/sql_database_instance google_sql_database_instance}.
 type SqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -70,6 +70,9 @@ type SqlDatabaseInstance interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IncludeReplicasForMajorVersionUpgrade() interface{}
+	SetIncludeReplicasForMajorVersionUpgrade(val interface{})
+	IncludeReplicasForMajorVersionUpgradeInput() interface{}
 	InstanceType() *string
 	SetInstanceType(val *string)
 	InstanceTypeInput() *string
@@ -136,6 +139,9 @@ type SqlDatabaseInstance interface {
 	ServiceAccountEmailAddress() *string
 	Settings() SqlDatabaseInstanceSettingsOutputReference
 	SettingsInput() *SqlDatabaseInstanceSettings
+	SwitchTransactionLogsToCloudStorageEnabled() interface{}
+	SetSwitchTransactionLogsToCloudStorageEnabled(val interface{})
+	SwitchTransactionLogsToCloudStorageEnabledInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -202,6 +208,7 @@ type SqlDatabaseInstance interface {
 	ResetEnforceNewSqlNetworkArchitecture()
 	ResetFinalBackupDescription()
 	ResetId()
+	ResetIncludeReplicasForMajorVersionUpgrade()
 	ResetInstanceType()
 	ResetMaintenanceVersion()
 	ResetMasterInstanceName()
@@ -221,6 +228,7 @@ type SqlDatabaseInstance interface {
 	ResetRootPasswordWo()
 	ResetRootPasswordWoVersion()
 	ResetSettings()
+	ResetSwitchTransactionLogsToCloudStorageEnabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -554,6 +562,26 @@ func (j *jsiiProxy_SqlDatabaseInstance) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) IncludeReplicasForMajorVersionUpgrade() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"includeReplicasForMajorVersionUpgrade",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) IncludeReplicasForMajorVersionUpgradeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"includeReplicasForMajorVersionUpgradeInput",
 		&returns,
 	)
 	return returns
@@ -999,6 +1027,26 @@ func (j *jsiiProxy_SqlDatabaseInstance) SettingsInput() *SqlDatabaseInstanceSett
 	return returns
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) SwitchTransactionLogsToCloudStorageEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"switchTransactionLogsToCloudStorageEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) SwitchTransactionLogsToCloudStorageEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"switchTransactionLogsToCloudStorageEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -1050,7 +1098,7 @@ func (j *jsiiProxy_SqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) SqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1068,7 +1116,7 @@ func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance_Override(s SqlDatabaseInstance, scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1201,6 +1249,17 @@ func (j *jsiiProxy_SqlDatabaseInstance)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance)SetIncludeReplicasForMajorVersionUpgrade(val interface{}) {
+	if err := j.validateSetIncludeReplicasForMajorVersionUpgradeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"includeReplicasForMajorVersionUpgrade",
 		val,
 	)
 }
@@ -1352,6 +1411,17 @@ func (j *jsiiProxy_SqlDatabaseInstance)SetRootPasswordWoVersion(val *string) {
 	_jsii_.Set(
 		j,
 		"rootPasswordWoVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance)SetSwitchTransactionLogsToCloudStorageEnabled(val interface{}) {
+	if err := j.validateSetSwitchTransactionLogsToCloudStorageEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"switchTransactionLogsToCloudStorageEnabled",
 		val,
 	)
 }
@@ -1850,6 +1920,14 @@ func (s *jsiiProxy_SqlDatabaseInstance) ResetId() {
 	)
 }
 
+func (s *jsiiProxy_SqlDatabaseInstance) ResetIncludeReplicasForMajorVersionUpgrade() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetIncludeReplicasForMajorVersionUpgrade",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SqlDatabaseInstance) ResetInstanceType() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1982,6 +2060,14 @@ func (s *jsiiProxy_SqlDatabaseInstance) ResetSettings() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetSettings",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstance) ResetSwitchTransactionLogsToCloudStorageEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSwitchTransactionLogsToCloudStorageEnabled",
 		nil, // no parameters
 	)
 }

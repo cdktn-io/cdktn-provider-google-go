@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_ssl_cert google_sql_ssl_cert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/sql_ssl_cert google_sql_ssl_cert}.
 type SqlSslCert interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -514,7 +514,7 @@ func (j *jsiiProxy_SqlSslCert) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_ssl_cert google_sql_ssl_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/sql_ssl_cert google_sql_ssl_cert} Resource.
 func NewSqlSslCert(scope constructs.Construct, id *string, config *SqlSslCertConfig) SqlSslCert {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewSqlSslCert(scope constructs.Construct, id *string, config *SqlSslCertCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/sql_ssl_cert google_sql_ssl_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/sql_ssl_cert google_sql_ssl_cert} Resource.
 func NewSqlSslCert_Override(s SqlSslCert, scope constructs.Construct, id *string, config *SqlSslCertConfig) {
 	_init_.Initialize()
 

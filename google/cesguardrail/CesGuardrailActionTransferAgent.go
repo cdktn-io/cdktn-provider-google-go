@@ -12,7 +12,7 @@ type CesGuardrailActionTransferAgent struct {
 	// Format:
 	// 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/ces_guardrail#agent CesGuardrail#agent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_guardrail#agent CesGuardrail#agent}
 	Agent *string `field:"required" json:"agent" yaml:"agent"`
 }
 

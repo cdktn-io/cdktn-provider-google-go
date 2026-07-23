@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy}.
 type StorageManagedFolderIamPolicy interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -399,7 +399,7 @@ func (j *jsiiProxy_StorageManagedFolderIamPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy} Resource.
 func NewStorageManagedFolderIamPolicy(scope constructs.Construct, id *string, config *StorageManagedFolderIamPolicyConfig) StorageManagedFolderIamPolicy {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewStorageManagedFolderIamPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy} Resource.
 func NewStorageManagedFolderIamPolicy_Override(s StorageManagedFolderIamPolicy, scope constructs.Construct, id *string, config *StorageManagedFolderIamPolicyConfig) {
 	_init_.Initialize()
 

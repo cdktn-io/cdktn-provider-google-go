@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_sync_authorization google_apigee_sync_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_sync_authorization google_apigee_sync_authorization}.
 type ApigeeSyncAuthorization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_ApigeeSyncAuthorization) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_sync_authorization google_apigee_sync_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_sync_authorization google_apigee_sync_authorization} Resource.
 func NewApigeeSyncAuthorization(scope constructs.Construct, id *string, config *ApigeeSyncAuthorizationConfig) ApigeeSyncAuthorization {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewApigeeSyncAuthorization(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_sync_authorization google_apigee_sync_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_sync_authorization google_apigee_sync_authorization} Resource.
 func NewApigeeSyncAuthorization_Override(a ApigeeSyncAuthorization, scope constructs.Construct, id *string, config *ApigeeSyncAuthorizationConfig) {
 	_init_.Initialize()
 

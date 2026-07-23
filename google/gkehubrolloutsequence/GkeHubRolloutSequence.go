@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gke_hub_rollout_sequence google_gke_hub_rollout_sequence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/gke_hub_rollout_sequence google_gke_hub_rollout_sequence}.
 type GkeHubRolloutSequence interface {
 	cdktn.TerraformResource
 	AutoUpgradeConfig() GkeHubRolloutSequenceAutoUpgradeConfigOutputReference
@@ -621,7 +621,7 @@ func (j *jsiiProxy_GkeHubRolloutSequence) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
 func NewGkeHubRolloutSequence(scope constructs.Construct, id *string, config *GkeHubRolloutSequenceConfig) GkeHubRolloutSequence {
 	_init_.Initialize()
 
@@ -639,7 +639,7 @@ func NewGkeHubRolloutSequence(scope constructs.Construct, id *string, config *Gk
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
 func NewGkeHubRolloutSequence_Override(g GkeHubRolloutSequence, scope constructs.Construct, id *string, config *GkeHubRolloutSequenceConfig) {
 	_init_.Initialize()
 

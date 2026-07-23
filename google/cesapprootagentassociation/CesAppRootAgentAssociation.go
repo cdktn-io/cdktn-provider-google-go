@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association}.
 type CesAppRootAgentAssociation interface {
 	cdktn.TerraformResource
 	AgentId() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_CesAppRootAgentAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
 func NewCesAppRootAgentAssociation(scope constructs.Construct, id *string, config *CesAppRootAgentAssociationConfig) CesAppRootAgentAssociation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewCesAppRootAgentAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
 func NewCesAppRootAgentAssociation_Override(c CesAppRootAgentAssociation, scope constructs.Construct, id *string, config *CesAppRootAgentAssociationConfig) {
 	_init_.Initialize()
 

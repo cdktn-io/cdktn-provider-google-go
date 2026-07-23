@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps}.
 type ApigeeEnvironmentKeyvaluemaps interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ApigeeEnvironmentKeyvaluemaps) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
 func NewApigeeEnvironmentKeyvaluemaps(scope constructs.Construct, id *string, config *ApigeeEnvironmentKeyvaluemapsConfig) ApigeeEnvironmentKeyvaluemaps {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewApigeeEnvironmentKeyvaluemaps(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_environment_keyvaluemaps google_apigee_environment_keyvaluemaps} Resource.
 func NewApigeeEnvironmentKeyvaluemaps_Override(a ApigeeEnvironmentKeyvaluemaps, scope constructs.Construct, id *string, config *ApigeeEnvironmentKeyvaluemapsConfig) {
 	_init_.Initialize()
 

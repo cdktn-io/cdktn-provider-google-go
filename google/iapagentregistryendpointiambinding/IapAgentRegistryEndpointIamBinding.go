@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_agent_registry_endpoint_iam_binding google_iap_agent_registry_endpoint_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_agent_registry_endpoint_iam_binding google_iap_agent_registry_endpoint_iam_binding}.
 type IapAgentRegistryEndpointIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_IapAgentRegistryEndpointIamBinding) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_agent_registry_endpoint_iam_binding google_iap_agent_registry_endpoint_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_agent_registry_endpoint_iam_binding google_iap_agent_registry_endpoint_iam_binding} Resource.
 func NewIapAgentRegistryEndpointIamBinding(scope constructs.Construct, id *string, config *IapAgentRegistryEndpointIamBindingConfig) IapAgentRegistryEndpointIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewIapAgentRegistryEndpointIamBinding(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/iap_agent_registry_endpoint_iam_binding google_iap_agent_registry_endpoint_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/iap_agent_registry_endpoint_iam_binding google_iap_agent_registry_endpoint_iam_binding} Resource.
 func NewIapAgentRegistryEndpointIamBinding_Override(i IapAgentRegistryEndpointIamBinding, scope constructs.Construct, id *string, config *IapAgentRegistryEndpointIamBindingConfig) {
 	_init_.Initialize()
 

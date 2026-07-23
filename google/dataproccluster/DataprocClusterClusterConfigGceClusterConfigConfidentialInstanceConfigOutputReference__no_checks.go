@@ -59,6 +59,10 @@ func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInsta
 	return nil
 }
 
+func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) validateSetConfidentialInstanceTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) validateSetEnableConfidentialComputeParameters(val interface{}) error {
 	return nil
 }

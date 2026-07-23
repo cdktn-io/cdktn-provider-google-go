@@ -7,7 +7,7 @@ package chroniclefeed
 type ChronicleFeedDetailsSymantecEventExportSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsSymantecEventExportSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 }
 

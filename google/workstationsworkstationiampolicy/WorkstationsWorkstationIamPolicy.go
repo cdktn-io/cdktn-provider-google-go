@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/workstations_workstation_iam_policy google_workstations_workstation_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/workstations_workstation_iam_policy google_workstations_workstation_iam_policy}.
 type WorkstationsWorkstationIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_WorkstationsWorkstationIamPolicy) WorkstationIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/workstations_workstation_iam_policy google_workstations_workstation_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/workstations_workstation_iam_policy google_workstations_workstation_iam_policy} Resource.
 func NewWorkstationsWorkstationIamPolicy(scope constructs.Construct, id *string, config *WorkstationsWorkstationIamPolicyConfig) WorkstationsWorkstationIamPolicy {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewWorkstationsWorkstationIamPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.40.0/docs/resources/workstations_workstation_iam_policy google_workstations_workstation_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/workstations_workstation_iam_policy google_workstations_workstation_iam_policy} Resource.
 func NewWorkstationsWorkstationIamPolicy_Override(w WorkstationsWorkstationIamPolicy, scope constructs.Construct, id *string, config *WorkstationsWorkstationIamPolicyConfig) {
 	_init_.Initialize()
 
