@@ -12,7 +12,7 @@ type MigrationCenterAssetsExportJobPerformanceData struct {
 	// The maximum value is 420; values above 420 will be coerced to 420.
 	// If unset (0 value) a default value of 40 will be used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_assets_export_job#max_days MigrationCenterAssetsExportJob#max_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_assets_export_job#max_days MigrationCenterAssetsExportJob#max_days}
 	MaxDays *float64 `field:"optional" json:"maxDays" yaml:"maxDays"`
 }
 

@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiReasoningEngineIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VertexAiReasoningEngineIamBinding) validateOverrideLogicalIdP
 }
 
 func (v *jsiiProxy_VertexAiReasoningEngineIamBinding) validatePutConditionParameters(value *VertexAiReasoningEngineIamBindingCondition) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiReasoningEngineIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

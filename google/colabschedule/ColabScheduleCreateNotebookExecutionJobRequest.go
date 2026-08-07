@@ -7,7 +7,11 @@ package colabschedule
 type ColabScheduleCreateNotebookExecutionJobRequest struct {
 	// notebook_execution_job block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/colab_schedule#notebook_execution_job ColabSchedule#notebook_execution_job}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/colab_schedule#notebook_execution_job ColabSchedule#notebook_execution_job}
 	NotebookExecutionJob *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob `field:"required" json:"notebookExecutionJob" yaml:"notebookExecutionJob"`
+	// The resource name of the Location to create the NotebookExecutionJob. Format: 'projects/{project}/locations/{location}'.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/colab_schedule#parent ColabSchedule#parent}
+	Parent *string `field:"optional" json:"parent" yaml:"parent"`
 }
 

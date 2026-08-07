@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccFolderCustomModule) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_SccFolderCustomModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccFolderCustomModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SccFolderCustomModule) validatePutCustomConfigParameters(valu
 }
 
 func (s *jsiiProxy_SccFolderCustomModule) validatePutTimeoutsParameters(value *SccFolderCustomModuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccFolderCustomModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

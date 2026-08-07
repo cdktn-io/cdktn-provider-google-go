@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeImageIamBinding) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_ComputeImageIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeImageIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeImageIamBinding) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_ComputeImageIamBinding) validatePutConditionParameters(value *ComputeImageIamBindingCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeImageIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

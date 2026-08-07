@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlloydbUser) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (a *jsiiProxy_AlloydbUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlloydbUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AlloydbUser) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (a *jsiiProxy_AlloydbUser) validatePutTimeoutsParameters(value *AlloydbUserTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlloydbUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

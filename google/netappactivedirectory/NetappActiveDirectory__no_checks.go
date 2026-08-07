@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappActiveDirectory) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (n *jsiiProxy_NetappActiveDirectory) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappActiveDirectory) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetappActiveDirectory) validateOverrideLogicalIdParameters(ne
 }
 
 func (n *jsiiProxy_NetappActiveDirectory) validatePutTimeoutsParameters(value *NetappActiveDirectoryTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappActiveDirectory) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

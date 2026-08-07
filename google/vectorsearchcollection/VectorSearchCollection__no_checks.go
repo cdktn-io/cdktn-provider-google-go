@@ -59,6 +59,10 @@ func (v *jsiiProxy_VectorSearchCollection) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VectorSearchCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VectorSearchCollection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VectorSearchCollection) validatePutTimeoutsParameters(value *
 }
 
 func (v *jsiiProxy_VectorSearchCollection) validatePutVectorSchemaParameters(value interface{}) error {
+	return nil
+}
+
+func (v *jsiiProxy_VectorSearchCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

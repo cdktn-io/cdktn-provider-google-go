@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiFeaturestore) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiFeaturestore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiFeaturestore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VertexAiFeaturestore) validatePutOnlineServingConfigParameter
 }
 
 func (v *jsiiProxy_VertexAiFeaturestore) validatePutTimeoutsParameters(value *VertexAiFeaturestoreTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiFeaturestore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MemorystoreInstance) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (m *jsiiProxy_MemorystoreInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MemorystoreInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (m *jsiiProxy_MemorystoreInstance) validatePutTimeoutsParameters(value *Mem
 }
 
 func (m *jsiiProxy_MemorystoreInstance) validatePutZoneDistributionConfigParameters(value *MemorystoreInstanceZoneDistributionConfig) error {
+	return nil
+}
+
+func (m *jsiiProxy_MemorystoreInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

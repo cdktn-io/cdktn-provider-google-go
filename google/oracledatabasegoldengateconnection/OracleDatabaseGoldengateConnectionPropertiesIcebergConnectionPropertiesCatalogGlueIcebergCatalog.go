@@ -7,7 +7,7 @@ package oracledatabasegoldengateconnection
 type OracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogGlueIcebergCatalog struct {
 	// The catalog ID of Glue.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#glue_id OracleDatabaseGoldengateConnection#glue_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/oracle_database_goldengate_connection#glue_id OracleDatabaseGoldengateConnection#glue_id}
 	GlueId *string `field:"required" json:"glueId" yaml:"glueId"`
 }
 

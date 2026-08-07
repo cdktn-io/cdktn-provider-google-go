@@ -47,11 +47,23 @@ func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	return nil
 }
 
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutCustomEnvironmentSpecParameters(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutDataformRepositorySourceParameters(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource) error {
 	return nil
 }
 
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutEncryptionSpecParameters(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutGcsNotebookSourceParameters(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource) error {
+	return nil
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutWorkbenchRuntimeParameters(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime) error {
 	return nil
 }
 
@@ -84,6 +96,14 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 }
 
 func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validateSetInternalValueParameters(val *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob) error {
+	return nil
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validateSetKernelNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validateSetLabelsParameters(val *map[string]*string) error {
 	return nil
 }
 

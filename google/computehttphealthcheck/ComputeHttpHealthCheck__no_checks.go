@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeHttpHealthCheck) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_ComputeHttpHealthCheck) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeHttpHealthCheck) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeHttpHealthCheck) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_ComputeHttpHealthCheck) validatePutTimeoutsParameters(value *ComputeHttpHealthCheckTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeHttpHealthCheck) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

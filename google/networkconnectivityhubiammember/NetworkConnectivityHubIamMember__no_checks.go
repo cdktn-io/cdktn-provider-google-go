@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkConnectivityHubIamMember) validateInterpolationForAttr
 	return nil
 }
 
+func (n *jsiiProxy_NetworkConnectivityHubIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkConnectivityHubIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkConnectivityHubIamMember) validateOverrideLogicalIdPar
 }
 
 func (n *jsiiProxy_NetworkConnectivityHubIamMember) validatePutConditionParameters(value *NetworkConnectivityHubIamMemberCondition) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkConnectivityHubIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GeminiLoggingSettingBinding) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GeminiLoggingSettingBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GeminiLoggingSettingBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GeminiLoggingSettingBinding) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GeminiLoggingSettingBinding) validatePutTimeoutsParameters(value *GeminiLoggingSettingBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GeminiLoggingSettingBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

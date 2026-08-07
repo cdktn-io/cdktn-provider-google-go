@@ -122,6 +122,14 @@ func (i *jsiiProxy_IapTunnelIamMember) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (i *jsiiProxy_IapTunnelIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (i *jsiiProxy_IapTunnelIamMember) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (i *jsiiProxy_IapTunnelIamMember) validatePutConditionParameters(value *Iap
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (i *jsiiProxy_IapTunnelIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

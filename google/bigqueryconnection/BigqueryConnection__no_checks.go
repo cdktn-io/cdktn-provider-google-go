@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigqueryConnection) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (b *jsiiProxy_BigqueryConnection) validatePutSparkParameters(value *Bigquer
 }
 
 func (b *jsiiProxy_BigqueryConnection) validatePutTimeoutsParameters(value *BigqueryConnectionTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApigeeDnsZone) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeDnsZone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeDnsZone) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApigeeDnsZone) validatePutPeeringConfigParameters(value *Apig
 }
 
 func (a *jsiiProxy_ApigeeDnsZone) validatePutTimeoutsParameters(value *ApigeeDnsZoneTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeDnsZone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

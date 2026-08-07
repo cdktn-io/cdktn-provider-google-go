@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppEngineFirewallRule) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (a *jsiiProxy_AppEngineFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppEngineFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppEngineFirewallRule) validateOverrideLogicalIdParameters(ne
 }
 
 func (a *jsiiProxy_AppEngineFirewallRule) validatePutTimeoutsParameters(value *AppEngineFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppEngineFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

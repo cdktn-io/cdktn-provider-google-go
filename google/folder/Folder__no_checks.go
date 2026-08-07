@@ -59,6 +59,10 @@ func (f *jsiiProxy_Folder) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (f *jsiiProxy_Folder) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_Folder) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_Folder) validateOverrideLogicalIdParameters(newLogicalId *str
 }
 
 func (f *jsiiProxy_Folder) validatePutTimeoutsParameters(value *FolderTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_Folder) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

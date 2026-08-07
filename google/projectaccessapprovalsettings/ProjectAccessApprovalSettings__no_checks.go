@@ -59,6 +59,10 @@ func (p *jsiiProxy_ProjectAccessApprovalSettings) validateInterpolationForAttrib
 	return nil
 }
 
+func (p *jsiiProxy_ProjectAccessApprovalSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_ProjectAccessApprovalSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_ProjectAccessApprovalSettings) validatePutEnrolledServicesPar
 }
 
 func (p *jsiiProxy_ProjectAccessApprovalSettings) validatePutTimeoutsParameters(value *ProjectAccessApprovalSettingsTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_ProjectAccessApprovalSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

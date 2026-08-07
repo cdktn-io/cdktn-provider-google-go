@@ -59,6 +59,10 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) validateInterpolationFor
 	return nil
 }
 
+func (b *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) validateOverrideLogicalI
 }
 
 func (b *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) validatePutConditionParameters(value *BeyondcorpSecurityGatewayIamBindingCondition) error {
+	return nil
+}
+
+func (b *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

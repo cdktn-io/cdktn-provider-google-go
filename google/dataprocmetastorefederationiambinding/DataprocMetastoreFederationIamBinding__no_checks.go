@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocMetastoreFederationIamBinding) validateInterpolationF
 	return nil
 }
 
+func (d *jsiiProxy_DataprocMetastoreFederationIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocMetastoreFederationIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataprocMetastoreFederationIamBinding) validateOverrideLogica
 }
 
 func (d *jsiiProxy_DataprocMetastoreFederationIamBinding) validatePutConditionParameters(value *DataprocMetastoreFederationIamBindingCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocMetastoreFederationIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

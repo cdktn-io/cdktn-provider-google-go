@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamWorkforcePoolIamMember) validateInterpolationForAttributeP
 	return nil
 }
 
+func (i *jsiiProxy_IamWorkforcePoolIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamWorkforcePoolIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IamWorkforcePoolIamMember) validateOverrideLogicalIdParameter
 }
 
 func (i *jsiiProxy_IamWorkforcePoolIamMember) validatePutConditionParameters(value *IamWorkforcePoolIamMemberCondition) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamWorkforcePoolIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

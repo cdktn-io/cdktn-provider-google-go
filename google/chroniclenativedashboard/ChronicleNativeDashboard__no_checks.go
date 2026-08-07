@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChronicleNativeDashboard) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleNativeDashboard) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleNativeDashboard) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ChronicleNativeDashboard) validatePutFiltersParameters(value 
 }
 
 func (c *jsiiProxy_ChronicleNativeDashboard) validatePutTimeoutsParameters(value *ChronicleNativeDashboardTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChronicleNativeDashboard) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

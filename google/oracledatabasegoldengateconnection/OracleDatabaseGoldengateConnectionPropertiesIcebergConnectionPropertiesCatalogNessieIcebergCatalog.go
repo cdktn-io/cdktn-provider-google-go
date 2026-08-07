@@ -7,11 +7,11 @@ package oracledatabasegoldengateconnection
 type OracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalogNessieIcebergCatalog struct {
 	// The Nessie branch.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#branch OracleDatabaseGoldengateConnection#branch}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/oracle_database_goldengate_connection#branch OracleDatabaseGoldengateConnection#branch}
 	Branch *string `field:"required" json:"branch" yaml:"branch"`
 	// The Nessie uri.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/oracle_database_goldengate_connection#uri OracleDatabaseGoldengateConnection#uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/oracle_database_goldengate_connection#uri OracleDatabaseGoldengateConnection#uri}
 	Uri *string `field:"required" json:"uri" yaml:"uri"`
 }
 

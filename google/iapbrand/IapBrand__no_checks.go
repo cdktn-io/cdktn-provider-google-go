@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapBrand) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (i *jsiiProxy_IapBrand) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapBrand) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IapBrand) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func (i *jsiiProxy_IapBrand) validatePutTimeoutsParameters(value *IapBrandTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapBrand) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

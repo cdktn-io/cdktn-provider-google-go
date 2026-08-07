@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRegionSslPolicy) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionSslPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionSslPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeRegionSslPolicy) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_ComputeRegionSslPolicy) validatePutTimeoutsParameters(value *ComputeRegionSslPolicyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionSslPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

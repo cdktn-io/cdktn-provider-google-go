@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamWorkforcePoolProviderScimToken) validateInterpolationForAt
 	return nil
 }
 
+func (i *jsiiProxy_IamWorkforcePoolProviderScimToken) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamWorkforcePoolProviderScimToken) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IamWorkforcePoolProviderScimToken) validateOverrideLogicalIdP
 }
 
 func (i *jsiiProxy_IamWorkforcePoolProviderScimToken) validatePutTimeoutsParameters(value *IamWorkforcePoolProviderScimTokenTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamWorkforcePoolProviderScimToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

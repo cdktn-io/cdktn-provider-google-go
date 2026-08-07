@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsEkmConnectionIamBinding) validateInterpolationForAttribute
 	return nil
 }
 
+func (k *jsiiProxy_KmsEkmConnectionIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsEkmConnectionIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KmsEkmConnectionIamBinding) validateOverrideLogicalIdParamete
 }
 
 func (k *jsiiProxy_KmsEkmConnectionIamBinding) validatePutConditionParameters(value *KmsEkmConnectionIamBindingCondition) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsEkmConnectionIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

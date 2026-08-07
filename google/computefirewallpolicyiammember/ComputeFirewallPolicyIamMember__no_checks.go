@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeFirewallPolicyIamMember) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_ComputeFirewallPolicyIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeFirewallPolicyIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeFirewallPolicyIamMember) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_ComputeFirewallPolicyIamMember) validatePutConditionParameters(value *ComputeFirewallPolicyIamMemberCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeFirewallPolicyIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

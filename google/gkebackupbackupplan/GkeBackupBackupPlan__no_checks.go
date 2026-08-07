@@ -59,6 +59,10 @@ func (g *jsiiProxy_GkeBackupBackupPlan) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GkeBackupBackupPlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeBackupBackupPlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GkeBackupBackupPlan) validatePutRetentionPolicyParameters(val
 }
 
 func (g *jsiiProxy_GkeBackupBackupPlan) validatePutTimeoutsParameters(value *GkeBackupBackupPlanTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GkeBackupBackupPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

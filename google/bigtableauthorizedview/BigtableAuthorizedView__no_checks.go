@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigtableAuthorizedView) validateInterpolationForAttributePara
 	return nil
 }
 
+func (b *jsiiProxy_BigtableAuthorizedView) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigtableAuthorizedView) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BigtableAuthorizedView) validatePutSubsetViewParameters(value
 }
 
 func (b *jsiiProxy_BigtableAuthorizedView) validatePutTimeoutsParameters(value *BigtableAuthorizedViewTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigtableAuthorizedView) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

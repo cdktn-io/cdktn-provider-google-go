@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRegionInstantSnapshot) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionInstantSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionInstantSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeRegionInstantSnapshot) validatePutParamsParameters(val
 }
 
 func (c *jsiiProxy_ComputeRegionInstantSnapshot) validatePutTimeoutsParameters(value *ComputeRegionInstantSnapshotTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionInstantSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

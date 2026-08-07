@@ -59,6 +59,10 @@ func (m *jsiiProxy_MigrationCenterImportJob) validateInterpolationForAttributePa
 	return nil
 }
 
+func (m *jsiiProxy_MigrationCenterImportJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MigrationCenterImportJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MigrationCenterImportJob) validateOverrideLogicalIdParameters
 }
 
 func (m *jsiiProxy_MigrationCenterImportJob) validatePutTimeoutsParameters(value *MigrationCenterImportJobTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterImportJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package monitoringuptimecheckconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/monitoringuptimecheckconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/monitoringuptimecheckconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,7 +35,9 @@ type MonitoringUptimeCheckConfigHttpCheckAuthInfoOutputReference interface {
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	PasswordWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetPasswordWo(val *string)
 	PasswordWoInput() *string
 	PasswordWoVersion() *string

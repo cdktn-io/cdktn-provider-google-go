@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeStoragePoolIamMember) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_ComputeStoragePoolIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStoragePoolIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeStoragePoolIamMember) validateOverrideLogicalIdParamet
 }
 
 func (c *jsiiProxy_ComputeStoragePoolIamMember) validatePutConditionParameters(value *ComputeStoragePoolIamMemberCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeStoragePoolIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

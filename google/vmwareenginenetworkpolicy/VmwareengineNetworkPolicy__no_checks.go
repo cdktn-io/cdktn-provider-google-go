@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareengineNetworkPolicy) validateInterpolationForAttributeP
 	return nil
 }
 
+func (v *jsiiProxy_VmwareengineNetworkPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareengineNetworkPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VmwareengineNetworkPolicy) validatePutInternetAccessParameter
 }
 
 func (v *jsiiProxy_VmwareengineNetworkPolicy) validatePutTimeoutsParameters(value *VmwareengineNetworkPolicyTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareengineNetworkPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

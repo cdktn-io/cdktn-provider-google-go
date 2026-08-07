@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppEngineStandardAppVersion) validateInterpolationForAttribut
 	return nil
 }
 
+func (a *jsiiProxy_AppEngineStandardAppVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppEngineStandardAppVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (a *jsiiProxy_AppEngineStandardAppVersion) validatePutTimeoutsParameters(va
 }
 
 func (a *jsiiProxy_AppEngineStandardAppVersion) validatePutVpcAccessConnectorParameters(value *AppEngineStandardAppVersionVpcAccessConnector) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppEngineStandardAppVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

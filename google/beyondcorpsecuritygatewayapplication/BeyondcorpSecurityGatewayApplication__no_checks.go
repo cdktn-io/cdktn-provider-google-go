@@ -59,6 +59,10 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) validateInterpolationFo
 	return nil
 }
 
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) validatePutTimeoutsPara
 }
 
 func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) validatePutUpstreamsParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

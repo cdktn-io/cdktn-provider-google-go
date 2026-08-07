@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsEkmConnection) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (k *jsiiProxy_KmsEkmConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsEkmConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KmsEkmConnection) validatePutServiceResolversParameters(value
 }
 
 func (k *jsiiProxy_KmsEkmConnection) validatePutTimeoutsParameters(value *KmsEkmConnectionTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsEkmConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

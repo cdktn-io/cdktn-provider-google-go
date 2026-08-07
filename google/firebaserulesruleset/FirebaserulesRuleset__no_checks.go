@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirebaserulesRuleset) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (f *jsiiProxy_FirebaserulesRuleset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirebaserulesRuleset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FirebaserulesRuleset) validatePutSourceParameters(value *Fire
 }
 
 func (f *jsiiProxy_FirebaserulesRuleset) validatePutTimeoutsParameters(value *FirebaserulesRulesetTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirebaserulesRuleset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

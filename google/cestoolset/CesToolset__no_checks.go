@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesToolset) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (c *jsiiProxy_CesToolset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_CesToolset) validatePutTimeoutsParameters(value *CesToolsetTi
 }
 
 func (c *jsiiProxy_CesToolset) validatePutToolFakeConfigParameters(value *CesToolsetToolFakeConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesToolset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

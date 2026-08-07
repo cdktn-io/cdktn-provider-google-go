@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArtifactRegistryRule) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_ArtifactRegistryRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArtifactRegistryRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ArtifactRegistryRule) validatePutConditionParameters(value *A
 }
 
 func (a *jsiiProxy_ArtifactRegistryRule) validatePutTimeoutsParameters(value *ArtifactRegistryRuleTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArtifactRegistryRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

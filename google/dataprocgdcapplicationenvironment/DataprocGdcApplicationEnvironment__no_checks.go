@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocGdcApplicationEnvironment) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DataprocGdcApplicationEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocGdcApplicationEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataprocGdcApplicationEnvironment) validatePutSparkApplicatio
 }
 
 func (d *jsiiProxy_DataprocGdcApplicationEnvironment) validatePutTimeoutsParameters(value *DataprocGdcApplicationEnvironmentTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocGdcApplicationEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

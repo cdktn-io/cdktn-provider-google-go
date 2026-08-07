@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApikeysKey) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (a *jsiiProxy_ApikeysKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApikeysKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApikeysKey) validatePutRestrictionsParameters(value *ApikeysK
 }
 
 func (a *jsiiProxy_ApikeysKey) validatePutTimeoutsParameters(value *ApikeysKeyTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApikeysKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

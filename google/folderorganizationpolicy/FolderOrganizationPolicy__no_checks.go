@@ -59,6 +59,10 @@ func (f *jsiiProxy_FolderOrganizationPolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (f *jsiiProxy_FolderOrganizationPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FolderOrganizationPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_FolderOrganizationPolicy) validatePutRestorePolicyParameters(
 }
 
 func (f *jsiiProxy_FolderOrganizationPolicy) validatePutTimeoutsParameters(value *FolderOrganizationPolicyTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FolderOrganizationPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

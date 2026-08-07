@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivatecaCertificate) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (p *jsiiProxy_PrivatecaCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivatecaCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PrivatecaCertificate) validatePutConfigParameters(value *Priv
 }
 
 func (p *jsiiProxy_PrivatecaCertificate) validatePutTimeoutsParameters(value *PrivatecaCertificateTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivatecaCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

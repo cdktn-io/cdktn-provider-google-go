@@ -24,19 +24,19 @@ type ApigeeApiDeploymentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Apigee Environment associated with the Apigee API deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_api_deployment#environment ApigeeApiDeployment#environment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#environment ApigeeApiDeployment#environment}
 	Environment *string `field:"required" json:"environment" yaml:"environment"`
 	// The Apigee Organization associated with the Apigee API deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_api_deployment#org_id ApigeeApiDeployment#org_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#org_id ApigeeApiDeployment#org_id}
 	OrgId *string `field:"required" json:"orgId" yaml:"orgId"`
 	// The Apigee API associated with the Apigee API deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_api_deployment#proxy_id ApigeeApiDeployment#proxy_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#proxy_id ApigeeApiDeployment#proxy_id}
 	ProxyId *string `field:"required" json:"proxyId" yaml:"proxyId"`
 	// The revision of the API proxy to be deployed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_api_deployment#revision ApigeeApiDeployment#revision}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#revision ApigeeApiDeployment#revision}
 	Revision *string `field:"required" json:"revision" yaml:"revision"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -48,11 +48,17 @@ type ApigeeApiDeploymentConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_api_deployment#deletion_policy ApigeeApiDeployment#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#deletion_policy ApigeeApiDeployment#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// The Google Cloud IAM service account to use as the identity for the deployed proxy.
+	//
+	// The format must be '{ACCOUNT_ID}@{PROJECT}.iam.gserviceaccount.com'.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#service_account ApigeeApiDeployment#service_account}
+	ServiceAccount *string `field:"optional" json:"serviceAccount" yaml:"serviceAccount"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/apigee_api_deployment#timeouts ApigeeApiDeployment#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_api_deployment#timeouts ApigeeApiDeployment#timeouts}
 	Timeouts *ApigeeApiDeploymentTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

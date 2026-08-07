@@ -59,6 +59,10 @@ func (d *jsiiProxy_DnsManagedZone) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (d *jsiiProxy_DnsManagedZone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsManagedZone) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (d *jsiiProxy_DnsManagedZone) validatePutPrivateVisibilityConfigParameters(
 }
 
 func (d *jsiiProxy_DnsManagedZone) validatePutTimeoutsParameters(value *DnsManagedZoneTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DnsManagedZone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

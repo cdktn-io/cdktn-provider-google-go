@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceDirectoryNamespaceIamBinding) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_ServiceDirectoryNamespaceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceDirectoryNamespaceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServiceDirectoryNamespaceIamBinding) validateOverrideLogicalI
 }
 
 func (s *jsiiProxy_ServiceDirectoryNamespaceIamBinding) validatePutConditionParameters(value *ServiceDirectoryNamespaceIamBindingCondition) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceDirectoryNamespaceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

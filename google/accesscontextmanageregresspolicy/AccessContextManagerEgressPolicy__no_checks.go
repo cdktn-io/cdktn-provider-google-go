@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessContextManagerEgressPolicy) validateInterpolationForAtt
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerEgressPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerEgressPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AccessContextManagerEgressPolicy) validateOverrideLogicalIdPa
 }
 
 func (a *jsiiProxy_AccessContextManagerEgressPolicy) validatePutTimeoutsParameters(value *AccessContextManagerEgressPolicyTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessContextManagerEgressPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

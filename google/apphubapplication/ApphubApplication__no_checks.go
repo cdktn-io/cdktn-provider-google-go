@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApphubApplication) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (a *jsiiProxy_ApphubApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApphubApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_ApphubApplication) validatePutScopeParameters(value *ApphubAp
 }
 
 func (a *jsiiProxy_ApphubApplication) validatePutTimeoutsParameters(value *ApphubApplicationTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApphubApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManager) validateInterpolationForAt
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionInstanceGroupManager) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionInstanceGroupManager) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManager) validatePutUpdatePolicyPar
 }
 
 func (c *jsiiProxy_ComputeRegionInstanceGroupManager) validatePutVersionParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionInstanceGroupManager) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

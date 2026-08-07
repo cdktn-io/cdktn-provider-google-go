@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventarcEnrollment) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (e *jsiiProxy_EventarcEnrollment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventarcEnrollment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EventarcEnrollment) validateOverrideLogicalIdParameters(newLo
 }
 
 func (e *jsiiProxy_EventarcEnrollment) validatePutTimeoutsParameters(value *EventarcEnrollmentTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventarcEnrollment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

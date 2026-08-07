@@ -59,6 +59,10 @@ func (g *jsiiProxy_GkeBackupRestorePlanIamMember) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GkeBackupRestorePlanIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeBackupRestorePlanIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GkeBackupRestorePlanIamMember) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GkeBackupRestorePlanIamMember) validatePutConditionParameters(value *GkeBackupRestorePlanIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GkeBackupRestorePlanIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

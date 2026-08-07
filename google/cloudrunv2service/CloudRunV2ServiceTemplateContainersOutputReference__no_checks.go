@@ -115,6 +115,10 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersOutputReference) validateSetSandboxLauncherParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2ServiceTemplateContainersOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

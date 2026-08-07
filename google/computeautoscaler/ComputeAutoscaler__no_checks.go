@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeAutoscaler) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (c *jsiiProxy_ComputeAutoscaler) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeAutoscaler) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeAutoscaler) validatePutAutoscalingPolicyParameters(val
 }
 
 func (c *jsiiProxy_ComputeAutoscaler) validatePutTimeoutsParameters(value *ComputeAutoscalerTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeAutoscaler) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

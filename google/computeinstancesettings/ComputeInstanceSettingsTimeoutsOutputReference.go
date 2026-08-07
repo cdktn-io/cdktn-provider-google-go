@@ -5,9 +5,9 @@ package computeinstancesettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computeinstancesettings/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeinstancesettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

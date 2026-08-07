@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoggingLinkedDataset) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (l *jsiiProxy_LoggingLinkedDataset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoggingLinkedDataset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LoggingLinkedDataset) validatePutBigqueryDatasetParameters(va
 }
 
 func (l *jsiiProxy_LoggingLinkedDataset) validatePutTimeoutsParameters(value *LoggingLinkedDatasetTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoggingLinkedDataset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

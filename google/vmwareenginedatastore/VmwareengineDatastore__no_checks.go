@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareengineDatastore) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (v *jsiiProxy_VmwareengineDatastore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareengineDatastore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VmwareengineDatastore) validatePutNfsDatastoreParameters(valu
 }
 
 func (v *jsiiProxy_VmwareengineDatastore) validatePutTimeoutsParameters(value *VmwareengineDatastoreTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareengineDatastore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

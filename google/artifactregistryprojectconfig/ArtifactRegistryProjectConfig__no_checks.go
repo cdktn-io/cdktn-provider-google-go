@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArtifactRegistryProjectConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (a *jsiiProxy_ArtifactRegistryProjectConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArtifactRegistryProjectConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ArtifactRegistryProjectConfig) validatePutPlatformLogsConfigP
 }
 
 func (a *jsiiProxy_ArtifactRegistryProjectConfig) validatePutTimeoutsParameters(value *ArtifactRegistryProjectConfigTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArtifactRegistryProjectConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

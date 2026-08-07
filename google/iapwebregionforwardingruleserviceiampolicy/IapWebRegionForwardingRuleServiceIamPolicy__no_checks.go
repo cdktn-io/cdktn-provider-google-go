@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) validateInterpola
 	return nil
 }
 
+func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) validateMoveToIdP
 }
 
 func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

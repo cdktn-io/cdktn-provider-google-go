@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigtableInstance) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (b *jsiiProxy_BigtableInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigtableInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BigtableInstance) validatePutClusterParameters(value interfac
 }
 
 func (b *jsiiProxy_BigtableInstance) validatePutTimeoutsParameters(value *BigtableInstanceTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigtableInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

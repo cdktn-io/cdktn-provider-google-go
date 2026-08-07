@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeTargetSslProxy) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputeTargetSslProxy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeTargetSslProxy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeTargetSslProxy) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_ComputeTargetSslProxy) validatePutTimeoutsParameters(value *ComputeTargetSslProxyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeTargetSslProxy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

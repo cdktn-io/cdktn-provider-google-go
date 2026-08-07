@@ -122,6 +122,14 @@ func (a *jsiiProxy_ActiveDirectoryDomain) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (a *jsiiProxy_ActiveDirectoryDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ActiveDirectoryDomain) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (a *jsiiProxy_ActiveDirectoryDomain) validatePutTimeoutsParameters(value *A
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ActiveDirectoryDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

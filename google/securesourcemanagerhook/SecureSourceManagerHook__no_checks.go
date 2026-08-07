@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecureSourceManagerHook) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_SecureSourceManagerHook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecureSourceManagerHook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SecureSourceManagerHook) validatePutPushOptionParameters(valu
 }
 
 func (s *jsiiProxy_SecureSourceManagerHook) validatePutTimeoutsParameters(value *SecureSourceManagerHookTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecureSourceManagerHook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

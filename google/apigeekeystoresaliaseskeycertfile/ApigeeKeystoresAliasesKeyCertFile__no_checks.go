@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateInterpolationForAt
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateOverrideLogicalIdP
 }
 
 func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validatePutTimeoutsParameters(value *ApigeeKeystoresAliasesKeyCertFileTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeReservation) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_ComputeReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (c *jsiiProxy_ComputeReservation) validatePutSpecificReservationParameters(
 }
 
 func (c *jsiiProxy_ComputeReservation) validatePutTimeoutsParameters(value *ComputeReservationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

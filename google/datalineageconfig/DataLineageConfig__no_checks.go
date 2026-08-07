@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataLineageConfig) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataLineageConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLineageConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataLineageConfig) validatePutIngestionParameters(value *Data
 }
 
 func (d *jsiiProxy_DataLineageConfig) validatePutTimeoutsParameters(value *DataLineageConfigTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataLineageConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

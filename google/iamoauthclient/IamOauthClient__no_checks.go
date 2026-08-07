@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamOauthClient) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (i *jsiiProxy_IamOauthClient) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamOauthClient) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IamOauthClient) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (i *jsiiProxy_IamOauthClient) validatePutTimeoutsParameters(value *IamOauthClientTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamOauthClient) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

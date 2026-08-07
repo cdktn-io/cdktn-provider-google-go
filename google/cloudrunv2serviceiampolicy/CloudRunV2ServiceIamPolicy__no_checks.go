@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudRunV2ServiceIamPolicy) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2ServiceIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2ServiceIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudRunV2ServiceIamPolicy) validateMoveToIdParameters(id *st
 }
 
 func (c *jsiiProxy_CloudRunV2ServiceIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2ServiceIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

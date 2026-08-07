@@ -122,6 +122,14 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamPolicy) validateInterp
 	return nil
 }
 
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamPolicy) validateMoveTo
 func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BeyondcorpSecurityGatewayApplicationIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

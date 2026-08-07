@@ -59,6 +59,10 @@ func (b *jsiiProxy_BiglakeDatabase) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BiglakeDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BiglakeDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BiglakeDatabase) validatePutHiveOptionsParameters(value *Bigl
 }
 
 func (b *jsiiProxy_BiglakeDatabase) validatePutTimeoutsParameters(value *BiglakeDatabaseTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BiglakeDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

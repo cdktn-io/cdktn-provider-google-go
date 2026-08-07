@@ -59,6 +59,10 @@ func (d *jsiiProxy_DialogflowEncryptionSpec) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowEncryptionSpec) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowEncryptionSpec) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DialogflowEncryptionSpec) validatePutEncryptionSpecParameters
 }
 
 func (d *jsiiProxy_DialogflowEncryptionSpec) validatePutTimeoutsParameters(value *DialogflowEncryptionSpecTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DialogflowEncryptionSpec) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

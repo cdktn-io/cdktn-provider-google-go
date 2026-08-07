@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamFoldersPolicyBinding) validateInterpolationForAttributePar
 	return nil
 }
 
+func (i *jsiiProxy_IamFoldersPolicyBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamFoldersPolicyBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_IamFoldersPolicyBinding) validatePutTargetParameters(value *I
 }
 
 func (i *jsiiProxy_IamFoldersPolicyBinding) validatePutTimeoutsParameters(value *IamFoldersPolicyBindingTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamFoldersPolicyBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

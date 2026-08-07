@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingIamMember) validateInterpolationFo
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryAnalyticsHubListingIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryAnalyticsHubListingIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingIamMember) validateOverrideLogical
 }
 
 func (b *jsiiProxy_BigqueryAnalyticsHubListingIamMember) validatePutConditionParameters(value *BigqueryAnalyticsHubListingIamMemberCondition) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryAnalyticsHubListingIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

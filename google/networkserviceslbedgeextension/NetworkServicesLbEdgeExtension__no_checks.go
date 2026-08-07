@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkServicesLbEdgeExtension) validateInterpolationForAttri
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesLbEdgeExtension) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesLbEdgeExtension) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkServicesLbEdgeExtension) validatePutExtensionChainsPar
 }
 
 func (n *jsiiProxy_NetworkServicesLbEdgeExtension) validatePutTimeoutsParameters(value *NetworkServicesLbEdgeExtensionTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesLbEdgeExtension) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

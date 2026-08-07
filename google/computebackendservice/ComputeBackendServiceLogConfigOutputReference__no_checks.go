@@ -47,6 +47,14 @@ func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validateInterp
 	return nil
 }
 
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validatePutRequestHeadersParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validatePutResponseHeadersParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

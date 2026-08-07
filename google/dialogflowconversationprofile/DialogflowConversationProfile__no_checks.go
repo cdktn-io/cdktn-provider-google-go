@@ -59,6 +59,10 @@ func (d *jsiiProxy_DialogflowConversationProfile) validateInterpolationForAttrib
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowConversationProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowConversationProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (d *jsiiProxy_DialogflowConversationProfile) validatePutTimeoutsParameters(
 }
 
 func (d *jsiiProxy_DialogflowConversationProfile) validatePutTtsConfigParameters(value *DialogflowConversationProfileTtsConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DialogflowConversationProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

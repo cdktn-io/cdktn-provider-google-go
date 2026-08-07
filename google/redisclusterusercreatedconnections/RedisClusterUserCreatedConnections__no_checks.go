@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedisClusterUserCreatedConnections) validateInterpolationForA
 	return nil
 }
 
+func (r *jsiiProxy_RedisClusterUserCreatedConnections) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedisClusterUserCreatedConnections) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RedisClusterUserCreatedConnections) validatePutClusterEndpoin
 }
 
 func (r *jsiiProxy_RedisClusterUserCreatedConnections) validatePutTimeoutsParameters(value *RedisClusterUserCreatedConnectionsTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedisClusterUserCreatedConnections) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

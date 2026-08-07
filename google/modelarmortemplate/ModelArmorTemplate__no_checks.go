@@ -59,6 +59,10 @@ func (m *jsiiProxy_ModelArmorTemplate) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (m *jsiiProxy_ModelArmorTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ModelArmorTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (m *jsiiProxy_ModelArmorTemplate) validatePutTemplateMetadataParameters(val
 }
 
 func (m *jsiiProxy_ModelArmorTemplate) validatePutTimeoutsParameters(value *ModelArmorTemplateTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ModelArmorTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

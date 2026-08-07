@@ -59,6 +59,10 @@ func (p *jsiiProxy_PubsubTopicIamBinding) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (p *jsiiProxy_PubsubTopicIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PubsubTopicIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PubsubTopicIamBinding) validateOverrideLogicalIdParameters(ne
 }
 
 func (p *jsiiProxy_PubsubTopicIamBinding) validatePutConditionParameters(value *PubsubTopicIamBindingCondition) error {
+	return nil
+}
+
+func (p *jsiiProxy_PubsubTopicIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

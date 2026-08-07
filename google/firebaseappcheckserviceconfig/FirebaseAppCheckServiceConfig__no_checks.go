@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirebaseAppCheckServiceConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (f *jsiiProxy_FirebaseAppCheckServiceConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirebaseAppCheckServiceConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FirebaseAppCheckServiceConfig) validateOverrideLogicalIdParam
 }
 
 func (f *jsiiProxy_FirebaseAppCheckServiceConfig) validatePutTimeoutsParameters(value *FirebaseAppCheckServiceConfigTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirebaseAppCheckServiceConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

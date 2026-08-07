@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirebaseRemoteConfigRemoteConfig) validateInterpolationForAtt
 	return nil
 }
 
+func (f *jsiiProxy_FirebaseRemoteConfigRemoteConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirebaseRemoteConfigRemoteConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_FirebaseRemoteConfigRemoteConfig) validatePutParametersParame
 }
 
 func (f *jsiiProxy_FirebaseRemoteConfigRemoteConfig) validatePutTimeoutsParameters(value *FirebaseRemoteConfigRemoteConfigTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirebaseRemoteConfigRemoteConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

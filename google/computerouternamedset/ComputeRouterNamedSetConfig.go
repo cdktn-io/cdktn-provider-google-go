@@ -24,15 +24,15 @@ type ComputeRouterNamedSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Named Set, which must be a resource ID segment and unique within all named sets owned by the Router.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#name ComputeRouterNamedSet#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#name ComputeRouterNamedSet#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The name of the Cloud Router in which this Named Set will be configured.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#router ComputeRouterNamedSet#router}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#router ComputeRouterNamedSet#router}
 	Router *string `field:"required" json:"router" yaml:"router"`
 	// The type of the Named Set. Possible values: ["NAMED_SET_TYPE_PREFIX", "NAMED_SET_TYPE_COMMUNITY"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#type ComputeRouterNamedSet#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#type ComputeRouterNamedSet#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -44,30 +44,30 @@ type ComputeRouterNamedSetConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#deletion_policy ComputeRouterNamedSet#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#deletion_policy ComputeRouterNamedSet#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of the Named Set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#description ComputeRouterNamedSet#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#description ComputeRouterNamedSet#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// elements block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#elements ComputeRouterNamedSet#elements}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#elements ComputeRouterNamedSet#elements}
 	Elements interface{} `field:"optional" json:"elements" yaml:"elements"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#id ComputeRouterNamedSet#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#id ComputeRouterNamedSet#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#project ComputeRouterNamedSet#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#project ComputeRouterNamedSet#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// Region where the router resides.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#region ComputeRouterNamedSet#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#region ComputeRouterNamedSet#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/compute_router_named_set#timeouts ComputeRouterNamedSet#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set#timeouts ComputeRouterNamedSet#timeouts}
 	Timeouts *ComputeRouterNamedSetTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

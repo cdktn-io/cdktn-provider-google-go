@@ -122,6 +122,14 @@ func (c *jsiiProxy_ComputeSubnetworkIamPolicy) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_ComputeSubnetworkIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ComputeSubnetworkIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (c *jsiiProxy_ComputeSubnetworkIamPolicy) validateMoveToIdParameters(id *st
 func (c *jsiiProxy_ComputeSubnetworkIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ComputeSubnetworkIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

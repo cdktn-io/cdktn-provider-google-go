@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeInstanceGroupMembership) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInstanceGroupMembership) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInstanceGroupMembership) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeInstanceGroupMembership) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_ComputeInstanceGroupMembership) validatePutTimeoutsParameters(value *ComputeInstanceGroupMembershipTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeInstanceGroupMembership) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ClouddeployCustomTargetType) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_ClouddeployCustomTargetType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClouddeployCustomTargetType) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ClouddeployCustomTargetType) validatePutTasksParameters(value
 }
 
 func (c *jsiiProxy_ClouddeployCustomTargetType) validatePutTimeoutsParameters(value *ClouddeployCustomTargetTypeTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ClouddeployCustomTargetType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (t *jsiiProxy_TranscoderJobTemplate) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (t *jsiiProxy_TranscoderJobTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TranscoderJobTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (t *jsiiProxy_TranscoderJobTemplate) validatePutConfigParameters(value *Tra
 }
 
 func (t *jsiiProxy_TranscoderJobTemplate) validatePutTimeoutsParameters(value *TranscoderJobTemplateTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TranscoderJobTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

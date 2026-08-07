@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudQuotasQuotaPreference) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CloudQuotasQuotaPreference) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudQuotasQuotaPreference) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudQuotasQuotaPreference) validatePutQuotaConfigParameters(
 }
 
 func (c *jsiiProxy_CloudQuotasQuotaPreference) validatePutTimeoutsParameters(value *CloudQuotasQuotaPreferenceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudQuotasQuotaPreference) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

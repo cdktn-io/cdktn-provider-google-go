@@ -59,6 +59,10 @@ func (p *jsiiProxy_PubsubTopic) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (p *jsiiProxy_PubsubTopic) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PubsubTopic) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (p *jsiiProxy_PubsubTopic) validatePutSchemaSettingsParameters(value *Pubsu
 }
 
 func (p *jsiiProxy_PubsubTopic) validatePutTimeoutsParameters(value *PubsubTopicTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PubsubTopic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatastreamStream) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (d *jsiiProxy_DatastreamStream) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatastreamStream) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (d *jsiiProxy_DatastreamStream) validatePutSourceConfigParameters(value *Da
 }
 
 func (d *jsiiProxy_DatastreamStream) validatePutTimeoutsParameters(value *DatastreamStreamTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatastreamStream) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

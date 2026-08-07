@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeForwardingRule) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputeForwardingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeForwardingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeForwardingRule) validatePutServiceDirectoryRegistratio
 }
 
 func (c *jsiiProxy_ComputeForwardingRule) validatePutTimeoutsParameters(value *ComputeForwardingRuleTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeForwardingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

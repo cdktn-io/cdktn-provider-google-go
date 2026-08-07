@@ -63,6 +63,10 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReferen
 	return nil
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) validatePutNoCacheParameters(value *ArtifactRegistryRepositoryRemoteRepositoryConfigNoCache) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) validatePutNpmRepositoryParameters(value *ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository) error {
 	return nil
 }

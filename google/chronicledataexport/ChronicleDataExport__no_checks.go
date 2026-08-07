@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChronicleDataExport) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleDataExport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleDataExport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ChronicleDataExport) validatePutIngestionLabelsParameters(val
 }
 
 func (c *jsiiProxy_ChronicleDataExport) validatePutTimeoutsParameters(value *ChronicleDataExportTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChronicleDataExport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

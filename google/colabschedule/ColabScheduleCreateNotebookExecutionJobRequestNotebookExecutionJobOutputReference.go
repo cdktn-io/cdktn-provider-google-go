@@ -5,9 +5,9 @@ package colabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/colabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/colabschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -23,16 +23,21 @@ type ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputRef
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CreateTime() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomEnvironmentSpec() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference
+	CustomEnvironmentSpecInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec
 	DataformRepositorySource() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference
 	DataformRepositorySourceInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	EncryptionSpec() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference
+	EncryptionSpecInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec
 	ExecutionTimeout() *string
 	SetExecutionTimeout(val *string)
 	ExecutionTimeoutInput() *string
@@ -48,9 +53,18 @@ type ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputRef
 	GcsOutputUriInput() *string
 	InternalValue() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob
 	SetInternalValue(val *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob)
+	JobState() *string
+	KernelName() *string
+	SetKernelName(val *string)
+	KernelNameInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
+	Name() *string
 	NotebookRuntimeTemplateResourceName() *string
 	SetNotebookRuntimeTemplateResourceName(val *string)
 	NotebookRuntimeTemplateResourceNameInput() *string
+	ScheduleResourceName() *string
 	ServiceAccount() *string
 	SetServiceAccount(val *string)
 	ServiceAccountInput() *string
@@ -62,6 +76,9 @@ type ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputRef
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UpdateTime() *string
+	WorkbenchRuntime() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference
+	WorkbenchRuntimeInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -86,13 +103,22 @@ type ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputRef
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomEnvironmentSpec(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec)
 	PutDataformRepositorySource(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource)
+	PutEncryptionSpec(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec)
 	PutGcsNotebookSource(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource)
+	PutWorkbenchRuntime(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime)
+	ResetCustomEnvironmentSpec()
 	ResetDataformRepositorySource()
+	ResetEncryptionSpec()
 	ResetExecutionTimeout()
 	ResetExecutionUser()
 	ResetGcsNotebookSource()
+	ResetKernelName()
+	ResetLabels()
+	ResetNotebookRuntimeTemplateResourceName()
 	ResetServiceAccount()
+	ResetWorkbenchRuntime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -128,11 +154,41 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	return returns
 }
 
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CustomEnvironmentSpec() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference {
+	var returns ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference
+	_jsii_.Get(
+		j,
+		"customEnvironmentSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CustomEnvironmentSpecInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec {
+	var returns *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec
+	_jsii_.Get(
+		j,
+		"customEnvironmentSpecInput",
 		&returns,
 	)
 	return returns
@@ -173,6 +229,26 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) EncryptionSpec() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference {
+	var returns ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) EncryptionSpecInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec {
+	var returns *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec
+	_jsii_.Get(
+		j,
+		"encryptionSpecInput",
 		&returns,
 	)
 	return returns
@@ -278,6 +354,66 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	return returns
 }
 
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) JobState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"jobState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) KernelName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) KernelNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) NotebookRuntimeTemplateResourceName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -293,6 +429,16 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	_jsii_.Get(
 		j,
 		"notebookRuntimeTemplateResourceNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ScheduleResourceName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scheduleResourceName",
 		&returns,
 	)
 	return returns
@@ -333,6 +479,36 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) UpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) WorkbenchRuntime() ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference {
+	var returns ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference
+	_jsii_.Get(
+		j,
+		"workbenchRuntime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) WorkbenchRuntimeInput() *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime {
+	var returns *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime
+	_jsii_.Get(
+		j,
+		"workbenchRuntimeInput",
 		&returns,
 	)
 	return returns
@@ -439,6 +615,28 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference)SetKernelName(val *string) {
+	if err := j.validateSetKernelNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kernelName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -673,6 +871,17 @@ func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	return returns
 }
 
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutCustomEnvironmentSpec(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec) {
+	if err := c.validatePutCustomEnvironmentSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCustomEnvironmentSpec",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutDataformRepositorySource(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource) {
 	if err := c.validatePutDataformRepositorySourceParameters(value); err != nil {
 		panic(err)
@@ -680,6 +889,17 @@ func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	_jsii_.InvokeVoid(
 		c,
 		"putDataformRepositorySource",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutEncryptionSpec(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec) {
+	if err := c.validatePutEncryptionSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putEncryptionSpec",
 		[]interface{}{value},
 	)
 }
@@ -695,10 +915,37 @@ func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	)
 }
 
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutWorkbenchRuntime(value *ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime) {
+	if err := c.validatePutWorkbenchRuntimeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWorkbenchRuntime",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetCustomEnvironmentSpec() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCustomEnvironmentSpec",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetDataformRepositorySource() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDataformRepositorySource",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetEncryptionSpec() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEncryptionSpec",
 		nil, // no parameters
 	)
 }
@@ -727,10 +974,42 @@ func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecuti
 	)
 }
 
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetKernelName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetKernelName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetLabels() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetNotebookRuntimeTemplateResourceName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNotebookRuntimeTemplateResourceName",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetServiceAccount() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetServiceAccount",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetWorkbenchRuntime() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWorkbenchRuntime",
 		nil, // no parameters
 	)
 }

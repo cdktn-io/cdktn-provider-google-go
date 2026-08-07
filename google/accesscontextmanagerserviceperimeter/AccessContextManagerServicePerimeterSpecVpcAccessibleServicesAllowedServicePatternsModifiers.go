@@ -7,7 +7,7 @@ package accesscontextmanagerserviceperimeter
 type AccessContextManagerServicePerimeterSpecVpcAccessibleServicesAllowedServicePatternsModifiers struct {
 	// add_request_header block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/access_context_manager_service_perimeter#add_request_header AccessContextManagerServicePerimeter#add_request_header}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/access_context_manager_service_perimeter#add_request_header AccessContextManagerServicePerimeter#add_request_header}
 	AddRequestHeader *AccessContextManagerServicePerimeterSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader `field:"optional" json:"addRequestHeader" yaml:"addRequestHeader"`
 }
 

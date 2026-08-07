@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) va
 	return nil
 }
 
+func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) va
 }
 
 func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) validatePutTimeoutsParameters(value *SccManagementOrganizationEventThreatDetectionCustomModuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccManagementOrganizationEventThreatDetectionCustomModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

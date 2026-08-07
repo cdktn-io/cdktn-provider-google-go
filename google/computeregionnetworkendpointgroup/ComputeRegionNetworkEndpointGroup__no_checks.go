@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateInterpolationForAt
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (c *jsiiProxy_ComputeRegionNetworkEndpointGroup) validatePutPscDataParamete
 }
 
 func (c *jsiiProxy_ComputeRegionNetworkEndpointGroup) validatePutTimeoutsParameters(value *ComputeRegionNetworkEndpointGroupTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionNetworkEndpointGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (i *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateInterpolatio
 	return nil
 }
 
+func (i *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateOverrideLogi
 }
 
 func (i *jsiiProxy_IntegrationConnectorsEndpointAttachment) validatePutTimeoutsParameters(value *IntegrationConnectorsEndpointAttachmentTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IntegrationConnectorsEndpointAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

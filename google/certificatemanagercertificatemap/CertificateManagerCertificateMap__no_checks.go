@@ -59,6 +59,10 @@ func (c *jsiiProxy_CertificateManagerCertificateMap) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_CertificateManagerCertificateMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CertificateManagerCertificateMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CertificateManagerCertificateMap) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_CertificateManagerCertificateMap) validatePutTimeoutsParameters(value *CertificateManagerCertificateMapTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CertificateManagerCertificateMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

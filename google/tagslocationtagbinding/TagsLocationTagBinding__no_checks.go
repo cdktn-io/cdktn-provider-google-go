@@ -59,6 +59,10 @@ func (t *jsiiProxy_TagsLocationTagBinding) validateInterpolationForAttributePara
 	return nil
 }
 
+func (t *jsiiProxy_TagsLocationTagBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TagsLocationTagBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TagsLocationTagBinding) validateOverrideLogicalIdParameters(n
 }
 
 func (t *jsiiProxy_TagsLocationTagBinding) validatePutTimeoutsParameters(value *TagsLocationTagBindingTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TagsLocationTagBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

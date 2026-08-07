@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) validateInterpolatio
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (b *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) validateMoveToIdPara
 }
 
 func (b *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryDatapolicyv2DataPolicyIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

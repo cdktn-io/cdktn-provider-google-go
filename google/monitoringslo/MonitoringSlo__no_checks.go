@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitoringSlo) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (m *jsiiProxy_MonitoringSlo) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitoringSlo) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MonitoringSlo) validatePutTimeoutsParameters(value *Monitorin
 }
 
 func (m *jsiiProxy_MonitoringSlo) validatePutWindowsBasedSliParameters(value *MonitoringSloWindowsBasedSli) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitoringSlo) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

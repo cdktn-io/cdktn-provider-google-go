@@ -59,6 +59,10 @@ func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateInter
 	return nil
 }
 
+func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validatePutDe
 }
 
 func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validatePutTimeoutsParameters(value *MemorystoreInstanceDesiredUserCreatedEndpointsTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

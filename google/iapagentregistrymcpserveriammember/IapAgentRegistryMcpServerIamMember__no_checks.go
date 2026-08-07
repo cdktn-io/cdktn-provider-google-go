@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapAgentRegistryMcpServerIamMember) validateInterpolationForA
 	return nil
 }
 
+func (i *jsiiProxy_IapAgentRegistryMcpServerIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapAgentRegistryMcpServerIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IapAgentRegistryMcpServerIamMember) validateOverrideLogicalId
 }
 
 func (i *jsiiProxy_IapAgentRegistryMcpServerIamMember) validatePutConditionParameters(value *IapAgentRegistryMcpServerIamMemberCondition) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapAgentRegistryMcpServerIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

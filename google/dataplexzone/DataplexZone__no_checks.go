@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataplexZone) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (d *jsiiProxy_DataplexZone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexZone) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DataplexZone) validatePutResourceSpecParameters(value *Datapl
 }
 
 func (d *jsiiProxy_DataplexZone) validatePutTimeoutsParameters(value *DataplexZoneTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataplexZone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DialogflowCxEnvironment) validateInterpolationForAttributePar
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowCxEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowCxEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DialogflowCxEnvironment) validatePutTimeoutsParameters(value 
 }
 
 func (d *jsiiProxy_DialogflowCxEnvironment) validatePutVersionConfigsParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DialogflowCxEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

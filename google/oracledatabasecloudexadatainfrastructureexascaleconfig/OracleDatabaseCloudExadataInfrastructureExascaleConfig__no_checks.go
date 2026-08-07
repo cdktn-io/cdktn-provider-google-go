@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) valid
 	return nil
 }
 
+func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) valid
 }
 
 func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) validatePutTimeoutsParameters(value *OracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

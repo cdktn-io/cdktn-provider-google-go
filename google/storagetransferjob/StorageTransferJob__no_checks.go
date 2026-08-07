@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageTransferJob) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_StorageTransferJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageTransferJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (s *jsiiProxy_StorageTransferJob) validatePutScheduleParameters(value *Stor
 }
 
 func (s *jsiiProxy_StorageTransferJob) validatePutTransferSpecParameters(value *StorageTransferJobTransferSpec) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageTransferJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlloydbBackup) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (a *jsiiProxy_AlloydbBackup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlloydbBackup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AlloydbBackup) validatePutEncryptionConfigParameters(value *A
 }
 
 func (a *jsiiProxy_AlloydbBackup) validatePutTimeoutsParameters(value *AlloydbBackupTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlloydbBackup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

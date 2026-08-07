@@ -7,15 +7,15 @@ package containernodepool
 type ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript struct {
 	// The Secret Manager secret URI of the init script.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/container_node_pool#gcp_secret_manager_secret_uri ContainerNodePool#gcp_secret_manager_secret_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/container_node_pool#gcp_secret_manager_secret_uri ContainerNodePool#gcp_secret_manager_secret_uri}
 	GcpSecretManagerSecretUri *string `field:"optional" json:"gcpSecretManagerSecretUri" yaml:"gcpSecretManagerSecretUri"`
 	// The GCS generation of the init script.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/container_node_pool#gcs_generation ContainerNodePool#gcs_generation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/container_node_pool#gcs_generation ContainerNodePool#gcs_generation}
 	GcsGeneration *float64 `field:"optional" json:"gcsGeneration" yaml:"gcsGeneration"`
 	// The GCS URI of the init script.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/container_node_pool#gcs_uri ContainerNodePool#gcs_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/container_node_pool#gcs_uri ContainerNodePool#gcs_uri}
 	GcsUri *string `field:"optional" json:"gcsUri" yaml:"gcsUri"`
 }
 

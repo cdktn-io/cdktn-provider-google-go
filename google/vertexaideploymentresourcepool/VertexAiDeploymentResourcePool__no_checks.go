@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiDeploymentResourcePool) validateInterpolationForAttri
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiDeploymentResourcePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiDeploymentResourcePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VertexAiDeploymentResourcePool) validatePutDedicatedResources
 }
 
 func (v *jsiiProxy_VertexAiDeploymentResourcePool) validatePutTimeoutsParameters(value *VertexAiDeploymentResourcePoolTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiDeploymentResourcePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

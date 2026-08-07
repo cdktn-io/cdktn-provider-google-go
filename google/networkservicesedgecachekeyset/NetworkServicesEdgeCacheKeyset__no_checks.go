@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheKeyset) validateInterpolationForAttri
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesEdgeCacheKeyset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesEdgeCacheKeyset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkServicesEdgeCacheKeyset) validatePutTimeoutsParameters
 }
 
 func (n *jsiiProxy_NetworkServicesEdgeCacheKeyset) validatePutValidationSharedKeysParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesEdgeCacheKeyset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

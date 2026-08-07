@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRouterRoutePolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRouterRoutePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRouterRoutePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeRouterRoutePolicy) validatePutTermsParameters(value in
 }
 
 func (c *jsiiProxy_ComputeRouterRoutePolicy) validatePutTimeoutsParameters(value *ComputeRouterRoutePolicyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRouterRoutePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

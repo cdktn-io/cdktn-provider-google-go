@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataplexGlossaryIamPolicy) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DataplexGlossaryIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexGlossaryIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DataplexGlossaryIamPolicy) validateMoveToIdParameters(id *str
 }
 
 func (d *jsiiProxy_DataplexGlossaryIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataplexGlossaryIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

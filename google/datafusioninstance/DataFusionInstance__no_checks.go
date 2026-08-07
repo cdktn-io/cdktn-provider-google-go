@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFusionInstance) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataFusionInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFusionInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (d *jsiiProxy_DataFusionInstance) validatePutNetworkConfigParameters(value 
 }
 
 func (d *jsiiProxy_DataFusionInstance) validatePutTimeoutsParameters(value *DataFusionInstanceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFusionInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

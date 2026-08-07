@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirebaseAppHostingTraffic) validateInterpolationForAttributeP
 	return nil
 }
 
+func (f *jsiiProxy_FirebaseAppHostingTraffic) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirebaseAppHostingTraffic) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FirebaseAppHostingTraffic) validatePutTargetParameters(value 
 }
 
 func (f *jsiiProxy_FirebaseAppHostingTraffic) validatePutTimeoutsParameters(value *FirebaseAppHostingTrafficTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirebaseAppHostingTraffic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

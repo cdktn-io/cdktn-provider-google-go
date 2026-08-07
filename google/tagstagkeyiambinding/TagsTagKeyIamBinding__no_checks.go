@@ -59,6 +59,10 @@ func (t *jsiiProxy_TagsTagKeyIamBinding) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (t *jsiiProxy_TagsTagKeyIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TagsTagKeyIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TagsTagKeyIamBinding) validateOverrideLogicalIdParameters(new
 }
 
 func (t *jsiiProxy_TagsTagKeyIamBinding) validatePutConditionParameters(value *TagsTagKeyIamBindingCondition) error {
+	return nil
+}
+
+func (t *jsiiProxy_TagsTagKeyIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

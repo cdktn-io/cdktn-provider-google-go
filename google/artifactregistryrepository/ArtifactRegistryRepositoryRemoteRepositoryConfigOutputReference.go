@@ -5,9 +5,9 @@ package artifactregistryrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/artifactregistryrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/artifactregistryrepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,8 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference interface {
 	SetInternalValue(val *ArtifactRegistryRepositoryRemoteRepositoryConfig)
 	MavenRepository() ArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepositoryOutputReference
 	MavenRepositoryInput() *ArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepository
+	NoCache() ArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference
+	NoCacheInput() *ArtifactRegistryRepositoryRemoteRepositoryConfigNoCache
 	NpmRepository() ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepositoryOutputReference
 	NpmRepositoryInput() *ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository
 	PythonRepository() ArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepositoryOutputReference
@@ -90,6 +92,7 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference interface {
 	PutCommonRepository(value *ArtifactRegistryRepositoryRemoteRepositoryConfigCommonRepository)
 	PutDockerRepository(value *ArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepository)
 	PutMavenRepository(value *ArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepository)
+	PutNoCache(value *ArtifactRegistryRepositoryRemoteRepositoryConfigNoCache)
 	PutNpmRepository(value *ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository)
 	PutPythonRepository(value *ArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepository)
 	PutUpstreamCredentials(value *ArtifactRegistryRepositoryRemoteRepositoryConfigUpstreamCredentials)
@@ -100,6 +103,7 @@ type ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference interface {
 	ResetDisableUpstreamValidation()
 	ResetDockerRepository()
 	ResetMavenRepository()
+	ResetNoCache()
 	ResetNpmRepository()
 	ResetPythonRepository()
 	ResetUpstreamCredentials()
@@ -284,6 +288,26 @@ func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReferen
 	_jsii_.Get(
 		j,
 		"mavenRepositoryInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) NoCache() ArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference {
+	var returns ArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference
+	_jsii_.Get(
+		j,
+		"noCache",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) NoCacheInput() *ArtifactRegistryRepositoryRemoteRepositoryConfigNoCache {
+	var returns *ArtifactRegistryRepositoryRemoteRepositoryConfigNoCache
+	_jsii_.Get(
+		j,
+		"noCacheInput",
 		&returns,
 	)
 	return returns
@@ -724,6 +748,17 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReferen
 	)
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) PutNoCache(value *ArtifactRegistryRepositoryRemoteRepositoryConfigNoCache) {
+	if err := a.validatePutNoCacheParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putNoCache",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) PutNpmRepository(value *ArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository) {
 	if err := a.validatePutNpmRepositoryParameters(value); err != nil {
 		panic(err)
@@ -812,6 +847,14 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReferen
 	_jsii_.InvokeVoid(
 		a,
 		"resetMavenRepository",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) ResetNoCache() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetNoCache",
 		nil, // no parameters
 	)
 }

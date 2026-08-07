@@ -122,6 +122,14 @@ func (b *jsiiProxy_BigqueryConnectionIamBinding) validateInterpolationForAttribu
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryConnectionIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryConnectionIamBinding) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (b *jsiiProxy_BigqueryConnectionIamBinding) validatePutConditionParameters(
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryConnectionIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_RecaptchaEnterpriseKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RecaptchaEnterpriseKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutWafSettingsParameters(valu
 }
 
 func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutWebSettingsParameters(value *RecaptchaEnterpriseKeyWebSettings) error {
+	return nil
+}
+
+func (r *jsiiProxy_RecaptchaEnterpriseKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

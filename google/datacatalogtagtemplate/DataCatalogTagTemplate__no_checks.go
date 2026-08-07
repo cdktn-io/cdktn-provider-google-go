@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataCatalogTagTemplate) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DataCatalogTagTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataCatalogTagTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataCatalogTagTemplate) validatePutFieldsParameters(value int
 }
 
 func (d *jsiiProxy_DataCatalogTagTemplate) validatePutTimeoutsParameters(value *DataCatalogTagTemplateTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataCatalogTagTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

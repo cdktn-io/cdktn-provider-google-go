@@ -59,6 +59,10 @@ func (b *jsiiProxy_BillingBudget) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (b *jsiiProxy_BillingBudget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BillingBudget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (b *jsiiProxy_BillingBudget) validatePutThresholdRulesParameters(value inte
 }
 
 func (b *jsiiProxy_BillingBudget) validatePutTimeoutsParameters(value *BillingBudgetTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BillingBudget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateInterpolationForA
 	return nil
 }
 
+func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateOverrideLogicalId
 }
 
 func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validatePutTimeoutsParameters(value *NetworkManagementVpcFlowLogsConfigTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkManagementVpcFlowLogsConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

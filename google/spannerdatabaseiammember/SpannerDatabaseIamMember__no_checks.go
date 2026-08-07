@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpannerDatabaseIamMember) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SpannerDatabaseIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpannerDatabaseIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpannerDatabaseIamMember) validateOverrideLogicalIdParameters
 }
 
 func (s *jsiiProxy_SpannerDatabaseIamMember) validatePutConditionParameters(value *SpannerDatabaseIamMemberCondition) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpannerDatabaseIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

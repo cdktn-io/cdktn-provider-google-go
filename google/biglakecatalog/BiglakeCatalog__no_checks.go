@@ -59,6 +59,10 @@ func (b *jsiiProxy_BiglakeCatalog) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (b *jsiiProxy_BiglakeCatalog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BiglakeCatalog) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BiglakeCatalog) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (b *jsiiProxy_BiglakeCatalog) validatePutTimeoutsParameters(value *BiglakeCatalogTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BiglakeCatalog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

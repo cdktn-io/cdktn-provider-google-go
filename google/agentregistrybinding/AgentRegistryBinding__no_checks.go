@@ -59,6 +59,10 @@ func (a *jsiiProxy_AgentRegistryBinding) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_AgentRegistryBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentRegistryBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (a *jsiiProxy_AgentRegistryBinding) validatePutTargetParameters(value *Agen
 }
 
 func (a *jsiiProxy_AgentRegistryBinding) validatePutTimeoutsParameters(value *AgentRegistryBindingTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AgentRegistryBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

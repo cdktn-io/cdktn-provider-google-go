@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataformTeamFolder) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataformTeamFolder) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataformTeamFolder) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataformTeamFolder) validateOverrideLogicalIdParameters(newLo
 }
 
 func (d *jsiiProxy_DataformTeamFolder) validatePutTimeoutsParameters(value *DataformTeamFolderTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataformTeamFolder) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

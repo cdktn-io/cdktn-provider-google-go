@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeTargetPool) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (c *jsiiProxy_ComputeTargetPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeTargetPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeTargetPool) validateOverrideLogicalIdParameters(newLog
 }
 
 func (c *jsiiProxy_ComputeTargetPool) validatePutTimeoutsParameters(value *ComputeTargetPoolTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeTargetPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsKeyRing) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (k *jsiiProxy_KmsKeyRing) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsKeyRing) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KmsKeyRing) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (k *jsiiProxy_KmsKeyRing) validatePutTimeoutsParameters(value *KmsKeyRingTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsKeyRing) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

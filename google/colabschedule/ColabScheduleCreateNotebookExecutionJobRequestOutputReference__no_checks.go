@@ -67,6 +67,10 @@ func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestOutputReference) validateSetParentParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ColabScheduleCreateNotebookExecutionJobRequestOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

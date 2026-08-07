@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudbuildTrigger) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (c *jsiiProxy_CloudbuildTrigger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudbuildTrigger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (c *jsiiProxy_CloudbuildTrigger) validatePutTriggerTemplateParameters(value
 }
 
 func (c *jsiiProxy_CloudbuildTrigger) validatePutWebhookConfigParameters(value *CloudbuildTriggerWebhookConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudbuildTrigger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

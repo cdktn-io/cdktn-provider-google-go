@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeGlobalAddress) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_ComputeGlobalAddress) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeGlobalAddress) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeGlobalAddress) validateOverrideLogicalIdParameters(new
 }
 
 func (c *jsiiProxy_ComputeGlobalAddress) validatePutTimeoutsParameters(value *ComputeGlobalAddressTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeGlobalAddress) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeDisk) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (c *jsiiProxy_ComputeDisk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeDisk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (c *jsiiProxy_ComputeDisk) validatePutSourceSnapshotEncryptionKeyParameters
 }
 
 func (c *jsiiProxy_ComputeDisk) validatePutTimeoutsParameters(value *ComputeDiskTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeDisk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

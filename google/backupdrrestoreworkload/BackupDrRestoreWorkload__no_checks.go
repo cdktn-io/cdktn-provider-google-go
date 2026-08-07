@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupDrRestoreWorkload) validateInterpolationForAttributePar
 	return nil
 }
 
+func (b *jsiiProxy_BackupDrRestoreWorkload) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupDrRestoreWorkload) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (b *jsiiProxy_BackupDrRestoreWorkload) validatePutRegionDiskTargetEnvironme
 }
 
 func (b *jsiiProxy_BackupDrRestoreWorkload) validatePutTimeoutsParameters(value *BackupDrRestoreWorkloadTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupDrRestoreWorkload) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

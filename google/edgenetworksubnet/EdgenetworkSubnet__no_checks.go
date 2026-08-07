@@ -59,6 +59,10 @@ func (e *jsiiProxy_EdgenetworkSubnet) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (e *jsiiProxy_EdgenetworkSubnet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EdgenetworkSubnet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EdgenetworkSubnet) validateOverrideLogicalIdParameters(newLog
 }
 
 func (e *jsiiProxy_EdgenetworkSubnet) validatePutTimeoutsParameters(value *EdgenetworkSubnetTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EdgenetworkSubnet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplate) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplate) validatePutInspectConfigPa
 }
 
 func (d *jsiiProxy_DataLossPreventionInspectTemplate) validatePutTimeoutsParameters(value *DataLossPreventionInspectTemplateTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

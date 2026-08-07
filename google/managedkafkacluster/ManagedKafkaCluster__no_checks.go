@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedKafkaCluster) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (m *jsiiProxy_ManagedKafkaCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedKafkaCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (m *jsiiProxy_ManagedKafkaCluster) validatePutTimeoutsParameters(value *Man
 }
 
 func (m *jsiiProxy_ManagedKafkaCluster) validatePutTlsConfigParameters(value *ManagedKafkaClusterTlsConfig) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedKafkaCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

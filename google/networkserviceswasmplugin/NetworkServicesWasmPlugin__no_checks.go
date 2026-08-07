@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkServicesWasmPlugin) validateInterpolationForAttributeP
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesWasmPlugin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesWasmPlugin) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkServicesWasmPlugin) validatePutTimeoutsParameters(valu
 }
 
 func (n *jsiiProxy_NetworkServicesWasmPlugin) validatePutVersionsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesWasmPlugin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

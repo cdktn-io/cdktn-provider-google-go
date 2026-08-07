@@ -24,26 +24,26 @@ type VertexAiTensorboardRunConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// User provided name of this TensorboardRun. This value must be unique among all TensorboardRuns belonging to the same parent TensorboardExperiment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#display_name VertexAiTensorboardRun#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#display_name VertexAiTensorboardRun#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The Tensorboard Experiment ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#experiment VertexAiTensorboardRun#experiment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#experiment VertexAiTensorboardRun#experiment}
 	Experiment *string `field:"required" json:"experiment" yaml:"experiment"`
 	// The location of the Tensorboard Run. eg us-central1.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#location VertexAiTensorboardRun#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#location VertexAiTensorboardRun#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The Tensorboard instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#tensorboard VertexAiTensorboardRun#tensorboard}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#tensorboard VertexAiTensorboardRun#tensorboard}
 	Tensorboard *string `field:"required" json:"tensorboard" yaml:"tensorboard"`
 	// The ID to use for the Tensorboard run, which becomes the final component of the Tensorboard run's resource name.
 	//
 	// This value should be 1-128 characters, and valid characters
 	// are '/a-z-/'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#tensorboard_run_id VertexAiTensorboardRun#tensorboard_run_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#tensorboard_run_id VertexAiTensorboardRun#tensorboard_run_id}
 	TensorboardRunId *string `field:"required" json:"tensorboardRunId" yaml:"tensorboardRunId"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -55,13 +55,13 @@ type VertexAiTensorboardRunConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#deletion_policy VertexAiTensorboardRun#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#deletion_policy VertexAiTensorboardRun#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Description of this TensorboardRun.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#description VertexAiTensorboardRun#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#description VertexAiTensorboardRun#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#id VertexAiTensorboardRun#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#id VertexAiTensorboardRun#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,13 +88,13 @@ type VertexAiTensorboardRunConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#labels VertexAiTensorboardRun#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#labels VertexAiTensorboardRun#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#project VertexAiTensorboardRun#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#project VertexAiTensorboardRun#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/vertex_ai_tensorboard_run#timeouts VertexAiTensorboardRun#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_tensorboard_run#timeouts VertexAiTensorboardRun#timeouts}
 	Timeouts *VertexAiTensorboardRunTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

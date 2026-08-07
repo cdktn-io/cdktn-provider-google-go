@@ -95,6 +95,10 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutNetwo
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutNodeReadinessConfigParameters(value *ContainerClusterAddonsConfigNodeReadinessConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutParallelstoreCsiDriverConfigParameters(value *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig) error {
 	return nil
 }

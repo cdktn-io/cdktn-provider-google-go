@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputePreviewFeature) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputePreviewFeature) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputePreviewFeature) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputePreviewFeature) validatePutRolloutOperationParameters(
 }
 
 func (c *jsiiProxy_ComputePreviewFeature) validatePutTimeoutsParameters(value *ComputePreviewFeatureTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputePreviewFeature) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

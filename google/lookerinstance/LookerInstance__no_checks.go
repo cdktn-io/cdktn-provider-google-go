@@ -59,6 +59,10 @@ func (l *jsiiProxy_LookerInstance) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (l *jsiiProxy_LookerInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LookerInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (l *jsiiProxy_LookerInstance) validatePutTimeoutsParameters(value *LookerIn
 }
 
 func (l *jsiiProxy_LookerInstance) validatePutUserMetadataParameters(value *LookerInstanceUserMetadata) error {
+	return nil
+}
+
+func (l *jsiiProxy_LookerInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

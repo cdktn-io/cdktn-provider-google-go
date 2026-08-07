@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageInsightsReportConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_StorageInsightsReportConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageInsightsReportConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_StorageInsightsReportConfig) validatePutParquetOptionsParamet
 }
 
 func (s *jsiiProxy_StorageInsightsReportConfig) validatePutTimeoutsParameters(value *StorageInsightsReportConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageInsightsReportConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

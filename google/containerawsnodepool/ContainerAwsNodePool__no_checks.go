@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAwsNodePool) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAwsNodePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAwsNodePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (c *jsiiProxy_ContainerAwsNodePool) validatePutTimeoutsParameters(value *Co
 }
 
 func (c *jsiiProxy_ContainerAwsNodePool) validatePutUpdateSettingsParameters(value *ContainerAwsNodePoolUpdateSettings) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAwsNodePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

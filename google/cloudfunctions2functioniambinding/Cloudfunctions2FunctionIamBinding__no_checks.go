@@ -59,6 +59,10 @@ func (c *jsiiProxy_Cloudfunctions2FunctionIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (c *jsiiProxy_Cloudfunctions2FunctionIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_Cloudfunctions2FunctionIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_Cloudfunctions2FunctionIamBinding) validateOverrideLogicalIdP
 }
 
 func (c *jsiiProxy_Cloudfunctions2FunctionIamBinding) validatePutConditionParameters(value *Cloudfunctions2FunctionIamBindingCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_Cloudfunctions2FunctionIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

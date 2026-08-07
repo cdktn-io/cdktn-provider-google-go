@@ -59,6 +59,10 @@ func (c *jsiiProxy_ColabRuntime) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (c *jsiiProxy_ColabRuntime) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabRuntime) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ColabRuntime) validatePutNotebookRuntimeTemplateRefParameters
 }
 
 func (c *jsiiProxy_ColabRuntime) validatePutTimeoutsParameters(value *ColabRuntimeTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ColabRuntime) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package computebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/computebackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computebackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,10 @@ type ComputeBackendServiceLogConfigOutputReference interface {
 	OptionalMode() *string
 	SetOptionalMode(val *string)
 	OptionalModeInput() *string
+	RequestHeaders() ComputeBackendServiceLogConfigRequestHeadersList
+	RequestHeadersInput() interface{}
+	ResponseHeaders() ComputeBackendServiceLogConfigResponseHeadersList
+	ResponseHeadersInput() interface{}
 	SampleRate() *float64
 	SetSampleRate(val *float64)
 	SampleRateInput() *float64
@@ -76,9 +80,13 @@ type ComputeBackendServiceLogConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRequestHeaders(value interface{})
+	PutResponseHeaders(value interface{})
 	ResetEnable()
 	ResetOptionalFields()
 	ResetOptionalMode()
+	ResetRequestHeaders()
+	ResetResponseHeaders()
 	ResetSampleRate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +208,46 @@ func (j *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) OptionalModeIn
 	_jsii_.Get(
 		j,
 		"optionalModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) RequestHeaders() ComputeBackendServiceLogConfigRequestHeadersList {
+	var returns ComputeBackendServiceLogConfigRequestHeadersList
+	_jsii_.Get(
+		j,
+		"requestHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) RequestHeadersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requestHeadersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) ResponseHeaders() ComputeBackendServiceLogConfigResponseHeadersList {
+	var returns ComputeBackendServiceLogConfigResponseHeadersList
+	_jsii_.Get(
+		j,
+		"responseHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) ResponseHeadersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"responseHeadersInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +606,28 @@ func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) InterpolationF
 	return returns
 }
 
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) PutRequestHeaders(value interface{}) {
+	if err := c.validatePutRequestHeadersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putRequestHeaders",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) PutResponseHeaders(value interface{}) {
+	if err := c.validatePutResponseHeadersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putResponseHeaders",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) ResetEnable() {
 	_jsii_.InvokeVoid(
 		c,
@@ -578,6 +648,22 @@ func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) ResetOptionalM
 	_jsii_.InvokeVoid(
 		c,
 		"resetOptionalMode",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) ResetRequestHeaders() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRequestHeaders",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) ResetResponseHeaders() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetResponseHeaders",
 		nil, // no parameters
 	)
 }

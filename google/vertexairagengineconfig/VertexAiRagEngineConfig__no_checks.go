@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiRagEngineConfig) validateInterpolationForAttributePar
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiRagEngineConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiRagEngineConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VertexAiRagEngineConfig) validatePutRagManagedDbConfigParamet
 }
 
 func (v *jsiiProxy_VertexAiRagEngineConfig) validatePutTimeoutsParameters(value *VertexAiRagEngineConfigTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiRagEngineConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

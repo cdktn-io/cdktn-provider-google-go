@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcarePipelineJob) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (h *jsiiProxy_HealthcarePipelineJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcarePipelineJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (h *jsiiProxy_HealthcarePipelineJob) validatePutReconciliationPipelineJobPa
 }
 
 func (h *jsiiProxy_HealthcarePipelineJob) validatePutTimeoutsParameters(value *HealthcarePipelineJobTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcarePipelineJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

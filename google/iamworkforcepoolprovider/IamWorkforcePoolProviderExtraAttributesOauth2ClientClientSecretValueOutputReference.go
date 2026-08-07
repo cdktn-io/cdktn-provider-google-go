@@ -5,9 +5,9 @@ package iamworkforcepoolprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/iamworkforcepoolprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iamworkforcepoolprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,7 +35,9 @@ type IamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputR
 	PlainText() *string
 	SetPlainText(val *string)
 	PlainTextInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	PlainTextWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetPlainTextWo(val *string)
 	PlainTextWoInput() *string
 	PlainTextWoVersion() *string

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeTargetHttpProxy) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_ComputeTargetHttpProxy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeTargetHttpProxy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeTargetHttpProxy) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_ComputeTargetHttpProxy) validatePutTimeoutsParameters(value *ComputeTargetHttpProxyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeTargetHttpProxy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

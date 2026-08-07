@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerCluster) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -227,6 +231,10 @@ func (c *jsiiProxy_ContainerCluster) validatePutResourceUsageExportConfigParamet
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutRollbackSafeUpgradeParameters(value *ContainerClusterRollbackSafeUpgrade) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutSecretManagerConfigParameters(value *ContainerClusterSecretManagerConfig) error {
 	return nil
 }
@@ -256,6 +264,10 @@ func (c *jsiiProxy_ContainerCluster) validatePutVerticalPodAutoscalingParameters
 }
 
 func (c *jsiiProxy_ContainerCluster) validatePutWorkloadIdentityConfigParameters(value *ContainerClusterWorkloadIdentityConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -316,6 +328,10 @@ func (j *jsiiProxy_ContainerCluster) validateSetDeletionProtectionParameters(val
 }
 
 func (j *jsiiProxy_ContainerCluster) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetDesiredEmulatedVersionParameters(val *string) error {
 	return nil
 }
 

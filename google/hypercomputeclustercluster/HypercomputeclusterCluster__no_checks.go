@@ -59,6 +59,10 @@ func (h *jsiiProxy_HypercomputeclusterCluster) validateInterpolationForAttribute
 	return nil
 }
 
+func (h *jsiiProxy_HypercomputeclusterCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HypercomputeclusterCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (h *jsiiProxy_HypercomputeclusterCluster) validatePutStorageResourcesParame
 }
 
 func (h *jsiiProxy_HypercomputeclusterCluster) validatePutTimeoutsParameters(value *HypercomputeclusterClusterTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HypercomputeclusterCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

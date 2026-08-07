@@ -59,6 +59,10 @@ func (d *jsiiProxy_DocumentAiProcessor) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DocumentAiProcessor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DocumentAiProcessor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DocumentAiProcessor) validateOverrideLogicalIdParameters(newL
 }
 
 func (d *jsiiProxy_DocumentAiProcessor) validatePutTimeoutsParameters(value *DocumentAiProcessorTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DocumentAiProcessor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

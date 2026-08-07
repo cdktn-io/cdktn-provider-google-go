@@ -29,15 +29,15 @@ type SccV2ProjectMuteConfigConfig struct {
 	// If a filter contains project = X but is created under the
 	// project = Y scope, it might not match any findings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#filter SccV2ProjectMuteConfig#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#filter SccV2ProjectMuteConfig#filter}
 	Filter *string `field:"required" json:"filter" yaml:"filter"`
 	// Unique identifier provided by the client within the parent scope.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#mute_config_id SccV2ProjectMuteConfig#mute_config_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#mute_config_id SccV2ProjectMuteConfig#mute_config_id}
 	MuteConfigId *string `field:"required" json:"muteConfigId" yaml:"muteConfigId"`
 	// The type of the mute config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#type SccV2ProjectMuteConfig#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#type SccV2ProjectMuteConfig#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -49,26 +49,26 @@ type SccV2ProjectMuteConfigConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#deletion_policy SccV2ProjectMuteConfig#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#deletion_policy SccV2ProjectMuteConfig#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A description of the mute config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#description SccV2ProjectMuteConfig#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#description SccV2ProjectMuteConfig#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#id SccV2ProjectMuteConfig#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#id SccV2ProjectMuteConfig#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// location Id is provided by project. If not provided, Use global as default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#location SccV2ProjectMuteConfig#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#location SccV2ProjectMuteConfig#location}
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#project SccV2ProjectMuteConfig#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#project SccV2ProjectMuteConfig#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/scc_v2_project_mute_config#timeouts SccV2ProjectMuteConfig#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/scc_v2_project_mute_config#timeouts SccV2ProjectMuteConfig#timeouts}
 	Timeouts *SccV2ProjectMuteConfigTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

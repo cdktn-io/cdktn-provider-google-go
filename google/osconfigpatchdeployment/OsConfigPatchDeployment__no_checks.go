@@ -59,6 +59,10 @@ func (o *jsiiProxy_OsConfigPatchDeployment) validateInterpolationForAttributePar
 	return nil
 }
 
+func (o *jsiiProxy_OsConfigPatchDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OsConfigPatchDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (o *jsiiProxy_OsConfigPatchDeployment) validatePutRolloutParameters(value *
 }
 
 func (o *jsiiProxy_OsConfigPatchDeployment) validatePutTimeoutsParameters(value *OsConfigPatchDeploymentTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OsConfigPatchDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

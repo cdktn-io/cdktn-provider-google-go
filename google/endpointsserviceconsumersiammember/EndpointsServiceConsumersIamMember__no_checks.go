@@ -59,6 +59,10 @@ func (e *jsiiProxy_EndpointsServiceConsumersIamMember) validateInterpolationForA
 	return nil
 }
 
+func (e *jsiiProxy_EndpointsServiceConsumersIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EndpointsServiceConsumersIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EndpointsServiceConsumersIamMember) validateOverrideLogicalId
 }
 
 func (e *jsiiProxy_EndpointsServiceConsumersIamMember) validatePutConditionParameters(value *EndpointsServiceConsumersIamMemberCondition) error {
+	return nil
+}
+
+func (e *jsiiProxy_EndpointsServiceConsumersIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

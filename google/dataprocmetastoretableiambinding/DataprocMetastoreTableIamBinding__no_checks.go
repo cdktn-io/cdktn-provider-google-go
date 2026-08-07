@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocMetastoreTableIamBinding) validateInterpolationForAtt
 	return nil
 }
 
+func (d *jsiiProxy_DataprocMetastoreTableIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocMetastoreTableIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataprocMetastoreTableIamBinding) validateOverrideLogicalIdPa
 }
 
 func (d *jsiiProxy_DataprocMetastoreTableIamBinding) validatePutConditionParameters(value *DataprocMetastoreTableIamBindingCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocMetastoreTableIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

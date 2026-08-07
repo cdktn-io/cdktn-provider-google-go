@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccSource) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (s *jsiiProxy_SccSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SccSource) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (s *jsiiProxy_SccSource) validatePutTimeoutsParameters(value *SccSourceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

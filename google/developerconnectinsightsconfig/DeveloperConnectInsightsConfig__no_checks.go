@@ -59,6 +59,10 @@ func (d *jsiiProxy_DeveloperConnectInsightsConfig) validateInterpolationForAttri
 	return nil
 }
 
+func (d *jsiiProxy_DeveloperConnectInsightsConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DeveloperConnectInsightsConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DeveloperConnectInsightsConfig) validatePutTargetProjectsPara
 }
 
 func (d *jsiiProxy_DeveloperConnectInsightsConfig) validatePutTimeoutsParameters(value *DeveloperConnectInsightsConfigTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DeveloperConnectInsightsConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

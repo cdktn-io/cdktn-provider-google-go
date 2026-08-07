@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) validateInterpol
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) validateOverride
 }
 
 func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) validatePutTimeoutsParameters(value *NetworkServicesMulticastConsumerAssociationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastConsumerAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

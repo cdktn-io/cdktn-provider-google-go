@@ -122,6 +122,14 @@ func (l *jsiiProxy_LoggingOrganizationExclusion) validateInterpolationForAttribu
 	return nil
 }
 
+func (l *jsiiProxy_LoggingOrganizationExclusion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LoggingOrganizationExclusion) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (l *jsiiProxy_LoggingOrganizationExclusion) validateMoveToIdParameters(id *
 func (l *jsiiProxy_LoggingOrganizationExclusion) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LoggingOrganizationExclusion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

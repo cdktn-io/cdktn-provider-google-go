@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocCluster) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataprocCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DataprocCluster) validatePutTimeoutsParameters(value *Datapro
 }
 
 func (d *jsiiProxy_DataprocCluster) validatePutVirtualClusterConfigParameters(value *DataprocClusterVirtualClusterConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

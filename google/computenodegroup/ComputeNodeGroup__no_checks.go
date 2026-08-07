@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeNodeGroup) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_ComputeNodeGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeNodeGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_ComputeNodeGroup) validatePutShareSettingsParameters(value *C
 }
 
 func (c *jsiiProxy_ComputeNodeGroup) validatePutTimeoutsParameters(value *ComputeNodeGroupTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeNodeGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpannerBackupSchedule) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_SpannerBackupSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpannerBackupSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_SpannerBackupSchedule) validatePutSpecParameters(value *Spann
 }
 
 func (s *jsiiProxy_SpannerBackupSchedule) validatePutTimeoutsParameters(value *SpannerBackupScheduleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpannerBackupSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

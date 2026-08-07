@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivatecaCaPool) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (p *jsiiProxy_PrivatecaCaPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivatecaCaPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (p *jsiiProxy_PrivatecaCaPool) validatePutPublishingOptionsParameters(value
 }
 
 func (p *jsiiProxy_PrivatecaCaPool) validatePutTimeoutsParameters(value *PrivatecaCaPoolTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivatecaCaPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) validateInte
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) validatePutL
 }
 
 func (n *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) validatePutTimeoutsParameters(value *NetworkServicesMulticastGroupConsumerActivationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

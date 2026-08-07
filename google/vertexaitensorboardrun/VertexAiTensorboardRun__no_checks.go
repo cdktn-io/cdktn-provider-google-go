@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiTensorboardRun) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiTensorboardRun) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiTensorboardRun) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VertexAiTensorboardRun) validateOverrideLogicalIdParameters(n
 }
 
 func (v *jsiiProxy_VertexAiTensorboardRun) validatePutTimeoutsParameters(value *VertexAiTensorboardRunTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiTensorboardRun) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

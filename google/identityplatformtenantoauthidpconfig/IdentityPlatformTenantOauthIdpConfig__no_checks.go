@@ -59,6 +59,10 @@ func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) validateInterpolationFo
 	return nil
 }
 
+func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) validateOverrideLogical
 }
 
 func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) validatePutTimeoutsParameters(value *IdentityPlatformTenantOauthIdpConfigTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IdentityPlatformTenantOauthIdpConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

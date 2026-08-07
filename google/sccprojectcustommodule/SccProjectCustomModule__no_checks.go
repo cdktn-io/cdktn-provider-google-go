@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccProjectCustomModule) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_SccProjectCustomModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccProjectCustomModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SccProjectCustomModule) validatePutCustomConfigParameters(val
 }
 
 func (s *jsiiProxy_SccProjectCustomModule) validatePutTimeoutsParameters(value *SccProjectCustomModuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccProjectCustomModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

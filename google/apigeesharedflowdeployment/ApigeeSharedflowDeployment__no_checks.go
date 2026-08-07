@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApigeeSharedflowDeployment) validateInterpolationForAttribute
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeSharedflowDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeSharedflowDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApigeeSharedflowDeployment) validateOverrideLogicalIdParamete
 }
 
 func (a *jsiiProxy_ApigeeSharedflowDeployment) validatePutTimeoutsParameters(value *ApigeeSharedflowDeploymentTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeSharedflowDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

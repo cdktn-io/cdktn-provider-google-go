@@ -59,6 +59,10 @@ func (m *jsiiProxy_MemcacheInstance) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (m *jsiiProxy_MemcacheInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MemcacheInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MemcacheInstance) validatePutNodeConfigParameters(value *Memc
 }
 
 func (m *jsiiProxy_MemcacheInstance) validatePutTimeoutsParameters(value *MemcacheInstanceTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MemcacheInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

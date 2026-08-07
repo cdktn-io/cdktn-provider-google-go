@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeAddress) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (c *jsiiProxy_ComputeAddress) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeAddress) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeAddress) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (c *jsiiProxy_ComputeAddress) validatePutTimeoutsParameters(value *ComputeAddressTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeAddress) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

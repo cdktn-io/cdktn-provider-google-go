@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareConsentStoreIamPolicy) validateInterpolationForAttr
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareConsentStoreIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareConsentStoreIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (h *jsiiProxy_HealthcareConsentStoreIamPolicy) validateMoveToIdParameters(i
 }
 
 func (h *jsiiProxy_HealthcareConsentStoreIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareConsentStoreIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

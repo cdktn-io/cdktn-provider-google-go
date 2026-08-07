@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigtableMaterializedView) validateInterpolationForAttributePa
 	return nil
 }
 
+func (b *jsiiProxy_BigtableMaterializedView) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigtableMaterializedView) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BigtableMaterializedView) validateOverrideLogicalIdParameters
 }
 
 func (b *jsiiProxy_BigtableMaterializedView) validatePutTimeoutsParameters(value *BigtableMaterializedViewTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigtableMaterializedView) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

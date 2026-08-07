@@ -59,6 +59,10 @@ func (b *jsiiProxy_BinaryAuthorizationAttestorIamBinding) validateInterpolationF
 	return nil
 }
 
+func (b *jsiiProxy_BinaryAuthorizationAttestorIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BinaryAuthorizationAttestorIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BinaryAuthorizationAttestorIamBinding) validateOverrideLogica
 }
 
 func (b *jsiiProxy_BinaryAuthorizationAttestorIamBinding) validatePutConditionParameters(value *BinaryAuthorizationAttestorIamBindingCondition) error {
+	return nil
+}
+
+func (b *jsiiProxy_BinaryAuthorizationAttestorIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

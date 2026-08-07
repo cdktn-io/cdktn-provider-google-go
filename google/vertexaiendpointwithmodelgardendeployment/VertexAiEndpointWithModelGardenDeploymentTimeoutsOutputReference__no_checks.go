@@ -79,6 +79,10 @@ func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentTimeoutsOutputRefere
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiEndpointWithModelGardenDeploymentTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewVertexAiEndpointWithModelGardenDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

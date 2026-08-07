@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineCmekConfig) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineCmekConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineCmekConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DiscoveryEngineCmekConfig) validatePutSingleRegionKeysParamet
 }
 
 func (d *jsiiProxy_DiscoveryEngineCmekConfig) validatePutTimeoutsParameters(value *DiscoveryEngineCmekConfigTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineCmekConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

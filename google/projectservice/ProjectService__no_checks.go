@@ -59,6 +59,10 @@ func (p *jsiiProxy_ProjectService) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (p *jsiiProxy_ProjectService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_ProjectService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_ProjectService) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (p *jsiiProxy_ProjectService) validatePutTimeoutsParameters(value *ProjectServiceTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_ProjectService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

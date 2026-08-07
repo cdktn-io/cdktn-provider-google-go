@@ -122,6 +122,14 @@ func (n *jsiiProxy_NetworkServicesWasmPlugin) validateInterpolationForAttributeP
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesWasmPlugin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesWasmPlugin) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -255,6 +263,14 @@ func (n *jsiiProxy_NetworkServicesWasmPlugin) validatePutVersionsParameters(valu
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkServicesWasmPluginVersions; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesWasmPlugin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

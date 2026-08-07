@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContactCenterInsightsQaQuestion) validateInterpolationForAttr
 	return nil
 }
 
+func (c *jsiiProxy_ContactCenterInsightsQaQuestion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContactCenterInsightsQaQuestion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (c *jsiiProxy_ContactCenterInsightsQaQuestion) validatePutTimeoutsParameter
 }
 
 func (c *jsiiProxy_ContactCenterInsightsQaQuestion) validatePutTuningMetadataParameters(value *ContactCenterInsightsQaQuestionTuningMetadata) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContactCenterInsightsQaQuestion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

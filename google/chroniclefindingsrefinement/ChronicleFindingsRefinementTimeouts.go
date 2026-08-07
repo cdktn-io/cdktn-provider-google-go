@@ -5,11 +5,11 @@ package chroniclefindingsrefinement
 
 
 type ChronicleFindingsRefinementTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_findings_refinement#create ChronicleFindingsRefinement#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_findings_refinement#create ChronicleFindingsRefinement#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_findings_refinement#delete ChronicleFindingsRefinement#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_findings_refinement#delete ChronicleFindingsRefinement#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_findings_refinement#update ChronicleFindingsRefinement#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_findings_refinement#update ChronicleFindingsRefinement#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

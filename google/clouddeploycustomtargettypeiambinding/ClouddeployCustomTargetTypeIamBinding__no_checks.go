@@ -59,6 +59,10 @@ func (c *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) validateInterpolationF
 	return nil
 }
 
+func (c *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) validateOverrideLogica
 }
 
 func (c *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) validatePutConditionParameters(value *ClouddeployCustomTargetTypeIamBindingCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

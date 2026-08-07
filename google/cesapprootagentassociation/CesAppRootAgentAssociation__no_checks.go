@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesAppRootAgentAssociation) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CesAppRootAgentAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesAppRootAgentAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CesAppRootAgentAssociation) validateOverrideLogicalIdParamete
 }
 
 func (c *jsiiProxy_CesAppRootAgentAssociation) validatePutTimeoutsParameters(value *CesAppRootAgentAssociationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppRootAgentAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

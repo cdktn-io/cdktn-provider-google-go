@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoggingOrganizationSink) validateInterpolationForAttributePar
 	return nil
 }
 
+func (l *jsiiProxy_LoggingOrganizationSink) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoggingOrganizationSink) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LoggingOrganizationSink) validatePutBigqueryOptionsParameters
 }
 
 func (l *jsiiProxy_LoggingOrganizationSink) validatePutExclusionsParameters(value interface{}) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoggingOrganizationSink) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

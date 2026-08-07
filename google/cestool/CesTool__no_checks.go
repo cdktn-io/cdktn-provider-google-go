@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesTool) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (c *jsiiProxy_CesTool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesTool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (c *jsiiProxy_CesTool) validatePutToolFakeConfigParameters(value *CesToolTo
 }
 
 func (c *jsiiProxy_CesTool) validatePutWidgetToolParameters(value *CesToolWidgetTool) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesTool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

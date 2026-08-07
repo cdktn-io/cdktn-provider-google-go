@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareDicomStoreIamMember) validateInterpolationForAttrib
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareDicomStoreIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareDicomStoreIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_HealthcareDicomStoreIamMember) validateOverrideLogicalIdParam
 }
 
 func (h *jsiiProxy_HealthcareDicomStoreIamMember) validatePutConditionParameters(value *HealthcareDicomStoreIamMemberCondition) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareDicomStoreIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

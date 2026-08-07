@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoggingFolderSink) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (l *jsiiProxy_LoggingFolderSink) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoggingFolderSink) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LoggingFolderSink) validatePutBigqueryOptionsParameters(value
 }
 
 func (l *jsiiProxy_LoggingFolderSink) validatePutExclusionsParameters(value interface{}) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoggingFolderSink) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

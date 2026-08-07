@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupRange) validateInterpolationForA
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesMulticastGroupRange) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesMulticastGroupRange) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkServicesMulticastGroupRange) validatePutLogConfigParam
 }
 
 func (n *jsiiProxy_NetworkServicesMulticastGroupRange) validatePutTimeoutsParameters(value *NetworkServicesMulticastGroupRangeTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkServicesMulticastGroupRange) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

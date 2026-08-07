@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccFolderNotificationConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_SccFolderNotificationConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccFolderNotificationConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SccFolderNotificationConfig) validatePutStreamingConfigParame
 }
 
 func (s *jsiiProxy_SccFolderNotificationConfig) validatePutTimeoutsParameters(value *SccFolderNotificationConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccFolderNotificationConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

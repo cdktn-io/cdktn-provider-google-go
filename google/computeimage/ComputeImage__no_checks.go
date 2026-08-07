@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeImage) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (c *jsiiProxy_ComputeImage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeImage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (c *jsiiProxy_ComputeImage) validatePutSourceSnapshotEncryptionKeyParameter
 }
 
 func (c *jsiiProxy_ComputeImage) validatePutTimeoutsParameters(value *ComputeImageTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeImage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

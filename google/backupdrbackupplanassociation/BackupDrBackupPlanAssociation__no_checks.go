@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupDrBackupPlanAssociation) validateInterpolationForAttrib
 	return nil
 }
 
+func (b *jsiiProxy_BackupDrBackupPlanAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupDrBackupPlanAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BackupDrBackupPlanAssociation) validateOverrideLogicalIdParam
 }
 
 func (b *jsiiProxy_BackupDrBackupPlanAssociation) validatePutTimeoutsParameters(value *BackupDrBackupPlanAssociationTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupDrBackupPlanAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

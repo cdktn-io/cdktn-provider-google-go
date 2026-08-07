@@ -59,6 +59,10 @@ func (c *jsiiProxy_ClouddomainsRegistration) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ClouddomainsRegistration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClouddomainsRegistration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (c *jsiiProxy_ClouddomainsRegistration) validatePutTimeoutsParameters(value
 }
 
 func (c *jsiiProxy_ClouddomainsRegistration) validatePutYearlyPriceParameters(value *ClouddomainsRegistrationYearlyPrice) error {
+	return nil
+}
+
+func (c *jsiiProxy_ClouddomainsRegistration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

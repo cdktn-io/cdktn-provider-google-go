@@ -59,6 +59,10 @@ func (d *jsiiProxy_DialogflowCxWebhook) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowCxWebhook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowCxWebhook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DialogflowCxWebhook) validatePutServiceDirectoryParameters(va
 }
 
 func (d *jsiiProxy_DialogflowCxWebhook) validatePutTimeoutsParameters(value *DialogflowCxWebhookTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DialogflowCxWebhook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineDataStore) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineDataStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineDataStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -87,6 +91,10 @@ func (d *jsiiProxy_DiscoveryEngineDataStore) validatePutTimeoutsParameters(value
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineDataStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDiscoveryEngineDataStore_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -100,6 +108,10 @@ func validateDiscoveryEngineDataStore_IsTerraformElementParameters(x interface{}
 }
 
 func validateDiscoveryEngineDataStore_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineDataStore) validateSetAclEnabledParameters(val interface{}) error {
 	return nil
 }
 

@@ -122,6 +122,14 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateInterpolationForA
 	return nil
 }
 
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateMoveToIdParameter
 func (d *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

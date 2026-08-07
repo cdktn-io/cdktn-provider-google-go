@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocAutoscalingPolicy) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DataprocAutoscalingPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocAutoscalingPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DataprocAutoscalingPolicy) validatePutTimeoutsParameters(valu
 }
 
 func (d *jsiiProxy_DataprocAutoscalingPolicy) validatePutWorkerConfigParameters(value *DataprocAutoscalingPolicyWorkerConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocAutoscalingPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

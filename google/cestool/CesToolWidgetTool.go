@@ -7,27 +7,27 @@ package cestool
 type CesToolWidgetTool struct {
 	// Required. The display name of the widget tool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#name CesTool#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#name CesTool#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// data_mapping block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#data_mapping CesTool#data_mapping}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#data_mapping CesTool#data_mapping}
 	DataMapping *CesToolWidgetToolDataMapping `field:"optional" json:"dataMapping" yaml:"dataMapping"`
 	// Optional. The description of the widget tool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#description CesTool#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#description CesTool#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#parameters CesTool#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#parameters CesTool#parameters}
 	Parameters *CesToolWidgetToolParameters `field:"optional" json:"parameters" yaml:"parameters"`
 	// text_response_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#text_response_config CesTool#text_response_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#text_response_config CesTool#text_response_config}
 	TextResponseConfig *CesToolWidgetToolTextResponseConfig `field:"optional" json:"textResponseConfig" yaml:"textResponseConfig"`
 	// Optional. Configuration for rendering the widget. Represents a JSON object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#ui_config CesTool#ui_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#ui_config CesTool#ui_config}
 	UiConfig *string `field:"optional" json:"uiConfig" yaml:"uiConfig"`
 	// Optional.
 	//
@@ -47,7 +47,7 @@ type CesToolWidgetTool struct {
 	// APPOINTMENT_SCHEDULER
 	// CONTACT_FORM Possible values: ["WIDGET_TYPE_UNSPECIFIED", "CUSTOM", "PRODUCT_CAROUSEL", "PRODUCT_DETAILS", "QUICK_ACTIONS", "PRODUCT_COMPARISON", "ADVANCED_PRODUCT_DETAILS", "SHORT_FORM", "OVERALL_SATISFACTION", "ORDER_SUMMARY", "APPOINTMENT_DETAILS", "APPOINTMENT_SCHEDULER", "CONTACT_FORM"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/ces_tool#widget_type CesTool#widget_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/ces_tool#widget_type CesTool#widget_type}
 	WidgetType *string `field:"optional" json:"widgetType" yaml:"widgetType"`
 }
 

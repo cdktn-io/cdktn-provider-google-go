@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInterconnectAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInterconnectAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ComputeInterconnectAttachment) validatePutParamsParameters(va
 }
 
 func (c *jsiiProxy_ComputeInterconnectAttachment) validatePutTimeoutsParameters(value *ComputeInterconnectAttachmentTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeInterconnectAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

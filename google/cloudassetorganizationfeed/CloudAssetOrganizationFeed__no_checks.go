@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAssetOrganizationFeed) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CloudAssetOrganizationFeed) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAssetOrganizationFeed) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CloudAssetOrganizationFeed) validatePutFeedOutputConfigParame
 }
 
 func (c *jsiiProxy_CloudAssetOrganizationFeed) validatePutTimeoutsParameters(value *CloudAssetOrganizationFeedTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAssetOrganizationFeed) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

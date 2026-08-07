@@ -7,11 +7,11 @@ package biglakeicebergcatalog
 type BiglakeIcebergCatalogFederatedCatalogOptionsRefreshOptions struct {
 	// refresh_schedule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/biglake_iceberg_catalog#refresh_schedule BiglakeIcebergCatalog#refresh_schedule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/biglake_iceberg_catalog#refresh_schedule BiglakeIcebergCatalog#refresh_schedule}
 	RefreshSchedule *BiglakeIcebergCatalogFederatedCatalogOptionsRefreshOptionsRefreshSchedule `field:"optional" json:"refreshSchedule" yaml:"refreshSchedule"`
 	// refresh_scope block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/biglake_iceberg_catalog#refresh_scope BiglakeIcebergCatalog#refresh_scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/biglake_iceberg_catalog#refresh_scope BiglakeIcebergCatalog#refresh_scope}
 	RefreshScope *BiglakeIcebergCatalogFederatedCatalogOptionsRefreshOptionsRefreshScope `field:"optional" json:"refreshScope" yaml:"refreshScope"`
 }
 

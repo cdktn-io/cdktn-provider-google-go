@@ -59,6 +59,10 @@ func (g *jsiiProxy_GeminiReleaseChannelSettingBinding) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GeminiReleaseChannelSettingBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GeminiReleaseChannelSettingBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GeminiReleaseChannelSettingBinding) validateOverrideLogicalId
 }
 
 func (g *jsiiProxy_GeminiReleaseChannelSettingBinding) validatePutTimeoutsParameters(value *GeminiReleaseChannelSettingBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GeminiReleaseChannelSettingBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

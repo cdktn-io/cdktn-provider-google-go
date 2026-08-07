@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputePublicDelegatedPrefix) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ComputePublicDelegatedPrefix) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputePublicDelegatedPrefix) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputePublicDelegatedPrefix) validateOverrideLogicalIdParame
 }
 
 func (c *jsiiProxy_ComputePublicDelegatedPrefix) validatePutTimeoutsParameters(value *ComputePublicDelegatedPrefixTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputePublicDelegatedPrefix) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

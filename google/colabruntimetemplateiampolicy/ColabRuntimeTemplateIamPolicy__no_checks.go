@@ -59,6 +59,10 @@ func (c *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateMoveToIdParameters(id 
 }
 
 func (c *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ColabRuntimeTemplateIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

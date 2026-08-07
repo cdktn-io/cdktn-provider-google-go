@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateInterpolationFo
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutTimeoutsPara
 }
 
 func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validatePutVpcPeeringConnectivityParameters(value *DatabaseMigrationServiceMigrationJobVpcPeeringConnectivity) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatabaseMigrationServiceMigrationJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

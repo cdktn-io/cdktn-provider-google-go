@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsEkmConnectionIamMember) validateInterpolationForAttributeP
 	return nil
 }
 
+func (k *jsiiProxy_KmsEkmConnectionIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsEkmConnectionIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KmsEkmConnectionIamMember) validateOverrideLogicalIdParameter
 }
 
 func (k *jsiiProxy_KmsEkmConnectionIamMember) validatePutConditionParameters(value *KmsEkmConnectionIamMemberCondition) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsEkmConnectionIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

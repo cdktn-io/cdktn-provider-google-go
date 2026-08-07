@@ -122,6 +122,14 @@ func (l *jsiiProxy_LoggingSavedQuery) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (l *jsiiProxy_LoggingSavedQuery) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LoggingSavedQuery) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -235,6 +243,14 @@ func (l *jsiiProxy_LoggingSavedQuery) validatePutTimeoutsParameters(value *Loggi
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LoggingSavedQuery) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

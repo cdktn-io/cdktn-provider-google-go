@@ -59,6 +59,10 @@ func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) validateOverrideLogicalIdP
 }
 
 func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) validatePutTimeoutsParameters(value *DeveloperConnectGitRepositoryLinkTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DeveloperConnectGitRepositoryLink) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

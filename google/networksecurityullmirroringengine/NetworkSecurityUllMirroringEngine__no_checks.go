@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkSecurityUllMirroringEngine) validateInterpolationForAt
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityUllMirroringEngine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityUllMirroringEngine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkSecurityUllMirroringEngine) validateOverrideLogicalIdP
 }
 
 func (n *jsiiProxy_NetworkSecurityUllMirroringEngine) validatePutTimeoutsParameters(value *NetworkSecurityUllMirroringEngineTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkSecurityUllMirroringEngine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateMoveToIdParameters
 }
 
 func (d *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocMetastoreServiceIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

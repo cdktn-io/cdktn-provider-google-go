@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleDatabaseExadbVmCluster) validateInterpolationForAttribu
 	return nil
 }
 
+func (o *jsiiProxy_OracleDatabaseExadbVmCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleDatabaseExadbVmCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OracleDatabaseExadbVmCluster) validatePutPropertiesParameters
 }
 
 func (o *jsiiProxy_OracleDatabaseExadbVmCluster) validatePutTimeoutsParameters(value *OracleDatabaseExadbVmClusterTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleDatabaseExadbVmCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

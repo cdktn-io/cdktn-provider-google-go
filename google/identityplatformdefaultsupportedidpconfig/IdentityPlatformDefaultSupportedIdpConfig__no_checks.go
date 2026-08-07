@@ -59,6 +59,10 @@ func (i *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateInterpolat
 	return nil
 }
 
+func (i *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateOverrideLo
 }
 
 func (i *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validatePutTimeoutsParameters(value *IdentityPlatformDefaultSupportedIdpConfigTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IdentityPlatformDefaultSupportedIdpConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

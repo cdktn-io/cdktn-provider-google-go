@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAnalysisOccurrence) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAnalysisOccurrence) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAnalysisOccurrence) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ContainerAnalysisOccurrence) validatePutAttestationParameters
 }
 
 func (c *jsiiProxy_ContainerAnalysisOccurrence) validatePutTimeoutsParameters(value *ContainerAnalysisOccurrenceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAnalysisOccurrence) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

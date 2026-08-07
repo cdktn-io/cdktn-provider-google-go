@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudRunService) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_CloudRunService) validatePutTimeoutsParameters(value *CloudRu
 }
 
 func (c *jsiiProxy_CloudRunService) validatePutTrafficParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

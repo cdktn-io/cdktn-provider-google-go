@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoggingLogView) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (l *jsiiProxy_LoggingLogView) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoggingLogView) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LoggingLogView) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (l *jsiiProxy_LoggingLogView) validatePutTimeoutsParameters(value *LoggingLogViewTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoggingLogView) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

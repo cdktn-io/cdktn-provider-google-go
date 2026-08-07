@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamOauthClientCredential) validateInterpolationForAttributePa
 	return nil
 }
 
+func (i *jsiiProxy_IamOauthClientCredential) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamOauthClientCredential) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IamOauthClientCredential) validateOverrideLogicalIdParameters
 }
 
 func (i *jsiiProxy_IamOauthClientCredential) validatePutTimeoutsParameters(value *IamOauthClientCredentialTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamOauthClientCredential) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

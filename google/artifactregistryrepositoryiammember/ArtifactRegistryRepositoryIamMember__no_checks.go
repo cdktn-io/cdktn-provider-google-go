@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryIamMember) validateInterpolationFor
 	return nil
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepositoryIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepositoryIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ArtifactRegistryRepositoryIamMember) validateOverrideLogicalI
 }
 
 func (a *jsiiProxy_ArtifactRegistryRepositoryIamMember) validatePutConditionParameters(value *ArtifactRegistryRepositoryIamMemberCondition) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArtifactRegistryRepositoryIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

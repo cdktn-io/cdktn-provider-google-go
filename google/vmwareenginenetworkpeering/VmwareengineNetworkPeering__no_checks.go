@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareengineNetworkPeering) validateInterpolationForAttribute
 	return nil
 }
 
+func (v *jsiiProxy_VmwareengineNetworkPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareengineNetworkPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VmwareengineNetworkPeering) validateOverrideLogicalIdParamete
 }
 
 func (v *jsiiProxy_VmwareengineNetworkPeering) validatePutTimeoutsParameters(value *VmwareengineNetworkPeeringTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareengineNetworkPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (b *jsiiProxy_BiglakeIcebergCatalog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BiglakeIcebergCatalog) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BiglakeIcebergCatalog) validatePutRestrictedLocationsConfigPa
 }
 
 func (b *jsiiProxy_BiglakeIcebergCatalog) validatePutTimeoutsParameters(value *BiglakeIcebergCatalogTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BiglakeIcebergCatalog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

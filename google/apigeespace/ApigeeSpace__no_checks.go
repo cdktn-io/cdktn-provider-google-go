@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApigeeSpace) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeSpace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeSpace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApigeeSpace) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (a *jsiiProxy_ApigeeSpace) validatePutTimeoutsParameters(value *ApigeeSpaceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeSpace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

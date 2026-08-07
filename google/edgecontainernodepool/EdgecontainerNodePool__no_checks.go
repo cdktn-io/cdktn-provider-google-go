@@ -59,6 +59,10 @@ func (e *jsiiProxy_EdgecontainerNodePool) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (e *jsiiProxy_EdgecontainerNodePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EdgecontainerNodePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_EdgecontainerNodePool) validatePutNodeConfigParameters(value 
 }
 
 func (e *jsiiProxy_EdgecontainerNodePool) validatePutTimeoutsParameters(value *EdgecontainerNodePoolTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EdgecontainerNodePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

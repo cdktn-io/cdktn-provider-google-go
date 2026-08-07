@@ -5,7 +5,7 @@ package datagoogleartifactregistryfile
 
 
 type DataGoogleArtifactRegistryFileTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/data-sources/artifact_registry_file#read DataGoogleArtifactRegistryFile#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/data-sources/artifact_registry_file#read DataGoogleArtifactRegistryFile#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

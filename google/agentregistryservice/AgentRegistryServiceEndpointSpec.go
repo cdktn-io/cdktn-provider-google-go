@@ -7,7 +7,7 @@ package agentregistryservice
 type AgentRegistryServiceEndpointSpec struct {
 	// The type of the Endpoint spec content. Possible values: ["NO_SPEC"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/agent_registry_service#type AgentRegistryService#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/agent_registry_service#type AgentRegistryService#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

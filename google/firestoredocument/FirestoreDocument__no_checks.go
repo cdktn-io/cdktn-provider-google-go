@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirestoreDocument) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (f *jsiiProxy_FirestoreDocument) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirestoreDocument) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FirestoreDocument) validateOverrideLogicalIdParameters(newLog
 }
 
 func (f *jsiiProxy_FirestoreDocument) validatePutTimeoutsParameters(value *FirestoreDocumentTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirestoreDocument) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

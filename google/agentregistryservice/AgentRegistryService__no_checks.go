@@ -59,6 +59,10 @@ func (a *jsiiProxy_AgentRegistryService) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_AgentRegistryService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentRegistryService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (a *jsiiProxy_AgentRegistryService) validatePutMcpServerSpecParameters(valu
 }
 
 func (a *jsiiProxy_AgentRegistryService) validatePutTimeoutsParameters(value *AgentRegistryServiceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AgentRegistryService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

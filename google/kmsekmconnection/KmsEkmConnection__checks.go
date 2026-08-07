@@ -122,6 +122,14 @@ func (k *jsiiProxy_KmsEkmConnection) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (k *jsiiProxy_KmsEkmConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (k *jsiiProxy_KmsEkmConnection) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (k *jsiiProxy_KmsEkmConnection) validatePutTimeoutsParameters(value *KmsEkm
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (k *jsiiProxy_KmsEkmConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

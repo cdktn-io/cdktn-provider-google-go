@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesAgent) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (c *jsiiProxy_CesAgent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesAgent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (c *jsiiProxy_CesAgent) validatePutTimeoutsParameters(value *CesAgentTimeou
 }
 
 func (c *jsiiProxy_CesAgent) validatePutToolsetsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAgent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

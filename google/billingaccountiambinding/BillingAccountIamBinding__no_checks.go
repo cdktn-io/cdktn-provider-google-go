@@ -59,6 +59,10 @@ func (b *jsiiProxy_BillingAccountIamBinding) validateInterpolationForAttributePa
 	return nil
 }
 
+func (b *jsiiProxy_BillingAccountIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BillingAccountIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BillingAccountIamBinding) validateOverrideLogicalIdParameters
 }
 
 func (b *jsiiProxy_BillingAccountIamBinding) validatePutConditionParameters(value *BillingAccountIamBindingCondition) error {
+	return nil
+}
+
+func (b *jsiiProxy_BillingAccountIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

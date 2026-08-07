@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkConnectivitySpoke) validateInterpolationForAttributePa
 	return nil
 }
 
+func (n *jsiiProxy_NetworkConnectivitySpoke) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkConnectivitySpoke) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (n *jsiiProxy_NetworkConnectivitySpoke) validateMoveToIdParameters(id *stri
 }
 
 func (n *jsiiProxy_NetworkConnectivitySpoke) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkConnectivitySpoke) validatePutGatewayParameters(value *NetworkConnectivitySpokeGateway) error {
 	return nil
 }
 
@@ -96,6 +104,10 @@ func (n *jsiiProxy_NetworkConnectivitySpoke) validatePutLinkedVpnTunnelsParamete
 }
 
 func (n *jsiiProxy_NetworkConnectivitySpoke) validatePutTimeoutsParameters(value *NetworkConnectivitySpokeTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkConnectivitySpoke) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

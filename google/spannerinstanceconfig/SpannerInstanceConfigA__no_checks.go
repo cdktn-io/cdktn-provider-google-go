@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpannerInstanceConfigA) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_SpannerInstanceConfigA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpannerInstanceConfigA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SpannerInstanceConfigA) validatePutReplicasParameters(value i
 }
 
 func (s *jsiiProxy_SpannerInstanceConfigA) validatePutTimeoutsParameters(value *SpannerInstanceConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpannerInstanceConfigA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

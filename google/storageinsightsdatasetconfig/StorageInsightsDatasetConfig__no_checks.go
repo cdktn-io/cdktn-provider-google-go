@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageInsightsDatasetConfig) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_StorageInsightsDatasetConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageInsightsDatasetConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (s *jsiiProxy_StorageInsightsDatasetConfig) validatePutSourceProjectsParame
 }
 
 func (s *jsiiProxy_StorageInsightsDatasetConfig) validatePutTimeoutsParameters(value *StorageInsightsDatasetConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageInsightsDatasetConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

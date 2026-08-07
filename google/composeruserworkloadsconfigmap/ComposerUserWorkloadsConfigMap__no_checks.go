@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComposerUserWorkloadsConfigMap) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_ComposerUserWorkloadsConfigMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComposerUserWorkloadsConfigMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComposerUserWorkloadsConfigMap) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_ComposerUserWorkloadsConfigMap) validatePutTimeoutsParameters(value *ComposerUserWorkloadsConfigMapTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComposerUserWorkloadsConfigMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

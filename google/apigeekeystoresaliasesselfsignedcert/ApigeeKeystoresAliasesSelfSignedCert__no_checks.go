@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateInterpolationFo
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validatePutSubjectAlter
 }
 
 func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validatePutTimeoutsParameters(value *ApigeeKeystoresAliasesSelfSignedCertTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeKeystoresAliasesSelfSignedCert) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

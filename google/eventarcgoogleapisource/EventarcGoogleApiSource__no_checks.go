@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventarcGoogleApiSource) validateInterpolationForAttributePar
 	return nil
 }
 
+func (e *jsiiProxy_EventarcGoogleApiSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventarcGoogleApiSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EventarcGoogleApiSource) validatePutLoggingConfigParameters(v
 }
 
 func (e *jsiiProxy_EventarcGoogleApiSource) validatePutTimeoutsParameters(value *EventarcGoogleApiSourceTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventarcGoogleApiSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

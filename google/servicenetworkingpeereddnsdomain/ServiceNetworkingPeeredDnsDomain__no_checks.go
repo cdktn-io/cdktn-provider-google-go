@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateOverrideLogicalIdPa
 }
 
 func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validatePutTimeoutsParameters(value *ServiceNetworkingPeeredDnsDomainTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceNetworkingPeeredDnsDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

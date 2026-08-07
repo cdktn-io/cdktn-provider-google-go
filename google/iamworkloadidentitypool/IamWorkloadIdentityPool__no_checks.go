@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamWorkloadIdentityPool) validateInterpolationForAttributePar
 	return nil
 }
 
+func (i *jsiiProxy_IamWorkloadIdentityPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamWorkloadIdentityPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (i *jsiiProxy_IamWorkloadIdentityPool) validatePutInlineTrustConfigParamete
 }
 
 func (i *jsiiProxy_IamWorkloadIdentityPool) validatePutTimeoutsParameters(value *IamWorkloadIdentityPoolTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -24,15 +24,15 @@ type BigqueryReservationAssignmentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The resource which will use the reservation. E.g. projects/myproject, folders/123, organizations/456.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#assignee BigqueryReservationAssignment#assignee}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#assignee BigqueryReservationAssignment#assignee}
 	Assignee *string `field:"required" json:"assignee" yaml:"assignee"`
 	// Types of job, which could be specified when using the reservation. Possible values: JOB_TYPE_UNSPECIFIED, PIPELINE, QUERY, CONTINUOUS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#job_type BigqueryReservationAssignment#job_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#job_type BigqueryReservationAssignment#job_type}
 	JobType *string `field:"required" json:"jobType" yaml:"jobType"`
 	// The reservation for the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#reservation BigqueryReservationAssignment#reservation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#reservation BigqueryReservationAssignment#reservation}
 	Reservation *string `field:"required" json:"reservation" yaml:"reservation"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -44,22 +44,32 @@ type BigqueryReservationAssignmentConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#deletion_policy BigqueryReservationAssignment#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#deletion_policy BigqueryReservationAssignment#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#id BigqueryReservationAssignment#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#id BigqueryReservationAssignment#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The location for the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#location BigqueryReservationAssignment#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#location BigqueryReservationAssignment#location}
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#project BigqueryReservationAssignment#project}.
+	// Optional.
+	//
+	// Represents the principal for this assignment. If not empty, jobs run by this principal will utilize the associated reservation. Otherwise, jobs will fall back to using the reservation assigned to the project, folder, or organization (in that order). If no reservation is assigned at any of these levels, on-demand capacity will be used. The supported formats are:
+	// * 'principal://goog/subject/USER_EMAIL_ADDRESS' for users,
+	// * 'principal://iam.googleapis.com/projects/-/serviceAccounts/SA_EMAIL_ADDRESS' for service accounts,
+	// * 'principal://iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/subject/SUBJECT_ID' for workload identity pool identities.
+	// * The special value 'unknown_or_deleted_user' represents principals which cannot be read from the user info service, for example deleted users.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#principal BigqueryReservationAssignment#principal}
+	Principal *string `field:"optional" json:"principal" yaml:"principal"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#project BigqueryReservationAssignment#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/bigquery_reservation_assignment#timeouts BigqueryReservationAssignment#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/bigquery_reservation_assignment#timeouts BigqueryReservationAssignment#timeouts}
 	Timeouts *BigqueryReservationAssignmentTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

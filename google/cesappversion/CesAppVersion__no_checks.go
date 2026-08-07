@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesAppVersion) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (c *jsiiProxy_CesAppVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesAppVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CesAppVersion) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (c *jsiiProxy_CesAppVersion) validatePutTimeoutsParameters(value *CesAppVersionTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAppVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

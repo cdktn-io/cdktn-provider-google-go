@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareFhirStoreIamBinding) validateInterpolationForAttrib
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareFhirStoreIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareFhirStoreIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_HealthcareFhirStoreIamBinding) validateOverrideLogicalIdParam
 }
 
 func (h *jsiiProxy_HealthcareFhirStoreIamBinding) validatePutConditionParameters(value *HealthcareFhirStoreIamBindingCondition) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareFhirStoreIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

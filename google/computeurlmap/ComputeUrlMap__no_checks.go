@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeUrlMap) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (c *jsiiProxy_ComputeUrlMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeUrlMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (c *jsiiProxy_ComputeUrlMap) validatePutTestParameters(value interface{}) e
 }
 
 func (c *jsiiProxy_ComputeUrlMap) validatePutTimeoutsParameters(value *ComputeUrlMapTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeUrlMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

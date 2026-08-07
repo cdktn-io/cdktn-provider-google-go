@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApihubPluginInstance) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_ApihubPluginInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApihubPluginInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_ApihubPluginInstance) validatePutAuthConfigParameters(value *
 }
 
 func (a *jsiiProxy_ApihubPluginInstance) validatePutTimeoutsParameters(value *ApihubPluginInstanceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApihubPluginInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -148,6 +156,10 @@ func (j *jsiiProxy_ApihubPluginInstance) validateSetProjectParameters(val *strin
 }
 
 func (j *jsiiProxy_ApihubPluginInstance) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApihubPluginInstance) validateSetSourceProjectIdParameters(val *string) error {
 	return nil
 }
 

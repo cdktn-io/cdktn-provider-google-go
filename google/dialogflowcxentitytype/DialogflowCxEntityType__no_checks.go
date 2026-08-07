@@ -59,6 +59,10 @@ func (d *jsiiProxy_DialogflowCxEntityType) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowCxEntityType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowCxEntityType) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DialogflowCxEntityType) validatePutExcludedPhrasesParameters(
 }
 
 func (d *jsiiProxy_DialogflowCxEntityType) validatePutTimeoutsParameters(value *DialogflowCxEntityTypeTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DialogflowCxEntityType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

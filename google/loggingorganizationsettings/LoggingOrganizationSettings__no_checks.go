@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoggingOrganizationSettings) validateInterpolationForAttribut
 	return nil
 }
 
+func (l *jsiiProxy_LoggingOrganizationSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoggingOrganizationSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LoggingOrganizationSettings) validateOverrideLogicalIdParamet
 }
 
 func (l *jsiiProxy_LoggingOrganizationSettings) validatePutTimeoutsParameters(value *LoggingOrganizationSettingsTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoggingOrganizationSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

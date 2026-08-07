@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotebooksRuntimeIamBinding) validateInterpolationForAttribute
 	return nil
 }
 
+func (n *jsiiProxy_NotebooksRuntimeIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotebooksRuntimeIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NotebooksRuntimeIamBinding) validateOverrideLogicalIdParamete
 }
 
 func (n *jsiiProxy_NotebooksRuntimeIamBinding) validatePutConditionParameters(value *NotebooksRuntimeIamBindingCondition) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotebooksRuntimeIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

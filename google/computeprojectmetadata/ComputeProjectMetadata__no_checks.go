@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeProjectMetadata) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_ComputeProjectMetadata) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeProjectMetadata) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeProjectMetadata) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_ComputeProjectMetadata) validatePutTimeoutsParameters(value *ComputeProjectMetadataTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeProjectMetadata) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

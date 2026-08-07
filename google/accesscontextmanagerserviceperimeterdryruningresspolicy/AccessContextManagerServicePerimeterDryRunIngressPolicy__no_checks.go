@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) vali
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) vali
 }
 
 func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) validatePutTimeoutsParameters(value *AccessContextManagerServicePerimeterDryRunIngressPolicyTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessContextManagerServicePerimeterDryRunIngressPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) validateInterpolati
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) validatePutTimeouts
 }
 
 func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) validatePutVpcNetworkSourcesParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessContextManagerAccessLevelCondition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

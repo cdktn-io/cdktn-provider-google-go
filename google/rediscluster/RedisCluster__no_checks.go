@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedisCluster) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (r *jsiiProxy_RedisCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedisCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (r *jsiiProxy_RedisCluster) validatePutTimeoutsParameters(value *RedisClust
 }
 
 func (r *jsiiProxy_RedisCluster) validatePutZoneDistributionConfigParameters(value *RedisClusterZoneDistributionConfig) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedisCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

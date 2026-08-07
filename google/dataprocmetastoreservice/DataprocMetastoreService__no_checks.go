@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocMetastoreService) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DataprocMetastoreService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocMetastoreService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (d *jsiiProxy_DataprocMetastoreService) validatePutTelemetryConfigParameter
 }
 
 func (d *jsiiProxy_DataprocMetastoreService) validatePutTimeoutsParameters(value *DataprocMetastoreServiceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocMetastoreService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

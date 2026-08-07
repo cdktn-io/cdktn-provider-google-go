@@ -122,6 +122,14 @@ func (t *jsiiProxy_TagsTagValueIamPolicy) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (t *jsiiProxy_TagsTagValueIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (t *jsiiProxy_TagsTagValueIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (t *jsiiProxy_TagsTagValueIamPolicy) validateMoveToIdParameters(id *string)
 func (t *jsiiProxy_TagsTagValueIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (t *jsiiProxy_TagsTagValueIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

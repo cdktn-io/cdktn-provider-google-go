@@ -122,6 +122,14 @@ func (h *jsiiProxy_HealthcareFhirStoreIamPolicy) validateInterpolationForAttribu
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareFhirStoreIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareFhirStoreIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (h *jsiiProxy_HealthcareFhirStoreIamPolicy) validateMoveToIdParameters(id *
 func (h *jsiiProxy_HealthcareFhirStoreIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareFhirStoreIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

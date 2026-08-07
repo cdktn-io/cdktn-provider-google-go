@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudIdentityGroup) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_CloudIdentityGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudIdentityGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudIdentityGroup) validatePutGroupKeyParameters(value *Clou
 }
 
 func (c *jsiiProxy_CloudIdentityGroup) validatePutTimeoutsParameters(value *CloudIdentityGroupTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudIdentityGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

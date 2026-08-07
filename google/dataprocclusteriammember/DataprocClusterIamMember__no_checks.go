@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocClusterIamMember) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DataprocClusterIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocClusterIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataprocClusterIamMember) validateOverrideLogicalIdParameters
 }
 
 func (d *jsiiProxy_DataprocClusterIamMember) validatePutConditionParameters(value *DataprocClusterIamMemberCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocClusterIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

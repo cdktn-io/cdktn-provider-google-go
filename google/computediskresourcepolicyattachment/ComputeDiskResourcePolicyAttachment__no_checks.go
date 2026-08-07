@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateInterpolationFor
 	return nil
 }
 
+func (c *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateOverrideLogicalI
 }
 
 func (c *jsiiProxy_ComputeDiskResourcePolicyAttachment) validatePutTimeoutsParameters(value *ComputeDiskResourcePolicyAttachmentTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeDiskResourcePolicyAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

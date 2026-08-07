@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappBackup) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (n *jsiiProxy_NetappBackup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappBackup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetappBackup) validatePutOntapSourceParameters(value *NetappB
 }
 
 func (n *jsiiProxy_NetappBackup) validatePutTimeoutsParameters(value *NetappBackupTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappBackup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

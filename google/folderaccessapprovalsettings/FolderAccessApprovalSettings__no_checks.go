@@ -59,6 +59,10 @@ func (f *jsiiProxy_FolderAccessApprovalSettings) validateInterpolationForAttribu
 	return nil
 }
 
+func (f *jsiiProxy_FolderAccessApprovalSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FolderAccessApprovalSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FolderAccessApprovalSettings) validatePutEnrolledServicesPara
 }
 
 func (f *jsiiProxy_FolderAccessApprovalSettings) validatePutTimeoutsParameters(value *FolderAccessApprovalSettingsTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FolderAccessApprovalSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

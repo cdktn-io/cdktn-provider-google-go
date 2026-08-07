@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudAssetFolderFeed) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_CloudAssetFolderFeed) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudAssetFolderFeed) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CloudAssetFolderFeed) validatePutFeedOutputConfigParameters(v
 }
 
 func (c *jsiiProxy_CloudAssetFolderFeed) validatePutTimeoutsParameters(value *CloudAssetFolderFeedTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudAssetFolderFeed) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

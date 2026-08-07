@@ -12,7 +12,7 @@ type ChronicleDashboardChartDashboardChartChartDatasource struct {
 	// 'GLOBAL', 'IOC_MATCHES', 'RULES', 'SOAR_CASES', 'SOAR_PLAYBOOKS',
 	// 'SOAR_CASE_HISTORY', 'DATA_TABLE', 'INVESTIGATION', 'INVESTIGATION_FEEDBACK'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_dashboard_chart#data_sources ChronicleDashboardChart#data_sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_dashboard_chart#data_sources ChronicleDashboardChart#data_sources}
 	DataSources *[]*string `field:"optional" json:"dataSources" yaml:"dataSources"`
 }
 

@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleDatabaseGoldengateDeployment) validateInterpolationForA
 	return nil
 }
 
+func (o *jsiiProxy_OracleDatabaseGoldengateDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleDatabaseGoldengateDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OracleDatabaseGoldengateDeployment) validatePutPropertiesPara
 }
 
 func (o *jsiiProxy_OracleDatabaseGoldengateDeployment) validatePutTimeoutsParameters(value *OracleDatabaseGoldengateDeploymentTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleDatabaseGoldengateDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

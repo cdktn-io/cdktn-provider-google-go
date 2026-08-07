@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageDefaultObjectAcl) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_StorageDefaultObjectAcl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageDefaultObjectAcl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_StorageDefaultObjectAcl) validateMoveToIdParameters(id *strin
 }
 
 func (s *jsiiProxy_StorageDefaultObjectAcl) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageDefaultObjectAcl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

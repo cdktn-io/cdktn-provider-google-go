@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) validateInterpolat
 	return nil
 }
 
+func (f *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) validateOverrideLo
 }
 
 func (f *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) validatePutTimeoutsParameters(value *FirebaseAppCheckRecaptchaEnterpriseConfigTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

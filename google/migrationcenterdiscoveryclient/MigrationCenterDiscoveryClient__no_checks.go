@@ -59,6 +59,10 @@ func (m *jsiiProxy_MigrationCenterDiscoveryClient) validateInterpolationForAttri
 	return nil
 }
 
+func (m *jsiiProxy_MigrationCenterDiscoveryClient) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MigrationCenterDiscoveryClient) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MigrationCenterDiscoveryClient) validateOverrideLogicalIdPara
 }
 
 func (m *jsiiProxy_MigrationCenterDiscoveryClient) validatePutTimeoutsParameters(value *MigrationCenterDiscoveryClientTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MigrationCenterDiscoveryClient) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -47,6 +47,10 @@ func (b *jsiiProxy_BigqueryRoutineArgumentsOutputReference) validateInterpolatio
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryRoutineArgumentsOutputReference) validatePutTableTypeParameters(value *BigqueryRoutineArgumentsTableType) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryRoutineArgumentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

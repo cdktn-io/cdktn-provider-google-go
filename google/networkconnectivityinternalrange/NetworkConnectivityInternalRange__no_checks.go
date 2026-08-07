@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkConnectivityInternalRange) validateInterpolationForAtt
 	return nil
 }
 
+func (n *jsiiProxy_NetworkConnectivityInternalRange) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkConnectivityInternalRange) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkConnectivityInternalRange) validatePutMigrationParamet
 }
 
 func (n *jsiiProxy_NetworkConnectivityInternalRange) validatePutTimeoutsParameters(value *NetworkConnectivityInternalRangeTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkConnectivityInternalRange) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DnsManagedZoneIamBinding) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DnsManagedZoneIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsManagedZoneIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DnsManagedZoneIamBinding) validateOverrideLogicalIdParameters
 }
 
 func (d *jsiiProxy_DnsManagedZoneIamBinding) validatePutConditionParameters(value *DnsManagedZoneIamBindingCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DnsManagedZoneIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FilestoreBackup) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (f *jsiiProxy_FilestoreBackup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FilestoreBackup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FilestoreBackup) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (f *jsiiProxy_FilestoreBackup) validatePutTimeoutsParameters(value *FilestoreBackupTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FilestoreBackup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

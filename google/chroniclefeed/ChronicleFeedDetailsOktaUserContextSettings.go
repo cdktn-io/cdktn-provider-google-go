@@ -7,15 +7,15 @@ package chroniclefeed
 type ChronicleFeedDetailsOktaUserContextSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsOktaUserContextSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 	// API Hostname.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
 	Hostname *string `field:"optional" json:"hostname" yaml:"hostname"`
 	// Manager id reference field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/chronicle_feed#manager_id_reference_field ChronicleFeed#manager_id_reference_field}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_feed#manager_id_reference_field ChronicleFeed#manager_id_reference_field}
 	ManagerIdReferenceField *string `field:"optional" json:"managerIdReferenceField" yaml:"managerIdReferenceField"`
 }
 

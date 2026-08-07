@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) validateInterpolation
 	return nil
 }
 
+func (w *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (w *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) validateMoveToIdParam
 }
 
 func (w *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkstationsWorkstationConfigIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

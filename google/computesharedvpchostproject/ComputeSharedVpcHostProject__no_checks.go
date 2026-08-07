@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeSharedVpcHostProject) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_ComputeSharedVpcHostProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeSharedVpcHostProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeSharedVpcHostProject) validateOverrideLogicalIdParamet
 }
 
 func (c *jsiiProxy_ComputeSharedVpcHostProject) validatePutTimeoutsParameters(value *ComputeSharedVpcHostProjectTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeSharedVpcHostProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

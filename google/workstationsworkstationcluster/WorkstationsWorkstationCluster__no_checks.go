@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkstationsWorkstationCluster) validateInterpolationForAttri
 	return nil
 }
 
+func (w *jsiiProxy_WorkstationsWorkstationCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkstationsWorkstationCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (w *jsiiProxy_WorkstationsWorkstationCluster) validatePutPrivateClusterConf
 }
 
 func (w *jsiiProxy_WorkstationsWorkstationCluster) validatePutTimeoutsParameters(value *WorkstationsWorkstationClusterTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkstationsWorkstationCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

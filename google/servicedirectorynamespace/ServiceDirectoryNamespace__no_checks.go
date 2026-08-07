@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceDirectoryNamespace) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_ServiceDirectoryNamespace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceDirectoryNamespace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServiceDirectoryNamespace) validateOverrideLogicalIdParameter
 }
 
 func (s *jsiiProxy_ServiceDirectoryNamespace) validatePutTimeoutsParameters(value *ServiceDirectoryNamespaceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceDirectoryNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppEngineDomainMapping) validateInterpolationForAttributePara
 	return nil
 }
 
+func (a *jsiiProxy_AppEngineDomainMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppEngineDomainMapping) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppEngineDomainMapping) validatePutSslSettingsParameters(valu
 }
 
 func (a *jsiiProxy_AppEngineDomainMapping) validatePutTimeoutsParameters(value *AppEngineDomainMappingTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppEngineDomainMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

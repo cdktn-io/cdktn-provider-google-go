@@ -122,6 +122,14 @@ func (a *jsiiProxy_ApigeeTargetServer) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeTargetServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeTargetServer) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -224,6 +232,14 @@ func (a *jsiiProxy_ApigeeTargetServer) validatePutTimeoutsParameters(value *Apig
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeTargetServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

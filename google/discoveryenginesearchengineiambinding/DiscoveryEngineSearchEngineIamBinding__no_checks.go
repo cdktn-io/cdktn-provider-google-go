@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) validateInterpolationF
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) validateOverrideLogica
 }
 
 func (d *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) validatePutConditionParameters(value *DiscoveryEngineSearchEngineIamBindingCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngineIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

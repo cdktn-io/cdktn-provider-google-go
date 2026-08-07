@@ -30,19 +30,19 @@ type MigrationCenterDiscoveryClientConfig struct {
 	// 63 characters. The ID must match the regular expression:
 	// '[a-z]([a-z0-9-]{0,61}[a-z0-9])?'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#discovery_client_id MigrationCenterDiscoveryClient#discovery_client_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#discovery_client_id MigrationCenterDiscoveryClient#discovery_client_id}
 	DiscoveryClientId *string `field:"required" json:"discoveryClientId" yaml:"discoveryClientId"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#location MigrationCenterDiscoveryClient#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#location MigrationCenterDiscoveryClient#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Service account used by the discovery client for various operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#service_account MigrationCenterDiscoveryClient#service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#service_account MigrationCenterDiscoveryClient#service_account}
 	ServiceAccount *string `field:"required" json:"serviceAccount" yaml:"serviceAccount"`
 	// Full name of the source object associated with this discovery client.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#source MigrationCenterDiscoveryClient#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#source MigrationCenterDiscoveryClient#source}
 	Source *string `field:"required" json:"source" yaml:"source"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -54,21 +54,21 @@ type MigrationCenterDiscoveryClientConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#deletion_policy MigrationCenterDiscoveryClient#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#deletion_policy MigrationCenterDiscoveryClient#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Free text description. Maximum length is 1000 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#description MigrationCenterDiscoveryClient#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#description MigrationCenterDiscoveryClient#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Free text display name. Maximum length is 63 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#display_name MigrationCenterDiscoveryClient#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#display_name MigrationCenterDiscoveryClient#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// Client expiration time in UTC. If specified, the backend will not accept new frames after this time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#expire_time MigrationCenterDiscoveryClient#expire_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#expire_time MigrationCenterDiscoveryClient#expire_time}
 	ExpireTime *string `field:"optional" json:"expireTime" yaml:"expireTime"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#id MigrationCenterDiscoveryClient#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#id MigrationCenterDiscoveryClient#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,13 +78,13 @@ type MigrationCenterDiscoveryClientConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#labels MigrationCenterDiscoveryClient#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#labels MigrationCenterDiscoveryClient#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#project MigrationCenterDiscoveryClient#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#project MigrationCenterDiscoveryClient#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#timeouts MigrationCenterDiscoveryClient#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#timeouts MigrationCenterDiscoveryClient#timeouts}
 	Timeouts *MigrationCenterDiscoveryClientTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// Input only.
 	//
@@ -93,7 +93,7 @@ type MigrationCenterDiscoveryClientConfig struct {
 	// This field is input only. The derived expiration time is provided as
 	// output through the 'expire_time' field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/migration_center_discovery_client#ttl MigrationCenterDiscoveryClient#ttl}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/migration_center_discovery_client#ttl MigrationCenterDiscoveryClient#ttl}
 	Ttl *string `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

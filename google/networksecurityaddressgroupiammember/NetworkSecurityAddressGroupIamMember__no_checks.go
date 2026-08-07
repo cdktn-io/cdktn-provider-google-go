@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkSecurityAddressGroupIamMember) validateInterpolationFo
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityAddressGroupIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityAddressGroupIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkSecurityAddressGroupIamMember) validateOverrideLogical
 }
 
 func (n *jsiiProxy_NetworkSecurityAddressGroupIamMember) validatePutConditionParameters(value *NetworkSecurityAddressGroupIamMemberCondition) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkSecurityAddressGroupIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

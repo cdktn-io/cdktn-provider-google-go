@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigtableGcPolicy) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (b *jsiiProxy_BigtableGcPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigtableGcPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BigtableGcPolicy) validatePutMaxVersionParameters(value inter
 }
 
 func (b *jsiiProxy_BigtableGcPolicy) validatePutTimeoutsParameters(value *BigtableGcPolicyTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigtableGcPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

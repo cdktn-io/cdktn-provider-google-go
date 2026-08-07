@@ -59,6 +59,10 @@ func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateInterpolationFor
 	return nil
 }
 
+func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validatePutEthereumDetai
 }
 
 func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validatePutTimeoutsParameters(value *BlockchainNodeEngineBlockchainNodesTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BlockchainNodeEngineBlockchainNodes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) validateInterpolationForA
 	return nil
 }
 
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) validatePutRequesterJusti
 }
 
 func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) validatePutTimeoutsParameters(value *PrivilegedAccessManagerEntitlementTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivilegedAccessManagerEntitlement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

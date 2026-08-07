@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageBatchOperationsJob) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_StorageBatchOperationsJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageBatchOperationsJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (s *jsiiProxy_StorageBatchOperationsJob) validatePutRewriteObjectParameters
 }
 
 func (s *jsiiProxy_StorageBatchOperationsJob) validatePutTimeoutsParameters(value *StorageBatchOperationsJobTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageBatchOperationsJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

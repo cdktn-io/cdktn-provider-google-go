@@ -59,6 +59,10 @@ func (g *jsiiProxy_GeminiRepositoryGroupIamMember) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GeminiRepositoryGroupIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GeminiRepositoryGroupIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GeminiRepositoryGroupIamMember) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GeminiRepositoryGroupIamMember) validatePutConditionParameters(value *GeminiRepositoryGroupIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GeminiRepositoryGroupIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -93,6 +93,68 @@ func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validateInterp
 	return nil
 }
 
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validatePutRequestHeadersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ComputeBackendServiceLogConfigRequestHeaders:
+		value := value.(*[]*ComputeBackendServiceLogConfigRequestHeaders)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ComputeBackendServiceLogConfigRequestHeaders:
+		value_ := value.([]*ComputeBackendServiceLogConfigRequestHeaders)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeBackendServiceLogConfigRequestHeaders; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validatePutResponseHeadersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ComputeBackendServiceLogConfigResponseHeaders:
+		value := value.(*[]*ComputeBackendServiceLogConfigResponseHeaders)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ComputeBackendServiceLogConfigResponseHeaders:
+		value_ := value.([]*ComputeBackendServiceLogConfigResponseHeaders)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeBackendServiceLogConfigResponseHeaders; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ComputeBackendServiceLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")

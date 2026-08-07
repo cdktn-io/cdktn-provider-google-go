@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocBatch) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (d *jsiiProxy_DataprocBatch) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocBatch) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (d *jsiiProxy_DataprocBatch) validatePutSparkSqlBatchParameters(value *Data
 }
 
 func (d *jsiiProxy_DataprocBatch) validatePutTimeoutsParameters(value *DataprocBatchTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocBatch) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

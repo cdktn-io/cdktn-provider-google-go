@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApigeeSecurityProfileV2) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeSecurityProfileV2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeSecurityProfileV2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApigeeSecurityProfileV2) validatePutProfileAssessmentConfigsP
 }
 
 func (a *jsiiProxy_ApigeeSecurityProfileV2) validatePutTimeoutsParameters(value *ApigeeSecurityProfileV2Timeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeSecurityProfileV2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineControl) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineControl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineControl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (d *jsiiProxy_DiscoveryEngineControl) validatePutSynonymsActionParameters(v
 }
 
 func (d *jsiiProxy_DiscoveryEngineControl) validatePutTimeoutsParameters(value *DiscoveryEngineControlTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineControl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

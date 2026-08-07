@@ -59,6 +59,10 @@ func (m *jsiiProxy_ModelArmorFloorsetting) validateInterpolationForAttributePara
 	return nil
 }
 
+func (m *jsiiProxy_ModelArmorFloorsetting) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ModelArmorFloorsetting) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (m *jsiiProxy_ModelArmorFloorsetting) validatePutGoogleMcpServerFloorSettin
 }
 
 func (m *jsiiProxy_ModelArmorFloorsetting) validatePutTimeoutsParameters(value *ModelArmorFloorsettingTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ModelArmorFloorsetting) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

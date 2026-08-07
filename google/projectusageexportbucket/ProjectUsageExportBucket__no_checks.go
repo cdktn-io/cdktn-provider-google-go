@@ -59,6 +59,10 @@ func (p *jsiiProxy_ProjectUsageExportBucket) validateInterpolationForAttributePa
 	return nil
 }
 
+func (p *jsiiProxy_ProjectUsageExportBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_ProjectUsageExportBucket) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_ProjectUsageExportBucket) validateOverrideLogicalIdParameters
 }
 
 func (p *jsiiProxy_ProjectUsageExportBucket) validatePutTimeoutsParameters(value *ProjectUsageExportBucketTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_ProjectUsageExportBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

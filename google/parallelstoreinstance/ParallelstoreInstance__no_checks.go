@@ -59,6 +59,10 @@ func (p *jsiiProxy_ParallelstoreInstance) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (p *jsiiProxy_ParallelstoreInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_ParallelstoreInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_ParallelstoreInstance) validateOverrideLogicalIdParameters(ne
 }
 
 func (p *jsiiProxy_ParallelstoreInstance) validatePutTimeoutsParameters(value *ParallelstoreInstanceTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_ParallelstoreInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

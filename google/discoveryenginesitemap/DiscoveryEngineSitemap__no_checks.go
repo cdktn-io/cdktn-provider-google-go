@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineSitemap) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineSitemap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineSitemap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DiscoveryEngineSitemap) validateOverrideLogicalIdParameters(n
 }
 
 func (d *jsiiProxy_DiscoveryEngineSitemap) validatePutTimeoutsParameters(value *DiscoveryEngineSitemapTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineSitemap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

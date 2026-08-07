@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateInterpola
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateOverrideL
 }
 
 func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validatePutTimeoutsParameters(value *NetworkSecurityBackendAuthenticationConfigTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkSecurityBackendAuthenticationConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

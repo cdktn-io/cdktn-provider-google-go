@@ -59,6 +59,10 @@ func (c *jsiiProxy_Cloudbuildv2Connection) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_Cloudbuildv2Connection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_Cloudbuildv2Connection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (c *jsiiProxy_Cloudbuildv2Connection) validatePutGitlabConfigParameters(val
 }
 
 func (c *jsiiProxy_Cloudbuildv2Connection) validatePutTimeoutsParameters(value *Cloudbuildv2ConnectionTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_Cloudbuildv2Connection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

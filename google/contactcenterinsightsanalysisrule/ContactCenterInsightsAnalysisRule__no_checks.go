@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContactCenterInsightsAnalysisRule) validateInterpolationForAt
 	return nil
 }
 
+func (c *jsiiProxy_ContactCenterInsightsAnalysisRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContactCenterInsightsAnalysisRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ContactCenterInsightsAnalysisRule) validatePutAnnotatorSelect
 }
 
 func (c *jsiiProxy_ContactCenterInsightsAnalysisRule) validatePutTimeoutsParameters(value *ContactCenterInsightsAnalysisRuleTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContactCenterInsightsAnalysisRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

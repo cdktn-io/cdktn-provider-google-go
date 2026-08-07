@@ -5,11 +5,11 @@ package networkservicesagentgateway
 
 
 type NetworkServicesAgentGatewayTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/network_services_agent_gateway#create NetworkServicesAgentGateway#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_agent_gateway#create NetworkServicesAgentGateway#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/network_services_agent_gateway#delete NetworkServicesAgentGateway#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_agent_gateway#delete NetworkServicesAgentGateway#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/network_services_agent_gateway#update NetworkServicesAgentGateway#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_agent_gateway#update NetworkServicesAgentGateway#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

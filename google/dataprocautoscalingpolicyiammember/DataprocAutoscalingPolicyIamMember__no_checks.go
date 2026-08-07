@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamMember) validateInterpolationForA
 	return nil
 }
 
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocAutoscalingPolicyIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataprocAutoscalingPolicyIamMember) validateOverrideLogicalId
 }
 
 func (d *jsiiProxy_DataprocAutoscalingPolicyIamMember) validatePutConditionParameters(value *DataprocAutoscalingPolicyIamMemberCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocAutoscalingPolicyIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

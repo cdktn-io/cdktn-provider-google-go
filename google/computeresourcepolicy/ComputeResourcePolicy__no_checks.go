@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeResourcePolicy) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputeResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (c *jsiiProxy_ComputeResourcePolicy) validatePutTimeoutsParameters(value *C
 }
 
 func (c *jsiiProxy_ComputeResourcePolicy) validatePutWorkloadPolicyParameters(value *ComputeResourcePolicyWorkloadPolicy) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

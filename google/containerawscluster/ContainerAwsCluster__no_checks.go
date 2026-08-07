@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAwsCluster) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAwsCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAwsCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (c *jsiiProxy_ContainerAwsCluster) validatePutNetworkingParameters(value *C
 }
 
 func (c *jsiiProxy_ContainerAwsCluster) validatePutTimeoutsParameters(value *ContainerAwsClusterTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAwsCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

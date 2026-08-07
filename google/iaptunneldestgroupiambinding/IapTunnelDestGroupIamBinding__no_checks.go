@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapTunnelDestGroupIamBinding) validateInterpolationForAttribu
 	return nil
 }
 
+func (i *jsiiProxy_IapTunnelDestGroupIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapTunnelDestGroupIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IapTunnelDestGroupIamBinding) validateOverrideLogicalIdParame
 }
 
 func (i *jsiiProxy_IapTunnelDestGroupIamBinding) validatePutConditionParameters(value *IapTunnelDestGroupIamBindingCondition) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapTunnelDestGroupIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

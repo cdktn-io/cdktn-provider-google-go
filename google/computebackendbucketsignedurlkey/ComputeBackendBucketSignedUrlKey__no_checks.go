@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_ComputeBackendBucketSignedUrlKey) validatePutTimeoutsParameters(value *ComputeBackendBucketSignedUrlKeyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeBackendBucketSignedUrlKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

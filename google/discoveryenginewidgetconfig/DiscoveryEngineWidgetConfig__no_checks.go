@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineWidgetConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineWidgetConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineWidgetConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (d *jsiiProxy_DiscoveryEngineWidgetConfig) validatePutUiBrandingParameters(
 }
 
 func (d *jsiiProxy_DiscoveryEngineWidgetConfig) validatePutUiSettingsParameters(value *DiscoveryEngineWidgetConfigUiSettings) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

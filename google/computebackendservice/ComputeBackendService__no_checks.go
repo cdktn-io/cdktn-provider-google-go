@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeBackendService) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputeBackendService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeBackendService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (c *jsiiProxy_ComputeBackendService) validatePutTimeoutsParameters(value *C
 }
 
 func (c *jsiiProxy_ComputeBackendService) validatePutTlsSettingsParameters(value *ComputeBackendServiceTlsSettings) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeBackendService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

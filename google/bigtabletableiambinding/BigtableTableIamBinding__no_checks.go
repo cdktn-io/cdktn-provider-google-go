@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigtableTableIamBinding) validateInterpolationForAttributePar
 	return nil
 }
 
+func (b *jsiiProxy_BigtableTableIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigtableTableIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BigtableTableIamBinding) validateOverrideLogicalIdParameters(
 }
 
 func (b *jsiiProxy_BigtableTableIamBinding) validatePutConditionParameters(value *BigtableTableIamBindingCondition) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigtableTableIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

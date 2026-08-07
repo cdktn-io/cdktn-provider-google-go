@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRegionHealthSource) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionHealthSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionHealthSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeRegionHealthSource) validateOverrideLogicalIdParameter
 }
 
 func (c *jsiiProxy_ComputeRegionHealthSource) validatePutTimeoutsParameters(value *ComputeRegionHealthSourceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRegionHealthSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

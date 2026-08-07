@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocSessionTemplate) validateInterpolationForAttributePar
 	return nil
 }
 
+func (d *jsiiProxy_DataprocSessionTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocSessionTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (d *jsiiProxy_DataprocSessionTemplate) validatePutSparkConnectSessionParame
 }
 
 func (d *jsiiProxy_DataprocSessionTemplate) validatePutTimeoutsParameters(value *DataprocSessionTemplateTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocSessionTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

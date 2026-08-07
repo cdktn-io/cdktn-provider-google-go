@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlloydbCluster) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_AlloydbCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlloydbCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (a *jsiiProxy_AlloydbCluster) validatePutSecondaryConfigParameters(value *A
 }
 
 func (a *jsiiProxy_AlloydbCluster) validatePutTimeoutsParameters(value *AlloydbClusterTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlloydbCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

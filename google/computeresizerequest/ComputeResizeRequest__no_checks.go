@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeResizeRequest) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_ComputeResizeRequest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeResizeRequest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeResizeRequest) validatePutRequestedRunDurationParamete
 }
 
 func (c *jsiiProxy_ComputeResizeRequest) validatePutTimeoutsParameters(value *ComputeResizeRequestTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeResizeRequest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

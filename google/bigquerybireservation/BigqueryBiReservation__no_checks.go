@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigqueryBiReservation) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryBiReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryBiReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BigqueryBiReservation) validatePutPreferredTablesParameters(v
 }
 
 func (b *jsiiProxy_BigqueryBiReservation) validatePutTimeoutsParameters(value *BigqueryBiReservationTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryBiReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

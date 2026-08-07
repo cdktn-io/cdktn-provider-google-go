@@ -5,9 +5,9 @@ package cloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/cloudrunservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudrunservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -56,6 +56,9 @@ type CloudRunServiceTemplateSpecContainersOutputReference interface {
 	ReadinessProbeInput() *CloudRunServiceTemplateSpecContainersReadinessProbe
 	Resources() CloudRunServiceTemplateSpecContainersResourcesOutputReference
 	ResourcesInput() *CloudRunServiceTemplateSpecContainersResources
+	SandboxLauncher() interface{}
+	SetSandboxLauncher(val interface{})
+	SandboxLauncherInput() interface{}
 	StartupProbe() CloudRunServiceTemplateSpecContainersStartupProbeOutputReference
 	StartupProbeInput() *CloudRunServiceTemplateSpecContainersStartupProbe
 	// Experimental.
@@ -112,6 +115,7 @@ type CloudRunServiceTemplateSpecContainersOutputReference interface {
 	ResetPorts()
 	ResetReadinessProbe()
 	ResetResources()
+	ResetSandboxLauncher()
 	ResetStartupProbe()
 	ResetVolumeMounts()
 	ResetWorkingDir()
@@ -380,6 +384,26 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference) Resourc
 	return returns
 }
 
+func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference) SandboxLauncher() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sandboxLauncher",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference) SandboxLauncherInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sandboxLauncherInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference) StartupProbe() CloudRunServiceTemplateSpecContainersStartupProbeOutputReference {
 	var returns CloudRunServiceTemplateSpecContainersStartupProbeOutputReference
 	_jsii_.Get(
@@ -561,6 +585,17 @@ func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference)SetName(
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference)SetSandboxLauncher(val interface{}) {
+	if err := j.validateSetSandboxLauncherParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sandboxLauncher",
 		val,
 	)
 }
@@ -940,6 +975,14 @@ func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference) ResetRe
 	_jsii_.InvokeVoid(
 		c,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunServiceTemplateSpecContainersOutputReference) ResetSandboxLauncher() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSandboxLauncher",
 		nil, // no parameters
 	)
 }

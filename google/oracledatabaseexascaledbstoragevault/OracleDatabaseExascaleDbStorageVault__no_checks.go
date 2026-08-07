@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateInterpolationFo
 	return nil
 }
 
+func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validatePutPropertiesPa
 }
 
 func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validatePutTimeoutsParameters(value *OracleDatabaseExascaleDbStorageVaultTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleDatabaseExascaleDbStorageVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

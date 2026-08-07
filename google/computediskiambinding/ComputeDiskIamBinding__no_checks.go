@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeDiskIamBinding) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputeDiskIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeDiskIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeDiskIamBinding) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_ComputeDiskIamBinding) validatePutConditionParameters(value *ComputeDiskIamBindingCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeDiskIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

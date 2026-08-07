@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) validateInterpolationForAttri
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) validatePutServerCertificateP
 }
 
 func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) validatePutTimeoutsParameters(value *NetworkSecurityServerTlsPolicyTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

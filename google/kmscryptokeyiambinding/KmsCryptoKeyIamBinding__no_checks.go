@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsCryptoKeyIamBinding) validateInterpolationForAttributePara
 	return nil
 }
 
+func (k *jsiiProxy_KmsCryptoKeyIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsCryptoKeyIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KmsCryptoKeyIamBinding) validateOverrideLogicalIdParameters(n
 }
 
 func (k *jsiiProxy_KmsCryptoKeyIamBinding) validatePutConditionParameters(value *KmsCryptoKeyIamBindingCondition) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsCryptoKeyIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageAnywhereCache) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_StorageAnywhereCache) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageAnywhereCache) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StorageAnywhereCache) validateOverrideLogicalIdParameters(new
 }
 
 func (s *jsiiProxy_StorageAnywhereCache) validatePutTimeoutsParameters(value *StorageAnywhereCacheTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageAnywhereCache) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

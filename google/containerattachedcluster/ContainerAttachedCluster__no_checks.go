@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAttachedCluster) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAttachedCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAttachedCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (c *jsiiProxy_ContainerAttachedCluster) validatePutSecurityPostureConfigPar
 }
 
 func (c *jsiiProxy_ContainerAttachedCluster) validatePutTimeoutsParameters(value *ContainerAttachedClusterTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAttachedCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

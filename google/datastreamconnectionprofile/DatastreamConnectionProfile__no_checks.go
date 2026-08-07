@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatastreamConnectionProfile) validateInterpolationForAttribut
 	return nil
 }
 
+func (d *jsiiProxy_DatastreamConnectionProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatastreamConnectionProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (d *jsiiProxy_DatastreamConnectionProfile) validatePutSqlServerProfileParam
 }
 
 func (d *jsiiProxy_DatastreamConnectionProfile) validatePutTimeoutsParameters(value *DatastreamConnectionProfileTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatastreamConnectionProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

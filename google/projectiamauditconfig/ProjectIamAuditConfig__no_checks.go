@@ -59,6 +59,10 @@ func (p *jsiiProxy_ProjectIamAuditConfig) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (p *jsiiProxy_ProjectIamAuditConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_ProjectIamAuditConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_ProjectIamAuditConfig) validateOverrideLogicalIdParameters(ne
 }
 
 func (p *jsiiProxy_ProjectIamAuditConfig) validatePutAuditLogConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (p *jsiiProxy_ProjectIamAuditConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

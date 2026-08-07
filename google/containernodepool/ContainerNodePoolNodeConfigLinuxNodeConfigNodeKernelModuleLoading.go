@@ -7,7 +7,7 @@ package containernodepool
 type ContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading struct {
 	// The policy for kernel module loading.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/container_node_pool#policy ContainerNodePool#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/container_node_pool#policy ContainerNodePool#policy}
 	Policy *string `field:"optional" json:"policy" yaml:"policy"`
 }
 

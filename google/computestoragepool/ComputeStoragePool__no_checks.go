@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeStoragePool) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_ComputeStoragePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStoragePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeStoragePool) validatePutParamsParameters(value *Comput
 }
 
 func (c *jsiiProxy_ComputeStoragePool) validatePutTimeoutsParameters(value *ComputeStoragePoolTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeStoragePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

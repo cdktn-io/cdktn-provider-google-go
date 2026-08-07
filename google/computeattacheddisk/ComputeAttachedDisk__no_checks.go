@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeAttachedDisk) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_ComputeAttachedDisk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeAttachedDisk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeAttachedDisk) validateOverrideLogicalIdParameters(newL
 }
 
 func (c *jsiiProxy_ComputeAttachedDisk) validatePutTimeoutsParameters(value *ComputeAttachedDiskTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeAttachedDisk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

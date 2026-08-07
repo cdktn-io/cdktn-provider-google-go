@@ -59,6 +59,10 @@ func (g *jsiiProxy_GkeHubMembershipIamBinding) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GkeHubMembershipIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeHubMembershipIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GkeHubMembershipIamBinding) validateOverrideLogicalIdParamete
 }
 
 func (g *jsiiProxy_GkeHubMembershipIamBinding) validatePutConditionParameters(value *GkeHubMembershipIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GkeHubMembershipIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

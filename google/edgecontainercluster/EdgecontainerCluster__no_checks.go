@@ -59,6 +59,10 @@ func (e *jsiiProxy_EdgecontainerCluster) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (e *jsiiProxy_EdgecontainerCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EdgecontainerCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (e *jsiiProxy_EdgecontainerCluster) validatePutSystemAddonsConfigParameters
 }
 
 func (e *jsiiProxy_EdgecontainerCluster) validatePutTimeoutsParameters(value *EdgecontainerClusterTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EdgecontainerCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

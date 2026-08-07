@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataprocJob) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (d *jsiiProxy_DataprocJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (d *jsiiProxy_DataprocJob) validatePutSparksqlConfigParameters(value *Datap
 }
 
 func (d *jsiiProxy_DataprocJob) validatePutTimeoutsParameters(value *DataprocJobTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

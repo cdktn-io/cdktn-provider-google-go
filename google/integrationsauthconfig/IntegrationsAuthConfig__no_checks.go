@@ -59,6 +59,10 @@ func (i *jsiiProxy_IntegrationsAuthConfig) validateInterpolationForAttributePara
 	return nil
 }
 
+func (i *jsiiProxy_IntegrationsAuthConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IntegrationsAuthConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_IntegrationsAuthConfig) validatePutDecryptedCredentialParamet
 }
 
 func (i *jsiiProxy_IntegrationsAuthConfig) validatePutTimeoutsParameters(value *IntegrationsAuthConfigTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IntegrationsAuthConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -47,6 +47,10 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateIn
 	return nil
 }
 
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validatePutFilterVersionSelectorParameters(value *ModelArmorTemplateTemplateMetadataFilterVersionSelector) error {
+	return nil
+}
+
 func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validatePutMultiLanguageDetectionParameters(value *ModelArmorTemplateTemplateMetadataMultiLanguageDetection) error {
 	return nil
 }

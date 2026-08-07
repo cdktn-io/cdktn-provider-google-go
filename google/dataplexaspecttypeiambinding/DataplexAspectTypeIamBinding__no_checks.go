@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataplexAspectTypeIamBinding) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataplexAspectTypeIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexAspectTypeIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataplexAspectTypeIamBinding) validateOverrideLogicalIdParame
 }
 
 func (d *jsiiProxy_DataplexAspectTypeIamBinding) validatePutConditionParameters(value *DataplexAspectTypeIamBindingCondition) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataplexAspectTypeIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

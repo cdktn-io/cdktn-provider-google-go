@@ -5,9 +5,9 @@ package backupdrrestoreworkload
 
 
 type BackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_restore_workload#key BackupDrRestoreWorkload#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/backup_dr_restore_workload#key BackupDrRestoreWorkload#key}.
 	Key *string `field:"required" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/backup_dr_restore_workload#value BackupDrRestoreWorkload#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/backup_dr_restore_workload#value BackupDrRestoreWorkload#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

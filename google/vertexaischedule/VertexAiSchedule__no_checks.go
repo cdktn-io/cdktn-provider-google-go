@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiSchedule) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VertexAiSchedule) validatePutCreatePipelineJobRequestParamete
 }
 
 func (v *jsiiProxy_VertexAiSchedule) validatePutTimeoutsParameters(value *VertexAiScheduleTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

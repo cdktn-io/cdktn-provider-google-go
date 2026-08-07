@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeSnapshotSettings) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_ComputeSnapshotSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeSnapshotSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeSnapshotSettings) validatePutStorageLocationParameters
 }
 
 func (c *jsiiProxy_ComputeSnapshotSettings) validatePutTimeoutsParameters(value *ComputeSnapshotSettingsTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeSnapshotSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

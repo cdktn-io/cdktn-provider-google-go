@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageManagedFolderIamMember) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_StorageManagedFolderIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageManagedFolderIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StorageManagedFolderIamMember) validateOverrideLogicalIdParam
 }
 
 func (s *jsiiProxy_StorageManagedFolderIamMember) validatePutConditionParameters(value *StorageManagedFolderIamMemberCondition) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageManagedFolderIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

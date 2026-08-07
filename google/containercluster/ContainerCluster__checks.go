@@ -122,6 +122,14 @@ func (c *jsiiProxy_ContainerCluster) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -645,6 +653,17 @@ func (c *jsiiProxy_ContainerCluster) validatePutResourceUsageExportConfigParamet
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutRollbackSafeUpgradeParameters(value *ContainerClusterRollbackSafeUpgrade) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutSecretManagerConfigParameters(value *ContainerClusterSecretManagerConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -728,6 +747,14 @@ func (c *jsiiProxy_ContainerCluster) validatePutWorkloadIdentityConfigParameters
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ContainerCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil
@@ -952,6 +979,14 @@ func (j *jsiiProxy_ContainerCluster) validateSetDeletionProtectionParameters(val
 }
 
 func (j *jsiiProxy_ContainerCluster) validateSetDescriptionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ContainerCluster) validateSetDesiredEmulatedVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

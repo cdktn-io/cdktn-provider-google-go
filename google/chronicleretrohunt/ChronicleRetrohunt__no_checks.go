@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChronicleRetrohunt) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleRetrohunt) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleRetrohunt) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ChronicleRetrohunt) validatePutProcessIntervalParameters(valu
 }
 
 func (c *jsiiProxy_ChronicleRetrohunt) validatePutTimeoutsParameters(value *ChronicleRetrohuntTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChronicleRetrohunt) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

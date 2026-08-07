@@ -59,6 +59,10 @@ func (v *jsiiProxy_VertexAiIndexEndpoint) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiIndexEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiIndexEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VertexAiIndexEndpoint) validatePutPrivateServiceConnectConfig
 }
 
 func (v *jsiiProxy_VertexAiIndexEndpoint) validatePutTimeoutsParameters(value *VertexAiIndexEndpointTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VertexAiIndexEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

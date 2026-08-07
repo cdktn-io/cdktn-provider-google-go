@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) validateInt
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) validateOve
 }
 
 func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) validatePutTimeoutsParameters(value *NetworkSecurityInterceptEndpointGroupAssociationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

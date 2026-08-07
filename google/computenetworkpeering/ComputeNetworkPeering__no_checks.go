@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeNetworkPeering) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ComputeNetworkPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeNetworkPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeNetworkPeering) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_ComputeNetworkPeering) validatePutTimeoutsParameters(value *ComputeNetworkPeeringTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeNetworkPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

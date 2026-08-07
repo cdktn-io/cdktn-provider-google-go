@@ -122,6 +122,14 @@ func (c *jsiiProxy_ComputeInstanceGroupManager) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInstanceGroupManager) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInstanceGroupManager) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -465,6 +473,14 @@ func (c *jsiiProxy_ComputeInstanceGroupManager) validatePutVersionParameters(val
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ComputeInstanceGroupManagerVersion; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ComputeInstanceGroupManager) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

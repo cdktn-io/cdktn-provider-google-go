@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeCrossSiteNetwork) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_ComputeCrossSiteNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeCrossSiteNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeCrossSiteNetwork) validateOverrideLogicalIdParameters(
 }
 
 func (c *jsiiProxy_ComputeCrossSiteNetwork) validatePutTimeoutsParameters(value *ComputeCrossSiteNetworkTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeCrossSiteNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

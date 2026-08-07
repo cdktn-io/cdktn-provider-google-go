@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataLossPreventionJobTrigger) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionJobTrigger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionJobTrigger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DataLossPreventionJobTrigger) validatePutTimeoutsParameters(v
 }
 
 func (d *jsiiProxy_DataLossPreventionJobTrigger) validatePutTriggersParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataLossPreventionJobTrigger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

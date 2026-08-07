@@ -59,6 +59,10 @@ func (s *jsiiProxy_SqlSourceRepresentationInstance) validateInterpolationForAttr
 	return nil
 }
 
+func (s *jsiiProxy_SqlSourceRepresentationInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SqlSourceRepresentationInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SqlSourceRepresentationInstance) validateOverrideLogicalIdPar
 }
 
 func (s *jsiiProxy_SqlSourceRepresentationInstance) validatePutTimeoutsParameters(value *SqlSourceRepresentationInstanceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqlSourceRepresentationInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChronicleWatchlist) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleWatchlist) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleWatchlist) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ChronicleWatchlist) validatePutTimeoutsParameters(value *Chro
 }
 
 func (c *jsiiProxy_ChronicleWatchlist) validatePutWatchlistUserPreferencesParameters(value *ChronicleWatchlistWatchlistUserPreferences) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChronicleWatchlist) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

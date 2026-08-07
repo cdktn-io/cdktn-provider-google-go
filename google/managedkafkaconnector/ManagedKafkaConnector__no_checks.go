@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedKafkaConnector) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (m *jsiiProxy_ManagedKafkaConnector) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedKafkaConnector) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_ManagedKafkaConnector) validatePutTaskRestartPolicyParameters
 }
 
 func (m *jsiiProxy_ManagedKafkaConnector) validatePutTimeoutsParameters(value *ManagedKafkaConnectorTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedKafkaConnector) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

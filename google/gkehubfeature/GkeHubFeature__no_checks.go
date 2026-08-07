@@ -59,6 +59,10 @@ func (g *jsiiProxy_GkeHubFeature) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (g *jsiiProxy_GkeHubFeature) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeHubFeature) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GkeHubFeature) validatePutSpecParameters(value *GkeHubFeature
 }
 
 func (g *jsiiProxy_GkeHubFeature) validatePutTimeoutsParameters(value *GkeHubFeatureTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GkeHubFeature) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

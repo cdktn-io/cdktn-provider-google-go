@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (m *jsiiProxy_MonitoringUptimeCheckConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitoringUptimeCheckConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (m *jsiiProxy_MonitoringUptimeCheckConfig) validatePutTcpCheckParameters(va
 }
 
 func (m *jsiiProxy_MonitoringUptimeCheckConfig) validatePutTimeoutsParameters(value *MonitoringUptimeCheckConfigTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitoringUptimeCheckConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

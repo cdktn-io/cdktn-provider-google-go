@@ -5,9 +5,9 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -56,6 +56,8 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	LustreCsiDriverConfigInput() *ContainerClusterAddonsConfigLustreCsiDriverConfig
 	NetworkPolicyConfig() ContainerClusterAddonsConfigNetworkPolicyConfigOutputReference
 	NetworkPolicyConfigInput() *ContainerClusterAddonsConfigNetworkPolicyConfig
+	NodeReadinessConfig() ContainerClusterAddonsConfigNodeReadinessConfigOutputReference
+	NodeReadinessConfigInput() *ContainerClusterAddonsConfigNodeReadinessConfig
 	ParallelstoreCsiDriverConfig() ContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference
 	ParallelstoreCsiDriverConfigInput() *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig
 	PodSnapshotConfig() ContainerClusterAddonsConfigPodSnapshotConfigOutputReference
@@ -112,6 +114,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	PutHttpLoadBalancing(value *ContainerClusterAddonsConfigHttpLoadBalancing)
 	PutLustreCsiDriverConfig(value *ContainerClusterAddonsConfigLustreCsiDriverConfig)
 	PutNetworkPolicyConfig(value *ContainerClusterAddonsConfigNetworkPolicyConfig)
+	PutNodeReadinessConfig(value *ContainerClusterAddonsConfigNodeReadinessConfig)
 	PutParallelstoreCsiDriverConfig(value *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig)
 	PutPodSnapshotConfig(value *ContainerClusterAddonsConfigPodSnapshotConfig)
 	PutRayOperatorConfig(value interface{})
@@ -130,6 +133,7 @@ type ContainerClusterAddonsConfigOutputReference interface {
 	ResetHttpLoadBalancing()
 	ResetLustreCsiDriverConfig()
 	ResetNetworkPolicyConfig()
+	ResetNodeReadinessConfig()
 	ResetParallelstoreCsiDriverConfig()
 	ResetPodSnapshotConfig()
 	ResetRayOperatorConfig()
@@ -436,6 +440,26 @@ func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) NetworkPolicyCon
 	_jsii_.Get(
 		j,
 		"networkPolicyConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) NodeReadinessConfig() ContainerClusterAddonsConfigNodeReadinessConfigOutputReference {
+	var returns ContainerClusterAddonsConfigNodeReadinessConfigOutputReference
+	_jsii_.Get(
+		j,
+		"nodeReadinessConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterAddonsConfigOutputReference) NodeReadinessConfigInput() *ContainerClusterAddonsConfigNodeReadinessConfig {
+	var returns *ContainerClusterAddonsConfigNodeReadinessConfig
+	_jsii_.Get(
+		j,
+		"nodeReadinessConfigInput",
 		&returns,
 	)
 	return returns
@@ -982,6 +1006,17 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutNetworkPolicy
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutNodeReadinessConfig(value *ContainerClusterAddonsConfigNodeReadinessConfig) {
+	if err := c.validatePutNodeReadinessConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putNodeReadinessConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) PutParallelstoreCsiDriverConfig(value *ContainerClusterAddonsConfigParallelstoreCsiDriverConfig) {
 	if err := c.validatePutParallelstoreCsiDriverConfigParameters(value); err != nil {
 		panic(err)
@@ -1140,6 +1175,14 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetNetworkPoli
 	_jsii_.InvokeVoid(
 		c,
 		"resetNetworkPolicyConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) ResetNodeReadinessConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNodeReadinessConfig",
 		nil, // no parameters
 	)
 }

@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleDatabaseOdbSubnet) validateInterpolationForAttributePar
 	return nil
 }
 
+func (o *jsiiProxy_OracleDatabaseOdbSubnet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleDatabaseOdbSubnet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OracleDatabaseOdbSubnet) validateOverrideLogicalIdParameters(
 }
 
 func (o *jsiiProxy_OracleDatabaseOdbSubnet) validatePutTimeoutsParameters(value *OracleDatabaseOdbSubnetTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleDatabaseOdbSubnet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

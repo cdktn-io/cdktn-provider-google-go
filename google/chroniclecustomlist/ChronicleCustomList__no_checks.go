@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChronicleCustomList) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleCustomList) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleCustomList) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChronicleCustomList) validateOverrideLogicalIdParameters(newL
 }
 
 func (c *jsiiProxy_ChronicleCustomList) validatePutTimeoutsParameters(value *ChronicleCustomListTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChronicleCustomList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

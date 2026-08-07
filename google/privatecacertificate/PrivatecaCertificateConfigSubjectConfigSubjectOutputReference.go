@@ -5,9 +5,9 @@ package privatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/privatecacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/privatecacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -90,6 +90,7 @@ type PrivatecaCertificateConfigSubjectConfigSubjectOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCountryCode()
 	ResetLocality()
+	ResetOrganization()
 	ResetOrganizationalUnit()
 	ResetPostalCode()
 	ResetProvince()
@@ -708,6 +709,14 @@ func (p *jsiiProxy_PrivatecaCertificateConfigSubjectConfigSubjectOutputReference
 	_jsii_.InvokeVoid(
 		p,
 		"resetLocality",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCertificateConfigSubjectConfigSubjectOutputReference) ResetOrganization() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetOrganization",
 		nil, // no parameters
 	)
 }

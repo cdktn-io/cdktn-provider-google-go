@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesApp) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (c *jsiiProxy_CesApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (c *jsiiProxy_CesApp) validatePutTimeZoneSettingsParameters(value *CesAppTi
 }
 
 func (c *jsiiProxy_CesApp) validatePutVariableDeclarationsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

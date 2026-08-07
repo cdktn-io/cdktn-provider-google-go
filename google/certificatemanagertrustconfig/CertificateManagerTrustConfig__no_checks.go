@@ -59,6 +59,10 @@ func (c *jsiiProxy_CertificateManagerTrustConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_CertificateManagerTrustConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CertificateManagerTrustConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CertificateManagerTrustConfig) validatePutTimeoutsParameters(
 }
 
 func (c *jsiiProxy_CertificateManagerTrustConfig) validatePutTrustStoresParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CertificateManagerTrustConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

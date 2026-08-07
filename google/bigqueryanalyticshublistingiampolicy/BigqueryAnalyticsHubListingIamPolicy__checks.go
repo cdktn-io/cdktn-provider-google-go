@@ -122,6 +122,14 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateInterpolationFo
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateMoveToIdParamet
 func (b *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

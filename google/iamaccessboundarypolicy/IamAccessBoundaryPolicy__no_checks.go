@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamAccessBoundaryPolicy) validateInterpolationForAttributePar
 	return nil
 }
 
+func (i *jsiiProxy_IamAccessBoundaryPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamAccessBoundaryPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IamAccessBoundaryPolicy) validatePutRulesParameters(value int
 }
 
 func (i *jsiiProxy_IamAccessBoundaryPolicy) validatePutTimeoutsParameters(value *IamAccessBoundaryPolicyTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamAccessBoundaryPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

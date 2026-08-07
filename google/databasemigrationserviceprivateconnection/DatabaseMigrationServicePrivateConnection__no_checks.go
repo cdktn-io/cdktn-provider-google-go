@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateInterpolat
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutTimeout
 }
 
 func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutVpcPeeringConfigParameters(value *DatabaseMigrationServicePrivateConnectionVpcPeeringConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

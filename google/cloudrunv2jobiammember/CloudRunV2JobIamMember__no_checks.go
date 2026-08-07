@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudRunV2JobIamMember) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2JobIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2JobIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudRunV2JobIamMember) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_CloudRunV2JobIamMember) validatePutConditionParameters(value *CloudRunV2JobIamMemberCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2JobIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirestoreBackupSchedule) validateInterpolationForAttributePar
 	return nil
 }
 
+func (f *jsiiProxy_FirestoreBackupSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirestoreBackupSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FirestoreBackupSchedule) validatePutTimeoutsParameters(value 
 }
 
 func (f *jsiiProxy_FirestoreBackupSchedule) validatePutWeeklyRecurrenceParameters(value *FirestoreBackupScheduleWeeklyRecurrence) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirestoreBackupSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

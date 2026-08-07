@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccV2OrganizationSourceIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_SccV2OrganizationSourceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccV2OrganizationSourceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SccV2OrganizationSourceIamBinding) validateOverrideLogicalIdP
 }
 
 func (s *jsiiProxy_SccV2OrganizationSourceIamBinding) validatePutConditionParameters(value *SccV2OrganizationSourceIamBindingCondition) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccV2OrganizationSourceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApihubApiHubInstance) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_ApihubApiHubInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApihubApiHubInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApihubApiHubInstance) validatePutConfigParameters(value *Apih
 }
 
 func (a *jsiiProxy_ApihubApiHubInstance) validatePutTimeoutsParameters(value *ApihubApiHubInstanceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApihubApiHubInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

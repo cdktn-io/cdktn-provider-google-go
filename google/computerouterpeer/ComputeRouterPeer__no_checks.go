@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeRouterPeer) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRouterPeer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRouterPeer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (c *jsiiProxy_ComputeRouterPeer) validatePutMd5AuthenticationKeyParameters(
 }
 
 func (c *jsiiProxy_ComputeRouterPeer) validatePutTimeoutsParameters(value *ComputeRouterPeerTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeRouterPeer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

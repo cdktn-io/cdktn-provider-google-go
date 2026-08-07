@@ -122,6 +122,14 @@ func (a *jsiiProxy_ApigeeApiDeployment) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (a *jsiiProxy_ApigeeApiDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ApigeeApiDeployment) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (a *jsiiProxy_ApigeeApiDeployment) validatePutTimeoutsParameters(value *Api
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ApigeeApiDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil
@@ -435,6 +451,14 @@ func (j *jsiiProxy_ApigeeApiDeployment) validateSetProxyIdParameters(val *string
 }
 
 func (j *jsiiProxy_ApigeeApiDeployment) validateSetRevisionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ApigeeApiDeployment) validateSetServiceAccountParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

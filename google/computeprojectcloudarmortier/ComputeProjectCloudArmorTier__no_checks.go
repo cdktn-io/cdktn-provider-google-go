@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeProjectCloudArmorTier) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ComputeProjectCloudArmorTier) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeProjectCloudArmorTier) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeProjectCloudArmorTier) validateOverrideLogicalIdParame
 }
 
 func (c *jsiiProxy_ComputeProjectCloudArmorTier) validatePutTimeoutsParameters(value *ComputeProjectCloudArmorTierTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeProjectCloudArmorTier) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

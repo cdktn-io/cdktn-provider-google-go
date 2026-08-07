@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareDatasetIamBinding) validateInterpolationForAttribut
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareDatasetIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareDatasetIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_HealthcareDatasetIamBinding) validateOverrideLogicalIdParamet
 }
 
 func (h *jsiiProxy_HealthcareDatasetIamBinding) validatePutConditionParameters(value *HealthcareDatasetIamBindingCondition) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareDatasetIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

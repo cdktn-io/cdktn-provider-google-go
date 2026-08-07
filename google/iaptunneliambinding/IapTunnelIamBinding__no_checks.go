@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapTunnelIamBinding) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (i *jsiiProxy_IapTunnelIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapTunnelIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IapTunnelIamBinding) validateOverrideLogicalIdParameters(newL
 }
 
 func (i *jsiiProxy_IapTunnelIamBinding) validatePutConditionParameters(value *IapTunnelIamBindingCondition) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapTunnelIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

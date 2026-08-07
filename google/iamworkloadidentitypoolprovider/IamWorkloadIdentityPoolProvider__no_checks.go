@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProvider) validateInterpolationForAttr
 	return nil
 }
 
+func (i *jsiiProxy_IamWorkloadIdentityPoolProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamWorkloadIdentityPoolProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (i *jsiiProxy_IamWorkloadIdentityPoolProvider) validatePutTimeoutsParameter
 }
 
 func (i *jsiiProxy_IamWorkloadIdentityPoolProvider) validatePutX509Parameters(value *IamWorkloadIdentityPoolProviderX509) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityPoolProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package modelarmortemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/modelarmortemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/modelarmortemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -43,6 +43,8 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	EnforcementType() *string
 	SetEnforcementType(val *string)
 	EnforcementTypeInput() *string
+	FilterVersionSelector() ModelArmorTemplateTemplateMetadataFilterVersionSelectorOutputReference
+	FilterVersionSelectorInput() *ModelArmorTemplateTemplateMetadataFilterVersionSelector
 	// Experimental.
 	Fqn() *string
 	IgnorePartialInvocationFailures() interface{}
@@ -90,12 +92,14 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutFilterVersionSelector(value *ModelArmorTemplateTemplateMetadataFilterVersionSelector)
 	PutMultiLanguageDetection(value *ModelArmorTemplateTemplateMetadataMultiLanguageDetection)
 	ResetCustomLlmResponseSafetyErrorCode()
 	ResetCustomLlmResponseSafetyErrorMessage()
 	ResetCustomPromptSafetyErrorCode()
 	ResetCustomPromptSafetyErrorMessage()
 	ResetEnforcementType()
+	ResetFilterVersionSelector()
 	ResetIgnorePartialInvocationFailures()
 	ResetLogSanitizeOperations()
 	ResetLogTemplateOperations()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) Enforcemen
 	_jsii_.Get(
 		j,
 		"enforcementTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) FilterVersionSelector() ModelArmorTemplateTemplateMetadataFilterVersionSelectorOutputReference {
+	var returns ModelArmorTemplateTemplateMetadataFilterVersionSelectorOutputReference
+	_jsii_.Get(
+		j,
+		"filterVersionSelector",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) FilterVersionSelectorInput() *ModelArmorTemplateTemplateMetadataFilterVersionSelector {
+	var returns *ModelArmorTemplateTemplateMetadataFilterVersionSelector
+	_jsii_.Get(
+		j,
+		"filterVersionSelectorInput",
 		&returns,
 	)
 	return returns
@@ -722,6 +746,17 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) Interpolat
 	return returns
 }
 
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) PutFilterVersionSelector(value *ModelArmorTemplateTemplateMetadataFilterVersionSelector) {
+	if err := m.validatePutFilterVersionSelectorParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putFilterVersionSelector",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) PutMultiLanguageDetection(value *ModelArmorTemplateTemplateMetadataMultiLanguageDetection) {
 	if err := m.validatePutMultiLanguageDetectionParameters(value); err != nil {
 		panic(err)
@@ -769,6 +804,14 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetEnfor
 	_jsii_.InvokeVoid(
 		m,
 		"resetEnforcementType",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetFilterVersionSelector() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetFilterVersionSelector",
 		nil, // no parameters
 	)
 }

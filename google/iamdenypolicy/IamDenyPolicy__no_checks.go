@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamDenyPolicy) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (i *jsiiProxy_IamDenyPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamDenyPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IamDenyPolicy) validatePutRulesParameters(value interface{}) 
 }
 
 func (i *jsiiProxy_IamDenyPolicy) validatePutTimeoutsParameters(value *IamDenyPolicyTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamDenyPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

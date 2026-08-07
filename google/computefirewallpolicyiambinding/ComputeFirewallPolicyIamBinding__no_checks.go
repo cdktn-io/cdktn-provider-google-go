@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeFirewallPolicyIamBinding) validateInterpolationForAttr
 	return nil
 }
 
+func (c *jsiiProxy_ComputeFirewallPolicyIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeFirewallPolicyIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeFirewallPolicyIamBinding) validateOverrideLogicalIdPar
 }
 
 func (c *jsiiProxy_ComputeFirewallPolicyIamBinding) validatePutConditionParameters(value *ComputeFirewallPolicyIamBindingCondition) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeFirewallPolicyIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

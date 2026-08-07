@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesExample) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (c *jsiiProxy_CesExample) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesExample) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CesExample) validatePutMessagesParameters(value interface{}) 
 }
 
 func (c *jsiiProxy_CesExample) validatePutTimeoutsParameters(value *CesExampleTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesExample) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

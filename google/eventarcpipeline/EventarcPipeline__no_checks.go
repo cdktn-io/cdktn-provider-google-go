@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventarcPipeline) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (e *jsiiProxy_EventarcPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventarcPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (e *jsiiProxy_EventarcPipeline) validatePutRetryPolicyParameters(value *Eve
 }
 
 func (e *jsiiProxy_EventarcPipeline) validatePutTimeoutsParameters(value *EventarcPipelineTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventarcPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

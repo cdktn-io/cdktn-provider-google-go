@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateInterpolat
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateOverrideLo
 }
 
 func (a *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validatePutConditionParameters(value *AccessContextManagerAccessPolicyIamMemberCondition) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessContextManagerAccessPolicyIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

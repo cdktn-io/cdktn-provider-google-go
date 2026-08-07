@@ -59,6 +59,10 @@ func (i *jsiiProxy_IdentityPlatformConfig) validateInterpolationForAttributePara
 	return nil
 }
 
+func (i *jsiiProxy_IdentityPlatformConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IdentityPlatformConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (i *jsiiProxy_IdentityPlatformConfig) validatePutSmsRegionConfigParameters(
 }
 
 func (i *jsiiProxy_IdentityPlatformConfig) validatePutTimeoutsParameters(value *IdentityPlatformConfigTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IdentityPlatformConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAzureClient) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAzureClient) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAzureClient) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ContainerAzureClient) validateOverrideLogicalIdParameters(new
 }
 
 func (c *jsiiProxy_ContainerAzureClient) validatePutTimeoutsParameters(value *ContainerAzureClientTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAzureClient) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

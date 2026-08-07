@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudRunV2Job) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2Job) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2Job) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CloudRunV2Job) validatePutTemplateParameters(value *CloudRunV
 }
 
 func (c *jsiiProxy_CloudRunV2Job) validatePutTimeoutsParameters(value *CloudRunV2JobTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2Job) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -160,6 +168,14 @@ func (j *jsiiProxy_CloudRunV2Job) validateSetProjectParameters(val *string) erro
 }
 
 func (j *jsiiProxy_CloudRunV2Job) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2Job) validateSetRunExecutionTokenParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2Job) validateSetStartExecutionTokenParameters(val *string) error {
 	return nil
 }
 

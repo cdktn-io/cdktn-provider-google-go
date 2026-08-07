@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamBinding) validateInterpol
 	return nil
 }
 
+func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamBinding) validateOverride
 }
 
 func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamBinding) validatePutConditionParameters(value *IapWebRegionForwardingRuleServiceIamBindingCondition) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapWebRegionForwardingRuleServiceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

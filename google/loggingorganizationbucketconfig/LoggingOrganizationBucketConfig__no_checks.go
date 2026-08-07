@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfig) validateInterpolationForAttr
 	return nil
 }
 
+func (l *jsiiProxy_LoggingOrganizationBucketConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoggingOrganizationBucketConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LoggingOrganizationBucketConfig) validatePutCmekSettingsParam
 }
 
 func (l *jsiiProxy_LoggingOrganizationBucketConfig) validatePutIndexConfigsParameters(value interface{}) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoggingOrganizationBucketConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

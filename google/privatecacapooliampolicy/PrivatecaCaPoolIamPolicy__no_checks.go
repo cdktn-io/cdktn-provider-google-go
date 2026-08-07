@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) validateMoveToIdParameters(id *stri
 }
 
 func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivatecaCaPoolIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

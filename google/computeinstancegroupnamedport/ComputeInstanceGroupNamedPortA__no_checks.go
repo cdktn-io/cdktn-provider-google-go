@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeInstanceGroupNamedPortA) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInstanceGroupNamedPortA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInstanceGroupNamedPortA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeInstanceGroupNamedPortA) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_ComputeInstanceGroupNamedPortA) validatePutTimeoutsParameters(value *ComputeInstanceGroupNamedPortTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeInstanceGroupNamedPortA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

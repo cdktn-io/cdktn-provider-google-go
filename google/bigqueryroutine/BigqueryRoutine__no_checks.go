@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigqueryRoutine) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryRoutine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryRoutine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (b *jsiiProxy_BigqueryRoutine) validatePutSparkOptionsParameters(value *Big
 }
 
 func (b *jsiiProxy_BigqueryRoutine) validatePutTimeoutsParameters(value *BigqueryRoutineTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryRoutine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

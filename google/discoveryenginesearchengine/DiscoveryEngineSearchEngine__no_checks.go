@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngine) validateInterpolationForAttribut
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineSearchEngine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngine) validatePutSearchEngineConfigPar
 }
 
 func (d *jsiiProxy_DiscoveryEngineSearchEngine) validatePutTimeoutsParameters(value *DiscoveryEngineSearchEngineTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

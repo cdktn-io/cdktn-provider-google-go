@@ -59,6 +59,10 @@ func (c *jsiiProxy_Cloudbuildv2Repository) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_Cloudbuildv2Repository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_Cloudbuildv2Repository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_Cloudbuildv2Repository) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_Cloudbuildv2Repository) validatePutTimeoutsParameters(value *Cloudbuildv2RepositoryTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_Cloudbuildv2Repository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModule)
 	return nil
 }
 
+func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModule)
 }
 
 func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModule) validatePutTimeoutsParameters(value *SccManagementOrganizationSecurityHealthAnalyticsCustomModuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccManagementOrganizationSecurityHealthAnalyticsCustomModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

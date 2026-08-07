@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsCryptoKey) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (k *jsiiProxy_KmsCryptoKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsCryptoKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KmsCryptoKey) validatePutTimeoutsParameters(value *KmsCryptoK
 }
 
 func (k *jsiiProxy_KmsCryptoKey) validatePutVersionTemplateParameters(value *KmsCryptoKeyVersionTemplate) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsCryptoKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

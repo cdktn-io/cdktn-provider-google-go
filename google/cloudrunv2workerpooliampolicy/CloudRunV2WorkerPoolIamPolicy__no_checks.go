@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateMoveToIdParameters(id 
 }
 
 func (c *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudRunV2WorkerPoolIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

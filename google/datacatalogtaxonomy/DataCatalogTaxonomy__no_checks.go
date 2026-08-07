@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataCatalogTaxonomy) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataCatalogTaxonomy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataCatalogTaxonomy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataCatalogTaxonomy) validateOverrideLogicalIdParameters(newL
 }
 
 func (d *jsiiProxy_DataCatalogTaxonomy) validatePutTimeoutsParameters(value *DataCatalogTaxonomyTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataCatalogTaxonomy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

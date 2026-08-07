@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapSettings) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (i *jsiiProxy_IapSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_IapSettings) validatePutApplicationSettingsParameters(value *
 }
 
 func (i *jsiiProxy_IapSettings) validatePutTimeoutsParameters(value *IapSettingsTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

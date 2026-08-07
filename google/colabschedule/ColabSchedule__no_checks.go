@@ -59,6 +59,10 @@ func (c *jsiiProxy_ColabSchedule) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (c *jsiiProxy_ColabSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -79,7 +83,15 @@ func (c *jsiiProxy_ColabSchedule) validatePutCreateNotebookExecutionJobRequestPa
 	return nil
 }
 
+func (c *jsiiProxy_ColabSchedule) validatePutCreatePipelineJobRequestParameters(value *ColabScheduleCreatePipelineJobRequest) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabSchedule) validatePutTimeoutsParameters(value *ColabScheduleTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ColabSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -140,6 +152,10 @@ func (j *jsiiProxy_ColabSchedule) validateSetLifecycleParameters(val *cdktn.Terr
 }
 
 func (j *jsiiProxy_ColabSchedule) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ColabSchedule) validateSetMaxConcurrentActiveRunCountParameters(val *string) error {
 	return nil
 }
 

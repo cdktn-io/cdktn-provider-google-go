@@ -5,14 +5,15 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v19/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs google}.
 type GoogleProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -30,6 +31,9 @@ type GoogleProvider interface {
 	AddTerraformAttributionLabel() interface{}
 	SetAddTerraformAttributionLabel(val interface{})
 	AddTerraformAttributionLabelInput() interface{}
+	AgentIdentityCustomEndpoint() *string
+	SetAgentIdentityCustomEndpoint(val *string)
+	AgentIdentityCustomEndpointInput() *string
 	AgentRegistryCustomEndpoint() *string
 	SetAgentRegistryCustomEndpoint(val *string)
 	AgentRegistryCustomEndpointInput() *string
@@ -176,6 +180,9 @@ type GoogleProvider interface {
 	CloudSecurityComplianceCustomEndpoint() *string
 	SetCloudSecurityComplianceCustomEndpoint(val *string)
 	CloudSecurityComplianceCustomEndpointInput() *string
+	CloudSupportCustomEndpoint() *string
+	SetCloudSupportCustomEndpoint(val *string)
+	CloudSupportCustomEndpointInput() *string
 	CloudTasksCustomEndpoint() *string
 	SetCloudTasksCustomEndpoint(val *string)
 	CloudTasksCustomEndpointInput() *string
@@ -326,6 +333,8 @@ type GoogleProvider interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	// Provider-defined functions of the google provider.
+	Functions() providerfunctions.GoogleProviderFunctions
 	GeminiCustomEndpoint() *string
 	SetGeminiCustomEndpoint(val *string)
 	GeminiCustomEndpointInput() *string
@@ -646,11 +655,25 @@ type GoogleProvider interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccessApprovalCustomEndpoint()
 	ResetAccessContextManagerCustomEndpoint()
 	ResetAccessToken()
 	ResetActiveDirectoryCustomEndpoint()
 	ResetAddTerraformAttributionLabel()
+	ResetAgentIdentityCustomEndpoint()
 	ResetAgentRegistryCustomEndpoint()
 	ResetAlias()
 	ResetAlloydbCustomEndpoint()
@@ -699,6 +722,7 @@ type GoogleProvider interface {
 	ResetCloudRunV2CustomEndpoint()
 	ResetCloudSchedulerCustomEndpoint()
 	ResetCloudSecurityComplianceCustomEndpoint()
+	ResetCloudSupportCustomEndpoint()
 	ResetCloudTasksCustomEndpoint()
 	ResetColabCustomEndpoint()
 	ResetComposerCustomEndpoint()
@@ -973,6 +997,26 @@ func (j *jsiiProxy_GoogleProvider) AddTerraformAttributionLabelInput() interface
 	_jsii_.Get(
 		j,
 		"addTerraformAttributionLabelInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) AgentIdentityCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentIdentityCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) AgentIdentityCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentIdentityCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -1943,6 +1987,26 @@ func (j *jsiiProxy_GoogleProvider) CloudSecurityComplianceCustomEndpointInput() 
 	_jsii_.Get(
 		j,
 		"cloudSecurityComplianceCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) CloudSupportCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudSupportCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) CloudSupportCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudSupportCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -2933,6 +2997,16 @@ func (j *jsiiProxy_GoogleProvider) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) Functions() providerfunctions.GoogleProviderFunctions {
+	var returns providerfunctions.GoogleProviderFunctions
+	_jsii_.Get(
+		j,
+		"functions",
 		&returns,
 	)
 	return returns
@@ -5019,7 +5093,7 @@ func (j *jsiiProxy_GoogleProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs google} Resource.
 func NewGoogleProvider(scope constructs.Construct, id *string, config *GoogleProviderConfig) GoogleProvider {
 	_init_.Initialize()
 
@@ -5037,7 +5111,7 @@ func NewGoogleProvider(scope constructs.Construct, id *string, config *GooglePro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs google} Resource.
 func NewGoogleProvider_Override(g GoogleProvider, scope constructs.Construct, id *string, config *GoogleProviderConfig) {
 	_init_.Initialize()
 
@@ -5087,6 +5161,14 @@ func (j *jsiiProxy_GoogleProvider)SetAddTerraformAttributionLabel(val interface{
 	_jsii_.Set(
 		j,
 		"addTerraformAttributionLabel",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetAgentIdentityCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"agentIdentityCustomEndpoint",
 		val,
 	)
 }
@@ -5474,6 +5556,14 @@ func (j *jsiiProxy_GoogleProvider)SetCloudSecurityComplianceCustomEndpoint(val *
 	_jsii_.Set(
 		j,
 		"cloudSecurityComplianceCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetCloudSupportCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"cloudSupportCustomEndpoint",
 		val,
 	)
 }
@@ -6807,6 +6897,17 @@ func (g *jsiiProxy_GoogleProvider) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (g *jsiiProxy_GoogleProvider) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := g.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
+	)
+}
+
 func (g *jsiiProxy_GoogleProvider) ResetAccessApprovalCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -6843,6 +6944,14 @@ func (g *jsiiProxy_GoogleProvider) ResetAddTerraformAttributionLabel() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddTerraformAttributionLabel",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetAgentIdentityCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentIdentityCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7227,6 +7336,14 @@ func (g *jsiiProxy_GoogleProvider) ResetCloudSecurityComplianceCustomEndpoint() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetCloudSecurityComplianceCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetCloudSupportCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCloudSupportCustomEndpoint",
 		nil, // no parameters
 	)
 }

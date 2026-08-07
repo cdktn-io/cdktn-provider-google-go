@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateInterpolationFo
 	return nil
 }
 
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) validatePutDispatchRule
 }
 
 func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) validatePutTimeoutsParameters(value *AppEngineApplicationUrlDispatchRulesTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppEngineApplicationUrlDispatchRules) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

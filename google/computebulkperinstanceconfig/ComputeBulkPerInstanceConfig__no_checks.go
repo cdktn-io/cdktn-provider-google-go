@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeBulkPerInstanceConfig) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ComputeBulkPerInstanceConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeBulkPerInstanceConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ComputeBulkPerInstanceConfig) validatePutInstancesParameters(
 }
 
 func (c *jsiiProxy_ComputeBulkPerInstanceConfig) validatePutTimeoutsParameters(value *ComputeBulkPerInstanceConfigTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeBulkPerInstanceConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

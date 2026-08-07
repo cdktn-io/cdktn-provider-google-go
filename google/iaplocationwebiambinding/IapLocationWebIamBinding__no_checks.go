@@ -59,6 +59,10 @@ func (i *jsiiProxy_IapLocationWebIamBinding) validateInterpolationForAttributePa
 	return nil
 }
 
+func (i *jsiiProxy_IapLocationWebIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IapLocationWebIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IapLocationWebIamBinding) validateOverrideLogicalIdParameters
 }
 
 func (i *jsiiProxy_IapLocationWebIamBinding) validatePutConditionParameters(value *IapLocationWebIamBindingCondition) error {
+	return nil
+}
+
+func (i *jsiiProxy_IapLocationWebIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

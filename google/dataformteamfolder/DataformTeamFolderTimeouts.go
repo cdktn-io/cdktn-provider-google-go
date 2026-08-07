@@ -5,11 +5,11 @@ package dataformteamfolder
 
 
 type DataformTeamFolderTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/dataform_team_folder#create DataformTeamFolder#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/dataform_team_folder#create DataformTeamFolder#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/dataform_team_folder#delete DataformTeamFolder#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/dataform_team_folder#delete DataformTeamFolder#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.41.0/docs/resources/dataform_team_folder#update DataformTeamFolder#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/dataform_team_folder#update DataformTeamFolder#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

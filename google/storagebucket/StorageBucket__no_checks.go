@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageBucket) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (s *jsiiProxy_StorageBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageBucket) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (s *jsiiProxy_StorageBucket) validatePutVersioningParameters(value *Storage
 }
 
 func (s *jsiiProxy_StorageBucket) validatePutWebsiteParameters(value *StorageBucketWebsite) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

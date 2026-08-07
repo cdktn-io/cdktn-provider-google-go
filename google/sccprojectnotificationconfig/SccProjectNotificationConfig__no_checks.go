@@ -59,6 +59,10 @@ func (s *jsiiProxy_SccProjectNotificationConfig) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_SccProjectNotificationConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SccProjectNotificationConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SccProjectNotificationConfig) validatePutStreamingConfigParam
 }
 
 func (s *jsiiProxy_SccProjectNotificationConfig) validatePutTimeoutsParameters(value *SccProjectNotificationConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SccProjectNotificationConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

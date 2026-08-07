@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApihubCuration) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_ApihubCuration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApihubCuration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApihubCuration) validatePutEndpointParameters(value *ApihubCu
 }
 
 func (a *jsiiProxy_ApihubCuration) validatePutTimeoutsParameters(value *ApihubCurationTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApihubCuration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

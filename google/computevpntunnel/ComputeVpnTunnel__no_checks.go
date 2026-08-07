@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeVpnTunnel) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_ComputeVpnTunnel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeVpnTunnel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ComputeVpnTunnel) validatePutParamsParameters(value *ComputeV
 }
 
 func (c *jsiiProxy_ComputeVpnTunnel) validatePutTimeoutsParameters(value *ComputeVpnTunnelTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeVpnTunnel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudSecurityComplianceFramework) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_CloudSecurityComplianceFramework) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudSecurityComplianceFramework) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudSecurityComplianceFramework) validatePutCloudControlDeta
 }
 
 func (c *jsiiProxy_CloudSecurityComplianceFramework) validatePutTimeoutsParameters(value *CloudSecurityComplianceFrameworkTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceFramework) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

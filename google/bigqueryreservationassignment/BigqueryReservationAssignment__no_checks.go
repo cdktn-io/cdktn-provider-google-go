@@ -59,6 +59,10 @@ func (b *jsiiProxy_BigqueryReservationAssignment) validateInterpolationForAttrib
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryReservationAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryReservationAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BigqueryReservationAssignment) validateOverrideLogicalIdParam
 }
 
 func (b *jsiiProxy_BigqueryReservationAssignment) validatePutTimeoutsParameters(value *BigqueryReservationAssignmentTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BigqueryReservationAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -124,6 +132,10 @@ func (j *jsiiProxy_BigqueryReservationAssignment) validateSetLifecycleParameters
 }
 
 func (j *jsiiProxy_BigqueryReservationAssignment) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BigqueryReservationAssignment) validateSetPrincipalParameters(val *string) error {
 	return nil
 }
 

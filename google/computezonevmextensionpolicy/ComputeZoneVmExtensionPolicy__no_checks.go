@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeZoneVmExtensionPolicy) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ComputeZoneVmExtensionPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeZoneVmExtensionPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ComputeZoneVmExtensionPolicy) validatePutInstanceSelectorsPar
 }
 
 func (c *jsiiProxy_ComputeZoneVmExtensionPolicy) validatePutTimeoutsParameters(value *ComputeZoneVmExtensionPolicyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeZoneVmExtensionPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

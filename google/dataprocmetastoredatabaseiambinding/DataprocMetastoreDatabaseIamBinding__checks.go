@@ -122,6 +122,14 @@ func (d *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateInterpolationFor
 	return nil
 }
 
+func (d *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (d *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validatePutConditionPara
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataprocMetastoreDatabaseIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

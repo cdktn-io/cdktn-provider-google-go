@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateInterpolati
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validatePutSessionS
 }
 
 func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validatePutTimeoutsParameters(value *AccessContextManagerGcpUserAccessBindingTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

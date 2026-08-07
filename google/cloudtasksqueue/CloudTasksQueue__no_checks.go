@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudTasksQueue) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (c *jsiiProxy_CloudTasksQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudTasksQueue) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (c *jsiiProxy_CloudTasksQueue) validatePutStackdriverLoggingConfigParameter
 }
 
 func (c *jsiiProxy_CloudTasksQueue) validatePutTimeoutsParameters(value *CloudTasksQueueTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudTasksQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

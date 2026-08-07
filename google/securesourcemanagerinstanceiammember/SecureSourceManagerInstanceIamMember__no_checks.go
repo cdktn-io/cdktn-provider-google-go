@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecureSourceManagerInstanceIamMember) validateInterpolationFo
 	return nil
 }
 
+func (s *jsiiProxy_SecureSourceManagerInstanceIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecureSourceManagerInstanceIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SecureSourceManagerInstanceIamMember) validateOverrideLogical
 }
 
 func (s *jsiiProxy_SecureSourceManagerInstanceIamMember) validatePutConditionParameters(value *SecureSourceManagerInstanceIamMemberCondition) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecureSourceManagerInstanceIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

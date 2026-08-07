@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitoringAlertPolicy) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (m *jsiiProxy_MonitoringAlertPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitoringAlertPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MonitoringAlertPolicy) validatePutDocumentationParameters(val
 }
 
 func (m *jsiiProxy_MonitoringAlertPolicy) validatePutTimeoutsParameters(value *MonitoringAlertPolicyTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitoringAlertPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

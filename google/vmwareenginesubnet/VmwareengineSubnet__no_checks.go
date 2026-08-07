@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareengineSubnet) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (v *jsiiProxy_VmwareengineSubnet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareengineSubnet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VmwareengineSubnet) validateOverrideLogicalIdParameters(newLo
 }
 
 func (v *jsiiProxy_VmwareengineSubnet) validatePutTimeoutsParameters(value *VmwareengineSubnetTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareengineSubnet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
