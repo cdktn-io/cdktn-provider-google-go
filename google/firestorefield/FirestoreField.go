@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/firestore_field google_firestore_field}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/firestore_field google_firestore_field}.
 type FirestoreField interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -593,7 +593,7 @@ func (j *jsiiProxy_FirestoreField) TtlConfigInput() *FirestoreFieldTtlConfig {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/firestore_field google_firestore_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/firestore_field google_firestore_field} Resource.
 func NewFirestoreField(scope constructs.Construct, id *string, config *FirestoreFieldConfig) FirestoreField {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewFirestoreField(scope constructs.Construct, id *string, config *Firestore
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/firestore_field google_firestore_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/firestore_field google_firestore_field} Resource.
 func NewFirestoreField_Override(f FirestoreField, scope constructs.Construct, id *string, config *FirestoreFieldConfig) {
 	_init_.Initialize()
 

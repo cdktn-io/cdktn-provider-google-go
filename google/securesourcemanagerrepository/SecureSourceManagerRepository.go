@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/secure_source_manager_repository google_secure_source_manager_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_repository google_secure_source_manager_repository}.
 type SecureSourceManagerRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -80,6 +80,11 @@ type SecureSourceManagerRepository interface {
 	RepositoryId() *string
 	SetRepositoryId(val *string)
 	RepositoryIdInput() *string
+	ScanConfig() SecureSourceManagerRepositoryScanConfigOutputReference
+	ScanConfigInput() *SecureSourceManagerRepositoryScanConfig
+	ServiceAccount() *string
+	SetServiceAccount(val *string)
+	ServiceAccountInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -171,6 +176,7 @@ type SecureSourceManagerRepository interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutInitialConfig(value *SecureSourceManagerRepositoryInitialConfig)
+	PutScanConfig(value *SecureSourceManagerRepositoryScanConfig)
 	PutTimeouts(value *SecureSourceManagerRepositoryTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -193,6 +199,8 @@ type SecureSourceManagerRepository interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetScanConfig()
+	ResetServiceAccount()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -531,6 +539,46 @@ func (j *jsiiProxy_SecureSourceManagerRepository) RepositoryIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_SecureSourceManagerRepository) ScanConfig() SecureSourceManagerRepositoryScanConfigOutputReference {
+	var returns SecureSourceManagerRepositoryScanConfigOutputReference
+	_jsii_.Get(
+		j,
+		"scanConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerRepository) ScanConfigInput() *SecureSourceManagerRepositoryScanConfig {
+	var returns *SecureSourceManagerRepositoryScanConfig
+	_jsii_.Get(
+		j,
+		"scanConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerRepository) ServiceAccount() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerRepository) ServiceAccountInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccountInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecureSourceManagerRepository) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -612,7 +660,7 @@ func (j *jsiiProxy_SecureSourceManagerRepository) Uris() SecureSourceManagerRepo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/secure_source_manager_repository google_secure_source_manager_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_repository google_secure_source_manager_repository} Resource.
 func NewSecureSourceManagerRepository(scope constructs.Construct, id *string, config *SecureSourceManagerRepositoryConfig) SecureSourceManagerRepository {
 	_init_.Initialize()
 
@@ -630,7 +678,7 @@ func NewSecureSourceManagerRepository(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/secure_source_manager_repository google_secure_source_manager_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_repository google_secure_source_manager_repository} Resource.
 func NewSecureSourceManagerRepository_Override(s SecureSourceManagerRepository, scope constructs.Construct, id *string, config *SecureSourceManagerRepositoryConfig) {
 	_init_.Initialize()
 
@@ -782,6 +830,17 @@ func (j *jsiiProxy_SecureSourceManagerRepository)SetRepositoryId(val *string) {
 	_jsii_.Set(
 		j,
 		"repositoryId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecureSourceManagerRepository)SetServiceAccount(val *string) {
+	if err := j.validateSetServiceAccountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceAccount",
 		val,
 	)
 }
@@ -1166,6 +1225,17 @@ func (s *jsiiProxy_SecureSourceManagerRepository) PutInitialConfig(value *Secure
 	)
 }
 
+func (s *jsiiProxy_SecureSourceManagerRepository) PutScanConfig(value *SecureSourceManagerRepositoryScanConfig) {
+	if err := s.validatePutScanConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putScanConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SecureSourceManagerRepository) PutTimeouts(value *SecureSourceManagerRepositoryTimeouts) {
 	if err := s.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1232,6 +1302,22 @@ func (s *jsiiProxy_SecureSourceManagerRepository) ResetProject() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecureSourceManagerRepository) ResetScanConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetScanConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecureSourceManagerRepository) ResetServiceAccount() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetServiceAccount",
 		nil, // no parameters
 	)
 }

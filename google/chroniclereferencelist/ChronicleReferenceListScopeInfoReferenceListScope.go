@@ -11,7 +11,7 @@ type ChronicleReferenceListScopeInfoReferenceListScope struct {
 	// full resource names and should be of the format:
 	// "projects/{project}/locations/{location}/instances/{instance}/dataAccessScopes/{scope_name}".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_reference_list#scope_names ChronicleReferenceList#scope_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_reference_list#scope_names ChronicleReferenceList#scope_names}
 	ScopeNames *[]*string `field:"optional" json:"scopeNames" yaml:"scopeNames"`
 }
 

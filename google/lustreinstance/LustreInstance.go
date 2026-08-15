@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/lustre_instance google_lustre_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/lustre_instance google_lustre_instance}.
 type LustreInstance interface {
 	cdktn.TerraformResource
 	AccessRulesOptions() LustreInstanceAccessRulesOptionsOutputReference
@@ -881,7 +881,7 @@ func (j *jsiiProxy_LustreInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/lustre_instance google_lustre_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/lustre_instance google_lustre_instance} Resource.
 func NewLustreInstance(scope constructs.Construct, id *string, config *LustreInstanceConfig) LustreInstance {
 	_init_.Initialize()
 
@@ -899,7 +899,7 @@ func NewLustreInstance(scope constructs.Construct, id *string, config *LustreIns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/lustre_instance google_lustre_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/lustre_instance google_lustre_instance} Resource.
 func NewLustreInstance_Override(l LustreInstance, scope constructs.Construct, id *string, config *LustreInstanceConfig) {
 	_init_.Initialize()
 

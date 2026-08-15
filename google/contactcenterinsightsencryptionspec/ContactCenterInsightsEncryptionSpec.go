@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec}.
 type ContactCenterInsightsEncryptionSpec interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ContactCenterInsightsEncryptionSpec) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
 func NewContactCenterInsightsEncryptionSpec(scope constructs.Construct, id *string, config *ContactCenterInsightsEncryptionSpecConfig) ContactCenterInsightsEncryptionSpec {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewContactCenterInsightsEncryptionSpec(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
 func NewContactCenterInsightsEncryptionSpec_Override(c ContactCenterInsightsEncryptionSpec, scope constructs.Construct, id *string, config *ContactCenterInsightsEncryptionSpecConfig) {
 	_init_.Initialize()
 

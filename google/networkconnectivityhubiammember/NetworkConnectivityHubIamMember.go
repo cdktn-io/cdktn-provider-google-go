@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_connectivity_hub_iam_member google_network_connectivity_hub_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_connectivity_hub_iam_member google_network_connectivity_hub_iam_member}.
 type NetworkConnectivityHubIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_NetworkConnectivityHubIamMember) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_connectivity_hub_iam_member google_network_connectivity_hub_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_connectivity_hub_iam_member google_network_connectivity_hub_iam_member} Resource.
 func NewNetworkConnectivityHubIamMember(scope constructs.Construct, id *string, config *NetworkConnectivityHubIamMemberConfig) NetworkConnectivityHubIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewNetworkConnectivityHubIamMember(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_connectivity_hub_iam_member google_network_connectivity_hub_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_connectivity_hub_iam_member google_network_connectivity_hub_iam_member} Resource.
 func NewNetworkConnectivityHubIamMember_Override(n NetworkConnectivityHubIamMember, scope constructs.Construct, id *string, config *NetworkConnectivityHubIamMemberConfig) {
 	_init_.Initialize()
 

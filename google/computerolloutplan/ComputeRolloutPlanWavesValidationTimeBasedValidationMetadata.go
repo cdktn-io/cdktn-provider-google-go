@@ -10,7 +10,7 @@ type ComputeRolloutPlanWavesValidationTimeBasedValidationMetadata struct {
 	// This wait starts
 	// after all changes in the wave are rolled out.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_rollout_plan#wait_duration ComputeRolloutPlan#wait_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_rollout_plan#wait_duration ComputeRolloutPlan#wait_duration}
 	WaitDuration *string `field:"optional" json:"waitDuration" yaml:"waitDuration"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/iap_web_type_app_engine_iam_member google_iap_web_type_app_engine_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iap_web_type_app_engine_iam_member google_iap_web_type_app_engine_iam_member}.
 type IapWebTypeAppEngineIamMember interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_IapWebTypeAppEngineIamMember) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/iap_web_type_app_engine_iam_member google_iap_web_type_app_engine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iap_web_type_app_engine_iam_member google_iap_web_type_app_engine_iam_member} Resource.
 func NewIapWebTypeAppEngineIamMember(scope constructs.Construct, id *string, config *IapWebTypeAppEngineIamMemberConfig) IapWebTypeAppEngineIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewIapWebTypeAppEngineIamMember(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/iap_web_type_app_engine_iam_member google_iap_web_type_app_engine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iap_web_type_app_engine_iam_member google_iap_web_type_app_engine_iam_member} Resource.
 func NewIapWebTypeAppEngineIamMember_Override(i IapWebTypeAppEngineIamMember, scope constructs.Construct, id *string, config *IapWebTypeAppEngineIamMemberConfig) {
 	_init_.Initialize()
 

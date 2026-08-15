@@ -24,11 +24,11 @@ type ApigeeAddonsConfigConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of the Apigee organization.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_addons_config#org ApigeeAddonsConfig#org}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_addons_config#org ApigeeAddonsConfig#org}
 	Org *string `field:"required" json:"org" yaml:"org"`
 	// addons_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_addons_config#addons_config ApigeeAddonsConfig#addons_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_addons_config#addons_config ApigeeAddonsConfig#addons_config}
 	AddonsConfig *ApigeeAddonsConfigAddonsConfig `field:"optional" json:"addonsConfig" yaml:"addonsConfig"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,16 +40,16 @@ type ApigeeAddonsConfigConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_addons_config#deletion_policy ApigeeAddonsConfig#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_addons_config#deletion_policy ApigeeAddonsConfig#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_addons_config#id ApigeeAddonsConfig#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_addons_config#id ApigeeAddonsConfig#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_addons_config#timeouts ApigeeAddonsConfig#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_addons_config#timeouts ApigeeAddonsConfig#timeouts}
 	Timeouts *ApigeeAddonsConfigTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

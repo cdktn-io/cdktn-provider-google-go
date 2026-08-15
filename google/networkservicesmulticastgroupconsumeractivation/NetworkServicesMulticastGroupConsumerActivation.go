@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation}.
 type NetworkServicesMulticastGroupConsumerActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -681,7 +681,7 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupConsumerActivation) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
 func NewNetworkServicesMulticastGroupConsumerActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupConsumerActivationConfig) NetworkServicesMulticastGroupConsumerActivation {
 	_init_.Initialize()
 
@@ -699,7 +699,7 @@ func NewNetworkServicesMulticastGroupConsumerActivation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
 func NewNetworkServicesMulticastGroupConsumerActivation_Override(n NetworkServicesMulticastGroupConsumerActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupConsumerActivationConfig) {
 	_init_.Initialize()
 

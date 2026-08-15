@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy}.
 type IamWorkloadIdentityPoolIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolIamPolicy) WorkloadIdentityPoolIdInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy} Resource.
 func NewIamWorkloadIdentityPoolIamPolicy(scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolIamPolicyConfig) IamWorkloadIdentityPoolIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIamWorkloadIdentityPoolIamPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy} Resource.
 func NewIamWorkloadIdentityPoolIamPolicy_Override(i IamWorkloadIdentityPoolIamPolicy, scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolIamPolicyConfig) {
 	_init_.Initialize()
 

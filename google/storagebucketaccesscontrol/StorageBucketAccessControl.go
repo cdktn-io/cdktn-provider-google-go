@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control}.
 type StorageBucketAccessControl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_StorageBucketAccessControl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
 func NewStorageBucketAccessControl(scope constructs.Construct, id *string, config *StorageBucketAccessControlConfig) StorageBucketAccessControl {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewStorageBucketAccessControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/storage_bucket_access_control google_storage_bucket_access_control} Resource.
 func NewStorageBucketAccessControl_Override(s StorageBucketAccessControl, scope constructs.Construct, id *string, config *StorageBucketAccessControlConfig) {
 	_init_.Initialize()
 

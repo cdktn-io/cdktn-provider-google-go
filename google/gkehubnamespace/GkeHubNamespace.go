@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/gke_hub_namespace google_gke_hub_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/gke_hub_namespace google_gke_hub_namespace}.
 type GkeHubNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -645,7 +645,7 @@ func (j *jsiiProxy_GkeHubNamespace) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
 func NewGkeHubNamespace(scope constructs.Construct, id *string, config *GkeHubNamespaceConfig) GkeHubNamespace {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewGkeHubNamespace(scope constructs.Construct, id *string, config *GkeHubNa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/gke_hub_namespace google_gke_hub_namespace} Resource.
 func NewGkeHubNamespace_Override(g GkeHubNamespace, scope constructs.Construct, id *string, config *GkeHubNamespaceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/kms_crypto_key_iam_binding google_kms_crypto_key_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/kms_crypto_key_iam_binding google_kms_crypto_key_iam_binding}.
 type KmsCryptoKeyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_KmsCryptoKeyIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/kms_crypto_key_iam_binding google_kms_crypto_key_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/kms_crypto_key_iam_binding google_kms_crypto_key_iam_binding} Resource.
 func NewKmsCryptoKeyIamBinding(scope constructs.Construct, id *string, config *KmsCryptoKeyIamBindingConfig) KmsCryptoKeyIamBinding {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewKmsCryptoKeyIamBinding(scope constructs.Construct, id *string, config *K
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/kms_crypto_key_iam_binding google_kms_crypto_key_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/kms_crypto_key_iam_binding google_kms_crypto_key_iam_binding} Resource.
 func NewKmsCryptoKeyIamBinding_Override(k KmsCryptoKeyIamBinding, scope constructs.Construct, id *string, config *KmsCryptoKeyIamBindingConfig) {
 	_init_.Initialize()
 

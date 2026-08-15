@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_project_default_network_tier google_compute_project_default_network_tier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_project_default_network_tier google_compute_project_default_network_tier}.
 type ComputeProjectDefaultNetworkTier interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_ComputeProjectDefaultNetworkTier) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_project_default_network_tier google_compute_project_default_network_tier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_project_default_network_tier google_compute_project_default_network_tier} Resource.
 func NewComputeProjectDefaultNetworkTier(scope constructs.Construct, id *string, config *ComputeProjectDefaultNetworkTierConfig) ComputeProjectDefaultNetworkTier {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewComputeProjectDefaultNetworkTier(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_project_default_network_tier google_compute_project_default_network_tier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_project_default_network_tier google_compute_project_default_network_tier} Resource.
 func NewComputeProjectDefaultNetworkTier_Override(c ComputeProjectDefaultNetworkTier, scope constructs.Construct, id *string, config *ComputeProjectDefaultNetworkTierConfig) {
 	_init_.Initialize()
 

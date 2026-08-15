@@ -258,6 +258,14 @@ func (j *jsiiProxy_ComputeInstanceSchedulingOutputReference) validateSetComplexO
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceSchedulingOutputReference) validateSetHostErrorTimeoutSecondsParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceSchedulingOutputReference) validateSetInstanceTerminationActionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

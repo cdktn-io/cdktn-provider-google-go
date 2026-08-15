@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config}.
 type LoggingBillingAccountBucketConfig interface {
 	cdktn.TerraformResource
 	BillingAccount() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_LoggingBillingAccountBucketConfig) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
 func NewLoggingBillingAccountBucketConfig(scope constructs.Construct, id *string, config *LoggingBillingAccountBucketConfigConfig) LoggingBillingAccountBucketConfig {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewLoggingBillingAccountBucketConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_billing_account_bucket_config google_logging_billing_account_bucket_config} Resource.
 func NewLoggingBillingAccountBucketConfig_Override(l LoggingBillingAccountBucketConfig, scope constructs.Construct, id *string, config *LoggingBillingAccountBucketConfigConfig) {
 	_init_.Initialize()
 

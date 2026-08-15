@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/dataplex_metadata_feed google_dataplex_metadata_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_metadata_feed google_dataplex_metadata_feed}.
 type DataplexMetadataFeed interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -647,7 +647,7 @@ func (j *jsiiProxy_DataplexMetadataFeed) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/dataplex_metadata_feed google_dataplex_metadata_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_metadata_feed google_dataplex_metadata_feed} Resource.
 func NewDataplexMetadataFeed(scope constructs.Construct, id *string, config *DataplexMetadataFeedConfig) DataplexMetadataFeed {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewDataplexMetadataFeed(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/dataplex_metadata_feed google_dataplex_metadata_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_metadata_feed google_dataplex_metadata_feed} Resource.
 func NewDataplexMetadataFeed_Override(d DataplexMetadataFeed, scope constructs.Construct, id *string, config *DataplexMetadataFeedConfig) {
 	_init_.Initialize()
 

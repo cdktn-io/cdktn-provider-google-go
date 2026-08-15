@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkServicesGateway) validateSetAddressesParameters(val *[
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesGateway) validateSetAllowGlobalAccessParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesGateway) validateSetAllPortsParameters(val interface{}) error {
 	return nil
 }

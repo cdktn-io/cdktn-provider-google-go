@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_data_collector google_apigee_data_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_data_collector google_apigee_data_collector}.
 type ApigeeDataCollector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_ApigeeDataCollector) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_data_collector google_apigee_data_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_data_collector google_apigee_data_collector} Resource.
 func NewApigeeDataCollector(scope constructs.Construct, id *string, config *ApigeeDataCollectorConfig) ApigeeDataCollector {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewApigeeDataCollector(scope constructs.Construct, id *string, config *Apig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_data_collector google_apigee_data_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_data_collector google_apigee_data_collector} Resource.
 func NewApigeeDataCollector_Override(a ApigeeDataCollector, scope constructs.Construct, id *string, config *ApigeeDataCollectorConfig) {
 	_init_.Initialize()
 

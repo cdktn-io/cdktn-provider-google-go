@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook}.
 type SecureSourceManagerHook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -672,7 +672,7 @@ func (j *jsiiProxy_SecureSourceManagerHook) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewSecureSourceManagerHook(scope constructs.Construct, id *string, config *SecureSourceManagerHookConfig) SecureSourceManagerHook {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewSecureSourceManagerHook(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewSecureSourceManagerHook_Override(s SecureSourceManagerHook, scope constructs.Construct, id *string, config *SecureSourceManagerHookConfig) {
 	_init_.Initialize()
 

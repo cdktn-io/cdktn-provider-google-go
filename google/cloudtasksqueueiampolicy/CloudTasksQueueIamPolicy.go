@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/cloud_tasks_queue_iam_policy google_cloud_tasks_queue_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/cloud_tasks_queue_iam_policy google_cloud_tasks_queue_iam_policy}.
 type CloudTasksQueueIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_CloudTasksQueueIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/cloud_tasks_queue_iam_policy google_cloud_tasks_queue_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/cloud_tasks_queue_iam_policy google_cloud_tasks_queue_iam_policy} Resource.
 func NewCloudTasksQueueIamPolicy(scope constructs.Construct, id *string, config *CloudTasksQueueIamPolicyConfig) CloudTasksQueueIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewCloudTasksQueueIamPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/cloud_tasks_queue_iam_policy google_cloud_tasks_queue_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/cloud_tasks_queue_iam_policy google_cloud_tasks_queue_iam_policy} Resource.
 func NewCloudTasksQueueIamPolicy_Override(c CloudTasksQueueIamPolicy, scope constructs.Construct, id *string, config *CloudTasksQueueIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/document_ai_processor google_document_ai_processor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/document_ai_processor google_document_ai_processor}.
 type DocumentAiProcessor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_DocumentAiProcessor) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
 func NewDocumentAiProcessor(scope constructs.Construct, id *string, config *DocumentAiProcessorConfig) DocumentAiProcessor {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewDocumentAiProcessor(scope constructs.Construct, id *string, config *Docu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
 func NewDocumentAiProcessor_Override(d DocumentAiProcessor, scope constructs.Construct, id *string, config *DocumentAiProcessorConfig) {
 	_init_.Initialize()
 

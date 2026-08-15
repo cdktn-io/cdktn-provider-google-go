@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway}.
 type NetworkServicesAgentGateway interface {
 	cdktn.TerraformResource
 	AgentGatewayCard() NetworkServicesAgentGatewayAgentGatewayCardList
@@ -720,7 +720,7 @@ func (j *jsiiProxy_NetworkServicesAgentGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
 func NewNetworkServicesAgentGateway(scope constructs.Construct, id *string, config *NetworkServicesAgentGatewayConfig) NetworkServicesAgentGateway {
 	_init_.Initialize()
 
@@ -738,7 +738,7 @@ func NewNetworkServicesAgentGateway(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
 func NewNetworkServicesAgentGateway_Override(n NetworkServicesAgentGateway, scope constructs.Construct, id *string, config *NetworkServicesAgentGatewayConfig) {
 	_init_.Initialize()
 

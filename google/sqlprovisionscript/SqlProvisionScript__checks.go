@@ -401,6 +401,14 @@ func (j *jsiiProxy_SqlProvisionScript) validateSetLifecycleParameters(val *cdktn
 	return nil
 }
 
+func (j *jsiiProxy_SqlProvisionScript) validateSetPasswordSecretVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SqlProvisionScript) validateSetProjectParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -456,6 +464,14 @@ func (j *jsiiProxy_SqlProvisionScript) validateSetProvisionersParameters(val *[]
 }
 
 func (j *jsiiProxy_SqlProvisionScript) validateSetScriptParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SqlProvisionScript) validateSetUserParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

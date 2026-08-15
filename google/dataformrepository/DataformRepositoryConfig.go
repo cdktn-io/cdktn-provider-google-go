@@ -1,0 +1,91 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dataformrepository
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type DataformRepositoryConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// The repository's name.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#name DataformRepository#name}
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/dataform_repository.html.markdown for specifics.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#deletion_policy DataformRepository#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Optional. The repository's user-friendly name.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#display_name DataformRepository#display_name}
+	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
+	// git_remote_settings block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#git_remote_settings DataformRepository#git_remote_settings}
+	GitRemoteSettings *DataformRepositoryGitRemoteSettings `field:"optional" json:"gitRemoteSettings" yaml:"gitRemoteSettings"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#id DataformRepository#id}.
+	//
+	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+	Id *string `field:"optional" json:"id" yaml:"id"`
+	// Optional.
+	//
+	// The reference to a KMS encryption key. If provided, it will be used to encrypt user data in the repository and all child resources.
+	// It is not possible to add or update the encryption key after the repository is created. Example projects/[kms_project_id]/locations/[region]/keyRings/[key_region]/cryptoKeys/[key]
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#kms_key_name DataformRepository#kms_key_name}
+	KmsKeyName *string `field:"optional" json:"kmsKeyName" yaml:"kmsKeyName"`
+	// Optional.
+	//
+	// Repository user labels.
+	// An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
+	//
+	//
+	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#labels DataformRepository#labels}
+	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
+	// Optional.
+	//
+	// The name of the Secret Manager secret version to be used to interpolate variables into the .npmrc file for package installation operations. Must be in the format projects/* /secrets/* /versions/*. The file itself must be in a JSON format.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#npmrc_environment_variables_secret_version DataformRepository#npmrc_environment_variables_secret_version}
+	//
+	// Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
+	NpmrcEnvironmentVariablesSecretVersion *string `field:"optional" json:"npmrcEnvironmentVariablesSecretVersion" yaml:"npmrcEnvironmentVariablesSecretVersion"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#project DataformRepository#project}.
+	Project *string `field:"optional" json:"project" yaml:"project"`
+	// A reference to the region.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#region DataformRepository#region}
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// The service account to run workflow invocations under.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#service_account DataformRepository#service_account}
+	ServiceAccount *string `field:"optional" json:"serviceAccount" yaml:"serviceAccount"`
+	// timeouts block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#timeouts DataformRepository#timeouts}
+	Timeouts *DataformRepositoryTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
+	// workspace_compilation_overrides block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataform_repository#workspace_compilation_overrides DataformRepository#workspace_compilation_overrides}
+	WorkspaceCompilationOverrides *DataformRepositoryWorkspaceCompilationOverrides `field:"optional" json:"workspaceCompilationOverrides" yaml:"workspaceCompilationOverrides"`
+}
+

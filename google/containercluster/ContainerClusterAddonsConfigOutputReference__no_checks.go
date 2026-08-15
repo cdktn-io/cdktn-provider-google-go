@@ -79,6 +79,10 @@ func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutGkeBa
 	return nil
 }
 
+func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutHighScaleCheckpointingConfigParameters(value *ContainerClusterAddonsConfigHighScaleCheckpointingConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerClusterAddonsConfigOutputReference) validatePutHorizontalPodAutoscalingParameters(value *ContainerClusterAddonsConfigHorizontalPodAutoscaling) error {
 	return nil
 }

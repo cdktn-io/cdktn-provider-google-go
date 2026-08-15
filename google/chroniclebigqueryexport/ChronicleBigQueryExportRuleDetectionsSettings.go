@@ -7,11 +7,11 @@ package chroniclebigqueryexport
 type ChronicleBigQueryExportRuleDetectionsSettings struct {
 	// Whether the data source is enabled for export.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_big_query_export#enabled ChronicleBigQueryExport#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_big_query_export#enabled ChronicleBigQueryExport#enabled}
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 	// The retention period for the data source in days.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_big_query_export#retention_days ChronicleBigQueryExport#retention_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_big_query_export#retention_days ChronicleBigQueryExport#retention_days}
 	RetentionDays *float64 `field:"required" json:"retentionDays" yaml:"retentionDays"`
 }
 

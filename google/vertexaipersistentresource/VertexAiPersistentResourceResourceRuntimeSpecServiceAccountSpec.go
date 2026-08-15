@@ -10,7 +10,7 @@ type VertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec struct {
 	// Otherwise, uses the [Vertex AI Custom Code Service
 	// Agent](https://cloud.google.com/vertex-ai/docs/general/access-control#service-agents).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/vertex_ai_persistent_resource#enable_custom_service_account VertexAiPersistentResource#enable_custom_service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/vertex_ai_persistent_resource#enable_custom_service_account VertexAiPersistentResource#enable_custom_service_account}
 	EnableCustomServiceAccount interface{} `field:"required" json:"enableCustomServiceAccount" yaml:"enableCustomServiceAccount"`
 }
 

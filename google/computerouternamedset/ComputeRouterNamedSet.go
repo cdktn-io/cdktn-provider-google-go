@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set google_compute_router_named_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_router_named_set google_compute_router_named_set}.
 type ComputeRouterNamedSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -592,7 +592,7 @@ func (j *jsiiProxy_ComputeRouterNamedSet) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
 func NewComputeRouterNamedSet(scope constructs.Construct, id *string, config *ComputeRouterNamedSetConfig) ComputeRouterNamedSet {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewComputeRouterNamedSet(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
 func NewComputeRouterNamedSet_Override(c ComputeRouterNamedSet, scope constructs.Construct, id *string, config *ComputeRouterNamedSetConfig) {
 	_init_.Initialize()
 

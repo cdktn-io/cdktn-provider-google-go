@@ -7,7 +7,7 @@ package computebulkperinstanceconfig
 type ComputeBulkPerInstanceConfigInstances struct {
 	// The name for this per-instance config and its corresponding instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_bulk_per_instance_config#name ComputeBulkPerInstanceConfig#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_bulk_per_instance_config#name ComputeBulkPerInstanceConfig#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

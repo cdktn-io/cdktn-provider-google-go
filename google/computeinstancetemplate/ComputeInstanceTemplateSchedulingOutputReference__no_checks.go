@@ -83,6 +83,10 @@ func (j *jsiiProxy_ComputeInstanceTemplateSchedulingOutputReference) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceTemplateSchedulingOutputReference) validateSetHostErrorTimeoutSecondsParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceTemplateSchedulingOutputReference) validateSetInstanceTerminationActionParameters(val *string) error {
 	return nil
 }

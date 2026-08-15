@@ -7,7 +7,7 @@ package containernodepool
 type ContainerNodePoolNodeConfigTaintConfig struct {
 	// Architecture taint behavior. Controls, how we apply taints based on the node architecture.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/container_node_pool#architecture_taint_behavior ContainerNodePool#architecture_taint_behavior}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/container_node_pool#architecture_taint_behavior ContainerNodePool#architecture_taint_behavior}
 	ArchitectureTaintBehavior *string `field:"required" json:"architectureTaintBehavior" yaml:"architectureTaintBehavior"`
 }
 

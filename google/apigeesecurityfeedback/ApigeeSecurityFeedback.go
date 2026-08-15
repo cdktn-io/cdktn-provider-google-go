@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_security_feedback google_apigee_security_feedback}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_security_feedback google_apigee_security_feedback}.
 type ApigeeSecurityFeedback interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -613,7 +613,7 @@ func (j *jsiiProxy_ApigeeSecurityFeedback) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_security_feedback google_apigee_security_feedback} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_security_feedback google_apigee_security_feedback} Resource.
 func NewApigeeSecurityFeedback(scope constructs.Construct, id *string, config *ApigeeSecurityFeedbackConfig) ApigeeSecurityFeedback {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewApigeeSecurityFeedback(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/apigee_security_feedback google_apigee_security_feedback} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apigee_security_feedback google_apigee_security_feedback} Resource.
 func NewApigeeSecurityFeedback_Override(a ApigeeSecurityFeedback, scope constructs.Construct, id *string, config *ApigeeSecurityFeedbackConfig) {
 	_init_.Initialize()
 

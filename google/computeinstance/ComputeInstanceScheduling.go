@@ -7,54 +7,58 @@ package computeinstance
 type ComputeInstanceScheduling struct {
 	// Specifies if the instance should be restarted if it was terminated by Compute Engine (not a user).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#automatic_restart ComputeInstance#automatic_restart}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#automatic_restart ComputeInstance#automatic_restart}
 	AutomaticRestart interface{} `field:"optional" json:"automaticRestart" yaml:"automaticRestart"`
 	// Specifies the availability domain, which this instance should be scheduled on.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#availability_domain ComputeInstance#availability_domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#availability_domain ComputeInstance#availability_domain}
 	AvailabilityDomain *float64 `field:"optional" json:"availabilityDomain" yaml:"availabilityDomain"`
+	// Specify the time in seconds for host error detection, the value must be within the range of [90, 330] with the increment of 30, if unset, the default behavior of host error recovery will be used.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#host_error_timeout_seconds ComputeInstance#host_error_timeout_seconds}
+	HostErrorTimeoutSeconds *float64 `field:"optional" json:"hostErrorTimeoutSeconds" yaml:"hostErrorTimeoutSeconds"`
 	// Specifies the action GCE should take when SPOT VM is preempted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#instance_termination_action ComputeInstance#instance_termination_action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#instance_termination_action ComputeInstance#instance_termination_action}
 	InstanceTerminationAction *string `field:"optional" json:"instanceTerminationAction" yaml:"instanceTerminationAction"`
 	// local_ssd_recovery_timeout block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#local_ssd_recovery_timeout ComputeInstance#local_ssd_recovery_timeout}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#local_ssd_recovery_timeout ComputeInstance#local_ssd_recovery_timeout}
 	LocalSsdRecoveryTimeout *ComputeInstanceSchedulingLocalSsdRecoveryTimeout `field:"optional" json:"localSsdRecoveryTimeout" yaml:"localSsdRecoveryTimeout"`
 	// max_run_duration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#max_run_duration ComputeInstance#max_run_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#max_run_duration ComputeInstance#max_run_duration}
 	MaxRunDuration *ComputeInstanceSchedulingMaxRunDuration `field:"optional" json:"maxRunDuration" yaml:"maxRunDuration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#min_node_cpus ComputeInstance#min_node_cpus}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#min_node_cpus ComputeInstance#min_node_cpus}.
 	MinNodeCpus *float64 `field:"optional" json:"minNodeCpus" yaml:"minNodeCpus"`
 	// node_affinities block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#node_affinities ComputeInstance#node_affinities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#node_affinities ComputeInstance#node_affinities}
 	NodeAffinities interface{} `field:"optional" json:"nodeAffinities" yaml:"nodeAffinities"`
 	// Describes maintenance behavior for the instance. One of MIGRATE or TERMINATE,.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#on_host_maintenance ComputeInstance#on_host_maintenance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#on_host_maintenance ComputeInstance#on_host_maintenance}
 	OnHostMaintenance *string `field:"optional" json:"onHostMaintenance" yaml:"onHostMaintenance"`
 	// on_instance_stop_action block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#on_instance_stop_action ComputeInstance#on_instance_stop_action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#on_instance_stop_action ComputeInstance#on_instance_stop_action}
 	OnInstanceStopAction *ComputeInstanceSchedulingOnInstanceStopAction `field:"optional" json:"onInstanceStopAction" yaml:"onInstanceStopAction"`
 	// Whether the instance is preemptible.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#preemptible ComputeInstance#preemptible}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#preemptible ComputeInstance#preemptible}
 	Preemptible interface{} `field:"optional" json:"preemptible" yaml:"preemptible"`
 	// Describes the desired provisioning model for the instance.
 	//
 	// Possible values are STANDARD, SPOT, FLEX_START, and RESERVATION_BOUND. For STANDARD, resources are provisioned immediately. For SPOT, resources are offered at a discount compared to standard pricing but may be preempted. For FLEX_START, resources are offered at a discount with flexible start times. For RESERVATION_BOUND, the instance is bound to a specific reservation and will only consume capacity from that reservation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#provisioning_model ComputeInstance#provisioning_model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#provisioning_model ComputeInstance#provisioning_model}
 	ProvisioningModel *string `field:"optional" json:"provisioningModel" yaml:"provisioningModel"`
 	// Specifies the timestamp, when the instance will be terminated, in RFC3339 text format.
 	//
 	// If specified, the instance termination action
 	// will be performed at the termination time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/compute_instance#termination_time ComputeInstance#termination_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_instance#termination_time ComputeInstance#termination_time}
 	TerminationTime *string `field:"optional" json:"terminationTime" yaml:"terminationTime"`
 }
 

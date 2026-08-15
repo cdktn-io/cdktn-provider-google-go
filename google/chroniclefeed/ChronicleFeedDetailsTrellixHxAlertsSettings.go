@@ -7,7 +7,7 @@ package chroniclefeed
 type ChronicleFeedDetailsTrellixHxAlertsSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 	// Trellix HX Device URL.
 	//
@@ -17,7 +17,7 @@ type ChronicleFeedDetailsTrellixHxAlertsSettings struct {
 	// - or -
 	// https://htapdeviceproxy.md.mandiant.net/dphb/hx//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_feed#endpoint ChronicleFeed#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#endpoint ChronicleFeed#endpoint}
 	Endpoint *string `field:"optional" json:"endpoint" yaml:"endpoint"`
 }
 

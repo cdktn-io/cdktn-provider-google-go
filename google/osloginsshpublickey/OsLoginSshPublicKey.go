@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key}.
 type OsLoginSshPublicKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -521,7 +521,7 @@ func (j *jsiiProxy_OsLoginSshPublicKey) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
 func NewOsLoginSshPublicKey(scope constructs.Construct, id *string, config *OsLoginSshPublicKeyConfig) OsLoginSshPublicKey {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewOsLoginSshPublicKey(scope constructs.Construct, id *string, config *OsLo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
 func NewOsLoginSshPublicKey_Override(o OsLoginSshPublicKey, scope constructs.Construct, id *string, config *OsLoginSshPublicKeyConfig) {
 	_init_.Initialize()
 

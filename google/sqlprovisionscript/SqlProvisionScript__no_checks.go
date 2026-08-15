@@ -131,6 +131,10 @@ func (j *jsiiProxy_SqlProvisionScript) validateSetLifecycleParameters(val *cdktn
 	return nil
 }
 
+func (j *jsiiProxy_SqlProvisionScript) validateSetPasswordSecretVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlProvisionScript) validateSetProjectParameters(val *string) error {
 	return nil
 }
@@ -140,6 +144,10 @@ func (j *jsiiProxy_SqlProvisionScript) validateSetProvisionersParameters(val *[]
 }
 
 func (j *jsiiProxy_SqlProvisionScript) validateSetScriptParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlProvisionScript) validateSetUserParameters(val *string) error {
 	return nil
 }
 

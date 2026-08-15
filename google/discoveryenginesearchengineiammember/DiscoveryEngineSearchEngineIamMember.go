@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/discovery_engine_search_engine_iam_member google_discovery_engine_search_engine_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/discovery_engine_search_engine_iam_member google_discovery_engine_search_engine_iam_member}.
 type DiscoveryEngineSearchEngineIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngineIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/discovery_engine_search_engine_iam_member google_discovery_engine_search_engine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/discovery_engine_search_engine_iam_member google_discovery_engine_search_engine_iam_member} Resource.
 func NewDiscoveryEngineSearchEngineIamMember(scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineIamMemberConfig) DiscoveryEngineSearchEngineIamMember {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewDiscoveryEngineSearchEngineIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/discovery_engine_search_engine_iam_member google_discovery_engine_search_engine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/discovery_engine_search_engine_iam_member google_discovery_engine_search_engine_iam_member} Resource.
 func NewDiscoveryEngineSearchEngineIamMember_Override(d DiscoveryEngineSearchEngineIamMember, scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineIamMemberConfig) {
 	_init_.Initialize()
 

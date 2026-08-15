@@ -7,7 +7,7 @@ package chroniclefeed
 type ChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentials struct {
 	// Private key in PEM format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.43.0/docs/resources/chronicle_feed#private_key ChronicleFeed#private_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#private_key ChronicleFeed#private_key}
 	PrivateKey *string `field:"optional" json:"privateKey" yaml:"privateKey"`
 }
 

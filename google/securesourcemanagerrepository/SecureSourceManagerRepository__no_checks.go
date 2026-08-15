@@ -83,6 +83,10 @@ func (s *jsiiProxy_SecureSourceManagerRepository) validatePutInitialConfigParame
 	return nil
 }
 
+func (s *jsiiProxy_SecureSourceManagerRepository) validatePutScanConfigParameters(value *SecureSourceManagerRepositoryScanConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecureSourceManagerRepository) validatePutTimeoutsParameters(value *SecureSourceManagerRepositoryTimeouts) error {
 	return nil
 }
@@ -148,6 +152,10 @@ func (j *jsiiProxy_SecureSourceManagerRepository) validateSetProvisionersParamet
 }
 
 func (j *jsiiProxy_SecureSourceManagerRepository) validateSetRepositoryIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecureSourceManagerRepository) validateSetServiceAccountParameters(val *string) error {
 	return nil
 }
 
