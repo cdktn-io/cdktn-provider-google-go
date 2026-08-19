@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_project_bucket_config google_logging_project_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/logging_project_bucket_config google_logging_project_bucket_config}.
 type LoggingProjectBucketConfig interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_LoggingProjectBucketConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_project_bucket_config google_logging_project_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/logging_project_bucket_config google_logging_project_bucket_config} Resource.
 func NewLoggingProjectBucketConfig(scope constructs.Construct, id *string, config *LoggingProjectBucketConfigConfig) LoggingProjectBucketConfig {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewLoggingProjectBucketConfig(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_project_bucket_config google_logging_project_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/logging_project_bucket_config google_logging_project_bucket_config} Resource.
 func NewLoggingProjectBucketConfig_Override(l LoggingProjectBucketConfig, scope constructs.Construct, id *string, config *LoggingProjectBucketConfigConfig) {
 	_init_.Initialize()
 

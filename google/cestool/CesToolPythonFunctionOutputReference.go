@@ -39,6 +39,8 @@ type CesToolPythonFunctionOutputReference interface {
 	PythonCode() *string
 	SetPythonCode(val *string)
 	PythonCodeInput() *string
+	ServiceDirectoryConfig() CesToolPythonFunctionServiceDirectoryConfigOutputReference
+	ServiceDirectoryConfigInput() *CesToolPythonFunctionServiceDirectoryConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -71,8 +73,10 @@ type CesToolPythonFunctionOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutServiceDirectoryConfig(value *CesToolPythonFunctionServiceDirectoryConfig)
 	ResetName()
 	ResetPythonCode()
+	ResetServiceDirectoryConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -183,6 +187,26 @@ func (j *jsiiProxy_CesToolPythonFunctionOutputReference) PythonCodeInput() *stri
 	_jsii_.Get(
 		j,
 		"pythonCodeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolPythonFunctionOutputReference) ServiceDirectoryConfig() CesToolPythonFunctionServiceDirectoryConfigOutputReference {
+	var returns CesToolPythonFunctionServiceDirectoryConfigOutputReference
+	_jsii_.Get(
+		j,
+		"serviceDirectoryConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolPythonFunctionOutputReference) ServiceDirectoryConfigInput() *CesToolPythonFunctionServiceDirectoryConfig {
+	var returns *CesToolPythonFunctionServiceDirectoryConfig
+	_jsii_.Get(
+		j,
+		"serviceDirectoryConfigInput",
 		&returns,
 	)
 	return returns
@@ -499,6 +523,17 @@ func (c *jsiiProxy_CesToolPythonFunctionOutputReference) InterpolationForAttribu
 	return returns
 }
 
+func (c *jsiiProxy_CesToolPythonFunctionOutputReference) PutServiceDirectoryConfig(value *CesToolPythonFunctionServiceDirectoryConfig) {
+	if err := c.validatePutServiceDirectoryConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putServiceDirectoryConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesToolPythonFunctionOutputReference) ResetName() {
 	_jsii_.InvokeVoid(
 		c,
@@ -511,6 +546,14 @@ func (c *jsiiProxy_CesToolPythonFunctionOutputReference) ResetPythonCode() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetPythonCode",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesToolPythonFunctionOutputReference) ResetServiceDirectoryConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetServiceDirectoryConfig",
 		nil, // no parameters
 	)
 }

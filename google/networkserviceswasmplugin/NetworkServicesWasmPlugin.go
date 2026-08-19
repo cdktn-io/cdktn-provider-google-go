@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin}.
 type NetworkServicesWasmPlugin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -660,7 +660,7 @@ func (j *jsiiProxy_NetworkServicesWasmPlugin) VersionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
 func NewNetworkServicesWasmPlugin(scope constructs.Construct, id *string, config *NetworkServicesWasmPluginConfig) NetworkServicesWasmPlugin {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewNetworkServicesWasmPlugin(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_wasm_plugin google_network_services_wasm_plugin} Resource.
 func NewNetworkServicesWasmPlugin_Override(n NetworkServicesWasmPlugin, scope constructs.Construct, id *string, config *NetworkServicesWasmPluginConfig) {
 	_init_.Initialize()
 

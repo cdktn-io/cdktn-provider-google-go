@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/beyondcorp_app_gateway google_beyondcorp_app_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/beyondcorp_app_gateway google_beyondcorp_app_gateway}.
 type BeyondcorpAppGateway interface {
 	cdktn.TerraformResource
 	AllocatedConnections() BeyondcorpAppGatewayAllocatedConnectionsList
@@ -638,7 +638,7 @@ func (j *jsiiProxy_BeyondcorpAppGateway) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/beyondcorp_app_gateway google_beyondcorp_app_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/beyondcorp_app_gateway google_beyondcorp_app_gateway} Resource.
 func NewBeyondcorpAppGateway(scope constructs.Construct, id *string, config *BeyondcorpAppGatewayConfig) BeyondcorpAppGateway {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewBeyondcorpAppGateway(scope constructs.Construct, id *string, config *Bey
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/beyondcorp_app_gateway google_beyondcorp_app_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/beyondcorp_app_gateway google_beyondcorp_app_gateway} Resource.
 func NewBeyondcorpAppGateway_Override(b BeyondcorpAppGateway, scope constructs.Construct, id *string, config *BeyondcorpAppGatewayConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ type IamWorkloadIdentityPoolInlineCertificateIssuanceConfig struct {
 	// * **Region Matching:** Workloads are ONLY issued certificates from CA pools within the
 	// same region. Also the CA pool region (in value) must match the workload's region (key).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool#ca_pools IamWorkloadIdentityPool#ca_pools}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workload_identity_pool#ca_pools IamWorkloadIdentityPool#ca_pools}
 	CaPools *map[string]*string `field:"optional" json:"caPools" yaml:"caPools"`
 	// Key algorithm to use when generating the key pair.
 	//
@@ -25,7 +25,7 @@ type IamWorkloadIdentityPoolInlineCertificateIssuanceConfig struct {
 	// * 'ECDSA_P256': Specifies ECDSA with curve P256.
 	// * 'ECDSA_P384': Specifies ECDSA with curve P384. Possible values: ["RSA_2048", "RSA_3072", "RSA_4096", "ECDSA_P256", "ECDSA_P384"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool#key_algorithm IamWorkloadIdentityPool#key_algorithm}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workload_identity_pool#key_algorithm IamWorkloadIdentityPool#key_algorithm}
 	KeyAlgorithm *string `field:"optional" json:"keyAlgorithm" yaml:"keyAlgorithm"`
 	// Lifetime of the workload certificates issued by the CA pool in seconds.
 	//
@@ -34,14 +34,14 @@ type IamWorkloadIdentityPoolInlineCertificateIssuanceConfig struct {
 	// and is preceded by the number of seconds. If unspecified, this will be defaulted to
 	// '86400s' (24 hours).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool#lifetime IamWorkloadIdentityPool#lifetime}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workload_identity_pool#lifetime IamWorkloadIdentityPool#lifetime}
 	Lifetime *string `field:"optional" json:"lifetime" yaml:"lifetime"`
 	// Rotation window percentage indicating when certificate rotation should be initiated based on remaining lifetime.
 	//
 	// Must be between '50' - '80'. If unspecified, this will be defaulted
 	// to '50'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool#rotation_window_percentage IamWorkloadIdentityPool#rotation_window_percentage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workload_identity_pool#rotation_window_percentage IamWorkloadIdentityPool#rotation_window_percentage}
 	RotationWindowPercentage *float64 `field:"optional" json:"rotationWindowPercentage" yaml:"rotationWindowPercentage"`
 	// If set to true, the trust domain will utilize the GCP-provisioned default CA.
 	//
@@ -53,7 +53,7 @@ type IamWorkloadIdentityPoolInlineCertificateIssuanceConfig struct {
 	// certificates will be automatically provisioned from the default shared CAs. This flag should
 	// not be set if you want to use your own CA pools to provision the certificates.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_workload_identity_pool#use_default_shared_ca IamWorkloadIdentityPool#use_default_shared_ca}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workload_identity_pool#use_default_shared_ca IamWorkloadIdentityPool#use_default_shared_ca}
 	UseDefaultSharedCa interface{} `field:"optional" json:"useDefaultSharedCa" yaml:"useDefaultSharedCa"`
 }
 

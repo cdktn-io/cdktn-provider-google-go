@@ -99,6 +99,10 @@ func (c *jsiiProxy_ColabNotebookExecution) validatePutTimeoutsParameters(value *
 	return nil
 }
 
+func (c *jsiiProxy_ColabNotebookExecution) validatePutWorkbenchRuntimeParameters(value *ColabNotebookExecutionWorkbenchRuntime) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabNotebookExecution) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

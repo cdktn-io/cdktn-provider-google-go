@@ -27,6 +27,7 @@ type WorkbenchInstanceGceSetupOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ComputeInstanceId() *string
 	ConfidentialInstanceConfig() WorkbenchInstanceGceSetupConfidentialInstanceConfigOutputReference
 	ConfidentialInstanceConfigInput() *WorkbenchInstanceGceSetupConfidentialInstanceConfig
 	ContainerImage() WorkbenchInstanceGceSetupContainerImageOutputReference
@@ -198,6 +199,16 @@ func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) ComplexObjectIsFrom
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkbenchInstanceGceSetupOutputReference) ComputeInstanceId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"computeInstanceId",
 		&returns,
 	)
 	return returns

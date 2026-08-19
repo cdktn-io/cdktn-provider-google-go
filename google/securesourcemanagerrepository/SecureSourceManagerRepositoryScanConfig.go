@@ -7,7 +7,7 @@ package securesourcemanagerrepository
 type SecureSourceManagerRepositoryScanConfig struct {
 	// secret_scan_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/secure_source_manager_repository#secret_scan_config SecureSourceManagerRepository#secret_scan_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/secure_source_manager_repository#secret_scan_config SecureSourceManagerRepository#secret_scan_config}
 	SecretScanConfig *SecureSourceManagerRepositoryScanConfigSecretScanConfig `field:"optional" json:"secretScanConfig" yaml:"secretScanConfig"`
 }
 

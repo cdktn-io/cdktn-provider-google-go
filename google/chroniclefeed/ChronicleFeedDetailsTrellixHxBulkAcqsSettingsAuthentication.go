@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthentication struct {
 	// msso block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#msso ChronicleFeed#msso}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#msso ChronicleFeed#msso}
 	Msso *ChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMsso `field:"optional" json:"msso" yaml:"msso"`
 	// trellix_iam block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#trellix_iam ChronicleFeed#trellix_iam}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#trellix_iam ChronicleFeed#trellix_iam}
 	TrellixIam *ChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam `field:"optional" json:"trellixIam" yaml:"trellixIam"`
 }
 

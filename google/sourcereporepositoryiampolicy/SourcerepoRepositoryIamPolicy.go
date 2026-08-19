@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/sourcerepo_repository_iam_policy google_sourcerepo_repository_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/sourcerepo_repository_iam_policy google_sourcerepo_repository_iam_policy}.
 type SourcerepoRepositoryIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_SourcerepoRepositoryIamPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/sourcerepo_repository_iam_policy google_sourcerepo_repository_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/sourcerepo_repository_iam_policy google_sourcerepo_repository_iam_policy} Resource.
 func NewSourcerepoRepositoryIamPolicy(scope constructs.Construct, id *string, config *SourcerepoRepositoryIamPolicyConfig) SourcerepoRepositoryIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewSourcerepoRepositoryIamPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/sourcerepo_repository_iam_policy google_sourcerepo_repository_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/sourcerepo_repository_iam_policy google_sourcerepo_repository_iam_policy} Resource.
 func NewSourcerepoRepositoryIamPolicy_Override(s SourcerepoRepositoryIamPolicy, scope constructs.Construct, id *string, config *SourcerepoRepositoryIamPolicyConfig) {
 	_init_.Initialize()
 

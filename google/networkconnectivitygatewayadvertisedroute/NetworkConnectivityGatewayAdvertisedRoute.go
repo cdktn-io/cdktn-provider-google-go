@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
 type NetworkConnectivityGatewayAdvertisedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -695,7 +695,7 @@ func (j *jsiiProxy_NetworkConnectivityGatewayAdvertisedRoute) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Construct, id *string, config *NetworkConnectivityGatewayAdvertisedRouteConfig) NetworkConnectivityGatewayAdvertisedRoute {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewNetworkConnectivityGatewayAdvertisedRoute_Override(n NetworkConnectivityGatewayAdvertisedRoute, scope constructs.Construct, id *string, config *NetworkConnectivityGatewayAdvertisedRouteConfig) {
 	_init_.Initialize()
 

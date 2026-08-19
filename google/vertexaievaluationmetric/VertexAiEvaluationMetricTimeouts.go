@@ -5,11 +5,11 @@ package vertexaievaluationmetric
 
 
 type VertexAiEvaluationMetricTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/vertex_ai_evaluation_metric#create VertexAiEvaluationMetric#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_evaluation_metric#create VertexAiEvaluationMetric#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/vertex_ai_evaluation_metric#delete VertexAiEvaluationMetric#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_evaluation_metric#delete VertexAiEvaluationMetric#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/vertex_ai_evaluation_metric#update VertexAiEvaluationMetric#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_evaluation_metric#update VertexAiEvaluationMetric#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

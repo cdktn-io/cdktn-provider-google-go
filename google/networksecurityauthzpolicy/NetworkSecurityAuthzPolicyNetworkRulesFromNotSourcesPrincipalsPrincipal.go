@@ -7,7 +7,7 @@ package networksecurityauthzpolicy
 type NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal struct {
 	// The input string must match exactly the string specified here. Examples: * abc only matches the value abc.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/network_security_authz_policy#exact NetworkSecurityAuthzPolicy#exact}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_authz_policy#exact NetworkSecurityAuthzPolicy#exact}
 	Exact *string `field:"optional" json:"exact" yaml:"exact"`
 }
 

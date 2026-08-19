@@ -55,6 +55,10 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutNodeSele
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutSandboxesParameters(value *CloudRunV2ServiceTemplateSandboxes) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutScalingParameters(value *CloudRunV2ServiceTemplateScaling) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataproc_metastore_table_iam_binding google_dataproc_metastore_table_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataproc_metastore_table_iam_binding google_dataproc_metastore_table_iam_binding}.
 type DataprocMetastoreTableIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_DataprocMetastoreTableIamBinding) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataproc_metastore_table_iam_binding google_dataproc_metastore_table_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataproc_metastore_table_iam_binding google_dataproc_metastore_table_iam_binding} Resource.
 func NewDataprocMetastoreTableIamBinding(scope constructs.Construct, id *string, config *DataprocMetastoreTableIamBindingConfig) DataprocMetastoreTableIamBinding {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewDataprocMetastoreTableIamBinding(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataproc_metastore_table_iam_binding google_dataproc_metastore_table_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataproc_metastore_table_iam_binding google_dataproc_metastore_table_iam_binding} Resource.
 func NewDataprocMetastoreTableIamBinding_Override(d DataprocMetastoreTableIamBinding, scope constructs.Construct, id *string, config *DataprocMetastoreTableIamBindingConfig) {
 	_init_.Initialize()
 

@@ -39,6 +39,8 @@ type CesToolDataStoreToolModalityConfigsOutputReference interface {
 	ModalityTypeInput() *string
 	RewriterConfig() CesToolDataStoreToolModalityConfigsRewriterConfigOutputReference
 	RewriterConfigInput() *CesToolDataStoreToolModalityConfigsRewriterConfig
+	SnippetsConfig() CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference
+	SnippetsConfigInput() *CesToolDataStoreToolModalityConfigsSnippetsConfig
 	SummarizationConfig() CesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference
 	SummarizationConfigInput() *CesToolDataStoreToolModalityConfigsSummarizationConfig
 	// Experimental.
@@ -75,9 +77,11 @@ type CesToolDataStoreToolModalityConfigsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutGroundingConfig(value *CesToolDataStoreToolModalityConfigsGroundingConfig)
 	PutRewriterConfig(value *CesToolDataStoreToolModalityConfigsRewriterConfig)
+	PutSnippetsConfig(value *CesToolDataStoreToolModalityConfigsSnippetsConfig)
 	PutSummarizationConfig(value *CesToolDataStoreToolModalityConfigsSummarizationConfig)
 	ResetGroundingConfig()
 	ResetRewriterConfig()
+	ResetSnippetsConfig()
 	ResetSummarizationConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -199,6 +203,26 @@ func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) RewriterC
 	_jsii_.Get(
 		j,
 		"rewriterConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) SnippetsConfig() CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference {
+	var returns CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"snippetsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) SnippetsConfigInput() *CesToolDataStoreToolModalityConfigsSnippetsConfig {
+	var returns *CesToolDataStoreToolModalityConfigsSnippetsConfig
+	_jsii_.Get(
+		j,
+		"snippetsConfigInput",
 		&returns,
 	)
 	return returns
@@ -546,6 +570,17 @@ func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) PutRewrit
 	)
 }
 
+func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) PutSnippetsConfig(value *CesToolDataStoreToolModalityConfigsSnippetsConfig) {
+	if err := c.validatePutSnippetsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSnippetsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) PutSummarizationConfig(value *CesToolDataStoreToolModalityConfigsSummarizationConfig) {
 	if err := c.validatePutSummarizationConfigParameters(value); err != nil {
 		panic(err)
@@ -569,6 +604,14 @@ func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) ResetRewr
 	_jsii_.InvokeVoid(
 		c,
 		"resetRewriterConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) ResetSnippetsConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSnippetsConfig",
 		nil, // no parameters
 	)
 }

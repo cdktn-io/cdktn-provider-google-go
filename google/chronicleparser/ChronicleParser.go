@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_parser google_chronicle_parser}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_parser google_chronicle_parser}.
 type ChronicleParser interface {
 	cdktn.TerraformResource
 	Cbn() *string
@@ -761,7 +761,7 @@ func (j *jsiiProxy_ChronicleParser) VersionInfoInput() *ChronicleParserVersionIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_parser google_chronicle_parser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_parser google_chronicle_parser} Resource.
 func NewChronicleParser(scope constructs.Construct, id *string, config *ChronicleParserConfig) ChronicleParser {
 	_init_.Initialize()
 
@@ -779,7 +779,7 @@ func NewChronicleParser(scope constructs.Construct, id *string, config *Chronicl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_parser google_chronicle_parser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_parser google_chronicle_parser} Resource.
 func NewChronicleParser_Override(c ChronicleParser, scope constructs.Construct, id *string, config *ChronicleParserConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package iamfolderaccesspolicy
 type IamFolderAccessPolicyDetailsRules struct {
 	// The effect of the rule. Possible values: DENY ALLOW Possible values: ["DENY", "ALLOW"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_folder_access_policy#effect IamFolderAccessPolicy#effect}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#effect IamFolderAccessPolicy#effect}
 	Effect *string `field:"required" json:"effect" yaml:"effect"`
 	// operation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_folder_access_policy#operation IamFolderAccessPolicy#operation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#operation IamFolderAccessPolicy#operation}
 	Operation *IamFolderAccessPolicyDetailsRulesOperation `field:"required" json:"operation" yaml:"operation"`
 	// The identities for which this rule's effect governs using one or more permissions on Google Cloud resources.
 	//
@@ -48,15 +48,15 @@ type IamFolderAccessPolicyDetailsRules struct {
 	// If the service account is undeleted, this identifier reverts to the
 	// standard identifier for a service account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_folder_access_policy#principals IamFolderAccessPolicy#principals}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#principals IamFolderAccessPolicy#principals}
 	Principals *[]*string `field:"required" json:"principals" yaml:"principals"`
 	// conditions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_folder_access_policy#conditions IamFolderAccessPolicy#conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#conditions IamFolderAccessPolicy#conditions}
 	Conditions interface{} `field:"optional" json:"conditions" yaml:"conditions"`
 	// Customer specified description of the rule. Must be less than or equal to 256 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_folder_access_policy#description IamFolderAccessPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#description IamFolderAccessPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The identities that are excluded from the access policy rule, even if they are listed in the 'principals'.
 	//
@@ -64,7 +64,7 @@ type IamFolderAccessPolicyDetailsRules struct {
 	// group to the 'principals', then exclude specific users who belong to
 	// that group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_folder_access_policy#excluded_principals IamFolderAccessPolicy#excluded_principals}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#excluded_principals IamFolderAccessPolicy#excluded_principals}
 	ExcludedPrincipals *[]*string `field:"optional" json:"excludedPrincipals" yaml:"excludedPrincipals"`
 }
 

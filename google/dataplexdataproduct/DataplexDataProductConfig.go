@@ -24,27 +24,27 @@ type DataplexDataProductConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the data product.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#data_product_id DataplexDataProduct#data_product_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#data_product_id DataplexDataProduct#data_product_id}
 	DataProductId *string `field:"required" json:"dataProductId" yaml:"dataProductId"`
 	// User-friendly display name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#display_name DataplexDataProduct#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#display_name DataplexDataProduct#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The location for the data product.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#location DataplexDataProduct#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#location DataplexDataProduct#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Emails of the owners.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#owner_emails DataplexDataProduct#owner_emails}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#owner_emails DataplexDataProduct#owner_emails}
 	OwnerEmails *[]*string `field:"required" json:"ownerEmails" yaml:"ownerEmails"`
 	// access_approval_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#access_approval_config DataplexDataProduct#access_approval_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#access_approval_config DataplexDataProduct#access_approval_config}
 	AccessApprovalConfig *DataplexDataProductAccessApprovalConfig `field:"optional" json:"accessApprovalConfig" yaml:"accessApprovalConfig"`
 	// access_groups block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#access_groups DataplexDataProduct#access_groups}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#access_groups DataplexDataProduct#access_groups}
 	AccessGroups interface{} `field:"optional" json:"accessGroups" yaml:"accessGroups"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -56,11 +56,11 @@ type DataplexDataProductConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#deletion_policy DataplexDataProduct#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#deletion_policy DataplexDataProduct#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Description of the data product.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#description DataplexDataProduct#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#description DataplexDataProduct#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Base64 encoded image representing the data product.
 	//
@@ -70,9 +70,9 @@ type DataplexDataProductConfig struct {
 	// Note: For byte fields, the content of the fields are base64-encoded (which
 	// increases the size of the data by 33-36%) when using JSON on the wire.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#icon DataplexDataProduct#icon}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#icon DataplexDataProduct#icon}
 	Icon *string `field:"optional" json:"icon" yaml:"icon"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#id DataplexDataProduct#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#id DataplexDataProduct#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,13 +82,13 @@ type DataplexDataProductConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#labels DataplexDataProduct#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#labels DataplexDataProduct#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#project DataplexDataProduct#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#project DataplexDataProduct#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_data_product#timeouts DataplexDataProduct#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_data_product#timeouts DataplexDataProduct#timeouts}
 	Timeouts *DataplexDataProductTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

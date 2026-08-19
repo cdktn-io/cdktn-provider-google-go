@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsAwsIamSettings struct {
 	// Supported AWS IAM api type. Possible values: USERS ROLES GROUPS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#api_type ChronicleFeed#api_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#api_type ChronicleFeed#api_type}
 	ApiType *string `field:"optional" json:"apiType" yaml:"apiType"`
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsAwsIamSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 }
 

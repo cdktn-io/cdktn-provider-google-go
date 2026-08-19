@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle}.
 type BigtableSchemaBundle interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_BigtableSchemaBundle) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
 func NewBigtableSchemaBundle(scope constructs.Construct, id *string, config *BigtableSchemaBundleConfig) BigtableSchemaBundle {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewBigtableSchemaBundle(scope constructs.Construct, id *string, config *Big
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
 func NewBigtableSchemaBundle_Override(b BigtableSchemaBundle, scope constructs.Construct, id *string, config *BigtableSchemaBundleConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/ces_deployment google_ces_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_deployment google_ces_deployment}.
 type CesDeployment interface {
 	cdktn.TerraformResource
 	App() *string
@@ -599,7 +599,7 @@ func (j *jsiiProxy_CesDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploymentConfig) CesDeployment {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploym
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment_Override(c CesDeployment, scope constructs.Construct, id *string, config *CesDeploymentConfig) {
 	_init_.Initialize()
 

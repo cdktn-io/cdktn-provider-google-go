@@ -79,6 +79,10 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateOverrideLog
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validatePutPrincipalParameters(value *AccessContextManagerGcpUserAccessBindingPrincipal) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validatePutScopedAccessSettingsParameters(value interface{}) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateSetCountPar
 }
 
 func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBinding) validateSetDryRunAccessLevelsParameters(val *[]*string) error {
 	return nil
 }
 

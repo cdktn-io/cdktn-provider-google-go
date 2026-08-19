@@ -7,11 +7,11 @@ package colabschedule
 type ColabScheduleCreatePipelineJobRequest struct {
 	// pipeline_job block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/colab_schedule#pipeline_job ColabSchedule#pipeline_job}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/colab_schedule#pipeline_job ColabSchedule#pipeline_job}
 	PipelineJob *ColabScheduleCreatePipelineJobRequestPipelineJob `field:"required" json:"pipelineJob" yaml:"pipelineJob"`
 	// The resource name of the Location to create the PipelineJob in. Format: 'projects/{project}/locations/{location}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/colab_schedule#parent ColabSchedule#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/colab_schedule#parent ColabSchedule#parent}
 	Parent *string `field:"optional" json:"parent" yaml:"parent"`
 }
 

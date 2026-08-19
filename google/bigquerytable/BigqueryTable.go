@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_table google_bigquery_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_table google_bigquery_table}.
 type BigqueryTable interface {
 	cdktn.TerraformResource
 	BiglakeConfiguration() BigqueryTableBiglakeConfigurationOutputReference
@@ -1170,7 +1170,7 @@ func (j *jsiiProxy_BigqueryTable) ViewInput() *BigqueryTableView {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_table google_bigquery_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_table google_bigquery_table} Resource.
 func NewBigqueryTable(scope constructs.Construct, id *string, config *BigqueryTableConfig) BigqueryTable {
 	_init_.Initialize()
 
@@ -1188,7 +1188,7 @@ func NewBigqueryTable(scope constructs.Construct, id *string, config *BigqueryTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_table google_bigquery_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_table google_bigquery_table} Resource.
 func NewBigqueryTable_Override(b BigqueryTable, scope constructs.Construct, id *string, config *BigqueryTableConfig) {
 	_init_.Initialize()
 

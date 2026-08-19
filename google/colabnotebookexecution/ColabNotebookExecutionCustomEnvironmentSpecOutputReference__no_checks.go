@@ -59,6 +59,10 @@ func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) v
 	return nil
 }
 
+func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) validatePutShieldedInstanceConfigParameters(value *ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

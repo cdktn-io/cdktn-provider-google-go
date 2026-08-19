@@ -55,6 +55,10 @@ func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) validateP
 	return nil
 }
 
+func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) validatePutSnippetsConfigParameters(value *CesToolDataStoreToolModalityConfigsSnippetsConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsOutputReference) validatePutSummarizationConfigParameters(value *CesToolDataStoreToolModalityConfigsSummarizationConfig) error {
 	return nil
 }

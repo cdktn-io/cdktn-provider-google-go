@@ -79,6 +79,10 @@ func (c *jsiiProxy_ChronicleRuleDeployment) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleRuleDeployment) validatePutScheduleCustomizationsParameters(value *ChronicleRuleDeploymentScheduleCustomizations) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleRuleDeployment) validatePutTimeoutsParameters(value *ChronicleRuleDeploymentTimeouts) error {
 	return nil
 }

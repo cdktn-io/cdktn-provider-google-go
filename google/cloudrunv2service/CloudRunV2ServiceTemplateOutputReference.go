@@ -60,6 +60,8 @@ type CloudRunV2ServiceTemplateOutputReference interface {
 	Revision() *string
 	SetRevision(val *string)
 	RevisionInput() *string
+	Sandboxes() CloudRunV2ServiceTemplateSandboxesOutputReference
+	SandboxesInput() *CloudRunV2ServiceTemplateSandboxes
 	Scaling() CloudRunV2ServiceTemplateScalingOutputReference
 	ScalingInput() *CloudRunV2ServiceTemplateScaling
 	ServiceAccount() *string
@@ -109,6 +111,7 @@ type CloudRunV2ServiceTemplateOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutContainers(value interface{})
 	PutNodeSelector(value *CloudRunV2ServiceTemplateNodeSelector)
+	PutSandboxes(value *CloudRunV2ServiceTemplateSandboxes)
 	PutScaling(value *CloudRunV2ServiceTemplateScaling)
 	PutVolumes(value interface{})
 	PutVpcAccess(value *CloudRunV2ServiceTemplateVpcAccess)
@@ -122,6 +125,7 @@ type CloudRunV2ServiceTemplateOutputReference interface {
 	ResetMaxInstanceRequestConcurrency()
 	ResetNodeSelector()
 	ResetRevision()
+	ResetSandboxes()
 	ResetScaling()
 	ResetServiceAccount()
 	ResetSessionAffinity()
@@ -388,6 +392,26 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) RevisionInput() *st
 	_jsii_.Get(
 		j,
 		"revisionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) Sandboxes() CloudRunV2ServiceTemplateSandboxesOutputReference {
+	var returns CloudRunV2ServiceTemplateSandboxesOutputReference
+	_jsii_.Get(
+		j,
+		"sandboxes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) SandboxesInput() *CloudRunV2ServiceTemplateSandboxes {
+	var returns *CloudRunV2ServiceTemplateSandboxes
+	_jsii_.Get(
+		j,
+		"sandboxesInput",
 		&returns,
 	)
 	return returns
@@ -945,6 +969,17 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) PutNodeSelector(val
 	)
 }
 
+func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) PutSandboxes(value *CloudRunV2ServiceTemplateSandboxes) {
+	if err := c.validatePutSandboxesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSandboxes",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) PutScaling(value *CloudRunV2ServiceTemplateScaling) {
 	if err := c.validatePutScalingParameters(value); err != nil {
 		panic(err)
@@ -1054,6 +1089,14 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) ResetRevision() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRevision",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) ResetSandboxes() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSandboxes",
 		nil, // no parameters
 	)
 }

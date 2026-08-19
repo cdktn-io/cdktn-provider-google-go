@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding}.
 type ComputeNetworkFirewallPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_ComputeNetworkFirewallPolicyIamBinding) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
 func NewComputeNetworkFirewallPolicyIamBinding(scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyIamBindingConfig) ComputeNetworkFirewallPolicyIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewComputeNetworkFirewallPolicyIamBinding(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
 func NewComputeNetworkFirewallPolicyIamBinding_Override(c ComputeNetworkFirewallPolicyIamBinding, scope constructs.Construct, id *string, config *ComputeNetworkFirewallPolicyIamBindingConfig) {
 	_init_.Initialize()
 

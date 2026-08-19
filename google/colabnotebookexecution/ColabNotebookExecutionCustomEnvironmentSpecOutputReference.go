@@ -38,6 +38,8 @@ type ColabNotebookExecutionCustomEnvironmentSpecOutputReference interface {
 	NetworkSpecInput() *ColabNotebookExecutionCustomEnvironmentSpecNetworkSpec
 	PersistentDiskSpec() ColabNotebookExecutionCustomEnvironmentSpecPersistentDiskSpecOutputReference
 	PersistentDiskSpecInput() *ColabNotebookExecutionCustomEnvironmentSpecPersistentDiskSpec
+	ShieldedInstanceConfig() ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfigOutputReference
+	ShieldedInstanceConfigInput() *ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type ColabNotebookExecutionCustomEnvironmentSpecOutputReference interface {
 	PutMachineSpec(value *ColabNotebookExecutionCustomEnvironmentSpecMachineSpec)
 	PutNetworkSpec(value *ColabNotebookExecutionCustomEnvironmentSpecNetworkSpec)
 	PutPersistentDiskSpec(value *ColabNotebookExecutionCustomEnvironmentSpecPersistentDiskSpec)
+	PutShieldedInstanceConfig(value *ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig)
 	ResetMachineSpec()
 	ResetNetworkSpec()
 	ResetPersistentDiskSpec()
+	ResetShieldedInstanceConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) P
 	_jsii_.Get(
 		j,
 		"persistentDiskSpecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) ShieldedInstanceConfig() ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfigOutputReference {
+	var returns ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfigOutputReference
+	_jsii_.Get(
+		j,
+		"shieldedInstanceConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) ShieldedInstanceConfigInput() *ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig {
+	var returns *ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig
+	_jsii_.Get(
+		j,
+		"shieldedInstanceConfigInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) P
 	)
 }
 
+func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) PutShieldedInstanceConfig(value *ColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig) {
+	if err := c.validatePutShieldedInstanceConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putShieldedInstanceConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) ResetMachineSpec() {
 	_jsii_.InvokeVoid(
 		c,
@@ -543,6 +578,14 @@ func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) R
 	_jsii_.InvokeVoid(
 		c,
 		"resetPersistentDiskSpec",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabNotebookExecutionCustomEnvironmentSpecOutputReference) ResetShieldedInstanceConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetShieldedInstanceConfig",
 		nil, // no parameters
 	)
 }

@@ -47,6 +47,10 @@ func (c *jsiiProxy_CesToolPythonFunctionOutputReference) validateInterpolationFo
 	return nil
 }
 
+func (c *jsiiProxy_CesToolPythonFunctionOutputReference) validatePutServiceDirectoryConfigParameters(value *CesToolPythonFunctionServiceDirectoryConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolPythonFunctionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

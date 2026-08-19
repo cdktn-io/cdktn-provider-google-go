@@ -10,11 +10,11 @@ type ContactCenterInsightsAutoLabelingRuleConditions struct {
 	// Once evaluated as true, then we will proceed with the value evaluation.
 	// An empty condition will be auto evaluated as true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/contact_center_insights_auto_labeling_rule#condition ContactCenterInsightsAutoLabelingRule#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/contact_center_insights_auto_labeling_rule#condition ContactCenterInsightsAutoLabelingRule#condition}
 	Condition *string `field:"optional" json:"condition" yaml:"condition"`
 	// CEL expression to be evaluated as the value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/contact_center_insights_auto_labeling_rule#value ContactCenterInsightsAutoLabelingRule#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/contact_center_insights_auto_labeling_rule#value ContactCenterInsightsAutoLabelingRule#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

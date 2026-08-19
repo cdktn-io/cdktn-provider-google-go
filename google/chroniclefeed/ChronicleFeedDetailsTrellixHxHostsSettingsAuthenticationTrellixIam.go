@@ -12,7 +12,7 @@ type ChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIam struct {
 	// It is assumed that the Client ID generated in Trellix IAM is internally
 	// consistent with Trellix IAM authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#client_id ChronicleFeed#client_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#client_id ChronicleFeed#client_id}
 	ClientId *string `field:"required" json:"clientId" yaml:"clientId"`
 	// Secret associated with the Client ID.
 	//
@@ -21,7 +21,7 @@ type ChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIam struct {
 	// assumed that the secret generated in Trellix IAM is internally
 	// consistent with Trellix IAM authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#client_secret ChronicleFeed#client_secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#client_secret ChronicleFeed#client_secret}
 	ClientSecret *string `field:"required" json:"clientSecret" yaml:"clientSecret"`
 	// OAUTH 2 scope to request for the authentication token.
 	//
@@ -30,7 +30,7 @@ type ChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIam struct {
 	// assumed that the scope provided is internally consistent with Trellix IAM
 	// authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_feed#scope ChronicleFeed#scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#scope ChronicleFeed#scope}
 	Scope *string `field:"required" json:"scope" yaml:"scope"`
 }
 

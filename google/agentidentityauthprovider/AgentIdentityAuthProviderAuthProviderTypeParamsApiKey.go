@@ -7,7 +7,7 @@ package agentidentityauthprovider
 type AgentIdentityAuthProviderAuthProviderTypeParamsApiKey struct {
 	// Input only. The API key for this auth_provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/agent_identity_auth_provider#api_key AgentIdentityAuthProvider#api_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_identity_auth_provider#api_key AgentIdentityAuthProvider#api_key}
 	ApiKey *string `field:"optional" json:"apiKey" yaml:"apiKey"`
 }
 

@@ -5,11 +5,11 @@ package agentregistryservice
 
 
 type AgentRegistryServiceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/agent_registry_service#create AgentRegistryService#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_registry_service#create AgentRegistryService#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/agent_registry_service#delete AgentRegistryService#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_registry_service#delete AgentRegistryService#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/agent_registry_service#update AgentRegistryService#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_registry_service#update AgentRegistryService#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

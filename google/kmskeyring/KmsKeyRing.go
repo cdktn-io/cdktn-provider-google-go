@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/kms_key_ring google_kms_key_ring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/kms_key_ring google_kms_key_ring}.
 type KmsKeyRing interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_KmsKeyRing) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/kms_key_ring google_kms_key_ring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/kms_key_ring google_kms_key_ring} Resource.
 func NewKmsKeyRing(scope constructs.Construct, id *string, config *KmsKeyRingConfig) KmsKeyRing {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewKmsKeyRing(scope constructs.Construct, id *string, config *KmsKeyRingCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/kms_key_ring google_kms_key_ring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/kms_key_ring google_kms_key_ring} Resource.
 func NewKmsKeyRing_Override(k KmsKeyRing, scope constructs.Construct, id *string, config *KmsKeyRingConfig) {
 	_init_.Initialize()
 

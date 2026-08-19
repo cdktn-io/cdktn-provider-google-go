@@ -7,7 +7,7 @@ package containernodepool
 type ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit struct {
 	// init_script block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/container_node_pool#init_script ContainerNodePool#init_script}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/container_node_pool#init_script ContainerNodePool#init_script}
 	InitScript *ContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript `field:"optional" json:"initScript" yaml:"initScript"`
 }
 

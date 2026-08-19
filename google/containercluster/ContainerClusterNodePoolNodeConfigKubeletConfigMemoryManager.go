@@ -9,7 +9,7 @@ type ContainerClusterNodePoolNodeConfigKubeletConfigMemoryManager struct {
 	//
 	// This policy guides how memory and hugepages are allocated and managed for pods on the node, influencing NUMA affinity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/container_cluster#policy ContainerCluster#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/container_cluster#policy ContainerCluster#policy}
 	Policy *string `field:"optional" json:"policy" yaml:"policy"`
 }
 

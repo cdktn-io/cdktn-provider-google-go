@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apphub_boundary google_apphub_boundary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/apphub_boundary google_apphub_boundary}.
 type ApphubBoundary interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ApphubBoundary) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apphub_boundary google_apphub_boundary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/apphub_boundary google_apphub_boundary} Resource.
 func NewApphubBoundary(scope constructs.Construct, id *string, config *ApphubBoundaryConfig) ApphubBoundary {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewApphubBoundary(scope constructs.Construct, id *string, config *ApphubBou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/apphub_boundary google_apphub_boundary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/apphub_boundary google_apphub_boundary} Resource.
 func NewApphubBoundary_Override(a ApphubBoundary, scope constructs.Construct, id *string, config *ApphubBoundaryConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/migration_center_group google_migration_center_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/migration_center_group google_migration_center_group}.
 type MigrationCenterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -613,7 +613,7 @@ func (j *jsiiProxy_MigrationCenterGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/migration_center_group google_migration_center_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/migration_center_group google_migration_center_group} Resource.
 func NewMigrationCenterGroup(scope constructs.Construct, id *string, config *MigrationCenterGroupConfig) MigrationCenterGroup {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewMigrationCenterGroup(scope constructs.Construct, id *string, config *Mig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/migration_center_group google_migration_center_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/migration_center_group google_migration_center_group} Resource.
 func NewMigrationCenterGroup_Override(m MigrationCenterGroup, scope constructs.Construct, id *string, config *MigrationCenterGroupConfig) {
 	_init_.Initialize()
 

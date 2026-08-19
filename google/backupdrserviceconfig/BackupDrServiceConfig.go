@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/backup_dr_service_config google_backup_dr_service_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/backup_dr_service_config google_backup_dr_service_config}.
 type BackupDrServiceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_BackupDrServiceConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/backup_dr_service_config google_backup_dr_service_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/backup_dr_service_config google_backup_dr_service_config} Resource.
 func NewBackupDrServiceConfig(scope constructs.Construct, id *string, config *BackupDrServiceConfigConfig) BackupDrServiceConfig {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewBackupDrServiceConfig(scope constructs.Construct, id *string, config *Ba
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/backup_dr_service_config google_backup_dr_service_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/backup_dr_service_config google_backup_dr_service_config} Resource.
 func NewBackupDrServiceConfig_Override(b BackupDrServiceConfig, scope constructs.Construct, id *string, config *BackupDrServiceConfigConfig) {
 	_init_.Initialize()
 

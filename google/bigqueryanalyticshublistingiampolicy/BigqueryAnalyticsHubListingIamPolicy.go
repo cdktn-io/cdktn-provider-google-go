@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_analytics_hub_listing_iam_policy google_bigquery_analytics_hub_listing_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_analytics_hub_listing_iam_policy google_bigquery_analytics_hub_listing_iam_policy}.
 type BigqueryAnalyticsHubListingIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubListingIamPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_analytics_hub_listing_iam_policy google_bigquery_analytics_hub_listing_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_analytics_hub_listing_iam_policy google_bigquery_analytics_hub_listing_iam_policy} Resource.
 func NewBigqueryAnalyticsHubListingIamPolicy(scope constructs.Construct, id *string, config *BigqueryAnalyticsHubListingIamPolicyConfig) BigqueryAnalyticsHubListingIamPolicy {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewBigqueryAnalyticsHubListingIamPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_analytics_hub_listing_iam_policy google_bigquery_analytics_hub_listing_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_analytics_hub_listing_iam_policy google_bigquery_analytics_hub_listing_iam_policy} Resource.
 func NewBigqueryAnalyticsHubListingIamPolicy_Override(b BigqueryAnalyticsHubListingIamPolicy, scope constructs.Construct, id *string, config *BigqueryAnalyticsHubListingIamPolicyConfig) {
 	_init_.Initialize()
 

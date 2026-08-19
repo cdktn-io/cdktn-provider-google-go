@@ -14,11 +14,11 @@ type BigqueryJobQueryConnectionProperties struct {
 	// * 'query_label': associates the query with a given job label
 	// * 'service_account': indicates the service account to use to run a continuous query
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_job#key BigqueryJob#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_job#key BigqueryJob#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// The value of the property to set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_job#value BigqueryJob#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_job#value BigqueryJob#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

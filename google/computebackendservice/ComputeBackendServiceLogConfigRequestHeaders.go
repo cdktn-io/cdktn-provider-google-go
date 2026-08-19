@@ -7,7 +7,7 @@ package computebackendservice
 type ComputeBackendServiceLogConfigRequestHeaders struct {
 	// The header name to match on for logging.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_backend_service#header_name ComputeBackendService#header_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_backend_service#header_name ComputeBackendService#header_name}
 	HeaderName *string `field:"required" json:"headerName" yaml:"headerName"`
 }
 

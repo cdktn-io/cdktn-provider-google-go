@@ -135,6 +135,10 @@ func (j *jsiiProxy_BigqueryReservation) validateSetIgnoreIdleSlotsParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryReservation) validateSetLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryReservation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

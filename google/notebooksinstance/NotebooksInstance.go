@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/notebooks_instance google_notebooks_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/notebooks_instance google_notebooks_instance}.
 type NotebooksInstance interface {
 	cdktn.TerraformResource
 	AcceleratorConfig() NotebooksInstanceAcceleratorConfigOutputReference
@@ -1249,7 +1249,7 @@ func (j *jsiiProxy_NotebooksInstance) VmImageInput() *NotebooksInstanceVmImage {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
 func NewNotebooksInstance(scope constructs.Construct, id *string, config *NotebooksInstanceConfig) NotebooksInstance {
 	_init_.Initialize()
 
@@ -1267,7 +1267,7 @@ func NewNotebooksInstance(scope constructs.Construct, id *string, config *Notebo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/notebooks_instance google_notebooks_instance} Resource.
 func NewNotebooksInstance_Override(n NotebooksInstance, scope constructs.Construct, id *string, config *NotebooksInstanceConfig) {
 	_init_.Initialize()
 

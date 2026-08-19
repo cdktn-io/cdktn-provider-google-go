@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member}.
 type ClouddeployDeliveryPipelineIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
 func NewClouddeployDeliveryPipelineIamMember(scope constructs.Construct, id *string, config *ClouddeployDeliveryPipelineIamMemberConfig) ClouddeployDeliveryPipelineIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewClouddeployDeliveryPipelineIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
 func NewClouddeployDeliveryPipelineIamMember_Override(c ClouddeployDeliveryPipelineIamMember, scope constructs.Construct, id *string, config *ClouddeployDeliveryPipelineIamMemberConfig) {
 	_init_.Initialize()
 

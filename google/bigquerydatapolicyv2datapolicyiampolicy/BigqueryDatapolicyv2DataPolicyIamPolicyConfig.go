@@ -22,18 +22,18 @@ type BigqueryDatapolicyv2DataPolicyIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#data_policy_id BigqueryDatapolicyv2DataPolicyIamPolicy#data_policy_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#data_policy_id BigqueryDatapolicyv2DataPolicyIamPolicy#data_policy_id}.
 	DataPolicyId *string `field:"required" json:"dataPolicyId" yaml:"dataPolicyId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#policy_data BigqueryDatapolicyv2DataPolicyIamPolicy#policy_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#policy_data BigqueryDatapolicyv2DataPolicyIamPolicy#policy_data}.
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#id BigqueryDatapolicyv2DataPolicyIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#id BigqueryDatapolicyv2DataPolicyIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#location BigqueryDatapolicyv2DataPolicyIamPolicy#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#location BigqueryDatapolicyv2DataPolicyIamPolicy#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#project BigqueryDatapolicyv2DataPolicyIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_datapolicyv2_data_policy_iam_policy#project BigqueryDatapolicyv2DataPolicyIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

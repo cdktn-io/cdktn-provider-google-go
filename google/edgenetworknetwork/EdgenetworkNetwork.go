@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/edgenetwork_network google_edgenetwork_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/edgenetwork_network google_edgenetwork_network}.
 type EdgenetworkNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_EdgenetworkNetwork) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
 func NewEdgenetworkNetwork(scope constructs.Construct, id *string, config *EdgenetworkNetworkConfig) EdgenetworkNetwork {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewEdgenetworkNetwork(scope constructs.Construct, id *string, config *Edgen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
 func NewEdgenetworkNetwork_Override(e EdgenetworkNetwork, scope constructs.Construct, id *string, config *EdgenetworkNetworkConfig) {
 	_init_.Initialize()
 

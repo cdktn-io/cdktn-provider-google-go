@@ -7,11 +7,11 @@ package chronicleparser
 type ChronicleParserLowCodeFieldExtractorsPreprocessConfig struct {
 	// GROK Regex to extract the structured part of the log. syntax documentation: www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_parser#grok_regex ChronicleParser#grok_regex}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_parser#grok_regex ChronicleParser#grok_regex}
 	GrokRegex *string `field:"optional" json:"grokRegex" yaml:"grokRegex"`
 	// Target field name for the structured part of the log. This should match a SEMANTIC identifier from the grok expression.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/chronicle_parser#target ChronicleParser#target}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_parser#target ChronicleParser#target}
 	Target *string `field:"optional" json:"target" yaml:"target"`
 }
 

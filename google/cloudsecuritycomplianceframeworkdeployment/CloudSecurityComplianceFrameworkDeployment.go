@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
 type CloudSecurityComplianceFrameworkDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -692,7 +692,7 @@ func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkDeploymentConfig) CloudSecurityComplianceFrameworkDeployment {
 	_init_.Initialize()
 
@@ -710,7 +710,7 @@ func NewCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewCloudSecurityComplianceFrameworkDeployment_Override(c CloudSecurityComplianceFrameworkDeployment, scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkDeploymentConfig) {
 	_init_.Initialize()
 

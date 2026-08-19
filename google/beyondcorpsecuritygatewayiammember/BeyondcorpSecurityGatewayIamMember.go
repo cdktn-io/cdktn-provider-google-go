@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member}.
 type BeyondcorpSecurityGatewayIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayIamMember) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
 func NewBeyondcorpSecurityGatewayIamMember(scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayIamMemberConfig) BeyondcorpSecurityGatewayIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewBeyondcorpSecurityGatewayIamMember(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
 func NewBeyondcorpSecurityGatewayIamMember_Override(b BeyondcorpSecurityGatewayIamMember, scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayIamMemberConfig) {
 	_init_.Initialize()
 

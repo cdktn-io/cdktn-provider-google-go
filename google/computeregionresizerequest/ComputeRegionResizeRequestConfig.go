@@ -24,17 +24,17 @@ type ComputeRegionResizeRequestConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The reference of the regional instance group manager this ResizeRequest is a part of.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#instance_group_manager ComputeRegionResizeRequest#instance_group_manager}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#instance_group_manager ComputeRegionResizeRequest#instance_group_manager}
 	InstanceGroupManager *string `field:"required" json:"instanceGroupManager" yaml:"instanceGroupManager"`
 	// The name of this resize request. The name must be 1-63 characters long, and comply with RFC1035.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#name ComputeRegionResizeRequest#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#name ComputeRegionResizeRequest#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The number of instances to be created by this resize request.
 	//
 	// The group's target size will be increased by this number.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#resize_by ComputeRegionResizeRequest#resize_by}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#resize_by ComputeRegionResizeRequest#resize_by}
 	ResizeBy *float64 `field:"required" json:"resizeBy" yaml:"resizeBy"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -46,30 +46,30 @@ type ComputeRegionResizeRequestConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#deletion_policy ComputeRegionResizeRequest#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#deletion_policy ComputeRegionResizeRequest#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resize-request.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#description ComputeRegionResizeRequest#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#description ComputeRegionResizeRequest#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#id ComputeRegionResizeRequest#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#id ComputeRegionResizeRequest#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#project ComputeRegionResizeRequest#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#project ComputeRegionResizeRequest#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// The reference of the compute region scoping this request. If it is not provided, the provider region is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#region ComputeRegionResizeRequest#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#region ComputeRegionResizeRequest#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// requested_run_duration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#requested_run_duration ComputeRegionResizeRequest#requested_run_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#requested_run_duration ComputeRegionResizeRequest#requested_run_duration}
 	RequestedRunDuration *ComputeRegionResizeRequestRequestedRunDuration `field:"optional" json:"requestedRunDuration" yaml:"requestedRunDuration"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_resize_request#timeouts ComputeRegionResizeRequest#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_resize_request#timeouts ComputeRegionResizeRequest#timeouts}
 	Timeouts *ComputeRegionResizeRequestTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

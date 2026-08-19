@@ -5,11 +5,11 @@ package computerouternamedset
 
 
 type ComputeRouterNamedSetTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_router_named_set#create ComputeRouterNamedSet#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_router_named_set#create ComputeRouterNamedSet#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_router_named_set#delete ComputeRouterNamedSet#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_router_named_set#delete ComputeRouterNamedSet#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_router_named_set#update ComputeRouterNamedSet#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_router_named_set#update ComputeRouterNamedSet#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

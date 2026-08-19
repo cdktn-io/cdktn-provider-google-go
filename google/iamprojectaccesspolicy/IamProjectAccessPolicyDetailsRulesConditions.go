@@ -5,11 +5,11 @@ package iamprojectaccesspolicy
 
 
 type IamProjectAccessPolicyDetailsRulesConditions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_project_access_policy#service IamProjectAccessPolicy#service}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_project_access_policy#service IamProjectAccessPolicy#service}.
 	Service *string `field:"required" json:"service" yaml:"service"`
 	// Textual representation of an expression in Common Expression Language syntax.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/iam_project_access_policy#expression IamProjectAccessPolicy#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_project_access_policy#expression IamProjectAccessPolicy#expression}
 	Expression *string `field:"optional" json:"expression" yaml:"expression"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_log_view_iam_policy google_logging_log_view_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/logging_log_view_iam_policy google_logging_log_view_iam_policy}.
 type LoggingLogViewIamPolicy interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_LoggingLogViewIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_log_view_iam_policy google_logging_log_view_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/logging_log_view_iam_policy google_logging_log_view_iam_policy} Resource.
 func NewLoggingLogViewIamPolicy(scope constructs.Construct, id *string, config *LoggingLogViewIamPolicyConfig) LoggingLogViewIamPolicy {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewLoggingLogViewIamPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/logging_log_view_iam_policy google_logging_log_view_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/logging_log_view_iam_policy google_logging_log_view_iam_policy} Resource.
 func NewLoggingLogViewIamPolicy_Override(l LoggingLogViewIamPolicy, scope constructs.Construct, id *string, config *LoggingLogViewIamPolicyConfig) {
 	_init_.Initialize()
 

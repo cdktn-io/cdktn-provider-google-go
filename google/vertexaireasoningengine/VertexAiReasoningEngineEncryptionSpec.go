@@ -13,7 +13,7 @@ type VertexAiReasoningEngineEncryptionSpec struct {
 	// The key needs to be in the same region as where the compute resource
 	// is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/vertex_ai_reasoning_engine#kms_key_name VertexAiReasoningEngine#kms_key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_reasoning_engine#kms_key_name VertexAiReasoningEngine#kms_key_name}
 	KmsKeyName *string `field:"required" json:"kmsKeyName" yaml:"kmsKeyName"`
 }
 

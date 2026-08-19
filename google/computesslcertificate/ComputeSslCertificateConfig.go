@@ -27,7 +27,7 @@ type ComputeSslCertificateConfig struct {
 	// The certificate chain must be no greater than 5 certs long.
 	// The chain must include at least one intermediate cert.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#certificate ComputeSslCertificate#certificate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#certificate ComputeSslCertificate#certificate}
 	Certificate *string `field:"required" json:"certificate" yaml:"certificate"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -39,13 +39,13 @@ type ComputeSslCertificateConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#deletion_policy ComputeSslCertificate#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#deletion_policy ComputeSslCertificate#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#description ComputeSslCertificate#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#description ComputeSslCertificate#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#id ComputeSslCertificate#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#id ComputeSslCertificate#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,31 +62,31 @@ type ComputeSslCertificateConfig struct {
 	//
 	// These are in the same namespace as the managed SSL certificates.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#name ComputeSslCertificate#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#name ComputeSslCertificate#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// Creates a unique name beginning with the specified prefix. Conflicts with name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#name_prefix ComputeSslCertificate#name_prefix}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#name_prefix ComputeSslCertificate#name_prefix}
 	NamePrefix *string `field:"optional" json:"namePrefix" yaml:"namePrefix"`
 	// The write-only private key in PEM format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#private_key ComputeSslCertificate#private_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#private_key ComputeSslCertificate#private_key}
 	PrivateKey *string `field:"optional" json:"privateKey" yaml:"privateKey"`
 	// The write-only private key in PEM format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#private_key_wo ComputeSslCertificate#private_key_wo}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#private_key_wo ComputeSslCertificate#private_key_wo}
 	PrivateKeyWo *string `field:"optional" json:"privateKeyWo" yaml:"privateKeyWo"`
 	// Triggers update of 'private_key_wo' write-only.
 	//
 	// Increment this value when an update to 'private_key_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#private_key_wo_version ComputeSslCertificate#private_key_wo_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#private_key_wo_version ComputeSslCertificate#private_key_wo_version}
 	PrivateKeyWoVersion *string `field:"optional" json:"privateKeyWoVersion" yaml:"privateKeyWoVersion"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#project ComputeSslCertificate#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#project ComputeSslCertificate#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_ssl_certificate#timeouts ComputeSslCertificate#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_ssl_certificate#timeouts ComputeSslCertificate#timeouts}
 	Timeouts *ComputeSslCertificateTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

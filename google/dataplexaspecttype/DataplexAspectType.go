@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_aspect_type google_dataplex_aspect_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_aspect_type google_dataplex_aspect_type}.
 type DataplexAspectType interface {
 	cdktn.TerraformResource
 	AspectTypeId() *string
@@ -685,7 +685,7 @@ func (j *jsiiProxy_DataplexAspectType) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_aspect_type google_dataplex_aspect_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_aspect_type google_dataplex_aspect_type} Resource.
 func NewDataplexAspectType(scope constructs.Construct, id *string, config *DataplexAspectTypeConfig) DataplexAspectType {
 	_init_.Initialize()
 
@@ -703,7 +703,7 @@ func NewDataplexAspectType(scope constructs.Construct, id *string, config *Datap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/dataplex_aspect_type google_dataplex_aspect_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_aspect_type google_dataplex_aspect_type} Resource.
 func NewDataplexAspectType_Override(d DataplexAspectType, scope constructs.Construct, id *string, config *DataplexAspectTypeConfig) {
 	_init_.Initialize()
 

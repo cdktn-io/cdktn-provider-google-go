@@ -7,7 +7,7 @@ package containercluster
 type ContainerClusterNodePoolMaintenancePolicy struct {
 	// exclusion_until_end_of_support block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/container_cluster#exclusion_until_end_of_support ContainerCluster#exclusion_until_end_of_support}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/container_cluster#exclusion_until_end_of_support ContainerCluster#exclusion_until_end_of_support}
 	ExclusionUntilEndOfSupport interface{} `field:"optional" json:"exclusionUntilEndOfSupport" yaml:"exclusionUntilEndOfSupport"`
 }
 

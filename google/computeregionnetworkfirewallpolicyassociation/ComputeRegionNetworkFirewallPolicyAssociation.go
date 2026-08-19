@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association}.
 type ComputeRegionNetworkFirewallPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentTarget() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_ComputeRegionNetworkFirewallPolicyAssociation) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
 func NewComputeRegionNetworkFirewallPolicyAssociation(scope constructs.Construct, id *string, config *ComputeRegionNetworkFirewallPolicyAssociationConfig) ComputeRegionNetworkFirewallPolicyAssociation {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewComputeRegionNetworkFirewallPolicyAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
 func NewComputeRegionNetworkFirewallPolicyAssociation_Override(c ComputeRegionNetworkFirewallPolicyAssociation, scope constructs.Construct, id *string, config *ComputeRegionNetworkFirewallPolicyAssociationConfig) {
 	_init_.Initialize()
 

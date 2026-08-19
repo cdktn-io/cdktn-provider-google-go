@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/clouddeploy_target_iam_policy google_clouddeploy_target_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/clouddeploy_target_iam_policy google_clouddeploy_target_iam_policy}.
 type ClouddeployTargetIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ClouddeployTargetIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/clouddeploy_target_iam_policy google_clouddeploy_target_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/clouddeploy_target_iam_policy google_clouddeploy_target_iam_policy} Resource.
 func NewClouddeployTargetIamPolicy(scope constructs.Construct, id *string, config *ClouddeployTargetIamPolicyConfig) ClouddeployTargetIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewClouddeployTargetIamPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/clouddeploy_target_iam_policy google_clouddeploy_target_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/clouddeploy_target_iam_policy google_clouddeploy_target_iam_policy} Resource.
 func NewClouddeployTargetIamPolicy_Override(c ClouddeployTargetIamPolicy, scope constructs.Construct, id *string, config *ClouddeployTargetIamPolicyConfig) {
 	_init_.Initialize()
 

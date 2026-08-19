@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_reservation google_bigquery_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_reservation google_bigquery_reservation}.
 type BigqueryReservation interface {
 	cdktn.TerraformResource
 	Autoscale() BigqueryReservationAutoscaleOutputReference
@@ -42,6 +42,7 @@ type BigqueryReservation interface {
 	Edition() *string
 	SetEdition(val *string)
 	EditionInput() *string
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -56,6 +57,9 @@ type BigqueryReservation interface {
 	IgnoreIdleSlots() interface{}
 	SetIgnoreIdleSlots(val interface{})
 	IgnoreIdleSlotsInput() interface{}
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -95,6 +99,7 @@ type BigqueryReservation interface {
 	SlotCapacityInput() *float64
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -201,6 +206,7 @@ type BigqueryReservation interface {
 	ResetEdition()
 	ResetId()
 	ResetIgnoreIdleSlots()
+	ResetLabels()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -366,6 +372,16 @@ func (j *jsiiProxy_BigqueryReservation) EditionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryReservation) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryReservation) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -431,6 +447,26 @@ func (j *jsiiProxy_BigqueryReservation) IgnoreIdleSlotsInput() interface{} {
 	_jsii_.Get(
 		j,
 		"ignoreIdleSlotsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryReservation) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryReservation) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -646,6 +682,16 @@ func (j *jsiiProxy_BigqueryReservation) TerraformGeneratorMetadata() *cdktn.Terr
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryReservation) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryReservation) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -687,7 +733,7 @@ func (j *jsiiProxy_BigqueryReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_reservation google_bigquery_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_reservation google_bigquery_reservation} Resource.
 func NewBigqueryReservation(scope constructs.Construct, id *string, config *BigqueryReservationConfig) BigqueryReservation {
 	_init_.Initialize()
 
@@ -705,7 +751,7 @@ func NewBigqueryReservation(scope constructs.Construct, id *string, config *Bigq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.44.0/docs/resources/bigquery_reservation google_bigquery_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_reservation google_bigquery_reservation} Resource.
 func NewBigqueryReservation_Override(b BigqueryReservation, scope constructs.Construct, id *string, config *BigqueryReservationConfig) {
 	_init_.Initialize()
 
@@ -805,6 +851,17 @@ func (j *jsiiProxy_BigqueryReservation)SetIgnoreIdleSlots(val interface{}) {
 	_jsii_.Set(
 		j,
 		"ignoreIdleSlots",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryReservation)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1351,6 +1408,14 @@ func (b *jsiiProxy_BigqueryReservation) ResetIgnoreIdleSlots() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetIgnoreIdleSlots",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryReservation) ResetLabels() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

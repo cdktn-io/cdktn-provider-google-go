@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package cestool
+
+
+type CesToolPythonFunctionServiceDirectoryConfig struct {
+	// The name of Service Directory service. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_tool#service CesTool#service}
+	Service *string `field:"required" json:"service" yaml:"service"`
+}
+
