@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_cx_generative_settings google_dialogflow_cx_generative_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_cx_generative_settings google_dialogflow_cx_generative_settings}.
 type DialogflowCxGenerativeSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DialogflowCxGenerativeSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_cx_generative_settings google_dialogflow_cx_generative_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_cx_generative_settings google_dialogflow_cx_generative_settings} Resource.
 func NewDialogflowCxGenerativeSettings(scope constructs.Construct, id *string, config *DialogflowCxGenerativeSettingsConfig) DialogflowCxGenerativeSettings {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewDialogflowCxGenerativeSettings(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_cx_generative_settings google_dialogflow_cx_generative_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_cx_generative_settings google_dialogflow_cx_generative_settings} Resource.
 func NewDialogflowCxGenerativeSettings_Override(d DialogflowCxGenerativeSettings, scope constructs.Construct, id *string, config *DialogflowCxGenerativeSettingsConfig) {
 	_init_.Initialize()
 

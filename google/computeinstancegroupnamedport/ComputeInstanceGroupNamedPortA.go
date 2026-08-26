@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_instance_group_named_port google_compute_instance_group_named_port}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_instance_group_named_port google_compute_instance_group_named_port}.
 type ComputeInstanceGroupNamedPortA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_ComputeInstanceGroupNamedPortA) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_instance_group_named_port google_compute_instance_group_named_port} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_instance_group_named_port google_compute_instance_group_named_port} Resource.
 func NewComputeInstanceGroupNamedPortA(scope constructs.Construct, id *string, config *ComputeInstanceGroupNamedPortAConfig) ComputeInstanceGroupNamedPortA {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewComputeInstanceGroupNamedPortA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_instance_group_named_port google_compute_instance_group_named_port} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_instance_group_named_port google_compute_instance_group_named_port} Resource.
 func NewComputeInstanceGroupNamedPortA_Override(c ComputeInstanceGroupNamedPortA, scope constructs.Construct, id *string, config *ComputeInstanceGroupNamedPortAConfig) {
 	_init_.Initialize()
 

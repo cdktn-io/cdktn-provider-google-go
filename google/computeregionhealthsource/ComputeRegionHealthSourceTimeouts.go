@@ -5,11 +5,11 @@ package computeregionhealthsource
 
 
 type ComputeRegionHealthSourceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_health_source#create ComputeRegionHealthSource#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_health_source#create ComputeRegionHealthSource#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_health_source#delete ComputeRegionHealthSource#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_health_source#delete ComputeRegionHealthSource#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_health_source#update ComputeRegionHealthSource#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_health_source#update ComputeRegionHealthSource#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

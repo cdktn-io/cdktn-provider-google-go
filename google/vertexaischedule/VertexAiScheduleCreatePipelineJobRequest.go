@@ -7,17 +7,17 @@ package vertexaischedule
 type VertexAiScheduleCreatePipelineJobRequest struct {
 	// The resource name of the Location to create the PipelineJob in. Format: 'projects/{project}/locations/{location}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_schedule#parent VertexAiSchedule#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_schedule#parent VertexAiSchedule#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
 	// pipeline_job block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_schedule#pipeline_job VertexAiSchedule#pipeline_job}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_schedule#pipeline_job VertexAiSchedule#pipeline_job}
 	PipelineJob *VertexAiScheduleCreatePipelineJobRequestPipelineJob `field:"required" json:"pipelineJob" yaml:"pipelineJob"`
 	// The ID to use for the PipelineJob, which will become the final component of the PipelineJob name.
 	//
 	// If not provided, an ID will be automatically generated. This value should be less than 128 characters, and valid characters are '/a-z-/'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_schedule#pipeline_job_id VertexAiSchedule#pipeline_job_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_schedule#pipeline_job_id VertexAiSchedule#pipeline_job_id}
 	PipelineJobId *string `field:"optional" json:"pipelineJobId" yaml:"pipelineJobId"`
 }
 

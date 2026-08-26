@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap}.
 type DiscoveryEngineSitemap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_DiscoveryEngineSitemap) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
 func NewDiscoveryEngineSitemap(scope constructs.Construct, id *string, config *DiscoveryEngineSitemapConfig) DiscoveryEngineSitemap {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewDiscoveryEngineSitemap(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
 func NewDiscoveryEngineSitemap_Override(d DiscoveryEngineSitemap, scope constructs.Construct, id *string, config *DiscoveryEngineSitemapConfig) {
 	_init_.Initialize()
 

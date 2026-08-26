@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
 type IapAgentRegistryMcpServerIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_IapAgentRegistryMcpServerIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
 func NewIapAgentRegistryMcpServerIamPolicy(scope constructs.Construct, id *string, config *IapAgentRegistryMcpServerIamPolicyConfig) IapAgentRegistryMcpServerIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewIapAgentRegistryMcpServerIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
 func NewIapAgentRegistryMcpServerIamPolicy_Override(i IapAgentRegistryMcpServerIamPolicy, scope constructs.Construct, id *string, config *IapAgentRegistryMcpServerIamPolicyConfig) {
 	_init_.Initialize()
 

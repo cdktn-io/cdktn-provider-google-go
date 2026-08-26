@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/cloudbuild_bitbucket_server_config google_cloudbuild_bitbucket_server_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudbuild_bitbucket_server_config google_cloudbuild_bitbucket_server_config}.
 type CloudbuildBitbucketServerConfig interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -672,7 +672,7 @@ func (j *jsiiProxy_CloudbuildBitbucketServerConfig) WebhookKey() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/cloudbuild_bitbucket_server_config google_cloudbuild_bitbucket_server_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudbuild_bitbucket_server_config google_cloudbuild_bitbucket_server_config} Resource.
 func NewCloudbuildBitbucketServerConfig(scope constructs.Construct, id *string, config *CloudbuildBitbucketServerConfigConfig) CloudbuildBitbucketServerConfig {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewCloudbuildBitbucketServerConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/cloudbuild_bitbucket_server_config google_cloudbuild_bitbucket_server_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudbuild_bitbucket_server_config google_cloudbuild_bitbucket_server_config} Resource.
 func NewCloudbuildBitbucketServerConfig_Override(c CloudbuildBitbucketServerConfig, scope constructs.Construct, id *string, config *CloudbuildBitbucketServerConfigConfig) {
 	_init_.Initialize()
 

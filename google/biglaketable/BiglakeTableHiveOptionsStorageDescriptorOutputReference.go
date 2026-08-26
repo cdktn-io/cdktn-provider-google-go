@@ -41,6 +41,8 @@ type BiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 	OutputFormat() *string
 	SetOutputFormat(val *string)
 	OutputFormatInput() *string
+	SerdeInfo() BiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference
+	SerdeInfoInput() *BiglakeTableHiveOptionsStorageDescriptorSerdeInfo
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type BiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSerdeInfo(value *BiglakeTableHiveOptionsStorageDescriptorSerdeInfo)
 	ResetInputFormat()
 	ResetLocationUri()
 	ResetOutputFormat()
+	ResetSerdeInfo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Outp
 	_jsii_.Get(
 		j,
 		"outputFormatInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) SerdeInfo() BiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference {
+	var returns BiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference
+	_jsii_.Get(
+		j,
+		"serdeInfo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) SerdeInfoInput() *BiglakeTableHiveOptionsStorageDescriptorSerdeInfo {
+	var returns *BiglakeTableHiveOptionsStorageDescriptorSerdeInfo
+	_jsii_.Get(
+		j,
+		"serdeInfoInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Inte
 	return returns
 }
 
+func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) PutSerdeInfo(value *BiglakeTableHiveOptionsStorageDescriptorSerdeInfo) {
+	if err := b.validatePutSerdeInfoParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSerdeInfo",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) ResetInputFormat() {
 	_jsii_.InvokeVoid(
 		b,
@@ -543,6 +578,14 @@ func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) Rese
 	_jsii_.InvokeVoid(
 		b,
 		"resetOutputFormat",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BiglakeTableHiveOptionsStorageDescriptorOutputReference) ResetSerdeInfo() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSerdeInfo",
 		nil, // no parameters
 	)
 }

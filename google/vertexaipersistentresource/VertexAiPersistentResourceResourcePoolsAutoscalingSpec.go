@@ -7,7 +7,7 @@ package vertexaipersistentresource
 type VertexAiPersistentResourceResourcePoolsAutoscalingSpec struct {
 	// max replicas in the node pool, must be ≥ replica_count and > min_replica_count or will throw error.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource#max_replica_count VertexAiPersistentResource#max_replica_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#max_replica_count VertexAiPersistentResource#max_replica_count}
 	MaxReplicaCount *string `field:"optional" json:"maxReplicaCount" yaml:"maxReplicaCount"`
 	// min replicas in the node pool, must be ≤ replica_count and < max_replica_count or will throw error.
 	//
@@ -18,7 +18,7 @@ type VertexAiPersistentResourceResourcePoolsAutoscalingSpec struct {
 	// a corresponding validation inside
 	// CreatePersistentResourceRequestValidator.java.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource#min_replica_count VertexAiPersistentResource#min_replica_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#min_replica_count VertexAiPersistentResource#min_replica_count}
 	MinReplicaCount *string `field:"optional" json:"minReplicaCount" yaml:"minReplicaCount"`
 }
 

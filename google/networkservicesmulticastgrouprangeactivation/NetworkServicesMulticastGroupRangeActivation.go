@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
 type NetworkServicesMulticastGroupRangeActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -703,7 +703,7 @@ func (j *jsiiProxy_NetworkServicesMulticastGroupRangeActivation) UpdateTime() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
 func NewNetworkServicesMulticastGroupRangeActivation(scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupRangeActivationConfig) NetworkServicesMulticastGroupRangeActivation {
 	_init_.Initialize()
 
@@ -721,7 +721,7 @@ func NewNetworkServicesMulticastGroupRangeActivation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
 func NewNetworkServicesMulticastGroupRangeActivation_Override(n NetworkServicesMulticastGroupRangeActivation, scope constructs.Construct, id *string, config *NetworkServicesMulticastGroupRangeActivationConfig) {
 	_init_.Initialize()
 

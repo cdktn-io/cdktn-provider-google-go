@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource google_vertex_ai_persistent_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource google_vertex_ai_persistent_resource}.
 type VertexAiPersistentResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -788,7 +788,7 @@ func (j *jsiiProxy_VertexAiPersistentResource) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource google_vertex_ai_persistent_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource google_vertex_ai_persistent_resource} Resource.
 func NewVertexAiPersistentResource(scope constructs.Construct, id *string, config *VertexAiPersistentResourceConfig) VertexAiPersistentResource {
 	_init_.Initialize()
 
@@ -806,7 +806,7 @@ func NewVertexAiPersistentResource(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource google_vertex_ai_persistent_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource google_vertex_ai_persistent_resource} Resource.
 func NewVertexAiPersistentResource_Override(v VertexAiPersistentResource, scope constructs.Construct, id *string, config *VertexAiPersistentResourceConfig) {
 	_init_.Initialize()
 

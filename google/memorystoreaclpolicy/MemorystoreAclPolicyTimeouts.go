@@ -1,0 +1,15 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package memorystoreaclpolicy
+
+
+type MemorystoreAclPolicyTimeouts struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_acl_policy#create MemorystoreAclPolicy#create}.
+	Create *string `field:"optional" json:"create" yaml:"create"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_acl_policy#delete MemorystoreAclPolicy#delete}.
+	Delete *string `field:"optional" json:"delete" yaml:"delete"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_acl_policy#update MemorystoreAclPolicy#update}.
+	Update *string `field:"optional" json:"update" yaml:"update"`
+}
+

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_registry_service google_agent_registry_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agent_registry_service google_agent_registry_service}.
 type AgentRegistryService interface {
 	cdktn.TerraformResource
 	AgentSpec() AgentRegistryServiceAgentSpecOutputReference
@@ -674,7 +674,7 @@ func (j *jsiiProxy_AgentRegistryService) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_registry_service google_agent_registry_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agent_registry_service google_agent_registry_service} Resource.
 func NewAgentRegistryService(scope constructs.Construct, id *string, config *AgentRegistryServiceConfig) AgentRegistryService {
 	_init_.Initialize()
 
@@ -692,7 +692,7 @@ func NewAgentRegistryService(scope constructs.Construct, id *string, config *Age
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agent_registry_service google_agent_registry_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agent_registry_service google_agent_registry_service} Resource.
 func NewAgentRegistryService_Override(a AgentRegistryService, scope constructs.Construct, id *string, config *AgentRegistryServiceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy}.
 type IamWorkforcePoolIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IamWorkforcePoolIamPolicy) WorkforcePoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
 func NewIamWorkforcePoolIamPolicy(scope constructs.Construct, id *string, config *IamWorkforcePoolIamPolicyConfig) IamWorkforcePoolIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIamWorkforcePoolIamPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_workforce_pool_iam_policy google_iam_workforce_pool_iam_policy} Resource.
 func NewIamWorkforcePoolIamPolicy_Override(i IamWorkforcePoolIamPolicy, scope constructs.Construct, id *string, config *IamWorkforcePoolIamPolicyConfig) {
 	_init_.Initialize()
 

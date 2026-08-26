@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment}.
 type BigqueryCapacityCommitment interface {
 	cdktn.TerraformResource
 	CapacityCommitmentId() *string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_BigqueryCapacityCommitment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
 func NewBigqueryCapacityCommitment(scope constructs.Construct, id *string, config *BigqueryCapacityCommitmentConfig) BigqueryCapacityCommitment {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewBigqueryCapacityCommitment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_capacity_commitment google_bigquery_capacity_commitment} Resource.
 func NewBigqueryCapacityCommitment_Override(b BigqueryCapacityCommitment, scope constructs.Construct, id *string, config *BigqueryCapacityCommitmentConfig) {
 	_init_.Initialize()
 

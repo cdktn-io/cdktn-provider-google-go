@@ -15,7 +15,7 @@ type ComputeImageParams struct {
 	// set at create time and modifying this field after creation will trigger recreation.
 	// To apply tags to an existing resource, see the google_tags_tag_binding resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_image#resource_manager_tags ComputeImage#resource_manager_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_image#resource_manager_tags ComputeImage#resource_manager_tags}
 	ResourceManagerTags *map[string]*string `field:"optional" json:"resourceManagerTags" yaml:"resourceManagerTags"`
 }
 

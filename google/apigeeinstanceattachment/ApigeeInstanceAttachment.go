@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/apigee_instance_attachment google_apigee_instance_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/apigee_instance_attachment google_apigee_instance_attachment}.
 type ApigeeInstanceAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ApigeeInstanceAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/apigee_instance_attachment google_apigee_instance_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/apigee_instance_attachment google_apigee_instance_attachment} Resource.
 func NewApigeeInstanceAttachment(scope constructs.Construct, id *string, config *ApigeeInstanceAttachmentConfig) ApigeeInstanceAttachment {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewApigeeInstanceAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/apigee_instance_attachment google_apigee_instance_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/apigee_instance_attachment google_apigee_instance_attachment} Resource.
 func NewApigeeInstanceAttachment_Override(a ApigeeInstanceAttachment, scope constructs.Construct, id *string, config *ApigeeInstanceAttachmentConfig) {
 	_init_.Initialize()
 

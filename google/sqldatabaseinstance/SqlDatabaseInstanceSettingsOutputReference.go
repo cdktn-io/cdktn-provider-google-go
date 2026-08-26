@@ -114,6 +114,9 @@ type SqlDatabaseInstanceSettingsOutputReference interface {
 	PricingPlanInput() *string
 	ReadPoolAutoScaleConfig() SqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference
 	ReadPoolAutoScaleConfigInput() *SqlDatabaseInstanceSettingsReadPoolAutoScaleConfig
+	ReplicationLagMaxSeconds() *float64
+	SetReplicationLagMaxSeconds(val *float64)
+	ReplicationLagMaxSecondsInput() *float64
 	RetainBackupsOnDelete() interface{}
 	SetRetainBackupsOnDelete(val interface{})
 	RetainBackupsOnDeleteInput() interface{}
@@ -209,6 +212,7 @@ type SqlDatabaseInstanceSettingsOutputReference interface {
 	ResetPasswordValidationPolicy()
 	ResetPricingPlan()
 	ResetReadPoolAutoScaleConfig()
+	ResetReplicationLagMaxSeconds()
 	ResetRetainBackupsOnDelete()
 	ResetSqlServerAuditConfig()
 	ResetTimeZone()
@@ -928,6 +932,26 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ReadPoolAutoScale
 	return returns
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ReplicationLagMaxSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"replicationLagMaxSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ReplicationLagMaxSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"replicationLagMaxSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) RetainBackupsOnDelete() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -1302,6 +1326,17 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference)SetPricingPlan(val
 	_jsii_.Set(
 		j,
 		"pricingPlan",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference)SetReplicationLagMaxSeconds(val *float64) {
+	if err := j.validateSetReplicationLagMaxSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"replicationLagMaxSeconds",
 		val,
 	)
 }
@@ -1986,6 +2021,14 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ResetReadPoolAuto
 	_jsii_.InvokeVoid(
 		s,
 		"resetReadPoolAutoScaleConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) ResetReplicationLagMaxSeconds() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetReplicationLagMaxSeconds",
 		nil, // no parameters
 	)
 }

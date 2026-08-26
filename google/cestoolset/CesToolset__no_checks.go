@@ -79,6 +79,10 @@ func (c *jsiiProxy_CesToolset) validateOverrideLogicalIdParameters(newLogicalId 
 	return nil
 }
 
+func (c *jsiiProxy_CesToolset) validatePutConnectorToolsetParameters(value *CesToolsetConnectorToolset) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolset) validatePutMcpToolsetParameters(value *CesToolsetMcpToolset) error {
 	return nil
 }
@@ -160,6 +164,10 @@ func (j *jsiiProxy_CesToolset) validateSetProjectParameters(val *string) error {
 }
 
 func (j *jsiiProxy_CesToolset) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesToolset) validateSetTimeoutParameters(val *string) error {
 	return nil
 }
 

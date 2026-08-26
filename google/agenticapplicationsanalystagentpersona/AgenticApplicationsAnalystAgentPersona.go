@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
 type AgenticApplicationsAnalystAgentPersona interface {
 	cdktn.TerraformResource
 	AnalystAgentPersonaId() *string
@@ -830,7 +830,7 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
 func NewAgenticApplicationsAnalystAgentPersona(scope constructs.Construct, id *string, config *AgenticApplicationsAnalystAgentPersonaConfig) AgenticApplicationsAnalystAgentPersona {
 	_init_.Initialize()
 
@@ -848,7 +848,7 @@ func NewAgenticApplicationsAnalystAgentPersona(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
 func NewAgenticApplicationsAnalystAgentPersona_Override(a AgenticApplicationsAnalystAgentPersona, scope constructs.Construct, id *string, config *AgenticApplicationsAnalystAgentPersonaConfig) {
 	_init_.Initialize()
 

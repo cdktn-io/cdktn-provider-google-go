@@ -24,11 +24,11 @@ type DialogflowGeneratorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// desc.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#location DialogflowGenerator#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#location DialogflowGenerator#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// summarization_context block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#summarization_context DialogflowGenerator#summarization_context}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#summarization_context DialogflowGenerator#summarization_context}
 	SummarizationContext *DialogflowGeneratorSummarizationContext `field:"required" json:"summarizationContext" yaml:"summarizationContext"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,42 +40,42 @@ type DialogflowGeneratorConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#deletion_policy DialogflowGenerator#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#deletion_policy DialogflowGenerator#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Optional. Human readable description of the generator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#description DialogflowGenerator#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#description DialogflowGenerator#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Optional. The ID to use for the generator, which will become the final component of the generator's resource name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#generator_id DialogflowGenerator#generator_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#generator_id DialogflowGenerator#generator_id}
 	GeneratorId *string `field:"optional" json:"generatorId" yaml:"generatorId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#id DialogflowGenerator#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#id DialogflowGenerator#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// inference_parameter block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#inference_parameter DialogflowGenerator#inference_parameter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#inference_parameter DialogflowGenerator#inference_parameter}
 	InferenceParameter *DialogflowGeneratorInferenceParameter `field:"optional" json:"inferenceParameter" yaml:"inferenceParameter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#project DialogflowGenerator#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#project DialogflowGenerator#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// Optional.
 	//
 	// The published Large Language Model name. * To use the latest model version, specify the model name without version number. Example: text-bison * To use a stable model version, specify the version number as well. Example: text-bison@002.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#published_model DialogflowGenerator#published_model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#published_model DialogflowGenerator#published_model}
 	PublishedModel *string `field:"optional" json:"publishedModel" yaml:"publishedModel"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#timeouts DialogflowGenerator#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#timeouts DialogflowGenerator#timeouts}
 	Timeouts *DialogflowGeneratorTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// Optional.
 	//
 	// The trigger event of the generator. It defines when the generator is triggered in a conversation. Possible values: ["END_OF_UTTERANCE", "MANUAL_CALL", "CUSTOMER_MESSAGE", "AGENT_MESSAGE"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_generator#trigger_event DialogflowGenerator#trigger_event}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_generator#trigger_event DialogflowGenerator#trigger_event}
 	TriggerEvent *string `field:"optional" json:"triggerEvent" yaml:"triggerEvent"`
 }
 

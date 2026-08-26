@@ -7,11 +7,11 @@ package chroniclefeed
 type ChronicleFeedDetailsAmazonSqsV2SettingsAuthenticationAwsIamRoleAuth struct {
 	// AWS IAM Role for Identity Federation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#aws_iam_role_arn ChronicleFeed#aws_iam_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#aws_iam_role_arn ChronicleFeed#aws_iam_role_arn}
 	AwsIamRoleArn *string `field:"optional" json:"awsIamRoleArn" yaml:"awsIamRoleArn"`
 	// Subject ID to use for SQS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#subject_id ChronicleFeed#subject_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#subject_id ChronicleFeed#subject_id}
 	SubjectId *string `field:"optional" json:"subjectId" yaml:"subjectId"`
 }
 

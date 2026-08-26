@@ -20,11 +20,11 @@ type MonitoringAlertPolicyConditionsConditionSqlRowCountTest struct {
 	// See
 	// https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.alertPolicies#MetricThreshold. Possible values: ["COMPARISON_GT", "COMPARISON_GE", "COMPARISON_LT", "COMPARISON_LE", "COMPARISON_EQ", "COMPARISON_NE"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/monitoring_alert_policy#comparison MonitoringAlertPolicy#comparison}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/monitoring_alert_policy#comparison MonitoringAlertPolicy#comparison}
 	Comparison *string `field:"required" json:"comparison" yaml:"comparison"`
 	// The value against which to compare the row count.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/monitoring_alert_policy#threshold MonitoringAlertPolicy#threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/monitoring_alert_policy#threshold MonitoringAlertPolicy#threshold}
 	Threshold *float64 `field:"required" json:"threshold" yaml:"threshold"`
 }
 

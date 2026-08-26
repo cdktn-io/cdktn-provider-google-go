@@ -32,26 +32,26 @@ type ComputeReservationConfig struct {
 	// characters must be a dash, lowercase letter, or digit, except the last
 	// character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#name ComputeReservation#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#name ComputeReservation#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// specific_reservation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#specific_reservation ComputeReservation#specific_reservation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#specific_reservation ComputeReservation#specific_reservation}
 	SpecificReservation *ComputeReservationSpecificReservation `field:"required" json:"specificReservation" yaml:"specificReservation"`
 	// The zone where the reservation is made.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#zone ComputeReservation#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#zone ComputeReservation#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
 	// delete_after_duration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#delete_after_duration ComputeReservation#delete_after_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#delete_after_duration ComputeReservation#delete_after_duration}
 	DeleteAfterDuration *ComputeReservationDeleteAfterDuration `field:"optional" json:"deleteAfterDuration" yaml:"deleteAfterDuration"`
 	// Absolute time in future when the reservation will be auto-deleted by Compute Engine.
 	//
 	// Timestamp is represented in RFC3339 text format.
 	// Cannot be used with delete_after_duration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#delete_at_time ComputeReservation#delete_at_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#delete_at_time ComputeReservation#delete_at_time}
 	DeleteAtTime *string `field:"optional" json:"deleteAtTime" yaml:"deleteAtTime"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -63,36 +63,36 @@ type ComputeReservationConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#deletion_policy ComputeReservation#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#deletion_policy ComputeReservation#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#description ComputeReservation#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#description ComputeReservation#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// params block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#params ComputeReservation#params}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#params ComputeReservation#params}
 	Params *ComputeReservationParams `field:"optional" json:"params" yaml:"params"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#project ComputeReservation#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#project ComputeReservation#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// reservation_sharing_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#reservation_sharing_policy ComputeReservation#reservation_sharing_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#reservation_sharing_policy ComputeReservation#reservation_sharing_policy}
 	ReservationSharingPolicy *ComputeReservationReservationSharingPolicy `field:"optional" json:"reservationSharingPolicy" yaml:"reservationSharingPolicy"`
 	// share_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#share_settings ComputeReservation#share_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#share_settings ComputeReservation#share_settings}
 	ShareSettings *ComputeReservationShareSettings `field:"optional" json:"shareSettings" yaml:"shareSettings"`
 	// When set to true, only VMs that target this reservation by name can consume this reservation.
 	//
 	// Otherwise, it can be consumed by VMs with
 	// affinity for any reservation. Defaults to false.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#specific_reservation_required ComputeReservation#specific_reservation_required}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#specific_reservation_required ComputeReservation#specific_reservation_required}
 	SpecificReservationRequired interface{} `field:"optional" json:"specificReservationRequired" yaml:"specificReservationRequired"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_reservation#timeouts ComputeReservation#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_reservation#timeouts ComputeReservation#timeouts}
 	Timeouts *ComputeReservationTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

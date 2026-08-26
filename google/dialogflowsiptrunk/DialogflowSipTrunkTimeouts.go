@@ -5,11 +5,11 @@ package dialogflowsiptrunk
 
 
 type DialogflowSipTrunkTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_sip_trunk#create DialogflowSipTrunk#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_sip_trunk#create DialogflowSipTrunk#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_sip_trunk#delete DialogflowSipTrunk#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_sip_trunk#delete DialogflowSipTrunk#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dialogflow_sip_trunk#update DialogflowSipTrunk#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dialogflow_sip_trunk#update DialogflowSipTrunk#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

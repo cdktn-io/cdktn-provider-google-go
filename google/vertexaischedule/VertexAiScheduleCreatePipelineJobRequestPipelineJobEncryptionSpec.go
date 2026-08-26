@@ -9,7 +9,7 @@ type VertexAiScheduleCreatePipelineJobRequestPipelineJobEncryptionSpec struct {
 	//
 	// The Cloud KMS key must be in the same region as the resource. It must have the format 'projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_schedule#kms_key_name VertexAiSchedule#kms_key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_schedule#kms_key_name VertexAiSchedule#kms_key_name}
 	KmsKeyName *string `field:"required" json:"kmsKeyName" yaml:"kmsKeyName"`
 }
 

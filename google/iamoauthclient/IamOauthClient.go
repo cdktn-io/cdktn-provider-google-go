@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_oauth_client google_iam_oauth_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_oauth_client google_iam_oauth_client}.
 type IamOauthClient interface {
 	cdktn.TerraformResource
 	AllowedGrantTypes() *[]*string
@@ -695,7 +695,7 @@ func (j *jsiiProxy_IamOauthClient) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_oauth_client google_iam_oauth_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_oauth_client google_iam_oauth_client} Resource.
 func NewIamOauthClient(scope constructs.Construct, id *string, config *IamOauthClientConfig) IamOauthClient {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewIamOauthClient(scope constructs.Construct, id *string, config *IamOauthC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_oauth_client google_iam_oauth_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_oauth_client google_iam_oauth_client} Resource.
 func NewIamOauthClient_Override(i IamOauthClient, scope constructs.Construct, id *string, config *IamOauthClientConfig) {
 	_init_.Initialize()
 

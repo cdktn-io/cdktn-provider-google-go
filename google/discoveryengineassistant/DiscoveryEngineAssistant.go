@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant}.
 type DiscoveryEngineAssistant interface {
 	cdktn.TerraformResource
 	AssistantId() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_DiscoveryEngineAssistant) WebGroundingTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewDiscoveryEngineAssistant(scope constructs.Construct, id *string, config *DiscoveryEngineAssistantConfig) DiscoveryEngineAssistant {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewDiscoveryEngineAssistant(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewDiscoveryEngineAssistant_Override(d DiscoveryEngineAssistant, scope constructs.Construct, id *string, config *DiscoveryEngineAssistantConfig) {
 	_init_.Initialize()
 

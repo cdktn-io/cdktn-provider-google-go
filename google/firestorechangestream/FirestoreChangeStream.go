@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/firestore_change_stream google_firestore_change_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/firestore_change_stream google_firestore_change_stream}.
 type FirestoreChangeStream interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_FirestoreChangeStream) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/firestore_change_stream google_firestore_change_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/firestore_change_stream google_firestore_change_stream} Resource.
 func NewFirestoreChangeStream(scope constructs.Construct, id *string, config *FirestoreChangeStreamConfig) FirestoreChangeStream {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewFirestoreChangeStream(scope constructs.Construct, id *string, config *Fi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/firestore_change_stream google_firestore_change_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/firestore_change_stream google_firestore_change_stream} Resource.
 func NewFirestoreChangeStream_Override(f FirestoreChangeStream, scope constructs.Construct, id *string, config *FirestoreChangeStreamConfig) {
 	_init_.Initialize()
 

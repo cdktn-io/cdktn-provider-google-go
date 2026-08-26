@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member}.
 type DataformRepositoryIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataformRepositoryIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
 func NewDataformRepositoryIamMember(scope constructs.Construct, id *string, config *DataformRepositoryIamMemberConfig) DataformRepositoryIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataformRepositoryIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
 func NewDataformRepositoryIamMember_Override(d DataformRepositoryIamMember, scope constructs.Construct, id *string, config *DataformRepositoryIamMemberConfig) {
 	_init_.Initialize()
 

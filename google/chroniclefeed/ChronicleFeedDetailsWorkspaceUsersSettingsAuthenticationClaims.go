@@ -7,15 +7,15 @@ package chroniclefeed
 type ChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaims struct {
 	// Audience.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#audience ChronicleFeed#audience}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#audience ChronicleFeed#audience}
 	Audience *string `field:"optional" json:"audience" yaml:"audience"`
 	// Issuer. Usually the client_id.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#issuer ChronicleFeed#issuer}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#issuer ChronicleFeed#issuer}
 	Issuer *string `field:"optional" json:"issuer" yaml:"issuer"`
 	// Subject. Usually the email.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#subject ChronicleFeed#subject}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#subject ChronicleFeed#subject}
 	Subject *string `field:"optional" json:"subject" yaml:"subject"`
 }
 

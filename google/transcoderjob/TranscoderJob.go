@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/transcoder_job google_transcoder_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/transcoder_job google_transcoder_job}.
 type TranscoderJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -612,7 +612,7 @@ func (j *jsiiProxy_TranscoderJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/transcoder_job google_transcoder_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/transcoder_job google_transcoder_job} Resource.
 func NewTranscoderJob(scope constructs.Construct, id *string, config *TranscoderJobConfig) TranscoderJob {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewTranscoderJob(scope constructs.Construct, id *string, config *Transcoder
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/transcoder_job google_transcoder_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/transcoder_job google_transcoder_job} Resource.
 func NewTranscoderJob_Override(t TranscoderJob, scope constructs.Construct, id *string, config *TranscoderJobConfig) {
 	_init_.Initialize()
 

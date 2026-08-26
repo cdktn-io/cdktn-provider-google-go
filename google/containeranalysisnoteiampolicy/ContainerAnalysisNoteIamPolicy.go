@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/container_analysis_note_iam_policy google_container_analysis_note_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/container_analysis_note_iam_policy google_container_analysis_note_iam_policy}.
 type ContainerAnalysisNoteIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_ContainerAnalysisNoteIamPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/container_analysis_note_iam_policy google_container_analysis_note_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/container_analysis_note_iam_policy google_container_analysis_note_iam_policy} Resource.
 func NewContainerAnalysisNoteIamPolicy(scope constructs.Construct, id *string, config *ContainerAnalysisNoteIamPolicyConfig) ContainerAnalysisNoteIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewContainerAnalysisNoteIamPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/container_analysis_note_iam_policy google_container_analysis_note_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/container_analysis_note_iam_policy google_container_analysis_note_iam_policy} Resource.
 func NewContainerAnalysisNoteIamPolicy_Override(c ContainerAnalysisNoteIamPolicy, scope constructs.Construct, id *string, config *ContainerAnalysisNoteIamPolicyConfig) {
 	_init_.Initialize()
 

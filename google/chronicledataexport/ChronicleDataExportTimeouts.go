@@ -5,9 +5,9 @@ package chronicledataexport
 
 
 type ChronicleDataExportTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_data_export#create ChronicleDataExport#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_data_export#create ChronicleDataExport#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_data_export#delete ChronicleDataExport#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_data_export#delete ChronicleDataExport#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

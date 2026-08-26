@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_big_query_export google_chronicle_big_query_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_big_query_export google_chronicle_big_query_export}.
 type ChronicleBigQueryExport interface {
 	cdktn.TerraformResource
 	BigQueryExportPackage() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_ChronicleBigQueryExport) UdmEventsSettingsInput() *ChronicleB
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_big_query_export google_chronicle_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_big_query_export google_chronicle_big_query_export} Resource.
 func NewChronicleBigQueryExport(scope constructs.Construct, id *string, config *ChronicleBigQueryExportConfig) ChronicleBigQueryExport {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewChronicleBigQueryExport(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_big_query_export google_chronicle_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_big_query_export google_chronicle_big_query_export} Resource.
 func NewChronicleBigQueryExport_Override(c ChronicleBigQueryExport, scope constructs.Construct, id *string, config *ChronicleBigQueryExportConfig) {
 	_init_.Initialize()
 

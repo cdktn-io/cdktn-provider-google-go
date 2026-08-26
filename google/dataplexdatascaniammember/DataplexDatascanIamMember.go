@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member}.
 type DataplexDatascanIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataplexDatascanIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
 func NewDataplexDatascanIamMember(scope constructs.Construct, id *string, config *DataplexDatascanIamMemberConfig) DataplexDatascanIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataplexDatascanIamMember(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
 func NewDataplexDatascanIamMember_Override(d DataplexDatascanIamMember, scope constructs.Construct, id *string, config *DataplexDatascanIamMemberConfig) {
 	_init_.Initialize()
 

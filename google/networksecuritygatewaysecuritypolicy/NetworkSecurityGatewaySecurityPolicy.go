@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy}.
 type NetworkSecurityGatewaySecurityPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_NetworkSecurityGatewaySecurityPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
 func NewNetworkSecurityGatewaySecurityPolicy(scope constructs.Construct, id *string, config *NetworkSecurityGatewaySecurityPolicyConfig) NetworkSecurityGatewaySecurityPolicy {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewNetworkSecurityGatewaySecurityPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_gateway_security_policy google_network_security_gateway_security_policy} Resource.
 func NewNetworkSecurityGatewaySecurityPolicy_Override(n NetworkSecurityGatewaySecurityPolicy, scope constructs.Construct, id *string, config *NetworkSecurityGatewaySecurityPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association}.
 type NetworkSecurityInterceptEndpointGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -656,7 +656,7 @@ func (j *jsiiProxy_NetworkSecurityInterceptEndpointGroupAssociation) UpdateTime(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
 func NewNetworkSecurityInterceptEndpointGroupAssociation(scope constructs.Construct, id *string, config *NetworkSecurityInterceptEndpointGroupAssociationConfig) NetworkSecurityInterceptEndpointGroupAssociation {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewNetworkSecurityInterceptEndpointGroupAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
 func NewNetworkSecurityInterceptEndpointGroupAssociation_Override(n NetworkSecurityInterceptEndpointGroupAssociation, scope constructs.Construct, id *string, config *NetworkSecurityInterceptEndpointGroupAssociationConfig) {
 	_init_.Initialize()
 

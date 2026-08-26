@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
 type ServiceDirectoryNamespaceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_ServiceDirectoryNamespaceIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Resource.
 func NewServiceDirectoryNamespaceIamPolicy(scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamPolicyConfig) ServiceDirectoryNamespaceIamPolicy {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewServiceDirectoryNamespaceIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Resource.
 func NewServiceDirectoryNamespaceIamPolicy_Override(s ServiceDirectoryNamespaceIamPolicy, scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -7,23 +7,23 @@ package chroniclefeed
 type ChronicleFeedDetailsAmazonSqsV2Settings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsAmazonSqsV2SettingsAuthentication `field:"required" json:"authentication" yaml:"authentication"`
 	// Amazon Resource Name(ARN) of the queue.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#queue ChronicleFeed#queue}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#queue ChronicleFeed#queue}
 	Queue *string `field:"required" json:"queue" yaml:"queue"`
 	// S3 URI.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#s3_uri ChronicleFeed#s3_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#s3_uri ChronicleFeed#s3_uri}
 	S3Uri *string `field:"required" json:"s3Uri" yaml:"s3Uri"`
 	// Maximum File Age to ingest in days.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#max_lookback_days ChronicleFeed#max_lookback_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#max_lookback_days ChronicleFeed#max_lookback_days}
 	MaxLookbackDays *float64 `field:"optional" json:"maxLookbackDays" yaml:"maxLookbackDays"`
 	// Possible values: NEVER ON_SUCCESS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#source_deletion_option ChronicleFeed#source_deletion_option}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#source_deletion_option ChronicleFeed#source_deletion_option}
 	SourceDeletionOption *string `field:"optional" json:"sourceDeletionOption" yaml:"sourceDeletionOption"`
 }
 

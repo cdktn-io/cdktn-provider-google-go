@@ -7,7 +7,7 @@ package vertexaipersistentresource
 type VertexAiPersistentResourceResourcePoolsDiskSpec struct {
 	// Size in GB of the boot disk (default is 100GB).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource#boot_disk_size_gb VertexAiPersistentResource#boot_disk_size_gb}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#boot_disk_size_gb VertexAiPersistentResource#boot_disk_size_gb}
 	BootDiskSizeGb *float64 `field:"optional" json:"bootDiskSizeGb" yaml:"bootDiskSizeGb"`
 	// Type of the boot disk.
 	//
@@ -16,7 +16,7 @@ type VertexAiPersistentResourceResourcePoolsDiskSpec struct {
 	// Valid values: "pd-ssd" (Persistent Disk Solid State Drive),
 	// "pd-standard" (Persistent Disk Hard Disk Drive) or "hyperdisk-balanced".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vertex_ai_persistent_resource#boot_disk_type VertexAiPersistentResource#boot_disk_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#boot_disk_type VertexAiPersistentResource#boot_disk_type}
 	BootDiskType *string `field:"optional" json:"bootDiskType" yaml:"bootDiskType"`
 }
 

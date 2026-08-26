@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_toolset google_ces_toolset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset google_ces_toolset}.
 type CesToolset interface {
 	cdktn.TerraformResource
 	App() *string
@@ -24,6 +24,8 @@ type CesToolset interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConnectorToolset() CesToolsetConnectorToolsetOutputReference
+	ConnectorToolsetInput() *CesToolsetConnectorToolset
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -92,6 +94,9 @@ type CesToolset interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeout() *string
+	SetTimeout(val *string)
+	TimeoutInput() *string
 	Timeouts() CesToolsetTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	ToolFakeConfig() CesToolsetToolFakeConfigOutputReference
@@ -179,6 +184,7 @@ type CesToolset interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutConnectorToolset(value *CesToolsetConnectorToolset)
 	PutMcpToolset(value *CesToolsetMcpToolset)
 	PutOpenApiToolset(value *CesToolsetOpenApiToolset)
 	PutTimeouts(value *CesToolsetTimeouts)
@@ -196,6 +202,7 @@ type CesToolset interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetConnectorToolset()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
@@ -207,6 +214,7 @@ type CesToolset interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetTimeout()
 	ResetTimeouts()
 	ResetToolFakeConfig()
 	SynthesizeAttributes() *map[string]interface{}
@@ -271,6 +279,26 @@ func (j *jsiiProxy_CesToolset) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolset) ConnectorToolset() CesToolsetConnectorToolsetOutputReference {
+	var returns CesToolsetConnectorToolsetOutputReference
+	_jsii_.Get(
+		j,
+		"connectorToolset",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolset) ConnectorToolsetInput() *CesToolsetConnectorToolset {
+	var returns *CesToolsetConnectorToolset
+	_jsii_.Get(
+		j,
+		"connectorToolsetInput",
 		&returns,
 	)
 	return returns
@@ -626,6 +654,26 @@ func (j *jsiiProxy_CesToolset) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesToolset) Timeout() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timeout",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolset) TimeoutInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timeoutInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesToolset) Timeouts() CesToolsetTimeoutsOutputReference {
 	var returns CesToolsetTimeoutsOutputReference
 	_jsii_.Get(
@@ -697,7 +745,7 @@ func (j *jsiiProxy_CesToolset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetConfig) CesToolset {
 	_init_.Initialize()
 
@@ -715,7 +763,7 @@ func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset_Override(c CesToolset, scope constructs.Construct, id *string, config *CesToolsetConfig) {
 	_init_.Initialize()
 
@@ -878,6 +926,17 @@ func (j *jsiiProxy_CesToolset)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesToolset)SetTimeout(val *string) {
+	if err := j.validateSetTimeoutParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"timeout",
 		val,
 	)
 }
@@ -1262,6 +1321,17 @@ func (c *jsiiProxy_CesToolset) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (c *jsiiProxy_CesToolset) PutConnectorToolset(value *CesToolsetConnectorToolset) {
+	if err := c.validatePutConnectorToolsetParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putConnectorToolset",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesToolset) PutMcpToolset(value *CesToolsetMcpToolset) {
 	if err := c.validatePutMcpToolsetParameters(value); err != nil {
 		panic(err)
@@ -1314,6 +1384,14 @@ func (c *jsiiProxy_CesToolset) RegisterProviderFeatureUsage(feature cdktn.Provid
 		c,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (c *jsiiProxy_CesToolset) ResetConnectorToolset() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetConnectorToolset",
+		nil, // no parameters
 	)
 }
 
@@ -1385,6 +1463,14 @@ func (c *jsiiProxy_CesToolset) ResetProject() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesToolset) ResetTimeout() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTimeout",
 		nil, // no parameters
 	)
 }

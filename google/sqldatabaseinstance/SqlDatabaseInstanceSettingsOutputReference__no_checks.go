@@ -195,6 +195,10 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetPricin
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetReplicationLagMaxSecondsParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstanceSettingsOutputReference) validateSetRetainBackupsOnDeleteParameters(val interface{}) error {
 	return nil
 }

@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/memorystore_instance google_memorystore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_instance google_memorystore_instance}.
 type MemorystoreInstance interface {
 	cdktn.TerraformResource
+	AclPolicy() *string
+	SetAclPolicy(val *string)
+	AclPolicyInput() *string
 	AuthorizationMode() *string
 	SetAuthorizationMode(val *string)
 	AuthorizationModeInput() *string
@@ -77,6 +80,7 @@ type MemorystoreInstance interface {
 	InstanceId() *string
 	SetInstanceId(val *string)
 	InstanceIdInput() *string
+	IsAclPolicyInSync() cdktn.IResolvable
 	KmsKey() *string
 	SetKmsKey(val *string)
 	KmsKeyInput() *string
@@ -258,6 +262,7 @@ type MemorystoreInstance interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAclPolicy()
 	ResetAuthorizationMode()
 	ResetAutomatedBackupConfig()
 	ResetCrossInstanceReplicationConfig()
@@ -312,6 +317,26 @@ type MemorystoreInstance interface {
 // The jsii proxy struct for MemorystoreInstance
 type jsiiProxy_MemorystoreInstance struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_MemorystoreInstance) AclPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstance) AclPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicyInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_MemorystoreInstance) AuthorizationMode() *string {
@@ -699,6 +724,16 @@ func (j *jsiiProxy_MemorystoreInstance) InstanceIdInput() *string {
 	_jsii_.Get(
 		j,
 		"instanceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstance) IsAclPolicyInSync() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"isAclPolicyInSync",
 		&returns,
 	)
 	return returns
@@ -1235,7 +1270,7 @@ func (j *jsiiProxy_MemorystoreInstance) ZoneDistributionConfigInput() *Memorysto
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
 func NewMemorystoreInstance(scope constructs.Construct, id *string, config *MemorystoreInstanceConfig) MemorystoreInstance {
 	_init_.Initialize()
 
@@ -1253,7 +1288,7 @@ func NewMemorystoreInstance(scope constructs.Construct, id *string, config *Memo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_instance google_memorystore_instance} Resource.
 func NewMemorystoreInstance_Override(m MemorystoreInstance, scope constructs.Construct, id *string, config *MemorystoreInstanceConfig) {
 	_init_.Initialize()
 
@@ -1261,6 +1296,17 @@ func NewMemorystoreInstance_Override(m MemorystoreInstance, scope constructs.Con
 		"@cdktn/provider-google.memorystoreInstance.MemorystoreInstance",
 		[]interface{}{scope, id, config},
 		m,
+	)
+}
+
+func (j *jsiiProxy_MemorystoreInstance)SetAclPolicy(val *string) {
+	if err := j.validateSetAclPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"aclPolicy",
+		val,
 	)
 }
 
@@ -2028,6 +2074,14 @@ func (m *jsiiProxy_MemorystoreInstance) RegisterProviderFeatureUsage(feature cdk
 		m,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (m *jsiiProxy_MemorystoreInstance) ResetAclPolicy() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetAclPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster}.
 type GkeonpremVmwareAdminCluster interface {
 	cdktn.TerraformResource
 	AddonNode() GkeonpremVmwareAdminClusterAddonNodeOutputReference
@@ -990,7 +990,7 @@ func (j *jsiiProxy_GkeonpremVmwareAdminCluster) VcenterInput() *GkeonpremVmwareA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster} Resource.
 func NewGkeonpremVmwareAdminCluster(scope constructs.Construct, id *string, config *GkeonpremVmwareAdminClusterConfig) GkeonpremVmwareAdminCluster {
 	_init_.Initialize()
 
@@ -1008,7 +1008,7 @@ func NewGkeonpremVmwareAdminCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster} Resource.
 func NewGkeonpremVmwareAdminCluster_Override(g GkeonpremVmwareAdminCluster, scope constructs.Construct, id *string, config *GkeonpremVmwareAdminClusterConfig) {
 	_init_.Initialize()
 

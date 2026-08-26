@@ -71,7 +71,23 @@ func (j *jsiiProxy_ComputeBackendServiceIapOutputReference) validateSetOauth2Cli
 	return nil
 }
 
+func (j *jsiiProxy_ComputeBackendServiceIapOutputReference) validateSetOauth2ClientIdWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeBackendServiceIapOutputReference) validateSetOauth2ClientIdWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
 	return nil
 }
 

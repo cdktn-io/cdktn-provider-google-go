@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment}.
 type IntegrationConnectorsEndpointAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_IntegrationConnectorsEndpointAttachment) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
 func NewIntegrationConnectorsEndpointAttachment(scope constructs.Construct, id *string, config *IntegrationConnectorsEndpointAttachmentConfig) IntegrationConnectorsEndpointAttachment {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewIntegrationConnectorsEndpointAttachment(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
 func NewIntegrationConnectorsEndpointAttachment_Override(i IntegrationConnectorsEndpointAttachment, scope constructs.Construct, id *string, config *IntegrationConnectorsEndpointAttachmentConfig) {
 	_init_.Initialize()
 

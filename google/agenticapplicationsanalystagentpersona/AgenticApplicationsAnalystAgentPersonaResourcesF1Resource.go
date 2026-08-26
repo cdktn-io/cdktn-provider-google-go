@@ -10,7 +10,7 @@ type AgenticApplicationsAnalystAgentPersonaResourcesF1Resource struct {
 	// - Expected Format:
 	// - {group}.{table_name}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/agentic_applications_analyst_agent_persona#f1_table AgenticApplicationsAnalystAgentPersona#f1_table}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agentic_applications_analyst_agent_persona#f1_table AgenticApplicationsAnalystAgentPersona#f1_table}
 	F1Table *string `field:"optional" json:"f1Table" yaml:"f1Table"`
 }
 

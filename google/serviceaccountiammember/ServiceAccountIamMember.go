@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/service_account_iam_member google_service_account_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/service_account_iam_member google_service_account_iam_member}.
 type ServiceAccountIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_ServiceAccountIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
 func NewServiceAccountIamMember(scope constructs.Construct, id *string, config *ServiceAccountIamMemberConfig) ServiceAccountIamMember {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewServiceAccountIamMember(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/service_account_iam_member google_service_account_iam_member} Resource.
 func NewServiceAccountIamMember_Override(s ServiceAccountIamMember, scope constructs.Construct, id *string, config *ServiceAccountIamMemberConfig) {
 	_init_.Initialize()
 

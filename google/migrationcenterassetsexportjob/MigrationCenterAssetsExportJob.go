@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/migration_center_assets_export_job google_migration_center_assets_export_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/migration_center_assets_export_job google_migration_center_assets_export_job}.
 type MigrationCenterAssetsExportJob interface {
 	cdktn.TerraformResource
 	AssetsExportJobId() *string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_MigrationCenterAssetsExportJob) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/migration_center_assets_export_job google_migration_center_assets_export_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/migration_center_assets_export_job google_migration_center_assets_export_job} Resource.
 func NewMigrationCenterAssetsExportJob(scope constructs.Construct, id *string, config *MigrationCenterAssetsExportJobConfig) MigrationCenterAssetsExportJob {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewMigrationCenterAssetsExportJob(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/migration_center_assets_export_job google_migration_center_assets_export_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/migration_center_assets_export_job google_migration_center_assets_export_job} Resource.
 func NewMigrationCenterAssetsExportJob_Override(m MigrationCenterAssetsExportJob, scope constructs.Construct, id *string, config *MigrationCenterAssetsExportJobConfig) {
 	_init_.Initialize()
 

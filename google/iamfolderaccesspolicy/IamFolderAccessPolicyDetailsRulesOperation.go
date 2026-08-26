@@ -13,7 +13,7 @@ type IamFolderAccessPolicyDetailsRulesOperation struct {
 	// Currently supported permissions are as follows:
 	// * 'eventarc.googleapis.com/messageBuses.publish'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#permissions IamFolderAccessPolicy#permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_folder_access_policy#permissions IamFolderAccessPolicy#permissions}
 	Permissions *[]*string `field:"required" json:"permissions" yaml:"permissions"`
 	// Specifies the permissions that this rule excludes from the set of affected permissions given by 'permissions'.
 	//
@@ -23,7 +23,7 @@ type IamFolderAccessPolicyDetailsRulesOperation struct {
 	// The excluded permissions can be specified using the same syntax as
 	// 'permissions'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/iam_folder_access_policy#excluded_permissions IamFolderAccessPolicy#excluded_permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_folder_access_policy#excluded_permissions IamFolderAccessPolicy#excluded_permissions}
 	ExcludedPermissions *[]*string `field:"optional" json:"excludedPermissions" yaml:"excludedPermissions"`
 }
 

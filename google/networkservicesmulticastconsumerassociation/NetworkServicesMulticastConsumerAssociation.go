@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
 type NetworkServicesMulticastConsumerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -668,7 +668,7 @@ func (j *jsiiProxy_NetworkServicesMulticastConsumerAssociation) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
 func NewNetworkServicesMulticastConsumerAssociation(scope constructs.Construct, id *string, config *NetworkServicesMulticastConsumerAssociationConfig) NetworkServicesMulticastConsumerAssociation {
 	_init_.Initialize()
 
@@ -686,7 +686,7 @@ func NewNetworkServicesMulticastConsumerAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
 func NewNetworkServicesMulticastConsumerAssociation_Override(n NetworkServicesMulticastConsumerAssociation, scope constructs.Construct, id *string, config *NetworkServicesMulticastConsumerAssociationConfig) {
 	_init_.Initialize()
 

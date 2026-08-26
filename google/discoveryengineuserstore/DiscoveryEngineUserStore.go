@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_user_store google_discovery_engine_user_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_user_store google_discovery_engine_user_store}.
 type DiscoveryEngineUserStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DiscoveryEngineUserStore) UserStoreIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_user_store google_discovery_engine_user_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_user_store google_discovery_engine_user_store} Resource.
 func NewDiscoveryEngineUserStore(scope constructs.Construct, id *string, config *DiscoveryEngineUserStoreConfig) DiscoveryEngineUserStore {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewDiscoveryEngineUserStore(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/discovery_engine_user_store google_discovery_engine_user_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/discovery_engine_user_store google_discovery_engine_user_store} Resource.
 func NewDiscoveryEngineUserStore_Override(d DiscoveryEngineUserStore, scope constructs.Construct, id *string, config *DiscoveryEngineUserStoreConfig) {
 	_init_.Initialize()
 

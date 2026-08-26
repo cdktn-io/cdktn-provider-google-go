@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/folder_organization_policy google_folder_organization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/folder_organization_policy google_folder_organization_policy}.
 type FolderOrganizationPolicy interface {
 	cdktn.TerraformResource
 	BooleanPolicy() FolderOrganizationPolicyBooleanPolicyOutputReference
@@ -580,7 +580,7 @@ func (j *jsiiProxy_FolderOrganizationPolicy) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
 func NewFolderOrganizationPolicy(scope constructs.Construct, id *string, config *FolderOrganizationPolicyConfig) FolderOrganizationPolicy {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewFolderOrganizationPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/folder_organization_policy google_folder_organization_policy} Resource.
 func NewFolderOrganizationPolicy_Override(f FolderOrganizationPolicy, scope constructs.Construct, id *string, config *FolderOrganizationPolicyConfig) {
 	_init_.Initialize()
 

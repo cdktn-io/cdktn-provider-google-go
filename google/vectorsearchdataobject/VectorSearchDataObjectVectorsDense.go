@@ -7,7 +7,7 @@ package vectorsearchdataobject
 type VectorSearchDataObjectVectorsDense struct {
 	// The float values of the dense vector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/vector_search_data_object#values VectorSearchDataObject#values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vector_search_data_object#values VectorSearchDataObject#values}
 	Values *[]*float64 `field:"required" json:"values" yaml:"values"`
 }
 

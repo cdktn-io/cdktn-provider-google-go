@@ -7,11 +7,11 @@ package accesscontextmanagerserviceperimeters
 type AccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader struct {
 	// HTTP header key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/access_context_manager_service_perimeters#key AccessContextManagerServicePerimeters#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeters#key AccessContextManagerServicePerimeters#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// HTTP header value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/access_context_manager_service_perimeters#value AccessContextManagerServicePerimeters#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeters#value AccessContextManagerServicePerimeters#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

@@ -135,6 +135,10 @@ func validateRedisCluster_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 
+func (j *jsiiProxy_RedisCluster) validateSetAclPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_RedisCluster) validateSetAuthorizationModeParameters(val *string) error {
 	return nil
 }

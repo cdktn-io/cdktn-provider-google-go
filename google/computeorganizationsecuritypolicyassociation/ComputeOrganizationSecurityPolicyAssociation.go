@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_organization_security_policy_association google_compute_organization_security_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_organization_security_policy_association google_compute_organization_security_policy_association}.
 type ComputeOrganizationSecurityPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_ComputeOrganizationSecurityPolicyAssociation) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
 func NewComputeOrganizationSecurityPolicyAssociation(scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyAssociationConfig) ComputeOrganizationSecurityPolicyAssociation {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewComputeOrganizationSecurityPolicyAssociation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
 func NewComputeOrganizationSecurityPolicyAssociation_Override(c ComputeOrganizationSecurityPolicyAssociation, scope constructs.Construct, id *string, config *ComputeOrganizationSecurityPolicyAssociationConfig) {
 	_init_.Initialize()
 

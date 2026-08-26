@@ -7,15 +7,15 @@ package chroniclefeed
 type ChronicleFeedDetailsQualysScanSettings struct {
 	// Supported Qualys Scan api type. Possible values: SCAN_SUMMARY_OUTPUT SCAN_COMPLIANCE_OUTPUT SCAN_COMPLIANCE_CONTROL_OUTPUT.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#api_type ChronicleFeed#api_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#api_type ChronicleFeed#api_type}
 	ApiType *string `field:"optional" json:"apiType" yaml:"apiType"`
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsQualysScanSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 	// Hostname.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
 	Hostname *string `field:"optional" json:"hostname" yaml:"hostname"`
 }
 

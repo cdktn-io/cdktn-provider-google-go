@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings}.
 type AppEngineServiceNetworkSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AppEngineServiceNetworkSettings) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
 func NewAppEngineServiceNetworkSettings(scope constructs.Construct, id *string, config *AppEngineServiceNetworkSettingsConfig) AppEngineServiceNetworkSettings {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewAppEngineServiceNetworkSettings(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
 func NewAppEngineServiceNetworkSettings_Override(a AppEngineServiceNetworkSettings, scope constructs.Construct, id *string, config *AppEngineServiceNetworkSettingsConfig) {
 	_init_.Initialize()
 

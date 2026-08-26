@@ -32,13 +32,13 @@ type ComputeRegionInstantSnapshotConfig struct {
 	// characters must be a dash, lowercase letter, or digit, except the last
 	// character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#name ComputeRegionInstantSnapshot#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#name ComputeRegionInstantSnapshot#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The source disk used to create this instant snapshot.
 	//
 	// You can provide this as a partial or full URL to the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#source_disk ComputeRegionInstantSnapshot#source_disk}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#source_disk ComputeRegionInstantSnapshot#source_disk}
 	SourceDisk *string `field:"required" json:"sourceDisk" yaml:"sourceDisk"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -50,13 +50,13 @@ type ComputeRegionInstantSnapshotConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#deletion_policy ComputeRegionInstantSnapshot#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#deletion_policy ComputeRegionInstantSnapshot#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#description ComputeRegionInstantSnapshot#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#description ComputeRegionInstantSnapshot#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#id ComputeRegionInstantSnapshot#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#id ComputeRegionInstantSnapshot#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,21 +66,21 @@ type ComputeRegionInstantSnapshotConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#labels ComputeRegionInstantSnapshot#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#labels ComputeRegionInstantSnapshot#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// params block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#params ComputeRegionInstantSnapshot#params}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#params ComputeRegionInstantSnapshot#params}
 	Params *ComputeRegionInstantSnapshotParams `field:"optional" json:"params" yaml:"params"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#project ComputeRegionInstantSnapshot#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#project ComputeRegionInstantSnapshot#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// A reference to the region where the disk is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#region ComputeRegionInstantSnapshot#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#region ComputeRegionInstantSnapshot#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_instant_snapshot#timeouts ComputeRegionInstantSnapshot#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_instant_snapshot#timeouts ComputeRegionInstantSnapshot#timeouts}
 	Timeouts *ComputeRegionInstantSnapshotTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

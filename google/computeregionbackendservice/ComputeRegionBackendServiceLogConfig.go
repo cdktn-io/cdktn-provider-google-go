@@ -7,25 +7,25 @@ package computeregionbackendservice
 type ComputeRegionBackendServiceLogConfig struct {
 	// Whether to enable logging for the load balancer traffic served by this backend service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_backend_service#enable ComputeRegionBackendService#enable}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_backend_service#enable ComputeRegionBackendService#enable}
 	Enable interface{} `field:"optional" json:"enable" yaml:"enable"`
 	// Specifies the fields to include in logging.
 	//
 	// This field can only be specified if logging is enabled for this backend service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_backend_service#optional_fields ComputeRegionBackendService#optional_fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_backend_service#optional_fields ComputeRegionBackendService#optional_fields}
 	OptionalFields *[]*string `field:"optional" json:"optionalFields" yaml:"optionalFields"`
 	// Specifies the optional logging mode for the load balancer traffic. Supported values: INCLUDE_ALL_OPTIONAL, EXCLUDE_ALL_OPTIONAL, CUSTOM. Possible values: ["INCLUDE_ALL_OPTIONAL", "EXCLUDE_ALL_OPTIONAL", "CUSTOM"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_backend_service#optional_mode ComputeRegionBackendService#optional_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_backend_service#optional_mode ComputeRegionBackendService#optional_mode}
 	OptionalMode *string `field:"optional" json:"optionalMode" yaml:"optionalMode"`
 	// request_headers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_backend_service#request_headers ComputeRegionBackendService#request_headers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_backend_service#request_headers ComputeRegionBackendService#request_headers}
 	RequestHeaders interface{} `field:"optional" json:"requestHeaders" yaml:"requestHeaders"`
 	// response_headers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_backend_service#response_headers ComputeRegionBackendService#response_headers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_backend_service#response_headers ComputeRegionBackendService#response_headers}
 	ResponseHeaders interface{} `field:"optional" json:"responseHeaders" yaml:"responseHeaders"`
 	// This field can only be specified if logging is enabled for this backend service.
 	//
@@ -34,7 +34,7 @@ type ComputeRegionBackendServiceLogConfig struct {
 	// where 1.0 means all logged requests are reported and 0.0 means no logged requests are reported.
 	// The default value is 1.0.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_region_backend_service#sample_rate ComputeRegionBackendService#sample_rate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_backend_service#sample_rate ComputeRegionBackendService#sample_rate}
 	SampleRate *float64 `field:"optional" json:"sampleRate" yaml:"sampleRate"`
 }
 

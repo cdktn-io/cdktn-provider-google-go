@@ -12,11 +12,11 @@ type OracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig struct {
 	// period must be shorter or equal to major release upgrade period. Not
 	// passing this field during create will equate to using the service default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/oracle_database_goldengate_deployment#bundle_release_upgrade_period_days OracleDatabaseGoldengateDeployment#bundle_release_upgrade_period_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_deployment#bundle_release_upgrade_period_days OracleDatabaseGoldengateDeployment#bundle_release_upgrade_period_days}
 	BundleReleaseUpgradePeriodDays *float64 `field:"optional" json:"bundleReleaseUpgradePeriodDays" yaml:"bundleReleaseUpgradePeriodDays"`
 	// Defines auto upgrade period for interim releases. This period must be shorter or equal to bundle release upgrade period.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/oracle_database_goldengate_deployment#interim_release_upgrade_period_days OracleDatabaseGoldengateDeployment#interim_release_upgrade_period_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_deployment#interim_release_upgrade_period_days OracleDatabaseGoldengateDeployment#interim_release_upgrade_period_days}
 	InterimReleaseUpgradePeriodDays *float64 `field:"optional" json:"interimReleaseUpgradePeriodDays" yaml:"interimReleaseUpgradePeriodDays"`
 	// By default auto upgrade for interim releases are not enabled.
 	//
@@ -24,7 +24,7 @@ type OracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig struct {
 	// auto-upgrade is enabled for interim release,  you have to specify
 	// interim_release_upgrade_period_days too.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/oracle_database_goldengate_deployment#is_interim_release_auto_upgrade_enabled OracleDatabaseGoldengateDeployment#is_interim_release_auto_upgrade_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_deployment#is_interim_release_auto_upgrade_enabled OracleDatabaseGoldengateDeployment#is_interim_release_auto_upgrade_enabled}
 	IsInterimReleaseAutoUpgradeEnabled interface{} `field:"optional" json:"isInterimReleaseAutoUpgradeEnabled" yaml:"isInterimReleaseAutoUpgradeEnabled"`
 	// Defines auto upgrade period for major releases.
 	//
@@ -32,7 +32,7 @@ type OracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig struct {
 	// cannot be longer than service defined period for major releases. Not
 	// passing this field during create will equate to using the service default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/oracle_database_goldengate_deployment#major_release_upgrade_period_days OracleDatabaseGoldengateDeployment#major_release_upgrade_period_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_deployment#major_release_upgrade_period_days OracleDatabaseGoldengateDeployment#major_release_upgrade_period_days}
 	MajorReleaseUpgradePeriodDays *float64 `field:"optional" json:"majorReleaseUpgradePeriodDays" yaml:"majorReleaseUpgradePeriodDays"`
 	// Defines auto upgrade period for releases with security fix.
 	//
@@ -41,7 +41,7 @@ type OracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig struct {
 	// releases. Not passing this field during create will equate to using the
 	// service default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/oracle_database_goldengate_deployment#security_patch_upgrade_period_days OracleDatabaseGoldengateDeployment#security_patch_upgrade_period_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_deployment#security_patch_upgrade_period_days OracleDatabaseGoldengateDeployment#security_patch_upgrade_period_days}
 	SecurityPatchUpgradePeriodDays *float64 `field:"optional" json:"securityPatchUpgradePeriodDays" yaml:"securityPatchUpgradePeriodDays"`
 }
 

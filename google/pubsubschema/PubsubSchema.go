@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/pubsub_schema google_pubsub_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/pubsub_schema google_pubsub_schema}.
 type PubsubSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_PubsubSchema) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/pubsub_schema google_pubsub_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/pubsub_schema google_pubsub_schema} Resource.
 func NewPubsubSchema(scope constructs.Construct, id *string, config *PubsubSchemaConfig) PubsubSchema {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewPubsubSchema(scope constructs.Construct, id *string, config *PubsubSchem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/pubsub_schema google_pubsub_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/pubsub_schema google_pubsub_schema} Resource.
 func NewPubsubSchema_Override(p PubsubSchema, scope constructs.Construct, id *string, config *PubsubSchemaConfig) {
 	_init_.Initialize()
 

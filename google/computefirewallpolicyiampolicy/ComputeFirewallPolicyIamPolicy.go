@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_firewall_policy_iam_policy google_compute_firewall_policy_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_firewall_policy_iam_policy google_compute_firewall_policy_iam_policy}.
 type ComputeFirewallPolicyIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyIamPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_firewall_policy_iam_policy google_compute_firewall_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_firewall_policy_iam_policy google_compute_firewall_policy_iam_policy} Resource.
 func NewComputeFirewallPolicyIamPolicy(scope constructs.Construct, id *string, config *ComputeFirewallPolicyIamPolicyConfig) ComputeFirewallPolicyIamPolicy {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewComputeFirewallPolicyIamPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/compute_firewall_policy_iam_policy google_compute_firewall_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_firewall_policy_iam_policy google_compute_firewall_policy_iam_policy} Resource.
 func NewComputeFirewallPolicyIamPolicy_Override(c ComputeFirewallPolicyIamPolicy, scope constructs.Construct, id *string, config *ComputeFirewallPolicyIamPolicyConfig) {
 	_init_.Initialize()
 

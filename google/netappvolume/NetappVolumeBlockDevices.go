@@ -9,7 +9,7 @@ type NetappVolumeBlockDevices struct {
 	//
 	// This field can't be changed after the block device is created. Possible values: ["LINUX", "WINDOWS", "ESXI"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/netapp_volume#os_type NetappVolume#os_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/netapp_volume#os_type NetappVolume#os_type}
 	OsType *string `field:"required" json:"osType" yaml:"osType"`
 	// A list of host groups that identify hosts that can mount the block volume.
 	//
@@ -17,7 +17,7 @@ type NetappVolumeBlockDevices struct {
 	// 'projects/{project_id}/locations/{location}/hostGroups/{host_group_id}'
 	// This field can be updated after the block device is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/netapp_volume#host_groups NetappVolume#host_groups}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/netapp_volume#host_groups NetappVolume#host_groups}
 	HostGroups *[]*string `field:"optional" json:"hostGroups" yaml:"hostGroups"`
 	// User-defined name for the block device, unique within the Volume.
 	//
@@ -29,7 +29,7 @@ type NetappVolumeBlockDevices struct {
 	//     and the following special characters: "-", "_", "}", "{", ".".
 	// *   Spaces are not allowed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.45.0/docs/resources/netapp_volume#name NetappVolume#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/netapp_volume#name NetappVolume#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 
