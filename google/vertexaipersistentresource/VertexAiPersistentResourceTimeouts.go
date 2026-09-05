@@ -5,11 +5,11 @@ package vertexaipersistentresource
 
 
 type VertexAiPersistentResourceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#create VertexAiPersistentResource#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_persistent_resource#create VertexAiPersistentResource#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#delete VertexAiPersistentResource#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_persistent_resource#delete VertexAiPersistentResource#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#update VertexAiPersistentResource#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_persistent_resource#update VertexAiPersistentResource#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

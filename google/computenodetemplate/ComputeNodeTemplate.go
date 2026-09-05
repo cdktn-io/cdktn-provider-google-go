@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_node_template google_compute_node_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_node_template google_compute_node_template}.
 type ComputeNodeTemplate interface {
 	cdktn.TerraformResource
 	Accelerators() ComputeNodeTemplateAcceleratorsList
@@ -701,7 +701,7 @@ func (j *jsiiProxy_ComputeNodeTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_node_template google_compute_node_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_node_template google_compute_node_template} Resource.
 func NewComputeNodeTemplate(scope constructs.Construct, id *string, config *ComputeNodeTemplateConfig) ComputeNodeTemplate {
 	_init_.Initialize()
 
@@ -719,7 +719,7 @@ func NewComputeNodeTemplate(scope constructs.Construct, id *string, config *Comp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_node_template google_compute_node_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_node_template google_compute_node_template} Resource.
 func NewComputeNodeTemplate_Override(c ComputeNodeTemplate, scope constructs.Construct, id *string, config *ComputeNodeTemplateConfig) {
 	_init_.Initialize()
 

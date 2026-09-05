@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/looker_instance google_looker_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/looker_instance google_looker_instance}.
 type LookerInstance interface {
 	cdktn.TerraformResource
 	AdminSettings() LookerInstanceAdminSettingsOutputReference
@@ -1019,7 +1019,7 @@ func (j *jsiiProxy_LookerInstance) UserMetadataInput() *LookerInstanceUserMetada
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/looker_instance google_looker_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/looker_instance google_looker_instance} Resource.
 func NewLookerInstance(scope constructs.Construct, id *string, config *LookerInstanceConfig) LookerInstance {
 	_init_.Initialize()
 
@@ -1037,7 +1037,7 @@ func NewLookerInstance(scope constructs.Construct, id *string, config *LookerIns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/looker_instance google_looker_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/looker_instance google_looker_instance} Resource.
 func NewLookerInstance_Override(l LookerInstance, scope constructs.Construct, id *string, config *LookerInstanceConfig) {
 	_init_.Initialize()
 

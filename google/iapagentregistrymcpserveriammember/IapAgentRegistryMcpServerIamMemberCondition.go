@@ -5,11 +5,11 @@ package iapagentregistrymcpserveriammember
 
 
 type IapAgentRegistryMcpServerIamMemberCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_mcp_server_iam_member#expression IapAgentRegistryMcpServerIamMember#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_mcp_server_iam_member#expression IapAgentRegistryMcpServerIamMember#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_mcp_server_iam_member#title IapAgentRegistryMcpServerIamMember#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_mcp_server_iam_member#title IapAgentRegistryMcpServerIamMember#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_mcp_server_iam_member#description IapAgentRegistryMcpServerIamMember#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_mcp_server_iam_member#description IapAgentRegistryMcpServerIamMember#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

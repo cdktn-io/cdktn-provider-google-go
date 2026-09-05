@@ -7,15 +7,15 @@ package chroniclefeed
 type ChronicleFeedDetailsThreatConnectIocSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsThreatConnectIocSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 	// API Hostname.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed#hostname ChronicleFeed#hostname}
 	Hostname *string `field:"optional" json:"hostname" yaml:"hostname"`
 	// Owners.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#owners ChronicleFeed#owners}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed#owners ChronicleFeed#owners}
 	Owners *[]*string `field:"optional" json:"owners" yaml:"owners"`
 }
 

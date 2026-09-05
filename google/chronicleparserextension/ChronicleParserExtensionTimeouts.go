@@ -5,9 +5,9 @@ package chronicleparserextension
 
 
 type ChronicleParserExtensionTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_parser_extension#create ChronicleParserExtension#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_parser_extension#create ChronicleParserExtension#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_parser_extension#delete ChronicleParserExtension#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_parser_extension#delete ChronicleParserExtension#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

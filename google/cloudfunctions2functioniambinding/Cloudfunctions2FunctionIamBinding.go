@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudfunctions2_function_iam_binding google_cloudfunctions2_function_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloudfunctions2_function_iam_binding google_cloudfunctions2_function_iam_binding}.
 type Cloudfunctions2FunctionIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_Cloudfunctions2FunctionIamBinding) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudfunctions2_function_iam_binding google_cloudfunctions2_function_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloudfunctions2_function_iam_binding google_cloudfunctions2_function_iam_binding} Resource.
 func NewCloudfunctions2FunctionIamBinding(scope constructs.Construct, id *string, config *Cloudfunctions2FunctionIamBindingConfig) Cloudfunctions2FunctionIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewCloudfunctions2FunctionIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudfunctions2_function_iam_binding google_cloudfunctions2_function_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloudfunctions2_function_iam_binding google_cloudfunctions2_function_iam_binding} Resource.
 func NewCloudfunctions2FunctionIamBinding_Override(c Cloudfunctions2FunctionIamBinding, scope constructs.Construct, id *string, config *Cloudfunctions2FunctionIamBindingConfig) {
 	_init_.Initialize()
 

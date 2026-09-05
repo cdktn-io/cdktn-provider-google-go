@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy}.
 type ComputeTargetGrpcProxy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -579,7 +579,7 @@ func (j *jsiiProxy_ComputeTargetGrpcProxy) ValidateForProxylessInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
 func NewComputeTargetGrpcProxy(scope constructs.Construct, id *string, config *ComputeTargetGrpcProxyConfig) ComputeTargetGrpcProxy {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewComputeTargetGrpcProxy(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_target_grpc_proxy google_compute_target_grpc_proxy} Resource.
 func NewComputeTargetGrpcProxy_Override(c ComputeTargetGrpcProxy, scope constructs.Construct, id *string, config *ComputeTargetGrpcProxyConfig) {
 	_init_.Initialize()
 

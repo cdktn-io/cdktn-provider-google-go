@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/contact_center_insights_qa_question google_contact_center_insights_qa_question}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_qa_question google_contact_center_insights_qa_question}.
 type ContactCenterInsightsQaQuestion interface {
 	cdktn.TerraformResource
 	Abbreviation() *string
@@ -806,7 +806,7 @@ func (j *jsiiProxy_ContactCenterInsightsQaQuestion) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
 func NewContactCenterInsightsQaQuestion(scope constructs.Construct, id *string, config *ContactCenterInsightsQaQuestionConfig) ContactCenterInsightsQaQuestion {
 	_init_.Initialize()
 
@@ -824,7 +824,7 @@ func NewContactCenterInsightsQaQuestion(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
 func NewContactCenterInsightsQaQuestion_Override(c ContactCenterInsightsQaQuestion, scope constructs.Construct, id *string, config *ContactCenterInsightsQaQuestionConfig) {
 	_init_.Initialize()
 

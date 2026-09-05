@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy}.
 type RedisClusterAclPolicy interface {
 	cdktn.TerraformResource
 	AclPolicyId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_RedisClusterAclPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
 func NewRedisClusterAclPolicy(scope constructs.Construct, id *string, config *RedisClusterAclPolicyConfig) RedisClusterAclPolicy {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewRedisClusterAclPolicy(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
 func NewRedisClusterAclPolicy_Override(r RedisClusterAclPolicy, scope constructs.Construct, id *string, config *RedisClusterAclPolicyConfig) {
 	_init_.Initialize()
 

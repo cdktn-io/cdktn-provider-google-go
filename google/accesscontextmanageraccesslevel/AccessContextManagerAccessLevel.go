@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_access_level google_access_context_manager_access_level}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_access_level google_access_context_manager_access_level}.
 type AccessContextManagerAccessLevel interface {
 	cdktn.TerraformResource
 	Basic() AccessContextManagerAccessLevelBasicOutputReference
@@ -557,7 +557,7 @@ func (j *jsiiProxy_AccessContextManagerAccessLevel) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_access_level google_access_context_manager_access_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_access_level google_access_context_manager_access_level} Resource.
 func NewAccessContextManagerAccessLevel(scope constructs.Construct, id *string, config *AccessContextManagerAccessLevelConfig) AccessContextManagerAccessLevel {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewAccessContextManagerAccessLevel(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_access_level google_access_context_manager_access_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_access_level google_access_context_manager_access_level} Resource.
 func NewAccessContextManagerAccessLevel_Override(a AccessContextManagerAccessLevel, scope constructs.Construct, id *string, config *AccessContextManagerAccessLevelConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_routine_iam_member google_bigquery_routine_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine_iam_member google_bigquery_routine_iam_member}.
 type BigqueryRoutineIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BigqueryRoutineIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_routine_iam_member google_bigquery_routine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine_iam_member google_bigquery_routine_iam_member} Resource.
 func NewBigqueryRoutineIamMember(scope constructs.Construct, id *string, config *BigqueryRoutineIamMemberConfig) BigqueryRoutineIamMember {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBigqueryRoutineIamMember(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_routine_iam_member google_bigquery_routine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine_iam_member google_bigquery_routine_iam_member} Resource.
 func NewBigqueryRoutineIamMember_Override(b BigqueryRoutineIamMember, scope constructs.Construct, id *string, config *BigqueryRoutineIamMemberConfig) {
 	_init_.Initialize()
 

@@ -24,26 +24,26 @@ type ComputePreviewFeatureConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The activation status of the preview feature. Possible values: ["ENABLED", "ACTIVATION_STATE_UNSPECIFIED"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_preview_feature#activation_status ComputePreviewFeature#activation_status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_preview_feature#activation_status ComputePreviewFeature#activation_status}
 	ActivationStatus *string `field:"required" json:"activationStatus" yaml:"activationStatus"`
 	// The name of the preview feature.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_preview_feature#name ComputePreviewFeature#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_preview_feature#name ComputePreviewFeature#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_preview_feature#id ComputePreviewFeature#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_preview_feature#id ComputePreviewFeature#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_preview_feature#project ComputePreviewFeature#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_preview_feature#project ComputePreviewFeature#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// rollout_operation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_preview_feature#rollout_operation ComputePreviewFeature#rollout_operation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_preview_feature#rollout_operation ComputePreviewFeature#rollout_operation}
 	RolloutOperation *ComputePreviewFeatureRolloutOperation `field:"optional" json:"rolloutOperation" yaml:"rolloutOperation"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_preview_feature#timeouts ComputePreviewFeature#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_preview_feature#timeouts ComputePreviewFeature#timeouts}
 	Timeouts *ComputePreviewFeatureTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

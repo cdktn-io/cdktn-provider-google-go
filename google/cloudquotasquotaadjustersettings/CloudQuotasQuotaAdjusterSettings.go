@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloud_quotas_quota_adjuster_settings google_cloud_quotas_quota_adjuster_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_quotas_quota_adjuster_settings google_cloud_quotas_quota_adjuster_settings}.
 type CloudQuotasQuotaAdjusterSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CloudQuotasQuotaAdjusterSettings) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloud_quotas_quota_adjuster_settings google_cloud_quotas_quota_adjuster_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_quotas_quota_adjuster_settings google_cloud_quotas_quota_adjuster_settings} Resource.
 func NewCloudQuotasQuotaAdjusterSettings(scope constructs.Construct, id *string, config *CloudQuotasQuotaAdjusterSettingsConfig) CloudQuotasQuotaAdjusterSettings {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewCloudQuotasQuotaAdjusterSettings(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloud_quotas_quota_adjuster_settings google_cloud_quotas_quota_adjuster_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_quotas_quota_adjuster_settings google_cloud_quotas_quota_adjuster_settings} Resource.
 func NewCloudQuotasQuotaAdjusterSettings_Override(c CloudQuotasQuotaAdjusterSettings, scope constructs.Construct, id *string, config *CloudQuotasQuotaAdjusterSettingsConfig) {
 	_init_.Initialize()
 

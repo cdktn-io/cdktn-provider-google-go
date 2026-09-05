@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints}.
 type MemorystoreInstanceDesiredUserCreatedEndpoints interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_MemorystoreInstanceDesiredUserCreatedEndpoints) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
 func NewMemorystoreInstanceDesiredUserCreatedEndpoints(scope constructs.Construct, id *string, config *MemorystoreInstanceDesiredUserCreatedEndpointsConfig) MemorystoreInstanceDesiredUserCreatedEndpoints {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewMemorystoreInstanceDesiredUserCreatedEndpoints(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
 func NewMemorystoreInstanceDesiredUserCreatedEndpoints_Override(m MemorystoreInstanceDesiredUserCreatedEndpoints, scope constructs.Construct, id *string, config *MemorystoreInstanceDesiredUserCreatedEndpointsConfig) {
 	_init_.Initialize()
 

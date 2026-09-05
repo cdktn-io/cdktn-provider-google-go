@@ -15,11 +15,11 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromSources s
 	// Example 'accessPolicies/MY_POLICY/accessLevels/MY_LEVEL.'
 	// If * is specified, then all IngressSources will be allowed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy#access_level AccessContextManagerServicePerimeterDryRunIngressPolicy#access_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy#access_level AccessContextManagerServicePerimeterDryRunIngressPolicy#access_level}
 	AccessLevel *string `field:"optional" json:"accessLevel" yaml:"accessLevel"`
 	// psc_endpoint block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy#psc_endpoint AccessContextManagerServicePerimeterDryRunIngressPolicy#psc_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy#psc_endpoint AccessContextManagerServicePerimeterDryRunIngressPolicy#psc_endpoint}
 	PscEndpoint *AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromSourcesPscEndpoint `field:"optional" json:"pscEndpoint" yaml:"pscEndpoint"`
 	// A Google Cloud resource that is allowed to ingress the perimeter.
 	//
@@ -29,7 +29,7 @@ type AccessContextManagerServicePerimeterDryRunIngressPolicyIngressFromSources s
 	// organization that the perimeter is defined in. '*' is not allowed, the case
 	// of allowing all Google Cloud resources only is not supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy#resource AccessContextManagerServicePerimeterDryRunIngressPolicy#resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_service_perimeter_dry_run_ingress_policy#resource AccessContextManagerServicePerimeterDryRunIngressPolicy#resource}
 	Resource *string `field:"optional" json:"resource" yaml:"resource"`
 }
 

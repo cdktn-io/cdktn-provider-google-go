@@ -24,7 +24,7 @@ type NetworkSecurityDnsThreatDetectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of the DnsThreatDetector resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#name NetworkSecurityDnsThreatDetector#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#name NetworkSecurityDnsThreatDetector#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -36,13 +36,13 @@ type NetworkSecurityDnsThreatDetectorConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#deletion_policy NetworkSecurityDnsThreatDetector#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#deletion_policy NetworkSecurityDnsThreatDetector#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// List of networks that are excluded from detection. Format: projects/{project}/global/networks/{name}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#excluded_networks NetworkSecurityDnsThreatDetector#excluded_networks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#excluded_networks NetworkSecurityDnsThreatDetector#excluded_networks}
 	ExcludedNetworks *[]*string `field:"optional" json:"excludedNetworks" yaml:"excludedNetworks"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#id NetworkSecurityDnsThreatDetector#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#id NetworkSecurityDnsThreatDetector#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,21 +55,21 @@ type NetworkSecurityDnsThreatDetectorConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#labels NetworkSecurityDnsThreatDetector#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#labels NetworkSecurityDnsThreatDetector#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// The location of the DNS Threat Detector. The only supported value is 'global'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#location NetworkSecurityDnsThreatDetector#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#location NetworkSecurityDnsThreatDetector#location}
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#project NetworkSecurityDnsThreatDetector#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#project NetworkSecurityDnsThreatDetector#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// DNS Threat Detection provider. The only supported value is 'INFOBLOX'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#threat_detector_provider NetworkSecurityDnsThreatDetector#threat_detector_provider}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#threat_detector_provider NetworkSecurityDnsThreatDetector#threat_detector_provider}
 	ThreatDetectorProvider *string `field:"optional" json:"threatDetectorProvider" yaml:"threatDetectorProvider"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_dns_threat_detector#timeouts NetworkSecurityDnsThreatDetector#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_dns_threat_detector#timeouts NetworkSecurityDnsThreatDetector#timeouts}
 	Timeouts *NetworkSecurityDnsThreatDetectorTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_router_nat_address google_compute_router_nat_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router_nat_address google_compute_router_nat_address}.
 type ComputeRouterNatAddress interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -557,7 +557,7 @@ func (j *jsiiProxy_ComputeRouterNatAddress) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_router_nat_address google_compute_router_nat_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router_nat_address google_compute_router_nat_address} Resource.
 func NewComputeRouterNatAddress(scope constructs.Construct, id *string, config *ComputeRouterNatAddressConfig) ComputeRouterNatAddress {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewComputeRouterNatAddress(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_router_nat_address google_compute_router_nat_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router_nat_address google_compute_router_nat_address} Resource.
 func NewComputeRouterNatAddress_Override(c ComputeRouterNatAddress, scope constructs.Construct, id *string, config *ComputeRouterNatAddressConfig) {
 	_init_.Initialize()
 

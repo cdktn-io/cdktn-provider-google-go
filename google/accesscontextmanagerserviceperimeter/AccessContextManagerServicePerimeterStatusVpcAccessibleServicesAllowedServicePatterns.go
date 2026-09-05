@@ -7,15 +7,15 @@ package accesscontextmanagerserviceperimeter
 type AccessContextManagerServicePerimeterStatusVpcAccessibleServicesAllowedServicePatterns struct {
 	// modifiers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeter#modifiers AccessContextManagerServicePerimeter#modifiers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_service_perimeter#modifiers AccessContextManagerServicePerimeter#modifiers}
 	Modifiers interface{} `field:"optional" json:"modifiers" yaml:"modifiers"`
 	// URL pattern to allow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeter#pattern AccessContextManagerServicePerimeter#pattern}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_service_perimeter#pattern AccessContextManagerServicePerimeter#pattern}
 	Pattern *string `field:"optional" json:"pattern" yaml:"pattern"`
 	// Supported service to allow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/access_context_manager_service_perimeter#service AccessContextManagerServicePerimeter#service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/access_context_manager_service_perimeter#service AccessContextManagerServicePerimeter#service}
 	Service *string `field:"optional" json:"service" yaml:"service"`
 }
 

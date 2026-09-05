@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/logging_log_view_iam_member google_logging_log_view_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_log_view_iam_member google_logging_log_view_iam_member}.
 type LoggingLogViewIamMember interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_LoggingLogViewIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/logging_log_view_iam_member google_logging_log_view_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_log_view_iam_member google_logging_log_view_iam_member} Resource.
 func NewLoggingLogViewIamMember(scope constructs.Construct, id *string, config *LoggingLogViewIamMemberConfig) LoggingLogViewIamMember {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewLoggingLogViewIamMember(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/logging_log_view_iam_member google_logging_log_view_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_log_view_iam_member google_logging_log_view_iam_member} Resource.
 func NewLoggingLogViewIamMember_Override(l LoggingLogViewIamMember, scope constructs.Construct, id *string, config *LoggingLogViewIamMemberConfig) {
 	_init_.Initialize()
 

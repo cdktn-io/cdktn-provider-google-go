@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/workflows_workflow google_workflows_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workflows_workflow google_workflows_workflow}.
 type WorkflowsWorkflow interface {
 	cdktn.TerraformResource
 	CallLogLevel() *string
@@ -818,7 +818,7 @@ func (j *jsiiProxy_WorkflowsWorkflow) UserEnvVarsInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workflows_workflow google_workflows_workflow} Resource.
 func NewWorkflowsWorkflow(scope constructs.Construct, id *string, config *WorkflowsWorkflowConfig) WorkflowsWorkflow {
 	_init_.Initialize()
 
@@ -836,7 +836,7 @@ func NewWorkflowsWorkflow(scope constructs.Construct, id *string, config *Workfl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workflows_workflow google_workflows_workflow} Resource.
 func NewWorkflowsWorkflow_Override(w WorkflowsWorkflow, scope constructs.Construct, id *string, config *WorkflowsWorkflowConfig) {
 	_init_.Initialize()
 

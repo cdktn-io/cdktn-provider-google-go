@@ -11,7 +11,7 @@ type ComputeRegionCommitmentParams struct {
 	// same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
 	// and values are in the format tagValues/456.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_commitment#resource_manager_tags ComputeRegionCommitment#resource_manager_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_commitment#resource_manager_tags ComputeRegionCommitment#resource_manager_tags}
 	ResourceManagerTags *map[string]*string `field:"optional" json:"resourceManagerTags" yaml:"resourceManagerTags"`
 }
 

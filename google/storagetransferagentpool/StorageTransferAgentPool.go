@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/storage_transfer_agent_pool google_storage_transfer_agent_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/storage_transfer_agent_pool google_storage_transfer_agent_pool}.
 type StorageTransferAgentPool interface {
 	cdktn.TerraformResource
 	BandwidthLimit() StorageTransferAgentPoolBandwidthLimitOutputReference
@@ -522,7 +522,7 @@ func (j *jsiiProxy_StorageTransferAgentPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
 func NewStorageTransferAgentPool(scope constructs.Construct, id *string, config *StorageTransferAgentPoolConfig) StorageTransferAgentPool {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewStorageTransferAgentPool(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
 func NewStorageTransferAgentPool_Override(s StorageTransferAgentPool, scope constructs.Construct, id *string, config *StorageTransferAgentPoolConfig) {
 	_init_.Initialize()
 

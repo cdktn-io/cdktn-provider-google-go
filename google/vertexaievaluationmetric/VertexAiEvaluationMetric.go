@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric}.
 type VertexAiEvaluationMetric interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -685,7 +685,7 @@ func (j *jsiiProxy_VertexAiEvaluationMetric) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric} Resource.
 func NewVertexAiEvaluationMetric(scope constructs.Construct, id *string, config *VertexAiEvaluationMetricConfig) VertexAiEvaluationMetric {
 	_init_.Initialize()
 
@@ -703,7 +703,7 @@ func NewVertexAiEvaluationMetric(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_evaluation_metric google_vertex_ai_evaluation_metric} Resource.
 func NewVertexAiEvaluationMetric_Override(v VertexAiEvaluationMetric, scope constructs.Construct, id *string, config *VertexAiEvaluationMetricConfig) {
 	_init_.Initialize()
 

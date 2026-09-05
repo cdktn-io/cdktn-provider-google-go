@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
 type VertexAiReasoningEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -638,7 +638,7 @@ func (j *jsiiProxy_VertexAiReasoningEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewVertexAiReasoningEngine(scope constructs.Construct, id *string, config *VertexAiReasoningEngineConfig) VertexAiReasoningEngine {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewVertexAiReasoningEngine(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewVertexAiReasoningEngine_Override(v VertexAiReasoningEngine, scope constructs.Construct, id *string, config *VertexAiReasoningEngineConfig) {
 	_init_.Initialize()
 

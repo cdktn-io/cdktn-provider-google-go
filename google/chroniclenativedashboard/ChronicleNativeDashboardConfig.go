@@ -24,23 +24,23 @@ type ChronicleNativeDashboardConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The display name/title of the dashboard visible to users.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#display_name ChronicleNativeDashboard#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#display_name ChronicleNativeDashboard#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The ID of the Chronicle instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#instance ChronicleNativeDashboard#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#instance ChronicleNativeDashboard#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
 	// The location of the Chronicle instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#location ChronicleNativeDashboard#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#location ChronicleNativeDashboard#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The access level of the dashboard. Possible values: DASHBOARD_PRIVATE DASHBOARD_PUBLIC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#access ChronicleNativeDashboard#access}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#access ChronicleNativeDashboard#access}
 	Access *string `field:"optional" json:"access" yaml:"access"`
 	// charts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#charts ChronicleNativeDashboard#charts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#charts ChronicleNativeDashboard#charts}
 	Charts interface{} `field:"optional" json:"charts" yaml:"charts"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -52,34 +52,34 @@ type ChronicleNativeDashboardConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#deletion_policy ChronicleNativeDashboard#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#deletion_policy ChronicleNativeDashboard#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A description of the dashboard.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#description ChronicleNativeDashboard#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#description ChronicleNativeDashboard#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// filters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#filters ChronicleNativeDashboard#filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#filters ChronicleNativeDashboard#filters}
 	Filters interface{} `field:"optional" json:"filters" yaml:"filters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#id ChronicleNativeDashboard#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#id ChronicleNativeDashboard#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// Whether the dashboard is pinned by the user.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#is_pinned ChronicleNativeDashboard#is_pinned}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#is_pinned ChronicleNativeDashboard#is_pinned}
 	IsPinned interface{} `field:"optional" json:"isPinned" yaml:"isPinned"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#project ChronicleNativeDashboard#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#project ChronicleNativeDashboard#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#timeouts ChronicleNativeDashboard#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#timeouts ChronicleNativeDashboard#timeouts}
 	Timeouts *ChronicleNativeDashboardTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// The type of dashboard. Possible values: CURATED, PRIVATE, PUBLIC, CUSTOM, MARKETPLACE.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_native_dashboard#type ChronicleNativeDashboard#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_native_dashboard#type ChronicleNativeDashboard#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

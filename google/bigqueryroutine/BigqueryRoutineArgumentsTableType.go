@@ -7,7 +7,7 @@ package bigqueryroutine
 type BigqueryRoutineArgumentsTableType struct {
 	// columns block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/bigquery_routine#columns BigqueryRoutine#columns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine#columns BigqueryRoutine#columns}
 	Columns interface{} `field:"optional" json:"columns" yaml:"columns"`
 }
 

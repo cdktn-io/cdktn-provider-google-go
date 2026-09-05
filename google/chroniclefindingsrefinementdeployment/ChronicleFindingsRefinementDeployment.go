@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment}.
 type ChronicleFindingsRefinementDeployment interface {
 	cdktn.TerraformResource
 	Archived() interface{}
@@ -579,7 +579,7 @@ func (j *jsiiProxy_ChronicleFindingsRefinementDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
 func NewChronicleFindingsRefinementDeployment(scope constructs.Construct, id *string, config *ChronicleFindingsRefinementDeploymentConfig) ChronicleFindingsRefinementDeployment {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewChronicleFindingsRefinementDeployment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
 func NewChronicleFindingsRefinementDeployment_Override(c ChronicleFindingsRefinementDeployment, scope constructs.Construct, id *string, config *ChronicleFindingsRefinementDeploymentConfig) {
 	_init_.Initialize()
 

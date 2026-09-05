@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/apigee_datastore google_apigee_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_datastore google_apigee_datastore}.
 type ApigeeDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_ApigeeDatastore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/apigee_datastore google_apigee_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_datastore google_apigee_datastore} Resource.
 func NewApigeeDatastore(scope constructs.Construct, id *string, config *ApigeeDatastoreConfig) ApigeeDatastore {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewApigeeDatastore(scope constructs.Construct, id *string, config *ApigeeDa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/apigee_datastore google_apigee_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_datastore google_apigee_datastore} Resource.
 func NewApigeeDatastore_Override(a ApigeeDatastore, scope constructs.Construct, id *string, config *ApigeeDatastoreConfig) {
 	_init_.Initialize()
 

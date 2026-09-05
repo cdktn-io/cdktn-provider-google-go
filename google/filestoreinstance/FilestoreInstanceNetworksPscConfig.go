@@ -11,7 +11,7 @@ type FilestoreInstanceNetworksPscConfig struct {
 	// is a shared VPC. If this is not specified, the endpoint would be set up
 	// in the VPC host project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/filestore_instance#endpoint_project FilestoreInstance#endpoint_project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/filestore_instance#endpoint_project FilestoreInstance#endpoint_project}
 	EndpointProject *string `field:"optional" json:"endpointProject" yaml:"endpointProject"`
 }
 

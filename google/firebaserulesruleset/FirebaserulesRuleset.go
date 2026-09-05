@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/firebaserules_ruleset google_firebaserules_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebaserules_ruleset google_firebaserules_ruleset}.
 type FirebaserulesRuleset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_FirebaserulesRuleset) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/firebaserules_ruleset google_firebaserules_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebaserules_ruleset google_firebaserules_ruleset} Resource.
 func NewFirebaserulesRuleset(scope constructs.Construct, id *string, config *FirebaserulesRulesetConfig) FirebaserulesRuleset {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewFirebaserulesRuleset(scope constructs.Construct, id *string, config *Fir
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/firebaserules_ruleset google_firebaserules_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebaserules_ruleset google_firebaserules_ruleset} Resource.
 func NewFirebaserulesRuleset_Override(f FirebaserulesRuleset, scope constructs.Construct, id *string, config *FirebaserulesRulesetConfig) {
 	_init_.Initialize()
 

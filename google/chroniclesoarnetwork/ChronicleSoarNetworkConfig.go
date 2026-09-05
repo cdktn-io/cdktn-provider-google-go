@@ -24,23 +24,23 @@ type ChronicleSoarNetworkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Subnet in CIDR format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#address ChronicleSoarNetwork#address}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#address ChronicleSoarNetwork#address}
 	Address *string `field:"required" json:"address" yaml:"address"`
 	// SoarNetwork name, limited to 4096 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#display_name ChronicleSoarNetwork#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#display_name ChronicleSoarNetwork#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// SoarNetwork associated logical environments.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#environments_json ChronicleSoarNetwork#environments_json}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#environments_json ChronicleSoarNetwork#environments_json}
 	EnvironmentsJson *string `field:"required" json:"environmentsJson" yaml:"environmentsJson"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#instance ChronicleSoarNetwork#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#instance ChronicleSoarNetwork#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#location ChronicleSoarNetwork#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#location ChronicleSoarNetwork#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -52,22 +52,22 @@ type ChronicleSoarNetworkConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#deletion_policy ChronicleSoarNetwork#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#deletion_policy ChronicleSoarNetwork#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#id ChronicleSoarNetwork#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#id ChronicleSoarNetwork#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// SoarNetwork priority.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#priority ChronicleSoarNetwork#priority}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#priority ChronicleSoarNetwork#priority}
 	Priority *float64 `field:"optional" json:"priority" yaml:"priority"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#project ChronicleSoarNetwork#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#project ChronicleSoarNetwork#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_soar_network#timeouts ChronicleSoarNetwork#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network#timeouts ChronicleSoarNetwork#timeouts}
 	Timeouts *ChronicleSoarNetworkTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

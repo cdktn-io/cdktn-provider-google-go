@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member}.
 type IapWebBackendServiceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_IapWebBackendServiceIamMember) WebBackendServiceInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
 func NewIapWebBackendServiceIamMember(scope constructs.Construct, id *string, config *IapWebBackendServiceIamMemberConfig) IapWebBackendServiceIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewIapWebBackendServiceIamMember(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_web_backend_service_iam_member google_iap_web_backend_service_iam_member} Resource.
 func NewIapWebBackendServiceIamMember_Override(i IapWebBackendServiceIamMember, scope constructs.Construct, id *string, config *IapWebBackendServiceIamMemberConfig) {
 	_init_.Initialize()
 

@@ -7,13 +7,13 @@ package cloudrunv2service
 type CloudRunV2ServiceTemplateSandboxesTemplatesEnv struct {
 	// Name of the environment variable. Must be a C_IDENTIFIER, and may not exceed 32768 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloud_run_v2_service#name CloudRunV2Service#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_run_v2_service#name CloudRunV2Service#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Literal value of the environment variable.
 	//
 	// Defaults to "" and the maximum allowed length is 32768 characters. Variable references are not supported in Cloud Run.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloud_run_v2_service#value CloudRunV2Service#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_run_v2_service#value CloudRunV2Service#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

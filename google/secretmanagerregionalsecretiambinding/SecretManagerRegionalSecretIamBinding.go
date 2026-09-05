@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/secret_manager_regional_secret_iam_binding google_secret_manager_regional_secret_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret_iam_binding google_secret_manager_regional_secret_iam_binding}.
 type SecretManagerRegionalSecretIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/secret_manager_regional_secret_iam_binding google_secret_manager_regional_secret_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret_iam_binding google_secret_manager_regional_secret_iam_binding} Resource.
 func NewSecretManagerRegionalSecretIamBinding(scope constructs.Construct, id *string, config *SecretManagerRegionalSecretIamBindingConfig) SecretManagerRegionalSecretIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewSecretManagerRegionalSecretIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/secret_manager_regional_secret_iam_binding google_secret_manager_regional_secret_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret_iam_binding google_secret_manager_regional_secret_iam_binding} Resource.
 func NewSecretManagerRegionalSecretIamBinding_Override(s SecretManagerRegionalSecretIamBinding, scope constructs.Construct, id *string, config *SecretManagerRegionalSecretIamBindingConfig) {
 	_init_.Initialize()
 

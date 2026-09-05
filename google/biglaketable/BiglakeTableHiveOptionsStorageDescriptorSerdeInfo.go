@@ -7,7 +7,7 @@ package biglaketable
 type BiglakeTableHiveOptionsStorageDescriptorSerdeInfo struct {
 	// The fully qualified Java class name of the serialization library.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/biglake_table#serialization_lib BiglakeTable#serialization_lib}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_table#serialization_lib BiglakeTable#serialization_lib}
 	SerializationLib *string `field:"optional" json:"serializationLib" yaml:"serializationLib"`
 }
 

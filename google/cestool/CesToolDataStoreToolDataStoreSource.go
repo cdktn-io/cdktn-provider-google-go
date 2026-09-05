@@ -7,11 +7,11 @@ package cestool
 type CesToolDataStoreToolDataStoreSource struct {
 	// data_store block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_tool#data_store CesTool#data_store}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_tool#data_store CesTool#data_store}
 	DataStore *CesToolDataStoreToolDataStoreSourceDataStore `field:"optional" json:"dataStore" yaml:"dataStore"`
 	// Optional. Filter specification for the DataStore. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_tool#filter CesTool#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_tool#filter CesTool#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
 }
 

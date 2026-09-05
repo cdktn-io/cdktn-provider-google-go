@@ -7,11 +7,11 @@ package modelarmortemplate
 type ModelArmorTemplateTemplateMetadataFilterVersionSelector struct {
 	// A predefined filter version alias. The template automatically follows the version this alias points to. Possible values: FILTER_VERSION_ALIAS_STABLE FILTER_VERSION_ALIAS_LATEST.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/model_armor_template#alias ModelArmorTemplate#alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/model_armor_template#alias ModelArmorTemplate#alias}
 	Alias *string `field:"optional" json:"alias" yaml:"alias"`
 	// Pins the template to a specific, immutable filter version. Expected format is a case-sensitive string such as 'v1' or 'v2'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/model_armor_template#version ModelArmorTemplate#version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/model_armor_template#version ModelArmorTemplate#version}
 	Version *string `field:"optional" json:"version" yaml:"version"`
 }
 

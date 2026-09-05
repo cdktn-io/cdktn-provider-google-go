@@ -7,7 +7,7 @@ package vertexaipersistentresource
 type VertexAiPersistentResourceResourceRuntimeSpec struct {
 	// service_account_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_persistent_resource#service_account_spec VertexAiPersistentResource#service_account_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_persistent_resource#service_account_spec VertexAiPersistentResource#service_account_spec}
 	ServiceAccountSpec *VertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec `field:"optional" json:"serviceAccountSpec" yaml:"serviceAccountSpec"`
 }
 

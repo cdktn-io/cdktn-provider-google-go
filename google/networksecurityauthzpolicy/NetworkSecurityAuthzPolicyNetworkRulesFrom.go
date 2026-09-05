@@ -7,11 +7,11 @@ package networksecurityauthzpolicy
 type NetworkSecurityAuthzPolicyNetworkRulesFrom struct {
 	// not_sources block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_authz_policy#not_sources NetworkSecurityAuthzPolicy#not_sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_authz_policy#not_sources NetworkSecurityAuthzPolicy#not_sources}
 	NotSources interface{} `field:"optional" json:"notSources" yaml:"notSources"`
 	// sources block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/network_security_authz_policy#sources NetworkSecurityAuthzPolicy#sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_authz_policy#sources NetworkSecurityAuthzPolicy#sources}
 	Sources interface{} `field:"optional" json:"sources" yaml:"sources"`
 }
 

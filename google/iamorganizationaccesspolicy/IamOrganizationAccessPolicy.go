@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_organization_access_policy google_iam_organization_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_organization_access_policy google_iam_organization_access_policy}.
 type IamOrganizationAccessPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_IamOrganizationAccessPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_organization_access_policy google_iam_organization_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_organization_access_policy google_iam_organization_access_policy} Resource.
 func NewIamOrganizationAccessPolicy(scope constructs.Construct, id *string, config *IamOrganizationAccessPolicyConfig) IamOrganizationAccessPolicy {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewIamOrganizationAccessPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_organization_access_policy google_iam_organization_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_organization_access_policy google_iam_organization_access_policy} Resource.
 func NewIamOrganizationAccessPolicy_Override(i IamOrganizationAccessPolicy, scope constructs.Construct, id *string, config *IamOrganizationAccessPolicyConfig) {
 	_init_.Initialize()
 

@@ -7,23 +7,23 @@ package oracledatabasegoldengateconnection
 type OracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionProperties struct {
 	// Azure client ID of the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_connection#client_id OracleDatabaseGoldengateConnection#client_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection#client_id OracleDatabaseGoldengateConnection#client_id}
 	ClientId *string `field:"optional" json:"clientId" yaml:"clientId"`
 	// Client secret associated with the client id.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_connection#client_secret OracleDatabaseGoldengateConnection#client_secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection#client_secret OracleDatabaseGoldengateConnection#client_secret}
 	ClientSecret *string `field:"optional" json:"clientSecret" yaml:"clientSecret"`
 	// Optional Microsoft Fabric service endpoint. Default value: https://onelake.dfs.fabric.microsoft.com.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_connection#endpoint OracleDatabaseGoldengateConnection#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection#endpoint OracleDatabaseGoldengateConnection#endpoint}
 	Endpoint *string `field:"optional" json:"endpoint" yaml:"endpoint"`
 	// The technology type of MicrosoftFabricConnection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_connection#technology_type OracleDatabaseGoldengateConnection#technology_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection#technology_type OracleDatabaseGoldengateConnection#technology_type}
 	TechnologyType *string `field:"optional" json:"technologyType" yaml:"technologyType"`
 	// Azure tenant ID of the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_goldengate_connection#tenant_id OracleDatabaseGoldengateConnection#tenant_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection#tenant_id OracleDatabaseGoldengateConnection#tenant_id}
 	TenantId *string `field:"optional" json:"tenantId" yaml:"tenantId"`
 }
 

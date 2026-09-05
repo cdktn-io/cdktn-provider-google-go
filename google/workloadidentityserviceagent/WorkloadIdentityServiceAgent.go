@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/workload_identity_service_agent google_workload_identity_service_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workload_identity_service_agent google_workload_identity_service_agent}.
 type WorkloadIdentityServiceAgent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_WorkloadIdentityServiceAgent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/workload_identity_service_agent google_workload_identity_service_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workload_identity_service_agent google_workload_identity_service_agent} Resource.
 func NewWorkloadIdentityServiceAgent(scope constructs.Construct, id *string, config *WorkloadIdentityServiceAgentConfig) WorkloadIdentityServiceAgent {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewWorkloadIdentityServiceAgent(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/workload_identity_service_agent google_workload_identity_service_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workload_identity_service_agent google_workload_identity_service_agent} Resource.
 func NewWorkloadIdentityServiceAgent_Override(w WorkloadIdentityServiceAgent, scope constructs.Construct, id *string, config *WorkloadIdentityServiceAgentConfig) {
 	_init_.Initialize()
 

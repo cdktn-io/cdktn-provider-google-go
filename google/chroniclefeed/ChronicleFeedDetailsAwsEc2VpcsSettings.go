@@ -7,7 +7,7 @@ package chroniclefeed
 type ChronicleFeedDetailsAwsEc2VpcsSettings struct {
 	// authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed#authentication ChronicleFeed#authentication}
 	Authentication *ChronicleFeedDetailsAwsEc2VpcsSettingsAuthentication `field:"optional" json:"authentication" yaml:"authentication"`
 }
 

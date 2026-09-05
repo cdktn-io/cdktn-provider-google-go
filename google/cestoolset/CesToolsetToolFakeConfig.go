@@ -7,11 +7,11 @@ package cestoolset
 type CesToolsetToolFakeConfig struct {
 	// code_block block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset#code_block CesToolset#code_block}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset#code_block CesToolset#code_block}
 	CodeBlock *CesToolsetToolFakeConfigCodeBlock `field:"optional" json:"codeBlock" yaml:"codeBlock"`
 	// Whether the tool is using fake mode.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset#enable_fake_mode CesToolset#enable_fake_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset#enable_fake_mode CesToolset#enable_fake_mode}
 	EnableFakeMode interface{} `field:"optional" json:"enableFakeMode" yaml:"enableFakeMode"`
 }
 

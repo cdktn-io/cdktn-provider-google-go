@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudbuildv2_repository google_cloudbuildv2_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloudbuildv2_repository google_cloudbuildv2_repository}.
 type Cloudbuildv2Repository interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_Cloudbuildv2Repository) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
 func NewCloudbuildv2Repository(scope constructs.Construct, id *string, config *Cloudbuildv2RepositoryConfig) Cloudbuildv2Repository {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewCloudbuildv2Repository(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
 func NewCloudbuildv2Repository_Override(c Cloudbuildv2Repository, scope constructs.Construct, id *string, config *Cloudbuildv2RepositoryConfig) {
 	_init_.Initialize()
 

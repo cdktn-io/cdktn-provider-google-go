@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
 type OracleDatabaseCloudExadataInfrastructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -661,7 +661,7 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureConfig) OracleDatabaseCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -679,7 +679,7 @@ func NewOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewOracleDatabaseCloudExadataInfrastructure_Override(o OracleDatabaseCloudExadataInfrastructure, scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 

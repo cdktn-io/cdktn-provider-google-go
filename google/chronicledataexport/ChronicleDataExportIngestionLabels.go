@@ -7,11 +7,11 @@ package chronicledataexport
 type ChronicleDataExportIngestionLabels struct {
 	// The key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_data_export#key ChronicleDataExport#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_export#key ChronicleDataExport#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// The value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/chronicle_data_export#value ChronicleDataExport#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_export#value ChronicleDataExport#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

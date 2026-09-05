@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_resize_request google_compute_region_resize_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_resize_request google_compute_region_resize_request}.
 type ComputeRegionResizeRequest interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -614,7 +614,7 @@ func (j *jsiiProxy_ComputeRegionResizeRequest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_resize_request google_compute_region_resize_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_resize_request google_compute_region_resize_request} Resource.
 func NewComputeRegionResizeRequest(scope constructs.Construct, id *string, config *ComputeRegionResizeRequestConfig) ComputeRegionResizeRequest {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewComputeRegionResizeRequest(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/compute_region_resize_request google_compute_region_resize_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_resize_request google_compute_region_resize_request} Resource.
 func NewComputeRegionResizeRequest_Override(c ComputeRegionResizeRequest, scope constructs.Construct, id *string, config *ComputeRegionResizeRequestConfig) {
 	_init_.Initialize()
 

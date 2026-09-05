@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/biglake_iceberg_table_iam_member google_biglake_iceberg_table_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_table_iam_member google_biglake_iceberg_table_iam_member}.
 type BiglakeIcebergTableIamMember interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_BiglakeIcebergTableIamMember) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/biglake_iceberg_table_iam_member google_biglake_iceberg_table_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_table_iam_member google_biglake_iceberg_table_iam_member} Resource.
 func NewBiglakeIcebergTableIamMember(scope constructs.Construct, id *string, config *BiglakeIcebergTableIamMemberConfig) BiglakeIcebergTableIamMember {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewBiglakeIcebergTableIamMember(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/biglake_iceberg_table_iam_member google_biglake_iceberg_table_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_table_iam_member google_biglake_iceberg_table_iam_member} Resource.
 func NewBiglakeIcebergTableIamMember_Override(b BiglakeIcebergTableIamMember, scope constructs.Construct, id *string, config *BiglakeIcebergTableIamMemberConfig) {
 	_init_.Initialize()
 

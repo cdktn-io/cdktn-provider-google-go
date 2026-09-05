@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/artifact_registry_project_config google_artifact_registry_project_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/artifact_registry_project_config google_artifact_registry_project_config}.
 type ArtifactRegistryProjectConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ArtifactRegistryProjectConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
 func NewArtifactRegistryProjectConfig(scope constructs.Construct, id *string, config *ArtifactRegistryProjectConfigConfig) ArtifactRegistryProjectConfig {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewArtifactRegistryProjectConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
 func NewArtifactRegistryProjectConfig_Override(a ArtifactRegistryProjectConfig, scope constructs.Construct, id *string, config *ArtifactRegistryProjectConfigConfig) {
 	_init_.Initialize()
 

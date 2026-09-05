@@ -5,11 +5,11 @@ package iamfolderaccesspolicy
 
 
 type IamFolderAccessPolicyDetailsRulesConditions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_folder_access_policy#service IamFolderAccessPolicy#service}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_folder_access_policy#service IamFolderAccessPolicy#service}.
 	Service *string `field:"required" json:"service" yaml:"service"`
 	// Textual representation of an expression in Common Expression Language syntax.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iam_folder_access_policy#expression IamFolderAccessPolicy#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_folder_access_policy#expression IamFolderAccessPolicy#expression}
 	Expression *string `field:"optional" json:"expression" yaml:"expression"`
 }
 

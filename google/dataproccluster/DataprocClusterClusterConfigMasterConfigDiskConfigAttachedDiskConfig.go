@@ -7,23 +7,23 @@ package dataproccluster
 type DataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfig struct {
 	// Size of the attached disk, specified in GB.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataproc_cluster#disk_size_gb DataprocCluster#disk_size_gb}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_cluster#disk_size_gb DataprocCluster#disk_size_gb}
 	DiskSizeGb *float64 `field:"optional" json:"diskSizeGb" yaml:"diskSizeGb"`
 	// The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataproc_cluster#disk_type DataprocCluster#disk_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_cluster#disk_type DataprocCluster#disk_type}
 	DiskType *string `field:"optional" json:"diskType" yaml:"diskType"`
 	// Indicates how many IOPS to provision for the disk.
 	//
 	// This sets the number of I/O operations per second that the disk can handle.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataproc_cluster#provisioned_iops DataprocCluster#provisioned_iops}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_cluster#provisioned_iops DataprocCluster#provisioned_iops}
 	ProvisionedIops *float64 `field:"optional" json:"provisionedIops" yaml:"provisionedIops"`
 	// Indicates how much throughput to provision for the disk.
 	//
 	// This sets the number of throughput mb per second that the disk can handle.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/dataproc_cluster#provisioned_throughput DataprocCluster#provisioned_throughput}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_cluster#provisioned_throughput DataprocCluster#provisioned_throughput}
 	ProvisionedThroughput *float64 `field:"optional" json:"provisionedThroughput" yaml:"provisionedThroughput"`
 }
 

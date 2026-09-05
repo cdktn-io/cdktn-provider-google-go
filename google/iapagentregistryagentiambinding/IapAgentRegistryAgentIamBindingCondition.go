@@ -5,11 +5,11 @@ package iapagentregistryagentiambinding
 
 
 type IapAgentRegistryAgentIamBindingCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_agent_iam_binding#expression IapAgentRegistryAgentIamBinding#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_agent_iam_binding#expression IapAgentRegistryAgentIamBinding#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_agent_iam_binding#title IapAgentRegistryAgentIamBinding#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_agent_iam_binding#title IapAgentRegistryAgentIamBinding#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/iap_agent_registry_agent_iam_binding#description IapAgentRegistryAgentIamBinding#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_agent_iam_binding#description IapAgentRegistryAgentIamBinding#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

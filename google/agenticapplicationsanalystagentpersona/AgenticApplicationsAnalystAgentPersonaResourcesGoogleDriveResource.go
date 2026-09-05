@@ -7,7 +7,7 @@ package agenticapplicationsanalystagentpersona
 type AgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResource struct {
 	// If non-empty, only files with these extensions are included when expanding the resource.  If empty, all files are included.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agentic_applications_analyst_agent_persona#file_extension_restrictions AgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona#file_extension_restrictions AgenticApplicationsAnalystAgentPersona#file_extension_restrictions}
 	FileExtensionRestrictions *[]*string `field:"optional" json:"fileExtensionRestrictions" yaml:"fileExtensionRestrictions"`
 	// Points to a drive file to use.
 	//
@@ -18,7 +18,7 @@ type AgenticApplicationsAnalystAgentPersonaResourcesGoogleDriveResource struct {
 	// Expected Format:
 	// files/{file_id}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/agentic_applications_analyst_agent_persona#file_reference AgenticApplicationsAnalystAgentPersona#file_reference}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona#file_reference AgenticApplicationsAnalystAgentPersona#file_reference}
 	FileReference *string `field:"optional" json:"fileReference" yaml:"fileReference"`
 }
 

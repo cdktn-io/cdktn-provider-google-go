@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_acl_policy google_memorystore_acl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/memorystore_acl_policy google_memorystore_acl_policy}.
 type MemorystoreAclPolicy interface {
 	cdktn.TerraformResource
 	AclPolicyId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_MemorystoreAclPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_acl_policy google_memorystore_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/memorystore_acl_policy google_memorystore_acl_policy} Resource.
 func NewMemorystoreAclPolicy(scope constructs.Construct, id *string, config *MemorystoreAclPolicyConfig) MemorystoreAclPolicy {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewMemorystoreAclPolicy(scope constructs.Construct, id *string, config *Mem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/memorystore_acl_policy google_memorystore_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/memorystore_acl_policy google_memorystore_acl_policy} Resource.
 func NewMemorystoreAclPolicy_Override(m MemorystoreAclPolicy, scope constructs.Construct, id *string, config *MemorystoreAclPolicyConfig) {
 	_init_.Initialize()
 

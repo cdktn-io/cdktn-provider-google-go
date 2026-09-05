@@ -12,7 +12,7 @@ type VertexAiEvaluationMetricEncryptionSpec struct {
 	// 'projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key'.
 	// The key needs to be in the same region as where the resource is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_evaluation_metric#kms_key_name VertexAiEvaluationMetric#kms_key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_evaluation_metric#kms_key_name VertexAiEvaluationMetric#kms_key_name}
 	KmsKeyName *string `field:"optional" json:"kmsKeyName" yaml:"kmsKeyName"`
 }
 

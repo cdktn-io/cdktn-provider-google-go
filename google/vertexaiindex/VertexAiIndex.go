@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_index google_vertex_ai_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_index google_vertex_ai_index}.
 type VertexAiIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -705,7 +705,7 @@ func (j *jsiiProxy_VertexAiIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
 func NewVertexAiIndex(scope constructs.Construct, id *string, config *VertexAiIndexConfig) VertexAiIndex {
 	_init_.Initialize()
 
@@ -723,7 +723,7 @@ func NewVertexAiIndex(scope constructs.Construct, id *string, config *VertexAiIn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_index google_vertex_ai_index} Resource.
 func NewVertexAiIndex_Override(v VertexAiIndex, scope constructs.Construct, id *string, config *VertexAiIndexConfig) {
 	_init_.Initialize()
 

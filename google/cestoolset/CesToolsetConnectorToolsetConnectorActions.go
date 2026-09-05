@@ -7,19 +7,19 @@ package cestoolset
 type CesToolsetConnectorToolsetConnectorActions struct {
 	// ID of a Connection action for the tool to use.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset#connection_action_id CesToolset#connection_action_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset#connection_action_id CesToolset#connection_action_id}
 	ConnectionActionId *string `field:"optional" json:"connectionActionId" yaml:"connectionActionId"`
 	// entity_operation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset#entity_operation CesToolset#entity_operation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset#entity_operation CesToolset#entity_operation}
 	EntityOperation *CesToolsetConnectorToolsetConnectorActionsEntityOperation `field:"optional" json:"entityOperation" yaml:"entityOperation"`
 	// Entity fields to use as inputs for the operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset#input_fields CesToolset#input_fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset#input_fields CesToolset#input_fields}
 	InputFields *[]*string `field:"optional" json:"inputFields" yaml:"inputFields"`
 	// Entity fields to return from the operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/ces_toolset#output_fields CesToolset#output_fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset#output_fields CesToolset#output_fields}
 	OutputFields *[]*string `field:"optional" json:"outputFields" yaml:"outputFields"`
 }
 

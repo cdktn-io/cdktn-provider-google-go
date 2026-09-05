@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding}.
 type GeminiGeminiGcpEnablementSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSettingBinding) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
 func NewGeminiGeminiGcpEnablementSettingBinding(scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingBindingConfig) GeminiGeminiGcpEnablementSettingBinding {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewGeminiGeminiGcpEnablementSettingBinding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.0/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_gemini_gcp_enablement_setting_binding google_gemini_gemini_gcp_enablement_setting_binding} Resource.
 func NewGeminiGeminiGcpEnablementSettingBinding_Override(g GeminiGeminiGcpEnablementSettingBinding, scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingBindingConfig) {
 	_init_.Initialize()
 
